@@ -1,6 +1,6 @@
 /**
  * Main dashboard application.
- * Loads project config + JSON data, renders cards, wires filters.
+ * Loads project config + JSON data, renders weekly stats, contributors, and cards.
  */
 
 (async function init() {
@@ -42,26 +42,69 @@
     ? "Last updated: " + relativeTime(latestTs) + " (" + formatDate(latestTs) + ")"
     : "Last updated: unknown";
 
-  // Render cards
-  renderCards(projects.projects, dataMap, "all");
-
-  // Wire filter buttons
-  document.querySelectorAll(".filter-btn").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active"));
-      btn.classList.add("active");
-      renderCards(projects.projects, dataMap, btn.dataset.filter);
-    });
-  });
+  // Render weekly summary, contributors, then project cards
+  renderWeeklySummary(dataMap);
+  renderContributors(dataMap);
+  renderCards(projects.projects, dataMap);
 })();
 
-function renderCards(projectsCfg, dataMap, filter) {
+function renderWeeklySummary(dataMap) {
+  let totalOpened = 0;
+  let totalMerged = 0;
+  let totalIssues = 0;
+  let totalReleases = 0;
+
+  for (const d of Object.values(dataMap)) {
+    const prs = (d.prs && d.prs.prs) || [];
+    const issues = (d.issues && d.issues.issues) || [];
+    const releases = (d.releases && d.releases.releases) || [];
+    const stats = getWeeklyStats(prs, issues, releases);
+    totalOpened += stats.prsOpened;
+    totalMerged += stats.prsMerged;
+    totalIssues += stats.issuesOpened;
+    totalReleases += stats.newReleases;
+  }
+
+  const el = document.getElementById("weekly-summary");
+  el.innerHTML =
+    '<h2>This Week</h2>' +
+    '<div class="weekly-boxes">' +
+    '<div class="weekly-box weekly-box-opened"><div class="weekly-num">' + totalOpened + '</div><div class="weekly-label">PRs Opened</div></div>' +
+    '<div class="weekly-box weekly-box-merged"><div class="weekly-num">' + totalMerged + '</div><div class="weekly-label">PRs Merged</div></div>' +
+    '<div class="weekly-box weekly-box-issues"><div class="weekly-num">' + totalIssues + '</div><div class="weekly-label">Issues</div></div>' +
+    '<div class="weekly-box weekly-box-releases"><div class="weekly-num">' + totalReleases + '</div><div class="weekly-label">Releases</div></div>' +
+    '</div>';
+}
+
+function renderContributors(dataMap) {
+  const contributors = aggregateContributors(dataMap);
+  if (!contributors.length) return;
+
+  const el = document.getElementById("contributors");
+  let html = '<h2>Top Contributors</h2>';
+  html += '<table class="contributors-table">';
+  html += '<tr><th>#</th><th>Author</th><th>PRs</th><th>Projects</th></tr>';
+
+  for (let i = 0; i < contributors.length; i++) {
+    const c = contributors[i];
+    const projList = Array.from(c.projects).join(", ");
+    html += '<tr>';
+    html += '<td class="contrib-rank">' + (i + 1) + '</td>';
+    html += '<td><a href="https://github.com/' + encodeURIComponent(c.author) + '" target="_blank">' + escapeHtml(c.author) + '</a></td>';
+    html += '<td class="contrib-count">' + c.prCount + '</td>';
+    html += '<td class="contrib-projects">' + escapeHtml(projList) + '</td>';
+    html += '</tr>';
+  }
+
+  html += '</table>';
+  el.innerHTML = html;
+}
+
+function renderCards(projectsCfg, dataMap) {
   const dashboard = document.getElementById("dashboard");
   dashboard.innerHTML = "";
 
   for (const [name, cfg] of Object.entries(projectsCfg)) {
-    if (filter !== "all" && cfg.role !== filter) continue;
-
     const d = dataMap[name] || {};
     const card = document.createElement("div");
     card.className = "card";
@@ -70,7 +113,7 @@ function renderCards(projectsCfg, dataMap, filter) {
   }
 
   if (!dashboard.children.length) {
-    dashboard.innerHTML = '<p class="empty">No projects match this filter.</p>';
+    dashboard.innerHTML = '<p class="empty">No projects found.</p>';
   }
 }
 
@@ -85,10 +128,9 @@ function buildCard(name, cfg, d) {
 
   let html = "";
 
-  // Header
+  // Header (no role badge)
   html += '<div class="card-header">';
   html += '<a href="' + repoUrl + '" target="_blank">' + escapeHtml(name) + "</a>";
-  html += roleBadge(cfg.role);
   html += "</div>";
 
   // Stats
@@ -97,6 +139,9 @@ function buildCard(name, cfg, d) {
   html += "<span>Issues: <span class='stat-value'>" + issues.length + "</span></span>";
   html += "<span>Release: <span class='stat-value'>" + escapeHtml(latestRelease) + "</span></span>";
   html += "</div>";
+
+  // This Week section
+  html += buildWeekSection(prs, issues, releases, cfg);
 
   // PRs section
   html += buildPRSection(openPrs);
@@ -107,6 +152,46 @@ function buildCard(name, cfg, d) {
   // Releases section
   html += buildReleaseSection(releases);
 
+  return html;
+}
+
+function buildWeekSection(prs, issues, releases, cfg) {
+  const stats = getWeeklyStats(prs, issues, releases);
+  const recentPrs = prs.filter(
+    (p) => isThisWeek(p.created_at) || (p.merged && isThisWeek(p.updated_at))
+  );
+
+  // Build stat summary line
+  const parts = [];
+  if (stats.prsOpened) parts.push(stats.prsOpened + " opened");
+  if (stats.prsMerged) parts.push(stats.prsMerged + " merged");
+  if (stats.issuesOpened) parts.push(stats.issuesOpened + " new issue" + (stats.issuesOpened > 1 ? "s" : ""));
+  if (stats.newReleases) parts.push(stats.newReleases + " release" + (stats.newReleases > 1 ? "s" : ""));
+
+  const summaryText = parts.length ? parts.join(", ") : "No activity";
+
+  let html = '<details class="week-activity" open>';
+  html += '<summary>This Week <span class="week-summary-inline">' + escapeHtml(summaryText) + '</span></summary>';
+
+  if (recentPrs.length) {
+    html += '<table><tr><th>#</th><th>Title</th><th>Author</th><th>Status</th></tr>';
+    for (const pr of recentPrs.slice(0, 10)) {
+      html += "<tr>";
+      html += '<td><a href="' + pr.html_url + '" target="_blank">#' + pr.number + "</a></td>";
+      html += '<td class="td-title" title="' + escapeHtml(pr.title) + '">' + escapeHtml(pr.title.slice(0, 60)) + "</td>";
+      html += "<td>" + escapeHtml(pr.author) + "</td>";
+      html += "<td>" + statusBadge(pr) + "</td>";
+      html += "</tr>";
+    }
+    if (recentPrs.length > 10) {
+      html += '<tr><td colspan="4" class="empty">...and ' + (recentPrs.length - 10) + " more</td></tr>";
+    }
+    html += "</table>";
+  } else {
+    html += '<p class="empty">No PRs this week</p>';
+  }
+
+  html += "</details>";
   return html;
 }
 

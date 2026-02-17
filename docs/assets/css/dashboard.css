@@ -6,13 +6,15 @@
   --text: #e6edf3;
   --text-muted: #8b949e;
   --link: #58a6ff;
-  --badge-dev: #238636;
-  --badge-watch: #1f6feb;
   --badge-open: #238636;
   --badge-merged: #8957e5;
   --badge-closed: #da3633;
   --badge-draft: #8b949e;
   --hover: #1c2128;
+  --accent-green: #238636;
+  --accent-purple: #8957e5;
+  --accent-blue: #1f6feb;
+  --accent-orange: #d29922;
 }
 
 * {
@@ -58,33 +60,128 @@ header h1 {
   margin-top: 4px;
 }
 
-/* Filter bar */
-#filters {
-  display: flex;
-  gap: 8px;
+/* Weekly Summary Bar */
+#weekly-summary {
   margin-bottom: 24px;
 }
 
-.filter-btn {
-  background: var(--card-bg);
+#weekly-summary h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
   color: var(--text-muted);
+}
+
+.weekly-boxes {
+  display: flex;
+  gap: 12px;
+}
+
+.weekly-box {
+  flex: 1;
+  background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 6px 16px;
+  border-top: 3px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.weekly-box-opened {
+  border-top-color: var(--accent-green);
+}
+
+.weekly-box-merged {
+  border-top-color: var(--accent-purple);
+}
+
+.weekly-box-issues {
+  border-top-color: var(--accent-blue);
+}
+
+.weekly-box-releases {
+  border-top-color: var(--accent-orange);
+}
+
+.weekly-num {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.weekly-label {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .weekly-boxes {
+    flex-wrap: wrap;
+  }
+  .weekly-box {
+    flex: 1 1 45%;
+  }
+}
+
+/* Contributors Panel */
+#contributors {
+  margin-bottom: 24px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+#contributors h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--text-muted);
+}
+
+.contributors-table {
+  width: 100%;
+  border-collapse: collapse;
   font-size: 14px;
-  cursor: pointer;
-  transition: background 0.15s, color 0.15s;
 }
 
-.filter-btn:hover {
+.contributors-table th {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.contributors-table td {
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.contributors-table tr:last-child td {
+  border-bottom: none;
+}
+
+.contributors-table tr:hover td {
   background: var(--hover);
-  color: var(--text);
 }
 
-.filter-btn.active {
-  background: var(--badge-watch);
-  color: #fff;
-  border-color: var(--badge-watch);
+.contrib-rank {
+  color: var(--text-muted);
+  font-weight: 600;
+  width: 30px;
+}
+
+.contrib-count {
+  font-weight: 600;
+  width: 60px;
+}
+
+.contrib-projects {
+  color: var(--text-muted);
+  font-size: 13px;
 }
 
 /* Dashboard grid */
@@ -130,14 +227,6 @@ header h1 {
   color: #fff;
 }
 
-.badge-dev {
-  background: var(--badge-dev);
-}
-
-.badge-watch {
-  background: var(--badge-watch);
-}
-
 .badge-open {
   background: var(--badge-open);
 }
@@ -166,6 +255,41 @@ header h1 {
 .stat-value {
   color: var(--text);
   font-weight: 600;
+}
+
+/* Week Activity section inside cards */
+.week-activity {
+  border-top: 1px solid var(--border);
+}
+
+.week-activity summary {
+  padding: 8px 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+  list-style: none;
+}
+
+.week-activity summary::before {
+  content: "\25B6 ";
+  font-size: 10px;
+  margin-right: 6px;
+}
+
+.week-activity[open] summary::before {
+  content: "\25BC ";
+}
+
+.week-activity summary:hover {
+  color: var(--text);
+}
+
+.week-summary-inline {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-left: 8px;
 }
 
 /* Expandable details sections */

@@ -46,3 +46,35 @@ function escapeHtml(str) {
   d.textContent = str;
   return d.innerHTML;
 }
+
+function isThisWeek(iso) {
+  if (!iso) return false;
+  return Date.now() - new Date(iso).getTime() < 7 * 86400000;
+}
+
+function getWeeklyStats(prs, issues, releases) {
+  const prsOpened = prs.filter((p) => isThisWeek(p.created_at)).length;
+  const prsMerged = prs.filter((p) => p.merged && isThisWeek(p.updated_at)).length;
+  const issuesOpened = issues.filter((i) => isThisWeek(i.created_at)).length;
+  const newReleases = releases.filter((r) => isThisWeek(r.published_at)).length;
+  return { prsOpened, prsMerged, issuesOpened, newReleases };
+}
+
+function aggregateContributors(dataMap) {
+  const map = new Map();
+  for (const [project, d] of Object.entries(dataMap)) {
+    const prs = (d.prs && d.prs.prs) || [];
+    for (const pr of prs) {
+      if (!pr.author) continue;
+      if (!map.has(pr.author)) {
+        map.set(pr.author, { author: pr.author, prCount: 0, projects: new Set() });
+      }
+      const entry = map.get(pr.author);
+      entry.prCount++;
+      entry.projects.add(project);
+    }
+  }
+  return Array.from(map.values())
+    .sort((a, b) => b.prCount - a.prCount)
+    .slice(0, 15);
+}
