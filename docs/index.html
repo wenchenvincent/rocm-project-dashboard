@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Dashboard</title>
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+  <header>
+    <h1>Project Dashboard</h1>
+    <p id="last-updated">Loading...</p>
+  </header>
+
+  <nav id="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="active_dev">Active Dev</button>
+    <button class="filter-btn" data-filter="upstream_watch">Upstream Watch</button>
+  </nav>
+
+  <main id="dashboard"></main>
+
+  <footer>
+    <p>Data collected via <a href="https://github.com/sunway513/project-dashboard">project-dashboard</a></p>
+  </footer>
+
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

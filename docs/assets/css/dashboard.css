@@ -1,0 +1,254 @@
+/* Dark theme - GitHub dark inspired */
+:root {
+  --bg: #0d1117;
+  --card-bg: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-muted: #8b949e;
+  --link: #58a6ff;
+  --badge-dev: #238636;
+  --badge-watch: #1f6feb;
+  --badge-open: #238636;
+  --badge-merged: #8957e5;
+  --badge-closed: #da3633;
+  --badge-draft: #8b949e;
+  --hover: #1c2128;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#last-updated {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Filter bar */
+#filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.filter-btn {
+  background: var(--card-bg);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.filter-btn:hover {
+  background: var(--hover);
+  color: var(--text);
+}
+
+.filter-btn.active {
+  background: var(--badge-watch);
+  color: #fff;
+  border-color: var(--badge-watch);
+}
+
+/* Dashboard grid */
+#dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  #dashboard {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Project cards */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.card-header a {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.badge-dev {
+  background: var(--badge-dev);
+}
+
+.badge-watch {
+  background: var(--badge-watch);
+}
+
+.badge-open {
+  background: var(--badge-open);
+}
+
+.badge-merged {
+  background: var(--badge-merged);
+}
+
+.badge-closed {
+  background: var(--badge-closed);
+}
+
+.badge-draft {
+  background: var(--badge-draft);
+}
+
+/* Stats row */
+.stats {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.stat-value {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* Expandable details sections */
+.card details {
+  margin-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.card details summary {
+  padding: 8px 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+  list-style: none;
+}
+
+.card details summary::before {
+  content: "\25B6 ";
+  font-size: 10px;
+  margin-right: 6px;
+}
+
+.card details[open] summary::before {
+  content: "\25BC ";
+}
+
+.card details summary:hover {
+  color: var(--text);
+}
+
+/* Tables inside details */
+.card table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.card th {
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.card td {
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.card tr:last-child td {
+  border-bottom: none;
+}
+
+.card tr:hover td {
+  background: var(--hover);
+}
+
+.td-title {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Footer */
+footer {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* Empty state */
+.empty {
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: 14px;
+  padding: 8px 0;
+}

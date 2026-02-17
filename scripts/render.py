@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "config" / "projects.yaml"
 DATA = ROOT / "data"
 DASHBOARDS = ROOT / "dashboards"
+SITE_DATA = ROOT / "docs" / "_data"
 
 
 def load_json(path):
@@ -254,6 +255,22 @@ def render_weekly_digest(config, data):
     print(f"Generated {path}")
 
 
+def render_site_data(config):
+    """Generate docs/_data/projects.json for the GitHub Pages dashboard."""
+    SITE_DATA.mkdir(parents=True, exist_ok=True)
+    out = {"projects": {}}
+    for name, cfg in config["projects"].items():
+        out["projects"][name] = {
+            "repo": cfg["repo"],
+            "role": cfg["role"],
+        }
+        if cfg.get("fork"):
+            out["projects"][name]["fork"] = cfg["fork"]
+    path = SITE_DATA / "projects.json"
+    path.write_text(json.dumps(out, indent=2) + "\n")
+    print(f"Generated {path}")
+
+
 def main():
     with open(CONFIG) as f:
         config = yaml.safe_load(f)
@@ -263,6 +280,7 @@ def main():
     render_readme(config, data)
     render_pr_tracker(config, data)
     render_weekly_digest(config, data)
+    render_site_data(config)
 
     print("Rendering complete.")
 

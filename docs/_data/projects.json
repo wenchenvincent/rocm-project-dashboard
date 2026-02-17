@@ -1,0 +1,40 @@
+{
+  "projects": {
+    "aiter": {
+      "repo": "ROCm/aiter",
+      "role": "active_dev",
+      "fork": "sunway513/aiter"
+    },
+    "atom": {
+      "repo": "ROCm/ATOM",
+      "role": "active_dev",
+      "fork": "sunway513/ATOM"
+    },
+    "flydsl": {
+      "repo": "sunway513/FlyDSL",
+      "role": "active_dev"
+    },
+    "mori": {
+      "repo": "ROCm/mori",
+      "role": "active_dev",
+      "fork": "sunway513/mori"
+    },
+    "vllm": {
+      "repo": "vllm-project/vllm",
+      "role": "upstream_watch",
+      "fork": "sunway513/vllm"
+    },
+    "sglang": {
+      "repo": "sgl-project/sglang",
+      "role": "upstream_watch"
+    },
+    "pytorch": {
+      "repo": "pytorch/pytorch",
+      "role": "upstream_watch"
+    },
+    "jax": {
+      "repo": "jax-ml/jax",
+      "role": "upstream_watch"
+    }
+  }
+}
