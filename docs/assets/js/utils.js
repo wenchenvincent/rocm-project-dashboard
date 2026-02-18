@@ -66,6 +66,35 @@ function isBot(author) {
   return a.includes("bot") || a.includes("copybara");
 }
 
+function suiteBadge(suite) {
+  // If suite has test counts, show "passed/total"
+  if (suite.tests != null) {
+    var cls = suite.failed > 0 ? "suite-conclusion-failure" : "suite-conclusion-success";
+    return '<span class="suite-conclusion ' + cls + '">' + suite.passed + "/" + suite.tests + "</span>";
+  }
+  // Otherwise show conclusion text
+  var conclusion = suite.conclusion || "unknown";
+  var cls = "suite-conclusion-" + (conclusion === "success" ? "success" : conclusion === "failure" ? "failure" : "skipped");
+  return '<span class="suite-conclusion ' + cls + '">' + escapeHtml(conclusion) + "</span>";
+}
+
+function buildPassRateBar(label, summary, runUrl) {
+  if (!summary) return "";
+  var rate = summary.pass_rate != null ? summary.pass_rate : 0;
+  var colorClass = rate >= 95 ? "rate-good" : rate >= 80 ? "rate-warn" : "rate-bad";
+  var pctText = rate.toFixed(1) + "%";
+  var labelHtml = runUrl
+    ? '<a href="' + runUrl + '" target="_blank">' + escapeHtml(label) + "</a>"
+    : escapeHtml(label);
+  return (
+    '<div class="pass-rate-row">' +
+    '<span class="pass-rate-label">' + labelHtml + "</span>" +
+    '<div class="pass-rate-bar-bg"><div class="pass-rate-bar-fill ' + colorClass + '" style="width:' + rate + '%"></div></div>' +
+    '<span class="pass-rate-pct">' + pctText + "</span>" +
+    "</div>"
+  );
+}
+
 function getProjectContributors(prs, limit) {
   const map = new Map();
   for (const pr of prs) {
