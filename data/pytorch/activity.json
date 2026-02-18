@@ -1,0 +1,129 @@
+{
+  "collected_at": "2026-02-18T17:25:42Z",
+  "project": "pytorch",
+  "repo": "pytorch/pytorch",
+  "pr_velocity": {
+    "this_week": {
+      "opened": 19,
+      "merged": 4,
+      "closed": 0
+    },
+    "last_week": {
+      "opened": 10,
+      "merged": 0,
+      "closed": 0
+    },
+    "median_time_to_merge_hours": 751.9,
+    "merge_count": 55,
+    "stale_prs": 0
+  },
+  "contributors": {
+    "active_this_week": 27,
+    "total_contributors": 38,
+    "top_contributors": [
+      {
+        "author": "roshanrateria",
+        "prs_submitted": 7,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "atalman",
+        "prs_submitted": 7,
+        "prs_merged": 7,
+        "commits": 0
+      },
+      {
+        "author": "amdfaa",
+        "prs_submitted": 4,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "Lucaskabela",
+        "prs_submitted": 4,
+        "prs_merged": 4,
+        "commits": 0
+      },
+      {
+        "author": "CalebisGross",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "chinmaydk99",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "jithunnair-amd",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "williamwen42",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "jataylo",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "jeffdaily",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
+      }
+    ],
+    "bus_factor": 3
+  },
+  "issue_health": {
+    "total_open": 52,
+    "opened_this_week": 20,
+    "closed_this_week": 76,
+    "unanswered": 0
+  },
+  "ci_health": {
+    "rocm": {
+      "total_runs": 20,
+      "succeeded": 8,
+      "failed": 10,
+      "success_rate": 40.0
+    },
+    "cuda": {
+      "total_runs": 20,
+      "succeeded": 14,
+      "failed": 2,
+      "success_rate": 70.0
+    }
+  },
+  "ci_signal_time": {
+    "rocm": {
+      "sample_size": 20,
+      "median_minutes": 190.9,
+      "p90_minutes": 311.6,
+      "min_minutes": 24.3,
+      "max_minutes": 459.4
+    },
+    "cuda": {
+      "sample_size": 20,
+      "median_minutes": 122.7,
+      "p90_minutes": 318.5,
+      "min_minutes": 33.9,
+      "max_minutes": 368.9
+    }
+  },
+  "release_cadence": {
+    "days_since_last": 28.0,
+    "avg_interval_days": 57.7,
+    "total_releases": 5,
+    "latest_tag": "v2.10.0"
+  }
+}

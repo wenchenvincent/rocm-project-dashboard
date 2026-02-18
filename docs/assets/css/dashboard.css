@@ -534,6 +534,274 @@ footer {
   margin-left: 8px;
 }
 
+/* ---------------------------------------------------------------------------
+   Activity View (Tab 3)
+   --------------------------------------------------------------------------- */
+
+#activity-view h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-muted);
+}
+
+/* Activity summary boxes */
+.activity-boxes {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.activity-box {
+  flex: 1;
+  min-width: 140px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.activity-box-opened { border-top-color: var(--accent-green); }
+.activity-box-merged { border-top-color: var(--accent-purple); }
+.activity-box-ttm { border-top-color: var(--accent-blue); }
+.activity-box-contributors { border-top-color: var(--accent-orange); }
+.activity-box-stale { border-top-color: var(--badge-closed); }
+
+.activity-num {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.activity-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Activity sections */
+.activity-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.activity-section {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.activity-section h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.section-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+/* Activity tables */
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.activity-table th {
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.activity-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.activity-table tr:last-child td {
+  border-bottom: none;
+}
+
+.activity-table tr:hover td {
+  background: var(--hover);
+}
+
+.project-name {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Delta arrows */
+.delta {
+  font-size: 11px;
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.delta-up { color: var(--accent-green); }
+.delta-down { color: var(--badge-closed); }
+.delta-flat { color: var(--text-muted); }
+
+/* Stale / unanswered counts */
+.stale-count,
+.unanswered-count {
+  color: var(--badge-closed);
+  font-weight: 600;
+}
+
+/* Platform labels */
+.platform-label {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.platform-rocm { background: #ed1c24; }
+.platform-cuda { background: #76b900; }
+
+/* CI health badges */
+.ci-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.ci-badge-good { background: var(--accent-green); }
+.ci-badge-warn { background: var(--accent-orange); }
+.ci-badge-bad { background: var(--badge-closed); }
+.ci-badge-unknown { background: var(--badge-draft); }
+
+.ci-detail {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* CI Signal time bars */
+.ci-signal-val {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ci-signal-bar-cell {
+  width: 120px;
+}
+
+.ci-signal-bar-bg {
+  height: 14px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.ci-signal-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+/* Bus factor */
+.bus-factor {
+  font-weight: 600;
+}
+
+.bus-factor-warn {
+  color: var(--badge-closed);
+}
+
+/* Release cadence */
+.release-stale {
+  color: var(--badge-closed);
+  font-weight: 600;
+}
+
+.release-aging {
+  color: var(--accent-orange);
+  font-weight: 600;
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* ---------------------------------------------------------------------------
+   Trends View (Tab 4)
+   --------------------------------------------------------------------------- */
+
+#trends-view h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-muted);
+}
+
+#trends-view .section-desc {
+  margin-bottom: 20px;
+}
+
+.trends-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .trends-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.trend-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.trend-card h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.trend-card canvas {
+  width: 100% !important;
+}
+
+/* Mini bar (used in various places) */
+.mini-bar-bg {
+  height: 8px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+  width: 60px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mini-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+}
+
 /* Empty state */
 .empty {
   color: var(--text-muted);

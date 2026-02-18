@@ -1,0 +1,101 @@
+{
+  "collected_at": "2026-02-18T17:26:40Z",
+  "project": "aiter",
+  "repo": "ROCm/aiter",
+  "pr_velocity": {
+    "this_week": {
+      "opened": 24,
+      "merged": 18,
+      "closed": 6
+    },
+    "last_week": {
+      "opened": 56,
+      "merged": 34,
+      "closed": 7
+    },
+    "median_time_to_merge_hours": 23.2,
+    "merge_count": 53,
+    "stale_prs": 13
+  },
+  "contributors": {
+    "active_this_week": 42,
+    "total_contributors": 136,
+    "top_contributors": [
+      {
+        "author": "gyohuangxin",
+        "prs_submitted": 25,
+        "prs_merged": 15,
+        "commits": 20
+      },
+      {
+        "author": "minmengdie",
+        "prs_submitted": 12,
+        "prs_merged": 3,
+        "commits": 3
+      },
+      {
+        "author": "slippedJim",
+        "prs_submitted": 8,
+        "prs_merged": 3,
+        "commits": 4
+      },
+      {
+        "author": "JaxChen29",
+        "prs_submitted": 7,
+        "prs_merged": 2,
+        "commits": 2
+      },
+      {
+        "author": "junhaha666",
+        "prs_submitted": 7,
+        "prs_merged": 5,
+        "commits": 6
+      },
+      {
+        "author": "Zzz9990",
+        "prs_submitted": 6,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "juuso-oskari",
+        "prs_submitted": 5,
+        "prs_merged": 1,
+        "commits": 1
+      },
+      {
+        "author": "zufayu",
+        "prs_submitted": 5,
+        "prs_merged": 1,
+        "commits": 2
+      },
+      {
+        "author": "yadaish",
+        "prs_submitted": 5,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "junxiaguo",
+        "prs_submitted": 4,
+        "prs_merged": 0,
+        "commits": 0
+      }
+    ],
+    "bus_factor": 8
+  },
+  "issue_health": {
+    "total_open": 91,
+    "opened_this_week": 3,
+    "closed_this_week": 2,
+    "unanswered": 26
+  },
+  "ci_health": null,
+  "ci_signal_time": null,
+  "release_cadence": {
+    "days_since_last": 57.6,
+    "avg_interval_days": 54.7,
+    "total_releases": 5,
+    "latest_tag": "v0.1.9"
+  }
+}

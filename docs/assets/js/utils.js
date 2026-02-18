@@ -95,6 +95,39 @@ function buildPassRateBar(label, summary, runUrl) {
   );
 }
 
+function deltaArrow(current, previous) {
+  if (previous == null || current == null) return "";
+  var diff = current - previous;
+  if (diff > 0) return ' <span class="delta delta-up">+' + diff + '</span>';
+  if (diff < 0) return ' <span class="delta delta-down">' + diff + '</span>';
+  return ' <span class="delta delta-flat">0</span>';
+}
+
+function formatMinutes(min) {
+  if (min == null) return "N/A";
+  if (min < 60) return Math.round(min) + "m";
+  if (min < 1440) return (min / 60).toFixed(1) + "h";
+  return (min / 1440).toFixed(1) + "d";
+}
+
+function formatHours(hours) {
+  if (hours == null) return "N/A";
+  if (hours < 1) return Math.round(hours * 60) + "m";
+  if (hours < 24) return hours.toFixed(1) + "h";
+  return (hours / 24).toFixed(1) + "d";
+}
+
+function ciHealthBadge(rate) {
+  if (rate == null) return '<span class="ci-badge ci-badge-unknown">N/A</span>';
+  var cls = rate >= 80 ? "ci-badge-good" : rate >= 50 ? "ci-badge-warn" : "ci-badge-bad";
+  return '<span class="ci-badge ' + cls + '">' + rate.toFixed(0) + '%</span>';
+}
+
+function buildMiniBar(value, max, colorClass) {
+  var pct = max > 0 ? Math.min(100, (value / max) * 100) : 0;
+  return '<div class="mini-bar-bg"><div class="mini-bar-fill ' + colorClass + '" style="width:' + pct + '%"></div></div>';
+}
+
 function getProjectContributors(prs, limit) {
   const map = new Map();
   for (const pr of prs) {
