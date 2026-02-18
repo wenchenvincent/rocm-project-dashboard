@@ -31,6 +31,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Collect activity metrics
+        run: python scripts/collect_activity.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Take weekly snapshot
+        run: python scripts/snapshot.py
+
       - name: Render dashboards
         run: python scripts/render.py
 

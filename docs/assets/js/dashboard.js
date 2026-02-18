@@ -16,22 +16,37 @@
   const dataMap = {};
 
   const fetches = names.map(async (name) => {
-    const [prs, issues, releases, testResults] = await Promise.all([
+    const [prs, issues, releases, testResults, activity] = await Promise.all([
       fetchJSON("data/" + name + "/prs.json"),
       fetchJSON("data/" + name + "/issues.json"),
       fetchJSON("data/" + name + "/releases.json"),
       fetchJSON("data/" + name + "/test_results.json"),
+      fetchJSON("data/" + name + "/activity.json"),
     ]);
-    dataMap[name] = { prs, issues, releases, testResults };
+    dataMap[name] = { prs, issues, releases, testResults, activity };
   });
 
+  // Also load trend history
+  const historyIndex = fetchJSON("data/history/index.json");
+
   await Promise.all(fetches);
+  const histIdx = await historyIndex;
+
+  // Load history snapshots
+  var historyData = [];
+  if (histIdx && histIdx.weeks) {
+    var histFetches = histIdx.weeks.map(function (w) {
+      return fetchJSON("data/history/" + w + ".json");
+    });
+    historyData = await Promise.all(histFetches);
+    historyData = historyData.filter(function (h) { return h != null; });
+  }
 
   // Find latest collected_at for header
   let latestTs = null;
   for (const name of names) {
     const d = dataMap[name];
-    for (const src of [d.prs, d.issues, d.releases, d.testResults]) {
+    for (const src of [d.prs, d.issues, d.releases, d.testResults, d.activity]) {
       if (src && src.collected_at) {
         if (!latestTs || src.collected_at > latestTs) {
           latestTs = src.collected_at;
@@ -43,10 +58,12 @@
     ? "Last updated: " + relativeTime(latestTs) + " (" + formatDate(latestTs) + ")"
     : "Last updated: unknown";
 
-  // Render weekly summary, then project cards, then parity view
+  // Render all views
   renderWeeklySummary(dataMap);
   renderCards(projects.projects, dataMap);
   renderParityView(projects.projects, dataMap);
+  renderActivityView(projects.projects, dataMap);
+  renderTrendsView(projects.projects, dataMap, historyData);
 
   // Tab switching
   var tabBtns = document.querySelectorAll(".tab-btn");
@@ -412,6 +429,379 @@ function buildTestSection(testResults) {
 
   html += "</details>";
   return html;
+}
+
+// ---------------------------------------------------------------------------
+// Activity View (Tab 3)
+// ---------------------------------------------------------------------------
+
+function renderActivityView(projectsCfg, dataMap) {
+  var el = document.getElementById("activity-view");
+  var html = "";
+
+  // Activity summary boxes (cross-project)
+  html += buildActivitySummary(dataMap);
+
+  // Per-section views
+  html += '<div class="activity-sections">';
+  html += buildPRVelocitySection(projectsCfg, dataMap);
+  html += buildCISignalSection(projectsCfg, dataMap);
+  html += buildCIHealthSection(projectsCfg, dataMap);
+  html += buildContributorSection2(projectsCfg, dataMap);
+  html += buildIssueHealthSection(projectsCfg, dataMap);
+  html += buildReleaseCadenceSection(projectsCfg, dataMap);
+  html += '</div>';
+
+  el.innerHTML = html;
+}
+
+function buildActivitySummary(dataMap) {
+  var totalOpened = 0, totalMerged = 0, totalActive = 0, totalStale = 0;
+  var ttms = [];
+
+  for (var name in dataMap) {
+    var a = (dataMap[name] || {}).activity;
+    if (!a) continue;
+    var pv = a.pr_velocity || {};
+    var tw = pv.this_week || {};
+    totalOpened += tw.opened || 0;
+    totalMerged += tw.merged || 0;
+    totalStale += pv.stale_prs || 0;
+    if (pv.median_time_to_merge_hours != null) ttms.push(pv.median_time_to_merge_hours);
+    var c = a.contributors || {};
+    totalActive += c.active_this_week || 0;
+  }
+
+  var avgTTM = ttms.length > 0 ? ttms.reduce(function (a, b) { return a + b; }, 0) / ttms.length : null;
+
+  var html = '<h2>Activity Overview</h2>';
+  html += '<div class="activity-boxes">';
+  html += '<div class="activity-box activity-box-opened"><div class="activity-num">' + totalOpened + '</div><div class="activity-label">PRs Opened (week)</div></div>';
+  html += '<div class="activity-box activity-box-merged"><div class="activity-num">' + totalMerged + '</div><div class="activity-label">PRs Merged (week)</div></div>';
+  html += '<div class="activity-box activity-box-ttm"><div class="activity-num">' + formatHours(avgTTM) + '</div><div class="activity-label">Avg Time-to-Merge</div></div>';
+  html += '<div class="activity-box activity-box-contributors"><div class="activity-num">' + totalActive + '</div><div class="activity-label">Active Contributors</div></div>';
+  html += '<div class="activity-box activity-box-stale"><div class="activity-num">' + totalStale + '</div><div class="activity-label">Stale PRs (>30d)</div></div>';
+  html += '</div>';
+  return html;
+}
+
+function buildPRVelocitySection(projectsCfg, dataMap) {
+  var html = '<div class="activity-section">';
+  html += '<h3>PR Velocity</h3>';
+  html += '<table class="activity-table"><tr>';
+  html += '<th>Project</th><th>Opened</th><th>Merged</th><th>Closed</th>';
+  html += '<th>Time-to-Merge</th><th>Stale</th>';
+  html += '</tr>';
+
+  for (var name in projectsCfg) {
+    var a = (dataMap[name] || {}).activity;
+    if (!a) continue;
+    var pv = a.pr_velocity || {};
+    var tw = pv.this_week || {};
+    var lw = pv.last_week || {};
+
+    html += '<tr>';
+    html += '<td class="project-name">' + escapeHtml(name) + '</td>';
+    html += '<td>' + (tw.opened || 0) + deltaArrow(tw.opened, lw.opened) + '</td>';
+    html += '<td>' + (tw.merged || 0) + deltaArrow(tw.merged, lw.merged) + '</td>';
+    html += '<td>' + (tw.closed || 0) + '</td>';
+    html += '<td>' + formatHours(pv.median_time_to_merge_hours) + '</td>';
+    html += '<td>' + (pv.stale_prs > 0 ? '<span class="stale-count">' + pv.stale_prs + '</span>' : '0') + '</td>';
+    html += '</tr>';
+  }
+
+  html += '</table></div>';
+  return html;
+}
+
+function buildCISignalSection(projectsCfg, dataMap) {
+  // Only show projects that have CI signal data
+  var hasData = false;
+  for (var name in dataMap) {
+    if (dataMap[name].activity && dataMap[name].activity.ci_signal_time) {
+      hasData = true;
+      break;
+    }
+  }
+  if (!hasData) return '';
+
+  var html = '<div class="activity-section">';
+  html += '<h3>Time to CI Signal</h3>';
+  html += '<p class="section-desc">Median time from workflow trigger to completion (last 20 runs)</p>';
+  html += '<table class="activity-table"><tr>';
+  html += '<th>Project</th><th>Platform</th><th>Median</th><th>P90</th><th>Min</th><th>Max</th><th></th>';
+  html += '</tr>';
+
+  for (var name in projectsCfg) {
+    var a = (dataMap[name] || {}).activity;
+    if (!a || !a.ci_signal_time) continue;
+
+    var validPlatforms = Object.keys(a.ci_signal_time).filter(function (p) { return a.ci_signal_time[p] != null; });
+    if (validPlatforms.length === 0) continue;
+    var first = true;
+    for (var pi = 0; pi < validPlatforms.length; pi++) {
+      var platform = validPlatforms[pi];
+      var d = a.ci_signal_time[platform];
+
+      html += '<tr>';
+      if (first) {
+        html += '<td class="project-name" rowspan="' + validPlatforms.length + '">' + escapeHtml(name) + '</td>';
+        first = false;
+      }
+      html += '<td><span class="platform-label platform-' + platform + '">' + platform.toUpperCase() + '</span></td>';
+      html += '<td class="ci-signal-val">' + formatMinutes(d.median_minutes) + '</td>';
+      html += '<td>' + formatMinutes(d.p90_minutes) + '</td>';
+      html += '<td>' + formatMinutes(d.min_minutes) + '</td>';
+      html += '<td>' + formatMinutes(d.max_minutes) + '</td>';
+      // Visual bar: median relative to 6 hours (360 min)
+      var pct = Math.min(100, (d.median_minutes / 360) * 100);
+      var barColor = d.median_minutes < 60 ? 'rate-good' : d.median_minutes < 180 ? 'rate-warn' : 'rate-bad';
+      html += '<td class="ci-signal-bar-cell"><div class="ci-signal-bar-bg"><div class="ci-signal-bar-fill ' + barColor + '" style="width:' + pct + '%"></div></div></td>';
+      html += '</tr>';
+    }
+  }
+
+  html += '</table></div>';
+  return html;
+}
+
+function buildCIHealthSection(projectsCfg, dataMap) {
+  var hasData = false;
+  for (var name in dataMap) {
+    if (dataMap[name].activity && dataMap[name].activity.ci_health) {
+      hasData = true;
+      break;
+    }
+  }
+  if (!hasData) return '';
+
+  var html = '<div class="activity-section">';
+  html += '<h3>CI Health</h3>';
+  html += '<p class="section-desc">Build success rate from last 20 workflow runs</p>';
+  html += '<table class="activity-table"><tr>';
+  html += '<th>Project</th><th>ROCm</th><th></th><th>CUDA</th><th></th>';
+  html += '</tr>';
+
+  for (var name in projectsCfg) {
+    var a = (dataMap[name] || {}).activity;
+    if (!a || !a.ci_health) continue;
+    var rocm = a.ci_health.rocm;
+    var cuda = a.ci_health.cuda;
+
+    html += '<tr>';
+    html += '<td class="project-name">' + escapeHtml(name) + '</td>';
+
+    if (rocm) {
+      html += '<td>' + ciHealthBadge(rocm.success_rate) + '</td>';
+      html += '<td class="ci-detail">' + rocm.succeeded + '/' + rocm.total_runs + ' passed</td>';
+    } else {
+      html += '<td colspan="2" class="text-muted">N/A</td>';
+    }
+
+    if (cuda) {
+      html += '<td>' + ciHealthBadge(cuda.success_rate) + '</td>';
+      html += '<td class="ci-detail">' + cuda.succeeded + '/' + cuda.total_runs + ' passed</td>';
+    } else {
+      html += '<td colspan="2" class="text-muted">N/A</td>';
+    }
+
+    html += '</tr>';
+  }
+
+  html += '</table></div>';
+  return html;
+}
+
+function buildContributorSection2(projectsCfg, dataMap) {
+  var html = '<div class="activity-section">';
+  html += '<h3>Contributor Activity</h3>';
+  html += '<table class="activity-table"><tr>';
+  html += '<th>Project</th><th>Active (week)</th><th>Total</th><th>Bus Factor</th><th>Top Contributor</th>';
+  html += '</tr>';
+
+  for (var name in projectsCfg) {
+    var a = (dataMap[name] || {}).activity;
+    if (!a) continue;
+    var c = a.contributors || {};
+    var top = (c.top_contributors && c.top_contributors.length > 0) ? c.top_contributors[0] : null;
+
+    html += '<tr>';
+    html += '<td class="project-name">' + escapeHtml(name) + '</td>';
+    html += '<td>' + (c.active_this_week || 0) + '</td>';
+    html += '<td>' + (c.total_contributors || 0) + '</td>';
+    html += '<td>' + (c.bus_factor != null ? '<span class="bus-factor' + (c.bus_factor <= 2 ? ' bus-factor-warn' : '') + '">' + c.bus_factor + '</span>' : 'N/A') + '</td>';
+    html += '<td>' + (top ? '<a href="https://github.com/' + encodeURIComponent(top.author) + '" target="_blank">' + escapeHtml(top.author) + '</a> (' + top.prs_submitted + ' PRs)' : 'N/A') + '</td>';
+    html += '</tr>';
+  }
+
+  html += '</table></div>';
+  return html;
+}
+
+function buildIssueHealthSection(projectsCfg, dataMap) {
+  var html = '<div class="activity-section">';
+  html += '<h3>Issue Health</h3>';
+  html += '<table class="activity-table"><tr>';
+  html += '<th>Project</th><th>Open</th><th>Opened (week)</th><th>Closed (week)</th><th>Net</th><th>Unanswered</th>';
+  html += '</tr>';
+
+  for (var name in projectsCfg) {
+    var a = (dataMap[name] || {}).activity;
+    if (!a) continue;
+    var ih = a.issue_health || {};
+    var net = (ih.opened_this_week || 0) - (ih.closed_this_week || 0);
+    var netClass = net > 0 ? 'delta-up' : net < 0 ? 'delta-down' : 'delta-flat';
+    var netStr = (net > 0 ? '+' : '') + net;
+
+    html += '<tr>';
+    html += '<td class="project-name">' + escapeHtml(name) + '</td>';
+    html += '<td>' + (ih.total_open || 0) + '</td>';
+    html += '<td>' + (ih.opened_this_week || 0) + '</td>';
+    html += '<td>' + (ih.closed_this_week || 0) + '</td>';
+    html += '<td><span class="delta ' + netClass + '">' + netStr + '</span></td>';
+    html += '<td>' + (ih.unanswered > 0 ? '<span class="unanswered-count">' + ih.unanswered + '</span>' : '0') + '</td>';
+    html += '</tr>';
+  }
+
+  html += '</table></div>';
+  return html;
+}
+
+function buildReleaseCadenceSection(projectsCfg, dataMap) {
+  var html = '<div class="activity-section">';
+  html += '<h3>Release Cadence</h3>';
+  html += '<table class="activity-table"><tr>';
+  html += '<th>Project</th><th>Latest</th><th>Days Ago</th><th>Avg Interval</th><th>Total Releases</th>';
+  html += '</tr>';
+
+  for (var name in projectsCfg) {
+    var a = (dataMap[name] || {}).activity;
+    if (!a) continue;
+    var rc = a.release_cadence;
+    if (!rc) {
+      html += '<tr><td class="project-name">' + escapeHtml(name) + '</td><td colspan="4" class="text-muted">No releases</td></tr>';
+      continue;
+    }
+
+    var daysAgoClass = '';
+    if (rc.days_since_last != null) {
+      daysAgoClass = rc.days_since_last > 90 ? ' release-stale' : rc.days_since_last > 30 ? ' release-aging' : '';
+    }
+
+    html += '<tr>';
+    html += '<td class="project-name">' + escapeHtml(name) + '</td>';
+    html += '<td>' + escapeHtml(rc.latest_tag || '-') + '</td>';
+    html += '<td class="' + daysAgoClass + '">' + (rc.days_since_last != null ? Math.round(rc.days_since_last) + 'd' : 'N/A') + '</td>';
+    html += '<td>' + (rc.avg_interval_days != null ? Math.round(rc.avg_interval_days) + 'd' : 'N/A') + '</td>';
+    html += '<td>' + (rc.total_releases || 0) + '</td>';
+    html += '</tr>';
+  }
+
+  html += '</table></div>';
+  return html;
+}
+
+// ---------------------------------------------------------------------------
+// Trends View (Tab 4)
+// ---------------------------------------------------------------------------
+
+function renderTrendsView(projectsCfg, dataMap, historyData) {
+  var el = document.getElementById("trends-view");
+
+  if (!historyData || historyData.length === 0) {
+    el.innerHTML = '<h2>Trends</h2><p class="empty">No historical data yet. Trends will appear after multiple weekly snapshots.</p>';
+    return;
+  }
+
+  var html = '<h2>Trends</h2>';
+  html += '<p class="section-desc">Weekly snapshots across projects. More data points will appear over time.</p>';
+
+  // Chart containers
+  html += '<div class="trends-grid">';
+  html += '<div class="trend-card"><h4>PRs Merged per Week</h4><canvas id="chart-prs-merged"></canvas></div>';
+  html += '<div class="trend-card"><h4>Open Issues</h4><canvas id="chart-open-issues"></canvas></div>';
+  html += '<div class="trend-card"><h4>Active Contributors</h4><canvas id="chart-active-contributors"></canvas></div>';
+  html += '<div class="trend-card"><h4>Time-to-Merge (median, hours)</h4><canvas id="chart-ttm"></canvas></div>';
+  html += '<div class="trend-card"><h4>CI Signal Time - ROCm (median, min)</h4><canvas id="chart-ci-signal-rocm"></canvas></div>';
+  html += '<div class="trend-card"><h4>Test Pass Rate - ROCm (%)</h4><canvas id="chart-test-rate-rocm"></canvas></div>';
+  html += '</div>';
+
+  el.innerHTML = html;
+
+  // Build charts
+  var weeks = historyData.map(function (h) { return h.week; });
+  var projectNames = Object.keys(projectsCfg);
+  var colors = [
+    '#58a6ff', '#f78166', '#7ee787', '#d2a8ff', '#ffd33d',
+    '#ff7b72', '#79c0ff', '#a5d6ff', '#d29922', '#8b949e'
+  ];
+
+  buildTrendChart('chart-prs-merged', weeks, historyData, projectNames, 'prs_merged', colors);
+  buildTrendChart('chart-open-issues', weeks, historyData, projectNames, 'open_issues', colors);
+  buildTrendChart('chart-active-contributors', weeks, historyData, projectNames, 'active_contributors', colors);
+  buildTrendChart('chart-ttm', weeks, historyData, projectNames, 'median_ttm_hours', colors);
+  buildTrendChart('chart-ci-signal-rocm', weeks, historyData, projectNames, 'ci_signal_rocm_median_min', colors);
+  buildTrendChart('chart-test-rate-rocm', weeks, historyData, projectNames, 'test_pass_rate_rocm', colors);
+}
+
+function buildTrendChart(canvasId, weeks, historyData, projectNames, metric, colors) {
+  var canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+
+  var datasets = [];
+  for (var i = 0; i < projectNames.length; i++) {
+    var name = projectNames[i];
+    var data = weeks.map(function (w, idx) {
+      var snap = historyData[idx];
+      if (!snap || !snap.projects || !snap.projects[name]) return null;
+      var val = snap.projects[name][metric];
+      return val != null ? val : null;
+    });
+    // Only include if there's at least one data point
+    if (data.some(function (v) { return v != null; })) {
+      datasets.push({
+        label: name,
+        data: data,
+        borderColor: colors[i % colors.length],
+        backgroundColor: colors[i % colors.length] + '33',
+        tension: 0.3,
+        pointRadius: 3,
+        borderWidth: 2,
+        spanGaps: true,
+      });
+    }
+  }
+
+  if (datasets.length === 0) {
+    canvas.parentElement.style.display = 'none';
+    return;
+  }
+
+  new Chart(canvas, {
+    type: 'line',
+    data: { labels: weeks, datasets: datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { color: '#e6edf3', font: { size: 11 } }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color: '#8b949e', font: { size: 11 } },
+          grid: { color: '#30363d' }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: { color: '#8b949e', font: { size: 11 } },
+          grid: { color: '#30363d' }
+        }
+      }
+    }
+  });
 }
 
 function buildSuiteTable(rocm, cuda) {

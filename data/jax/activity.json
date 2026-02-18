@@ -1,0 +1,101 @@
+{
+  "collected_at": "2026-02-18T17:25:48Z",
+  "project": "jax",
+  "repo": "jax-ml/jax",
+  "pr_velocity": {
+    "this_week": {
+      "opened": 5,
+      "merged": 23,
+      "closed": 0
+    },
+    "last_week": {
+      "opened": 12,
+      "merged": 7,
+      "closed": 0
+    },
+    "median_time_to_merge_hours": 346.7,
+    "merge_count": 30,
+    "stale_prs": 0
+  },
+  "contributors": {
+    "active_this_week": 13,
+    "total_contributors": 14,
+    "top_contributors": [
+      {
+        "author": "AratiGanesh",
+        "prs_submitted": 10,
+        "prs_merged": 7,
+        "commits": 0
+      },
+      {
+        "author": "magaonka-amd",
+        "prs_submitted": 9,
+        "prs_merged": 9,
+        "commits": 0
+      },
+      {
+        "author": "tsrw2048",
+        "prs_submitted": 8,
+        "prs_merged": 8,
+        "commits": 0
+      },
+      {
+        "author": "gulsumgudukbay",
+        "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "phambinhfin",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "charleshofer",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "alekstheod",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "cj401-amd",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "Ruturaj4",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "amd-jianli12",
+        "prs_submitted": 1,
+        "prs_merged": 1,
+        "commits": 0
+      }
+    ],
+    "bus_factor": 2
+  },
+  "issue_health": {
+    "total_open": 33,
+    "opened_this_week": 0,
+    "closed_this_week": 10,
+    "unanswered": 13
+  },
+  "ci_health": null,
+  "ci_signal_time": null,
+  "release_cadence": {
+    "days_since_last": 12.9,
+    "avg_interval_days": 19.8,
+    "total_releases": 5,
+    "latest_tag": "jax-v0.9.0.1"
+  }
+}
