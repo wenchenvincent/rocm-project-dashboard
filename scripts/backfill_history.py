@@ -107,6 +107,14 @@ def search_count(query):
     return data.get("total_count", 0)
 
 
+def search_items(query, per_page=100):
+    """Run a search query and return (total_count, items list)."""
+    data = gh_api(
+        f"/search/issues?q={quote(query, safe='+:')}&per_page={min(per_page, 100)}"
+    )
+    return data.get("total_count", 0), data.get("items", [])
+
+
 def search_prs_with_authors(query, max_results=100):
     """Run a search query and return list of PR authors."""
     data = gh_api(
@@ -118,6 +126,30 @@ def search_prs_with_authors(query, max_results=100):
         if login and not is_bot(login):
             authors.add(login)
     return authors
+
+
+def compute_median(values):
+    """Return median of a list of numbers, or None if empty."""
+    if not values:
+        return None
+    s = sorted(values)
+    mid = len(s) // 2
+    if len(s) % 2 == 0:
+        return round((s[mid - 1] + s[mid]) / 2, 1)
+    return round(s[mid], 1)
+
+
+def load_existing_snap(wk, project_name):
+    """Load existing snapshot data for a project-week."""
+    snapshot_file = HISTORY / f"{wk}.json"
+    if not snapshot_file.exists():
+        return {}
+    try:
+        with open(snapshot_file) as f:
+            data = json.load(f)
+        return data.get("projects", {}).get(project_name, {})
+    except (json.JSONDecodeError, OSError):
+        return {}
 
 
 def collect_week_pr_velocity(repo, start_date, end_date, role, project_name, cfg):
@@ -318,19 +350,158 @@ def collect_contributor_stats(repo):
     return weeks_map
 
 
+def collect_week_open_issues(repo, end_date, role, cfg):
+    """Estimate number of open issues at end of week.
+
+    Uses: count(created <= end_date) - count(is:closed AND closed <= end_date).
+    For upstream_watch, uses a single representative filter to avoid double-counting.
+    """
+    end_str = end_date.strftime("%Y-%m-%d")
+
+    if role == "active_dev":
+        total_created = search_count(f"repo:{repo}+is:issue+created:<={end_str}")
+        total_closed = search_count(
+            f"repo:{repo}+is:issue+is:closed+closed:<={end_str}"
+        )
+    else:
+        # Use one representative filter (prefer label, then keyword)
+        labels = cfg.get("track_labels", [])
+        keywords = cfg.get("track_keywords", [])
+        scope = cfg.get("keyword_scope", "")
+
+        if labels:
+            filt = f'+label:"{labels[0]}"'
+        elif keywords:
+            scope_q = f"+in:{scope}" if scope else ""
+            filt = f"+{keywords[0]}{scope_q}"
+        else:
+            filt = ""
+
+        total_created = search_count(
+            f"repo:{repo}+is:issue{filt}+created:<={end_str}"
+        )
+        total_closed = search_count(
+            f"repo:{repo}+is:issue+is:closed{filt}+closed:<={end_str}"
+        )
+
+    return max(0, total_created - total_closed)
+
+
+def collect_week_ttm(repo, start_date, end_date, role, name, cfg):
+    """Compute median time-to-merge (hours) for PRs merged in this week."""
+    start_str = start_date.strftime("%Y-%m-%d")
+    end_str = end_date.strftime("%Y-%m-%d")
+
+    all_ttm_hours = []
+    seen = set()
+
+    def _extract_ttm(items):
+        for item in items:
+            num = item.get("number")
+            if num in seen:
+                continue
+            seen.add(num)
+            created = parse_iso(item.get("created_at"))
+            closed = parse_iso(item.get("closed_at"))
+            if created and closed:
+                ttm = (closed - created).total_seconds() / 3600
+                if ttm >= 0:
+                    all_ttm_hours.append(ttm)
+
+    if role == "active_dev":
+        _, items = search_items(
+            f"repo:{repo}+is:pr+is:merged+merged:{start_str}..{end_str}"
+        )
+        _extract_ttm(items)
+    else:
+        keywords = cfg.get("track_keywords", [])
+        labels = cfg.get("track_labels", [])
+        scope = cfg.get("keyword_scope", "")
+        scope_q = f"+in:{scope}" if scope else ""
+
+        for kw in keywords:
+            _, items = search_items(
+                f"{kw}{scope_q}+repo:{repo}+is:pr+is:merged+merged:{start_str}..{end_str}"
+            )
+            _extract_ttm(items)
+        for label in labels:
+            _, items = search_items(
+                f'repo:{repo}+is:pr+is:merged+label:"{label}"+merged:{start_str}..{end_str}'
+            )
+            _extract_ttm(items)
+
+    return compute_median(all_ttm_hours)
+
+
+def collect_week_test_rate(repo, project_name, start_date, end_date):
+    """Compute test pass rate from CI job conclusions for the latest run in the week."""
+    if project_name not in WORKFLOW_IDS:
+        return {}
+
+    start_str = start_date.strftime("%Y-%m-%d")
+    end_str = end_date.strftime("%Y-%m-%d")
+    result = {}
+
+    for platform, wf_id in WORKFLOW_IDS[project_name].items():
+        # Get completed runs in this week (reuses cached data if CI was already fetched)
+        data = gh_api(
+            f"/repos/{repo}/actions/workflows/{wf_id}/runs"
+            f"?created={start_str}..{end_str}&status=completed&per_page=5"
+        )
+        runs = data.get("workflow_runs", [])
+        if not runs:
+            continue
+
+        # Get jobs for the latest run
+        latest_run = runs[0]
+        jobs_data = gh_api(
+            f"/repos/{repo}/actions/runs/{latest_run['id']}/jobs?per_page=100"
+        )
+        jobs = jobs_data.get("jobs", [])
+        if not jobs:
+            continue
+
+        # Count jobs with definitive conclusions
+        test_jobs = [
+            j for j in jobs if j.get("conclusion") in ("success", "failure")
+        ]
+        if not test_jobs:
+            continue
+
+        passed = sum(1 for j in test_jobs if j.get("conclusion") == "success")
+        total = len(test_jobs)
+        pass_rate = round(passed / total * 100, 1) if total > 0 else None
+
+        if pass_rate is not None:
+            result[f"test_pass_rate_{platform}"] = pass_rate
+
+    return result
+
+
 # ---------------------------------------------------------------------------
 # Main backfill
 # ---------------------------------------------------------------------------
 
 
 def backfill_project(name, cfg, weeks_to_fill):
-    """Backfill historical data for one project across multiple weeks."""
+    """Backfill historical data for one project across multiple weeks.
+
+    Smart-skip: checks existing snapshot files and only computes missing metrics.
+    """
     repo = cfg["repo"]
     role = cfg.get("role", "upstream_watch")
     print(f"\n  Backfilling {name} ({repo})...")
 
-    # Get contributor stats (one API call covers all weeks)
-    if role == "active_dev":
+    # Check if contributor stats are needed for any week
+    need_contrib_stats = False
+    for year, week_num, monday, sunday in weeks_to_fill:
+        wk = week_key(year, week_num)
+        existing = load_existing_snap(wk, name)
+        if "active_contributors" not in existing:
+            need_contrib_stats = True
+            break
+
+    if need_contrib_stats and role == "active_dev":
         print(f"    Fetching contributor stats...")
         contrib_stats = collect_contributor_stats(repo)
     else:
@@ -340,6 +511,8 @@ def backfill_project(name, cfg, weeks_to_fill):
 
     for year, week_num, monday, sunday in weeks_to_fill:
         wk = week_key(year, week_num)
+        existing = load_existing_snap(wk, name)
+
         print(
             f"    {wk} ({monday.strftime('%m/%d')}-{sunday.strftime('%m/%d')})...",
             end=" ",
@@ -347,47 +520,69 @@ def backfill_project(name, cfg, weeks_to_fill):
 
         snap = {}
 
-        # PR velocity
-        pv = collect_week_pr_velocity(repo, monday, sunday, role, name, cfg)
-        snap["prs_opened"] = pv["prs_opened"]
-        snap["prs_merged"] = pv["prs_merged"]
+        # PR velocity — skip if already present
+        if "prs_opened" not in existing:
+            pv = collect_week_pr_velocity(repo, monday, sunday, role, name, cfg)
+            snap["prs_opened"] = pv["prs_opened"]
+            snap["prs_merged"] = pv["prs_merged"]
 
-        # Issues
-        iss = collect_week_issues(repo, monday, sunday, role, cfg)
-        snap["issues_opened"] = iss["issues_opened"]
-        snap["issues_closed"] = iss["issues_closed"]
+        # Issues — skip if already present
+        if "issues_opened" not in existing:
+            iss = collect_week_issues(repo, monday, sunday, role, cfg)
+            snap["issues_opened"] = iss["issues_opened"]
+            snap["issues_closed"] = iss["issues_closed"]
 
-        # Active contributors
-        if role == "active_dev" and contrib_stats:
-            # Use stats API data (more accurate, no extra API calls)
-            monday_ts = int(monday.timestamp())
-            # Find the matching week in stats (stats weeks start on Sunday)
-            active = 0
-            for ts, authors in contrib_stats.items():
-                # Stats week starts on Sunday, spans 7 days
-                if abs(ts - monday_ts) < 7 * 86400:
-                    active = len(authors)
-                    break
-            snap["active_contributors"] = active
+        # Active contributors — skip if already present
+        if "active_contributors" not in existing:
+            if role == "active_dev" and contrib_stats:
+                monday_ts = int(monday.timestamp())
+                active = 0
+                for ts, authors in contrib_stats.items():
+                    if abs(ts - monday_ts) < 7 * 86400:
+                        active = len(authors)
+                        break
+                snap["active_contributors"] = active
+            else:
+                snap["active_contributors"] = collect_week_contributors(
+                    repo, monday, sunday, role, cfg
+                )
+
+        # CI metrics — skip if already present
+        if f"ci_signal_rocm_median_min" not in existing and name in WORKFLOW_IDS:
+            ci = collect_week_ci(repo, name, monday, sunday)
+            for platform in ("rocm", "cuda"):
+                if platform in ci:
+                    pd = ci[platform]
+                    if pd.get("median_signal_min") is not None:
+                        snap[f"ci_signal_{platform}_median_min"] = pd[
+                            "median_signal_min"
+                        ]
+                    if pd.get("success_rate") is not None:
+                        snap[f"ci_success_{platform}"] = pd["success_rate"]
+
+        # Open issues (historical estimate) — skip if already present
+        if "open_issues" not in existing:
+            snap["open_issues"] = collect_week_open_issues(repo, sunday, role, cfg)
+
+        # Median time-to-merge — skip if already present
+        if "median_ttm_hours" not in existing:
+            ttm = collect_week_ttm(repo, monday, sunday, role, name, cfg)
+            if ttm is not None:
+                snap["median_ttm_hours"] = ttm
+
+        # Test pass rate from CI jobs — skip if already present
+        if f"test_pass_rate_rocm" not in existing:
+            test_rates = collect_week_test_rate(repo, name, monday, sunday)
+            snap.update(test_rates)
+
+        if snap:
+            new_keys = [k for k in snap if k not in existing]
+            if new_keys:
+                print(f"added: {', '.join(new_keys)}")
+            else:
+                print("(updated)")
         else:
-            snap["active_contributors"] = collect_week_contributors(
-                repo, monday, sunday, role, cfg
-            )
-
-        # CI metrics
-        ci = collect_week_ci(repo, name, monday, sunday)
-        for platform in ("rocm", "cuda"):
-            if platform in ci:
-                pd = ci[platform]
-                if pd.get("median_signal_min") is not None:
-                    snap[f"ci_signal_{platform}_median_min"] = pd["median_signal_min"]
-                if pd.get("success_rate") is not None:
-                    snap[f"ci_success_{platform}"] = pd["success_rate"]
-
-        print(
-            f"PRs +{snap.get('prs_opened', 0)}/merged {snap.get('prs_merged', 0)} | "
-            f"contributors {snap.get('active_contributors', 0)}"
-        )
+            print("(up to date)")
 
         results[wk] = snap
 
