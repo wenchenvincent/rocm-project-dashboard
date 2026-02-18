@@ -16,12 +16,13 @@
   const dataMap = {};
 
   const fetches = names.map(async (name) => {
-    const [prs, issues, releases] = await Promise.all([
+    const [prs, issues, releases, testResults] = await Promise.all([
       fetchJSON("data/" + name + "/prs.json"),
       fetchJSON("data/" + name + "/issues.json"),
       fetchJSON("data/" + name + "/releases.json"),
+      fetchJSON("data/" + name + "/test_results.json"),
     ]);
-    dataMap[name] = { prs, issues, releases };
+    dataMap[name] = { prs, issues, releases, testResults };
   });
 
   await Promise.all(fetches);
@@ -30,7 +31,7 @@
   let latestTs = null;
   for (const name of names) {
     const d = dataMap[name];
-    for (const src of [d.prs, d.issues, d.releases]) {
+    for (const src of [d.prs, d.issues, d.releases, d.testResults]) {
       if (src && src.collected_at) {
         if (!latestTs || src.collected_at > latestTs) {
           latestTs = src.collected_at;
@@ -42,9 +43,22 @@
     ? "Last updated: " + relativeTime(latestTs) + " (" + formatDate(latestTs) + ")"
     : "Last updated: unknown";
 
-  // Render weekly summary, then project cards
+  // Render weekly summary, then project cards, then parity view
   renderWeeklySummary(dataMap);
   renderCards(projects.projects, dataMap);
+  renderParityView(projects.projects, dataMap);
+
+  // Tab switching
+  var tabBtns = document.querySelectorAll(".tab-btn");
+  for (var i = 0; i < tabBtns.length; i++) {
+    tabBtns[i].addEventListener("click", function () {
+      var target = this.getAttribute("data-tab");
+      document.querySelectorAll(".tab-btn").forEach(function (b) { b.classList.remove("active"); });
+      document.querySelectorAll(".tab-panel").forEach(function (p) { p.classList.remove("active"); });
+      this.classList.add("active");
+      document.getElementById("tab-" + target).classList.add("active");
+    });
+  }
 })();
 
 function renderWeeklySummary(dataMap) {
@@ -92,6 +106,93 @@ function renderCards(projectsCfg, dataMap) {
   }
 }
 
+function renderParityView(projectsCfg, dataMap) {
+  var el = document.getElementById("parity-view");
+  var hasAny = false;
+
+  for (var name in dataMap) {
+    if (dataMap[name].testResults) { hasAny = true; break; }
+  }
+
+  if (!hasAny) {
+    el.innerHTML = '<h2>ROCm vs CUDA Test Parity</h2><p class="parity-no-data">No test result data available yet.</p>';
+    return;
+  }
+
+  var html = '<h2>ROCm vs CUDA Test Parity</h2>';
+  html += '<div class="parity-grid">';
+
+  for (var name in projectsCfg) {
+    var cfg = projectsCfg[name];
+    var d = dataMap[name] || {};
+    var tr = d.testResults;
+    if (!tr) continue;
+
+    var rocm = tr.rocm;
+    var cuda = tr.cuda;
+    var repoUrl = "https://github.com/" + cfg.repo;
+
+    html += '<div class="parity-card">';
+
+    // Header with project name and overall conclusion
+    html += '<div class="parity-card-header">';
+    html += '<a href="' + repoUrl + '" target="_blank">' + escapeHtml(name) + '</a>';
+    var conclParts = [];
+    if (rocm) conclParts.push("ROCm: " + (rocm.conclusion || "?"));
+    if (cuda) conclParts.push("CUDA: " + (cuda.conclusion || "?"));
+    if (conclParts.length) {
+      html += '<span class="parity-conclusion">' + escapeHtml(conclParts.join(" | ")) + '</span>';
+    }
+    html += '</div>';
+
+    // Pass rate bars
+    html += '<div class="parity-bars">';
+    if (rocm && rocm.summary) html += buildPassRateBar("ROCm", rocm.summary, rocm.run_url);
+    if (cuda && cuda.summary) html += buildPassRateBar("CUDA", cuda.summary, cuda.run_url);
+    html += '</div>';
+
+    // Stats line
+    html += '<div class="parity-stats">';
+    if (rocm && rocm.summary) {
+      var rs = rocm.summary;
+      html += '<span>ROCm: <span class="stat-num">' + (rs.passed || 0) + '</span> passed';
+      if (rs.failed) html += ', <span class="stat-num">' + rs.failed + '</span> failed';
+      if (rs.skipped) html += ', ' + rs.skipped + ' skipped';
+      html += '</span>';
+    }
+    if (cuda && cuda.summary) {
+      var cs = cuda.summary;
+      html += '<span>CUDA: <span class="stat-num">' + (cs.passed || 0) + '</span> passed';
+      if (cs.failed) html += ', <span class="stat-num">' + cs.failed + '</span> failed';
+      if (cs.skipped) html += ', ' + cs.skipped + ' skipped';
+      html += '</span>';
+    }
+    html += '</div>';
+
+    // Suite detail table (collapsible)
+    var suiteHtml = buildSuiteTable(rocm, cuda);
+    if (suiteHtml) {
+      var suiteCount = ((rocm && rocm.suites) ? rocm.suites.length : 0) + ((cuda && cuda.suites) ? cuda.suites.length : 0);
+      html += '<details><summary>Test Suites (' + suiteCount + ')</summary>' + suiteHtml + '</details>';
+    }
+
+    // Freshness line
+    var dates = [];
+    if (rocm && rocm.run_date) dates.push("ROCm: " + relativeTime(rocm.run_date));
+    if (cuda && cuda.run_date) dates.push("CUDA: " + relativeTime(cuda.run_date));
+    if (dates.length) {
+      html += '<div class="test-meta">Runs: ' + dates.join(", ");
+      if (tr.source === "manual") html += " (manual)";
+      html += '</div>';
+    }
+
+    html += '</div>'; // parity-card
+  }
+
+  html += '</div>'; // parity-grid
+  el.innerHTML = html;
+}
+
 function buildCard(name, cfg, d) {
   const repoUrl = "https://github.com/" + cfg.repo;
   const prs = (d.prs && d.prs.prs) || [];
@@ -114,6 +215,11 @@ function buildCard(name, cfg, d) {
   html += "<span>Issues: <span class='stat-value'>" + issues.length + "</span></span>";
   html += "<span>Release: <span class='stat-value'>" + escapeHtml(latestRelease) + "</span></span>";
   html += "</div>";
+
+  // Test Results section (ROCm vs CUDA)
+  if (d.testResults) {
+    html += buildTestSection(d.testResults);
+  }
 
   // This Week section
   html += buildWeekSection(prs, issues, releases, cfg);
@@ -263,5 +369,88 @@ function buildReleaseSection(releases) {
   }
 
   html += "</table></details>";
+  return html;
+}
+
+function buildTestSection(testResults) {
+  var rocm = testResults.rocm;
+  var cuda = testResults.cuda;
+
+  // Build summary text for the <summary> line
+  var parts = [];
+  if (rocm && rocm.summary) {
+    parts.push("ROCm: " + (rocm.summary.pass_rate != null ? rocm.summary.pass_rate.toFixed(1) + "%" : "N/A"));
+  }
+  if (cuda && cuda.summary) {
+    parts.push("CUDA: " + (cuda.summary.pass_rate != null ? cuda.summary.pass_rate.toFixed(1) + "%" : "N/A"));
+  }
+  var summaryText = parts.length ? parts.join(" | ") : "No data";
+
+  var html = '<details class="test-results">';
+  html += '<summary>Test Results <span class="test-summary-inline">' + escapeHtml(summaryText) + "</span></summary>";
+
+  // Pass rate bars
+  if (rocm && rocm.summary) {
+    html += buildPassRateBar("ROCm", rocm.summary, rocm.run_url);
+  }
+  if (cuda && cuda.summary) {
+    html += buildPassRateBar("CUDA", cuda.summary, cuda.run_url);
+  }
+
+  // Suite detail table
+  html += buildSuiteTable(rocm, cuda);
+
+  // Freshness line
+  var dates = [];
+  if (rocm && rocm.run_date) dates.push("ROCm: " + relativeTime(rocm.run_date));
+  if (cuda && cuda.run_date) dates.push("CUDA: " + relativeTime(cuda.run_date));
+  if (dates.length) {
+    html += '<div class="test-meta">Runs: ' + dates.join(", ");
+    if (testResults.source === "manual") html += " (manual)";
+    html += "</div>";
+  }
+
+  html += "</details>";
+  return html;
+}
+
+function buildSuiteTable(rocm, cuda) {
+  var hasSuites = (rocm && rocm.suites && rocm.suites.length) || (cuda && cuda.suites && cuda.suites.length);
+  if (!hasSuites) return "";
+
+  var html = '<table class="suite-table">';
+  html += "<tr><th>Suite / Job</th><th>Result</th></tr>";
+
+  // ROCm suites
+  if (rocm && rocm.suites && rocm.suites.length) {
+    html += '<tr><td colspan="2" class="suite-platform-header">ROCm</td></tr>';
+    for (var i = 0; i < rocm.suites.length && i < 20; i++) {
+      var s = rocm.suites[i];
+      html += "<tr>";
+      html += '<td class="td-title" title="' + escapeHtml(s.name) + '">' + escapeHtml(s.name.slice(0, 60)) + "</td>";
+      html += "<td>" + suiteBadge(s) + "</td>";
+      html += "</tr>";
+    }
+    if (rocm.suites.length > 20) {
+      html += '<tr><td colspan="2" class="empty">...and ' + (rocm.suites.length - 20) + " more</td></tr>";
+    }
+  }
+
+  // CUDA suites
+  if (cuda && cuda.suites && cuda.suites.length) {
+    html += '<tr><td colspan="2" class="suite-platform-header">CUDA</td></tr>';
+    for (var i = 0; i < cuda.suites.length && i < 20; i++) {
+      var s = cuda.suites[i];
+      html += "<tr>";
+      html += '<td class="td-title" title="' + escapeHtml(s.name) + '">' + escapeHtml(s.name.slice(0, 60)) + "</td>";
+      html += "<td>" + suiteBadge(s) + "</td>";
+      html += "</tr>";
+    }
+    if (cuda.suites.length > 20) {
+      html += '<tr><td colspan="2" class="empty">...and ' + (cuda.suites.length - 20) + " more</td></tr>";
+    }
+  }
+
+  html += "</table>";
   return html;
 }

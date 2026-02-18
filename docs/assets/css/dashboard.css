@@ -60,6 +60,110 @@ header h1 {
   margin-top: 4px;
 }
 
+/* Tab Navigation */
+#tab-bar {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.tab-btn:hover {
+  color: var(--text);
+}
+
+.tab-btn.active {
+  color: var(--text);
+  border-bottom-color: var(--link);
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+/* Parity View */
+#parity-view h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text-muted);
+}
+
+.parity-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.parity-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.parity-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.parity-card-header a {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.parity-card-header .parity-conclusion {
+  font-size: 12px;
+}
+
+.parity-bars {
+  margin-bottom: 8px;
+}
+
+.parity-stats {
+  display: flex;
+  gap: 24px;
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.parity-stats span {
+  white-space: nowrap;
+}
+
+.parity-stats .stat-num {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.parity-no-data {
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: 14px;
+  padding: 24px 0;
+  text-align: center;
+}
+
 /* Weekly Summary Bar */
 #weekly-summary {
   margin-bottom: 24px;
@@ -246,12 +350,14 @@ header h1 {
 }
 
 /* Expandable details sections */
-.card details {
+.card details,
+.parity-card details {
   margin-top: 8px;
   border-top: 1px solid var(--border);
 }
 
-.card details summary {
+.card details summary,
+.parity-card details summary {
   padding: 8px 0;
   cursor: pointer;
   font-size: 14px;
@@ -260,29 +366,34 @@ header h1 {
   list-style: none;
 }
 
-.card details summary::before {
+.card details summary::before,
+.parity-card details summary::before {
   content: "\25B6 ";
   font-size: 10px;
   margin-right: 6px;
 }
 
-.card details[open] summary::before {
+.card details[open] summary::before,
+.parity-card details[open] summary::before {
   content: "\25BC ";
 }
 
-.card details summary:hover {
+.card details summary:hover,
+.parity-card details summary:hover {
   color: var(--text);
 }
 
 /* Tables inside details */
-.card table {
+.card table,
+.parity-card table {
   width: 100%;
   border-collapse: collapse;
   font-size: 13px;
   margin-top: 4px;
 }
 
-.card th {
+.card th,
+.parity-card th {
   text-align: left;
   padding: 6px 8px;
   border-bottom: 1px solid var(--border);
@@ -291,17 +402,20 @@ header h1 {
   font-size: 12px;
 }
 
-.card td {
+.card td,
+.parity-card td {
   padding: 6px 8px;
   border-bottom: 1px solid var(--border);
   vertical-align: top;
 }
 
-.card tr:last-child td {
+.card tr:last-child td,
+.parity-card tr:last-child td {
   border-bottom: none;
 }
 
-.card tr:hover td {
+.card tr:hover td,
+.parity-card tr:hover td {
   background: var(--hover);
 }
 
@@ -320,6 +434,104 @@ footer {
   text-align: center;
   color: var(--text-muted);
   font-size: 13px;
+}
+
+/* Test Results: Pass Rate Bars */
+.pass-rate-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.pass-rate-label {
+  width: 48px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.pass-rate-bar-bg {
+  flex: 1;
+  height: 18px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pass-rate-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.pass-rate-pct {
+  width: 48px;
+  text-align: right;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.rate-good {
+  background: var(--accent-green);
+}
+
+.rate-warn {
+  background: var(--accent-orange);
+}
+
+.rate-bad {
+  background: var(--badge-closed);
+}
+
+/* Test Results: Suite Table */
+.suite-table {
+  margin-top: 8px;
+}
+
+.suite-platform-header {
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding-top: 8px;
+}
+
+.suite-conclusion {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.suite-conclusion-success {
+  background: var(--accent-green);
+}
+
+.suite-conclusion-failure {
+  background: var(--badge-closed);
+}
+
+.suite-conclusion-skipped {
+  background: var(--badge-draft);
+}
+
+/* Test Results: Metadata */
+.test-meta {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 6px;
+}
+
+.test-summary-inline {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-left: 8px;
 }
 
 /* Empty state */
