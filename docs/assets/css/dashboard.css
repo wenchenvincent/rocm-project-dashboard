@@ -467,9 +467,16 @@ footer {
 }
 
 .pass-rate-pct {
-  width: 48px;
+  width: 64px;
   text-align: right;
   font-weight: 600;
+  flex-shrink: 0;
+}
+
+.parity-detail {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-left: 4px;
   flex-shrink: 0;
 }
 
