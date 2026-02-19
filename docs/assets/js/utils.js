@@ -95,6 +95,23 @@ function buildPassRateBar(label, summary, runUrl) {
   );
 }
 
+function buildParityBar(parity) {
+  if (!parity) return "";
+  var ratio = parity.ratio;
+  var barWidth = Math.min(ratio, 100);
+  var colorClass = ratio >= 90 ? "rate-good" : ratio >= 50 ? "rate-warn" : "rate-bad";
+  var levelLabel = parity.level === "test" ? "tests" : "jobs";
+  var detail = parity.rocm_count + " / " + parity.cuda_count + " " + levelLabel;
+  return (
+    '<div class="pass-rate-row">' +
+    '<span class="pass-rate-label">Parity</span>' +
+    '<div class="pass-rate-bar-bg"><div class="pass-rate-bar-fill ' + colorClass + '" style="width:' + barWidth + '%"></div></div>' +
+    '<span class="pass-rate-pct">' + ratio.toFixed(1) + '%</span>' +
+    '<span class="parity-detail">' + detail + '</span>' +
+    '</div>'
+  );
+}
+
 function deltaArrow(current, previous) {
   if (previous == null || current == null) return "";
   var diff = current - previous;

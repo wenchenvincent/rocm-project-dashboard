@@ -162,7 +162,12 @@ function renderParityView(projectsCfg, dataMap) {
     }
     html += '</div>';
 
-    // Pass rate bars
+    // CUDA Parity bar (primary)
+    if (tr.cuda_parity) {
+      html += buildParityBar(tr.cuda_parity);
+    }
+
+    // Per-platform pass rates (secondary)
     html += '<div class="parity-bars">';
     if (rocm && rocm.summary) html += buildPassRateBar("ROCm", rocm.summary, rocm.run_url);
     if (cuda && cuda.summary) html += buildPassRateBar("CUDA", cuda.summary, cuda.run_url);
@@ -394,14 +399,19 @@ function buildTestSection(testResults) {
   var cuda = testResults.cuda;
 
   // Build summary text for the <summary> line
-  var parts = [];
-  if (rocm && rocm.summary) {
-    parts.push("ROCm: " + (rocm.summary.pass_rate != null ? rocm.summary.pass_rate.toFixed(1) + "%" : "N/A"));
+  var summaryText = "";
+  if (testResults.cuda_parity) {
+    summaryText = "Parity: " + testResults.cuda_parity.ratio.toFixed(1) + "%";
+  } else {
+    var parts = [];
+    if (rocm && rocm.summary) {
+      parts.push("ROCm: " + (rocm.summary.pass_rate != null ? rocm.summary.pass_rate.toFixed(1) + "%" : "N/A"));
+    }
+    if (cuda && cuda.summary) {
+      parts.push("CUDA: " + (cuda.summary.pass_rate != null ? cuda.summary.pass_rate.toFixed(1) + "%" : "N/A"));
+    }
+    summaryText = parts.length ? parts.join(" | ") : "No data";
   }
-  if (cuda && cuda.summary) {
-    parts.push("CUDA: " + (cuda.summary.pass_rate != null ? cuda.summary.pass_rate.toFixed(1) + "%" : "N/A"));
-  }
-  var summaryText = parts.length ? parts.join(" | ") : "No data";
 
   var html = '<details class="test-results">';
   html += '<summary>Test Results <span class="test-summary-inline">' + escapeHtml(summaryText) + "</span></summary>";

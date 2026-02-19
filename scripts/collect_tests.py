@@ -423,6 +423,22 @@ def collect_pytorch(cfg):
             "suites": suites if suites else None,
         }
 
+    # Compute CUDA parity ratio (test-level)
+    rocm_data = result.get("rocm")
+    cuda_data = result.get("cuda")
+    if rocm_data and cuda_data:
+        rs = rocm_data.get("summary", {})
+        cs = cuda_data.get("summary", {})
+        rocm_count = rs.get("total_tests", 0) - rs.get("skipped", 0)
+        cuda_count = cs.get("total_tests", 0) - cs.get("skipped", 0)
+        if cuda_count > 0:
+            result["cuda_parity"] = {
+                "ratio": round(rocm_count / cuda_count * 100, 1),
+                "rocm_count": rocm_count,
+                "cuda_count": cuda_count,
+                "level": "test",
+            }
+
     return result
 
 
@@ -516,6 +532,22 @@ def collect_job_level(project_name, cfg):
             "suites": suites if suites else None,
         }
 
+    # Compute CUDA parity ratio (job-level)
+    rocm_data = result.get("rocm")
+    cuda_data = result.get("cuda")
+    if rocm_data and cuda_data:
+        rs = rocm_data.get("summary", {})
+        cs = cuda_data.get("summary", {})
+        rocm_count = rs.get("ran", 0)
+        cuda_count = cs.get("ran", 0)
+        if cuda_count > 0:
+            result["cuda_parity"] = {
+                "ratio": round(rocm_count / cuda_count * 100, 1),
+                "rocm_count": rocm_count,
+                "cuda_count": cuda_count,
+                "level": "job",
+            }
+
     return result
 
 
@@ -606,6 +638,13 @@ def main():
                         print(f"  {platform}: {rate_str}{detail}")
                     else:
                         print(f"  {platform}: no data")
+                parity = result.get("cuda_parity")
+                if parity:
+                    print(
+                        f"  CUDA parity: {parity['ratio']}%"
+                        f" ({parity['rocm_count']}/{parity['cuda_count']}"
+                        f" {parity['level']}s)"
+                    )
         except Exception as e:
             print(f"  ERROR collecting {name}: {e}", file=sys.stderr)
             import traceback
