@@ -1,13 +1,23 @@
 {
-  "collected_at": "2026-02-18T08:15:18Z",
+  "collected_at": "2026-02-19T08:15:13Z",
   "issues": [
+    {
+      "number": 2061,
+      "title": "[Bug] Custom all-reduce IPC buffers use fixed VA, conflict with torch_memory_saver pause/resume \u2192 zombie processes on MI300X",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-02-18T19:15:15Z",
+      "updated_at": "2026-02-18T19:26:19Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2061",
+      "labels": []
+    },
     {
       "number": 2059,
       "title": "[Issue]: GLM-5 aiter fused_moe with SGLang + MI355",
       "author": "ozziemoreno",
       "state": "open",
       "created_at": "2026-02-18T00:11:18Z",
-      "updated_at": "2026-02-18T00:11:18Z",
+      "updated_at": "2026-02-18T09:12:18Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2059",
       "labels": []
     },

@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-02-18T08:15:20Z",
+  "collected_at": "2026-02-19T08:15:16Z",
   "prs": [
     {
-      "number": 222,
-      "title": "Fix prefix caching crash: recalculate num_new_tokens after block allocation",
-      "author": "ChuanLi1101",
+      "number": 224,
+      "title": "Add Dockerfile.clean + fix linear.py shard_offset bug",
+      "author": "sunway513",
       "state": "open",
       "merged": false,
-      "created_at": "2026-02-17T05:25:39Z",
-      "updated_at": "2026-02-18T05:16:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/222",
+      "created_at": "2026-02-19T06:24:19Z",
+      "updated_at": "2026-02-19T06:30:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/224",
       "labels": [],
       "draft": false
     },
@@ -20,8 +20,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-16T08:48:28Z",
-      "updated_at": "2026-02-18T01:12:32Z",
+      "updated_at": "2026-02-19T03:56:02Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/220",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 223,
+      "title": "Add Quark GLM4.7-MXFP4 support",
+      "author": "thpereir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-18T22:01:13Z",
+      "updated_at": "2026-02-18T22:18:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/223",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 222,
+      "title": "Fix prefix caching crash: recalculate num_new_tokens after block allocation",
+      "author": "ChuanLi1101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-17T05:25:39Z",
+      "updated_at": "2026-02-18T05:16:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/222",
       "labels": [],
       "draft": false
     },

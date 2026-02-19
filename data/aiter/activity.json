@@ -1,24 +1,24 @@
 {
-  "collected_at": "2026-02-18T17:26:40Z",
+  "collected_at": "2026-02-19T08:16:51Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 24,
-      "merged": 18,
-      "closed": 6
-    },
-    "last_week": {
-      "opened": 56,
-      "merged": 34,
+      "opened": 15,
+      "merged": 9,
       "closed": 7
     },
-    "median_time_to_merge_hours": 23.2,
-    "merge_count": 53,
+    "last_week": {
+      "opened": 58,
+      "merged": 38,
+      "closed": 5
+    },
+    "median_time_to_merge_hours": 20.7,
+    "merge_count": 48,
     "stale_prs": 13
   },
   "contributors": {
-    "active_this_week": 42,
+    "active_this_week": 31,
     "total_contributors": 136,
     "top_contributors": [
       {
@@ -58,7 +58,7 @@
         "commits": 0
       },
       {
-        "author": "juuso-oskari",
+        "author": "sunway513",
         "prs_submitted": 5,
         "prs_merged": 1,
         "commits": 1
@@ -85,15 +85,15 @@
     "bus_factor": 8
   },
   "issue_health": {
-    "total_open": 91,
-    "opened_this_week": 3,
-    "closed_this_week": 2,
+    "total_open": 92,
+    "opened_this_week": 4,
+    "closed_this_week": 1,
     "unanswered": 26
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 57.6,
+    "days_since_last": 58.2,
     "avg_interval_days": 54.7,
     "total_releases": 5,
     "latest_tag": "v0.1.9"

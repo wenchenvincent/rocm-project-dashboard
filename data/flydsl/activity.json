@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-18T17:27:16Z",
+  "collected_at": "2026-02-19T08:17:23Z",
   "project": "flydsl",
   "repo": "sunway513/FlyDSL",
   "pr_velocity": {
@@ -9,26 +9,19 @@
       "closed": 0
     },
     "last_week": {
-      "opened": 2,
-      "merged": 1,
+      "opened": 0,
+      "merged": 0,
       "closed": 0
     },
-    "median_time_to_merge_hours": 0.0,
-    "merge_count": 1,
+    "median_time_to_merge_hours": null,
+    "merge_count": 0,
     "stale_prs": 0
   },
   "contributors": {
     "active_this_week": 0,
-    "total_contributors": 1,
-    "top_contributors": [
-      {
-        "author": "sunway513",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 2
-      }
-    ],
-    "bus_factor": 1
+    "total_contributors": 0,
+    "top_contributors": [],
+    "bus_factor": null
   },
   "issue_health": {
     "total_open": 0,

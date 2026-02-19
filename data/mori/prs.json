@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-18T08:15:23Z",
+  "collected_at": "2026-02-19T08:15:19Z",
   "prs": [
     {
       "number": 164,
@@ -94,6 +94,18 @@
       "created_at": "2025-10-28T06:17:21Z",
       "updated_at": "2026-01-08T09:18:21Z",
       "html_url": "https://github.com/ROCm/mori/pull/99",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 171,
+      "title": "Fix: support runtime hidden_dim for dispatch/combine",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-18T09:57:24Z",
+      "updated_at": "2026-02-19T03:00:34Z",
+      "html_url": "https://github.com/ROCm/mori/pull/171",
       "labels": [],
       "draft": false
     },
@@ -1174,18 +1186,6 @@
       "created_at": "2025-08-26T06:22:44Z",
       "updated_at": "2025-08-26T06:23:01Z",
       "html_url": "https://github.com/ROCm/mori/pull/50",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 49,
-      "title": "Feature: add multi-qp support for MORI-IO & add benchmark results",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-08-25T04:39:45Z",
-      "updated_at": "2025-08-25T06:02:42Z",
-      "html_url": "https://github.com/ROCm/mori/pull/49",
       "labels": [],
       "draft": false
     }
