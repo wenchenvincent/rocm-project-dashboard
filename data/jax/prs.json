@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-02-20T08:13:57Z",
+  "collected_at": "2026-02-21T08:06:59Z",
   "prs": [
+    {
+      "number": 35283,
+      "title": "[ROCm] Improve ROCm pytest results handling",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-20T23:18:56Z",
+      "updated_at": "2026-02-20T23:20:22Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35283",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 35251,
       "title": "[WIP ROCm] Migrate rocm wheel build",
@@ -613,18 +625,6 @@
         "kokoro:force-run",
         "pull ready"
       ],
-      "draft": false
-    },
-    {
-      "number": 32845,
-      "title": "Change --jax_device_under_test to use \"cuda\" or \"rocm\".",
-      "author": "copybara-service[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-10-23T17:24:21Z",
-      "updated_at": "2026-02-11T09:19:02Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/32845",
-      "labels": [],
       "draft": false
     },
     {

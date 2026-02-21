@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-02-20T08:15:17Z",
+  "collected_at": "2026-02-21T08:08:05Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 8,
-      "merged": 6,
-      "closed": 3
-    },
-    "last_week": {
-      "opened": 16,
+      "opened": 11,
       "merged": 8,
       "closed": 2
     },
-    "median_time_to_merge_hours": 117.6,
-    "merge_count": 23,
-    "stale_prs": 39
+    "last_week": {
+      "opened": 16,
+      "merged": 7,
+      "closed": 3
+    },
+    "median_time_to_merge_hours": 165.9,
+    "merge_count": 25,
+    "stale_prs": 42
   },
   "contributors": {
     "active_this_week": 13,
@@ -23,27 +23,27 @@
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 41,
-        "prs_merged": 23,
-        "commits": 12
+        "prs_submitted": 39,
+        "prs_merged": 21,
+        "commits": 11
+      },
+      {
+        "author": "shivadbhavsar",
+        "prs_submitted": 10,
+        "prs_merged": 4,
+        "commits": 3
+      },
+      {
+        "author": "causten",
+        "prs_submitted": 9,
+        "prs_merged": 5,
+        "commits": 0
       },
       {
         "author": "kahmed10",
         "prs_submitted": 9,
         "prs_merged": 7,
         "commits": 4
-      },
-      {
-        "author": "causten",
-        "prs_submitted": 9,
-        "prs_merged": 6,
-        "commits": 0
-      },
-      {
-        "author": "shivadbhavsar",
-        "prs_submitted": 9,
-        "prs_merged": 4,
-        "commits": 3
       },
       {
         "author": "TedThemistokleous",
@@ -53,7 +53,7 @@
       },
       {
         "author": "CharlieL7",
-        "prs_submitted": 6,
+        "prs_submitted": 7,
         "prs_merged": 4,
         "commits": 3
       },
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 29.5,
+    "days_since_last": 30.5,
     "avg_interval_days": 29.8,
     "total_releases": 5,
     "latest_tag": "rocm-7.2.0"

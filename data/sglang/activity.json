@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-02-20T08:15:08Z",
+  "collected_at": "2026-02-21T08:08:00Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 18,
-      "merged": 23,
+      "opened": 20,
+      "merged": 18,
       "closed": 0
     },
     "last_week": {
-      "opened": 42,
-      "merged": 20,
+      "opened": 38,
+      "merged": 25,
       "closed": 0
     },
-    "median_time_to_merge_hours": 99.4,
-    "merge_count": 69,
-    "stale_prs": 6
+    "median_time_to_merge_hours": 94.8,
+    "merge_count": 68,
+    "stale_prs": 8
   },
   "contributors": {
-    "active_this_week": 33,
-    "total_contributors": 74,
+    "active_this_week": 30,
+    "total_contributors": 73,
     "top_contributors": [
       {
         "author": "yctseng0211",
@@ -34,6 +34,12 @@
         "commits": 0
       },
       {
+        "author": "michaelzhang-ai",
+        "prs_submitted": 6,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
         "author": "bingxche",
         "prs_submitted": 6,
         "prs_merged": 4,
@@ -43,12 +49,6 @@
         "author": "hubertlu-tw",
         "prs_submitted": 5,
         "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "michaelzhang-ai",
-        "prs_submitted": 5,
-        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -85,10 +85,10 @@
     "bus_factor": 9
   },
   "issue_health": {
-    "total_open": 44,
+    "total_open": 43,
     "opened_this_week": 2,
-    "closed_this_week": 83,
-    "unanswered": 8
+    "closed_this_week": 76,
+    "unanswered": 7
   },
   "ci_health": {
     "rocm": {
@@ -99,9 +99,9 @@
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 1,
-      "failed": 18,
-      "success_rate": 5.0
+      "succeeded": 4,
+      "failed": 13,
+      "success_rate": 20.0
     }
   },
   "ci_signal_time": {
@@ -115,13 +115,13 @@
     "cuda": {
       "sample_size": 20,
       "median_minutes": 0.4,
-      "p90_minutes": 12.4,
-      "min_minutes": 0.3,
-      "max_minutes": 17.9
+      "p90_minutes": 80.0,
+      "min_minutes": 0.2,
+      "max_minutes": 152.0
     }
   },
   "release_cadence": {
-    "days_since_last": 27.4,
+    "days_since_last": 28.4,
     "avg_interval_days": 11.2,
     "total_releases": 5,
     "latest_tag": "v0.5.8"

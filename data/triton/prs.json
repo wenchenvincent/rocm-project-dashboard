@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-02-20T08:14:24Z",
+  "collected_at": "2026-02-21T08:07:22Z",
   "prs": [
+    {
+      "number": 9506,
+      "title": "[AMD] Fix TensorDescType shared memory size for WS captures",
+      "author": "PMylon",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-18T20:30:06Z",
+      "updated_at": "2026-02-20T21:42:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9506",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9533,
+      "title": "[AMD] Update default to `block_m=16` in `make_default_opt_flags_amd`",
+      "author": "micah-wil",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-20T21:11:04Z",
+      "updated_at": "2026-02-20T21:34:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9533",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9512,
+      "title": "[AMD][NFC] Emit error for buffer_load_to_local on gfx1250",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-19T10:15:27Z",
+      "updated_at": "2026-02-20T17:53:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9512",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9519,
+      "title": "[AMD][NFC] Fix error message for wmma scale",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-19T19:23:00Z",
+      "updated_at": "2026-02-20T17:32:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9519",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9522,
       "title": "[AMD] Update gfx1250 MXFP FA example kernel",
@@ -26,30 +74,6 @@
       "draft": false
     },
     {
-      "number": 9506,
-      "title": "[AMD] Fix TensorDescType shared memory size for WS captures",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-18T20:30:06Z",
-      "updated_at": "2026-02-19T22:22:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9506",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9519,
-      "title": "[AMD][NFC] Fix error message for wmma scale",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-19T19:23:00Z",
-      "updated_at": "2026-02-19T19:33:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9519",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9509,
       "title": "[AMD] Enable supportBitwidth{16|32}Elementwise in TargetInfo",
       "author": "antiagainst",
@@ -70,18 +94,6 @@
       "created_at": "2026-02-19T10:30:55Z",
       "updated_at": "2026-02-19T16:50:16Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9513",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9512,
-      "title": "[AMD][NFC] Emit error for buffer_load_to_local on gfx1250",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-19T10:15:27Z",
-      "updated_at": "2026-02-19T16:21:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9512",
       "labels": [],
       "draft": false
     },
@@ -406,42 +418,6 @@
       "created_at": "2026-02-05T13:55:26Z",
       "updated_at": "2026-02-05T18:51:40Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9382",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9383,
-      "title": "[AMD][BACKEND] Fix RangeAnalysis tripCount calculation",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-05T16:21:28Z",
-      "updated_at": "2026-02-05T18:14:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9383",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9380,
-      "title": "[AMD][GFX1250] Roll up some minor changes",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-05T06:59:15Z",
-      "updated_at": "2026-02-05T17:32:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9380",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9373,
-      "title": "[AMD][BACKEND] Fix shared layout order for AsyncCopy on GFX9",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-04T17:01:05Z",
-      "updated_at": "2026-02-05T17:30:21Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9373",
       "labels": [],
       "draft": false
     },

@@ -1,48 +1,48 @@
 {
-  "collected_at": "2026-02-20T08:15:16Z",
+  "collected_at": "2026-02-21T08:08:04Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
       "opened": 13,
-      "merged": 16,
+      "merged": 18,
       "closed": 0
     },
     "last_week": {
-      "opened": 12,
-      "merged": 10,
+      "opened": 13,
+      "merged": 11,
       "closed": 0
     },
-    "median_time_to_merge_hours": 7.0,
+    "median_time_to_merge_hours": 12.5,
     "merge_count": 30,
     "stale_prs": 15
   },
   "contributors": {
     "active_this_week": 15,
-    "total_contributors": 29,
+    "total_contributors": 30,
     "top_contributors": [
       {
-        "author": "antiagainst",
-        "prs_submitted": 6,
+        "author": "borontion",
+        "prs_submitted": 5,
         "prs_merged": 5,
+        "commits": 0
+      },
+      {
+        "author": "antiagainst",
+        "prs_submitted": 5,
+        "prs_merged": 4,
         "commits": 0
       },
       {
         "author": "AlexAUT",
-        "prs_submitted": 6,
-        "prs_merged": 5,
-        "commits": 0
-      },
-      {
-        "author": "borontion",
-        "prs_submitted": 5,
+        "prs_submitted": 4,
         "prs_merged": 4,
         "commits": 0
       },
       {
         "author": "PMylon",
         "prs_submitted": 3,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 29.4,
+    "days_since_last": 30.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"
