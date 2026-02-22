@@ -1,6 +1,67 @@
 {
-  "collected_at": "2026-02-22T05:50:00Z",
+  "collected_at": "2026-02-22T08:07:45Z",
   "issues": [
+    {
+      "number": 34994,
+      "title": "[Feature]: Infrastructure Improvements for ROCm CI",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-02-20T22:35:58Z",
+      "updated_at": "2026-02-22T08:05:51Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/34994",
+      "labels": [
+        "feature request",
+        "rocm"
+      ]
+    },
+    {
+      "number": 29520,
+      "title": "[CI Failure]: mi325_1: Multi-Modal Models Test (Standard)",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2025-11-26T18:24:37Z",
+      "updated_at": "2026-02-22T08:00:05Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/29520",
+      "labels": [
+        "ci-failure"
+      ]
+    },
+    {
+      "number": 34954,
+      "title": "[Bug]: Triton Error [CUDA]: out of memory when received query",
+      "author": "kwonmha",
+      "state": "open",
+      "created_at": "2026-02-20T13:46:28Z",
+      "updated_at": "2026-02-22T06:06:52Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/34954",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 34859,
+      "title": "[Bug]: missing shards from quantized checkpoint fails silently",
+      "author": "andrea-fasoli",
+      "state": "open",
+      "created_at": "2026-02-19T00:22:43Z",
+      "updated_at": "2026-02-22T06:06:51Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/34859",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 34812,
+      "title": "[Bug]: GraniteMoeHybridModel not applying embedding_multiplier to input embeddings",
+      "author": "gabe-l-hart",
+      "state": "open",
+      "created_at": "2026-02-18T15:09:32Z",
+      "updated_at": "2026-02-22T06:06:51Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/34812",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 31631,
       "title": "[CI Failure]:  mi325_1: V1 Test others",
@@ -129,18 +190,6 @@
       ]
     },
     {
-      "number": 34812,
-      "title": "[Bug]: GraniteMoeHybridModel not applying embedding_multiplier to input embeddings",
-      "author": "gabe-l-hart",
-      "state": "open",
-      "created_at": "2026-02-18T15:09:32Z",
-      "updated_at": "2026-02-21T15:06:04Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/34812",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 34090,
       "title": "what am I doing wrong ? libmpi_cxx.so.40: cannot open shared object file: No such file or directory",
       "author": "peter247",
@@ -150,19 +199,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/34090",
       "labels": [
         "usage"
-      ]
-    },
-    {
-      "number": 34994,
-      "title": "[Feature]: Infrastructure Improvements for ROCm CI",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2026-02-20T22:35:58Z",
-      "updated_at": "2026-02-21T02:40:23Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/34994",
-      "labels": [
-        "feature request",
-        "rocm"
       ]
     },
     {
@@ -205,18 +241,6 @@
       ]
     },
     {
-      "number": 34954,
-      "title": "[Bug]: Triton Error [CUDA]: out of memory when received query",
-      "author": "kwonmha",
-      "state": "open",
-      "created_at": "2026-02-20T13:46:28Z",
-      "updated_at": "2026-02-20T23:34:52Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/34954",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 29373,
       "title": "[Bug]: Multinode inference request with Ray and vLLM crashes - regression from vLLM v0.7.3",
       "author": "ysimeonovatnvidia",
@@ -237,18 +261,6 @@
       "created_at": "2025-11-26T00:21:48Z",
       "updated_at": "2026-02-20T18:34:44Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/29462",
-      "labels": [
-        "ci-failure"
-      ]
-    },
-    {
-      "number": 29520,
-      "title": "[CI Failure]: mi325_1: Multi-Modal Models Test (Standard)",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2025-11-26T18:24:37Z",
-      "updated_at": "2026-02-20T18:01:58Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/29520",
       "labels": [
         "ci-failure"
       ]

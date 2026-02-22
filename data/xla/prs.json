@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-22T06:05:26Z",
+  "collected_at": "2026-02-22T08:08:21Z",
   "prs": [
     {
       "number": 38088,
@@ -562,19 +562,6 @@
       "original_author": "mfrancepillois"
     },
     {
-      "number": 36581,
-      "title": "PR #36418: Fix MIOpen linking for RNN kernels",
-      "author": "copybara-service[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-20T00:23:22Z",
-      "updated_at": "2026-01-21T13:44:15Z",
-      "html_url": "https://github.com/openxla/xla/pull/36581",
-      "labels": [],
-      "draft": false,
-      "original_author": "magaonka-amd"
-    },
-    {
       "number": 36443,
       "title": "PR #36413: [ROCm][XLA:GPU] Add ROCm-specific tuning for transpose emitter",
       "author": "copybara-service[bot]",
@@ -586,18 +573,6 @@
       "labels": [],
       "draft": false,
       "original_author": "nurmukhametov"
-    },
-    {
-      "number": 36623,
-      "title": "[XLA:CPU] Fix platform_dependent_math rsqrt test.",
-      "author": "copybara-service[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-20T21:02:53Z",
-      "updated_at": "2026-01-20T22:28:08Z",
-      "html_url": "https://github.com/openxla/xla/pull/36623",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 30977,

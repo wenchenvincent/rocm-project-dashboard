@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-22T05:51:22Z",
+  "collected_at": "2026-02-22T08:09:10Z",
   "project": "pytorch",
   "repo": "pytorch/pytorch",
   "pr_velocity": {
@@ -93,9 +93,9 @@
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 10,
-      "failed": 6,
-      "success_rate": 50.0
+      "succeeded": 9,
+      "failed": 7,
+      "success_rate": 45.0
     },
     "cuda": {
       "total_runs": 20,
@@ -107,21 +107,21 @@
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 191.8,
+      "median_minutes": 194.4,
       "p90_minutes": 213.0,
       "min_minutes": 3.1,
       "max_minutes": 223.3
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 252.1,
+      "median_minutes": 245.2,
       "p90_minutes": 290.2,
       "min_minutes": 84.2,
       "max_minutes": 352.4
     }
   },
   "release_cadence": {
-    "days_since_last": 31.5,
+    "days_since_last": 31.6,
     "avg_interval_days": 57.7,
     "total_releases": 5,
     "latest_tag": "v2.10.0"

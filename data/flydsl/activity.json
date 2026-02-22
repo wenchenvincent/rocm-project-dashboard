@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-22T05:52:33Z",
+  "collected_at": "2026-02-22T08:10:22Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
@@ -9,12 +9,12 @@
       "closed": 4
     },
     "last_week": {
-      "opened": 28,
-      "merged": 15,
+      "opened": 27,
+      "merged": 14,
       "closed": 9
     },
-    "median_time_to_merge_hours": 8.0,
-    "merge_count": 30,
+    "median_time_to_merge_hours": 9.1,
+    "merge_count": 18,
     "stale_prs": 0
   },
   "contributors": {

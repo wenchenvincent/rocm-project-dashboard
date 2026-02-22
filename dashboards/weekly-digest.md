@@ -50,9 +50,13 @@ _No new releases this week._
 - Merged: [#34929](https://github.com/jax-ml/jax/pull/34929) [ROCm] Modified `test_with_memory_space` to include ROCm tes (@tsrw2048)
 
 ### vllm
+- Opened: [#35052](https://github.com/vllm-project/vllm/pull/35052) [ROCm][CI] Fix realtime test timeouts caused by aiter JIT co (@AndreasKaratzas)
+- Opened: [#35051](https://github.com/vllm-project/vllm/pull/35051) feat: Support MXFP4 quantized dense models on AMD CDNA2/CDNA (@fengli1702)
+- Opened: [#35050](https://github.com/vllm-project/vllm/pull/35050) [ROCm][CI] Fix flaky embedding chat test by using tolerance- (@AndreasKaratzas)
+- Opened: [#35049](https://github.com/vllm-project/vllm/pull/35049) [ROCm][CI] Disable skinny GEMMs in multimodal tests to fix n (@AndreasKaratzas)
+- Opened: [#34839](https://github.com/vllm-project/vllm/pull/34839) [ROCm][CI] Cleaning and restructuring amd-ci legacy pipeline (@AndreasKaratzas)
 - Opened: [#35042](https://github.com/vllm-project/vllm/pull/35042) [Platform]Add current_platform.get_num_compute_units interfa (@jikunshang)
 - Opened: [#35038](https://github.com/vllm-project/vllm/pull/35038) [BugFix] Refactor add max_num_tokens_per_forward_pass to acc (@LucasWilkinson)
-- Opened: [#34839](https://github.com/vllm-project/vllm/pull/34839) [ROCm][CI] Cleaning and restructuring amd-ci legacy pipeline (@AndreasKaratzas)
 - Opened: [#34961](https://github.com/vllm-project/vllm/pull/34961) [CI] Bump mteb version to `mteb[bm25s]>=2, <3` for pooling m (@yewentao256)
 - Opened: [#35043](https://github.com/vllm-project/vllm/pull/35043) [ROCm][CI] Fix spec decode profile assertion and logprob tes (@AndreasKaratzas)
 - Opened: [#34923](https://github.com/vllm-project/vllm/pull/34923) [ROCm][CI] Added MI325 mirrors (@AndreasKaratzas)
@@ -72,8 +76,6 @@ _No new releases this week._
 - Opened: [#34735](https://github.com/vllm-project/vllm/pull/34735) [AMD][CI] Fix test_custom_allreduce for A100 testgroup (@rjrock)
 - Opened: [#34985](https://github.com/vllm-project/vllm/pull/34985) [CI][AMD][BugFix] Add  torch.cuda.set_device to test_punica_ (@rasmith)
 - Opened: [#34922](https://github.com/vllm-project/vllm/pull/34922) [ROCm][CI] Loosen RemoteOpenAIServer Startup Timeout (@micah-wil)
-- Opened: [#34740](https://github.com/vllm-project/vllm/pull/34740) [ROCm] Use supports_fp8() for FP8 feature gates instead of a (@laudney)
-- Opened: [#34907](https://github.com/vllm-project/vllm/pull/34907) [ROCm][P/D][MORI][BugFix] Add transfer_id for moriio_connect (@rasmith)
 - Opened: [#34931](https://github.com/vllm-project/vllm/pull/34931) [AMD][CI] Support Triton attention with ExampleConnector (@rjrock)
 - Opened: [#34918](https://github.com/vllm-project/vllm/pull/34918) Change targets for AMD build in the "CI" pipeline (@Alexei-V-Ivanov-AMD)
 - Opened: [#34631](https://github.com/vllm-project/vllm/pull/34631) [ROCm] Make Whisper causal attention backend-agnostic (@laudney)
@@ -84,7 +86,6 @@ _No new releases this week._
 - Opened: [#34879](https://github.com/vllm-project/vllm/pull/34879) [ROCm][CI] Removing all blocking labels from MI355 until sta (@AndreasKaratzas)
 - Opened: [#34647](https://github.com/vllm-project/vllm/pull/34647) [ROCm] Add hardware detection for FP4 BMM to prevent MI300X  (@khairulkabir1661)
 - Opened: [#34655](https://github.com/vllm-project/vllm/pull/34655) [CI][AMD][BugFix] Skip tests in test_unquantized_backend_sel (@rasmith)
-- Opened: [#34776](https://github.com/vllm-project/vllm/pull/34776) [WIP] Add Warmup to `vllm bench throughput` (@micah-wil)
 - Opened: [#34825](https://github.com/vllm-project/vllm/pull/34825) [CI] temporarily disable multi-node tests (@robertgshaw2-redhat)
 - Opened: [#34753](https://github.com/vllm-project/vllm/pull/34753) [ROCm][CI] Removed hard-coded attn backend requirement for Q (@AndreasKaratzas)
 - Opened: [#34653](https://github.com/vllm-project/vllm/pull/34653) [BugFix] [Build] fix string literals comparison in indexer_k (@hongxiayang)
@@ -119,9 +120,10 @@ _No new releases this week._
 - Merged: [#34378](https://github.com/vllm-project/vllm/pull/34378) Use paged_attention_v1 for sliding window decode in rocm_ait (@iseeyuan)
 
 ### sglang
+- Opened: [#19140](https://github.com/sgl-project/sglang/pull/19140) [Re-land][jit kernel] Support per_token_group_quant_8bit jit (@yuan-luo)
+- Opened: [#19143](https://github.com/sgl-project/sglang/pull/19143) feat: Support MXFP4 quantized dense models on AMD CDNA2/CDNA (@fengli1702)
 - Opened: [#19134](https://github.com/sgl-project/sglang/pull/19134) Fix spec v2+dp attention in nsa backend (@Qiaolin-Yu)
 - Opened: [#19103](https://github.com/sgl-project/sglang/pull/19103) [jit_kernel] Migrate cast (downcast_fp8) from sgl-kernel AOT (@Johnsonms)
-- Opened: [#19140](https://github.com/sgl-project/sglang/pull/19140) [Re-land][jit kernel] Support per_token_group_quant_8bit jit (@yuan-luo)
 - Opened: [#19113](https://github.com/sgl-project/sglang/pull/19113) [AMD] [DO NOT MERGE] Fix 3 pre-existing AMD CI test failures (@michaelzhang-ai)
 - Opened: [#19110](https://github.com/sgl-project/sglang/pull/19110) [AMD][CI] Remove hardcoded /data2 paths from MI35x tests to  (@michaelzhang-ai)
 - Opened: [#19122](https://github.com/sgl-project/sglang/pull/19122) [3/n] deepseek_v2.py Refactor: Migrate MLA forward method in (@Fridge003)
@@ -167,7 +169,29 @@ _No new releases this week._
 - Merged: [#37643](https://github.com/openxla/xla/pull/37643) PR #37287: [ROCm] Skip swish fusion if pre-activation output (@copybara-service[bot])
 - Merged: [#37759](https://github.com/openxla/xla/pull/37759) PR #36700: [Rocm] Fix CollectivePipelineParallelismTest: Add (@copybara-service[bot])
 
+### triton
+- Opened: [#9506](https://github.com/triton-lang/triton/pull/9506) [AMD] Fix TensorDescType shared memory size for WS captures (@PMylon)
+- Opened: [#9533](https://github.com/triton-lang/triton/pull/9533) [AMD] Update default to `block_m=16` in `make_default_opt_fl (@micah-wil)
+- Opened: [#9512](https://github.com/triton-lang/triton/pull/9512) [AMD][NFC] Emit error for buffer_load_to_local on gfx1250 (@AlexAUT)
+- Opened: [#9519](https://github.com/triton-lang/triton/pull/9519) [AMD][NFC] Fix error message for wmma scale (@borontion)
+- Opened: [#9522](https://github.com/triton-lang/triton/pull/9522) [AMD] Update gfx1250 MXFP FA example kernel (@borontion)
+- Opened: [#9509](https://github.com/triton-lang/triton/pull/9509) [AMD] Enable supportBitwidth{16|32}Elementwise in TargetInfo (@antiagainst)
+- Opened: [#9513](https://github.com/triton-lang/triton/pull/9513) [AMD][GLUON] Allow DistributedLayouts in AsyncCopy and Buffe (@AlexAUT)
+- Opened: [#9502](https://github.com/triton-lang/triton/pull/9502) [AMD][BACKEND] Cherry pick pr 9487 to rel 3.7 (@AmdSampsa)
+- Opened: [#9496](https://github.com/triton-lang/triton/pull/9496) [AMD][gfx1250] Fix tensordesc index after kernel launch chan (@antiagainst)
+- Opened: [#9494](https://github.com/triton-lang/triton/pull/9494) Revert "[AMD] Don't use s_waitcnt to lower global barrier fo (@antiagainst)
+- Opened: [#9490](https://github.com/triton-lang/triton/pull/9490) [AMD]Fix a bug about CGA-layout in AccelerateAMDMatmul.  (@yangshuxin)
+- Opened: [#9487](https://github.com/triton-lang/triton/pull/9487) [AMD][BACKEND] Properly handle PointerTypes in v_perm Conver (@AlexAUT)
+- Opened: [#9476](https://github.com/triton-lang/triton/pull/9476) [AMD] Disable True16 for assembler on gfx11 (#9447) (@jataylo)
+- Merged: [#8464](https://github.com/triton-lang/triton/pull/8464) [AMD] Optimize address increments for buffer loads in loops (@alefimov-amd)
+- Merged: [#9374](https://github.com/triton-lang/triton/pull/9374) Reapply "[AMD] Introduce PartitionedSharedEncodingAttr" (#93 (@plognjen)
+- Merged: [#9442](https://github.com/triton-lang/triton/pull/9442) [AMD][BACKEND] Fix OOM bug in pipelining with padded layout  (@pabloantoniom)
+- Merged: [#9455](https://github.com/triton-lang/triton/pull/9455) [AMD] Enable floating-point sanitizer (FpSan) support (@kelesvol)
+- Merged: [#9302](https://github.com/triton-lang/triton/pull/9302) [AMD][gfx1250] Support TDM in software pipelining  (@yangshuxin)
+- Merged: [#9449](https://github.com/triton-lang/triton/pull/9449) [AMD] Added hw FP upcast conversions for gfx1250 (@ravil-mobile)
+
 ### migraphx
+- Opened: [#4627](https://github.com/ROCm/AMDMIGraphX/pull/4627) rocMLIR Weekly Sync 2026-02-22 (@github-actions[bot])
 - Opened: [#4623](https://github.com/ROCm/AMDMIGraphX/pull/4623) Add support for ORT image in Jenkins pipeline (@causten)
 - Opened: [#4620](https://github.com/ROCm/AMDMIGraphX/pull/4620) [AIMIGRAPHX-542] implement argmin and argmax as reduce ops (@bdevorem)
 - Opened: [#4626](https://github.com/ROCm/AMDMIGraphX/pull/4626) Add debug symbols for parsed and compiler pass replaced inst (@CharlieL7)
@@ -240,8 +264,8 @@ _No new releases this week._
 ## New Issues This Week
 
 ### pytorch
-- [#175484](https://github.com/pytorch/pytorch/issues/175484) Unable to disable warning about tf32 precision (@ad8e)
 - [#175370](https://github.com/pytorch/pytorch/issues/175370) `F.embedding_bag` segfaults with float64 weight and empty of (@SilentTester73)
+- [#175484](https://github.com/pytorch/pytorch/issues/175484) Unable to disable warning about tf32 precision (@ad8e)
 - [#175482](https://github.com/pytorch/pytorch/issues/175482) DISABLED test_index_put_error_cuda (__main__.TestNestedTenso (@jithunnair-amd)
 - [#175477](https://github.com/pytorch/pytorch/issues/175477) make_fx symbolic tracing produces wrong 2nd-order gradients  (@Pythonix)
 - [#175475](https://github.com/pytorch/pytorch/issues/175475) DISABLED test_custom_op_with_layout_arg_xpu (__main__.AOTInd (@etaf)
@@ -255,11 +279,12 @@ _No new releases this week._
 - [#175211](https://github.com/pytorch/pytorch/issues/175211) CUDA/ROCm/Accelerator testing should replace get_device_capa (@jeffdaily)
 
 ### vllm
-- [#35031](https://github.com/vllm-project/vllm/issues/35031) [Bug]: MTP Speculative Decoding with NVFP4: Weight Shape Mis (@eleqtrizit)
-- [#35028](https://github.com/vllm-project/vllm/issues/35028) [Bug]: RuntimeError: CUDA error: CUBLAS_STATUS_INVALID_VALUE (@shahizat)
-- [#34812](https://github.com/vllm-project/vllm/issues/34812) [Bug]: GraniteMoeHybridModel not applying embedding_multipli (@gabe-l-hart)
 - [#34994](https://github.com/vllm-project/vllm/issues/34994) [Feature]: Infrastructure Improvements for ROCm CI (@AndreasKaratzas)
 - [#34954](https://github.com/vllm-project/vllm/issues/34954) [Bug]: Triton Error [CUDA]: out of memory when received quer (@kwonmha)
+- [#34859](https://github.com/vllm-project/vllm/issues/34859) [Bug]: missing shards from quantized checkpoint fails silent (@andrea-fasoli)
+- [#34812](https://github.com/vllm-project/vllm/issues/34812) [Bug]: GraniteMoeHybridModel not applying embedding_multipli (@gabe-l-hart)
+- [#35031](https://github.com/vllm-project/vllm/issues/35031) [Bug]: MTP Speculative Decoding with NVFP4: Weight Shape Mis (@eleqtrizit)
+- [#35028](https://github.com/vllm-project/vllm/issues/35028) [Bug]: RuntimeError: CUDA error: CUBLAS_STATUS_INVALID_VALUE (@shahizat)
 - [#34705](https://github.com/vllm-project/vllm/issues/34705) [Bug]: Old torch compile files cause poor CPU utilisation (@almayne)
 - [#34650](https://github.com/vllm-project/vllm/issues/34650) Bug: Speculative Decoding (MTP) Causes </think> Detection Fa (@cicirori)
 - [#34886](https://github.com/vllm-project/vllm/issues/34886) [Bug]: #32618 performance issue (@gengchaogit)

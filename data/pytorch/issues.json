@@ -1,6 +1,24 @@
 {
-  "collected_at": "2026-02-22T05:49:42Z",
+  "collected_at": "2026-02-22T08:07:25Z",
   "issues": [
+    {
+      "number": 175370,
+      "title": "`F.embedding_bag` segfaults with float64 weight and empty offsets",
+      "author": "SilentTester73",
+      "state": "open",
+      "created_at": "2026-02-19T22:33:53Z",
+      "updated_at": "2026-02-22T06:09:53Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/175370",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: cpu",
+        "module: embedding",
+        "module: empty tensor",
+        "topic: fuzzer",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 117623,
       "title": "different behaviors in cumsum between torch.compile mode and eager mode",
@@ -50,24 +68,6 @@
         "oncall: pt2",
         "module: inductor",
         "module: compile ux",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 175370,
-      "title": "`F.embedding_bag` segfaults with float64 weight and empty offsets",
-      "author": "SilentTester73",
-      "state": "open",
-      "created_at": "2026-02-19T22:33:53Z",
-      "updated_at": "2026-02-22T04:56:32Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/175370",
-      "labels": [
-        "triage review",
-        "module: crash",
-        "module: cpu",
-        "module: embedding",
-        "module: empty tensor",
-        "topic: fuzzer",
         "bot-triaged"
       ]
     },

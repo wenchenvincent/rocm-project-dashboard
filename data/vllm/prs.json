@@ -1,6 +1,99 @@
 {
-  "collected_at": "2026-02-22T05:49:56Z",
+  "collected_at": "2026-02-22T08:07:42Z",
   "prs": [
+    {
+      "number": 35052,
+      "title": "[ROCm][CI] Fix realtime test timeouts caused by aiter JIT compilation delays",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-22T07:49:19Z",
+      "updated_at": "2026-02-22T08:06:12Z",
+      "html_url": "https://github.com/vllm-project/vllm/pull/35052",
+      "labels": [
+        "rocm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35051,
+      "title": "feat: Support MXFP4 quantized dense models on AMD CDNA2/CDNA3 GPUs",
+      "author": "fengli1702",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-22T07:42:36Z",
+      "updated_at": "2026-02-22T07:48:33Z",
+      "html_url": "https://github.com/vllm-project/vllm/pull/35051",
+      "labels": [
+        "rocm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35050,
+      "title": "[ROCm][CI] Fix flaky embedding chat test by using tolerance-based comparison",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-22T07:03:54Z",
+      "updated_at": "2026-02-22T07:19:56Z",
+      "html_url": "https://github.com/vllm-project/vllm/pull/35050",
+      "labels": [
+        "rocm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 30566,
+      "title": "Update to transformers v5",
+      "author": "hmellor",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-12-12T17:44:48Z",
+      "updated_at": "2026-02-22T07:19:47Z",
+      "html_url": "https://github.com/vllm-project/vllm/pull/30566",
+      "labels": [
+        "documentation",
+        "rocm",
+        "ready",
+        "needs-rebase",
+        "ci/build",
+        "v1",
+        "multi-modality",
+        "cpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35049,
+      "title": "[ROCm][CI] Disable skinny GEMMs in multimodal tests to fix non-deterministic results",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-22T06:56:40Z",
+      "updated_at": "2026-02-22T07:06:09Z",
+      "html_url": "https://github.com/vllm-project/vllm/pull/35049",
+      "labels": [
+        "rocm",
+        "multi-modality"
+      ],
+      "draft": false
+    },
+    {
+      "number": 34839,
+      "title": "[ROCm][CI] Cleaning and restructuring amd-ci legacy pipeline",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-18T18:25:14Z",
+      "updated_at": "2026-02-22T06:53:03Z",
+      "html_url": "https://github.com/vllm-project/vllm/pull/34839",
+      "labels": [
+        "rocm",
+        "ci/build"
+      ],
+      "draft": false
+    },
     {
       "number": 33747,
       "title": "feat(grpc): expose kv_connector and kv_role in GetServerInfoResponse",
@@ -8,7 +101,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-04T01:29:34Z",
-      "updated_at": "2026-02-22T05:35:38Z",
+      "updated_at": "2026-02-22T06:49:02Z",
       "html_url": "https://github.com/vllm-project/vllm/pull/33747",
       "labels": [
         "documentation",
@@ -38,7 +131,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-22T02:09:19Z",
-      "updated_at": "2026-02-22T05:29:51Z",
+      "updated_at": "2026-02-22T06:40:49Z",
       "html_url": "https://github.com/vllm-project/vllm/pull/35042",
       "labels": [
         "performance",
@@ -55,7 +148,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-22T01:04:04Z",
-      "updated_at": "2026-02-22T04:58:51Z",
+      "updated_at": "2026-02-22T06:35:20Z",
       "html_url": "https://github.com/vllm-project/vllm/pull/35038",
       "labels": [
         "bug",
@@ -63,22 +156,6 @@
         "speculative-decoding",
         "v1",
         "nvidia"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34839,
-      "title": "[ROCm][CI] Cleaning and restructuring amd-ci legacy pipeline",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-18T18:25:14Z",
-      "updated_at": "2026-02-22T04:38:09Z",
-      "html_url": "https://github.com/vllm-project/vllm/pull/34839",
-      "labels": [
-        "rocm",
-        "needs-rebase",
-        "ci/build"
       ],
       "draft": false
     },
@@ -795,25 +872,6 @@
       "draft": false
     },
     {
-      "number": 32630,
-      "title": "[ROCm][Bugfix] Resolve request_id mismatch and prevent crashes in Disaggregated Serving for moriio kv-connector",
-      "author": "jane-jhu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-20T03:09:42Z",
-      "updated_at": "2026-02-20T06:59:14Z",
-      "html_url": "https://github.com/vllm-project/vllm/pull/32630",
-      "labels": [
-        "bug",
-        "documentation",
-        "rocm",
-        "needs-rebase",
-        "v1",
-        "kv-connector"
-      ],
-      "draft": false
-    },
-    {
       "number": 32877,
       "title": "[Bugfix][Hardware][AMD] Fix ROCM_AITER_FA speculative decoding support",
       "author": "c0de128",
@@ -875,38 +933,6 @@
       "labels": [
         "rocm",
         "ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34740,
-      "title": "[ROCm] Use supports_fp8() for FP8 feature gates instead of arch checks",
-      "author": "laudney",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-17T19:58:37Z",
-      "updated_at": "2026-02-20T04:11:35Z",
-      "html_url": "https://github.com/vllm-project/vllm/pull/34740",
-      "labels": [
-        "rocm",
-        "ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34907,
-      "title": "[ROCm][P/D][MORI][BugFix] Add transfer_id for moriio_connector so moriio_connector to restore P/D functionality",
-      "author": "rasmith",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-19T19:12:38Z",
-      "updated_at": "2026-02-20T03:28:40Z",
-      "html_url": "https://github.com/vllm-project/vllm/pull/34907",
-      "labels": [
-        "bug",
-        "documentation",
-        "rocm",
-        "kv-connector"
       ],
       "draft": false
     },
@@ -1305,37 +1331,6 @@
         "ready"
       ],
       "draft": false
-    },
-    {
-      "number": 34307,
-      "title": "[ROCm] [CI] Add new fusion test cases that are relevant to vLLM IR Ops",
-      "author": "tjtanaa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-11T04:17:18Z",
-      "updated_at": "2026-02-18T19:19:23Z",
-      "html_url": "https://github.com/vllm-project/vllm/pull/34307",
-      "labels": [
-        "rocm",
-        "ready",
-        "needs-rebase",
-        "ci/build"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34776,
-      "title": "[WIP] Add Warmup to `vllm bench throughput`",
-      "author": "micah-wil",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-18T04:44:36Z",
-      "updated_at": "2026-02-18T19:16:46Z",
-      "html_url": "https://github.com/vllm-project/vllm/pull/34776",
-      "labels": [
-        "performance"
-      ],
-      "draft": true
     },
     {
       "number": 34455,

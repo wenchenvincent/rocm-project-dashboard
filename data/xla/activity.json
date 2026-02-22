@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-22T05:51:31Z",
+  "collected_at": "2026-02-22T08:09:19Z",
   "project": "xla",
   "repo": "openxla/xla",
   "pr_velocity": {
@@ -85,7 +85,7 @@
     "bus_factor": null
   },
   "issue_health": {
-    "total_open": 1,
+    "total_open": 10,
     "opened_this_week": 0,
     "closed_this_week": 2,
     "unanswered": 0
@@ -93,31 +93,31 @@
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 19,
+      "succeeded": 17,
       "failed": 0,
-      "success_rate": 95.0
+      "success_rate": 85.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 16,
+      "succeeded": 15,
       "failed": 3,
-      "success_rate": 80.0
+      "success_rate": 75.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 9.6,
-      "p90_minutes": 33.5,
-      "min_minutes": 2.6,
-      "max_minutes": 35.2
+      "median_minutes": 16.6,
+      "p90_minutes": 30.2,
+      "min_minutes": 0.6,
+      "max_minutes": 36.8
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 10.1,
-      "p90_minutes": 19.8,
-      "min_minutes": 8.1,
-      "max_minutes": 22.4
+      "median_minutes": 11.1,
+      "p90_minutes": 15.0,
+      "min_minutes": 0.5,
+      "max_minutes": 15.2
     }
   },
   "release_cadence": {
