@@ -129,6 +129,50 @@ def normalize_pr(pr):
     }
 
 
+def _is_copybara(author):
+    """Check if a PR author is Google's Copybara sync bot."""
+    if not author:
+        return False
+    return "copybara" in author.lower()
+
+
+def resolve_copybara_authors(repo, prs):
+    """For Copybara-authored merged PRs, resolve the original author.
+
+    Google's Copybara bot syncs internal PRs to GitHub with titles like
+    "PR #NNNN: [ROCm] actual title".  We extract the original PR number,
+    look it up in our data or via API, and set ``original_author``.
+    """
+    import re
+
+    # Build map of PR# -> author from non-bot PRs we already have
+    pr_map = {p["number"]: p["author"] for p in prs if not _is_copybara(p["author"])}
+    resolved = 0
+
+    for pr in prs:
+        if not _is_copybara(pr["author"]) or not pr.get("merged"):
+            continue
+        m = re.match(r"PR #(\d+):", pr["title"])
+        if not m:
+            continue
+        orig_num = int(m.group(1))
+        if orig_num in pr_map:
+            pr["original_author"] = pr_map[orig_num]
+            resolved += 1
+        else:
+            # Single API call to look up the original PR
+            orig_pr = gh_api(f"/repos/{repo}/pulls/{orig_num}")
+            if isinstance(orig_pr, dict) and orig_pr.get("user"):
+                orig_author = orig_pr["user"].get("login", "")
+                if orig_author:
+                    pr["original_author"] = orig_author
+                    pr_map[orig_num] = orig_author
+                    resolved += 1
+
+    if resolved:
+        print(f"  Resolved {resolved} Copybara PRs to original authors")
+
+
 def fetch_issues(repo, labels, keywords, keyword_scope=""):
     """Fetch open issues matching filters."""
     issues = []
@@ -299,6 +343,10 @@ def collect_project(name, cfg):
         for fp in fork_prs:
             if fp["number"] not in existing_nums:
                 prs.append(fp)
+
+    # Resolve Copybara-authored PRs to original authors
+    if any(_is_copybara(p.get("author", "")) for p in prs):
+        resolve_copybara_authors(repo, prs)
 
     with open(project_dir / "prs.json", "w") as f:
         json.dump({"collected_at": now_iso(), "prs": prs}, f, indent=2)

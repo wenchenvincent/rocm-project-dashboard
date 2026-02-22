@@ -152,14 +152,19 @@ function buildMiniBar(value, max, colorClass) {
   return '<div class="mini-bar-bg"><div class="mini-bar-fill ' + colorClass + '" style="width:' + pct + '%"></div></div>';
 }
 
+function effectiveAuthor(pr) {
+  return pr.original_author || pr.author;
+}
+
 function getProjectContributors(prs, limit) {
   const map = new Map();
   for (const pr of prs) {
-    if (isBot(pr.author)) continue;
-    if (!map.has(pr.author)) {
-      map.set(pr.author, { author: pr.author, submitted: 0, merged: 0 });
+    var author = effectiveAuthor(pr);
+    if (isBot(author)) continue;
+    if (!map.has(author)) {
+      map.set(author, { author: author, submitted: 0, merged: 0 });
     }
-    const entry = map.get(pr.author);
+    const entry = map.get(author);
     entry.submitted++;
     if (pr.merged) entry.merged++;
   }

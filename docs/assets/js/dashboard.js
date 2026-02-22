@@ -445,7 +445,7 @@ function buildWeekSection(prs, issues, releases, cfg) {
       html += "<tr>";
       html += '<td><a href="' + pr.html_url + '" target="_blank">#' + pr.number + "</a></td>";
       html += '<td class="td-title" title="' + escapeHtml(pr.title) + '">' + escapeHtml(pr.title.slice(0, 60)) + "</td>";
-      html += "<td>" + escapeHtml(pr.author) + "</td>";
+      html += "<td>" + escapeHtml(effectiveAuthor(pr)) + "</td>";
       html += "<td>" + statusBadge(pr) + "</td>";
       html += "</tr>";
     }
@@ -496,7 +496,7 @@ function buildPRSection(prs) {
     html += "<tr>";
     html += '<td><a href="' + pr.html_url + '" target="_blank">#' + pr.number + "</a></td>";
     html += '<td class="td-title" title="' + escapeHtml(pr.title) + '">' + escapeHtml(pr.title.slice(0, 60)) + "</td>";
-    html += "<td>" + escapeHtml(pr.author) + "</td>";
+    html += "<td>" + escapeHtml(effectiveAuthor(pr)) + "</td>";
     html += "<td>" + statusBadge(pr) + "</td>";
     html += "<td>" + relativeTime(pr.updated_at) + "</td>";
     html += "</tr>";

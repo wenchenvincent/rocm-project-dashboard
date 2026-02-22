@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-22T05:50:31Z",
+  "collected_at": "2026-02-22T06:05:26Z",
   "prs": [
     {
       "number": 38088,
@@ -67,7 +67,8 @@
       "updated_at": "2026-02-20T10:04:02Z",
       "html_url": "https://github.com/openxla/xla/pull/38019",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "draganmladjenovic"
     },
     {
       "number": 38023,
@@ -79,7 +80,8 @@
       "updated_at": "2026-02-20T09:58:24Z",
       "html_url": "https://github.com/openxla/xla/pull/38023",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "cj401-amd"
     },
     {
       "number": 38075,
@@ -91,7 +93,8 @@
       "updated_at": "2026-02-20T09:33:35Z",
       "html_url": "https://github.com/openxla/xla/pull/38075",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "nurmukhametov"
     },
     {
       "number": 38076,
@@ -103,7 +106,8 @@
       "updated_at": "2026-02-20T09:26:57Z",
       "html_url": "https://github.com/openxla/xla/pull/38076",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "hsharsha"
     },
     {
       "number": 38028,
@@ -115,7 +119,8 @@
       "updated_at": "2026-02-19T11:05:41Z",
       "html_url": "https://github.com/openxla/xla/pull/38028",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "Eetusjo"
     },
     {
       "number": 30798,
@@ -155,7 +160,8 @@
       "updated_at": "2026-02-18T09:37:59Z",
       "html_url": "https://github.com/openxla/xla/pull/37981",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "nurmukhametov"
     },
     {
       "number": 37074,
@@ -195,7 +201,8 @@
       "updated_at": "2026-02-16T14:15:21Z",
       "html_url": "https://github.com/openxla/xla/pull/37641",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "alekstheod"
     },
     {
       "number": 37643,
@@ -207,7 +214,8 @@
       "updated_at": "2026-02-16T12:12:24Z",
       "html_url": "https://github.com/openxla/xla/pull/37643",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "mfrancepillois"
     },
     {
       "number": 37883,
@@ -219,7 +227,8 @@
       "updated_at": "2026-02-16T09:50:32Z",
       "html_url": "https://github.com/openxla/xla/pull/37883",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "alekstheod"
     },
     {
       "number": 37759,
@@ -231,7 +240,8 @@
       "updated_at": "2026-02-15T18:59:33Z",
       "html_url": "https://github.com/openxla/xla/pull/37759",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "mfrancepillois"
     },
     {
       "number": 37873,
@@ -255,7 +265,8 @@
       "updated_at": "2026-02-12T19:34:57Z",
       "html_url": "https://github.com/openxla/xla/pull/37568",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "i-chaochen"
     },
     {
       "number": 37743,
@@ -267,7 +278,8 @@
       "updated_at": "2026-02-12T19:14:49Z",
       "html_url": "https://github.com/openxla/xla/pull/37743",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "nurmukhametov"
     },
     {
       "number": 33947,
@@ -322,7 +334,8 @@
       "updated_at": "2026-02-06T20:04:55Z",
       "html_url": "https://github.com/openxla/xla/pull/37362",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "pemeliya"
     },
     {
       "number": 37402,
@@ -334,7 +347,8 @@
       "updated_at": "2026-02-05T21:28:10Z",
       "html_url": "https://github.com/openxla/xla/pull/37402",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "alekstheod"
     },
     {
       "number": 37056,
@@ -388,7 +402,8 @@
       "updated_at": "2026-02-05T11:04:29Z",
       "html_url": "https://github.com/openxla/xla/pull/37360",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "nurmukhametov"
     },
     {
       "number": 37292,
@@ -400,7 +415,8 @@
       "updated_at": "2026-02-05T01:07:05Z",
       "html_url": "https://github.com/openxla/xla/pull/37292",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "cj401-amd"
     },
     {
       "number": 37286,
@@ -412,7 +428,8 @@
       "updated_at": "2026-02-04T18:25:25Z",
       "html_url": "https://github.com/openxla/xla/pull/37286",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "nurmukhametov"
     },
     {
       "number": 37276,
@@ -424,7 +441,8 @@
       "updated_at": "2026-02-04T10:29:55Z",
       "html_url": "https://github.com/openxla/xla/pull/37276",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "Eetusjo"
     },
     {
       "number": 37208,
@@ -436,7 +454,8 @@
       "updated_at": "2026-02-03T10:43:29Z",
       "html_url": "https://github.com/openxla/xla/pull/37208",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "nurmukhametov"
     },
     {
       "number": 37150,
@@ -448,7 +467,8 @@
       "updated_at": "2026-02-02T14:54:24Z",
       "html_url": "https://github.com/openxla/xla/pull/37150",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "amd-jianli12"
     },
     {
       "number": 36272,
@@ -460,7 +480,8 @@
       "updated_at": "2026-02-02T14:11:36Z",
       "html_url": "https://github.com/openxla/xla/pull/36272",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "amd-jianli12"
     },
     {
       "number": 37149,
@@ -472,7 +493,8 @@
       "updated_at": "2026-02-02T14:04:42Z",
       "html_url": "https://github.com/openxla/xla/pull/37149",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "nurmukhametov"
     },
     {
       "number": 37057,
@@ -484,7 +506,8 @@
       "updated_at": "2026-01-30T13:50:23Z",
       "html_url": "https://github.com/openxla/xla/pull/37057",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "hsharsha"
     },
     {
       "number": 36874,
@@ -496,7 +519,8 @@
       "updated_at": "2026-01-28T09:09:02Z",
       "html_url": "https://github.com/openxla/xla/pull/36874",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "alekstheod"
     },
     {
       "number": 36805,
@@ -508,7 +532,8 @@
       "updated_at": "2026-01-26T10:09:57Z",
       "html_url": "https://github.com/openxla/xla/pull/36805",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "i-chaochen"
     },
     {
       "number": 36688,
@@ -520,7 +545,8 @@
       "updated_at": "2026-01-22T13:30:54Z",
       "html_url": "https://github.com/openxla/xla/pull/36688",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "nurmukhametov"
     },
     {
       "number": 36689,
@@ -532,7 +558,21 @@
       "updated_at": "2026-01-22T13:10:11Z",
       "html_url": "https://github.com/openxla/xla/pull/36689",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "mfrancepillois"
+    },
+    {
+      "number": 36581,
+      "title": "PR #36418: Fix MIOpen linking for RNN kernels",
+      "author": "copybara-service[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-01-20T00:23:22Z",
+      "updated_at": "2026-01-21T13:44:15Z",
+      "html_url": "https://github.com/openxla/xla/pull/36581",
+      "labels": [],
+      "draft": false,
+      "original_author": "magaonka-amd"
     },
     {
       "number": 36443,
@@ -543,6 +583,19 @@
       "created_at": "2026-01-15T11:50:30Z",
       "updated_at": "2026-01-21T10:38:26Z",
       "html_url": "https://github.com/openxla/xla/pull/36443",
+      "labels": [],
+      "draft": false,
+      "original_author": "nurmukhametov"
+    },
+    {
+      "number": 36623,
+      "title": "[XLA:CPU] Fix platform_dependent_math rsqrt test.",
+      "author": "copybara-service[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-01-20T21:02:53Z",
+      "updated_at": "2026-01-20T22:28:08Z",
+      "html_url": "https://github.com/openxla/xla/pull/36623",
       "labels": [],
       "draft": false
     },
@@ -568,7 +621,8 @@
       "updated_at": "2026-01-14T16:14:34Z",
       "html_url": "https://github.com/openxla/xla/pull/36353",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "phambinhfin"
     },
     {
       "number": 36396,
@@ -580,7 +634,8 @@
       "updated_at": "2026-01-14T15:00:15Z",
       "html_url": "https://github.com/openxla/xla/pull/36396",
       "labels": [],
-      "draft": false
+      "draft": false,
+      "original_author": "alekstheod"
     },
     {
       "number": 14117,
