@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-02-22T08:09:56Z",
+  "collected_at": "2026-02-23T08:18:01Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 13,
-      "merged": 6,
-      "closed": 5
+      "opened": 17,
+      "merged": 7,
+      "closed": 4
     },
     "last_week": {
-      "opened": 46,
-      "merged": 28,
+      "opened": 41,
+      "merged": 27,
       "closed": 7
     },
     "median_time_to_merge_hours": 24.6,
@@ -18,13 +18,13 @@
     "stale_prs": 13
   },
   "contributors": {
-    "active_this_week": 24,
-    "total_contributors": 138,
+    "active_this_week": 27,
+    "total_contributors": 137,
     "top_contributors": [
       {
         "author": "gyohuangxin",
-        "prs_submitted": 25,
-        "prs_merged": 15,
+        "prs_submitted": 24,
+        "prs_merged": 14,
         "commits": 18
       },
       {
@@ -40,6 +40,12 @@
         "commits": 4
       },
       {
+        "author": "sunway513",
+        "prs_submitted": 7,
+        "prs_merged": 1,
+        "commits": 1
+      },
+      {
         "author": "JaxChen29",
         "prs_submitted": 7,
         "prs_merged": 2,
@@ -49,13 +55,7 @@
         "author": "junhaha666",
         "prs_submitted": 7,
         "prs_merged": 5,
-        "commits": 6
-      },
-      {
-        "author": "sunway513",
-        "prs_submitted": 6,
-        "prs_merged": 1,
-        "commits": 1
+        "commits": 5
       },
       {
         "author": "Zzz9990",
@@ -64,36 +64,36 @@
         "commits": 0
       },
       {
-        "author": "juuso-oskari",
+        "author": "anhminhnguyenhoang",
         "prs_submitted": 5,
         "prs_merged": 0,
-        "commits": 1
+        "commits": 0
+      },
+      {
+        "author": "junxiaguo",
+        "prs_submitted": 5,
+        "prs_merged": 0,
+        "commits": 0
       },
       {
         "author": "yadaish",
         "prs_submitted": 5,
         "prs_merged": 2,
         "commits": 0
-      },
-      {
-        "author": "junxiaguo",
-        "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
-    "bus_factor": 7
+    "bus_factor": 8
   },
   "issue_health": {
     "total_open": 92,
-    "opened_this_week": 3,
-    "closed_this_week": 1,
+    "opened_this_week": 4,
+    "closed_this_week": 3,
     "unanswered": 27
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 61.2,
+    "days_since_last": 62.2,
     "avg_interval_days": 54.7,
     "total_releases": 5,
     "latest_tag": "v0.1.9"
