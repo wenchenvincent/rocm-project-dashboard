@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-22T08:19:45Z",
+  "collected_at": "2026-02-23T08:36:36Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
@@ -15,7 +15,7 @@
     },
     "median_time_to_merge_hours": 12.5,
     "merge_count": 30,
-    "stale_prs": 15
+    "stale_prs": 16
   },
   "contributors": {
     "active_this_week": 15,
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 13,
     "opened_this_week": 0,
-    "closed_this_week": 5,
+    "closed_this_week": 6,
     "unanswered": 4
   },
   "ci_health": {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 31.4,
+    "days_since_last": 32.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

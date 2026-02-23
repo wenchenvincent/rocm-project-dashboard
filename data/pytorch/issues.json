@@ -1,6 +1,209 @@
 {
-  "collected_at": "2026-02-22T08:18:37Z",
+  "collected_at": "2026-02-23T08:35:12Z",
   "issues": [
+    {
+      "number": 175520,
+      "title": "Question about torch._dynamo.export and nn.GRU support",
+      "author": "raindrops-0199",
+      "state": "open",
+      "created_at": "2026-02-23T07:53:37Z",
+      "updated_at": "2026-02-23T07:55:35Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/175520",
+      "labels": [
+        "feature",
+        "triaged",
+        "oncall: pt2",
+        "module: dynamo",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 167636,
+      "title": "TorchDynamo Compilation Error: Invalid Stride Handling for FFT in Custom Model During Compilation",
+      "author": "Blooming-Tree",
+      "state": "open",
+      "created_at": "2025-11-12T11:34:05Z",
+      "updated_at": "2026-02-23T05:30:37Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/167636",
+      "labels": [
+        "triaged",
+        "module: fft",
+        "oncall: pt2",
+        "module: inductor"
+      ]
+    },
+    {
+      "number": 141259,
+      "title": "Consider relaxing torch.cond's requirement that the outputs of each branch have matching requires_grad metadata",
+      "author": "galv",
+      "state": "open",
+      "created_at": "2024-11-21T18:34:28Z",
+      "updated_at": "2026-02-23T05:10:33Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/141259",
+      "labels": [
+        "feature",
+        "triaged",
+        "oncall: pt2",
+        "module: higher order operators",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 140171,
+      "title": "Compiling `as_strided` call on a view input errors.",
+      "author": "ysiraichi",
+      "state": "open",
+      "created_at": "2024-11-08T21:02:32Z",
+      "updated_at": "2026-02-23T04:02:32Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/140171",
+      "labels": [
+        "low priority",
+        "triaged",
+        "oncall: pt2",
+        "module: fakeTensor",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 139707,
+      "title": "Adding backend-specific autograd kernel for aten builtin operators breaks `torch.compile`",
+      "author": "iclementine",
+      "state": "open",
+      "created_at": "2024-11-05T03:17:59Z",
+      "updated_at": "2026-02-23T04:00:20Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/139707",
+      "labels": [
+        "triaged",
+        "module: custom-operators",
+        "oncall: pt2",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 175431,
+      "title": "out\u2011of\u2011memory error, although most of GPU memory is still available.",
+      "author": "amd-xiaoyu12",
+      "state": "open",
+      "created_at": "2026-02-20T19:18:06Z",
+      "updated_at": "2026-02-23T01:57:07Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/175431",
+      "labels": [
+        "module: rocm",
+        "module: memory usage",
+        "triaged",
+        "module: CUDACachingAllocator",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 175489,
+      "title": "CPU `F.interpolate(..., antialias=True)` raises NotImplementedError for bfloat16/float16 (bilinear/bicubic)",
+      "author": "gautamvarmadatla",
+      "state": "open",
+      "created_at": "2026-02-22T13:28:53Z",
+      "updated_at": "2026-02-23T00:52:40Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/175489",
+      "labels": [
+        "triage review",
+        "module: nn",
+        "module: cpu",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 150011,
+      "title": "[Windows][CPU] 51 UT of inductor/test_torchinductor_opinfo.py failed with CPP wrapper",
+      "author": "LifengWang",
+      "state": "open",
+      "created_at": "2025-03-26T08:47:23Z",
+      "updated_at": "2026-02-22T22:32:45Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/150011",
+      "labels": [
+        "needs reproduction",
+        "module: windows",
+        "oncall: pt2",
+        "oncall: cpu inductor"
+      ]
+    },
+    {
+      "number": 139152,
+      "title": "Dynamo capture of tensor.data assignment doesn't identical to eager call of tensor.data assignment",
+      "author": "jerrychenhf",
+      "state": "open",
+      "created_at": "2024-10-29T03:51:02Z",
+      "updated_at": "2026-02-22T20:51:09Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/139152",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: aotdispatch",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 137213,
+      "title": "`aot_eager` does not error on mismatching data-types in out tensors.",
+      "author": "ysiraichi",
+      "state": "open",
+      "created_at": "2024-10-02T19:50:09Z",
+      "updated_at": "2026-02-22T20:34:44Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/137213",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: fakeTensor",
+        "module: aotdispatch",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 138264,
+      "title": "`_native_batch_norm_legit`: `aot_eager` backend incorrectly raising an error.",
+      "author": "ysiraichi",
+      "state": "open",
+      "created_at": "2024-10-17T21:15:07Z",
+      "updated_at": "2026-02-22T20:30:55Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/138264",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 115516,
+      "title": "[FakeTensor] FakeTensorMode dispatch won't change generator state",
+      "author": "shingjan",
+      "state": "open",
+      "created_at": "2023-12-11T01:50:38Z",
+      "updated_at": "2026-02-22T18:20:05Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/115516",
+      "labels": [
+        "triaged",
+        "module: random",
+        "needs design",
+        "oncall: pt2",
+        "module: fakeTensor",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 175368,
+      "title": "`F.embedding_bag` segfaults when intermediate offsets exceed indices length",
+      "author": "SilentTester73",
+      "state": "open",
+      "created_at": "2026-02-19T22:32:12Z",
+      "updated_at": "2026-02-22T18:10:25Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/175368",
+      "labels": [
+        "triage review",
+        "module: nn",
+        "actionable",
+        "module: empty tensor",
+        "topic: fuzzer",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 175370,
       "title": "`F.embedding_bag` segfaults with float64 weight and empty offsets",
@@ -288,22 +491,6 @@
       ]
     },
     {
-      "number": 170079,
-      "title": "nn.functional.pad fails to compile on CUDA in case we use \"replicate mode\" and deterministic algorithms",
-      "author": "denix56",
-      "state": "open",
-      "created_at": "2025-12-10T16:14:49Z",
-      "updated_at": "2026-02-21T00:57:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/170079",
-      "labels": [
-        "triaged",
-        "actionable",
-        "oncall: pt2",
-        "module: dynamo",
-        "dynamo-triage-dec2025"
-      ]
-    },
-    {
       "number": 160759,
       "title": "ROCm on Windows python processes do not terminate on their own",
       "author": "ScottTodd",
@@ -314,66 +501,6 @@
       "labels": [
         "module: rocm",
         "triaged"
-      ]
-    },
-    {
-      "number": 171309,
-      "title": "torch._dynamo.exc.PackageError: Cannot resolve a fully qualified name for @classmethod",
-      "author": "PannenetsF",
-      "state": "open",
-      "created_at": "2025-12-26T02:09:35Z",
-      "updated_at": "2026-02-21T00:25:53Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/171309",
-      "labels": [
-        "triaged",
-        "module: dynamo"
-      ]
-    },
-    {
-      "number": 171865,
-      "title": "torch.compile(fullgraph=True) fails with Unsupported error on torch.sparse_csr_tensor",
-      "author": "Blooming-Tree",
-      "state": "open",
-      "created_at": "2026-01-07T11:02:16Z",
-      "updated_at": "2026-02-21T00:15:32Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/171865",
-      "labels": [
-        "module: sparse",
-        "triaged",
-        "needs research",
-        "oncall: pt2",
-        "module: dynamo",
-        "module: graph breaks"
-      ]
-    },
-    {
-      "number": 175435,
-      "title": "[release 2.11][vllm] Quantization - test_pre_quantized_model, torchao",
-      "author": "atalman",
-      "state": "open",
-      "created_at": "2026-02-20T19:27:14Z",
-      "updated_at": "2026-02-20T23:27:52Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/175435",
-      "labels": [
-        "oncall: pt2",
-        "vllm-compile",
-        "module: vllm"
-      ]
-    },
-    {
-      "number": 174166,
-      "title": "torch.compile does not support Python try/except",
-      "author": "Shawn0v0",
-      "state": "open",
-      "created_at": "2026-02-03T06:59:14Z",
-      "updated_at": "2026-02-20T22:59:09Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/174166",
-      "labels": [
-        "good first issue",
-        "triaged",
-        "oncall: pt2",
-        "module: dynamo",
-        "dynamo-triage-dec2025"
       ]
     },
     {
@@ -392,23 +519,6 @@
       ]
     },
     {
-      "number": 175368,
-      "title": "`F.embedding_bag` segfaults when intermediate offsets exceed indices length",
-      "author": "SilentTester73",
-      "state": "open",
-      "created_at": "2026-02-19T22:32:12Z",
-      "updated_at": "2026-02-20T21:04:21Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/175368",
-      "labels": [
-        "triage review",
-        "module: nn",
-        "actionable",
-        "module: empty tensor",
-        "topic: fuzzer",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 172747,
       "title": "`torch.compile` silent bug in GGUF dequant, possibly because of `view(dtype)`",
       "author": "woct0rdho",
@@ -422,38 +532,6 @@
         "oncall: pt2",
         "module: dynamic shapes",
         "module: inductor"
-      ]
-    },
-    {
-      "number": 175431,
-      "title": "out\u2011of\u2011memory error, although most of GPU memory is still available.",
-      "author": "amd-xiaoyu12",
-      "state": "open",
-      "created_at": "2026-02-20T19:18:06Z",
-      "updated_at": "2026-02-20T19:23:23Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/175431",
-      "labels": [
-        "module: rocm",
-        "module: memory usage",
-        "triaged",
-        "module: CUDACachingAllocator",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 103650,
-      "title": "AOT autograd: Avoid dependency on strides for manual regeneration of outputs that are aliased to inputs",
-      "author": "karthiknagasub",
-      "state": "open",
-      "created_at": "2023-06-15T04:33:24Z",
-      "updated_at": "2026-02-20T18:52:46Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/103650",
-      "labels": [
-        "feature",
-        "triaged",
-        "oncall: pt2",
-        "module: aotdispatch",
-        "module: pt2-dispatcher"
       ]
     },
     {
@@ -485,36 +563,6 @@
         "module: rocm",
         "triaged",
         "actionable"
-      ]
-    },
-    {
-      "number": 175372,
-      "title": "python property setter ignored when assigning nn.Parameter() to nn.Module",
-      "author": "profPlum",
-      "state": "open",
-      "created_at": "2026-02-19T22:48:07Z",
-      "updated_at": "2026-02-20T12:49:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/175372",
-      "labels": [
-        "module: nn",
-        "triaged",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 175058,
-      "title": "torch.compile VRAM usage regression between 2.9.1 and 2.10.0",
-      "author": "dxqb",
-      "state": "open",
-      "created_at": "2026-02-15T17:14:00Z",
-      "updated_at": "2026-02-20T03:07:42Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/175058",
-      "labels": [
-        "high priority",
-        "triage review",
-        "needs reproduction",
-        "module: memory usage",
-        "oncall: pt2"
       ]
     },
     {
@@ -746,22 +794,6 @@
         "triaged",
         "oncall: pt2",
         "module: functorch"
-      ]
-    },
-    {
-      "number": 156649,
-      "title": "[dynamo] torch.randint_like on DTensor does not work with compile",
-      "author": "nathan-az",
-      "state": "open",
-      "created_at": "2025-06-23T22:23:02Z",
-      "updated_at": "2026-02-17T18:17:53Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/156649",
-      "labels": [
-        "oncall: distributed",
-        "triaged",
-        "oncall: pt2",
-        "module: dynamo",
-        "module: dtensor"
       ]
     }
   ]

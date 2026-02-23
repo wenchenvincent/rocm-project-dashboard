@@ -1,6 +1,68 @@
 {
-  "collected_at": "2026-02-22T08:18:39Z",
+  "collected_at": "2026-02-23T08:35:15Z",
   "prs": [
+    {
+      "number": 34702,
+      "title": "[ROCm] Add script for running bazel tests on ROCm",
+      "author": "charleshofer",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-29T16:46:55Z",
+      "updated_at": "2026-02-23T08:28:47Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/34702",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 35315,
+      "title": "Fix jax utests with rocm",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-23T07:55:39Z",
+      "updated_at": "2026-02-23T08:10:47Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35315",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 34602,
+      "title": "[ROCm] Fix and enable Pallas ops tests on ROCm",
+      "author": "phambinhfin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-23T15:26:33Z",
+      "updated_at": "2026-02-23T08:08:23Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/34602",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35251,
+      "title": "[WIP ROCm] Migrate rocm wheel build",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-19T18:19:43Z",
+      "updated_at": "2026-02-23T07:45:19Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35251",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 35111,
+      "title": "[ROCm] Add ROCm support for eigh export backwards compatibility tests",
+      "author": "AratiGanesh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-16T16:03:02Z",
+      "updated_at": "2026-02-23T04:46:13Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35111",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 35288,
       "title": "[ROCm] Implement Mosaic GPU detection and Auto-Skips",
@@ -26,18 +88,6 @@
       "draft": true
     },
     {
-      "number": 35251,
-      "title": "[WIP ROCm] Migrate rocm wheel build",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-19T18:19:43Z",
-      "updated_at": "2026-02-19T18:45:45Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35251",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 35102,
       "title": "[ROCm] Set release rpaths to rocm so targets",
       "author": "alekstheod",
@@ -46,18 +96,6 @@
       "created_at": "2026-02-16T08:05:22Z",
       "updated_at": "2026-02-19T17:38:46Z",
       "html_url": "https://github.com/jax-ml/jax/pull/35102",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 34702,
-      "title": "[ROCm] Add script for running bazel tests on ROCm",
-      "author": "charleshofer",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-29T16:46:55Z",
-      "updated_at": "2026-02-19T11:37:43Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34702",
       "labels": [],
       "draft": false
     },
@@ -74,18 +112,6 @@
         "kokoro:force-run",
         "pull ready"
       ],
-      "draft": false
-    },
-    {
-      "number": 35111,
-      "title": "[ROCm] Add ROCm support for eigh export backwards compatibility tests",
-      "author": "AratiGanesh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-16T16:03:02Z",
-      "updated_at": "2026-02-18T09:56:37Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35111",
-      "labels": [],
       "draft": false
     },
     {
@@ -516,20 +542,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34602,
-      "title": "[ROCm] Fix and enable Pallas ops tests on ROCm",
-      "author": "phambinhfin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-23T15:26:33Z",
-      "updated_at": "2026-02-12T08:11:28Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34602",
-      "labels": [
-        "AMD GPU"
       ],
       "draft": false
     },

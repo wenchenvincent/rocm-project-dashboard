@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-22T08:19:16Z",
+  "collected_at": "2026-02-23T08:35:57Z",
   "prs": [
     {
       "number": 228,
@@ -8,8 +8,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-21T13:40:19Z",
-      "updated_at": "2026-02-21T14:10:57Z",
+      "updated_at": "2026-02-23T08:19:24Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/228",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 220,
+      "title": "Enable Triton MXFP4 MoE on gfx950 for GPT-OSS",
+      "author": "ChuanLi1101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-16T08:48:28Z",
+      "updated_at": "2026-02-23T06:30:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/220",
       "labels": [],
       "draft": false
     },
@@ -72,18 +84,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/223",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 220,
-      "title": "Enable Triton MXFP4 MoE on gfx950 for GPT-OSS",
-      "author": "ChuanLi1101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-16T08:48:28Z",
-      "updated_at": "2026-02-19T03:56:02Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/220",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 222,
