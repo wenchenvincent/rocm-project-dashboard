@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-02-23T08:37:45Z",
+  "collected_at": "2026-02-24T08:36:05Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 10,
+      "opened": 11,
       "merged": 8,
       "closed": 1
     },
     "last_week": {
-      "opened": 4,
-      "merged": 3,
+      "opened": 2,
+      "merged": 4,
       "closed": 1
     },
-    "median_time_to_merge_hours": 143.4,
-    "merge_count": 11,
+    "median_time_to_merge_hours": 132.9,
+    "merge_count": 12,
     "stale_prs": 7
   },
   "contributors": {
-    "active_this_week": 8,
+    "active_this_week": 7,
     "total_contributors": 14,
     "top_contributors": [
       {
         "author": "ipanfilo",
-        "prs_submitted": 28,
+        "prs_submitted": 29,
         "prs_merged": 26,
         "commits": 3
       },
       {
         "author": "Micky774",
         "prs_submitted": 20,
-        "prs_merged": 14,
-        "commits": 7
+        "prs_merged": 15,
+        "commits": 8
       },
       {
         "author": "VeeraRajasekhar",
@@ -82,18 +82,18 @@
         "commits": 0
       }
     ],
-    "bus_factor": 3
+    "bus_factor": 2
   },
   "issue_health": {
     "total_open": 7,
     "opened_this_week": 0,
-    "closed_this_week": 1,
+    "closed_this_week": 0,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 18.3,
+    "days_since_last": 19.3,
     "avg_interval_days": 54.8,
     "total_releases": 5,
     "latest_tag": "v2.4_rocm"
