@@ -1,6 +1,19 @@
 {
-  "collected_at": "2026-02-24T08:34:14Z",
+  "collected_at": "2026-02-25T08:35:37Z",
   "issues": [
+    {
+      "number": 359,
+      "title": "Enable FP8 (E4M3/E5M2) kernel execution for Radeon AI PRO R9700 (gfx1201, RDNA4)",
+      "author": "meven3000",
+      "state": "open",
+      "created_at": "2025-11-02T00:02:35Z",
+      "updated_at": "2026-02-24T18:13:59Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/issues/359",
+      "labels": [
+        "enhancement",
+        "status: triage"
+      ]
+    },
     {
       "number": 396,
       "title": "ValueError: ROCm is not supported by requested frameworks: ['pytorch']",
@@ -20,19 +33,6 @@
       "updated_at": "2026-02-16T20:26:02Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/issues/73",
       "labels": []
-    },
-    {
-      "number": 359,
-      "title": "Enable FP8 (E4M3/E5M2) kernel execution for Radeon AI PRO R9700 (gfx1201, RDNA4)",
-      "author": "meven3000",
-      "state": "open",
-      "created_at": "2025-11-02T00:02:35Z",
-      "updated_at": "2025-12-03T14:28:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/issues/359",
-      "labels": [
-        "enhancement",
-        "status: triage"
-      ]
     },
     {
       "number": 215,
