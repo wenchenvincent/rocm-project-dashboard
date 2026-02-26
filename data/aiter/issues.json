@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-25T08:35:25Z",
+  "collected_at": "2026-02-26T08:33:47Z",
   "issues": [
     {
       "number": 2102,
@@ -32,18 +32,6 @@
       "updated_at": "2026-02-25T03:02:02Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2098",
       "labels": []
-    },
-    {
-      "number": 2099,
-      "title": "CI prebuild step not actually compiling kernels - causes JIT timeouts on GPU nodes",
-      "author": "okakarpa",
-      "state": "open",
-      "created_at": "2026-02-24T22:39:46Z",
-      "updated_at": "2026-02-25T02:38:55Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2099",
-      "labels": [
-        "frameworks-devops"
-      ]
     },
     {
       "number": 2093,
