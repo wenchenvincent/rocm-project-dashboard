@@ -1,6 +1,126 @@
 {
-  "collected_at": "2026-02-27T08:29:17Z",
+  "collected_at": "2026-02-28T08:16:00Z",
   "prs": [
+    {
+      "number": 9607,
+      "title": "[AMD][BACKEND] Add LLVM diagnostic handler for early LDS resource check",
+      "author": "claude-lgtm",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-28T07:47:29Z",
+      "updated_at": "2026-02-28T07:47:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9607",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9561,
+      "title": "[AMD]Support ScaleFactor=16 and E4M3 Scale and Add scale_factor to DotScaledOp",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-25T02:43:25Z",
+      "updated_at": "2026-02-28T07:33:28Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9561",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9605,
+      "title": "[AMD] Fix thread predicate in AtomicCASOpConversion for tensor operands",
+      "author": "brucechanglongxu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-28T05:54:21Z",
+      "updated_at": "2026-02-28T06:25:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9605",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9604,
+      "title": "[AMD] Add num_threads, num_warps, and smid to tl.extra.hip",
+      "author": "brucechanglongxu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-28T05:24:38Z",
+      "updated_at": "2026-02-28T05:24:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9604",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9411,
+      "title": "[AMD][WIP] LDS Prefetch Pass to support slicing M, N",
+      "author": "guacamoleo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-09T15:22:29Z",
+      "updated_at": "2026-02-27T20:55:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9411",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9593,
+      "title": "[AMD] ConvertWarpPipeline: recognize AsyncWaitOp and fix bars alignment",
+      "author": "Hardcode84",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-27T15:49:31Z",
+      "updated_at": "2026-02-27T20:09:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9593",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9586,
+      "title": "[AMD] Drop unused logic and fix prediction for L2 prefetch",
+      "author": "ravil-mobile",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-26T14:12:20Z",
+      "updated_at": "2026-02-27T20:08:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9586",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9595,
+      "title": "[AMD] Add support for partitioned tensors in TDM",
+      "author": "plognjen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-27T17:04:57Z",
+      "updated_at": "2026-02-27T17:18:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9595",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9418,
+      "title": "[AMD][Membar] Add MemAsyncLocalWriteOpTrait for cleaner async ops filtering.",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-10T16:07:11Z",
+      "updated_at": "2026-02-27T15:29:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9418",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9585,
+      "title": "[AMD] Fixed `make_desc` lowering - i.e., findEncodingFromUsers ",
+      "author": "ravil-mobile",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-26T13:47:27Z",
+      "updated_at": "2026-02-27T14:21:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9585",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 9562,
       "title": "Add maxnreg support for ROCm/AMD backend",
@@ -26,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 9586,
-      "title": "[AMD] Drop unused logic and fix prediction for L2 prefetch",
-      "author": "ravil-mobile",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-26T14:12:20Z",
-      "updated_at": "2026-02-27T04:02:33Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9586",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9567,
       "title": "[AMD][BACKEND] Fix mixed types MFMA fp8 instruction selection bug",
       "author": "pabloantoniom",
@@ -48,18 +156,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9567",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 9411,
-      "title": "[AMD][WIP] LDS Prefetch Pass to support slicing M, N",
-      "author": "guacamoleo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-09T15:22:29Z",
-      "updated_at": "2026-02-26T22:10:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9411",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 9589,
@@ -74,18 +170,6 @@
       "draft": false
     },
     {
-      "number": 9585,
-      "title": "[AMD] Fixed `make_desc` lowering - i.e., findEncodingFromUsers ",
-      "author": "ravil-mobile",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-26T13:47:27Z",
-      "updated_at": "2026-02-26T17:19:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9585",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 9555,
       "title": "[AMD][BACKEND] Reintroduce old histogram lowering as AMD pattern",
       "author": "AlexAUT",
@@ -94,30 +178,6 @@
       "created_at": "2026-02-24T11:41:46Z",
       "updated_at": "2026-02-25T22:25:44Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9555",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9561,
-      "title": "[AMD]Support ScaleFactor=16 and E4M3 Scale and Add scale_factor to DotScaledOp",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-25T02:43:25Z",
-      "updated_at": "2026-02-25T18:44:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9561",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9418,
-      "title": "[AMD][Membar] Add MemAsyncLocalWriteOpTrait for cleaner async ops filtering.",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-10T16:07:11Z",
-      "updated_at": "2026-02-23T21:20:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9418",
       "labels": [],
       "draft": false
     },
@@ -458,30 +518,6 @@
       "draft": false
     },
     {
-      "number": 9427,
-      "title": "[AMD][Gluon] Implement 8 wave F16 FA PingPong kernel.",
-      "author": "raikonenfnu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-10T23:12:48Z",
-      "updated_at": "2026-02-10T23:50:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9427",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9354,
-      "title": "[AMD] Broadcasting in v_perm based conversion",
-      "author": "alefimov-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-02T17:18:36Z",
-      "updated_at": "2026-02-09T23:03:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9354",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9388,
       "title": "[AMD][Test] Reenable test_hooks() for HIP CDNA2",
       "author": "yiqian1",
@@ -684,18 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/7147",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 6714,
-      "title": "[DRAFT][AMD][Backend] Enable 2:4 Structured Sparsity for Triton-AMD",
-      "author": "SamGinzburg",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-05-05T17:33:08Z",
-      "updated_at": "2025-06-13T16:48:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/6714",
-      "labels": [],
-      "draft": true
     }
   ]
 }

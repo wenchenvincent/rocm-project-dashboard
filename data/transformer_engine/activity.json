@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-02-27T08:31:08Z",
+  "collected_at": "2026-02-28T08:18:10Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 12,
+      "opened": 8,
       "merged": 6,
       "closed": 2
     },
     "last_week": {
-      "opened": 5,
-      "merged": 5,
+      "opened": 10,
+      "merged": 8,
       "closed": 1
     },
-    "median_time_to_merge_hours": 122.4,
-    "merge_count": 11,
-    "stale_prs": 7
+    "median_time_to_merge_hours": 152.7,
+    "merge_count": 14,
+    "stale_prs": 8
   },
   "contributors": {
-    "active_this_week": 5,
-    "total_contributors": 14,
+    "active_this_week": 6,
+    "total_contributors": 15,
     "top_contributors": [
       {
         "author": "ipanfilo",
@@ -30,32 +30,32 @@
       {
         "author": "Micky774",
         "prs_submitted": 21,
-        "prs_merged": 15,
+        "prs_merged": 17,
         "commits": 8
       },
       {
         "author": "VeeraRajasekhar",
         "prs_submitted": 13,
         "prs_merged": 11,
-        "commits": 3
+        "commits": 2
       },
       {
         "author": "matthiasdiener",
         "prs_submitted": 10,
-        "prs_merged": 8,
-        "commits": 3
-      },
-      {
-        "author": "alextmagro",
-        "prs_submitted": 8,
-        "prs_merged": 6,
-        "commits": 1
+        "prs_merged": 9,
+        "commits": 4
       },
       {
         "author": "sudhu2k",
         "prs_submitted": 7,
         "prs_merged": 7,
-        "commits": 2
+        "commits": 1
+      },
+      {
+        "author": "alextmagro",
+        "prs_submitted": 6,
+        "prs_merged": 4,
+        "commits": 1
       },
       {
         "author": "wangye805",
@@ -82,7 +82,7 @@
         "commits": 0
       }
     ],
-    "bus_factor": 3
+    "bus_factor": 2
   },
   "issue_health": {
     "total_open": 7,
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 22.3,
+    "days_since_last": 23.3,
     "avg_interval_days": 54.8,
     "total_releases": 5,
     "latest_tag": "v2.4_rocm"
