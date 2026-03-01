@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-02-28T08:16:28Z",
+  "collected_at": "2026-03-01T08:18:49Z",
   "prs": [
+    {
+      "number": 466,
+      "title": "Add ROCm mismatch bypass env flag",
+      "author": "jiagaoxiang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-28T00:06:25Z",
+      "updated_at": "2026-02-28T09:27:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/466",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 461,
       "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
@@ -10,18 +22,6 @@
       "created_at": "2026-02-24T20:34:49Z",
       "updated_at": "2026-02-28T03:30:56Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 466,
-      "title": "Add ROCm mismatch bypass env flag",
-      "author": "jiagaoxiang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-28T00:06:25Z",
-      "updated_at": "2026-02-28T03:06:05Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/466",
       "labels": [],
       "draft": false
     },
