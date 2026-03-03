@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-02T08:32:40Z",
+  "collected_at": "2026-03-03T08:29:20Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
@@ -9,28 +9,28 @@
       "closed": 0
     },
     "last_week": {
-      "opened": 13,
-      "merged": 18,
+      "opened": 15,
+      "merged": 16,
       "closed": 0
     },
     "median_time_to_merge_hours": 18.6,
     "merge_count": 30,
-    "stale_prs": 16
+    "stale_prs": 13
   },
   "contributors": {
-    "active_this_week": 13,
+    "active_this_week": 14,
     "total_contributors": 33,
     "top_contributors": [
-      {
-        "author": "antiagainst",
-        "prs_submitted": 6,
-        "prs_merged": 5,
-        "commits": 0
-      },
       {
         "author": "ravil-mobile",
         "prs_submitted": 5,
         "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "antiagainst",
+        "prs_submitted": 5,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -58,6 +58,12 @@
         "commits": 0
       },
       {
+        "author": "alefimov-amd",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
         "author": "brucechanglongxu",
         "prs_submitted": 2,
         "prs_merged": 0,
@@ -73,12 +79,6 @@
         "author": "PMylon",
         "prs_submitted": 2,
         "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "yangshuxin",
-        "prs_submitted": 2,
-        "prs_merged": 2,
         "commits": 0
       }
     ],
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 39.4,
+    "days_since_last": 40.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"
