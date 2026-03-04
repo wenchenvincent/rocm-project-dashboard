@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-03-03T08:28:25Z",
+  "collected_at": "2026-03-04T08:25:57Z",
   "prs": [
+    {
+      "number": 9561,
+      "title": "[AMD]Support ScaleFactor=16 and E4M3 Scale and Add scale_factor to DotScaledOp",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-25T02:43:25Z",
+      "updated_at": "2026-03-04T02:27:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9561",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9624,
+      "title": "[AMD] Add fence to workaround MachineSink issue",
+      "author": "tyb0807",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-03T09:26:35Z",
+      "updated_at": "2026-03-04T02:02:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9624",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9631,
+      "title": "[AMD ] Fix a crash in SWP.",
+      "author": "yangshuxin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-03T20:21:16Z",
+      "updated_at": "2026-03-03T21:30:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9631",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9628,
+      "title": "[AMD] Add gfx906 (Radeon VII / MI50 / MI60) target",
+      "author": "LunNova",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-03T19:16:51Z",
+      "updated_at": "2026-03-03T21:13:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9628",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9629,
+      "title": "[AMD] Fix two broken dot lit tests that missed -COUNT-",
+      "author": "LunNova",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-03T19:30:22Z",
+      "updated_at": "2026-03-03T21:09:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9629",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9618,
+      "title": "[AMD] Fix BlockPingpong for non-MFMA dot.",
+      "author": "alefimov-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-02T16:45:10Z",
+      "updated_at": "2026-03-03T18:14:08Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9618",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9619,
       "title": "[AMD] Enable buffer ops for i64 offsets in ConvertToBufferOps",
@@ -24,30 +96,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9595",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 9561,
-      "title": "[AMD]Support ScaleFactor=16 and E4M3 Scale and Add scale_factor to DotScaledOp",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-25T02:43:25Z",
-      "updated_at": "2026-03-02T23:11:13Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9561",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9618,
-      "title": "[AMD] Fix BlockPingpong for non-MFMA dot.",
-      "author": "alefimov-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T16:45:10Z",
-      "updated_at": "2026-03-02T19:38:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9618",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 9614,
@@ -490,54 +538,6 @@
       "created_at": "2026-02-16T14:13:22Z",
       "updated_at": "2026-02-16T14:56:35Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9476",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9448,
-      "title": "[AMD] Add enableMISched option to MIR swap pipeline",
-      "author": "tyb0807",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-13T00:21:45Z",
-      "updated_at": "2026-02-13T18:15:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9448",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9447,
-      "title": "[AMD] Disable True16 for assembler on gfx11",
-      "author": "ptrojahn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-13T00:17:55Z",
-      "updated_at": "2026-02-13T02:39:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9447",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9440,
-      "title": "[AMD] Update gfx1250 MXFP FA example kernel",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-12T10:20:50Z",
-      "updated_at": "2026-02-12T17:13:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9440",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9362,
-      "title": "[AMD][Backend] Add LLVM lowering support for PartitionedSharedEncodingAttr",
-      "author": "plognjen",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-03T16:15:55Z",
-      "updated_at": "2026-02-11T17:46:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9362",
       "labels": [],
       "draft": false
     },
