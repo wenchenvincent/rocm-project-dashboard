@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-03-04T08:25:57Z",
+  "collected_at": "2026-03-05T08:27:54Z",
   "prs": [
+    {
+      "number": 9651,
+      "title": "[AMD]Add GFX1250 Target Info",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-05T08:26:15Z",
+      "updated_at": "2026-03-05T08:26:15Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9651",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 9561,
       "title": "[AMD]Support ScaleFactor=16 and E4M3 Scale and Add scale_factor to DotScaledOp",
@@ -8,8 +20,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-25T02:43:25Z",
-      "updated_at": "2026-03-04T02:27:39Z",
+      "updated_at": "2026-03-05T08:22:10Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9561",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9646,
+      "title": "[AMD] Use common path for gfx942 scaled dot emulation",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-05T00:16:44Z",
+      "updated_at": "2026-03-05T06:23:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9646",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9388,
+      "title": "[AMD][Test] Reenable test_hooks() for HIP CDNA2",
+      "author": "yiqian1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-05T22:57:23Z",
+      "updated_at": "2026-03-05T04:09:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9388",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9595,
+      "title": "[AMD] Add support for partitioned tensors in TDM",
+      "author": "plognjen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-27T17:04:57Z",
+      "updated_at": "2026-03-04T18:07:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9595",
       "labels": [],
       "draft": false
     },
@@ -84,18 +132,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9619",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 9595,
-      "title": "[AMD] Add support for partitioned tensors in TDM",
-      "author": "plognjen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-27T17:04:57Z",
-      "updated_at": "2026-03-03T00:00:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9595",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 9614,
@@ -542,18 +578,6 @@
       "draft": false
     },
     {
-      "number": 9388,
-      "title": "[AMD][Test] Reenable test_hooks() for HIP CDNA2",
-      "author": "yiqian1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-05T22:57:23Z",
-      "updated_at": "2026-02-05T22:57:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9388",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 9195,
       "title": "[AMD][mxfp4] ttg::Fp4ToFpOp add support for FP4 upcast to FP32",
       "author": "jwu10003",
@@ -696,30 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/8304",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 7616,
-      "title": "[AMD] Enable global_load_tr_b128 on gfx12",
-      "author": "ptrojahn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-07-23T11:54:15Z",
-      "updated_at": "2025-08-01T21:22:33Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/7616",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 7721,
-      "title": "[WIP] [AMD] Investigate custom epilogue peeling",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-07-31T18:19:56Z",
-      "updated_at": "2025-08-01T09:31:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/7721",
-      "labels": [],
-      "draft": true
     }
   ]
 }
