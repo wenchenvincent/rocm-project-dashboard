@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-03-06T08:24:51Z",
+  "collected_at": "2026-03-07T08:17:08Z",
   "prs": [
+    {
+      "number": 9628,
+      "title": "[AMD] Add GCN5.1 / gfx906 target",
+      "author": "LunNova",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-03T19:16:51Z",
+      "updated_at": "2026-03-07T00:42:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9628",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9655,
+      "title": "[AMD][FpSan] Fix dot emulation for MFMA/WMMA encodings",
+      "author": "kelesvol",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-05T13:38:53Z",
+      "updated_at": "2026-03-06T22:54:16Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9655",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9666,
+      "title": "[AMD] Enable loop unrolling for Gluon warp-pipelined kernels",
+      "author": "Hardcode84",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T19:12:54Z",
+      "updated_at": "2026-03-06T22:06:08Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9666",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9561,
       "title": "[AMD]Support ScaleFactor=16 and E4M3 Scale for DotScaledOp",
@@ -8,22 +44,58 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-25T02:43:25Z",
-      "updated_at": "2026-03-06T07:29:21Z",
+      "updated_at": "2026-03-06T20:49:00Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9561",
       "labels": [],
       "draft": false
     },
     {
-      "number": 9628,
-      "title": "[AMD] Add gfx906 (Radeon VII / MI50 / MI60) target",
-      "author": "LunNova",
+      "number": 9664,
+      "title": "[AMD] Fix gluon tests on RDNA",
+      "author": "ptrojahn",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-06T14:08:59Z",
+      "updated_at": "2026-03-06T19:29:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9664",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9595,
+      "title": "[AMD] Add support for partitioned tensors in TDM",
+      "author": "plognjen",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-03T19:16:51Z",
-      "updated_at": "2026-03-06T06:42:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9628",
+      "created_at": "2026-02-27T17:04:57Z",
+      "updated_at": "2026-03-06T12:17:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9595",
       "labels": [],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 9662,
+      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T09:33:39Z",
+      "updated_at": "2026-03-06T12:16:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9541,
+      "title": "[AMD] CanonicalizePointers: Handle different base pointers and offsets",
+      "author": "kelesvol",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-23T12:07:17Z",
+      "updated_at": "2026-03-06T09:41:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9541",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 9585,
@@ -74,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 9655,
-      "title": "[AMD][FpSan] Fix dot emulation for MFMA/WMMA encodings",
-      "author": "kelesvol",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-05T13:38:53Z",
-      "updated_at": "2026-03-05T23:11:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9655",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9646,
       "title": "[AMD] Use common path for gfx942 scaled dot emulation",
       "author": "antiagainst",
@@ -94,18 +154,6 @@
       "created_at": "2026-03-05T00:16:44Z",
       "updated_at": "2026-03-05T18:08:49Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9646",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9541,
-      "title": "[AMD] CanonicalizePointers: Handle different base pointers and offsets",
-      "author": "kelesvol",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-23T12:07:17Z",
-      "updated_at": "2026-03-05T17:37:53Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9541",
       "labels": [],
       "draft": false
     },
@@ -144,18 +192,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9388",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 9595,
-      "title": "[AMD] Add support for partitioned tensors in TDM",
-      "author": "plognjen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-27T17:04:57Z",
-      "updated_at": "2026-03-04T18:07:45Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9595",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 9624,
@@ -502,42 +538,6 @@
       "created_at": "2026-02-18T04:04:49Z",
       "updated_at": "2026-02-18T04:35:09Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9496",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9442,
-      "title": "[AMD][BACKEND] Fix OOM bug in pipelining with padded layout async copy on GFX950",
-      "author": "pabloantoniom",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-12T15:36:21Z",
-      "updated_at": "2026-02-18T02:06:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9442",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9494,
-      "title": "Revert \"[AMD] Don't use s_waitcnt to lower global barrier for now\"",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-18T01:12:02Z",
-      "updated_at": "2026-02-18T01:55:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9494",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9490,
-      "title": "[AMD]Fix a bug about CGA-layout in AccelerateAMDMatmul. ",
-      "author": "yangshuxin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-17T17:59:02Z",
-      "updated_at": "2026-02-17T20:17:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9490",
       "labels": [],
       "draft": false
     },
