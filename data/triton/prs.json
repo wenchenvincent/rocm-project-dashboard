@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-03-08T08:17:59Z",
+  "collected_at": "2026-03-09T08:31:29Z",
   "prs": [
+    {
+      "number": 9662,
+      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T09:33:39Z",
+      "updated_at": "2026-03-09T08:24:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9664,
+      "title": "[AMD] Fix gluon tests on RDNA",
+      "author": "ptrojahn",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-06T14:08:59Z",
+      "updated_at": "2026-03-09T07:53:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9664",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9673,
+      "title": "Revert \"[AMD][BACKEND] Cherry pick pr 9487 to rel 3.7\"",
+      "author": "atalman",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-08T18:51:43Z",
+      "updated_at": "2026-03-08T19:24:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9673",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9628,
       "title": "[AMD] Add GCN5.1 / gfx906 target",
@@ -50,18 +86,6 @@
       "draft": false
     },
     {
-      "number": 9664,
-      "title": "[AMD] Fix gluon tests on RDNA",
-      "author": "ptrojahn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-06T14:08:59Z",
-      "updated_at": "2026-03-06T19:29:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9664",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9595,
       "title": "[AMD] Add support for partitioned tensors in TDM",
       "author": "plognjen",
@@ -70,18 +94,6 @@
       "created_at": "2026-02-27T17:04:57Z",
       "updated_at": "2026-03-06T12:17:06Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9595",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9662,
-      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T09:33:39Z",
-      "updated_at": "2026-03-06T12:16:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9662",
       "labels": [],
       "draft": false
     },
@@ -528,18 +540,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9260",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 9496,
-      "title": "[AMD][gfx1250] Fix tensordesc index after kernel launch change",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-18T04:04:49Z",
-      "updated_at": "2026-02-18T04:35:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9496",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 9195,
