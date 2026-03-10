@@ -1,26 +1,32 @@
 {
-  "collected_at": "2026-03-09T08:32:18Z",
+  "collected_at": "2026-03-10T08:29:14Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
       "opened": 14,
-      "merged": 14,
+      "merged": 17,
       "closed": 0
     },
     "last_week": {
-      "opened": 16,
-      "merged": 7,
+      "opened": 15,
+      "merged": 6,
       "closed": 0
     },
-    "median_time_to_merge_hours": 24.8,
+    "median_time_to_merge_hours": 30.8,
     "merge_count": 30,
-    "stale_prs": 15
+    "stale_prs": 16
   },
   "contributors": {
-    "active_this_week": 18,
+    "active_this_week": 19,
     "total_contributors": 36,
     "top_contributors": [
+      {
+        "author": "AlexAUT",
+        "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 0
+      },
       {
         "author": "ravil-mobile",
         "prs_submitted": 4,
@@ -34,21 +40,21 @@
         "commits": 0
       },
       {
-        "author": "AlexAUT",
-        "prs_submitted": 4,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
         "author": "knwng",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 3,
         "commits": 0
       },
       {
         "author": "borontion",
         "prs_submitted": 3,
         "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "kelesvol",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -64,30 +70,24 @@
         "commits": 0
       },
       {
-        "author": "kelesvol",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
         "author": "Hardcode84",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "plognjen",
+        "author": "brucechanglongxu",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       }
     ],
-    "bus_factor": 7
+    "bus_factor": 6
   },
   "issue_health": {
     "total_open": 13,
     "opened_this_week": 0,
-    "closed_this_week": 2,
+    "closed_this_week": 5,
     "unanswered": 4
   },
   "ci_health": {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 46.4,
+    "days_since_last": 47.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

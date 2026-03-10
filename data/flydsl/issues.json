@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-03-09T08:31:48Z",
+  "collected_at": "2026-03-10T08:28:40Z",
   "issues": [
+    {
+      "number": 185,
+      "title": "[Issue]: Control flow is not supported bin flyc.jit",
+      "author": "ruanjm",
+      "state": "open",
+      "created_at": "2026-03-10T06:20:20Z",
+      "updated_at": "2026-03-10T06:29:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/185",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 162,
       "title": "MI350 Compute Bound kernel Boost mode",
