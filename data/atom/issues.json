@@ -1,24 +1,24 @@
 {
-  "collected_at": "2026-03-10T08:28:34Z",
+  "collected_at": "2026-03-11T08:28:23Z",
   "issues": [
-    {
-      "number": 295,
-      "title": "[RFC] Introduce ATOM as model implementation backend of SGLang",
-      "author": "zejunchen-zejun",
-      "state": "open",
-      "created_at": "2026-03-10T08:09:15Z",
-      "updated_at": "2026-03-10T08:25:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/295",
-      "labels": []
-    },
     {
       "number": 255,
       "title": "CI/CD: Add incremental test coverage for Plugin Mode (vLLM/SGLang)",
       "author": "sunway513",
       "state": "open",
       "created_at": "2026-03-03T00:49:17Z",
-      "updated_at": "2026-03-04T02:25:47Z",
+      "updated_at": "2026-03-11T05:17:04Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/255",
+      "labels": []
+    },
+    {
+      "number": 295,
+      "title": "[RFC] Introduce ATOM as model implementation backend of SGLang",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "created_at": "2026-03-10T08:09:15Z",
+      "updated_at": "2026-03-11T03:57:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/295",
       "labels": []
     },
     {

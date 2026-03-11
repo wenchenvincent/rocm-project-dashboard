@@ -1,31 +1,58 @@
 {
-  "collected_at": "2026-03-10T08:28:16Z",
+  "collected_at": "2026-03-11T08:28:08Z",
   "prs": [
     {
-      "number": 4656,
-      "title": "Fix gather rewrite crash: validate strided view element count",
-      "author": "urpetkov-amd",
+      "number": 4628,
+      "title": "Add option to skip benchmarking in compile_ops",
+      "author": "kahmed10",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-09T15:57:25Z",
-      "updated_at": "2026-03-10T07:40:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4656",
+      "created_at": "2026-02-24T01:50:46Z",
+      "updated_at": "2026-03-11T07:10:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4628",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4617,
+      "title": "Fuse GQA local window as kv-cache attention",
+      "author": "turneram",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-17T16:28:01Z",
+      "updated_at": "2026-03-11T06:06:00Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4617",
       "labels": [],
       "draft": false
     },
     {
-      "number": 4657,
-      "title": "[AIMIGRAPHX-604] Add small convolution path for non-zero padding cases",
+      "number": 4652,
+      "title": "Add Cubic resize jit kernel",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-05T21:40:43Z",
+      "updated_at": "2026-03-11T05:49:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4652",
+      "labels": [
+        "onnx",
+        "Onnx Operators"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4660,
+      "title": "[AIMIGRAPHX-800] Add causal mask fix to fuse_attention",
       "author": "eddieliao",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-09T19:28:21Z",
-      "updated_at": "2026-03-10T07:10:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4657",
+      "created_at": "2026-03-10T17:46:09Z",
+      "updated_at": "2026-03-11T04:22:26Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4660",
       "labels": [
         "bugfix",
-        "Matchers",
-        "Changelog: Resolved Issues"
+        "Perf Improve",
+        "Changelog: Optimized"
       ],
       "draft": false
     },
@@ -36,8 +63,79 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-09T21:30:08Z",
-      "updated_at": "2026-03-10T06:55:37Z",
+      "updated_at": "2026-03-11T04:11:40Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4658",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2224,
+      "title": "Added mutex locks in register_target.cpp and created a multithreading\u2026",
+      "author": "bpickrel",
+      "state": "open",
+      "merged": false,
+      "created_at": "2023-09-20T23:55:14Z",
+      "updated_at": "2026-03-11T02:30:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2224",
+      "labels": [
+        "bugfix"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4657,
+      "title": "[AIMIGRAPHX-604] Add small convolution path for non-zero padding cases",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-09T19:28:21Z",
+      "updated_at": "2026-03-11T02:20:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4657",
+      "labels": [
+        "bugfix",
+        "Matchers",
+        "Changelog: Not Applicable"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4626,
+      "title": "Add debug symbols for parsed and compiler pass replaced instructions ",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-20T21:54:12Z",
+      "updated_at": "2026-03-11T01:50:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4626",
+      "labels": [
+        "enhancement",
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4154,
+      "title": "Switch to c++23",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-07-21T15:07:25Z",
+      "updated_at": "2026-03-10T21:39:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4154",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4638,
+      "title": "Auto padding convTrans",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-26T12:40:13Z",
+      "updated_at": "2026-03-10T21:37:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4638",
       "labels": [],
       "draft": false
     },
@@ -48,25 +146,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-10T01:24:50Z",
-      "updated_at": "2026-03-10T06:05:38Z",
+      "updated_at": "2026-03-10T12:41:55Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4659",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4626,
-      "title": "Add debug symbols for parsed and compiler pass replaced instructions ",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-20T21:54:12Z",
-      "updated_at": "2026-03-10T05:11:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4626",
-      "labels": [
-        "enhancement",
-        "high priority"
-      ],
-      "draft": false
     },
     {
       "number": 4514,
@@ -108,18 +191,6 @@
       "draft": false
     },
     {
-      "number": 4617,
-      "title": "Fuse GQA local window as kv-cache attention",
-      "author": "turneram",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-17T16:28:01Z",
-      "updated_at": "2026-03-09T19:47:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4617",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4644,
       "title": "Bump sphinx-collapse from 0.1.3 to 0.1.4 in /docs/sphinx",
       "author": "dependabot[bot]",
@@ -157,21 +228,6 @@
       "updated_at": "2026-03-09T19:17:25Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3666",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4652,
-      "title": "Add Cubic resize jit kernel",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-05T21:40:43Z",
-      "updated_at": "2026-03-09T18:14:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4652",
-      "labels": [
-        "onnx",
-        "Onnx Operators"
-      ],
       "draft": false
     },
     {
@@ -252,18 +308,6 @@
       "draft": false
     },
     {
-      "number": 4638,
-      "title": "Auto padding convTrans",
-      "author": "ivarusic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-26T12:40:13Z",
-      "updated_at": "2026-03-06T12:37:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4638",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4439,
       "title": "AIMIGRAPHX-317 g+g heuristic added to apply",
       "author": "bdevorem",
@@ -312,7 +356,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-04T06:02:46Z",
-      "updated_at": "2026-03-05T13:00:05Z",
+      "updated_at": "2026-03-10T08:46:48Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4591",
       "labels": [],
       "draft": false
@@ -374,7 +418,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-03T00:43:55Z",
-      "updated_at": "2026-03-04T06:59:26Z",
+      "updated_at": "2026-03-11T04:13:06Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4649",
       "labels": [
         "simple"
@@ -458,18 +502,6 @@
         "WCR"
       ],
       "draft": false
-    },
-    {
-      "number": 4628,
-      "title": "Add option to skip benchmarking in compile_ops",
-      "author": "kahmed10",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-24T01:50:46Z",
-      "updated_at": "2026-02-24T18:57:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4628",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 4625,
@@ -716,20 +748,6 @@
       "draft": true
     },
     {
-      "number": 4154,
-      "title": "Switch to c++23",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-07-21T15:07:25Z",
-      "updated_at": "2025-10-01T16:27:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4154",
-      "labels": [
-        "enhancement"
-      ],
-      "draft": false
-    },
-    {
       "number": 4312,
       "title": "Add ONNX model testing workflow",
       "author": "danieyan-amd",
@@ -803,20 +821,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3478",
       "labels": [
         "Perf Improve"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2224,
-      "title": "Added mutex locks in register_target.cpp and created a multithreading\u2026",
-      "author": "bpickrel",
-      "state": "open",
-      "merged": false,
-      "created_at": "2023-09-20T23:55:14Z",
-      "updated_at": "2025-07-24T19:39:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2224",
-      "labels": [
-        "bugfix"
       ],
       "draft": false
     },
@@ -1038,6 +1042,34 @@
       "updated_at": "2024-10-21T22:48:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3468",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4656,
+      "title": "Fix gather rewrite crash: validate strided view element count",
+      "author": "urpetkov-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-09T15:57:25Z",
+      "updated_at": "2026-03-10T20:00:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4656",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4480,
+      "title": "Fix mxr writes and increase read limits",
+      "author": "TedThemistokleous",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2025-12-03T19:58:10Z",
+      "updated_at": "2026-03-10T14:01:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4480",
+      "labels": [
+        "bugfix",
+        "high priority",
+        "simple"
+      ],
       "draft": false
     },
     {
@@ -1988,33 +2020,6 @@
       "updated_at": "2026-01-27T19:53:17Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4537",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4534,
-      "title": "[AIMIGRAPHX-231] Enable dynamic shapes for pointwise and reduce fusions",
-      "author": "shivadbhavsar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-09T00:31:01Z",
-      "updated_at": "2026-01-27T18:19:05Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4534",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4561,
-      "title": "Prevent propagating precision across type boundaries",
-      "author": "kahmed10",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-21T15:56:57Z",
-      "updated_at": "2026-01-27T17:17:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4561",
-      "labels": [
-        "bugfix",
-        "high priority"
-      ],
       "draft": false
     }
   ]

@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-03-10T08:28:12Z",
+  "collected_at": "2026-03-11T08:28:04Z",
   "prs": [
+    {
+      "number": 9418,
+      "title": "[AMD][Membar] Add MemAsyncLocalWriteOpTrait for cleaner async ops filtering.",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-10T16:07:11Z",
+      "updated_at": "2026-03-10T22:10:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9418",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9685,
+      "title": "[NFC][AMD] ROCDL bringup; rocdl.global.prefetch",
+      "author": "ravil-mobile",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T18:12:23Z",
+      "updated_at": "2026-03-10T18:12:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9685",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 7756,
+      "title": "[AMD] Added initial support for mxfp6 data type",
+      "author": "ravil-mobile",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-08-04T12:54:15Z",
+      "updated_at": "2026-03-10T13:16:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/7756",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9675,
+      "title": "Reland \"[AMD][BACKEND] Cherry pick pr 9487 to rel 3.7\"",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-09T11:32:30Z",
+      "updated_at": "2026-03-10T09:31:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9675",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9541,
       "title": "[AMD] CanonicalizePointers: Handle different base pointers and offsets",
@@ -26,30 +74,6 @@
       "draft": false
     },
     {
-      "number": 9418,
-      "title": "[AMD][Membar] Add MemAsyncLocalWriteOpTrait for cleaner async ops filtering.",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-10T16:07:11Z",
-      "updated_at": "2026-03-10T00:48:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9418",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 7756,
-      "title": "[AMD] Added initial support for mxfp6 data type",
-      "author": "ravil-mobile",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-08-04T12:54:15Z",
-      "updated_at": "2026-03-09T19:29:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/7756",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 9544,
       "title": "[AMD][BACKEND] Extend padded layout selection for AsyncCopy on GFX9",
       "author": "AlexAUT",
@@ -58,18 +82,6 @@
       "created_at": "2026-02-23T16:30:04Z",
       "updated_at": "2026-03-09T18:52:41Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9544",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9675,
-      "title": "Reland \"[AMD][BACKEND] Cherry pick pr 9487 to rel 3.7\"",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-09T11:32:30Z",
-      "updated_at": "2026-03-09T18:46:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9675",
       "labels": [],
       "draft": false
     },
@@ -708,18 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/7147",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 6714,
-      "title": "[DRAFT][AMD][Backend] Enable 2:4 Structured Sparsity for Triton-AMD",
-      "author": "SamGinzburg",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-05-05T17:33:08Z",
-      "updated_at": "2025-06-13T16:48:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/6714",
-      "labels": [],
-      "draft": true
     }
   ]
 }

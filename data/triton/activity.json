@@ -1,36 +1,36 @@
 {
-  "collected_at": "2026-03-10T08:29:14Z",
+  "collected_at": "2026-03-11T08:29:15Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 14,
-      "merged": 17,
+      "opened": 11,
+      "merged": 13,
       "closed": 0
     },
     "last_week": {
-      "opened": 15,
-      "merged": 6,
+      "opened": 16,
+      "merged": 10,
       "closed": 0
     },
     "median_time_to_merge_hours": 30.8,
     "merge_count": 30,
-    "stale_prs": 16
+    "stale_prs": 15
   },
   "contributors": {
-    "active_this_week": 19,
-    "total_contributors": 36,
+    "active_this_week": 16,
+    "total_contributors": 35,
     "top_contributors": [
+      {
+        "author": "ravil-mobile",
+        "prs_submitted": 5,
+        "prs_merged": 2,
+        "commits": 0
+      },
       {
         "author": "AlexAUT",
         "prs_submitted": 5,
         "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "ravil-mobile",
-        "prs_submitted": 4,
-        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 13,
     "opened_this_week": 0,
-    "closed_this_week": 5,
+    "closed_this_week": 4,
     "unanswered": 4
   },
   "ci_health": {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 47.4,
+    "days_since_last": 48.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

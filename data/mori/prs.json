@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-03-10T08:28:36Z",
+  "collected_at": "2026-03-11T08:28:26Z",
   "prs": [
     {
-      "number": 188,
-      "title": "Feat[io]: add SQ-depth admission control and robust batch posting/rollback handling",
-      "author": "maning00",
+      "number": 193,
+      "title": "Feat(shmem): implement GET (remote read) device API with blocking and non-blocking",
+      "author": "jhchouuu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-06T08:52:02Z",
-      "updated_at": "2026-03-10T08:18:36Z",
-      "html_url": "https://github.com/ROCm/mori/pull/188",
+      "created_at": "2026-03-10T08:32:12Z",
+      "updated_at": "2026-03-10T08:32:12Z",
+      "html_url": "https://github.com/ROCm/mori/pull/193",
       "labels": [],
       "draft": false
     },
@@ -118,6 +118,18 @@
       "created_at": "2025-10-28T06:17:21Z",
       "updated_at": "2026-01-08T09:18:21Z",
       "html_url": "https://github.com/ROCm/mori/pull/99",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 188,
+      "title": "Feat[io]: add SQ-depth admission control and robust batch posting/rollback handling",
+      "author": "maning00",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-06T08:52:02Z",
+      "updated_at": "2026-03-10T09:47:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/188",
       "labels": [],
       "draft": false
     },
@@ -1150,18 +1162,6 @@
       "created_at": "2025-10-13T03:44:08Z",
       "updated_at": "2025-10-13T05:57:37Z",
       "html_url": "https://github.com/ROCm/mori/pull/84",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 79,
-      "title": "Fix: fixed invalid warpSize in host code",
-      "author": "dongmin-ra",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-10-02T07:43:04Z",
-      "updated_at": "2025-10-10T02:46:29Z",
-      "html_url": "https://github.com/ROCm/mori/pull/79",
       "labels": [],
       "draft": false
     },
