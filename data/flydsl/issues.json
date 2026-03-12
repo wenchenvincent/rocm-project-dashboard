@@ -1,13 +1,35 @@
 {
-  "collected_at": "2026-03-11T08:28:30Z",
+  "collected_at": "2026-03-12T08:30:46Z",
   "issues": [
+    {
+      "number": 189,
+      "title": "[Issue]: fx.printf fails",
+      "author": "rahulbatra85",
+      "state": "open",
+      "created_at": "2026-03-10T18:34:37Z",
+      "updated_at": "2026-03-12T02:39:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/189",
+      "labels": []
+    },
+    {
+      "number": 190,
+      "title": "[Issue]: Cannot use range() in helper kernel functions.",
+      "author": "ruanjm",
+      "state": "open",
+      "created_at": "2026-03-11T03:07:05Z",
+      "updated_at": "2026-03-12T02:20:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/190",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 188,
       "title": "[Documentation]: What can be used inside jitted function vs outside?",
       "author": "rahulbatra85",
       "state": "open",
       "created_at": "2026-03-10T17:53:10Z",
-      "updated_at": "2026-03-11T07:50:33Z",
+      "updated_at": "2026-03-12T01:43:58Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/188",
       "labels": []
     },
@@ -19,28 +41,6 @@
       "created_at": "2026-03-10T09:31:37Z",
       "updated_at": "2026-03-11T07:48:42Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/187",
-      "labels": []
-    },
-    {
-      "number": 190,
-      "title": "[Issue]: Cannot use range() in helper kernel functions.",
-      "author": "ruanjm",
-      "state": "open",
-      "created_at": "2026-03-11T03:07:05Z",
-      "updated_at": "2026-03-11T03:07:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/190",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 189,
-      "title": "[Issue]: fx.printf fails",
-      "author": "rahulbatra85",
-      "state": "open",
-      "created_at": "2026-03-10T18:34:37Z",
-      "updated_at": "2026-03-10T18:35:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/189",
       "labels": []
     },
     {

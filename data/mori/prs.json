@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-03-11T08:28:26Z",
+  "collected_at": "2026-03-12T08:30:42Z",
   "prs": [
     {
-      "number": 193,
-      "title": "Feat(shmem): implement GET (remote read) device API with blocking and non-blocking",
+      "number": 195,
+      "title": "Feat: add C++ launch API for EP kernels (AOT + JIT cache support)",
       "author": "jhchouuu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-10T08:32:12Z",
-      "updated_at": "2026-03-10T08:32:12Z",
-      "html_url": "https://github.com/ROCm/mori/pull/193",
+      "created_at": "2026-03-12T06:24:22Z",
+      "updated_at": "2026-03-12T06:24:22Z",
+      "html_url": "https://github.com/ROCm/mori/pull/195",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 180,
+      "title": "[UMP] Feat: add control plane implementation for unified memory pool",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-03T15:01:19Z",
+      "updated_at": "2026-03-12T03:31:58Z",
+      "html_url": "https://github.com/ROCm/mori/pull/180",
       "labels": [],
       "draft": false
     },
@@ -20,8 +32,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-10T04:13:35Z",
-      "updated_at": "2026-03-10T04:13:35Z",
+      "updated_at": "2026-03-12T03:09:09Z",
       "html_url": "https://github.com/ROCm/mori/pull/191",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 193,
+      "title": "Feat(shmem): implement GET (remote read) device API with blocking and non-blocking",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T08:32:12Z",
+      "updated_at": "2026-03-10T08:32:12Z",
+      "html_url": "https://github.com/ROCm/mori/pull/193",
       "labels": [],
       "draft": false
     },
@@ -46,18 +70,6 @@
       "created_at": "2026-03-05T15:41:33Z",
       "updated_at": "2026-03-07T15:51:05Z",
       "html_url": "https://github.com/ROCm/mori/pull/185",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 180,
-      "title": "[UMP] Feat: add control plane implementation for unified memory pool",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-03T15:01:19Z",
-      "updated_at": "2026-03-06T07:17:43Z",
-      "html_url": "https://github.com/ROCm/mori/pull/180",
       "labels": [],
       "draft": false
     },
@@ -118,6 +130,18 @@
       "created_at": "2025-10-28T06:17:21Z",
       "updated_at": "2026-01-08T09:18:21Z",
       "html_url": "https://github.com/ROCm/mori/pull/99",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 194,
+      "title": "Refactor MORI IO env override parsing",
+      "author": "maning00",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-11T13:57:48Z",
+      "updated_at": "2026-03-11T14:10:01Z",
+      "html_url": "https://github.com/ROCm/mori/pull/194",
       "labels": [],
       "draft": false
     },
@@ -1150,18 +1174,6 @@
       "created_at": "2025-10-10T10:03:16Z",
       "updated_at": "2025-10-13T06:14:11Z",
       "html_url": "https://github.com/ROCm/mori/pull/83",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 84,
-      "title": "Fix: transfer status error in io/benchmark.py",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-10-13T03:44:08Z",
-      "updated_at": "2025-10-13T05:57:37Z",
-      "html_url": "https://github.com/ROCm/mori/pull/84",
       "labels": [],
       "draft": false
     },

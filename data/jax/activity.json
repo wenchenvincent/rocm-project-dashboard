@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-03-11T08:29:09Z",
+  "collected_at": "2026-03-12T08:31:19Z",
   "project": "jax",
   "repo": "jax-ml/jax",
   "pr_velocity": {
     "this_week": {
-      "opened": 8,
-      "merged": 8,
-      "closed": 1
+      "opened": 6,
+      "merged": 7,
+      "closed": 0
     },
     "last_week": {
-      "opened": 3,
+      "opened": 5,
       "merged": 3,
       "closed": 0
     },
@@ -18,7 +18,7 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 7,
+    "active_this_week": 8,
     "total_contributors": 14,
     "top_contributors": [
       {
@@ -46,15 +46,15 @@
         "commits": 0
       },
       {
-        "author": "gulsumgudukbay",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
         "author": "cj401-amd",
         "prs_submitted": 3,
         "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "gulsumgudukbay",
+        "prs_submitted": 3,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -70,15 +70,15 @@
         "commits": 0
       },
       {
-        "author": "psanal35",
-        "prs_submitted": 1,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
         "author": "draganmladjenovic",
         "prs_submitted": 1,
         "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "psanal35",
+        "prs_submitted": 1,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 8.9,
+    "days_since_last": 9.9,
     "avg_interval_days": 18.4,
     "total_releases": 5,
     "latest_tag": "jax-v0.9.1"

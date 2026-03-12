@@ -1,48 +1,54 @@
 {
-  "collected_at": "2026-03-11T08:29:56Z",
+  "collected_at": "2026-03-12T08:32:09Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 71,
-      "merged": 46,
-      "closed": 10
+      "opened": 66,
+      "merged": 41,
+      "closed": 7
     },
     "last_week": {
-      "opened": 62,
-      "merged": 54,
-      "closed": 13
+      "opened": 64,
+      "merged": 53,
+      "closed": 10
     },
     "median_time_to_merge_hours": 23.5,
-    "merge_count": 103,
+    "merge_count": 97,
     "stale_prs": 89
   },
   "contributors": {
-    "active_this_week": 61,
-    "total_contributors": 132,
+    "active_this_week": 60,
+    "total_contributors": 134,
     "top_contributors": [
       {
         "author": "gyohuangxin",
-        "prs_submitted": 25,
-        "prs_merged": 14,
-        "commits": 21
+        "prs_submitted": 23,
+        "prs_merged": 12,
+        "commits": 19
       },
       {
         "author": "minmengdie",
         "prs_submitted": 8,
-        "prs_merged": 3,
-        "commits": 5
+        "prs_merged": 4,
+        "commits": 6
       },
       {
         "author": "yzhou103",
-        "prs_submitted": 7,
+        "prs_submitted": 8,
         "prs_merged": 4,
         "commits": 4
       },
       {
         "author": "junhaha666",
-        "prs_submitted": 7,
+        "prs_submitted": 8,
         "prs_merged": 7,
+        "commits": 7
+      },
+      {
+        "author": "amd-ruitang3",
+        "prs_submitted": 6,
+        "prs_merged": 4,
         "commits": 7
       },
       {
@@ -52,16 +58,16 @@
         "commits": 1
       },
       {
-        "author": "juuso-oskari",
-        "prs_submitted": 5,
-        "prs_merged": 0,
-        "commits": 2
-      },
-      {
         "author": "zufayu",
         "prs_submitted": 5,
         "prs_merged": 0,
         "commits": 0
+      },
+      {
+        "author": "JaxChen29",
+        "prs_submitted": 5,
+        "prs_merged": 2,
+        "commits": 4
       },
       {
         "author": "micmelesse",
@@ -70,30 +76,24 @@
         "commits": 4
       },
       {
-        "author": "amd-ruitang3",
+        "author": "juuso-oskari",
         "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 7
-      },
-      {
-        "author": "Micky774",
-        "prs_submitted": 4,
         "prs_merged": 1,
-        "commits": 2
+        "commits": 3
       }
     ],
     "bus_factor": 9
   },
   "issue_health": {
     "total_open": 109,
-    "opened_this_week": 9,
+    "opened_this_week": 5,
     "closed_this_week": 0,
-    "unanswered": 31
+    "unanswered": 34
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 78.2,
+    "days_since_last": 79.2,
     "avg_interval_days": 54.7,
     "total_releases": 5,
     "latest_tag": "v0.1.9"

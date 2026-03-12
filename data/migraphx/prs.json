@@ -1,6 +1,148 @@
 {
-  "collected_at": "2026-03-11T08:28:08Z",
+  "collected_at": "2026-03-12T08:30:25Z",
   "prs": [
+    {
+      "number": 4626,
+      "title": "Add debug symbols for parsed and compiler pass replaced instructions ",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-20T21:54:12Z",
+      "updated_at": "2026-03-12T07:08:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4626",
+      "labels": [
+        "enhancement",
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4662,
+      "title": "Add in early return for find_conv_dot_horiz_fusion",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-11T21:50:15Z",
+      "updated_at": "2026-03-12T05:55:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4662",
+      "labels": [
+        "Matchers"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4663,
+      "title": "[AIMIGRAPHX-808] Fix conv broadcast input",
+      "author": "urpetkov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-11T23:17:17Z",
+      "updated_at": "2026-03-12T04:34:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4663",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4657,
+      "title": "[AIMIGRAPHX-604] Add small convolution path for non-zero padding cases",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-09T19:28:21Z",
+      "updated_at": "2026-03-12T04:18:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4657",
+      "labels": [
+        "bugfix",
+        "Matchers",
+        "Changelog: Not Applicable"
+      ],
+      "draft": true
+    },
+    {
+      "number": 4649,
+      "title": "Add `--replace-literals` flag to replace literals with parameters",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-03T00:43:55Z",
+      "updated_at": "2026-03-12T03:03:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4649",
+      "labels": [
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4652,
+      "title": "Add Cubic resize jit kernel",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-05T21:40:43Z",
+      "updated_at": "2026-03-12T02:58:23Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4652",
+      "labels": [
+        "onnx",
+        "Onnx Operators"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4661,
+      "title": "Fix comparrision for find_concat_op to match the correct I/O",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-11T21:21:28Z",
+      "updated_at": "2026-03-12T02:22:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4661",
+      "labels": [
+        "bugfix",
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3766,
+      "title": "Remove rocmlir unsupported reduce types",
+      "author": "dhernandez0",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-01-17T14:43:48Z",
+      "updated_at": "2026-03-12T01:20:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3766",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4664,
+      "title": "Bump tornado from 6.5.1 to 6.5.5 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-12T00:19:49Z",
+      "updated_at": "2026-03-12T00:19:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4664",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4580,
+      "title": "Fix Abseil version to match what OnnxRT uses and update migraphx deps in container to avoid OnnxRT conflicts",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-29T17:04:57Z",
+      "updated_at": "2026-03-11T17:36:17Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4580",
+      "labels": [
+        "bugfix",
+        "high priority"
+      ],
+      "draft": false
+    },
     {
       "number": 4628,
       "title": "Add option to skip benchmarking in compile_ops",
@@ -12,33 +154,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4628",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4617,
-      "title": "Fuse GQA local window as kv-cache attention",
-      "author": "turneram",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-17T16:28:01Z",
-      "updated_at": "2026-03-11T06:06:00Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4617",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4652,
-      "title": "Add Cubic resize jit kernel",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-05T21:40:43Z",
-      "updated_at": "2026-03-11T05:49:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4652",
-      "labels": [
-        "onnx",
-        "Onnx Operators"
-      ],
-      "draft": false
     },
     {
       "number": 4660,
@@ -57,18 +172,6 @@
       "draft": false
     },
     {
-      "number": 4658,
-      "title": "[AIMIGRAPHX-796] remove legacy argmin/argmax device code",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-09T21:30:08Z",
-      "updated_at": "2026-03-11T04:11:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4658",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2224,
       "title": "Added mutex locks in register_target.cpp and created a multithreading\u2026",
       "author": "bpickrel",
@@ -79,37 +182,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2224",
       "labels": [
         "bugfix"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4657,
-      "title": "[AIMIGRAPHX-604] Add small convolution path for non-zero padding cases",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-09T19:28:21Z",
-      "updated_at": "2026-03-11T02:20:50Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4657",
-      "labels": [
-        "bugfix",
-        "Matchers",
-        "Changelog: Not Applicable"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4626,
-      "title": "Add debug symbols for parsed and compiler pass replaced instructions ",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-20T21:54:12Z",
-      "updated_at": "2026-03-11T01:50:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4626",
-      "labels": [
-        "enhancement",
-        "high priority"
       ],
       "draft": false
     },
@@ -291,23 +363,6 @@
       "draft": true
     },
     {
-      "number": 4654,
-      "title": "Onnxruntime Weekly Sync 2026-03-06",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T17:21:36Z",
-      "updated_at": "2026-03-06T17:21:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4654",
-      "labels": [
-        "onnxruntime",
-        "dependencies",
-        "skip bot checks",
-        "automated"
-      ],
-      "draft": false
-    },
-    {
       "number": 4439,
       "title": "AIMIGRAPHX-317 g+g heuristic added to apply",
       "author": "bdevorem",
@@ -321,21 +376,6 @@
         "Perf Improve"
       ],
       "draft": true
-    },
-    {
-      "number": 4580,
-      "title": "Onnxruntime Weekly Sync 2026-01-26",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-29T17:04:57Z",
-      "updated_at": "2026-03-05T16:48:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4580",
-      "labels": [
-        "bugfix",
-        "high priority"
-      ],
-      "draft": false
     },
     {
       "number": 4651,
@@ -409,20 +449,6 @@
       "updated_at": "2026-03-04T07:49:44Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4637",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4649,
-      "title": "Add `--replace-literals` flag to replace literals with parameters",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-03T00:43:55Z",
-      "updated_at": "2026-03-11T04:13:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4649",
-      "labels": [
-        "simple"
-      ],
       "draft": false
     },
     {
@@ -760,18 +786,6 @@
       "draft": false
     },
     {
-      "number": 3766,
-      "title": "Remove rocmlir unsupported reduce types",
-      "author": "dhernandez0",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-01-17T14:43:48Z",
-      "updated_at": "2025-09-10T15:40:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3766",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4275,
       "title": "SparseAttention ONNX Contrib Op Implementation",
       "author": "music-dino",
@@ -1041,6 +1055,49 @@
       "created_at": "2024-09-22T22:28:36Z",
       "updated_at": "2024-10-21T22:48:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3468",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4658,
+      "title": "[AIMIGRAPHX-796] remove legacy argmin/argmax device code",
+      "author": "bdevorem",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-09T21:30:08Z",
+      "updated_at": "2026-03-12T02:56:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4658",
+      "labels": [
+        "Cleanup"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4654,
+      "title": "Onnxruntime Weekly Sync 2026-03-06",
+      "author": "github-actions[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-06T17:21:36Z",
+      "updated_at": "2026-03-11T19:02:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4654",
+      "labels": [
+        "onnxruntime",
+        "dependencies",
+        "skip bot checks",
+        "automated"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4617,
+      "title": "Fuse GQA local window as kv-cache attention",
+      "author": "turneram",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-17T16:28:01Z",
+      "updated_at": "2026-03-11T12:32:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4617",
       "labels": [],
       "draft": false
     },
@@ -2007,18 +2064,6 @@
       "created_at": "2025-12-10T20:38:19Z",
       "updated_at": "2026-01-28T14:12:26Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4496",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4537,
-      "title": "[AIMIGRAPHX-510] Enable dynamic shapes for mlir_op",
-      "author": "shivadbhavsar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-09T22:45:45Z",
-      "updated_at": "2026-01-27T19:53:17Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4537",
       "labels": [],
       "draft": false
     }

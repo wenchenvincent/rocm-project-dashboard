@@ -1,6 +1,68 @@
 {
-  "collected_at": "2026-03-11T08:28:02Z",
+  "collected_at": "2026-03-12T08:30:19Z",
   "issues": [
+    {
+      "number": 20169,
+      "title": "Prefill out of memory. Try to lower your batch size.  Run Qwen3.5 0.8b model on ascend 910B",
+      "author": "Lizuole007",
+      "state": "open",
+      "created_at": "2026-03-09T07:46:27Z",
+      "updated_at": "2026-03-12T08:22:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20169",
+      "labels": []
+    },
+    {
+      "number": 20404,
+      "title": "MI355X disagg DPA + MTP Errors",
+      "author": "Oseltamivir",
+      "state": "open",
+      "created_at": "2026-03-12T04:22:39Z",
+      "updated_at": "2026-03-12T06:42:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20404",
+      "labels": []
+    },
+    {
+      "number": 17050,
+      "title": "[Tracking] CI Test Failures and Fixes",
+      "author": "alisonshao",
+      "state": "open",
+      "created_at": "2026-01-14T01:49:31Z",
+      "updated_at": "2026-03-12T02:32:31Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 20301,
+      "title": "[Doc] Quantization document has many inaccuracies",
+      "author": "b8zhong",
+      "state": "open",
+      "created_at": "2026-03-10T22:17:18Z",
+      "updated_at": "2026-03-11T19:22:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20301",
+      "labels": [
+        "documentation"
+      ]
+    },
+    {
+      "number": 20372,
+      "title": "[Feature] Introduce hardware plugin system",
+      "author": "22dimensions",
+      "state": "open",
+      "created_at": "2026-03-11T14:49:44Z",
+      "updated_at": "2026-03-11T14:51:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20372",
+      "labels": []
+    },
+    {
+      "number": 18466,
+      "title": "[Tracking][Performance][AMD] Qwen3 & Qwen3-VL Latency Optimization on AMD MI300 Series GPUs",
+      "author": "wuhuikx",
+      "state": "open",
+      "created_at": "2026-02-09T05:13:48Z",
+      "updated_at": "2026-03-11T10:14:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/18466",
+      "labels": []
+    },
     {
       "number": 20008,
       "title": "[Bug] oom when loading qwen3 coder 480b instruct fp8 on 2 x rocm mi355x",
@@ -10,28 +72,6 @@
       "updated_at": "2026-03-11T06:56:39Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20008",
       "labels": []
-    },
-    {
-      "number": 20243,
-      "title": "[Bug] SOme Uts are broken due to missing functionalities",
-      "author": "singhalshubham03",
-      "state": "open",
-      "created_at": "2026-03-10T06:11:45Z",
-      "updated_at": "2026-03-11T03:40:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20243",
-      "labels": []
-    },
-    {
-      "number": 20301,
-      "title": "[Doc] Quantization document has many inaccuracies",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-03-10T22:17:18Z",
-      "updated_at": "2026-03-11T00:08:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20301",
-      "labels": [
-        "documentation"
-      ]
     },
     {
       "number": 19991,
@@ -74,16 +114,6 @@
       "created_at": "2026-03-09T11:23:07Z",
       "updated_at": "2026-03-09T11:38:37Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20188",
-      "labels": []
-    },
-    {
-      "number": 20169,
-      "title": "Prefill out of memory. Try to lower your batch size.  Run Qwen3.5 0.8b model on ascend 910B",
-      "author": "Lizuole007",
-      "state": "open",
-      "created_at": "2026-03-09T07:46:27Z",
-      "updated_at": "2026-03-09T07:46:27Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20169",
       "labels": []
     },
     {
@@ -217,16 +247,6 @@
       "labels": []
     },
     {
-      "number": 17050,
-      "title": "[Tracking] CI Test Failures and Fixes",
-      "author": "alisonshao",
-      "state": "open",
-      "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-03-03T00:46:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
-      "labels": []
-    },
-    {
       "number": 13808,
       "title": "[Roadmap] CI suites organization",
       "author": "hnyls2002",
@@ -294,16 +314,6 @@
       "created_at": "2026-02-12T23:25:02Z",
       "updated_at": "2026-02-19T19:18:58Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/18749",
-      "labels": []
-    },
-    {
-      "number": 18466,
-      "title": "[Tracking][Performance][AMD] Qwen3 & Qwen3-VL Latency Optimization on AMD MI300 Series GPUs",
-      "author": "wuhuikx",
-      "state": "open",
-      "created_at": "2026-02-09T05:13:48Z",
-      "updated_at": "2026-02-12T03:34:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18466",
       "labels": []
     },
     {

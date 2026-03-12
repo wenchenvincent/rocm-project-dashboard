@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-03-11T08:28:04Z",
+  "collected_at": "2026-03-12T08:30:21Z",
   "prs": [
+    {
+      "number": 9685,
+      "title": "[NFC][AMD] ROCDL bringup; rocdl.global.prefetch",
+      "author": "ravil-mobile",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-10T18:12:23Z",
+      "updated_at": "2026-03-12T05:59:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9685",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9694,
+      "title": "[AMD] Fix CGA layout bugs about AMDWmmaEncodingAttr",
+      "author": "yangshuxin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-11T20:14:58Z",
+      "updated_at": "2026-03-11T22:54:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9694",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9692,
+      "title": "[AMD][CONSAN] Add Concurrency Sanitizer Support",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-11T13:46:35Z",
+      "updated_at": "2026-03-11T22:28:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9692",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9696,
+      "title": "[AMD] Support BufferLoadToLocalOp in block ping-pong chained dot schedule",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-11T20:45:59Z",
+      "updated_at": "2026-03-11T21:06:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9696",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9418,
       "title": "[AMD][Membar] Add MemAsyncLocalWriteOpTrait for cleaner async ops filtering.",
@@ -8,22 +56,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-10T16:07:11Z",
-      "updated_at": "2026-03-10T22:10:30Z",
+      "updated_at": "2026-03-11T20:52:26Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9418",
       "labels": [],
       "draft": false
     },
     {
-      "number": 9685,
-      "title": "[NFC][AMD] ROCDL bringup; rocdl.global.prefetch",
-      "author": "ravil-mobile",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-10T18:12:23Z",
-      "updated_at": "2026-03-10T18:12:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9685",
+      "number": 9440,
+      "title": "[AMD] Update gfx1250 MXFP FA example kernel",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-12T10:20:50Z",
+      "updated_at": "2026-03-11T15:40:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9440",
       "labels": [],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 9522,
+      "title": "[AMD] Update gfx1250 MXFP FA example kernel",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-19T23:23:54Z",
+      "updated_at": "2026-03-11T15:40:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9522",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9519,
+      "title": "[AMD][NFC] Fix error message for wmma scale",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-19T19:23:00Z",
+      "updated_at": "2026-03-11T15:40:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9519",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 7756,
@@ -470,66 +542,6 @@
       "draft": true
     },
     {
-      "number": 9512,
-      "title": "[AMD][NFC] Emit error for buffer_load_to_local on gfx1250",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-19T10:15:27Z",
-      "updated_at": "2026-02-20T17:53:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9512",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9519,
-      "title": "[AMD][NFC] Fix error message for wmma scale",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-19T19:23:00Z",
-      "updated_at": "2026-02-20T17:32:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9519",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9522,
-      "title": "[AMD] Update gfx1250 MXFP FA example kernel",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-19T23:23:54Z",
-      "updated_at": "2026-02-20T01:50:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9522",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 8464,
-      "title": "[AMD] Optimize address increments for buffer loads in loops",
-      "author": "alefimov-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-10-16T19:51:48Z",
-      "updated_at": "2026-02-20T01:50:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/8464",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9509,
-      "title": "[AMD] Enable supportBitwidth{16|32}Elementwise in TargetInfo",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-18T23:47:36Z",
-      "updated_at": "2026-02-19T17:43:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9509",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9260,
       "title": "[AMD] Add a knob to disable vector combine pass",
       "author": "antiagainst",
@@ -708,18 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/7721",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 7147,
-      "title": "[BACKEND] Clean up hard code for NV and AMD GPU in the common TritonGPU dialect to support third party GPU extension.",
-      "author": "chengjunlu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-06-11T00:53:24Z",
-      "updated_at": "2025-07-14T23:21:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/7147",
-      "labels": [],
-      "draft": false
     }
   ]
 }

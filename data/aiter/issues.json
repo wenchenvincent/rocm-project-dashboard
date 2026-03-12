@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-03-11T08:28:19Z",
+  "collected_at": "2026-03-12T08:30:36Z",
   "issues": [
+    {
+      "number": 1913,
+      "title": "[Issue]:GPU Core Dump in Multi-GPU Parallel GEMM Tuning (hipBLASLt 1.1.0, 8x MI308X)",
+      "author": "wacodespace",
+      "state": "open",
+      "created_at": "2026-01-27T06:44:40Z",
+      "updated_at": "2026-03-12T05:16:23Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/1913",
+      "labels": []
+    },
     {
       "number": 2247,
       "title": "[Issue]: Incorrect MXFP4 mantissa rounding in fp4_utils.py",
@@ -287,16 +297,6 @@
       "created_at": "2025-08-28T01:23:15Z",
       "updated_at": "2026-02-07T16:31:46Z",
       "html_url": "https://github.com/ROCm/aiter/issues/900",
-      "labels": []
-    },
-    {
-      "number": 1913,
-      "title": "[Issue]:GPU Core Dump in Multi-GPU Parallel GEMM Tuning (hipBLASLt 1.1.0, 8x MI308X)",
-      "author": "wacodespace",
-      "state": "open",
-      "created_at": "2026-01-27T06:44:40Z",
-      "updated_at": "2026-02-07T14:18:48Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1913",
       "labels": []
     },
     {

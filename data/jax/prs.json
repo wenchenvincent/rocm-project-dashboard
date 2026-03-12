@@ -1,6 +1,69 @@
 {
-  "collected_at": "2026-03-11T08:27:28Z",
+  "collected_at": "2026-03-12T08:29:41Z",
   "prs": [
+    {
+      "number": 35516,
+      "title": "[ROCm] Include prebuilt rocm plugin pkgs as deps to tests",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-02T18:02:31Z",
+      "updated_at": "2026-03-12T07:15:00Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35516",
+      "labels": [
+        "CI",
+        "AMD GPU",
+        "GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35821,
+      "title": "[ROCm] Use rocm plugin and pjrt wheels for pytest job in continuous wheel build pipeline",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-11T17:57:42Z",
+      "updated_at": "2026-03-12T07:04:06Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35821",
+      "labels": [
+        "CI",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35534,
+      "title": "[ROCm] bring gesdd for computing SVD on ROCm",
+      "author": "cj401-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-02T21:16:00Z",
+      "updated_at": "2026-03-11T21:59:20Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35534",
+      "labels": [
+        "enhancement",
+        "performance",
+        "jax.numpy",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 26604,
+      "title": "[ROCm][pallas:triton] Fix atomic min/max lowering for uint and float types",
+      "author": "draganmladjenovic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-02-19T12:55:04Z",
+      "updated_at": "2026-03-11T21:32:43Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/26604",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 35785,
       "title": "[ROCm] Fix and simplify jax rocm plugin init script",
@@ -8,24 +71,40 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-10T21:06:53Z",
-      "updated_at": "2026-03-10T22:06:16Z",
+      "updated_at": "2026-03-11T19:32:36Z",
       "html_url": "https://github.com/jax-ml/jax/pull/35785",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 35668,
-      "title": "[ROCm] Fix plugin init script",
-      "author": "alekstheod",
-      "state": "closed",
-      "merged": false,
-      "created_at": "2026-03-06T09:22:08Z",
-      "updated_at": "2026-03-10T21:30:57Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35668",
       "labels": [
         "AMD GPU"
       ],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 34135,
+      "title": "[ROCm] update to test if there are GPU events when doing profiling on\u2026",
+      "author": "cj401-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-02T18:02:18Z",
+      "updated_at": "2026-03-11T17:45:42Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/34135",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35611,
+      "title": "[ROCm] Skip ann_test test_pmap on ROCm due to IndivisibleError",
+      "author": "AratiGanesh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-04T20:53:49Z",
+      "updated_at": "2026-03-11T17:38:45Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35611",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 35713,
@@ -87,18 +166,6 @@
       "draft": false
     },
     {
-      "number": 35288,
-      "title": "[ROCm] Implement Mosaic GPU detection and Auto-Skips",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-21T13:03:07Z",
-      "updated_at": "2026-03-09T21:35:10Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35288",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 35111,
       "title": "[ROCm] Add ROCm support for eigh export backwards compatibility tests",
       "author": "AratiGanesh",
@@ -125,38 +192,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 35516,
-      "title": "[ROCm] Include prebuilt rocm plugin pkgs as deps to tests",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T18:02:31Z",
-      "updated_at": "2026-03-06T11:47:54Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35516",
-      "labels": [
-        "CI",
-        "AMD GPU",
-        "GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34135,
-      "title": "[ROCm] update to test if there are GPU events when doing profiling on\u2026",
-      "author": "cj401-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-02T18:02:18Z",
-      "updated_at": "2026-03-06T09:30:56Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34135",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
       ],
       "draft": false
     },
@@ -225,50 +260,6 @@
       "updated_at": "2026-03-04T21:22:23Z",
       "html_url": "https://github.com/jax-ml/jax/pull/35609",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 35611,
-      "title": "[ROCm] Skip ann_test test_pmap on ROCm due to IndivisibleError",
-      "author": "AratiGanesh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-04T20:53:49Z",
-      "updated_at": "2026-03-04T20:55:21Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35611",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 35534,
-      "title": "[ROCm] bring gesdd for computing SVD on ROCm",
-      "author": "cj401-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T21:16:00Z",
-      "updated_at": "2026-03-04T15:02:48Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35534",
-      "labels": [
-        "enhancement",
-        "performance",
-        "jax.numpy",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 26604,
-      "title": "[ROCm][pallas:triton] Fix atomic min/max lowering for uint and float types",
-      "author": "draganmladjenovic",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-02-19T12:55:04Z",
-      "updated_at": "2026-03-04T07:57:59Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/26604",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
       "draft": false
     },
     {
