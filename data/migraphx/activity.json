@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-03-12T08:31:26Z",
+  "collected_at": "2026-03-13T08:28:35Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 13,
-      "merged": 13,
-      "closed": 4
+      "opened": 12,
+      "merged": 12,
+      "closed": 3
     },
     "last_week": {
-      "opened": 15,
-      "merged": 5,
+      "opened": 12,
+      "merged": 9,
       "closed": 7
     },
-    "median_time_to_merge_hours": 215.6,
-    "merge_count": 21,
-    "stale_prs": 36
+    "median_time_to_merge_hours": 204.2,
+    "merge_count": 25,
+    "stale_prs": 35
   },
   "contributors": {
     "active_this_week": 18,
@@ -23,27 +23,15 @@
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 43,
-        "prs_merged": 22,
-        "commits": 8
+        "prs_submitted": 44,
+        "prs_merged": 23,
+        "commits": 7
       },
       {
         "author": "TedThemistokleous",
-        "prs_submitted": 10,
-        "prs_merged": 5,
-        "commits": 1
-      },
-      {
-        "author": "CharlieL7",
-        "prs_submitted": 8,
+        "prs_submitted": 9,
         "prs_merged": 6,
-        "commits": 2
-      },
-      {
-        "author": "causten",
-        "prs_submitted": 8,
-        "prs_merged": 6,
-        "commits": 2
+        "commits": 3
       },
       {
         "author": "bdevorem",
@@ -52,15 +40,27 @@
         "commits": 4
       },
       {
+        "author": "causten",
+        "prs_submitted": 8,
+        "prs_merged": 6,
+        "commits": 2
+      },
+      {
         "author": "shivadbhavsar",
         "prs_submitted": 8,
         "prs_merged": 3,
         "commits": 1
       },
       {
-        "author": "kahmed10",
+        "author": "CharlieL7",
         "prs_submitted": 7,
         "prs_merged": 5,
+        "commits": 2
+      },
+      {
+        "author": "kahmed10",
+        "prs_submitted": 6,
+        "prs_merged": 4,
         "commits": 2
       },
       {
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 49.5,
+    "days_since_last": 50.5,
     "avg_interval_days": 29.8,
     "total_releases": 5,
     "latest_tag": "rocm-7.2.0"

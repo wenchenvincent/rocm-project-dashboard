@@ -1,6 +1,35 @@
 {
-  "collected_at": "2026-03-12T08:29:41Z",
+  "collected_at": "2026-03-13T08:27:25Z",
   "prs": [
+    {
+      "number": 35741,
+      "title": "[ROCm] Add individual skips to Mosaic tests",
+      "author": "gulsumgudukbay",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-09T19:08:26Z",
+      "updated_at": "2026-03-13T08:08:43Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35741",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35852,
+      "title": "[ROCm] Add jax[rocm-local] extra and relax plugin version check for post releases",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-12T16:19:16Z",
+      "updated_at": "2026-03-13T04:30:05Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35852",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 35516,
       "title": "[ROCm] Include prebuilt rocm plugin pkgs as deps to tests",
@@ -8,12 +37,87 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-02T18:02:31Z",
-      "updated_at": "2026-03-12T07:15:00Z",
+      "updated_at": "2026-03-12T23:45:33Z",
       "html_url": "https://github.com/jax-ml/jax/pull/35516",
       "labels": [
         "CI",
         "AMD GPU",
         "GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35611,
+      "title": "[ROCm] Skip ann_test test_pmap on ROCm due to IndivisibleError",
+      "author": "AratiGanesh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-04T20:53:49Z",
+      "updated_at": "2026-03-12T18:31:06Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35611",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35533,
+      "title": "[ROCm] Skip test_topology_jit_serialize on ROCm GPU",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-02T21:05:16Z",
+      "updated_at": "2026-03-12T17:41:08Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35533",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 34971,
+      "title": "[ROCm] fix the performance issue when n=1 or 2",
+      "author": "cj401-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-10T21:50:42Z",
+      "updated_at": "2026-03-12T17:33:34Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/34971",
+      "labels": [
+        "AMD GPU",
+        "GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 34722,
+      "title": "[ROCm] ToT ROCm Unit Test Skips",
+      "author": "gulsumgudukbay",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-01-30T07:48:47Z",
+      "updated_at": "2026-03-12T17:24:08Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/34722",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 31381,
+      "title": "Remove old ROCm build code",
+      "author": "charleshofer",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-08-27T17:29:04Z",
+      "updated_at": "2026-03-12T12:51:58Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/31381",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
       ],
       "draft": false
     },
@@ -95,18 +199,6 @@
       "draft": false
     },
     {
-      "number": 35611,
-      "title": "[ROCm] Skip ann_test test_pmap on ROCm due to IndivisibleError",
-      "author": "AratiGanesh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-04T20:53:49Z",
-      "updated_at": "2026-03-11T17:38:45Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35611",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 35713,
       "title": "[ROCm] Use manylinux img to build jax wheels, manylinux comes with awscli preinstalled",
       "author": "alekstheod",
@@ -120,18 +212,6 @@
         "pull ready",
         "AMD GPU"
       ],
-      "draft": false
-    },
-    {
-      "number": 35741,
-      "title": "[ROCm] Add individual skips to Mosaic tests",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-09T19:08:26Z",
-      "updated_at": "2026-03-10T17:00:39Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35741",
-      "labels": [],
       "draft": false
     },
     {
@@ -208,18 +288,6 @@
       "draft": true
     },
     {
-      "number": 34722,
-      "title": "[ROCm] ToT ROCm Unit Test Skips",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-30T07:48:47Z",
-      "updated_at": "2026-03-05T15:07:46Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34722",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 34598,
       "title": "[ROCm] Implement approx_tanh for ROCm using OCML tanh function",
       "author": "phambinhfin",
@@ -275,18 +343,6 @@
         "kokoro:force-run",
         "pull ready"
       ],
-      "draft": false
-    },
-    {
-      "number": 35533,
-      "title": "[ROCm] Skip test_topology_jit_serialize on ROCm GPU",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T21:05:16Z",
-      "updated_at": "2026-03-03T18:36:02Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35533",
-      "labels": [],
       "draft": false
     },
     {
@@ -408,21 +464,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34971,
-      "title": "[ROCm] fix the performance issue when n=1 or 2",
-      "author": "cj401-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-10T21:50:42Z",
-      "updated_at": "2026-02-13T23:34:56Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34971",
-      "labels": [
-        "AMD GPU",
-        "GPU"
       ],
       "draft": false
     },
@@ -586,67 +627,6 @@
       "created_at": "2026-01-19T18:42:29Z",
       "updated_at": "2026-02-12T16:29:30Z",
       "html_url": "https://github.com/jax-ml/jax/pull/34474",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34802,
-      "title": "[ROCm] Enable lax backend scipy tests on ROCm GPUs",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-03T20:49:54Z",
-      "updated_at": "2026-02-12T15:15:46Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34802",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34774,
-      "title": "[ROCm] Enable lobpcg tests on ROCm platform",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-02T20:45:48Z",
-      "updated_at": "2026-02-12T14:59:01Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34774",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34575,
-      "title": "[ROCm] Enabled the Triton Pallas tests to run for ROCm.",
-      "author": "tsrw2048",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-22T23:58:43Z",
-      "updated_at": "2026-02-12T14:56:15Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34575",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 31381,
-      "title": "Remove old ROCm build code",
-      "author": "charleshofer",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-08-27T17:29:04Z",
-      "updated_at": "2026-02-12T08:58:03Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/31381",
       "labels": [
         "kokoro:force-run",
         "pull ready"

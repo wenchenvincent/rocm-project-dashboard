@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-03-12T08:31:24Z",
+  "collected_at": "2026-03-13T08:28:34Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
       "opened": 12,
-      "merged": 18,
+      "merged": 14,
       "closed": 0
     },
     "last_week": {
-      "opened": 17,
-      "merged": 9,
+      "opened": 15,
+      "merged": 12,
       "closed": 0
     },
     "median_time_to_merge_hours": 35.3,
@@ -18,8 +18,8 @@
     "stale_prs": 14
   },
   "contributors": {
-    "active_this_week": 18,
-    "total_contributors": 34,
+    "active_this_week": 16,
+    "total_contributors": 35,
     "top_contributors": [
       {
         "author": "ravil-mobile",
@@ -40,12 +40,6 @@
         "commits": 0
       },
       {
-        "author": "PMylon",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
         "author": "knwng",
         "prs_submitted": 3,
         "prs_merged": 3,
@@ -58,9 +52,15 @@
         "commits": 0
       },
       {
-        "author": "yangshuxin",
+        "author": "kelesvol",
         "prs_submitted": 2,
         "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "PMylon",
+        "prs_submitted": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -70,9 +70,9 @@
         "commits": 0
       },
       {
-        "author": "kelesvol",
+        "author": "yangshuxin",
         "prs_submitted": 2,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 49.4,
+    "days_since_last": 50.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"
