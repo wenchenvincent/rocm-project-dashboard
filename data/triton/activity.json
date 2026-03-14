@@ -1,29 +1,41 @@
 {
-  "collected_at": "2026-03-13T08:28:34Z",
+  "collected_at": "2026-03-14T08:22:20Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 12,
-      "merged": 14,
+      "opened": 15,
+      "merged": 20,
       "closed": 0
     },
     "last_week": {
-      "opened": 15,
-      "merged": 12,
+      "opened": 12,
+      "merged": 10,
       "closed": 0
     },
-    "median_time_to_merge_hours": 35.3,
+    "median_time_to_merge_hours": 76.0,
     "merge_count": 30,
     "stale_prs": 14
   },
   "contributors": {
-    "active_this_week": 16,
-    "total_contributors": 35,
+    "active_this_week": 18,
+    "total_contributors": 34,
     "top_contributors": [
       {
         "author": "ravil-mobile",
         "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "knwng",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "antiagainst",
+        "prs_submitted": 4,
         "prs_merged": 3,
         "commits": 0
       },
@@ -34,27 +46,27 @@
         "commits": 0
       },
       {
-        "author": "AlexAUT",
-        "prs_submitted": 4,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "knwng",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "antiagainst",
+        "author": "yiqian1",
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "kelesvol",
-        "prs_submitted": 2,
+        "author": "AlexAUT",
+        "prs_submitted": 3,
         "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "FrederickVu",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "jammm",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -64,25 +76,13 @@
         "commits": 0
       },
       {
-        "author": "nithinsubbiah",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "yangshuxin",
+        "author": "kelesvol",
         "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 0
-      },
-      {
-        "author": "ptrojahn",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
       }
     ],
-    "bus_factor": 6
+    "bus_factor": 5
   },
   "issue_health": {
     "total_open": 13,
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 50.4,
+    "days_since_last": 51.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

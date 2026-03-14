@@ -1,6 +1,102 @@
 {
-  "collected_at": "2026-03-13T08:28:11Z",
+  "collected_at": "2026-03-14T08:21:57Z",
   "prs": [
+    {
+      "number": 480,
+      "title": "Add Claude to review PRs",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T15:08:04Z",
+      "updated_at": "2026-03-14T04:29:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/480",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 478,
+      "title": "[proof-of-concept] CI performance regression microbenchmarking",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T15:43:14Z",
+      "updated_at": "2026-03-14T04:12:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 441,
+      "title": "Make distinctive ROCm TE wheels names",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-03T20:40:06Z",
+      "updated_at": "2026-03-14T03:38:32Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/441",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 481,
+      "title": "Ipanfilo/backport features to 28",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T17:20:11Z",
+      "updated_at": "2026-03-14T01:05:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/481",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 461,
+      "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-24T20:34:49Z",
+      "updated_at": "2026-03-13T22:08:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 472,
+      "title": "[WIP] NVFP4 cast/transpose",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-04T16:17:16Z",
+      "updated_at": "2026-03-13T21:34:52Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/472",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 479,
+      "title": "[NO MERGE] Release v2.10 rocm",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-12T19:23:43Z",
+      "updated_at": "2026-03-13T18:12:04Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/479",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 475,
+      "title": "Add FP8 Support For CK Tile Group GEMM",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T14:09:29Z",
+      "updated_at": "2026-03-13T17:06:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 367,
       "title": "Userbuffer epic",
@@ -14,18 +110,6 @@
       "draft": false
     },
     {
-      "number": 472,
-      "title": "[WIP] NVFP4 cast/transpose",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-04T16:17:16Z",
-      "updated_at": "2026-03-12T20:57:45Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/472",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 450,
       "title": "Update CI to label-driven testing",
       "author": "Micky774",
@@ -34,66 +118,6 @@
       "created_at": "2026-02-17T18:52:02Z",
       "updated_at": "2026-03-12T19:34:41Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/450",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 479,
-      "title": "[NO MERGE] Release v2.10 rocm",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-12T19:23:43Z",
-      "updated_at": "2026-03-12T19:26:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/479",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 475,
-      "title": "Add FP8 Support For CK Tile Group GEMM",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T14:09:29Z",
-      "updated_at": "2026-03-12T19:25:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 478,
-      "title": "[proof-of-concept] CI performance regression microbenchmarking",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-10T15:43:14Z",
-      "updated_at": "2026-03-12T18:23:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 476,
-      "title": "Use major ROCm version to tag pre-built AITER library",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-09T15:33:53Z",
-      "updated_at": "2026-03-11T23:21:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/476",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 422,
-      "title": "MXFP4 Cast Transpose Triton [WIP]",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-20T00:32:53Z",
-      "updated_at": "2026-03-11T22:00:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/422",
       "labels": [],
       "draft": false
     },
@@ -142,30 +166,6 @@
       "created_at": "2026-02-12T17:27:07Z",
       "updated_at": "2026-03-05T22:19:42Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 461,
-      "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-24T20:34:49Z",
-      "updated_at": "2026-03-05T15:50:31Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 441,
-      "title": "Make distinctive ROCm TE wheels names",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-03T20:40:06Z",
-      "updated_at": "2026-02-20T15:04:49Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/441",
       "labels": [],
       "draft": false
     },
@@ -278,6 +278,54 @@
       "draft": false
     },
     {
+      "number": 459,
+      "title": "Always use V2 hipify. Make all hipify results consistent",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-24T04:21:54Z",
+      "updated_at": "2026-03-14T03:03:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/459",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 482,
+      "title": "Change the copyright years to 2026",
+      "author": "wangye805",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-13T20:47:17Z",
+      "updated_at": "2026-03-14T03:02:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/482",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 476,
+      "title": "Use major ROCm version to tag pre-built AITER library",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-09T15:33:53Z",
+      "updated_at": "2026-03-13T16:48:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/476",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 422,
+      "title": "MXFP4 Cast Transpose Triton [WIP]",
+      "author": "sarthak-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-01-20T00:32:53Z",
+      "updated_at": "2026-03-13T15:31:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/422",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 444,
       "title": "Support release wheels with local version",
       "author": "ipanfilo",
@@ -286,18 +334,6 @@
       "created_at": "2026-02-06T14:47:54Z",
       "updated_at": "2026-03-12T19:27:30Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/444",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 459,
-      "title": "Always use V2 hipify. Make all hipify results consistent",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-24T04:21:54Z",
-      "updated_at": "2026-03-11T23:16:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/459",
       "labels": [],
       "draft": false
     },
@@ -1198,30 +1234,6 @@
       "created_at": "2025-10-20T18:52:27Z",
       "updated_at": "2025-11-24T21:12:17Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/341",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 356,
-      "title": "Experimental rocSHMEM support",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-10-29T01:15:20Z",
-      "updated_at": "2025-11-24T15:52:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/356",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 333,
-      "title": "[Fix] Added dbias and dgelu kernels for ROCm",
-      "author": "AllenFarcas",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-10-06T23:47:11Z",
-      "updated_at": "2025-11-19T20:42:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/333",
       "labels": [],
       "draft": false
     }
