@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-03-14T08:22:20Z",
+  "collected_at": "2026-03-15T08:25:31Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
       "opened": 15,
-      "merged": 20,
+      "merged": 21,
       "closed": 0
     },
     "last_week": {
-      "opened": 12,
-      "merged": 10,
+      "opened": 11,
+      "merged": 9,
       "closed": 0
     },
-    "median_time_to_merge_hours": 76.0,
+    "median_time_to_merge_hours": 78.9,
     "merge_count": 30,
-    "stale_prs": 14
+    "stale_prs": 15
   },
   "contributors": {
-    "active_this_week": 18,
-    "total_contributors": 34,
+    "active_this_week": 19,
+    "total_contributors": 35,
     "top_contributors": [
       {
         "author": "ravil-mobile",
@@ -58,6 +58,12 @@
         "commits": 0
       },
       {
+        "author": "brucechanglongxu",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
         "author": "FrederickVu",
         "prs_submitted": 2,
         "prs_merged": 1,
@@ -73,12 +79,6 @@
         "author": "PMylon",
         "prs_submitted": 2,
         "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "kelesvol",
-        "prs_submitted": 2,
-        "prs_merged": 2,
         "commits": 0
       }
     ],
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 51.4,
+    "days_since_last": 52.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

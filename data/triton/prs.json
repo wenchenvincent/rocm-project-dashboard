@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-03-14T08:21:39Z",
+  "collected_at": "2026-03-15T08:24:38Z",
   "prs": [
+    {
+      "number": 9605,
+      "title": "[AMD] Fix thread predicate in AtomicCASOpConversion for tensor operands",
+      "author": "brucechanglongxu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-28T05:54:21Z",
+      "updated_at": "2026-03-14T21:56:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9605",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9725,
       "title": "[AMD][TDM] Fix TDM assert typo",
@@ -494,30 +506,6 @@
       "draft": false
     },
     {
-      "number": 9631,
-      "title": "[AMD ] Fix a crash in SWP.",
-      "author": "yangshuxin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-03T20:21:16Z",
-      "updated_at": "2026-03-03T21:30:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9631",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9605,
-      "title": "[AMD] Fix thread predicate in AtomicCASOpConversion for tensor operands",
-      "author": "brucechanglongxu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-28T05:54:21Z",
-      "updated_at": "2026-02-28T06:25:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9605",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9562,
       "title": "Add maxnreg support for ROCm/AMD backend",
       "author": "fsx950223",
@@ -720,6 +708,18 @@
       "html_url": "https://github.com/triton-lang/triton/pull/7721",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 7147,
+      "title": "[BACKEND] Clean up hard code for NV and AMD GPU in the common TritonGPU dialect to support third party GPU extension.",
+      "author": "chengjunlu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-06-11T00:53:24Z",
+      "updated_at": "2025-07-14T23:21:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/7147",
+      "labels": [],
+      "draft": false
     }
   ]
 }
