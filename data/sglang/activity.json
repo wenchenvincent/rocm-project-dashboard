@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-03-15T08:25:27Z",
+  "collected_at": "2026-03-16T08:45:05Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 43,
-      "merged": 37,
-      "closed": 3
-    },
-    "last_week": {
-      "opened": 37,
-      "merged": 18,
+      "opened": 38,
+      "merged": 39,
       "closed": 0
     },
-    "median_time_to_merge_hours": 67.0,
+    "last_week": {
+      "opened": 38,
+      "merged": 17,
+      "closed": 0
+    },
+    "median_time_to_merge_hours": 62.2,
     "merge_count": 71,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 68,
-    "total_contributors": 76,
+    "active_this_week": 62,
+    "total_contributors": 74,
     "top_contributors": [
       {
         "author": "michaelzhang-ai",
@@ -29,7 +29,7 @@
       },
       {
         "author": "yctseng0211",
-        "prs_submitted": 9,
+        "prs_submitted": 8,
         "prs_merged": 5,
         "commits": 0
       },
@@ -70,15 +70,15 @@
         "commits": 0
       },
       {
-        "author": "Godmook",
+        "author": "Duyi-Wang",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "andyluo7",
+        "author": "zhentaocc",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
@@ -86,8 +86,8 @@
   },
   "issue_health": {
     "total_open": 42,
-    "opened_this_week": 6,
-    "closed_this_week": 119,
+    "opened_this_week": 4,
+    "closed_this_week": 112,
     "unanswered": 7
   },
   "ci_health": {
@@ -115,13 +115,13 @@
     "cuda": {
       "sample_size": 20,
       "median_minutes": 0.5,
-      "p90_minutes": 88.0,
-      "min_minutes": 0.4,
-      "max_minutes": 162.3
+      "p90_minutes": 4.2,
+      "min_minutes": 0.3,
+      "max_minutes": 10.7
     }
   },
   "release_cadence": {
-    "days_since_last": 19.3,
+    "days_since_last": 20.3,
     "avg_interval_days": 15.3,
     "total_releases": 5,
     "latest_tag": "v0.5.9"

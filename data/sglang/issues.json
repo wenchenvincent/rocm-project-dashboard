@@ -1,13 +1,25 @@
 {
-  "collected_at": "2026-03-15T08:24:36Z",
+  "collected_at": "2026-03-16T08:44:00Z",
   "issues": [
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-03-16T08:12:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
     {
       "number": 20069,
       "title": "[Tracking] Qwen3.5 bugs",
       "author": "hlu1",
       "state": "open",
       "created_at": "2026-03-07T01:42:58Z",
-      "updated_at": "2026-03-13T00:34:47Z",
+      "updated_at": "2026-03-15T21:12:08Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20069",
       "labels": [
         "high priority",
@@ -55,18 +67,6 @@
       "updated_at": "2026-03-12T02:32:31Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
-    },
-    {
-      "number": 20301,
-      "title": "[Doc] Quantization document has many inaccuracies",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-03-10T22:17:18Z",
-      "updated_at": "2026-03-11T19:22:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20301",
-      "labels": [
-        "documentation"
-      ]
     },
     {
       "number": 20372,
@@ -127,18 +127,6 @@
       "updated_at": "2026-03-09T11:38:37Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20188",
       "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-03-09T03:06:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
     },
     {
       "number": 19993,
@@ -449,6 +437,16 @@
       "created_at": "2026-01-20T07:43:04Z",
       "updated_at": "2026-01-20T07:43:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17398",
+      "labels": []
+    },
+    {
+      "number": 16639,
+      "title": "[Feature] Is there a system-level support plan for third-party new hardware?",
+      "author": "daming5432",
+      "state": "open",
+      "created_at": "2026-01-07T08:05:26Z",
+      "updated_at": "2026-01-19T04:42:32Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16639",
       "labels": []
     },
     {
