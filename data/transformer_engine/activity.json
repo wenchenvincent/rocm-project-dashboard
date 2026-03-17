@@ -1,36 +1,36 @@
 {
-  "collected_at": "2026-03-16T08:46:43Z",
+  "collected_at": "2026-03-17T08:40:53Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 8,
-      "merged": 7,
-      "closed": 0
+      "opened": 12,
+      "merged": 8,
+      "closed": 2
     },
     "last_week": {
       "opened": 9,
-      "merged": 7,
-      "closed": 3
+      "merged": 6,
+      "closed": 2
     },
-    "median_time_to_merge_hours": 105.6,
+    "median_time_to_merge_hours": 84.3,
     "merge_count": 14,
     "stale_prs": 9
   },
   "contributors": {
-    "active_this_week": 9,
+    "active_this_week": 10,
     "total_contributors": 13,
     "top_contributors": [
       {
         "author": "ipanfilo",
         "prs_submitted": 28,
-        "prs_merged": 26,
+        "prs_merged": 27,
         "commits": 6
       },
       {
         "author": "Micky774",
         "prs_submitted": 22,
-        "prs_merged": 17,
+        "prs_merged": 16,
         "commits": 6
       },
       {
@@ -53,27 +53,27 @@
       },
       {
         "author": "alextmagro",
-        "prs_submitted": 5,
+        "prs_submitted": 6,
         "prs_merged": 3,
         "commits": 4
       },
       {
-        "author": "leo-amd",
-        "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
         "author": "sudhu2k",
-        "prs_submitted": 5,
+        "prs_submitted": 6,
         "prs_merged": 5,
         "commits": 0
       },
       {
         "author": "sarthak-amd",
-        "prs_submitted": 3,
+        "prs_submitted": 4,
         "prs_merged": 1,
         "commits": 1
+      },
+      {
+        "author": "leo-amd",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 0
       },
       {
         "author": "wenchenvincent",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 39.3,
+    "days_since_last": 40.3,
     "avg_interval_days": 54.8,
     "total_releases": 5,
     "latest_tag": "v2.4_rocm"

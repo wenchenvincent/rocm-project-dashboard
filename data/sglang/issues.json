@@ -1,6 +1,40 @@
 {
-  "collected_at": "2026-03-16T08:44:00Z",
+  "collected_at": "2026-03-17T08:38:11Z",
   "issues": [
+    {
+      "number": 20728,
+      "title": "[Bug][MPS] Server crashes on launch",
+      "author": "Jonahcb",
+      "state": "open",
+      "created_at": "2026-03-17T01:58:30Z",
+      "updated_at": "2026-03-17T02:45:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20728",
+      "labels": [
+        "macos"
+      ]
+    },
+    {
+      "number": 20727,
+      "title": "[Bug][MPS] check_env script fails",
+      "author": "Jonahcb",
+      "state": "open",
+      "created_at": "2026-03-17T01:57:34Z",
+      "updated_at": "2026-03-17T02:08:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20727",
+      "labels": [
+        "macos"
+      ]
+    },
+    {
+      "number": 20691,
+      "title": "[Bug][ROCm] Kimi 2.5 crashes by default on ROCm unless users set `SGLANG_ROCM_FUSED_DECODE_MLA=0`",
+      "author": "fxmarty-amd",
+      "state": "open",
+      "created_at": "2026-03-16T11:26:30Z",
+      "updated_at": "2026-03-16T11:54:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20691",
+      "labels": []
+    },
     {
       "number": 16565,
       "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
@@ -437,16 +471,6 @@
       "created_at": "2026-01-20T07:43:04Z",
       "updated_at": "2026-01-20T07:43:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17398",
-      "labels": []
-    },
-    {
-      "number": 16639,
-      "title": "[Feature] Is there a system-level support plan for third-party new hardware?",
-      "author": "daming5432",
-      "state": "open",
-      "created_at": "2026-01-07T08:05:26Z",
-      "updated_at": "2026-01-19T04:42:32Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16639",
       "labels": []
     },
     {
