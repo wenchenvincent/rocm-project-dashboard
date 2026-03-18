@@ -1,17 +1,17 @@
 {
-  "collected_at": "2026-03-17T08:40:45Z",
+  "collected_at": "2026-03-18T08:37:26Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
       "opened": 6,
-      "merged": 7,
+      "merged": 6,
       "closed": 1
     },
     "last_week": {
-      "opened": 14,
+      "opened": 12,
       "merged": 9,
-      "closed": 3
+      "closed": 1
     },
     "median_time_to_merge_hours": 0.4,
     "merge_count": 18,

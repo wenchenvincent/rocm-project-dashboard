@@ -1,17 +1,59 @@
 {
-  "collected_at": "2026-03-17T08:38:11Z",
+  "collected_at": "2026-03-18T08:35:23Z",
   "issues": [
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-03-18T08:10:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 18466,
+      "title": "[Tracking][Performance][AMD] Qwen3 & Qwen3-VL Latency Optimization on AMD MI300 Series GPUs",
+      "author": "wuhuikx",
+      "state": "open",
+      "created_at": "2026-02-09T05:13:48Z",
+      "updated_at": "2026-03-18T02:36:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/18466",
+      "labels": []
+    },
+    {
+      "number": 20404,
+      "title": "MI355X disagg DPA + MTP Errors",
+      "author": "Oseltamivir",
+      "state": "open",
+      "created_at": "2026-03-12T04:22:39Z",
+      "updated_at": "2026-03-17T18:53:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20404",
+      "labels": []
+    },
     {
       "number": 20728,
       "title": "[Bug][MPS] Server crashes on launch",
       "author": "Jonahcb",
       "state": "open",
       "created_at": "2026-03-17T01:58:30Z",
-      "updated_at": "2026-03-17T02:45:54Z",
+      "updated_at": "2026-03-17T12:47:23Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20728",
       "labels": [
         "macos"
       ]
+    },
+    {
+      "number": 15194,
+      "title": "[Roadmap] Quantization Modifications",
+      "author": "TamirBaydasov",
+      "state": "open",
+      "created_at": "2025-12-15T14:11:54Z",
+      "updated_at": "2026-03-17T12:47:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
+      "labels": []
     },
     {
       "number": 20727,
@@ -34,18 +76,6 @@
       "updated_at": "2026-03-16T11:54:36Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20691",
       "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-03-16T08:12:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
     },
     {
       "number": 20069,
@@ -83,16 +113,6 @@
       "labels": []
     },
     {
-      "number": 20404,
-      "title": "MI355X disagg DPA + MTP Errors",
-      "author": "Oseltamivir",
-      "state": "open",
-      "created_at": "2026-03-12T04:22:39Z",
-      "updated_at": "2026-03-12T06:42:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20404",
-      "labels": []
-    },
-    {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
@@ -110,16 +130,6 @@
       "created_at": "2026-03-11T14:49:44Z",
       "updated_at": "2026-03-11T14:51:39Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20372",
-      "labels": []
-    },
-    {
-      "number": 18466,
-      "title": "[Tracking][Performance][AMD] Qwen3 & Qwen3-VL Latency Optimization on AMD MI300 Series GPUs",
-      "author": "wuhuikx",
-      "state": "open",
-      "created_at": "2026-02-09T05:13:48Z",
-      "updated_at": "2026-03-11T10:14:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18466",
       "labels": []
     },
     {
@@ -249,16 +259,6 @@
       "labels": []
     },
     {
-      "number": 15194,
-      "title": "[Roadmap] Quantization Modifications",
-      "author": "TamirBaydasov",
-      "state": "open",
-      "created_at": "2025-12-15T14:11:54Z",
-      "updated_at": "2026-03-05T02:50:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
-      "labels": []
-    },
-    {
       "number": 12780,
       "title": "Development Roadmap (2026 Q1)",
       "author": "hnyls2002",
@@ -361,19 +361,6 @@
       ]
     },
     {
-      "number": 16027,
-      "title": "[AMD][Bug] GLM-4.7 EAGLE speculative decoding fails with AITER attention backend on ROCm - missing `max_split_per_batch` attribute",
-      "author": "ehartford",
-      "state": "open",
-      "created_at": "2025-12-29T02:02:29Z",
-      "updated_at": "2026-02-06T19:55:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16027",
-      "labels": [
-        "amd",
-        "aiter"
-      ]
-    },
-    {
       "number": 16102,
       "title": "[Bug] MiniMax-M2.1 CUDA Graph + torch.compile crashes due to outplace_all_reduce being traced by Dynamo (ROCm / MI300X)",
       "author": "ehartford",
@@ -471,6 +458,16 @@
       "created_at": "2026-01-20T07:43:04Z",
       "updated_at": "2026-01-20T07:43:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17398",
+      "labels": []
+    },
+    {
+      "number": 16639,
+      "title": "[Feature] Is there a system-level support plan for third-party new hardware?",
+      "author": "daming5432",
+      "state": "open",
+      "created_at": "2026-01-07T08:05:26Z",
+      "updated_at": "2026-01-19T04:42:32Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16639",
       "labels": []
     },
     {
