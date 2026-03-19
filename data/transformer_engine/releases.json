@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-03-18T08:35:51Z",
+  "collected_at": "2026-03-19T08:30:13Z",
   "releases": [
+    {
+      "tag_name": "v2.6_rocm",
+      "name": "v2.6 ROCm",
+      "published_at": "2026-03-18T16:00:58Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/releases/tag/v2.6_rocm",
+      "prerelease": false
+    },
     {
       "tag_name": "v2.4_rocm",
       "name": "v2.4_rocm",
@@ -27,13 +34,6 @@
       "name": "v1.14 ROCm",
       "published_at": "2025-06-30T18:45:21Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/releases/tag/v1.14_rocm",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v1.13_rocm",
-      "name": "v1.13 ROCm",
-      "published_at": "2025-06-30T18:44:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/releases/tag/v1.13_rocm",
       "prerelease": false
     }
   ]

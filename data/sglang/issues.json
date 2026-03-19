@@ -1,6 +1,58 @@
 {
-  "collected_at": "2026-03-18T08:35:23Z",
+  "collected_at": "2026-03-19T08:29:41Z",
   "issues": [
+    {
+      "number": 20008,
+      "title": "[Bug] oom when loading qwen3 coder 480b instruct fp8 on 2 x rocm mi355x",
+      "author": "Evgueni-Petrov-aka-espetrov",
+      "state": "open",
+      "created_at": "2026-03-06T04:55:17Z",
+      "updated_at": "2026-03-19T05:00:30Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20008",
+      "labels": []
+    },
+    {
+      "number": 12780,
+      "title": "Development Roadmap (2026 Q1)",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2025-11-06T17:50:24Z",
+      "updated_at": "2026-03-19T03:42:57Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/12780",
+      "labels": []
+    },
+    {
+      "number": 13363,
+      "title": "[Roadmap] sglang auto tuner",
+      "author": "sglang-bot",
+      "state": "open",
+      "created_at": "2025-11-16T04:31:44Z",
+      "updated_at": "2026-03-18T23:01:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
+      "labels": [
+        "good first issue"
+      ]
+    },
+    {
+      "number": 15194,
+      "title": "[Roadmap] Quantization Modifications",
+      "author": "TamirBaydasov",
+      "state": "open",
+      "created_at": "2025-12-15T14:11:54Z",
+      "updated_at": "2026-03-18T15:26:19Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
+      "labels": []
+    },
+    {
+      "number": 18466,
+      "title": "[Tracking][Performance][AMD] Qwen3 & Qwen3-VL Latency Optimization on AMD MI300 Series GPUs",
+      "author": "wuhuikx",
+      "state": "open",
+      "created_at": "2026-02-09T05:13:48Z",
+      "updated_at": "2026-03-18T09:15:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/18466",
+      "labels": []
+    },
     {
       "number": 16565,
       "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
@@ -12,16 +64,6 @@
       "labels": [
         "mthreads"
       ]
-    },
-    {
-      "number": 18466,
-      "title": "[Tracking][Performance][AMD] Qwen3 & Qwen3-VL Latency Optimization on AMD MI300 Series GPUs",
-      "author": "wuhuikx",
-      "state": "open",
-      "created_at": "2026-02-09T05:13:48Z",
-      "updated_at": "2026-03-18T02:36:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18466",
-      "labels": []
     },
     {
       "number": 20404,
@@ -44,16 +86,6 @@
       "labels": [
         "macos"
       ]
-    },
-    {
-      "number": 15194,
-      "title": "[Roadmap] Quantization Modifications",
-      "author": "TamirBaydasov",
-      "state": "open",
-      "created_at": "2025-12-15T14:11:54Z",
-      "updated_at": "2026-03-17T12:47:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
-      "labels": []
     },
     {
       "number": 20727,
@@ -130,16 +162,6 @@
       "created_at": "2026-03-11T14:49:44Z",
       "updated_at": "2026-03-11T14:51:39Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20372",
-      "labels": []
-    },
-    {
-      "number": 20008,
-      "title": "[Bug] oom when loading qwen3 coder 480b instruct fp8 on 2 x rocm mi355x",
-      "author": "Evgueni-Petrov-aka-espetrov",
-      "state": "open",
-      "created_at": "2026-03-06T04:55:17Z",
-      "updated_at": "2026-03-11T06:56:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20008",
       "labels": []
     },
     {
@@ -259,16 +281,6 @@
       "labels": []
     },
     {
-      "number": 12780,
-      "title": "Development Roadmap (2026 Q1)",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2025-11-06T17:50:24Z",
-      "updated_at": "2026-03-03T18:59:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/12780",
-      "labels": []
-    },
-    {
       "number": 13808,
       "title": "[Roadmap] CI suites organization",
       "author": "hnyls2002",
@@ -347,18 +359,6 @@
       "updated_at": "2026-02-12T03:15:32Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17623",
       "labels": []
-    },
-    {
-      "number": 13363,
-      "title": "[Roadmap] sglang auto tuner",
-      "author": "sglang-bot",
-      "state": "open",
-      "created_at": "2025-11-16T04:31:44Z",
-      "updated_at": "2026-02-07T01:04:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
-      "labels": [
-        "good first issue"
-      ]
     },
     {
       "number": 16102,

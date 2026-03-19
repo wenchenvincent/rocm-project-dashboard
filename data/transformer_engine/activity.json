@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-03-18T08:37:32Z",
+  "collected_at": "2026-03-19T08:32:17Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 17,
+      "opened": 19,
       "merged": 10,
-      "closed": 3
+      "closed": 4
     },
     "last_week": {
-      "opened": 7,
-      "merged": 5,
-      "closed": 2
+      "opened": 4,
+      "merged": 2,
+      "closed": 0
     },
-    "median_time_to_merge_hours": 24.9,
-    "merge_count": 15,
+    "median_time_to_merge_hours": 48.1,
+    "merge_count": 12,
     "stale_prs": 9
   },
   "contributors": {
@@ -48,8 +48,8 @@
       {
         "author": "sudhu2k",
         "prs_submitted": 8,
-        "prs_merged": 6,
-        "commits": 1
+        "prs_merged": 7,
+        "commits": 2
       },
       {
         "author": "wangye805",
@@ -58,21 +58,21 @@
         "commits": 3
       },
       {
-        "author": "alextmagro",
+        "author": "sarthak-amd",
         "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 4
-      },
-      {
-        "author": "leo-amd",
-        "prs_submitted": 5,
-        "prs_merged": 4,
+        "prs_merged": 1,
         "commits": 1
       },
       {
-        "author": "sarthak-amd",
+        "author": "alextmagro",
+        "prs_submitted": 5,
+        "prs_merged": 4,
+        "commits": 3
+      },
+      {
+        "author": "leo-amd",
         "prs_submitted": 4,
-        "prs_merged": 1,
+        "prs_merged": 3,
         "commits": 1
       },
       {
@@ -93,9 +93,9 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 41.3,
-    "avg_interval_days": 54.8,
+    "days_since_last": 0.7,
+    "avg_interval_days": 65.2,
     "total_releases": 5,
-    "latest_tag": "v2.4_rocm"
+    "latest_tag": "v2.6_rocm"
   }
 }
