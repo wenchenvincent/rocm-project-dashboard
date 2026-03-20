@@ -1,6 +1,48 @@
 {
-  "collected_at": "2026-03-19T08:29:41Z",
+  "collected_at": "2026-03-20T08:28:32Z",
   "issues": [
+    {
+      "number": 18466,
+      "title": "[Tracking][Performance][AMD] Qwen3 & Qwen3-VL Latency Optimization on AMD MI300 Series GPUs",
+      "author": "wuhuikx",
+      "state": "open",
+      "created_at": "2026-02-09T05:13:48Z",
+      "updated_at": "2026-03-20T01:34:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/18466",
+      "labels": []
+    },
+    {
+      "number": 17050,
+      "title": "[Tracking] CI Test Failures and Fixes",
+      "author": "alisonshao",
+      "state": "open",
+      "created_at": "2026-01-14T01:49:31Z",
+      "updated_at": "2026-03-19T23:35:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 13363,
+      "title": "[Roadmap] sglang auto tuner",
+      "author": "sglang-bot",
+      "state": "open",
+      "created_at": "2025-11-16T04:31:44Z",
+      "updated_at": "2026-03-19T15:23:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
+      "labels": [
+        "good first issue"
+      ]
+    },
+    {
+      "number": 15194,
+      "title": "[Roadmap] Quantization Modifications",
+      "author": "TamirBaydasov",
+      "state": "open",
+      "created_at": "2025-12-15T14:11:54Z",
+      "updated_at": "2026-03-19T13:34:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
+      "labels": []
+    },
     {
       "number": 20008,
       "title": "[Bug] oom when loading qwen3 coder 480b instruct fp8 on 2 x rocm mi355x",
@@ -19,38 +61,6 @@
       "created_at": "2025-11-06T17:50:24Z",
       "updated_at": "2026-03-19T03:42:57Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/12780",
-      "labels": []
-    },
-    {
-      "number": 13363,
-      "title": "[Roadmap] sglang auto tuner",
-      "author": "sglang-bot",
-      "state": "open",
-      "created_at": "2025-11-16T04:31:44Z",
-      "updated_at": "2026-03-18T23:01:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
-      "labels": [
-        "good first issue"
-      ]
-    },
-    {
-      "number": 15194,
-      "title": "[Roadmap] Quantization Modifications",
-      "author": "TamirBaydasov",
-      "state": "open",
-      "created_at": "2025-12-15T14:11:54Z",
-      "updated_at": "2026-03-18T15:26:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
-      "labels": []
-    },
-    {
-      "number": 18466,
-      "title": "[Tracking][Performance][AMD] Qwen3 & Qwen3-VL Latency Optimization on AMD MI300 Series GPUs",
-      "author": "wuhuikx",
-      "state": "open",
-      "created_at": "2026-02-09T05:13:48Z",
-      "updated_at": "2026-03-18T09:15:52Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18466",
       "labels": []
     },
     {
@@ -142,16 +152,6 @@
       "created_at": "2026-03-09T07:46:27Z",
       "updated_at": "2026-03-12T09:02:12Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20169",
-      "labels": []
-    },
-    {
-      "number": 17050,
-      "title": "[Tracking] CI Test Failures and Fixes",
-      "author": "alisonshao",
-      "state": "open",
-      "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-03-12T02:32:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
