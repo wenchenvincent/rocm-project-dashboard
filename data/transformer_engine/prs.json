@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-03-20T08:28:58Z",
+  "collected_at": "2026-03-21T08:19:37Z",
   "prs": [
     {
-      "number": 441,
-      "title": "Make distinctive ROCm TE wheels names",
-      "author": "ipanfilo",
+      "number": 446,
+      "title": "Update AITER subcommit and refactor internal AITER/CK FA API usage",
+      "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-02-03T20:40:06Z",
-      "updated_at": "2026-03-20T07:30:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/441",
+      "created_at": "2026-02-09T21:27:13Z",
+      "updated_at": "2026-03-21T05:45:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/446",
       "labels": [],
       "draft": false
     },
@@ -20,32 +20,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-04T16:17:16Z",
-      "updated_at": "2026-03-20T05:46:28Z",
+      "updated_at": "2026-03-21T02:56:22Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/472",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 496,
-      "title": "WIP IFU 2.12.",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-18T20:33:11Z",
-      "updated_at": "2026-03-20T05:35:35Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 495,
-      "title": "IFU 2.12 PyTorch merge conflict resolution",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-17T22:11:09Z",
-      "updated_at": "2026-03-20T04:41:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/495",
       "labels": [],
       "draft": false
     },
@@ -56,8 +32,80 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-19T20:38:12Z",
-      "updated_at": "2026-03-20T04:15:42Z",
+      "updated_at": "2026-03-21T01:36:50Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/498",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 501,
+      "title": "[Distributed Optimizer] Fix transpose creation when keep_fp8_weight_transpose_cache=False",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-20T19:48:58Z",
+      "updated_at": "2026-03-21T01:35:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/501",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 496,
+      "title": "WIP IFU 2.12.",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-18T20:33:11Z",
+      "updated_at": "2026-03-20T19:34:56Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 487,
+      "title": "ASV demo",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-16T23:20:12Z",
+      "updated_at": "2026-03-20T19:25:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 500,
+      "title": "Make distinctive ROCm TE wheels names (#441)",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-20T17:46:38Z",
+      "updated_at": "2026-03-20T17:46:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/500",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 499,
+      "title": "[WIP] Megatron-LM specific release v2.10 rocm cherrypicks",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-20T17:24:25Z",
+      "updated_at": "2026-03-20T17:24:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/499",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 495,
+      "title": "IFU 2.12 PyTorch merge conflict resolution",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-17T22:11:09Z",
+      "updated_at": "2026-03-20T04:41:01Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/495",
       "labels": [],
       "draft": false
     },
@@ -110,18 +158,6 @@
       "draft": true
     },
     {
-      "number": 487,
-      "title": "ASV demo",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-16T23:20:12Z",
-      "updated_at": "2026-03-19T18:28:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 461,
       "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
       "author": "VeeraRajasekhar",
@@ -144,18 +180,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/497",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 446,
-      "title": "Update AITER subcommit and refactor internal AITER/CK FA API usage",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-09T21:27:13Z",
-      "updated_at": "2026-03-18T20:18:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/446",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 478,
@@ -334,6 +358,18 @@
       "created_at": "2025-03-19T09:19:05Z",
       "updated_at": "2025-08-27T14:47:57Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/152",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 441,
+      "title": "Make distinctive ROCm TE wheels names",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-03T20:40:06Z",
+      "updated_at": "2026-03-20T17:44:53Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/441",
       "labels": [],
       "draft": false
     },

@@ -1,54 +1,60 @@
 {
-  "collected_at": "2026-03-20T08:29:25Z",
+  "collected_at": "2026-03-21T08:20:09Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 28,
-      "merged": 29,
+      "opened": 27,
+      "merged": 25,
       "closed": 0
     },
     "last_week": {
-      "opened": 6,
-      "merged": 1,
+      "opened": 7,
+      "merged": 5,
       "closed": 0
     },
-    "median_time_to_merge_hours": 21.0,
+    "median_time_to_merge_hours": 16.6,
     "merge_count": 30,
     "stale_prs": 16
   },
   "contributors": {
-    "active_this_week": 22,
-    "total_contributors": 35,
+    "active_this_week": 21,
+    "total_contributors": 36,
     "top_contributors": [
       {
+        "author": "ravil-mobile",
+        "prs_submitted": 4,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
         "author": "antiagainst",
-        "prs_submitted": 5,
-        "prs_merged": 4,
+        "prs_submitted": 4,
+        "prs_merged": 3,
         "commits": 0
       },
       {
         "author": "AlexAUT",
-        "prs_submitted": 5,
-        "prs_merged": 5,
+        "prs_submitted": 4,
+        "prs_merged": 4,
         "commits": 0
       },
       {
-        "author": "ravil-mobile",
-        "prs_submitted": 4,
+        "author": "PMylon",
+        "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
       },
       {
         "author": "yiqian1",
         "prs_submitted": 3,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "knwng",
+        "author": "borontion",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -58,25 +64,19 @@
         "commits": 0
       },
       {
-        "author": "PMylon",
+        "author": "roberteg16",
         "prs_submitted": 2,
-        "prs_merged": 0,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "knwng",
+        "prs_submitted": 2,
+        "prs_merged": 2,
         "commits": 0
       },
       {
         "author": "yangshuxin",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "borontion",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "tyb0807",
         "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 0
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 57.4,
+    "days_since_last": 58.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

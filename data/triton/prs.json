@@ -1,15 +1,87 @@
 {
-  "collected_at": "2026-03-20T08:28:34Z",
+  "collected_at": "2026-03-21T08:19:11Z",
   "prs": [
+    {
+      "number": 9792,
+      "title": "[AMD][Backend] Add OptimizeDescriptorEncoding pass for AMDGPU",
+      "author": "sriakrish",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-20T23:46:07Z",
+      "updated_at": "2026-03-21T03:47:52Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9792",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9777,
       "title": "[AMD] Propagate buffer cache modifiers to LLVM IR for RDNA3 targets",
       "author": "roberteg16",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-19T08:50:49Z",
+      "updated_at": "2026-03-21T00:48:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9777",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9790,
+      "title": "[AMD] Fix f16 gemm single warp schedule variant regression due to L2 prefetch enablement",
+      "author": "PMylon",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-20T20:16:48Z",
+      "updated_at": "2026-03-21T00:07:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9790",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9388,
+      "title": "[AMD][Test] Reenable test_hooks() for HIP CDNA2",
+      "author": "yiqian1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-05T22:57:23Z",
+      "updated_at": "2026-03-21T00:04:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9388",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9785,
+      "title": "[AMD][NFC] Small refactoring of `ScheduleLoop.cpp`",
+      "author": "ravil-mobile",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-19T08:50:49Z",
-      "updated_at": "2026-03-20T08:22:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9777",
+      "created_at": "2026-03-20T11:01:50Z",
+      "updated_at": "2026-03-20T23:30:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9785",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9787,
+      "title": "[AMD] Capture LLD linker errors in link_hsaco instead of printing to stderr",
+      "author": "roberteg16",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-20T14:47:02Z",
+      "updated_at": "2026-03-20T22:50:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9787",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9788,
+      "title": "[AMD][GLUON] Fix deduce scale factor when using scalar value",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-20T15:26:05Z",
+      "updated_at": "2026-03-20T18:48:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9788",
       "labels": [],
       "draft": false
     },
@@ -20,10 +92,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-19T18:12:55Z",
-      "updated_at": "2026-03-20T06:02:26Z",
+      "updated_at": "2026-03-20T17:43:47Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9779",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 9692,
+      "title": "[AMD][CONSAN] Add Concurrency Sanitizer Support",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-11T13:46:35Z",
+      "updated_at": "2026-03-20T14:45:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9692",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 9752,
@@ -62,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 9723,
-      "title": "[AMD]Skip Scalar Scales in deduceScaleFactor",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-13T23:55:37Z",
-      "updated_at": "2026-03-19T23:00:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9723",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9741,
       "title": "[AMD] Improve LDS padding heuristic for gfx1250 TDM dot operand loads",
       "author": "jerryyin",
@@ -94,18 +166,6 @@
       "created_at": "2026-03-19T20:44:49Z",
       "updated_at": "2026-03-19T21:53:13Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9780",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9692,
-      "title": "[AMD][CONSAN] Add Concurrency Sanitizer Support",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-11T13:46:35Z",
-      "updated_at": "2026-03-19T16:55:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9692",
       "labels": [],
       "draft": false
     },
@@ -422,42 +482,6 @@
       "draft": false
     },
     {
-      "number": 8748,
-      "title": "[AMD] Only require HIP v6 which is necessary",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-11-17T18:09:49Z",
-      "updated_at": "2026-03-13T20:16:08Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/8748",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9715,
-      "title": "[AMD] Improved failure messages in `AccelerateAMDMatmul.cpp`",
-      "author": "ravil-mobile",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-13T10:28:37Z",
-      "updated_at": "2026-03-13T19:15:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9715",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9675,
-      "title": "Reland \"[AMD][BACKEND] Cherry pick pr 9487 to rel 3.7\"",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-09T11:32:30Z",
-      "updated_at": "2026-03-13T18:07:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9675",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9411,
       "title": "[AMD][WIP] LDS Prefetch Pass to support slicing M, N",
       "author": "guacamoleo",
@@ -470,18 +494,6 @@
       "draft": true
     },
     {
-      "number": 9541,
-      "title": "[AMD] CanonicalizePointers: Handle different base pointers and offsets",
-      "author": "kelesvol",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-23T12:07:17Z",
-      "updated_at": "2026-03-13T00:07:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9541",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 7756,
       "title": "[AMD] Added initial support for mxfp6 data type",
       "author": "ravil-mobile",
@@ -490,18 +502,6 @@
       "created_at": "2025-08-04T12:54:15Z",
       "updated_at": "2026-03-10T13:16:47Z",
       "html_url": "https://github.com/triton-lang/triton/pull/7756",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9388,
-      "title": "[AMD][Test] Reenable test_hooks() for HIP CDNA2",
-      "author": "yiqian1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-05T22:57:23Z",
-      "updated_at": "2026-03-05T04:09:33Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9388",
       "labels": [],
       "draft": true
     },
