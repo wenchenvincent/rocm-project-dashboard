@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-22T08:21:42Z",
+  "collected_at": "2026-03-23T08:42:38Z",
   "issues": [
     {
       "number": 256,
@@ -7,8 +7,18 @@
       "author": "lburzawa",
       "state": "open",
       "created_at": "2026-03-20T22:09:48Z",
-      "updated_at": "2026-03-20T22:09:48Z",
+      "updated_at": "2026-03-23T08:25:21Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/256",
+      "labels": []
+    },
+    {
+      "number": 253,
+      "title": "[Feature]: RFC: Pluggable GPU compile backend (Python layer)",
+      "author": "Peter9606",
+      "state": "open",
+      "created_at": "2026-03-20T08:11:44Z",
+      "updated_at": "2026-03-23T05:42:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/253",
       "labels": []
     },
     {
@@ -29,16 +39,6 @@
       "created_at": "2026-03-20T11:22:21Z",
       "updated_at": "2026-03-20T11:22:21Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/255",
-      "labels": []
-    },
-    {
-      "number": 253,
-      "title": "[Feature]: RFC: Pluggable GPU compile backend (Python layer)",
-      "author": "Peter9606",
-      "state": "open",
-      "created_at": "2026-03-20T08:11:44Z",
-      "updated_at": "2026-03-20T08:11:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/253",
       "labels": []
     },
     {

@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-03-22T08:21:44Z",
+  "collected_at": "2026-03-23T08:42:40Z",
   "prs": [
+    {
+      "number": 501,
+      "title": "[Distributed Optimizer] Fix transpose creation when keep_fp8_weight_transpose_cache=False",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-20T19:48:58Z",
+      "updated_at": "2026-03-23T06:49:56Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/501",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 496,
+      "title": "WIP IFU 2.12.",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-18T20:33:11Z",
+      "updated_at": "2026-03-22T23:18:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 475,
       "title": "Add FP8 Support For CK Tile Group GEMM",
@@ -46,30 +70,6 @@
       "created_at": "2026-03-19T20:38:12Z",
       "updated_at": "2026-03-21T01:36:50Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/498",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 501,
-      "title": "[Distributed Optimizer] Fix transpose creation when keep_fp8_weight_transpose_cache=False",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-20T19:48:58Z",
-      "updated_at": "2026-03-21T01:35:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/501",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 496,
-      "title": "WIP IFU 2.12.",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-18T20:33:11Z",
-      "updated_at": "2026-03-20T19:34:56Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
       "labels": [],
       "draft": false
     },
