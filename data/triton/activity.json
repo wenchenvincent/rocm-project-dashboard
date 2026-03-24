@@ -1,36 +1,36 @@
 {
-  "collected_at": "2026-03-23T08:43:09Z",
+  "collected_at": "2026-03-24T08:39:16Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 27,
-      "merged": 24,
+      "opened": 25,
+      "merged": 23,
       "closed": 0
     },
     "last_week": {
-      "opened": 8,
-      "merged": 6,
+      "opened": 14,
+      "merged": 7,
       "closed": 0
     },
-    "median_time_to_merge_hours": 16.6,
+    "median_time_to_merge_hours": 10.4,
     "merge_count": 30,
-    "stale_prs": 16
+    "stale_prs": 14
   },
   "contributors": {
-    "active_this_week": 20,
-    "total_contributors": 36,
+    "active_this_week": 18,
+    "total_contributors": 35,
     "top_contributors": [
       {
         "author": "ravil-mobile",
         "prs_submitted": 4,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "antiagainst",
+        "author": "borontion",
         "prs_submitted": 4,
-        "prs_merged": 3,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -40,9 +40,9 @@
         "commits": 0
       },
       {
-        "author": "PMylon",
+        "author": "knwng",
         "prs_submitted": 3,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -52,33 +52,33 @@
         "commits": 0
       },
       {
-        "author": "borontion",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
         "author": "jerryyin",
         "prs_submitted": 3,
         "prs_merged": 3,
         "commits": 0
       },
       {
+        "author": "Dewei-Wang-sh",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "patrick-toulme",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "kelesvol",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
         "author": "roberteg16",
         "prs_submitted": 2,
         "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "knwng",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "yangshuxin",
-        "prs_submitted": 2,
-        "prs_merged": 2,
         "commits": 0
       }
     ],
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 13,
     "opened_this_week": 0,
-    "closed_this_week": 7,
+    "closed_this_week": 6,
     "unanswered": 4
   },
   "ci_health": {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 60.4,
+    "days_since_last": 61.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

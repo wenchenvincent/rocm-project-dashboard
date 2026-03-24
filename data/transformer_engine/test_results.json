@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-03-23T08:42:59Z",
+  "collected_at": "2026-03-24T08:39:04Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "TransformerEngine CI",
-    "run_id": 23359946368,
-    "run_url": "https://github.com/ROCm/TransformerEngine/actions/runs/23359946368",
-    "run_date": "2026-03-21T00:06:33Z",
+    "run_id": 23460194669,
+    "run_url": "https://github.com/ROCm/TransformerEngine/actions/runs/23460194669",
+    "run_date": "2026-03-24T03:16:37Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 2,
