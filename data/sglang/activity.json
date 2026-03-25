@@ -1,42 +1,36 @@
 {
-  "collected_at": "2026-03-24T08:39:11Z",
+  "collected_at": "2026-03-25T08:37:35Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 40,
-      "merged": 36,
+      "opened": 39,
+      "merged": 37,
       "closed": 1
     },
     "last_week": {
-      "opened": 25,
+      "opened": 22,
       "merged": 17,
       "closed": 0
     },
-    "median_time_to_merge_hours": 79.3,
-    "merge_count": 71,
+    "median_time_to_merge_hours": 86.1,
+    "merge_count": 72,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 56,
-    "total_contributors": 78,
+    "active_this_week": 52,
+    "total_contributors": 81,
     "top_contributors": [
       {
         "author": "yctseng0211",
-        "prs_submitted": 11,
-        "prs_merged": 6,
-        "commits": 0
-      },
-      {
-        "author": "hubertlu-tw",
-        "prs_submitted": 6,
-        "prs_merged": 4,
+        "prs_submitted": 9,
+        "prs_merged": 7,
         "commits": 0
       },
       {
         "author": "michaelzhang-ai",
         "prs_submitted": 6,
-        "prs_merged": 4,
+        "prs_merged": 5,
         "commits": 0
       },
       {
@@ -52,21 +46,21 @@
         "commits": 0
       },
       {
-        "author": "yeahdongcn",
+        "author": "hubertlu-tw",
         "prs_submitted": 5,
-        "prs_merged": 4,
+        "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "billishyahao",
+        "author": "yeahdongcn",
         "prs_submitted": 4,
-        "prs_merged": 4,
+        "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "zhentaocc",
+        "author": "kkHuang-amd",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -76,18 +70,24 @@
         "commits": 0
       },
       {
-        "author": "jhinpan",
+        "author": "alisonshao",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "zhentaocc",
         "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
       }
     ],
-    "bus_factor": 9
+    "bus_factor": 11
   },
   "issue_health": {
-    "total_open": 43,
-    "opened_this_week": 4,
-    "closed_this_week": 95,
+    "total_open": 44,
+    "opened_this_week": 6,
+    "closed_this_week": 83,
     "unanswered": 11
   },
   "ci_health": {
@@ -115,13 +115,13 @@
     "cuda": {
       "sample_size": 20,
       "median_minutes": 0.3,
-      "p90_minutes": 1.3,
+      "p90_minutes": 0.3,
       "min_minutes": 0.2,
-      "max_minutes": 22.8
+      "max_minutes": 0.7
     }
   },
   "release_cadence": {
-    "days_since_last": 28.3,
+    "days_since_last": 29.3,
     "avg_interval_days": 15.3,
     "total_releases": 5,
     "latest_tag": "v0.5.9"

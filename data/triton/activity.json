@@ -1,26 +1,32 @@
 {
-  "collected_at": "2026-03-24T08:39:16Z",
+  "collected_at": "2026-03-25T08:37:38Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 25,
-      "merged": 23,
+      "opened": 23,
+      "merged": 24,
       "closed": 0
     },
     "last_week": {
       "opened": 14,
-      "merged": 7,
+      "merged": 6,
       "closed": 0
     },
-    "median_time_to_merge_hours": 10.4,
+    "median_time_to_merge_hours": 16.6,
     "merge_count": 30,
-    "stale_prs": 14
+    "stale_prs": 18
   },
   "contributors": {
     "active_this_week": 18,
     "total_contributors": 35,
     "top_contributors": [
+      {
+        "author": "AlexAUT",
+        "prs_submitted": 5,
+        "prs_merged": 5,
+        "commits": 0
+      },
       {
         "author": "ravil-mobile",
         "prs_submitted": 4,
@@ -34,21 +40,15 @@
         "commits": 0
       },
       {
-        "author": "AlexAUT",
-        "prs_submitted": 4,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
         "author": "knwng",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "yiqian1",
+        "author": "PMylon",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -58,25 +58,25 @@
         "commits": 0
       },
       {
-        "author": "Dewei-Wang-sh",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
         "author": "patrick-toulme",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "kelesvol",
         "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 0
       },
       {
         "author": "roberteg16",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "Dewei-Wang-sh",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "yiqian1",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 61.4,
+    "days_since_last": 62.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"
