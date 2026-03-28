@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-03-27T08:38:09Z",
+  "collected_at": "2026-03-28T08:26:46Z",
   "prs": [
+    {
+      "number": 9879,
+      "title": "[AMD] Support MQA for prefill in mxfp fa example",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-28T00:53:56Z",
+      "updated_at": "2026-03-28T01:56:16Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9879",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9844,
       "title": "[AMD] Partition-aware TDM split into multiple intrinsics",
@@ -8,8 +20,68 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-25T16:06:43Z",
-      "updated_at": "2026-03-27T05:11:32Z",
+      "updated_at": "2026-03-27T23:01:09Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9844",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9779,
+      "title": "[AMD][gfx1250] Add GEMM tests using descriptors",
+      "author": "yiqian1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-19T18:12:55Z",
+      "updated_at": "2026-03-27T18:12:52Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9779",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9875,
+      "title": "[AMD][BACKEND] Fix small BLOCK_K support for WMMA",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-27T15:04:48Z",
+      "updated_at": "2026-03-27T18:07:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9875",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9874,
+      "title": "[AMD][BACKEND] Fix shared memory order for async copy when threads exactly cover contig dim on GFX9",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-27T14:39:20Z",
+      "updated_at": "2026-03-27T17:48:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9874",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9876,
+      "title": "[AMD][WMMA] Proper constant for fp4 mxfp scale",
+      "author": "alefimov-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-27T15:36:04Z",
+      "updated_at": "2026-03-27T17:05:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9876",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9872,
+      "title": "[AMD][BACKEND] Cherry-Pick #9541 (CanonicalizePointers fix) to rel/3.7 ",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T10:16:27Z",
+      "updated_at": "2026-03-27T15:21:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9872",
       "labels": [],
       "draft": false
     },
@@ -230,18 +302,6 @@
       "draft": false
     },
     {
-      "number": 9779,
-      "title": "[AMD][gfx1250] Add GEMM tests using descriptors",
-      "author": "yiqian1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-19T18:12:55Z",
-      "updated_at": "2026-03-23T21:35:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9779",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9811,
       "title": "[AMD] Fix allocation function mismatch in ConvertTritonAMDGPUToLLVM",
       "author": "kelesvol",
@@ -406,54 +466,6 @@
       "created_at": "2026-03-18T20:37:15Z",
       "updated_at": "2026-03-18T21:48:19Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9769",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9770,
-      "title": "[AMD]Update MXGEMM Gluon Kernel for GFX1250",
-      "author": "knwng",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-18T20:44:41Z",
-      "updated_at": "2026-03-18T21:43:45Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9770",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9753,
-      "title": "[AMD] Fix operand bitcast for non-scaled dot on WMMA (GFX1200/GFX1201)",
-      "author": "saeid-rostami",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-17T19:53:57Z",
-      "updated_at": "2026-03-18T21:16:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9753",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9761,
-      "title": "[AMD][BACKEND] Mask AsyncCopy by OOB shmem address on gfx1250",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-18T16:09:23Z",
-      "updated_at": "2026-03-18T19:28:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9761",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9763,
-      "title": "[AMD] Adjust test_amd_wmma_scaled_batched to new create_mxfp_scale API",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-18T16:49:02Z",
-      "updated_at": "2026-03-18T17:50:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9763",
       "labels": [],
       "draft": false
     },

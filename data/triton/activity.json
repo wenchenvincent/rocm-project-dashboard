@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-27T08:38:52Z",
+  "collected_at": "2026-03-28T08:27:25Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
@@ -13,17 +13,17 @@
       "merged": 11,
       "closed": 0
     },
-    "median_time_to_merge_hours": 17.9,
+    "median_time_to_merge_hours": 8.2,
     "merge_count": 30,
     "stale_prs": 18
   },
   "contributors": {
-    "active_this_week": 15,
-    "total_contributors": 36,
+    "active_this_week": 16,
+    "total_contributors": 35,
     "top_contributors": [
       {
         "author": "AlexAUT",
-        "prs_submitted": 5,
+        "prs_submitted": 6,
         "prs_merged": 5,
         "commits": 0
       },
@@ -40,6 +40,12 @@
         "commits": 0
       },
       {
+        "author": "borontion",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
         "author": "Dewei-Wang-sh",
         "prs_submitted": 3,
         "prs_merged": 1,
@@ -52,33 +58,27 @@
         "commits": 0
       },
       {
-        "author": "knwng",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "roberteg16",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
         "author": "yiqian1",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "borontion",
+        "author": "alefimov-amd",
         "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "antiagainst",
+        "author": "knwng",
         "prs_submitted": 2,
-        "prs_merged": 1,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "roberteg16",
+        "prs_submitted": 2,
+        "prs_merged": 2,
         "commits": 0
       }
     ],
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 13,
     "opened_this_week": 0,
-    "closed_this_week": 3,
+    "closed_this_week": 2,
     "unanswered": 4
   },
   "ci_health": {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 64.4,
+    "days_since_last": 65.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

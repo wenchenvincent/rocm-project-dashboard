@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-03-27T08:38:31Z",
+  "collected_at": "2026-03-28T08:27:05Z",
   "prs": [
+    {
+      "number": 509,
+      "title": "[WIP] NVFP4 Hadamard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T23:29:43Z",
+      "updated_at": "2026-03-27T23:30:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 506,
+      "title": "Full MXFP4 Training Recipe",
+      "author": "sarthak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-26T01:45:59Z",
+      "updated_at": "2026-03-27T21:52:59Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/506",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 507,
       "title": "Mxfp8 cast optimization",
@@ -8,7 +32,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-26T21:32:39Z",
-      "updated_at": "2026-03-27T06:02:52Z",
+      "updated_at": "2026-03-27T21:40:35Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/507",
       "labels": [
         "ci-level 3"
@@ -16,26 +40,40 @@
       "draft": false
     },
     {
-      "number": 367,
-      "title": "Userbuffer epic",
-      "author": "alextmagro",
+      "number": 508,
+      "title": "[TE] Enable deterministic mode for fused attention",
+      "author": "AllenFarcas",
       "state": "open",
       "merged": false,
-      "created_at": "2025-11-11T21:24:31Z",
-      "updated_at": "2026-03-27T05:28:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/367",
+      "created_at": "2026-03-27T18:37:04Z",
+      "updated_at": "2026-03-27T21:40:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 461,
+      "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-24T20:34:49Z",
+      "updated_at": "2026-03-27T20:29:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
       "labels": [],
       "draft": false
     },
     {
-      "number": 496,
-      "title": "WIP IFU 2.12.",
+      "number": 448,
+      "title": "Added initial AI Agent instructions and skills",
       "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-18T20:33:11Z",
-      "updated_at": "2026-03-27T03:09:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
+      "created_at": "2026-02-12T17:27:07Z",
+      "updated_at": "2026-03-27T18:25:37Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
       "labels": [],
       "draft": false
     },
@@ -46,7 +84,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-06T14:09:29Z",
-      "updated_at": "2026-03-26T22:50:20Z",
+      "updated_at": "2026-03-27T18:19:51Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
       "labels": [],
       "draft": false
@@ -58,33 +96,59 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-25T16:22:33Z",
-      "updated_at": "2026-03-26T21:58:40Z",
+      "updated_at": "2026-03-27T16:26:59Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
       "labels": [],
       "draft": false
     },
     {
-      "number": 461,
-      "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
-      "author": "VeeraRajasekhar",
+      "number": 487,
+      "title": "ASV-format microbenchmark suite",
+      "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-02-24T20:34:49Z",
-      "updated_at": "2026-03-26T20:53:47Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
+      "created_at": "2026-03-16T23:20:12Z",
+      "updated_at": "2026-03-27T16:10:17Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
       "labels": [],
       "draft": false
     },
     {
-      "number": 448,
-      "title": "Added initial GH Copilot instructions",
+      "number": 468,
+      "title": "Use static libraries for AITER build",
       "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-02-12T17:27:07Z",
-      "updated_at": "2026-03-26T19:48:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
+      "created_at": "2026-03-02T21:50:32Z",
+      "updated_at": "2026-03-27T16:09:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 496,
+      "title": "WIP IFU 2.12.",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-18T20:33:11Z",
+      "updated_at": "2026-03-27T16:03:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 367,
+      "title": "Userbuffer epic",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-11-11T21:24:31Z",
+      "updated_at": "2026-03-27T14:36:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/367",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -96,30 +160,6 @@
       "created_at": "2026-03-17T20:15:20Z",
       "updated_at": "2026-03-26T17:11:38Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 468,
-      "title": "Use static libraries for AITER build",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T21:50:32Z",
-      "updated_at": "2026-03-26T15:31:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 506,
-      "title": "Full MXFP4 Training Recipe",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T01:45:59Z",
-      "updated_at": "2026-03-26T07:43:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/506",
       "labels": [],
       "draft": false
     },
@@ -144,32 +184,6 @@
       "created_at": "2026-03-17T04:15:33Z",
       "updated_at": "2026-03-25T15:38:17Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/489",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 450,
-      "title": "Update CI to label-driven testing",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-17T18:52:02Z",
-      "updated_at": "2026-03-25T02:43:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/450",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 487,
-      "title": "ASV-format microbenchmark suite",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-16T23:20:12Z",
-      "updated_at": "2026-03-24T19:03:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
       "labels": [],
       "draft": false
     },
@@ -303,6 +317,20 @@
       "updated_at": "2025-08-27T14:47:57Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/152",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 450,
+      "title": "Update CI to label-driven testing",
+      "author": "Micky774",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-17T18:52:02Z",
+      "updated_at": "2026-03-27T16:40:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/450",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -1214,18 +1242,6 @@
       "created_at": "2025-11-24T15:49:09Z",
       "updated_at": "2025-12-15T18:37:43Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/378",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 379,
-      "title": "Old FP8 support code cleanup",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-11-24T15:52:37Z",
-      "updated_at": "2025-12-15T18:37:14Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/379",
       "labels": [],
       "draft": false
     }
