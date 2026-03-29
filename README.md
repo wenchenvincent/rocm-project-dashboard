@@ -1,21 +1,21 @@
 # Project Dashboard
 
-Auto-updated tracking of AMD GPU ecosystem projects. Last updated: **2026-03-28 08:28 UTC**
+Auto-updated tracking of AMD GPU ecosystem projects. Last updated: **2026-03-29 08:29 UTC**
 
 ## Overview
 
 | Project | Role | Latest Release | Open PRs | Open Issues | Links |
 |---------|------|----------------|----------|-------------|-------|
-| **pytorch** | watch | v2.11.0 | 52 | 50 | [repo](https://github.com/pytorch/pytorch) |
+| **pytorch** | watch | v2.11.0 | 49 | 51 | [repo](https://github.com/pytorch/pytorch) |
 | **jax** | watch | jax-v0.9.2 | 7 | 33 | [repo](https://github.com/jax-ml/jax) |
-| **vllm** | watch | v0.18.0 | 66 | 57 | [repo](https://github.com/vllm-project/vllm) / [fork](https://github.com/sunway513/vllm) |
-| **sglang** | watch | v0.5.10rc0 | 57 | 41 | [repo](https://github.com/sgl-project/sglang) |
+| **vllm** | watch | v0.18.0 | 65 | 53 | [repo](https://github.com/vllm-project/vllm) / [fork](https://github.com/sunway513/vllm) |
+| **sglang** | watch | v0.5.10rc0 | 60 | 41 | [repo](https://github.com/sgl-project/sglang) |
 | **triton** | watch | v3.6.0 | 30 | 13 | [repo](https://github.com/triton-lang/triton) |
-| **migraphx** | dev | rocm-7.2.1 | 84 | 238 | [repo](https://github.com/ROCm/AMDMIGraphX) |
-| **aiter** | dev | v0.1.9 | 185 | 136 | [repo](https://github.com/ROCm/aiter) / [fork](https://github.com/sunway513/aiter) |
-| **atom** | dev | - | 45 | 17 | [repo](https://github.com/ROCm/ATOM) / [fork](https://github.com/sunway513/ATOM) |
+| **migraphx** | dev | rocm-7.2.1 | 85 | 238 | [repo](https://github.com/ROCm/AMDMIGraphX) |
+| **aiter** | dev | v0.1.9 | 184 | 138 | [repo](https://github.com/ROCm/aiter) / [fork](https://github.com/sunway513/aiter) |
+| **atom** | dev | - | 43 | 18 | [repo](https://github.com/ROCm/ATOM) / [fork](https://github.com/sunway513/ATOM) |
 | **mori** | dev | - | 13 | 11 | [repo](https://github.com/ROCm/mori) / [fork](https://github.com/sunway513/mori) |
-| **flydsl** | dev | exp_i8smooth_v0.1 | 13 | 19 | [repo](https://github.com/ROCm/FlyDSL) / [fork](https://github.com/sunway513/FlyDSL) |
+| **flydsl** | dev | exp_i8smooth_v0.1 | 15 | 19 | [repo](https://github.com/ROCm/FlyDSL) / [fork](https://github.com/sunway513/FlyDSL) |
 | **transformer_engine** | dev | v2.6_rocm | 26 | 7 | [repo](https://github.com/ROCm/TransformerEngine) |
 
 ## Live Dashboard

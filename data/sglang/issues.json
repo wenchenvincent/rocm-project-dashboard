@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-03-28T08:26:44Z",
+  "collected_at": "2026-03-29T08:27:54Z",
   "issues": [
+    {
+      "number": 21614,
+      "title": "[Bug] Qwen3.5-397B-A17B-FP8 produces gibberish at batch concurrency >= 32 on AMD MI355X",
+      "author": "Arist12",
+      "state": "open",
+      "created_at": "2026-03-29T01:59:25Z",
+      "updated_at": "2026-03-29T01:59:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21614",
+      "labels": []
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
@@ -409,16 +419,6 @@
       "created_at": "2026-01-08T23:42:35Z",
       "updated_at": "2026-02-02T22:03:13Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/16762",
-      "labels": []
-    },
-    {
-      "number": 18020,
-      "title": "[AMD][Feature] Update release-docker-amd(-nightly) with mori included",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-01-31T03:18:40Z",
-      "updated_at": "2026-01-31T03:19:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18020",
       "labels": []
     },
     {
