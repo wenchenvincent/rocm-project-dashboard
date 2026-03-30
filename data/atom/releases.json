@@ -1,4 +1,12 @@
 {
-  "collected_at": "2026-03-29T08:28:12Z",
-  "releases": []
+  "collected_at": "2026-03-30T09:02:17Z",
+  "releases": [
+    {
+      "tag_name": "v0.1.2",
+      "name": "v0.1.2",
+      "published_at": "2026-03-30T04:20:32Z",
+      "html_url": "https://github.com/ROCm/ATOM/releases/tag/v0.1.2",
+      "prerelease": false
+    }
+  ]
 }

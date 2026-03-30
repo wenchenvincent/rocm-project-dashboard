@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-29T08:28:46Z",
+  "collected_at": "2026-03-30T09:02:51Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
@@ -9,16 +9,16 @@
       "closed": 0
     },
     "last_week": {
-      "opened": 15,
+      "opened": 16,
       "merged": 10,
       "closed": 0
     },
     "median_time_to_merge_hours": 20.7,
     "merge_count": 30,
-    "stale_prs": 19
+    "stale_prs": 18
   },
   "contributors": {
-    "active_this_week": 17,
+    "active_this_week": 18,
     "total_contributors": 34,
     "top_contributors": [
       {
@@ -40,6 +40,12 @@
         "commits": 0
       },
       {
+        "author": "patrick-toulme",
+        "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
         "author": "antiagainst",
         "prs_submitted": 3,
         "prs_merged": 1,
@@ -55,12 +61,6 @@
         "author": "Dewei-Wang-sh",
         "prs_submitted": 3,
         "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "patrick-toulme",
-        "prs_submitted": 3,
-        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 66.4,
+    "days_since_last": 67.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"
