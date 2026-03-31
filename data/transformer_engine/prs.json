@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-03-30T09:02:24Z",
+  "collected_at": "2026-03-31T08:45:27Z",
   "prs": [
+    {
+      "number": 511,
+      "title": "TE building over TheRock",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-30T17:14:18Z",
+      "updated_at": "2026-03-31T05:08:53Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/511",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 507,
+      "title": "Mxfp8 cast optimization",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-26T21:32:39Z",
+      "updated_at": "2026-03-31T04:50:52Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/507",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 487,
+      "title": "ASV-format microbenchmark suite",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-16T23:20:12Z",
+      "updated_at": "2026-03-31T04:18:02Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 509,
       "title": "[WIP] NVFP4 Hadamard",
@@ -8,10 +48,50 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-27T23:29:43Z",
-      "updated_at": "2026-03-27T23:30:07Z",
+      "updated_at": "2026-03-30T22:08:02Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
-      "labels": [],
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": true
+    },
+    {
+      "number": 475,
+      "title": "Add FP8 Support For CK Tile Group GEMM",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T14:09:29Z",
+      "updated_at": "2026-03-30T20:26:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 468,
+      "title": "Use static libraries for AITER build",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-02T21:50:32Z",
+      "updated_at": "2026-03-30T19:46:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 496,
+      "title": "WIP IFU 2.12.",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-18T20:33:11Z",
+      "updated_at": "2026-03-30T18:41:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 506,
@@ -23,20 +103,6 @@
       "updated_at": "2026-03-27T21:52:59Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/506",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 507,
-      "title": "Mxfp8 cast optimization",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T21:32:39Z",
-      "updated_at": "2026-03-27T21:40:35Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/507",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -78,18 +144,6 @@
       "draft": false
     },
     {
-      "number": 475,
-      "title": "Add FP8 Support For CK Tile Group GEMM",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T14:09:29Z",
-      "updated_at": "2026-03-27T18:19:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 505,
       "title": "NVFP4 dequantization",
       "author": "aris134",
@@ -99,56 +153,6 @@
       "updated_at": "2026-03-27T16:26:59Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 487,
-      "title": "ASV-format microbenchmark suite",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-16T23:20:12Z",
-      "updated_at": "2026-03-27T16:10:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 468,
-      "title": "Use static libraries for AITER build",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T21:50:32Z",
-      "updated_at": "2026-03-27T16:09:20Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 496,
-      "title": "WIP IFU 2.12.",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-18T20:33:11Z",
-      "updated_at": "2026-03-27T16:03:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 367,
-      "title": "Userbuffer epic",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-11-11T21:24:31Z",
-      "updated_at": "2026-03-27T14:36:41Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/367",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -317,6 +321,34 @@
       "updated_at": "2025-08-27T14:47:57Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/152",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 367,
+      "title": "Userbuffer epic",
+      "author": "alextmagro",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2025-11-11T21:24:31Z",
+      "updated_at": "2026-03-31T05:19:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/367",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 510,
+      "title": "Integrate fix for aiter build w/o torch",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-30T16:59:12Z",
+      "updated_at": "2026-03-30T18:32:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/510",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -1206,42 +1238,6 @@
       "created_at": "2025-12-05T01:40:08Z",
       "updated_at": "2025-12-18T05:12:58Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/394",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 403,
-      "title": "Upcoming ROCm and JAX 0.8 support",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-12-17T05:34:00Z",
-      "updated_at": "2025-12-17T22:50:32Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/403",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 402,
-      "title": "Integrate AITER V3 kernels to binary",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-12-15T14:33:58Z",
-      "updated_at": "2025-12-17T04:20:47Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/402",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 378,
-      "title": "Re-enable supported GEMM configs",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-11-24T15:49:09Z",
-      "updated_at": "2025-12-15T18:37:43Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/378",
       "labels": [],
       "draft": false
     }
