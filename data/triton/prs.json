@@ -1,15 +1,75 @@
 {
-  "collected_at": "2026-03-31T08:45:02Z",
+  "collected_at": "2026-04-01T08:53:19Z",
   "prs": [
+    {
+      "number": 9883,
+      "title": "[AMD][gfx9] Use asyncmark/wait_asyncmark for CDNA3/CDNA4 buffer_load_to_lds",
+      "author": "zhanglx13",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-30T04:58:46Z",
+      "updated_at": "2026-04-01T08:48:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9883",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9855,
+      "title": "[AMD] Raise buffer_load num_records to full 4 GB unsigned range",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-26T06:29:59Z",
+      "updated_at": "2026-04-01T02:27:17Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9855",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9891,
+      "title": "[AMD] Fix CanonicalizePointers to handle ptr mergepoints with different ptr promotability",
+      "author": "karthik-man",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-31T20:09:30Z",
+      "updated_at": "2026-03-31T22:07:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9891",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 9779,
       "title": "[AMD][gfx1250] Add GEMM tests using descriptors",
       "author": "yiqian1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-19T18:12:55Z",
+      "updated_at": "2026-03-31T15:45:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9779",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9662,
+      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
+      "author": "amd-jianli12",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-19T18:12:55Z",
-      "updated_at": "2026-03-30T22:59:48Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9779",
+      "created_at": "2026-03-06T09:33:39Z",
+      "updated_at": "2026-03-31T14:40:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9884,
+      "title": "[AMD][BACKEND] Cherry-Pick AsyncCopy related fixes to rel/3.7",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-30T09:34:53Z",
+      "updated_at": "2026-03-31T13:18:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9884",
       "labels": [],
       "draft": false
     },
@@ -26,18 +86,6 @@
       "draft": false
     },
     {
-      "number": 9883,
-      "title": "[AMD][gfx9] Use asyncmark/wait_asyncmark for CDNA3/CDNA4 buffer_load_to_lds",
-      "author": "zhanglx13",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-30T04:58:46Z",
-      "updated_at": "2026-03-30T18:34:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9883",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 9886,
       "title": "[AMD] Enable f32 WMMA for AccelerateMatmul (#470)",
       "author": "ravil-mobile",
@@ -46,18 +94,6 @@
       "created_at": "2026-03-30T16:38:08Z",
       "updated_at": "2026-03-30T17:04:33Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9886",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9884,
-      "title": "[AMD][BACKEND] Cherry-Pick AsyncCopy related fixes to rel/3.7",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-30T09:34:53Z",
-      "updated_at": "2026-03-30T15:19:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9884",
       "labels": [],
       "draft": false
     },
@@ -168,18 +204,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9732",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 9855,
-      "title": "[AMD] Raise buffer_load num_records to full 4 GB unsigned range",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T06:29:59Z",
-      "updated_at": "2026-03-26T15:41:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9855",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 7756,
@@ -470,18 +494,6 @@
       "draft": false
     },
     {
-      "number": 9780,
-      "title": "[AMD] Widen LDS pad interval to bank-wrap boundary",
-      "author": "jerryyin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T20:44:49Z",
-      "updated_at": "2026-03-19T21:53:13Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9780",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9666,
       "title": "[AMD] Enable loop unrolling for Gluon warp-pipelined kernels",
       "author": "Hardcode84",
@@ -490,18 +502,6 @@
       "created_at": "2026-03-06T19:12:54Z",
       "updated_at": "2026-03-17T12:57:05Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9666",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9662,
-      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T09:33:39Z",
-      "updated_at": "2026-03-16T02:29:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9662",
       "labels": [],
       "draft": false
     },
