@@ -1,6 +1,58 @@
 {
-  "collected_at": "2026-04-02T08:43:53Z",
+  "collected_at": "2026-04-03T08:40:44Z",
   "issues": [
+    {
+      "number": 2608,
+      "title": "[Issue][CK] batch prefill int32 overflow assert aborts server when page_size=1 and KV cache > 4GB",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-04-03T08:06:35Z",
+      "updated_at": "2026-04-03T08:19:52Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2608",
+      "labels": []
+    },
+    {
+      "number": 2157,
+      "title": "Support TheRock ROCm \u201cPython-managed\u201d install paths (non-/opt/rocm)",
+      "author": "akao-amd",
+      "state": "open",
+      "created_at": "2026-03-03T04:01:19Z",
+      "updated_at": "2026-04-03T08:14:22Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2157",
+      "labels": []
+    },
+    {
+      "number": 2368,
+      "title": "[Feature]: Refactor aiter allreduce & Enable Prefill AllReduce",
+      "author": "TennyWang1223",
+      "state": "open",
+      "created_at": "2026-03-20T02:52:33Z",
+      "updated_at": "2026-04-03T05:41:17Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2368",
+      "labels": [
+        "KernelsCore"
+      ]
+    },
+    {
+      "number": 2548,
+      "title": "[Bug] ctypes ffi_type modules fail to load: undefined symbol _ZTVN5torch8autograd12AutogradMetaE",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-03-31T06:20:05Z",
+      "updated_at": "2026-04-03T02:42:02Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2548",
+      "labels": []
+    },
+    {
+      "number": 900,
+      "title": "[Question] Is GFX1201 support planned?",
+      "author": "sa-mendez",
+      "state": "open",
+      "created_at": "2025-08-28T01:23:15Z",
+      "updated_at": "2026-04-02T20:56:20Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/900",
+      "labels": []
+    },
     {
       "number": 2312,
       "title": "CI: Run Triton tests on MI355",
@@ -41,16 +93,6 @@
       "created_at": "2026-03-26T08:17:28Z",
       "updated_at": "2026-04-01T08:53:05Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2484",
-      "labels": []
-    },
-    {
-      "number": 2548,
-      "title": "[Bug] ctypes ffi_type modules fail to load: undefined symbol _ZTVN5torch8autograd12AutogradMetaE",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-03-31T06:20:05Z",
-      "updated_at": "2026-04-01T03:52:38Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2548",
       "labels": []
     },
     {
@@ -309,16 +351,6 @@
       "labels": []
     },
     {
-      "number": 2368,
-      "title": "[Feature]: Refactor aiter allreduce & Enable Prefill AllReduce",
-      "author": "TennyWang1223",
-      "state": "open",
-      "created_at": "2026-03-20T02:52:33Z",
-      "updated_at": "2026-03-23T02:49:18Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2368",
-      "labels": []
-    },
-    {
       "number": 2418,
       "title": "[Feature]: Support `apply_router_weight_on_input` with block-scaled FP8 fused MoE",
       "author": "AndreasKaratzas",
@@ -356,16 +388,6 @@
       "created_at": "2026-03-22T23:01:39Z",
       "updated_at": "2026-03-22T23:02:09Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2421",
-      "labels": []
-    },
-    {
-      "number": 2157,
-      "title": "Support TheRock ROCm \u201cPython-managed\u201d install paths (non-/opt/rocm)",
-      "author": "akao-amd",
-      "state": "open",
-      "created_at": "2026-03-03T04:01:19Z",
-      "updated_at": "2026-03-22T21:04:17Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2157",
       "labels": []
     },
     {
@@ -766,16 +788,6 @@
       "created_at": "2026-02-09T19:17:07Z",
       "updated_at": "2026-02-09T19:17:07Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2013",
-      "labels": []
-    },
-    {
-      "number": 900,
-      "title": "[Question] Is GFX1201 support planned?",
-      "author": "sa-mendez",
-      "state": "open",
-      "created_at": "2025-08-28T01:23:15Z",
-      "updated_at": "2026-02-07T16:31:46Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/900",
       "labels": []
     },
     {

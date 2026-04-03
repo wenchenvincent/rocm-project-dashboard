@@ -1,6 +1,191 @@
 {
-  "collected_at": "2026-04-02T08:43:41Z",
+  "collected_at": "2026-04-03T08:40:35Z",
   "prs": [
+    {
+      "number": 4725,
+      "title": "[AIMIGRAPHX-885] Add gather_slice_concat matcher",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-31T21:47:46Z",
+      "updated_at": "2026-04-03T05:40:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4725",
+      "labels": [
+        "Matchers",
+        "Perf Improve"
+      ],
+      "draft": true
+    },
+    {
+      "number": 4723,
+      "title": "[AIMIGRAPHX-885]  MLP tower batched horizontal fusions",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-31T21:33:09Z",
+      "updated_at": "2026-04-03T04:07:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4723",
+      "labels": [
+        "Perf Improve"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4704,
+      "title": "[AIMIGRAPHX-840] support symbolic shape prop through conv and pool",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-25T19:00:34Z",
+      "updated_at": "2026-04-03T02:57:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4704",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4722,
+      "title": "Remove MIGRAPHX_TIDY_CONST",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-31T14:26:56Z",
+      "updated_at": "2026-04-03T02:48:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4722",
+      "labels": [
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4700,
+      "title": "[AIMIGRAPHX-886] [AIMIGRAPHX-834] custom symbolic expression lib",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-24T18:23:05Z",
+      "updated_at": "2026-04-03T02:33:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4700",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4737,
+      "title": "Add windows cpu runner",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T23:34:04Z",
+      "updated_at": "2026-04-03T02:07:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4737",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4732,
+      "title": "[AIMIGRAPHX-143] Replace usages of cout/cerr with logger",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T21:37:01Z",
+      "updated_at": "2026-04-03T00:05:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4732",
+      "labels": [
+        "enhancement",
+        "Changelog: Changed"
+      ],
+      "draft": true
+    },
+    {
+      "number": 4677,
+      "title": "Fix FP16 overflow in GQA attention and concat_past_present buffer overflow",
+      "author": "aditya-dl",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-16T19:27:40Z",
+      "updated_at": "2026-04-02T23:37:43Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4677",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4736,
+      "title": "Remove half dependency",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T22:42:38Z",
+      "updated_at": "2026-04-02T22:51:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4736",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4730,
+      "title": "[AIMIGRAPHX-841] sym shapes for gemm ops",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T20:47:01Z",
+      "updated_at": "2026-04-02T21:00:39Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4730",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3222,
+      "title": "Add weight streaming",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2024-06-26T20:35:08Z",
+      "updated_at": "2026-04-02T19:34:36Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3222",
+      "labels": [
+        "enhancement",
+        "Windows",
+        "Ubuntu",
+        "UAI"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4735,
+      "title": "Add MIGraphX MLIR dialect testcase for MXFP4 GEMM",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T17:58:15Z",
+      "updated_at": "2026-04-02T17:58:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4735",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4728,
+      "title": "[AIRADSW-167] Fix dimensions do not match issue with claa models",
+      "author": "urpetkov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T15:35:50Z",
+      "updated_at": "2026-04-02T15:42:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4728",
+      "labels": [
+        "bugfix"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4607,
+      "title": "Optimize 1x1 and Depthwise Convolution for Small Shapes",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-12T07:05:25Z",
+      "updated_at": "2026-04-02T10:42:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4607",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 4699,
       "title": "Support dynamic input shapes for NonMaxSuppression op with runtime validation",
@@ -8,24 +193,9 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-24T08:51:59Z",
-      "updated_at": "2026-04-02T07:25:44Z",
+      "updated_at": "2026-04-02T10:06:11Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4699",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4734,
-      "title": "Bump onnx from 1.17.0 to 1.21.0 in /tools",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T07:04:55Z",
-      "updated_at": "2026-04-02T07:04:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4734",
-      "labels": [
-        "dependencies",
-        "python"
-      ],
       "draft": false
     },
     {
@@ -35,38 +205,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-03T00:16:38Z",
-      "updated_at": "2026-04-02T06:35:20Z",
+      "updated_at": "2026-04-02T09:29:23Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4648",
       "labels": [
         "simple"
       ],
       "draft": false
-    },
-    {
-      "number": 4728,
-      "title": "Fix dimensions do not match issue with claa models",
-      "author": "urpetkov-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T15:35:50Z",
-      "updated_at": "2026-04-02T06:28:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4728",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4723,
-      "title": "[AIMIGRAPHX-885]  MLP tower batched horizontal fusions",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-31T21:33:09Z",
-      "updated_at": "2026-04-02T05:22:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4723",
-      "labels": [
-        "Perf Improve"
-      ],
-      "draft": true
     },
     {
       "number": 4702,
@@ -93,60 +237,6 @@
       "draft": false
     },
     {
-      "number": 4730,
-      "title": "[AIMIGRAPHX-841] sym shapes for gemm ops",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T20:47:01Z",
-      "updated_at": "2026-04-01T22:03:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4730",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4732,
-      "title": "[AIMIGRAPHX-143] Replace usages of cout/cerr with logger",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T21:37:01Z",
-      "updated_at": "2026-04-01T21:50:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4732",
-      "labels": [
-        "enhancement",
-        "Changelog: Changed"
-      ],
-      "draft": true
-    },
-    {
-      "number": 4731,
-      "title": "Bump onnx from 1.18.0 to 1.21.0 in /test/py",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T21:19:20Z",
-      "updated_at": "2026-04-01T21:19:21Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4731",
-      "labels": [
-        "dependencies",
-        "python"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4700,
-      "title": "[AIMIGRAPHX-886] [AIMIGRAPHX-834] custom symbolic expression lib",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-24T18:23:05Z",
-      "updated_at": "2026-04-01T19:48:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4700",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4729,
       "title": "Improve horizontal fusions",
       "author": "pfultz2",
@@ -157,18 +247,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4729",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 4704,
-      "title": "[AIMIGRAPHX-840] support symbolic shape prop through conv and pool",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-25T19:00:34Z",
-      "updated_at": "2026-04-01T18:51:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4704",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 4514,
@@ -225,21 +303,6 @@
       "draft": false
     },
     {
-      "number": 4582,
-      "title": "Adjust allocation even when a fill is used on the allocation",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-30T01:26:52Z",
-      "updated_at": "2026-04-01T14:21:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4582",
-      "labels": [
-        "bugfix",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
       "number": 4637,
       "title": "Adding parse for MatMulBnb4 operator and updating MultiHeadAttention operator",
       "author": "urpetkov-amd",
@@ -250,33 +313,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4637",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 4722,
-      "title": "Remove MIGRAPHX_TIDY_CONST",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-31T14:26:56Z",
-      "updated_at": "2026-04-01T07:16:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4722",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4725,
-      "title": "[AIMIGRAPHX-885] Add gather_slice_concat matcher",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-31T21:47:46Z",
-      "updated_at": "2026-03-31T23:27:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4725",
-      "labels": [
-        "Matchers",
-        "Perf Improve"
-      ],
-      "draft": true
     },
     {
       "number": 4724,
@@ -340,18 +376,6 @@
       "created_at": "2026-03-26T13:41:34Z",
       "updated_at": "2026-03-31T20:48:21Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4709",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4721,
-      "title": "JIT implementation for multinomial",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-30T20:46:49Z",
-      "updated_at": "2026-03-31T19:39:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4721",
       "labels": [],
       "draft": false
     },
@@ -490,18 +514,6 @@
       "draft": false
     },
     {
-      "number": 4607,
-      "title": "Optimize 1x1 and Depthwise Convolution for Small Shapes",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-12T07:05:25Z",
-      "updated_at": "2026-03-27T08:25:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4607",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 4712,
       "title": "Output debug symbols",
       "author": "CharlieL7",
@@ -512,18 +524,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4712",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4677,
-      "title": "Fix FP16 overflow in GQA attention and concat_past_present buffer overflow",
-      "author": "aditya-dl",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-16T19:27:40Z",
-      "updated_at": "2026-03-25T17:28:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4677",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4697,
@@ -1187,23 +1187,6 @@
       "draft": true
     },
     {
-      "number": 3222,
-      "title": "Add weight streaming",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2024-06-26T20:35:08Z",
-      "updated_at": "2025-03-07T15:59:50Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3222",
-      "labels": [
-        "enhancement",
-        "Windows",
-        "Ubuntu",
-        "UAI"
-      ],
-      "draft": false
-    },
-    {
       "number": 1417,
       "title": "Warnings upon tuning  information mismatch for Convolutions",
       "author": "umangyadav",
@@ -1228,6 +1211,33 @@
       "updated_at": "2024-10-21T22:48:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3468",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4721,
+      "title": "JIT implementation for multinomial",
+      "author": "bdevorem",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-30T20:46:49Z",
+      "updated_at": "2026-04-02T20:14:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4721",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4582,
+      "title": "Adjust allocation even when a fill is used on the allocation",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-01-30T01:26:52Z",
+      "updated_at": "2026-04-02T14:03:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4582",
+      "labels": [
+        "bugfix",
+        "simple"
+      ],
       "draft": false
     },
     {
@@ -2189,62 +2199,6 @@
         "dependencies",
         "automated",
         "rocMLIR"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4432,
-      "title": "Improve layout propagation in poinwise fusion when using broadcasted inputs",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-11-07T20:38:13Z",
-      "updated_at": "2026-02-20T17:00:26Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4432",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4592,
-      "title": "Bump protobuf from 4.25.8 to 6.33.5 in /tools",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-04T14:51:25Z",
-      "updated_at": "2026-02-20T16:37:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4592",
-      "labels": [
-        "dependencies",
-        "python"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4593,
-      "title": "Bump protobuf from 4.25.8 to 5.29.6 in /test/py",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-05T19:55:57Z",
-      "updated_at": "2026-02-20T15:15:07Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4593",
-      "labels": [
-        "dependencies",
-        "python"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4602,
-      "title": "Bump cryptography from 44.0.1 to 46.0.5 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-11T01:46:52Z",
-      "updated_at": "2026-02-20T15:14:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4602",
-      "labels": [
-        "documentation"
       ],
       "draft": false
     }

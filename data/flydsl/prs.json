@@ -1,17 +1,67 @@
 {
-  "collected_at": "2026-04-02T08:44:03Z",
+  "collected_at": "2026-04-03T08:40:50Z",
   "prs": [
     {
-      "number": 337,
-      "title": "[FEAT] Add traversal order control on the GemmOp",
+      "number": 343,
+      "title": "[ENH] Support more scenarios for MemrefLoad/StoreVec",
       "author": "sjfeng1999",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-02T06:58:18Z",
-      "updated_at": "2026-04-02T07:29:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/337",
+      "created_at": "2026-04-03T08:17:53Z",
+      "updated_at": "2026-04-03T08:33:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/343",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 342,
+      "title": "[FEAT] Add math dialect DSL wrappers",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T04:52:37Z",
+      "updated_at": "2026-04-03T08:27:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/342",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 338,
+      "title": "Flydsl pa",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T09:46:52Z",
+      "updated_at": "2026-04-03T08:26:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/338",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 340,
+      "title": "[gfx1250] optimize FP4 GEMM for large tile 256x256",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T14:59:06Z",
+      "updated_at": "2026-04-03T08:25:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/340",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": true
+    },
+    {
+      "number": 341,
+      "title": "[Kernel][MI350] Add prefill GDR kernels for linear attention",
+      "author": "huizzhan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T02:53:46Z",
+      "updated_at": "2026-04-03T02:53:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/341",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 336,
@@ -20,8 +70,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-02T04:11:50Z",
-      "updated_at": "2026-04-02T07:25:15Z",
+      "updated_at": "2026-04-02T13:46:55Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/336",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 310,
+      "title": "[FLYDSL]: if_dispatch dynamic process",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-30T07:31:13Z",
+      "updated_at": "2026-04-02T11:49:36Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/310",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 326,
+      "title": "support allreduce ",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T07:00:45Z",
+      "updated_at": "2026-04-02T09:46:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/326",
       "labels": [],
       "draft": false
     },
@@ -34,18 +108,6 @@
       "created_at": "2026-04-02T03:52:46Z",
       "updated_at": "2026-04-02T03:54:17Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/335",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 326,
-      "title": "support allreduce ",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T07:00:45Z",
-      "updated_at": "2026-04-02T00:56:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/326",
       "labels": [],
       "draft": false
     },
@@ -98,18 +160,6 @@
       "draft": false
     },
     {
-      "number": 310,
-      "title": "[FLYDSL]: if_dispatch dynamic process",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-30T07:31:13Z",
-      "updated_at": "2026-03-30T12:24:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/310",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 257,
       "title": "[Feature] Add JAX integration for FlyDSL kernels",
       "author": "wenchenvincent",
@@ -118,6 +168,30 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 337,
+      "title": "[FEAT] Add traversal order control on the GemmOp",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-02T06:58:18Z",
+      "updated_at": "2026-04-03T02:06:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/337",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 339,
+      "title": "[FEAT] Add print_typst for Layout, TiledCopy/Mmma",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-02T09:53:41Z",
+      "updated_at": "2026-04-02T13:39:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/339",
       "labels": [],
       "draft": false
     },
@@ -900,18 +974,6 @@
       "created_at": "2026-03-12T17:26:28Z",
       "updated_at": "2026-03-17T06:52:58Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/203",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 216,
-      "title": "[Prune] Remove fly-gpu-to-llvm pass in favor of upstream gpu-to-llvm, use async_dependency to track stream argument",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-14T12:57:51Z",
-      "updated_at": "2026-03-17T03:46:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/216",
       "labels": [],
       "draft": false
     }

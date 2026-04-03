@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-04-02T08:43:38Z",
+  "collected_at": "2026-04-03T08:40:32Z",
   "prs": [
-    {
-      "number": 9898,
-      "title": "[AMD] Reduce VGPR pressure for 4-stage chained dot schedule",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T00:05:51Z",
-      "updated_at": "2026-04-02T04:39:39Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9898",
-      "labels": [],
-      "draft": true
-    },
     {
       "number": 9899,
       "title": "[AMD][gfx1250] Pack f32 arith ops into <2 x float> for v_pk_* instructions",
@@ -20,10 +8,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-02T03:54:59Z",
-      "updated_at": "2026-04-02T04:26:31Z",
+      "updated_at": "2026-04-03T08:06:56Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9899",
       "labels": [],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 9897,
+      "title": "[AMD] Generalize in-thread tree reduction to support ternary grouping for max/min",
+      "author": "zhanglx13",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-01T20:03:50Z",
+      "updated_at": "2026-04-03T07:18:18Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9897",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9912,
+      "title": "[AMD] Fix SSA dominance violation in ConvertToBufferOps with i64 offsets",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T22:50:38Z",
+      "updated_at": "2026-04-03T06:19:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9912",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9895,
+      "title": "[AMD] Skip fp8 data type tests on RDNA3 for test_conversions",
+      "author": "saeid-rostami",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T18:49:12Z",
+      "updated_at": "2026-04-03T03:56:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9895",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 9883,
@@ -32,8 +56,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-30T04:58:46Z",
-      "updated_at": "2026-04-02T03:25:03Z",
+      "updated_at": "2026-04-03T03:56:21Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9883",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9898,
+      "title": "[AMD] Reduce VGPR pressure for 4-stage chained dot schedule",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T00:05:51Z",
+      "updated_at": "2026-04-02T20:17:48Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9898",
       "labels": [],
       "draft": true
     },
@@ -50,18 +86,6 @@
       "draft": true
     },
     {
-      "number": 9897,
-      "title": "[AMD] Generalize in-thread tree reduction to support ternary grouping for max/min",
-      "author": "zhanglx13",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T20:03:50Z",
-      "updated_at": "2026-04-01T22:40:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9897",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 8779,
       "title": "[AMD] Make arith.select handling in canonicalize pointers more Robust",
       "author": "njriasan",
@@ -72,18 +96,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/8779",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 9895,
-      "title": "[AMD] Skip fp8 data type tests on RDNA3 for test_conversions",
-      "author": "saeid-rostami",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T18:49:12Z",
-      "updated_at": "2026-04-01T18:49:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9895",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 9855,
@@ -526,18 +538,6 @@
       "created_at": "2026-03-18T18:28:30Z",
       "updated_at": "2026-03-20T03:09:22Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9767",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9762,
-      "title": "[AMD][BACKEND] Fix order of LL when applying offsets",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-18T16:47:20Z",
-      "updated_at": "2026-03-19T23:43:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9762",
       "labels": [],
       "draft": false
     },

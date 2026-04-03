@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-04-02T08:43:38Z",
+  "collected_at": "2026-04-03T08:40:33Z",
   "issues": [
+    {
+      "number": 9907,
+      "title": "[AMD] ConvertToBufferOps produces invalid IR with i64 offsets",
+      "author": "nurmukhametov",
+      "state": "open",
+      "created_at": "2026-04-02T21:44:00Z",
+      "updated_at": "2026-04-02T21:44:00Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/9907",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 8595,
       "title": "AMD CI non-deterministic error",

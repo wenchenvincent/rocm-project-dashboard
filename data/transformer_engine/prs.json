@@ -1,28 +1,32 @@
 {
-  "collected_at": "2026-04-02T08:44:07Z",
+  "collected_at": "2026-04-03T08:40:52Z",
   "prs": [
     {
-      "number": 225,
-      "title": "heyi's layernorm optimization",
-      "author": "eliotwang",
+      "number": 509,
+      "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
+      "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2025-07-03T08:20:23Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
-      "labels": [],
+      "created_at": "2026-03-27T23:29:43Z",
+      "updated_at": "2026-04-03T05:40:02Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
-      "number": 492,
-      "title": "Add fsdp2 fp8 unit tests TE 2.10",
-      "author": "sudhu2k",
+      "number": 508,
+      "title": "[TE] Enable deterministic mode for fused attention",
+      "author": "AllenFarcas",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-17T20:15:20Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
-      "labels": [],
+      "created_at": "2026-03-27T18:37:04Z",
+      "updated_at": "2026-04-03T05:11:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -32,12 +36,122 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-26T21:32:39Z",
-      "updated_at": "2026-04-02T02:16:23Z",
+      "updated_at": "2026-04-03T04:39:49Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/507",
       "labels": [
         "ci-level 3"
       ],
       "draft": false
+    },
+    {
+      "number": 475,
+      "title": "Add FP8 Support For CK Tile Group GEMM",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T14:09:29Z",
+      "updated_at": "2026-04-02T22:40:15Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 468,
+      "title": "Use static libraries for AITER build",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-02T21:50:32Z",
+      "updated_at": "2026-04-02T22:30:33Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 496,
+      "title": "IFU 2.12",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-18T20:33:11Z",
+      "updated_at": "2026-04-02T21:15:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 505,
+      "title": "NVFP4 dequantization",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-25T16:22:33Z",
+      "updated_at": "2026-04-02T19:42:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 518,
+      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T16:44:44Z",
+      "updated_at": "2026-04-02T19:02:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 517,
+      "title": "[proof-of-concept] Enable NVFP4 recipe",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T16:28:12Z",
+      "updated_at": "2026-04-02T18:23:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/517",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 515,
+      "title": "[WIP] NVFP4: hadamard_transform_cast_fusion_columnwise",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T20:14:08Z",
+      "updated_at": "2026-04-02T18:22:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/515",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 478,
+      "title": "Microbenchmarking and CI performance regression test",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T15:43:14Z",
+      "updated_at": "2026-04-02T02:16:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 400,
@@ -124,29 +238,15 @@
       "draft": false
     },
     {
-      "number": 505,
-      "title": "NVFP4 dequantization",
-      "author": "aris134",
+      "number": 492,
+      "title": "Add fsdp2 fp8 unit tests TE 2.10",
+      "author": "sudhu2k",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-25T16:22:33Z",
+      "created_at": "2026-03-17T20:15:20Z",
       "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 475,
-      "title": "Add FP8 Support For CK Tile Group GEMM",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T14:09:29Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": false
     },
     {
@@ -174,16 +274,16 @@
       "draft": false
     },
     {
-      "number": 478,
-      "title": "Microbenchmarking and CI performance regression test",
-      "author": "matthiasdiener",
+      "number": 225,
+      "title": "heyi's layernorm optimization",
+      "author": "eliotwang",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-10T15:43:14Z",
+      "created_at": "2025-07-03T08:20:23Z",
       "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
-      "draft": true
+      "draft": false
     },
     {
       "number": 516,
@@ -212,20 +312,6 @@
       "draft": false
     },
     {
-      "number": 496,
-      "title": "IFU 2.12",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-18T20:33:11Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 487,
       "title": "ASV-format microbenchmark suite",
       "author": "Micky774",
@@ -235,20 +321,6 @@
       "updated_at": "2026-04-02T02:16:23Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 468,
-      "title": "Use static libraries for AITER build",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T21:50:32Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -276,20 +348,6 @@
       "draft": false
     },
     {
-      "number": 508,
-      "title": "[TE] Enable deterministic mode for fused attention",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-27T18:37:04Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 177,
       "title": "[ROCm] support triton-based flash-attn in TE",
       "author": "wangye805",
@@ -312,32 +370,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/123",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 509,
-      "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-27T23:29:43Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 515,
-      "title": "[WIP] NVFP4: hadamard_transform_cast_fusion_columnwise",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T20:14:08Z",
-      "updated_at": "2026-04-01T20:40:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/515",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 477,
