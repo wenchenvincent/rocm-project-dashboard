@@ -1,17 +1,77 @@
 {
-  "collected_at": "2026-04-03T08:40:32Z",
+  "collected_at": "2026-04-04T08:28:24Z",
   "prs": [
+    {
+      "number": 9920,
+      "title": "[AMD][GFX1250] Add GFX1250 support to AMD specific tests",
+      "author": "yiqian1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T21:13:06Z",
+      "updated_at": "2026-04-04T02:52:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9920",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9912,
+      "title": "[AMD] Fix SSA dominance violation in ConvertToBufferOps with i64 offsets",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T22:50:38Z",
+      "updated_at": "2026-04-04T00:28:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9912",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9918,
+      "title": "[AMD] fix AsyncTDMCopyLocalToGlobalOp::verify bug about multi-cta",
+      "author": "yangshuxin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-03T17:21:18Z",
+      "updated_at": "2026-04-03T21:10:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9918",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9898,
+      "title": "[AMD] Reduce VGPR pressure for 4-stage chained dot schedule",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T00:05:51Z",
+      "updated_at": "2026-04-03T21:05:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9898",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 9899,
       "title": "[AMD][gfx1250] Pack f32 arith ops into <2 x float> for v_pk_* instructions",
       "author": "jwu10003",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-04-02T03:54:59Z",
-      "updated_at": "2026-04-03T08:06:56Z",
+      "updated_at": "2026-04-03T16:18:04Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9899",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 9855,
+      "title": "[AMD] Raise buffer_load num_records to full 4 GB unsigned range",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-26T06:29:59Z",
+      "updated_at": "2026-04-03T11:26:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9855",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 9897,
@@ -22,18 +82,6 @@
       "created_at": "2026-04-01T20:03:50Z",
       "updated_at": "2026-04-03T07:18:18Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9897",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9912,
-      "title": "[AMD] Fix SSA dominance violation in ConvertToBufferOps with i64 offsets",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T22:50:38Z",
-      "updated_at": "2026-04-03T06:19:50Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9912",
       "labels": [],
       "draft": false
     },
@@ -62,18 +110,6 @@
       "draft": false
     },
     {
-      "number": 9898,
-      "title": "[AMD] Reduce VGPR pressure for 4-stage chained dot schedule",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T00:05:51Z",
-      "updated_at": "2026-04-02T20:17:48Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9898",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 9891,
       "title": "[AMD] Fix CanonicalizePointers to handle ptr mergepoints with different ptr promotability",
       "author": "karthik-man",
@@ -96,18 +132,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/8779",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 9855,
-      "title": "[AMD] Raise buffer_load num_records to full 4 GB unsigned range",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T06:29:59Z",
-      "updated_at": "2026-04-01T02:27:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9855",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 9779,
@@ -514,30 +538,6 @@
       "created_at": "2026-03-20T15:26:05Z",
       "updated_at": "2026-03-20T18:48:24Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9788",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9752,
-      "title": "[AMD] Fix test-alignment lit",
-      "author": "alefimov-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-17T19:48:39Z",
-      "updated_at": "2026-03-20T04:24:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9752",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9767,
-      "title": "[AMD][gfx1250] Update example stream-k and attention decode kernels",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-18T18:28:30Z",
-      "updated_at": "2026-03-20T03:09:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9767",
       "labels": [],
       "draft": false
     },

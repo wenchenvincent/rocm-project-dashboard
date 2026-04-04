@@ -1,43 +1,43 @@
 {
-  "collected_at": "2026-04-03T08:41:51Z",
+  "collected_at": "2026-04-04T08:30:04Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 93,
-      "merged": 55,
-      "closed": 12
+      "opened": 89,
+      "merged": 59,
+      "closed": 11
     },
     "last_week": {
-      "opened": 102,
-      "merged": 65,
+      "opened": 95,
+      "merged": 61,
       "closed": 30
     },
-    "median_time_to_merge_hours": 35.4,
-    "merge_count": 123,
+    "median_time_to_merge_hours": 38.0,
+    "merge_count": 124,
     "stale_prs": 8
   },
   "contributors": {
-    "active_this_week": 75,
-    "total_contributors": 137,
+    "active_this_week": 73,
+    "total_contributors": 140,
     "top_contributors": [
       {
         "author": "gyohuangxin",
-        "prs_submitted": 15,
-        "prs_merged": 10,
-        "commits": 33
+        "prs_submitted": 13,
+        "prs_merged": 8,
+        "commits": 32
       },
       {
         "author": "yzhou103",
         "prs_submitted": 11,
-        "prs_merged": 5,
-        "commits": 13
+        "prs_merged": 7,
+        "commits": 15
       },
       {
         "author": "zufayu",
         "prs_submitted": 9,
-        "prs_merged": 0,
-        "commits": 1
+        "prs_merged": 1,
+        "commits": 2
       },
       {
         "author": "JohnNikolay84",
@@ -58,16 +58,10 @@
         "commits": 0
       },
       {
-        "author": "minmengdie",
-        "prs_submitted": 5,
-        "prs_merged": 1,
-        "commits": 6
-      },
-      {
         "author": "junhaha666",
-        "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 12
+        "prs_submitted": 6,
+        "prs_merged": 6,
+        "commits": 14
       },
       {
         "author": "azaidy",
@@ -76,24 +70,30 @@
         "commits": 0
       },
       {
-        "author": "apicciau",
+        "author": "etemadiamd",
+        "prs_submitted": 5,
+        "prs_merged": 1,
+        "commits": 1
+      },
+      {
+        "author": "Boss2002n",
         "prs_submitted": 5,
         "prs_merged": 1,
         "commits": 1
       }
     ],
-    "bus_factor": 11
+    "bus_factor": 10
   },
   "issue_health": {
     "total_open": 144,
-    "opened_this_week": 10,
-    "closed_this_week": 1,
-    "unanswered": 47
+    "opened_this_week": 8,
+    "closed_this_week": 2,
+    "unanswered": 49
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 101.2,
+    "days_since_last": 102.2,
     "avg_interval_days": 54.7,
     "total_releases": 5,
     "latest_tag": "v0.1.9"

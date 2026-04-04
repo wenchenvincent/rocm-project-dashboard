@@ -1,6 +1,21 @@
 {
-  "collected_at": "2026-04-03T08:40:06Z",
+  "collected_at": "2026-04-04T08:27:52Z",
   "prs": [
+    {
+      "number": 36492,
+      "title": "[ROCm] Skip failing ROCm CI tests",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-03T16:44:24Z",
+      "updated_at": "2026-04-03T19:16:39Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36492",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 36355,
       "title": "[ROCm] fix: wire up clone_main_xla for ROCm builds and tests",
@@ -8,22 +23,11 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-31T00:40:34Z",
-      "updated_at": "2026-04-03T02:09:16Z",
+      "updated_at": "2026-04-03T17:51:09Z",
       "html_url": "https://github.com/jax-ml/jax/pull/36355",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 36465,
-      "title": "Use hermetic clang for ROCm",
-      "author": "TwelveNights",
-      "state": "closed",
-      "merged": false,
-      "created_at": "2026-04-02T15:09:32Z",
-      "updated_at": "2026-04-02T16:29:36Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36465",
       "labels": [
-        "AMD GPU"
+        "kokoro:force-run",
+        "pull ready"
       ],
       "draft": false
     },
@@ -31,12 +35,14 @@
       "number": 36426,
       "title": "[ROCm] Restore default SVD algorithms on ROCm.",
       "author": "tsrw2048",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-04-01T15:16:01Z",
-      "updated_at": "2026-04-01T21:38:59Z",
+      "updated_at": "2026-04-03T17:13:05Z",
       "html_url": "https://github.com/jax-ml/jax/pull/36426",
       "labels": [
+        "kokoro:force-run",
+        "pull ready",
         "AMD GPU"
       ],
       "draft": false
@@ -533,38 +539,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34601,
-      "title": "[ROCm] Enable neural network tests on ROCm",
-      "author": "phambinhfin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-23T15:22:12Z",
-      "updated_at": "2026-02-25T20:23:04Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34601",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 31768,
-      "title": "[ROCm] Support lowering through PJRT_Triton_Extension",
-      "author": "amd-jianli12",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-09-12T12:27:33Z",
-      "updated_at": "2026-02-24T06:36:06Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/31768",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
       ],
       "draft": false
     }

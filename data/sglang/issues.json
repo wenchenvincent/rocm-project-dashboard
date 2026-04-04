@@ -1,15 +1,62 @@
 {
-  "collected_at": "2026-04-03T08:40:31Z",
+  "collected_at": "2026-04-04T08:28:22Z",
   "issues": [
+    {
+      "number": 21919,
+      "title": "[Bug] Mi355 qwen3.5 mxfp4 TP4 potentially low accuracy",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-02T06:59:13Z",
+      "updated_at": "2026-04-04T05:56:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21919",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 22092,
+      "title": "[Feature] Parity with CUDA -  AMD when will it support DWDP based parallelism too",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-04T03:19:20Z",
+      "updated_at": "2026-04-04T03:23:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22092",
+      "labels": []
+    },
+    {
+      "number": 22072,
+      "title": "[Bug] EP/DP decode server hangs at startup on MI325X with Broadcom Thor 2 (bnxt_re) + MoRI a2a backend",
+      "author": "JordanNanos",
+      "state": "open",
+      "created_at": "2026-04-03T19:42:51Z",
+      "updated_at": "2026-04-03T19:42:51Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22072",
+      "labels": []
+    },
     {
       "number": 21302,
       "title": "[AITER-Upgrade] PR readiness",
       "author": "HaiShaw",
       "state": "open",
       "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-04-03T07:58:28Z",
+      "updated_at": "2026-04-03T18:11:09Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
+    },
+    {
+      "number": 11762,
+      "title": "[Feature] Overlap Spec Support",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2025-10-17T14:48:31Z",
+      "updated_at": "2026-04-03T17:15:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/11762",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "high priority"
+      ]
     },
     {
       "number": 15025,
@@ -25,18 +72,6 @@
         "Good Pro Issue",
         "good second issue",
         "nvidia"
-      ]
-    },
-    {
-      "number": 21919,
-      "title": "[Bug] Mi355 qwen3.5 mxfp4 TP4 potentially low accuracy",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-02T06:59:13Z",
-      "updated_at": "2026-04-02T20:17:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21919",
-      "labels": [
-        "amd"
       ]
     },
     {
@@ -371,21 +406,6 @@
       ]
     },
     {
-      "number": 11762,
-      "title": "[Feature] Overlap Spec Support",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2025-10-17T14:48:31Z",
-      "updated_at": "2026-03-05T06:25:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/11762",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "help wanted",
-        "high priority"
-      ]
-    },
-    {
       "number": 19917,
       "title": "[AMD] Support JIT kernel for wheels",
       "author": "akao-amd",
@@ -403,16 +423,6 @@
       "created_at": "2026-02-19T22:04:14Z",
       "updated_at": "2026-02-24T07:35:34Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/19028",
-      "labels": []
-    },
-    {
-      "number": 18138,
-      "title": "[Tracking][Diffusion][AMD] Diffusion models performance optimization on AMD Platform",
-      "author": "wuhuikx",
-      "state": "open",
-      "created_at": "2026-02-03T01:39:25Z",
-      "updated_at": "2026-02-20T13:22:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18138",
       "labels": []
     },
     {

@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-04-03T08:42:24Z",
+  "collected_at": "2026-04-04T08:30:43Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 11,
-      "merged": 5,
+      "opened": 10,
+      "merged": 6,
       "closed": 1
     },
     "last_week": {
-      "opened": 9,
+      "opened": 8,
       "merged": 9,
       "closed": 3
     },
-    "median_time_to_merge_hours": 95.1,
-    "merge_count": 16,
+    "median_time_to_merge_hours": 90.6,
+    "merge_count": 17,
     "stale_prs": 0
   },
   "contributors": {
@@ -24,8 +24,8 @@
       {
         "author": "Micky774",
         "prs_submitted": 23,
-        "prs_merged": 16,
-        "commits": 2
+        "prs_merged": 18,
+        "commits": 6
       },
       {
         "author": "ipanfilo",
@@ -46,16 +46,16 @@
         "commits": 4
       },
       {
-        "author": "VeeraRajasekhar",
-        "prs_submitted": 9,
-        "prs_merged": 8,
-        "commits": 0
-      },
-      {
         "author": "alextmagro",
-        "prs_submitted": 7,
+        "prs_submitted": 8,
         "prs_merged": 6,
         "commits": 3
+      },
+      {
+        "author": "VeeraRajasekhar",
+        "prs_submitted": 8,
+        "prs_merged": 7,
+        "commits": 0
       },
       {
         "author": "sarthak-amd",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.6,
+    "days_since_last": 2.6,
     "avg_interval_days": 47.2,
     "total_releases": 5,
     "latest_tag": "v2.8_rocm"

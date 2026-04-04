@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-04-03T08:41:17Z",
+  "collected_at": "2026-04-04T08:29:29Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 15,
-      "merged": 9,
+      "opened": 12,
+      "merged": 7,
       "closed": 0
     },
     "last_week": {
@@ -18,8 +18,8 @@
     "stale_prs": 14
   },
   "contributors": {
-    "active_this_week": 17,
-    "total_contributors": 34,
+    "active_this_week": 16,
+    "total_contributors": 35,
     "top_contributors": [
       {
         "author": "AlexAUT",
@@ -34,21 +34,21 @@
         "commits": 0
       },
       {
+        "author": "yiqian1",
+        "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
         "author": "jwu10003",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       },
       {
         "author": "patrick-toulme",
         "prs_submitted": 3,
         "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "antiagainst",
-        "prs_submitted": 3,
-        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -64,12 +64,6 @@
         "commits": 0
       },
       {
-        "author": "zhanglx13",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
         "author": "nithinsubbiah",
         "prs_submitted": 2,
         "prs_merged": 0,
@@ -77,6 +71,12 @@
       },
       {
         "author": "Dewei-Wang-sh",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "zhanglx13",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 71.4,
+    "days_since_last": 72.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

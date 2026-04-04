@@ -1,6 +1,191 @@
 {
-  "collected_at": "2026-04-03T08:40:03Z",
+  "collected_at": "2026-04-04T08:27:48Z",
   "issues": [
+    {
+      "number": 179135,
+      "title": "InductorError when using torch.compile with Swin Transformer v2 on CPU",
+      "author": "hassonofer",
+      "state": "open",
+      "created_at": "2026-04-02T10:19:58Z",
+      "updated_at": "2026-04-04T07:51:19Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179135",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "oncall: cpu inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179338,
+      "title": "grid_sample` backward silently non-deterministic under `use_deterministic_algorithms(True)",
+      "author": "xjh19971",
+      "state": "open",
+      "created_at": "2026-04-04T01:23:15Z",
+      "updated_at": "2026-04-04T06:26:22Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179338",
+      "labels": [
+        "triage review",
+        "module: autograd",
+        "module: nn",
+        "module: cuda",
+        "module: determinism",
+        "module: correctness (silent)",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179368,
+      "title": "torch.compile + view_as_complex: RuntimeError: Tensor must have a last dimension with stride 1",
+      "author": "ad8e",
+      "state": "open",
+      "created_at": "2026-04-04T06:12:25Z",
+      "updated_at": "2026-04-04T06:15:24Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179368",
+      "labels": [
+        "triaged",
+        "module: complex",
+        "module: memory format",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179352,
+      "title": "MPS: scaled_dot_product_attention produces incorrect results for large batch \u00d7 sequence length combinations",
+      "author": "jbartolozzi",
+      "state": "open",
+      "created_at": "2026-04-04T04:21:09Z",
+      "updated_at": "2026-04-04T05:17:24Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179352",
+      "labels": [
+        "triage review",
+        "module: macos",
+        "module: correctness (silent)",
+        "module: mps",
+        "module: sdpa",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 174358,
+      "title": "[Memory] Unbounded allocation on NVIDIA DGX (Unified Memory) causes system hang instead of OOM",
+      "author": "gbdjxgp",
+      "state": "open",
+      "created_at": "2026-02-05T06:45:54Z",
+      "updated_at": "2026-04-03T21:09:31Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/174358",
+      "labels": [
+        "module: cuda",
+        "triaged",
+        "module: deadlock",
+        "module: third_party",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179238,
+      "title": "Shutdown race in Gloo backend",
+      "author": "KKucht",
+      "state": "open",
+      "created_at": "2026-04-03T10:09:06Z",
+      "updated_at": "2026-04-03T19:34:14Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179238",
+      "labels": [
+        "oncall: distributed",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179287,
+      "title": "torch.export: nn.MultiheadAttention (need_weights=False) exported on CPU fails on CUDA (permute\u2192view after SDPA)",
+      "author": "jchacks",
+      "state": "open",
+      "created_at": "2026-04-03T19:10:16Z",
+      "updated_at": "2026-04-03T19:12:19Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179287",
+      "labels": [
+        "oncall: pt2",
+        "oncall: export",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179111,
+      "title": "The smallest values of E4M3 for two-level quantization is incorrect",
+      "author": "CatFootPrint",
+      "state": "open",
+      "created_at": "2026-04-02T04:10:24Z",
+      "updated_at": "2026-04-03T17:18:46Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179111",
+      "labels": [
+        "oncall: quantization",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 178447,
+      "title": "Dynamo `TritonHOPifier.call_run` doesn't propagate kernel_source -> `AssertionError`: Can't construct an AttrSource without a valid base source",
+      "author": "GMNGeoffrey",
+      "state": "open",
+      "created_at": "2026-03-25T23:02:42Z",
+      "updated_at": "2026-04-03T13:48:08Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/178447",
+      "labels": [
+        "triaged",
+        "has workaround",
+        "oncall: pt2",
+        "module: dynamo",
+        "module: user triton",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179237,
+      "title": "Order-dependent failure in expanded-weights module tests due to shared cached input state",
+      "author": "pponikox",
+      "state": "open",
+      "created_at": "2026-04-03T10:06:07Z",
+      "updated_at": "2026-04-03T10:11:58Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179237",
+      "labels": [
+        "module: tests",
+        "triaged",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179030,
+      "title": "XPU: Segmentation Fault when using newer drivers",
+      "author": "WizardlyBump17",
+      "state": "open",
+      "created_at": "2026-04-01T18:42:30Z",
+      "updated_at": "2026-04-03T09:05:57Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179030",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: regression",
+        "module: xpu",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179232,
+      "title": "[Inductor] User-defined kernel fusion incorrectly attempted after buffer reuse decisions",
+      "author": "jjvraw",
+      "state": "open",
+      "created_at": "2026-04-03T07:20:36Z",
+      "updated_at": "2026-04-03T09:04:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179232",
+      "labels": [
+        "triage review",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 179233,
       "title": "[Inductor] User-defined kernel epilogue fusion not guarded against non-unary epilogues",
@@ -11,36 +196,6 @@
       "html_url": "https://github.com/pytorch/pytorch/issues/179233",
       "labels": [
         "oncall: pt2"
-      ]
-    },
-    {
-      "number": 179197,
-      "title": "`python -m pip install --no-build-isolation -v -e .` fails to begin because of `SyntaxError`",
-      "author": "SuperCowProducts",
-      "state": "open",
-      "created_at": "2026-04-02T22:45:05Z",
-      "updated_at": "2026-04-03T07:48:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179197",
-      "labels": [
-        "needs reproduction",
-        "module: build",
-        "triaged",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 179232,
-      "title": "[Inductor] User-defined kernel fusion incorrectly attempted after buffer reuse decisions",
-      "author": "jjvraw",
-      "state": "open",
-      "created_at": "2026-04-03T07:20:36Z",
-      "updated_at": "2026-04-03T07:35:26Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179232",
-      "labels": [
-        "triage review",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
       ]
     },
     {
@@ -84,25 +239,6 @@
       "updated_at": "2026-04-03T02:02:07Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/179214",
       "labels": []
-    },
-    {
-      "number": 179213,
-      "title": "DISABLED test_sdpa_rewriter_11_gpu (__main__.SDPAPatternRewriterGpuTests)",
-      "author": "etaf",
-      "state": "open",
-      "created_at": "2026-04-03T01:22:37Z",
-      "updated_at": "2026-04-03T01:25:18Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179213",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "module: xpu",
-        "module: sdpa",
-        "bot-triaged"
-      ]
     },
     {
       "number": 178871,
@@ -169,21 +305,6 @@
         "module: aotdispatch",
         "module: pt2-dispatcher",
         "module: sdpa",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 179135,
-      "title": "InductorError when using torch.compile with Swin Transformer v2 on CPU",
-      "author": "hassonofer",
-      "state": "open",
-      "created_at": "2026-04-02T10:19:58Z",
-      "updated_at": "2026-04-02T23:58:35Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179135",
-      "labels": [
-        "triaged",
-        "oncall: pt2",
-        "oncall: cpu inductor",
         "bot-triaged"
       ]
     },
@@ -335,23 +456,6 @@
       ]
     },
     {
-      "number": 179117,
-      "title": "DISABLED test_as_strided_xpu_gpu_wrapper (__main__.TestGpuWrapper)",
-      "author": "guangyey",
-      "state": "open",
-      "created_at": "2026-04-02T05:51:11Z",
-      "updated_at": "2026-04-02T05:53:19Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179117",
-      "labels": [
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 178939,
       "title": "Pytorch needs Kineto even when using USE_KINETO=OFF",
       "author": "waltercool",
@@ -365,35 +469,6 @@
         "module: regression",
         "bot-triaged",
         "bot-mislabeled"
-      ]
-    },
-    {
-      "number": 179111,
-      "title": "The smallest values of E4M3 for two-level quantization is incorrect",
-      "author": "CatFootPrint",
-      "state": "open",
-      "created_at": "2026-04-02T04:10:24Z",
-      "updated_at": "2026-04-02T04:11:59Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179111",
-      "labels": [
-        "oncall: quantization",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 179030,
-      "title": "XPU: Segmentation Fault when using newer drivers",
-      "author": "WizardlyBump17",
-      "state": "open",
-      "created_at": "2026-04-01T18:42:30Z",
-      "updated_at": "2026-04-02T03:23:52Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179030",
-      "labels": [
-        "triage review",
-        "module: crash",
-        "module: regression",
-        "module: xpu",
-        "bot-triaged"
       ]
     },
     {
@@ -411,22 +486,6 @@
         "oncall: pt2",
         "module: inductor",
         "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 178864,
-      "title": "torch.multinomial on CUDA with zero-sum probabilities triggers device-side assert instead of invalid multinomial distribution error",
-      "author": "DeLightor",
-      "state": "open",
-      "created_at": "2026-03-31T09:08:13Z",
-      "updated_at": "2026-04-01T22:23:35Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/178864",
-      "labels": [
-        "module: cuda",
-        "module: error checking",
-        "triaged",
-        "module: edge cases",
         "bot-triaged"
       ]
     },
@@ -499,24 +558,6 @@
         "module: memory format",
         "oncall: pt2",
         "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 178992,
-      "title": "DISABLED test_comprehensive_nn_functional_multi_margin_loss_xpu_float32 (__main__.TestInductorOpInfoXPU)",
-      "author": "etaf",
-      "state": "open",
-      "created_at": "2026-04-01T12:19:05Z",
-      "updated_at": "2026-04-01T12:20:49Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/178992",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "module: xpu",
         "bot-triaged"
       ]
     },

@@ -1,27 +1,15 @@
 {
-  "collected_at": "2026-04-03T08:40:50Z",
+  "collected_at": "2026-04-04T08:28:48Z",
   "prs": [
     {
-      "number": 343,
-      "title": "[ENH] Support more scenarios for MemrefLoad/StoreVec",
-      "author": "sjfeng1999",
+      "number": 271,
+      "title": "feat: python versions update",
+      "author": "kiran-thumma",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-03T08:17:53Z",
-      "updated_at": "2026-04-03T08:33:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/343",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 342,
-      "title": "[FEAT] Add math dialect DSL wrappers",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-03T04:52:37Z",
-      "updated_at": "2026-04-03T08:27:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/342",
+      "created_at": "2026-03-23T16:40:35Z",
+      "updated_at": "2026-04-04T03:36:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/271",
       "labels": [],
       "draft": false
     },
@@ -32,7 +20,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-02T09:46:52Z",
-      "updated_at": "2026-04-03T08:26:21Z",
+      "updated_at": "2026-04-03T15:02:50Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/338",
       "labels": [],
       "draft": false
@@ -44,11 +32,71 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-02T14:59:06Z",
-      "updated_at": "2026-04-03T08:25:49Z",
+      "updated_at": "2026-04-03T13:59:17Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/340",
       "labels": [
         "enhancement"
       ],
+      "draft": true
+    },
+    {
+      "number": 344,
+      "title": "[Refactor][DSL] Make MMA hierarchy symmetric with Copy ",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T09:53:29Z",
+      "updated_at": "2026-04-03T11:55:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/344",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 346,
+      "title": "Yxd/if dispatch dynamic tests refactor",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T10:54:06Z",
+      "updated_at": "2026-04-03T10:54:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/346",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 345,
+      "title": "Fujun.han/multi vendor support",
+      "author": "Peter9606",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T10:36:51Z",
+      "updated_at": "2026-04-03T10:36:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/345",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 310,
+      "title": "[FLYDSL]: if_dispatch dynamic process",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-30T07:31:13Z",
+      "updated_at": "2026-04-03T10:21:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/310",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 332,
+      "title": "feat(benchmark): add MoE FP4 small-batch shapes and enable MoE by def\u2026",
+      "author": "zhiding512",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T14:32:58Z",
+      "updated_at": "2026-04-03T08:46:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/332",
+      "labels": [],
       "draft": true
     },
     {
@@ -76,18 +124,6 @@
       "draft": false
     },
     {
-      "number": 310,
-      "title": "[FLYDSL]: if_dispatch dynamic process",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-30T07:31:13Z",
-      "updated_at": "2026-04-02T11:49:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/310",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 326,
       "title": "support allreduce ",
       "author": "yanboshao",
@@ -100,30 +136,6 @@
       "draft": false
     },
     {
-      "number": 335,
-      "title": "[Kernel][GFX1250/MI450] Add Flash Attention and MLA kernels",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T03:52:46Z",
-      "updated_at": "2026-04-02T03:54:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/335",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 332,
-      "title": "feat(benchmark): add MoE FP4 small-batch shapes and enable MoE by def\u2026",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T14:32:58Z",
-      "updated_at": "2026-04-01T14:37:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/332",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 328,
       "title": "Add immediate offset support to buffer_load and buffer_store ops",
       "author": "ruanjm",
@@ -132,18 +144,6 @@
       "created_at": "2026-04-01T08:35:30Z",
       "updated_at": "2026-04-01T08:43:41Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/328",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 271,
-      "title": "feat: python versions update",
-      "author": "kiran-thumma",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-23T16:40:35Z",
-      "updated_at": "2026-04-01T04:43:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/271",
       "labels": [],
       "draft": false
     },
@@ -168,6 +168,42 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 347,
+      "title": "Fix CI: conditional aiter import in test_pa.py to unblock navi runner collection",
+      "author": "Copilot",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-03T14:42:04Z",
+      "updated_at": "2026-04-03T15:02:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/347",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 343,
+      "title": "[ENH] Support more scenarios for MemrefLoad/StoreVec",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-03T08:17:53Z",
+      "updated_at": "2026-04-03T10:37:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/343",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 342,
+      "title": "[FEAT] Add math dialect DSL wrappers",
+      "author": "jli-melchior",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-03T04:52:37Z",
+      "updated_at": "2026-04-03T09:05:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/342",
       "labels": [],
       "draft": false
     },
@@ -950,30 +986,6 @@
       "created_at": "2026-03-18T03:09:22Z",
       "updated_at": "2026-03-18T09:43:39Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/234",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 222,
-      "title": "[Test] Add multi-stream async dependency and diamond pipeline tests",
-      "author": "jli-melchior",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-16T13:17:23Z",
-      "updated_at": "2026-03-17T06:53:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/222",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 203,
-      "title": "[Feat][FLY] Update TiledMma and Copy semantic",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-12T17:26:28Z",
-      "updated_at": "2026-03-17T06:52:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/203",
       "labels": [],
       "draft": false
     }

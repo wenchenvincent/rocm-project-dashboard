@@ -1,6 +1,60 @@
 {
-  "collected_at": "2026-04-03T08:40:52Z",
+  "collected_at": "2026-04-04T08:28:51Z",
   "prs": [
+    {
+      "number": 519,
+      "title": "Ct opt",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-04T02:20:47Z",
+      "updated_at": "2026-04-04T05:32:02Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 518,
+      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T16:44:44Z",
+      "updated_at": "2026-04-03T23:33:31Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 475,
+      "title": "Add FP8 Support For CK Tile Group GEMM",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T14:09:29Z",
+      "updated_at": "2026-04-03T16:47:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 468,
+      "title": "Use static libraries for AITER build",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-02T21:50:32Z",
+      "updated_at": "2026-04-03T15:10:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 509,
       "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
@@ -44,48 +98,6 @@
       "draft": false
     },
     {
-      "number": 475,
-      "title": "Add FP8 Support For CK Tile Group GEMM",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T14:09:29Z",
-      "updated_at": "2026-04-02T22:40:15Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 468,
-      "title": "Use static libraries for AITER build",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T21:50:32Z",
-      "updated_at": "2026-04-02T22:30:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 496,
-      "title": "IFU 2.12",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-18T20:33:11Z",
-      "updated_at": "2026-04-02T21:15:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 505,
       "title": "NVFP4 dequantization",
       "author": "aris134",
@@ -98,20 +110,6 @@
         "ci-level 1"
       ],
       "draft": false
-    },
-    {
-      "number": 518,
-      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T16:44:44Z",
-      "updated_at": "2026-04-02T19:02:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
     },
     {
       "number": 517,
@@ -286,20 +284,6 @@
       "draft": false
     },
     {
-      "number": 516,
-      "title": "Remove unnecessary zeroing in Triton MXFP8 dequantize kernel",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T20:28:05Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/516",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 514,
       "title": "Corrected CI name for pushing to dev",
       "author": "Micky774",
@@ -381,6 +365,34 @@
       "updated_at": "2026-03-11T00:48:13Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/477",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 516,
+      "title": "Remove unnecessary zeroing in Triton MXFP8 dequantize kernel",
+      "author": "Micky774",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-01T20:28:05Z",
+      "updated_at": "2026-04-04T02:54:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/516",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 496,
+      "title": "IFU 2.12",
+      "author": "Micky774",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-18T20:33:11Z",
+      "updated_at": "2026-04-03T15:08:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/496",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1290,18 +1302,6 @@
       "created_at": "2025-12-18T15:39:06Z",
       "updated_at": "2026-01-14T03:38:59Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/404",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 401,
-      "title": "Enable gfx950 CI on dev branch",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-12-12T22:45:30Z",
-      "updated_at": "2026-01-09T19:02:20Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/401",
       "labels": [],
       "draft": false
     }

@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-04-03T08:42:21Z",
+  "collected_at": "2026-04-04T08:30:38Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 37,
-      "merged": 27,
-      "closed": 11
-    },
-    "last_week": {
-      "opened": 37,
-      "merged": 27,
+      "opened": 38,
+      "merged": 28,
       "closed": 9
     },
-    "median_time_to_merge_hours": 12.0,
-    "merge_count": 56,
+    "last_week": {
+      "opened": 39,
+      "merged": 25,
+      "closed": 12
+    },
+    "median_time_to_merge_hours": 10.7,
+    "merge_count": 57,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 19,
-    "total_contributors": 23,
+    "active_this_week": 20,
+    "total_contributors": 24,
     "top_contributors": [
       {
         "author": "sjfeng1999",
         "prs_submitted": 19,
         "prs_merged": 18,
-        "commits": 21
+        "commits": 22
       },
       {
         "author": "coderfeli",
@@ -40,16 +40,22 @@
         "commits": 5
       },
       {
-        "author": "jli-melchior",
-        "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 4
-      },
-      {
         "author": "yadaish",
         "prs_submitted": 5,
         "prs_merged": 5,
         "commits": 4
+      },
+      {
+        "author": "xudoyuan",
+        "prs_submitted": 4,
+        "prs_merged": 2,
+        "commits": 2
+      },
+      {
+        "author": "Peter9606",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 3
       },
       {
         "author": "ruanjm",
@@ -58,16 +64,10 @@
         "commits": 4
       },
       {
-        "author": "xudoyuan",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 2
-      },
-      {
-        "author": "Peter9606",
+        "author": "jli-melchior",
         "prs_submitted": 3,
         "prs_merged": 3,
-        "commits": 3
+        "commits": 5
       },
       {
         "author": "aoli26",
@@ -86,9 +86,9 @@
   },
   "issue_health": {
     "total_open": 20,
-    "opened_this_week": 7,
+    "opened_this_week": 5,
     "closed_this_week": 4,
-    "unanswered": 5
+    "unanswered": 6
   },
   "ci_health": null,
   "ci_signal_time": null,
