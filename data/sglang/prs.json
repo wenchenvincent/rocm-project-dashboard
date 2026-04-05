@@ -1,6 +1,129 @@
 {
-  "collected_at": "2026-04-04T08:28:19Z",
+  "collected_at": "2026-04-05T08:31:15Z",
   "prs": [
+    {
+      "number": 22143,
+      "title": "Cache gfx95 quant format detection in DeepseekV2DecoderLayer",
+      "author": "merrymercy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T07:28:05Z",
+      "updated_at": "2026-04-05T07:59:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/22143",
+      "labels": [
+        "deepseek"
+      ],
+      "draft": false
+    },
+    {
+      "number": 17946,
+      "title": "[MUSA][8/N] Port CUDA kernels that are compatible with MUSA",
+      "author": "yafengio",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-29T14:25:20Z",
+      "updated_at": "2026-04-05T06:40:26Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/17946",
+      "labels": [
+        "quant",
+        "dependencies",
+        "sgl-kernel",
+        "run-ci",
+        "mthreads"
+      ],
+      "draft": false
+    },
+    {
+      "number": 21986,
+      "title": "[AMD][No-Merge] Simplify fused allreduce + RMSNorm and remove hidden_dim allowlist",
+      "author": "hubertlu-tw",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T02:17:26Z",
+      "updated_at": "2026-04-05T05:49:44Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/21986",
+      "labels": [
+        "documentation",
+        "amd",
+        "run-ci",
+        "amd-aiter-not-ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 21889,
+      "title": "[AMD] Enable FP4 (E2M1) KV cache quantization for NSA with TileLang backend",
+      "author": "RolaoDenthu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T00:44:09Z",
+      "updated_at": "2026-04-05T05:45:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/21889",
+      "labels": [
+        "quant",
+        "amd",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 20089,
+      "title": "feat: [1/2] [DeepEP] Fuse shared expert into MoE dispatch under EP",
+      "author": "xutizhou",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-07T08:54:46Z",
+      "updated_at": "2026-04-05T05:31:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/20089",
+      "labels": [
+        "documentation",
+        "deepseek",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 21213,
+      "title": "[AMD]: Support MLA with nhead<16 and FP8 KV cache for TP=8 (Kimi K2.5\u2026",
+      "author": "ZiguanWang",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-23T12:32:22Z",
+      "updated_at": "2026-04-05T05:13:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/21213",
+      "labels": [
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 20535,
+      "title": "[HiCache] Add L2 prefetch-buffer-only memory mode",
+      "author": "vladnosiv",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T16:19:05Z",
+      "updated_at": "2026-04-04T20:20:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/20535",
+      "labels": [
+        "high priority",
+        "hicache",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 22113,
+      "title": "fix: sync plan_stream before reading draft-dependent data in EAGLE v2",
+      "author": "AMD-yanfeiwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-04T16:08:40Z",
+      "updated_at": "2026-04-04T16:09:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/22113",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 21403,
       "title": "[AMD] Fuse RMSNorm + FP8 per-token quant for GLM-4.7-FP8",
@@ -16,22 +139,6 @@
       "draft": false
     },
     {
-      "number": 20089,
-      "title": "feat: [1/2] [DeepEP] Fuse shared expert into MoE dispatch under EP",
-      "author": "xutizhou",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-07T08:54:46Z",
-      "updated_at": "2026-04-04T08:21:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/20089",
-      "labels": [
-        "documentation",
-        "deepseek",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
       "number": 21710,
       "title": "[AMD][CI] Add GLM-5-FP8 nightly performance benchmarks for MI30x and MI35x",
       "author": "michaelzhang-ai",
@@ -42,43 +149,6 @@
       "html_url": "https://github.com/sgl-project/sglang/pull/21710",
       "labels": [
         "amd"
-      ],
-      "draft": false
-    },
-    {
-      "number": 17946,
-      "title": "[MUSA][8/N] Port CUDA kernels that are compatible with MUSA",
-      "author": "yafengio",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-29T14:25:20Z",
-      "updated_at": "2026-04-04T05:46:32Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/17946",
-      "labels": [
-        "quant",
-        "dependencies",
-        "sgl-kernel",
-        "run-ci",
-        "mthreads"
-      ],
-      "draft": false
-    },
-    {
-      "number": 21098,
-      "title": "[parallel state Refactor 3/n] Unify communicator interface",
-      "author": "DarkSharpness",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-21T14:19:30Z",
-      "updated_at": "2026-04-04T05:32:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/21098",
-      "labels": [
-        "amd",
-        "sgl-kernel",
-        "npu",
-        "run-ci",
-        "piecewise-cuda-graph",
-        "jit-kernel"
       ],
       "draft": false
     },
@@ -123,21 +193,6 @@
       "labels": [
         "quant",
         "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 21889,
-      "title": "[AMD] Enable FP4 (E2M1) KV cache quantization for NSA with TileLang backend",
-      "author": "RolaoDenthu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T00:44:09Z",
-      "updated_at": "2026-04-03T23:12:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/21889",
-      "labels": [
-        "quant",
-        "amd"
       ],
       "draft": false
     },
@@ -409,21 +464,6 @@
       "html_url": "https://github.com/sgl-project/sglang/pull/21941",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 21986,
-      "title": "[AMD] Simplify fused allreduce + RMSNorm and remove hidden_dim allowlist",
-      "author": "hubertlu-tw",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-03T02:17:26Z",
-      "updated_at": "2026-04-03T02:19:14Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/21986",
-      "labels": [
-        "documentation",
-        "amd"
-      ],
-      "draft": false
     },
     {
       "number": 21097,
@@ -813,20 +853,6 @@
       "draft": false
     },
     {
-      "number": 21213,
-      "title": "[AMD]: Support MLA with nhead<16 and FP8 KV cache for TP=8 (Kimi K2.5\u2026",
-      "author": "ZiguanWang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-23T12:32:22Z",
-      "updated_at": "2026-04-01T05:47:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/21213",
-      "labels": [
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
       "number": 21706,
       "title": "Feature/diffusion xpu platform",
       "author": "skaulintel",
@@ -1167,21 +1193,6 @@
         "dependencies",
         "speculative-decoding",
         "sgl-kernel",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 19395,
-      "title": "MFU metrics in Prometheus ",
-      "author": "aramasethu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-26T05:15:24Z",
-      "updated_at": "2026-03-30T06:40:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/19395",
-      "labels": [
-        "documentation",
         "run-ci"
       ],
       "draft": false
@@ -1967,18 +1978,6 @@
         "quant"
       ],
       "draft": false
-    },
-    {
-      "number": 20517,
-      "title": "[AMD] DO NOT MERGE - Add unified single-pass decode attention kernel for Triton backend ",
-      "author": "yctseng0211",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-13T09:13:47Z",
-      "updated_at": "2026-03-13T09:43:33Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/20517",
-      "labels": [],
-      "draft": true
     }
   ]
 }

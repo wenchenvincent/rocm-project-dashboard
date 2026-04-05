@@ -1,6 +1,38 @@
 {
-  "collected_at": "2026-04-04T08:28:22Z",
+  "collected_at": "2026-04-05T08:31:18Z",
   "issues": [
+    {
+      "number": 22072,
+      "title": "[Bug] EP/DP decode server hangs at startup on MI325X with Broadcom Thor 2 (bnxt_re) + MoRI a2a backend",
+      "author": "JordanNanos",
+      "state": "open",
+      "created_at": "2026-04-03T19:42:51Z",
+      "updated_at": "2026-04-05T02:05:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22072",
+      "labels": []
+    },
+    {
+      "number": 22105,
+      "title": "[HiCache] Input length validation rejects requests that fit in L1+L2 combined capacity",
+      "author": "isensez",
+      "state": "open",
+      "created_at": "2026-04-04T11:00:09Z",
+      "updated_at": "2026-04-05T00:32:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22105",
+      "labels": []
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-04-04T15:27:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
     {
       "number": 21919,
       "title": "[Bug] Mi355 qwen3.5 mxfp4 TP4 potentially low accuracy",
@@ -21,16 +53,6 @@
       "created_at": "2026-04-04T03:19:20Z",
       "updated_at": "2026-04-04T03:23:00Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22092",
-      "labels": []
-    },
-    {
-      "number": 22072,
-      "title": "[Bug] EP/DP decode server hangs at startup on MI325X with Broadcom Thor 2 (bnxt_re) + MoRI a2a backend",
-      "author": "JordanNanos",
-      "state": "open",
-      "created_at": "2026-04-03T19:42:51Z",
-      "updated_at": "2026-04-03T19:42:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22072",
       "labels": []
     },
     {
@@ -115,18 +137,6 @@
       "updated_at": "2026-04-02T01:57:44Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21886",
       "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-04-02T00:39:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
     },
     {
       "number": 21774,
@@ -404,16 +414,6 @@
         "sgl-kernel",
         "roadmap"
       ]
-    },
-    {
-      "number": 19917,
-      "title": "[AMD] Support JIT kernel for wheels",
-      "author": "akao-amd",
-      "state": "open",
-      "created_at": "2026-03-05T04:13:13Z",
-      "updated_at": "2026-03-05T04:13:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/19917",
-      "labels": []
     },
     {
       "number": 19028,

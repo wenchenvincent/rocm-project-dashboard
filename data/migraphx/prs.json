@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-04T08:28:28Z",
+  "collected_at": "2026-04-05T08:31:24Z",
   "prs": [
     {
       "number": 4723,
@@ -8,11 +8,52 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-31T21:33:09Z",
-      "updated_at": "2026-04-04T06:51:24Z",
+      "updated_at": "2026-04-05T08:20:17Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4723",
       "labels": [
         "Perf Improve"
       ],
+      "draft": false
+    },
+    {
+      "number": 3222,
+      "title": "Add weight streaming",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2024-06-26T20:35:08Z",
+      "updated_at": "2026-04-05T06:17:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3222",
+      "labels": [
+        "enhancement",
+        "Windows",
+        "Ubuntu",
+        "UAI"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4647,
+      "title": "Add kernel for fp32 channelwise convolution",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-02T21:36:20Z",
+      "updated_at": "2026-04-04T21:43:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4647",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4163,
+      "title": "Improve split reshape",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-07-23T19:04:56Z",
+      "updated_at": "2026-04-04T21:33:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4163",
+      "labels": [],
       "draft": false
     },
     {
@@ -22,22 +63,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-02T23:34:04Z",
-      "updated_at": "2026-04-04T04:06:41Z",
+      "updated_at": "2026-04-04T17:47:58Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4737",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4647,
-      "title": "Add kernel for fp32 channelwise convolution",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T21:36:20Z",
-      "updated_at": "2026-04-04T03:24:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4647",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4732,
@@ -82,18 +111,6 @@
         "Perf Improve"
       ],
       "draft": true
-    },
-    {
-      "number": 4163,
-      "title": "Improve split reshape",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-07-23T19:04:56Z",
-      "updated_at": "2026-04-04T01:49:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4163",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4738,
@@ -250,23 +267,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4730",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3222,
-      "title": "Add weight streaming",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2024-06-26T20:35:08Z",
-      "updated_at": "2026-04-02T19:34:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3222",
-      "labels": [
-        "enhancement",
-        "Windows",
-        "Ubuntu",
-        "UAI"
-      ],
-      "draft": false
     },
     {
       "number": 4735,
@@ -1215,6 +1215,18 @@
       "created_at": "2024-09-22T22:28:36Z",
       "updated_at": "2024-10-21T22:48:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3468",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4483,
+      "title": "AIMIGRAPHX-289 and AIMIGRAPHX-341 flash decoding auto splitting & padding",
+      "author": "bdevorem",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2025-12-05T06:50:47Z",
+      "updated_at": "2026-04-04T21:30:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4483",
       "labels": [],
       "draft": false
     },
@@ -2189,18 +2201,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 4623,
-      "title": "Add support for ORT image in Jenkins pipeline",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T16:36:21Z",
-      "updated_at": "2026-02-24T20:59:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4623",
-      "labels": [],
       "draft": false
     }
   ]
