@@ -1,6 +1,60 @@
 {
-  "collected_at": "2026-04-05T08:31:46Z",
+  "collected_at": "2026-04-06T09:00:10Z",
   "prs": [
+    {
+      "number": 509,
+      "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T23:29:43Z",
+      "updated_at": "2026-04-06T05:11:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 475,
+      "title": "Add FP8 Support For CK Tile Group GEMM",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T14:09:29Z",
+      "updated_at": "2026-04-06T05:07:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 505,
+      "title": "NVFP4 dequantization",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-25T16:22:33Z",
+      "updated_at": "2026-04-06T04:46:56Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 492,
+      "title": "Add fsdp2 fp8 unit tests TE 2.10",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-17T20:15:20Z",
+      "updated_at": "2026-04-06T04:04:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 507,
       "title": "Mxfp8 cast optimization",
@@ -44,20 +98,6 @@
       "draft": true
     },
     {
-      "number": 475,
-      "title": "Add FP8 Support For CK Tile Group GEMM",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T14:09:29Z",
-      "updated_at": "2026-04-03T16:47:34Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 468,
       "title": "Use static libraries for AITER build",
       "author": "Micky774",
@@ -72,20 +112,6 @@
       "draft": false
     },
     {
-      "number": 509,
-      "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-27T23:29:43Z",
-      "updated_at": "2026-04-03T05:40:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 508,
       "title": "[TE] Enable deterministic mode for fused attention",
       "author": "AllenFarcas",
@@ -94,20 +120,6 @@
       "created_at": "2026-03-27T18:37:04Z",
       "updated_at": "2026-04-03T05:11:55Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 505,
-      "title": "NVFP4 dequantization",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-25T16:22:33Z",
-      "updated_at": "2026-04-02T19:42:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
       "labels": [
         "ci-level 1"
       ],
@@ -139,6 +151,18 @@
       "labels": [
         "ci-level 1"
       ],
+      "draft": true
+    },
+    {
+      "number": 435,
+      "title": "Update README.rst",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-28T17:28:10Z",
+      "updated_at": "2026-04-02T02:16:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/435",
+      "labels": [],
       "draft": true
     },
     {
@@ -236,30 +260,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 492,
-      "title": "Add fsdp2 fp8 unit tests TE 2.10",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-17T20:15:20Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 435,
-      "title": "Update README.rst",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-28T17:28:10Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/435",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 377,

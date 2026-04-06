@@ -1,30 +1,105 @@
 {
-  "collected_at": "2026-04-05T08:31:32Z",
+  "collected_at": "2026-04-06T08:59:58Z",
   "prs": [
     {
-      "number": 2545,
-      "title": "refactor hip kernel -- remove torch from csrc",
+      "number": 2625,
+      "title": "[Tunne] Retune kimi k2 moe configs",
+      "author": "lalala-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-06T08:55:35Z",
+      "updated_at": "2026-04-06T08:55:56Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2625",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2624,
+      "title": "Refactor hip kl",
       "author": "amd-ruitang3",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-31T02:29:36Z",
-      "updated_at": "2026-04-05T07:53:47Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/2545",
+      "created_at": "2026-04-06T05:55:30Z",
+      "updated_at": "2026-04-06T07:22:25Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2624",
       "labels": [
-        "ci:atom"
+        "ci:atom",
+        "ci:multi-gpu"
       ],
       "draft": false
     },
     {
-      "number": 2618,
-      "title": "[FlySDL] update flydsl version",
-      "author": "lalala-sh",
+      "number": 2434,
+      "title": "Fix GEMM test failures and retune with latest triton",
+      "author": "azaidy",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-05T07:06:08Z",
-      "updated_at": "2026-04-05T07:50:51Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/2618",
+      "created_at": "2026-03-23T18:02:01Z",
+      "updated_at": "2026-04-06T06:51:22Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2434",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2623,
+      "title": "CI: auto-update split test FILE_TIMES",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-06T04:05:44Z",
+      "updated_at": "2026-04-06T04:05:49Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2623",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2622,
+      "title": "[FlyDSL] Tune MXFP4 MOE stage1 tile configs for DeepSeek-R1",
+      "author": "sunway513",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T23:57:27Z",
+      "updated_at": "2026-04-06T00:06:32Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2622",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2621,
+      "title": "[TRITON] Add FP8 support for gfx1200/gfx1201",
+      "author": "0xDELUXA",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T21:56:19Z",
+      "updated_at": "2026-04-05T23:38:13Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2621",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2617,
+      "title": "Add FlyDSL fused RoPE + KV Cache backend",
+      "author": "sunway513",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-04T23:01:39Z",
+      "updated_at": "2026-04-05T21:10:19Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2617",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2620,
+      "title": "Add fused_dynamic_mxfp4_quant_moe_sort_hip",
+      "author": "junhaha666",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T14:24:41Z",
+      "updated_at": "2026-04-05T16:03:29Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2620",
+      "labels": [
+        "ci:atom"
+      ],
       "draft": false
     },
     {
@@ -36,18 +111,6 @@
       "created_at": "2026-04-01T20:10:44Z",
       "updated_at": "2026-04-05T07:43:50Z",
       "html_url": "https://github.com/ROCm/aiter/pull/2585",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2617,
-      "title": "Add FlyDSL fused RoPE + KV Cache backend",
-      "author": "sunway513",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-04T23:01:39Z",
-      "updated_at": "2026-04-05T05:51:16Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/2617",
       "labels": [],
       "draft": false
     },
@@ -134,18 +197,6 @@
       "created_at": "2026-04-03T22:16:45Z",
       "updated_at": "2026-04-03T22:21:05Z",
       "html_url": "https://github.com/ROCm/aiter/pull/2615",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2434,
-      "title": "Fix GEMM test failures and retune with latest triton",
-      "author": "azaidy",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-23T18:02:01Z",
-      "updated_at": "2026-04-03T22:17:05Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/2434",
       "labels": [],
       "draft": true
     },
@@ -2502,6 +2553,44 @@
       "draft": false
     },
     {
+      "number": 2545,
+      "title": "refactor hip kernel -- remove torch from csrc",
+      "author": "amd-ruitang3",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-31T02:29:36Z",
+      "updated_at": "2026-04-06T05:00:09Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2545",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2619,
+      "title": "[Perf] Add Kimi-K2.5 tuned configs for MI355X",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-05T13:26:34Z",
+      "updated_at": "2026-04-05T14:32:37Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2619",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2618,
+      "title": "[FlySDL] update flydsl version",
+      "author": "lalala-sh",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-05T07:06:08Z",
+      "updated_at": "2026-04-05T10:12:37Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2618",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 2607,
       "title": "fix(car): write mode dispatch",
       "author": "TennyWang1223",
@@ -3493,18 +3582,6 @@
       "created_at": "2026-03-23T17:01:53Z",
       "updated_at": "2026-03-26T17:14:02Z",
       "html_url": "https://github.com/ROCm/aiter/pull/2433",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2485,
-      "title": "add tuned qwen3.5 gemm config ",
-      "author": "ganyi1996ppo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-26T09:46:13Z",
-      "updated_at": "2026-03-26T11:42:40Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/2485",
       "labels": [],
       "draft": false
     }

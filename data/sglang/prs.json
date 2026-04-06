@@ -1,17 +1,185 @@
 {
-  "collected_at": "2026-04-05T08:31:15Z",
+  "collected_at": "2026-04-06T08:59:44Z",
   "prs": [
+    {
+      "number": 15236,
+      "title": "[CI] Add consistency test in CI",
+      "author": "Prozac614",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-12-16T06:51:16Z",
+      "updated_at": "2026-04-06T08:41:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/15236",
+      "labels": [
+        "amd",
+        "dependencies",
+        "lora",
+        "npu",
+        "run-ci",
+        "diffusion"
+      ],
+      "draft": false
+    },
+    {
+      "number": 17920,
+      "title": "Enable Sglang diffusion on Intel XPU",
+      "author": "sushildubey171",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-29T07:03:36Z",
+      "updated_at": "2026-04-06T08:18:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/17920",
+      "labels": [
+        "dependencies",
+        "diffusion",
+        "jit-kernel"
+      ],
+      "draft": false
+    },
+    {
+      "number": 19260,
+      "title": "[AMD] Add suffix decoding support for ROCm",
+      "author": "amd-pedghazi",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-24T18:10:56Z",
+      "updated_at": "2026-04-06T07:53:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/19260",
+      "labels": [
+        "documentation",
+        "amd",
+        "dependencies",
+        "speculative-decoding",
+        "sgl-kernel",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 21889,
+      "title": "[AMD] Enable FP4 (E2M1) KV cache quantization for NSA with TileLang backend",
+      "author": "RolaoDenthu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T00:44:09Z",
+      "updated_at": "2026-04-06T07:45:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/21889",
+      "labels": [
+        "quant",
+        "amd",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 19957,
+      "title": "[diffusion] Cleanup `TeaCache`",
+      "author": "eitanturok",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-05T14:11:00Z",
+      "updated_at": "2026-04-06T05:08:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/19957",
+      "labels": [
+        "documentation",
+        "run-ci",
+        "diffusion"
+      ],
+      "draft": false
+    },
+    {
+      "number": 21952,
+      "title": "[New Model] Gemma 4",
+      "author": "JustinTong0323",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T15:05:17Z",
+      "updated_at": "2026-04-06T04:41:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/21952",
+      "labels": [
+        "quant",
+        "Multi-modal",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 22177,
+      "title": "ci: guard upstream-only workflows from running on fork (KHA-246)",
+      "author": "Clarit-AI",
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-04-06T04:25:25Z",
+      "updated_at": "2026-04-06T04:28:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/22177",
+      "labels": [
+        "documentation",
+        "amd",
+        "Multi-modal",
+        "npu",
+        "jit-kernel"
+      ],
+      "draft": false
+    },
     {
       "number": 22143,
       "title": "Cache gfx95 quant format detection in DeepseekV2DecoderLayer",
       "author": "merrymercy",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-04-05T07:28:05Z",
-      "updated_at": "2026-04-05T07:59:04Z",
+      "updated_at": "2026-04-06T03:20:56Z",
       "html_url": "https://github.com/sgl-project/sglang/pull/22143",
       "labels": [
-        "deepseek"
+        "deepseek",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 22157,
+      "title": "[CI] No diffusers backend in lora case",
+      "author": "Prozac614",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-05T16:15:23Z",
+      "updated_at": "2026-04-06T02:14:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/22157",
+      "labels": [
+        "run-ci",
+        "diffusion"
+      ],
+      "draft": false
+    },
+    {
+      "number": 21697,
+      "title": "[ROCm] Add RDNA3 consumer GPU support (gfx1100, gfx1103)",
+      "author": "dondetir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-30T14:58:01Z",
+      "updated_at": "2026-04-05T18:47:51Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/21697",
+      "labels": [
+        "amd",
+        "sgl-kernel"
+      ],
+      "draft": false
+    },
+    {
+      "number": 15528,
+      "title": "[CI] dynamic load-balanced partitioning for diffusion CI",
+      "author": "Prozac614",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-12-20T12:20:57Z",
+      "updated_at": "2026-04-05T10:38:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/15528",
+      "labels": [
+        "dependencies",
+        "Multi-modal",
+        "run-ci",
+        "diffusion"
       ],
       "draft": false
     },
@@ -22,7 +190,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-01-29T14:25:20Z",
-      "updated_at": "2026-04-05T06:40:26Z",
+      "updated_at": "2026-04-05T09:27:31Z",
       "html_url": "https://github.com/sgl-project/sglang/pull/17946",
       "labels": [
         "quant",
@@ -47,22 +215,6 @@
         "amd",
         "run-ci",
         "amd-aiter-not-ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 21889,
-      "title": "[AMD] Enable FP4 (E2M1) KV cache quantization for NSA with TileLang backend",
-      "author": "RolaoDenthu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T00:44:09Z",
-      "updated_at": "2026-04-05T05:45:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/21889",
-      "labels": [
-        "quant",
-        "amd",
-        "run-ci"
       ],
       "draft": false
     },
@@ -908,18 +1060,6 @@
       "draft": false
     },
     {
-      "number": 21273,
-      "title": "Fix RPD profiler data loss when used with loadTracer.sh",
-      "author": "zovonoir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-24T05:11:31Z",
-      "updated_at": "2026-03-31T11:57:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/21273",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 20140,
       "title": "[sgl-kernel] Add NewGELU kernel",
       "author": "xingsy97",
@@ -1053,21 +1193,6 @@
       "draft": false
     },
     {
-      "number": 21697,
-      "title": "[ROCm] Add RDNA3 consumer GPU support (gfx1100, gfx1103)",
-      "author": "dondetir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-30T14:58:01Z",
-      "updated_at": "2026-03-30T14:59:45Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/21697",
-      "labels": [
-        "amd",
-        "sgl-kernel"
-      ],
-      "draft": false
-    },
-    {
       "number": 20974,
       "title": "[NPU][Diffusion] fix sp modulate for qwen-image-edit",
       "author": "gxxx-hum",
@@ -1129,22 +1254,6 @@
       "draft": false
     },
     {
-      "number": 17920,
-      "title": "Enable Sglang diffusion on Intel XPU",
-      "author": "sushildubey171",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-29T07:03:36Z",
-      "updated_at": "2026-03-30T07:36:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/17920",
-      "labels": [
-        "dependencies",
-        "diffusion",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
       "number": 18461,
       "title": "[Intel GPU] Enable DeepSeek R1 inference on XPU",
       "author": "polisettyvarma",
@@ -1174,25 +1283,6 @@
       "labels": [
         "high priority",
         "amd",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 19260,
-      "title": "[AMD] Add suffix decoding support for ROCm",
-      "author": "amd-pedghazi",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-24T18:10:56Z",
-      "updated_at": "2026-03-30T06:46:08Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/19260",
-      "labels": [
-        "documentation",
-        "amd",
-        "dependencies",
-        "speculative-decoding",
-        "sgl-kernel",
         "run-ci"
       ],
       "draft": false

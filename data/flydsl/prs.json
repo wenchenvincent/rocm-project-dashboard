@@ -1,15 +1,29 @@
 {
-  "collected_at": "2026-04-05T08:31:43Z",
+  "collected_at": "2026-04-06T09:00:08Z",
   "prs": [
     {
-      "number": 349,
-      "title": "fix ci: harden test_pa.py imports and guard sliding-window tests",
-      "author": "Copilot",
+      "number": 340,
+      "title": "[gfx1250] optimize FP4 GEMM for large tile 256x256",
+      "author": "aoli26",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-05T04:32:42Z",
-      "updated_at": "2026-04-05T05:04:46Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/349",
+      "created_at": "2026-04-02T14:59:06Z",
+      "updated_at": "2026-04-06T00:30:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/340",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": true
+    },
+    {
+      "number": 338,
+      "title": "Flydsl pa",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T09:46:52Z",
+      "updated_at": "2026-04-05T14:05:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/338",
       "labels": [],
       "draft": false
     },
@@ -22,44 +36,6 @@
       "created_at": "2026-03-23T16:40:35Z",
       "updated_at": "2026-04-04T03:36:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/271",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 338,
-      "title": "Flydsl pa",
-      "author": "fsx950223",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T09:46:52Z",
-      "updated_at": "2026-04-03T15:02:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/338",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 340,
-      "title": "[gfx1250] optimize FP4 GEMM for large tile 256x256",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T14:59:06Z",
-      "updated_at": "2026-04-03T13:59:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/340",
-      "labels": [
-        "enhancement"
-      ],
-      "draft": true
-    },
-    {
-      "number": 344,
-      "title": "[Refactor][DSL] Make MMA hierarchy symmetric with Copy ",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-03T09:53:29Z",
-      "updated_at": "2026-04-03T11:55:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/344",
       "labels": [],
       "draft": false
     },
@@ -180,6 +156,30 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 349,
+      "title": "fix ci: harden test_pa.py imports and guard sliding-window tests",
+      "author": "Copilot",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-05T04:32:42Z",
+      "updated_at": "2026-04-05T14:05:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/349",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 344,
+      "title": "[Refactor][DSL] Make MMA hierarchy symmetric with Copy ",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-03T09:53:29Z",
+      "updated_at": "2026-04-05T14:01:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/344",
       "labels": [],
       "draft": false
     },

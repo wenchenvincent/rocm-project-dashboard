@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-04-05T08:32:18Z",
+  "collected_at": "2026-04-06T09:00:33Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 36,
-      "merged": 37,
-      "closed": 0
+      "opened": 35,
+      "merged": 35,
+      "closed": 1
     },
     "last_week": {
-      "opened": 34,
-      "merged": 15,
+      "opened": 35,
+      "merged": 18,
       "closed": 0
     },
-    "median_time_to_merge_hours": 137.8,
-    "merge_count": 67,
+    "median_time_to_merge_hours": 108.8,
+    "merge_count": 69,
     "stale_prs": 0
   },
   "contributors": {
     "active_this_week": 54,
-    "total_contributors": 73,
+    "total_contributors": 76,
     "top_contributors": [
       {
         "author": "michaelzhang-ai",
@@ -42,7 +42,7 @@
       {
         "author": "merrymercy",
         "prs_submitted": 4,
-        "prs_merged": 3,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -64,6 +64,12 @@
         "commits": 0
       },
       {
+        "author": "Prozac614",
+        "prs_submitted": 3,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
         "author": "ZiguanWang",
         "prs_submitted": 3,
         "prs_merged": 3,
@@ -74,21 +80,15 @@
         "prs_submitted": 3,
         "prs_merged": 3,
         "commits": 0
-      },
-      {
-        "author": "kkHuang-amd",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
       }
     ],
     "bus_factor": 11
   },
   "issue_health": {
-    "total_open": 44,
+    "total_open": 43,
     "opened_this_week": 10,
-    "closed_this_week": 90,
-    "unanswered": 6
+    "closed_this_week": 81,
+    "unanswered": 5
   },
   "ci_health": {
     "rocm": {
@@ -100,30 +100,30 @@
     "cuda": {
       "total_runs": 20,
       "succeeded": 0,
-      "failed": 18,
+      "failed": 17,
       "success_rate": 0.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 210.7,
-      "p90_minutes": 652.4,
+      "median_minutes": 204.6,
+      "p90_minutes": 593.1,
       "min_minutes": 1.9,
-      "max_minutes": 1143.1
+      "max_minutes": 652.4
     },
     "cuda": {
       "sample_size": 20,
       "median_minutes": 0.4,
-      "p90_minutes": 8.9,
-      "min_minutes": 0.4,
-      "max_minutes": 21.8
+      "p90_minutes": 51.2,
+      "min_minutes": 0.3,
+      "max_minutes": 106.4
     }
   },
   "release_cadence": {
-    "days_since_last": 8.1,
-    "avg_interval_days": 21.5,
+    "days_since_last": 0.2,
+    "avg_interval_days": 21.7,
     "total_releases": 5,
-    "latest_tag": "v0.5.10rc0"
+    "latest_tag": "v0.5.10"
   }
 }

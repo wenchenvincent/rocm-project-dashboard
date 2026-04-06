@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-04-05T08:31:38Z",
+  "collected_at": "2026-04-06T09:00:03Z",
   "prs": [
+    {
+      "number": 487,
+      "title": "GPT-OSS-120B MI355X: Performance experiment infra + Pareto optimization results",
+      "author": "ChuanLi1101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T12:52:16Z",
+      "updated_at": "2026-04-05T21:48:46Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/487",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 489,
+      "title": "[server] Improve OpenAI API compatibility for OpenClaw integration",
+      "author": "carlushuang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T14:41:25Z",
+      "updated_at": "2026-04-05T14:41:25Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/489",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 473,
       "title": "EP infrastructure and decode buffer pooling for GPT-OSS-120B",
@@ -24,18 +48,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/486",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 484,
-      "title": "fix(eagle): skip attn_metadata update for non-16-head models",
-      "author": "valarLip",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-04T15:27:59Z",
-      "updated_at": "2026-04-05T02:39:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/484",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 483,
@@ -254,26 +266,14 @@
       "draft": true
     },
     {
-      "number": 32,
-      "title": "Add unit tests for SamplingParams and CompilationConfig",
+      "number": 50,
+      "title": "feat: add skip_tokenizer option for pre-tokenized input",
       "author": "ChuanLi1101",
       "state": "open",
       "merged": false,
-      "created_at": "2025-12-09T04:53:20Z",
+      "created_at": "2025-12-14T04:00:15Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/32",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 146,
-      "title": "kv and output scale loading bug -- FIX",
-      "author": "amirumoAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-16T21:31:04Z",
-      "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/146",
+      "html_url": "https://github.com/ROCm/ATOM/pull/50",
       "labels": [],
       "draft": false
     },
@@ -290,26 +290,38 @@
       "draft": false
     },
     {
-      "number": 151,
-      "title": "qwen3-235b fp4 support",
-      "author": "gbyu-amd",
+      "number": 296,
+      "title": "[draft][plugin] sgl radix attn backend",
+      "author": "ZhiweiYan-96",
       "state": "open",
       "merged": false,
-      "created_at": "2026-01-19T07:32:21Z",
+      "created_at": "2026-03-10T08:17:43Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/151",
+      "html_url": "https://github.com/ROCm/ATOM/pull/296",
       "labels": [],
-      "draft": true
+      "draft": false
     },
     {
-      "number": 50,
-      "title": "feat: add skip_tokenizer option for pre-tokenized input",
+      "number": 32,
+      "title": "Add unit tests for SamplingParams and CompilationConfig",
       "author": "ChuanLi1101",
       "state": "open",
       "merged": false,
-      "created_at": "2025-12-14T04:00:15Z",
+      "created_at": "2025-12-09T04:53:20Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/50",
+      "html_url": "https://github.com/ROCm/ATOM/pull/32",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 154,
+      "title": "[recipe] update qwen3 recipe",
+      "author": "gbyu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-20T06:36:51Z",
+      "updated_at": "2026-03-16T05:44:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/154",
       "labels": [],
       "draft": false
     },
@@ -374,26 +386,14 @@
       "draft": true
     },
     {
-      "number": 296,
-      "title": "[draft][plugin] sgl radix attn backend",
-      "author": "ZhiweiYan-96",
+      "number": 146,
+      "title": "kv and output scale loading bug -- FIX",
+      "author": "amirumoAMD",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-10T08:17:43Z",
+      "created_at": "2026-01-16T21:31:04Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/296",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 154,
-      "title": "[recipe] update qwen3 recipe",
-      "author": "gbyu-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-20T06:36:51Z",
-      "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/154",
+      "html_url": "https://github.com/ROCm/ATOM/pull/146",
       "labels": [],
       "draft": false
     },
@@ -408,6 +408,18 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/250",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 151,
+      "title": "qwen3-235b fp4 support",
+      "author": "gbyu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-19T07:32:21Z",
+      "updated_at": "2026-03-16T05:44:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/151",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 113,
@@ -446,18 +458,6 @@
       "draft": false
     },
     {
-      "number": 168,
-      "title": "[POC][Deepseek] Engram support, model_runner hash compute overlap",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-28T03:09:49Z",
-      "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/168",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 240,
       "title": "CI: Make ATOM benchmark can be called from other repos",
       "author": "gyohuangxin",
@@ -466,6 +466,18 @@
       "created_at": "2026-02-26T07:03:03Z",
       "updated_at": "2026-03-16T05:44:15Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/240",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 168,
+      "title": "[POC][Deepseek] Engram support, model_runner hash compute overlap",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-28T03:09:49Z",
+      "updated_at": "2026-03-16T05:44:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/168",
       "labels": [],
       "draft": true
     },
@@ -482,18 +494,6 @@
       "draft": false
     },
     {
-      "number": 156,
-      "title": "Adding prefill decode markers to trace and enable shapes",
-      "author": "msiddaiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-20T17:13:35Z",
-      "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/156",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 249,
       "title": "Fix typos, dead code, uninitialized variable, and improve error handling",
       "author": "brucechanglongxu",
@@ -502,6 +502,18 @@
       "created_at": "2026-03-01T07:26:41Z",
       "updated_at": "2026-03-16T05:44:15Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/249",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 156,
+      "title": "Adding prefill decode markers to trace and enable shapes",
+      "author": "msiddaiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-20T17:13:35Z",
+      "updated_at": "2026-03-16T05:44:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/156",
       "labels": [],
       "draft": false
     },
@@ -526,6 +538,18 @@
       "created_at": "2025-12-09T09:03:30Z",
       "updated_at": "2026-03-16T05:44:15Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/36",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 484,
+      "title": "fix(eagle): skip attn_metadata update for non-16-head models",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-04T15:27:59Z",
+      "updated_at": "2026-04-05T14:15:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/484",
       "labels": [],
       "draft": false
     },
@@ -1546,18 +1570,6 @@
       "created_at": "2026-03-19T14:55:31Z",
       "updated_at": "2026-03-19T14:59:12Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/364",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 362,
-      "title": "remove limit for python<3.13",
-      "author": "valarLip",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T13:32:16Z",
-      "updated_at": "2026-03-19T14:33:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/362",
       "labels": [],
       "draft": false
     }
