@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-06T08:59:46Z",
+  "collected_at": "2026-04-07T08:50:54Z",
   "issues": [
     {
       "number": 21302,
@@ -7,9 +7,33 @@
       "author": "HaiShaw",
       "state": "open",
       "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-04-06T05:32:17Z",
+      "updated_at": "2026-04-07T08:14:47Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
+    },
+    {
+      "number": 21919,
+      "title": "[Bug] Mi355 qwen3.5 mxfp4 TP4 potentially low accuracy",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-02T06:59:13Z",
+      "updated_at": "2026-04-06T17:02:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21919",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-04-06T14:20:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
     },
     {
       "number": 22105,
@@ -20,18 +44,6 @@
       "updated_at": "2026-04-05T22:33:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22105",
       "labels": []
-    },
-    {
-      "number": 21919,
-      "title": "[Bug] Mi355 qwen3.5 mxfp4 TP4 potentially low accuracy",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-02T06:59:13Z",
-      "updated_at": "2026-04-05T21:57:27Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21919",
-      "labels": [
-        "amd"
-      ]
     },
     {
       "number": 15025,
@@ -58,18 +70,6 @@
       "updated_at": "2026-04-05T02:05:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22072",
       "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-04-04T15:27:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
     },
     {
       "number": 22092,
@@ -455,16 +455,6 @@
       "created_at": "2026-01-23T04:49:28Z",
       "updated_at": "2026-02-12T03:15:32Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17623",
-      "labels": []
-    },
-    {
-      "number": 16102,
-      "title": "[Bug] MiniMax-M2.1 CUDA Graph + torch.compile crashes due to outplace_all_reduce being traced by Dynamo (ROCm / MI300X)",
-      "author": "ehartford",
-      "state": "open",
-      "created_at": "2025-12-29T19:51:18Z",
-      "updated_at": "2026-02-05T12:42:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16102",
       "labels": []
     }
   ]

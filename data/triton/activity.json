@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-04-06T09:00:36Z",
+  "collected_at": "2026-04-07T08:52:10Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 11,
-      "merged": 7,
+      "opened": 10,
+      "merged": 8,
       "closed": 0
     },
     "last_week": {
-      "opened": 19,
-      "merged": 20,
+      "opened": 17,
+      "merged": 18,
       "closed": 0
     },
-    "median_time_to_merge_hours": 36.1,
+    "median_time_to_merge_hours": 38.2,
     "merge_count": 30,
-    "stale_prs": 14
+    "stale_prs": 15
   },
   "contributors": {
-    "active_this_week": 14,
-    "total_contributors": 36,
+    "active_this_week": 15,
+    "total_contributors": 38,
     "top_contributors": [
       {
         "author": "AlexAUT",
@@ -31,12 +31,6 @@
         "author": "ravil-mobile",
         "prs_submitted": 5,
         "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "yiqian1",
-        "prs_submitted": 3,
-        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -52,9 +46,9 @@
         "commits": 0
       },
       {
-        "author": "PMylon",
-        "prs_submitted": 3,
-        "prs_merged": 3,
+        "author": "nithinsubbiah",
+        "prs_submitted": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -64,9 +58,15 @@
         "commits": 0
       },
       {
-        "author": "nithinsubbiah",
+        "author": "antiagainst",
         "prs_submitted": 2,
-        "prs_merged": 0,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "yiqian1",
+        "prs_submitted": 2,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -76,13 +76,13 @@
         "commits": 0
       },
       {
-        "author": "antiagainst",
+        "author": "borontion",
         "prs_submitted": 2,
-        "prs_merged": 0,
+        "prs_merged": 2,
         "commits": 0
       }
     ],
-    "bus_factor": 6
+    "bus_factor": 7
   },
   "issue_health": {
     "total_open": 14,
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 74.4,
+    "days_since_last": 75.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

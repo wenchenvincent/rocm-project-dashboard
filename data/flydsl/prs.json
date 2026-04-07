@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-06T09:00:08Z",
+  "collected_at": "2026-04-07T08:51:23Z",
   "prs": [
     {
       "number": 340,
@@ -8,12 +8,60 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-02T14:59:06Z",
-      "updated_at": "2026-04-06T00:30:32Z",
+      "updated_at": "2026-04-07T07:06:33Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/340",
       "labels": [
         "enhancement"
       ],
+      "draft": false
+    },
+    {
+      "number": 326,
+      "title": "support allreduce ",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T07:00:45Z",
+      "updated_at": "2026-04-07T06:45:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/326",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 354,
+      "title": "Add hgemm + allreduce epilogue fusion kernels",
+      "author": "xytpai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T02:46:48Z",
+      "updated_at": "2026-04-07T06:37:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/354",
+      "labels": [],
       "draft": true
+    },
+    {
+      "number": 346,
+      "title": "Yxd/if dispatch dynamic tests refactor",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T10:54:06Z",
+      "updated_at": "2026-04-07T04:23:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/346",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 345,
+      "title": "Fujun.han/multi vendor support",
+      "author": "Peter9606",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T10:36:51Z",
+      "updated_at": "2026-04-07T00:25:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/345",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 338,
@@ -40,30 +88,6 @@
       "draft": false
     },
     {
-      "number": 346,
-      "title": "Yxd/if dispatch dynamic tests refactor",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-03T10:54:06Z",
-      "updated_at": "2026-04-03T10:54:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/346",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 345,
-      "title": "Fujun.han/multi vendor support",
-      "author": "Peter9606",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-03T10:36:51Z",
-      "updated_at": "2026-04-03T10:36:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/345",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 310,
       "title": "[FLYDSL]: if_dispatch dynamic process",
       "author": "xudoyuan",
@@ -72,18 +96,6 @@
       "created_at": "2026-03-30T07:31:13Z",
       "updated_at": "2026-04-03T10:21:31Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/310",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 332,
-      "title": "feat(benchmark): add MoE FP4 small-batch shapes and enable MoE by def\u2026",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T14:32:58Z",
-      "updated_at": "2026-04-03T08:46:29Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/332",
       "labels": [],
       "draft": true
     },
@@ -108,18 +120,6 @@
       "created_at": "2026-04-02T04:11:50Z",
       "updated_at": "2026-04-02T13:46:55Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/336",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 326,
-      "title": "support allreduce ",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T07:00:45Z",
-      "updated_at": "2026-04-02T09:46:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/326",
       "labels": [],
       "draft": false
     },
@@ -160,6 +160,66 @@
       "draft": false
     },
     {
+      "number": 352,
+      "title": "tests document update nfc.",
+      "author": "Peter9606",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T01:18:00Z",
+      "updated_at": "2026-04-07T06:52:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/352",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 332,
+      "title": "feat(benchmark): add MoE FP4 small-batch shapes and enable MoE by def\u2026",
+      "author": "zhiding512",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-01T14:32:58Z",
+      "updated_at": "2026-04-07T04:04:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/332",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 351,
+      "title": "[doc]fix doc example err",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T01:02:58Z",
+      "updated_at": "2026-04-07T04:01:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/351",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 347,
+      "title": "Fix CI: conditional aiter import in test_pa.py to unblock navi runner collection",
+      "author": "Copilot",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-03T14:42:04Z",
+      "updated_at": "2026-04-07T01:11:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/347",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 350,
+      "title": "[FEAT] Export TileType to python level, remove MakeTileOp",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-06T14:50:45Z",
+      "updated_at": "2026-04-07T00:20:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/350",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 349,
       "title": "fix ci: harden test_pa.py imports and guard sliding-window tests",
       "author": "Copilot",
@@ -180,18 +240,6 @@
       "created_at": "2026-04-03T09:53:29Z",
       "updated_at": "2026-04-05T14:01:58Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/344",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 347,
-      "title": "Fix CI: conditional aiter import in test_pa.py to unblock navi runner collection",
-      "author": "Copilot",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-03T14:42:04Z",
-      "updated_at": "2026-04-03T15:02:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/347",
       "labels": [],
       "draft": false
     },
@@ -986,18 +1034,6 @@
       "created_at": "2026-03-18T08:55:57Z",
       "updated_at": "2026-03-18T09:43:50Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/235",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 234,
-      "title": "improve mxfp4 preshuffled gemm",
-      "author": "yadaish",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-18T03:09:22Z",
-      "updated_at": "2026-03-18T09:43:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/234",
       "labels": [],
       "draft": false
     }

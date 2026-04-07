@@ -1,6 +1,60 @@
 {
-  "collected_at": "2026-04-06T09:00:10Z",
+  "collected_at": "2026-04-07T08:51:26Z",
   "prs": [
+    {
+      "number": 519,
+      "title": "Ct opt",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-04T02:20:47Z",
+      "updated_at": "2026-04-07T04:01:33Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 527,
+      "title": "Gfx1250 changes",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T03:45:24Z",
+      "updated_at": "2026-04-07T03:45:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
+      "labels": [
+        "ci-level 2"
+      ],
+      "draft": true
+    },
+    {
+      "number": 492,
+      "title": "Add fsdp2 fp8 unit tests TE 2.10",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-17T20:15:20Z",
+      "updated_at": "2026-04-07T03:43:46Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 448,
+      "title": "Added initial AI Agent instructions and skills",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-12T17:27:07Z",
+      "updated_at": "2026-04-06T20:19:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 509,
       "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
@@ -8,7 +62,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-27T23:29:43Z",
-      "updated_at": "2026-04-06T05:11:14Z",
+      "updated_at": "2026-04-06T20:15:26Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
       "labels": [
         "ci-level 1"
@@ -16,14 +70,28 @@
       "draft": false
     },
     {
-      "number": 475,
-      "title": "Add FP8 Support For CK Tile Group GEMM",
-      "author": "aris134",
+      "number": 518,
+      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
+      "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-06T14:09:29Z",
-      "updated_at": "2026-04-06T05:07:07Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
+      "created_at": "2026-04-02T16:44:44Z",
+      "updated_at": "2026-04-06T19:44:06Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 522,
+      "title": "CI: enable CI runs on every PR",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-06T16:23:48Z",
+      "updated_at": "2026-04-06T18:37:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/522",
       "labels": [
         "ci-level 1"
       ],
@@ -42,60 +110,6 @@
         "ci-level 1"
       ],
       "draft": false
-    },
-    {
-      "number": 492,
-      "title": "Add fsdp2 fp8 unit tests TE 2.10",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-17T20:15:20Z",
-      "updated_at": "2026-04-06T04:04:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 507,
-      "title": "Mxfp8 cast optimization",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T21:32:39Z",
-      "updated_at": "2026-04-04T18:57:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/507",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 519,
-      "title": "Ct opt",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-04T02:20:47Z",
-      "updated_at": "2026-04-04T17:45:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 518,
-      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T16:44:44Z",
-      "updated_at": "2026-04-03T23:33:31Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
     },
     {
       "number": 468,
@@ -286,18 +300,6 @@
       "draft": false
     },
     {
-      "number": 514,
-      "title": "Corrected CI name for pushing to dev",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T15:28:04Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/514",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 487,
       "title": "ASV-format microbenchmark suite",
       "author": "Micky774",
@@ -306,18 +308,6 @@
       "created_at": "2026-03-16T23:20:12Z",
       "updated_at": "2026-04-02T02:16:23Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 448,
-      "title": "Added initial AI Agent instructions and skills",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-12T17:27:07Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
       "labels": [],
       "draft": false
     },
@@ -370,14 +360,66 @@
       "draft": false
     },
     {
+      "number": 475,
+      "title": "Add FP8 Support For CK Tile Group GEMM",
+      "author": "aris134",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-06T14:09:29Z",
+      "updated_at": "2026-04-07T03:38:46Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/475",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 514,
+      "title": "Corrected CI name for pushing to dev",
+      "author": "Micky774",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-01T15:28:04Z",
+      "updated_at": "2026-04-06T20:06:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/514",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 521,
+      "title": "Fix TE building on NV platform",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-06T14:28:18Z",
+      "updated_at": "2026-04-06T17:51:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/521",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 516,
       "title": "Remove unnecessary zeroing in Triton MXFP8 dequantize kernel",
       "author": "Micky774",
       "state": "closed",
       "merged": true,
       "created_at": "2026-04-01T20:28:05Z",
-      "updated_at": "2026-04-04T02:54:55Z",
+      "updated_at": "2026-04-06T16:34:08Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/516",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 507,
+      "title": "Mxfp8 cast optimization",
+      "author": "alextmagro",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-26T21:32:39Z",
+      "updated_at": "2026-04-06T15:21:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/507",
       "labels": [
         "ci-level 3"
       ],
@@ -1232,78 +1274,6 @@
       "created_at": "2026-01-17T02:36:04Z",
       "updated_at": "2026-01-17T04:20:51Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/420",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 407,
-      "title": "Install TE interface headers with core package",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-09T17:44:24Z",
-      "updated_at": "2026-01-17T04:20:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/407",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 418,
-      "title": "CK ROCm 7.2 build hotfix",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-16T18:32:46Z",
-      "updated_at": "2026-01-16T21:07:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/418",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 351,
-      "title": "JAX FA Benchmarking Script",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-10-24T18:07:40Z",
-      "updated_at": "2026-01-15T18:33:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/351",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 411,
-      "title": "Enable gfx950 CI on release_v2.4_rocm branch",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-13T07:30:57Z",
-      "updated_at": "2026-01-15T05:35:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/411",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 354,
-      "title": "AITER Native Padding Support and BSHD + Padding --> THD + Padding conversion",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-10-28T18:16:56Z",
-      "updated_at": "2026-01-14T17:46:43Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/354",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 404,
-      "title": "TE 2.4 ROCm 7.2 Gfx950 numeric tests",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-12-18T15:39:06Z",
-      "updated_at": "2026-01-14T03:38:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/404",
       "labels": [],
       "draft": false
     }

@@ -1,13 +1,35 @@
 {
-  "collected_at": "2026-04-06T09:00:09Z",
+  "collected_at": "2026-04-07T08:51:24Z",
   "issues": [
+    {
+      "number": 353,
+      "title": "[Issue]: unary ops(NOT, ~ and negation,-) on vector result in core dump during compilation",
+      "author": "rahulbatra85",
+      "state": "open",
+      "created_at": "2026-04-07T01:58:52Z",
+      "updated_at": "2026-04-07T02:05:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/353",
+      "labels": []
+    },
+    {
+      "number": 210,
+      "title": "[Issue]: _ASTREWRITE_MARKER prevents later AST rewriter passes from visiting generated function bodies",
+      "author": "ruanjm",
+      "state": "open",
+      "created_at": "2026-03-13T10:19:19Z",
+      "updated_at": "2026-04-07T00:43:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/210",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 348,
       "title": "FP8 MOE kernel: compiler cannot efficiently utilize 256 VGPRs for deep pipeline \u2014 18% gap to hand-written ASM",
       "author": "sunway513",
       "state": "open",
       "created_at": "2026-04-04T22:13:55Z",
-      "updated_at": "2026-04-05T16:02:33Z",
+      "updated_at": "2026-04-06T13:36:12Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/348",
       "labels": [
         "performance",
@@ -157,26 +179,6 @@
       "labels": []
     },
     {
-      "number": 224,
-      "title": "[Issue]: fx.crd2idx not working with coord returned fx.make_coord",
-      "author": "rahulbatra85",
-      "state": "open",
-      "created_at": "2026-03-17T00:58:15Z",
-      "updated_at": "2026-03-24T13:06:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/224",
-      "labels": []
-    },
-    {
-      "number": 233,
-      "title": "[Issue]: Outer K-loop cannot use scf.for \u2014 MLIR operand dominance error on loop-carried accumulators",
-      "author": "MHYangAMD",
-      "state": "open",
-      "created_at": "2026-03-18T02:42:33Z",
-      "updated_at": "2026-03-18T02:42:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/233",
-      "labels": []
-    },
-    {
       "number": 230,
       "title": "[Issue]: Precomputed Condiction Error",
       "author": "ruanjm",
@@ -196,18 +198,6 @@
       "created_at": "2026-03-13T10:51:05Z",
       "updated_at": "2026-03-16T04:09:10Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/211",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 210,
-      "title": "[Issue]: _ASTREWRITE_MARKER prevents later AST rewriter passes from visiting generated function bodies",
-      "author": "ruanjm",
-      "state": "open",
-      "created_at": "2026-03-13T10:19:19Z",
-      "updated_at": "2026-03-13T10:25:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/210",
       "labels": [
         "bug"
       ]
