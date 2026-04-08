@@ -1,60 +1,6 @@
 {
-  "collected_at": "2026-04-07T08:51:26Z",
+  "collected_at": "2026-04-08T08:50:21Z",
   "prs": [
-    {
-      "number": 519,
-      "title": "Ct opt",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-04T02:20:47Z",
-      "updated_at": "2026-04-07T04:01:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 527,
-      "title": "Gfx1250 changes",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T03:45:24Z",
-      "updated_at": "2026-04-07T03:45:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": true
-    },
-    {
-      "number": 492,
-      "title": "Add fsdp2 fp8 unit tests TE 2.10",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-17T20:15:20Z",
-      "updated_at": "2026-04-07T03:43:46Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 448,
-      "title": "Added initial AI Agent instructions and skills",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-12T17:27:07Z",
-      "updated_at": "2026-04-06T20:19:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 509,
       "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
@@ -62,7 +8,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-27T23:29:43Z",
-      "updated_at": "2026-04-06T20:15:26Z",
+      "updated_at": "2026-04-08T06:59:20Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
       "labels": [
         "ci-level 1"
@@ -70,30 +16,16 @@
       "draft": false
     },
     {
-      "number": 518,
-      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
-      "author": "matthiasdiener",
+      "number": 519,
+      "title": "Ct opt",
+      "author": "alextmagro",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-02T16:44:44Z",
-      "updated_at": "2026-04-06T19:44:06Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
+      "created_at": "2026-04-04T02:20:47Z",
+      "updated_at": "2026-04-08T06:53:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
       "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 522,
-      "title": "CI: enable CI runs on every PR",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-06T16:23:48Z",
-      "updated_at": "2026-04-06T18:37:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/522",
-      "labels": [
-        "ci-level 1"
+        "ci-level 3"
       ],
       "draft": false
     },
@@ -104,11 +36,275 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-25T16:22:33Z",
-      "updated_at": "2026-04-06T04:46:56Z",
+      "updated_at": "2026-04-08T06:05:53Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
       "labels": [
         "ci-level 1"
       ],
+      "draft": false
+    },
+    {
+      "number": 530,
+      "title": "Ipanfilo/wheel load fix",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-08T04:12:12Z",
+      "updated_at": "2026-04-08T04:12:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/530",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 492,
+      "title": "Add fsdp2 fp8 unit tests TE 2.10",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-17T20:15:20Z",
+      "updated_at": "2026-04-08T03:12:33Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 518,
+      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T16:44:44Z",
+      "updated_at": "2026-04-07T21:53:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 508,
+      "title": "[TE] Enable deterministic mode for fused attention",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T18:37:04Z",
+      "updated_at": "2026-04-07T20:01:01Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 522,
+      "title": "CI: enable CI runs on every PR",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-06T16:23:48Z",
+      "updated_at": "2026-04-07T19:45:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/522",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 529,
+      "title": "Ipanfilo/wheel build action",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T16:45:14Z",
+      "updated_at": "2026-04-07T17:28:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/529",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 527,
+      "title": "Gfx1250 changes",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T03:45:24Z",
+      "updated_at": "2026-04-07T17:14:32Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
+      "labels": [
+        "ci-level 2"
+      ],
+      "draft": true
+    },
+    {
+      "number": 528,
+      "title": "CI: Refactor ROCm CI to use GPU-sized runners and build-only jobs",
+      "author": "leo-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T14:15:38Z",
+      "updated_at": "2026-04-07T14:55:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/528",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": true
+    },
+    {
+      "number": 123,
+      "title": "Honor the NVTE_FUSED_ATTN_<backend> in test_fused_attn.py",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-02-11T20:40:28Z",
+      "updated_at": "2026-04-07T14:07:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/123",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 152,
+      "title": "Update attention example attention.ipynb",
+      "author": "anhminhnguyenhoang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-03-19T09:19:05Z",
+      "updated_at": "2026-04-07T14:07:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/152",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 461,
+      "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-24T20:34:49Z",
+      "updated_at": "2026-04-07T14:07:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 177,
+      "title": "[ROCm] support triton-based flash-attn in TE",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-05-01T16:34:32Z",
+      "updated_at": "2026-04-07T14:07:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/177",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 480,
+      "title": "Add Claude to review PRs",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T15:08:04Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/480",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 478,
+      "title": "Microbenchmarking and CI performance regression test",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T15:43:14Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 400,
+      "title": "CI: Switch GHA pipeline to build and test wheels",
+      "author": "leo-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-12-09T15:48:42Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/400",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 506,
+      "title": "Full MXFP4 Training Recipe",
+      "author": "sarthak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-26T01:45:59Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/506",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 489,
+      "title": "Add AITER fused RoPE dispatch to FusedRoPEFunc",
+      "author": "sarthak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-17T04:15:33Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/489",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 409,
+      "title": "Hotfix/fused ce triton",
+      "author": "sarthak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-12T04:38:42Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/409",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 336,
+      "title": "Fused Cross Entropy Triton - Loss Scaling and Vanishing Grads Bugfix",
+      "author": "sarthak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-10-16T12:30:00Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/336",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 225,
+      "title": "heyi's layernorm optimization",
+      "author": "eliotwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-07-03T08:20:23Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 448,
+      "title": "Added initial AI Agent instructions and skills",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-12T17:27:07Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
+      "labels": [],
       "draft": false
     },
     {
@@ -118,7 +314,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-02T21:50:32Z",
-      "updated_at": "2026-04-03T15:10:45Z",
+      "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
       "labels": [
         "ci-level 3"
@@ -126,17 +322,39 @@
       "draft": false
     },
     {
-      "number": 508,
-      "title": "[TE] Enable deterministic mode for fused attention",
-      "author": "AllenFarcas",
+      "number": 487,
+      "title": "ASV-format microbenchmark suite",
+      "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-27T18:37:04Z",
-      "updated_at": "2026-04-03T05:11:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
-      "labels": [
-        "ci-level 1"
-      ],
+      "created_at": "2026-03-16T23:20:12Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 435,
+      "title": "Update README.rst",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-28T17:28:10Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/435",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 377,
+      "title": "Layernorm forward optimization",
+      "author": "eliotwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-11-24T04:27:12Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/377",
+      "labels": [],
       "draft": false
     },
     {
@@ -166,186 +384,6 @@
         "ci-level 1"
       ],
       "draft": true
-    },
-    {
-      "number": 435,
-      "title": "Update README.rst",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-28T17:28:10Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/435",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 478,
-      "title": "Microbenchmarking and CI performance regression test",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-10T15:43:14Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 400,
-      "title": "CI: Switch GHA pipeline to build and test wheels",
-      "author": "leo-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-12-09T15:48:42Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/400",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 506,
-      "title": "Full MXFP4 Training Recipe",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T01:45:59Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/506",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 489,
-      "title": "Add AITER fused RoPE dispatch to FusedRoPEFunc",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-17T04:15:33Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/489",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 409,
-      "title": "Hotfix/fused ce triton",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-12T04:38:42Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/409",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 336,
-      "title": "Fused Cross Entropy Triton - Loss Scaling and Vanishing Grads Bugfix",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-10-16T12:30:00Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/336",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 152,
-      "title": "Update attention example attention.ipynb",
-      "author": "anhminhnguyenhoang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-03-19T09:19:05Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/152",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 461,
-      "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-24T20:34:49Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 377,
-      "title": "Layernorm forward optimization",
-      "author": "eliotwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-11-24T04:27:12Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/377",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 225,
-      "title": "heyi's layernorm optimization",
-      "author": "eliotwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-07-03T08:20:23Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 487,
-      "title": "ASV-format microbenchmark suite",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-16T23:20:12Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 480,
-      "title": "Add Claude to review PRs",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-13T15:08:04Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/480",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 177,
-      "title": "[ROCm] support triton-based flash-attn in TE",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-05-01T16:34:32Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/177",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 123,
-      "title": "Honor the NVTE_FUSED_ATTN_<backend> in test_fused_attn.py",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-02-11T20:40:28Z",
-      "updated_at": "2026-04-02T02:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/123",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 477,

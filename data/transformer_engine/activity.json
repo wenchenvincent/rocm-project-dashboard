@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-04-07T08:53:47Z",
+  "collected_at": "2026-04-08T08:52:05Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 14,
-      "merged": 8,
+      "opened": 16,
+      "merged": 7,
       "closed": 4
     },
     "last_week": {
-      "opened": 10,
-      "merged": 9,
-      "closed": 4
+      "opened": 9,
+      "merged": 8,
+      "closed": 3
     },
-    "median_time_to_merge_hours": 117.7,
-    "merge_count": 19,
+    "median_time_to_merge_hours": 86.5,
+    "merge_count": 16,
     "stale_prs": 0
   },
   "contributors": {
@@ -22,16 +22,16 @@
     "total_contributors": 14,
     "top_contributors": [
       {
+        "author": "ipanfilo",
+        "prs_submitted": 21,
+        "prs_merged": 18,
+        "commits": 8
+      },
+      {
         "author": "Micky774",
         "prs_submitted": 21,
         "prs_merged": 17,
         "commits": 7
-      },
-      {
-        "author": "ipanfilo",
-        "prs_submitted": 19,
-        "prs_merged": 18,
-        "commits": 8
       },
       {
         "author": "matthiasdiener",
@@ -64,16 +64,16 @@
         "commits": 1
       },
       {
+        "author": "leo-amd",
+        "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 1
+      },
+      {
         "author": "wangye805",
         "prs_submitted": 5,
         "prs_merged": 3,
         "commits": 4
-      },
-      {
-        "author": "leo-amd",
-        "prs_submitted": 4,
-        "prs_merged": 3,
-        "commits": 1
       },
       {
         "author": "aris134",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 5.6,
+    "days_since_last": 6.6,
     "avg_interval_days": 47.2,
     "total_releases": 5,
     "latest_tag": "v2.8_rocm"

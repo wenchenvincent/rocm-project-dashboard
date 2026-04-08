@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-04-07T08:51:24Z",
+  "collected_at": "2026-04-08T08:50:19Z",
   "issues": [
+    {
+      "number": 361,
+      "title": "[Issue]: Kimik2 model failed vllm run with: RuntimeError: Worker failed with error 'name 'cluster_workgroup_id_x' is not defined'",
+      "author": "okorzh-amd",
+      "state": "open",
+      "created_at": "2026-04-08T02:51:10Z",
+      "updated_at": "2026-04-08T04:17:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/361",
+      "labels": []
+    },
+    {
+      "number": 320,
+      "title": "[Feature]: RFC : Multi-vendor runtime and Python registration build layout",
+      "author": "Peter9606",
+      "state": "open",
+      "created_at": "2026-03-31T08:37:21Z",
+      "updated_at": "2026-04-07T13:14:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/320",
+      "labels": []
+    },
+    {
+      "number": 281,
+      "title": "[Issue]: Segmentation fault when FLYDSL_RUNTIME_ENABLE_CACHE=0",
+      "author": "apinge",
+      "state": "open",
+      "created_at": "2026-03-24T09:41:33Z",
+      "updated_at": "2026-04-07T09:55:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/281",
+      "labels": []
+    },
+    {
+      "number": 286,
+      "title": "[Issue]: \"A Minimal Vector Add Kernel\" from `docs/quickstart.rst` segfaults",
+      "author": "brunomazzottiamd",
+      "state": "open",
+      "created_at": "2026-03-25T16:29:34Z",
+      "updated_at": "2026-04-07T09:54:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/286",
+      "labels": []
+    },
     {
       "number": 353,
       "title": "[Issue]: unary ops(NOT, ~ and negation,-) on vector result in core dump during compilation",
@@ -24,19 +64,6 @@
       ]
     },
     {
-      "number": 348,
-      "title": "FP8 MOE kernel: compiler cannot efficiently utilize 256 VGPRs for deep pipeline \u2014 18% gap to hand-written ASM",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-04-04T22:13:55Z",
-      "updated_at": "2026-04-06T13:36:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/348",
-      "labels": [
-        "performance",
-        "compiler"
-      ]
-    },
-    {
       "number": 333,
       "title": "FP8 MoE kernel API support is broken in moe_kernels.py",
       "author": "sunway513",
@@ -44,16 +71,6 @@
       "created_at": "2026-04-01T17:18:01Z",
       "updated_at": "2026-04-03T10:48:28Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/333",
-      "labels": []
-    },
-    {
-      "number": 320,
-      "title": "[Feature]: RFC : Multi-vendor runtime and Python registration build layout",
-      "author": "Peter9606",
-      "state": "open",
-      "created_at": "2026-03-31T08:37:21Z",
-      "updated_at": "2026-04-02T06:36:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/320",
       "labels": []
     },
     {
@@ -139,16 +156,6 @@
       "labels": []
     },
     {
-      "number": 286,
-      "title": "[Issue]: \"A Minimal Vector Add Kernel\" from `docs/quickstart.rst` segfaults",
-      "author": "brunomazzottiamd",
-      "state": "open",
-      "created_at": "2026-03-25T16:29:34Z",
-      "updated_at": "2026-03-25T16:30:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/286",
-      "labels": []
-    },
-    {
       "number": 283,
       "title": "[Feature]: Windows Support",
       "author": "astrelsky",
@@ -166,16 +173,6 @@
       "created_at": "2026-03-19T06:32:23Z",
       "updated_at": "2026-03-25T07:39:41Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/240",
-      "labels": []
-    },
-    {
-      "number": 281,
-      "title": "[Issue]: Segmentation fault when FLYDSL_RUNTIME_ENABLE_CACHE=0",
-      "author": "apinge",
-      "state": "open",
-      "created_at": "2026-03-24T09:41:33Z",
-      "updated_at": "2026-03-25T03:11:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/281",
       "labels": []
     },
     {

@@ -1,26 +1,32 @@
 {
-  "collected_at": "2026-04-07T08:52:10Z",
+  "collected_at": "2026-04-08T08:50:46Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 10,
-      "merged": 8,
+      "opened": 16,
+      "merged": 7,
       "closed": 0
     },
     "last_week": {
-      "opened": 17,
-      "merged": 18,
+      "opened": 16,
+      "merged": 14,
       "closed": 0
     },
     "median_time_to_merge_hours": 38.2,
     "merge_count": 30,
-    "stale_prs": 15
+    "stale_prs": 8
   },
   "contributors": {
-    "active_this_week": 15,
-    "total_contributors": 38,
+    "active_this_week": 13,
+    "total_contributors": 33,
     "top_contributors": [
+      {
+        "author": "naromero77amd",
+        "prs_submitted": 8,
+        "prs_merged": 0,
+        "commits": 0
+      },
       {
         "author": "AlexAUT",
         "prs_submitted": 6,
@@ -31,12 +37,6 @@
         "author": "ravil-mobile",
         "prs_submitted": 5,
         "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "jwu10003",
-        "prs_submitted": 3,
-        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -70,15 +70,15 @@
         "commits": 0
       },
       {
-        "author": "Dewei-Wang-sh",
+        "author": "jwu10003",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "borontion",
+        "author": "Dewei-Wang-sh",
         "prs_submitted": 2,
-        "prs_merged": 2,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 14,
     "opened_this_week": 1,
-    "closed_this_week": 5,
+    "closed_this_week": 4,
     "unanswered": 4
   },
   "ci_health": {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 75.4,
+    "days_since_last": 76.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

@@ -1,18 +1,40 @@
 {
-  "collected_at": "2026-04-07T08:51:23Z",
+  "collected_at": "2026-04-08T08:50:19Z",
   "prs": [
     {
-      "number": 340,
-      "title": "[gfx1250] optimize FP4 GEMM for large tile 256x256",
-      "author": "aoli26",
+      "number": 364,
+      "title": "[Build] Prefer Ninja over Make in build.sh",
+      "author": "sjfeng1999",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-02T14:59:06Z",
-      "updated_at": "2026-04-07T07:06:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/340",
-      "labels": [
-        "enhancement"
-      ],
+      "created_at": "2026-04-08T07:52:42Z",
+      "updated_at": "2026-04-08T08:29:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/364",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 363,
+      "title": "[FEAT] Add universal atomic Op",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-08T07:43:35Z",
+      "updated_at": "2026-04-08T07:57:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/363",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 362,
+      "title": "[FEAT] Support stateful Mma/CopyAtom",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-08T06:48:06Z",
+      "updated_at": "2026-04-08T07:40:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/362",
+      "labels": [],
       "draft": false
     },
     {
@@ -22,22 +44,58 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-01T07:00:45Z",
-      "updated_at": "2026-04-07T06:45:04Z",
+      "updated_at": "2026-04-08T07:09:12Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/326",
       "labels": [],
       "draft": false
     },
     {
       "number": 354,
-      "title": "Add hgemm + allreduce epilogue fusion kernels",
+      "title": "Add `hgemm_splitk+allreduce` prologue/epilogue fusion kernels",
       "author": "xytpai",
       "state": "open",
       "merged": false,
       "created_at": "2026-04-07T02:46:48Z",
-      "updated_at": "2026-04-07T06:37:14Z",
+      "updated_at": "2026-04-08T06:49:59Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/354",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 360,
+      "title": "[Perf] Vectorize MoE reduce kernel via layout API for f16/bf16",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-08T00:43:24Z",
+      "updated_at": "2026-04-08T03:45:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/360",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 341,
+      "title": "[Kernel][MI350] Add prefill GDR kernels for linear attention",
+      "author": "huizzhan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T02:53:46Z",
+      "updated_at": "2026-04-08T03:36:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/341",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 359,
+      "title": "[Refactor] Convert norm/softmax kernels from raw buffer_ops to layout\u2026",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T11:07:07Z",
+      "updated_at": "2026-04-08T01:42:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/359",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 346,
@@ -46,10 +104,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-03T10:54:06Z",
-      "updated_at": "2026-04-07T04:23:21Z",
+      "updated_at": "2026-04-07T16:09:06Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/346",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 357,
+      "title": "\u30103/N\u3011add RDNA4 PA decode FP8 kernel, refactor shared reduce code",
+      "author": "vivienfanghuagood",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T09:52:42Z",
+      "updated_at": "2026-04-07T11:08:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/357",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 345,
@@ -100,18 +170,6 @@
       "draft": true
     },
     {
-      "number": 341,
-      "title": "[Kernel][MI350] Add prefill GDR kernels for linear attention",
-      "author": "huizzhan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-03T02:53:46Z",
-      "updated_at": "2026-04-03T02:53:46Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/341",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 336,
       "title": "gfx1250 moe",
       "author": "XingerZhu",
@@ -156,6 +214,56 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 358,
+      "title": "[Refact] Simplify Mma/CopyOp lowering using emitAtomCall interface",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T10:10:26Z",
+      "updated_at": "2026-04-07T12:33:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/358",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 356,
+      "title": "Hot fix coredump with nocache",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T09:52:35Z",
+      "updated_at": "2026-04-07T11:20:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/356",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 340,
+      "title": "[gfx1250] optimize FP4 GEMM for large tile 256x256",
+      "author": "aoli26",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-02T14:59:06Z",
+      "updated_at": "2026-04-07T11:19:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/340",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false
+    },
+    {
+      "number": 355,
+      "title": "add auto workflow to build pypi",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T08:56:52Z",
+      "updated_at": "2026-04-07T10:18:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/355",
       "labels": [],
       "draft": false
     },
@@ -700,18 +808,6 @@
       "draft": false
     },
     {
-      "number": 276,
-      "title": "Refactor: extract pluggable compile-backend system",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-24T03:30:42Z",
-      "updated_at": "2026-03-25T07:45:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/276",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 280,
       "title": "Hot fix cache key",
       "author": "coderfeli",
@@ -720,6 +816,18 @@
       "created_at": "2026-03-24T07:09:11Z",
       "updated_at": "2026-03-25T07:45:42Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/280",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 276,
+      "title": "Refactor: extract pluggable compile-backend system",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-24T03:30:42Z",
+      "updated_at": "2026-03-25T07:45:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/276",
       "labels": [],
       "draft": false
     },
@@ -986,54 +1094,6 @@
       "created_at": "2026-03-19T08:58:26Z",
       "updated_at": "2026-03-19T09:41:36Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/242",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 227,
-      "title": "[FEAT][FLY] Update MemRef and Pointer related ops inferReturnType",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-17T08:24:07Z",
-      "updated_at": "2026-03-18T15:25:40Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/227",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 220,
-      "title": "Tune launch overhead",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-16T03:47:28Z",
-      "updated_at": "2026-03-18T15:17:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/220",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 139,
-      "title": "optimize buffer_load lds pipeline. Now it can interleave with mfma.",
-      "author": "yadaish",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T06:34:18Z",
-      "updated_at": "2026-03-18T09:43:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/139",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 235,
-      "title": "CI: add network speed test workflow",
-      "author": "gyohuangxin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-18T08:55:57Z",
-      "updated_at": "2026-03-18T09:43:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/235",
       "labels": [],
       "draft": false
     }
