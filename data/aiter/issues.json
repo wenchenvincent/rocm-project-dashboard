@@ -1,13 +1,23 @@
 {
-  "collected_at": "2026-04-08T08:50:11Z",
+  "collected_at": "2026-04-09T08:58:24Z",
   "issues": [
+    {
+      "number": 2656,
+      "title": "Accuracy regression in DeepSeek-R1-MXFP4 (KV FP8) on MI35x after commit a56b520 in SGLang",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-04-08T10:07:34Z",
+      "updated_at": "2026-04-09T04:47:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2656",
+      "labels": []
+    },
     {
       "number": 2312,
       "title": "CI: Run Triton tests on MI355",
       "author": "gyohuangxin",
       "state": "open",
       "created_at": "2026-03-17T16:42:16Z",
-      "updated_at": "2026-04-07T21:04:09Z",
+      "updated_at": "2026-04-08T14:40:06Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2312",
       "labels": [
         "frameworks-devops"

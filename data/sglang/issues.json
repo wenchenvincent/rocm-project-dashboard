@@ -1,6 +1,52 @@
 {
-  "collected_at": "2026-04-08T08:49:56Z",
+  "collected_at": "2026-04-09T08:58:02Z",
   "issues": [
+    {
+      "number": 15025,
+      "title": "[Roadmap] DeepSeek v3.2 (GLM 5) Optimization",
+      "author": "Fridge003",
+      "state": "open",
+      "created_at": "2025-12-13T01:47:05Z",
+      "updated_at": "2026-04-09T07:25:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15025",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "Good Pro Issue",
+        "good second issue",
+        "nvidia"
+      ]
+    },
+    {
+      "number": 22421,
+      "title": "[Bug] RTX4090 + AMD EPYC 7B13, GPTQ-Int4, IndexError: start out of range (expected to be in range of [-8, 8], but got 16)",
+      "author": "Honghe",
+      "state": "open",
+      "created_at": "2026-04-09T05:34:27Z",
+      "updated_at": "2026-04-09T05:34:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22421",
+      "labels": []
+    },
+    {
+      "number": 22419,
+      "title": "[AMD] Multimodal Support ROCm FA2 in the new dispatch layer and prepare for FA3 enablement",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-04-09T05:11:34Z",
+      "updated_at": "2026-04-09T05:30:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22419",
+      "labels": []
+    },
+    {
+      "number": 22279,
+      "title": "[Bug] aiter module crash in SGLang MI350X Docker images \u2014 aiter.dtypes AttributeError",
+      "author": "kev-pebble",
+      "state": "open",
+      "created_at": "2026-04-07T17:46:38Z",
+      "updated_at": "2026-04-08T14:02:32Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22279",
+      "labels": []
+    },
     {
       "number": 21919,
       "title": "[Bug] Mi355 qwen3.5 mxfp4 TP4 potentially low accuracy",
@@ -34,16 +80,6 @@
       "created_at": "2026-04-07T19:18:19Z",
       "updated_at": "2026-04-08T01:05:33Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22283",
-      "labels": []
-    },
-    {
-      "number": 22279,
-      "title": "[Bug] aiter module crash in SGLang MI350X Docker images \u2014 aiter.dtypes AttributeError",
-      "author": "kev-pebble",
-      "state": "open",
-      "created_at": "2026-04-07T17:46:38Z",
-      "updated_at": "2026-04-07T17:46:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22279",
       "labels": []
     },
     {
@@ -87,22 +123,6 @@
       "updated_at": "2026-04-05T22:33:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22105",
       "labels": []
-    },
-    {
-      "number": 15025,
-      "title": "[Roadmap] DeepSeek v3.2 (GLM 5) Optimization",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2025-12-13T01:47:05Z",
-      "updated_at": "2026-04-05T19:46:23Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15025",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "Good Pro Issue",
-        "good second issue",
-        "nvidia"
-      ]
     },
     {
       "number": 22072,
@@ -444,18 +464,6 @@
       "updated_at": "2026-02-24T07:35:34Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/19028",
       "labels": []
-    },
-    {
-      "number": 18006,
-      "title": "[Bug] FP4 DeepSeek PD disagg doesn't work on MI355X",
-      "author": "cquil11",
-      "state": "open",
-      "created_at": "2026-01-30T19:03:44Z",
-      "updated_at": "2026-02-20T08:32:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18006",
-      "labels": [
-        "amd"
-      ]
     },
     {
       "number": 17623,

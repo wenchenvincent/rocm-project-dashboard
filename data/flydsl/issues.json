@@ -1,14 +1,26 @@
 {
-  "collected_at": "2026-04-08T08:50:19Z",
+  "collected_at": "2026-04-09T08:58:36Z",
   "issues": [
     {
-      "number": 361,
-      "title": "[Issue]: Kimik2 model failed vllm run with: RuntimeError: Worker failed with error 'name 'cluster_workgroup_id_x' is not defined'",
-      "author": "okorzh-amd",
+      "number": 230,
+      "title": "[Issue]: Precomputed Condiction Error",
+      "author": "ruanjm",
       "state": "open",
-      "created_at": "2026-04-08T02:51:10Z",
-      "updated_at": "2026-04-08T04:17:56Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/361",
+      "created_at": "2026-03-17T08:57:59Z",
+      "updated_at": "2026-04-09T08:02:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/230",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 286,
+      "title": "[Issue]: \"A Minimal Vector Add Kernel\" from `docs/quickstart.rst` segfaults",
+      "author": "brunomazzottiamd",
+      "state": "open",
+      "created_at": "2026-03-25T16:29:34Z",
+      "updated_at": "2026-04-09T01:59:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/286",
       "labels": []
     },
     {
@@ -19,26 +31,6 @@
       "created_at": "2026-03-31T08:37:21Z",
       "updated_at": "2026-04-07T13:14:50Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/320",
-      "labels": []
-    },
-    {
-      "number": 281,
-      "title": "[Issue]: Segmentation fault when FLYDSL_RUNTIME_ENABLE_CACHE=0",
-      "author": "apinge",
-      "state": "open",
-      "created_at": "2026-03-24T09:41:33Z",
-      "updated_at": "2026-04-07T09:55:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/281",
-      "labels": []
-    },
-    {
-      "number": 286,
-      "title": "[Issue]: \"A Minimal Vector Add Kernel\" from `docs/quickstart.rst` segfaults",
-      "author": "brunomazzottiamd",
-      "state": "open",
-      "created_at": "2026-03-25T16:29:34Z",
-      "updated_at": "2026-04-07T09:54:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/286",
       "labels": []
     },
     {
@@ -174,18 +166,6 @@
       "updated_at": "2026-03-25T07:39:41Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/240",
       "labels": []
-    },
-    {
-      "number": 230,
-      "title": "[Issue]: Precomputed Condiction Error",
-      "author": "ruanjm",
-      "state": "open",
-      "created_at": "2026-03-17T08:57:59Z",
-      "updated_at": "2026-03-17T08:58:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/230",
-      "labels": [
-        "bug"
-      ]
     },
     {
       "number": 211,

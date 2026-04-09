@@ -1,6 +1,114 @@
 {
-  "collected_at": "2026-04-08T08:49:57Z",
+  "collected_at": "2026-04-09T08:58:05Z",
   "prs": [
+    {
+      "number": 8642,
+      "title": "[AMD] Add amdgpu::MemoryCounterWaitOp and its ROCDL lowering for GCN targets",
+      "author": "jwu10003",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2025-11-05T07:03:53Z",
+      "updated_at": "2026-04-09T08:42:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8642",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9899,
+      "title": "[AMD][gfx1250] Pack f32 arith ops into <2 x float> for v_pk_* instructions",
+      "author": "jwu10003",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-02T03:54:59Z",
+      "updated_at": "2026-04-09T08:41:40Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9899",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9662,
+      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T09:33:39Z",
+      "updated_at": "2026-04-09T08:21:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9883,
+      "title": "[AMD][gfx9] Use asyncmark/wait_asyncmark for CDNA3/CDNA4 buffer_load_to_lds",
+      "author": "zhanglx13",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-30T04:58:46Z",
+      "updated_at": "2026-04-09T08:10:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9883",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9944,
+      "title": "[release/3.7.x][AMD][BACKEND] Fix RangeAnalysis tripCount calculation (#9383)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T18:45:02Z",
+      "updated_at": "2026-04-09T04:12:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9944",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9929,
+      "title": "[AMD] Warp-pipeline: back-to-back loop optimization & flat (unrolled) pipeline support",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T20:36:08Z",
+      "updated_at": "2026-04-08T22:42:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9929",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9717,
+      "title": "[Tools][Translator] Add AMD backend support for Triton-to-Gluon translator",
+      "author": "jammm",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T19:15:08Z",
+      "updated_at": "2026-04-08T17:00:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9717",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9956,
+      "title": "[AMD] Add PredicatedOpInterface to eligible AMD ops",
+      "author": "kelesvol",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-08T13:39:05Z",
+      "updated_at": "2026-04-08T13:39:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9956",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9912,
+      "title": "[AMD] Fix SSA dominance violation in ConvertToBufferOps with i64 offsets",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T22:50:38Z",
+      "updated_at": "2026-04-08T10:45:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9912",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9950,
       "title": "[release/3.7.x] [AMD] CanonicalizePointers: Handle different base pointers and offsets (#9541)",
@@ -12,18 +120,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9950",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 9912,
-      "title": "[AMD] Fix SSA dominance violation in ConvertToBufferOps with i64 offsets",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T22:50:38Z",
-      "updated_at": "2026-04-07T20:44:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9912",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 9949,
@@ -86,66 +182,6 @@
       "draft": true
     },
     {
-      "number": 9944,
-      "title": "[release/3.7.x][AMD][BACKEND] Fix RangeAnalysis tripCount calculation (#9383)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:02Z",
-      "updated_at": "2026-04-07T19:23:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9944",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9932,
-      "title": "[release/3.7.x] AMD post-release cut cherry-picks",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-06T15:03:14Z",
-      "updated_at": "2026-04-07T18:51:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9932",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9929,
-      "title": "[AMD] Warp-pipeline: back-to-back loop optimization & flat (unrolled) pipeline support",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-05T20:36:08Z",
-      "updated_at": "2026-04-07T16:54:06Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9929",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9717,
-      "title": "[Tools][Translator] Add AMD backend support for Triton-to-Gluon translator",
-      "author": "jammm",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-13T19:15:08Z",
-      "updated_at": "2026-04-07T09:43:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9717",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9883,
-      "title": "[AMD][gfx9] Use asyncmark/wait_asyncmark for CDNA3/CDNA4 buffer_load_to_lds",
-      "author": "zhanglx13",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-30T04:58:46Z",
-      "updated_at": "2026-04-06T22:39:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9883",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9895,
       "title": "[AMD] Skip fp8 data type tests on RDNA3 for test_conversions",
       "author": "saeid-rostami",
@@ -206,18 +242,6 @@
       "draft": true
     },
     {
-      "number": 9899,
-      "title": "[AMD][gfx1250] Pack f32 arith ops into <2 x float> for v_pk_* instructions",
-      "author": "jwu10003",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-02T03:54:59Z",
-      "updated_at": "2026-04-03T16:18:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9899",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9855,
       "title": "[AMD] Raise buffer_load num_records to full 4 GB unsigned range",
       "author": "Dewei-Wang-sh",
@@ -274,18 +298,6 @@
       "created_at": "2026-03-19T18:12:55Z",
       "updated_at": "2026-03-31T15:45:53Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9779",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9662,
-      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T09:33:39Z",
-      "updated_at": "2026-03-31T14:40:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9662",
       "labels": [],
       "draft": false
     },
@@ -598,18 +610,6 @@
       "created_at": "2026-03-16T17:18:23Z",
       "updated_at": "2026-03-23T15:46:52Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9740",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9777,
-      "title": "[AMD] Propagate buffer cache modifiers to LLVM IR for RDNA3 targets",
-      "author": "roberteg16",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T08:50:49Z",
-      "updated_at": "2026-03-21T00:48:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9777",
       "labels": [],
       "draft": false
     },

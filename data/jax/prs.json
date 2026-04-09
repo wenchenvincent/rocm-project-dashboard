@@ -1,6 +1,50 @@
 {
-  "collected_at": "2026-04-08T08:49:29Z",
+  "collected_at": "2026-04-09T08:57:29Z",
   "prs": [
+    {
+      "number": 36621,
+      "title": "[ROCm] Accept manylinux_2_28 wheels in auditwheel validation",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T04:42:08Z",
+      "updated_at": "2026-04-09T05:06:49Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36621",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 36522,
+      "title": "[ROCm] Added fixes to Bazel ROCm CI to use proper wheels.",
+      "author": "tsrw2048",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-06T01:54:40Z",
+      "updated_at": "2026-04-08T23:46:32Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36522",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 36572,
+      "title": "[ROCm] LSTM fix MIOpen wights layout",
+      "author": "shurale-nkn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T22:40:42Z",
+      "updated_at": "2026-04-08T14:38:52Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36572",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 36355,
       "title": "[ROCm] fix: wire up clone_main_xla for ROCm builds and tests",
@@ -13,34 +57,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36522,
-      "title": "[ROCm] Added fixes to Bazel ROCm CI to use proper wheels.",
-      "author": "tsrw2048",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-06T01:54:40Z",
-      "updated_at": "2026-04-08T00:09:49Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36522",
-      "labels": [
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36572,
-      "title": "[ROCm] LSTM fix MIOpen wights layout",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T22:40:42Z",
-      "updated_at": "2026-04-07T23:10:36Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36572",
-      "labels": [
-        "AMD GPU"
       ],
       "draft": false
     },
