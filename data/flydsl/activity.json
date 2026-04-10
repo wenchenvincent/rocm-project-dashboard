@@ -1,43 +1,37 @@
 {
-  "collected_at": "2026-04-09T09:00:42Z",
+  "collected_at": "2026-04-10T09:00:37Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 30,
-      "merged": 22,
-      "closed": 8
+      "opened": 32,
+      "merged": 27,
+      "closed": 11
     },
     "last_week": {
       "opened": 36,
-      "merged": 30,
-      "closed": 14
+      "merged": 27,
+      "closed": 11
     },
     "median_time_to_merge_hours": 9.5,
-    "merge_count": 52,
+    "merge_count": 54,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 14,
+    "active_this_week": 13,
     "total_contributors": 21,
     "top_contributors": [
       {
         "author": "sjfeng1999",
-        "prs_submitted": 22,
-        "prs_merged": 21,
-        "commits": 28
+        "prs_submitted": 25,
+        "prs_merged": 25,
+        "commits": 32
       },
       {
         "author": "coderfeli",
-        "prs_submitted": 17,
-        "prs_merged": 17,
-        "commits": 33
-      },
-      {
-        "author": "yadaish",
-        "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 4
+        "prs_submitted": 19,
+        "prs_merged": 18,
+        "commits": 31
       },
       {
         "author": "Peter9606",
@@ -46,10 +40,16 @@
         "commits": 4
       },
       {
-        "author": "xudoyuan",
-        "prs_submitted": 3,
+        "author": "yadaish",
+        "prs_submitted": 4,
         "prs_merged": 2,
-        "commits": 2
+        "commits": 4
+      },
+      {
+        "author": "zhiding512",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 3
       },
       {
         "author": "jli-melchior",
@@ -64,31 +64,31 @@
         "commits": 4
       },
       {
-        "author": "fsx950223",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 5
-      },
-      {
         "author": "xytpai",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 1
       },
       {
-        "author": "vivienfanghuagood",
+        "author": "aoli26",
         "prs_submitted": 2,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 2
+      },
+      {
+        "author": "Copilot",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
       }
     ],
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 18,
+    "total_open": 16,
     "opened_this_week": 1,
-    "closed_this_week": 5,
-    "unanswered": 3
+    "closed_this_week": 7,
+    "unanswered": 2
   },
   "ci_health": null,
   "ci_signal_time": null,

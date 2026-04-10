@@ -1,6 +1,138 @@
 {
-  "collected_at": "2026-04-09T08:58:05Z",
+  "collected_at": "2026-04-10T08:58:29Z",
   "prs": [
+    {
+      "number": 9662,
+      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T09:33:39Z",
+      "updated_at": "2026-04-10T01:22:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9898,
+      "title": "[AMD] Reduce VGPR pressure for 4-stage chained dot schedule",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T00:05:51Z",
+      "updated_at": "2026-04-10T00:32:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9898",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9945,
+      "title": "[release/3.7.x][AMD] Fix OOM in pipelining with padded layout async copy on GFX950 (#9442)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T18:45:08Z",
+      "updated_at": "2026-04-09T22:25:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9945",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9950,
+      "title": "[release/3.7.x] [AMD] CanonicalizePointers: Handle different base pointers and offsets (#9541)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T21:26:50Z",
+      "updated_at": "2026-04-09T22:25:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9950",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9948,
+      "title": "[release/3.7.x][AMD] Fix BlockPingpong for non-MFMA dot (#9618)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T18:45:21Z",
+      "updated_at": "2026-04-09T22:24:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9948",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9947,
+      "title": "[release/3.7.x][AMD][BACKEND] Fix mixed FP8 types promotion for WMMA (#9581)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T18:45:15Z",
+      "updated_at": "2026-04-09T22:24:25Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9947",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9946,
+      "title": "[release/3.7.x][AMD][BACKEND] Fix mixed types MFMA fp8 instruction selection (#9567)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T18:45:11Z",
+      "updated_at": "2026-04-09T22:24:04Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9946",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9949,
+      "title": "[release/3.7.x][AMD] PrepareIfCombining: Only pair sibling ifs within the same block (#9731)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T18:45:24Z",
+      "updated_at": "2026-04-09T22:02:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9949",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9944,
+      "title": "[release/3.7.x][AMD][BACKEND] Fix RangeAnalysis tripCount calculation (#9383)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T18:45:02Z",
+      "updated_at": "2026-04-09T21:45:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9944",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9979,
+      "title": "[AMD][gfx1250] Use tdm async store in epilogue for f16 single warp schedule gemm",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T17:12:24Z",
+      "updated_at": "2026-04-09T17:26:52Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9979",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9912,
+      "title": "[AMD] Fix SSA dominance violation in ConvertToBufferOps with i64 offsets",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T22:50:38Z",
+      "updated_at": "2026-04-09T15:55:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9912",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 8642,
       "title": "[AMD] Add amdgpu::MemoryCounterWaitOp and its ROCDL lowering for GCN targets",
@@ -26,18 +158,6 @@
       "draft": false
     },
     {
-      "number": 9662,
-      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T09:33:39Z",
-      "updated_at": "2026-04-09T08:21:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9662",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9883,
       "title": "[AMD][gfx9] Use asyncmark/wait_asyncmark for CDNA3/CDNA4 buffer_load_to_lds",
       "author": "zhanglx13",
@@ -48,18 +168,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9883",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 9944,
-      "title": "[release/3.7.x][AMD][BACKEND] Fix RangeAnalysis tripCount calculation (#9383)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:02Z",
-      "updated_at": "2026-04-09T04:12:50Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9944",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 9929,
@@ -96,90 +204,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9956",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 9912,
-      "title": "[AMD] Fix SSA dominance violation in ConvertToBufferOps with i64 offsets",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T22:50:38Z",
-      "updated_at": "2026-04-08T10:45:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9912",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9950,
-      "title": "[release/3.7.x] [AMD] CanonicalizePointers: Handle different base pointers and offsets (#9541)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T21:26:50Z",
-      "updated_at": "2026-04-07T21:29:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9950",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9949,
-      "title": "[release/3.7.x][AMD] PrepareIfCombining: Only pair sibling ifs within the same block (#9731)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:24Z",
-      "updated_at": "2026-04-07T19:25:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9949",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9948,
-      "title": "[release/3.7.x][AMD] Fix BlockPingpong for non-MFMA dot (#9618)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:21Z",
-      "updated_at": "2026-04-07T19:24:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9948",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9947,
-      "title": "[release/3.7.x][AMD][BACKEND] Fix mixed FP8 types promotion for WMMA (#9581)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:15Z",
-      "updated_at": "2026-04-07T19:24:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9947",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9946,
-      "title": "[release/3.7.x][AMD][BACKEND] Fix mixed types MFMA fp8 instruction selection (#9567)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:11Z",
-      "updated_at": "2026-04-07T19:23:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9946",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9945,
-      "title": "[release/3.7.x][AMD] Fix OOM in pipelining with padded layout async copy on GFX950 (#9442)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:08Z",
-      "updated_at": "2026-04-07T19:23:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9945",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 9895,
@@ -228,30 +252,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9918",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 9898,
-      "title": "[AMD] Reduce VGPR pressure for 4-stage chained dot schedule",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T00:05:51Z",
-      "updated_at": "2026-04-03T21:05:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9898",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9855,
-      "title": "[AMD] Raise buffer_load num_records to full 4 GB unsigned range",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T06:29:59Z",
-      "updated_at": "2026-04-03T11:26:59Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9855",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 9897,

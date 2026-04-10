@@ -1,6 +1,126 @@
 {
-  "collected_at": "2026-04-09T08:58:38Z",
+  "collected_at": "2026-04-10T08:58:54Z",
   "prs": [
+    {
+      "number": 509,
+      "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T23:29:43Z",
+      "updated_at": "2026-04-10T05:31:36Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 506,
+      "title": "Full MXFP4 Training Recipe",
+      "author": "sarthak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-26T01:45:59Z",
+      "updated_at": "2026-04-10T04:49:09Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/506",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 529,
+      "title": "Ipanfilo/wheel build action",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T16:45:14Z",
+      "updated_at": "2026-04-10T03:50:02Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/529",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 527,
+      "title": "Gfx1250 changes",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T03:45:24Z",
+      "updated_at": "2026-04-10T03:20:30Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
+      "labels": [
+        "ci-level 2"
+      ],
+      "draft": true
+    },
+    {
+      "number": 518,
+      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T16:44:44Z",
+      "updated_at": "2026-04-09T23:00:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 508,
+      "title": "[TE] Enable deterministic mode for fused attention",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T18:37:04Z",
+      "updated_at": "2026-04-09T21:50:06Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 505,
+      "title": "NVFP4 dequantization",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-25T16:22:33Z",
+      "updated_at": "2026-04-09T21:46:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 534,
+      "title": "Backport fixes to TE2.10",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T21:35:15Z",
+      "updated_at": "2026-04-09T21:35:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/534",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 528,
+      "title": "CI: Refactor ROCm CI to use GPU-sized runners and build-only jobs",
+      "author": "leo-automation",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T14:15:38Z",
+      "updated_at": "2026-04-09T20:53:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/528",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 519,
       "title": "Ct opt",
@@ -8,7 +128,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-04T02:20:47Z",
-      "updated_at": "2026-04-09T05:55:18Z",
+      "updated_at": "2026-04-09T20:08:01Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
       "labels": [
         "ci-level 3"
@@ -22,92 +142,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-08T16:04:21Z",
-      "updated_at": "2026-04-09T05:30:07Z",
+      "updated_at": "2026-04-09T18:33:17Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/531",
       "labels": [
         "ci-level 1"
       ],
       "draft": false
-    },
-    {
-      "number": 518,
-      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T16:44:44Z",
-      "updated_at": "2026-04-08T21:56:46Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 506,
-      "title": "Full MXFP4 Training Recipe",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T01:45:59Z",
-      "updated_at": "2026-04-08T17:49:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/506",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 505,
-      "title": "NVFP4 dequantization",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-25T16:22:33Z",
-      "updated_at": "2026-04-08T16:06:37Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 509,
-      "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-27T23:29:43Z",
-      "updated_at": "2026-04-08T15:05:15Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 528,
-      "title": "CI: Refactor ROCm CI to use GPU-sized runners and build-only jobs",
-      "author": "leo-automation",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T14:15:38Z",
-      "updated_at": "2026-04-08T14:58:06Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/528",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 530,
-      "title": "Ipanfilo/wheel load fix",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-08T04:12:12Z",
-      "updated_at": "2026-04-08T04:12:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/530",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 492,
@@ -124,46 +164,6 @@
       "draft": false
     },
     {
-      "number": 508,
-      "title": "[TE] Enable deterministic mode for fused attention",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-27T18:37:04Z",
-      "updated_at": "2026-04-07T20:01:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 529,
-      "title": "Ipanfilo/wheel build action",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T16:45:14Z",
-      "updated_at": "2026-04-07T17:28:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/529",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 527,
-      "title": "Gfx1250 changes",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T03:45:24Z",
-      "updated_at": "2026-04-07T17:14:32Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": true
-    },
-    {
       "number": 123,
       "title": "Honor the NVTE_FUSED_ATTN_<backend> in test_fused_attn.py",
       "author": "wangye805",
@@ -176,18 +176,6 @@
       "draft": false
     },
     {
-      "number": 152,
-      "title": "Update attention example attention.ipynb",
-      "author": "anhminhnguyenhoang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-03-19T09:19:05Z",
-      "updated_at": "2026-04-07T14:07:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/152",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 461,
       "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
       "author": "VeeraRajasekhar",
@@ -196,6 +184,18 @@
       "created_at": "2026-02-24T20:34:49Z",
       "updated_at": "2026-04-07T14:07:29Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 152,
+      "title": "Update attention example attention.ipynb",
+      "author": "anhminhnguyenhoang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-03-19T09:19:05Z",
+      "updated_at": "2026-04-07T14:07:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/152",
       "labels": [],
       "draft": false
     },
@@ -224,14 +224,14 @@
       "draft": true
     },
     {
-      "number": 448,
-      "title": "Added initial AI Agent instructions and skills",
+      "number": 487,
+      "title": "ASV-format microbenchmark suite",
       "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-02-12T17:27:07Z",
+      "created_at": "2026-03-16T23:20:12Z",
       "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
       "labels": [],
       "draft": false
     },
@@ -296,6 +296,32 @@
       "draft": false
     },
     {
+      "number": 448,
+      "title": "Added initial AI Agent instructions and skills",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-12T17:27:07Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 468,
+      "title": "Use static libraries for AITER build",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-02T21:50:32Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
       "number": 435,
       "title": "Update README.rst",
       "author": "aris134",
@@ -329,32 +355,6 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 487,
-      "title": "ASV-format microbenchmark suite",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-16T23:20:12Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 468,
-      "title": "Use static libraries for AITER build",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T21:50:32Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -395,6 +395,32 @@
       "updated_at": "2026-03-11T00:48:13Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/477",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 535,
+      "title": "MXFP4: Add GEMM kernel tuning and MXFP4Quantizer.copy()",
+      "author": "sarthak-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-09T23:08:43Z",
+      "updated_at": "2026-04-09T23:13:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/535",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 533,
+      "title": "Fix JAX sdist version pinning",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-09T19:30:12Z",
+      "updated_at": "2026-04-09T21:08:53Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/533",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -1316,18 +1342,6 @@
       "created_at": "2026-01-14T06:47:45Z",
       "updated_at": "2026-01-26T05:52:31Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/412",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 419,
-      "title": "Remove IS_NORM template parameter",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-16T21:04:32Z",
-      "updated_at": "2026-01-20T21:24:05Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/419",
       "labels": [],
       "draft": false
     }

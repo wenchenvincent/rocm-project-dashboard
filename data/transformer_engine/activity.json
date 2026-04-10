@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-04-09T09:00:48Z",
+  "collected_at": "2026-04-10T09:00:41Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 15,
-      "merged": 8,
-      "closed": 4
+      "opened": 16,
+      "merged": 10,
+      "closed": 5
     },
     "last_week": {
-      "opened": 10,
-      "merged": 7,
+      "opened": 11,
+      "merged": 5,
       "closed": 1
     },
-    "median_time_to_merge_hours": 54.4,
+    "median_time_to_merge_hours": 49.7,
     "merge_count": 15,
-    "stale_prs": 0
+    "stale_prs": 1
   },
   "contributors": {
     "active_this_week": 14,
@@ -23,9 +23,9 @@
     "top_contributors": [
       {
         "author": "ipanfilo",
-        "prs_submitted": 21,
-        "prs_merged": 17,
-        "commits": 8
+        "prs_submitted": 22,
+        "prs_merged": 18,
+        "commits": 9
       },
       {
         "author": "Micky774",
@@ -47,21 +47,21 @@
       },
       {
         "author": "alextmagro",
-        "prs_submitted": 9,
-        "prs_merged": 8,
-        "commits": 4
+        "prs_submitted": 8,
+        "prs_merged": 7,
+        "commits": 2
+      },
+      {
+        "author": "sarthak-amd",
+        "prs_submitted": 7,
+        "prs_merged": 3,
+        "commits": 1
       },
       {
         "author": "VeeraRajasekhar",
         "prs_submitted": 7,
         "prs_merged": 6,
         "commits": 0
-      },
-      {
-        "author": "sarthak-amd",
-        "prs_submitted": 6,
-        "prs_merged": 2,
-        "commits": 1
       },
       {
         "author": "leo-automation",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 7.6,
+    "days_since_last": 8.6,
     "avg_interval_days": 47.2,
     "total_releases": 5,
     "latest_tag": "v2.8_rocm"

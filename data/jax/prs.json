@@ -1,17 +1,18 @@
 {
-  "collected_at": "2026-04-09T08:57:29Z",
+  "collected_at": "2026-04-10T08:57:59Z",
   "prs": [
     {
-      "number": 36621,
-      "title": "[ROCm] Accept manylinux_2_28 wheels in auditwheel validation",
-      "author": "psanal35",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T04:42:08Z",
-      "updated_at": "2026-04-09T05:06:49Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36621",
+      "number": 36644,
+      "title": "[ROCm] Skip tridiagonal pivot reference tests on ROCm for perturb_singular=False",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-09T15:26:49Z",
+      "updated_at": "2026-04-09T17:34:49Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36644",
       "labels": [
-        "AMD GPU"
+        "kokoro:force-run",
+        "pull ready"
       ],
       "draft": false
     },
@@ -19,11 +20,27 @@
       "number": 36522,
       "title": "[ROCm] Added fixes to Bazel ROCm CI to use proper wheels.",
       "author": "tsrw2048",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-04-06T01:54:40Z",
-      "updated_at": "2026-04-08T23:46:32Z",
+      "updated_at": "2026-04-09T15:56:50Z",
       "html_url": "https://github.com/jax-ml/jax/pull/36522",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 36621,
+      "title": "[ROCm] Accept manylinux_2_28 wheels in auditwheel validation",
+      "author": "psanal35",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-09T04:42:08Z",
+      "updated_at": "2026-04-09T14:03:24Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36621",
       "labels": [
         "kokoro:force-run",
         "pull ready",
@@ -541,49 +558,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/35638",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 34598,
-      "title": "[ROCm] Implement approx_tanh for ROCm using OCML tanh function",
-      "author": "phambinhfin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-23T15:03:12Z",
-      "updated_at": "2026-03-05T13:13:59Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34598",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34602,
-      "title": "[ROCm] Fix and enable Pallas ops tests on ROCm",
-      "author": "phambinhfin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-23T15:26:33Z",
-      "updated_at": "2026-03-05T09:35:06Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34602",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 35609,
-      "title": "Add variable for rocm presubmit's to clone xla repo",
-      "author": "copybara-service[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-04T20:04:31Z",
-      "updated_at": "2026-03-04T21:22:23Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35609",
-      "labels": [],
-      "draft": false
     }
   ]
 }
