@@ -1,52 +1,58 @@
 {
-  "collected_at": "2026-04-10T08:59:19Z",
+  "collected_at": "2026-04-11T08:30:41Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
+      "opened": 10,
+      "merged": 9,
+      "closed": 0
+    },
+    "last_week": {
       "opened": 12,
       "merged": 6,
       "closed": 0
     },
-    "last_week": {
-      "opened": 15,
-      "merged": 9,
-      "closed": 0
-    },
-    "median_time_to_merge_hours": 44.9,
+    "median_time_to_merge_hours": 67.5,
     "merge_count": 30,
-    "stale_prs": 8
+    "stale_prs": 12
   },
   "contributors": {
-    "active_this_week": 13,
-    "total_contributors": 33,
+    "active_this_week": 12,
+    "total_contributors": 36,
     "top_contributors": [
       {
         "author": "naromero77amd",
-        "prs_submitted": 7,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "AlexAUT",
         "prs_submitted": 6,
         "prs_merged": 4,
         "commits": 0
       },
       {
-        "author": "ravil-mobile",
+        "author": "AlexAUT",
         "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "jwu10003",
+        "prs_submitted": 4,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "PMylon",
+        "author": "ravil-mobile",
+        "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "yiqian1",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "jwu10003",
+        "author": "PMylon",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
@@ -70,24 +76,18 @@
         "commits": 0
       },
       {
-        "author": "kelesvol",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
         "author": "antiagainst",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       }
     ],
-    "bus_factor": 7
+    "bus_factor": 6
   },
   "issue_health": {
     "total_open": 14,
     "opened_this_week": 0,
-    "closed_this_week": 4,
+    "closed_this_week": 3,
     "unanswered": 5
   },
   "ci_health": {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 78.4,
+    "days_since_last": 79.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"

@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-04-10T08:58:52Z",
+  "collected_at": "2026-04-11T08:30:19Z",
   "issues": [
+    {
+      "number": 380,
+      "title": "[Issue]: #ifdef guard on enum value mgpuLaunchClusterKernel makes cluster launch dead code",
+      "author": "ahmed-bsod",
+      "state": "open",
+      "created_at": "2026-04-10T18:09:59Z",
+      "updated_at": "2026-04-10T18:12:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/380",
+      "labels": []
+    },
     {
       "number": 104,
       "title": "[Issue]: symbols may conflict, need to hide llvm and mlir related to co work with other mlir lib",

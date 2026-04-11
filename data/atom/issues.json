@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-10T08:58:47Z",
+  "collected_at": "2026-04-11T08:30:15Z",
   "issues": [
     {
       "number": 488,
@@ -12,19 +12,6 @@
       "labels": []
     },
     {
-      "number": 537,
-      "title": "[Perf Regression] 26 config(s) regressed @ ae873704",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-04-09T23:13:02Z",
-      "updated_at": "2026-04-09T23:13:02Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/537",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
       "number": 534,
       "title": "RFC: Integrate rocm-trace-lite (RTL) for GPU kernel profiling in ATOM",
       "author": "sunway513",
@@ -33,19 +20,6 @@
       "updated_at": "2026-04-09T16:12:12Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/534",
       "labels": []
-    },
-    {
-      "number": 523,
-      "title": "[Perf Regression] 17 config(s) regressed @ a97427b3",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-04-08T22:54:59Z",
-      "updated_at": "2026-04-08T22:54:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/523",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 521,
@@ -66,19 +40,6 @@
       "updated_at": "2026-04-08T02:46:17Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/359",
       "labels": []
-    },
-    {
-      "number": 512,
-      "title": "[Perf Regression] 13 config(s) regressed @ 7618e5a5",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-04-07T22:45:58Z",
-      "updated_at": "2026-04-07T22:45:58Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/512",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 506,

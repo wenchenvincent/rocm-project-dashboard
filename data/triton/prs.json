@@ -1,6 +1,102 @@
 {
-  "collected_at": "2026-04-10T08:58:29Z",
+  "collected_at": "2026-04-11T08:29:59Z",
   "prs": [
+    {
+      "number": 9994,
+      "title": "[AMD][GFX1250] Split unsupported async store widths into two half-width stores",
+      "author": "yiqian1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-10T18:20:21Z",
+      "updated_at": "2026-04-11T01:54:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9994",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9717,
+      "title": "[Tools][Translator] Add AMD backend support for Triton-to-Gluon translator",
+      "author": "jammm",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T19:15:08Z",
+      "updated_at": "2026-04-10T19:47:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9717",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9947,
+      "title": "[release/3.7.x][AMD][BACKEND] Fix mixed FP8 types promotion for WMMA (#9581)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T18:45:15Z",
+      "updated_at": "2026-04-10T15:52:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9947",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9946,
+      "title": "[release/3.7.x][AMD][BACKEND] Fix mixed types MFMA fp8 instruction selection (#9567)",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T18:45:11Z",
+      "updated_at": "2026-04-10T15:49:40Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9946",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9950,
+      "title": "[release/3.7.x] [AMD] CanonicalizePointers: Handle different base pointers and offsets (#9541)",
+      "author": "naromero77amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T21:26:50Z",
+      "updated_at": "2026-04-10T15:43:17Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9950",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9948,
+      "title": "[release/3.7.x][AMD] Fix BlockPingpong for non-MFMA dot (#9618)",
+      "author": "naromero77amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T18:45:21Z",
+      "updated_at": "2026-04-10T15:37:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9948",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9945,
+      "title": "[release/3.7.x][AMD] Fix OOM in pipelining with padded layout async copy on GFX950 (#9442)",
+      "author": "naromero77amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T18:45:08Z",
+      "updated_at": "2026-04-10T15:35:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9945",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9944,
+      "title": "[release/3.7.x][AMD][BACKEND] Fix RangeAnalysis tripCount calculation (#9383)",
+      "author": "naromero77amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T18:45:02Z",
+      "updated_at": "2026-04-10T15:34:16Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9944",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9662,
       "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
@@ -22,90 +118,6 @@
       "created_at": "2026-04-02T00:05:51Z",
       "updated_at": "2026-04-10T00:32:27Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9898",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9945,
-      "title": "[release/3.7.x][AMD] Fix OOM in pipelining with padded layout async copy on GFX950 (#9442)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:08Z",
-      "updated_at": "2026-04-09T22:25:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9945",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9950,
-      "title": "[release/3.7.x] [AMD] CanonicalizePointers: Handle different base pointers and offsets (#9541)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T21:26:50Z",
-      "updated_at": "2026-04-09T22:25:05Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9950",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9948,
-      "title": "[release/3.7.x][AMD] Fix BlockPingpong for non-MFMA dot (#9618)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:21Z",
-      "updated_at": "2026-04-09T22:24:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9948",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9947,
-      "title": "[release/3.7.x][AMD][BACKEND] Fix mixed FP8 types promotion for WMMA (#9581)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:15Z",
-      "updated_at": "2026-04-09T22:24:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9947",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9946,
-      "title": "[release/3.7.x][AMD][BACKEND] Fix mixed types MFMA fp8 instruction selection (#9567)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:11Z",
-      "updated_at": "2026-04-09T22:24:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9946",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9949,
-      "title": "[release/3.7.x][AMD] PrepareIfCombining: Only pair sibling ifs within the same block (#9731)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:24Z",
-      "updated_at": "2026-04-09T22:02:53Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9949",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9944,
-      "title": "[release/3.7.x][AMD][BACKEND] Fix RangeAnalysis tripCount calculation (#9383)",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T18:45:02Z",
-      "updated_at": "2026-04-09T21:45:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9944",
       "labels": [],
       "draft": false
     },
@@ -180,18 +192,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9929",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 9717,
-      "title": "[Tools][Translator] Add AMD backend support for Triton-to-Gluon translator",
-      "author": "jammm",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-13T19:15:08Z",
-      "updated_at": "2026-04-08T17:00:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9717",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 9956,
@@ -566,54 +566,6 @@
       "draft": false
     },
     {
-      "number": 9825,
-      "title": "[AMD][BACKEND] Allow small M/N block sizes for scaled wmma",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-24T14:55:17Z",
-      "updated_at": "2026-03-25T01:21:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9825",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9811,
-      "title": "[AMD] Fix allocation function mismatch in ConvertTritonAMDGPUToLLVM",
-      "author": "kelesvol",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T14:35:19Z",
-      "updated_at": "2026-03-23T17:03:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9811",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9813,
-      "title": "[AMD] Use TDM store for mxfp fa example",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T16:29:41Z",
-      "updated_at": "2026-03-23T17:02:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9813",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9740,
-      "title": "[AMD][Gluon] unwrapped args for make_tensor_descriptor",
-      "author": "ravil-mobile",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-16T17:18:23Z",
-      "updated_at": "2026-03-23T15:46:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9740",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9666,
       "title": "[AMD] Enable loop unrolling for Gluon warp-pipelined kernels",
       "author": "Hardcode84",
@@ -720,6 +672,54 @@
       "html_url": "https://github.com/triton-lang/triton/pull/8894",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 8702,
+      "title": "[AMD]: intra warp atomic_add experiment",
+      "author": "xiaohuguo2023",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-11-12T00:19:55Z",
+      "updated_at": "2025-11-12T10:53:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8702",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 8198,
+      "title": "[AMD][Draft] Fix make test failure in AMD backend",
+      "author": "jwu10003",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-09-16T07:48:07Z",
+      "updated_at": "2025-11-10T01:52:28Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8198",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 8500,
+      "title": "[AMD][Draft] Optimize reduce waves layout",
+      "author": "Liang-jianhao97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-10-21T11:26:45Z",
+      "updated_at": "2025-10-29T03:35:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8500",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 8449,
+      "title": "[AMD][Draft] Eliminate redundant matmul by adjusting HeadDot wavefront partitioning",
+      "author": "the-strawhat",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-10-16T04:27:51Z",
+      "updated_at": "2025-10-16T14:55:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8449",
+      "labels": [],
+      "draft": false
     }
   ]
 }

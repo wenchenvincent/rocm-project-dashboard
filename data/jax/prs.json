@@ -1,6 +1,20 @@
 {
-  "collected_at": "2026-04-10T08:57:59Z",
+  "collected_at": "2026-04-11T08:29:37Z",
   "prs": [
+    {
+      "number": 36684,
+      "title": "[ROCm] Use CloudFront download for ROCm wheels instead of S3",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-10T20:17:36Z",
+      "updated_at": "2026-04-10T20:47:25Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36684",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 36644,
       "title": "[ROCm] Skip tridiagonal pivot reference tests on ROCm for perturb_singular=False",

@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-04-10T08:58:52Z",
+  "collected_at": "2026-04-11T08:30:18Z",
   "prs": [
     {
-      "number": 377,
-      "title": "implement 1d tensorssa, remove vector dialect in kernels and use soffset for quant kernel",
+      "number": 346,
+      "title": "[FLYDSL]: if dispatch dynamic tests refactor",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-03T10:54:06Z",
+      "updated_at": "2026-04-11T07:11:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/346",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 381,
+      "title": "[FIX] Fix atom_set_value signature mismatch and ROCDL compat",
       "author": "coderfeli",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-10T02:51:32Z",
-      "updated_at": "2026-04-10T08:38:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/377",
+      "created_at": "2026-04-11T00:59:17Z",
+      "updated_at": "2026-04-11T02:39:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/381",
       "labels": [],
       "draft": false
     },
@@ -20,22 +32,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-03T02:53:46Z",
-      "updated_at": "2026-04-10T08:16:19Z",
+      "updated_at": "2026-04-10T11:01:13Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/341",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 346,
-      "title": "[FLYDSL]: if dispatch dynamic tests refactor",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-03T10:54:06Z",
-      "updated_at": "2026-04-10T07:50:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/346",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 370,
@@ -104,8 +104,20 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-04-10T06:09:47Z",
-      "updated_at": "2026-04-10T08:46:00Z",
+      "updated_at": "2026-04-10T12:18:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/378",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 377,
+      "title": "implement 1d tensorssa, remove vector dialect in kernels and use soffset for quant kernel",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-10T02:51:32Z",
+      "updated_at": "2026-04-10T10:04:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/377",
       "labels": [],
       "draft": false
     },
@@ -926,30 +938,6 @@
       "created_at": "2026-03-23T08:45:51Z",
       "updated_at": "2026-03-23T14:56:36Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/269",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 263,
-      "title": "[Refactor] Rename BufferLDST to BufferCopy for consistency",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T03:39:58Z",
-      "updated_at": "2026-03-23T10:16:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/263",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 264,
-      "title": "[FEAT][DSL] Add get_dyn_shared to access dynamic shared memory",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T03:57:06Z",
-      "updated_at": "2026-03-23T09:46:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/264",
       "labels": [],
       "draft": false
     }

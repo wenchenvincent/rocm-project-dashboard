@@ -1,14 +1,46 @@
 {
-  "collected_at": "2026-04-10T08:58:28Z",
+  "collected_at": "2026-04-11T08:29:58Z",
   "issues": [
     {
-      "number": 22278,
-      "title": "[Bug] PD Disaggregation on AMD MI350X: Router serialization, circuit breaker, and throughput issues",
-      "author": "kev-pebble",
+      "number": 22581,
+      "title": "[Feature] MiMo-V2-Flash MTP draft attention backend hardcoded to FlashAttentionBackend; request for configurable attention backend",
+      "author": "daishiqiang123",
       "state": "open",
-      "created_at": "2026-04-07T17:46:38Z",
-      "updated_at": "2026-04-10T00:31:44Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22278",
+      "created_at": "2026-04-11T06:36:20Z",
+      "updated_at": "2026-04-11T06:37:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22581",
+      "labels": []
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-04-11T02:23:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 22568,
+      "title": "[AMD] AITER Upgrade Issues",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-04-11T01:24:20Z",
+      "updated_at": "2026-04-11T01:26:45Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22568",
+      "labels": []
+    },
+    {
+      "number": 22466,
+      "title": "[Bug] [Apple Silicon] Server Crash",
+      "author": "Jonahcb",
+      "state": "open",
+      "created_at": "2026-04-09T20:12:58Z",
+      "updated_at": "2026-04-11T01:02:28Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22466",
       "labels": []
     },
     {
@@ -17,8 +49,28 @@
       "author": "functionstackx",
       "state": "open",
       "created_at": "2026-04-09T18:25:32Z",
-      "updated_at": "2026-04-09T18:25:32Z",
+      "updated_at": "2026-04-10T23:44:46Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22464",
+      "labels": []
+    },
+    {
+      "number": 19917,
+      "title": "[AMD] Support JIT kernel for wheels",
+      "author": "akao-amd",
+      "state": "open",
+      "created_at": "2026-03-05T04:13:13Z",
+      "updated_at": "2026-04-10T10:05:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/19917",
+      "labels": []
+    },
+    {
+      "number": 22278,
+      "title": "[Bug] PD Disaggregation on AMD MI350X: Router serialization, circuit breaker, and throughput issues",
+      "author": "kev-pebble",
+      "state": "open",
+      "created_at": "2026-04-07T17:46:38Z",
+      "updated_at": "2026-04-10T00:31:44Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22278",
       "labels": []
     },
     {
@@ -99,18 +151,6 @@
       "updated_at": "2026-04-07T15:46:41Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-04-06T14:20:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
     },
     {
       "number": 22105,
@@ -347,28 +387,6 @@
       "labels": []
     },
     {
-      "number": 13363,
-      "title": "[Roadmap] sglang auto tuner",
-      "author": "sglang-bot",
-      "state": "open",
-      "created_at": "2025-11-16T04:31:44Z",
-      "updated_at": "2026-03-19T15:23:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
-      "labels": [
-        "good first issue"
-      ]
-    },
-    {
-      "number": 12780,
-      "title": "Development Roadmap (2026 Q1)",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2025-11-06T17:50:24Z",
-      "updated_at": "2026-03-19T03:42:57Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/12780",
-      "labels": []
-    },
-    {
       "number": 20404,
       "title": "MI355X disagg DPA + MTP Errors",
       "author": "Oseltamivir",
@@ -462,18 +480,6 @@
       "updated_at": "2026-02-24T07:35:34Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/19028",
       "labels": []
-    },
-    {
-      "number": 18006,
-      "title": "[Bug] FP4 DeepSeek PD disagg doesn't work on MI355X",
-      "author": "cquil11",
-      "state": "open",
-      "created_at": "2026-01-30T19:03:44Z",
-      "updated_at": "2026-02-20T08:32:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18006",
-      "labels": [
-        "amd"
-      ]
     },
     {
       "number": 17623,

@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-04-10T08:58:44Z",
+  "collected_at": "2026-04-11T08:30:12Z",
   "issues": [
+    {
+      "number": 2694,
+      "title": "[Issue]: Incorrect package version numbering",
+      "author": "Sector14",
+      "state": "open",
+      "created_at": "2026-04-10T19:37:52Z",
+      "updated_at": "2026-04-10T19:37:52Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2694",
+      "labels": []
+    },
+    {
+      "number": 2691,
+      "title": "Release tags are moving",
+      "author": "gshtras",
+      "state": "open",
+      "created_at": "2026-04-10T15:17:37Z",
+      "updated_at": "2026-04-10T15:23:47Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2691",
+      "labels": []
+    },
     {
       "number": 2674,
       "title": "Release v0.1.12: CI Validation Tracking",
