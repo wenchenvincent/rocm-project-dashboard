@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-11T08:30:18Z",
+  "collected_at": "2026-04-12T08:36:42Z",
   "prs": [
     {
       "number": 346,
@@ -8,20 +8,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-03T10:54:06Z",
-      "updated_at": "2026-04-11T07:11:46Z",
+      "updated_at": "2026-04-12T03:48:46Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/346",
       "labels": [],
       "draft": false
     },
     {
-      "number": 381,
-      "title": "[FIX] Fix atom_set_value signature mismatch and ROCDL compat",
-      "author": "coderfeli",
+      "number": 370,
+      "title": "Pr/a16wi4 group",
+      "author": "yadaish",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-11T00:59:17Z",
-      "updated_at": "2026-04-11T02:39:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/381",
+      "created_at": "2026-04-09T08:51:13Z",
+      "updated_at": "2026-04-11T12:03:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/370",
       "labels": [],
       "draft": false
     },
@@ -36,18 +36,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/341",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 370,
-      "title": "Pr/a16wi4 group",
-      "author": "yadaish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T08:51:13Z",
-      "updated_at": "2026-04-10T06:51:13Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/370",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 366,
@@ -94,6 +82,42 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 385,
+      "title": "update to v0.1.3",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-12T01:36:57Z",
+      "updated_at": "2026-04-12T01:38:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/385",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 384,
+      "title": "[Docs] Add MI355X/gfx1201 and MI450/gfx1250 to platform docs",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-12T00:32:34Z",
+      "updated_at": "2026-04-12T01:14:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/384",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 383,
+      "title": "[FIX] Support AOT cross-compilation with COMPILE_ONLY cache save",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-11T14:48:06Z",
+      "updated_at": "2026-04-12T00:14:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/383",
       "labels": [],
       "draft": false
     },
@@ -903,42 +927,6 @@
       "labels": [
         "enhancement"
       ],
-      "draft": false
-    },
-    {
-      "number": 270,
-      "title": "Refine kernel code",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T14:33:48Z",
-      "updated_at": "2026-03-24T03:43:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/270",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 262,
-      "title": "feat: support explicit kernel name in @flyc.kernel for profiler visib\u2026",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T02:34:40Z",
-      "updated_at": "2026-03-23T14:56:40Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/262",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 269,
-      "title": "[Build] Bump LLVM hash and fix compat",
-      "author": "jli-melchior",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T08:45:51Z",
-      "updated_at": "2026-03-23T14:56:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/269",
-      "labels": [],
       "draft": false
     }
   ]

@@ -1,6 +1,276 @@
 {
-  "collected_at": "2026-04-11T08:29:35Z",
+  "collected_at": "2026-04-12T08:35:51Z",
   "issues": [
+    {
+      "number": 99149,
+      "title": "Spectral Normalization can not be applied to Conv{1,2,3}d",
+      "author": "fabiobrau",
+      "state": "open",
+      "created_at": "2023-04-14T13:59:29Z",
+      "updated_at": "2026-04-12T05:14:59Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/99149",
+      "labels": [
+        "module: nn",
+        "module: convolution",
+        "triaged",
+        "needs research",
+        "module: norms and normalization"
+      ]
+    },
+    {
+      "number": 180161,
+      "title": "DISABLED test_throw_on_cudamalloc_oom (__main__.TestCudaAllocator)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-12T01:25:25Z",
+      "updated_at": "2026-04-12T01:27:10Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180161",
+      "labels": [
+        "module: rocm",
+        "module: tests",
+        "triaged",
+        "skipped",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 174358,
+      "title": "[Memory] Unbounded allocation on NVIDIA DGX (Unified Memory) causes system hang instead of OOM",
+      "author": "gbdjxgp",
+      "state": "open",
+      "created_at": "2026-02-05T06:45:54Z",
+      "updated_at": "2026-04-11T20:40:03Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/174358",
+      "labels": [
+        "module: cuda",
+        "triaged",
+        "module: deadlock",
+        "module: third_party",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179427,
+      "title": "[Stable C Shim] Ability to retrieve error messages",
+      "author": "iwanders",
+      "state": "open",
+      "created_at": "2026-04-05T20:06:25Z",
+      "updated_at": "2026-04-11T20:35:50Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179427",
+      "labels": [
+        "module: cpp-extensions",
+        "module: cpp",
+        "feature",
+        "triaged",
+        "module: custom-operators",
+        "oncall: pt2",
+        "oncall: export",
+        "module: pt2-dispatcher",
+        "module: aotinductor",
+        "bot-triaged",
+        "bot-mislabeled"
+      ]
+    },
+    {
+      "number": 180132,
+      "title": "DISABLED test_correctness_add_f32 (__main__.TestInlineAsmElementwise)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-11T17:33:06Z",
+      "updated_at": "2026-04-11T17:34:53Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180132",
+      "labels": [
+        "module: rocm",
+        "module: tests",
+        "triaged",
+        "skipped",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 180131,
+      "title": "DISABLED test_correctness_bf16_upcast (__main__.TestInlineAsmElementwise)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-11T17:22:39Z",
+      "updated_at": "2026-04-11T17:25:13Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180131",
+      "labels": [
+        "module: rocm",
+        "module: tests",
+        "triaged",
+        "module: bfloat16",
+        "skipped",
+        "oncall: pt2",
+        "module: higher order operators",
+        "module: pt2-dispatcher",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 179709,
+      "title": "Cannot export model with CenterCrop to ONNX",
+      "author": "Rayndell",
+      "state": "open",
+      "created_at": "2026-04-08T12:56:48Z",
+      "updated_at": "2026-04-11T15:51:32Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179709",
+      "labels": [
+        "module: onnx",
+        "triaged"
+      ]
+    },
+    {
+      "number": 180128,
+      "title": "DISABLED test_cpp_wrapper_cuda (__main__.FreezingGpuTests)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-11T13:54:20Z",
+      "updated_at": "2026-04-11T13:55:51Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180128",
+      "labels": [
+        "module: rocm",
+        "module: tests",
+        "triaged",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 180127,
+      "title": "DISABLED test_replicate_multi_module (__main__.ReplicateFullyShardInit)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-11T13:50:03Z",
+      "updated_at": "2026-04-11T13:52:52Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180127",
+      "labels": [
+        "oncall: distributed",
+        "module: rocm",
+        "triaged",
+        "skipped",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 180126,
+      "title": "DISABLED test_triton_kernel_dtype_view_cfg_cpp_wrapper (__main__.KernelTests)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-11T13:46:12Z",
+      "updated_at": "2026-04-11T13:48:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180126",
+      "labels": [
+        "module: rocm",
+        "module: tests",
+        "triaged",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 180125,
+      "title": "DISABLED test_skip_cpp_wrapper (__main__.CudaGraphTreeTests)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-11T13:42:20Z",
+      "updated_at": "2026-04-11T13:44:58Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180125",
+      "labels": [
+        "module: rocm",
+        "triaged",
+        "skipped",
+        "module: cuda graphs",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 121709,
+      "title": "DISABLED test_artificial_grid_cpp_wrapper (__main__.TestTritonHeuristics)",
+      "author": "jeffdaily",
+      "state": "open",
+      "created_at": "2024-03-12T04:56:57Z",
+      "updated_at": "2026-04-11T13:44:24Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/121709",
+      "labels": [
+        "triaged",
+        "skipped"
+      ]
+    },
+    {
+      "number": 180124,
+      "title": "DISABLED test_correctness_add_pack2 (__main__.TestInlineAsmElementwise)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-11T13:04:12Z",
+      "updated_at": "2026-04-11T13:07:20Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180124",
+      "labels": [
+        "module: rocm",
+        "triaged",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor",
+        "module: higher order operators",
+        "module: pt2-dispatcher",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 180123,
+      "title": "DISABLED test_uuid_visible_devices (__main__.TestCudaAllocator)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-11T13:01:37Z",
+      "updated_at": "2026-04-11T13:04:15Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180123",
+      "labels": [
+        "module: rocm",
+        "module: tests",
+        "triaged",
+        "skipped",
+        "module: CUDACachingAllocator",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 180122,
+      "title": "DISABLED test_cpp_wrapper (__main__.TestMemoryPlanning)",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-04-11T12:57:53Z",
+      "updated_at": "2026-04-11T12:59:43Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180122",
+      "labels": [
+        "module: rocm",
+        "module: tests",
+        "triaged",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 151726,
+      "title": "Exported Module cannot call train() or eval()",
+      "author": "supercharleszhu",
+      "state": "open",
+      "created_at": "2025-04-19T00:01:59Z",
+      "updated_at": "2026-04-11T12:18:17Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/151726",
+      "labels": [
+        "oncall: pt2",
+        "export-triaged",
+        "oncall: export"
+      ]
+    },
     {
       "number": 180117,
       "title": "CPU vs CUDA precision difference with full floats of torch.mean",
@@ -300,254 +570,6 @@
       "created_at": "2026-04-10T22:02:26Z",
       "updated_at": "2026-04-10T22:05:09Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/180065",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180064,
-      "title": "DISABLED test_unary_ufunc_numerical_log10_backend_inductor_numerics_cuda_float16 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T22:01:43Z",
-      "updated_at": "2026-04-10T22:03:50Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180064",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180063,
-      "title": "DISABLED test_unary_ufunc_numerical_expm1_backend_inductor_default_cuda_float32 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T22:01:10Z",
-      "updated_at": "2026-04-10T22:03:44Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180063",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180062,
-      "title": "DISABLED test_unary_ufunc_numerical_expm1_backend_inductor_default_cuda_bfloat16 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T22:00:12Z",
-      "updated_at": "2026-04-10T22:03:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180062",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "module: bfloat16",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180060,
-      "title": "DISABLED test_unary_ufunc_numerical_exp2_backend_inductor_default_cuda_float32 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:58:47Z",
-      "updated_at": "2026-04-10T22:01:00Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180060",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180059,
-      "title": "DISABLED test_unary_ufunc_numerical_exp2_backend_inductor_default_cuda_bfloat16 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:58:06Z",
-      "updated_at": "2026-04-10T22:00:52Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180059",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180061,
-      "title": "DISABLED test_unary_ufunc_numerical_exp_backend_inductor_default_cuda_float32 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:59:42Z",
-      "updated_at": "2026-04-10T21:59:48Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180061",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "skipped"
-      ]
-    },
-    {
-      "number": 180058,
-      "title": "DISABLED test_unary_ufunc_numerical_cos_backend_inductor_default_cuda_float32 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:57:34Z",
-      "updated_at": "2026-04-10T21:59:34Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180058",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180057,
-      "title": "DISABLED test_eager_equivalence_tanh_backend_inductor_default_cuda_float32 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:55:22Z",
-      "updated_at": "2026-04-10T21:57:26Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180057",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180056,
-      "title": "DISABLED test_eager_equivalence_rsqrt_backend_inductor_numerics_cuda_float32 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:54:26Z",
-      "updated_at": "2026-04-10T21:56:27Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180056",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180055,
-      "title": "DISABLED test_eager_equivalence_rsqrt_backend_inductor_default_cuda_float32 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:53:49Z",
-      "updated_at": "2026-04-10T21:55:54Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180055",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180054,
-      "title": "DISABLED test_eager_equivalence_remainder_backend_inductor_numerics_cuda_float32 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:53:21Z",
-      "updated_at": "2026-04-10T21:55:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180054",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180053,
-      "title": "DISABLED test_eager_equivalence_remainder_backend_inductor_numerics_cuda_float16 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:52:44Z",
-      "updated_at": "2026-04-10T21:55:15Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180053",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180051,
-      "title": "DISABLED test_eager_equivalence_remainder_backend_inductor_numerics_cuda_bfloat16 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:51:52Z",
-      "updated_at": "2026-04-10T21:53:59Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180051",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "module: pt2 accuracy",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 180049,
-      "title": "DISABLED test_eager_equivalence_remainder_backend_inductor_default_cuda_float32 (__main__.TestOpInfoPropertiesCUDA)",
-      "author": "pragupta",
-      "state": "open",
-      "created_at": "2026-04-10T21:51:22Z",
-      "updated_at": "2026-04-10T21:53:46Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180049",
       "labels": [
         "module: rocm",
         "module: tests",

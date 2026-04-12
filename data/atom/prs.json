@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-04-11T08:30:14Z",
+  "collected_at": "2026-04-12T08:36:37Z",
   "prs": [
+    {
+      "number": 545,
+      "title": "[feat](minimax): support minimax-2.5 in atom-vllm mode",
+      "author": "PerryZhang01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-12T04:28:51Z",
+      "updated_at": "2026-04-12T04:43:41Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/545",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 541,
+      "title": "Update the naming of vLLM-ATOM path ",
+      "author": "wuhuikx",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-10T05:00:35Z",
+      "updated_at": "2026-04-12T03:53:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/541",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 524,
+      "title": "[UI] Scope ATOM watermark to Performance tab only",
+      "author": "sunway513",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T02:06:35Z",
+      "updated_at": "2026-04-11T13:43:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/524",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 544,
+      "title": "[Feature] Support GLM-5 MTP for vLLM Pluggin.",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-11T13:25:43Z",
+      "updated_at": "2026-04-11T13:32:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/544",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 531,
       "title": "fix glm mtp weight",
@@ -26,18 +74,6 @@
       "draft": true
     },
     {
-      "number": 541,
-      "title": "Update the naming of vLLM-ATOM path ",
-      "author": "wuhuikx",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-10T05:00:35Z",
-      "updated_at": "2026-04-11T06:16:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/541",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 503,
       "title": "[plugin][OOT dashboard] use nightly date tagged docker",
       "author": "zejunchen-zejun",
@@ -46,18 +82,6 @@
       "created_at": "2026-04-07T08:13:11Z",
       "updated_at": "2026-04-11T05:33:26Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/503",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 524,
-      "title": "[UI] Scope ATOM watermark to Performance tab only",
-      "author": "sunway513",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T02:06:35Z",
-      "updated_at": "2026-04-11T03:37:46Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/524",
       "labels": [],
       "draft": false
     },
@@ -506,28 +530,28 @@
       "draft": true
     },
     {
-      "number": 250,
-      "title": "Fix block allocation for multi-token decode (speculative decoding)",
+      "number": 249,
+      "title": "Fix typos, dead code, uninitialized variable, and improve error handling",
       "author": "brucechanglongxu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-01T07:44:20Z",
+      "created_at": "2026-03-01T07:26:41Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/250",
+      "html_url": "https://github.com/ROCm/ATOM/pull/249",
       "labels": [],
       "draft": false
     },
     {
-      "number": 168,
-      "title": "[POC][Deepseek] Engram support, model_runner hash compute overlap",
-      "author": "ZhangLirong-amd",
+      "number": 36,
+      "title": "[Qwen3][fusion]port qknorm+rope fusion",
+      "author": "zhuyuhua-v",
       "state": "open",
       "merged": false,
-      "created_at": "2026-01-28T03:09:49Z",
+      "created_at": "2025-12-09T09:03:30Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/168",
+      "html_url": "https://github.com/ROCm/ATOM/pull/36",
       "labels": [],
-      "draft": true
+      "draft": false
     },
     {
       "number": 226,
@@ -550,6 +574,18 @@
       "created_at": "2026-03-08T21:52:24Z",
       "updated_at": "2026-03-16T05:44:15Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/278",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 250,
+      "title": "Fix block allocation for multi-token decode (speculative decoding)",
+      "author": "brucechanglongxu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-01T07:44:20Z",
+      "updated_at": "2026-03-16T05:44:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/250",
       "labels": [],
       "draft": false
     },
@@ -614,40 +650,40 @@
       "draft": false
     },
     {
-      "number": 45,
-      "title": "[feat]Add aiter quick allreduce path for Qwen3-MoE",
-      "author": "zhuyuhua-v",
+      "number": 296,
+      "title": "[draft][plugin] sgl radix attn backend",
+      "author": "ZhiweiYan-96",
       "state": "open",
       "merged": false,
-      "created_at": "2025-12-12T02:20:56Z",
+      "created_at": "2026-03-10T08:17:43Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/45",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 36,
-      "title": "[Qwen3][fusion]port qknorm+rope fusion",
-      "author": "zhuyuhua-v",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-12-09T09:03:30Z",
-      "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/36",
+      "html_url": "https://github.com/ROCm/ATOM/pull/296",
       "labels": [],
       "draft": false
     },
     {
-      "number": 240,
-      "title": "CI: Make ATOM benchmark can be called from other repos",
-      "author": "gyohuangxin",
+      "number": 168,
+      "title": "[POC][Deepseek] Engram support, model_runner hash compute overlap",
+      "author": "ZhangLirong-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-02-26T07:03:03Z",
+      "created_at": "2026-01-28T03:09:49Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/240",
+      "html_url": "https://github.com/ROCm/ATOM/pull/168",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 37,
+      "title": "[fusion] add new ar_norm fusion kernel",
+      "author": "gbyu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-12-09T14:43:20Z",
+      "updated_at": "2026-03-16T05:44:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/37",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 97,
@@ -662,26 +698,26 @@
       "draft": false
     },
     {
-      "number": 296,
-      "title": "[draft][plugin] sgl radix attn backend",
-      "author": "ZhiweiYan-96",
+      "number": 45,
+      "title": "[feat]Add aiter quick allreduce path for Qwen3-MoE",
+      "author": "zhuyuhua-v",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-10T08:17:43Z",
+      "created_at": "2025-12-12T02:20:56Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/296",
+      "html_url": "https://github.com/ROCm/ATOM/pull/45",
       "labels": [],
-      "draft": false
+      "draft": true
     },
     {
-      "number": 249,
-      "title": "Fix typos, dead code, uninitialized variable, and improve error handling",
-      "author": "brucechanglongxu",
+      "number": 302,
+      "title": "CI: Add warmup requests before benchmark to avoid JIT compilation during timed run",
+      "author": "gyohuangxin",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-01T07:26:41Z",
+      "created_at": "2026-03-11T06:29:07Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/249",
+      "html_url": "https://github.com/ROCm/ATOM/pull/302",
       "labels": [],
       "draft": false
     },
@@ -698,6 +734,18 @@
       "draft": false
     },
     {
+      "number": 206,
+      "title": "Revert \"CI: Use DeepSeek-R1-0528-mtp-mxfp4 models for deepseek fp4 tests\"",
+      "author": "gyohuangxin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-11T02:12:34Z",
+      "updated_at": "2026-03-16T05:44:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/206",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 156,
       "title": "Adding prefill decode markers to trace and enable shapes",
       "author": "msiddaiah",
@@ -710,28 +758,16 @@
       "draft": false
     },
     {
-      "number": 302,
-      "title": "CI: Add warmup requests before benchmark to avoid JIT compilation during timed run",
+      "number": 240,
+      "title": "CI: Make ATOM benchmark can be called from other repos",
       "author": "gyohuangxin",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-11T06:29:07Z",
+      "created_at": "2026-02-26T07:03:03Z",
       "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/302",
+      "html_url": "https://github.com/ROCm/ATOM/pull/240",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 206,
-      "title": "Revert \"CI: Use DeepSeek-R1-0528-mtp-mxfp4 models for deepseek fp4 tests\"",
-      "author": "gyohuangxin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-11T02:12:34Z",
-      "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/206",
-      "labels": [],
-      "draft": false
+      "draft": true
     },
     {
       "number": 154,
@@ -766,18 +802,6 @@
       "created_at": "2026-01-06T05:50:05Z",
       "updated_at": "2026-03-16T05:44:15Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/113",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 37,
-      "title": "[fusion] add new ar_norm fusion kernel",
-      "author": "gbyu-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-12-09T14:43:20Z",
-      "updated_at": "2026-03-16T05:44:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/37",
       "labels": [],
       "draft": false
     },

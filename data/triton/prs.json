@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-04-11T08:29:59Z",
+  "collected_at": "2026-04-12T08:36:23Z",
   "prs": [
+    {
+      "number": 9717,
+      "title": "[Tools][Translator] Add AMD backend support for Triton-to-Gluon translator",
+      "author": "jammm",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T19:15:08Z",
+      "updated_at": "2026-04-11T09:51:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9717",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9994,
       "title": "[AMD][GFX1250] Split unsupported async store widths into two half-width stores",
@@ -12,18 +24,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9994",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 9717,
-      "title": "[Tools][Translator] Add AMD backend support for Triton-to-Gluon translator",
-      "author": "jammm",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-13T19:15:08Z",
-      "updated_at": "2026-04-10T19:47:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9717",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 9947,

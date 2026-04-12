@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-11T08:30:20Z",
+  "collected_at": "2026-04-12T08:36:44Z",
   "prs": [
     {
       "number": 505,
@@ -8,7 +8,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-25T16:22:33Z",
-      "updated_at": "2026-04-10T21:21:21Z",
+      "updated_at": "2026-04-11T19:48:59Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/505",
       "labels": [
         "ci-level 1"
@@ -22,10 +22,24 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-27T23:29:43Z",
-      "updated_at": "2026-04-10T21:21:09Z",
+      "updated_at": "2026-04-11T17:58:50Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
       "labels": [
         "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 519,
+      "title": "\"castonly/casttranspose HIP kernel optimization in fp8",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-04T02:20:47Z",
+      "updated_at": "2026-04-11T14:24:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
+      "labels": [
+        "ci-level 3"
       ],
       "draft": false
     },
@@ -92,20 +106,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
       "labels": [
         "ci-level 2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 519,
-      "title": "Ct opt",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-04T02:20:47Z",
-      "updated_at": "2026-04-10T15:41:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     },
@@ -178,14 +178,14 @@
       "draft": false
     },
     {
-      "number": 461,
-      "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
-      "author": "VeeraRajasekhar",
+      "number": 123,
+      "title": "Honor the NVTE_FUSED_ATTN_<backend> in test_fused_attn.py",
+      "author": "wangye805",
       "state": "open",
       "merged": false,
-      "created_at": "2026-02-24T20:34:49Z",
+      "created_at": "2025-02-11T20:40:28Z",
       "updated_at": "2026-04-07T14:07:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/123",
       "labels": [],
       "draft": false
     },
@@ -202,6 +202,18 @@
       "draft": false
     },
     {
+      "number": 461,
+      "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-24T20:34:49Z",
+      "updated_at": "2026-04-07T14:07:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 177,
       "title": "[ROCm] support triton-based flash-attn in TE",
       "author": "wangye805",
@@ -210,18 +222,6 @@
       "created_at": "2025-05-01T16:34:32Z",
       "updated_at": "2026-04-07T14:07:29Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/177",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 123,
-      "title": "Honor the NVTE_FUSED_ATTN_<backend> in test_fused_attn.py",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-02-11T20:40:28Z",
-      "updated_at": "2026-04-07T14:07:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/123",
       "labels": [],
       "draft": false
     },

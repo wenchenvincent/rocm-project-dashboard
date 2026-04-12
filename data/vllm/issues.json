@@ -1,17 +1,163 @@
 {
-  "collected_at": "2026-04-11T08:29:48Z",
+  "collected_at": "2026-04-12T08:36:11Z",
   "issues": [
+    {
+      "number": 39610,
+      "title": "[Bug]: [Regression] MiniMax-M2.7 and other FP8 models fail on A100/Ampere with nightly while loading correctly on v0.19.0",
+      "author": "ehfd",
+      "state": "open",
+      "created_at": "2026-04-12T05:57:12Z",
+      "updated_at": "2026-04-12T08:27:36Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/39610",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 36802,
+      "title": "[Bug]: Tesla T4 GPU - triton.runtime.errors.OutOfResources: out of resource: shared memory, Required: 81920, Hardware limit: 65536. Reducing block sizes or `num_stages`",
+      "author": "ksecurity45",
+      "state": "open",
+      "created_at": "2026-03-11T16:21:59Z",
+      "updated_at": "2026-04-12T08:19:48Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/36802",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 26431,
+      "title": "[Bug]: KV Cache Quantization not working on v1 (rtx3090)  \"type fp8e4nv not supported in this architecture\"",
+      "author": "meganoob1337",
+      "state": "open",
+      "created_at": "2025-10-08T16:25:55Z",
+      "updated_at": "2026-04-12T05:49:25Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/26431",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 39584,
+      "title": "[Bug]:  AssertionError: Multiple tool calls in one delta is not supported - Responses API streaming crashes when model generates parallel tool calls",
+      "author": "scott8",
+      "state": "open",
+      "created_at": "2026-04-11T18:03:53Z",
+      "updated_at": "2026-04-12T01:59:34Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/39584",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 26211,
+      "title": "[Bug]: vLLM does not support DeepSeek series on RTX PRO 6000/SM120",
+      "author": "yuanyuan19",
+      "state": "open",
+      "created_at": "2025-10-04T05:52:15Z",
+      "updated_at": "2026-04-12T01:50:36Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/26211",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 39581,
+      "title": "[Bug]: `reasoning_effort` is silently ignored by nemotron_v3 reasoning parser, and `reasoning_effort: \"none\"` produces deceptive \"hidden cost\" output on Nemotron-H",
+      "author": "key4ng",
+      "state": "open",
+      "created_at": "2026-04-11T16:36:35Z",
+      "updated_at": "2026-04-12T01:46:09Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/39581",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 34449,
+      "title": "[Bug]: GLM-5-FP8 malformed tool calls",
+      "author": "TALLEC-Scott",
+      "state": "open",
+      "created_at": "2026-02-12T18:20:25Z",
+      "updated_at": "2026-04-12T01:45:00Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/34449",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 37758,
+      "title": "[Bug]: FLASHINFER_CUTLASS and FLASHINFER_TRTLLM do not work for Qwen3.5 Bf16 DP/EP",
+      "author": "robertgshaw2-redhat",
+      "state": "open",
+      "created_at": "2026-03-21T19:19:01Z",
+      "updated_at": "2026-04-12T01:12:40Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/37758",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 39426,
+      "title": "[Bug]:  /v1/responses: Protocol drift and malformed tool aggregation breaking official OpenAI SDK compatibility",
+      "author": "scott8",
+      "state": "open",
+      "created_at": "2026-04-09T15:48:46Z",
+      "updated_at": "2026-04-12T00:19:06Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/39426",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 38692,
+      "title": "[Bug]: parity with CUDA & parity with rocm sglang: vLLM router doesn't current support MoRI kvcache connector",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-01T05:30:51Z",
+      "updated_at": "2026-04-11T23:53:46Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/38692",
+      "labels": [
+        "bug",
+        "feature request",
+        "rocm"
+      ]
+    },
+    {
+      "number": 39589,
+      "title": "[Bug]: KV Cache Read/Write Index Corruption Under Concurrent Prefill of Variable-Length Sequences (vLLM V1, FlashInfer)",
+      "author": "Yunzez",
+      "state": "open",
+      "created_at": "2026-04-11T21:57:18Z",
+      "updated_at": "2026-04-11T21:57:18Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/39589",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 34994,
       "title": "[Feature]: Infrastructure Improvements for ROCm CI",
       "author": "AndreasKaratzas",
       "state": "open",
       "created_at": "2026-02-20T22:35:58Z",
-      "updated_at": "2026-04-11T08:18:22Z",
+      "updated_at": "2026-04-11T20:21:42Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/34994",
       "labels": [
         "feature request",
         "rocm"
+      ]
+    },
+    {
+      "number": 39057,
+      "title": "[Bug]: Deepseek v3.2 RuntimeError: Worker failed with error \"Assertion error\"",
+      "author": "jxdn",
+      "state": "open",
+      "created_at": "2026-04-06T05:36:01Z",
+      "updated_at": "2026-04-11T16:19:53Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/39057",
+      "labels": [
+        "bug"
       ]
     },
     {
@@ -215,18 +361,6 @@
       ]
     },
     {
-      "number": 39261,
-      "title": "[Bug]: Kimi K2.5 multimodal inference broken \u2014 media_placeholder_token_id mismatch with runtime tokenizer",
-      "author": "pstefa1707",
-      "state": "open",
-      "created_at": "2026-04-08T03:09:56Z",
-      "updated_at": "2026-04-10T06:40:03Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/39261",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 36954,
       "title": "[Bug]: KeyError 'layers.0.mlp.experts.w2_weight' when using speculative_config method='mtp' with Qwen3.5-122B-GPTQ-Int4 (moe_wna16) ",
       "author": "sunyong01",
@@ -246,30 +380,6 @@
       "created_at": "2026-04-10T03:18:13Z",
       "updated_at": "2026-04-10T04:19:12Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/39472",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 39198,
-      "title": "[Bug]: HFValidationError when trying to run a GGUF model with quants",
-      "author": "stanislavsimovski",
-      "state": "open",
-      "created_at": "2026-04-07T14:46:57Z",
-      "updated_at": "2026-04-10T03:14:22Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/39198",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 39426,
-      "title": "[Bug]:  /v1/responses: Protocol drift and malformed tool aggregation breaking official OpenAI SDK compatibility",
-      "author": "scott8",
-      "state": "open",
-      "created_at": "2026-04-09T15:48:46Z",
-      "updated_at": "2026-04-10T03:06:20Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/39426",
       "labels": [
         "bug"
       ]
@@ -326,28 +436,6 @@
       ]
     },
     {
-      "number": 39025,
-      "title": "[Bug]: CUDA illegal memory access with CUDA graphs enabled under high concurrency (Qwen3.5-35B-A3B, tp=2)",
-      "author": "vibhavagarwal5",
-      "state": "open",
-      "created_at": "2026-04-05T10:53:48Z",
-      "updated_at": "2026-04-10T00:17:55Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/39025",
-      "labels": []
-    },
-    {
-      "number": 39204,
-      "title": "[Installation]: New 0.19.0 docker build to run gemma4: transformers outdated.",
-      "author": "Huehnerbrust",
-      "state": "open",
-      "created_at": "2026-04-07T16:36:18Z",
-      "updated_at": "2026-04-09T20:01:54Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/39204",
-      "labels": [
-        "installation"
-      ]
-    },
-    {
       "number": 38884,
       "title": "[Bug]: Gemma 4 torch._dynamo.exc.TorchRuntimeError: Dynamo failed to run FX node with fake tensors",
       "author": "NilsHellwig",
@@ -380,18 +468,6 @@
       "created_at": "2026-04-05T20:27:05Z",
       "updated_at": "2026-04-09T17:41:12Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/39043",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 38892,
-      "title": "[Bug]: matmul_batch_invariant does not handle all torch.matmul dimension combinations (4D x 3D for gemma4-E2B)",
-      "author": "YM2132",
-      "state": "open",
-      "created_at": "2026-04-03T08:10:18Z",
-      "updated_at": "2026-04-09T15:02:23Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/38892",
       "labels": [
         "bug"
       ]
@@ -447,18 +523,6 @@
       ]
     },
     {
-      "number": 39341,
-      "title": "[Bug]: `max_num_batched_tokens=1` raises unhandled `IndexError`",
-      "author": "kvcache670",
-      "state": "open",
-      "created_at": "2026-04-08T19:51:44Z",
-      "updated_at": "2026-04-09T08:02:49Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/39341",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 32180,
       "title": "[Bug]: Performance Bottlenecks and V1 Engine Instability on AMD gfx1151 (Strix Halo)",
       "author": "kgundbrain",
@@ -471,19 +535,6 @@
         "performance",
         "feature request",
         "rocm"
-      ]
-    },
-    {
-      "number": 31661,
-      "title": "[Bug]: jina-reranker-m0 [image_index]   IndexError: list index out of range",
-      "author": "chen03191108-lab",
-      "state": "open",
-      "created_at": "2026-01-04T03:35:33Z",
-      "updated_at": "2026-04-09T02:15:21Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/31661",
-      "labels": [
-        "bug",
-        "stale"
       ]
     },
     {
@@ -522,20 +573,6 @@
         "bug",
         "rocm",
         "quantization"
-      ]
-    },
-    {
-      "number": 38692,
-      "title": "[Bug]: parity with CUDA & parity with rocm sglang: vLLM router doesn't current support MoRI kvcache connector",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-01T05:30:51Z",
-      "updated_at": "2026-04-08T15:02:43Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/38692",
-      "labels": [
-        "bug",
-        "feature request",
-        "rocm"
       ]
     },
     {
@@ -597,30 +634,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/34851",
       "labels": [
         "feature request"
-      ]
-    },
-    {
-      "number": 39202,
-      "title": "[Bug]: Crash on Transcription (size for tensor a must match the size of tensor b) with reproduce",
-      "author": "DefinitlyEvil",
-      "state": "open",
-      "created_at": "2026-04-07T15:46:16Z",
-      "updated_at": "2026-04-07T15:47:15Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/39202",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 38979,
-      "title": "[Bug]: Regression in vllm 0.19.0 - The page size of the layer is not divisible by the maximum page size",
-      "author": "outermeasure",
-      "state": "open",
-      "created_at": "2026-04-04T11:12:28Z",
-      "updated_at": "2026-04-07T15:38:53Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/38979",
-      "labels": [
-        "bug"
       ]
     }
   ]
