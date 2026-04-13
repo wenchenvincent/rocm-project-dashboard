@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-04-12T08:36:21Z",
+  "collected_at": "2026-04-13T09:25:20Z",
   "issues": [
+    {
+      "number": 22581,
+      "title": "[Feature] MiMo-V2-Flash MTP draft attention backend hardcoded to FlashAttentionBackend; request for configurable attention backend",
+      "author": "daishiqiang123",
+      "state": "open",
+      "created_at": "2026-04-11T06:36:20Z",
+      "updated_at": "2026-04-13T06:14:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22581",
+      "labels": []
+    },
+    {
+      "number": 22466,
+      "title": "[Bug] [Apple Silicon] Server Crash",
+      "author": "Jonahcb",
+      "state": "open",
+      "created_at": "2026-04-09T20:12:58Z",
+      "updated_at": "2026-04-12T17:44:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22466",
+      "labels": []
+    },
     {
       "number": 22568,
       "title": "[AMD] AITER Upgrade Issues",
@@ -9,16 +29,6 @@
       "created_at": "2026-04-11T01:24:20Z",
       "updated_at": "2026-04-12T06:04:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22568",
-      "labels": []
-    },
-    {
-      "number": 22581,
-      "title": "[Feature] MiMo-V2-Flash MTP draft attention backend hardcoded to FlashAttentionBackend; request for configurable attention backend",
-      "author": "daishiqiang123",
-      "state": "open",
-      "created_at": "2026-04-11T06:36:20Z",
-      "updated_at": "2026-04-11T06:37:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22581",
       "labels": []
     },
     {
@@ -32,16 +42,6 @@
       "labels": [
         "mthreads"
       ]
-    },
-    {
-      "number": 22466,
-      "title": "[Bug] [Apple Silicon] Server Crash",
-      "author": "Jonahcb",
-      "state": "open",
-      "created_at": "2026-04-09T20:12:58Z",
-      "updated_at": "2026-04-11T01:02:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22466",
-      "labels": []
     },
     {
       "number": 22464,

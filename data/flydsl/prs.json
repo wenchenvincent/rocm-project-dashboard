@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-04-12T08:36:42Z",
+  "collected_at": "2026-04-13T09:25:44Z",
   "prs": [
+    {
+      "number": 391,
+      "title": "[FEAT] Add get_leaves op and support convert dyn_tuple to py_tuple",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-13T09:02:21Z",
+      "updated_at": "2026-04-13T09:22:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/391",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 346,
       "title": "[FLYDSL]: if dispatch dynamic tests refactor",
@@ -8,20 +20,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-03T10:54:06Z",
-      "updated_at": "2026-04-12T03:48:46Z",
+      "updated_at": "2026-04-13T09:15:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/346",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 370,
-      "title": "Pr/a16wi4 group",
-      "author": "yadaish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T08:51:13Z",
-      "updated_at": "2026-04-11T12:03:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/370",
       "labels": [],
       "draft": false
     },
@@ -32,22 +32,58 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-03T02:53:46Z",
-      "updated_at": "2026-04-10T11:01:13Z",
+      "updated_at": "2026-04-13T09:10:03Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/341",
       "labels": [],
       "draft": true
     },
     {
-      "number": 366,
-      "title": " w16ai4 group v1",
+      "number": 387,
+      "title": "Add CI testcases and benchmark for allreduce",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-13T06:28:57Z",
+      "updated_at": "2026-04-13T08:45:26Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/387",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 390,
+      "title": "support split-k algo for moe_gemm_2stage",
       "author": "yadaish",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-09T07:07:10Z",
-      "updated_at": "2026-04-09T07:07:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/366",
+      "created_at": "2026-04-13T08:22:31Z",
+      "updated_at": "2026-04-13T08:22:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/390",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 388,
+      "title": "[Perf] Port mixed_moe kernel optimizations for stage1/stage2",
+      "author": "lalala-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-13T07:47:34Z",
+      "updated_at": "2026-04-13T07:47:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/388",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 386,
+      "title": "support glibc2.28 and python 3.10~3.14",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-13T01:29:47Z",
+      "updated_at": "2026-04-13T07:15:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/386",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 354,
@@ -86,13 +122,25 @@
       "draft": false
     },
     {
+      "number": 370,
+      "title": "Pr/a16wi4 group",
+      "author": "yadaish",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-09T08:51:13Z",
+      "updated_at": "2026-04-13T05:09:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/370",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 385,
       "title": "update to v0.1.3",
       "author": "coderfeli",
       "state": "closed",
       "merged": true,
       "created_at": "2026-04-12T01:36:57Z",
-      "updated_at": "2026-04-12T01:38:52Z",
+      "updated_at": "2026-04-12T09:29:29Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/385",
       "labels": [],
       "draft": false
@@ -901,32 +949,6 @@
       "updated_at": "2026-03-25T07:45:42Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/280",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 276,
-      "title": "Refactor: extract pluggable compile-backend system",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-24T03:30:42Z",
-      "updated_at": "2026-03-25T07:45:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/276",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 267,
-      "title": "Add support to setting known_block_size",
-      "author": "ruanjm",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T08:09:18Z",
-      "updated_at": "2026-03-25T02:31:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/267",
-      "labels": [
-        "enhancement"
-      ],
       "draft": false
     }
   ]

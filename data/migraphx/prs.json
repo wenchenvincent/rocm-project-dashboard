@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-12T08:36:26Z",
+  "collected_at": "2026-04-13T09:25:26Z",
   "prs": [
     {
       "number": 4754,
@@ -8,11 +8,50 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-08T15:00:06Z",
-      "updated_at": "2026-04-12T04:56:15Z",
+      "updated_at": "2026-04-13T07:12:48Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4754",
       "labels": [
         "ok-to-test"
       ],
+      "draft": false
+    },
+    {
+      "number": 4742,
+      "title": "[AIRADSW-64] Add Parser for arrayfeatureextractor Onnx op",
+      "author": "tamahedi",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-06T15:10:41Z",
+      "updated_at": "2026-04-13T05:00:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4742",
+      "labels": [
+        "Onnx Operators",
+        "Changelog: Added"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4714,
+      "title": "AIMIGRAPHX-585 Update MIGraphX build/package scripts for TheRock 7.12 compatibility",
+      "author": "kentqian",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-27T16:25:04Z",
+      "updated_at": "2026-04-12T22:53:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4714",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4707,
+      "title": "Improve adaptive GPU defaults and device feature caching",
+      "author": "Rolaand-Jayz",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-26T13:41:29Z",
+      "updated_at": "2026-04-12T14:38:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4707",
+      "labels": [],
       "draft": false
     },
     {
@@ -223,33 +262,6 @@
       "updated_at": "2026-04-10T16:40:04Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4771",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4714,
-      "title": "AIMIGRAPHX-585 Update MIGraphX build/package scripts for TheRock 7.12 compatibility",
-      "author": "kentqian",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-27T16:25:04Z",
-      "updated_at": "2026-04-10T16:36:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4714",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4742,
-      "title": "[AIRADSW-64] Add Parser for arrayfeatureextractor Onnx op",
-      "author": "tamahedi",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-06T15:10:41Z",
-      "updated_at": "2026-04-10T16:28:20Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4742",
-      "labels": [
-        "Onnx Operators",
-        "Changelog: Added"
-      ],
       "draft": false
     },
     {
@@ -685,18 +697,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4727",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4707,
-      "title": "Improve adaptive GPU defaults and device feature caching",
-      "author": "Rolaand-Jayz",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T13:41:29Z",
-      "updated_at": "2026-03-31T20:59:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4707",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4709,

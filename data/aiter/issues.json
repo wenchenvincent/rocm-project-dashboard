@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-12T08:36:35Z",
+  "collected_at": "2026-04-13T09:25:37Z",
   "issues": [
     {
       "number": 2694,
@@ -777,18 +777,6 @@
       "updated_at": "2026-02-12T20:55:25Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2046",
       "labels": []
-    },
-    {
-      "number": 2033,
-      "title": "[Feature]: Add OPUS tests in Aiter CI",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-02-11T14:33:47Z",
-      "updated_at": "2026-02-12T06:04:18Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2033",
-      "labels": [
-        "frameworks-devops"
-      ]
     },
     {
       "number": 2021,

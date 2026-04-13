@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-04-12T08:37:45Z",
+  "collected_at": "2026-04-13T09:26:53Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 80,
-      "merged": 57,
-      "closed": 12
+      "opened": 88,
+      "merged": 63,
+      "closed": 17
     },
     "last_week": {
-      "opened": 91,
-      "merged": 60,
-      "closed": 11
+      "opened": 83,
+      "merged": 52,
+      "closed": 10
     },
-    "median_time_to_merge_hours": 25.0,
-    "merge_count": 120,
+    "median_time_to_merge_hours": 23.8,
+    "merge_count": 119,
     "stale_prs": 7
   },
   "contributors": {
-    "active_this_week": 68,
+    "active_this_week": 71,
     "total_contributors": 146,
     "top_contributors": [
       {
-        "author": "sunway513",
-        "prs_submitted": 12,
-        "prs_merged": 0,
-        "commits": 0
+        "author": "gyohuangxin",
+        "prs_submitted": 15,
+        "prs_merged": 10,
+        "commits": 32
       },
       {
-        "author": "gyohuangxin",
-        "prs_submitted": 12,
-        "prs_merged": 7,
-        "commits": 31
+        "author": "sunway513",
+        "prs_submitted": 14,
+        "prs_merged": 1,
+        "commits": 1
       },
       {
         "author": "yzhou103",
@@ -52,22 +52,16 @@
         "commits": 9
       },
       {
-        "author": "junhaha666",
-        "prs_submitted": 7,
-        "prs_merged": 6,
-        "commits": 13
-      },
-      {
-        "author": "etemadiamd",
-        "prs_submitted": 6,
-        "prs_merged": 1,
-        "commits": 1
-      },
-      {
         "author": "ChuanLi1101",
         "prs_submitted": 6,
         "prs_merged": 0,
         "commits": 0
+      },
+      {
+        "author": "junhaha666",
+        "prs_submitted": 6,
+        "prs_merged": 6,
+        "commits": 14
       },
       {
         "author": "TennyWang1223",
@@ -76,24 +70,30 @@
         "commits": 5
       },
       {
+        "author": "etemadiamd",
+        "prs_submitted": 5,
+        "prs_merged": 0,
+        "commits": 1
+      },
+      {
         "author": "valarLip",
         "prs_submitted": 5,
         "prs_merged": 5,
         "commits": 13
       }
     ],
-    "bus_factor": 7
+    "bus_factor": 6
   },
   "issue_health": {
-    "total_open": 147,
+    "total_open": 146,
     "opened_this_week": 4,
-    "closed_this_week": 2,
+    "closed_this_week": 3,
     "unanswered": 53
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 0.5,
+    "days_since_last": 1.6,
     "avg_interval_days": 56.5,
     "total_releases": 5,
     "latest_tag": "v0.1.12.post1"
