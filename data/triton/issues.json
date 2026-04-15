@@ -1,17 +1,15 @@
 {
-  "collected_at": "2026-04-13T09:25:23Z",
+  "collected_at": "2026-04-15T09:09:11Z",
   "issues": [
     {
-      "number": 9907,
-      "title": "[AMD] ConvertToBufferOps produces invalid IR with i64 offsets",
-      "author": "nurmukhametov",
+      "number": 10036,
+      "title": "HIP: invalid device ordinal on gfx1151 (AMD Strix Halo iGPU) in subprocess",
+      "author": "stampby",
       "state": "open",
-      "created_at": "2026-04-02T21:44:00Z",
-      "updated_at": "2026-04-02T21:44:00Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/9907",
-      "labels": [
-        "bug"
-      ]
+      "created_at": "2026-04-15T01:29:45Z",
+      "updated_at": "2026-04-15T01:29:45Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/10036",
+      "labels": []
     },
     {
       "number": 8595,

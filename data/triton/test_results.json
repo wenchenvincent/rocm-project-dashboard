@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-04-13T09:25:58Z",
+  "collected_at": "2026-04-15T09:10:06Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Integration Tests",
-    "run_id": 24306720807,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/24306720807",
-    "run_date": "2026-04-12T13:26:35Z",
+    "run_id": 24436750678,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/24436750678",
+    "run_date": "2026-04-15T06:40:50Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 3,
@@ -46,21 +46,21 @@
   },
   "cuda": {
     "workflow_name": "Integration Tests",
-    "run_id": 24306720807,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/24306720807",
-    "run_date": "2026-04-12T13:26:35Z",
+    "run_id": 24436750678,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/24436750678",
+    "run_date": "2026-04-15T06:40:50Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 3,
       "passed": 2,
-      "failed": 0,
-      "skipped": 1,
-      "pass_rate": 100.0
+      "failed": 1,
+      "skipped": 0,
+      "pass_rate": 66.67
     },
     "suites": [
       {
-        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-gb200)",
-        "conclusion": "cancelled",
+        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-h100)",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -68,7 +68,7 @@
         "errors": null
       },
       {
-        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-a100)",
+        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-gb200)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -77,7 +77,7 @@
         "errors": null
       },
       {
-        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-h100)",
+        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-a100)",
         "conclusion": "success",
         "tests": null,
         "passed": null,

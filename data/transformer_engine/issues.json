@@ -1,6 +1,19 @@
 {
-  "collected_at": "2026-04-13T09:25:47Z",
+  "collected_at": "2026-04-15T09:09:43Z",
   "issues": [
+    {
+      "number": 539,
+      "title": "MXFP8 uses logical block size 32, but some ROCm training paths still hard-require `block_len == 128`",
+      "author": "ramgandikota",
+      "state": "open",
+      "created_at": "2026-04-13T23:00:14Z",
+      "updated_at": "2026-04-14T14:05:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/issues/539",
+      "labels": [
+        "bug",
+        "status: triage"
+      ]
+    },
     {
       "number": 520,
       "title": "[BUG] gfx1201 (RDNA4 / Radeon AI PRO R9700) not in AITER arch table \u2014 FP8 WMMA silently falls back to FP32",

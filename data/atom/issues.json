@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-04-13T09:25:40Z",
+  "collected_at": "2026-04-15T09:09:33Z",
   "issues": [
+    {
+      "number": 565,
+      "title": "CI: Qwen3-Next-80B-A3B-Thinking accuracy test times out at 30-minute limit",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-04-14T17:29:34Z",
+      "updated_at": "2026-04-14T17:29:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/565",
+      "labels": []
+    },
+    {
+      "number": 555,
+      "title": "[parity with vllm & sglang]:  forcing a specific acceptance rate during rejection sampling",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-14T04:04:21Z",
+      "updated_at": "2026-04-14T04:04:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/555",
+      "labels": []
+    },
+    {
+      "number": 553,
+      "title": "[Feature]: ROCm Kimi K2.5 EAGLE3 MTP heads",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-14T01:14:09Z",
+      "updated_at": "2026-04-14T03:55:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/553",
+      "labels": []
+    },
+    {
+      "number": 552,
+      "title": "[Feature]: docs on how to use atom with claude code",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-14T01:13:11Z",
+      "updated_at": "2026-04-14T01:13:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/552",
+      "labels": []
+    },
     {
       "number": 488,
       "title": "[Feature]: ATOM OpenAI Server, OpenClaw",

@@ -1,14 +1,48 @@
 {
-  "collected_at": "2026-04-13T09:25:45Z",
+  "collected_at": "2026-04-15T09:09:40Z",
   "issues": [
+    {
+      "number": 400,
+      "title": "[Feature]: SSA Phi Explosion: VGPR Waste and Spills When Large Accumulators Cross `scf.IfOp` Boundaries",
+      "author": "ruanjm",
+      "state": "open",
+      "created_at": "2026-04-14T10:37:01Z",
+      "updated_at": "2026-04-14T10:37:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/400",
+      "labels": []
+    },
+    {
+      "number": 396,
+      "title": "[Issue]: centos install failed",
+      "author": "coderfeli",
+      "state": "open",
+      "created_at": "2026-04-14T02:55:43Z",
+      "updated_at": "2026-04-14T02:56:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/396",
+      "labels": [
+        "enhancement"
+      ]
+    },
     {
       "number": 380,
       "title": "[Issue]: #ifdef guard on enum value mgpuLaunchClusterKernel makes cluster launch dead code",
       "author": "ahmed-bsod",
       "state": "open",
       "created_at": "2026-04-10T18:09:59Z",
-      "updated_at": "2026-04-10T18:12:23Z",
+      "updated_at": "2026-04-14T02:37:49Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/380",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 304,
+      "title": "[Feature]: Move benchmark/perf test from test folder to FlyDSL python source",
+      "author": "rahulbatra85",
+      "state": "open",
+      "created_at": "2026-03-27T23:17:10Z",
+      "updated_at": "2026-04-13T13:22:26Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/304",
       "labels": []
     },
     {
@@ -112,16 +146,6 @@
       "labels": []
     },
     {
-      "number": 323,
-      "title": "[Issue]: make_layout_tv API fails due to compilation issue",
-      "author": "rahulbatra85",
-      "state": "open",
-      "created_at": "2026-03-31T18:58:39Z",
-      "updated_at": "2026-04-01T06:23:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/323",
-      "labels": []
-    },
-    {
       "number": 317,
       "title": "[Issue]: Cached kernel is used for different shapes and resulting in incorrect outputs for vecAdd",
       "author": "rahulbatra85",
@@ -129,16 +153,6 @@
       "created_at": "2026-03-31T02:55:07Z",
       "updated_at": "2026-03-31T03:54:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/317",
-      "labels": []
-    },
-    {
-      "number": 304,
-      "title": "[Feature]: Move benchmark/perf test from test folder to FlyDSL python source",
-      "author": "rahulbatra85",
-      "state": "open",
-      "created_at": "2026-03-27T23:17:10Z",
-      "updated_at": "2026-03-27T23:19:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/304",
       "labels": []
     },
     {

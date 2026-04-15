@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-04-13T09:24:47Z",
+  "collected_at": "2026-04-15T09:08:22Z",
   "prs": [
+    {
+      "number": 36807,
+      "title": "[ROCm] Skip Pallas multimem tests on non-CUDA platforms",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-15T03:22:26Z",
+      "updated_at": "2026-04-15T04:19:03Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36807",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 36806,
+      "title": "[ROCm] Rotate GPU visibility across xdist workers instead of pinning",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-15T03:04:04Z",
+      "updated_at": "2026-04-15T04:04:42Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36806",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 36684,
       "title": "[ROCm] Use CloudFront download for ROCm wheels instead of S3",
@@ -8,9 +32,40 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-10T20:17:36Z",
-      "updated_at": "2026-04-10T20:47:25Z",
+      "updated_at": "2026-04-14T22:32:18Z",
       "html_url": "https://github.com/jax-ml/jax/pull/36684",
       "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 36739,
+      "title": "[ROCm] Add Bazel option `remote_download_toplevel` for building.",
+      "author": "tsrw2048",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-13T20:54:00Z",
+      "updated_at": "2026-04-14T16:59:02Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36739",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35785,
+      "title": "[ROCm] Fix and simplify jax rocm plugin init script",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T21:06:53Z",
+      "updated_at": "2026-04-13T14:42:23Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/35785",
+      "labels": [
+        "pull ready",
         "AMD GPU"
       ],
       "draft": false
@@ -101,21 +156,6 @@
       "updated_at": "2026-04-07T13:57:55Z",
       "html_url": "https://github.com/jax-ml/jax/pull/36545",
       "labels": [
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 35785,
-      "title": "[ROCm] Fix and simplify jax rocm plugin init script",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-10T21:06:53Z",
-      "updated_at": "2026-04-04T11:12:48Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35785",
-      "labels": [
-        "pull ready",
         "AMD GPU"
       ],
       "draft": false
