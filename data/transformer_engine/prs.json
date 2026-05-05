@@ -1,73 +1,113 @@
 {
-  "collected_at": "2026-04-15T09:09:42Z",
+  "collected_at": "2026-05-05T09:51:14Z",
   "prs": [
     {
-      "number": 519,
-      "title": "\"castonly/casttranspose HIP kernel optimization in fp8",
-      "author": "alextmagro",
+      "number": 575,
+      "title": "Fix build on Pytorch 2.11 (#16505)",
+      "author": "ipanfilo",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-04T02:20:47Z",
-      "updated_at": "2026-04-15T03:08:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
+      "created_at": "2026-05-05T05:33:41Z",
+      "updated_at": "2026-05-05T05:33:42Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/575",
       "labels": [
-        "ci-level 3"
+        "ci-level 1"
       ],
       "draft": false
     },
     {
-      "number": 541,
-      "title": "Integrate AITER fused RoPE kernels with fallback to TE native",
-      "author": "suachong",
+      "number": 573,
+      "title": "[ROCm] Allow bf16/bf16/fp32 in nvte_multi_tensor_gemm dispatcher",
+      "author": "lizamd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-15T00:40:15Z",
-      "updated_at": "2026-04-15T00:40:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/541",
+      "created_at": "2026-05-04T23:47:38Z",
+      "updated_at": "2026-05-05T03:40:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/573",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 574,
+      "title": "ck_tile grouped gemm: more padding",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-05T00:15:07Z",
+      "updated_at": "2026-05-05T00:15:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/574",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 527,
+      "title": "Gfx1250 changes",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-07T03:45:24Z",
+      "updated_at": "2026-05-04T21:54:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
+      "labels": [
+        "ci-level 2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 568,
+      "title": "[proof-of-concept] add MXFP8 pre-swizzling for gfx1250",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-29T16:59:38Z",
+      "updated_at": "2026-05-04T17:56:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/568",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 571,
+      "title": "gfx1250 swizzle_xor changes for FP4",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-01T18:44:12Z",
+      "updated_at": "2026-05-04T04:05:44Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/571",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 543,
+      "title": "CI: auto-trigger AITER prebuilt upload when 3rdparty/aiter updates on dev",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-15T20:33:43Z",
+      "updated_at": "2026-05-02T01:27:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/543",
       "labels": [],
       "draft": false
     },
     {
-      "number": 537,
-      "title": "Full MXFP4 Training Recipe",
-      "author": "sarthak-amd",
+      "number": 570,
+      "title": "[No Merge][No Review] testing aiter auto trigger on gh action",
+      "author": "VeeraRajasekhar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-13T19:01:58Z",
-      "updated_at": "2026-04-14T23:28:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/537",
+      "created_at": "2026-05-01T15:40:06Z",
+      "updated_at": "2026-05-02T00:46:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/570",
       "labels": [
-        "ci-level 3"
+        "ci-level 2"
       ],
-      "draft": false
-    },
-    {
-      "number": 508,
-      "title": "[TE] Enable deterministic mode for fused attention",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-27T18:37:04Z",
-      "updated_at": "2026-04-14T23:16:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 540,
-      "title": "Added worktree-friendly git commit SHA1 lookup",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-14T16:55:55Z",
-      "updated_at": "2026-04-14T22:07:35Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/540",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
+      "draft": true
     },
     {
       "number": 538,
@@ -76,12 +116,166 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-13T20:30:21Z",
-      "updated_at": "2026-04-14T19:40:24Z",
+      "updated_at": "2026-05-01T22:02:04Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/538",
       "labels": [
         "ci-level 3"
       ],
       "draft": false
+    },
+    {
+      "number": 563,
+      "title": "Update QoLA reducing [compile time, kernel count, lib size] by ~2x (Diet QoLA)",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-27T15:53:46Z",
+      "updated_at": "2026-05-01T21:26:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/563",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 566,
+      "title": "HipKittens MXFP8 GEMM Support",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-28T05:16:00Z",
+      "updated_at": "2026-05-01T21:26:09Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/566",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 560,
+      "title": "Claude PR review use OIDC-free method",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-24T14:13:51Z",
+      "updated_at": "2026-05-01T05:01:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/560",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 558,
+      "title": "[WIP] TDM porting",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-22T21:47:25Z",
+      "updated_at": "2026-04-30T16:30:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/558",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 542,
+      "title": "[TE] Phase 2 of small-seq cross-attn integration: a separate cpp backend and a new jax api ",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-15T17:03:18Z",
+      "updated_at": "2026-04-28T17:01:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/542",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 547,
+      "title": "Enable CI lint gh action on ROCm",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-17T06:05:09Z",
+      "updated_at": "2026-04-27T15:09:31Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/547",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 478,
+      "title": "Microbenchmarking, CSV-based",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T15:43:14Z",
+      "updated_at": "2026-04-26T21:04:42Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 541,
+      "title": "Integrate AITER fused RoPE kernels with fallback to TE native",
+      "author": "suachong",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-15T00:40:15Z",
+      "updated_at": "2026-04-24T18:19:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/541",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 448,
+      "title": "Added initial AI Agent instructions and skills",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-12T17:27:07Z",
+      "updated_at": "2026-04-23T03:47:53Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 487,
+      "title": "ASV-format microbenchmark suite",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-16T23:20:12Z",
+      "updated_at": "2026-04-22T15:43:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 557,
+      "title": "IFU v2.14.dev0",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-21T21:17:02Z",
+      "updated_at": "2026-04-21T21:17:02Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/557",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 515,
+      "title": "NVFP4: hadamard_transform_cast_fusion_columnwise",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-01T20:14:08Z",
+      "updated_at": "2026-04-20T17:47:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/515",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
     },
     {
       "number": 492,
@@ -98,110 +292,6 @@
       "draft": false
     },
     {
-      "number": 529,
-      "title": "Ipanfilo/wheel build action",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T16:45:14Z",
-      "updated_at": "2026-04-14T16:46:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/529",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 528,
-      "title": "CI: Refactor ROCm CI to use GPU-sized runners and build-only jobs",
-      "author": "leo-automation",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T14:15:38Z",
-      "updated_at": "2026-04-14T15:14:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/528",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 448,
-      "title": "Added initial AI Agent instructions and skills",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-12T17:27:07Z",
-      "updated_at": "2026-04-14T03:10:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 509,
-      "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-27T23:29:43Z",
-      "updated_at": "2026-04-14T02:32:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 518,
-      "title": "[proof-of-concept] NVFP4 GEMM via BF16 dequant",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T16:44:44Z",
-      "updated_at": "2026-04-13T19:58:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 506,
-      "title": "Full MXFP4 Training Recipe",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T01:45:59Z",
-      "updated_at": "2026-04-13T18:50:31Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/506",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 527,
-      "title": "Gfx1250 changes",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T03:45:24Z",
-      "updated_at": "2026-04-10T16:19:11Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 123,
-      "title": "Honor the NVTE_FUSED_ATTN_<backend> in test_fused_attn.py",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-02-11T20:40:28Z",
-      "updated_at": "2026-04-07T14:07:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/123",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 461,
       "title": "[NO MERGE] Integrate CK varlen cross attention for small-seq (s_q=1, s_kv<=16)",
       "author": "VeeraRajasekhar",
@@ -210,18 +300,6 @@
       "created_at": "2026-02-24T20:34:49Z",
       "updated_at": "2026-04-07T14:07:29Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/461",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 177,
-      "title": "[ROCm] support triton-based flash-attn in TE",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-05-01T16:34:32Z",
-      "updated_at": "2026-04-07T14:07:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/177",
       "labels": [],
       "draft": false
     },
@@ -238,62 +316,26 @@
       "draft": false
     },
     {
-      "number": 478,
-      "title": "Microbenchmarking and CI performance regression test",
-      "author": "matthiasdiener",
+      "number": 177,
+      "title": "[ROCm] support triton-based flash-attn in TE",
+      "author": "wangye805",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-10T15:43:14Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 400,
-      "title": "CI: Switch GHA pipeline to build and test wheels",
-      "author": "leo-automation",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-12-09T15:48:42Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/400",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 489,
-      "title": "Add AITER fused RoPE dispatch to FusedRoPEFunc",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-17T04:15:33Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/489",
+      "created_at": "2025-05-01T16:34:32Z",
+      "updated_at": "2026-04-07T14:07:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/177",
       "labels": [],
       "draft": false
     },
     {
-      "number": 409,
-      "title": "Hotfix/fused ce triton",
-      "author": "sarthak-amd",
+      "number": 123,
+      "title": "Honor the NVTE_FUSED_ATTN_<backend> in test_fused_attn.py",
+      "author": "wangye805",
       "state": "open",
       "merged": false,
-      "created_at": "2026-01-12T04:38:42Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/409",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 336,
-      "title": "Fused Cross Entropy Triton - Loss Scaling and Vanishing Grads Bugfix",
-      "author": "sarthak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-10-16T12:30:00Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/336",
+      "created_at": "2025-02-11T20:40:28Z",
+      "updated_at": "2026-04-07T14:07:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/123",
       "labels": [],
       "draft": false
     },
@@ -334,6 +376,30 @@
       "draft": false
     },
     {
+      "number": 336,
+      "title": "Fused Cross Entropy Triton - Loss Scaling and Vanishing Grads Bugfix",
+      "author": "sarthak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-10-16T12:30:00Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/336",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 489,
+      "title": "Add AITER fused RoPE dispatch to FusedRoPEFunc",
+      "author": "sarthak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-17T04:15:33Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/489",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 480,
       "title": "Add Claude to review PRs",
       "author": "wenchenvincent",
@@ -346,69 +412,313 @@
       "draft": false
     },
     {
-      "number": 468,
-      "title": "Use static libraries for AITER build",
-      "author": "Micky774",
+      "number": 400,
+      "title": "CI: Switch GHA pipeline to build and test wheels",
+      "author": "leo-automation",
       "state": "open",
       "merged": false,
-      "created_at": "2026-03-02T21:50:32Z",
+      "created_at": "2025-12-09T15:48:42Z",
       "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/468",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/400",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 572,
+      "title": "[CI] upgrade hypothesis/setuptools",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-04T19:11:24Z",
+      "updated_at": "2026-05-04T22:10:52Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/572",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 555,
+      "title": "ci: add workflow to build and publish CI deps Docker image",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-20T23:48:10Z",
+      "updated_at": "2026-04-29T19:28:06Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/555",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 518,
+      "title": "NVFP4 recipe with GEMM via BF16 dequant",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-02T16:44:44Z",
+      "updated_at": "2026-04-29T18:09:42Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 565,
+      "title": "Fix flash-attention build env in CI deps Dockerfile",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-27T20:35:29Z",
+      "updated_at": "2026-04-29T16:52:01Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/565",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 567,
+      "title": "Disable all UB layer tests for gfx942",
+      "author": "alextmagro",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-28T22:25:52Z",
+      "updated_at": "2026-04-29T16:51:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/567",
       "labels": [
         "ci-level 3"
       ],
       "draft": false
     },
     {
-      "number": 487,
-      "title": "ASV-format microbenchmark suite",
+      "number": 556,
+      "title": "[ROCm] add the bias all row -inf support for jax unfused-attn",
+      "author": "wangye805",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-21T01:21:33Z",
+      "updated_at": "2026-04-29T16:49:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/556",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 528,
+      "title": "CI: Refactor ROCm CI to use GPU-sized runners and build-only jobs",
+      "author": "leo-automation",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T14:15:38Z",
+      "updated_at": "2026-04-29T08:12:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/528",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 551,
+      "title": "Refactor CK FA dispatch, and collapse API",
       "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-16T23:20:12Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-20T21:12:08Z",
+      "updated_at": "2026-04-28T21:06:17Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/551",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 529,
+      "title": "Ipanfilo/wheel build action",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T16:45:14Z",
+      "updated_at": "2026-04-28T05:26:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/529",
       "labels": [],
       "draft": false
     },
     {
-      "number": 517,
-      "title": "[proof-of-concept] Enable NVFP4 recipe",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T16:28:12Z",
-      "updated_at": "2026-04-02T18:23:05Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/517",
+      "number": 537,
+      "title": "Full MXFP4 Training Recipe",
+      "author": "sarthak-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-13T19:01:58Z",
+      "updated_at": "2026-04-28T03:35:30Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/537",
       "labels": [
-        "ci-level 1"
+        "ci-level 3"
       ],
-      "draft": true
+      "draft": false
     },
     {
-      "number": 515,
-      "title": "[WIP] NVFP4: hadamard_transform_cast_fusion_columnwise",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-01T20:14:08Z",
-      "updated_at": "2026-04-02T18:22:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/515",
+      "number": 508,
+      "title": "[TE] Enable deterministic mode for fused attention",
+      "author": "AllenFarcas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-27T18:37:04Z",
+      "updated_at": "2026-04-27T18:41:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
       "labels": [
-        "ci-level 1"
+        "ci-level 3"
       ],
-      "draft": true
+      "draft": false
     },
     {
-      "number": 477,
-      "title": "Utilize AITER HSA embeddings",
+      "number": 553,
+      "title": "Refactor TE's CK backend padding add/remove kernels",
       "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-09T19:21:39Z",
-      "updated_at": "2026-03-11T00:48:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/477",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-20T21:28:53Z",
+      "updated_at": "2026-04-27T18:38:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/553",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 561,
+      "title": "Moved CK/AITER source validation earlier",
+      "author": "Micky774",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-24T17:07:59Z",
+      "updated_at": "2026-04-27T14:21:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/561",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 544,
+      "title": "[TE] Improve backward performance for CK Tile FP8 Group GEMM",
+      "author": "aris134",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-16T02:06:50Z",
+      "updated_at": "2026-04-26T10:44:56Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/544",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 562,
+      "title": "[CI] Add aiter installation to CI image for MXFP4 FP4 GEMM kernels",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-24T18:30:46Z",
+      "updated_at": "2026-04-25T02:31:40Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/562",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 550,
+      "title": "Integrate initial version of QoLA",
+      "author": "Micky774",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-20T17:40:03Z",
+      "updated_at": "2026-04-24T14:53:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/550",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 548,
+      "title": "Add Claude PR review/summary action",
+      "author": "Micky774",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-17T15:41:03Z",
+      "updated_at": "2026-04-24T04:26:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/548",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 519,
+      "title": "\"castonly/casttranspose HIP kernel optimization in fp8",
+      "author": "alextmagro",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-04T02:20:47Z",
+      "updated_at": "2026-04-23T21:53:02Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 552,
+      "title": "Refactor CK workspace memory management to use a unified toggle-pass helper object",
+      "author": "Micky774",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-20T21:27:40Z",
+      "updated_at": "2026-04-23T15:04:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/552",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 549,
+      "title": "PR545 hot fix for un-addressed reviewer comments",
+      "author": "wangye805",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-18T03:32:06Z",
+      "updated_at": "2026-04-20T02:58:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/549",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 545,
+      "title": "[ROCm] fix the bug in hipfied optimized cast tranpose flow that two kernels got run",
+      "author": "wangye805",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-16T17:17:58Z",
+      "updated_at": "2026-04-19T03:50:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/545",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 509,
+      "title": "NVFP4 Random Hadamard Transform (butterfly permutation-based)",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-27T23:29:43Z",
+      "updated_at": "2026-04-17T19:01:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/509",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -1024,330 +1334,6 @@
       "created_at": "2026-02-19T23:28:14Z",
       "updated_at": "2026-02-27T23:09:05Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/453",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 458,
-      "title": "Triton current scaling: avoid casting amax input",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T20:49:05Z",
-      "updated_at": "2026-02-27T14:51:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/458",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 462,
-      "title": "export HF_TOKEN for CI",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-25T20:53:32Z",
-      "updated_at": "2026-02-26T20:06:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/462",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 195,
-      "title": "Added Dockerfile for CI images & Upgrate CI to ROCm 7.2",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-05-28T22:36:25Z",
-      "updated_at": "2026-02-24T21:44:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/195",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 452,
-      "title": "Updated Triton norms dispatch consolidation",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-18T14:57:17Z",
-      "updated_at": "2026-02-23T17:21:32Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/452",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 456,
-      "title": "Swapped out JIT incompatible function",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T18:23:08Z",
-      "updated_at": "2026-02-23T16:24:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/456",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 455,
-      "title": "Avoid hipifying code outside TE tree",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T17:57:09Z",
-      "updated_at": "2026-02-21T02:26:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/455",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 457,
-      "title": "Porting fix for triton compilation error",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T19:26:04Z",
-      "updated_at": "2026-02-20T19:56:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/457",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 406,
-      "title": "IFU release v2.6",
-      "author": "wangye805",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-03T16:27:03Z",
-      "updated_at": "2026-02-19T03:38:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/406",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 382,
-      "title": "Enable AOTriton BWD V3 API",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-11-25T22:26:49Z",
-      "updated_at": "2026-02-18T19:27:54Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/382",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 451,
-      "title": "Revert \"Triton norms dispatch refactor (#305)\"",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-17T20:29:32Z",
-      "updated_at": "2026-02-17T20:32:06Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/451",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 447,
-      "title": "Release v2.2 bugfixes megatron ifu",
-      "author": "sudhu2k",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-11T16:47:14Z",
-      "updated_at": "2026-02-17T16:11:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/447",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 442,
-      "title": " Remove padding from scales for hipBLASlt calls",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-04T01:33:22Z",
-      "updated_at": "2026-02-17T15:22:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/442",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 305,
-      "title": "Triton norms dispatch refactor",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-09-05T21:52:49Z",
-      "updated_at": "2026-02-12T14:57:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/305",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 443,
-      "title": "FA 2.8.3 support",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-05T18:57:30Z",
-      "updated_at": "2026-02-11T22:39:40Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/443",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 445,
-      "title": "CI: Update runners",
-      "author": "leo-automation",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-09T11:43:22Z",
-      "updated_at": "2026-02-10T18:39:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/445",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 438,
-      "title": "[CI] Use default checkout depth",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-30T21:44:26Z",
-      "updated_at": "2026-02-05T04:57:27Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/438",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 413,
-      "title": "Enhance GroupedLinear with integrating AITER triton kernels",
-      "author": "sudhu2k",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-15T16:48:39Z",
-      "updated_at": "2026-02-04T19:53:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/413",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 421,
-      "title": "Do not fail CI on known failed JAX test",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-17T04:51:31Z",
-      "updated_at": "2026-02-03T04:48:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/421",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 440,
-      "title": "Revert \"CI: Serialize core sgpu test (#426)\", move gemm_sm_count to mGPU",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-02T16:41:02Z",
-      "updated_at": "2026-02-02T20:02:56Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/440",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 417,
-      "title": "GEMMTestSuite: perform input data generation on GPU (incl. hiprand)",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-16T16:55:21Z",
-      "updated_at": "2026-02-02T03:48:00Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/417",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 410,
-      "title": "IFU TE 2.8.0.dev0 commit 7f77127 from 2025-09-18",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-13T05:26:20Z",
-      "updated_at": "2026-01-31T03:26:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/410",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 424,
-      "title": "Enable MXFP8 support in TE JAX integration",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-20T21:03:31Z",
-      "updated_at": "2026-01-30T15:19:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/424",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 437,
-      "title": "[Hotfix] fixed gpu arch args in aiter build from source",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-29T17:24:06Z",
-      "updated_at": "2026-01-29T19:42:58Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/437",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 405,
-      "title": "Enable JAX distributed test for THD+Ring",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-02T22:04:04Z",
-      "updated_at": "2026-01-29T15:36:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/405",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 427,
-      "title": "Clean up PyTorch FA tests",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-22T20:56:08Z",
-      "updated_at": "2026-01-29T15:36:05Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/427",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 433,
-      "title": "Update ROCm Dockerfile to include hiprand-devel and rocrand-devel packages",
-      "author": "sudhu2k",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-28T07:23:41Z",
-      "updated_at": "2026-01-28T17:50:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/433",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 429,
-      "title": "Fixed setting safe.directory for aiter upload",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-26T06:31:45Z",
-      "updated_at": "2026-01-28T17:39:34Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/429",
       "labels": [],
       "draft": false
     }

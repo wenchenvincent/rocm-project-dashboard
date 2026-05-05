@@ -1,93 +1,93 @@
 {
-  "collected_at": "2026-04-15T09:12:08Z",
+  "collected_at": "2026-05-05T09:52:54Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 35,
-      "merged": 26,
-      "closed": 15
+      "opened": 23,
+      "merged": 23,
+      "closed": 6
     },
     "last_week": {
-      "opened": 32,
-      "merged": 22,
-      "closed": 3
+      "opened": 20,
+      "merged": 16,
+      "closed": 2
     },
-    "median_time_to_merge_hours": 3.5,
-    "merge_count": 48,
-    "stale_prs": 0
+    "median_time_to_merge_hours": 11.9,
+    "merge_count": 39,
+    "stale_prs": 1
   },
   "contributors": {
-    "active_this_week": 15,
-    "total_contributors": 23,
+    "active_this_week": 16,
+    "total_contributors": 29,
     "top_contributors": [
       {
-        "author": "sjfeng1999",
-        "prs_submitted": 25,
-        "prs_merged": 25,
-        "commits": 35
-      },
-      {
         "author": "coderfeli",
-        "prs_submitted": 20,
-        "prs_merged": 19,
-        "commits": 30
+        "prs_submitted": 24,
+        "prs_merged": 24,
+        "commits": 27
       },
       {
-        "author": "Peter9606",
-        "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 4
+        "author": "sjfeng1999",
+        "prs_submitted": 22,
+        "prs_merged": 22,
+        "commits": 27
       },
       {
         "author": "yadaish",
-        "prs_submitted": 4,
-        "prs_merged": 4,
-        "commits": 6
-      },
-      {
-        "author": "jli-melchior",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 4
-      },
-      {
-        "author": "aoli26",
-        "prs_submitted": 3,
+        "prs_submitted": 5,
         "prs_merged": 3,
-        "commits": 3
+        "commits": 2
       },
       {
         "author": "zhiding512",
+        "prs_submitted": 4,
+        "prs_merged": 4,
+        "commits": 5
+      },
+      {
+        "author": "fsx950223",
         "prs_submitted": 3,
         "prs_merged": 3,
-        "commits": 3
+        "commits": 2
       },
       {
         "author": "yanboshao",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 4
+      },
+      {
+        "author": "aryaman-gupta",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "xudoyuan",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 1
       },
       {
-        "author": "xytpai",
+        "author": "apicciau",
         "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_merged": 0,
+        "commits": 0
       },
       {
-        "author": "Copilot",
+        "author": "omuhamma",
         "prs_submitted": 2,
-        "prs_merged": 2,
+        "prs_merged": 0,
         "commits": 0
       }
     ],
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 16,
-    "opened_this_week": 3,
-    "closed_this_week": 5,
+    "total_open": 11,
+    "opened_this_week": 1,
+    "closed_this_week": 6,
     "unanswered": 2
   },
   "ci_health": null,
@@ -96,6 +96,6 @@
     "days_since_last": null,
     "avg_interval_days": null,
     "total_releases": 3,
-    "latest_tag": "v0.1.3.1"
+    "latest_tag": "v0.1.6.dev529"
   }
 }

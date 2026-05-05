@@ -1,24 +1,405 @@
 {
-  "collected_at": "2026-04-15T09:09:07Z",
+  "collected_at": "2026-05-05T09:50:43Z",
   "issues": [
+    {
+      "number": 23602,
+      "title": "DeepSeek V4 Roadmap",
+      "author": "fzyzcjy",
+      "state": "open",
+      "created_at": "2026-04-24T03:22:31Z",
+      "updated_at": "2026-05-05T05:41:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "roadmap"
+      ]
+    },
+    {
+      "number": 13363,
+      "title": "[Roadmap] sglang auto tuner",
+      "author": "sglang-bot",
+      "state": "open",
+      "created_at": "2025-11-16T04:31:44Z",
+      "updated_at": "2026-05-04T16:12:53Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
+      "labels": [
+        "good first issue"
+      ]
+    },
+    {
+      "number": 23083,
+      "title": "[Bug] : ImportError: cannot import name 'dynamic_per_tensor_quant' from 'aiter' (unknown location)",
+      "author": "jerin-metrum-ai",
+      "state": "open",
+      "created_at": "2026-04-17T16:57:22Z",
+      "updated_at": "2026-05-04T09:21:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23083",
+      "labels": []
+    },
+    {
+      "number": 15194,
+      "title": "[Roadmap] Quantization Modifications",
+      "author": "TamirBaydasov",
+      "state": "open",
+      "created_at": "2025-12-15T14:11:54Z",
+      "updated_at": "2026-05-04T07:33:31Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
+      "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-05-04T07:21:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 21774,
+      "title": "[Bug] ROCm release & nightly images doesn't work with Thor-2 NIC",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-03-31T18:49:53Z",
+      "updated_at": "2026-05-04T03:11:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21774",
+      "labels": []
+    },
+    {
+      "number": 20069,
+      "title": "[Tracking] Qwen3.5 bugs",
+      "author": "hlu1",
+      "state": "open",
+      "created_at": "2026-03-07T01:42:58Z",
+      "updated_at": "2026-05-04T00:45:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20069",
+      "labels": [
+        "high priority",
+        "nvidia"
+      ]
+    },
+    {
+      "number": 24212,
+      "title": "[Feature][AMD] Address the specv2 + moriep tbo compatibility",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-05-01T06:34:52Z",
+      "updated_at": "2026-05-03T16:54:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/24212",
+      "labels": []
+    },
+    {
+      "number": 22949,
+      "title": "Development Roadmap (2026 Q2)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-04-16T08:35:03Z",
+      "updated_at": "2026-05-02T17:28:51Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
+      "labels": []
+    },
+    {
+      "number": 17050,
+      "title": "[Tracking] CI Test Failures and Fixes",
+      "author": "alisonshao",
+      "state": "open",
+      "created_at": "2026-01-14T01:49:31Z",
+      "updated_at": "2026-05-02T02:12:51Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 23342,
+      "title": "[Bug] PD disaggregation (ROCm MI300x) + Mooncake(TCP): /v1/chat/completions hangs indefinitely",
+      "author": "Bihan",
+      "state": "open",
+      "created_at": "2026-04-21T07:28:08Z",
+      "updated_at": "2026-05-01T22:48:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23342",
+      "labels": []
+    },
+    {
+      "number": 12780,
+      "title": "Development Roadmap (2026 Q1)",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2025-11-06T17:50:24Z",
+      "updated_at": "2026-05-01T04:30:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/12780",
+      "labels": []
+    },
+    {
+      "number": 23580,
+      "title": "[Bug] Hy3-preview cuda-graph crash on AMD MI300X/MI355X due to AITER custom all-reduce stream invalidation",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-04-23T18:52:08Z",
+      "updated_at": "2026-04-30T14:25:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23580",
+      "labels": []
+    },
+    {
+      "number": 24011,
+      "title": "[Bug] qwen3-235b-mxfp4 nightly CI on MI35x crashes with hipErrorCapturedEvent during CUDA Graph capture (ROCm 7.2.0 HIP runtime bug)",
+      "author": "Jacob0226",
+      "state": "open",
+      "created_at": "2026-04-29T06:29:59Z",
+      "updated_at": "2026-04-30T10:00:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/24011",
+      "labels": []
+    },
+    {
+      "number": 22092,
+      "title": "[Feature] Parity with CUDA -  AMD when will it support DWDP based parallelism too",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-04T03:19:20Z",
+      "updated_at": "2026-04-29T21:16:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22092",
+      "labels": []
+    },
+    {
+      "number": 23005,
+      "title": "Speculative Decoding Development Roadmap (2026 Q2)",
+      "author": "Qiaolin-Yu",
+      "state": "open",
+      "created_at": "2026-04-16T23:37:35Z",
+      "updated_at": "2026-04-29T20:43:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23005",
+      "labels": [
+        "speculative-decoding",
+        "roadmap"
+      ]
+    },
+    {
+      "number": 23288,
+      "title": "[HiSparse][ROCm] page_size + TP-collective deadlock + GPU memory fault on MI355X with GLM-5-FP8 (6 issues, 2 PR branches ready)",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-04-20T21:15:56Z",
+      "updated_at": "2026-04-29T17:34:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23288",
+      "labels": [
+        "high priority"
+      ]
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-04-29T07:51:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 20372,
+      "title": "[Feature] Introduce hardware plugin system",
+      "author": "22dimensions",
+      "state": "open",
+      "created_at": "2026-03-11T14:49:44Z",
+      "updated_at": "2026-04-29T07:07:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20372",
+      "labels": []
+    },
+    {
+      "number": 22072,
+      "title": "[Bug] EP/DP decode server hangs at startup on MI325X with MoRI a2a backend",
+      "author": "JordanNanos",
+      "state": "open",
+      "created_at": "2026-04-03T19:42:51Z",
+      "updated_at": "2026-04-28T05:14:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22072",
+      "labels": []
+    },
+    {
+      "number": 21886,
+      "title": "[bug] ROCm DI MoRI for non-standard attention (such as DeepSeekv4, GLM5 & Qwen3.5) doesnt work",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-02T00:00:16Z",
+      "updated_at": "2026-04-28T03:46:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21886",
+      "labels": []
+    },
+    {
+      "number": 23536,
+      "title": "[AMD] Add fp8_e4m3 kv-cache-dtype and deterministic inference to MLA FP8 test on ROCm",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-04-23T06:13:30Z",
+      "updated_at": "2026-04-27T06:57:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23536",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 23784,
+      "title": "[Bug] [AMD] Enabling EAGLE3 causes GPU memory access fault easily when concurrency is high",
+      "author": "akao-amd",
+      "state": "open",
+      "created_at": "2026-04-27T01:08:44Z",
+      "updated_at": "2026-04-27T01:10:30Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23784",
+      "labels": []
+    },
+    {
+      "number": 15025,
+      "title": "[Roadmap] DeepSeek v3.2 (GLM 5) Optimization",
+      "author": "Fridge003",
+      "state": "open",
+      "created_at": "2025-12-13T01:47:05Z",
+      "updated_at": "2026-04-25T04:29:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15025",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "Good Pro Issue",
+        "good second issue",
+        "nvidia"
+      ]
+    },
+    {
+      "number": 23058,
+      "title": "RFC: optional HIP external LLMM1 fast path for M=1 decode GEMMs",
+      "author": "skyguan92",
+      "state": "open",
+      "created_at": "2026-04-17T08:58:39Z",
+      "updated_at": "2026-04-24T14:13:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23058",
+      "labels": []
+    },
+    {
+      "number": 23162,
+      "title": "[RFC] GLM-5 Spec. Decode + PP in Disaggregation Decode Mode",
+      "author": "MMuzzammil1",
+      "state": "open",
+      "created_at": "2026-04-19T11:14:02Z",
+      "updated_at": "2026-04-24T07:49:02Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23162",
+      "labels": []
+    },
+    {
+      "number": 23494,
+      "title": "AMD Development Roadmap (2026 Q2)",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-04-22T18:41:09Z",
+      "updated_at": "2026-04-23T03:15:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23494",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 23123,
+      "title": "[Bug] qwen3.5 bf16 MTP broken",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-18T06:44:14Z",
+      "updated_at": "2026-04-21T11:32:32Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23123",
+      "labels": []
+    },
+    {
+      "number": 11762,
+      "title": "[Feature] Overlap Spec Support",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2025-10-17T14:48:31Z",
+      "updated_at": "2026-04-21T08:50:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/11762",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "high priority"
+      ]
+    },
+    {
+      "number": 14199,
+      "title": "[Roadmap] Diffusion LLMs  (2026 S1)",
+      "author": "ClawSeven",
+      "state": "open",
+      "created_at": "2025-12-01T07:42:19Z",
+      "updated_at": "2026-04-21T03:32:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/14199",
+      "labels": []
+    },
+    {
+      "number": 23299,
+      "title": "[Feature] [ROCm] enable Qwen3.5 SD/MTP with radix cache with --mamba-scheduler-strategy extra_buffer",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-04-21T00:10:06Z",
+      "updated_at": "2026-04-21T00:10:42Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23299",
+      "labels": []
+    },
+    {
+      "number": 23084,
+      "title": "[Bug][ROCm][MI355X] Qwen3.5-397B-A17B-FP8 accuracy drop when tp=2 ep=2 with shared_experts_fusion is enabled",
+      "author": "zhentaocc",
+      "state": "open",
+      "created_at": "2026-04-17T18:02:30Z",
+      "updated_at": "2026-04-20T05:33:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23084",
+      "labels": []
+    },
+    {
+      "number": 23113,
+      "title": "[Bug] [rocm] qwen 3.5 mtp fp4 broken",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-18T00:51:33Z",
+      "updated_at": "2026-04-18T23:25:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23113",
+      "labels": []
+    },
+    {
+      "number": 22105,
+      "title": "[HiCache] Input length validation rejects requests that fit in L1+L2 combined capacity",
+      "author": "isensez",
+      "state": "open",
+      "created_at": "2026-04-04T11:00:09Z",
+      "updated_at": "2026-04-18T17:57:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22105",
+      "labels": []
+    },
+    {
+      "number": 22749,
+      "title": "[Bug] Runai Streamer Errors out on Multimodal models like KimiK2.5",
+      "author": "shivajid",
+      "state": "open",
+      "created_at": "2026-04-14T03:23:51Z",
+      "updated_at": "2026-04-18T00:14:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22749",
+      "labels": []
+    },
     {
       "number": 22714,
       "title": "[Bug] MiniMax-M2.7 on 4x MI300X crashes during decode with `HSA_STATUS_ERROR_EXCEPTION `/ `assert_async_cuda_kernel`",
       "author": "peterschmidt85",
       "state": "open",
       "created_at": "2026-04-13T15:33:34Z",
-      "updated_at": "2026-04-15T04:54:53Z",
+      "updated_at": "2026-04-17T16:15:30Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22714",
       "labels": []
     },
     {
-      "number": 22466,
-      "title": "[Bug] [Apple Silicon] Server Crash",
-      "author": "Jonahcb",
+      "number": 22875,
+      "title": "[Bug] RPD profiler silently loses all GPU kernel data when used with loadTracer.sh",
+      "author": "zovonoir",
       "state": "open",
-      "created_at": "2026-04-09T20:12:58Z",
-      "updated_at": "2026-04-15T03:48:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22466",
+      "created_at": "2026-04-15T09:27:30Z",
+      "updated_at": "2026-04-15T09:35:30Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22875",
       "labels": []
     },
     {
@@ -32,73 +413,6 @@
       "labels": []
     },
     {
-      "number": 22279,
-      "title": "[Bug] aiter module crash in SGLang MI350X Docker images \u2014 aiter.dtypes AttributeError",
-      "author": "kev-pebble",
-      "state": "open",
-      "created_at": "2026-04-07T17:46:38Z",
-      "updated_at": "2026-04-15T01:59:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22279",
-      "labels": []
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-04-15T01:15:34Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
-      "number": 21886,
-      "title": "[Feature] Parity with Cuda: ROCm MoRI Disagg Pollara support GLM5 & Qwen3.5 yet",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-02T00:00:16Z",
-      "updated_at": "2026-04-14T12:10:57Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21886",
-      "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-04-14T10:41:59Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
-    },
-    {
-      "number": 22283,
-      "title": "[Apple Silicon] Optimize MoE performance",
-      "author": "Jonahcb",
-      "state": "open",
-      "created_at": "2026-04-07T19:18:19Z",
-      "updated_at": "2026-04-14T05:57:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22283",
-      "labels": []
-    },
-    {
-      "number": 11762,
-      "title": "[Feature] Overlap Spec Support",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2025-10-17T14:48:31Z",
-      "updated_at": "2026-04-13T11:50:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/11762",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "help wanted",
-        "high priority"
-      ]
-    },
-    {
       "number": 22581,
       "title": "[Feature] MiMo-V2-Flash MTP draft attention backend hardcoded to FlashAttentionBackend; request for configurable attention backend",
       "author": "daishiqiang123",
@@ -106,36 +420,6 @@
       "created_at": "2026-04-11T06:36:20Z",
       "updated_at": "2026-04-13T06:14:03Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22581",
-      "labels": []
-    },
-    {
-      "number": 22568,
-      "title": "[AMD] AITER Upgrade Issues",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-04-11T01:24:20Z",
-      "updated_at": "2026-04-12T06:04:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22568",
-      "labels": []
-    },
-    {
-      "number": 22464,
-      "title": "[Parity with CUDA] FP8 & FP4 AMD Multi-Node PD Disagg Nightly Regression Testing",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-09T18:25:32Z",
-      "updated_at": "2026-04-10T23:44:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22464",
-      "labels": []
-    },
-    {
-      "number": 19917,
-      "title": "[AMD] Support JIT kernel for wheels",
-      "author": "akao-amd",
-      "state": "open",
-      "created_at": "2026-03-05T04:13:13Z",
-      "updated_at": "2026-04-10T10:05:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/19917",
       "labels": []
     },
     {
@@ -149,16 +433,6 @@
       "labels": []
     },
     {
-      "number": 22421,
-      "title": "[Bug] RTX4090 + AMD EPYC 7B13, GPTQ-Int4, IndexError: start out of range (expected to be in range of [-8, 8], but got 16)",
-      "author": "Honghe",
-      "state": "open",
-      "created_at": "2026-04-09T05:34:27Z",
-      "updated_at": "2026-04-09T13:02:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22421",
-      "labels": []
-    },
-    {
       "number": 22419,
       "title": "[AMD] Multimodal Support ROCm FA2 in the new dispatch layer and prepare for FA3 enablement",
       "author": "bingxche",
@@ -169,65 +443,6 @@
       "labels": []
     },
     {
-      "number": 15025,
-      "title": "[Roadmap] DeepSeek v3.2 (GLM 5) Optimization",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2025-12-13T01:47:05Z",
-      "updated_at": "2026-04-09T07:25:27Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15025",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "Good Pro Issue",
-        "good second issue",
-        "nvidia"
-      ]
-    },
-    {
-      "number": 20069,
-      "title": "[Tracking] Qwen3.5 bugs",
-      "author": "hlu1",
-      "state": "open",
-      "created_at": "2026-03-07T01:42:58Z",
-      "updated_at": "2026-04-08T08:04:59Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20069",
-      "labels": [
-        "high priority",
-        "nvidia"
-      ]
-    },
-    {
-      "number": 22105,
-      "title": "[HiCache] Input length validation rejects requests that fit in L1+L2 combined capacity",
-      "author": "isensez",
-      "state": "open",
-      "created_at": "2026-04-04T11:00:09Z",
-      "updated_at": "2026-04-05T22:33:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22105",
-      "labels": []
-    },
-    {
-      "number": 22072,
-      "title": "[Bug] EP/DP decode server hangs at startup on MI325X with Broadcom Thor 2 (bnxt_re) + MoRI a2a backend",
-      "author": "JordanNanos",
-      "state": "open",
-      "created_at": "2026-04-03T19:42:51Z",
-      "updated_at": "2026-04-05T02:05:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22072",
-      "labels": []
-    },
-    {
-      "number": 22092,
-      "title": "[Feature] Parity with CUDA -  AMD when will it support DWDP based parallelism too",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-04T03:19:20Z",
-      "updated_at": "2026-04-04T03:23:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22092",
-      "labels": []
-    },
-    {
       "number": 21942,
       "title": "[Bug] [AMD] spec v2 + DP Memory access fault",
       "author": "AMD-yanfeiwang",
@@ -235,26 +450,6 @@
       "created_at": "2026-04-02T12:25:03Z",
       "updated_at": "2026-04-02T12:25:03Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21942",
-      "labels": []
-    },
-    {
-      "number": 14199,
-      "title": "[Roadmap] Diffusion LLMs  (2025 Q4 & 2026 Q1)",
-      "author": "ClawSeven",
-      "state": "open",
-      "created_at": "2025-12-01T07:42:19Z",
-      "updated_at": "2026-04-02T08:14:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/14199",
-      "labels": []
-    },
-    {
-      "number": 21774,
-      "title": "[Bug] ROCm release & nightly images doesn't work with Thor-2 NIC",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-03-31T18:49:53Z",
-      "updated_at": "2026-04-01T10:34:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21774",
       "labels": []
     },
     {
@@ -278,133 +473,6 @@
       "labels": []
     },
     {
-      "number": 15784,
-      "title": "[Bug] Kimi Linear fails to launch on with `AttributeError: 'ModelConfig' object has no attribute 'scaling'`",
-      "author": "vincentzed",
-      "state": "open",
-      "created_at": "2025-12-24T20:09:22Z",
-      "updated_at": "2026-03-31T03:52:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15784",
-      "labels": [
-        "inactive"
-      ]
-    },
-    {
-      "number": 21717,
-      "title": "[Bug] Fail to deploy Qwen3.5-27B in Ascend NPU (A2 server)",
-      "author": "MaoJianwei",
-      "state": "open",
-      "created_at": "2026-03-31T02:11:54Z",
-      "updated_at": "2026-03-31T03:16:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21717",
-      "labels": []
-    },
-    {
-      "number": 17050,
-      "title": "[Tracking] CI Test Failures and Fixes",
-      "author": "alisonshao",
-      "state": "open",
-      "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-03-28T00:48:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
-      "labels": []
-    },
-    {
-      "number": 21515,
-      "title": "AMD CI Job Monitor exhausts GitHub API rate limit (15k/hr)",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2026-03-27T04:46:52Z",
-      "updated_at": "2026-03-27T07:05:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21515",
-      "labels": []
-    },
-    {
-      "number": 21049,
-      "title": "Extract shared GSM8K helpers from AMD accuracy tests (20+ duplicated files)",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2026-03-20T20:13:36Z",
-      "updated_at": "2026-03-26T23:35:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21049",
-      "labels": []
-    },
-    {
-      "number": 21340,
-      "title": "[AMD] 4-GPU tests: lowered accuracy thresholds on ROCm with triton backend",
-      "author": "michaelzhang-ai",
-      "state": "open",
-      "created_at": "2026-03-24T22:05:33Z",
-      "updated_at": "2026-03-24T22:08:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21340",
-      "labels": [
-        "amd"
-      ]
-    },
-    {
-      "number": 16255,
-      "title": "[Feature] deepseek_v2.py Refactor",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2026-01-01T03:53:53Z",
-      "updated_at": "2026-03-24T21:11:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
-      "labels": [
-        "deepseek",
-        "Good Pro Issue"
-      ]
-    },
-    {
-      "number": 15194,
-      "title": "[Roadmap] Quantization Modifications",
-      "author": "TamirBaydasov",
-      "state": "open",
-      "created_at": "2025-12-15T14:11:54Z",
-      "updated_at": "2026-03-24T10:37:41Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
-      "labels": []
-    },
-    {
-      "number": 21071,
-      "title": "[Bug]:  GLM5 FP8: AMD current gen MI355  slower than last gen H200",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-03-21T04:40:25Z",
-      "updated_at": "2026-03-21T04:40:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21071",
-      "labels": []
-    },
-    {
-      "number": 21046,
-      "title": "Consolidate fragmented evaluation systems",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2026-03-20T19:39:55Z",
-      "updated_at": "2026-03-20T21:29:48Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21046",
-      "labels": []
-    },
-    {
-      "number": 18466,
-      "title": "[Tracking][Performance][AMD] Qwen3 & Qwen3-VL Latency Optimization on AMD MI300 Series GPUs",
-      "author": "wuhuikx",
-      "state": "open",
-      "created_at": "2026-02-09T05:13:48Z",
-      "updated_at": "2026-03-20T01:34:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18466",
-      "labels": []
-    },
-    {
-      "number": 20404,
-      "title": "MI355X disagg DPA + MTP Errors",
-      "author": "Oseltamivir",
-      "state": "open",
-      "created_at": "2026-03-12T04:22:39Z",
-      "updated_at": "2026-03-17T18:53:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20404",
-      "labels": []
-    },
-    {
       "number": 20169,
       "title": "Prefill out of memory. Try to lower your batch size.  Run Qwen3.5 0.8b model on ascend 910B",
       "author": "Lizuole007",
@@ -415,16 +483,6 @@
       "labels": []
     },
     {
-      "number": 20372,
-      "title": "[Feature] Introduce hardware plugin system",
-      "author": "22dimensions",
-      "state": "open",
-      "created_at": "2026-03-11T14:49:44Z",
-      "updated_at": "2026-03-11T14:51:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20372",
-      "labels": []
-    },
-    {
       "number": 19991,
       "title": "MORI inter_node mode deadlocks on multi-node SGLang serving",
       "author": "JiakunYan",
@@ -432,61 +490,6 @@
       "created_at": "2026-03-06T00:10:16Z",
       "updated_at": "2026-03-10T19:11:34Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/19991",
-      "labels": []
-    },
-    {
-      "number": 19633,
-      "title": "[Bug] ROCm MI355 Qwen 3.5 397B FP8 Perf Worse than BF16",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-03-01T21:24:53Z",
-      "updated_at": "2026-03-10T06:20:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/19633",
-      "labels": []
-    },
-    {
-      "number": 20188,
-      "title": "[AMD] wheel support doesn't work on rocm700",
-      "author": "akao-amd",
-      "state": "open",
-      "created_at": "2026-03-09T11:23:07Z",
-      "updated_at": "2026-03-09T11:38:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20188",
-      "labels": []
-    },
-    {
-      "number": 17865,
-      "title": "[Feature] sgl-kernel wheel slimming plan tracking",
-      "author": "BBuf",
-      "state": "open",
-      "created_at": "2026-01-28T06:43:58Z",
-      "updated_at": "2026-03-05T18:11:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17865",
-      "labels": []
-    },
-    {
-      "number": 17035,
-      "title": "[Roadmap] JIT kernel development",
-      "author": "DarkSharpness",
-      "state": "open",
-      "created_at": "2026-01-13T19:43:09Z",
-      "updated_at": "2026-03-05T18:01:42Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17035",
-      "labels": [
-        "amd",
-        "hicache",
-        "sgl-kernel",
-        "roadmap"
-      ]
-    },
-    {
-      "number": 19028,
-      "title": "[Bug] GLM5 nightly Mi355 broken due to transformer dependency",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-02-19T22:04:14Z",
-      "updated_at": "2026-02-24T07:35:34Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/19028",
       "labels": []
     }
   ]

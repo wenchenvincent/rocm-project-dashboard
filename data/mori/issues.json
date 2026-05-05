@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-15T09:09:36Z",
+  "collected_at": "2026-05-05T09:51:08Z",
   "issues": [
     {
       "number": 264,
@@ -7,18 +7,8 @@
       "author": "tjtanaa",
       "state": "open",
       "created_at": "2026-04-15T00:45:16Z",
-      "updated_at": "2026-04-15T00:45:16Z",
+      "updated_at": "2026-04-19T15:13:54Z",
       "html_url": "https://github.com/ROCm/mori/issues/264",
-      "labels": []
-    },
-    {
-      "number": 248,
-      "title": "[Feature]: MoRI CI Pollara NIC",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-01T21:56:45Z",
-      "updated_at": "2026-04-01T21:56:45Z",
-      "html_url": "https://github.com/ROCm/mori/issues/248",
       "labels": []
     },
     {

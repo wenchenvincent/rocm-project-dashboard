@@ -1,14 +1,140 @@
 {
-  "collected_at": "2026-04-15T09:09:33Z",
+  "collected_at": "2026-05-05T09:51:05Z",
   "issues": [
     {
-      "number": 565,
-      "title": "CI: Qwen3-Next-80B-A3B-Thinking accuracy test times out at 30-minute limit",
+      "number": 689,
+      "title": "[Perf Regression] 23 config(s) regressed @ 50d2e5ec",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-05T00:26:44Z",
+      "updated_at": "2026-05-05T00:26:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/689",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 688,
+      "title": "[Issue]: `/v1/chat/completions` not respecting `--random-output-len`",
+      "author": "ozziemoreno",
+      "state": "open",
+      "created_at": "2026-05-04T19:56:28Z",
+      "updated_at": "2026-05-04T20:16:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/688",
+      "labels": []
+    },
+    {
+      "number": 686,
+      "title": "[Perf Regression] 11 config(s) regressed @ 50d2e5ec",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-04T00:03:10Z",
+      "updated_at": "2026-05-04T00:03:10Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/686",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 685,
+      "title": "[Perf Regression] 24 config(s) regressed @ 50d2e5ec",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-02T23:58:30Z",
+      "updated_at": "2026-05-02T23:58:30Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/685",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 680,
+      "title": "Two crashes when serving Kimi-K2.5-MXFP4 under agent traffic (gather_kv_b_proj None scale, scheduler assert on oversize prompt)",
+      "author": "kzjeef",
+      "state": "open",
+      "created_at": "2026-05-02T04:16:51Z",
+      "updated_at": "2026-05-02T06:05:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/680",
+      "labels": []
+    },
+    {
+      "number": 672,
+      "title": "[Issue]: prefix caching should be enabled by default",
+      "author": "cquil11",
+      "state": "open",
+      "created_at": "2026-04-29T15:09:37Z",
+      "updated_at": "2026-04-29T15:12:43Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/672",
+      "labels": []
+    },
+    {
+      "number": 664,
+      "title": "[Analysis] DeepSeek-V4 Attention Pipeline \u2014 Full Tensor Shape Breakdown",
+      "author": "carlushuang",
+      "state": "open",
+      "created_at": "2026-04-29T05:22:45Z",
+      "updated_at": "2026-04-29T11:20:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/664",
+      "labels": [
+        "documentation",
+        "enhancement"
+      ]
+    },
+    {
+      "number": 661,
+      "title": "[Infrastructure] CI failure on PR #532",
+      "author": "amilcodes",
+      "state": "open",
+      "created_at": "2026-04-28T20:13:08Z",
+      "updated_at": "2026-04-29T03:33:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/661",
+      "labels": [
+        "infrastructure",
+        "model-cache",
+        "runner-issue",
+        "not-pr-related",
+        "ci-failure"
+      ]
+    },
+    {
+      "number": 660,
+      "title": "[Infrastructure] CI failure on PR #532",
+      "author": "amilcodes",
+      "state": "open",
+      "created_at": "2026-04-28T20:13:01Z",
+      "updated_at": "2026-04-28T20:13:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/660",
+      "labels": [
+        "infrastructure",
+        "model-cache",
+        "runner-issue",
+        "not-pr-related",
+        "ci-failure"
+      ]
+    },
+    {
+      "number": 623,
+      "title": "[Bug] vLLM+ATOM_OOT (gpt-oss-120b) server crashes for particular sequence lengths",
+      "author": "divakar-amd",
+      "state": "open",
+      "created_at": "2026-04-21T15:50:44Z",
+      "updated_at": "2026-04-24T05:22:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/623",
+      "labels": [
+        "ATOM"
+      ]
+    },
+    {
+      "number": 642,
+      "title": "[Tracking] Enable DeepSeek-V4 (Flash 284B / Pro 1.6T, 1M context) inference",
       "author": "sunway513",
       "state": "open",
-      "created_at": "2026-04-14T17:29:34Z",
-      "updated_at": "2026-04-14T17:29:34Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/565",
+      "created_at": "2026-04-24T04:41:42Z",
+      "updated_at": "2026-04-24T04:43:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/642",
       "labels": []
     },
     {
@@ -17,9 +143,53 @@
       "author": "functionstackx",
       "state": "open",
       "created_at": "2026-04-14T04:04:21Z",
-      "updated_at": "2026-04-14T04:04:21Z",
+      "updated_at": "2026-04-23T18:04:04Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/555",
       "labels": []
+    },
+    {
+      "number": 616,
+      "title": "Official atom0.1.2 image: Kimi TP4 startup fails because packaged AITER gen_instances.py scripts break under PYTHONSAFEPATH=1",
+      "author": "josusanmartin",
+      "state": "open",
+      "created_at": "2026-04-20T20:47:27Z",
+      "updated_at": "2026-04-23T07:37:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/616",
+      "labels": []
+    },
+    {
+      "number": 609,
+      "title": "Analysis: Why chat templates reduce DeepSeek MTP speculative decoding accept rate",
+      "author": "carlushuang",
+      "state": "open",
+      "created_at": "2026-04-19T11:58:52Z",
+      "updated_at": "2026-04-19T11:58:52Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/609",
+      "labels": []
+    },
+    {
+      "number": 565,
+      "title": "CI: Qwen3-Next-80B-A3B-Thinking accuracy test times out at 30-minute limit",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-04-14T17:29:34Z",
+      "updated_at": "2026-04-16T16:05:40Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/565",
+      "labels": [
+        "ATOM"
+      ]
+    },
+    {
+      "number": 577,
+      "title": "[Issue]: RuntimeError with ATOM docker of rocm/atom:rocm7.2.1-ubuntu24.04-pytorch2.9.1-atom0.1.2 for ISL/OSL of 1k/1k and conc64 due to dtype mismatch of two matrices in one gemm kernel call.",
+      "author": "fululi12",
+      "state": "open",
+      "created_at": "2026-04-15T15:11:21Z",
+      "updated_at": "2026-04-16T16:05:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/577",
+      "labels": [
+        "ATOM"
+      ]
     },
     {
       "number": 553,

@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-04-15T09:10:11Z",
+  "collected_at": "2026-05-05T09:51:33Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "TransformerEngine CI",
-    "run_id": 24398294670,
-    "run_url": "https://github.com/ROCm/TransformerEngine/actions/runs/24398294670",
-    "run_date": "2026-04-15T01:04:01Z",
-    "conclusion": "success",
+    "run_id": 25346290655,
+    "run_url": "https://github.com/ROCm/TransformerEngine/actions/runs/25346290655",
+    "run_date": "2026-05-05T06:22:29Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 2,
       "passed": 2,
@@ -16,7 +16,7 @@
     },
     "suites": [
       {
-        "name": "Build and Test on GPU (linux-te-mi325-8) - Level 3",
+        "name": "sGPU Tests (mi35x)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -25,7 +25,7 @@
         "errors": null
       },
       {
-        "name": "Build and Test on GPU (linux-te-mi35x-8) - Level 3",
+        "name": "sGPU Tests (mi30x)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
