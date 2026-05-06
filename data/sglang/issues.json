@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-05T09:50:43Z",
+  "collected_at": "2026-05-06T10:07:25Z",
   "issues": [
     {
       "number": 23602,
@@ -7,13 +7,90 @@
       "author": "fzyzcjy",
       "state": "open",
       "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-05-05T05:41:15Z",
+      "updated_at": "2026-05-06T10:00:56Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/23602",
       "labels": [
         "high priority",
         "deepseek",
         "roadmap"
       ]
+    },
+    {
+      "number": 23005,
+      "title": "Speculative Decoding Development Roadmap (2026 Q2)",
+      "author": "Qiaolin-Yu",
+      "state": "open",
+      "created_at": "2026-04-16T23:37:35Z",
+      "updated_at": "2026-05-06T09:32:33Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23005",
+      "labels": [
+        "speculative-decoding",
+        "roadmap"
+      ]
+    },
+    {
+      "number": 22949,
+      "title": "Development Roadmap (2026 Q2)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-04-16T08:35:03Z",
+      "updated_at": "2026-05-06T08:20:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
+      "labels": []
+    },
+    {
+      "number": 21886,
+      "title": "[bug] ROCm DI MoRI for non-standard attention (such as DeepSeekv4, GLM5 & Qwen3.5) doesnt work",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-02T00:00:16Z",
+      "updated_at": "2026-05-06T06:52:14Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21886",
+      "labels": []
+    },
+    {
+      "number": 12780,
+      "title": "Development Roadmap (2026 Q1)",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2025-11-06T17:50:24Z",
+      "updated_at": "2026-05-06T05:08:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/12780",
+      "labels": []
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-05-06T01:37:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 24440,
+      "title": "[Bug] [AMD] Accuracy issue with EAGLE speculative decoding and aiter's unified attention for Qwen3.5 FP8 and MXFP4 models",
+      "author": "hubertlu-tw",
+      "state": "open",
+      "created_at": "2026-05-05T18:17:23Z",
+      "updated_at": "2026-05-05T18:18:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/24440",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 15194,
+      "title": "[Roadmap] Quantization Modifications",
+      "author": "TamirBaydasov",
+      "state": "open",
+      "created_at": "2025-12-15T14:11:54Z",
+      "updated_at": "2026-05-05T10:29:28Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
+      "labels": []
     },
     {
       "number": 13363,
@@ -35,16 +112,6 @@
       "created_at": "2026-04-17T16:57:22Z",
       "updated_at": "2026-05-04T09:21:24Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/23083",
-      "labels": []
-    },
-    {
-      "number": 15194,
-      "title": "[Roadmap] Quantization Modifications",
-      "author": "TamirBaydasov",
-      "state": "open",
-      "created_at": "2025-12-15T14:11:54Z",
-      "updated_at": "2026-05-04T07:33:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15194",
       "labels": []
     },
     {
@@ -91,16 +158,6 @@
       "labels": []
     },
     {
-      "number": 22949,
-      "title": "Development Roadmap (2026 Q2)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-05-02T17:28:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
-      "labels": []
-    },
-    {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
@@ -118,16 +175,6 @@
       "created_at": "2026-04-21T07:28:08Z",
       "updated_at": "2026-05-01T22:48:08Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/23342",
-      "labels": []
-    },
-    {
-      "number": 12780,
-      "title": "Development Roadmap (2026 Q1)",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2025-11-06T17:50:24Z",
-      "updated_at": "2026-05-01T04:30:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/12780",
       "labels": []
     },
     {
@@ -161,19 +208,6 @@
       "labels": []
     },
     {
-      "number": 23005,
-      "title": "Speculative Decoding Development Roadmap (2026 Q2)",
-      "author": "Qiaolin-Yu",
-      "state": "open",
-      "created_at": "2026-04-16T23:37:35Z",
-      "updated_at": "2026-04-29T20:43:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23005",
-      "labels": [
-        "speculative-decoding",
-        "roadmap"
-      ]
-    },
-    {
       "number": 23288,
       "title": "[HiSparse][ROCm] page_size + TP-collective deadlock + GPU memory fault on MI355X with GLM-5-FP8 (6 issues, 2 PR branches ready)",
       "author": "andyluo7",
@@ -183,18 +217,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/23288",
       "labels": [
         "high priority"
-      ]
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-04-29T07:51:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
       ]
     },
     {
@@ -215,16 +237,6 @@
       "created_at": "2026-04-03T19:42:51Z",
       "updated_at": "2026-04-28T05:14:36Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22072",
-      "labels": []
-    },
-    {
-      "number": 21886,
-      "title": "[bug] ROCm DI MoRI for non-standard attention (such as DeepSeekv4, GLM5 & Qwen3.5) doesnt work",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-02T00:00:16Z",
-      "updated_at": "2026-04-28T03:46:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21886",
       "labels": []
     },
     {
@@ -350,16 +362,6 @@
       "created_at": "2026-04-17T18:02:30Z",
       "updated_at": "2026-04-20T05:33:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/23084",
-      "labels": []
-    },
-    {
-      "number": 23113,
-      "title": "[Bug] [rocm] qwen 3.5 mtp fp4 broken",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-18T00:51:33Z",
-      "updated_at": "2026-04-18T23:25:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23113",
       "labels": []
     },
     {

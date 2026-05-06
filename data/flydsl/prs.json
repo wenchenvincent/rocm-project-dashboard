@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-05-05T09:51:11Z",
+  "collected_at": "2026-05-06T10:07:55Z",
   "prs": [
     {
-      "number": 433,
-      "title": "Adds Grouped and Batched GEMM kernels with blockscaling matching DeepGEMM API",
-      "author": "aryaman-gupta",
+      "number": 474,
+      "title": "fix: handle co_freevars mismatch in ASTRewriter for closure kernels",
+      "author": "ZJLi2013",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-23T22:06:37Z",
-      "updated_at": "2026-05-04T16:09:40Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/433",
+      "created_at": "2026-05-06T10:03:23Z",
+      "updated_at": "2026-05-06T10:03:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/474",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 473,
+      "title": "[Feat] Add CoordSwizzle and support composedLayout as outer in the layout chain",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T09:58:17Z",
+      "updated_at": "2026-05-06T09:58:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/473",
       "labels": [],
       "draft": false
     },
@@ -20,8 +32,56 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-02T06:28:12Z",
-      "updated_at": "2026-05-03T12:52:25Z",
+      "updated_at": "2026-05-06T09:07:14Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/470",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 472,
+      "title": "ci: add RDNA4 flash attention benchmark",
+      "author": "vivienfanghuagood",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T03:45:07Z",
+      "updated_at": "2026-05-06T04:52:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/472",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 466,
+      "title": "add xcd remap",
+      "author": "solinzby1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-30T06:29:21Z",
+      "updated_at": "2026-05-06T01:45:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/466",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 449,
+      "title": "blockscale a8w8 initial implementation for flydsl",
+      "author": "omuhamma",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-28T17:00:58Z",
+      "updated_at": "2026-05-05T17:49:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/449",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 433,
+      "title": "Adds Grouped and Batched GEMM kernels with blockscaling matching DeepGEMM API",
+      "author": "aryaman-gupta",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-23T22:06:37Z",
+      "updated_at": "2026-05-05T14:05:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/433",
       "labels": [],
       "draft": false
     },
@@ -34,18 +94,6 @@
       "created_at": "2026-04-28T04:05:32Z",
       "updated_at": "2026-05-03T00:18:23Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/442",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 466,
-      "title": "add xcd remap",
-      "author": "solinzby1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T06:29:21Z",
-      "updated_at": "2026-04-30T09:27:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/466",
       "labels": [],
       "draft": false
     },
@@ -82,18 +130,6 @@
       "created_at": "2026-04-30T02:30:22Z",
       "updated_at": "2026-04-30T04:07:18Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/461",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 449,
-      "title": "blockscale a8w8 initial implementation for flydsl",
-      "author": "omuhamma",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-28T17:00:58Z",
-      "updated_at": "2026-04-28T17:01:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/449",
       "labels": [],
       "draft": true
     },
@@ -202,6 +238,18 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 471,
+      "title": "Update ATOM nightly models to MXFP4 variants",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-06T02:21:49Z",
+      "updated_at": "2026-05-06T05:22:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/471",
       "labels": [],
       "draft": false
     },
@@ -1066,18 +1114,6 @@
       "created_at": "2026-04-08T00:43:24Z",
       "updated_at": "2026-04-08T14:46:30Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/360",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 362,
-      "title": "[FEAT] Support stateful Mma/CopyAtom",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-08T06:48:06Z",
-      "updated_at": "2026-04-08T14:13:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/362",
       "labels": [],
       "draft": false
     }

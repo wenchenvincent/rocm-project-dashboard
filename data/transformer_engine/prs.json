@@ -1,15 +1,29 @@
 {
-  "collected_at": "2026-05-05T09:51:14Z",
+  "collected_at": "2026-05-06T10:07:58Z",
   "prs": [
     {
-      "number": 575,
-      "title": "Fix build on Pytorch 2.11 (#16505)",
-      "author": "ipanfilo",
+      "number": 566,
+      "title": "HipKittens MXFP8 GEMM Support",
+      "author": "alextmagro",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-05T05:33:41Z",
-      "updated_at": "2026-05-05T05:33:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/575",
+      "created_at": "2026-04-28T05:16:00Z",
+      "updated_at": "2026-05-06T04:06:04Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/566",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 571,
+      "title": "gfx1250 swizzle_xor changes for FP4",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-01T18:44:12Z",
+      "updated_at": "2026-05-06T03:16:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/571",
       "labels": [
         "ci-level 1"
       ],
@@ -22,7 +36,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-04T23:47:38Z",
-      "updated_at": "2026-05-05T03:40:13Z",
+      "updated_at": "2026-05-06T01:02:45Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/573",
       "labels": [
         "ci-level 1"
@@ -36,24 +50,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-05T00:15:07Z",
-      "updated_at": "2026-05-05T00:15:48Z",
+      "updated_at": "2026-05-05T15:36:25Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/574",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 527,
-      "title": "Gfx1250 changes",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-07T03:45:24Z",
-      "updated_at": "2026-05-04T21:54:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": false
     },
     {
       "number": 568,
@@ -62,7 +62,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-29T16:59:38Z",
-      "updated_at": "2026-05-04T17:56:05Z",
+      "updated_at": "2026-05-05T15:22:54Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/568",
       "labels": [
         "ci-level 1"
@@ -70,17 +70,15 @@
       "draft": true
     },
     {
-      "number": 571,
-      "title": "gfx1250 swizzle_xor changes for FP4",
-      "author": "matthiasdiener",
+      "number": 560,
+      "title": "Claude PR review use OIDC-free method",
+      "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-01T18:44:12Z",
-      "updated_at": "2026-05-04T04:05:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/571",
-      "labels": [
-        "ci-level 1"
-      ],
+      "created_at": "2026-04-24T14:13:51Z",
+      "updated_at": "2026-05-05T14:06:30Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/560",
+      "labels": [],
       "draft": false
     },
     {
@@ -135,32 +133,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 566,
-      "title": "HipKittens MXFP8 GEMM Support",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-28T05:16:00Z",
-      "updated_at": "2026-05-01T21:26:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/566",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 560,
-      "title": "Claude PR review use OIDC-free method",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-24T14:13:51Z",
-      "updated_at": "2026-05-01T05:01:41Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/560",
-      "labels": [],
       "draft": false
     },
     {
@@ -422,6 +394,34 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/400",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 527,
+      "title": "Gfx1250 changes",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-07T03:45:24Z",
+      "updated_at": "2026-05-06T04:08:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
+      "labels": [
+        "ci-level 2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 575,
+      "title": "Fix build on Pytorch 2.11 (#16505)",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-05T05:33:41Z",
+      "updated_at": "2026-05-05T17:46:42Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/575",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
     },
     {
       "number": 572,
@@ -1310,30 +1310,6 @@
       "created_at": "2026-02-25T21:16:52Z",
       "updated_at": "2026-03-02T15:20:33Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/463",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 454,
-      "title": "Updated test to include CK/AITER V2/V3 test in single backend case",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T14:57:59Z",
-      "updated_at": "2026-02-27T23:22:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/454",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 453,
-      "title": "Update ck_fused_attn logging to direct to thread-specific files",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-19T23:28:14Z",
-      "updated_at": "2026-02-27T23:09:05Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/453",
       "labels": [],
       "draft": false
     }

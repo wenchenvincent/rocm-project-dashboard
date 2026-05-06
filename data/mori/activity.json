@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-05-05T09:52:51Z",
+  "collected_at": "2026-05-06T10:09:36Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 6,
-      "merged": 2,
-      "closed": 0
+      "opened": 5,
+      "merged": 3,
+      "closed": 2
     },
     "last_week": {
       "opened": 10,
-      "merged": 10,
+      "merged": 8,
       "closed": 1
     },
     "median_time_to_merge_hours": 1.9,
@@ -18,18 +18,18 @@
     "stale_prs": 7
   },
   "contributors": {
-    "active_this_week": 7,
-    "total_contributors": 17,
+    "active_this_week": 6,
+    "total_contributors": 16,
     "top_contributors": [
       {
         "author": "jhchouuu",
-        "prs_submitted": 32,
-        "prs_merged": 30,
+        "prs_submitted": 31,
+        "prs_merged": 29,
         "commits": 8
       },
       {
         "author": "TianDi101",
-        "prs_submitted": 23,
+        "prs_submitted": 21,
         "prs_merged": 20,
         "commits": 8
       },
@@ -41,15 +41,15 @@
       },
       {
         "author": "isytwu",
-        "prs_submitted": 7,
-        "prs_merged": 6,
+        "prs_submitted": 6,
+        "prs_merged": 5,
         "commits": 1
       },
       {
         "author": "QizhouZhang97",
         "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 3
+        "prs_merged": 5,
+        "commits": 4
       },
       {
         "author": "zhangfei829",
@@ -59,9 +59,9 @@
       },
       {
         "author": "inkcherry",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 2
+        "prs_submitted": 4,
+        "prs_merged": 4,
+        "commits": 3
       },
       {
         "author": "pemeliya",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 11.1,
+    "days_since_last": 12.1,
     "avg_interval_days": 12.5,
     "total_releases": 3,
     "latest_tag": "v1.1.1"

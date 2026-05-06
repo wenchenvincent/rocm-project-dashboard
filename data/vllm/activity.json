@@ -1,36 +1,30 @@
 {
-  "collected_at": "2026-05-05T09:51:39Z",
+  "collected_at": "2026-05-06T10:08:19Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 34,
+      "opened": 35,
       "merged": 34,
       "closed": 1
     },
     "last_week": {
-      "opened": 18,
-      "merged": 10,
+      "opened": 23,
+      "merged": 12,
       "closed": 0
     },
-    "median_time_to_merge_hours": 194.8,
-    "merge_count": 74,
+    "median_time_to_merge_hours": 229.3,
+    "merge_count": 75,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 65,
-    "total_contributors": 89,
+    "active_this_week": 72,
+    "total_contributors": 93,
     "top_contributors": [
       {
         "author": "AndreasKaratzas",
-        "prs_submitted": 19,
-        "prs_merged": 12,
-        "commits": 0
-      },
-      {
-        "author": "Bortlesboat",
-        "prs_submitted": 6,
-        "prs_merged": 2,
+        "prs_submitted": 20,
+        "prs_merged": 14,
         "commits": 0
       },
       {
@@ -40,7 +34,7 @@
         "commits": 0
       },
       {
-        "author": "Rohan138",
+        "author": "rbrugaro-amd",
         "prs_submitted": 4,
         "prs_merged": 2,
         "commits": 0
@@ -58,15 +52,27 @@
         "commits": 0
       },
       {
-        "author": "rbrugaro-amd",
+        "author": "simondanielsson",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "fxmarty-amd",
+        "author": "mgehre-amd",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "nholmber",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "pschlan-amd",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -74,26 +80,20 @@
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
-      },
-      {
-        "author": "xaguilar-amd",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
-    "bus_factor": 14
+    "bus_factor": 13
   },
   "issue_health": {
     "total_open": 52,
-    "opened_this_week": 27,
-    "closed_this_week": 86,
+    "opened_this_week": 20,
+    "closed_this_week": 91,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.0,
+    "days_since_last": 2.0,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.20.1"

@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-05-05T09:50:45Z",
+  "collected_at": "2026-05-06T10:07:28Z",
   "prs": [
+    {
+      "number": 9662,
+      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-06T09:33:39Z",
+      "updated_at": "2026-05-06T08:11:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10230,
+      "title": "[AMD][gfx1250] Combine redundant amdgpu.async_tdm_wait ops",
+      "author": "jerryyin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-05T13:09:43Z",
+      "updated_at": "2026-05-06T00:55:54Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10230",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10056,
+      "title": "[AMD][gfx1250] Support warp usage hints in TDM copy",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-16T17:52:03Z",
+      "updated_at": "2026-05-06T00:25:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10056",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10216,
       "title": "[AMD] Ignore tf32 precision for fp64 mfma dots",
@@ -8,8 +44,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-04T21:39:14Z",
-      "updated_at": "2026-05-05T07:54:32Z",
+      "updated_at": "2026-05-05T23:18:09Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10216",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10194,
+      "title": "[AMD] Fixing mi350 BlockPingpong update waits",
+      "author": "jerryyin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-01T15:08:24Z",
+      "updated_at": "2026-05-05T21:02:16Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10194",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9929,
+      "title": "[AMD] Warp-pipeline: back-to-back loop optimization & flat (unrolled) pipeline support",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-05T20:36:08Z",
+      "updated_at": "2026-05-05T20:58:48Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9929",
       "labels": [],
       "draft": false
     },
@@ -74,42 +134,6 @@
       "draft": false
     },
     {
-      "number": 10194,
-      "title": "[AMD] Fixing mi350 BlockPingpong update waits",
-      "author": "jerryyin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-01T15:08:24Z",
-      "updated_at": "2026-05-04T14:37:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10194",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9662,
-      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T09:33:39Z",
-      "updated_at": "2026-05-04T09:23:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9662",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10056,
-      "title": "[AMD][gfx1250] Support warp usage hints in TDM copy",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-16T17:52:03Z",
-      "updated_at": "2026-05-04T01:58:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10056",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10208,
       "title": "[AMD][gfx1250] Explicitly propagate NaN for MXFP attn example",
       "author": "antiagainst",
@@ -130,18 +154,6 @@
       "created_at": "2026-05-03T02:53:04Z",
       "updated_at": "2026-05-04T01:46:37Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10207",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9929,
-      "title": "[AMD] Warp-pipeline: back-to-back loop optimization & flat (unrolled) pipeline support",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-05T20:36:08Z",
-      "updated_at": "2026-05-03T21:42:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9929",
       "labels": [],
       "draft": false
     },
@@ -682,6 +694,18 @@
       "created_at": "2025-09-16T07:48:07Z",
       "updated_at": "2025-11-10T01:52:28Z",
       "html_url": "https://github.com/triton-lang/triton/pull/8198",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 8500,
+      "title": "[AMD][Draft] Optimize reduce waves layout",
+      "author": "Liang-jianhao97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-10-21T11:26:45Z",
+      "updated_at": "2025-10-29T03:35:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8500",
       "labels": [],
       "draft": true
     }
