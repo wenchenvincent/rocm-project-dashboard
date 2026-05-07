@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-06T10:07:25Z",
+  "collected_at": "2026-05-07T10:12:53Z",
   "issues": [
     {
       "number": 23602,
@@ -7,13 +7,45 @@
       "author": "fzyzcjy",
       "state": "open",
       "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-05-06T10:00:56Z",
+      "updated_at": "2026-05-07T09:59:49Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/23602",
       "labels": [
         "high priority",
         "deepseek",
         "roadmap"
       ]
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-05-07T08:11:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 21886,
+      "title": "[bug] ROCm DI MoRI for non-standard attention (such as DeepSeekv4, GLM5 & Qwen3.5) doesnt work",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-02T00:00:16Z",
+      "updated_at": "2026-05-07T01:54:51Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21886",
+      "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-05-06T16:19:14Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
     },
     {
       "number": 23005,
@@ -39,16 +71,6 @@
       "labels": []
     },
     {
-      "number": 21886,
-      "title": "[bug] ROCm DI MoRI for non-standard attention (such as DeepSeekv4, GLM5 & Qwen3.5) doesnt work",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-02T00:00:16Z",
-      "updated_at": "2026-05-06T06:52:14Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21886",
-      "labels": []
-    },
-    {
       "number": 12780,
       "title": "Development Roadmap (2026 Q1)",
       "author": "hnyls2002",
@@ -57,18 +79,6 @@
       "updated_at": "2026-05-06T05:08:58Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/12780",
       "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-05-06T01:37:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
     },
     {
       "number": 24440,
@@ -112,16 +122,6 @@
       "created_at": "2026-04-17T16:57:22Z",
       "updated_at": "2026-05-04T09:21:24Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/23083",
-      "labels": []
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-05-04T07:21:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
     },
     {

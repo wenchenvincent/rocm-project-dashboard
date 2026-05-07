@@ -1,41 +1,41 @@
 {
-  "collected_at": "2026-05-06T10:09:45Z",
+  "collected_at": "2026-05-07T10:15:37Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 8,
-      "merged": 8,
+      "opened": 12,
+      "merged": 4,
       "closed": 1
     },
     "last_week": {
       "opened": 10,
-      "merged": 13,
+      "merged": 18,
       "closed": 2
     },
-    "median_time_to_merge_hours": 191.9,
-    "merge_count": 21,
+    "median_time_to_merge_hours": 178.5,
+    "merge_count": 22,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 7,
+    "active_this_week": 8,
     "total_contributors": 16,
     "top_contributors": [
       {
         "author": "ipanfilo",
-        "prs_submitted": 19,
-        "prs_merged": 18,
-        "commits": 6
+        "prs_submitted": 20,
+        "prs_merged": 19,
+        "commits": 5
       },
       {
         "author": "Micky774",
-        "prs_submitted": 17,
-        "prs_merged": 12,
-        "commits": 7
+        "prs_submitted": 16,
+        "prs_merged": 11,
+        "commits": 6
       },
       {
         "author": "matthiasdiener",
-        "prs_submitted": 12,
+        "prs_submitted": 13,
         "prs_merged": 7,
         "commits": 4
       },
@@ -49,13 +49,19 @@
         "author": "alextmagro",
         "prs_submitted": 9,
         "prs_merged": 8,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "wangye805",
         "prs_submitted": 8,
         "prs_merged": 5,
         "commits": 3
+      },
+      {
+        "author": "aris134",
+        "prs_submitted": 7,
+        "prs_merged": 3,
+        "commits": 2
       },
       {
         "author": "sudhu2k",
@@ -68,12 +74,6 @@
         "prs_submitted": 6,
         "prs_merged": 4,
         "commits": 1
-      },
-      {
-        "author": "aris134",
-        "prs_submitted": 4,
-        "prs_merged": 3,
-        "commits": 3
       },
       {
         "author": "leo-automation",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 34.7,
+    "days_since_last": 35.7,
     "avg_interval_days": 47.2,
     "total_releases": 5,
     "latest_tag": "v2.8_rocm"

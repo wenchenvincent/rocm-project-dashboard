@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-05-06T10:07:28Z",
+  "collected_at": "2026-05-07T10:12:55Z",
   "prs": [
+    {
+      "number": 10253,
+      "title": "[AMD][gluon] Accept boolean predicates in tdm load/gather",
+      "author": "peterbell10",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-06T21:54:16Z",
+      "updated_at": "2026-05-07T08:22:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10253",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10248,
+      "title": "[AMD] Split uniform buffer offsets into soffset",
+      "author": "panditsa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T20:29:43Z",
+      "updated_at": "2026-05-07T04:14:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10248",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10224,
+      "title": "[AMD][GFX1250][FA-BF16] Bug fix: Reorder TDM in Prologue to match the loop body",
+      "author": "cagrikymk",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-05T02:10:35Z",
+      "updated_at": "2026-05-07T02:31:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10224",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10254,
+      "title": "[AMD] Add LLVM flag passthrough for AMDGPU codegen",
+      "author": "raikonenfnu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-07T01:43:24Z",
+      "updated_at": "2026-05-07T01:57:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10254",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10056,
+      "title": "[AMD][gfx1250] Support warp usage hints in TDM copy",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-16T17:52:03Z",
+      "updated_at": "2026-05-06T23:53:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10056",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 9662,
       "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
@@ -8,8 +68,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-03-06T09:33:39Z",
-      "updated_at": "2026-05-06T08:11:22Z",
+      "updated_at": "2026-05-06T16:23:13Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9886,
+      "title": "[AMD] Enable f32 WMMA for AccelerateMatmul (#470)",
+      "author": "ravil-mobile",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-30T16:38:08Z",
+      "updated_at": "2026-05-06T14:11:13Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9886",
       "labels": [],
       "draft": false
     },
@@ -22,18 +94,6 @@
       "created_at": "2026-05-05T13:09:43Z",
       "updated_at": "2026-05-06T00:55:54Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10230",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10056,
-      "title": "[AMD][gfx1250] Support warp usage hints in TDM copy",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-16T17:52:03Z",
-      "updated_at": "2026-05-06T00:25:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10056",
       "labels": [],
       "draft": false
     },
@@ -82,18 +142,6 @@
       "created_at": "2026-05-05T00:52:00Z",
       "updated_at": "2026-05-05T04:24:44Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10222",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10224,
-      "title": "[AMD][GFX1250][FA-BF16] Bug fix: Reorder TDM in Prologue to match the loop body",
-      "author": "cagrikymk",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-05T02:10:35Z",
-      "updated_at": "2026-05-05T03:53:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10224",
       "labels": [],
       "draft": false
     },
@@ -494,18 +542,6 @@
       "draft": false
     },
     {
-      "number": 10098,
-      "title": "[AMD][BACKEND] Adjust asynccnt computation for split async_stores",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-21T16:31:44Z",
-      "updated_at": "2026-04-22T19:19:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10098",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9260,
       "title": "[AMD] Add a knob to disable vector combine pass",
       "author": "antiagainst",
@@ -552,18 +588,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9891",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 9886,
-      "title": "[AMD] Enable f32 WMMA for AccelerateMatmul (#470)",
-      "author": "ravil-mobile",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-30T16:38:08Z",
-      "updated_at": "2026-03-30T17:04:33Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9886",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 9860,
@@ -694,18 +718,6 @@
       "created_at": "2025-09-16T07:48:07Z",
       "updated_at": "2025-11-10T01:52:28Z",
       "html_url": "https://github.com/triton-lang/triton/pull/8198",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 8500,
-      "title": "[AMD][Draft] Optimize reduce waves layout",
-      "author": "Liang-jianhao97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-10-21T11:26:45Z",
-      "updated_at": "2025-10-29T03:35:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/8500",
       "labels": [],
       "draft": true
     }

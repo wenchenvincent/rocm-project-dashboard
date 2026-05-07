@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-05-06T10:07:35Z",
+  "collected_at": "2026-05-07T10:13:02Z",
   "issues": [
     {
-      "number": 4845,
-      "title": "[Issue]: Model run fails with `segfault` in `libmigraphx.so` when one dynamic dimension is specified",
+      "number": 4846,
+      "title": "[Issue]: Model compilation time and size scales with dynamic dimensions' maximum size",
       "author": "mferencevic",
       "state": "open",
-      "created_at": "2026-05-06T10:00:09Z",
-      "updated_at": "2026-05-06T10:06:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/4845",
+      "created_at": "2026-05-06T10:34:36Z",
+      "updated_at": "2026-05-07T08:44:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/4846",
       "labels": []
     },
     {
@@ -17,8 +17,18 @@
       "author": "mferencevic",
       "state": "open",
       "created_at": "2026-05-06T09:48:02Z",
-      "updated_at": "2026-05-06T10:06:03Z",
+      "updated_at": "2026-05-06T20:46:03Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/4844",
+      "labels": []
+    },
+    {
+      "number": 4845,
+      "title": "[Issue]: Model run fails with `segfault` in `libmigraphx.so` when one dynamic dimension is specified",
+      "author": "mferencevic",
+      "state": "open",
+      "created_at": "2026-05-06T10:00:09Z",
+      "updated_at": "2026-05-06T20:45:51Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/4845",
       "labels": []
     },
     {
@@ -27,7 +37,7 @@
       "author": "cane122",
       "state": "open",
       "created_at": "2026-05-04T14:30:57Z",
-      "updated_at": "2026-05-04T14:30:57Z",
+      "updated_at": "2026-05-06T20:43:17Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/4840",
       "labels": []
     },

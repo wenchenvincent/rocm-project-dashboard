@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-05-06T10:08:24Z",
+  "collected_at": "2026-05-07T10:14:07Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 19,
-      "merged": 16,
-      "closed": 0
-    },
-    "last_week": {
-      "opened": 15,
+      "opened": 17,
       "merged": 13,
       "closed": 0
     },
+    "last_week": {
+      "opened": 16,
+      "merged": 15,
+      "closed": 0
+    },
     "median_time_to_merge_hours": 17.9,
-    "merge_count": 29,
-    "stale_prs": 14
+    "merge_count": 30,
+    "stale_prs": 12
   },
   "contributors": {
-    "active_this_week": 17,
-    "total_contributors": 32,
+    "active_this_week": 16,
+    "total_contributors": 33,
     "top_contributors": [
       {
         "author": "antiagainst",
@@ -37,6 +37,12 @@
         "author": "jungpark-mlir",
         "prs_submitted": 3,
         "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "ravil-mobile",
+        "prs_submitted": 3,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -64,8 +70,8 @@
         "commits": 0
       },
       {
-        "author": "ravil-mobile",
-        "prs_submitted": 3,
+        "author": "raikonenfnu",
+        "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
@@ -74,19 +80,13 @@
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
-      },
-      {
-        "author": "AlexAUT",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
       }
     ],
     "bus_factor": 4
   },
   "issue_health": {
-    "total_open": 14,
-    "opened_this_week": 0,
+    "total_open": 15,
+    "opened_this_week": 1,
     "closed_this_week": 2,
     "unanswered": 5
   },
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 104.4,
+    "days_since_last": 105.4,
     "avg_interval_days": 58.4,
     "total_releases": 4,
     "latest_tag": "v3.6.0"
