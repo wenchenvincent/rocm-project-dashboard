@@ -1,6 +1,20 @@
 {
-  "collected_at": "2026-05-07T10:12:19Z",
+  "collected_at": "2026-05-08T09:02:45Z",
   "prs": [
+    {
+      "number": 37198,
+      "title": "[ROCm] Introduce shim script for rocm jax upstream CI",
+      "author": "alekstheod",
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-04-27T11:45:21Z",
+      "updated_at": "2026-05-08T07:17:55Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37198",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 37444,
       "title": "[ROCm] Version-tier S3 layout, standardized CI job naming, and nightly build workflow",
@@ -8,8 +22,38 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-07T04:32:23Z",
-      "updated_at": "2026-05-07T04:59:54Z",
+      "updated_at": "2026-05-07T19:49:08Z",
       "html_url": "https://github.com/jax-ml/jax/pull/37444",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 36739,
+      "title": "[ROCm] Add Bazel option `remote_download_toplevel` for building.",
+      "author": "tsrw2048",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-13T20:54:00Z",
+      "updated_at": "2026-05-07T18:21:50Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36739",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 37475,
+      "title": "[ROCm] Move ROCm Bazel presubmit workflow to 32-bit mode.",
+      "author": "tsrw2048",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-07T17:34:13Z",
+      "updated_at": "2026-05-07T17:34:45Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37475",
       "labels": [
         "AMD GPU"
       ],
@@ -38,22 +82,6 @@
       "created_at": "2026-04-07T22:40:42Z",
       "updated_at": "2026-05-05T14:31:11Z",
       "html_url": "https://github.com/jax-ml/jax/pull/36572",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36739,
-      "title": "[ROCm] Add Bazel option `remote_download_toplevel` for building.",
-      "author": "tsrw2048",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-13T20:54:00Z",
-      "updated_at": "2026-05-04T22:58:32Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36739",
       "labels": [
         "kokoro:force-run",
         "pull ready",
@@ -143,20 +171,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/37085",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 37198,
-      "title": "[ROCm] Introduce shim script for rocm jax upstream CI",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-27T11:45:21Z",
-      "updated_at": "2026-04-28T22:21:34Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37198",
-      "labels": [
-        "AMD GPU"
-      ],
-      "draft": false
     },
     {
       "number": 37072,
@@ -690,21 +704,6 @@
       "updated_at": "2026-03-19T11:22:28Z",
       "html_url": "https://github.com/jax-ml/jax/pull/35917",
       "labels": [
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 35944,
-      "title": "Add ROCm xdist device pinning in conftest.py",
-      "author": "gulsumgudukbay",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-16T23:14:38Z",
-      "updated_at": "2026-03-17T17:33:38Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35944",
-      "labels": [
-        "kokoro:force-run",
         "pull ready"
       ],
       "draft": false

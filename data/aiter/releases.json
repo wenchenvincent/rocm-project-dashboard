@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-05-07T10:13:14Z",
+  "collected_at": "2026-05-08T09:03:26Z",
   "releases": [
+    {
+      "tag_name": "v0.1.13-rc5",
+      "name": "v0.1.13-rc5",
+      "published_at": "2026-05-08T02:30:18Z",
+      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.13-rc5",
+      "prerelease": true
+    },
     {
       "tag_name": "v0.1.13-rc2",
       "name": "v0.1.13-rc2",
@@ -28,13 +35,6 @@
       "published_at": "2026-04-11T20:08:06Z",
       "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.12.post1",
       "prerelease": false
-    },
-    {
-      "tag_name": "v0.1.12",
-      "name": "v0.1.12-rc1",
-      "published_at": "2026-04-10T20:25:11Z",
-      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.12",
-      "prerelease": true
     }
   ]
 }

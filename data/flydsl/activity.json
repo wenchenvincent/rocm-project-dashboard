@@ -1,48 +1,54 @@
 {
-  "collected_at": "2026-05-07T10:15:31Z",
+  "collected_at": "2026-05-08T09:05:17Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 8,
-      "merged": 9,
-      "closed": 3
+      "opened": 14,
+      "merged": 14,
+      "closed": 4
     },
     "last_week": {
-      "opened": 37,
-      "merged": 29,
+      "opened": 34,
+      "merged": 26,
       "closed": 5
     },
-    "median_time_to_merge_hours": 10.8,
-    "merge_count": 38,
+    "median_time_to_merge_hours": 10.6,
+    "merge_count": 40,
     "stale_prs": 1
   },
   "contributors": {
-    "active_this_week": 15,
+    "active_this_week": 17,
     "total_contributors": 30,
     "top_contributors": [
       {
         "author": "coderfeli",
         "prs_submitted": 24,
-        "prs_merged": 23,
+        "prs_merged": 24,
         "commits": 27
       },
       {
         "author": "sjfeng1999",
-        "prs_submitted": 22,
+        "prs_submitted": 23,
         "prs_merged": 22,
-        "commits": 26
+        "commits": 25
       },
       {
         "author": "yadaish",
         "prs_submitted": 6,
-        "prs_merged": 3,
+        "prs_merged": 4,
         "commits": 2
       },
       {
         "author": "zhiding512",
         "prs_submitted": 5,
-        "prs_merged": 4,
+        "prs_merged": 5,
+        "commits": 5
+      },
+      {
+        "author": "yanboshao",
+        "prs_submitted": 4,
+        "prs_merged": 3,
         "commits": 4
       },
       {
@@ -52,10 +58,16 @@
         "commits": 2
       },
       {
-        "author": "yanboshao",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 4
+        "author": "XingerZhu",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 1
+      },
+      {
+        "author": "cschenjunlin",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 1
       },
       {
         "author": "xudoyuan",
@@ -64,19 +76,7 @@
         "commits": 1
       },
       {
-        "author": "aryaman-gupta",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "vivienfanghuagood",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "omuhamma",
+        "author": "apicciau",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
@@ -96,6 +96,6 @@
     "days_since_last": null,
     "avg_interval_days": null,
     "total_releases": 3,
-    "latest_tag": "v0.1.6.dev529"
+    "latest_tag": "v0.1.6"
   }
 }

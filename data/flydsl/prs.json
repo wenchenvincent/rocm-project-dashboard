@@ -1,27 +1,27 @@
 {
-  "collected_at": "2026-05-07T10:13:24Z",
+  "collected_at": "2026-05-08T09:03:34Z",
   "prs": [
     {
-      "number": 475,
-      "title": "Add backend support",
-      "author": "coderfeli",
+      "number": 483,
+      "title": "[gfx1250] MoE 2-stage GEMM: MXScale rework + TDM K-loop hoist + build",
+      "author": "XingerZhu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-06T10:11:55Z",
-      "updated_at": "2026-05-07T06:51:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/475",
+      "created_at": "2026-05-08T08:39:35Z",
+      "updated_at": "2026-05-08T08:51:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/483",
       "labels": [],
       "draft": false
     },
     {
-      "number": 477,
-      "title": "use layout to calculate num_ds_load and num_gmem_load",
-      "author": "yadaish",
+      "number": 481,
+      "title": "[Feat] Align quant and fused rmsnorm kernels with aiter/triton",
+      "author": "cschenjunlin",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-07T03:08:35Z",
-      "updated_at": "2026-05-07T04:17:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/477",
+      "created_at": "2026-05-08T08:14:12Z",
+      "updated_at": "2026-05-08T08:14:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/481",
       "labels": [],
       "draft": false
     },
@@ -32,8 +32,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-28T04:05:32Z",
-      "updated_at": "2026-05-07T03:17:06Z",
+      "updated_at": "2026-05-08T03:33:18Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/442",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 479,
+      "title": "fixes shmem SIGSEGV",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-07T13:55:31Z",
+      "updated_at": "2026-05-08T03:26:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/479",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 478,
+      "title": "[Refact] Rename JitArgument & DslType interfaces, support SimpleNamespace as DslType",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-07T10:36:55Z",
+      "updated_at": "2026-05-08T01:23:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/478",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 431,
+      "title": "Add A16W4 MoE GEMM stage2 kernel (BF16 activations x MXFP4 weights)",
+      "author": "apicciau",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-23T13:52:40Z",
+      "updated_at": "2026-05-07T10:58:37Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/431",
       "labels": [],
       "draft": false
     },
@@ -46,30 +82,6 @@
       "created_at": "2026-04-23T22:06:37Z",
       "updated_at": "2026-05-06T16:21:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/433",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 345,
-      "title": "Fujun.han/multi vendor support",
-      "author": "Peter9606",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-03T10:36:51Z",
-      "updated_at": "2026-05-06T11:36:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/345",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 476,
-      "title": "support run only mode for AOT CI test",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T10:28:34Z",
-      "updated_at": "2026-05-06T11:21:31Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/476",
       "labels": [],
       "draft": false
     },
@@ -120,18 +132,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/449",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 431,
-      "title": "Add A16W4 MoE GEMM stage2 kernel (BF16 activations x MXFP4 weights)",
-      "author": "apicciau",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-23T13:52:40Z",
-      "updated_at": "2026-04-30T06:05:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/431",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 461,
@@ -254,6 +254,78 @@
       "draft": false
     },
     {
+      "number": 480,
+      "title": "[Bugfix] [Test] add missing argument to test_blockscale_preshuffle_gemm",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-07T21:17:48Z",
+      "updated_at": "2026-05-08T08:45:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/480",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 482,
+      "title": "Use build-only runner for wheel builds",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-08T08:33:45Z",
+      "updated_at": "2026-05-08T08:43:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/482",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 421,
+      "title": "feat: align quant and fused kernels with Triton in FlyDSL",
+      "author": "cschenjunlin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-21T08:17:30Z",
+      "updated_at": "2026-05-08T08:40:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/421",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 477,
+      "title": "use layout to calculate num_ds_load and num_gmem_load",
+      "author": "yadaish",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-07T03:08:35Z",
+      "updated_at": "2026-05-08T06:49:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/477",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 476,
+      "title": "support run only mode for AOT CI test",
+      "author": "zhiding512",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-06T10:28:34Z",
+      "updated_at": "2026-05-08T02:06:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/476",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 475,
+      "title": "Add backend support",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-06T10:11:55Z",
+      "updated_at": "2026-05-08T01:11:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/475",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 466,
       "title": "add xcd remap",
       "author": "solinzby1",
@@ -310,18 +382,6 @@
       "created_at": "2026-04-21T02:56:30Z",
       "updated_at": "2026-05-04T14:29:16Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/418",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 421,
-      "title": "feat: align quant and fused kernels with Triton in FlyDSL",
-      "author": "cschenjunlin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-21T08:17:30Z",
-      "updated_at": "2026-05-03T00:10:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/421",
       "labels": [],
       "draft": false
     },
@@ -1114,18 +1174,6 @@
       "created_at": "2026-04-09T08:20:46Z",
       "updated_at": "2026-04-09T10:01:14Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/369",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 368,
-      "title": "[Docs] Update CLAUDE.md, skills, and add 3 new skills",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-09T08:16:33Z",
-      "updated_at": "2026-04-09T08:27:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/368",
       "labels": [],
       "draft": false
     }

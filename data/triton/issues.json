@@ -1,16 +1,6 @@
 {
-  "collected_at": "2026-05-07T10:12:56Z",
+  "collected_at": "2026-05-08T09:03:11Z",
   "issues": [
-    {
-      "number": 10256,
-      "title": "[AMD][gfx950][ROCm 7.2.3] make_ttgir PassManager::run failed during MLA decode (DeepSeek-V3 / vLLM + aiter)",
-      "author": "yoyogo96",
-      "state": "open",
-      "created_at": "2026-05-07T09:52:18Z",
-      "updated_at": "2026-05-07T09:52:18Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/10256",
-      "labels": []
-    },
     {
       "number": 10036,
       "title": "HIP: invalid device ordinal on gfx1151 (AMD Strix Halo iGPU) in subprocess",

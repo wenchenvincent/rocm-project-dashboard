@@ -1,6 +1,56 @@
 {
-  "collected_at": "2026-05-07T10:13:18Z",
+  "collected_at": "2026-05-08T09:03:30Z",
   "issues": [
+    {
+      "number": 719,
+      "title": "[Bug]: Qwen3.5-35B-A3B / 27B BF16 accuracy regression at TP4 / TP8",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-05-08T08:05:27Z",
+      "updated_at": "2026-05-08T08:09:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/719",
+      "labels": [
+        "bug",
+        "regression",
+        "ATOM"
+      ]
+    },
+    {
+      "number": 717,
+      "title": "[Perf Regression] 1 config(s) regressed @ 65525fbc",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-08T03:46:43Z",
+      "updated_at": "2026-05-08T03:46:43Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/717",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 716,
+      "title": "[RFC]: Enable ATOM as vLLM-Omni's out-of-tree Plugin",
+      "author": "Phi-C",
+      "state": "open",
+      "created_at": "2026-05-08T02:22:07Z",
+      "updated_at": "2026-05-08T02:22:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/716",
+      "labels": []
+    },
+    {
+      "number": 664,
+      "title": "[Analysis] DeepSeek-V4 Attention Pipeline \u2014 Full Tensor Shape Breakdown",
+      "author": "carlushuang",
+      "state": "open",
+      "created_at": "2026-04-29T05:22:45Z",
+      "updated_at": "2026-05-07T13:16:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/664",
+      "labels": [
+        "documentation",
+        "enhancement"
+      ]
+    },
     {
       "number": 702,
       "title": "[Issue]:  aiter ASM paged-attention with block_size=16",
@@ -52,19 +102,6 @@
       "updated_at": "2026-04-29T15:12:43Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/672",
       "labels": []
-    },
-    {
-      "number": 664,
-      "title": "[Analysis] DeepSeek-V4 Attention Pipeline \u2014 Full Tensor Shape Breakdown",
-      "author": "carlushuang",
-      "state": "open",
-      "created_at": "2026-04-29T05:22:45Z",
-      "updated_at": "2026-04-29T11:20:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/664",
-      "labels": [
-        "documentation",
-        "enhancement"
-      ]
     },
     {
       "number": 661,

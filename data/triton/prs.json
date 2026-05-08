@@ -1,6 +1,114 @@
 {
-  "collected_at": "2026-05-07T10:12:55Z",
+  "collected_at": "2026-05-08T09:03:10Z",
   "prs": [
+    {
+      "number": 10184,
+      "title": "[subslice][AMD] Fix an assertion about PaddedSharedEncodingAttr",
+      "author": "yangshuxin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-30T16:01:11Z",
+      "updated_at": "2026-05-08T06:35:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10184",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10225,
+      "title": "[AMD][gfx1250] Add `update_tensor_descriptor` op",
+      "author": "zhanglx13",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-05T02:13:01Z",
+      "updated_at": "2026-05-08T06:34:18Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10225",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10248,
+      "title": "[AMD] Split uniform buffer offsets into soffset",
+      "author": "panditsa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T20:29:43Z",
+      "updated_at": "2026-05-08T06:05:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10248",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9662,
+      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
+      "author": "amd-jianli12",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-06T09:33:39Z",
+      "updated_at": "2026-05-07T22:31:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10216,
+      "title": "[AMD] Ignore tf32 precision for fp64 mfma dots",
+      "author": "draganmladjenovic",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-04T21:39:14Z",
+      "updated_at": "2026-05-07T18:42:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10216",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10259,
+      "title": "[AMD][NFC] Refactor lowerInst to a function, cleanup of TileKind",
+      "author": "nzaghen",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-07T15:53:06Z",
+      "updated_at": "2026-05-07T17:42:40Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10259",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10056,
+      "title": "[AMD][gfx1250] Support warp usage hints in TDM copy",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-16T17:52:03Z",
+      "updated_at": "2026-05-07T16:42:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10056",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9886,
+      "title": "[AMD] Enable f32 WMMA for AccelerateMatmul (#470)",
+      "author": "ravil-mobile",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-30T16:38:08Z",
+      "updated_at": "2026-05-07T16:32:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10142,
+      "title": "[AMD] Create TargetFeatures for architectural checks",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-27T18:12:28Z",
+      "updated_at": "2026-05-07T16:08:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10142",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10253,
       "title": "[AMD][gluon] Accept boolean predicates in tdm load/gather",
@@ -12,18 +120,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10253",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10248,
-      "title": "[AMD] Split uniform buffer offsets into soffset",
-      "author": "panditsa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T20:29:43Z",
-      "updated_at": "2026-05-07T04:14:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10248",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10224,
@@ -50,42 +146,6 @@
       "draft": true
     },
     {
-      "number": 10056,
-      "title": "[AMD][gfx1250] Support warp usage hints in TDM copy",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-16T17:52:03Z",
-      "updated_at": "2026-05-06T23:53:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10056",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9662,
-      "title": "[AMD][LAYOUTS] Refine optimal swizzling for wavefront64",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-06T09:33:39Z",
-      "updated_at": "2026-05-06T16:23:13Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9662",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9886,
-      "title": "[AMD] Enable f32 WMMA for AccelerateMatmul (#470)",
-      "author": "ravil-mobile",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-30T16:38:08Z",
-      "updated_at": "2026-05-06T14:11:13Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9886",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10230,
       "title": "[AMD][gfx1250] Combine redundant amdgpu.async_tdm_wait ops",
       "author": "jerryyin",
@@ -94,18 +154,6 @@
       "created_at": "2026-05-05T13:09:43Z",
       "updated_at": "2026-05-06T00:55:54Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10230",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10216,
-      "title": "[AMD] Ignore tf32 precision for fp64 mfma dots",
-      "author": "draganmladjenovic",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-04T21:39:14Z",
-      "updated_at": "2026-05-05T23:18:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10216",
       "labels": [],
       "draft": false
     },
@@ -146,18 +194,6 @@
       "draft": false
     },
     {
-      "number": 10225,
-      "title": "[AMD][gfx1250] Add `tdm_advance_descriptor` op",
-      "author": "zhanglx13",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-05T02:13:01Z",
-      "updated_at": "2026-05-05T02:13:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10225",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 10215,
       "title": "[AMD][gfx1250] Drop ttg.async_commit_group from TDM async chain",
       "author": "jerryyin",
@@ -166,18 +202,6 @@
       "created_at": "2026-05-04T18:31:34Z",
       "updated_at": "2026-05-05T00:54:49Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10215",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10184,
-      "title": "[subslice][AMD] Fix an assertion about PaddedSharedEncodingAttr",
-      "author": "yangshuxin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T16:01:11Z",
-      "updated_at": "2026-05-05T00:07:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10184",
       "labels": [],
       "draft": false
     },
@@ -202,18 +226,6 @@
       "created_at": "2026-05-03T02:53:04Z",
       "updated_at": "2026-05-04T01:46:37Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10207",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10142,
-      "title": "[AMD] Create TargetFeatures for architectural checks",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-27T18:12:28Z",
-      "updated_at": "2026-05-02T18:09:13Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10142",
       "labels": [],
       "draft": false
     },
@@ -276,18 +288,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9883",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10170,
-      "title": "[Tools][Translator][AMD] Add RDNA backend support for Triton-to-Gluon translator",
-      "author": "skysnow2001",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-29T16:15:07Z",
-      "updated_at": "2026-04-30T21:38:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10170",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10178,
@@ -494,54 +494,6 @@
       "draft": false
     },
     {
-      "number": 10115,
-      "title": "[AMD][BACKEND] Fix TDM gather/scatter intrinsic waitcnt computation",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-23T14:18:46Z",
-      "updated_at": "2026-04-24T04:04:00Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10115",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10109,
-      "title": "[AMD][GFX12] Cache modifiers for buffer and async ops",
-      "author": "alefimov-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-22T16:52:28Z",
-      "updated_at": "2026-04-23T19:07:53Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10109",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10113,
-      "title": "[AMD][gfx1250][TDM] Vector-typed internal TDM descriptor representation",
-      "author": "zhanglx13",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-23T00:04:31Z",
-      "updated_at": "2026-04-23T04:33:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10113",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10111,
-      "title": "[AMD][GLUON] Expose AMD scaled_upcast ops in Gluon",
-      "author": "FrederickVu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-22T18:52:14Z",
-      "updated_at": "2026-04-23T03:55:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10111",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9260,
       "title": "[AMD] Add a knob to disable vector combine pass",
       "author": "antiagainst",
@@ -720,6 +672,54 @@
       "html_url": "https://github.com/triton-lang/triton/pull/8198",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 8500,
+      "title": "[AMD][Draft] Optimize reduce waves layout",
+      "author": "Liang-jianhao97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-10-21T11:26:45Z",
+      "updated_at": "2025-10-29T03:35:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8500",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 8449,
+      "title": "[AMD][Draft] Eliminate redundant matmul by adjusting HeadDot wavefront partitioning",
+      "author": "the-strawhat",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-10-16T04:27:51Z",
+      "updated_at": "2025-10-16T14:55:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8449",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 8450,
+      "title": "[AMD][Draft] Implement implicit layout conversion for DotOp to enable direct GMEM to reg loads",
+      "author": "the-strawhat",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-10-16T04:30:12Z",
+      "updated_at": "2025-10-16T07:32:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8450",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 8304,
+      "title": "[AMD] Support float8_e5m2 in tutorials/03-matrix-multiplication.py for gfx950",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-09-26T21:15:00Z",
+      "updated_at": "2025-10-07T17:26:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8304",
+      "labels": [],
+      "draft": false
     }
   ]
 }

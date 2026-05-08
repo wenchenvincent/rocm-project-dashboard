@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-05-07T10:13:29Z",
+  "collected_at": "2026-05-08T09:03:38Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "rocm-mi300",
-    "run_id": 25480839753,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25480839753",
-    "run_date": "2026-05-07T08:32:11Z",
+    "run_id": 25533851906,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25533851906",
+    "run_date": "2026-05-08T03:16:13Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 2,
@@ -18,25 +18,25 @@
   },
   "cuda": {
     "workflow_name": "trunk",
-    "run_id": 25482354038,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25482354038",
-    "run_date": "2026-05-07T09:36:08Z",
+    "run_id": 25539763934,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25539763934",
+    "run_date": "2026-05-08T07:55:39Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 25,
-      "total_tests": 7567,
-      "passed": 7463,
+      "total_tests": 106,
+      "passed": 89,
       "failed": 0,
-      "skipped": 104,
+      "skipped": 17,
       "pass_rate": 100.0
     },
     "suites": [
       {
-        "name": "test_overrides",
-        "tests": 7567,
-        "passed": 7463,
+        "name": "cpp_extensions.test_libtorch_agnostic",
+        "tests": 106,
+        "passed": 89,
         "failed": 0,
-        "skipped": 104,
+        "skipped": 17,
         "errors": 0
       }
     ]
@@ -44,7 +44,7 @@
   "cuda_parity": {
     "ratio": 0.0,
     "rocm_count": 0,
-    "cuda_count": 7463,
+    "cuda_count": 89,
     "level": "test"
   }
 }

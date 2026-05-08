@@ -1,13 +1,26 @@
 {
-  "collected_at": "2026-05-07T10:12:53Z",
+  "collected_at": "2026-05-08T09:03:08Z",
   "issues": [
+    {
+      "number": 23005,
+      "title": "Speculative Decoding Development Roadmap (2026 Q2)",
+      "author": "Qiaolin-Yu",
+      "state": "open",
+      "created_at": "2026-04-16T23:37:35Z",
+      "updated_at": "2026-05-08T06:47:30Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23005",
+      "labels": [
+        "speculative-decoding",
+        "roadmap"
+      ]
+    },
     {
       "number": 23602,
       "title": "DeepSeek V4 Roadmap",
       "author": "fzyzcjy",
       "state": "open",
       "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-05-07T09:59:49Z",
+      "updated_at": "2026-05-08T05:27:08Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/23602",
       "labels": [
         "high priority",
@@ -21,7 +34,7 @@
       "author": "yeahdongcn",
       "state": "open",
       "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-05-07T08:11:20Z",
+      "updated_at": "2026-05-08T01:18:19Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/16565",
       "labels": [
         "mthreads"
@@ -46,19 +59,6 @@
       "updated_at": "2026-05-06T16:19:14Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
-    },
-    {
-      "number": 23005,
-      "title": "Speculative Decoding Development Roadmap (2026 Q2)",
-      "author": "Qiaolin-Yu",
-      "state": "open",
-      "created_at": "2026-04-16T23:37:35Z",
-      "updated_at": "2026-05-06T09:32:33Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23005",
-      "labels": [
-        "speculative-decoding",
-        "roadmap"
-      ]
     },
     {
       "number": 22949,
@@ -250,16 +250,6 @@
       "labels": [
         "amd"
       ]
-    },
-    {
-      "number": 23784,
-      "title": "[Bug] [AMD] Enabling EAGLE3 causes GPU memory access fault easily when concurrency is high",
-      "author": "akao-amd",
-      "state": "open",
-      "created_at": "2026-04-27T01:08:44Z",
-      "updated_at": "2026-04-27T01:10:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23784",
-      "labels": []
     },
     {
       "number": 15025,
@@ -473,6 +463,18 @@
       "updated_at": "2026-03-31T20:57:13Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21769",
       "labels": []
+    },
+    {
+      "number": 15784,
+      "title": "[Bug] Kimi Linear fails to launch on with `AttributeError: 'ModelConfig' object has no attribute 'scaling'`",
+      "author": "vincentzed",
+      "state": "open",
+      "created_at": "2025-12-24T20:09:22Z",
+      "updated_at": "2026-03-31T03:52:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15784",
+      "labels": [
+        "inactive"
+      ]
     },
     {
       "number": 20169,

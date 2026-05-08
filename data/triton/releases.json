@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-05-07T10:12:56Z",
+  "collected_at": "2026-05-08T09:03:11Z",
   "releases": [
+    {
+      "tag_name": "v3.7.0",
+      "name": "Triton 3.7 Release Notes",
+      "published_at": "2026-05-07T22:19:06Z",
+      "html_url": "https://github.com/triton-lang/triton/releases/tag/v3.7.0",
+      "prerelease": false
+    },
     {
       "tag_name": "v3.6.0",
       "name": "Triton 3.6.0 release",

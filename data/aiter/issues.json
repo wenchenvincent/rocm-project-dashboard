@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-05-07T10:13:13Z",
+  "collected_at": "2026-05-08T09:03:26Z",
   "issues": [
+    {
+      "number": 3076,
+      "title": "[vulnerability] unauthenticated `pickle.loads` on TCP-bound ZMQ XPUB socket allows network RCE on ROCm inference workers",
+      "author": "AAtomical",
+      "state": "open",
+      "created_at": "2026-05-07T23:03:35Z",
+      "updated_at": "2026-05-07T23:03:35Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3076",
+      "labels": []
+    },
     {
       "number": 3062,
       "title": "[Issue]: aiter ASM paged-attention `block_id` truncation at the 2 GB / 65,536-block boundary",
@@ -41,18 +51,6 @@
       "html_url": "https://github.com/ROCm/aiter/issues/2832",
       "labels": [
         "bug",
-        "frameworks-devops"
-      ]
-    },
-    {
-      "number": 2755,
-      "title": "Aiter. CI: Address rate limit in check-signal artifact download",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-04-16T06:46:36Z",
-      "updated_at": "2026-05-04T13:16:25Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2755",
-      "labels": [
         "frameworks-devops"
       ]
     },
@@ -1688,16 +1686,6 @@
       "created_at": "2025-04-27T05:39:13Z",
       "updated_at": "2025-04-28T06:37:32Z",
       "html_url": "https://github.com/ROCm/aiter/issues/346",
-      "labels": []
-    },
-    {
-      "number": 254,
-      "title": "[Issue]: CK attention still doesn't work on 7900 XTX?",
-      "author": "FeepingCreature",
-      "state": "open",
-      "created_at": "2025-03-30T16:44:12Z",
-      "updated_at": "2025-04-24T20:55:36Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/254",
       "labels": []
     },
     {
