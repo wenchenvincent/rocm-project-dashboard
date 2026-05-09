@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-08T09:03:17Z",
+  "collected_at": "2026-05-09T09:06:14Z",
   "issues": [
     {
       "number": 4846,
@@ -2406,18 +2406,6 @@
       "updated_at": "2022-08-04T17:41:52Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/1328",
       "labels": []
-    },
-    {
-      "number": 1115,
-      "title": "Add warning or error for onnx_backend_test.py for misspelling",
-      "author": "CharlieL7",
-      "state": "open",
-      "created_at": "2022-03-02T20:39:58Z",
-      "updated_at": "2022-06-30T18:07:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/1115",
-      "labels": [
-        "good first issue"
-      ]
     },
     {
       "number": 1240,

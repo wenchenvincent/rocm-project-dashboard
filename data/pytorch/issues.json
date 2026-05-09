@@ -1,50 +1,340 @@
 {
-  "collected_at": "2026-05-08T09:02:35Z",
+  "collected_at": "2026-05-09T09:05:42Z",
   "issues": [
     {
-      "number": 154306,
-      "title": "graph recording observed an input tensor deallocate during graph recording that did not occur during replay",
-      "author": "sradc",
+      "number": 183024,
+      "title": "[pipelining] Unable to use PP with HF transformers models due to non-float inputs",
+      "author": "fffffgggg54",
       "state": "open",
-      "created_at": "2025-05-24T18:14:36Z",
-      "updated_at": "2026-05-08T08:27:57Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/154306",
+      "created_at": "2026-05-09T02:53:08Z",
+      "updated_at": "2026-05-09T02:55:56Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/183024",
+      "labels": [
+        "oncall: distributed",
+        "module: pipelining",
+        "bot-triaged",
+        "oncall: distributed parallelisms",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 183021,
+      "title": "DTensor native sharding propagation cache can reuse stale SymInt OutputSharding across compiled_autograd ShapeEnv boundaries",
+      "author": "mengph",
+      "state": "open",
+      "created_at": "2026-05-09T02:08:00Z",
+      "updated_at": "2026-05-09T02:12:59Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/183021",
+      "labels": [
+        "oncall: distributed",
+        "module: dtensor",
+        "bot-triaged",
+        "oncall: distributed parallelisms",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 178064,
+      "title": "[2.10] [repro] torch.ops.aten._flash_attention_forward FlopCounterMode uses wrong permute, gets count wrong",
+      "author": "Birch-san",
+      "state": "open",
+      "created_at": "2026-03-21T19:11:16Z",
+      "updated_at": "2026-05-08T20:33:43Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/178064",
       "labels": [
         "triaged",
-        "module: cuda graphs",
+        "module: flop counter",
+        "module: sdpa",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 182988,
+      "title": "ROCm MI300 (gfx942): native segfault in mixed-precision BatchNorm2d backward",
+      "author": "aorenste",
+      "state": "open",
+      "created_at": "2026-05-08T20:19:19Z",
+      "updated_at": "2026-05-08T20:24:25Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/182988",
+      "labels": [
+        "triage review",
+        "oncall: distributed",
+        "module: rocm",
+        "module: fsdp",
+        "oncall: distributed parallelisms",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 122413,
+      "title": "DISABLED test_cuda_graph_allocator_propagates_stream (__main__.TestCuda)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2024-03-21T15:40:08Z",
+      "updated_at": "2026-05-08T19:03:04Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/122413",
+      "labels": [
+        "module: cuda",
+        "triaged",
+        "module: flaky-tests",
+        "skipped"
+      ]
+    },
+    {
+      "number": 181323,
+      "title": "DISABLED test_is_retain_graph_cuda (__main__.TestAutogradMultipleDispatchCUDA)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-24T01:12:19Z",
+      "updated_at": "2026-05-08T19:03:01Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/181323",
+      "labels": [
+        "module: autograd",
+        "triaged",
+        "module: flaky-tests",
+        "skipped"
+      ]
+    },
+    {
+      "number": 179898,
+      "title": "DISABLED test_missing_abstract_impl_cuda (__main__.TestCustomOpTestingCUDA)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-10T07:10:16Z",
+      "updated_at": "2026-05-08T19:02:58Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179898",
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "module: custom-operators",
+        "skipped",
+        "oncall: pt2",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 179798,
+      "title": "DISABLED test_memory_plots_free_segment_stack (__main__.TestCudaAllocator)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-09T07:05:36Z",
+      "updated_at": "2026-05-08T19:02:55Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179798",
+      "labels": [
+        "module: cuda",
+        "triaged",
+        "module: flaky-tests",
+        "skipped"
+      ]
+    },
+    {
+      "number": 180206,
+      "title": "DISABLED test_opcheck_opinfo_NumpyMulScalarCustomOp_cpu_float32 (__main__.TestCustomOpTestingCPU)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-13T07:23:28Z",
+      "updated_at": "2026-05-08T19:02:50Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180206",
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "module: custom-operators",
+        "skipped",
+        "oncall: pt2",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 179776,
+      "title": "DISABLED test_allow_reuse_disable_if_exceed_peak_cuda (__main__.GPUTests)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-09T01:04:07Z",
+      "updated_at": "2026-05-08T19:02:40Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179776",
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "skipped",
         "oncall: pt2",
         "module: inductor"
       ]
     },
     {
-      "number": 182932,
-      "title": "DISABLED test_torchvision_models_segmentation_deeplabv3_resnet101 (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
+      "number": 178538,
+      "title": "[BUG] [CRASH] Torch cause notebook crash on any exception (import torch)",
+      "author": "MrMarvel",
       "state": "open",
-      "created_at": "2026-05-08T07:09:45Z",
-      "updated_at": "2026-05-08T07:09:48Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182932",
+      "created_at": "2026-03-26T20:47:47Z",
+      "updated_at": "2026-05-08T18:55:28Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/178538",
       "labels": [
+        "needs reproduction",
+        "module: crash",
+        "module: windows",
         "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
+        "bot-triaged",
+        "bot-mislabeled"
       ]
     },
     {
-      "number": 151378,
-      "title": "DISABLED test_remove_noop_slice_scatter_cuda (__main__.GPUTests)",
+      "number": 175608,
+      "title": "torch.compile fails to trace try-except semantic and throw `RuntimeError`",
+      "author": "Shawn0v0",
+      "state": "open",
+      "created_at": "2026-02-24T04:25:26Z",
+      "updated_at": "2026-05-08T17:10:56Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/175608",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: dynamo"
+      ]
+    },
+    {
+      "number": 81684,
+      "title": "Message exchange failure when perform alltoallv (cpus) ",
+      "author": "kylasa",
+      "state": "open",
+      "created_at": "2022-07-19T06:31:51Z",
+      "updated_at": "2026-05-08T16:38:24Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/81684",
+      "labels": [
+        "high priority",
+        "triage review",
+        "oncall: distributed",
+        "module: c10d",
+        "oncall: distributed infra",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 82153,
+      "title": "DistributedDataParallel hangs when not using GPU 0",
+      "author": "yangkky",
+      "state": "open",
+      "created_at": "2022-07-25T19:45:11Z",
+      "updated_at": "2026-05-08T16:38:18Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/82153",
+      "labels": [
+        "oncall: distributed",
+        "module: ddp",
+        "oncall: distributed parallelisms",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 81545,
+      "title": "Precision error from torch.distributed.send() to recv()",
+      "author": "sjiang95",
+      "state": "open",
+      "created_at": "2022-07-15T05:45:01Z",
+      "updated_at": "2026-05-08T16:38:00Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/81545",
+      "labels": [
+        "oncall: distributed",
+        "oncall: distributed infra",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 76927,
+      "title": "Can't pickle model torch._C._distributed_c10d.ProcessGroupNCCL' object ",
+      "author": "Scikud",
+      "state": "open",
+      "created_at": "2022-05-05T23:54:13Z",
+      "updated_at": "2026-05-08T16:36:39Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/76927",
+      "labels": [
+        "oncall: distributed",
+        "module: c10d",
+        "module: ddp",
+        "oncall: distributed infra",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 180542,
+      "title": "DISABLED test_vmap_two_inputs_tuple_in_dims (__main__.FuncTorchHigherOrderOpTestsWithCompiledAutograd)",
       "author": "pytorch-bot[bot]",
       "state": "open",
-      "created_at": "2025-04-16T01:02:38Z",
-      "updated_at": "2026-05-08T07:09:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/151378",
+      "created_at": "2026-04-16T07:12:34Z",
+      "updated_at": "2026-05-08T15:55:21Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180542",
       "labels": [
         "triaged",
         "module: flaky-tests",
         "skipped",
-        "module: fx",
+        "oncall: pt2",
+        "module: inductor"
+      ]
+    },
+    {
+      "number": 155216,
+      "title": "DISABLED test_Linear_cuda_tf32 (__main__.TestNN)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2025-06-05T12:55:44Z",
+      "updated_at": "2026-05-08T14:30:34Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/155216",
+      "labels": [
+        "high priority",
+        "triage review",
+        "module: nn",
+        "module: rocm",
+        "triaged",
+        "module: flaky-tests",
+        "skipped",
         "rocm-skipped-tests"
+      ]
+    },
+    {
+      "number": 182952,
+      "title": "hipBLASLt path ignores backward fp16_alt_impl for Half GEMMs, causing FTZ in backward and silent training divergence on gfx90a",
+      "author": "dietervdb-meteo",
+      "state": "open",
+      "created_at": "2026-05-08T14:06:47Z",
+      "updated_at": "2026-05-08T14:09:24Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/182952",
+      "labels": [
+        "triage review",
+        "module: numerical-stability",
+        "module: autograd",
+        "module: rocm",
+        "module: regression",
+        "has workaround",
+        "module: half",
+        "module: linear algebra",
+        "module: correctness (silent)",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 181238,
+      "title": "torch.cuda.synchronize() syncs on device 0 when current device is not explicitly set, causing incomplete profiling results",
+      "author": "zhangfzR",
+      "state": "open",
+      "created_at": "2026-04-23T12:57:39Z",
+      "updated_at": "2026-05-08T13:11:50Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/181238",
+      "labels": [
+        "oncall: profiler",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 181272,
+      "title": "DISABLED test_backward_single_threaded_cuda (__main__.TestAutogradMultipleDispatchCUDA)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-23T19:03:29Z",
+      "updated_at": "2026-05-08T13:02:50Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/181272",
+      "labels": [
+        "module: autograd",
+        "triaged",
+        "module: flaky-tests",
+        "skipped"
       ]
     },
     {
@@ -53,7 +343,7 @@
       "author": "pytorch-bot[bot]",
       "state": "open",
       "created_at": "2025-04-17T09:42:37Z",
-      "updated_at": "2026-05-08T07:09:40Z",
+      "updated_at": "2026-05-08T13:02:47Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/151541",
       "labels": [
         "triaged",
@@ -64,13 +354,46 @@
       ]
     },
     {
-      "number": 181272,
-      "title": "DISABLED test_backward_single_threaded_cuda (__main__.TestAutogradMultipleDispatchCUDA)",
+      "number": 151378,
+      "title": "DISABLED test_remove_noop_slice_scatter_cuda (__main__.GPUTests)",
       "author": "pytorch-bot[bot]",
       "state": "open",
-      "created_at": "2026-04-23T19:03:29Z",
-      "updated_at": "2026-05-08T07:09:37Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/181272",
+      "created_at": "2025-04-16T01:02:38Z",
+      "updated_at": "2026-05-08T13:02:44Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/151378",
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "skipped",
+        "module: fx",
+        "rocm-skipped-tests"
+      ]
+    },
+    {
+      "number": 180196,
+      "title": "DISABLED test_opcheck_opinfo_NumpyMulCustomOp_cpu_float32 (__main__.TestCustomOpTestingCPU)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-13T01:09:14Z",
+      "updated_at": "2026-05-08T13:02:41Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180196",
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "module: custom-operators",
+        "skipped",
+        "oncall: pt2",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 181228,
+      "title": "DISABLED test_is_retain_graph_cpu (__main__.TestAutogradMultipleDispatchCPU)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-23T07:15:25Z",
+      "updated_at": "2026-05-08T13:02:38Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/181228",
       "labels": [
         "module: autograd",
         "triaged",
@@ -79,18 +402,86 @@
       ]
     },
     {
-      "number": 123891,
-      "title": "DISABLED test_torchvision_models_efficientnet_b3 (__main__.TestVisionTracing)",
+      "number": 182397,
+      "title": "DISABLED test_torchvision_models_efficientnet_b6 (__main__.TestVisionTracing)",
       "author": "pytorch-bot[bot]",
       "state": "open",
-      "created_at": "2024-04-12T01:02:53Z",
-      "updated_at": "2026-05-08T07:09:33Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/123891",
+      "created_at": "2026-05-05T01:13:35Z",
+      "updated_at": "2026-05-08T13:02:35Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/182397",
       "labels": [
         "triaged",
         "module: flaky-tests",
         "skipped",
         "module: fx"
+      ]
+    },
+    {
+      "number": 152632,
+      "title": "DISABLED test_torchvision_models_efficientnet_v2_l (__main__.TestVisionTracing)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2025-05-01T21:41:24Z",
+      "updated_at": "2026-05-08T13:02:32Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/152632",
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "skipped",
+        "module: fx"
+      ]
+    },
+    {
+      "number": 182096,
+      "title": "DISABLED test_sparse_mask_backward_cpu_float64 (__main__.TestSparseCPU)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-05-01T07:29:58Z",
+      "updated_at": "2026-05-08T12:36:20Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/182096",
+      "labels": [
+        "module: sparse",
+        "triaged",
+        "module: flaky-tests",
+        "skipped",
+        "oncall: pt2",
+        "module: dynamo"
+      ]
+    },
+    {
+      "number": 182110,
+      "title": "DISABLED test_graph_break_bomb_backend_inductor_device_cpu (__main__.TestPackage)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-05-01T13:02:11Z",
+      "updated_at": "2026-05-08T12:16:10Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/182110",
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "skipped",
+        "oncall: pt2",
+        "module: dynamo"
+      ]
+    },
+    {
+      "number": 182947,
+      "title": "[Inductor] `control_deps_op_lowering` aborts on `auto_functionalized_v2(...)` using overlap scheduling",
+      "author": "lauri9",
+      "state": "open",
+      "created_at": "2026-05-08T11:54:29Z",
+      "updated_at": "2026-05-08T11:57:59Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/182947",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: custom-operators",
+        "oncall: pt2",
+        "module: inductor",
+        "module: higher order operators",
+        "module: pt2-dispatcher",
+        "module: reinplacing",
+        "bot-triaged"
       ]
     },
     {
@@ -106,143 +497,6 @@
         "module: flaky-tests",
         "skipped",
         "module: fx"
-      ]
-    },
-    {
-      "number": 182259,
-      "title": "DISABLED test_torchvision_models_convnext_base (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-05-04T01:18:19Z",
-      "updated_at": "2026-05-08T07:09:27Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182259",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
-      ]
-    },
-    {
-      "number": 182397,
-      "title": "DISABLED test_torchvision_models_efficientnet_b6 (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-05-05T01:13:35Z",
-      "updated_at": "2026-05-08T07:09:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182397",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
-      ]
-    },
-    {
-      "number": 182095,
-      "title": "DISABLED test_torchvision_models_efficientnet_v2_s (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-05-01T07:29:55Z",
-      "updated_at": "2026-05-08T07:09:21Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182095",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
-      ]
-    },
-    {
-      "number": 124152,
-      "title": "DISABLED test_torchvision_models_efficientnet_v2_m (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2024-04-16T06:39:45Z",
-      "updated_at": "2026-05-08T07:09:18Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/124152",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
-      ]
-    },
-    {
-      "number": 177001,
-      "title": "DISABLED test_memory_stats_of_multiple_generators_and_graphs (__main__.TestCuda)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-03-10T07:01:23Z",
-      "updated_at": "2026-05-08T07:09:17Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/177001",
-      "labels": [
-        "module: cuda",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
-      "number": 152632,
-      "title": "DISABLED test_torchvision_models_efficientnet_v2_l (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2025-05-01T21:41:24Z",
-      "updated_at": "2026-05-08T07:09:15Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/152632",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
-      ]
-    },
-    {
-      "number": 179776,
-      "title": "DISABLED test_allow_reuse_disable_if_exceed_peak_cuda (__main__.GPUTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-04-09T01:04:07Z",
-      "updated_at": "2026-05-08T07:09:12Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179776",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
-      "number": 123890,
-      "title": "DISABLED test_torchvision_models_efficientnet_b7 (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2024-04-12T01:02:50Z",
-      "updated_at": "2026-05-08T07:09:06Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/123890",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx",
-        "rocm-skipped-tests"
-      ]
-    },
-    {
-      "number": 181366,
-      "title": "`torch.compile` crashes with `CppCompileError`",
-      "author": "raindrops-0199",
-      "state": "open",
-      "created_at": "2026-04-24T12:42:36Z",
-      "updated_at": "2026-05-08T03:58:50Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/181366",
-      "labels": [
-        "triaged",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
       ]
     },
     {
@@ -310,23 +564,6 @@
       ]
     },
     {
-      "number": 135892,
-      "title": "torch.compile with mode = \"max-autotune\" breaks when starting from inference_mode",
-      "author": "JanRocketMan",
-      "state": "open",
-      "created_at": "2024-09-12T20:50:32Z",
-      "updated_at": "2026-05-07T21:25:34Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/135892",
-      "labels": [
-        "high priority",
-        "triaged",
-        "module: cuda graphs",
-        "inference mode",
-        "oncall: pt2",
-        "PT2-Bug-Bash"
-      ]
-    },
-    {
       "number": 145213,
       "title": "Significant precision error from torch.compile",
       "author": "Edenzzzz",
@@ -343,22 +580,6 @@
         "oncall: pt2",
         "module: inductor",
         "PT2-Bug-Bash"
-      ]
-    },
-    {
-      "number": 178250,
-      "title": "[TorchDynamo] NotImplementedError when registering forward hook with lambda expression inside forward method",
-      "author": "Blooming-Tree",
-      "state": "open",
-      "created_at": "2026-03-24T07:24:38Z",
-      "updated_at": "2026-05-07T20:22:49Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/178250",
-      "labels": [
-        "module: nn",
-        "triaged",
-        "oncall: pt2",
-        "module: dynamo",
-        "bot-triaged"
       ]
     },
     {
@@ -382,67 +603,6 @@
       ]
     },
     {
-      "number": 182869,
-      "title": "DISABLED test_redispatch_nn_functional_conv_transpose3d_cuda_complex64 (__main__.TestTorchFunctionRedispatchOpsCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-05-07T19:15:52Z",
-      "updated_at": "2026-05-07T19:15:55Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182869",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: __torch_function__"
-      ]
-    },
-    {
-      "number": 177000,
-      "title": "DISABLED test_mempool_expandable (__main__.TestMemPool)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-03-10T07:01:19Z",
-      "updated_at": "2026-05-07T19:15:50Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/177000",
-      "labels": [
-        "module: cuda",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
-      "number": 179744,
-      "title": "DISABLED test_memory_plots (__main__.TestCudaAllocator)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-04-08T19:04:17Z",
-      "updated_at": "2026-05-07T19:15:46Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179744",
-      "labels": [
-        "module: cuda",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
-      "number": 151382,
-      "title": "DISABLED test_remove_noop_slice_scatter_cpu (__main__.CpuTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2025-04-16T01:02:47Z",
-      "updated_at": "2026-05-07T19:15:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/151382",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx",
-        "rocm-skipped-tests"
-      ]
-    },
-    {
       "number": 151511,
       "title": "DISABLED test_remove_noop_view_default_cuda (__main__.GPUTests)",
       "author": "pytorch-bot[bot]",
@@ -450,22 +610,6 @@
       "created_at": "2025-04-17T03:47:39Z",
       "updated_at": "2026-05-07T19:15:41Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/151511",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx",
-        "rocm-skipped-tests"
-      ]
-    },
-    {
-      "number": 151381,
-      "title": "DISABLED test_remove_noop_slice1_cuda (__main__.GPUTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2025-04-16T01:02:44Z",
-      "updated_at": "2026-05-07T19:15:38Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/151381",
       "labels": [
         "triaged",
         "module: flaky-tests",
@@ -750,68 +894,6 @@
         "module: ddp",
         "oncall: distributed parallelisms",
         "ptd-bot-triaged"
-      ]
-    },
-    {
-      "number": 182653,
-      "title": "CPU FPE crash in `torch.nn.quantized.functional.conv2d` (qnnpack)",
-      "author": "RAT-tjy",
-      "state": "open",
-      "created_at": "2026-05-06T14:33:38Z",
-      "updated_at": "2026-05-06T14:35:23Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182653",
-      "labels": [
-        "oncall: quantization",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 77764,
-      "title": "General MPS op coverage tracking issue",
-      "author": "albanD",
-      "state": "open",
-      "created_at": "2022-05-18T18:12:47Z",
-      "updated_at": "2026-05-06T10:10:16Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/77764",
-      "labels": [
-        "feature",
-        "triaged",
-        "tracker",
-        "module: mps"
-      ]
-    },
-    {
-      "number": 173800,
-      "title": "[release 2.11] [triton]  test_aot_inductor_package.py::TestAOTInductorPackageCpp_cuda::test_compile_with_exporter",
-      "author": "atalman",
-      "state": "open",
-      "created_at": "2026-01-29T15:08:52Z",
-      "updated_at": "2026-05-05T18:53:46Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/173800",
-      "labels": [
-        "triage review",
-        "triaged",
-        "oncall: pt2",
-        "module: inductor",
-        "upstream triton"
-      ]
-    },
-    {
-      "number": 182343,
-      "title": "Torch Inductor SearchSorted SliceView Bug",
-      "author": "leimao",
-      "state": "open",
-      "created_at": "2026-05-04T20:33:39Z",
-      "updated_at": "2026-05-05T18:48:39Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182343",
-      "labels": [
-        "module: crash",
-        "triaged",
-        "module: correctness (silent)",
-        "module: sorting and selection",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
       ]
     }
   ]

@@ -1,55 +1,61 @@
 {
-  "collected_at": "2026-05-08T09:05:17Z",
+  "collected_at": "2026-05-09T09:08:05Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 14,
-      "merged": 14,
-      "closed": 4
+      "opened": 25,
+      "merged": 24,
+      "closed": 11
     },
     "last_week": {
-      "opened": 34,
-      "merged": 26,
+      "opened": 32,
+      "merged": 25,
       "closed": 5
     },
-    "median_time_to_merge_hours": 10.6,
-    "merge_count": 40,
-    "stale_prs": 1
+    "median_time_to_merge_hours": 9.7,
+    "merge_count": 49,
+    "stale_prs": 2
   },
   "contributors": {
-    "active_this_week": 17,
+    "active_this_week": 16,
     "total_contributors": 30,
     "top_contributors": [
       {
         "author": "coderfeli",
-        "prs_submitted": 24,
-        "prs_merged": 24,
+        "prs_submitted": 22,
+        "prs_merged": 22,
         "commits": 27
       },
       {
         "author": "sjfeng1999",
-        "prs_submitted": 23,
-        "prs_merged": 22,
-        "commits": 25
+        "prs_submitted": 20,
+        "prs_merged": 20,
+        "commits": 24
       },
       {
         "author": "yadaish",
-        "prs_submitted": 6,
-        "prs_merged": 4,
+        "prs_submitted": 5,
+        "prs_merged": 3,
         "commits": 2
       },
       {
-        "author": "zhiding512",
+        "author": "yanboshao",
         "prs_submitted": 5,
         "prs_merged": 5,
         "commits": 5
       },
       {
-        "author": "yanboshao",
+        "author": "zhiding512",
         "prs_submitted": 4,
-        "prs_merged": 3,
-        "commits": 4
+        "prs_merged": 4,
+        "commits": 5
+      },
+      {
+        "author": "XingerZhu",
+        "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 2
       },
       {
         "author": "fsx950223",
@@ -58,19 +64,13 @@
         "commits": 2
       },
       {
-        "author": "XingerZhu",
+        "author": "omuhamma",
         "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_merged": 0,
+        "commits": 0
       },
       {
         "author": "cschenjunlin",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 1
-      },
-      {
-        "author": "xudoyuan",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 1

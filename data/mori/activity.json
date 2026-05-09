@@ -1,55 +1,55 @@
 {
-  "collected_at": "2026-05-08T09:05:14Z",
+  "collected_at": "2026-05-09T09:08:02Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 4,
-      "merged": 6,
-      "closed": 2
+      "opened": 9,
+      "merged": 7,
+      "closed": 3
     },
     "last_week": {
       "opened": 7,
       "merged": 2,
       "closed": 0
     },
-    "median_time_to_merge_hours": 29.3,
-    "merge_count": 12,
+    "median_time_to_merge_hours": 18.0,
+    "merge_count": 13,
     "stale_prs": 7
   },
   "contributors": {
-    "active_this_week": 9,
+    "active_this_week": 10,
     "total_contributors": 16,
     "top_contributors": [
       {
         "author": "jhchouuu",
-        "prs_submitted": 31,
+        "prs_submitted": 32,
         "prs_merged": 29,
         "commits": 8
       },
       {
         "author": "TianDi101",
-        "prs_submitted": 20,
-        "prs_merged": 19,
-        "commits": 7
+        "prs_submitted": 22,
+        "prs_merged": 20,
+        "commits": 8
       },
       {
         "author": "maning00",
         "prs_submitted": 19,
-        "prs_merged": 14,
+        "prs_merged": 13,
         "commits": 5
-      },
-      {
-        "author": "isytwu",
-        "prs_submitted": 6,
-        "prs_merged": 5,
-        "commits": 1
       },
       {
         "author": "QizhouZhang97",
         "prs_submitted": 6,
         "prs_merged": 5,
         "commits": 4
+      },
+      {
+        "author": "isytwu",
+        "prs_submitted": 6,
+        "prs_merged": 5,
+        "commits": 1
       },
       {
         "author": "inkcherry",
@@ -59,8 +59,8 @@
       },
       {
         "author": "zhangfei829",
-        "prs_submitted": 5,
-        "prs_merged": 5,
+        "prs_submitted": 4,
+        "prs_merged": 4,
         "commits": 2
       },
       {
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 14.0,
+    "days_since_last": 15.0,
     "avg_interval_days": 12.5,
     "total_releases": 3,
     "latest_tag": "v1.1.1"

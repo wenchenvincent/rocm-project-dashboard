@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-05-08T09:03:10Z",
+  "collected_at": "2026-05-09T09:06:09Z",
   "prs": [
+    {
+      "number": 10200,
+      "title": "[AMD] Extend chain-dot detection across loop iteration boundaries",
+      "author": "raikonenfnu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-02T01:37:05Z",
+      "updated_at": "2026-05-09T00:29:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10200",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10142,
+      "title": "[AMD] Create TargetFeatures for architectural checks",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-27T18:12:28Z",
+      "updated_at": "2026-05-09T00:04:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10142",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10272,
+      "title": "[AMD] Support predicate descriptor load when pipelining",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-08T21:28:05Z",
+      "updated_at": "2026-05-08T22:54:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10272",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9260,
+      "title": "[AMD] Disable LLVM vector combine pass",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-21T01:10:55Z",
+      "updated_at": "2026-05-08T22:26:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9260",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10225,
+      "title": "[AMD][gfx1250] Add `update_tensor_descriptor` op",
+      "author": "zhanglx13",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-05T02:13:01Z",
+      "updated_at": "2026-05-08T17:27:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10225",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10184,
       "title": "[subslice][AMD] Fix an assertion about PaddedSharedEncodingAttr",
@@ -10,18 +70,6 @@
       "created_at": "2026-04-30T16:01:11Z",
       "updated_at": "2026-05-08T06:35:38Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10184",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10225,
-      "title": "[AMD][gfx1250] Add `update_tensor_descriptor` op",
-      "author": "zhanglx13",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-05T02:13:01Z",
-      "updated_at": "2026-05-08T06:34:18Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10225",
       "labels": [],
       "draft": false
     },
@@ -94,18 +142,6 @@
       "created_at": "2026-03-30T16:38:08Z",
       "updated_at": "2026-05-07T16:32:19Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9886",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10142,
-      "title": "[AMD] Create TargetFeatures for architectural checks",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-27T18:12:28Z",
-      "updated_at": "2026-05-07T16:08:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10142",
       "labels": [],
       "draft": false
     },
@@ -240,18 +276,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10204",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 10200,
-      "title": "[AMD] Extend chain-dot detection across loop iteration boundaries",
-      "author": "raikonenfnu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-02T01:37:05Z",
-      "updated_at": "2026-05-02T01:57:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10200",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 10185,
@@ -434,30 +458,6 @@
       "draft": false
     },
     {
-      "number": 10146,
-      "title": "[AMD][CI] Switch gfx942 to use normal pytorch docker",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-27T21:29:10Z",
-      "updated_at": "2026-04-27T21:52:33Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10146",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10138,
-      "title": "[AMD] NFC: Unify AMD GFX architecture pass option",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-26T16:14:24Z",
-      "updated_at": "2026-04-27T16:20:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10138",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10133,
       "title": "[AMD] Support probing versioned runtime dylib",
       "author": "antiagainst",
@@ -466,42 +466,6 @@
       "created_at": "2026-04-25T18:46:45Z",
       "updated_at": "2026-04-25T18:47:08Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10133",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 10108,
-      "title": "[AMD][gfx1250] Add fused SwiGLU mode to gluon mxfp GEMM example",
-      "author": "kelesvol",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-22T14:03:29Z",
-      "updated_at": "2026-04-24T20:55:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10108",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10088,
-      "title": "[AMD][gluon] Derive gfx1250 write slot from read phase for membar disjointness",
-      "author": "jungpark-mlir",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-20T20:37:50Z",
-      "updated_at": "2026-04-24T16:23:53Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10088",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9260,
-      "title": "[AMD] Add a knob to disable vector combine pass",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-21T01:10:55Z",
-      "updated_at": "2026-04-22T16:44:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9260",
       "labels": [],
       "draft": true
     },
@@ -718,6 +682,42 @@
       "created_at": "2025-09-26T21:15:00Z",
       "updated_at": "2025-10-07T17:26:39Z",
       "html_url": "https://github.com/triton-lang/triton/pull/8304",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 7616,
+      "title": "[AMD] Enable global_load_tr_b128 on gfx12",
+      "author": "ptrojahn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-07-23T11:54:15Z",
+      "updated_at": "2025-08-01T21:22:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/7616",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 7721,
+      "title": "[WIP] [AMD] Investigate custom epilogue peeling",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-07-31T18:19:56Z",
+      "updated_at": "2025-08-01T09:31:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/7721",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 7147,
+      "title": "[BACKEND] Clean up hard code for NV and AMD GPU in the common TritonGPU dialect to support third party GPU extension.",
+      "author": "chengjunlu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-06-11T00:53:24Z",
+      "updated_at": "2025-07-14T23:21:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/7147",
       "labels": [],
       "draft": false
     }

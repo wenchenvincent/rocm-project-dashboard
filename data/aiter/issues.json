@@ -1,6 +1,40 @@
 {
-  "collected_at": "2026-05-08T09:03:26Z",
+  "collected_at": "2026-05-09T09:06:22Z",
   "issues": [
+    {
+      "number": 2751,
+      "title": "Increase SGLang downstream test coverage",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-04-16T05:15:49Z",
+      "updated_at": "2026-05-09T07:26:04Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2751",
+      "labels": [
+        "enhancement",
+        "frameworks-devops",
+        "ci:sglang"
+      ]
+    },
+    {
+      "number": 3095,
+      "title": "[Issue]: [MLA] All bf16 PS decode paths silently produce wrong output at page_size>1 on gfx950 (and a related vLLM page_size=1 fault)",
+      "author": "okorzh-amd",
+      "state": "open",
+      "created_at": "2026-05-09T02:18:03Z",
+      "updated_at": "2026-05-09T04:24:04Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3095",
+      "labels": []
+    },
+    {
+      "number": 3091,
+      "title": "[Issue] Potential RAW and WAW races on `ExpertHist` in `_combined_routing_fused`",
+      "author": "mark14wu",
+      "state": "open",
+      "created_at": "2026-05-08T15:59:37Z",
+      "updated_at": "2026-05-08T15:59:37Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3091",
+      "labels": []
+    },
     {
       "number": 3076,
       "title": "[vulnerability] unauthenticated `pickle.loads` on TCP-bound ZMQ XPUB socket allows network RCE on ROCm inference workers",
@@ -236,20 +270,6 @@
       "labels": [
         "enhancement",
         "frameworks-devops"
-      ]
-    },
-    {
-      "number": 2751,
-      "title": "Increase SGLang downstream test coverage",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-04-16T05:15:49Z",
-      "updated_at": "2026-04-21T03:38:14Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2751",
-      "labels": [
-        "enhancement",
-        "frameworks-devops",
-        "ci:sglang"
       ]
     },
     {
