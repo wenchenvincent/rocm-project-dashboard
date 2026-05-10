@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-05-09T09:06:22Z",
+  "collected_at": "2026-05-10T09:20:20Z",
   "issues": [
+    {
+      "number": 3076,
+      "title": "[vulnerability] unauthenticated `pickle.loads` on TCP-bound ZMQ XPUB socket allows network RCE on ROCm inference workers",
+      "author": "AAtomical",
+      "state": "open",
+      "created_at": "2026-05-07T23:03:35Z",
+      "updated_at": "2026-05-09T15:47:25Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3076",
+      "labels": []
+    },
+    {
+      "number": 3091,
+      "title": "[Issue] Potential RAW and WAW races on `ExpertHist` in `_combined_routing_fused`",
+      "author": "mark14wu",
+      "state": "open",
+      "created_at": "2026-05-08T15:59:37Z",
+      "updated_at": "2026-05-09T15:46:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3091",
+      "labels": []
+    },
     {
       "number": 2751,
       "title": "Increase SGLang downstream test coverage",
@@ -14,36 +34,6 @@
         "frameworks-devops",
         "ci:sglang"
       ]
-    },
-    {
-      "number": 3095,
-      "title": "[Issue]: [MLA] All bf16 PS decode paths silently produce wrong output at page_size>1 on gfx950 (and a related vLLM page_size=1 fault)",
-      "author": "okorzh-amd",
-      "state": "open",
-      "created_at": "2026-05-09T02:18:03Z",
-      "updated_at": "2026-05-09T04:24:04Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3095",
-      "labels": []
-    },
-    {
-      "number": 3091,
-      "title": "[Issue] Potential RAW and WAW races on `ExpertHist` in `_combined_routing_fused`",
-      "author": "mark14wu",
-      "state": "open",
-      "created_at": "2026-05-08T15:59:37Z",
-      "updated_at": "2026-05-08T15:59:37Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3091",
-      "labels": []
-    },
-    {
-      "number": 3076,
-      "title": "[vulnerability] unauthenticated `pickle.loads` on TCP-bound ZMQ XPUB socket allows network RCE on ROCm inference workers",
-      "author": "AAtomical",
-      "state": "open",
-      "created_at": "2026-05-07T23:03:35Z",
-      "updated_at": "2026-05-07T23:03:35Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3076",
-      "labels": []
     },
     {
       "number": 3062,
@@ -109,16 +99,6 @@
       "labels": [
         "enhancement"
       ]
-    },
-    {
-      "number": 2996,
-      "title": "bf16 MLA decode-stage1 silently produces wrong outputs at page_size > 1 (no _ps kernel shipped)",
-      "author": "kzjeef",
-      "state": "open",
-      "created_at": "2026-05-01T02:17:58Z",
-      "updated_at": "2026-05-01T02:17:58Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2996",
-      "labels": []
     },
     {
       "number": 2960,

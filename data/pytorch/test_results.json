@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-05-09T09:06:33Z",
+  "collected_at": "2026-05-10T09:20:34Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "rocm-mi300",
-    "run_id": 25595226199,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25595226199",
-    "run_date": "2026-05-09T08:07:27Z",
+    "run_id": 25622118369,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25622118369",
+    "run_date": "2026-05-10T07:55:32Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 8,
-      "total_tests": 14010,
-      "passed": 13534,
+      "total_tests": 14028,
+      "passed": 13549,
       "failed": 0,
-      "skipped": 476,
+      "skipped": 479,
       "pass_rate": 100.0
     },
     "suites": [
@@ -138,8 +138,8 @@
       },
       {
         "name": "dynamo.test_aot_autograd_cache",
-        "tests": 198,
-        "passed": 194,
+        "tests": 200,
+        "passed": 196,
         "failed": 0,
         "skipped": 4,
         "errors": 0
@@ -338,16 +338,16 @@
       },
       {
         "name": "dynamo.test_dicts",
-        "tests": 287,
-        "passed": 283,
+        "tests": 290,
+        "passed": 286,
         "failed": 0,
         "skipped": 4,
         "errors": 0
       },
       {
         "name": "dynamo.test_dynamic_shapes",
-        "tests": 2127,
-        "passed": 2076,
+        "tests": 2129,
+        "passed": 2078,
         "failed": 0,
         "skipped": 51,
         "errors": 0
@@ -474,8 +474,8 @@
       },
       {
         "name": "dynamo.test_functions",
-        "tests": 504,
-        "passed": 499,
+        "tests": 505,
+        "passed": 500,
         "failed": 0,
         "skipped": 5,
         "errors": 0
@@ -642,8 +642,8 @@
       },
       {
         "name": "dynamo.test_lazy_constant",
-        "tests": 16,
-        "passed": 16,
+        "tests": 48,
+        "passed": 48,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -690,8 +690,8 @@
       },
       {
         "name": "dynamo.test_misc",
-        "tests": 770,
-        "passed": 758,
+        "tests": 771,
+        "passed": 759,
         "failed": 0,
         "skipped": 12,
         "errors": 0
@@ -1193,35 +1193,35 @@
         "errors": 0
       },
       {
+        "name": "export.test_nativert",
+        "tests": 6,
+        "passed": 0,
+        "failed": 0,
+        "skipped": 6,
+        "errors": 0
+      },
+      {
         "name": "lazy.test_ts_opinfo",
         "tests": 5,
         "passed": 4,
         "failed": 0,
         "skipped": 1,
         "errors": 0
-      },
-      {
-        "name": "test_autocast",
-        "tests": 29,
-        "passed": 26,
-        "failed": 0,
-        "skipped": 3,
-        "errors": 0
       }
     ]
   },
   "cuda": {
     "workflow_name": "trunk",
-    "run_id": 25594022721,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25594022721",
-    "run_date": "2026-05-09T08:17:11Z",
+    "run_id": 25619756969,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25619756969",
+    "run_date": "2026-05-10T08:04:09Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 48,
-      "total_tests": 15234,
-      "passed": 14442,
+      "total_tests": 56034,
+      "passed": 38758,
       "failed": 0,
-      "skipped": 792,
+      "skipped": 17276,
       "pass_rate": 100.0
     },
     "suites": [
@@ -1859,8 +1859,8 @@
       },
       {
         "name": "dynamo.test_aot_autograd_cache",
-        "tests": 198,
-        "passed": 194,
+        "tests": 200,
+        "passed": 196,
         "failed": 0,
         "skipped": 4,
         "errors": 0
@@ -2059,16 +2059,16 @@
       },
       {
         "name": "dynamo.test_dicts",
-        "tests": 287,
-        "passed": 283,
+        "tests": 290,
+        "passed": 286,
         "failed": 0,
         "skipped": 4,
         "errors": 0
       },
       {
         "name": "dynamo.test_dynamic_shapes",
-        "tests": 2127,
-        "passed": 2071,
+        "tests": 2128,
+        "passed": 2072,
         "failed": 0,
         "skipped": 56,
         "errors": 0
@@ -2195,16 +2195,16 @@
       },
       {
         "name": "dynamo.test_functions",
-        "tests": 504,
-        "passed": 499,
+        "tests": 505,
+        "passed": 500,
         "failed": 0,
         "skipped": 5,
         "errors": 0
       },
       {
         "name": "dynamo.test_fwd_loss_bwd",
-        "tests": 43,
-        "passed": 43,
+        "tests": 37,
+        "passed": 37,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -2363,8 +2363,8 @@
       },
       {
         "name": "dynamo.test_lazy_constant",
-        "tests": 16,
-        "passed": 16,
+        "tests": 48,
+        "passed": 48,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -2683,10 +2683,10 @@
       },
       {
         "name": "dynamo.test_streams",
-        "tests": 62,
+        "tests": 64,
         "passed": 58,
         "failed": 0,
-        "skipped": 4,
+        "skipped": 6,
         "errors": 0
       },
       {
@@ -2803,8 +2803,8 @@
       },
       {
         "name": "dynamo.test_wrap_inductor_compiled_regions",
-        "tests": 22,
-        "passed": 22,
+        "tests": 23,
+        "passed": 23,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -2922,19 +2922,19 @@
         "errors": 0
       },
       {
+        "name": "export.test_package",
+        "tests": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      {
         "name": "lazy.test_ts_opinfo",
         "tests": 5,
         "passed": 4,
         "failed": 0,
         "skipped": 1,
-        "errors": 0
-      },
-      {
-        "name": "test_autograd",
-        "tests": 713,
-        "passed": 696,
-        "failed": 0,
-        "skipped": 17,
         "errors": 0
       },
       {
@@ -2944,13 +2944,21 @@
         "failed": 0,
         "skipped": 0,
         "errors": 0
+      },
+      {
+        "name": "test_meta",
+        "tests": 41473,
+        "passed": 24974,
+        "failed": 0,
+        "skipped": 16499,
+        "errors": 0
       }
     ]
   },
   "cuda_parity": {
-    "ratio": 93.7,
-    "rocm_count": 13534,
-    "cuda_count": 14442,
+    "ratio": 35.0,
+    "rocm_count": 13549,
+    "cuda_count": 38758,
     "level": "test"
   }
 }

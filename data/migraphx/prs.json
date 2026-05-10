@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-05-09T09:06:12Z",
+  "collected_at": "2026-05-10T09:20:08Z",
   "prs": [
     {
-      "number": 4805,
-      "title": "Bump CI to 7.2.3",
-      "author": "causten",
+      "number": 4806,
+      "title": "Add fusedMatMul microsoft contrib operator",
+      "author": "ahsan-ca",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-20T22:12:34Z",
-      "updated_at": "2026-05-09T06:42:21Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4805",
+      "created_at": "2026-04-20T22:13:52Z",
+      "updated_at": "2026-05-10T07:43:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4806",
       "labels": [
         "ok-to-test"
       ],
@@ -409,20 +409,6 @@
       "updated_at": "2026-05-07T18:39:12Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4851",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4806,
-      "title": "Add fusedMatMul microsoft contrib operator",
-      "author": "ahsan-ca",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-20T22:13:52Z",
-      "updated_at": "2026-05-07T16:54:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4806",
-      "labels": [
-        "ok-to-test"
-      ],
       "draft": false
     },
     {
@@ -1550,6 +1536,20 @@
       "updated_at": "2024-10-21T22:48:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3468",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4805,
+      "title": "Bump CI to 7.2.3",
+      "author": "causten",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-20T22:12:34Z",
+      "updated_at": "2026-05-10T02:39:17Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4805",
+      "labels": [
+        "ok-to-test"
+      ],
       "draft": false
     },
     {

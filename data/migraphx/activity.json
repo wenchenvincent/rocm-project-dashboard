@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-05-09T09:06:59Z",
+  "collected_at": "2026-05-10T09:21:14Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
       "opened": 29,
-      "merged": 17,
+      "merged": 18,
       "closed": 1
     },
     "last_week": {
-      "opened": 14,
-      "merged": 17,
-      "closed": 3
+      "opened": 13,
+      "merged": 14,
+      "closed": 2
     },
     "median_time_to_merge_hours": 104.9,
-    "merge_count": 46,
-    "stale_prs": 47
+    "merge_count": 44,
+    "stale_prs": 49
   },
   "contributors": {
     "active_this_week": 19,
@@ -30,8 +30,8 @@
       {
         "author": "causten",
         "prs_submitted": 20,
-        "prs_merged": 17,
-        "commits": 12
+        "prs_merged": 18,
+        "commits": 13
       },
       {
         "author": "shivadbhavsar",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.8,
+    "days_since_last": 5.8,
     "avg_interval_days": 39.8,
     "total_releases": 5,
     "latest_tag": "rocm-7.2.3"

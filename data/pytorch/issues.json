@@ -1,6 +1,151 @@
 {
-  "collected_at": "2026-05-09T09:05:42Z",
+  "collected_at": "2026-05-10T09:19:31Z",
   "issues": [
+    {
+      "number": 177082,
+      "title": "Stable Linux binaries of LibTorch have broken soname and versioning in libgomp",
+      "author": "alexshpilkin",
+      "state": "open",
+      "created_at": "2026-03-10T22:14:22Z",
+      "updated_at": "2026-05-09T16:44:06Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/177082",
+      "labels": [
+        "module: binaries",
+        "module: build",
+        "low priority",
+        "triaged",
+        "actionable",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 131081,
+      "title": "DISABLED test_fully_shard_post_optim_event_overlap (__main__.TestFullyShardOverlap)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2024-07-19T01:00:13Z",
+      "updated_at": "2026-05-09T16:26:57Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/131081",
+      "labels": [
+        "oncall: distributed",
+        "module: flaky-tests",
+        "skipped",
+        "module: fsdp",
+        "oncall: distributed parallelisms",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 124380,
+      "title": "Error when running DDP examples to train between nodes",
+      "author": "sleepwalker2017",
+      "state": "open",
+      "created_at": "2024-04-18T10:55:06Z",
+      "updated_at": "2026-05-09T16:25:50Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/124380",
+      "labels": [
+        "oncall: distributed",
+        "module: nccl",
+        "module: c10d",
+        "module: elastic",
+        "oncall: distributed infra",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 124019,
+      "title": "[FSDP+TP] RuntimeError: 'weight' must be 2-D",
+      "author": "taekyounghan",
+      "state": "open",
+      "created_at": "2024-04-14T05:12:22Z",
+      "updated_at": "2026-05-09T16:24:21Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/124019",
+      "labels": [
+        "oncall: distributed",
+        "module: fsdp",
+        "module: dtensor",
+        "oncall: distributed parallelisms",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 124204,
+      "title": "RPC + DDP VRAM overflow to rank 0 GPU. ",
+      "author": "jumxglhf",
+      "state": "open",
+      "created_at": "2024-04-16T19:26:50Z",
+      "updated_at": "2026-05-09T16:24:19Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/124204",
+      "labels": [
+        "oncall: distributed",
+        "oncall: distributed infra",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 124007,
+      "title": " gpu memory normal but one of gpus GPU-Util is 0 so cant train",
+      "author": "xiongda777",
+      "state": "open",
+      "created_at": "2024-04-13T13:46:08Z",
+      "updated_at": "2026-05-09T16:24:19Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/124007",
+      "labels": [
+        "triage review",
+        "needs reproduction",
+        "oncall: distributed",
+        "oncall: distributed parallelisms",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 123983,
+      "title": "Segfault in TCPStore and FileStore compare_set()",
+      "author": "jlqibm",
+      "state": "open",
+      "created_at": "2024-04-12T22:37:09Z",
+      "updated_at": "2026-05-09T16:23:31Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/123983",
+      "labels": [
+        "triage review",
+        "oncall: distributed",
+        "oncall: distributed infra"
+      ]
+    },
+    {
+      "number": 82293,
+      "title": "pytorch's checkpoint_wrapper does not save memory while fairscale's checkpoint_wrapper saves huge memory",
+      "author": "taoisu",
+      "state": "open",
+      "created_at": "2022-07-27T03:54:20Z",
+      "updated_at": "2026-05-09T16:23:15Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/82293",
+      "labels": [
+        "high priority",
+        "oncall: distributed",
+        "module: activation checkpointing",
+        "module: fsdp",
+        "oncall: distributed parallelisms",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 182940,
+      "title": "Eager fake-tensor execution on symbolic torch.export metadata can specialize shapes and add guards outside tracing",
+      "author": "oscarandersson8218",
+      "state": "open",
+      "created_at": "2026-05-08T09:08:57Z",
+      "updated_at": "2026-05-09T15:08:05Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/182940",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: fakeTensor",
+        "module: dynamic shapes",
+        "module: pt2-dispatcher",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 183024,
       "title": "[pipelining] Unable to use PP with HF transformers models due to non-float inputs",
@@ -354,137 +499,6 @@
       ]
     },
     {
-      "number": 151378,
-      "title": "DISABLED test_remove_noop_slice_scatter_cuda (__main__.GPUTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2025-04-16T01:02:38Z",
-      "updated_at": "2026-05-08T13:02:44Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/151378",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx",
-        "rocm-skipped-tests"
-      ]
-    },
-    {
-      "number": 180196,
-      "title": "DISABLED test_opcheck_opinfo_NumpyMulCustomOp_cpu_float32 (__main__.TestCustomOpTestingCPU)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-04-13T01:09:14Z",
-      "updated_at": "2026-05-08T13:02:41Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/180196",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "module: custom-operators",
-        "skipped",
-        "oncall: pt2",
-        "module: pt2-dispatcher"
-      ]
-    },
-    {
-      "number": 181228,
-      "title": "DISABLED test_is_retain_graph_cpu (__main__.TestAutogradMultipleDispatchCPU)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-04-23T07:15:25Z",
-      "updated_at": "2026-05-08T13:02:38Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/181228",
-      "labels": [
-        "module: autograd",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
-      "number": 182397,
-      "title": "DISABLED test_torchvision_models_efficientnet_b6 (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-05-05T01:13:35Z",
-      "updated_at": "2026-05-08T13:02:35Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182397",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
-      ]
-    },
-    {
-      "number": 152632,
-      "title": "DISABLED test_torchvision_models_efficientnet_v2_l (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2025-05-01T21:41:24Z",
-      "updated_at": "2026-05-08T13:02:32Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/152632",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
-      ]
-    },
-    {
-      "number": 182096,
-      "title": "DISABLED test_sparse_mask_backward_cpu_float64 (__main__.TestSparseCPU)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-05-01T07:29:58Z",
-      "updated_at": "2026-05-08T12:36:20Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182096",
-      "labels": [
-        "module: sparse",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: dynamo"
-      ]
-    },
-    {
-      "number": 182110,
-      "title": "DISABLED test_graph_break_bomb_backend_inductor_device_cpu (__main__.TestPackage)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-05-01T13:02:11Z",
-      "updated_at": "2026-05-08T12:16:10Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182110",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: dynamo"
-      ]
-    },
-    {
-      "number": 182947,
-      "title": "[Inductor] `control_deps_op_lowering` aborts on `auto_functionalized_v2(...)` using overlap scheduling",
-      "author": "lauri9",
-      "state": "open",
-      "created_at": "2026-05-08T11:54:29Z",
-      "updated_at": "2026-05-08T11:57:59Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/182947",
-      "labels": [
-        "triage review",
-        "module: crash",
-        "module: custom-operators",
-        "oncall: pt2",
-        "module: inductor",
-        "module: higher order operators",
-        "module: pt2-dispatcher",
-        "module: reinplacing",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 123889,
       "title": "DISABLED test_torchvision_models_efficientnet_b1 (__main__.TestVisionTracing)",
       "author": "pytorch-bot[bot]",
@@ -546,21 +560,6 @@
         "oncall: cpu inductor",
         "bot-triaged",
         "bot-mislabeled"
-      ]
-    },
-    {
-      "number": 179723,
-      "title": "[CI] Test failure may not surface as GHA job failure",
-      "author": "malfet",
-      "state": "open",
-      "created_at": "2026-04-08T16:42:24Z",
-      "updated_at": "2026-05-07T23:21:41Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179723",
-      "labels": [
-        "high priority",
-        "module: ci",
-        "triaged",
-        "module: regression"
       ]
     },
     {
@@ -864,36 +863,6 @@
         "module: error checking",
         "module: tensor creation",
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 24422,
-      "title": "Label tracking meta-issue (edit me to get automatically CC'ed on issues! cc bot)",
-      "author": "ezyang",
-      "state": "open",
-      "created_at": "2019-08-15T18:28:22Z",
-      "updated_at": "2026-05-06T19:34:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/24422",
-      "labels": [
-        "triaged"
-      ]
-    },
-    {
-      "number": 119845,
-      "title": "Segmentation fault in dataloader worker sub-process",
-      "author": "sfantao",
-      "state": "open",
-      "created_at": "2024-02-13T22:59:26Z",
-      "updated_at": "2026-05-06T16:36:18Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/119845",
-      "labels": [
-        "triage review",
-        "oncall: distributed",
-        "module: crash",
-        "module: dataloader",
-        "module: ddp",
-        "oncall: distributed parallelisms",
-        "ptd-bot-triaged"
       ]
     }
   ]

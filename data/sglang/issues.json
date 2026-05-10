@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-05-09T09:06:07Z",
+  "collected_at": "2026-05-10T09:20:02Z",
   "issues": [
+    {
+      "number": 24866,
+      "title": "[Bug] SGLang Integration with MoRI-EP IntraNode FP8 Combine Accuracy Failing due to Missing Quant Correction",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-05-09T22:41:01Z",
+      "updated_at": "2026-05-09T22:42:56Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/24866",
+      "labels": []
+    },
+    {
+      "number": 15025,
+      "title": "[Roadmap] DeepSeek v3.2 (GLM 5) Optimization",
+      "author": "Fridge003",
+      "state": "open",
+      "created_at": "2025-12-13T01:47:05Z",
+      "updated_at": "2026-05-09T17:51:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15025",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "Good Pro Issue",
+        "good second issue",
+        "nvidia"
+      ]
+    },
+    {
+      "number": 23602,
+      "title": "DeepSeek V4 Roadmap",
+      "author": "fzyzcjy",
+      "state": "open",
+      "created_at": "2026-04-24T03:22:31Z",
+      "updated_at": "2026-05-09T10:01:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "roadmap"
+      ]
+    },
     {
       "number": 16565,
       "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
@@ -11,20 +51,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/16565",
       "labels": [
         "mthreads"
-      ]
-    },
-    {
-      "number": 23602,
-      "title": "DeepSeek V4 Roadmap",
-      "author": "fzyzcjy",
-      "state": "open",
-      "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-05-08T22:55:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "roadmap"
       ]
     },
     {
@@ -264,22 +290,6 @@
       ]
     },
     {
-      "number": 15025,
-      "title": "[Roadmap] DeepSeek v3.2 (GLM 5) Optimization",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2025-12-13T01:47:05Z",
-      "updated_at": "2026-04-25T04:29:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15025",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "Good Pro Issue",
-        "good second issue",
-        "nvidia"
-      ]
-    },
-    {
       "number": 23058,
       "title": "RFC: optional HIP external LLMM1 fast path for M=1 decode GEMMs",
       "author": "skyguan92",
@@ -465,18 +475,6 @@
       "labels": []
     },
     {
-      "number": 15784,
-      "title": "[Bug] Kimi Linear fails to launch on with `AttributeError: 'ModelConfig' object has no attribute 'scaling'`",
-      "author": "vincentzed",
-      "state": "open",
-      "created_at": "2025-12-24T20:09:22Z",
-      "updated_at": "2026-03-31T03:52:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15784",
-      "labels": [
-        "inactive"
-      ]
-    },
-    {
       "number": 20169,
       "title": "Prefill out of memory. Try to lower your batch size.  Run Qwen3.5 0.8b model on ascend 910B",
       "author": "Lizuole007",
@@ -484,16 +482,6 @@
       "created_at": "2026-03-09T07:46:27Z",
       "updated_at": "2026-03-12T09:02:12Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20169",
-      "labels": []
-    },
-    {
-      "number": 19991,
-      "title": "MORI inter_node mode deadlocks on multi-node SGLang serving",
-      "author": "JiakunYan",
-      "state": "open",
-      "created_at": "2026-03-06T00:10:16Z",
-      "updated_at": "2026-03-10T19:11:34Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/19991",
       "labels": []
     }
   ]

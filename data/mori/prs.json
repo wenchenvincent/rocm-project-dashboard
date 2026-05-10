@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-05-09T09:06:28Z",
+  "collected_at": "2026-05-10T09:20:26Z",
   "prs": [
+    {
+      "number": 312,
+      "title": "Dev/cq a71 validate",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-09T09:51:08Z",
+      "updated_at": "2026-05-09T10:02:50Z",
+      "html_url": "https://github.com/ROCm/mori/pull/312",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 307,
       "title": "Check CCQE support in runtime instead of compiling",
@@ -8,7 +20,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-08T09:58:55Z",
-      "updated_at": "2026-05-09T08:58:52Z",
+      "updated_at": "2026-05-09T09:56:46Z",
       "html_url": "https://github.com/ROCm/mori/pull/307",
       "labels": [],
       "draft": false

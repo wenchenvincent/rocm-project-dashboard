@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-05-09T09:06:09Z",
+  "collected_at": "2026-05-10T09:20:04Z",
   "prs": [
+    {
+      "number": 10276,
+      "title": "[AMD][gfx1250] Support predicate descriptor store for pipelining",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-09T16:30:42Z",
+      "updated_at": "2026-05-09T16:30:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10276",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10200,
       "title": "[AMD] Extend chain-dot detection across loop iteration boundaries",
@@ -708,18 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/7721",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 7147,
-      "title": "[BACKEND] Clean up hard code for NV and AMD GPU in the common TritonGPU dialect to support third party GPU extension.",
-      "author": "chengjunlu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-06-11T00:53:24Z",
-      "updated_at": "2025-07-14T23:21:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/7147",
-      "labels": [],
-      "draft": false
     }
   ]
 }
