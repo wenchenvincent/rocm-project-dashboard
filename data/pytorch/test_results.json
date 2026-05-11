@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-05-10T09:20:34Z",
+  "collected_at": "2026-05-11T10:52:35Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "rocm-mi300",
-    "run_id": 25622118369,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25622118369",
-    "run_date": "2026-05-10T07:55:32Z",
+    "run_id": 25655029073,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25655029073",
+    "run_date": "2026-05-11T07:34:15Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 8,
@@ -1212,16 +1212,16 @@
   },
   "cuda": {
     "workflow_name": "trunk",
-    "run_id": 25619756969,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25619756969",
-    "run_date": "2026-05-10T08:04:09Z",
+    "run_id": 25658588213,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25658588213",
+    "run_date": "2026-05-11T10:10:27Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 48,
-      "total_tests": 56034,
-      "passed": 38758,
+      "total_tests": 17448,
+      "passed": 15359,
       "failed": 0,
-      "skipped": 17276,
+      "skipped": 2089,
       "pass_rate": 100.0
     },
     "suites": [
@@ -2067,8 +2067,8 @@
       },
       {
         "name": "dynamo.test_dynamic_shapes",
-        "tests": 2128,
-        "passed": 2072,
+        "tests": 2130,
+        "passed": 2074,
         "failed": 0,
         "skipped": 56,
         "errors": 0
@@ -2411,8 +2411,8 @@
       },
       {
         "name": "dynamo.test_misc",
-        "tests": 770,
-        "passed": 755,
+        "tests": 771,
+        "passed": 756,
         "failed": 0,
         "skipped": 15,
         "errors": 0
@@ -2627,8 +2627,8 @@
       },
       {
         "name": "dynamo.test_repros",
-        "tests": 379,
-        "passed": 361,
+        "tests": 380,
+        "passed": 362,
         "failed": 0,
         "skipped": 18,
         "errors": 0
@@ -2914,19 +2914,11 @@
         "errors": 0
       },
       {
-        "name": "export.test_nativert",
-        "tests": 6,
-        "passed": 0,
+        "name": "inductor.test_utils",
+        "tests": 16,
+        "passed": 15,
         "failed": 0,
-        "skipped": 6,
-        "errors": 0
-      },
-      {
-        "name": "export.test_package",
-        "tests": 4,
-        "passed": 4,
-        "failed": 0,
-        "skipped": 0,
+        "skipped": 1,
         "errors": 0
       },
       {
@@ -2946,19 +2938,19 @@
         "errors": 0
       },
       {
-        "name": "test_meta",
-        "tests": 41473,
-        "passed": 24974,
+        "name": "test_nn",
+        "tests": 2877,
+        "passed": 1560,
         "failed": 0,
-        "skipped": 16499,
+        "skipped": 1317,
         "errors": 0
       }
     ]
   },
   "cuda_parity": {
-    "ratio": 35.0,
+    "ratio": 88.2,
     "rocm_count": 13549,
-    "cuda_count": 38758,
+    "cuda_count": 15359,
     "level": "test"
   }
 }

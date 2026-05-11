@@ -1,27 +1,14 @@
 {
-  "collected_at": "2026-05-10T09:20:24Z",
+  "collected_at": "2026-05-11T10:52:24Z",
   "issues": [
     {
-      "number": 735,
-      "title": "[Perf Regression] 2 config(s) regressed @ 6a4db8e9",
+      "number": 738,
+      "title": "[Perf Regression] 16 config(s) regressed @ 679422de",
       "author": "github-actions[bot]",
       "state": "open",
-      "created_at": "2026-05-10T08:21:05Z",
-      "updated_at": "2026-05-10T08:21:05Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/735",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 734,
-      "title": "[Perf Regression] 18 config(s) regressed @ 28f59f2f",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-05-10T04:53:09Z",
-      "updated_at": "2026-05-10T04:53:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/734",
+      "created_at": "2026-05-11T01:45:42Z",
+      "updated_at": "2026-05-11T01:45:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/738",
       "labels": [
         "performance",
         "regression"
@@ -39,19 +26,6 @@
         "bug",
         "regression",
         "ATOM"
-      ]
-    },
-    {
-      "number": 717,
-      "title": "[Perf Regression] 1 config(s) regressed @ 65525fbc",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-05-08T03:46:43Z",
-      "updated_at": "2026-05-08T03:46:43Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/717",
-      "labels": [
-        "performance",
-        "regression"
       ]
     },
     {
@@ -236,16 +210,6 @@
       "labels": [
         "ATOM"
       ]
-    },
-    {
-      "number": 553,
-      "title": "[Feature]: ROCm Kimi K2.5 EAGLE3 MTP heads",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-14T01:14:09Z",
-      "updated_at": "2026-04-14T03:55:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/553",
-      "labels": []
     },
     {
       "number": 552,

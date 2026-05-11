@@ -1,49 +1,49 @@
 {
-  "collected_at": "2026-05-10T09:21:48Z",
+  "collected_at": "2026-05-11T10:54:01Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 93,
-      "merged": 62,
+      "opened": 108,
+      "merged": 64,
       "closed": 24
     },
     "last_week": {
-      "opened": 88,
-      "merged": 47,
-      "closed": 22
+      "opened": 90,
+      "merged": 51,
+      "closed": 24
     },
-    "median_time_to_merge_hours": 22.8,
-    "merge_count": 110,
+    "median_time_to_merge_hours": 23.0,
+    "merge_count": 116,
     "stale_prs": 101
   },
   "contributors": {
-    "active_this_week": 80,
-    "total_contributors": 169,
+    "active_this_week": 87,
+    "total_contributors": 176,
     "top_contributors": [
       {
         "author": "sunway513",
-        "prs_submitted": 19,
+        "prs_submitted": 20,
         "prs_merged": 7,
         "commits": 11
       },
       {
         "author": "gyohuangxin",
-        "prs_submitted": 16,
-        "prs_merged": 10,
-        "commits": 38
+        "prs_submitted": 18,
+        "prs_merged": 11,
+        "commits": 39
+      },
+      {
+        "author": "yzhou103",
+        "prs_submitted": 9,
+        "prs_merged": 4,
+        "commits": 12
       },
       {
         "author": "ChuanLi1101",
         "prs_submitted": 9,
         "prs_merged": 1,
         "commits": 0
-      },
-      {
-        "author": "yzhou103",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 14
       },
       {
         "author": "zufayu",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 0.5,
+    "days_since_last": 1.6,
     "avg_interval_days": 4.0,
     "total_releases": 5,
     "latest_tag": "v0.1.13"

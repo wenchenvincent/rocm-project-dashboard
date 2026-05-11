@@ -1,6 +1,20 @@
 {
-  "collected_at": "2026-05-10T09:20:20Z",
+  "collected_at": "2026-05-11T10:52:19Z",
   "issues": [
+    {
+      "number": 2751,
+      "title": "Increase SGLang downstream test coverage in Aiter CI and make Aiter upgrades smoother in the SGLang repo.",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-04-16T05:15:49Z",
+      "updated_at": "2026-05-11T06:54:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2751",
+      "labels": [
+        "enhancement",
+        "frameworks-devops",
+        "ci:sglang"
+      ]
+    },
     {
       "number": 3076,
       "title": "[vulnerability] unauthenticated `pickle.loads` on TCP-bound ZMQ XPUB socket allows network RCE on ROCm inference workers",
@@ -20,20 +34,6 @@
       "updated_at": "2026-05-09T15:46:26Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3091",
       "labels": []
-    },
-    {
-      "number": 2751,
-      "title": "Increase SGLang downstream test coverage",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-04-16T05:15:49Z",
-      "updated_at": "2026-05-09T07:26:04Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2751",
-      "labels": [
-        "enhancement",
-        "frameworks-devops",
-        "ci:sglang"
-      ]
     },
     {
       "number": 3062,

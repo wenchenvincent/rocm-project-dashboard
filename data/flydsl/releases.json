@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-05-10T09:20:31Z",
+  "collected_at": "2026-05-11T10:52:32Z",
   "releases": [
     {
+      "tag_name": "v0.1.7",
+      "published_at": "",
+      "html_url": ""
+    },
+    {
+      "tag_name": "v0.1.7.dev552",
+      "published_at": "",
+      "html_url": ""
+    },
+    {
       "tag_name": "v0.1.6",
-      "published_at": "",
-      "html_url": ""
-    },
-    {
-      "tag_name": "v0.1.5",
-      "published_at": "",
-      "html_url": ""
-    },
-    {
-      "tag_name": "v0.1.5.dev515",
       "published_at": "",
       "html_url": ""
     }

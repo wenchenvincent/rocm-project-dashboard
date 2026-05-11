@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-05-10T09:21:03Z",
+  "collected_at": "2026-05-11T10:53:06Z",
   "project": "pytorch",
   "repo": "pytorch/pytorch",
   "pr_velocity": {
     "this_week": {
-      "opened": 15,
+      "opened": 14,
       "merged": 0,
       "closed": 1
     },
     "last_week": {
-      "opened": 5,
+      "opened": 6,
       "merged": 2,
       "closed": 0
     },
@@ -18,12 +18,12 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 41,
-    "total_contributors": 49,
+    "active_this_week": 43,
+    "total_contributors": 50,
     "top_contributors": [
       {
         "author": "jeffdaily",
-        "prs_submitted": 6,
+        "prs_submitted": 5,
         "prs_merged": 2,
         "commits": 0
       },
@@ -40,19 +40,19 @@
         "commits": 0
       },
       {
+        "author": "RiyaP2508",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "pragupta",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
         "author": "nithinsubbiah",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "LuFinch",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "zklaus",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
@@ -85,43 +85,43 @@
     "bus_factor": 3
   },
   "issue_health": {
-    "total_open": 53,
-    "opened_this_week": 11,
-    "closed_this_week": 249,
+    "total_open": 55,
+    "opened_this_week": 15,
+    "closed_this_week": 237,
     "unanswered": 0
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 4,
-      "failed": 11,
-      "success_rate": 20.0
+      "succeeded": 6,
+      "failed": 7,
+      "success_rate": 30.0
     },
     "cuda": {
       "total_runs": 20,
       "succeeded": 7,
-      "failed": 10,
+      "failed": 3,
       "success_rate": 35.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 137.6,
-      "p90_minutes": 334.2,
+      "median_minutes": 50.5,
+      "p90_minutes": 316.9,
       "min_minutes": 0.0,
-      "max_minutes": 338.2
+      "max_minutes": 321.9
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 174.0,
-      "p90_minutes": 292.7,
-      "min_minutes": 0.1,
-      "max_minutes": 295.8
+      "median_minutes": 99.5,
+      "p90_minutes": 298.7,
+      "min_minutes": 1.0,
+      "max_minutes": 353.7
     }
   },
   "release_cadence": {
-    "days_since_last": 47.6,
+    "days_since_last": 48.7,
     "avg_interval_days": 57.3,
     "total_releases": 5,
     "latest_tag": "v2.11.0"

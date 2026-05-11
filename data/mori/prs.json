@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-05-10T09:20:26Z",
+  "collected_at": "2026-05-11T10:52:27Z",
   "prs": [
+    {
+      "number": 257,
+      "title": "Refactor(umbp): introduce IUMBPClient interface for dual-scheme architecture",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-10T03:14:18Z",
+      "updated_at": "2026-05-11T10:44:06Z",
+      "html_url": "https://github.com/ROCm/mori/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 308,
+      "title": "feat(shmem): add MORI_MULTITHREAD_SUPPORT for SPMT",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T10:35:14Z",
+      "updated_at": "2026-05-11T10:25:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/308",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 307,
+      "title": "Check CCQE support in runtime instead of compiling",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T09:58:55Z",
+      "updated_at": "2026-05-11T04:08:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/307",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 312,
       "title": "Dev/cq a71 validate",
@@ -14,54 +50,6 @@
       "draft": false
     },
     {
-      "number": 307,
-      "title": "Check CCQE support in runtime instead of compiling",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-08T09:58:55Z",
-      "updated_at": "2026-05-09T09:56:46Z",
-      "html_url": "https://github.com/ROCm/mori/pull/307",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 311,
-      "title": "feat(EP): FP8 blockwise quantization for IntraNode combine",
-      "author": "maning00",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-09T07:55:27Z",
-      "updated_at": "2026-05-09T08:27:49Z",
-      "html_url": "https://github.com/ROCm/mori/pull/311",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 308,
-      "title": "feat(shmem): add MORI_MULTITHREAD_SUPPORT for SPMT",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-08T10:35:14Z",
-      "updated_at": "2026-05-09T07:45:04Z",
-      "html_url": "https://github.com/ROCm/mori/pull/308",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 309,
-      "title": "Refactor: decouple allocator from master and client",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-09T00:42:42Z",
-      "updated_at": "2026-05-09T04:23:49Z",
-      "html_url": "https://github.com/ROCm/mori/pull/309",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 305,
       "title": "io: SQ flow control rework \u2014 diagnostics, SqController, session lifecycle",
       "author": "maning00",
@@ -70,18 +58,6 @@
       "created_at": "2026-05-07T15:45:22Z",
       "updated_at": "2026-05-08T09:51:50Z",
       "html_url": "https://github.com/ROCm/mori/pull/305",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 257,
-      "title": "Refactor(umbp): introduce IUMBPClient interface for dual-scheme architecture",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-10T03:14:18Z",
-      "updated_at": "2026-05-08T09:17:02Z",
-      "html_url": "https://github.com/ROCm/mori/pull/257",
       "labels": [],
       "draft": false
     },
@@ -106,18 +82,6 @@
       "created_at": "2026-04-22T14:46:55Z",
       "updated_at": "2026-04-22T15:11:28Z",
       "html_url": "https://github.com/ROCm/mori/pull/289",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 284,
-      "title": "feat(io): support large-memory RDMA via chunked registration",
-      "author": "maning00",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T07:17:09Z",
-      "updated_at": "2026-04-22T13:19:50Z",
-      "html_url": "https://github.com/ROCm/mori/pull/284",
       "labels": [],
       "draft": false
     },
@@ -194,6 +158,18 @@
       "draft": false
     },
     {
+      "number": 92,
+      "title": "Enhancement of mori ep unit test",
+      "author": "dongmin-ra",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-10-23T06:18:50Z",
+      "updated_at": "2026-01-08T09:18:21Z",
+      "html_url": "https://github.com/ROCm/mori/pull/92",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 99,
       "title": "Feature: add expert map support for shared experts & EPLB",
       "author": "TianDi101",
@@ -206,14 +182,26 @@
       "draft": false
     },
     {
-      "number": 92,
-      "title": "Enhancement of mori ep unit test",
-      "author": "dongmin-ra",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-10-23T06:18:50Z",
-      "updated_at": "2026-01-08T09:18:21Z",
-      "html_url": "https://github.com/ROCm/mori/pull/92",
+      "number": 311,
+      "title": "feat(EP): FP8 blockwise quantization for IntraNode combine",
+      "author": "maning00",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-09T07:55:27Z",
+      "updated_at": "2026-05-11T09:43:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/311",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 309,
+      "title": "Refactor: decouple allocator from master and client",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-09T00:42:42Z",
+      "updated_at": "2026-05-11T02:03:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/309",
       "labels": [],
       "draft": false
     },
@@ -1236,42 +1224,6 @@
       "created_at": "2026-03-17T03:25:33Z",
       "updated_at": "2026-03-19T10:09:29Z",
       "html_url": "https://github.com/ROCm/mori/pull/199",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 204,
-      "title": "Feat(shmem): increase default static heap to 4GB and VMM heap to 16GB",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T10:08:15Z",
-      "updated_at": "2026-03-19T10:09:22Z",
-      "html_url": "https://github.com/ROCm/mori/pull/204",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 201,
-      "title": "Fix: clear stale pointers in recv-only PrepareAndBuildArgs",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T03:20:44Z",
-      "updated_at": "2026-03-19T04:07:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/201",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 185,
-      "title": "Optimization: ep async kernel",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-05T15:41:33Z",
-      "updated_at": "2026-03-18T11:21:26Z",
-      "html_url": "https://github.com/ROCm/mori/pull/185",
       "labels": [],
       "draft": false
     }

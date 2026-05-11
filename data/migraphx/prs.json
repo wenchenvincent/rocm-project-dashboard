@@ -1,6 +1,102 @@
 {
-  "collected_at": "2026-05-10T09:20:08Z",
+  "collected_at": "2026-05-11T10:52:04Z",
   "prs": [
+    {
+      "number": 4860,
+      "title": "Clean up the #include dependencies for the instruction_ref",
+      "author": "apwojcik",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T08:16:02Z",
+      "updated_at": "2026-05-11T10:51:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4860",
+      "labels": [
+        "Windows",
+        "UAI"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4861,
+      "title": "Do not force temp removal on Windows",
+      "author": "apwojcik",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T08:19:41Z",
+      "updated_at": "2026-05-11T10:03:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4861",
+      "labels": [
+        "Windows",
+        "UAI"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4871,
+      "title": "Update gfx1201 list in CI",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-11T03:30:52Z",
+      "updated_at": "2026-05-11T03:32:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4871",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3815,
+      "title": "Use fill_argument for literals that have the same value",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-02-14T17:15:19Z",
+      "updated_at": "2026-05-10T14:16:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3815",
+      "labels": [
+        "Cleanup"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3465,
+      "title": "Remove layernorm fusion",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2024-09-20T18:06:01Z",
+      "updated_at": "2026-05-10T14:10:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3465",
+      "labels": [
+        "Cleanup"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4853,
+      "title": "disable fuse_horizontal for dynamic shapes",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T23:05:14Z",
+      "updated_at": "2026-05-10T14:07:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4853",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4723,
+      "title": "[AIMIGRAPHX-885]  MLP tower batched horizontal fusions",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-31T21:33:09Z",
+      "updated_at": "2026-05-10T13:38:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4723",
+      "labels": [
+        "Perf Improve"
+      ],
+      "draft": false
+    },
     {
       "number": 4806,
       "title": "Add fusedMatMul microsoft contrib operator",
@@ -165,21 +261,6 @@
       "draft": false
     },
     {
-      "number": 4862,
-      "title": "Change to `std::cout` and use `trace_level`",
-      "author": "apwojcik",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-08T09:01:28Z",
-      "updated_at": "2026-05-08T19:46:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4862",
-      "labels": [
-        "Windows",
-        "UAI"
-      ],
-      "draft": false
-    },
-    {
       "number": 4850,
       "title": "[AIMIGRAPHX-1003] Add warnings for dim and value not set",
       "author": "eddieliao",
@@ -233,32 +314,6 @@
       "draft": false
     },
     {
-      "number": 4853,
-      "title": "disable fuse_horizontal for dynamic shapes",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T23:05:14Z",
-      "updated_at": "2026-05-08T15:28:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4853",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4797,
-      "title": "Add rocprofv3 and att trace library",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-17T17:11:52Z",
-      "updated_at": "2026-05-08T15:28:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4797",
-      "labels": [
-        "ok-to-test"
-      ],
-      "draft": false
-    },
-    {
       "number": 4795,
       "title": "[AIMIGRAPHX-828] Cross Compile Pt 2: add env variable to enable cross compilation",
       "author": "kahmed10",
@@ -287,21 +342,6 @@
       "draft": false
     },
     {
-      "number": 4860,
-      "title": "Clean up the #include dependencies for the instruction_ref",
-      "author": "apwojcik",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-08T08:16:02Z",
-      "updated_at": "2026-05-08T14:44:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4860",
-      "labels": [
-        "Windows",
-        "UAI"
-      ],
-      "draft": false
-    },
-    {
       "number": 4863,
       "title": "Add measurement of overall compile time to `migraphx-driver`",
       "author": "apwojcik",
@@ -310,21 +350,6 @@
       "created_at": "2026-05-08T09:19:12Z",
       "updated_at": "2026-05-08T14:42:21Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4863",
-      "labels": [
-        "Windows",
-        "UAI"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4861,
-      "title": "Do not force temp removal on Windows",
-      "author": "apwojcik",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-08T08:19:41Z",
-      "updated_at": "2026-05-08T14:40:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4861",
       "labels": [
         "Windows",
         "UAI"
@@ -409,20 +434,6 @@
       "updated_at": "2026-05-07T18:39:12Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4851",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4723,
-      "title": "[AIMIGRAPHX-885]  MLP tower batched horizontal fusions",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-31T21:33:09Z",
-      "updated_at": "2026-05-07T13:41:08Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4723",
-      "labels": [
-        "Perf Improve"
-      ],
       "draft": false
     },
     {
@@ -852,20 +863,6 @@
       "draft": false
     },
     {
-      "number": 3465,
-      "title": "Remove layernorm fusion",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2024-09-20T18:06:01Z",
-      "updated_at": "2026-04-13T19:16:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3465",
-      "labels": [
-        "Cleanup"
-      ],
-      "draft": false
-    },
-    {
       "number": 3478,
       "title": "reorder_slice_add_mul matcher",
       "author": "aarushjain29",
@@ -1009,20 +1006,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4743",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3815,
-      "title": "Use fill_argument for literals that have the same value",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-02-14T17:15:19Z",
-      "updated_at": "2026-04-06T20:27:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3815",
-      "labels": [
-        "Cleanup"
-      ],
-      "draft": false
     },
     {
       "number": 3222,
@@ -1536,6 +1519,20 @@
       "updated_at": "2024-10-21T22:48:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3468",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4797,
+      "title": "Add rocprofv3 and att trace library",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-17T17:11:52Z",
+      "updated_at": "2026-05-10T14:08:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4797",
+      "labels": [
+        "ok-to-test"
+      ],
       "draft": false
     },
     {
@@ -2632,18 +2629,6 @@
       "created_at": "2025-10-02T04:35:07Z",
       "updated_at": "2026-04-14T03:08:10Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4344",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4274,
-      "title": "[7.0.2] Remove -wnrvo warning on unsupported compilers",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-09-03T02:13:28Z",
-      "updated_at": "2026-04-14T03:07:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4274",
       "labels": [],
       "draft": false
     }

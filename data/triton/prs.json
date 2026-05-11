@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-05-10T09:20:04Z",
+  "collected_at": "2026-05-11T10:52:00Z",
   "prs": [
+    {
+      "number": 10254,
+      "title": "[AMD] Add LLVM flag passthrough for AMDGPU codegen",
+      "author": "raikonenfnu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-07T01:43:24Z",
+      "updated_at": "2026-05-10T23:35:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10254",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10184,
+      "title": "[subslice][AMD] Fix an assertion about PaddedSharedEncodingAttr",
+      "author": "yangshuxin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-30T16:01:11Z",
+      "updated_at": "2026-05-10T23:25:52Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10184",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10276,
       "title": "[AMD][gfx1250] Support predicate descriptor store for pipelining",
@@ -70,18 +94,6 @@
       "created_at": "2026-05-05T02:13:01Z",
       "updated_at": "2026-05-08T17:27:47Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10225",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10184,
-      "title": "[subslice][AMD] Fix an assertion about PaddedSharedEncodingAttr",
-      "author": "yangshuxin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T16:01:11Z",
-      "updated_at": "2026-05-08T06:35:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10184",
       "labels": [],
       "draft": false
     },
@@ -180,18 +192,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10224",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10254,
-      "title": "[AMD] Add LLVM flag passthrough for AMDGPU codegen",
-      "author": "raikonenfnu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-07T01:43:24Z",
-      "updated_at": "2026-05-07T01:57:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10254",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10230,
