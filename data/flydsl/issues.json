@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-05-11T10:52:31Z",
+  "collected_at": "2026-05-12T10:22:26Z",
   "issues": [
+    {
+      "number": 510,
+      "title": "ExtUIOp/zext in PA SWA chunked buffer path causes gfx950 correctness failure",
+      "author": "fsx950223",
+      "state": "open",
+      "created_at": "2026-05-12T06:26:37Z",
+      "updated_at": "2026-05-12T06:49:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/510",
+      "labels": []
+    },
     {
       "number": 396,
       "title": "[Issue]: centos install failed",

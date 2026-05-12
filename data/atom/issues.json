@@ -1,6 +1,51 @@
 {
-  "collected_at": "2026-05-11T10:52:24Z",
+  "collected_at": "2026-05-12T10:22:20Z",
   "issues": [
+    {
+      "number": 758,
+      "title": "[Attention] Refactor ATOM-vLLM/ATOM-SGLang Attention",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "created_at": "2026-05-12T01:58:00Z",
+      "updated_at": "2026-05-12T08:17:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/758",
+      "labels": []
+    },
+    {
+      "number": 759,
+      "title": "[Perf Regression] 37 config(s) regressed @ 7934d5e8",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-12T04:49:28Z",
+      "updated_at": "2026-05-12T04:49:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/759",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 757,
+      "title": "[Issue]: Qwen3NextMTPModel\", \"Qwen3_5MTPModel doesn't work with prefix caching",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-05-12T00:40:04Z",
+      "updated_at": "2026-05-12T00:40:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/757",
+      "labels": []
+    },
+    {
+      "number": 707,
+      "title": "[Tracker]: DeepSeek-V4 Support and Optimization on ATOM",
+      "author": "jamestangg",
+      "state": "open",
+      "created_at": "2026-05-07T02:27:05Z",
+      "updated_at": "2026-05-12T00:16:41Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/707",
+      "labels": [
+        "workstream"
+      ]
+    },
     {
       "number": 738,
       "title": "[Perf Regression] 16 config(s) regressed @ 679422de",
@@ -60,18 +105,6 @@
       "updated_at": "2026-05-07T03:40:31Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/702",
       "labels": []
-    },
-    {
-      "number": 707,
-      "title": "[Tracker]: DeepSeek-V4 Support and Optimization on ATOM",
-      "author": "jamestangg",
-      "state": "open",
-      "created_at": "2026-05-07T02:27:05Z",
-      "updated_at": "2026-05-07T02:27:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/707",
-      "labels": [
-        "workstream"
-      ]
     },
     {
       "number": 688,

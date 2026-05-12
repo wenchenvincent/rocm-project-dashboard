@@ -1,32 +1,6 @@
 {
-  "collected_at": "2026-05-11T10:52:34Z",
+  "collected_at": "2026-05-12T10:22:28Z",
   "prs": [
-    {
-      "number": 580,
-      "title": "NVFP4: Work around intermittent incorrect results for backward GEMMs",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-07T00:40:32Z",
-      "updated_at": "2026-05-10T14:27:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/580",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 478,
-      "title": "Microbenchmarking, CSV-based",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-10T15:43:14Z",
-      "updated_at": "2026-05-08T18:34:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
-      "labels": [],
-      "draft": true
-    },
     {
       "number": 566,
       "title": "HipKittens MXFP8 GEMM Support",
@@ -34,8 +8,142 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-28T05:16:00Z",
-      "updated_at": "2026-05-08T17:17:00Z",
+      "updated_at": "2026-05-12T03:11:25Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/566",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 582,
+      "title": "CK JIT integration",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-11T15:43:55Z",
+      "updated_at": "2026-05-11T21:43:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/582",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 478,
+      "title": "Microbenchmarking, Torch+CSV-based",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-10T15:43:14Z",
+      "updated_at": "2026-05-11T21:37:33Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 487,
+      "title": "Microbenchmark suite",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-16T23:20:12Z",
+      "updated_at": "2026-05-11T21:24:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 448,
+      "title": "Added initial AI Agent instructions and skills",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-12T17:27:07Z",
+      "updated_at": "2026-05-11T18:54:06Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 557,
+      "title": "IFU v2.14.dev0",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-21T21:17:02Z",
+      "updated_at": "2026-05-11T18:29:02Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/557",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": true
+    },
+    {
+      "number": 538,
+      "title": "NV upstream release 2.12 merge",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-13T20:30:21Z",
+      "updated_at": "2026-05-11T16:30:04Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/538",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 580,
+      "title": "NVFP4: Work around intermittent incorrect results for backward GEMMs",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-07T00:40:32Z",
+      "updated_at": "2026-05-11T15:48:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/580",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 577,
+      "title": "Update AITER CK dependency for gfx1250 grouped GEMM",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T20:29:52Z",
+      "updated_at": "2026-05-11T13:18:36Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/577",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 578,
+      "title": "CK Tile MXFP8 Group GEMM gfx1250",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T20:37:04Z",
+      "updated_at": "2026-05-11T13:11:44Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/578",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 576,
+      "title": "CK Tile Group GEMM gfx1250",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T17:54:50Z",
+      "updated_at": "2026-05-11T13:04:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/576",
       "labels": [
         "ci-level 1"
       ],
@@ -102,74 +210,6 @@
       "created_at": "2026-04-27T15:53:46Z",
       "updated_at": "2026-05-07T17:33:07Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/563",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 576,
-      "title": "CK Tile Group GEMM gfx1250",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T17:54:50Z",
-      "updated_at": "2026-05-07T17:31:49Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/576",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 577,
-      "title": "Update AITER CK dependency for gfx1250 grouped GEMM",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T20:29:52Z",
-      "updated_at": "2026-05-07T17:19:26Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/577",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 487,
-      "title": "ASV-format microbenchmark suite",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-16T23:20:12Z",
-      "updated_at": "2026-05-07T17:18:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 578,
-      "title": "CK Tile MXFP8 Group GEMM gfx1250",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T20:37:04Z",
-      "updated_at": "2026-05-07T17:18:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/578",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 538,
-      "title": "NV upstream release 2.12 merge",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-13T20:30:21Z",
-      "updated_at": "2026-05-07T15:08:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/538",
       "labels": [
         "ci-level 3"
       ],
@@ -252,30 +292,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/541",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 448,
-      "title": "Added initial AI Agent instructions and skills",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-12T17:27:07Z",
-      "updated_at": "2026-04-23T03:47:53Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 557,
-      "title": "IFU v2.14.dev0",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T21:17:02Z",
-      "updated_at": "2026-04-21T21:17:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/557",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 515,

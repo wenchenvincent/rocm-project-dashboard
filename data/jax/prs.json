@@ -1,6 +1,22 @@
 {
-  "collected_at": "2026-05-11T10:51:27Z",
+  "collected_at": "2026-05-12T10:21:29Z",
   "prs": [
+    {
+      "number": 37444,
+      "title": "[ROCm] Version-tier S3 layout, standardized CI job naming, and nightly build workflow",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-07T04:32:23Z",
+      "updated_at": "2026-05-11T18:30:59Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37444",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 37475,
       "title": "[ROCm] Move ROCm Bazel presubmit workflow to 32-bit mode.",
@@ -27,20 +43,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 37444,
-      "title": "[ROCm] Version-tier S3 layout, standardized CI job naming, and nightly build workflow",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-07T04:32:23Z",
-      "updated_at": "2026-05-07T19:49:08Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37444",
-      "labels": [
         "AMD GPU"
       ],
       "draft": false

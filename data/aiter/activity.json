@@ -1,43 +1,43 @@
 {
-  "collected_at": "2026-05-11T10:54:01Z",
+  "collected_at": "2026-05-12T10:23:38Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 108,
-      "merged": 64,
-      "closed": 24
+      "opened": 111,
+      "merged": 74,
+      "closed": 18
     },
     "last_week": {
       "opened": 90,
-      "merged": 51,
-      "closed": 24
+      "merged": 47,
+      "closed": 28
     },
-    "median_time_to_merge_hours": 23.0,
-    "merge_count": 116,
+    "median_time_to_merge_hours": 22.8,
+    "merge_count": 122,
     "stale_prs": 101
   },
   "contributors": {
-    "active_this_week": 87,
-    "total_contributors": 176,
+    "active_this_week": 90,
+    "total_contributors": 179,
     "top_contributors": [
-      {
-        "author": "sunway513",
-        "prs_submitted": 20,
-        "prs_merged": 7,
-        "commits": 11
-      },
       {
         "author": "gyohuangxin",
         "prs_submitted": 18,
         "prs_merged": 11,
-        "commits": 39
+        "commits": 40
+      },
+      {
+        "author": "sunway513",
+        "prs_submitted": 17,
+        "prs_merged": 4,
+        "commits": 11
       },
       {
         "author": "yzhou103",
-        "prs_submitted": 9,
-        "prs_merged": 4,
-        "commits": 12
+        "prs_submitted": 10,
+        "prs_merged": 6,
+        "commits": 14
       },
       {
         "author": "ChuanLi1101",
@@ -46,21 +46,21 @@
         "commits": 0
       },
       {
+        "author": "XiaobingSuper",
+        "prs_submitted": 8,
+        "prs_merged": 4,
+        "commits": 6
+      },
+      {
         "author": "zufayu",
         "prs_submitted": 8,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "ganyi1996ppo",
-        "prs_submitted": 7,
-        "prs_merged": 1,
-        "commits": 4
-      },
-      {
         "author": "amd-ruitang3",
         "prs_submitted": 7,
-        "prs_merged": 3,
+        "prs_merged": 2,
         "commits": 6
       },
       {
@@ -76,24 +76,24 @@
         "commits": 0
       },
       {
-        "author": "peymanr",
+        "author": "ganyi1996ppo",
         "prs_submitted": 6,
         "prs_merged": 0,
-        "commits": 0
+        "commits": 4
       }
     ],
-    "bus_factor": 8
+    "bus_factor": 9
   },
   "issue_health": {
-    "total_open": 172,
-    "opened_this_week": 4,
+    "total_open": 174,
+    "opened_this_week": 6,
     "closed_this_week": 3,
     "unanswered": 65
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.6,
+    "days_since_last": 2.6,
     "avg_interval_days": 4.0,
     "total_releases": 5,
     "latest_tag": "v0.1.13"

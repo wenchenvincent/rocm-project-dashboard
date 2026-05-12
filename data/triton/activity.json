@@ -1,30 +1,30 @@
 {
-  "collected_at": "2026-05-11T10:53:17Z",
+  "collected_at": "2026-05-12T10:22:57Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 12,
-      "merged": 14,
+      "opened": 9,
+      "merged": 15,
       "closed": 0
     },
     "last_week": {
-      "opened": 19,
-      "merged": 16,
+      "opened": 20,
+      "merged": 15,
       "closed": 0
     },
-    "median_time_to_merge_hours": 22.8,
+    "median_time_to_merge_hours": 24.5,
     "merge_count": 30,
-    "stale_prs": 19
+    "stale_prs": 20
   },
   "contributors": {
-    "active_this_week": 14,
-    "total_contributors": 37,
+    "active_this_week": 15,
+    "total_contributors": 39,
     "top_contributors": [
       {
         "author": "antiagainst",
-        "prs_submitted": 9,
-        "prs_merged": 6,
+        "prs_submitted": 8,
+        "prs_merged": 7,
         "commits": 0
       },
       {
@@ -35,12 +35,6 @@
       },
       {
         "author": "ravil-mobile",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "ZelboK",
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
@@ -76,6 +70,12 @@
         "commits": 0
       },
       {
+        "author": "ZelboK",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
         "author": "jwu10003",
         "prs_submitted": 2,
         "prs_merged": 0,
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 14,
     "opened_this_week": 0,
-    "closed_this_week": 7,
+    "closed_this_week": 8,
     "unanswered": 5
   },
   "ci_health": {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 3.5,
+    "days_since_last": 4.5,
     "avg_interval_days": 70.3,
     "total_releases": 5,
     "latest_tag": "v3.7.0"

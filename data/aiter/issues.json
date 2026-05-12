@@ -1,13 +1,47 @@
 {
-  "collected_at": "2026-05-11T10:52:19Z",
+  "collected_at": "2026-05-12T10:22:16Z",
   "issues": [
+    {
+      "number": 3139,
+      "title": "[Issue]: fmha_v3 MI300/ kernel set hangs MI325X at large prefill (KIQ fence timeout / SMU stuck); routing to MI308/ hsacos works cleanly",
+      "author": "MHYangAMD",
+      "state": "open",
+      "created_at": "2026-05-12T03:13:43Z",
+      "updated_at": "2026-05-12T03:13:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3139",
+      "labels": []
+    },
+    {
+      "number": 3138,
+      "title": "[Infrastructure] CI failure on PR #3015",
+      "author": "rocm-repo-management-api-7[bot]",
+      "state": "open",
+      "created_at": "2026-05-12T03:01:48Z",
+      "updated_at": "2026-05-12T03:01:48Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3138",
+      "labels": [
+        "ci:infra",
+        "transient",
+        "ci-failure"
+      ]
+    },
+    {
+      "number": 3091,
+      "title": "[Issue] Potential RAW and WAW races on `ExpertHist` in `_combined_routing_fused`",
+      "author": "mark14wu",
+      "state": "open",
+      "created_at": "2026-05-08T15:59:37Z",
+      "updated_at": "2026-05-11T19:45:59Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3091",
+      "labels": []
+    },
     {
       "number": 2751,
       "title": "Increase SGLang downstream test coverage in Aiter CI and make Aiter upgrades smoother in the SGLang repo.",
       "author": "gyohuangxin",
       "state": "open",
       "created_at": "2026-04-16T05:15:49Z",
-      "updated_at": "2026-05-11T06:54:58Z",
+      "updated_at": "2026-05-11T15:03:22Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2751",
       "labels": [
         "enhancement",
@@ -23,16 +57,6 @@
       "created_at": "2026-05-07T23:03:35Z",
       "updated_at": "2026-05-09T15:47:25Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3076",
-      "labels": []
-    },
-    {
-      "number": 3091,
-      "title": "[Issue] Potential RAW and WAW races on `ExpertHist` in `_combined_routing_fused`",
-      "author": "mark14wu",
-      "state": "open",
-      "created_at": "2026-05-08T15:59:37Z",
-      "updated_at": "2026-05-09T15:46:26Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3091",
       "labels": []
     },
     {

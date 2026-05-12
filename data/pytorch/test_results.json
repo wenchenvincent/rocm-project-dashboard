@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-05-11T10:52:35Z",
+  "collected_at": "2026-05-12T10:22:29Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "rocm-mi300",
-    "run_id": 25655029073,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25655029073",
-    "run_date": "2026-05-11T07:34:15Z",
+    "run_id": 25721895165,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25721895165",
+    "run_date": "2026-05-12T09:17:35Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 8,
-      "total_tests": 14028,
-      "passed": 13549,
+      "total_tests": 14032,
+      "passed": 13555,
       "failed": 0,
-      "skipped": 479,
+      "skipped": 477,
       "pass_rate": 100.0
     },
     "suites": [
@@ -122,8 +122,8 @@
       },
       {
         "name": "dynamo.test_after_aot",
-        "tests": 14,
-        "passed": 14,
+        "tests": 12,
+        "passed": 12,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -346,10 +346,10 @@
       },
       {
         "name": "dynamo.test_dynamic_shapes",
-        "tests": 2129,
-        "passed": 2078,
+        "tests": 2124,
+        "passed": 2075,
         "failed": 0,
-        "skipped": 51,
+        "skipped": 49,
         "errors": 0
       },
       {
@@ -690,8 +690,8 @@
       },
       {
         "name": "dynamo.test_misc",
-        "tests": 771,
-        "passed": 759,
+        "tests": 773,
+        "passed": 761,
         "failed": 0,
         "skipped": 12,
         "errors": 0
@@ -978,8 +978,8 @@
       },
       {
         "name": "dynamo.test_subclasses",
-        "tests": 135,
-        "passed": 130,
+        "tests": 139,
+        "passed": 134,
         "failed": 0,
         "skipped": 5,
         "errors": 0
@@ -1082,8 +1082,8 @@
       },
       {
         "name": "dynamo.test_wrap_inductor_compiled_regions",
-        "tests": 22,
-        "passed": 22,
+        "tests": 23,
+        "passed": 23,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -1201,6 +1201,14 @@
         "errors": 0
       },
       {
+        "name": "export.test_package",
+        "tests": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "errors": 0
+      },
+      {
         "name": "lazy.test_ts_opinfo",
         "tests": 5,
         "passed": 4,
@@ -1212,16 +1220,16 @@
   },
   "cuda": {
     "workflow_name": "trunk",
-    "run_id": 25658588213,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25658588213",
-    "run_date": "2026-05-11T10:10:27Z",
+    "run_id": 25722122517,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25722122517",
+    "run_date": "2026-05-12T10:17:01Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 48,
-      "total_tests": 17448,
-      "passed": 15359,
+      "total_tests": 14565,
+      "passed": 13788,
       "failed": 0,
-      "skipped": 2089,
+      "skipped": 777,
       "pass_rate": 100.0
     },
     "suites": [
@@ -1843,8 +1851,8 @@
       },
       {
         "name": "dynamo.test_after_aot",
-        "tests": 14,
-        "passed": 14,
+        "tests": 12,
+        "passed": 12,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -2699,8 +2707,8 @@
       },
       {
         "name": "dynamo.test_subclasses",
-        "tests": 135,
-        "passed": 130,
+        "tests": 136,
+        "passed": 131,
         "failed": 0,
         "skipped": 5,
         "errors": 0
@@ -2914,11 +2922,19 @@
         "errors": 0
       },
       {
-        "name": "inductor.test_utils",
-        "tests": 16,
-        "passed": 15,
+        "name": "export.test_nativert",
+        "tests": 6,
+        "passed": 0,
         "failed": 0,
-        "skipped": 1,
+        "skipped": 6,
+        "errors": 0
+      },
+      {
+        "name": "export.test_package",
+        "tests": 4,
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
         "errors": 0
       },
       {
@@ -2930,7 +2946,7 @@
         "errors": 0
       },
       {
-        "name": "test_linalg",
+        "name": "test_license",
         "tests": 1,
         "passed": 1,
         "failed": 0,
@@ -2938,19 +2954,19 @@
         "errors": 0
       },
       {
-        "name": "test_nn",
-        "tests": 2877,
-        "passed": 1560,
+        "name": "test_linalg",
+        "tests": 1,
+        "passed": 1,
         "failed": 0,
-        "skipped": 1317,
+        "skipped": 0,
         "errors": 0
       }
     ]
   },
   "cuda_parity": {
-    "ratio": 88.2,
-    "rocm_count": 13549,
-    "cuda_count": 15359,
+    "ratio": 98.3,
+    "rocm_count": 13555,
+    "cuda_count": 13788,
     "level": "test"
   }
 }

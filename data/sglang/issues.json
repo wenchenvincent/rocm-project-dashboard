@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-11T10:51:58Z",
+  "collected_at": "2026-05-12T10:21:58Z",
   "issues": [
     {
       "number": 21302,
@@ -7,8 +7,30 @@
       "author": "HaiShaw",
       "state": "open",
       "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-05-11T04:34:14Z",
+      "updated_at": "2026-05-12T08:59:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-05-12T02:57:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 24992,
+      "title": "[Bug][ROCm][AITER] Qwen3-30B-A3B-Instruct-2507 produces nonsensical output on `rocm/sgl-dev:v0.5.11-rocm720-mi35x-20260510` when using AITER attention backend",
+      "author": "fxmarty-amd",
+      "state": "open",
+      "created_at": "2026-05-11T16:42:23Z",
+      "updated_at": "2026-05-11T17:10:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/24992",
       "labels": []
     },
     {
@@ -59,18 +81,6 @@
         "high priority",
         "deepseek",
         "roadmap"
-      ]
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-05-09T03:30:04Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
       ]
     },
     {
@@ -462,26 +472,6 @@
       "created_at": "2026-03-16T11:26:30Z",
       "updated_at": "2026-04-01T01:33:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20691",
-      "labels": []
-    },
-    {
-      "number": 21769,
-      "title": "[RFC] AMD Quark Quantized Diffusion Image&Video Model Deployment in SGLang",
-      "author": "ColinZ22",
-      "state": "open",
-      "created_at": "2026-03-31T17:27:03Z",
-      "updated_at": "2026-03-31T20:57:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21769",
-      "labels": []
-    },
-    {
-      "number": 20169,
-      "title": "Prefill out of memory. Try to lower your batch size.  Run Qwen3.5 0.8b model on ascend 910B",
-      "author": "Lizuole007",
-      "state": "open",
-      "created_at": "2026-03-09T07:46:27Z",
-      "updated_at": "2026-03-12T09:02:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20169",
       "labels": []
     }
   ]
