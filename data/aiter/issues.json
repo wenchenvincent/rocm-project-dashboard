@@ -1,6 +1,38 @@
 {
-  "collected_at": "2026-05-12T10:22:16Z",
+  "collected_at": "2026-05-14T10:05:26Z",
   "issues": [
+    {
+      "number": 3177,
+      "title": "[v0.1.14 blocker] PR #2958 broke aiter.fused_qk_rmsnorm public API for ATOM positional callers",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-05-14T00:58:48Z",
+      "updated_at": "2026-05-14T02:37:48Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3177",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 3172,
+      "title": "fused_qk_rmsnorm crashes under torch.compile: 'float' object has no attribute 'size' (blocks Kimi-K2.5-MXFP4)",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-05-13T18:50:04Z",
+      "updated_at": "2026-05-14T00:14:03Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3172",
+      "labels": []
+    },
+    {
+      "number": 3091,
+      "title": "[Issue] Potential RAW and WAW races on `ExpertHist` in `_combined_routing_fused`",
+      "author": "mark14wu",
+      "state": "open",
+      "created_at": "2026-05-08T15:59:37Z",
+      "updated_at": "2026-05-12T17:29:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3091",
+      "labels": []
+    },
     {
       "number": 3139,
       "title": "[Issue]: fmha_v3 MI300/ kernel set hangs MI325X at large prefill (KIQ fence timeout / SMU stuck); routing to MI308/ hsacos works cleanly",
@@ -24,16 +56,6 @@
         "transient",
         "ci-failure"
       ]
-    },
-    {
-      "number": 3091,
-      "title": "[Issue] Potential RAW and WAW races on `ExpertHist` in `_combined_routing_fused`",
-      "author": "mark14wu",
-      "state": "open",
-      "created_at": "2026-05-08T15:59:37Z",
-      "updated_at": "2026-05-11T19:45:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3091",
-      "labels": []
     },
     {
       "number": 2751,
@@ -88,19 +110,6 @@
       "updated_at": "2026-05-04T21:05:55Z",
       "html_url": "https://github.com/ROCm/aiter/issues/1385",
       "labels": []
-    },
-    {
-      "number": 2832,
-      "title": "[Bug] CI Tests failing on multiple PR's",
-      "author": "RichardChamberlain1",
-      "state": "open",
-      "created_at": "2026-04-21T09:39:07Z",
-      "updated_at": "2026-05-04T13:23:49Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2832",
-      "labels": [
-        "bug",
-        "frameworks-devops"
-      ]
     },
     {
       "number": 900,

@@ -1,6 +1,44 @@
 {
-  "collected_at": "2026-05-12T10:22:20Z",
+  "collected_at": "2026-05-14T10:05:31Z",
   "issues": [
+    {
+      "number": 783,
+      "title": "[Perf Regression] 30 config(s) regressed @ 4d0aa8fc",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-14T08:15:22Z",
+      "updated_at": "2026-05-14T08:15:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/783",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 769,
+      "title": "[Perf Regression] 22 config(s) regressed @ 86a074f4",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-13T04:08:19Z",
+      "updated_at": "2026-05-13T04:08:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/769",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 707,
+      "title": "[Tracker]: DeepSeek-V4 Support and Optimization on ATOM",
+      "author": "jamestangg",
+      "state": "open",
+      "created_at": "2026-05-07T02:27:05Z",
+      "updated_at": "2026-05-12T23:57:23Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/707",
+      "labels": [
+        "workstream"
+      ]
+    },
     {
       "number": 758,
       "title": "[Attention] Refactor ATOM-vLLM/ATOM-SGLang Attention",
@@ -33,18 +71,6 @@
       "updated_at": "2026-05-12T00:40:04Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/757",
       "labels": []
-    },
-    {
-      "number": 707,
-      "title": "[Tracker]: DeepSeek-V4 Support and Optimization on ATOM",
-      "author": "jamestangg",
-      "state": "open",
-      "created_at": "2026-05-07T02:27:05Z",
-      "updated_at": "2026-05-12T00:16:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/707",
-      "labels": [
-        "workstream"
-      ]
     },
     {
       "number": 738,
@@ -124,16 +150,6 @@
       "created_at": "2026-05-02T04:16:51Z",
       "updated_at": "2026-05-02T06:05:58Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/680",
-      "labels": []
-    },
-    {
-      "number": 672,
-      "title": "[Issue]: prefix caching should be enabled by default",
-      "author": "cquil11",
-      "state": "open",
-      "created_at": "2026-04-29T15:09:37Z",
-      "updated_at": "2026-04-29T15:12:43Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/672",
       "labels": []
     },
     {

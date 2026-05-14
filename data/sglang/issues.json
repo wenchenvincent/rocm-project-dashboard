@@ -1,15 +1,64 @@
 {
-  "collected_at": "2026-05-12T10:21:58Z",
+  "collected_at": "2026-05-14T10:05:03Z",
   "issues": [
+    {
+      "number": 23602,
+      "title": "DeepSeek V4 Roadmap",
+      "author": "fzyzcjy",
+      "state": "open",
+      "created_at": "2026-04-24T03:22:31Z",
+      "updated_at": "2026-05-13T22:01:51Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "roadmap"
+      ]
+    },
+    {
+      "number": 25118,
+      "title": "[Bug] DeepSeek-V4-Flash on MI300x failed with assertion error \"assert self.store_dtype == torch.uint8\"",
+      "author": "tawan0109",
+      "state": "open",
+      "created_at": "2026-05-13T02:29:32Z",
+      "updated_at": "2026-05-13T18:19:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/25118",
+      "labels": []
+    },
+    {
+      "number": 23005,
+      "title": "Speculative Decoding Development Roadmap (2026 Q2)",
+      "author": "Qiaolin-Yu",
+      "state": "open",
+      "created_at": "2026-04-16T23:37:35Z",
+      "updated_at": "2026-05-13T18:03:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23005",
+      "labels": [
+        "speculative-decoding",
+        "roadmap"
+      ]
+    },
     {
       "number": 21302,
       "title": "[AITER-Upgrade] PR readiness",
       "author": "HaiShaw",
       "state": "open",
       "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-05-12T08:59:40Z",
+      "updated_at": "2026-05-13T08:42:52Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
+    },
+    {
+      "number": 23494,
+      "title": "AMD Development Roadmap (2026 Q2)",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-04-22T18:41:09Z",
+      "updated_at": "2026-05-13T04:30:02Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23494",
+      "labels": [
+        "amd"
+      ]
     },
     {
       "number": 16565,
@@ -17,10 +66,36 @@
       "author": "yeahdongcn",
       "state": "open",
       "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-05-12T02:57:17Z",
+      "updated_at": "2026-05-13T01:32:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/16565",
       "labels": [
         "mthreads"
+      ]
+    },
+    {
+      "number": 22949,
+      "title": "Development Roadmap (2026 Q2)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-04-16T08:35:03Z",
+      "updated_at": "2026-05-12T19:37:33Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
+      "labels": []
+    },
+    {
+      "number": 15025,
+      "title": "[Roadmap] DeepSeek v3.2 (GLM 5) Optimization",
+      "author": "Fridge003",
+      "state": "open",
+      "created_at": "2025-12-13T01:47:05Z",
+      "updated_at": "2026-05-12T13:57:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/15025",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "Good Pro Issue",
+        "good second issue",
+        "nvidia"
       ]
     },
     {
@@ -34,16 +109,6 @@
       "labels": []
     },
     {
-      "number": 22949,
-      "title": "Development Roadmap (2026 Q2)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-05-11T03:52:57Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
-      "labels": []
-    },
-    {
       "number": 24866,
       "title": "[Bug] SGLang Integration with MoRI-EP IntraNode FP8 Combine Accuracy Failing due to Missing Quant Correction",
       "author": "functionstackx",
@@ -54,48 +119,6 @@
       "labels": []
     },
     {
-      "number": 15025,
-      "title": "[Roadmap] DeepSeek v3.2 (GLM 5) Optimization",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2025-12-13T01:47:05Z",
-      "updated_at": "2026-05-09T17:51:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/15025",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "Good Pro Issue",
-        "good second issue",
-        "nvidia"
-      ]
-    },
-    {
-      "number": 23602,
-      "title": "DeepSeek V4 Roadmap",
-      "author": "fzyzcjy",
-      "state": "open",
-      "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-05-09T10:01:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "roadmap"
-      ]
-    },
-    {
-      "number": 23494,
-      "title": "AMD Development Roadmap (2026 Q2)",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-04-22T18:41:09Z",
-      "updated_at": "2026-05-08T18:16:41Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23494",
-      "labels": [
-        "amd"
-      ]
-    },
-    {
       "number": 15194,
       "title": "[Roadmap] Quantization Modifications",
       "author": "TamirBaydasov",
@@ -104,19 +127,6 @@
       "updated_at": "2026-05-08T12:00:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/15194",
       "labels": []
-    },
-    {
-      "number": 23005,
-      "title": "Speculative Decoding Development Roadmap (2026 Q2)",
-      "author": "Qiaolin-Yu",
-      "state": "open",
-      "created_at": "2026-04-16T23:37:35Z",
-      "updated_at": "2026-05-08T06:47:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23005",
-      "labels": [
-        "speculative-decoding",
-        "roadmap"
-      ]
     },
     {
       "number": 21886,
@@ -372,26 +382,6 @@
       "created_at": "2026-04-17T18:02:30Z",
       "updated_at": "2026-04-20T05:33:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/23084",
-      "labels": []
-    },
-    {
-      "number": 22105,
-      "title": "[HiCache] Input length validation rejects requests that fit in L1+L2 combined capacity",
-      "author": "isensez",
-      "state": "open",
-      "created_at": "2026-04-04T11:00:09Z",
-      "updated_at": "2026-04-18T17:57:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22105",
-      "labels": []
-    },
-    {
-      "number": 22749,
-      "title": "[Bug] Runai Streamer Errors out on Multimodal models like KimiK2.5",
-      "author": "shivajid",
-      "state": "open",
-      "created_at": "2026-04-14T03:23:51Z",
-      "updated_at": "2026-04-18T00:14:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22749",
       "labels": []
     },
     {

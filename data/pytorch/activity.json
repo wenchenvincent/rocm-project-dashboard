@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-05-12T10:22:48Z",
+  "collected_at": "2026-05-14T10:06:13Z",
   "project": "pytorch",
   "repo": "pytorch/pytorch",
   "pr_velocity": {
     "this_week": {
-      "opened": 15,
+      "opened": 20,
       "merged": 0,
-      "closed": 1
+      "closed": 4
     },
     "last_week": {
-      "opened": 7,
-      "merged": 1,
+      "opened": 5,
+      "merged": 0,
       "closed": 0
     },
     "median_time_to_merge_hours": 727.7,
@@ -18,13 +18,19 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 40,
-    "total_contributors": 47,
+    "active_this_week": 37,
+    "total_contributors": 43,
     "top_contributors": [
       {
         "author": "jeffdaily",
-        "prs_submitted": 4,
+        "prs_submitted": 6,
         "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "apakbin",
+        "prs_submitted": 4,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -34,13 +40,7 @@
         "commits": 0
       },
       {
-        "author": "zklaus",
-        "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "apakbin",
+        "author": "fegin",
         "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
@@ -52,78 +52,78 @@
         "commits": 0
       },
       {
+        "author": "shangerxin",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
         "author": "tvukovic-amd",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "etaf",
+        "author": "RiyaP2508",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "huydhn",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "nithinsubbiah",
+        "author": "jagadish-amd",
         "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "ethanwee1",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "malfet",
-        "prs_submitted": 2,
-        "prs_merged": 2,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
     "bus_factor": 3
   },
   "issue_health": {
-    "total_open": 49,
-    "opened_this_week": 15,
-    "closed_this_week": 223,
+    "total_open": 54,
+    "opened_this_week": 18,
+    "closed_this_week": 198,
     "unanswered": 0
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 7,
+      "succeeded": 5,
       "failed": 5,
-      "success_rate": 35.0
+      "success_rate": 25.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 7,
-      "failed": 10,
-      "success_rate": 35.0
+      "succeeded": 8,
+      "failed": 4,
+      "success_rate": 40.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 60.9,
-      "p90_minutes": 327.1,
-      "min_minutes": 0.0,
-      "max_minutes": 500.7
+      "median_minutes": 63.0,
+      "p90_minutes": 315.6,
+      "min_minutes": 0.1,
+      "max_minutes": 319.5
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 140.8,
-      "p90_minutes": 291.9,
-      "min_minutes": 15.2,
-      "max_minutes": 301.6
+      "median_minutes": 106.4,
+      "p90_minutes": 124.4,
+      "min_minutes": 1.4,
+      "max_minutes": 126.0
     }
   },
   "release_cadence": {
-    "days_since_last": 49.7,
-    "avg_interval_days": 57.3,
+    "days_since_last": 0.7,
+    "avg_interval_days": 52.5,
     "total_releases": 5,
-    "latest_tag": "v2.11.0"
+    "latest_tag": "v2.12.0"
   }
 }

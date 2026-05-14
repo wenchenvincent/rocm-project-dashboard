@@ -1,19 +1,19 @@
 {
-  "collected_at": "2026-05-12T10:22:28Z",
+  "collected_at": "2026-05-14T10:05:42Z",
   "prs": [
     {
-      "number": 566,
-      "title": "HipKittens MXFP8 GEMM Support",
-      "author": "alextmagro",
+      "number": 557,
+      "title": "IFU v2.14.dev0",
+      "author": "ipanfilo",
       "state": "open",
       "merged": false,
-      "created_at": "2026-04-28T05:16:00Z",
-      "updated_at": "2026-05-12T03:11:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/566",
+      "created_at": "2026-04-21T21:17:02Z",
+      "updated_at": "2026-05-14T01:55:43Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/557",
       "labels": [
-        "ci-level 1"
+        "ci-level 3"
       ],
-      "draft": false
+      "draft": true
     },
     {
       "number": 582,
@@ -22,12 +22,118 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-11T15:43:55Z",
-      "updated_at": "2026-05-11T21:43:48Z",
+      "updated_at": "2026-05-14T00:54:30Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/582",
       "labels": [
         "ci-level 1"
       ],
+      "draft": false
+    },
+    {
+      "number": 568,
+      "title": "add MXFP8 pre-swizzling for gfx1250 GEMM",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-29T16:59:38Z",
+      "updated_at": "2026-05-13T22:29:31Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/568",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": true
+    },
+    {
+      "number": 566,
+      "title": "HipKittens MXFP8 GEMM Support",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-28T05:16:00Z",
+      "updated_at": "2026-05-13T19:17:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/566",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 585,
+      "title": "Add a custom multi_tensor_l2norm_kernel",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-13T15:53:32Z",
+      "updated_at": "2026-05-13T15:53:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/585",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 573,
+      "title": "[ROCm] Allow bf16/bf16/fp32 in nvte_multi_tensor_gemm dispatcher",
+      "author": "lizamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-04T23:47:38Z",
+      "updated_at": "2026-05-12T21:22:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/573",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 583,
+      "title": "RMS Norm Optimization",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-12T12:13:34Z",
+      "updated_at": "2026-05-12T21:06:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/583",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 584,
+      "title": "Harden claude-pr-action.yml",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-12T15:12:03Z",
+      "updated_at": "2026-05-12T16:33:56Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/584",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 576,
+      "title": "CK Tile Group GEMM gfx1250",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-06T17:54:50Z",
+      "updated_at": "2026-05-12T15:51:06Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/576",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 487,
+      "title": "Microbenchmark suite",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-16T23:20:12Z",
+      "updated_at": "2026-05-12T14:25:37Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 478,
@@ -38,18 +144,6 @@
       "created_at": "2026-03-10T15:43:14Z",
       "updated_at": "2026-05-11T21:37:33Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 487,
-      "title": "Microbenchmark suite",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-16T23:20:12Z",
-      "updated_at": "2026-05-11T21:24:47Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/487",
       "labels": [],
       "draft": false
     },
@@ -66,20 +160,6 @@
       "draft": false
     },
     {
-      "number": 557,
-      "title": "IFU v2.14.dev0",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T21:17:02Z",
-      "updated_at": "2026-05-11T18:29:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/557",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": true
-    },
-    {
       "number": 538,
       "title": "NV upstream release 2.12 merge",
       "author": "Micky774",
@@ -94,34 +174,6 @@
       "draft": false
     },
     {
-      "number": 580,
-      "title": "NVFP4: Work around intermittent incorrect results for backward GEMMs",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-07T00:40:32Z",
-      "updated_at": "2026-05-11T15:48:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/580",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 577,
-      "title": "Update AITER CK dependency for gfx1250 grouped GEMM",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T20:29:52Z",
-      "updated_at": "2026-05-11T13:18:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/577",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 578,
       "title": "CK Tile MXFP8 Group GEMM gfx1250",
       "author": "aris134",
@@ -130,34 +182,6 @@
       "created_at": "2026-05-06T20:37:04Z",
       "updated_at": "2026-05-11T13:11:44Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/578",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 576,
-      "title": "CK Tile Group GEMM gfx1250",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-06T17:54:50Z",
-      "updated_at": "2026-05-11T13:04:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/576",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 573,
-      "title": "[ROCm] Allow bf16/bf16/fp32 in nvte_multi_tensor_gemm dispatcher",
-      "author": "lizamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-04T23:47:38Z",
-      "updated_at": "2026-05-08T16:15:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/573",
       "labels": [
         "ci-level 1"
       ],
@@ -225,20 +249,6 @@
       "updated_at": "2026-05-06T14:01:19Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/574",
       "labels": [],
-      "draft": true
-    },
-    {
-      "number": 568,
-      "title": "[proof-of-concept] add MXFP8 pre-swizzling for gfx1250",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-29T16:59:38Z",
-      "updated_at": "2026-05-05T15:22:54Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/568",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": true
     },
     {
@@ -394,30 +404,6 @@
       "draft": false
     },
     {
-      "number": 225,
-      "title": "heyi's layernorm optimization",
-      "author": "eliotwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-07-03T08:20:23Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 480,
-      "title": "Add Claude to review PRs",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-13T15:08:04Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/480",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 336,
       "title": "Fused Cross Entropy Triton - Loss Scaling and Vanishing Grads Bugfix",
       "author": "sarthak-amd",
@@ -452,6 +438,44 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/400",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 225,
+      "title": "heyi's layernorm optimization",
+      "author": "eliotwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-07-03T08:20:23Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 480,
+      "title": "Add Claude to review PRs",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-13T15:08:04Z",
+      "updated_at": "2026-04-07T14:07:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/480",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 580,
+      "title": "NVFP4: Work around intermittent incorrect results for backward GEMMs",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-07T00:40:32Z",
+      "updated_at": "2026-05-13T02:23:00Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/580",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
     },
     {
       "number": 571,
@@ -1361,30 +1385,6 @@
       "created_at": "2026-03-04T06:17:57Z",
       "updated_at": "2026-03-04T18:07:58Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/471",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 474,
-      "title": "Cherry pick build and test fixes from dev",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-04T17:01:17Z",
-      "updated_at": "2026-03-04T18:07:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/474",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 467,
-      "title": "Check only major ROCm version on load",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-02T17:29:59Z",
-      "updated_at": "2026-03-03T19:58:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/467",
       "labels": [],
       "draft": false
     }
