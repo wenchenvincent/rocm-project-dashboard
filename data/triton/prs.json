@@ -1,17 +1,41 @@
 {
-  "collected_at": "2026-05-14T10:05:06Z",
+  "collected_at": "2026-05-15T10:11:00Z",
   "prs": [
+    {
+      "number": 10184,
+      "title": "[AMD] Handle padded layout in MemDescReinterpretOp verifier",
+      "author": "yangshuxin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-30T16:01:11Z",
+      "updated_at": "2026-05-15T05:23:54Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10184",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10305,
+      "title": "[AMD] Guard MFMA store layout for small N dimensions",
+      "author": "justinrosner",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-13T18:10:44Z",
+      "updated_at": "2026-05-15T05:15:15Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10305",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10310,
       "title": "[AMD][BACKEND][TDM] Handle Negative Offsets as Fully Out-of-Bounds Tiles",
       "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-05-14T09:40:20Z",
-      "updated_at": "2026-05-14T09:40:20Z",
+      "updated_at": "2026-05-15T01:35:52Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10310",
       "labels": [],
-      "draft": true
+      "draft": false
     },
     {
       "number": 10302,
@@ -20,7 +44,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-13T16:04:43Z",
-      "updated_at": "2026-05-14T00:22:32Z",
+      "updated_at": "2026-05-14T21:59:53Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10302",
       "labels": [],
       "draft": true
@@ -36,18 +60,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10304",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10305,
-      "title": "[AMD] Guard MFMA store layout for small N dimensions",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-13T18:10:44Z",
-      "updated_at": "2026-05-13T18:10:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10305",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10056,
@@ -142,18 +154,6 @@
       "created_at": "2026-05-11T19:32:58Z",
       "updated_at": "2026-05-11T19:38:35Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10290",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10184,
-      "title": "[subslice][AMD] Fix an assertion about PaddedSharedEncodingAttr",
-      "author": "yangshuxin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T16:01:11Z",
-      "updated_at": "2026-05-10T23:25:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10184",
       "labels": [],
       "draft": false
     },
@@ -406,30 +406,6 @@
       "created_at": "2026-04-29T18:13:33Z",
       "updated_at": "2026-04-30T20:18:32Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10172",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10179,
-      "title": "[Gluon for AMD] unwrap constexpr None in buffer_load/buffer_store/_ve\u2026",
-      "author": "Dewei-Wang-sh",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-30T08:17:50Z",
-      "updated_at": "2026-04-30T09:30:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10179",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10081,
-      "title": "[AMD][gfx9] Restore token-aware wait count derivation on asyncmark ta\u2026",
-      "author": "lijinpei-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-20T13:24:54Z",
-      "updated_at": "2026-04-30T00:36:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10081",
       "labels": [],
       "draft": false
     },

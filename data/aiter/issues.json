@@ -1,6 +1,86 @@
 {
-  "collected_at": "2026-05-14T10:05:26Z",
+  "collected_at": "2026-05-15T10:11:16Z",
   "issues": [
+    {
+      "number": 3221,
+      "title": "[Bug] PR #3174 breaks DeepSeek-V3.2 (NSA) on AMD MI35x with triton 3.4.x: unconditional `from triton.experimental.gluon` import in fp8_mqa_logits.py",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-05-15T10:11:03Z",
+      "updated_at": "2026-05-15T10:11:03Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3221",
+      "labels": []
+    },
+    {
+      "number": 3218,
+      "title": "[Feature]: AGENTS.md",
+      "author": "tpopp",
+      "state": "open",
+      "created_at": "2026-05-15T08:51:23Z",
+      "updated_at": "2026-05-15T08:51:23Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3218",
+      "labels": []
+    },
+    {
+      "number": 3202,
+      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
+      "author": "peymanr",
+      "state": "open",
+      "created_at": "2026-05-14T20:59:38Z",
+      "updated_at": "2026-05-15T06:17:10Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3202",
+      "labels": []
+    },
+    {
+      "number": 3207,
+      "title": "[Issue]: fused_qk_rmsnorm renamed to private _fused_qk_rmsnorm without deprecation (PR #2958)",
+      "author": "rbrugaro-amd",
+      "state": "open",
+      "created_at": "2026-05-14T22:24:03Z",
+      "updated_at": "2026-05-14T22:24:03Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3207",
+      "labels": []
+    },
+    {
+      "number": 3195,
+      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
+      "author": "peymanr",
+      "state": "open",
+      "created_at": "2026-05-14T19:28:25Z",
+      "updated_at": "2026-05-14T20:08:05Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3195",
+      "labels": []
+    },
+    {
+      "number": 3193,
+      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
+      "author": "peymanr",
+      "state": "open",
+      "created_at": "2026-05-14T19:05:16Z",
+      "updated_at": "2026-05-14T19:05:16Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3193",
+      "labels": []
+    },
+    {
+      "number": 3192,
+      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
+      "author": "peymanr",
+      "state": "open",
+      "created_at": "2026-05-14T18:39:51Z",
+      "updated_at": "2026-05-14T18:39:51Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3192",
+      "labels": []
+    },
+    {
+      "number": 3191,
+      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
+      "author": "peymanr",
+      "state": "open",
+      "created_at": "2026-05-14T18:31:05Z",
+      "updated_at": "2026-05-14T18:31:05Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3191",
+      "labels": []
+    },
     {
       "number": 3177,
       "title": "[v0.1.14 blocker] PR #2958 broke aiter.fused_qk_rmsnorm public API for ATOM positional callers",

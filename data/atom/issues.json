@@ -1,31 +1,51 @@
 {
-  "collected_at": "2026-05-14T10:05:31Z",
+  "collected_at": "2026-05-15T10:11:21Z",
   "issues": [
     {
-      "number": 783,
-      "title": "[Perf Regression] 30 config(s) regressed @ 4d0aa8fc",
+      "number": 800,
+      "title": "[Perf Regression] 2 config(s) regressed @ d372640a",
       "author": "github-actions[bot]",
       "state": "open",
-      "created_at": "2026-05-14T08:15:22Z",
-      "updated_at": "2026-05-14T08:15:22Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/783",
+      "created_at": "2026-05-15T08:57:39Z",
+      "updated_at": "2026-05-15T08:57:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/800",
       "labels": [
         "performance",
         "regression"
       ]
     },
     {
-      "number": 769,
-      "title": "[Perf Regression] 22 config(s) regressed @ 86a074f4",
+      "number": 799,
+      "title": "[Perf Regression] 1 config(s) regressed @ a4fab45d",
       "author": "github-actions[bot]",
       "state": "open",
-      "created_at": "2026-05-13T04:08:19Z",
-      "updated_at": "2026-05-13T04:08:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/769",
+      "created_at": "2026-05-15T08:14:42Z",
+      "updated_at": "2026-05-15T08:14:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/799",
       "labels": [
         "performance",
         "regression"
       ]
+    },
+    {
+      "number": 758,
+      "title": "[Draft] [Attention] Refactor ATOM-vLLM/ATOM-SGLang Attention",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "created_at": "2026-05-12T01:58:00Z",
+      "updated_at": "2026-05-15T06:55:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/758",
+      "labels": []
+    },
+    {
+      "number": 797,
+      "title": "Fail to run DeepSeek V3.2 on MI 300x",
+      "author": "LoadingZhang",
+      "state": "open",
+      "created_at": "2026-05-15T05:27:21Z",
+      "updated_at": "2026-05-15T05:40:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/797",
+      "labels": []
     },
     {
       "number": 707,
@@ -33,33 +53,10 @@
       "author": "jamestangg",
       "state": "open",
       "created_at": "2026-05-07T02:27:05Z",
-      "updated_at": "2026-05-12T23:57:23Z",
+      "updated_at": "2026-05-15T02:09:57Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/707",
       "labels": [
         "workstream"
-      ]
-    },
-    {
-      "number": 758,
-      "title": "[Attention] Refactor ATOM-vLLM/ATOM-SGLang Attention",
-      "author": "zejunchen-zejun",
-      "state": "open",
-      "created_at": "2026-05-12T01:58:00Z",
-      "updated_at": "2026-05-12T08:17:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/758",
-      "labels": []
-    },
-    {
-      "number": 759,
-      "title": "[Perf Regression] 37 config(s) regressed @ 7934d5e8",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-05-12T04:49:28Z",
-      "updated_at": "2026-05-12T04:49:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/759",
-      "labels": [
-        "performance",
-        "regression"
       ]
     },
     {
@@ -71,19 +68,6 @@
       "updated_at": "2026-05-12T00:40:04Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/757",
       "labels": []
-    },
-    {
-      "number": 738,
-      "title": "[Perf Regression] 16 config(s) regressed @ 679422de",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-05-11T01:45:42Z",
-      "updated_at": "2026-05-11T01:45:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/738",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 719,

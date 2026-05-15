@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-05-14T10:05:39Z",
+  "collected_at": "2026-05-15T10:11:26Z",
   "issues": [
+    {
+      "number": 527,
+      "title": "[request] Backport manylinux_2_27/2_28 wheels for v0.1.4 (post1 release)",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-05-14T15:54:11Z",
+      "updated_at": "2026-05-14T15:54:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/527",
+      "labels": []
+    },
     {
       "number": 515,
       "title": "[Feature]: More low-level AMD/CDNA controls on SoTA Kernels",

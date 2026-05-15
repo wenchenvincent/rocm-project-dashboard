@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-05-14T10:06:24Z",
+  "collected_at": "2026-05-15T10:11:59Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 9,
-      "merged": 15,
-      "closed": 0
-    },
-    "last_week": {
-      "opened": 16,
+      "opened": 8,
       "merged": 13,
       "closed": 0
     },
-    "median_time_to_merge_hours": 39.0,
+    "last_week": {
+      "opened": 15,
+      "merged": 15,
+      "closed": 0
+    },
+    "median_time_to_merge_hours": 32.3,
     "merge_count": 30,
     "stale_prs": 21
   },
   "contributors": {
-    "active_this_week": 14,
-    "total_contributors": 38,
+    "active_this_week": 10,
+    "total_contributors": 36,
     "top_contributors": [
       {
         "author": "antiagainst",
@@ -40,19 +40,19 @@
         "commits": 0
       },
       {
-        "author": "AlexAUT",
+        "author": "justinrosner",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "xiaohuguo2023",
+        "author": "AlexAUT",
         "prs_submitted": 2,
-        "prs_merged": 0,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "justinrosner",
+        "author": "xiaohuguo2023",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 14,
     "opened_this_week": 0,
-    "closed_this_week": 6,
+    "closed_this_week": 3,
     "unanswered": 5
   },
   "ci_health": {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 6.5,
+    "days_since_last": 7.5,
     "avg_interval_days": 70.3,
     "total_releases": 5,
     "latest_tag": "v3.7.0"

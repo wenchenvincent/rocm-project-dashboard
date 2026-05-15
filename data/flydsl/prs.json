@@ -1,43 +1,77 @@
 {
-  "collected_at": "2026-05-14T10:05:38Z",
+  "collected_at": "2026-05-15T10:11:26Z",
   "prs": [
     {
-      "number": 518,
-      "title": "[Refactor] Refactor the allreduce kernel by high-level FlyDSL APIs",
-      "author": "yanboshao",
+      "number": 525,
+      "title": "FP8 GEMM 8wave ping-pong kernel",
+      "author": "amd-cgilli",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-13T06:51:16Z",
-      "updated_at": "2026-05-14T10:01:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/518",
-      "labels": [
-        "multi-gpu"
-      ],
+      "created_at": "2026-05-14T11:07:51Z",
+      "updated_at": "2026-05-15T09:38:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/525",
+      "labels": [],
       "draft": false
     },
     {
-      "number": 524,
-      "title": "[Enh] Add shortcut make_rmem_tensor for allocate register tensor",
+      "number": 530,
+      "title": "hgemm_splitk: add mixed sllitk/slicek policies",
+      "author": "xytpai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T07:41:48Z",
+      "updated_at": "2026-05-15T08:06:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/530",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 481,
+      "title": "[Feat] Align quant and fused rmsnorm kernels with aiter/triton",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T08:14:12Z",
+      "updated_at": "2026-05-15T06:35:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/481",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 529,
+      "title": "[Standardization]: apply Python formatting",
       "author": "sjfeng1999",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-14T09:27:13Z",
-      "updated_at": "2026-05-14T09:56:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/524",
+      "created_at": "2026-05-15T04:22:33Z",
+      "updated_at": "2026-05-15T04:26:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/529",
       "labels": [],
       "draft": false
     },
     {
-      "number": 520,
-      "title": "Preshuffle fp8 4wave main",
-      "author": "coderfeli",
+      "number": 528,
+      "title": "fix: backport manylinux_2_28 wheel build to v0.1.4 (post1 release)",
+      "author": "kiran-thumma",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-13T12:35:17Z",
-      "updated_at": "2026-05-14T09:55:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/520",
+      "created_at": "2026-05-15T02:29:30Z",
+      "updated_at": "2026-05-15T02:29:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/528",
       "labels": [],
-      "draft": false
+      "draft": true
+    },
+    {
+      "number": 487,
+      "title": "blockscale code gfx1250 (WIP)",
+      "author": "omuhamma",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T14:55:02Z",
+      "updated_at": "2026-05-15T00:40:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/487",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 474,
@@ -64,18 +98,6 @@
       "draft": false
     },
     {
-      "number": 521,
-      "title": "fix(python): lazily load ROCDL expr modules",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-14T05:49:28Z",
-      "updated_at": "2026-05-14T09:08:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/521",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 522,
       "title": "[Feat] Intranode Dispatch&Combine Kernel ",
       "author": "yanboshao",
@@ -86,18 +108,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/522",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 481,
-      "title": "[Feat] Align quant and fused rmsnorm kernels with aiter/triton",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-08T08:14:12Z",
-      "updated_at": "2026-05-14T08:14:55Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/481",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 519,
@@ -134,18 +144,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/431",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 487,
-      "title": "blockscale code gfx1250 (WIP)",
-      "author": "omuhamma",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-08T14:55:02Z",
-      "updated_at": "2026-05-08T14:55:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/487",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 433,
@@ -276,6 +274,80 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 518,
+      "title": "[Refactor] Refactor the allreduce kernel by high-level FlyDSL APIs",
+      "author": "yanboshao",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-13T06:51:16Z",
+      "updated_at": "2026-05-15T04:06:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/518",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 524,
+      "title": "[Enh] Add shortcut make_rmem_tensor for allocate register tensor",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-14T09:27:13Z",
+      "updated_at": "2026-05-15T03:15:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/524",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 277,
+      "title": "feat(runtime): implement device runtime layer (Python)",
+      "author": "Peter9606",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-24T05:36:46Z",
+      "updated_at": "2026-05-15T02:26:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/277",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 526,
+      "title": "Report benchmark ratios against main",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-14T15:07:53Z",
+      "updated_at": "2026-05-15T01:30:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/526",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 520,
+      "title": "Preshuffle fp8 4wave main",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-13T12:35:17Z",
+      "updated_at": "2026-05-15T00:52:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/520",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 521,
+      "title": "fix(python): lazily load ROCDL expr modules",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-14T05:49:28Z",
+      "updated_at": "2026-05-14T14:03:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/521",
       "labels": [],
       "draft": false
     },
@@ -1128,78 +1200,6 @@
       "created_at": "2026-04-20T13:58:35Z",
       "updated_at": "2026-04-23T14:50:01Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/416",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 388,
-      "title": "[Perf] Port mixed_moe kernel optimizations for stage1/stage2",
-      "author": "lalala-sh",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-13T07:47:34Z",
-      "updated_at": "2026-04-23T14:48:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/388",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 403,
-      "title": "Implement MLA decode fwd nh128 a8w8 kernel with FlyDSL.",
-      "author": "ruanjm",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-15T09:38:07Z",
-      "updated_at": "2026-04-23T08:51:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/403",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 427,
-      "title": "[OPT] Add fly-int-swizzle-simplify pass",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-22T08:28:32Z",
-      "updated_at": "2026-04-23T07:04:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/427",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 422,
-      "title": "Port v2 gemm to main",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-21T09:25:47Z",
-      "updated_at": "2026-04-22T03:42:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/422",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 423,
-      "title": "[Agent] New skill: add-target-atom-op",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-21T09:47:09Z",
-      "updated_at": "2026-04-21T12:50:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/423",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 419,
-      "title": "Adjust allreduce CI benchmark thresholds",
-      "author": "yanboshao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-21T03:32:27Z",
-      "updated_at": "2026-04-21T03:50:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/419",
       "labels": [],
       "draft": false
     }
