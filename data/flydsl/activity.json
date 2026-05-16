@@ -1,49 +1,49 @@
 {
-  "collected_at": "2026-05-15T10:13:21Z",
+  "collected_at": "2026-05-16T09:20:45Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 43,
-      "merged": 34,
-      "closed": 8
+      "opened": 37,
+      "merged": 30,
+      "closed": 2
     },
     "last_week": {
-      "opened": 15,
-      "merged": 14,
-      "closed": 4
+      "opened": 25,
+      "merged": 24,
+      "closed": 11
     },
     "median_time_to_merge_hours": 18.5,
-    "merge_count": 52,
+    "merge_count": 58,
     "stale_prs": 3
   },
   "contributors": {
-    "active_this_week": 17,
-    "total_contributors": 30,
+    "active_this_week": 16,
+    "total_contributors": 29,
     "top_contributors": [
       {
         "author": "coderfeli",
-        "prs_submitted": 31,
-        "prs_merged": 30,
-        "commits": 32
+        "prs_submitted": 30,
+        "prs_merged": 29,
+        "commits": 33
       },
       {
         "author": "sjfeng1999",
-        "prs_submitted": 15,
+        "prs_submitted": 14,
         "prs_merged": 14,
-        "commits": 20
+        "commits": 21
+      },
+      {
+        "author": "xudoyuan",
+        "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 4
       },
       {
         "author": "yanboshao",
         "prs_submitted": 5,
         "prs_merged": 4,
-        "commits": 6
-      },
-      {
-        "author": "xudoyuan",
-        "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 4
+        "commits": 5
       },
       {
         "author": "Peter9606",
@@ -58,6 +58,12 @@
         "commits": 0
       },
       {
+        "author": "aoli26",
+        "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 2
+      },
+      {
         "author": "xytpai",
         "prs_submitted": 3,
         "prs_merged": 1,
@@ -70,16 +76,10 @@
         "commits": 2
       },
       {
-        "author": "amd-cgilli",
+        "author": "omuhamma",
         "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 1
-      },
-      {
-        "author": "cschenjunlin",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_merged": 0,
+        "commits": 0
       }
     ],
     "bus_factor": 2
@@ -96,6 +96,6 @@
     "days_since_last": null,
     "avg_interval_days": null,
     "total_releases": 3,
-    "latest_tag": "v0.1.7"
+    "latest_tag": "v0.1.8"
   }
 }

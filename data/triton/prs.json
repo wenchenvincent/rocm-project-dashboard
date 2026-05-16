@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-05-15T10:11:00Z",
+  "collected_at": "2026-05-16T09:18:51Z",
   "prs": [
+    {
+      "number": 10328,
+      "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
+      "author": "Hardcode84",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T22:02:50Z",
+      "updated_at": "2026-05-15T22:33:13Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10328",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10290,
+      "title": "[AMD] Fix incorrect kWidth selection for MFMA with kPack > 1",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-11T19:32:58Z",
+      "updated_at": "2026-05-15T16:05:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10290",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10302,
+      "title": "[AMD][GLUON] Expose compute_padded_layout_cdna4 to Python",
+      "author": "xiaohuguo2023",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-13T16:04:43Z",
+      "updated_at": "2026-05-15T10:51:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10302",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 10184,
       "title": "[AMD] Handle padded layout in MemDescReinterpretOp verifier",
@@ -36,18 +72,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10310",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10302,
-      "title": "[AMD][GLUON] Expose compute_padded_layout_cdna4 to Python",
-      "author": "xiaohuguo2023",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-13T16:04:43Z",
-      "updated_at": "2026-05-14T21:59:53Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10302",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10304,
@@ -142,18 +166,6 @@
       "created_at": "2026-05-09T16:30:42Z",
       "updated_at": "2026-05-12T00:15:43Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10276",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10290,
-      "title": "[AMD] Fix incorrect kWidth selection for MFMA with kPack > 1",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-11T19:32:58Z",
-      "updated_at": "2026-05-11T19:38:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10290",
       "labels": [],
       "draft": false
     },

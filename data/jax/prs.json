@@ -1,6 +1,20 @@
 {
-  "collected_at": "2026-05-15T10:10:29Z",
+  "collected_at": "2026-05-16T09:18:29Z",
   "prs": [
+    {
+      "number": 37053,
+      "title": "[ROCm] Fix env var leak in xla_bridge_test register_plugin tests",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-21T21:37:37Z",
+      "updated_at": "2026-05-15T15:02:12Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37053",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": true
+    },
     {
       "number": 37444,
       "title": "[ROCm] Version-tier S3 layout, standardized CI job naming, and nightly build workflow",
@@ -59,20 +73,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 37053,
-      "title": "[ROCm] Fix env var leak in xla_bridge_test register_plugin tests",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T21:37:37Z",
-      "updated_at": "2026-05-06T18:17:47Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37053",
-      "labels": [
         "AMD GPU"
       ],
       "draft": false

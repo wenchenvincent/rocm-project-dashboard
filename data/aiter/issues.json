@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-15T10:11:16Z",
+  "collected_at": "2026-05-16T09:19:04Z",
   "issues": [
     {
       "number": 3221,
@@ -7,8 +7,18 @@
       "author": "bingxche",
       "state": "open",
       "created_at": "2026-05-15T10:11:03Z",
-      "updated_at": "2026-05-15T10:11:03Z",
+      "updated_at": "2026-05-15T16:51:09Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3221",
+      "labels": []
+    },
+    {
+      "number": 3227,
+      "title": "[Bug] GPT-OSS SwiGLU MXFP4 routes to unsupported CK2stages codegen",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-05-15T15:42:27Z",
+      "updated_at": "2026-05-15T15:43:56Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3227",
       "labels": []
     },
     {

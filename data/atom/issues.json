@@ -1,40 +1,41 @@
 {
-  "collected_at": "2026-05-15T10:11:21Z",
+  "collected_at": "2026-05-16T09:19:08Z",
   "issues": [
     {
-      "number": 800,
-      "title": "[Perf Regression] 2 config(s) regressed @ d372640a",
+      "number": 808,
+      "title": "[Perf Regression] 20 config(s) regressed @ 88a3ff13",
       "author": "github-actions[bot]",
       "state": "open",
-      "created_at": "2026-05-15T08:57:39Z",
-      "updated_at": "2026-05-15T08:57:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/800",
+      "created_at": "2026-05-16T04:04:38Z",
+      "updated_at": "2026-05-16T04:04:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/808",
       "labels": [
         "performance",
         "regression"
       ]
     },
     {
-      "number": 799,
-      "title": "[Perf Regression] 1 config(s) regressed @ a4fab45d",
-      "author": "github-actions[bot]",
+      "number": 807,
+      "title": "[Kernel Gap Analysis] DeepSeek-V4 AMD Porting \u2014 Block-by-Block Kernel Inventory",
+      "author": "ChuanLi1101",
       "state": "open",
-      "created_at": "2026-05-15T08:14:42Z",
-      "updated_at": "2026-05-15T08:14:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/799",
+      "created_at": "2026-05-15T19:41:27Z",
+      "updated_at": "2026-05-15T19:41:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/807",
       "labels": [
-        "performance",
-        "regression"
+        "documentation",
+        "enhancement",
+        "workstream"
       ]
     },
     {
-      "number": 758,
-      "title": "[Draft] [Attention] Refactor ATOM-vLLM/ATOM-SGLang Attention",
-      "author": "zejunchen-zejun",
+      "number": 552,
+      "title": "[Feature]: docs on how to use atom with claude code",
+      "author": "functionstackx",
       "state": "open",
-      "created_at": "2026-05-12T01:58:00Z",
-      "updated_at": "2026-05-15T06:55:03Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/758",
+      "created_at": "2026-04-14T01:13:11Z",
+      "updated_at": "2026-05-15T17:03:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/552",
       "labels": []
     },
     {
@@ -43,8 +44,18 @@
       "author": "LoadingZhang",
       "state": "open",
       "created_at": "2026-05-15T05:27:21Z",
-      "updated_at": "2026-05-15T05:40:59Z",
+      "updated_at": "2026-05-15T16:53:46Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/797",
+      "labels": []
+    },
+    {
+      "number": 758,
+      "title": "[Draft] [Attention] Refactor ATOM-Plugin Attention",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "created_at": "2026-05-12T01:58:00Z",
+      "updated_at": "2026-05-15T13:52:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/758",
       "labels": []
     },
     {
@@ -243,16 +254,6 @@
       "labels": [
         "ATOM"
       ]
-    },
-    {
-      "number": 552,
-      "title": "[Feature]: docs on how to use atom with claude code",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-14T01:13:11Z",
-      "updated_at": "2026-04-14T01:13:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/552",
-      "labels": []
     },
     {
       "number": 488,

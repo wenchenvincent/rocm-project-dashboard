@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-15T10:11:23Z",
+  "collected_at": "2026-05-16T09:19:09Z",
   "prs": [
     {
       "number": 257,
@@ -8,7 +8,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-10T03:14:18Z",
-      "updated_at": "2026-05-15T09:17:59Z",
+      "updated_at": "2026-05-15T17:03:20Z",
       "html_url": "https://github.com/ROCm/mori/pull/257",
       "labels": [],
       "draft": false

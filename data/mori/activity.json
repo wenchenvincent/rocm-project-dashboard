@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-05-15T10:13:17Z",
+  "collected_at": "2026-05-16T09:20:42Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 15,
-      "merged": 11,
+      "opened": 11,
+      "merged": 10,
       "closed": 3
     },
     "last_week": {
-      "opened": 5,
-      "merged": 6,
+      "opened": 9,
+      "merged": 7,
       "closed": 3
     },
     "median_time_to_merge_hours": 22.5,
@@ -37,7 +37,7 @@
         "author": "maning00",
         "prs_submitted": 17,
         "prs_merged": 13,
-        "commits": 5
+        "commits": 4
       },
       {
         "author": "QizhouZhang97",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 21.1,
+    "days_since_last": 22.0,
     "avg_interval_days": 12.5,
     "total_releases": 3,
     "latest_tag": "v1.1.1"
