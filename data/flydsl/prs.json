@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-05-16T09:19:12Z",
+  "collected_at": "2026-05-17T09:27:05Z",
   "prs": [
+    {
+      "number": 535,
+      "title": "bench: add FlashAttention custom LLVM path",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-16T03:02:13Z",
+      "updated_at": "2026-05-17T04:43:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/535",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 530,
+      "title": "hgemm_splitk: add mixed sllitk/slicek policies",
+      "author": "xytpai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T07:41:48Z",
+      "updated_at": "2026-05-17T02:59:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/530",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 429,
       "title": "Kefan.cao/fix universal copy",
@@ -10,18 +34,6 @@
       "created_at": "2026-04-23T06:43:45Z",
       "updated_at": "2026-05-16T06:51:15Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/429",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 535,
-      "title": "bench: add FlashAttention custom LLVM path",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-16T03:02:13Z",
-      "updated_at": "2026-05-16T06:44:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/535",
       "labels": [],
       "draft": false
     },
@@ -60,18 +72,6 @@
       "created_at": "2026-05-08T14:55:02Z",
       "updated_at": "2026-05-15T20:19:20Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/487",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 530,
-      "title": "hgemm_splitk: add mixed sllitk/slicek policies",
-      "author": "xytpai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T07:41:48Z",
-      "updated_at": "2026-05-15T08:06:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/530",
       "labels": [],
       "draft": true
     },
@@ -252,6 +252,18 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 536,
+      "title": "[Enh] Implement Storable for struct type",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-16T10:57:31Z",
+      "updated_at": "2026-05-17T01:07:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/536",
       "labels": [],
       "draft": false
     },

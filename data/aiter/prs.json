@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-05-16T09:19:01Z",
+  "collected_at": "2026-05-17T09:26:52Z",
   "prs": [
+    {
+      "number": 3164,
+      "title": "feat(aot): align FlyDSL AOT precompile with runtime cache keys",
+      "author": "zhiding512",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-13T07:41:17Z",
+      "updated_at": "2026-05-17T07:22:07Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3164",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3001,
+      "title": "Remove sorting for fmoe",
+      "author": "JohnNikolay84",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-01T15:55:52Z",
+      "updated_at": "2026-05-17T01:28:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3001",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3094,
+      "title": "[FLYDSL] [TRITON] Attention backward mxfp8 gfx950",
+      "author": "lburzawa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T22:58:36Z",
+      "updated_at": "2026-05-16T19:55:42Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3094",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3236,
+      "title": "[opus] Add gfx1201 (Navi 48 / RDNA4) support: header parse + buffer rsrc + WMMA",
+      "author": "carlushuang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-16T13:15:08Z",
+      "updated_at": "2026-05-16T15:40:50Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3236",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3234,
+      "title": "[TRITON] gfx1201: gemm_a8w8 tuning configs (Mistral-3 / Qwen3 shapes)",
+      "author": "carlushuang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-16T11:07:24Z",
+      "updated_at": "2026-05-16T11:08:03Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3234",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 3229,
       "title": "Add fused Allreduce + RMSNorm + MXFP4 quant",
@@ -52,32 +112,6 @@
       "draft": false
     },
     {
-      "number": 3232,
-      "title": "[FLYDSL] bump version to 0.1.8.dev574",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-16T02:39:07Z",
-      "updated_at": "2026-05-16T06:44:48Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3232",
-      "labels": [
-        "ci:all"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3164,
-      "title": "feat(aot): align FlyDSL AOT precompile with runtime cache keys",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-13T07:41:17Z",
-      "updated_at": "2026-05-16T06:42:27Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3164",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3219,
       "title": "Fix: surface AITER import errors on Linux",
       "author": "gyohuangxin",
@@ -110,18 +144,6 @@
       "created_at": "2026-05-15T08:36:36Z",
       "updated_at": "2026-05-16T02:53:51Z",
       "html_url": "https://github.com/ROCm/aiter/pull/3217",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3001,
-      "title": "Remove sorting for fmoe",
-      "author": "JohnNikolay84",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-01T15:55:52Z",
-      "updated_at": "2026-05-15T23:38:08Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3001",
       "labels": [],
       "draft": false
     },
@@ -394,18 +416,6 @@
       "created_at": "2026-05-12T09:35:07Z",
       "updated_at": "2026-05-15T08:12:15Z",
       "html_url": "https://github.com/ROCm/aiter/pull/3148",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3151,
-      "title": "[tune] add EP tuned configs",
-      "author": "inkcherry",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-12T11:51:15Z",
-      "updated_at": "2026-05-15T07:43:05Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3151",
       "labels": [],
       "draft": false
     },
@@ -767,18 +777,6 @@
       "labels": [
         "ci:all"
       ],
-      "draft": false
-    },
-    {
-      "number": 3094,
-      "title": "[FLYDSL] [TRITON] Attention backward mxfp8 gfx950",
-      "author": "lburzawa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-08T22:58:36Z",
-      "updated_at": "2026-05-14T00:34:32Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3094",
-      "labels": [],
       "draft": false
     },
     {
@@ -3728,6 +3726,56 @@
       "draft": false
     },
     {
+      "number": 3235,
+      "title": "Guard sparse indexer padding and mapped tokens",
+      "author": "XiaobingSuper",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-16T12:38:31Z",
+      "updated_at": "2026-05-17T02:46:45Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3235",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3232,
+      "title": "[FLYDSL] bump version to 0.1.8",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-16T02:39:07Z",
+      "updated_at": "2026-05-17T01:10:59Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3232",
+      "labels": [
+        "ci:all"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3233,
+      "title": "Fix TP4 bf16 MLA persistent dispatch",
+      "author": "XiaobingSuper",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-16T10:12:27Z",
+      "updated_at": "2026-05-16T22:32:40Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3233",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3151,
+      "title": "[tune] add EP tuned configs",
+      "author": "inkcherry",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-12T11:51:15Z",
+      "updated_at": "2026-05-16T09:24:04Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3151",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 3209,
       "title": "Revert kimik2_fp4_tuned_fmoe.csv changes from PR #3004",
       "author": "okorzh-amd",
@@ -4504,56 +4552,6 @@
       "created_at": "2026-05-09T08:57:44Z",
       "updated_at": "2026-05-09T14:32:49Z",
       "html_url": "https://github.com/ROCm/aiter/pull/3104",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3097,
-      "title": "robust core.py",
-      "author": "amd-ruitang3",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-09T03:55:14Z",
-      "updated_at": "2026-05-09T13:13:40Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3097",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3101,
-      "title": "Re tune gemm bf16 8192*2048 for GLM5 accurary dump",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-09T06:58:34Z",
-      "updated_at": "2026-05-09T12:02:14Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3101",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2951,
-      "title": "[MOE DSV4] flydsl a8w4 moe for dsv4",
-      "author": "Zzz9990",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-29T06:47:45Z",
-      "updated_at": "2026-05-09T10:22:02Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/2951",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3105,
-      "title": "CI: show ATOM default model names",
-      "author": "gyohuangxin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-09T10:16:31Z",
-      "updated_at": "2026-05-09T10:18:47Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3105",
       "labels": [],
       "draft": false
     }

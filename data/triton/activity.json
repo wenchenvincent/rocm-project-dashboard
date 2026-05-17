@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-05-16T09:19:40Z",
+  "collected_at": "2026-05-17T09:27:40Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 8,
+      "opened": 7,
       "merged": 9,
       "closed": 0
     },
     "last_week": {
-      "opened": 12,
+      "opened": 11,
       "merged": 16,
       "closed": 0
     },
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 8.5,
+    "days_since_last": 9.5,
     "avg_interval_days": 70.3,
     "total_releases": 5,
     "latest_tag": "v3.7.0"

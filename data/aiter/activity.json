@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-05-16T09:20:09Z",
+  "collected_at": "2026-05-17T09:28:12Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
       "opened": 110,
-      "merged": 68,
+      "merged": 63,
       "closed": 31
     },
     "last_week": {
       "opened": 93,
-      "merged": 57,
+      "merged": 62,
       "closed": 24
     },
-    "median_time_to_merge_hours": 23.2,
+    "median_time_to_merge_hours": 23.0,
     "merge_count": 126,
-    "stale_prs": 149
+    "stale_prs": 154
   },
   "contributors": {
-    "active_this_week": 85,
-    "total_contributors": 183,
+    "active_this_week": 84,
+    "total_contributors": 182,
     "top_contributors": [
       {
         "author": "sunway513",
@@ -29,27 +29,21 @@
       },
       {
         "author": "gyohuangxin",
-        "prs_submitted": 12,
-        "prs_merged": 5,
+        "prs_submitted": 11,
+        "prs_merged": 4,
         "commits": 35
+      },
+      {
+        "author": "XiaobingSuper",
+        "prs_submitted": 10,
+        "prs_merged": 7,
+        "commits": 11
       },
       {
         "author": "yzhou103",
         "prs_submitted": 9,
         "prs_merged": 4,
         "commits": 13
-      },
-      {
-        "author": "amd-ruitang3",
-        "prs_submitted": 8,
-        "prs_merged": 2,
-        "commits": 6
-      },
-      {
-        "author": "XiaobingSuper",
-        "prs_submitted": 8,
-        "prs_merged": 5,
-        "commits": 9
       },
       {
         "author": "ChuanLi1101",
@@ -62,6 +56,12 @@
         "prs_submitted": 8,
         "prs_merged": 0,
         "commits": 0
+      },
+      {
+        "author": "amd-ruitang3",
+        "prs_submitted": 7,
+        "prs_merged": 1,
+        "commits": 6
       },
       {
         "author": "k50112113",
@@ -82,7 +82,7 @@
         "commits": 4
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 11
   },
   "issue_health": {
     "total_open": 184,
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.4,
+    "days_since_last": 2.4,
     "avg_interval_days": 4.9,
     "total_releases": 5,
     "latest_tag": "v0.1.14-rc0"

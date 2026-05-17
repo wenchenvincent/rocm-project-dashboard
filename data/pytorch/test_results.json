@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-05-16T09:19:15Z",
+  "collected_at": "2026-05-17T09:27:09Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "rocm-mi300",
-    "run_id": 25951692686,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25951692686",
-    "run_date": "2026-05-16T04:39:39Z",
+    "run_id": 25983758777,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25983758777",
+    "run_date": "2026-05-17T07:58:09Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 8,
-      "total_tests": 14033,
-      "passed": 13553,
+      "total_tests": 14291,
+      "passed": 13625,
       "failed": 0,
-      "skipped": 480,
+      "skipped": 666,
       "pass_rate": 100.0
     },
     "suites": [
@@ -346,8 +346,8 @@
       },
       {
         "name": "dynamo.test_dynamic_shapes",
-        "tests": 2130,
-        "passed": 2081,
+        "tests": 2133,
+        "passed": 2084,
         "failed": 0,
         "skipped": 49,
         "errors": 0
@@ -690,8 +690,8 @@
       },
       {
         "name": "dynamo.test_misc",
-        "tests": 772,
-        "passed": 760,
+        "tests": 775,
+        "passed": 763,
         "failed": 0,
         "skipped": 12,
         "errors": 0
@@ -754,8 +754,8 @@
       },
       {
         "name": "dynamo.test_nb_operators",
-        "tests": 79,
-        "passed": 79,
+        "tests": 149,
+        "passed": 149,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -1201,11 +1201,11 @@
         "errors": 0
       },
       {
-        "name": "export.test_package",
-        "tests": 4,
-        "passed": 4,
+        "name": "inductor.test_cutlass_backend",
+        "tests": 186,
+        "passed": 0,
         "failed": 0,
-        "skipped": 0,
+        "skipped": 186,
         "errors": 0
       },
       {
@@ -1220,17 +1220,17 @@
   },
   "cuda": {
     "workflow_name": "trunk",
-    "run_id": 25956070819,
-    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25956070819",
-    "run_date": "2026-05-16T09:11:19Z",
+    "run_id": 25981809415,
+    "run_url": "https://github.com/pytorch/pytorch/actions/runs/25981809415",
+    "run_date": "2026-05-17T06:54:29Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 61,
-      "total_tests": 14572,
-      "passed": 13792,
-      "failed": 1,
+      "total_tests": 14615,
+      "passed": 13836,
+      "failed": 0,
       "skipped": 779,
-      "pass_rate": 99.99
+      "pass_rate": 100.0
     },
     "suites": [
       {
@@ -1379,8 +1379,8 @@
       },
       {
         "name": "distributed._composable.fsdp.test_fully_shard_init",
-        "tests": 45,
-        "passed": 45,
+        "tests": 14,
+        "passed": 14,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -1795,9 +1795,9 @@
       },
       {
         "name": "distributed.checkpoint._experimental.test_checkpointer",
-        "tests": 13,
-        "passed": 11,
-        "failed": 1,
+        "tests": 11,
+        "passed": 10,
+        "failed": 0,
         "skipped": 1,
         "errors": 0
       },
@@ -2075,8 +2075,8 @@
       },
       {
         "name": "dynamo.test_dynamic_shapes",
-        "tests": 2130,
-        "passed": 2076,
+        "tests": 2133,
+        "passed": 2079,
         "failed": 0,
         "skipped": 54,
         "errors": 0
@@ -2419,8 +2419,8 @@
       },
       {
         "name": "dynamo.test_misc",
-        "tests": 772,
-        "passed": 757,
+        "tests": 775,
+        "passed": 760,
         "failed": 0,
         "skipped": 15,
         "errors": 0
@@ -2483,8 +2483,8 @@
       },
       {
         "name": "dynamo.test_nb_operators",
-        "tests": 79,
-        "passed": 79,
+        "tests": 149,
+        "passed": 149,
         "failed": 0,
         "skipped": 0,
         "errors": 0
@@ -2964,9 +2964,9 @@
     ]
   },
   "cuda_parity": {
-    "ratio": 98.3,
-    "rocm_count": 13553,
-    "cuda_count": 13793,
+    "ratio": 98.5,
+    "rocm_count": 13625,
+    "cuda_count": 13836,
     "level": "test"
   }
 }
