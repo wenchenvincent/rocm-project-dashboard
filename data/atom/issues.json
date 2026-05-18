@@ -1,18 +1,15 @@
 {
-  "collected_at": "2026-05-17T09:27:00Z",
+  "collected_at": "2026-05-18T11:35:47Z",
   "issues": [
     {
-      "number": 815,
-      "title": "[Perf Regression] 36 config(s) regressed @ 45c31f22",
-      "author": "github-actions[bot]",
+      "number": 758,
+      "title": "[ATOM-Plugin][Attention] Refactor ATOM-Plugin Attention Architecture",
+      "author": "zejunchen-zejun",
       "state": "open",
-      "created_at": "2026-05-17T04:15:35Z",
-      "updated_at": "2026-05-17T04:15:35Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/815",
-      "labels": [
-        "performance",
-        "regression"
-      ]
+      "created_at": "2026-05-12T01:58:00Z",
+      "updated_at": "2026-05-18T02:35:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/758",
+      "labels": []
     },
     {
       "number": 807,
@@ -26,19 +23,6 @@
         "documentation",
         "enhancement",
         "workstream"
-      ]
-    },
-    {
-      "number": 808,
-      "title": "[Perf Regression] 20 config(s) regressed @ 88a3ff13",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-05-16T04:04:38Z",
-      "updated_at": "2026-05-16T04:04:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/808",
-      "labels": [
-        "performance",
-        "regression"
       ]
     },
     {
@@ -59,16 +43,6 @@
       "created_at": "2026-05-15T05:27:21Z",
       "updated_at": "2026-05-15T16:53:46Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/797",
-      "labels": []
-    },
-    {
-      "number": 758,
-      "title": "[Draft] [Attention] Refactor ATOM-Plugin Attention",
-      "author": "zejunchen-zejun",
-      "state": "open",
-      "created_at": "2026-05-12T01:58:00Z",
-      "updated_at": "2026-05-15T13:52:51Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/758",
       "labels": []
     },
     {

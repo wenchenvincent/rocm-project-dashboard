@@ -1,6 +1,92 @@
 {
-  "collected_at": "2026-05-17T09:27:05Z",
+  "collected_at": "2026-05-18T11:35:52Z",
   "prs": [
+    {
+      "number": 531,
+      "title": "[Feature]: support dynamic while",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T10:56:35Z",
+      "updated_at": "2026-05-18T11:26:40Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/531",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 538,
+      "title": "[FEAT] Support static smem allocation in gpu",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T08:59:34Z",
+      "updated_at": "2026-05-18T10:18:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/538",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 539,
+      "title": "Pa update",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T09:25:12Z",
+      "updated_at": "2026-05-18T09:55:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/539",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 530,
+      "title": "hgemm_splitk: add mixed sllitk/slicek policies",
+      "author": "xytpai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T07:41:48Z",
+      "updated_at": "2026-05-18T06:55:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/530",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 537,
+      "title": "docs(skills): Add OOB detection workflow",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T05:11:45Z",
+      "updated_at": "2026-05-18T05:14:36Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/537",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 532,
+      "title": "[gfx1250] Fix cluster launch detection and silent fallback",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T13:00:46Z",
+      "updated_at": "2026-05-18T02:17:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/532",
+      "labels": [
+        "bug"
+      ],
+      "draft": true
+    },
+    {
+      "number": 522,
+      "title": "[Feat] Intranode Dispatch&Combine Kernel ",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-14T07:19:40Z",
+      "updated_at": "2026-05-17T14:45:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/522",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 535,
       "title": "bench: add FlashAttention custom LLVM path",
@@ -14,18 +100,6 @@
       "draft": false
     },
     {
-      "number": 530,
-      "title": "hgemm_splitk: add mixed sllitk/slicek policies",
-      "author": "xytpai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T07:41:48Z",
-      "updated_at": "2026-05-17T02:59:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/530",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 429,
       "title": "Kefan.cao/fix universal copy",
       "author": "kefan203",
@@ -36,32 +110,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/429",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 531,
-      "title": "[Feature]: support dynamic while",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T10:56:35Z",
-      "updated_at": "2026-05-16T04:01:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/531",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 532,
-      "title": "[gfx1250] Fix cluster launch detection and silent fallback",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T13:00:46Z",
-      "updated_at": "2026-05-16T02:06:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/532",
-      "labels": [
-        "bug"
-      ],
-      "draft": true
     },
     {
       "number": 487,
@@ -98,18 +146,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/474",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 522,
-      "title": "[Feat] Intranode Dispatch&Combine Kernel ",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-14T07:19:40Z",
-      "updated_at": "2026-05-14T08:25:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/522",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 512,

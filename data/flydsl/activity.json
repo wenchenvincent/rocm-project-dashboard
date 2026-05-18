@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-05-17T09:28:51Z",
+  "collected_at": "2026-05-18T11:37:44Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 35,
-      "merged": 31,
+      "opened": 32,
+      "merged": 26,
       "closed": 2
     },
     "last_week": {
-      "opened": 28,
-      "merged": 20,
+      "opened": 34,
+      "merged": 25,
       "closed": 11
     },
     "median_time_to_merge_hours": 16.3,
@@ -18,7 +18,7 @@
     "stale_prs": 4
   },
   "contributors": {
-    "active_this_week": 16,
+    "active_this_week": 15,
     "total_contributors": 29,
     "top_contributors": [
       {
@@ -29,7 +29,7 @@
       },
       {
         "author": "sjfeng1999",
-        "prs_submitted": 15,
+        "prs_submitted": 16,
         "prs_merged": 15,
         "commits": 20
       },
@@ -38,6 +38,12 @@
         "prs_submitted": 5,
         "prs_merged": 3,
         "commits": 4
+      },
+      {
+        "author": "fsx950223",
+        "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 2
       },
       {
         "author": "yanboshao",
@@ -67,12 +73,6 @@
         "author": "aoli26",
         "prs_submitted": 3,
         "prs_merged": 2,
-        "commits": 2
-      },
-      {
-        "author": "fsx950223",
-        "prs_submitted": 3,
-        "prs_merged": 3,
         "commits": 2
       },
       {

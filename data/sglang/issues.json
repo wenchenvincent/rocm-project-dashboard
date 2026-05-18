@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-05-17T09:26:39Z",
+  "collected_at": "2026-05-18T11:35:24Z",
   "issues": [
+    {
+      "number": 22949,
+      "title": "Development Roadmap (2026 Q2)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-04-16T08:35:03Z",
+      "updated_at": "2026-05-18T09:55:31Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
+      "labels": []
+    },
+    {
+      "number": 25551,
+      "title": "v0.5.12 DeepGemm regression on B300 (sm_103): CUDA_ERROR_ILLEGAL_ADDRESS in fp8_fp4_gemm_nt TMA descriptor init for shared-experts FP8 GEMM",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-05-18T01:33:58Z",
+      "updated_at": "2026-05-18T04:22:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/25551",
+      "labels": []
+    },
     {
       "number": 23602,
       "title": "DeepSeek V4 Roadmap",
@@ -71,16 +91,6 @@
       "labels": [
         "amd"
       ]
-    },
-    {
-      "number": 22949,
-      "title": "Development Roadmap (2026 Q2)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-05-12T19:37:33Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
-      "labels": []
     },
     {
       "number": 15025,
