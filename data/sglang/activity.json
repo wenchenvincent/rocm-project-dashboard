@@ -1,30 +1,30 @@
 {
-  "collected_at": "2026-05-18T11:36:21Z",
+  "collected_at": "2026-05-19T10:53:12Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 61,
-      "merged": 49,
+      "opened": 60,
+      "merged": 46,
       "closed": 0
     },
     "last_week": {
-      "opened": 22,
-      "merged": 9,
+      "opened": 23,
+      "merged": 11,
       "closed": 0
     },
-    "median_time_to_merge_hours": 69.1,
-    "merge_count": 60,
+    "median_time_to_merge_hours": 70.3,
+    "merge_count": 58,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 68,
-    "total_contributors": 74,
+    "active_this_week": 67,
+    "total_contributors": 78,
     "top_contributors": [
       {
-        "author": "bingxche",
-        "prs_submitted": 6,
-        "prs_merged": 2,
+        "author": "yctseng0211",
+        "prs_submitted": 5,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -34,21 +34,15 @@
         "commits": 0
       },
       {
-        "author": "yctseng0211",
+        "author": "bingxche",
         "prs_submitted": 5,
-        "prs_merged": 3,
+        "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "hnyls2002",
-        "prs_submitted": 5,
-        "prs_merged": 5,
-        "commits": 0
-      },
-      {
-        "author": "kkHuang-amd",
+        "author": "hubertlu-tw",
         "prs_submitted": 4,
-        "prs_merged": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -58,19 +52,19 @@
         "commits": 0
       },
       {
-        "author": "yuychang",
+        "author": "hnyls2002",
         "prs_submitted": 4,
-        "prs_merged": 1,
+        "prs_merged": 4,
         "commits": 0
       },
       {
-        "author": "Emmanuel0612",
-        "prs_submitted": 4,
+        "author": "kkHuang-amd",
+        "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "hubertlu-tw",
+        "author": "yuychang",
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
@@ -80,15 +74,21 @@
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
+      },
+      {
+        "author": "Emmanuel0612",
+        "prs_submitted": 3,
+        "prs_merged": 1,
+        "commits": 0
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 14
   },
   "issue_health": {
-    "total_open": 44,
-    "opened_this_week": 3,
-    "closed_this_week": 81,
-    "unanswered": 5
+    "total_open": 45,
+    "opened_this_week": 5,
+    "closed_this_week": 78,
+    "unanswered": 6
   },
   "ci_health": {
     "rocm": {
@@ -100,14 +100,14 @@
     "cuda": {
       "total_runs": 20,
       "succeeded": 0,
-      "failed": 4,
+      "failed": 17,
       "success_rate": 0.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 260.7,
+      "median_minutes": 270.9,
       "p90_minutes": 769.8,
       "min_minutes": 0.9,
       "max_minutes": 1487.1
@@ -115,13 +115,13 @@
     "cuda": {
       "sample_size": 20,
       "median_minutes": 0.6,
-      "p90_minutes": 15.2,
-      "min_minutes": 0.1,
-      "max_minutes": 24.3
+      "p90_minutes": 1.6,
+      "min_minutes": 0.4,
+      "max_minutes": 1.7
     }
   },
   "release_cadence": {
-    "days_since_last": 1.7,
+    "days_since_last": 2.7,
     "avg_interval_days": 12.4,
     "total_releases": 5,
     "latest_tag": "v0.5.12"

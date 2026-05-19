@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-05-18T11:37:41Z",
+  "collected_at": "2026-05-19T10:54:30Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
       "opened": 10,
-      "merged": 8,
+      "merged": 10,
       "closed": 3
     },
     "last_week": {
-      "opened": 10,
-      "merged": 9,
+      "opened": 12,
+      "merged": 10,
       "closed": 4
     },
-    "median_time_to_merge_hours": 22.5,
-    "merge_count": 19,
+    "median_time_to_merge_hours": 20.3,
+    "merge_count": 22,
     "stale_prs": 8
   },
   "contributors": {
@@ -23,14 +23,14 @@
     "top_contributors": [
       {
         "author": "jhchouuu",
-        "prs_submitted": 30,
-        "prs_merged": 27,
-        "commits": 12
+        "prs_submitted": 31,
+        "prs_merged": 29,
+        "commits": 15
       },
       {
         "author": "TianDi101",
-        "prs_submitted": 19,
-        "prs_merged": 18,
+        "prs_submitted": 18,
+        "prs_merged": 17,
         "commits": 5
       },
       {
@@ -53,8 +53,8 @@
       },
       {
         "author": "inkcherry",
-        "prs_submitted": 5,
-        "prs_merged": 5,
+        "prs_submitted": 4,
+        "prs_merged": 4,
         "commits": 4
       },
       {
@@ -85,15 +85,15 @@
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 13,
-    "opened_this_week": 1,
-    "closed_this_week": 0,
+    "total_open": 12,
+    "opened_this_week": 0,
+    "closed_this_week": 1,
     "unanswered": 3
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 24.1,
+    "days_since_last": 25.1,
     "avg_interval_days": 12.5,
     "total_releases": 3,
     "latest_tag": "v1.1.1"

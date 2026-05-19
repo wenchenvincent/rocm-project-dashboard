@@ -1,6 +1,97 @@
 {
-  "collected_at": "2026-05-18T11:35:30Z",
+  "collected_at": "2026-05-19T10:52:16Z",
   "prs": [
+    {
+      "number": 4841,
+      "title": "[AIMIGRAPHX-1002] Match nop reshapes with broadcasted inputs",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-05T17:56:58Z",
+      "updated_at": "2026-05-19T09:54:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4841",
+      "labels": [
+        "bugfix",
+        "Matchers",
+        "ok-to-test"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4835,
+      "title": "Extend problem cache with hardware provenance metadata",
+      "author": "danieyan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-30T19:43:40Z",
+      "updated_at": "2026-05-19T01:17:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4835",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4890,
+      "title": "Add picked variant",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T19:39:19Z",
+      "updated_at": "2026-05-19T01:16:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4890",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4893,
+      "title": "GPU NMS kernel and refactor of NMS operator",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T18:53:44Z",
+      "updated_at": "2026-05-18T22:50:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4893",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4892,
+      "title": "Add builds for static lib on windows",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T18:07:11Z",
+      "updated_at": "2026-05-18T21:04:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4892",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4891,
+      "title": "[AIMIGRAPHX-885] Add find_concat_same_input matcher",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-16T04:23:53Z",
+      "updated_at": "2026-05-18T20:51:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4891",
+      "labels": [
+        "Matchers",
+        "Perf Improve"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4770,
+      "title": "Adding compilation mode",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T19:50:16Z",
+      "updated_at": "2026-05-18T19:29:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 4725,
       "title": "[AIMIGRAPHX-885] Add gather_slice_concat matcher",
@@ -31,33 +122,6 @@
       "draft": false
     },
     {
-      "number": 4891,
-      "title": "[AIMIGRAPHX-885] Add find_concat_same_input matcher",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-16T04:23:53Z",
-      "updated_at": "2026-05-18T06:58:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4891",
-      "labels": [
-        "Matchers",
-        "Perf Improve"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4890,
-      "title": "Add picked variant",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T19:39:19Z",
-      "updated_at": "2026-05-18T01:31:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4890",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4831,
       "title": "Addition of MLSS initial kernels for GFX1201",
       "author": "Zhaeong",
@@ -78,18 +142,6 @@
       "created_at": "2026-03-04T16:27:06Z",
       "updated_at": "2026-05-16T06:08:33Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4651",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4770,
-      "title": "Adding compilation mode",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T19:50:16Z",
-      "updated_at": "2026-05-16T06:05:34Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
       "labels": [],
       "draft": false
     },
@@ -130,18 +182,6 @@
       "draft": false
     },
     {
-      "number": 4881,
-      "title": "Sym reduce ops",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-13T18:09:43Z",
-      "updated_at": "2026-05-16T02:22:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4881",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4801,
       "title": "Add md5 sum function",
       "author": "pfultz2",
@@ -162,18 +202,6 @@
       "created_at": "2026-04-23T20:44:44Z",
       "updated_at": "2026-05-15T23:06:06Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4817",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4701,
-      "title": "Netron output update - use protobuff, debug symbols",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-24T23:36:52Z",
-      "updated_at": "2026-05-15T22:17:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4701",
       "labels": [],
       "draft": false
     },
@@ -254,18 +282,6 @@
       "draft": false
     },
     {
-      "number": 4888,
-      "title": "Move UseNamedLogicOperator cppcheck rule to addon",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T18:02:37Z",
-      "updated_at": "2026-05-15T18:07:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4888",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4850,
       "title": "[AIMIGRAPHX-1003] Add warnings for dim and value not set",
       "author": "eddieliao",
@@ -305,22 +321,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4775",
       "labels": [
         "Perf Improve",
-        "ok-to-test"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4841,
-      "title": "[AIMIGRAPHX-1002] Match nop reshapes with broadcasted inputs",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-05T17:56:58Z",
-      "updated_at": "2026-05-15T02:39:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4841",
-      "labels": [
-        "bugfix",
-        "Matchers",
         "ok-to-test"
       ],
       "draft": false
@@ -774,18 +774,6 @@
       "created_at": "2026-03-13T11:19:09Z",
       "updated_at": "2026-05-08T22:13:41Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4665",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4835,
-      "title": "Extend problem cache with hardware provenance metadata",
-      "author": "danieyan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T19:43:40Z",
-      "updated_at": "2026-05-08T15:46:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4835",
       "labels": [],
       "draft": false
     },
@@ -1441,6 +1429,42 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 4881,
+      "title": "Sym reduce ops",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-13T18:09:43Z",
+      "updated_at": "2026-05-19T06:09:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4881",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4701,
+      "title": "Netron output update - use protobuff, debug symbols",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-24T23:36:52Z",
+      "updated_at": "2026-05-18T21:40:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4701",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4888,
+      "title": "Move UseNamedLogicOperator cppcheck rule to addon",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-15T18:02:37Z",
+      "updated_at": "2026-05-18T21:37:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4888",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 4889,
@@ -2557,32 +2581,6 @@
       "updated_at": "2026-04-23T16:33:00Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4761",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4816,
-      "title": "Add copilot custom instructions",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-23T16:14:50Z",
-      "updated_at": "2026-04-23T16:18:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4816",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4810,
-      "title": "fix for intra op threads issue",
-      "author": "aarushjain29",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-21T03:52:06Z",
-      "updated_at": "2026-04-23T15:34:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4810",
-      "labels": [
-        "ok-to-test"
-      ],
       "draft": false
     }
   ]

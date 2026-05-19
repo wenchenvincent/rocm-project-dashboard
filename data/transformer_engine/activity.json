@@ -1,19 +1,19 @@
 {
-  "collected_at": "2026-05-18T11:37:49Z",
+  "collected_at": "2026-05-19T10:54:39Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 8,
-      "merged": 1,
+      "opened": 7,
+      "merged": 2,
       "closed": 1
     },
     "last_week": {
-      "opened": 10,
-      "merged": 6,
+      "opened": 7,
+      "merged": 5,
       "closed": 0
     },
-    "median_time_to_merge_hours": 145.7,
+    "median_time_to_merge_hours": 151.4,
     "merge_count": 7,
     "stale_prs": 12
   },
@@ -66,8 +66,8 @@
       {
         "author": "aris134",
         "prs_submitted": 7,
-        "prs_merged": 3,
-        "commits": 1
+        "prs_merged": 4,
+        "commits": 2
       },
       {
         "author": "sarthak-amd",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 46.7,
+    "days_since_last": 47.7,
     "avg_interval_days": 47.2,
     "total_releases": 5,
     "latest_tag": "v2.8_rocm"

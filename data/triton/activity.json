@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-05-18T11:36:25Z",
+  "collected_at": "2026-05-19T10:53:16Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
       "opened": 7,
-      "merged": 9,
+      "merged": 6,
       "closed": 0
     },
     "last_week": {
-      "opened": 11,
-      "merged": 14,
+      "opened": 8,
+      "merged": 15,
       "closed": 0
     },
     "median_time_to_merge_hours": 32.3,
@@ -34,14 +34,14 @@
         "commits": 0
       },
       {
-        "author": "ravil-mobile",
+        "author": "AlexAUT",
         "prs_submitted": 3,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "justinrosner",
-        "prs_submitted": 2,
+        "author": "ravil-mobile",
+        "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
       },
@@ -52,9 +52,15 @@
         "commits": 0
       },
       {
-        "author": "AlexAUT",
+        "author": "nzaghen",
         "prs_submitted": 2,
-        "prs_merged": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "justinrosner",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -73,12 +79,6 @@
         "author": "zhanglx13",
         "prs_submitted": 2,
         "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "ZelboK",
-        "prs_submitted": 2,
-        "prs_merged": 0,
         "commits": 0
       }
     ],
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 10.6,
+    "days_since_last": 11.5,
     "avg_interval_days": 70.3,
     "total_releases": 5,
     "latest_tag": "v3.7.0"

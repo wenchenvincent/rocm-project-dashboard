@@ -1,6 +1,70 @@
 {
-  "collected_at": "2026-05-18T11:35:47Z",
+  "collected_at": "2026-05-19T10:52:33Z",
   "issues": [
+    {
+      "number": 830,
+      "title": "[Perf Regression] 32 config(s) regressed @ 6619cc7d",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-19T05:54:29Z",
+      "updated_at": "2026-05-19T05:54:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/830",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 707,
+      "title": "[Tracker]: DeepSeek-V4 Support and Optimization on ATOM",
+      "author": "jamestangg",
+      "state": "open",
+      "created_at": "2026-05-07T02:27:05Z",
+      "updated_at": "2026-05-19T02:08:41Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/707",
+      "labels": [
+        "workstream"
+      ]
+    },
+    {
+      "number": 828,
+      "title": "[Perf Regression] 1 config(s) regressed @ 55245f46",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-18T16:51:15Z",
+      "updated_at": "2026-05-18T16:51:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/828",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 826,
+      "title": "[Perf Regression] 1 config(s) regressed @ 51349cfd",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-18T12:45:09Z",
+      "updated_at": "2026-05-18T12:45:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/826",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 825,
+      "title": "[Perf Regression] 7 config(s) regressed @ fdf23b9e",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-18T12:25:04Z",
+      "updated_at": "2026-05-18T12:25:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/825",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 758,
       "title": "[ATOM-Plugin][Attention] Refactor ATOM-Plugin Attention Architecture",
@@ -44,18 +108,6 @@
       "updated_at": "2026-05-15T16:53:46Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/797",
       "labels": []
-    },
-    {
-      "number": 707,
-      "title": "[Tracker]: DeepSeek-V4 Support and Optimization on ATOM",
-      "author": "jamestangg",
-      "state": "open",
-      "created_at": "2026-05-07T02:27:05Z",
-      "updated_at": "2026-05-15T02:09:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/707",
-      "labels": [
-        "workstream"
-      ]
     },
     {
       "number": 757,

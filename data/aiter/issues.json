@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-05-18T11:35:43Z",
+  "collected_at": "2026-05-19T10:52:29Z",
   "issues": [
+    {
+      "number": 3261,
+      "title": "[Feature]: gfx950 A8W8 blockscale bpreshuffle CK GEMM is nondeterministic for WKV-shaped untuned rows",
+      "author": "hdt98",
+      "state": "open",
+      "created_at": "2026-05-19T05:17:33Z",
+      "updated_at": "2026-05-19T05:18:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3261",
+      "labels": []
+    },
     {
       "number": 3227,
       "title": "[Bug] GPT-OSS SwiGLU MXFP4 routes to unsupported CK2stages codegen",
@@ -111,16 +121,6 @@
       "created_at": "2026-05-13T18:50:04Z",
       "updated_at": "2026-05-14T00:14:03Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3172",
-      "labels": []
-    },
-    {
-      "number": 3091,
-      "title": "[Issue] Potential RAW and WAW races on `ExpertHist` in `_combined_routing_fused`",
-      "author": "mark14wu",
-      "state": "open",
-      "created_at": "2026-05-08T15:59:37Z",
-      "updated_at": "2026-05-12T17:29:08Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3091",
       "labels": []
     },
     {

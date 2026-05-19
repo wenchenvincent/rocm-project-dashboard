@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-05-18T11:35:52Z",
+  "collected_at": "2026-05-19T10:52:38Z",
   "prs": [
+    {
+      "number": 542,
+      "title": "[Standardization]: add C++ style checks ",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-19T07:46:53Z",
+      "updated_at": "2026-05-19T07:57:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/542",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 541,
+      "title": "[Refactor] Migrate kernels from SmemAllocator to SharedAllocator",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-19T03:48:28Z",
+      "updated_at": "2026-05-19T07:57:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/541",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 539,
+      "title": "Pa update",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T09:25:12Z",
+      "updated_at": "2026-05-19T03:56:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/539",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 540,
+      "title": "[Feat] Add FlyDSL MoE sorting kernel",
+      "author": "amd-weisun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-18T13:04:06Z",
+      "updated_at": "2026-05-18T21:37:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/540",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 531,
       "title": "[Feature]: support dynamic while",
@@ -12,42 +60,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/531",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 538,
-      "title": "[FEAT] Support static smem allocation in gpu",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-18T08:59:34Z",
-      "updated_at": "2026-05-18T10:18:31Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/538",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 539,
-      "title": "Pa update",
-      "author": "fsx950223",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-18T09:25:12Z",
-      "updated_at": "2026-05-18T09:55:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/539",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 530,
-      "title": "hgemm_splitk: add mixed sllitk/slicek policies",
-      "author": "xytpai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T07:41:48Z",
-      "updated_at": "2026-05-18T06:55:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/530",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 537,
@@ -86,18 +98,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/522",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 535,
-      "title": "bench: add FlashAttention custom LLVM path",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-16T03:02:13Z",
-      "updated_at": "2026-05-17T04:43:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/535",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 429,
@@ -288,6 +288,42 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 530,
+      "title": "hgemm_splitk: add mixed sllitk/slicek policies",
+      "author": "xytpai",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-15T07:41:48Z",
+      "updated_at": "2026-05-18T13:42:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/530",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 535,
+      "title": "bench: add FlashAttention custom LLVM path",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-16T03:02:13Z",
+      "updated_at": "2026-05-18T13:40:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/535",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 538,
+      "title": "[FEAT] Support static smem allocation in gpu",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-18T08:59:34Z",
+      "updated_at": "2026-05-18T13:37:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/538",
       "labels": [],
       "draft": false
     },
@@ -1192,42 +1228,6 @@
       "created_at": "2026-04-27T14:46:16Z",
       "updated_at": "2026-04-28T08:32:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/439",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 440,
-      "title": "[CI] Build cp311 + cp313 wheels alongside cp310 + cp312",
-      "author": "subodh-dubey-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-28T03:21:54Z",
-      "updated_at": "2026-04-28T08:31:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/440",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 428,
-      "title": "CI: add standalone ATOM integration workflow",
-      "author": "gyohuangxin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-22T09:35:36Z",
-      "updated_at": "2026-04-28T08:30:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/428",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 441,
-      "title": "Support pypi dev version and update to 0.1.5",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-28T04:03:01Z",
-      "updated_at": "2026-04-28T05:00:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/441",
       "labels": [],
       "draft": false
     }

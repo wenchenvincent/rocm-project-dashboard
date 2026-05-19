@@ -1,25 +1,57 @@
 {
-  "collected_at": "2026-05-18T11:35:24Z",
+  "collected_at": "2026-05-19T10:52:11Z",
   "issues": [
+    {
+      "number": 25742,
+      "title": "GLM-5.1-MXFP4 on AMD MI355X \u2014 massive GSM8K accuracy degradation on v0.5.12-rocm720-mi35x (off: 0.32, EAGLE-MTP: 0.18)",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-05-19T04:57:37Z",
+      "updated_at": "2026-05-19T10:20:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/25742",
+      "labels": []
+    },
+    {
+      "number": 25672,
+      "title": "[Bug] GLM-5 on MI325X + aiter backend: concat_and_cast_mha_k_kernel Triton compile error \"arange's range must be a power of 2\"",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-05-18T16:35:16Z",
+      "updated_at": "2026-05-19T08:36:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/25672",
+      "labels": []
+    },
+    {
+      "number": 25549,
+      "title": "[Bug] UserWarning: Triton is not supported on current platform, roll back to CPU.   warnings.warn(",
+      "author": "conceptofmind",
+      "state": "open",
+      "created_at": "2026-05-18T00:41:33Z",
+      "updated_at": "2026-05-19T04:29:59Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/25549",
+      "labels": []
+    },
     {
       "number": 22949,
       "title": "Development Roadmap (2026 Q2)",
       "author": "merrymercy",
       "state": "open",
       "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-05-18T09:55:31Z",
+      "updated_at": "2026-05-19T03:03:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22949",
       "labels": []
     },
     {
-      "number": 25551,
-      "title": "v0.5.12 DeepGemm regression on B300 (sm_103): CUDA_ERROR_ILLEGAL_ADDRESS in fp8_fp4_gemm_nt TMA descriptor init for shared-experts FP8 GEMM",
-      "author": "functionstackx",
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
       "state": "open",
-      "created_at": "2026-05-18T01:33:58Z",
-      "updated_at": "2026-05-18T04:22:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/25551",
-      "labels": []
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-05-19T02:34:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
     },
     {
       "number": 23602,
@@ -27,13 +59,23 @@
       "author": "fzyzcjy",
       "state": "open",
       "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-05-16T07:48:58Z",
+      "updated_at": "2026-05-19T01:08:26Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/23602",
       "labels": [
         "high priority",
         "deepseek",
         "roadmap"
       ]
+    },
+    {
+      "number": 25551,
+      "title": "v0.5.12 DeepGemm regression on B300 (sm_103): CUDA_ERROR_ILLEGAL_ADDRESS in fp8_fp4_gemm_nt TMA descriptor init for shared-experts FP8 GEMM",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-05-18T01:33:58Z",
+      "updated_at": "2026-05-18T21:13:45Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/25551",
+      "labels": []
     },
     {
       "number": 21302,
@@ -44,18 +86,6 @@
       "updated_at": "2026-05-14T16:54:50Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-05-14T10:43:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
     },
     {
       "number": 25118,
@@ -365,16 +395,6 @@
       ]
     },
     {
-      "number": 14199,
-      "title": "[Roadmap] Diffusion LLMs  (2026 S1)",
-      "author": "ClawSeven",
-      "state": "open",
-      "created_at": "2025-12-01T07:42:19Z",
-      "updated_at": "2026-04-21T03:32:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/14199",
-      "labels": []
-    },
-    {
       "number": 23299,
       "title": "[Feature] [ROCm] enable Qwen3.5 SD/MTP with radix cache with --mamba-scheduler-strategy extra_buffer",
       "author": "HaiShaw",
@@ -442,16 +462,6 @@
       "created_at": "2026-04-07T17:46:38Z",
       "updated_at": "2026-04-10T00:31:44Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22278",
-      "labels": []
-    },
-    {
-      "number": 22419,
-      "title": "[AMD] Multimodal Support ROCm FA2 in the new dispatch layer and prepare for FA3 enablement",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-04-09T05:11:34Z",
-      "updated_at": "2026-04-09T09:02:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22419",
       "labels": []
     },
     {
