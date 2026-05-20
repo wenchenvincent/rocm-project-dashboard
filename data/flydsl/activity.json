@@ -1,49 +1,49 @@
 {
-  "collected_at": "2026-05-19T10:54:34Z",
+  "collected_at": "2026-05-20T10:42:51Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 27,
-      "merged": 24,
+      "opened": 26,
+      "merged": 22,
       "closed": 2
     },
     "last_week": {
-      "opened": 42,
-      "merged": 28,
+      "opened": 41,
+      "merged": 34,
       "closed": 8
     },
-    "median_time_to_merge_hours": 14.8,
-    "merge_count": 57,
+    "median_time_to_merge_hours": 17.8,
+    "merge_count": 61,
     "stale_prs": 4
   },
   "contributors": {
-    "active_this_week": 16,
-    "total_contributors": 28,
+    "active_this_week": 18,
+    "total_contributors": 30,
     "top_contributors": [
       {
         "author": "coderfeli",
-        "prs_submitted": 29,
-        "prs_merged": 29,
-        "commits": 33
+        "prs_submitted": 28,
+        "prs_merged": 28,
+        "commits": 34
       },
       {
         "author": "sjfeng1999",
-        "prs_submitted": 18,
+        "prs_submitted": 16,
         "prs_merged": 16,
-        "commits": 21
+        "commits": 23
+      },
+      {
+        "author": "Peter9606",
+        "prs_submitted": 6,
+        "prs_merged": 6,
+        "commits": 5
       },
       {
         "author": "fsx950223",
         "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 2
-      },
-      {
-        "author": "xudoyuan",
-        "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 4
+        "prs_merged": 4,
+        "commits": 3
       },
       {
         "author": "yanboshao",
@@ -52,9 +52,9 @@
         "commits": 5
       },
       {
-        "author": "Peter9606",
+        "author": "xudoyuan",
         "prs_submitted": 5,
-        "prs_merged": 5,
+        "prs_merged": 3,
         "commits": 4
       },
       {
@@ -70,13 +70,13 @@
         "commits": 2
       },
       {
-        "author": "xytpai",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 2
+        "author": "omuhamma",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
       },
       {
-        "author": "omuhamma",
+        "author": "apicciau",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
@@ -85,10 +85,10 @@
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 14,
-    "opened_this_week": 2,
+    "total_open": 16,
+    "opened_this_week": 3,
     "closed_this_week": 0,
-    "unanswered": 4
+    "unanswered": 5
   },
   "ci_health": null,
   "ci_signal_time": null,

@@ -1,43 +1,145 @@
 {
-  "collected_at": "2026-05-19T10:52:16Z",
+  "collected_at": "2026-05-20T10:40:32Z",
   "prs": [
     {
-      "number": 4841,
-      "title": "[AIMIGRAPHX-1002] Match nop reshapes with broadcasted inputs",
-      "author": "eddieliao",
+      "number": 4770,
+      "title": "Adding compilation mode",
+      "author": "pnikolic-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-05T17:56:58Z",
-      "updated_at": "2026-05-19T09:54:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4841",
-      "labels": [
-        "bugfix",
-        "Matchers",
-        "ok-to-test"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4835,
-      "title": "Extend problem cache with hardware provenance metadata",
-      "author": "danieyan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T19:43:40Z",
-      "updated_at": "2026-05-19T01:17:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4835",
+      "created_at": "2026-04-09T19:50:16Z",
+      "updated_at": "2026-05-20T10:32:28Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
       "labels": [],
       "draft": false
     },
     {
-      "number": 4890,
-      "title": "Add picked variant",
+      "number": 4898,
+      "title": "Bump idna from 3.7 to 3.15 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-20T02:14:32Z",
+      "updated_at": "2026-05-20T02:14:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4898",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4891,
+      "title": "[AIMIGRAPHX-885] Add find_concat_same_input matcher",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-16T04:23:53Z",
+      "updated_at": "2026-05-20T01:34:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4891",
+      "labels": [
+        "Matchers",
+        "Perf Improve"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4782,
+      "title": "Add symbolic expression",
       "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-15T19:39:19Z",
-      "updated_at": "2026-05-19T01:16:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4890",
+      "created_at": "2026-04-13T19:03:21Z",
+      "updated_at": "2026-05-20T00:11:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4782",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4863,
+      "title": "Add measurement of overall compile time to `migraphx-driver`",
+      "author": "apwojcik",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-08T09:19:12Z",
+      "updated_at": "2026-05-19T23:37:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4863",
+      "labels": [
+        "Windows",
+        "UAI"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4817,
+      "title": "Enable static build of migraphx",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-23T20:44:44Z",
+      "updated_at": "2026-05-19T23:35:28Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4817",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4573,
+      "title": "Allow running in the driver a pass from a backend target using 'pass_name@target_name'",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-26T19:30:09Z",
+      "updated_at": "2026-05-19T23:31:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4573",
+      "labels": [
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4885,
+      "title": "[#4884] Fold Reduce_*(axes) op when all reduced axes have length 1",
+      "author": "itikhono",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-14T18:15:59Z",
+      "updated_at": "2026-05-19T23:25:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4885",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4897,
+      "title": "ci: add amd-ci-job-monitor for runner fleet reporting",
+      "author": "amdfaa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-19T22:47:24Z",
+      "updated_at": "2026-05-19T22:52:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4897",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4896,
+      "title": "Sym concat slice",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-19T21:01:22Z",
+      "updated_at": "2026-05-19T21:39:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4896",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4795,
+      "title": "[AIMIGRAPHX-828] Cross Compile Pt 2: add env variable to enable cross compilation",
+      "author": "kahmed10",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-17T04:16:22Z",
+      "updated_at": "2026-05-19T21:23:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4795",
       "labels": [],
       "draft": false
     },
@@ -48,10 +150,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-18T18:53:44Z",
-      "updated_at": "2026-05-18T22:50:37Z",
+      "updated_at": "2026-05-19T21:15:39Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4893",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 4895,
+      "title": "Use fp16 for convolution on navi",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-19T20:18:30Z",
+      "updated_at": "2026-05-19T20:18:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4895",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4835,
+      "title": "Extend problem cache with hardware provenance metadata",
+      "author": "danieyan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-30T19:43:40Z",
+      "updated_at": "2026-05-19T16:24:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4835",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4894,
+      "title": "[SWDEV-587978] Fix simplify reshapes error for thm models",
+      "author": "urpetkov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-19T12:59:48Z",
+      "updated_at": "2026-05-19T14:34:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4894",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 4892,
@@ -64,33 +202,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4892",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4891,
-      "title": "[AIMIGRAPHX-885] Add find_concat_same_input matcher",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-16T04:23:53Z",
-      "updated_at": "2026-05-18T20:51:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4891",
-      "labels": [
-        "Matchers",
-        "Perf Improve"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4770,
-      "title": "Adding compilation mode",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T19:50:16Z",
-      "updated_at": "2026-05-18T19:29:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4725,
@@ -170,18 +281,6 @@
       "draft": false
     },
     {
-      "number": 4795,
-      "title": "[AIMIGRAPHX-828] Cross Compile Pt 2: add env variable to enable cross compilation",
-      "author": "kahmed10",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-17T04:16:22Z",
-      "updated_at": "2026-05-16T02:46:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4795",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4801,
       "title": "Add md5 sum function",
       "author": "pfultz2",
@@ -190,18 +289,6 @@
       "created_at": "2026-04-20T15:43:11Z",
       "updated_at": "2026-05-16T00:57:50Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4801",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4817,
-      "title": "Enable static build of migraphx",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-23T20:44:44Z",
-      "updated_at": "2026-05-15T23:06:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4817",
       "labels": [],
       "draft": false
     },
@@ -334,18 +421,6 @@
       "created_at": "2026-05-06T22:21:05Z",
       "updated_at": "2026-05-15T02:34:38Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4851",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4885,
-      "title": "[#4884] Fold Reduce_*(axes) op when all reduced axes have length 1",
-      "author": "itikhono",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-14T18:15:59Z",
-      "updated_at": "2026-05-18T09:44:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4885",
       "labels": [],
       "draft": false
     },
@@ -668,21 +743,6 @@
       "draft": true
     },
     {
-      "number": 4863,
-      "title": "Add measurement of overall compile time to `migraphx-driver`",
-      "author": "apwojcik",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-08T09:19:12Z",
-      "updated_at": "2026-05-13T14:18:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4863",
-      "labels": [
-        "Windows",
-        "UAI"
-      ],
-      "draft": false
-    },
-    {
       "number": 4743,
       "title": "[AIMIGRAPHX-885] Add_gather_kernel Matcher",
       "author": "TedThemistokleous",
@@ -946,18 +1006,6 @@
       "labels": [
         "ok-to-test"
       ],
-      "draft": false
-    },
-    {
-      "number": 4782,
-      "title": "Add symbolic expression",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-13T19:03:21Z",
-      "updated_at": "2026-04-24T18:20:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4782",
-      "labels": [],
       "draft": false
     },
     {
@@ -1237,20 +1285,6 @@
       "draft": true
     },
     {
-      "number": 4573,
-      "title": "Allow running in the driver a pass from a backend target using 'pass_name@target_name'",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-26T19:30:09Z",
-      "updated_at": "2026-03-03T05:04:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4573",
-      "labels": [
-        "simple"
-      ],
-      "draft": false
-    },
-    {
       "number": 4546,
       "title": "[DRAFT] flash decoding kvcache",
       "author": "bdevorem",
@@ -1429,6 +1463,34 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 4890,
+      "title": "Add picked variant",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-15T19:39:19Z",
+      "updated_at": "2026-05-19T14:00:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4890",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4841,
+      "title": "[AIMIGRAPHX-1002] Match nop reshapes with broadcasted inputs",
+      "author": "eddieliao",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-05T17:56:58Z",
+      "updated_at": "2026-05-19T13:59:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4841",
+      "labels": [
+        "bugfix",
+        "Matchers",
+        "ok-to-test"
+      ],
+      "draft": false
     },
     {
       "number": 4881,
@@ -2568,18 +2630,6 @@
       "created_at": "2026-04-22T15:00:35Z",
       "updated_at": "2026-04-24T01:50:30Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4812",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4761,
-      "title": "Update rocMLIR integration API to version 5 (perfConfig, cluster size)",
-      "author": "dhernandez0",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-09T09:48:28Z",
-      "updated_at": "2026-04-23T16:33:00Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4761",
       "labels": [],
       "draft": false
     }

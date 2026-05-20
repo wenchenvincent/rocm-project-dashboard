@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-19T10:52:36Z",
+  "collected_at": "2026-05-20T10:40:52Z",
   "issues": [
     {
       "number": 264,
@@ -7,7 +7,7 @@
       "author": "tjtanaa",
       "state": "open",
       "created_at": "2026-04-15T00:45:16Z",
-      "updated_at": "2026-05-19T02:07:24Z",
+      "updated_at": "2026-05-20T07:03:41Z",
       "html_url": "https://github.com/ROCm/mori/issues/264",
       "labels": []
     },

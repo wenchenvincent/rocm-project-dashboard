@@ -1,27 +1,15 @@
 {
-  "collected_at": "2026-05-19T10:52:38Z",
+  "collected_at": "2026-05-20T10:40:54Z",
   "prs": [
     {
-      "number": 542,
-      "title": "[Standardization]: add C++ style checks ",
-      "author": "sjfeng1999",
+      "number": 544,
+      "title": "[Feat] Add GFX11 WMMA atom (RDNA3 / RDNA3.5, wave32)",
+      "author": "yozhijk",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-19T07:46:53Z",
-      "updated_at": "2026-05-19T07:57:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/542",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 541,
-      "title": "[Refactor] Migrate kernels from SmemAllocator to SharedAllocator",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-19T03:48:28Z",
-      "updated_at": "2026-05-19T07:57:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/541",
+      "created_at": "2026-05-19T23:41:27Z",
+      "updated_at": "2026-05-20T10:15:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/544",
       "labels": [],
       "draft": false
     },
@@ -32,8 +20,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-18T09:25:12Z",
-      "updated_at": "2026-05-19T03:56:52Z",
+      "updated_at": "2026-05-20T10:12:54Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/539",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 543,
+      "title": "ci: add amd-ci-job-monitor for runner fleet reporting",
+      "author": "amdfaa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-19T23:12:38Z",
+      "updated_at": "2026-05-20T10:07:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/543",
       "labels": [],
       "draft": false
     },
@@ -44,10 +44,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-18T13:04:06Z",
-      "updated_at": "2026-05-18T21:37:53Z",
+      "updated_at": "2026-05-20T09:37:31Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/540",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 522,
+      "title": "[Feat] Intranode Dispatch&Combine Kernel ",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-14T07:19:40Z",
+      "updated_at": "2026-05-20T06:50:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/522",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 531,
@@ -62,18 +74,6 @@
       "draft": true
     },
     {
-      "number": 537,
-      "title": "docs(skills): Add OOB detection workflow",
-      "author": "fsx950223",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-18T05:11:45Z",
-      "updated_at": "2026-05-18T05:14:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/537",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 532,
       "title": "[gfx1250] Fix cluster launch detection and silent fallback",
       "author": "aoli26",
@@ -85,18 +85,6 @@
       "labels": [
         "bug"
       ],
-      "draft": true
-    },
-    {
-      "number": 522,
-      "title": "[Feat] Intranode Dispatch&Combine Kernel ",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-14T07:19:40Z",
-      "updated_at": "2026-05-17T14:45:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/522",
-      "labels": [],
       "draft": true
     },
     {
@@ -288,6 +276,66 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 542,
+      "title": "[Standardization]: add C++ style checks ",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-19T07:46:53Z",
+      "updated_at": "2026-05-20T08:39:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/542",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 546,
+      "title": "[NFC] Rename FlyROCL_* to FlyROCDL_* across ROCDL TableGen refs",
+      "author": "Peter9606",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-20T02:40:53Z",
+      "updated_at": "2026-05-20T07:11:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/546",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 547,
+      "title": "[CI] Align AITER Triton dependency with ROCm 7.2",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-20T05:43:19Z",
+      "updated_at": "2026-05-20T06:14:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/547",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 537,
+      "title": "docs(skills): Add OOB detection workflow",
+      "author": "fsx950223",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-18T05:11:45Z",
+      "updated_at": "2026-05-20T06:06:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/537",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 541,
+      "title": "[Refactor] Migrate kernels from SmemAllocator to SharedAllocator",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-19T03:48:28Z",
+      "updated_at": "2026-05-20T05:37:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/541",
       "labels": [],
       "draft": false
     },
@@ -1168,66 +1216,6 @@
       "created_at": "2026-04-28T12:32:23Z",
       "updated_at": "2026-04-28T14:20:21Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/446",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 444,
-      "title": "[ENH] Support IntTuple value as an argument of make_int_tuple",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-28T09:16:59Z",
-      "updated_at": "2026-04-28T14:19:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/444",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 435,
-      "title": "Refine hgemm split-k kernel",
-      "author": "xytpai",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-24T09:38:35Z",
-      "updated_at": "2026-04-28T13:19:56Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/435",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 445,
-      "title": "Use internal types in RDNA GEMM kernels",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-28T09:30:35Z",
-      "updated_at": "2026-04-28T10:26:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/445",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 443,
-      "title": "Add profile congruence check for prim ops",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-28T06:31:19Z",
-      "updated_at": "2026-04-28T09:02:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/443",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 439,
-      "title": "fix gemm type to internal",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-27T14:46:16Z",
-      "updated_at": "2026-04-28T08:32:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/439",
       "labels": [],
       "draft": false
     }

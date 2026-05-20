@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-05-19T10:52:39Z",
+  "collected_at": "2026-05-20T10:40:54Z",
   "issues": [
+    {
+      "number": 548,
+      "title": "Add a first-class global load op/helper",
+      "author": "fsx950223",
+      "state": "open",
+      "created_at": "2026-05-20T06:24:35Z",
+      "updated_at": "2026-05-20T06:24:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/548",
+      "labels": []
+    },
+    {
+      "number": 545,
+      "title": "[Issue]: CI tests are failing on MI325 and MI355 on all recent PRs",
+      "author": "yozhijk",
+      "state": "open",
+      "created_at": "2026-05-20T00:45:17Z",
+      "updated_at": "2026-05-20T00:45:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/545",
+      "labels": []
+    },
     {
       "number": 527,
       "title": "[request] Backport manylinux_2_27/2_28 wheels for v0.1.4 (post1 release)",

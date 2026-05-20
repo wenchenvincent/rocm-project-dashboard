@@ -1,17 +1,54 @@
 {
-  "collected_at": "2026-05-19T10:51:45Z",
+  "collected_at": "2026-05-20T10:40:01Z",
   "prs": [
+    {
+      "number": 37485,
+      "title": "[ROCm] Add org-based guards to all CI caller workflows",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-07T22:51:20Z",
+      "updated_at": "2026-05-20T00:40:05Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37485",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 37840,
+      "title": "[ROCm] Remove redundant --config=rocm_base from wheel build command",
+      "author": "mminutoli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-19T23:44:47Z",
+      "updated_at": "2026-05-20T00:10:29Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37840",
+      "labels": [
+        "bug",
+        "kokoro:force-run",
+        "pull ready",
+        "CI",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 37740,
       "title": "[ROCm] Switch to hermetic llvm for rocm",
       "author": "alekstheod",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-05-18T10:45:58Z",
-      "updated_at": "2026-05-19T06:02:25Z",
+      "updated_at": "2026-05-19T16:36:05Z",
       "html_url": "https://github.com/jax-ml/jax/pull/37740",
-      "labels": [],
-      "draft": true
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
     },
     {
       "number": 37071,
@@ -646,36 +683,6 @@
       "created_at": "2026-01-29T16:46:55Z",
       "updated_at": "2026-03-19T15:00:46Z",
       "html_url": "https://github.com/jax-ml/jax/pull/34702",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 35611,
-      "title": "[ROCm] Skip ann_test test_pmap on ROCm due to IndivisibleError",
-      "author": "AratiGanesh",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-04T20:53:49Z",
-      "updated_at": "2026-03-19T11:28:24Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35611",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 26604,
-      "title": "[ROCm][pallas:triton] Fix atomic min/max lowering for uint and float types",
-      "author": "draganmladjenovic",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-02-19T12:55:04Z",
-      "updated_at": "2026-03-19T11:24:52Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/26604",
       "labels": [
         "kokoro:force-run",
         "pull ready"

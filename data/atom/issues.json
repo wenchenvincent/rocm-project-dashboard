@@ -1,6 +1,175 @@
 {
-  "collected_at": "2026-05-19T10:52:33Z",
+  "collected_at": "2026-05-20T10:40:49Z",
   "issues": [
+    {
+      "number": 856,
+      "title": "[Perf Regression] 1 config(s) regressed @ 659101ce",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T10:01:15Z",
+      "updated_at": "2026-05-20T10:01:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/856",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 855,
+      "title": "[Perf Regression] 1 config(s) regressed @ 1e507681",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T09:52:33Z",
+      "updated_at": "2026-05-20T09:52:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/855",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 854,
+      "title": "[Perf Regression] 1 config(s) regressed @ 2c05f2ea",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T09:49:47Z",
+      "updated_at": "2026-05-20T09:49:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/854",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 853,
+      "title": "[Perf Regression] 1 config(s) regressed @ ea26325c",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T09:48:52Z",
+      "updated_at": "2026-05-20T09:48:52Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/853",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 852,
+      "title": "[Perf Regression] 1 config(s) regressed @ fa67438c",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T09:47:54Z",
+      "updated_at": "2026-05-20T09:47:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/852",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 851,
+      "title": "[Perf Regression] 1 config(s) regressed @ 08849984",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T09:46:42Z",
+      "updated_at": "2026-05-20T09:46:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/851",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 850,
+      "title": "[Perf Regression] 1 config(s) regressed @ df350206",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T09:40:09Z",
+      "updated_at": "2026-05-20T09:40:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/850",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 849,
+      "title": "[Perf Regression] 1 config(s) regressed @ 1d2fe2c1",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T09:35:28Z",
+      "updated_at": "2026-05-20T09:35:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/849",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 848,
+      "title": "[Perf Regression] 1 config(s) regressed @ 7fb60710",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T09:33:53Z",
+      "updated_at": "2026-05-20T09:33:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/848",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 843,
+      "title": "[Perf Regression] 1 config(s) regressed @ 1ec1d90d",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T06:29:09Z",
+      "updated_at": "2026-05-20T06:29:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/843",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 842,
+      "title": "[Perf Regression] 1 config(s) regressed @ 1cff06c7",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T06:28:35Z",
+      "updated_at": "2026-05-20T06:28:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/842",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 840,
+      "title": "[Perf Regression] 1 config(s) regressed @ e8cbff89",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T06:22:11Z",
+      "updated_at": "2026-05-20T06:22:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/840",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 839,
+      "title": "[Perf Regression] 1 config(s) regressed @ 41f5666f",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-05-20T05:30:47Z",
+      "updated_at": "2026-05-20T05:30:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/839",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 830,
       "title": "[Perf Regression] 32 config(s) regressed @ 6619cc7d",

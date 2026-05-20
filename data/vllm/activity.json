@@ -1,29 +1,29 @@
 {
-  "collected_at": "2026-05-19T10:53:11Z",
+  "collected_at": "2026-05-20T10:41:26Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 49,
-      "merged": 49,
-      "closed": 1
+      "opened": 54,
+      "merged": 47,
+      "closed": 3
     },
     "last_week": {
-      "opened": 25,
-      "merged": 11,
+      "opened": 26,
+      "merged": 13,
       "closed": 0
     },
-    "median_time_to_merge_hours": 207.1,
+    "median_time_to_merge_hours": 201.3,
     "merge_count": 71,
     "stale_prs": 0
   },
   "contributors": {
     "active_this_week": 71,
-    "total_contributors": 88,
+    "total_contributors": 87,
     "top_contributors": [
       {
         "author": "AndreasKaratzas",
-        "prs_submitted": 12,
+        "prs_submitted": 11,
         "prs_merged": 5,
         "commits": 0
       },
@@ -34,9 +34,21 @@
         "commits": 0
       },
       {
-        "author": "yewentao256",
+        "author": "maeehart",
+        "prs_submitted": 5,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "chaeminlim-mb",
+        "prs_submitted": 5,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "rasmith",
         "prs_submitted": 4,
-        "prs_merged": 3,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -46,54 +58,42 @@
         "commits": 0
       },
       {
-        "author": "WoosukKwon",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "haosdent",
+        "author": "wxsIcey",
         "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "maeehart",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "mikaylagawarecki",
-        "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "akii96",
+        "author": "tpopp",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "jhu960213",
+        "author": "mgoin",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "zyongye",
+        "prs_submitted": 3,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
     "bus_factor": 13
   },
   "issue_health": {
-    "total_open": 47,
-    "opened_this_week": 25,
-    "closed_this_week": 131,
+    "total_open": 51,
+    "opened_this_week": 20,
+    "closed_this_week": 140,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.1,
+    "days_since_last": 5.1,
     "avg_interval_days": 6.8,
     "total_releases": 5,
     "latest_tag": "v0.21.0"

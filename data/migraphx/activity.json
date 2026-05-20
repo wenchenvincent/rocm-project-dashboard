@@ -1,35 +1,35 @@
 {
-  "collected_at": "2026-05-19T10:53:17Z",
+  "collected_at": "2026-05-20T10:41:32Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 18,
-      "merged": 17,
-      "closed": 4
+      "opened": 17,
+      "merged": 16,
+      "closed": 3
     },
     "last_week": {
-      "opened": 31,
-      "merged": 25,
-      "closed": 2
+      "opened": 34,
+      "merged": 26,
+      "closed": 3
     },
-    "median_time_to_merge_hours": 64.2,
-    "merge_count": 54,
-    "stale_prs": 33
+    "median_time_to_merge_hours": 75.6,
+    "merge_count": 53,
+    "stale_prs": 32
   },
   "contributors": {
-    "active_this_week": 25,
-    "total_contributors": 42,
+    "active_this_week": 27,
+    "total_contributors": 44,
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 47,
-        "prs_merged": 17,
-        "commits": 12
+        "prs_submitted": 48,
+        "prs_merged": 18,
+        "commits": 13
       },
       {
         "author": "shivadbhavsar",
-        "prs_submitted": 15,
+        "prs_submitted": 16,
         "prs_merged": 11,
         "commits": 8
       },
@@ -72,8 +72,8 @@
       {
         "author": "eddieliao",
         "prs_submitted": 6,
-        "prs_merged": 3,
-        "commits": 2
+        "prs_merged": 4,
+        "commits": 3
       },
       {
         "author": "lakhinderwalia",
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 241,
     "opened_this_week": 1,
-    "closed_this_week": 1,
+    "closed_this_week": 0,
     "unanswered": 125
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 14.9,
+    "days_since_last": 15.8,
     "avg_interval_days": 39.8,
     "total_releases": 5,
     "latest_tag": "rocm-7.2.3"
