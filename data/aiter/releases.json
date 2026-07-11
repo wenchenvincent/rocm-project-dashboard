@@ -1,40 +1,40 @@
 {
-  "collected_at": "2026-05-20T10:40:45Z",
+  "collected_at": "2026-07-11T09:14:26Z",
   "releases": [
     {
-      "tag_name": "v0.1.14-rc0",
-      "name": "AITER v0.1.14-rc0",
-      "published_at": "2026-05-14T23:11:56Z",
-      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.14-rc0",
+      "tag_name": "v0.1.17-rc0",
+      "name": "v0.1.17-rc0",
+      "published_at": "2026-07-04T17:21:29Z",
+      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.17-rc0",
       "prerelease": true
     },
     {
-      "tag_name": "v0.1.13",
-      "name": "v0.1.13",
-      "published_at": "2026-05-09T20:57:46Z",
-      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.13",
+      "tag_name": "v0.1.16.post3",
+      "name": "AITER v0.1.16.post3",
+      "published_at": "2026-06-26T17:18:37Z",
+      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.16.post3",
       "prerelease": false
     },
     {
-      "tag_name": "v0.1.13-rc5",
-      "name": "v0.1.13-rc5",
-      "published_at": "2026-05-08T02:30:18Z",
-      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.13-rc5",
-      "prerelease": true
+      "tag_name": "v0.1.16.post2",
+      "name": "AITER v0.1.16.post2",
+      "published_at": "2026-06-25T22:43:22Z",
+      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.16.post2",
+      "prerelease": false
     },
     {
-      "tag_name": "v0.1.13-rc2",
-      "name": "v0.1.13-rc2",
-      "published_at": "2026-05-06T04:04:47Z",
-      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.13-rc2",
-      "prerelease": true
+      "tag_name": "v0.1.16.post1",
+      "name": "v0.1.16.post1",
+      "published_at": "2026-06-23T19:18:14Z",
+      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.16.post1",
+      "prerelease": false
     },
     {
-      "tag_name": "v0.1.13-rc1",
-      "name": "v0.1.13-rc1",
-      "published_at": "2026-04-25T06:11:15Z",
-      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.13-rc1",
-      "prerelease": true
+      "tag_name": "v0.1.15.post3",
+      "name": "AITER v0.1.15.post3",
+      "published_at": "2026-06-23T19:45:30Z",
+      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.15.post3",
+      "prerelease": false
     }
   ]
 }

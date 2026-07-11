@@ -1,15 +1,538 @@
 {
-  "collected_at": "2026-05-20T10:40:45Z",
+  "collected_at": "2026-07-11T09:14:26Z",
   "issues": [
     {
-      "number": 3261,
-      "title": "[Feature]: gfx950 A8W8 blockscale bpreshuffle CK GEMM is nondeterministic for WKV-shaped untuned rows",
-      "author": "hdt98",
+      "number": 3999,
+      "title": "[Regression] EP MoE tuned FMoE configs not picked up after #3377 (topk -= int(is_ep) breaks tuned-config lookup, e.g. GLM-4.7 tuned for topk=8 looked up as topk=7)",
+      "author": "mjkvaak-amd",
       "state": "open",
-      "created_at": "2026-05-19T05:17:33Z",
-      "updated_at": "2026-05-19T05:18:39Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3261",
+      "created_at": "2026-06-29T12:46:30Z",
+      "updated_at": "2026-07-10T10:07:13Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3999",
       "labels": []
+    },
+    {
+      "number": 4137,
+      "title": "[Regression] Triton 3.7.0 causes ~4x regression in unified_attention on gfx950",
+      "author": "mjkvaak-amd",
+      "state": "open",
+      "created_at": "2026-07-08T11:51:18Z",
+      "updated_at": "2026-07-10T05:34:44Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4137",
+      "labels": []
+    },
+    {
+      "number": 4168,
+      "title": "[Feature]: Missing Prefix LM kernel for Multimodal Range Tensors",
+      "author": "GodRishUniverse",
+      "state": "open",
+      "created_at": "2026-07-09T20:40:23Z",
+      "updated_at": "2026-07-09T20:40:23Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4168",
+      "labels": []
+    },
+    {
+      "number": 4126,
+      "title": "[Bug] int32/i24 offset overflow in FMHA prefill ASM kernel for seqlen >= 8Mi",
+      "author": "yudigege86",
+      "state": "open",
+      "created_at": "2026-07-07T21:33:39Z",
+      "updated_at": "2026-07-08T18:22:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4126",
+      "labels": []
+    },
+    {
+      "number": 3425,
+      "title": "[Feature]: consider R9700 as the legitimate target for AITER",
+      "author": "apohllo",
+      "state": "open",
+      "created_at": "2026-05-29T14:03:51Z",
+      "updated_at": "2026-07-08T18:03:52Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3425",
+      "labels": []
+    },
+    {
+      "number": 4142,
+      "title": "[Issue]: Crash with Qwen3.5 with tool calling enabled",
+      "author": "jbelloncastro",
+      "state": "open",
+      "created_at": "2026-07-08T16:09:53Z",
+      "updated_at": "2026-07-08T16:10:51Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4142",
+      "labels": []
+    },
+    {
+      "number": 3824,
+      "title": "[Bug] ck_tile FMHA `mha_batch_prefill` paged-KV gather: 32-bit *address* overflow at high GPU base addresses",
+      "author": "zx3xyy",
+      "state": "open",
+      "created_at": "2026-06-20T21:41:43Z",
+      "updated_at": "2026-07-08T03:30:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3824",
+      "labels": []
+    },
+    {
+      "number": 3869,
+      "title": "[Feature]: DSv4 128 Heads MLA in HK and OPUS Gen.1.1",
+      "author": "ruanjm",
+      "state": "open",
+      "created_at": "2026-06-23T03:47:16Z",
+      "updated_at": "2026-07-07T07:51:54Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3869",
+      "labels": []
+    },
+    {
+      "number": 4055,
+      "title": "[Issue]: module_rmsnorm cold JIT compile is extremely slow (~225s) on gfx950 / ROCm 7.2.2",
+      "author": "YangFan0918",
+      "state": "open",
+      "created_at": "2026-07-02T04:11:39Z",
+      "updated_at": "2026-07-07T02:49:14Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4055",
+      "labels": []
+    },
+    {
+      "number": 2760,
+      "title": "[Feature]: Add MLA decode ASM kernels for qseqlen > 4 to enable larger speculative decoding draft tokens",
+      "author": "larryli2-amd",
+      "state": "open",
+      "created_at": "2026-04-16T10:37:59Z",
+      "updated_at": "2026-07-06T17:13:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2760",
+      "labels": []
+    },
+    {
+      "number": 2768,
+      "title": "[Bug] uint32 offset overflow in MLA decode ASM kernel for seqlen > 8M",
+      "author": "ChuanLi1101",
+      "state": "open",
+      "created_at": "2026-04-16T22:45:49Z",
+      "updated_at": "2026-07-04T04:50:27Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2768",
+      "labels": []
+    },
+    {
+      "number": 4077,
+      "title": "[Build] aiter fails to compile on ROCm 7.0/7.1 \u2014 opus `__builtin_amdgcn_tensor_load_to_lds` needs ROCm 7.2 clang",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-07-04T00:29:55Z",
+      "updated_at": "2026-07-04T00:29:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4077",
+      "labels": []
+    },
+    {
+      "number": 4071,
+      "title": "[Issue]: Grouped MoE build (gfx1250) ignores GPU_ARCHS",
+      "author": "simondanielsson",
+      "state": "open",
+      "created_at": "2026-07-03T07:48:26Z",
+      "updated_at": "2026-07-03T07:48:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4071",
+      "labels": []
+    },
+    {
+      "number": 4050,
+      "title": "[Regression]: Deepseek-R1 fusedMoE configs causing perf regression",
+      "author": "amnamasood-amd",
+      "state": "open",
+      "created_at": "2026-07-01T23:21:01Z",
+      "updated_at": "2026-07-01T23:21:01Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4050",
+      "labels": []
+    },
+    {
+      "number": 4032,
+      "title": "[gfx950] Fused MoE NaN at M=1 with `block_m=16` (`ck_moe_stage1`, fp8 `per_1x128`) \u2014 clean input \u2192 NaN out",
+      "author": "ntgiang71096",
+      "state": "open",
+      "created_at": "2026-07-01T04:56:40Z",
+      "updated_at": "2026-07-01T05:06:12Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4032",
+      "labels": []
+    },
+    {
+      "number": 4012,
+      "title": "[BugFix] MI355x gpt-oss e2e accuracy drop.",
+      "author": "lalala-sh",
+      "state": "open",
+      "created_at": "2026-06-30T06:10:50Z",
+      "updated_at": "2026-06-30T06:10:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4012",
+      "labels": []
+    },
+    {
+      "number": 3865,
+      "title": "dsv4 a4w4 moe support",
+      "author": "Bernard-Liu",
+      "state": "open",
+      "created_at": "2026-06-23T03:19:22Z",
+      "updated_at": "2026-06-30T02:41:03Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3865",
+      "labels": []
+    },
+    {
+      "number": 4006,
+      "title": "solve pa compile latency",
+      "author": "Bernard-Liu",
+      "state": "open",
+      "created_at": "2026-06-30T02:39:38Z",
+      "updated_at": "2026-06-30T02:39:40Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4006",
+      "labels": []
+    },
+    {
+      "number": 3885,
+      "title": "[RFC/Discussion] vLLM core abstractions block native AITER integration (weight/quant/KV layout) \u2014 align before upstreaming",
+      "author": "ChuanLi1101",
+      "state": "open",
+      "created_at": "2026-06-24T01:03:05Z",
+      "updated_at": "2026-06-29T23:05:04Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3885",
+      "labels": []
+    },
+    {
+      "number": 3631,
+      "title": "CI: add FFM smoke test coverage for aiter",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-06-09T09:28:11Z",
+      "updated_at": "2026-06-29T15:08:36Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3631",
+      "labels": [
+        "frameworks-devops"
+      ]
+    },
+    {
+      "number": 3995,
+      "title": "[Issue]: [TRITON] DeepSeekV4 fused routing (`moe_routing/routing.py`) lacks `expert_map`",
+      "author": "yitingw1",
+      "state": "open",
+      "created_at": "2026-06-29T11:48:47Z",
+      "updated_at": "2026-06-29T11:51:06Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3995",
+      "labels": []
+    },
+    {
+      "number": 2828,
+      "title": "add tuning daily test",
+      "author": "yzhou103",
+      "state": "open",
+      "created_at": "2026-04-21T07:15:45Z",
+      "updated_at": "2026-06-29T06:05:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2828",
+      "labels": [
+        "enhancement",
+        "frameworks-devops"
+      ]
+    },
+    {
+      "number": 3964,
+      "title": "[Issue]: CK stage2 fp4 MoE kernel returns non-finite output (nan/inf) for M<=4 on gfx950 (a4w4 per_1x32)",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-06-26T21:09:32Z",
+      "updated_at": "2026-06-26T21:09:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3964",
+      "labels": []
+    },
+    {
+      "number": 3889,
+      "title": "[Issue]: gptoss test moe 2 stage UT error",
+      "author": "HaonanWang98",
+      "state": "open",
+      "created_at": "2026-06-24T04:17:04Z",
+      "updated_at": "2026-06-24T04:47:24Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3889",
+      "labels": []
+    },
+    {
+      "number": 3846,
+      "title": "[gfx1201/RDNA4] reshape_and_cache SIGSEGVs: JIT loader imports wrong-arch prebuilt module_cache.so instead of rebuilding for the running GPU",
+      "author": "carlushuang",
+      "state": "open",
+      "created_at": "2026-06-22T08:36:08Z",
+      "updated_at": "2026-06-23T08:26:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3846",
+      "labels": []
+    },
+    {
+      "number": 3873,
+      "title": "[Feature]:  https://github.com/ROCm/aiter/pull/3851",
+      "author": "XingerZhu",
+      "state": "open",
+      "created_at": "2026-06-23T06:04:20Z",
+      "updated_at": "2026-06-23T06:04:24Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3873",
+      "labels": []
+    },
+    {
+      "number": 3864,
+      "title": "[Feature]:  dsv4 a4w4 moe support",
+      "author": "Bernard-Liu",
+      "state": "open",
+      "created_at": "2026-06-23T03:13:40Z",
+      "updated_at": "2026-06-23T03:13:40Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3864",
+      "labels": []
+    },
+    {
+      "number": 3853,
+      "title": "[Issue]: Add gfx942/cu304 tuned config coverage for Fp8 fused MoE tuples",
+      "author": "chaeminlim-mb",
+      "state": "open",
+      "created_at": "2026-06-22T13:08:41Z",
+      "updated_at": "2026-06-22T13:14:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3853",
+      "labels": []
+    },
+    {
+      "number": 3852,
+      "title": "[Issue]: Add gfx942/cu304 tuned config coverage for A8W8 blockscale GEMM shapes",
+      "author": "chaeminlim-mb",
+      "state": "open",
+      "created_at": "2026-06-22T13:08:40Z",
+      "updated_at": "2026-06-22T13:14:27Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3852",
+      "labels": []
+    },
+    {
+      "number": 3830,
+      "title": "[Feature]: Nightly multinode Distributed Inferencing Integration Accuracy Testing on Popular Models with Inference Engines (SGLang/vLLM) (ideally with Pollara NICs)",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-06-21T21:29:37Z",
+      "updated_at": "2026-06-21T21:31:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3830",
+      "labels": []
+    },
+    {
+      "number": 3806,
+      "title": "[Issue]: rms_norm and unquantized fused_moe accumulate in bf16, flipping argmax on near-uniform logits",
+      "author": "okorzh-amd",
+      "state": "open",
+      "created_at": "2026-06-18T19:37:25Z",
+      "updated_at": "2026-06-18T19:37:25Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3806",
+      "labels": []
+    },
+    {
+      "number": 3778,
+      "title": "[Feature]: Tuned gfx1151 config for FlashAttention backward Triton kernel",
+      "author": "woct0rdho",
+      "state": "open",
+      "created_at": "2026-06-17T09:53:25Z",
+      "updated_at": "2026-06-17T09:54:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3778",
+      "labels": []
+    },
+    {
+      "number": 3737,
+      "title": "[Issue]: batched_gemm_a16wfp4 split-K path reads out of bounds / returns garbage for small M on gfx950",
+      "author": "Concurrensee",
+      "state": "open",
+      "created_at": "2026-06-15T16:53:50Z",
+      "updated_at": "2026-06-17T03:29:01Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3737",
+      "labels": [
+        "aiswrcca"
+      ]
+    },
+    {
+      "number": 3762,
+      "title": "[Issue]: fmha_v3_fwd C++ dispatch accepts FP16 in validation but fails at kernel lookup",
+      "author": "AnaghaRaoAMD",
+      "state": "open",
+      "created_at": "2026-06-16T22:35:34Z",
+      "updated_at": "2026-06-16T22:35:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3762",
+      "labels": []
+    },
+    {
+      "number": 3724,
+      "title": "[Bug] FlashAttention backward crashes with BF16/FP16 on ROCm: tensor .data_ptr() returns None despite contiguous storage",
+      "author": "odolenchik",
+      "state": "open",
+      "created_at": "2026-06-15T06:48:31Z",
+      "updated_at": "2026-06-15T06:48:31Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3724",
+      "labels": []
+    },
+    {
+      "number": 3715,
+      "title": "fp8 MoE GSM8K run-to-run variance (~1-2%) on Qwen3 / MiniMax \u2014 determinism or noise?",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-06-14T18:55:52Z",
+      "updated_at": "2026-06-14T18:55:52Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3715",
+      "labels": []
+    },
+    {
+      "number": 2821,
+      "title": "[MLA] Missing gqa_ratio=8 kernels in mla_decode_stage1_asm_fwd (blocks GLM-5 HiSparse on MI355X TP=8)",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-04-20T17:13:57Z",
+      "updated_at": "2026-06-12T15:27:56Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2821",
+      "labels": []
+    },
+    {
+      "number": 3689,
+      "title": "aiter #3391 Caused SGLang MLA FP8/MXFP4 Prefill Paths Fail",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-06-12T04:29:15Z",
+      "updated_at": "2026-06-12T04:31:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3689",
+      "labels": []
+    },
+    {
+      "number": 3678,
+      "title": "Is it possible to build \"mla_stage1_a16w16_bf16.co\" from source?",
+      "author": "ghostplant",
+      "state": "open",
+      "created_at": "2026-06-11T10:56:18Z",
+      "updated_at": "2026-06-11T10:56:18Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3678",
+      "labels": []
+    },
+    {
+      "number": 3294,
+      "title": "[Issue]: lacking general support for gfx1201",
+      "author": "andysalerno",
+      "state": "open",
+      "created_at": "2026-05-21T02:17:55Z",
+      "updated_at": "2026-06-10T21:21:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3294",
+      "labels": []
+    },
+    {
+      "number": 3635,
+      "title": "[Issue]: compilation hangs when building DeepSeek V3.2 using AITER_JIT_DIR",
+      "author": "jbelloncastro",
+      "state": "open",
+      "created_at": "2026-06-09T11:34:20Z",
+      "updated_at": "2026-06-09T12:05:09Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3635",
+      "labels": []
+    },
+    {
+      "number": 3632,
+      "title": "[Issue]: W4A4 AITER_MXFP4_MXFP4 fused MoE kernel not HIP-graph-safe on gfx950 (MI355X)",
+      "author": "larryli2-amd",
+      "state": "open",
+      "created_at": "2026-06-09T09:39:28Z",
+      "updated_at": "2026-06-09T09:44:31Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3632",
+      "labels": []
+    },
+    {
+      "number": 3443,
+      "title": "AITER Development Roadmap (2026 Q3)",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-05-31T02:54:49Z",
+      "updated_at": "2026-06-06T03:49:01Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3443",
+      "labels": []
+    },
+    {
+      "number": 3570,
+      "title": "[ROCm Test-First CI]: Day 0 AITER MI455X UALoE72 Helios Rack open source github CI by AMD Advancing AI July 22 2026",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-06-06T03:15:56Z",
+      "updated_at": "2026-06-06T03:21:18Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3570",
+      "labels": []
+    },
+    {
+      "number": 3566,
+      "title": "[Issue]: gfx950 slow compilation for one of Kimi-K2.5-MXFP4 module",
+      "author": "hanhanW",
+      "state": "open",
+      "created_at": "2026-06-05T20:08:19Z",
+      "updated_at": "2026-06-05T20:08:19Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3566",
+      "labels": []
+    },
+    {
+      "number": 3551,
+      "title": "[Issue]: Apply `mask_mn` in FlashAttention backward non-causal Triton kernel",
+      "author": "woct0rdho",
+      "state": "open",
+      "created_at": "2026-06-05T06:09:25Z",
+      "updated_at": "2026-06-05T08:51:03Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3551",
+      "labels": []
+    },
+    {
+      "number": 3442,
+      "title": "AITER Development Roadmap (2026 Q2)",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-05-31T02:54:48Z",
+      "updated_at": "2026-06-02T03:05:04Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3442",
+      "labels": []
+    },
+    {
+      "number": 3368,
+      "title": "AITER needs better downstream performance regression CI tests on popular models like Kimi k2.6 before downstream cuts new releases / downstream upgrades AITER versions",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-05-27T03:02:07Z",
+      "updated_at": "2026-05-30T05:11:13Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3368",
+      "labels": []
+    },
+    {
+      "number": 3362,
+      "title": "[Issue]: FlyDSL fails when GPU available when prebuilding kernels for arch=gfx950",
+      "author": "amd-mghanimi",
+      "state": "open",
+      "created_at": "2026-05-26T21:58:14Z",
+      "updated_at": "2026-05-28T04:22:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3362",
+      "labels": []
+    },
+    {
+      "number": 2751,
+      "title": "Increase SGLang downstream test coverage in Aiter CI and make Aiter upgrades smoother in the SGLang repo.",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-04-16T05:15:49Z",
+      "updated_at": "2026-05-27T08:01:23Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2751",
+      "labels": [
+        "enhancement",
+        "frameworks-devops",
+        "ci:sglang"
+      ]
+    },
+    {
+      "number": 2516,
+      "title": "Triton RMSNorm 5-10x slower than FlashInfer at batch<=1024 on MI355X",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-03-28T04:58:29Z",
+      "updated_at": "2026-05-26T06:54:18Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2516",
+      "labels": []
+    },
+    {
+      "number": 3291,
+      "title": "[MLA] Kimi-Linear-48B-A3B incoherent in cudagraph mode on vLLM 0.19 + ROCm AITER MLA",
+      "author": "ChuanLi1101",
+      "state": "open",
+      "created_at": "2026-05-20T21:36:08Z",
+      "updated_at": "2026-05-20T22:04:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3291",
+      "labels": [
+        "bug"
+      ]
     },
     {
       "number": 3227,
@@ -42,16 +565,6 @@
       "labels": []
     },
     {
-      "number": 3202,
-      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
-      "author": "peymanr",
-      "state": "open",
-      "created_at": "2026-05-14T20:59:38Z",
-      "updated_at": "2026-05-15T06:17:10Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3202",
-      "labels": []
-    },
-    {
       "number": 3207,
       "title": "[Issue]: fused_qk_rmsnorm renamed to private _fused_qk_rmsnorm without deprecation (PR #2958)",
       "author": "rbrugaro-amd",
@@ -60,58 +573,6 @@
       "updated_at": "2026-05-14T22:24:03Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3207",
       "labels": []
-    },
-    {
-      "number": 3195,
-      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
-      "author": "peymanr",
-      "state": "open",
-      "created_at": "2026-05-14T19:28:25Z",
-      "updated_at": "2026-05-14T20:08:05Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3195",
-      "labels": []
-    },
-    {
-      "number": 3193,
-      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
-      "author": "peymanr",
-      "state": "open",
-      "created_at": "2026-05-14T19:05:16Z",
-      "updated_at": "2026-05-14T19:05:16Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3193",
-      "labels": []
-    },
-    {
-      "number": 3192,
-      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
-      "author": "peymanr",
-      "state": "open",
-      "created_at": "2026-05-14T18:39:51Z",
-      "updated_at": "2026-05-14T18:39:51Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3192",
-      "labels": []
-    },
-    {
-      "number": 3191,
-      "title": "[RFC] MiniMax-M2.5 FP8 \u2014 Marathon Optimized (MI355X)",
-      "author": "peymanr",
-      "state": "open",
-      "created_at": "2026-05-14T18:31:05Z",
-      "updated_at": "2026-05-14T18:31:05Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3191",
-      "labels": []
-    },
-    {
-      "number": 3177,
-      "title": "[v0.1.14 blocker] PR #2958 broke aiter.fused_qk_rmsnorm public API for ATOM positional callers",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-05-14T00:58:48Z",
-      "updated_at": "2026-05-14T02:37:48Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3177",
-      "labels": [
-        "bug"
-      ]
     },
     {
       "number": 3172,
@@ -145,20 +606,6 @@
         "ci:infra",
         "transient",
         "ci-failure"
-      ]
-    },
-    {
-      "number": 2751,
-      "title": "Increase SGLang downstream test coverage in Aiter CI and make Aiter upgrades smoother in the SGLang repo.",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-04-16T05:15:49Z",
-      "updated_at": "2026-05-11T15:03:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2751",
-      "labels": [
-        "enhancement",
-        "frameworks-devops",
-        "ci:sglang"
       ]
     },
     {
@@ -363,19 +810,6 @@
       "labels": []
     },
     {
-      "number": 2828,
-      "title": "add tuning daily test",
-      "author": "yzhou103",
-      "state": "open",
-      "created_at": "2026-04-21T07:15:45Z",
-      "updated_at": "2026-04-21T07:17:12Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2828",
-      "labels": [
-        "enhancement",
-        "frameworks-devops"
-      ]
-    },
-    {
       "number": 2780,
       "title": "[Issue]: torch_compile_guard defaults to mutates_args=\"unknown\", causing torch.compile crash for gemm_a4w4",
       "author": "ColinZ22",
@@ -383,16 +817,6 @@
       "created_at": "2026-04-17T18:41:16Z",
       "updated_at": "2026-04-20T18:33:47Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2780",
-      "labels": []
-    },
-    {
-      "number": 2821,
-      "title": "[MLA] Missing gqa_ratio=8 kernels in mla_decode_stage1_asm_fwd (blocks GLM-5 HiSparse on MI355X TP=8)",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-04-20T17:13:57Z",
-      "updated_at": "2026-04-20T17:13:57Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2821",
       "labels": []
     },
     {
@@ -406,26 +830,6 @@
       "labels": [
         "High Priority"
       ]
-    },
-    {
-      "number": 2768,
-      "title": "[Bug] uint32 offset overflow in MLA decode ASM kernel for seqlen > 8M",
-      "author": "ChuanLi1101",
-      "state": "open",
-      "created_at": "2026-04-16T22:45:49Z",
-      "updated_at": "2026-04-19T00:20:47Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2768",
-      "labels": []
-    },
-    {
-      "number": 2760,
-      "title": "[Feature]: Add MLA decode ASM kernels for qseqlen > 4 to enable larger speculative decoding draft tokens",
-      "author": "larryli2-amd",
-      "state": "open",
-      "created_at": "2026-04-16T10:37:59Z",
-      "updated_at": "2026-04-16T10:41:40Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2760",
-      "labels": []
     },
     {
       "number": 2752,
@@ -600,16 +1004,6 @@
       "created_at": "2026-03-29T04:23:41Z",
       "updated_at": "2026-03-29T04:23:41Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2519",
-      "labels": []
-    },
-    {
-      "number": 2516,
-      "title": "Triton RMSNorm 5-10x slower than FlashInfer at batch<=1024 on MI355X",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-03-28T04:58:29Z",
-      "updated_at": "2026-03-28T04:58:29Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2516",
       "labels": []
     },
     {
@@ -1098,16 +1492,6 @@
       "created_at": "2026-03-02T19:17:05Z",
       "updated_at": "2026-03-02T19:17:05Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2153",
-      "labels": []
-    },
-    {
-      "number": 2054,
-      "title": "[Feature]: Migrate Python bindings from pybind11 to apache-tvm-ffi",
-      "author": "carlushuang",
-      "state": "open",
-      "created_at": "2026-02-16T14:24:47Z",
-      "updated_at": "2026-02-27T16:46:29Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2054",
       "labels": []
     },
     {

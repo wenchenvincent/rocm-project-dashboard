@@ -1,101 +1,101 @@
 {
-  "collected_at": "2026-05-20T10:41:32Z",
+  "collected_at": "2026-07-11T09:15:02Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 17,
-      "merged": 16,
-      "closed": 3
+      "opened": 21,
+      "merged": 12,
+      "closed": 1
     },
     "last_week": {
-      "opened": 34,
-      "merged": 26,
-      "closed": 3
+      "opened": 18,
+      "merged": 12,
+      "closed": 1
     },
-    "median_time_to_merge_hours": 75.6,
-    "merge_count": 53,
-    "stale_prs": 32
+    "median_time_to_merge_hours": 165.7,
+    "merge_count": 37,
+    "stale_prs": 53
   },
   "contributors": {
-    "active_this_week": 27,
-    "total_contributors": 44,
+    "active_this_week": 17,
+    "total_contributors": 50,
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 48,
-        "prs_merged": 18,
-        "commits": 13
+        "prs_submitted": 52,
+        "prs_merged": 24,
+        "commits": 16
       },
       {
-        "author": "shivadbhavsar",
-        "prs_submitted": 16,
+        "author": "TedThemistokleous",
+        "prs_submitted": 13,
         "prs_merged": 11,
         "commits": 8
       },
       {
-        "author": "causten",
-        "prs_submitted": 14,
-        "prs_merged": 12,
-        "commits": 11
-      },
-      {
-        "author": "TedThemistokleous",
-        "prs_submitted": 12,
-        "prs_merged": 4,
-        "commits": 1
-      },
-      {
         "author": "CharlieL7",
-        "prs_submitted": 11,
-        "prs_merged": 8,
+        "prs_submitted": 10,
+        "prs_merged": 6,
         "commits": 6
       },
       {
-        "author": "apwojcik",
+        "author": "eddieliao",
+        "prs_submitted": 10,
+        "prs_merged": 6,
+        "commits": 2
+      },
+      {
+        "author": "shivadbhavsar",
         "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 4
+        "prs_merged": 3,
+        "commits": 2
       },
       {
         "author": "klin2024",
         "prs_submitted": 7,
-        "prs_merged": 2,
+        "prs_merged": 3,
         "commits": 2
       },
       {
-        "author": "ahsan-ca",
-        "prs_submitted": 7,
-        "prs_merged": 1,
+        "author": "causten",
+        "prs_submitted": 6,
+        "prs_merged": 4,
+        "commits": 4
+      },
+      {
+        "author": "kahmed10",
+        "prs_submitted": 6,
+        "prs_merged": 5,
+        "commits": 4
+      },
+      {
+        "author": "urpetkov-amd",
+        "prs_submitted": 6,
+        "prs_merged": 6,
         "commits": 1
       },
       {
-        "author": "eddieliao",
-        "prs_submitted": 6,
-        "prs_merged": 4,
-        "commits": 3
-      },
-      {
-        "author": "lakhinderwalia",
-        "prs_submitted": 4,
-        "prs_merged": 0,
+        "author": "turneram",
+        "prs_submitted": 5,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
-    "bus_factor": 3
+    "bus_factor": 4
   },
   "issue_health": {
-    "total_open": 241,
+    "total_open": 236,
     "opened_this_week": 1,
-    "closed_this_week": 0,
-    "unanswered": 125
+    "closed_this_week": 1,
+    "unanswered": 126
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 15.8,
-    "avg_interval_days": 39.8,
+    "days_since_last": 43.7,
+    "avg_interval_days": 31.7,
     "total_releases": 5,
-    "latest_tag": "rocm-7.2.3"
+    "latest_tag": "rocm-7.2.4"
   }
 }

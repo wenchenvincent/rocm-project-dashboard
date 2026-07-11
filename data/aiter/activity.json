@@ -1,101 +1,101 @@
 {
-  "collected_at": "2026-05-20T10:42:07Z",
+  "collected_at": "2026-07-11T09:15:30Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 102,
-      "merged": 59,
-      "closed": 30
+      "opened": 108,
+      "merged": 67,
+      "closed": 22
     },
     "last_week": {
-      "opened": 105,
-      "merged": 72,
-      "closed": 14
+      "opened": 99,
+      "merged": 67,
+      "closed": 8
     },
-    "median_time_to_merge_hours": 24.3,
-    "merge_count": 132,
-    "stale_prs": 159
+    "median_time_to_merge_hours": 26.5,
+    "merge_count": 136,
+    "stale_prs": 14
   },
   "contributors": {
-    "active_this_week": 92,
-    "total_contributors": 190,
+    "active_this_week": 100,
+    "total_contributors": 206,
     "top_contributors": [
+      {
+        "author": "gyohuangxin",
+        "prs_submitted": 14,
+        "prs_merged": 4,
+        "commits": 21
+      },
       {
         "author": "sunway513",
         "prs_submitted": 14,
-        "prs_merged": 1,
-        "commits": 9
+        "prs_merged": 0,
+        "commits": 0
       },
       {
-        "author": "gyohuangxin",
+        "author": "carlushuang",
         "prs_submitted": 13,
-        "prs_merged": 7,
-        "commits": 40
+        "prs_merged": 1,
+        "commits": 4
       },
       {
         "author": "k50112113",
-        "prs_submitted": 8,
-        "prs_merged": 3,
-        "commits": 4
-      },
-      {
-        "author": "XiaobingSuper",
-        "prs_submitted": 8,
+        "prs_submitted": 11,
         "prs_merged": 5,
-        "commits": 12
-      },
-      {
-        "author": "ChuanLi1101",
-        "prs_submitted": 8,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "zufayu",
-        "prs_submitted": 8,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "amd-ruitang3",
-        "prs_submitted": 7,
-        "prs_merged": 1,
-        "commits": 6
+        "commits": 19
       },
       {
         "author": "Boss2002n",
-        "prs_submitted": 6,
+        "prs_submitted": 10,
+        "prs_merged": 3,
+        "commits": 6
+      },
+      {
+        "author": "ganyi1996ppo",
+        "prs_submitted": 8,
+        "prs_merged": 0,
+        "commits": 4
+      },
+      {
+        "author": "yzhou103",
+        "prs_submitted": 7,
+        "prs_merged": 4,
+        "commits": 11
+      },
+      {
+        "author": "ChuanLi1101",
+        "prs_submitted": 7,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "yzhou103",
-        "prs_submitted": 6,
-        "prs_merged": 1,
-        "commits": 13
+        "author": "yhl-amd",
+        "prs_submitted": 7,
+        "prs_merged": 4,
+        "commits": 8
       },
       {
-        "author": "ganyi1996ppo",
+        "author": "kudomcho",
         "prs_submitted": 6,
         "prs_merged": 0,
-        "commits": 4
+        "commits": 0
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 13
   },
   "issue_health": {
-    "total_open": 184,
-    "opened_this_week": 12,
-    "closed_this_week": 5,
-    "unanswered": 68
+    "total_open": 222,
+    "opened_this_week": 4,
+    "closed_this_week": 7,
+    "unanswered": 92
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 5.5,
-    "avg_interval_days": 4.9,
+    "days_since_last": 6.7,
+    "avg_interval_days": 3.6,
     "total_releases": 5,
-    "latest_tag": "v0.1.14-rc0"
+    "latest_tag": "v0.1.17-rc0"
   }
 }

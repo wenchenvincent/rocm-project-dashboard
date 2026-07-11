@@ -1,72 +1,48 @@
 {
-  "collected_at": "2026-05-20T10:41:21Z",
+  "collected_at": "2026-07-11T09:14:54Z",
   "project": "pytorch",
   "repo": "pytorch/pytorch",
   "pr_velocity": {
     "this_week": {
-      "opened": 29,
-      "merged": 4,
-      "closed": 3
+      "opened": 14,
+      "merged": 2,
+      "closed": 0
     },
     "last_week": {
-      "opened": 7,
+      "opened": 2,
       "merged": 0,
       "closed": 0
     },
-    "median_time_to_merge_hours": 728.6,
-    "merge_count": 44,
+    "median_time_to_merge_hours": 740.8,
+    "merge_count": 47,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 41,
-    "total_contributors": 47,
+    "active_this_week": 30,
+    "total_contributors": 38,
     "top_contributors": [
       {
         "author": "jansel",
-        "prs_submitted": 7,
+        "prs_submitted": 20,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "jeffdaily",
+        "author": "malfet",
         "prs_submitted": 5,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "naromero77amd",
-        "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "etaf",
-        "prs_submitted": 3,
-        "prs_merged": 1,
+        "prs_merged": 5,
         "commits": 0
       },
       {
         "author": "atalman",
-        "prs_submitted": 3,
-        "prs_merged": 3,
+        "prs_submitted": 4,
+        "prs_merged": 4,
         "commits": 0
       },
       {
-        "author": "khushi-411",
+        "author": "k-artem",
         "prs_submitted": 2,
         "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "umechand-amd",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "pragupta",
-        "prs_submitted": 2,
-        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -76,54 +52,78 @@
         "commits": 0
       },
       {
-        "author": "rraminen",
+        "author": "chinmaydk99",
         "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "tvukovic-amd",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "galv",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "Camyll",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "Flamefire",
+        "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
       }
     ],
-    "bus_factor": 3
+    "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 57,
-    "opened_this_week": 29,
-    "closed_this_week": 334,
+    "total_open": 45,
+    "opened_this_week": 18,
+    "closed_this_week": 183,
     "unanswered": 0
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 0,
-      "failed": 11,
-      "success_rate": 0.0
+      "succeeded": 9,
+      "failed": 6,
+      "success_rate": 45.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 8,
-      "failed": 8,
-      "success_rate": 40.0
+      "succeeded": 11,
+      "failed": 6,
+      "success_rate": 55.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 60.5,
-      "p90_minutes": 327.4,
+      "median_minutes": 203.9,
+      "p90_minutes": 392.0,
       "min_minutes": 0.1,
-      "max_minutes": 335.6
+      "max_minutes": 478.2
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 167.3,
-      "p90_minutes": 278.4,
-      "min_minutes": 3.5,
-      "max_minutes": 288.3
+      "median_minutes": 221.1,
+      "p90_minutes": 297.8,
+      "min_minutes": 0.1,
+      "max_minutes": 298.1
     }
   },
   "release_cadence": {
-    "days_since_last": 6.7,
-    "avg_interval_days": 52.5,
+    "days_since_last": 2.6,
+    "avg_interval_days": 42.0,
     "total_releases": 5,
-    "latest_tag": "v2.12.0"
+    "latest_tag": "v2.13.0"
   }
 }

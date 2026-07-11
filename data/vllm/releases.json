@@ -1,39 +1,39 @@
 {
-  "collected_at": "2026-05-20T10:40:16Z",
+  "collected_at": "2026-07-11T09:14:02Z",
   "releases": [
+    {
+      "tag_name": "v0.24.0",
+      "name": "v0.24.0",
+      "published_at": "2026-06-29T19:41:59Z",
+      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.24.0",
+      "prerelease": false
+    },
+    {
+      "tag_name": "v0.23.0",
+      "name": "v0.23.0",
+      "published_at": "2026-06-15T05:27:20Z",
+      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+      "prerelease": false
+    },
+    {
+      "tag_name": "v0.22.1",
+      "name": "v0.22.1",
+      "published_at": "2026-06-05T10:10:00Z",
+      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1",
+      "prerelease": false
+    },
+    {
+      "tag_name": "v0.22.0",
+      "name": "v0.22.0",
+      "published_at": "2026-05-29T10:28:13Z",
+      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0",
+      "prerelease": false
+    },
     {
       "tag_name": "v0.21.0",
       "name": "v0.21.0",
       "published_at": "2026-05-15T08:44:26Z",
       "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v0.20.2",
-      "name": "v0.20.2",
-      "published_at": "2026-05-10T07:37:57Z",
-      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.2",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v0.20.1",
-      "name": "v0.20.1",
-      "published_at": "2026-05-04T10:36:26Z",
-      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v0.20.0",
-      "name": "v0.20.0",
-      "published_at": "2026-04-27T21:20:28Z",
-      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.0",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v0.19.1",
-      "name": "v0.19.1",
-      "published_at": "2026-04-18T05:44:42Z",
-      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.19.1",
       "prerelease": false
     }
   ]

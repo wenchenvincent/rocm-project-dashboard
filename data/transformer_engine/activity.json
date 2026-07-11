@@ -1,101 +1,101 @@
 {
-  "collected_at": "2026-05-20T10:42:56Z",
+  "collected_at": "2026-07-11T09:16:21Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 6,
+      "opened": 10,
       "merged": 1,
       "closed": 1
     },
     "last_week": {
-      "opened": 9,
-      "merged": 4,
+      "opened": 4,
+      "merged": 5,
       "closed": 0
     },
-    "median_time_to_merge_hours": 151.4,
-    "merge_count": 5,
-    "stale_prs": 12
+    "median_time_to_merge_hours": 325.2,
+    "merge_count": 6,
+    "stale_prs": 22
   },
   "contributors": {
-    "active_this_week": 7,
-    "total_contributors": 17,
+    "active_this_week": 10,
+    "total_contributors": 23,
     "top_contributors": [
       {
-        "author": "ipanfilo",
-        "prs_submitted": 19,
-        "prs_merged": 17,
-        "commits": 3
-      },
-      {
         "author": "Micky774",
-        "prs_submitted": 17,
-        "prs_merged": 12,
-        "commits": 7
-      },
-      {
-        "author": "matthiasdiener",
-        "prs_submitted": 15,
-        "prs_merged": 8,
+        "prs_submitted": 27,
+        "prs_merged": 17,
         "commits": 4
       },
       {
-        "author": "alextmagro",
-        "prs_submitted": 10,
-        "prs_merged": 8,
-        "commits": 2
+        "author": "matthiasdiener",
+        "prs_submitted": 21,
+        "prs_merged": 16,
+        "commits": 7
+      },
+      {
+        "author": "ipanfilo",
+        "prs_submitted": 15,
+        "prs_merged": 14,
+        "commits": 5
       },
       {
         "author": "VeeraRajasekhar",
-        "prs_submitted": 10,
-        "prs_merged": 5,
-        "commits": 3
+        "prs_submitted": 12,
+        "prs_merged": 4,
+        "commits": 16
       },
       {
-        "author": "sudhu2k",
-        "prs_submitted": 9,
-        "prs_merged": 6,
-        "commits": 0
-      },
-      {
-        "author": "wangye805",
-        "prs_submitted": 8,
-        "prs_merged": 5,
-        "commits": 1
+        "author": "alextmagro",
+        "prs_submitted": 11,
+        "prs_merged": 10,
+        "commits": 7
       },
       {
         "author": "aris134",
-        "prs_submitted": 7,
-        "prs_merged": 4,
+        "prs_submitted": 10,
+        "prs_merged": 9,
+        "commits": 3
+      },
+      {
+        "author": "AllenFarcas",
+        "prs_submitted": 5,
+        "prs_merged": 3,
         "commits": 2
       },
       {
-        "author": "sarthak-amd",
-        "prs_submitted": 6,
-        "prs_merged": 4,
+        "author": "sudhu2k",
+        "prs_submitted": 5,
+        "prs_merged": 3,
         "commits": 1
       },
       {
         "author": "leo-automation",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 1
+        "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "wangye805",
+        "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 0
       }
     ],
     "bus_factor": 3
   },
   "issue_health": {
-    "total_open": 9,
-    "opened_this_week": 0,
-    "closed_this_week": 0,
+    "total_open": 7,
+    "opened_this_week": 1,
+    "closed_this_week": 1,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 48.7,
-    "avg_interval_days": 47.2,
+    "days_since_last": 37.5,
+    "avg_interval_days": 47.0,
     "total_releases": 5,
-    "latest_tag": "v2.8_rocm"
+    "latest_tag": "v2.10_rocm"
   }
 }

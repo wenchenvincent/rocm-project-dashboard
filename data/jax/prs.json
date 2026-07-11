@@ -1,19 +1,499 @@
 {
-  "collected_at": "2026-05-20T10:40:01Z",
+  "collected_at": "2026-07-11T09:13:52Z",
   "prs": [
+    {
+      "number": 37475,
+      "title": "[ROCm] Move ROCm Bazel presubmit workflow to 32-bit mode.",
+      "author": "tsrw2048",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-07T17:34:13Z",
+      "updated_at": "2026-07-10T22:42:59Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37475",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38490,
+      "title": "[ROCm] Allow XLA_PYTHON_CLIENT_ALLOCATOR=address",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-15T23:04:01Z",
+      "updated_at": "2026-07-10T22:37:51Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38490",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39074,
+      "title": "[ROCm][Pallas] Skip fused attention fwd tests that exceed device resources",
+      "author": "tsrw2048",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-10T20:29:37Z",
+      "updated_at": "2026-07-10T20:54:51Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39074",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38884,
+      "title": "[ROCm] Update rules_ml_toolchain as well as xla refs",
+      "author": "alekstheod",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-01T12:30:06Z",
+      "updated_at": "2026-07-10T15:00:12Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38884",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39038,
+      "title": "[pallas:triton] Resolve ROCm gfx arch from the device ISA",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T19:29:24Z",
+      "updated_at": "2026-07-09T20:13:35Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39038",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 38808,
+      "title": "[ROCm] Add blocking PR gate with a reduced set of tests",
+      "author": "mminutoli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-26T21:29:31Z",
+      "updated_at": "2026-07-07T14:29:42Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38808",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "CI",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38950,
+      "title": "[ROCm] Fix PgleTest.testAutoPgle expected fdo profile counts",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-06T17:17:48Z",
+      "updated_at": "2026-07-06T20:31:05Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38950",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38862,
+      "title": "[ROCm] Skip flaky approx_top_k and Welch tests on ROCm",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-30T03:58:54Z",
+      "updated_at": "2026-07-06T18:56:52Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38862",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38824,
+      "title": "[ROCm] Preserve pinned_host memory kind across DLPack round-trip",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-28T04:37:52Z",
+      "updated_at": "2026-07-06T18:07:29Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38824",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38493,
+      "title": "[ROCm] CI: use address allocator for pytest",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-16T03:55:22Z",
+      "updated_at": "2026-07-06T17:39:10Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38493",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38803,
+      "title": "[ROCm] Add expanded target set for ROCm",
+      "author": "tsrw2048",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T18:57:55Z",
+      "updated_at": "2026-06-29T13:10:59Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38803",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 38810,
+      "title": "[ROCm] Add TheRock latest to nightly and continuous CI workflows",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T22:36:22Z",
+      "updated_at": "2026-06-26T22:37:36Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38810",
+      "labels": [
+        "CI",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38663,
+      "title": "Consolidate AMD GPU (ROCm) installation documentation",
+      "author": "JehandadKhan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-22T17:00:15Z",
+      "updated_at": "2026-06-26T21:31:14Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38663",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38604,
+      "title": "[ROCm] Add blocking Bazel PR gate and file-driven test selection",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-20T02:46:34Z",
+      "updated_at": "2026-06-26T19:22:52Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38604",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 38666,
+      "title": "[ROCm] Update ROCm runner labels to new labels",
+      "author": "psanal35",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-22T18:16:13Z",
+      "updated_at": "2026-06-22T21:55:04Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38666",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38558,
+      "title": "Try to resolve test failure on ROCM.",
+      "author": "copybara-service[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-18T10:18:00Z",
+      "updated_at": "2026-06-18T11:00:21Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38558",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 37053,
+      "title": "[ROCm] Fix env var and backend factory leak in xla_bridge_test",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-21T21:37:37Z",
+      "updated_at": "2026-06-16T03:09:20Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37053",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38478,
+      "title": "[ROCm] Skip testConvGeneralDilated on ROCm",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-15T16:53:54Z",
+      "updated_at": "2026-06-15T17:51:03Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38478",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38296,
+      "title": "[ROCm] Bypass hipSOLVER for Cholesky: route `jnp.linalg.cholesky` directly to rocsolver",
+      "author": "cj401-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-09T12:03:18Z",
+      "updated_at": "2026-06-15T08:52:39Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38296",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 38030,
+      "title": "Skip ROCm plugin discovery when JAX_PLATFORMS excludes ROCm",
+      "author": "factnn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-28T07:43:34Z",
+      "updated_at": "2026-06-14T16:57:26Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38030",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 38276,
+      "title": "[ROCm] Bake TheRock-aware RUNPATH into wheels and fix /opt/rocm-less CI",
+      "author": "gulsumgudukbay",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-08T21:41:50Z",
+      "updated_at": "2026-06-11T18:25:39Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38276",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38372,
+      "title": "[ROCm][Pallas] Skip fused attention bwd tests that exceed device resources",
+      "author": "mminutoli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-10T18:50:08Z",
+      "updated_at": "2026-06-10T20:48:31Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38372",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU",
+        "GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38352,
+      "title": "[ROCm] Reduce number of jobs for jax builds under rocm rbe",
+      "author": "alekstheod",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-10T14:30:23Z",
+      "updated_at": "2026-06-10T17:42:13Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38352",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38308,
+      "title": "[ROCm] Update rules_ml_toolchain refs",
+      "author": "alekstheod",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-09T16:29:18Z",
+      "updated_at": "2026-06-10T15:11:23Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38308",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38200,
+      "title": "[ROCm] Remove outdated ROCm skip that depends on ROCm versions < 6.4",
+      "author": "gulsumgudukbay",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-04T17:27:20Z",
+      "updated_at": "2026-06-08T20:53:34Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38200",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38258,
+      "title": "[ROCm] CI improvements for ROCm",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-08T14:05:27Z",
+      "updated_at": "2026-06-08T17:14:36Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38258",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38208,
+      "title": "Use ROCm tag in S3 prefix instead of version",
+      "author": "psanal35",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-04T23:21:05Z",
+      "updated_at": "2026-06-05T18:31:21Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38208",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38205,
+      "title": "[ROCm] xdist: select GPU from runner-allocated ROCR slice",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-04T22:46:40Z",
+      "updated_at": "2026-06-04T23:29:10Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38205",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 37485,
       "title": "[ROCm] Add org-based guards to all CI caller workflows",
       "author": "mminutoli",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-05-07T22:51:20Z",
-      "updated_at": "2026-05-20T00:40:05Z",
+      "updated_at": "2026-06-03T19:37:40Z",
       "html_url": "https://github.com/jax-ml/jax/pull/37485",
       "labels": [
         "kokoro:force-run",
         "pull ready",
         "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 37444,
+      "title": "[ROCm] Version-tier S3 layout, standardized CI job naming, and nightly build workflow",
+      "author": "mminutoli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-07T04:32:23Z",
+      "updated_at": "2026-06-03T18:23:38Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37444",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38146,
+      "title": "Disable more ROCm tests.",
+      "author": "copybara-service[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-03T00:25:49Z",
+      "updated_at": "2026-06-03T00:43:54Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38146",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 38142,
+      "title": "[ROCm] Enable HLO module transform registration for GPU backends",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-02T23:01:47Z",
+      "updated_at": "2026-06-02T23:12:06Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38142",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38065,
+      "title": "[ROCm] Skip complex-GEMM-failing GPU test suites in ROCm CI",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-29T16:04:35Z",
+      "updated_at": "2026-05-29T22:37:13Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38065",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 37977,
+      "title": "[ROCm] Switch to build jax using hermetic sysroot",
+      "author": "alekstheod",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-26T09:13:51Z",
+      "updated_at": "2026-05-29T15:18:33Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37977",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
       ],
       "draft": false
     },
@@ -61,50 +541,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/37071",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 37053,
-      "title": "[ROCm] Fix env var leak in xla_bridge_test register_plugin tests",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T21:37:37Z",
-      "updated_at": "2026-05-15T15:02:12Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37053",
-      "labels": [
-        "AMD GPU"
-      ],
-      "draft": true
-    },
-    {
-      "number": 37444,
-      "title": "[ROCm] Version-tier S3 layout, standardized CI job naming, and nightly build workflow",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-07T04:32:23Z",
-      "updated_at": "2026-05-11T18:30:59Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37444",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 37475,
-      "title": "[ROCm] Move ROCm Bazel presubmit workflow to 32-bit mode.",
-      "author": "tsrw2048",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-07T17:34:13Z",
-      "updated_at": "2026-05-08T23:05:54Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37475",
-      "labels": [
-        "AMD GPU"
-      ],
-      "draft": false
     },
     {
       "number": 35785,
@@ -182,34 +618,6 @@
       "draft": false
     },
     {
-      "number": 36909,
-      "title": "[ROCm] Skip unit tests in `testEighIdentity` because of hipSolver issue.",
-      "author": "tsrw2048",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-16T22:25:12Z",
-      "updated_at": "2026-04-30T15:29:25Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36909",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 37044,
-      "title": "Fix security issues in bazel_rocm.yml identified by zizmor.",
-      "author": "copybara-service[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-21T19:22:12Z",
-      "updated_at": "2026-04-30T03:48:47Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37044",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 37085,
       "title": "Upgrade upstream ROCm CI from 7.2.0 to 7.2.2",
       "author": "Ruturaj4",
@@ -220,147 +628,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/37085",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 37072,
-      "title": "[ROCm] Update rules_ml_toolchain reference",
-      "author": "alekstheod",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-22T06:16:38Z",
-      "updated_at": "2026-04-28T17:43:25Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37072",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 37054,
-      "title": "[ROCm] Override HIP_VISIBLE_DEVICES per ROCm xdist worker",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-21T21:51:55Z",
-      "updated_at": "2026-04-27T17:40:30Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37054",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34722,
-      "title": "[ROCm] ToT ROCm Unit Test Skips",
-      "author": "gulsumgudukbay",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-30T07:48:47Z",
-      "updated_at": "2026-04-21T21:03:01Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34722",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36854,
-      "title": "Pin ROCm JAX dev container image to a specific SHA.",
-      "author": "copybara-service[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-15T23:28:20Z",
-      "updated_at": "2026-04-21T19:34:05Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36854",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 36984,
-      "title": "[ROCm] Skip `tridiagonal_solve_perturbed` code path in eigh unit tests on ROCm",
-      "author": "tsrw2048",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-20T14:36:19Z",
-      "updated_at": "2026-04-21T18:30:14Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36984",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36911,
-      "title": "Fix security issues in download-jax-rocm-wheels action identified by zizmor.",
-      "author": "copybara-service[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-16T23:28:49Z",
-      "updated_at": "2026-04-21T15:56:30Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36911",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 36851,
-      "title": "[ROCm] Split ROCm pytest into single- and multi-accelerator passes",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-15T22:04:11Z",
-      "updated_at": "2026-04-20T18:42:15Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36851",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36981,
-      "title": "[Pallas:GPU] Use is_device_cuda/rocm instead of checking it with test_device_patches in Pallas tests",
-      "author": "copybara-service[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-20T14:33:08Z",
-      "updated_at": "2026-04-20T14:35:31Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36981",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 36982,
-      "title": "[JAX:GPU] Use is_device_cuda/rocm instead of checking it with test_device_patches in JAX tests",
-      "author": "copybara-service[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-20T14:35:16Z",
-      "updated_at": "2026-04-20T14:35:16Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36982",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 36684,
-      "title": "[ROCm] Use CloudFront download for ROCm wheels instead of S3",
-      "author": "psanal35",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-10T20:17:36Z",
-      "updated_at": "2026-04-16T13:24:06Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36684",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
     },
     {
       "number": 36840,
@@ -387,68 +654,6 @@
       "draft": true
     },
     {
-      "number": 36644,
-      "title": "[ROCm] Skip tridiagonal pivot reference tests on ROCm for perturb_singular=False",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-09T15:26:49Z",
-      "updated_at": "2026-04-09T17:34:49Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36644",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36522,
-      "title": "[ROCm] Added fixes to Bazel ROCm CI to use proper wheels.",
-      "author": "tsrw2048",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-06T01:54:40Z",
-      "updated_at": "2026-04-09T15:56:50Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36522",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36621,
-      "title": "[ROCm] Accept manylinux_2_28 wheels in auditwheel validation",
-      "author": "psanal35",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-09T04:42:08Z",
-      "updated_at": "2026-04-09T14:03:24Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36621",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36355,
-      "title": "[ROCm] fix: wire up clone_main_xla for ROCm builds and tests",
-      "author": "mminutoli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-31T00:40:34Z",
-      "updated_at": "2026-04-08T00:15:03Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36355",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
       "number": 36545,
       "title": "[ROCm] Added stricter checks to detect non-numeric strings in pallas lowering.",
       "author": "tsrw2048",
@@ -458,56 +663,6 @@
       "updated_at": "2026-04-07T13:57:55Z",
       "html_url": "https://github.com/jax-ml/jax/pull/36545",
       "labels": [
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36492,
-      "title": "[ROCm] Skip failing ROCm CI tests",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-03T16:44:24Z",
-      "updated_at": "2026-04-03T19:16:39Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36492",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36426,
-      "title": "[ROCm] Restore default SVD algorithms on ROCm.",
-      "author": "tsrw2048",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-01T15:16:01Z",
-      "updated_at": "2026-04-03T17:13:05Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36426",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 35534,
-      "title": "[ROCm] bring gesdd for computing SVD on ROCm",
-      "author": "cj401-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-02T21:16:00Z",
-      "updated_at": "2026-03-30T16:28:23Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35534",
-      "labels": [
-        "enhancement",
-        "performance",
-        "kokoro:force-run",
-        "pull ready",
-        "jax.numpy",
         "AMD GPU"
       ],
       "draft": false
@@ -543,110 +698,6 @@
       "draft": false
     },
     {
-      "number": 34971,
-      "title": "[ROCm] fix the performance issue when n=1 or 2",
-      "author": "cj401-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-10T21:50:42Z",
-      "updated_at": "2026-03-26T23:20:17Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34971",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU",
-        "GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34135,
-      "title": "[ROCm] update to test if there are GPU events when doing profiling on\u2026",
-      "author": "cj401-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-02T18:02:18Z",
-      "updated_at": "2026-03-26T23:11:12Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34135",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36267,
-      "title": "Bump rules_ml_toolchain to version with ROCM/SYCL (OneAPI) changes",
-      "author": "copybara-service[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-26T20:53:43Z",
-      "updated_at": "2026-03-26T22:45:28Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36267",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 35995,
-      "title": "[ROCm] Add lowering for ScaledMatmul, ScaledDot",
-      "author": "shurale-nkn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-18T13:41:17Z",
-      "updated_at": "2026-03-25T18:14:45Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35995",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36055,
-      "title": "[ROCm] Add offload-compress flag to reduce rocm wheel size",
-      "author": "gulsumgudukbay",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T19:02:57Z",
-      "updated_at": "2026-03-23T21:24:15Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36055",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36103,
-      "title": "[ROCm] Use local spawn strategy to force build locally",
-      "author": "alekstheod",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T10:51:05Z",
-      "updated_at": "2026-03-23T13:25:50Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36103",
-      "labels": [
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36056,
-      "title": "[ROCm] Add wheel version suffix support for ROCm post-release builds",
-      "author": "gulsumgudukbay",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T19:07:46Z",
-      "updated_at": "2026-03-20T17:37:17Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36056",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
       "number": 36061,
       "title": "Limit the number of jobs to 30 for ROCm bazel tests",
       "author": "charleshofer",
@@ -657,35 +708,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/36061",
       "labels": [
         "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 36044,
-      "title": "[ROCm] Use dynamic spawn strategy for rocm rbe ci test execution",
-      "author": "alekstheod",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-19T15:34:13Z",
-      "updated_at": "2026-03-19T16:35:57Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36044",
-      "labels": [
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 34702,
-      "title": "[ROCm] Add script for running bazel tests on ROCm",
-      "author": "charleshofer",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-29T16:46:55Z",
-      "updated_at": "2026-03-19T15:00:46Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/34702",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
       ],
       "draft": false
     },

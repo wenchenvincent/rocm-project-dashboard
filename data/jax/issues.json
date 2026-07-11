@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-05-20T10:40:03Z",
+  "collected_at": "2026-07-11T09:13:53Z",
   "issues": [
+    {
+      "number": 37879,
+      "title": "ROCm plugin discovery is slow in large venvs",
+      "author": "nelhage",
+      "state": "open",
+      "created_at": "2026-05-20T21:02:50Z",
+      "updated_at": "2026-05-20T21:02:50Z",
+      "html_url": "https://github.com/jax-ml/jax/issues/37879",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 34667,
       "title": "Enable Nightly CI Phase III: Build PJRT wheel and Plugin using tip of tree",

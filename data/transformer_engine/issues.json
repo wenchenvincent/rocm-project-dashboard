@@ -1,40 +1,30 @@
 {
-  "collected_at": "2026-05-20T10:40:57Z",
+  "collected_at": "2026-07-11T09:14:37Z",
   "issues": [
+    {
+      "number": 665,
+      "title": "Numerical accuracy issue with Triton MXFP4 kernel with respect to quantization",
+      "author": "amital-amd",
+      "state": "open",
+      "created_at": "2026-07-08T05:40:35Z",
+      "updated_at": "2026-07-08T05:43:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/issues/665",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 539,
       "title": "MXFP8 uses logical block size 32, but some ROCm training paths still hard-require `block_len == 128`",
       "author": "ramgandikota",
       "state": "open",
       "created_at": "2026-04-13T23:00:14Z",
-      "updated_at": "2026-04-14T14:05:05Z",
+      "updated_at": "2026-07-01T22:05:24Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/issues/539",
       "labels": [
         "bug",
         "status: triage"
       ]
-    },
-    {
-      "number": 520,
-      "title": "[BUG] gfx1201 (RDNA4 / Radeon AI PRO R9700) not in AITER arch table \u2014 FP8 WMMA silently falls back to FP32",
-      "author": "mohanapgvb",
-      "state": "open",
-      "created_at": "2026-04-06T11:49:01Z",
-      "updated_at": "2026-04-06T15:56:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/issues/520",
-      "labels": [
-        "status: triage"
-      ]
-    },
-    {
-      "number": 396,
-      "title": "ValueError: ROCm is not supported by requested frameworks: ['pytorch']",
-      "author": "AmdSampsa",
-      "state": "open",
-      "created_at": "2025-12-05T14:11:32Z",
-      "updated_at": "2026-03-04T21:54:05Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/issues/396",
-      "labels": []
     },
     {
       "number": 359,
@@ -57,16 +47,6 @@
       "created_at": "2024-10-13T05:03:00Z",
       "updated_at": "2026-02-16T20:26:02Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/issues/73",
-      "labels": []
-    },
-    {
-      "number": 215,
-      "title": "[Issue]: Build system flaws report",
-      "author": "Arech8",
-      "state": "open",
-      "created_at": "2025-06-25T07:37:06Z",
-      "updated_at": "2025-11-19T23:22:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/issues/215",
       "labels": []
     },
     {
