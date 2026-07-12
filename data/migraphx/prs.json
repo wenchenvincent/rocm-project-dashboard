@@ -1,6 +1,56 @@
 {
-  "collected_at": "2026-07-11T09:14:15Z",
+  "collected_at": "2026-07-12T09:41:01Z",
   "prs": [
+    {
+      "number": 4924,
+      "title": "concat: treat fully-unconstrained dynamic dim as a wildcard",
+      "author": "chun-wan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-30T04:54:47Z",
+      "updated_at": "2026-07-12T07:34:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4924",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4616,
+      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-17T16:20:19Z",
+      "updated_at": "2026-07-12T03:24:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4936,
+      "title": "Add conv winograd for gfx12",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-03T18:06:13Z",
+      "updated_at": "2026-07-11T21:52:39Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4936",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4999,
+      "title": "NMS: Early exit ref 0 boxes, add tests for 0 and 1 box edge cases",
+      "author": "mvanhorn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-19T17:15:20Z",
+      "updated_at": "2026-07-11T19:28:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4999",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 4956,
       "title": "Add support for HipGraph",
@@ -85,20 +135,6 @@
       "updated_at": "2026-07-11T01:38:39Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4606",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4936,
-      "title": "Add conv winograd for gfx12",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-03T18:06:13Z",
-      "updated_at": "2026-07-10T21:05:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4936",
-      "labels": [
-        "high priority"
-      ],
       "draft": false
     },
     {
@@ -213,18 +249,6 @@
         "dependencies",
         "python"
       ],
-      "draft": false
-    },
-    {
-      "number": 4999,
-      "title": "NMS: Early exit ref 0 boxes, add tests for 0 and 1 box edge cases",
-      "author": "mvanhorn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-19T17:15:20Z",
-      "updated_at": "2026-07-10T04:46:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4999",
-      "labels": [],
       "draft": false
     },
     {
@@ -421,18 +445,6 @@
       "draft": false
     },
     {
-      "number": 4616,
-      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-17T16:20:19Z",
-      "updated_at": "2026-07-07T15:37:05Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5035,
       "title": "Onnxruntime Weekly Sync 2026-07-03",
       "author": "github-actions[bot]",
@@ -458,18 +470,6 @@
       "created_at": "2026-04-21T01:40:19Z",
       "updated_at": "2026-07-03T04:38:19Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4809",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4924,
-      "title": "concat: treat fully-unconstrained dynamic dim as a wildcard",
-      "author": "chun-wan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-30T04:54:47Z",
-      "updated_at": "2026-07-02T18:39:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4924",
       "labels": [],
       "draft": false
     },

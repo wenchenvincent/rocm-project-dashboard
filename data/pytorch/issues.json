@@ -1,6 +1,117 @@
 {
-  "collected_at": "2026-07-11T09:13:49Z",
+  "collected_at": "2026-07-12T09:40:37Z",
   "issues": [
+    {
+      "number": 182286,
+      "title": "[Bug] CUDA caching allocator unable to satisfy 3-18 GiB contiguous allocation despite 50+ GiB free on RTX PRO 6000 Blackwell + WSL2 (16 GiB hidden CUDA overhead)",
+      "author": "noMugop",
+      "state": "open",
+      "created_at": "2026-05-04T13:44:30Z",
+      "updated_at": "2026-07-11T22:39:04Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/182286",
+      "labels": [
+        "module: cuda",
+        "module: memory usage",
+        "triaged",
+        "has workaround",
+        "module: wsl",
+        "module: CUDACachingAllocator",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 164124,
+      "title": "torch.compile compiles multiple Triton autotune kernels, but uses the wrong ones",
+      "author": "dxqb",
+      "state": "open",
+      "created_at": "2025-09-29T10:19:35Z",
+      "updated_at": "2026-07-11T16:50:21Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/164124",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: dynamic shapes",
+        "module: user triton"
+      ]
+    },
+    {
+      "number": 189618,
+      "title": "LSTM forward raises `miopenStatusUnknownError` on gfx1100 (RX 7900 XTX) with 2.9.1+rocm6.4 wheels",
+      "author": "matt-shearing",
+      "state": "open",
+      "created_at": "2026-07-11T14:00:02Z",
+      "updated_at": "2026-07-11T14:02:42Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/189618",
+      "labels": [
+        "triage review",
+        "module: rnn",
+        "module: rocm",
+        "has workaround",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 147170,
+      "title": "[BUG][PyTorch 2.0 Export][quant]:get_source_partitions() may return different matches with same input graph",
+      "author": "GodHforever",
+      "state": "open",
+      "created_at": "2025-02-14T01:53:46Z",
+      "updated_at": "2026-07-11T10:59:49Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/147170",
+      "labels": [
+        "oncall: quantization",
+        "good first issue",
+        "oncall: pt2",
+        "oncall: export"
+      ]
+    },
+    {
+      "number": 171659,
+      "title": "[RFC] RISC-V Architecture Support Roadmap for PyTorch",
+      "author": "fernchen",
+      "state": "open",
+      "created_at": "2026-01-04T03:29:29Z",
+      "updated_at": "2026-07-11T10:49:31Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/171659",
+      "labels": [
+        "module: build",
+        "triaged",
+        "module: risc-v"
+      ]
+    },
+    {
+      "number": 180807,
+      "title": "[inductor][static launcher] Missing runtime dtype validation for pointer-typed Triton args can silently produce incorrect results",
+      "author": "Thinkin999",
+      "state": "open",
+      "created_at": "2026-04-20T05:06:15Z",
+      "updated_at": "2026-07-11T09:35:43Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180807",
+      "labels": [
+        "triaged",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged",
+        "repro:agent:h100:repro_success:reproduced"
+      ]
+    },
+    {
+      "number": 178511,
+      "title": "[torch.compile] allow_in_graph called inside compiled function causes Unsupported error",
+      "author": "Blooming-Tree",
+      "state": "open",
+      "created_at": "2026-03-26T15:09:05Z",
+      "updated_at": "2026-07-11T09:25:01Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/178511",
+      "labels": [
+        "triaged",
+        "enhancement",
+        "oncall: pt2",
+        "module: dynamo",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 189126,
       "title": "Report a bug, as requested by the error message",
@@ -471,36 +582,6 @@
       ]
     },
     {
-      "number": 183686,
-      "title": "[triton-cpu] All HuggingFace models of the dynamo benchmark suites failed with the latest triton-cpu backend",
-      "author": "LifengWang",
-      "state": "open",
-      "created_at": "2026-05-14T08:52:10Z",
-      "updated_at": "2026-07-09T19:50:41Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/183686",
-      "labels": [
-        "module: cpu",
-        "triaged",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 176662,
-      "title": "C++20 Rollout Tracking",
-      "author": "r-barnes",
-      "state": "open",
-      "created_at": "2026-03-05T23:55:56Z",
-      "updated_at": "2026-07-09T19:21:19Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/176662",
-      "labels": [
-        "module: cpp",
-        "triaged",
-        "topic: improvements"
-      ]
-    },
-    {
       "number": 174507,
       "title": "PyTorch Stable ABI support",
       "author": "thiagocrepaldi",
@@ -707,40 +788,6 @@
         "skipped",
         "oncall: pt2",
         "module: inductor"
-      ]
-    },
-    {
-      "number": 189221,
-      "title": "DISABLED test_nested_dict_partial_load (__main__.TestCheckpointer)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-08T01:09:20Z",
-      "updated_at": "2026-07-08T01:09:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/189221",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: distributed checkpointing"
-      ]
-    },
-    {
-      "number": 189189,
-      "title": "Subtraction between two `torch.complex64` tensors fails on modules compiled with `aoti_compile_and_package`",
-      "author": "kvttt",
-      "state": "open",
-      "created_at": "2026-07-07T20:01:55Z",
-      "updated_at": "2026-07-07T22:04:29Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/189189",
-      "labels": [
-        "triaged",
-        "module: complex",
-        "has workaround",
-        "oncall: pt2",
-        "oncall: export",
-        "module: aotinductor",
-        "bot-triaged"
       ]
     }
   ]

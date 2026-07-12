@@ -1,26 +1,14 @@
 {
-  "collected_at": "2026-07-11T09:14:12Z",
+  "collected_at": "2026-07-12T09:40:59Z",
   "prs": [
-    {
-      "number": 10840,
-      "title": "[AMD] Warp-pipeline: add fence_loads flag on warp_pipeline_stage",
-      "author": "zhanglx13",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T07:27:19Z",
-      "updated_at": "2026-07-11T00:32:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10840",
-      "labels": [],
-      "draft": true
-    },
     {
       "number": 10747,
       "title": "[AMD] Fix fp8 e4m3fnuz/e5m2fnuz NaN (0x80) silently decoding to a finite value",
       "author": "Hughshine",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-06-29T07:00:02Z",
-      "updated_at": "2026-07-10T21:52:50Z",
+      "updated_at": "2026-07-12T05:39:21Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10747",
       "labels": [],
       "draft": false
@@ -29,13 +17,37 @@
       "number": 10810,
       "title": "[AMD][TRITON_KERNELS] Improve MXFP4 matmul_ogs config on RDNA",
       "author": "leeliu103",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-07-06T21:01:49Z",
-      "updated_at": "2026-07-10T18:42:27Z",
+      "updated_at": "2026-07-12T01:29:27Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10810",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 10564,
+      "title": "[AMD] Pipeline TDM descriptor stores and scatters in loops",
+      "author": "jerryyin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T14:48:53Z",
+      "updated_at": "2026-07-11T22:54:16Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10564",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10840,
+      "title": "[AMD] Warp-pipeline: add fence_loads flag on warp_pipeline_stage",
+      "author": "zhanglx13",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-10T07:27:19Z",
+      "updated_at": "2026-07-11T16:24:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10840",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 10846,
@@ -518,30 +530,6 @@
       "draft": false
     },
     {
-      "number": 10673,
-      "title": "[AMD] Compensate split soffset in masked buffer OOB sentinel",
-      "author": "panditsa",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-19T05:21:31Z",
-      "updated_at": "2026-06-19T17:24:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10673",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10666,
-      "title": "[AMD] Reconcile unrealized casts unconditionally before make_llir",
-      "author": "jerryyin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-18T16:09:53Z",
-      "updated_at": "2026-06-18T22:23:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10666",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 6714,
       "title": "[DRAFT][AMD][Backend] Enable 2:4 Structured Sparsity for Triton-AMD",
       "author": "SamGinzburg",
@@ -720,6 +708,18 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10020",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 9860,
+      "title": "[AMD] Support per-function PID bounds on TritonIntegerRangeAnalysis (\u2026",
+      "author": "patrick-toulme",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-26T17:10:28Z",
+      "updated_at": "2026-06-17T15:29:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9860",
+      "labels": [],
+      "draft": false
     }
   ]
 }

@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-11T09:14:17Z",
+  "collected_at": "2026-07-12T09:41:04Z",
   "issues": [
+    {
+      "number": 5058,
+      "title": "MIGraphX EP places almost none of a conformer encoder (parakeet-tdt-0.6b-v3 ONNX) - CPU-speed inference",
+      "author": "matt-shearing",
+      "state": "open",
+      "created_at": "2026-07-11T14:00:06Z",
+      "updated_at": "2026-07-11T14:00:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5058",
+      "labels": []
+    },
     {
       "number": 5037,
       "title": "[Feature][ONNX][MIGraphX EP] Offline pre-compilation, bundling, and batch-size-aware loading of `.mxr` artifacts for zero-stall deployment",

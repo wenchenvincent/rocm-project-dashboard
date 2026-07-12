@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-11T09:14:10Z",
+  "collected_at": "2026-07-12T09:40:57Z",
   "issues": [
     {
       "number": 17050,
@@ -7,9 +7,23 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-11T09:02:33Z",
+      "updated_at": "2026-07-12T09:12:58Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 23602,
+      "title": "DeepSeek V4 Roadmap",
+      "author": "fzyzcjy",
+      "state": "open",
+      "created_at": "2026-04-24T03:22:31Z",
+      "updated_at": "2026-07-11T18:45:44Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "roadmap"
+      ]
     },
     {
       "number": 29630,
@@ -186,20 +200,6 @@
       "updated_at": "2026-07-02T23:54:08Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/27937",
       "labels": []
-    },
-    {
-      "number": 23602,
-      "title": "DeepSeek V4 Roadmap",
-      "author": "fzyzcjy",
-      "state": "open",
-      "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-07-01T19:34:02Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "roadmap"
-      ]
     },
     {
       "number": 21302,

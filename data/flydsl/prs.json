@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-07-11T09:14:34Z",
+  "collected_at": "2026-07-12T09:41:20Z",
   "prs": [
+    {
+      "number": 830,
+      "title": "Add 1250 mma scale",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T04:22:41Z",
+      "updated_at": "2026-07-12T09:30:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/830",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 820,
+      "title": "[Kernel] conv3d: parameterize tile size + add autotuner",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T18:03:12Z",
+      "updated_at": "2026-07-12T08:03:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 823,
       "title": "[MoE] Add gelu_tanh activation to MoE stage1 GEMM kernels",
@@ -8,7 +32,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-09T23:19:00Z",
-      "updated_at": "2026-07-11T05:38:02Z",
+      "updated_at": "2026-07-11T14:42:48Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/823",
       "labels": [],
       "draft": false
@@ -112,18 +136,6 @@
       "draft": false
     },
     {
-      "number": 820,
-      "title": "[Kernel] conv3d: parameterize tile size + add autotuner",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T18:03:12Z",
-      "updated_at": "2026-07-08T18:03:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 613,
       "title": "feat(compiler): Add custom LLVM pass pipeline and plugin support to JIT",
       "author": "fsx950223",
@@ -134,18 +146,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/613",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 798,
-      "title": "4wave fp4 gemm opt",
-      "author": "benenzhu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-03T10:23:36Z",
-      "updated_at": "2026-07-08T02:18:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/798",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 757,
@@ -170,18 +170,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/764",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 733,
-      "title": "[Kernel] conv2d: 8-wave double-buffered implicit-GEMM BF16 kernel(gfx950)",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T04:03:25Z",
-      "updated_at": "2026-07-04T06:52:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/733",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 801,
@@ -504,6 +492,18 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 756,
+      "title": "Add fp4_gemm_4wave: 4-wave MXFP4 GEMM kernel for gfx950",
+      "author": "benenzhu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-26T08:21:44Z",
+      "updated_at": "2026-07-12T02:29:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/756",
       "labels": [],
       "draft": false
     },
@@ -1010,18 +1010,6 @@
       "created_at": "2026-06-20T16:25:43Z",
       "updated_at": "2026-06-26T14:45:34Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/711",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 756,
-      "title": "[DRAFT] Add fp4_gemm_4wave: 4-wave MXFP4 GEMM kernel for gfx950",
-      "author": "benenzhu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T08:21:44Z",
-      "updated_at": "2026-06-26T10:35:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/756",
       "labels": [],
       "draft": false
     },

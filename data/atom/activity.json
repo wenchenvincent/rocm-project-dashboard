@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-07-11T09:16:01Z",
+  "collected_at": "2026-07-12T09:42:44Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 91,
+      "opened": 90,
       "merged": 64,
       "closed": 10
     },
     "last_week": {
       "opened": 72,
-      "merged": 49,
-      "closed": 24
+      "merged": 50,
+      "closed": 23
     },
-    "median_time_to_merge_hours": 10.5,
-    "merge_count": 116,
+    "median_time_to_merge_hours": 10.7,
+    "merge_count": 117,
     "stale_prs": 18
   },
   "contributors": {
-    "active_this_week": 46,
-    "total_contributors": 75,
+    "active_this_week": 47,
+    "total_contributors": 76,
     "top_contributors": [
       {
         "author": "PerryZhang01",
@@ -31,7 +31,7 @@
         "author": "carlushuang",
         "prs_submitted": 12,
         "prs_merged": 0,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "JiaoliangYu",
@@ -48,52 +48,52 @@
       {
         "author": "yhl-amd",
         "prs_submitted": 9,
-        "prs_merged": 4,
-        "commits": 9
-      },
-      {
-        "author": "valarLip",
-        "prs_submitted": 9,
-        "prs_merged": 8,
-        "commits": 17
-      },
-      {
-        "author": "zejunchen-zejun",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 11
-      },
-      {
-        "author": "junyyang-amd",
-        "prs_submitted": 8,
-        "prs_merged": 7,
-        "commits": 32
+        "prs_merged": 5,
+        "commits": 10
       },
       {
         "author": "ZhangLirong-amd",
         "prs_submitted": 8,
         "prs_merged": 6,
-        "commits": 14
+        "commits": 13
+      },
+      {
+        "author": "zejunchen-zejun",
+        "prs_submitted": 8,
+        "prs_merged": 5,
+        "commits": 11
+      },
+      {
+        "author": "valarLip",
+        "prs_submitted": 8,
+        "prs_merged": 7,
+        "commits": 17
       },
       {
         "author": "wanzhenchn",
         "prs_submitted": 8,
         "prs_merged": 8,
         "commits": 10
+      },
+      {
+        "author": "whx-sjtu",
+        "prs_submitted": 7,
+        "prs_merged": 3,
+        "commits": 6
       }
     ],
     "bus_factor": 8
   },
   "issue_health": {
     "total_open": 63,
-    "opened_this_week": 6,
-    "closed_this_week": 13,
-    "unanswered": 21
+    "opened_this_week": 7,
+    "closed_this_week": 14,
+    "unanswered": 20
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 6.7,
+    "days_since_last": 7.7,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-07-11T09:14:32Z",
+  "collected_at": "2026-07-12T09:41:17Z",
   "prs": [
+    {
+      "number": 466,
+      "title": "Draft: cco fabric crossnode",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T03:24:57Z",
+      "updated_at": "2026-07-12T06:24:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/466",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 465,
       "title": "feat(ep): add blockwise-FP8 combine to the AsyncLL (low-latency) path",

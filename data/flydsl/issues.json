@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-11T09:14:35Z",
+  "collected_at": "2026-07-12T09:41:20Z",
   "issues": [
+    {
+      "number": 831,
+      "title": "[Feature]: Intra-kernel profiling",
+      "author": "benenzhu",
+      "state": "open",
+      "created_at": "2026-07-12T06:43:41Z",
+      "updated_at": "2026-07-12T06:50:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/831",
+      "labels": []
+    },
     {
       "number": 304,
       "title": "[Feature]: Move benchmark/perf test from test folder to FlyDSL python source",
