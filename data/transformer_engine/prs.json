@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-07-12T09:41:22Z",
+  "collected_at": "2026-07-13T10:47:56Z",
   "prs": [
+    {
+      "number": 660,
+      "title": "Ifu dev 20260706 v2.17",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T16:25:50Z",
+      "updated_at": "2026-07-13T00:57:37Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 625,
       "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
@@ -92,18 +104,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 660,
-      "title": "Ifu dev 20260706 v2.17",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-10T16:00:32Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 668,

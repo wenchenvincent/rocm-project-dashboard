@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-12T09:41:20Z",
+  "collected_at": "2026-07-13T10:47:54Z",
   "issues": [
     {
       "number": 831,
@@ -7,8 +7,18 @@
       "author": "benenzhu",
       "state": "open",
       "created_at": "2026-07-12T06:43:41Z",
-      "updated_at": "2026-07-12T06:50:01Z",
+      "updated_at": "2026-07-13T08:37:25Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/831",
+      "labels": []
+    },
+    {
+      "number": 836,
+      "title": "[Feature]: Function signatures not showing properly",
+      "author": "simondanielsson",
+      "state": "open",
+      "created_at": "2026-07-12T14:31:00Z",
+      "updated_at": "2026-07-12T14:31:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/836",
       "labels": []
     },
     {

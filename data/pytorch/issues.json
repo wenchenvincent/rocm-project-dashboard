@@ -1,6 +1,166 @@
 {
-  "collected_at": "2026-07-12T09:40:37Z",
+  "collected_at": "2026-07-13T10:46:53Z",
   "issues": [
+    {
+      "number": 188890,
+      "title": "Non-deterministic gradients when using torch.compile and PyTorch >= 2.12",
+      "author": "embe-pw",
+      "state": "open",
+      "created_at": "2026-07-03T10:59:38Z",
+      "updated_at": "2026-07-13T08:43:11Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/188890",
+      "labels": [
+        "triaged",
+        "module: regression",
+        "module: determinism",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 189662,
+      "title": "DISABLED test_comprehensive_arange_xpu_int64 (__main__.TestInductorOpInfoXPU)",
+      "author": "etaf",
+      "state": "open",
+      "created_at": "2026-07-13T00:31:13Z",
+      "updated_at": "2026-07-13T08:02:37Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/189662",
+      "labels": [
+        "triaged",
+        "skipped",
+        "module: xpu"
+      ]
+    },
+    {
+      "number": 179897,
+      "title": "DISABLED test_jacfwd (__main__.FuncTorchHigherOrderOpTestsWithCompiledAutograd)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-10T07:10:13Z",
+      "updated_at": "2026-07-13T07:46:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179897",
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor"
+      ]
+    },
+    {
+      "number": 179853,
+      "title": "DISABLED test_hessian_argnums (__main__.FuncTorchHigherOrderOpTestsWithCompiledAutograd)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-04-09T19:02:29Z",
+      "updated_at": "2026-07-13T07:46:23Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/179853",
+      "labels": [
+        "triaged",
+        "module: flaky-tests",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor"
+      ]
+    },
+    {
+      "number": 143281,
+      "title": "torch.linalg.qr is significantly slower on GPU compared to CPU and SVD for batched small matrices",
+      "author": "h-skibbe",
+      "state": "open",
+      "created_at": "2024-12-16T08:10:23Z",
+      "updated_at": "2026-07-13T07:10:28Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/143281",
+      "labels": [
+        "module: cuda",
+        "triaged",
+        "module: linear algebra"
+      ]
+    },
+    {
+      "number": 185405,
+      "title": "[Inductor] AssertionError: len(index) == len(stride) in ir.py when using torch.compile(mode=\"max-autotune\") on CPU BMM/GEMM",
+      "author": "xyt66665000",
+      "state": "open",
+      "created_at": "2026-05-27T16:55:43Z",
+      "updated_at": "2026-07-13T03:25:15Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/185405",
+      "labels": [
+        "module: crash",
+        "module: cpu",
+        "triaged",
+        "module: complex",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 189014,
+      "title": "[RFC]: Generalize memory snapshot APIs under `torch.accelerator.memory`",
+      "author": "chujinjin101",
+      "state": "open",
+      "created_at": "2026-07-06T07:52:26Z",
+      "updated_at": "2026-07-13T02:06:31Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/189014",
+      "labels": [
+        "feature",
+        "triaged",
+        "needs design",
+        "module: accelerator",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 189665,
+      "title": "DISABLED test_concurrent_compile_to_python_smoke (__main__.TestAOTCompileToPython)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-07-13T01:10:37Z",
+      "updated_at": "2026-07-13T01:10:40Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/189665",
+      "labels": [
+        "module: flaky-tests",
+        "skipped",
+        "oncall: pt2"
+      ]
+    },
+    {
+      "number": 189326,
+      "title": "DISABLED test_copy_non_blocking_is_pinned_xpu (__main__.AOTInductorTestABICompatibleGpu)",
+      "author": "etaf",
+      "state": "open",
+      "created_at": "2026-07-09T01:56:34Z",
+      "updated_at": "2026-07-13T00:37:33Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/189326",
+      "labels": [
+        "module: tests",
+        "triaged",
+        "skipped",
+        "oncall: pt2",
+        "module: xpu",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 189327,
+      "title": "DISABLED test_copy_non_blocking_is_pinned_xpu (__main__.AOTInductorTestDualWrapper)",
+      "author": "etaf",
+      "state": "open",
+      "created_at": "2026-07-09T01:57:48Z",
+      "updated_at": "2026-07-13T00:36:59Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/189327",
+      "labels": [
+        "module: tests",
+        "triaged",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor",
+        "module: xpu",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 182286,
       "title": "[Bug] CUDA caching allocator unable to satisfy 3-18 GiB contiguous allocation despite 50+ GiB free on RTX PRO 6000 Blackwell + WSL2 (16 GiB hidden CUDA overhead)",
@@ -141,24 +301,6 @@
         "module: crash",
         "module: cuda",
         "module: correctness (silent)",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 185405,
-      "title": "[Inductor] AssertionError: len(index) == len(stride) in ir.py when using torch.compile(mode=\"max-autotune\") on CPU BMM/GEMM",
-      "author": "xyt66665000",
-      "state": "open",
-      "created_at": "2026-05-27T16:55:43Z",
-      "updated_at": "2026-07-11T03:18:05Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/185405",
-      "labels": [
-        "module: crash",
-        "module: cpu",
-        "triaged",
-        "module: complex",
-        "oncall: pt2",
-        "module: inductor",
         "bot-triaged"
       ]
     },
@@ -348,56 +490,6 @@
       ]
     },
     {
-      "number": 154128,
-      "title": "matmul uses excessive memory in batch cases with more than 3 dimensions",
-      "author": "JackBuck",
-      "state": "open",
-      "created_at": "2025-05-22T17:26:30Z",
-      "updated_at": "2026-07-10T08:13:04Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/154128",
-      "labels": [
-        "module: memory usage",
-        "triaged",
-        "has workaround",
-        "actionable",
-        "matrix multiplication"
-      ]
-    },
-    {
-      "number": 189014,
-      "title": "[RFC]: Generalize memory snapshot APIs under `torch.accelerator.memory`",
-      "author": "chujinjin101",
-      "state": "open",
-      "created_at": "2026-07-06T07:52:26Z",
-      "updated_at": "2026-07-10T07:45:57Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/189014",
-      "labels": [
-        "feature",
-        "triaged",
-        "needs design",
-        "module: accelerator",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 188812,
-      "title": "[MPS] MetalShaderLibrary::getBundledLibrary singleton can crash at process exit",
-      "author": "versi379",
-      "state": "open",
-      "created_at": "2026-07-02T15:16:00Z",
-      "updated_at": "2026-07-10T07:33:13Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/188812",
-      "labels": [
-        "triage review",
-        "needs reproduction",
-        "module: crash",
-        "module: flaky-tests",
-        "module: macos",
-        "module: mps",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 189515,
       "title": "DISABLED test_create_with_external_constants_xpu (__main__.AOTInductorTestABICompatibleGpu)",
       "author": "etaf",
@@ -428,39 +520,6 @@
         "triaged",
         "tracker",
         "module: mps"
-      ]
-    },
-    {
-      "number": 188987,
-      "title": "DISABLED test_optimizer_non_static_param (__main__.LoggingTests)",
-      "author": "etaf",
-      "state": "open",
-      "created_at": "2026-07-06T01:45:07Z",
-      "updated_at": "2026-07-10T02:36:53Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/188987",
-      "labels": [
-        "module: logging",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 152632,
-      "title": "DISABLED test_torchvision_models_efficientnet_v2_l (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2025-05-01T21:41:24Z",
-      "updated_at": "2026-07-10T01:14:08Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/152632",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
       ]
     },
     {
@@ -769,23 +828,6 @@
       "html_url": "https://github.com/pytorch/pytorch/issues/168995",
       "labels": [
         "triaged",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
-      "number": 189244,
-      "title": "DISABLED test_cat_pointwise (__main__.NumBytesMetricTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-08T07:30:20Z",
-      "updated_at": "2026-07-08T07:30:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/189244",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
         "oncall: pt2",
         "module: inductor"
       ]

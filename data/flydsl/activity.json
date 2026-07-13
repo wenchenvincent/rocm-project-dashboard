@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-07-12T09:42:58Z",
+  "collected_at": "2026-07-13T10:50:19Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 23,
-      "merged": 22,
-      "closed": 8
+      "opened": 27,
+      "merged": 23,
+      "closed": 7
     },
     "last_week": {
       "opened": 33,
-      "merged": 16,
+      "merged": 19,
       "closed": 3
     },
-    "median_time_to_merge_hours": 15.9,
-    "merge_count": 40,
+    "median_time_to_merge_hours": 13.7,
+    "merge_count": 44,
     "stale_prs": 16
   },
   "contributors": {
-    "active_this_week": 16,
-    "total_contributors": 34,
+    "active_this_week": 18,
+    "total_contributors": 35,
     "top_contributors": [
       {
         "author": "sjfeng1999",
@@ -29,9 +29,9 @@
       },
       {
         "author": "coderfeli",
-        "prs_submitted": 18,
-        "prs_merged": 17,
-        "commits": 14
+        "prs_submitted": 20,
+        "prs_merged": 19,
+        "commits": 17
       },
       {
         "author": "jhinpan",
@@ -59,12 +59,12 @@
       },
       {
         "author": "Phil-amd",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 2
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 3
       },
       {
-        "author": "amd-satre",
+        "author": "solinzby1",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 2
@@ -76,24 +76,24 @@
         "commits": 2
       },
       {
-        "author": "aoli26",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 3
+        "author": "jiacao-amd",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 1
       }
     ],
-    "bus_factor": 3
+    "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 57,
-    "opened_this_week": 5,
+    "total_open": 58,
+    "opened_this_week": 6,
     "closed_this_week": 2,
     "unanswered": 24
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 0.3,
+    "days_since_last": 1.4,
     "avg_interval_days": 12.9,
     "total_releases": 3,
     "latest_tag": "v0.2.3"

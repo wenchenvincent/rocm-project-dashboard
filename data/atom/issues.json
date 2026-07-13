@@ -1,19 +1,6 @@
 {
-  "collected_at": "2026-07-12T09:41:15Z",
+  "collected_at": "2026-07-13T10:47:47Z",
   "issues": [
-    {
-      "number": 1565,
-      "title": "[Perf Regression] 40 config(s) regressed @ 945b3127",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-07-12T04:30:02Z",
-      "updated_at": "2026-07-12T04:30:02Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1565",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
     {
       "number": 1506,
       "title": "[Bug] DeepSeek-V4 TBO decode + CUDAGraph: hipBLASLt heuristic during capture aborts with HIP 900 ('operation not permitted when stream is capturing')",
@@ -45,29 +32,6 @@
       "labels": [
         "frameworks-devops"
       ]
-    },
-    {
-      "number": 1515,
-      "title": "[Perf Regression] 41 config(s) regressed @ ddb38b04",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-07-08T08:27:49Z",
-      "updated_at": "2026-07-08T08:27:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1515",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 1511,
-      "title": "[Bug] Orphaned EngineCore/worker processes pin VRAM + stale hipIpc all-reduce handle on abnormal parent exit",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "created_at": "2026-07-08T04:42:17Z",
-      "updated_at": "2026-07-08T04:43:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1511",
-      "labels": []
     },
     {
       "number": 1483,

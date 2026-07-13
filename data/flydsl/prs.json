@@ -1,15 +1,65 @@
 {
-  "collected_at": "2026-07-12T09:41:20Z",
+  "collected_at": "2026-07-13T10:47:53Z",
   "prs": [
     {
-      "number": 830,
-      "title": "Add 1250 mma scale",
-      "author": "coderfeli",
+      "number": 812,
+      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
+      "author": "xudoyuan",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-12T04:22:41Z",
-      "updated_at": "2026-07-12T09:30:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/830",
+      "created_at": "2026-07-07T07:09:33Z",
+      "updated_at": "2026-07-13T10:25:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": true
+    },
+    {
+      "number": 839,
+      "title": "[kernels]: add common/mem_ops for shared memory/atomic helpers",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T09:37:51Z",
+      "updated_at": "2026-07-13T09:37:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/839",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 835,
+      "title": "[Misc] Propagate signatures through expr decorators",
+      "author": "simondanielsson",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T14:19:34Z",
+      "updated_at": "2026-07-13T09:16:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/835",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 838,
+      "title": "add mxfp8 support",
+      "author": "solinzby1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T02:32:56Z",
+      "updated_at": "2026-07-13T08:20:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/838",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 801,
+      "title": "[layernorm] Add backward pass for training (PR 3/3, #769)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-03T22:53:51Z",
+      "updated_at": "2026-07-13T06:09:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/801",
       "labels": [],
       "draft": false
     },
@@ -20,10 +70,58 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-08T18:03:12Z",
-      "updated_at": "2026-07-12T08:03:53Z",
+      "updated_at": "2026-07-13T05:39:15Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 786,
+      "title": "[3/5] autotune: offline config emit + runtime lookup (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:15:47Z",
+      "updated_at": "2026-07-13T05:13:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 785,
+      "title": "[2/5] autotune: two-track config + first real adopter (rmsnorm) (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:05:40Z",
+      "updated_at": "2026-07-13T04:59:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 837,
+      "title": "Add a8w4 kernel for Quark mix-precision",
+      "author": "amd-xiaoyu12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T16:49:53Z",
+      "updated_at": "2026-07-12T16:50:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/837",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 833,
+      "title": "Gfx1250 tdm gather scatter",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T12:44:17Z",
+      "updated_at": "2026-07-12T13:08:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/833",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 823,
@@ -36,20 +134,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/823",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 812,
-      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T07:09:33Z",
-      "updated_at": "2026-07-11T01:57:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": true
     },
     {
       "number": 829,
@@ -76,18 +160,6 @@
       "draft": false
     },
     {
-      "number": 814,
-      "title": "[kernels] Structure-only cleanup: unify naming, dedup helpers, split monolith module",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T09:07:16Z",
-      "updated_at": "2026-07-10T09:21:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/814",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 825,
       "title": "perf(pa tile): readable tile-programming PA decode kernel, matches/beats production",
       "author": "fsx950223",
@@ -96,18 +168,6 @@
       "created_at": "2026-07-10T06:34:28Z",
       "updated_at": "2026-07-10T08:33:28Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/825",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 785,
-      "title": "[2/5] autotune: two-track config + first real adopter (rmsnorm) (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:05:40Z",
-      "updated_at": "2026-07-10T05:34:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
       "labels": [],
       "draft": false
     },
@@ -122,18 +182,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/487",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 786,
-      "title": "[3/5] autotune: offline config emit + runtime lookup (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:15:47Z",
-      "updated_at": "2026-07-09T01:07:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 613,
@@ -170,18 +218,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/764",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 801,
-      "title": "[layernorm] Add backward pass for training (PR 3/3, #769)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-03T22:53:51Z",
-      "updated_at": "2026-07-03T22:54:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/801",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 788,
@@ -492,6 +528,54 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 814,
+      "title": "[kernels] Structure-only cleanup: unify naming, dedup helpers, split monolith module",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-07T09:07:16Z",
+      "updated_at": "2026-07-13T04:53:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/814",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 834,
+      "title": "update version",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-12T13:00:27Z",
+      "updated_at": "2026-07-12T13:00:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/834",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 832,
+      "title": "[FlyROCDL] gfx1250 review follow-ups: signed-int WMMA, comment fixes, atom docs",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-12T12:26:10Z",
+      "updated_at": "2026-07-12T12:58:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/832",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 830,
+      "title": "Add gfx1250 MX-scaled WMMA + N-D TDM copy atoms",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-12T04:22:41Z",
+      "updated_at": "2026-07-12T12:18:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/830",
       "labels": [],
       "draft": false
     },
@@ -1381,54 +1465,6 @@
         "compiler",
         "multi-gpu"
       ],
-      "draft": false
-    },
-    {
-      "number": 690,
-      "title": "[Chore] Bump version to 0.2.1",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T07:23:36Z",
-      "updated_at": "2026-06-16T07:37:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/690",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 649,
-      "title": "[gfx1250][gemm] Add PTPC FP8/A8W4, non-tile-aligned M, and strided A/C support",
-      "author": "aoli26",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-03T17:00:43Z",
-      "updated_at": "2026-06-16T07:37:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/649",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 551,
-      "title": "Support dynamic shapes in FP8 GEMMs",
-      "author": "amd-cgilli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-20T14:10:01Z",
-      "updated_at": "2026-06-16T07:19:55Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/551",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 684,
-      "title": "[Kernel] Add W4A6 (MXFP6 A x MXFP4 B) support to preshuffle GEMM",
-      "author": "amd-satre",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T00:12:58Z",
-      "updated_at": "2026-06-16T07:05:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/684",
-      "labels": [],
       "draft": false
     }
   ]

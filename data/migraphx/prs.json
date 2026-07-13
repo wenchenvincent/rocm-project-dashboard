@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-07-12T09:41:01Z",
+  "collected_at": "2026-07-13T10:47:28Z",
   "prs": [
+    {
+      "number": 4999,
+      "title": "NMS: Early exit ref 0 boxes, add tests for 0 and 1 box edge cases",
+      "author": "mvanhorn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-19T17:15:20Z",
+      "updated_at": "2026-07-13T04:34:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4999",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 4924,
       "title": "concat: treat fully-unconstrained dynamic dim as a wildcard",
@@ -40,18 +52,6 @@
       "draft": false
     },
     {
-      "number": 4999,
-      "title": "NMS: Early exit ref 0 boxes, add tests for 0 and 1 box edge cases",
-      "author": "mvanhorn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-19T17:15:20Z",
-      "updated_at": "2026-07-11T19:28:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4999",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4956,
       "title": "Add support for HipGraph",
       "author": "pfultz2",
@@ -72,18 +72,6 @@
       "created_at": "2026-07-07T17:03:02Z",
       "updated_at": "2026-07-11T02:22:15Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5040",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5054,
-      "title": "Add from_string/to_string enum macro",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T16:51:27Z",
-      "updated_at": "2026-07-11T00:48:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5054",
       "labels": [],
       "draft": false
     },
@@ -1484,6 +1472,18 @@
       "draft": true
     },
     {
+      "number": 5054,
+      "title": "Add from_string/to_string enum macro",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-10T16:51:27Z",
+      "updated_at": "2026-07-12T23:19:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5054",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 4928,
       "title": "Convolution backwards v4r1",
       "author": "pfultz2",
@@ -2739,23 +2739,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4251",
       "labels": [
         "enhancement"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4960,
-      "title": "Onnxruntime Weekly Sync 2026-06-12",
-      "author": "github-actions[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-12T17:52:23Z",
-      "updated_at": "2026-06-14T19:17:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4960",
-      "labels": [
-        "onnxruntime",
-        "dependencies",
-        "skip bot checks",
-        "automated"
       ],
       "draft": false
     }

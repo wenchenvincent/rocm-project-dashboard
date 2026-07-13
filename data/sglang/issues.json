@@ -1,14 +1,64 @@
 {
-  "collected_at": "2026-07-12T09:40:57Z",
+  "collected_at": "2026-07-13T10:47:22Z",
   "issues": [
+    {
+      "number": 31015,
+      "title": "[Feature] [Roadmap] Support Hygon HCU GPUs",
+      "author": "lizhigong1988",
+      "state": "open",
+      "created_at": "2026-07-13T09:28:31Z",
+      "updated_at": "2026-07-13T09:32:32Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31015",
+      "labels": []
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-12T09:12:58Z",
+      "updated_at": "2026-07-13T09:27:55Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 31010,
+      "title": "[Playground] Verified cell: mi355x / pro / fp4 / high-throughput / single",
+      "author": "seungrokj",
+      "state": "open",
+      "created_at": "2026-07-13T08:56:03Z",
+      "updated_at": "2026-07-13T09:02:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31010",
+      "labels": []
+    },
+    {
+      "number": 31007,
+      "title": "DeepSeek-V4 FP4: MI355X uses 50% more weight memory per GPU than B200 (attention 2.2x, MoE 1.33x)",
+      "author": "seungrokj",
+      "state": "open",
+      "created_at": "2026-07-13T08:37:13Z",
+      "updated_at": "2026-07-13T08:37:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31007",
+      "labels": []
+    },
+    {
+      "number": 30734,
+      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
+      "author": "tanth47",
+      "state": "open",
+      "created_at": "2026-07-10T03:32:15Z",
+      "updated_at": "2026-07-13T06:54:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
+      "labels": []
+    },
+    {
+      "number": 30931,
+      "title": "[Build] Build without CUDA",
+      "author": "kiefernforst",
+      "state": "open",
+      "created_at": "2026-07-12T11:44:44Z",
+      "updated_at": "2026-07-12T19:33:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30931",
       "labels": []
     },
     {
@@ -47,16 +97,6 @@
       "created_at": "2026-07-10T13:41:49Z",
       "updated_at": "2026-07-10T13:41:49Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30781",
-      "labels": []
-    },
-    {
-      "number": 30734,
-      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-07-10T03:32:15Z",
-      "updated_at": "2026-07-10T03:32:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
       "labels": []
     },
     {
@@ -348,18 +388,6 @@
       "labels": []
     },
     {
-      "number": 22464,
-      "title": "[Parity with CUDA] FP8 & FP4 AMD Multi-Node PD Disagg Nightly Regression Testing (ideally with AMD first class Pollara NICs) with multiple prefill workers + multiple decode workers with shallow EP (EP8) and with wide EP (>=EP16)",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-09T18:25:32Z",
-      "updated_at": "2026-06-26T03:46:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22464",
-      "labels": [
-        "inactive"
-      ]
-    },
-    {
       "number": 29312,
       "title": "# [ROCm/MI300X] Kimi-K2-Instruct FP8 MoE hangs after weight loading; ForwardMetadata TypeError with Triton MoE backend",
       "author": "giovanniguastiamd",
@@ -400,18 +428,6 @@
       "labels": []
     },
     {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-06-25T02:36:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
-    },
-    {
       "number": 29235,
       "title": "[AMD] qwen3-235b-mxfp4 nightly aborts at CUDA-graph capture: NCCL watchdog hipEventQuery on capturing stream (hipErrorCapturedEvent)",
       "author": "kangwangamd",
@@ -432,16 +448,6 @@
       "labels": [
         "amd"
       ]
-    },
-    {
-      "number": 28826,
-      "title": "[Bug] GLM-5.2-FP8 DSA fails to load: GlmMoeDsaConfig attribute_map overwrites qk_rope_head_dim + PPMissingLayer missing embedding_dim",
-      "author": "tanguofu",
-      "state": "open",
-      "created_at": "2026-06-21T07:01:27Z",
-      "updated_at": "2026-06-21T07:04:41Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/28826",
-      "labels": []
     },
     {
       "number": 28815,
@@ -541,16 +547,6 @@
       "created_at": "2026-04-02T12:25:03Z",
       "updated_at": "2026-05-21T01:57:39Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21942",
-      "labels": []
-    },
-    {
-      "number": 25549,
-      "title": "[Bug] UserWarning: Triton is not supported on current platform, roll back to CPU.   warnings.warn(",
-      "author": "conceptofmind",
-      "state": "open",
-      "created_at": "2026-05-18T00:41:33Z",
-      "updated_at": "2026-05-19T20:13:34Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/25549",
       "labels": []
     }
   ]
