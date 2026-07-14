@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-07-13T10:47:56Z",
+  "collected_at": "2026-07-14T09:44:12Z",
   "prs": [
+    {
+      "number": 667,
+      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T19:42:42Z",
+      "updated_at": "2026-07-14T05:49:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 656,
+      "title": "Release 2.15",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T01:57:35Z",
+      "updated_at": "2026-07-14T03:08:09Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/656",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 660,
       "title": "Ifu dev 20260706 v2.17",
@@ -8,8 +34,88 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-13T00:57:37Z",
+      "updated_at": "2026-07-14T01:29:05Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 669,
+      "title": "fix spurious recompilation on incremental editable builds",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T21:25:12Z",
+      "updated_at": "2026-07-13T22:00:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/669",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 664,
+      "title": "optimize mxfp4 cast/transpose",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T22:36:07Z",
+      "updated_at": "2026-07-13T21:56:32Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/664",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 599,
+      "title": "Update QoLA/AITER ",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-28T16:18:02Z",
+      "updated_at": "2026-07-13T21:10:26Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/599",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 668,
+      "title": "Fix CI ",
+      "author": "pelumi1163",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-10T15:06:27Z",
+      "updated_at": "2026-07-13T20:23:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/668",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 661,
+      "title": "Grouped MXFP8 GEMMs with HipKittens",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T16:44:30Z",
+      "updated_at": "2026-07-13T17:14:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 637,
+      "title": "Interleaved Driver Benchmarking",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T20:29:41Z",
+      "updated_at": "2026-07-13T15:58:58Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
       "labels": [],
       "draft": true
     },
@@ -38,48 +144,6 @@
       "draft": false
     },
     {
-      "number": 599,
-      "title": "Update QoLA/AITER ",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-28T16:18:02Z",
-      "updated_at": "2026-07-10T21:10:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/599",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 664,
-      "title": "optimize mxfp4 cast/transpose",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T22:36:07Z",
-      "updated_at": "2026-07-10T20:42:47Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/664",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 661,
-      "title": "Grouped MXFP8 GEMMs with HipKittens",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:44:30Z",
-      "updated_at": "2026-07-10T19:37:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 662,
       "title": "Added AITER V3 API check mechanism",
       "author": "Micky774",
@@ -91,30 +155,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 667,
-      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T19:42:42Z",
-      "updated_at": "2026-07-10T16:45:22Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 668,
-      "title": "Fix CI ",
-      "author": "pelumi1163",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T15:06:27Z",
-      "updated_at": "2026-07-10T15:06:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/668",
-      "labels": [],
       "draft": false
     },
     {
@@ -158,18 +198,6 @@
       "draft": false
     },
     {
-      "number": 637,
-      "title": "Interleaved Driver Benchmarking",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T20:29:41Z",
-      "updated_at": "2026-07-08T20:08:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 606,
       "title": "[FEAT] Lightning Indexer",
       "author": "Micky774",
@@ -208,20 +236,6 @@
         "ci-level 3"
       ],
       "draft": true
-    },
-    {
-      "number": 656,
-      "title": "Release 2.15",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T01:57:35Z",
-      "updated_at": "2026-07-02T02:14:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/656",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 628,

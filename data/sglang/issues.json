@@ -1,44 +1,24 @@
 {
-  "collected_at": "2026-07-13T10:47:22Z",
+  "collected_at": "2026-07-14T09:43:44Z",
   "issues": [
-    {
-      "number": 31015,
-      "title": "[Feature] [Roadmap] Support Hygon HCU GPUs",
-      "author": "lizhigong1988",
-      "state": "open",
-      "created_at": "2026-07-13T09:28:31Z",
-      "updated_at": "2026-07-13T09:32:32Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31015",
-      "labels": []
-    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-13T09:27:55Z",
+      "updated_at": "2026-07-14T09:36:54Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
-      "number": 31010,
-      "title": "[Playground] Verified cell: mi355x / pro / fp4 / high-throughput / single",
-      "author": "seungrokj",
+      "number": 30599,
+      "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
+      "author": "AIwork4me",
       "state": "open",
-      "created_at": "2026-07-13T08:56:03Z",
-      "updated_at": "2026-07-13T09:02:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31010",
-      "labels": []
-    },
-    {
-      "number": 31007,
-      "title": "DeepSeek-V4 FP4: MI355X uses 50% more weight memory per GPU than B200 (attention 2.2x, MoE 1.33x)",
-      "author": "seungrokj",
-      "state": "open",
-      "created_at": "2026-07-13T08:37:13Z",
-      "updated_at": "2026-07-13T08:37:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31007",
+      "created_at": "2026-07-09T04:36:21Z",
+      "updated_at": "2026-07-14T07:50:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30599",
       "labels": []
     },
     {
@@ -47,9 +27,57 @@
       "author": "tanth47",
       "state": "open",
       "created_at": "2026-07-10T03:32:15Z",
-      "updated_at": "2026-07-13T06:54:24Z",
+      "updated_at": "2026-07-14T04:55:30Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30734",
       "labels": []
+    },
+    {
+      "number": 31015,
+      "title": "[Feature] [Roadmap] Support Hygon HCU GPUs",
+      "author": "lizhigong1988",
+      "state": "open",
+      "created_at": "2026-07-13T09:28:31Z",
+      "updated_at": "2026-07-14T02:18:56Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31015",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-07-14T01:40:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 31071,
+      "title": "[Bug] EAGLE greedy verify lacks TP broadcast \u2192 ranks diverge on accepted tokens \u2192 collective deadlock (tp>1)",
+      "author": "zhoaa",
+      "state": "open",
+      "created_at": "2026-07-13T21:19:03Z",
+      "updated_at": "2026-07-13T21:19:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31071",
+      "labels": []
+    },
+    {
+      "number": 29630,
+      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
+      "author": "BBuf",
+      "state": "open",
+      "created_at": "2026-06-29T07:39:33Z",
+      "updated_at": "2026-07-13T12:46:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
+      "labels": [
+        "RFC",
+        "jit-kernel",
+        "kernel"
+      ]
     },
     {
       "number": 30931,
@@ -76,20 +104,6 @@
       ]
     },
     {
-      "number": 29630,
-      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
-      "author": "BBuf",
-      "state": "open",
-      "created_at": "2026-06-29T07:39:33Z",
-      "updated_at": "2026-07-10T14:02:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
-      "labels": [
-        "RFC",
-        "jit-kernel",
-        "kernel"
-      ]
-    },
-    {
       "number": 30781,
       "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
       "author": "tanguofu",
@@ -107,16 +121,6 @@
       "created_at": "2026-07-09T13:36:13Z",
       "updated_at": "2026-07-09T13:54:01Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30664",
-      "labels": []
-    },
-    {
-      "number": 30599,
-      "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
-      "author": "AIwork4me",
-      "state": "open",
-      "created_at": "2026-07-09T04:36:21Z",
-      "updated_at": "2026-07-09T05:01:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30599",
       "labels": []
     },
     {
@@ -428,6 +432,18 @@
       "labels": []
     },
     {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-06-25T02:36:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
       "number": 29235,
       "title": "[AMD] qwen3-235b-mxfp4 nightly aborts at CUDA-graph capture: NCCL watchdog hipEventQuery on capturing stream (hipErrorCapturedEvent)",
       "author": "kangwangamd",
@@ -537,16 +553,6 @@
       "created_at": "2026-05-27T00:07:30Z",
       "updated_at": "2026-05-28T04:30:08Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/26426",
-      "labels": []
-    },
-    {
-      "number": 21942,
-      "title": "[Bug] [AMD] spec v2 + DP Memory access fault",
-      "author": "AMD-yanfeiwang",
-      "state": "open",
-      "created_at": "2026-04-02T12:25:03Z",
-      "updated_at": "2026-05-21T01:57:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21942",
       "labels": []
     }
   ]

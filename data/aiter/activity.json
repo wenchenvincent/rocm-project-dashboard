@@ -1,24 +1,24 @@
 {
-  "collected_at": "2026-07-13T10:49:18Z",
+  "collected_at": "2026-07-14T09:45:12Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 109,
-      "merged": 78,
-      "closed": 27
+      "opened": 111,
+      "merged": 72,
+      "closed": 28
     },
     "last_week": {
-      "opened": 96,
-      "merged": 65,
-      "closed": 9
+      "opened": 91,
+      "merged": 68,
+      "closed": 8
     },
-    "median_time_to_merge_hours": 29.6,
-    "merge_count": 146,
+    "median_time_to_merge_hours": 28.1,
+    "merge_count": 143,
     "stale_prs": 14
   },
   "contributors": {
-    "active_this_week": 128,
+    "active_this_week": 127,
     "total_contributors": 204,
     "top_contributors": [
       {
@@ -49,6 +49,12 @@
         "author": "Boss2002n",
         "prs_submitted": 9,
         "prs_merged": 2,
+        "commits": 4
+      },
+      {
+        "author": "yadaish",
+        "prs_submitted": 8,
+        "prs_merged": 4,
         "commits": 5
       },
       {
@@ -61,7 +67,7 @@
         "author": "feifei14119",
         "prs_submitted": 7,
         "prs_merged": 2,
-        "commits": 6
+        "commits": 5
       },
       {
         "author": "ChuanLi1101",
@@ -70,30 +76,24 @@
         "commits": 0
       },
       {
-        "author": "coderfeli",
+        "author": "zhiding512",
         "prs_submitted": 6,
-        "prs_merged": 3,
-        "commits": 7
-      },
-      {
-        "author": "yadaish",
-        "prs_submitted": 6,
-        "prs_merged": 3,
-        "commits": 5
+        "prs_merged": 1,
+        "commits": 3
       }
     ],
-    "bus_factor": 14
+    "bus_factor": 12
   },
   "issue_health": {
-    "total_open": 222,
-    "opened_this_week": 4,
-    "closed_this_week": 6,
-    "unanswered": 92
+    "total_open": 220,
+    "opened_this_week": 5,
+    "closed_this_week": 9,
+    "unanswered": 90
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 8.7,
+    "days_since_last": 9.7,
     "avg_interval_days": 3.6,
     "total_releases": 5,
     "latest_tag": "v0.1.17-rc0"

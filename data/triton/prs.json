@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-07-13T10:47:24Z",
+  "collected_at": "2026-07-14T09:43:46Z",
   "prs": [
+    {
+      "number": 10874,
+      "title": "[AMD] Add tests for compiler fence in AtomicRMWOp lowering on gfx1250",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T06:18:46Z",
+      "updated_at": "2026-07-14T06:18:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10874",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10866,
+      "title": "[AMD] f16_gemm_gfx1250.py support multi-cta",
+      "author": "yangshuxin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-13T22:15:36Z",
+      "updated_at": "2026-07-14T05:51:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10866",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10871,
+      "title": "[AMD] emulate descriptor reduce",
+      "author": "zwu-2025",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T05:26:36Z",
+      "updated_at": "2026-07-14T05:27:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10871",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10868,
+      "title": "[AMD][CI] Temporarily Switch to a new gfx950 pool",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T03:28:24Z",
+      "updated_at": "2026-07-14T04:43:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10868",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10635,
       "title": "[AMD] Fix direct-to-LDS staging for undersized tiles",
@@ -8,22 +56,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-16T17:43:43Z",
-      "updated_at": "2026-07-13T07:55:46Z",
+      "updated_at": "2026-07-14T02:01:34Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10635",
       "labels": [],
       "draft": true
     },
     {
-      "number": 10852,
-      "title": "[CI] Reset gfx950 GPUs before AMD integration tests",
-      "author": "antiagainst",
+      "number": 10708,
+      "title": "[AMD] Add gfx1250 Gluon stream bandwidth example",
+      "author": "adityakankariya",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-12T17:51:03Z",
-      "updated_at": "2026-07-12T18:41:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10852",
+      "created_at": "2026-06-24T01:30:44Z",
+      "updated_at": "2026-07-13T22:40:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10708",
       "labels": [],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 10840,
+      "title": "[AMD] Warp-pipeline: keep each stage's memory ops in program order",
+      "author": "zhanglx13",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-10T07:27:19Z",
+      "updated_at": "2026-07-13T21:45:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10840",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10759,
+      "title": "[AMD] Form masked regions for equivalent masked loads/stores",
+      "author": "efric",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-30T05:40:50Z",
+      "updated_at": "2026-07-13T15:50:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10759",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 10747,
@@ -60,18 +132,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10564",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10840,
-      "title": "[AMD] Warp-pipeline: add fence_loads flag on warp_pipeline_stage",
-      "author": "zhanglx13",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T07:27:19Z",
-      "updated_at": "2026-07-11T16:24:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10840",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10846,
@@ -118,18 +178,6 @@
       "created_at": "2026-06-16T10:30:44Z",
       "updated_at": "2026-07-10T14:41:11Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10628",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10759,
-      "title": "[AMD] Form masked regions for equivalent masked loads/stores",
-      "author": "efric",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-30T05:40:50Z",
-      "updated_at": "2026-07-09T23:04:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10759",
       "labels": [],
       "draft": false
     },
@@ -410,18 +458,6 @@
       "draft": false
     },
     {
-      "number": 10708,
-      "title": "[AMD] Add gfx1250 Gluon stream bandwidth example",
-      "author": "adityakankariya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T01:30:44Z",
-      "updated_at": "2026-06-24T05:57:33Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10708",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10702,
       "title": "[AMD] Guard detached blocks in uniformity fallback",
       "author": "panditsa",
@@ -504,42 +540,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10694",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 10686,
-      "title": "[AMD][gfx1250] TDM gather/scatter: reuse one descriptor across chunks to cut in-loop SALU",
-      "author": "zhanglx13",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-20T05:29:44Z",
-      "updated_at": "2026-06-20T16:56:06Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10686",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10685,
-      "title": "[AMD][gfx1250] TDM: make async_tdm_gather/scatter pure",
-      "author": "zhanglx13",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-20T00:19:46Z",
-      "updated_at": "2026-06-20T03:21:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10685",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10674,
-      "title": "[AMD] Multi-CTA/Multicast support for TDM Gather",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-19T10:08:30Z",
-      "updated_at": "2026-06-19T19:32:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10674",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 6714,

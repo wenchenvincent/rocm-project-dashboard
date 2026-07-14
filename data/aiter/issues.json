@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-13T10:47:41Z",
+  "collected_at": "2026-07-14T09:44:00Z",
   "issues": [
+    {
+      "number": 4226,
+      "title": "[tech-debt] fused_moe.py routing relies on 15+ process-level env vars \u2014 consolidate into config/API",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-07-14T01:58:38Z",
+      "updated_at": "2026-07-14T02:06:06Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4226",
+      "labels": []
+    },
     {
       "number": 3294,
       "title": "[Issue]: lacking general support for gfx1201",
@@ -92,16 +102,6 @@
       "labels": []
     },
     {
-      "number": 3869,
-      "title": "[Feature]: DSv4 128 Heads MLA in HK and OPUS Gen.1.1",
-      "author": "ruanjm",
-      "state": "open",
-      "created_at": "2026-06-23T03:47:16Z",
-      "updated_at": "2026-07-07T07:51:54Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3869",
-      "labels": []
-    },
-    {
       "number": 4055,
       "title": "[Issue]: module_rmsnorm cold JIT compile is extremely slow (~225s) on gfx950 / ROCm 7.2.2",
       "author": "YangFan0918",
@@ -162,16 +162,6 @@
       "labels": []
     },
     {
-      "number": 4012,
-      "title": "[BugFix] MI355x gpt-oss e2e accuracy drop.",
-      "author": "lalala-sh",
-      "state": "open",
-      "created_at": "2026-06-30T06:10:50Z",
-      "updated_at": "2026-06-30T06:10:50Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4012",
-      "labels": []
-    },
-    {
       "number": 3865,
       "title": "dsv4 a4w4 moe support",
       "author": "Bernard-Liu",
@@ -179,16 +169,6 @@
       "created_at": "2026-06-23T03:19:22Z",
       "updated_at": "2026-06-30T02:41:03Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3865",
-      "labels": []
-    },
-    {
-      "number": 4006,
-      "title": "solve pa compile latency",
-      "author": "Bernard-Liu",
-      "state": "open",
-      "created_at": "2026-06-30T02:39:38Z",
-      "updated_at": "2026-06-30T02:39:40Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4006",
       "labels": []
     },
     {

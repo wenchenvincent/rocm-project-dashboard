@@ -1,53 +1,39 @@
 {
-  "collected_at": "2026-07-13T10:47:53Z",
+  "collected_at": "2026-07-14T09:44:09Z",
   "prs": [
     {
-      "number": 812,
-      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
-      "author": "xudoyuan",
+      "number": 848,
+      "title": "Cjl/norm perf",
+      "author": "cschenjunlin",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-07T07:09:33Z",
-      "updated_at": "2026-07-13T10:25:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": true
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-07-14T09:38:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
     },
     {
-      "number": 839,
-      "title": "[kernels]: add common/mem_ops for shared memory/atomic helpers",
+      "number": 844,
+      "title": "Add forward LSE output to FlyDSL flash attention kernels",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T04:44:33Z",
+      "updated_at": "2026-07-14T09:24:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/844",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 849,
+      "title": "[kernels]: move mma/ under common/, rename pipeline_utils_gfx1250.py",
       "author": "Phil-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-13T09:37:51Z",
-      "updated_at": "2026-07-13T09:37:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/839",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 835,
-      "title": "[Misc] Propagate signatures through expr decorators",
-      "author": "simondanielsson",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-12T14:19:34Z",
-      "updated_at": "2026-07-13T09:16:56Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/835",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 838,
-      "title": "add mxfp8 support",
-      "author": "solinzby1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-13T02:32:56Z",
-      "updated_at": "2026-07-13T08:20:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/838",
+      "created_at": "2026-07-14T08:25:02Z",
+      "updated_at": "2026-07-14T08:25:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/849",
       "labels": [],
       "draft": false
     },
@@ -58,32 +44,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-03T22:53:51Z",
-      "updated_at": "2026-07-13T06:09:47Z",
+      "updated_at": "2026-07-14T08:23:35Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/801",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 820,
-      "title": "[Kernel] conv3d: parameterize tile size + add autotuner",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T18:03:12Z",
-      "updated_at": "2026-07-13T05:39:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 786,
-      "title": "[3/5] autotune: offline config emit + runtime lookup (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:15:47Z",
-      "updated_at": "2026-07-13T05:13:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
       "labels": [],
       "draft": false
     },
@@ -94,10 +56,60 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-01T07:05:40Z",
-      "updated_at": "2026-07-13T04:59:22Z",
+      "updated_at": "2026-07-14T07:53:04Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 786,
+      "title": "[3/5] autotune: offline config emit + runtime lookup (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:15:47Z",
+      "updated_at": "2026-07-14T07:24:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 812,
+      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T07:09:33Z",
+      "updated_at": "2026-07-14T06:28:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": true
+    },
+    {
+      "number": 845,
+      "title": "[FMHA] Kernel refactor for modularity and code simplification",
+      "author": "yanguahe",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T04:50:40Z",
+      "updated_at": "2026-07-14T04:50:40Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/845",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 820,
+      "title": "[Kernel] conv3d: parameterize tile size + add autotuner",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T18:03:12Z",
+      "updated_at": "2026-07-14T02:44:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 837,
@@ -528,6 +540,90 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 835,
+      "title": "[Misc] Propagate signatures through expr decorators",
+      "author": "simondanielsson",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-12T14:19:34Z",
+      "updated_at": "2026-07-14T09:23:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/835",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 846,
+      "title": "[Docs] Remove duplicate Documentation table from README",
+      "author": "Peter9606",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T05:46:00Z",
+      "updated_at": "2026-07-14T09:13:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/846",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 839,
+      "title": "[kernels]: add common/mem_ops for shared memory/atomic helpers",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-13T09:37:51Z",
+      "updated_at": "2026-07-14T05:36:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/839",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 841,
+      "title": "[Enh] Add rocdl.buffer_rsrc utilities: make_buffer_ptr & get_buffer_rsrc",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-13T16:06:39Z",
+      "updated_at": "2026-07-14T05:35:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/841",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 842,
+      "title": "[CI] run_benchmark: treat runtime pytest.skip as skipped, not failed",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-13T23:57:41Z",
+      "updated_at": "2026-07-14T01:17:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/842",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 838,
+      "title": "add mxfp8 support",
+      "author": "solinzby1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-13T02:32:56Z",
+      "updated_at": "2026-07-13T14:33:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/838",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 840,
+      "title": "[Fix]: mla_decode test aborts whole collection on aiter API drift",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-13T11:46:21Z",
+      "updated_at": "2026-07-13T12:13:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/840",
       "labels": [],
       "draft": false
     },
@@ -1401,70 +1497,6 @@
       "updated_at": "2026-06-16T13:33:14Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/657",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 639,
-      "title": "[Bugfix] rmsnorm: annotate known_block_size on large-M small-N path",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-03T08:20:16Z",
-      "updated_at": "2026-06-16T13:30:40Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/639",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 693,
-      "title": "[FMHA] trim kernel comments, drop FLYDSL_GENERIC_OSTORE_SCALAR env, add small-seq_len benchmark shapes",
-      "author": "yanguahe",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T08:30:49Z",
-      "updated_at": "2026-06-16T12:29:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/693",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 695,
-      "title": "Ci dashboard atom restyle",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T12:07:40Z",
-      "updated_at": "2026-06-16T12:08:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/695",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 694,
-      "title": "Ci dashboard add data",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T11:52:04Z",
-      "updated_at": "2026-06-16T11:52:55Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/694",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 552,
-      "title": "[Enh] Improve type closure for primitive func",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-21T10:43:47Z",
-      "updated_at": "2026-06-16T07:46:54Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/552",
-      "labels": [
-        "enhancement",
-        "compiler",
-        "multi-gpu"
-      ],
       "draft": false
     }
   ]

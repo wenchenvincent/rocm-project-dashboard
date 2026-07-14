@@ -1,72 +1,78 @@
 {
-  "collected_at": "2026-07-13T10:48:38Z",
+  "collected_at": "2026-07-14T09:44:37Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 48,
-      "merged": 40,
-      "closed": 1
+      "opened": 47,
+      "merged": 39,
+      "closed": 2
     },
     "last_week": {
-      "opened": 17,
-      "merged": 8,
+      "opened": 18,
+      "merged": 5,
       "closed": 0
     },
-    "median_time_to_merge_hours": 74.0,
-    "merge_count": 69,
+    "median_time_to_merge_hours": 111.6,
+    "merge_count": 65,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 74,
-    "total_contributors": 86,
+    "active_this_week": 71,
+    "total_contributors": 89,
     "top_contributors": [
       {
-        "author": "AndreasKaratzas",
-        "prs_submitted": 8,
-        "prs_merged": 5,
-        "commits": 0
-      },
-      {
-        "author": "vanshbhatia-amd",
-        "prs_submitted": 6,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
         "author": "stefankoncarevic",
-        "prs_submitted": 5,
+        "prs_submitted": 8,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "AndreasKaratzas",
+        "prs_submitted": 6,
         "prs_merged": 3,
         "commits": 0
       },
       {
         "author": "peizhang56",
+        "prs_submitted": 6,
+        "prs_merged": 4,
+        "commits": 0
+      },
+      {
+        "author": "haosdent",
+        "prs_submitted": 5,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "micah-wil",
         "prs_submitted": 5,
         "prs_merged": 4,
         "commits": 0
       },
       {
-        "author": "tanpinsiang",
-        "prs_submitted": 4,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "Rohan138",
+        "author": "vanshbhatia-amd",
         "prs_submitted": 4,
         "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "micah-wil",
-        "prs_submitted": 4,
-        "prs_merged": 4,
+        "author": "khluu",
+        "prs_submitted": 3,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "tuukkjs",
+        "author": "tanpinsiang",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "akii96",
+        "prs_submitted": 3,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -74,28 +80,22 @@
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
-      },
-      {
-        "author": "LucasWilkinson",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
       }
     ],
     "bus_factor": 12
   },
   "issue_health": {
-    "total_open": 51,
-    "opened_this_week": 21,
-    "closed_this_week": 134,
+    "total_open": 53,
+    "opened_this_week": 23,
+    "closed_this_week": 122,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.6,
-    "avg_interval_days": 10.9,
+    "days_since_last": 0.0,
+    "avg_interval_days": 9.7,
     "total_releases": 5,
-    "latest_tag": "v0.25.0"
+    "latest_tag": "v0.25.1"
   }
 }

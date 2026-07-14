@@ -1,19 +1,19 @@
 {
-  "collected_at": "2026-07-13T10:50:14Z",
+  "collected_at": "2026-07-14T09:45:57Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 17,
-      "merged": 8,
+      "opened": 18,
+      "merged": 10,
       "closed": 2
     },
     "last_week": {
-      "opened": 13,
-      "merged": 12,
+      "opened": 15,
+      "merged": 10,
       "closed": 0
     },
-    "median_time_to_merge_hours": 10.6,
+    "median_time_to_merge_hours": 9.8,
     "merge_count": 20,
     "stale_prs": 5
   },
@@ -29,15 +29,15 @@
       },
       {
         "author": "QizhouZhang97",
-        "prs_submitted": 16,
-        "prs_merged": 15,
-        "commits": 7
+        "prs_submitted": 18,
+        "prs_merged": 16,
+        "commits": 8
       },
       {
         "author": "jhchouuu",
         "prs_submitted": 15,
         "prs_merged": 13,
-        "commits": 8
+        "commits": 10
       },
       {
         "author": "maning00",
@@ -47,8 +47,8 @@
       },
       {
         "author": "kawhil-amd",
-        "prs_submitted": 12,
-        "prs_merged": 11,
+        "prs_submitted": 11,
+        "prs_merged": 10,
         "commits": 5
       },
       {
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 17.2,
+    "days_since_last": 18.2,
     "avg_interval_days": 22.0,
     "total_releases": 5,
     "latest_tag": "v1.2.1"

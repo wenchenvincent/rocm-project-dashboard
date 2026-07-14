@@ -1,31 +1,22 @@
 {
-  "collected_at": "2026-07-13T10:48:26Z",
+  "collected_at": "2026-07-14T09:44:27Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Integration Tests",
-    "run_id": 29224503314,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/29224503314",
-    "run_date": "2026-07-13T07:28:19Z",
+    "run_id": 29310581431,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/29310581431",
+    "run_date": "2026-07-14T06:56:46Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 4,
-      "passed": 3,
-      "failed": 1,
+      "passed": 4,
+      "failed": 0,
       "skipped": 0,
-      "pass_rate": 75.0
+      "pass_rate": 100.0
     },
     "suites": [
       {
         "name": "integration-tests-amd / integration-tests-amd (amd-gfx950)",
-        "conclusion": "failure",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "integration-tests-amd / integration-tests-amd (amd-gfx942)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -35,6 +26,15 @@
       },
       {
         "name": "integration-tests-amd / integration-tests-amd (self-hosted, gfx90a)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "integration-tests-amd / integration-tests-amd (amd-gfx942)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -55,9 +55,9 @@
   },
   "cuda": {
     "workflow_name": "Integration Tests",
-    "run_id": 29224503314,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/29224503314",
-    "run_date": "2026-07-13T07:28:19Z",
+    "run_id": 29310581431,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/29310581431",
+    "run_date": "2026-07-14T06:56:46Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 3,
