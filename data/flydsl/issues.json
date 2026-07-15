@@ -1,6 +1,64 @@
 {
-  "collected_at": "2026-07-14T09:44:10Z",
+  "collected_at": "2026-07-15T09:47:37Z",
   "issues": [
+    {
+      "number": 862,
+      "title": "[Issue]: reduce Flydsl compile time",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "created_at": "2026-07-15T08:22:02Z",
+      "updated_at": "2026-07-15T08:23:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/862",
+      "labels": []
+    },
+    {
+      "number": 861,
+      "title": "[Issue]: Tune conv perf",
+      "author": "coderfeli",
+      "state": "open",
+      "created_at": "2026-07-15T08:17:13Z",
+      "updated_at": "2026-07-15T08:17:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/861",
+      "labels": []
+    },
+    {
+      "number": 856,
+      "title": "[CI] Fork PR benchmark baselines can run 8x against stale main",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-07-15T01:02:00Z",
+      "updated_at": "2026-07-15T05:18:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/856",
+      "labels": [
+        "bug",
+        "performance"
+      ]
+    },
+    {
+      "number": 858,
+      "title": "[CI] linux-flydsl-navi-2 GPU 1 consistently hangs the test suite",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-07-15T03:35:53Z",
+      "updated_at": "2026-07-15T05:18:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/858",
+      "labels": [
+        "bug",
+        "frameworks-devops"
+      ]
+    },
+    {
+      "number": 641,
+      "title": "Move target-specific code out of flydsl.expr",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-06-03T08:46:20Z",
+      "updated_at": "2026-07-14T14:48:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/641",
+      "labels": [
+        "FlyDSL/Customization"
+      ]
+    },
     {
       "number": 774,
       "title": "[FlyDSL ] Refactor FlyDSL Kernel Coding Style and Simplify Implementation",
@@ -366,18 +424,6 @@
       "updated_at": "2026-06-16T07:29:33Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/691",
       "labels": []
-    },
-    {
-      "number": 641,
-      "title": "Move target-specific code out of flydsl.expr",
-      "author": "sjfeng1999",
-      "state": "open",
-      "created_at": "2026-06-03T08:46:20Z",
-      "updated_at": "2026-06-16T06:53:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/641",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
     },
     {
       "number": 688,

@@ -1,44 +1,15 @@
 {
-  "collected_at": "2026-07-14T09:43:49Z",
+  "collected_at": "2026-07-15T09:47:10Z",
   "prs": [
     {
-      "number": 5052,
-      "title": "Revert find_reshape_cont guard relaxation from PR#4858",
-      "author": "tamahedi",
+      "number": 4977,
+      "title": "symbolic reshape ops",
+      "author": "shivadbhavsar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-09T14:03:44Z",
-      "updated_at": "2026-07-14T06:33:20Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5040,
-      "title": "Auto select NCHW/NHWC layout",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T17:03:02Z",
-      "updated_at": "2026-07-14T04:24:20Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5040",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5059,
-      "title": "if miopen/hipblas/rocblas are not enabled, send gemms to rocmlir",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-13T18:10:42Z",
-      "updated_at": "2026-07-14T03:30:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5059",
+      "created_at": "2026-06-16T22:56:51Z",
+      "updated_at": "2026-07-15T08:19:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4977",
       "labels": [],
       "draft": false
     },
@@ -49,9 +20,261 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-13T23:07:22Z",
-      "updated_at": "2026-07-14T02:48:08Z",
+      "updated_at": "2026-07-15T08:15:07Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5060",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5014,
+      "title": "Hoist and horizontal dot",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-25T22:19:09Z",
+      "updated_at": "2026-07-15T06:02:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5064,
+      "title": "Fix MLIR conv-pointwise-layout fusion splitting",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T18:57:37Z",
+      "updated_at": "2026-07-15T05:27:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5064",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5068,
+      "title": "fix reverse op bug",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T03:02:54Z",
+      "updated_at": "2026-07-15T07:58:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5068",
+      "labels": [
+        "bugfix",
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5066,
+      "title": "[AIMIGRAPHX-1164] Replace device ops inserted during `compile_ops`",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T00:05:01Z",
+      "updated_at": "2026-07-15T05:00:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5066",
+      "labels": [
+        "enhancement",
+        "high priority"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5067,
+      "title": "[AIMIGRAPHX-1100] Add no-rebuild callback for verify",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T01:06:27Z",
+      "updated_at": "2026-07-15T08:46:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5067",
+      "labels": [
+        "enhancement",
+        "Tooling"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5056,
+      "title": "Tune max block size",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-10T20:47:58Z",
+      "updated_at": "2026-07-15T04:06:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5056",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5006,
+      "title": "[AIMIGRAPHX-1151] Add pytest bridge for unit tests",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T00:48:35Z",
+      "updated_at": "2026-07-15T04:04:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5006",
+      "labels": [
+        "dependencies",
+        "Continous Integration",
+        "Tooling",
+        "python",
+        "Changelog: Not Applicable"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5040,
+      "title": "Auto select NCHW/NHWC layout",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T17:03:02Z",
+      "updated_at": "2026-07-15T01:55:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5040",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5065,
+      "title": "Add toggle for wavefront size to cross compilation options",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T21:48:06Z",
+      "updated_at": "2026-07-15T01:51:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5065",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4752,
+      "title": "Add std C++ components to rocm namespace and add unit tests",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-08T01:15:55Z",
+      "updated_at": "2026-07-14T23:54:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5052,
+      "title": "Revert find_reshape_cont guard relaxation from PR#4858",
+      "author": "tamahedi",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T14:03:44Z",
+      "updated_at": "2026-07-14T23:25:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
+      "labels": [
+        "bugfix",
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4606,
+      "title": "Refactor rnn ops to op builders",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-12T03:59:23Z",
+      "updated_at": "2026-07-14T23:22:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4606",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5063,
+      "title": "SSD static sidestep",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T17:36:20Z",
+      "updated_at": "2026-07-14T20:55:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5063",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5043,
+      "title": "Symbolic attr support for slice",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T18:59:51Z",
+      "updated_at": "2026-07-14T19:16:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5043",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5028,
+      "title": "split_single_dyn_dim: add bucket_by_optimals to cut dyn-shape compile\u2026",
+      "author": "chun-wan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T19:11:35Z",
+      "updated_at": "2026-07-14T17:03:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5028",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4911,
+      "title": "Reduce dynamic-shape compile cost and select_module dispatch overhead",
+      "author": "chun-wan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-26T10:13:37Z",
+      "updated_at": "2026-07-14T16:59:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4911",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5059,
+      "title": "if miopen/hipblas/rocblas are not enabled, send gemms to rocmlir",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T18:10:42Z",
+      "updated_at": "2026-07-14T16:30:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5059",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4924,
+      "title": "concat: treat fully-unconstrained dynamic dim as a wildcard",
+      "author": "chun-wan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-30T04:54:47Z",
+      "updated_at": "2026-07-14T15:04:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4924",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5061,
+      "title": "Bump rocm-docs-core from 1.36.0 to 1.37.0 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T12:43:29Z",
+      "updated_at": "2026-07-14T12:43:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5061",
+      "labels": [
+        "documentation"
+      ],
       "draft": false
     },
     {
@@ -79,30 +302,6 @@
       "draft": false
     },
     {
-      "number": 5056,
-      "title": "Tune max block size",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T20:47:58Z",
-      "updated_at": "2026-07-14T01:50:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5056",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4977,
-      "title": "symbolic reshape ops",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-16T22:56:51Z",
-      "updated_at": "2026-07-14T01:49:35Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4977",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5026,
       "title": "Enable mlir attention for yolon12",
       "author": "weizhu12-amd",
@@ -111,35 +310,6 @@
       "created_at": "2026-07-01T01:04:56Z",
       "updated_at": "2026-07-14T01:30:25Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5026",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5006,
-      "title": "[AIMIGRAPHX-1151] Add pytest bridge for unit tests",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-23T00:48:35Z",
-      "updated_at": "2026-07-14T01:28:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5006",
-      "labels": [
-        "Continous Integration",
-        "Tooling",
-        "python",
-        "Changelog: Not Applicable"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4924,
-      "title": "concat: treat fully-unconstrained dynamic dim as a wildcard",
-      "author": "chun-wan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-30T04:54:47Z",
-      "updated_at": "2026-07-13T23:51:21Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4924",
       "labels": [],
       "draft": false
     },
@@ -169,18 +339,6 @@
       "created_at": "2026-06-11T21:50:30Z",
       "updated_at": "2026-07-13T21:36:28Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4956",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4606,
-      "title": "Refactor rnn ops to op builders",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-12T03:59:23Z",
-      "updated_at": "2026-07-13T20:19:26Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4606",
       "labels": [],
       "draft": false
     },
@@ -249,20 +407,6 @@
       "draft": true
     },
     {
-      "number": 5014,
-      "title": "Hoist and horizontal dot",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-25T22:19:09Z",
-      "updated_at": "2026-07-10T17:54:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
       "number": 4734,
       "title": "Bump onnx from 1.17.0 to 1.21.0 in /tools",
       "author": "dependabot[bot]",
@@ -275,18 +419,6 @@
         "dependencies",
         "python"
       ],
-      "draft": false
-    },
-    {
-      "number": 5043,
-      "title": "Symbolic attr support for slice",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T18:59:51Z",
-      "updated_at": "2026-07-09T23:10:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5043",
-      "labels": [],
       "draft": false
     },
     {
@@ -310,18 +442,6 @@
       "created_at": "2026-07-08T14:08:43Z",
       "updated_at": "2026-07-09T14:37:48Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5046",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5028,
-      "title": "split_single_dyn_dim: add bucket_by_optimals to cut dyn-shape compile\u2026",
-      "author": "chun-wan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T19:11:35Z",
-      "updated_at": "2026-07-09T06:12:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5028",
       "labels": [],
       "draft": false
     },
@@ -451,18 +571,6 @@
       "draft": false
     },
     {
-      "number": 4911,
-      "title": "Reduce dynamic-shape compile cost and select_module dispatch overhead",
-      "author": "chun-wan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-26T10:13:37Z",
-      "updated_at": "2026-06-28T03:14:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4911",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5007,
       "title": "Fix ref average pooling divisor for count_include_pad with asymmetric padding",
       "author": "HamzaIkhurram",
@@ -526,18 +634,6 @@
         "ok-to-test"
       ],
       "draft": false
-    },
-    {
-      "number": 4752,
-      "title": "Add std C++ components to rocm namespace and add unit tests",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-08T01:15:55Z",
-      "updated_at": "2026-06-24T14:50:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 4995,
@@ -1368,6 +1464,30 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5062,
+      "title": "Fix windows CI: Workaround files not being deleted",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T16:55:19Z",
+      "updated_at": "2026-07-14T19:50:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5062",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4786,
+      "title": "Dont log intended driver output",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-14T22:24:41Z",
+      "updated_at": "2026-07-14T13:31:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4786",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 5055,
@@ -2603,30 +2723,6 @@
       "created_at": "2026-05-21T06:51:15Z",
       "updated_at": "2026-06-16T15:25:22Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4902",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4678,
-      "title": "Free parse literal data in instruction::replace()",
-      "author": "aditya-dl",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-16T19:33:43Z",
-      "updated_at": "2026-06-16T15:01:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4678",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4681,
-      "title": "Replace pow(x, 2) with mul(x, x)",
-      "author": "turneram",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-17T23:16:39Z",
-      "updated_at": "2026-06-16T15:01:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4681",
       "labels": [],
       "draft": false
     }

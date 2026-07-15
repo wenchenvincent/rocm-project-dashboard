@@ -1,6 +1,126 @@
 {
-  "collected_at": "2026-07-14T09:43:46Z",
+  "collected_at": "2026-07-15T09:47:07Z",
   "prs": [
+    {
+      "number": 10871,
+      "title": "[AMD] emulate descriptor reduce on GFX1250",
+      "author": "zwu-2025",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T05:26:36Z",
+      "updated_at": "2026-07-15T07:37:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10871",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10870,
+      "title": "[AMD][gfx1250] Error out for non-zero padding descriptor",
+      "author": "zwu-2025",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T04:40:49Z",
+      "updated_at": "2026-07-15T06:32:25Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10870",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10759,
+      "title": "[AMD] Form masked regions for equivalent masked loads/stores",
+      "author": "efric",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-30T05:40:50Z",
+      "updated_at": "2026-07-15T04:23:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10759",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10564,
+      "title": "[AMD] Pipeline TDM descriptor stores and scatters in loops",
+      "author": "jerryyin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-10T14:48:53Z",
+      "updated_at": "2026-07-15T02:24:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10564",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10708,
+      "title": "[AMD] Add gfx1250 Gluon stream bandwidth example",
+      "author": "adityakankariya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-24T01:30:44Z",
+      "updated_at": "2026-07-15T02:00:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10708",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10886,
+      "title": "[AMD] Emit actionable errors when a direct-to-LDS copy cannot be lowered",
+      "author": "vmalepati1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T23:59:49Z",
+      "updated_at": "2026-07-15T00:42:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10813,
+      "title": "[AMD] gfx1250 proton clock instructions",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T19:30:37Z",
+      "updated_at": "2026-07-15T00:10:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10813",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10885,
+      "title": "[AMD][DRAFT] test out if still broken ",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T20:44:21Z",
+      "updated_at": "2026-07-14T23:57:14Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10885",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10628,
+      "title": "[Gluon][AMD][gfx1250] Add explicit fused TDM copy ops",
+      "author": "jungpark-mlir",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-16T10:30:44Z",
+      "updated_at": "2026-07-14T23:04:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10628",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10878,
+      "title": "[AMD] Add RDNA4m target",
+      "author": "ptrojahn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T10:54:20Z",
+      "updated_at": "2026-07-14T10:54:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10878",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 10874,
       "title": "[AMD] Add tests for compiler fence in AtomicRMWOp lowering on gfx1250",
@@ -24,18 +144,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10866",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10871,
-      "title": "[AMD] emulate descriptor reduce",
-      "author": "zwu-2025",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T05:26:36Z",
-      "updated_at": "2026-07-14T05:27:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10871",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10868,
@@ -62,18 +170,6 @@
       "draft": true
     },
     {
-      "number": 10708,
-      "title": "[AMD] Add gfx1250 Gluon stream bandwidth example",
-      "author": "adityakankariya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T01:30:44Z",
-      "updated_at": "2026-07-13T22:40:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10708",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10840,
       "title": "[AMD] Warp-pipeline: keep each stage's memory ops in program order",
       "author": "zhanglx13",
@@ -82,18 +178,6 @@
       "created_at": "2026-07-10T07:27:19Z",
       "updated_at": "2026-07-13T21:45:41Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10840",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10759,
-      "title": "[AMD] Form masked regions for equivalent masked loads/stores",
-      "author": "efric",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-30T05:40:50Z",
-      "updated_at": "2026-07-13T15:50:57Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10759",
       "labels": [],
       "draft": false
     },
@@ -118,18 +202,6 @@
       "created_at": "2026-07-06T21:01:49Z",
       "updated_at": "2026-07-12T01:29:27Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10810",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10564,
-      "title": "[AMD] Pipeline TDM descriptor stores and scatters in loops",
-      "author": "jerryyin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-10T14:48:53Z",
-      "updated_at": "2026-07-11T22:54:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10564",
       "labels": [],
       "draft": false
     },
@@ -166,18 +238,6 @@
       "created_at": "2026-07-10T12:57:27Z",
       "updated_at": "2026-07-10T15:13:31Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10842",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10628,
-      "title": "[Gluon][AMD][gfx1250] Add explicit fused TDM copy ops",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-16T10:30:44Z",
-      "updated_at": "2026-07-10T14:41:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10628",
       "labels": [],
       "draft": false
     },
@@ -226,18 +286,6 @@
       "created_at": "2026-05-15T22:02:50Z",
       "updated_at": "2026-07-08T21:58:26Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10328",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10813,
-      "title": "[AMD] gfx1250 proton clock instructions",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T19:30:37Z",
-      "updated_at": "2026-07-08T19:44:33Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10813",
       "labels": [],
       "draft": false
     },
@@ -470,18 +518,6 @@
       "draft": false
     },
     {
-      "number": 10703,
-      "title": "[AMD] Fix conversion crash for scalar fp_to_fp",
-      "author": "warrendeng",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-23T05:14:07Z",
-      "updated_at": "2026-06-23T21:53:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10703",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10701,
       "title": "[AMD] Materialize fat pointers for buffer ops in canonicalize-pointers",
       "author": "vmalepati1",
@@ -490,18 +526,6 @@
       "created_at": "2026-06-22T22:36:05Z",
       "updated_at": "2026-06-23T19:58:33Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10701",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10690,
-      "title": "[AMD] Prevent unsafe buffer soffset splits",
-      "author": "warrendeng",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-21T04:43:02Z",
-      "updated_at": "2026-06-23T00:45:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10690",
       "labels": [],
       "draft": false
     },
@@ -516,18 +540,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10483",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 10534,
-      "title": "[AMD][NFC][Refactoring] Refactor FP cast conversion driver for AMD GPUs",
-      "author": "ravil-mobile",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-08T08:14:59Z",
-      "updated_at": "2026-06-22T15:47:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10534",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 10694,
@@ -706,18 +718,6 @@
       "created_at": "2026-01-12T07:12:02Z",
       "updated_at": "2026-06-17T15:29:24Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9195",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 10020,
-      "title": "[AMD][DRAFT] PC Sampling, wave stall reasonings",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-13T16:54:34Z",
-      "updated_at": "2026-06-17T15:29:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10020",
       "labels": [],
       "draft": true
     }

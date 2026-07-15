@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-07-14T09:44:12Z",
+  "collected_at": "2026-07-15T09:47:39Z",
   "prs": [
+    {
+      "number": 602,
+      "title": "Update CI to use TheRock",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-29T15:33:31Z",
+      "updated_at": "2026-07-15T05:11:52Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 667,
       "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
@@ -8,20 +20,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-09T19:42:42Z",
-      "updated_at": "2026-07-14T05:49:54Z",
+      "updated_at": "2026-07-15T05:02:55Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 656,
-      "title": "Release 2.15",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T01:57:35Z",
-      "updated_at": "2026-07-14T03:08:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/656",
       "labels": [
         "ci-level 3"
       ],
@@ -34,24 +34,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-14T01:29:05Z",
+      "updated_at": "2026-07-14T22:04:48Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
       "labels": [],
       "draft": true
     },
     {
-      "number": 669,
-      "title": "fix spurious recompilation on incremental editable builds",
+      "number": 670,
+      "title": "[proof-of-concept] benchmarks dashboard",
       "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-13T21:25:12Z",
-      "updated_at": "2026-07-13T22:00:47Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/669",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-07-14T20:54:32Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 637,
+      "title": "Interleaved Driver Benchmarking",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T20:29:41Z",
+      "updated_at": "2026-07-14T20:45:09Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 664,
@@ -60,10 +70,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-07T22:36:07Z",
-      "updated_at": "2026-07-13T21:56:32Z",
+      "updated_at": "2026-07-14T18:07:34Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/664",
       "labels": [
-        "ci-level 1"
+        "ci-level 3"
       ],
       "draft": false
     },
@@ -74,7 +84,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-28T16:18:02Z",
-      "updated_at": "2026-07-13T21:10:26Z",
+      "updated_at": "2026-07-14T17:07:08Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/599",
       "labels": [
         "ci-level 3"
@@ -88,9 +98,51 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-10T15:06:27Z",
-      "updated_at": "2026-07-13T20:23:24Z",
+      "updated_at": "2026-07-14T16:58:49Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/668",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 662,
+      "title": "Added AITER V3 API check mechanism",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T17:27:34Z",
+      "updated_at": "2026-07-14T16:54:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/662",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 656,
+      "title": "Release 2.15",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T01:57:35Z",
+      "updated_at": "2026-07-14T14:34:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/656",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 669,
+      "title": "fix spurious recompilation on incremental editable builds",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T21:25:12Z",
+      "updated_at": "2026-07-13T22:00:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/669",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -108,18 +160,6 @@
       "draft": false
     },
     {
-      "number": 637,
-      "title": "Interleaved Driver Benchmarking",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T20:29:41Z",
-      "updated_at": "2026-07-13T15:58:58Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 625,
       "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
       "author": "VeeraRajasekhar",
@@ -129,32 +169,6 @@
       "updated_at": "2026-07-11T00:37:43Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 602,
-      "title": "Update CI to use TheRock",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-29T15:33:31Z",
-      "updated_at": "2026-07-10T23:06:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 662,
-      "title": "Added AITER V3 API check mechanism",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T17:27:34Z",
-      "updated_at": "2026-07-10T17:41:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/662",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {

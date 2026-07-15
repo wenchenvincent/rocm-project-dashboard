@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-07-14T09:44:25Z",
+  "collected_at": "2026-07-15T09:47:51Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Nightly Test (AMD)",
-    "run_id": 29072813654,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/29072813654",
-    "run_date": "2026-07-10T06:27:17Z",
-    "conclusion": "success",
+    "run_id": 29378029205,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/29378029205",
+    "run_date": "2026-07-15T02:12:13Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 3,
       "passed": 0,
@@ -15,15 +15,6 @@
       "pass_rate": null
     },
     "suites": [
-      {
-        "name": "nightly-test-1-gpu-unit",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
       {
         "name": "nightly-test-1-gpu-mi35x",
         "conclusion": "skipped",
@@ -41,21 +32,30 @@
         "failed": null,
         "skipped": null,
         "errors": null
+      },
+      {
+        "name": "nightly-test-1-gpu-unit",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
       }
     ]
   },
   "cuda": {
     "workflow_name": "PR Test",
-    "run_id": 29322648195,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/29322648195",
-    "run_date": "2026-07-14T09:42:12Z",
-    "conclusion": "success",
+    "run_id": 29405604550,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/29405604550",
+    "run_date": "2026-07-15T09:46:22Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 19,
-      "passed": 1,
-      "failed": 0,
+      "passed": 0,
+      "failed": 1,
       "skipped": 18,
-      "pass_rate": 100.0
+      "pass_rate": 0.0
     },
     "suites": [
       {
@@ -86,7 +86,16 @@
         "errors": null
       },
       {
-        "name": "call-sgl-kernel-tests",
+        "name": "base-b-test-2-gpu-large",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-b-test-4-gpu-b200",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -104,80 +113,8 @@
         "errors": null
       },
       {
-        "name": "base-b-test-1-gpu-large / ${{ inputs.self_name }} (${{ matrix.partition }})",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-b-test-4-gpu-b200 / ${{ inputs.self_name }} (${{ matrix.partition }})",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-a-test-1-gpu-small / ${{ inputs.self_name }} (${{ matrix.partition }})",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-c-test-deepep-4-gpu-b200 / ${{ inputs.self_name }} (${{ matrix.partition }})",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-b-test-1-gpu-small / ${{ inputs.self_name }} (${{ matrix.partition }})",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-b-test-2-gpu-large / ${{ inputs.self_name }} (${{ matrix.partition }})",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-c-test-deepep-8-gpu-h200 / ${{ inputs.self_name }} (${{ matrix.partition }})",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-c-test-8-gpu-h200 / ${{ inputs.self_name }} (${{ matrix.partition }})",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
         "name": "pr-test-finish",
-        "conclusion": "success",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -185,7 +122,7 @@
         "errors": null
       },
       {
-        "name": "base-c-test-deepep-4-gpu-h100 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "name": "base-a-test-1-gpu-small",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -194,7 +131,7 @@
         "errors": null
       },
       {
-        "name": "base-c-test-8-gpu-h20 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "name": "base-b-test-1-gpu-large",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -203,7 +140,7 @@
         "errors": null
       },
       {
-        "name": "base-c-test-4-gpu-gb300 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "name": "call-sgl-kernel-tests",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -212,7 +149,7 @@
         "errors": null
       },
       {
-        "name": "base-c-test-4-gpu-h100 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "name": "base-c-test-deepep-8-gpu-h200",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -221,7 +158,70 @@
         "errors": null
       },
       {
-        "name": "base-c-test-4-gpu-b200 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "name": "base-c-test-4-gpu-gb300",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-b-test-1-gpu-small",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-deepep-4-gpu-b200",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-8-gpu-h200",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-deepep-4-gpu-h100",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-4-gpu-h100",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-4-gpu-b200",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-8-gpu-h20",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,

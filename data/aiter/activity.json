@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-07-14T09:45:12Z",
+  "collected_at": "2026-07-15T09:48:44Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 111,
-      "merged": 72,
-      "closed": 28
+      "opened": 107,
+      "merged": 65,
+      "closed": 26
     },
     "last_week": {
-      "opened": 91,
-      "merged": 68,
-      "closed": 8
+      "opened": 90,
+      "merged": 65,
+      "closed": 10
     },
-    "median_time_to_merge_hours": 28.1,
-    "merge_count": 143,
+    "median_time_to_merge_hours": 32.3,
+    "merge_count": 132,
     "stale_prs": 14
   },
   "contributors": {
-    "active_this_week": 127,
-    "total_contributors": 204,
+    "active_this_week": 131,
+    "total_contributors": 210,
     "top_contributors": [
       {
         "author": "gyohuangxin",
         "prs_submitted": 14,
         "prs_merged": 4,
-        "commits": 21
+        "commits": 18
       },
       {
         "author": "sunway513",
@@ -41,8 +41,8 @@
       },
       {
         "author": "k50112113",
-        "prs_submitted": 12,
-        "prs_merged": 6,
+        "prs_submitted": 13,
+        "prs_merged": 5,
         "commits": 21
       },
       {
@@ -82,18 +82,18 @@
         "commits": 3
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 13
   },
   "issue_health": {
     "total_open": 220,
-    "opened_this_week": 5,
-    "closed_this_week": 9,
+    "opened_this_week": 4,
+    "closed_this_week": 7,
     "unanswered": 90
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 9.7,
+    "days_since_last": 10.7,
     "avg_interval_days": 3.6,
     "total_releases": 5,
     "latest_tag": "v0.1.17-rc0"

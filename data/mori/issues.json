@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-14T09:44:07Z",
+  "collected_at": "2026-07-15T09:47:33Z",
   "issues": [
+    {
+      "number": 475,
+      "title": "InterNodeV1 combine returns silently-wrong results cross-node (Pollara / ionic), plus several latent bugs",
+      "author": "Oseltamivir",
+      "state": "open",
+      "created_at": "2026-07-14T12:46:23Z",
+      "updated_at": "2026-07-14T12:59:14Z",
+      "html_url": "https://github.com/ROCm/mori/issues/475",
+      "labels": []
+    },
     {
       "number": 415,
       "title": "MoRI-IO XGMI backend: BatchRead ignores the base offset of a registered sub-region (silent data corruption; SIGSEGV in production)",

@@ -1,43 +1,43 @@
 {
-  "collected_at": "2026-07-14T09:46:01Z",
+  "collected_at": "2026-07-15T09:49:39Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 29,
-      "merged": 24,
-      "closed": 4
-    },
-    "last_week": {
-      "opened": 31,
-      "merged": 19,
+      "opened": 36,
+      "merged": 22,
       "closed": 5
     },
-    "median_time_to_merge_hours": 12.0,
-    "merge_count": 44,
-    "stale_prs": 16
+    "last_week": {
+      "opened": 23,
+      "merged": 17,
+      "closed": 7
+    },
+    "median_time_to_merge_hours": 14.5,
+    "merge_count": 40,
+    "stale_prs": 17
   },
   "contributors": {
-    "active_this_week": 19,
-    "total_contributors": 37,
+    "active_this_week": 20,
+    "total_contributors": 38,
     "top_contributors": [
       {
         "author": "sjfeng1999",
         "prs_submitted": 21,
-        "prs_merged": 21,
+        "prs_merged": 20,
         "commits": 23
       },
       {
-        "author": "coderfeli",
-        "prs_submitted": 18,
-        "prs_merged": 17,
-        "commits": 17
-      },
-      {
         "author": "jhinpan",
-        "prs_submitted": 16,
+        "prs_submitted": 18,
         "prs_merged": 8,
         "commits": 8
+      },
+      {
+        "author": "coderfeli",
+        "prs_submitted": 17,
+        "prs_merged": 16,
+        "commits": 17
       },
       {
         "author": "fsx950223",
@@ -47,15 +47,15 @@
       },
       {
         "author": "Phil-amd",
-        "prs_submitted": 6,
-        "prs_merged": 5,
-        "commits": 5
+        "prs_submitted": 7,
+        "prs_merged": 7,
+        "commits": 7
       },
       {
         "author": "xudoyuan",
         "prs_submitted": 6,
         "prs_merged": 1,
-        "commits": 2
+        "commits": 1
       },
       {
         "author": "yanguahe",
@@ -64,36 +64,36 @@
         "commits": 5
       },
       {
-        "author": "jli-melchior",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 2
-      },
-      {
         "author": "solinzby1",
-        "prs_submitted": 3,
+        "prs_submitted": 4,
         "prs_merged": 3,
         "commits": 3
       },
       {
-        "author": "cschenjunlin",
-        "prs_submitted": 2,
+        "author": "jiacao-amd",
+        "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 1
+      },
+      {
+        "author": "jli-melchior",
+        "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 2
       }
     ],
     "bus_factor": 3
   },
   "issue_health": {
-    "total_open": 56,
-    "opened_this_week": 3,
+    "total_open": 60,
+    "opened_this_week": 7,
     "closed_this_week": 4,
     "unanswered": 26
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 2.3,
+    "days_since_last": 3.3,
     "avg_interval_days": 12.9,
     "total_releases": 3,
     "latest_tag": "v0.2.3"

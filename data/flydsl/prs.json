@@ -1,6 +1,140 @@
 {
-  "collected_at": "2026-07-14T09:44:09Z",
+  "collected_at": "2026-07-15T09:47:35Z",
   "prs": [
+    {
+      "number": 863,
+      "title": "add xcd remap",
+      "author": "solinzby1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T08:53:00Z",
+      "updated_at": "2026-07-15T09:41:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/863",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 825,
+      "title": "perf(pa tile): readable tile-programming PA decode kernel, matches/beats production",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-10T06:34:28Z",
+      "updated_at": "2026-07-15T09:07:36Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/825",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 812,
+      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T07:09:33Z",
+      "updated_at": "2026-07-15T07:01:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": true
+    },
+    {
+      "number": 820,
+      "title": "[Kernel] conv3d: parameterize tile size + add autotuner",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T18:03:12Z",
+      "updated_at": "2026-07-15T06:47:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 860,
+      "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T05:39:47Z",
+      "updated_at": "2026-07-15T05:39:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 857,
+      "title": "[CI] Make benchmark baselines fork-safe and bounded",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T01:04:25Z",
+      "updated_at": "2026-07-15T04:12:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/857",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 855,
+      "title": "[Perf] Add staged dweight reduction for RMSNorm backward",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T00:48:11Z",
+      "updated_at": "2026-07-15T00:49:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/855",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 801,
+      "title": "[layernorm] Add backward pass for training (PR 3/3, #769)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-03T22:53:51Z",
+      "updated_at": "2026-07-14T23:28:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/801",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 854,
+      "title": "[Test] Expand RMSNorm backward configs, cache reuse, and Torch benchmarks",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T22:36:38Z",
+      "updated_at": "2026-07-14T22:36:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/854",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 785,
+      "title": "[2/5] autotune: two-track config + first real adopter (rmsnorm) (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:05:40Z",
+      "updated_at": "2026-07-14T20:39:36Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 786,
+      "title": "[3/5] autotune: offline config emit + runtime lookup (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:15:47Z",
+      "updated_at": "2026-07-14T20:13:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 848,
       "title": "Cjl/norm perf",
@@ -8,8 +142,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-07-14T09:38:39Z",
+      "updated_at": "2026-07-14T17:45:17Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 853,
+      "title": "[Refactor] move buffer_ops to kernels.common; remove expr/vector.py",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T14:45:57Z",
+      "updated_at": "2026-07-14T15:08:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/853",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 850,
+      "title": "optimize flydsl flash attention kernel",
+      "author": "binding7012",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T09:48:32Z",
+      "updated_at": "2026-07-14T09:54:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/850",
       "labels": [],
       "draft": false
     },
@@ -26,68 +184,6 @@
       "draft": false
     },
     {
-      "number": 849,
-      "title": "[kernels]: move mma/ under common/, rename pipeline_utils_gfx1250.py",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:25:02Z",
-      "updated_at": "2026-07-14T08:25:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/849",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 801,
-      "title": "[layernorm] Add backward pass for training (PR 3/3, #769)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-03T22:53:51Z",
-      "updated_at": "2026-07-14T08:23:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/801",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 785,
-      "title": "[2/5] autotune: two-track config + first real adopter (rmsnorm) (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:05:40Z",
-      "updated_at": "2026-07-14T07:53:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 786,
-      "title": "[3/5] autotune: offline config emit + runtime lookup (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:15:47Z",
-      "updated_at": "2026-07-14T07:24:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 812,
-      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T07:09:33Z",
-      "updated_at": "2026-07-14T06:28:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": true
-    },
-    {
       "number": 845,
       "title": "[FMHA] Kernel refactor for modularity and code simplification",
       "author": "yanguahe",
@@ -98,18 +194,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/845",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 820,
-      "title": "[Kernel] conv3d: parameterize tile size + add autotuner",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T18:03:12Z",
-      "updated_at": "2026-07-14T02:44:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 837,
@@ -168,18 +252,6 @@
       "created_at": "2026-06-25T17:21:54Z",
       "updated_at": "2026-07-10T14:18:42Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/748",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 825,
-      "title": "perf(pa tile): readable tile-programming PA decode kernel, matches/beats production",
-      "author": "fsx950223",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T06:34:28Z",
-      "updated_at": "2026-07-10T08:33:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/825",
       "labels": [],
       "draft": false
     },
@@ -278,18 +350,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/746",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 736,
-      "title": "MXFP4 MoE tuning harness: legality filter, measurement, ledger + validated baseline (#708)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-25T01:55:08Z",
-      "updated_at": "2026-06-25T19:13:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/736",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 709,
@@ -544,6 +604,42 @@
       "draft": false
     },
     {
+      "number": 849,
+      "title": "[kernels] Relocate shared MMA infrastructure under common",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T08:25:02Z",
+      "updated_at": "2026-07-15T06:13:40Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/849",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 852,
+      "title": "[CI] skip build/test for docs-only changes",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T10:58:57Z",
+      "updated_at": "2026-07-15T06:12:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/852",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 842,
+      "title": "[CI] run_benchmark: treat runtime pytest.skip as skipped, not failed",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-13T23:57:41Z",
+      "updated_at": "2026-07-14T20:16:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/842",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 835,
       "title": "[Misc] Propagate signatures through expr decorators",
       "author": "simondanielsson",
@@ -588,18 +684,6 @@
       "created_at": "2026-07-13T16:06:39Z",
       "updated_at": "2026-07-14T05:35:51Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/841",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 842,
-      "title": "[CI] run_benchmark: treat runtime pytest.skip as skipped, not failed",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-13T23:57:41Z",
-      "updated_at": "2026-07-14T01:17:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/842",
       "labels": [],
       "draft": false
     },
@@ -1460,42 +1544,6 @@
       "created_at": "2026-06-15T14:53:20Z",
       "updated_at": "2026-06-16T22:34:39Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/683",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 697,
-      "title": "[Chore] Bump version to 0.2.2",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T13:41:26Z",
-      "updated_at": "2026-06-16T13:47:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/697",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 682,
-      "title": "[Refactor] update get_c_pointers to c_abi_spec",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-15T10:04:31Z",
-      "updated_at": "2026-06-16T13:36:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/682",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 657,
-      "title": "enh(hotspot_analyzer): add --kernel filter for CSV metadata matching",
-      "author": "Arist12",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-04T16:10:24Z",
-      "updated_at": "2026-06-16T13:33:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/657",
       "labels": [],
       "draft": false
     }
