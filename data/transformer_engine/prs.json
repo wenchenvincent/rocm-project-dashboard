@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-07-15T09:47:39Z",
+  "collected_at": "2026-07-16T09:54:03Z",
   "prs": [
+    {
+      "number": 656,
+      "title": "Release 2.15",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T01:57:35Z",
+      "updated_at": "2026-07-16T07:24:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/656",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 671,
+      "title": "[ROCm] Fix THD/ragged dQ backward on the bf16 dq_shuffle path (gfx950)",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T00:55:54Z",
+      "updated_at": "2026-07-16T01:06:36Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/671",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 658,
+      "title": "blockwise fp8 gemm integration for gfx942 and gfx950",
+      "author": "asdfvg123",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-06T22:01:12Z",
+      "updated_at": "2026-07-16T00:50:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
     {
       "number": 602,
       "title": "Update CI to use TheRock",
@@ -8,10 +48,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-29T15:33:31Z",
-      "updated_at": "2026-07-15T05:11:52Z",
+      "updated_at": "2026-07-16T00:10:05Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 670,
+      "title": "[proof-of-concept] benchmarks dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-07-15T22:21:52Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 660,
+      "title": "Ifu dev 20260706 v2.17",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T16:25:50Z",
+      "updated_at": "2026-07-15T19:08:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 667,
@@ -28,30 +92,6 @@
       "draft": false
     },
     {
-      "number": 660,
-      "title": "Ifu dev 20260706 v2.17",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-14T22:04:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 670,
-      "title": "[proof-of-concept] benchmarks dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-07-14T20:54:32Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 637,
       "title": "Interleaved Driver Benchmarking",
       "author": "Micky774",
@@ -62,20 +102,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 664,
-      "title": "optimize mxfp4 cast/transpose",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T22:36:07Z",
-      "updated_at": "2026-07-14T18:07:34Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/664",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 599,
@@ -101,34 +127,6 @@
       "updated_at": "2026-07-14T16:58:49Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/668",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 662,
-      "title": "Added AITER V3 API check mechanism",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T17:27:34Z",
-      "updated_at": "2026-07-14T16:54:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/662",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 656,
-      "title": "Release 2.15",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T01:57:35Z",
-      "updated_at": "2026-07-14T14:34:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/656",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -198,20 +196,6 @@
       "draft": false
     },
     {
-      "number": 658,
-      "title": "blockwise fp8 gemm integration for gfx942 and gfx950",
-      "author": "asdfvg123",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-06T22:01:12Z",
-      "updated_at": "2026-07-09T14:21:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 606,
       "title": "[FEAT] Lightning Indexer",
       "author": "Micky774",
@@ -263,18 +247,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 657,
-      "title": "[ROCm] Fix THD/ragged dQ backward on the bf16 dq_shuffle path (gfx950)",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T04:22:46Z",
-      "updated_at": "2026-07-01T18:26:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/657",
-      "labels": [],
       "draft": false
     },
     {
@@ -681,6 +653,34 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 664,
+      "title": "optimize mxfp4 cast/transpose",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-07T22:36:07Z",
+      "updated_at": "2026-07-16T03:12:59Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/664",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 662,
+      "title": "Added AITER V3 API check mechanism",
+      "author": "Micky774",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-07T17:27:34Z",
+      "updated_at": "2026-07-15T18:08:15Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/662",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {

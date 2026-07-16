@@ -1,13 +1,23 @@
 {
-  "collected_at": "2026-07-15T09:47:29Z",
+  "collected_at": "2026-07-16T09:53:54Z",
   "issues": [
+    {
+      "number": 1616,
+      "title": "[Issue]: GDNAttentionMetadataBuilder.prepare_mtp_decode missing keyword-only parameters causing TypeError during speculative decoding",
+      "author": "yubingrowan",
+      "state": "open",
+      "created_at": "2026-07-16T08:28:39Z",
+      "updated_at": "2026-07-16T08:30:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1616",
+      "labels": []
+    },
     {
       "number": 1582,
       "title": "[Issue]: Kimi-K2.5-MXFP4-AttnFP8 fails to load with AssertionError: assert ATOM_USE_TRITON_GEMM or ATOM_USE_TRITON_MOE when strictly following official Kimi-K2.5.md guide",
       "author": "Alan-D-Chen",
       "state": "open",
       "created_at": "2026-07-13T15:07:05Z",
-      "updated_at": "2026-07-14T08:24:34Z",
+      "updated_at": "2026-07-16T03:29:05Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1582",
       "labels": []
     },

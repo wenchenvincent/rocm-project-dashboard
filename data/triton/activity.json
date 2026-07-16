@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-07-15T09:48:11Z",
+  "collected_at": "2026-07-16T09:54:36Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 13,
-      "merged": 14,
+      "opened": 12,
+      "merged": 13,
       "closed": 0
     },
     "last_week": {
-      "opened": 5,
+      "opened": 6,
       "merged": 12,
       "closed": 0
     },
@@ -18,7 +18,7 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 20,
+    "active_this_week": 19,
     "total_contributors": 40,
     "top_contributors": [
       {
@@ -34,7 +34,19 @@
         "commits": 0
       },
       {
+        "author": "ZelboK",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
         "author": "zwu-2025",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "panditsa",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
@@ -47,12 +59,6 @@
       },
       {
         "author": "vmalepati1",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "ZelboK",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
@@ -71,12 +77,6 @@
       },
       {
         "author": "Jokeren",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "plognjen",
         "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 0
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 26.8,
+    "days_since_last": 27.8,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

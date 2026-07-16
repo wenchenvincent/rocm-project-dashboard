@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-07-15T09:48:05Z",
+  "collected_at": "2026-07-16T09:54:32Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 47,
+      "opened": 34,
       "merged": 41,
-      "closed": 7
+      "closed": 3
     },
     "last_week": {
-      "opened": 18,
-      "merged": 2,
+      "opened": 16,
+      "merged": 1,
       "closed": 0
     },
     "median_time_to_merge_hours": 116.0,
@@ -18,61 +18,55 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 69,
-    "total_contributors": 85,
+    "active_this_week": 73,
+    "total_contributors": 88,
     "top_contributors": [
       {
         "author": "AndreasKaratzas",
-        "prs_submitted": 10,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
-        "author": "ChuanLi1101",
-        "prs_submitted": 9,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "stefankoncarevic",
         "prs_submitted": 8,
-        "prs_merged": 2,
+        "prs_merged": 5,
         "commits": 0
       },
       {
         "author": "micah-wil",
-        "prs_submitted": 6,
-        "prs_merged": 6,
+        "prs_submitted": 7,
+        "prs_merged": 7,
         "commits": 0
       },
       {
-        "author": "peizhang56",
-        "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
-        "author": "tanpinsiang",
+        "author": "stefankoncarevic",
         "prs_submitted": 4,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "simondanielsson",
-        "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "NickLucche",
-        "prs_submitted": 3,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       },
       {
         "author": "Fangzhou-Ai",
+        "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "charlifu",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "giuseppegrossi",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "peizhang56",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "tanpinsiang",
+        "prs_submitted": 3,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -80,20 +74,26 @@
         "prs_submitted": 3,
         "prs_merged": 3,
         "commits": 0
+      },
+      {
+        "author": "LucasWilkinson",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 11
   },
   "issue_health": {
-    "total_open": 50,
-    "opened_this_week": 22,
-    "closed_this_week": 116,
+    "total_open": 51,
+    "opened_this_week": 24,
+    "closed_this_week": 102,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.0,
+    "days_since_last": 2.0,
     "avg_interval_days": 9.7,
     "total_releases": 5,
     "latest_tag": "v0.25.1"

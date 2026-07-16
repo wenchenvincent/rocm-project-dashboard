@@ -1,15 +1,65 @@
 {
-  "collected_at": "2026-07-15T09:47:35Z",
+  "collected_at": "2026-07-16T09:54:00Z",
   "prs": [
     {
-      "number": 863,
-      "title": "add xcd remap",
-      "author": "solinzby1",
+      "number": 812,
+      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
+      "author": "xudoyuan",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-15T08:53:00Z",
-      "updated_at": "2026-07-15T09:41:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/863",
+      "created_at": "2026-07-07T07:09:33Z",
+      "updated_at": "2026-07-16T09:20:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 845,
+      "title": "[FMHA] Kernel refactor for modularity and code simplification",
+      "author": "yanguahe",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T04:50:40Z",
+      "updated_at": "2026-07-16T09:20:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/845",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 866,
+      "title": "Atom 1250 refactor",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T08:14:48Z",
+      "updated_at": "2026-07-16T09:12:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/866",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 867,
+      "title": "[compiler] Exclude `self` from region write args in AST rewriter",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T09:11:31Z",
+      "updated_at": "2026-07-16T09:11:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/867",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 785,
+      "title": "[2/5] autotune: two-track config + first real adopter (rmsnorm) (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:05:40Z",
+      "updated_at": "2026-07-16T08:43:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
       "labels": [],
       "draft": false
     },
@@ -20,24 +70,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-10T06:34:28Z",
-      "updated_at": "2026-07-15T09:07:36Z",
+      "updated_at": "2026-07-16T08:14:13Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/825",
       "labels": [],
       "draft": false
     },
     {
-      "number": 812,
-      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
-      "author": "xudoyuan",
+      "number": 850,
+      "title": "optimize flydsl flash attention kernel",
+      "author": "binding7012",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-07T07:09:33Z",
-      "updated_at": "2026-07-15T07:01:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": true
+      "created_at": "2026-07-14T09:48:32Z",
+      "updated_at": "2026-07-16T07:15:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/850",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 801,
+      "title": "[layernorm] Add backward pass for training (PR 3/3, #769)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-03T22:53:51Z",
+      "updated_at": "2026-07-16T06:48:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/801",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 855,
+      "title": "[Perf] Optimize RMSNorm backward with staged reduction and vec8 I/O",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T00:48:11Z",
+      "updated_at": "2026-07-16T06:33:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/855",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 820,
@@ -46,7 +118,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-08T18:03:12Z",
-      "updated_at": "2026-07-15T06:47:43Z",
+      "updated_at": "2026-07-16T04:39:02Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
       "labels": [],
       "draft": false
@@ -62,66 +134,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 857,
-      "title": "[CI] Make benchmark baselines fork-safe and bounded",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T01:04:25Z",
-      "updated_at": "2026-07-15T04:12:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/857",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 855,
-      "title": "[Perf] Add staged dweight reduction for RMSNorm backward",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T00:48:11Z",
-      "updated_at": "2026-07-15T00:49:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/855",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 801,
-      "title": "[layernorm] Add backward pass for training (PR 3/3, #769)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-03T22:53:51Z",
-      "updated_at": "2026-07-14T23:28:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/801",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 854,
-      "title": "[Test] Expand RMSNorm backward configs, cache reuse, and Torch benchmarks",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T22:36:38Z",
-      "updated_at": "2026-07-14T22:36:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/854",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 785,
-      "title": "[2/5] autotune: two-track config + first real adopter (rmsnorm) (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:05:40Z",
-      "updated_at": "2026-07-14T20:39:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 786,
@@ -160,18 +172,6 @@
       "draft": false
     },
     {
-      "number": 850,
-      "title": "optimize flydsl flash attention kernel",
-      "author": "binding7012",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T09:48:32Z",
-      "updated_at": "2026-07-14T09:54:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/850",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 844,
       "title": "Add forward LSE output to FlyDSL flash attention kernels",
       "author": "amd-wsung102",
@@ -180,18 +180,6 @@
       "created_at": "2026-07-14T04:44:33Z",
       "updated_at": "2026-07-14T09:24:02Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/844",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 845,
-      "title": "[FMHA] Kernel refactor for modularity and code simplification",
-      "author": "yanguahe",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T04:50:40Z",
-      "updated_at": "2026-07-14T04:50:40Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/845",
       "labels": [],
       "draft": false
     },
@@ -600,6 +588,54 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 865,
+      "title": "[Doc] Add FlyDSL Project Status and Compatibility Notice",
+      "author": "jamestangg",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T07:45:01Z",
+      "updated_at": "2026-07-16T07:48:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/865",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 854,
+      "title": "[Test] Expand RMSNorm backward configs, cache reuse, and Torch benchmarks",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T22:36:38Z",
+      "updated_at": "2026-07-16T07:06:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/854",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 863,
+      "title": "add xcd remap",
+      "author": "solinzby1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-15T08:53:00Z",
+      "updated_at": "2026-07-16T05:19:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/863",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 857,
+      "title": "[CI] Make benchmark baselines fork-safe and bounded",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-15T01:04:25Z",
+      "updated_at": "2026-07-16T04:51:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/857",
       "labels": [],
       "draft": false
     },
@@ -1506,44 +1542,6 @@
       "created_at": "2026-06-17T04:16:17Z",
       "updated_at": "2026-06-17T08:13:11Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/700",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 656,
-      "title": "enh(test_common): add profiler-safe HIP-event timing path to run_perftest",
-      "author": "Arist12",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-04T16:09:26Z",
-      "updated_at": "2026-06-17T00:43:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/656",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 692,
-      "title": "[Chore] Multi-Gpu CI: Switch Mori IR installation from source code to PyPI",
-      "author": "yanboshao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T07:42:00Z",
-      "updated_at": "2026-06-17T00:41:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/692",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
-      "number": 683,
-      "title": "[FMHA] gfx950 dualwave SWP forward kernel: split-K, varlen, arbitrary seq_len (+ gfx942 fallback fix)",
-      "author": "yanguahe",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-15T14:53:20Z",
-      "updated_at": "2026-06-16T22:34:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/683",
       "labels": [],
       "draft": false
     }

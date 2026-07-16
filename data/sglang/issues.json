@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-15T09:47:05Z",
+  "collected_at": "2026-07-16T09:53:30Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,101 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-15T09:07:15Z",
+      "updated_at": "2026-07-16T09:49:00Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-07-16T09:07:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 31071,
+      "title": "[Bug] EAGLE greedy verify lacks TP broadcast \u2192 ranks diverge on accepted tokens \u2192 collective deadlock (tp>1)",
+      "author": "zhoaa",
+      "state": "open",
+      "created_at": "2026-07-13T21:19:03Z",
+      "updated_at": "2026-07-16T08:08:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31071",
+      "labels": []
+    },
+    {
+      "number": 16255,
+      "title": "[Feature] deepseek_v2.py Refactor",
+      "author": "Fridge003",
+      "state": "open",
+      "created_at": "2026-01-01T03:53:53Z",
+      "updated_at": "2026-07-16T07:53:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
+      "labels": [
+        "inactive",
+        "deepseek",
+        "Good Pro Issue"
+      ]
+    },
+    {
+      "number": 31359,
+      "title": "[Tracking] Inkling Day-0 Support",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-07-15T18:18:03Z",
+      "updated_at": "2026-07-15T20:07:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31359",
+      "labels": [
+        "high priority",
+        "new-model"
+      ]
+    },
+    {
+      "number": 31350,
+      "title": "[Bug] [AMD] Qwen3.5 + dp-attention: fused_qk_gemma_rmsnorm_with_gate Triton kernel aborts with HIP \"invalid configuration argument\" (zero-sized grid on empty/idle-rank batch)",
+      "author": "ChangLiu0709",
+      "state": "open",
+      "created_at": "2026-07-15T16:24:10Z",
+      "updated_at": "2026-07-15T16:31:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31350",
+      "labels": []
+    },
+    {
+      "number": 18262,
+      "title": "[Bug] [AITER attention] OOM errors as resolved `max_total_num_tokens` does not take into account the memory requirements from attention backends",
+      "author": "fxmarty-amd",
+      "state": "open",
+      "created_at": "2026-02-04T18:23:43Z",
+      "updated_at": "2026-07-15T14:08:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/18262",
+      "labels": [
+        "inactive"
+      ]
+    },
+    {
+      "number": 31337,
+      "title": "[ROCM] default setting of deepseek-ai/DeepSeek-V4-Pro in MI355X ROCm image (lmsysorg/sglang-rocm:v0.5.14-rocm720-mi35x-20260710) ",
+      "author": "seungrokj",
+      "state": "open",
+      "created_at": "2026-07-15T13:44:07Z",
+      "updated_at": "2026-07-15T13:45:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31337",
+      "labels": []
+    },
+    {
+      "number": 31336,
+      "title": "[Bug] [AMD] Qwen3.5-397B-A17B-FP8 + MoRI + dp-attention crashes at init: FusedMoE shared-expert slot assertion (num_experts - num_shared_slots) % moe_ep_size",
+      "author": "ChangLiu0709",
+      "state": "open",
+      "created_at": "2026-07-15T13:36:14Z",
+      "updated_at": "2026-07-15T13:36:14Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31336",
       "labels": []
     },
     {
@@ -49,30 +142,6 @@
       "created_at": "2026-07-13T09:28:31Z",
       "updated_at": "2026-07-14T02:18:56Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31015",
-      "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-07-14T01:40:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
-      "number": 31071,
-      "title": "[Bug] EAGLE greedy verify lacks TP broadcast \u2192 ranks diverge on accepted tokens \u2192 collective deadlock (tp>1)",
-      "author": "zhoaa",
-      "state": "open",
-      "created_at": "2026-07-13T21:19:03Z",
-      "updated_at": "2026-07-13T21:19:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31071",
       "labels": []
     },
     {
@@ -316,18 +385,6 @@
       "labels": []
     },
     {
-      "number": 21703,
-      "title": "[Roadmap] Prefill-Decode Disaggregation Roadmap (2026 Q2)",
-      "author": "ShangmingCai",
-      "state": "open",
-      "created_at": "2026-03-30T17:20:10Z",
-      "updated_at": "2026-06-29T13:29:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21703",
-      "labels": [
-        "PD Disaggregation"
-      ]
-    },
-    {
       "number": 22092,
       "title": "[Feature] Parity with CUDA -  AMD when will it support DWDP based parallelism too",
       "author": "functionstackx",
@@ -360,16 +417,6 @@
       "labels": []
     },
     {
-      "number": 28852,
-      "title": "Support MiniMax-M3-MXFP8 on H200 with fallback/dequant path",
-      "author": "jinbagi",
-      "state": "open",
-      "created_at": "2026-06-21T20:24:15Z",
-      "updated_at": "2026-06-28T04:29:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/28852",
-      "labels": []
-    },
-    {
       "number": 22072,
       "title": "[Bug] EP/DP decode server hangs at startup on MI325X with MoRI a2a backend",
       "author": "JordanNanos",
@@ -392,26 +439,6 @@
       "labels": []
     },
     {
-      "number": 29375,
-      "title": "fix: GLM-5.2 DSA backend crashes on AMD MI355X \u2014 .view() on non-contiguous tensors and GlmMoeDsaConfig attribute_map bug",
-      "author": "tanguofu",
-      "state": "open",
-      "created_at": "2026-06-26T03:46:23Z",
-      "updated_at": "2026-06-26T04:12:08Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29375",
-      "labels": []
-    },
-    {
-      "number": 29312,
-      "title": "# [ROCm/MI300X] Kimi-K2-Instruct FP8 MoE hangs after weight loading; ForwardMetadata TypeError with Triton MoE backend",
-      "author": "giovanniguastiamd",
-      "state": "open",
-      "created_at": "2026-06-25T15:33:06Z",
-      "updated_at": "2026-06-25T15:33:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29312",
-      "labels": []
-    },
-    {
       "number": 29039,
       "title": "[Bug][AMD] EP8 + dp_attention + FP8 KV cache: ValueError: Unsupported dtype torch.float8_e4m3fn in NCCL all_gather during CUDA graph capture",
       "author": "tanguofu",
@@ -419,26 +446,6 @@
       "created_at": "2026-06-23T12:22:23Z",
       "updated_at": "2026-06-25T06:13:53Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29039",
-      "labels": []
-    },
-    {
-      "number": 29184,
-      "title": "[RFC] Generalize cuda_graph_* server args / runner naming to a device-agnostic scheme (device_graph_*)",
-      "author": "siju-samuel",
-      "state": "open",
-      "created_at": "2026-06-24T15:45:03Z",
-      "updated_at": "2026-06-25T05:45:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29184",
-      "labels": []
-    },
-    {
-      "number": 29256,
-      "title": "[Bug] tokenizer_manager KeyError in _wait_one_response (rid_to_state) \u2014 regression from #29012, breaks nightly-perf-2-gpu-vlm",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-06-25T03:30:25Z",
-      "updated_at": "2026-06-25T03:30:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29256",
       "labels": []
     },
     {
@@ -531,26 +538,6 @@
       "created_at": "2026-06-03T07:12:19Z",
       "updated_at": "2026-06-03T07:12:19Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/27124",
-      "labels": []
-    },
-    {
-      "number": 26345,
-      "title": "[Feature][AMD] Enhance Wheel Support for ROCm Platform",
-      "author": "akao-amd",
-      "state": "open",
-      "created_at": "2026-05-26T05:38:40Z",
-      "updated_at": "2026-05-29T09:31:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/26345",
-      "labels": []
-    },
-    {
-      "number": 26426,
-      "title": "[RFC] Building towards a Hardware Abstraction Layer in SGLang",
-      "author": "DevashishLal-CB",
-      "state": "open",
-      "created_at": "2026-05-27T00:07:30Z",
-      "updated_at": "2026-05-28T04:30:08Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/26426",
       "labels": []
     }
   ]

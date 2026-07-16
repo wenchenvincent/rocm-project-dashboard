@@ -1,13 +1,23 @@
 {
-  "collected_at": "2026-07-15T09:47:37Z",
+  "collected_at": "2026-07-16T09:54:01Z",
   "issues": [
+    {
+      "number": 813,
+      "title": "SDK-Free Wheel Packaging and Backend Autodetection",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-07-07T08:05:49Z",
+      "updated_at": "2026-07-16T06:13:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/813",
+      "labels": []
+    },
     {
       "number": 862,
       "title": "[Issue]: reduce Flydsl compile time",
       "author": "XiaobingSuper",
       "state": "open",
       "created_at": "2026-07-15T08:22:02Z",
-      "updated_at": "2026-07-15T08:23:22Z",
+      "updated_at": "2026-07-16T02:12:36Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/862",
       "labels": []
     },
@@ -20,19 +30,6 @@
       "updated_at": "2026-07-15T08:17:13Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/861",
       "labels": []
-    },
-    {
-      "number": 856,
-      "title": "[CI] Fork PR benchmark baselines can run 8x against stale main",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-07-15T01:02:00Z",
-      "updated_at": "2026-07-15T05:18:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/856",
-      "labels": [
-        "bug",
-        "performance"
-      ]
     },
     {
       "number": 858,
@@ -154,16 +151,6 @@
       "labels": [
         "FlyDSL/Customization"
       ]
-    },
-    {
-      "number": 813,
-      "title": "SDK-Free Wheel Packaging and Backend Autodetection",
-      "author": "sjfeng1999",
-      "state": "open",
-      "created_at": "2026-07-07T08:05:49Z",
-      "updated_at": "2026-07-07T08:06:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/813",
-      "labels": []
     },
     {
       "number": 727,

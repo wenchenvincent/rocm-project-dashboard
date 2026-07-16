@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-07-15T09:47:07Z",
+  "collected_at": "2026-07-16T09:53:32Z",
   "prs": [
+    {
+      "number": 10885,
+      "title": "[AMD][DRAFT] test out if still broken ",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T20:44:21Z",
+      "updated_at": "2026-07-16T00:06:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10885",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10708,
+      "title": "[AMD] Add gfx1250 Gluon stream bandwidth example",
+      "author": "adityakankariya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-24T01:30:44Z",
+      "updated_at": "2026-07-15T22:06:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10708",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10813,
+      "title": "[AMD] gfx1250 proton clock instructions",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T19:30:37Z",
+      "updated_at": "2026-07-15T20:17:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10813",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10871,
       "title": "[AMD] emulate descriptor reduce on GFX1250",
@@ -8,8 +44,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-14T05:26:36Z",
-      "updated_at": "2026-07-15T07:37:30Z",
+      "updated_at": "2026-07-15T17:16:12Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10871",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10483,
+      "title": "[AMD] Prove buffer-load contiguity along LinearLayout register order",
+      "author": "panditsa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-04T20:24:38Z",
+      "updated_at": "2026-07-15T16:55:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10483",
       "labels": [],
       "draft": true
     },
@@ -50,18 +98,6 @@
       "draft": false
     },
     {
-      "number": 10708,
-      "title": "[AMD] Add gfx1250 Gluon stream bandwidth example",
-      "author": "adityakankariya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T01:30:44Z",
-      "updated_at": "2026-07-15T02:00:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10708",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10886,
       "title": "[AMD] Emit actionable errors when a direct-to-LDS copy cannot be lowered",
       "author": "vmalepati1",
@@ -70,30 +106,6 @@
       "created_at": "2026-07-14T23:59:49Z",
       "updated_at": "2026-07-15T00:42:05Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10886",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10813,
-      "title": "[AMD] gfx1250 proton clock instructions",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T19:30:37Z",
-      "updated_at": "2026-07-15T00:10:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10813",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10885,
-      "title": "[AMD][DRAFT] test out if still broken ",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T20:44:21Z",
-      "updated_at": "2026-07-14T23:57:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10885",
       "labels": [],
       "draft": false
     },
@@ -528,18 +540,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10701",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10483,
-      "title": "[AMD] Prove buffer-load contiguity along LinearLayout register order",
-      "author": "panditsa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-04T20:24:38Z",
-      "updated_at": "2026-06-22T17:00:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10483",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10694,
