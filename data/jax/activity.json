@@ -1,19 +1,19 @@
 {
-  "collected_at": "2026-07-16T09:54:31Z",
+  "collected_at": "2026-07-17T09:44:42Z",
   "project": "jax",
   "repo": "jax-ml/jax",
   "pr_velocity": {
     "this_week": {
-      "opened": 3,
-      "merged": 5,
+      "opened": 5,
+      "merged": 7,
       "closed": 0
     },
     "last_week": {
-      "opened": 1,
+      "opened": 2,
       "merged": 5,
       "closed": 0
     },
-    "median_time_to_merge_hours": 67.8,
+    "median_time_to_merge_hours": 44.8,
     "merge_count": 30,
     "stale_prs": 12
   },
@@ -23,20 +23,20 @@
     "top_contributors": [
       {
         "author": "magaonka-amd",
-        "prs_submitted": 11,
-        "prs_merged": 10,
-        "commits": 0
-      },
-      {
-        "author": "alekstheod",
-        "prs_submitted": 8,
-        "prs_merged": 6,
+        "prs_submitted": 12,
+        "prs_merged": 11,
         "commits": 0
       },
       {
         "author": "mminutoli",
         "prs_submitted": 8,
         "prs_merged": 5,
+        "commits": 0
+      },
+      {
+        "author": "alekstheod",
+        "prs_submitted": 7,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -87,15 +87,15 @@
   "issue_health": {
     "total_open": 26,
     "opened_this_week": 0,
-    "closed_this_week": 37,
+    "closed_this_week": 40,
     "unanswered": 6
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 28.4,
-    "avg_interval_days": 26.9,
+    "days_since_last": 0.6,
+    "avg_interval_days": 30.0,
     "total_releases": 5,
-    "latest_tag": "jax-v0.10.2"
+    "latest_tag": "jax-v0.11.0"
   }
 }

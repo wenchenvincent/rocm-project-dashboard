@@ -1,47 +1,47 @@
 {
-  "collected_at": "2026-07-16T09:56:08Z",
+  "collected_at": "2026-07-17T09:46:04Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 21,
-      "merged": 17,
-      "closed": 1
+      "opened": 23,
+      "merged": 18,
+      "closed": 3
     },
     "last_week": {
-      "opened": 15,
-      "merged": 10,
+      "opened": 16,
+      "merged": 11,
       "closed": 2
     },
-    "median_time_to_merge_hours": 8.7,
-    "merge_count": 40,
+    "median_time_to_merge_hours": 5.5,
+    "merge_count": 42,
     "stale_prs": 6
   },
   "contributors": {
     "active_this_week": 14,
-    "total_contributors": 24,
+    "total_contributors": 23,
     "top_contributors": [
       {
         "author": "TianDi101",
-        "prs_submitted": 33,
-        "prs_merged": 29,
+        "prs_submitted": 31,
+        "prs_merged": 27,
         "commits": 1
       },
       {
         "author": "jhchouuu",
-        "prs_submitted": 18,
-        "prs_merged": 16,
+        "prs_submitted": 19,
+        "prs_merged": 18,
         "commits": 15
       },
       {
         "author": "maning00",
-        "prs_submitted": 15,
-        "prs_merged": 10,
-        "commits": 7
+        "prs_submitted": 16,
+        "prs_merged": 11,
+        "commits": 8
       },
       {
         "author": "QizhouZhang97",
-        "prs_submitted": 12,
+        "prs_submitted": 13,
         "prs_merged": 11,
         "commits": 9
       },
@@ -64,12 +64,6 @@
         "commits": 1
       },
       {
-        "author": "zhangfei829",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
         "author": "zjing14",
         "prs_submitted": 2,
         "prs_merged": 0,
@@ -77,6 +71,12 @@
       },
       {
         "author": "rbrugaro-amd",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 2
+      },
+      {
+        "author": "pemeliya",
         "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 2
@@ -93,9 +93,9 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 20.2,
-    "avg_interval_days": 22.0,
+    "days_since_last": 0.8,
+    "avg_interval_days": 23.6,
     "total_releases": 5,
-    "latest_tag": "v1.2.1"
+    "latest_tag": "v1.2.2"
   }
 }

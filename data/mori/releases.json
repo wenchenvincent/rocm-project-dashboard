@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-07-16T09:53:57Z",
+  "collected_at": "2026-07-17T09:44:19Z",
   "releases": [
+    {
+      "tag_name": "v1.2.2",
+      "name": "MoRI v1.2.2",
+      "published_at": "2026-07-16T13:33:14Z",
+      "html_url": "https://github.com/ROCm/mori/releases/tag/v1.2.2",
+      "prerelease": false
+    },
     {
       "tag_name": "v1.2.1",
       "name": "MoRI v1.2.1",
@@ -27,13 +34,6 @@
       "name": "v1.1.0",
       "published_at": "2026-04-13T07:08:00Z",
       "html_url": "https://github.com/ROCm/mori/releases/tag/v1.1.0",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v0.1.0",
-      "name": "release v0.1.0",
-      "published_at": "2026-03-30T06:26:09Z",
-      "html_url": "https://github.com/ROCm/mori/releases/tag/v0.1.0",
       "prerelease": false
     }
   ]

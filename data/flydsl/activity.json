@@ -1,49 +1,43 @@
 {
-  "collected_at": "2026-07-16T09:56:14Z",
+  "collected_at": "2026-07-17T09:46:08Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
       "opened": 36,
-      "merged": 24,
-      "closed": 5
+      "merged": 22,
+      "closed": 6
     },
     "last_week": {
-      "opened": 22,
-      "merged": 16,
-      "closed": 7
+      "opened": 24,
+      "merged": 18,
+      "closed": 6
     },
-    "median_time_to_merge_hours": 18.6,
+    "median_time_to_merge_hours": 15.4,
     "merge_count": 41,
-    "stale_prs": 17
+    "stale_prs": 19
   },
   "contributors": {
     "active_this_week": 20,
-    "total_contributors": 38,
+    "total_contributors": 39,
     "top_contributors": [
       {
         "author": "sjfeng1999",
         "prs_submitted": 21,
-        "prs_merged": 20,
-        "commits": 21
+        "prs_merged": 18,
+        "commits": 19
       },
       {
         "author": "coderfeli",
-        "prs_submitted": 18,
-        "prs_merged": 16,
+        "prs_submitted": 19,
+        "prs_merged": 17,
         "commits": 16
       },
       {
         "author": "jhinpan",
-        "prs_submitted": 18,
-        "prs_merged": 10,
-        "commits": 10
-      },
-      {
-        "author": "xudoyuan",
-        "prs_submitted": 7,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_submitted": 17,
+        "prs_merged": 9,
+        "commits": 9
       },
       {
         "author": "fsx950223",
@@ -58,10 +52,16 @@
         "commits": 7
       },
       {
+        "author": "xudoyuan",
+        "prs_submitted": 6,
+        "prs_merged": 1,
+        "commits": 1
+      },
+      {
         "author": "yanguahe",
         "prs_submitted": 4,
         "prs_merged": 3,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "solinzby1",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.3,
+    "days_since_last": 5.3,
     "avg_interval_days": 12.9,
     "total_releases": 3,
     "latest_tag": "v0.2.3"

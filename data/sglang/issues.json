@@ -1,15 +1,123 @@
 {
-  "collected_at": "2026-07-16T09:53:30Z",
+  "collected_at": "2026-07-17T09:43:54Z",
   "issues": [
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-07-17T09:03:12Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-16T09:49:00Z",
+      "updated_at": "2026-07-17T08:57:15Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 31545,
+      "title": "[Bug][ROCm] MI355X: CUDA-graph decode kernels are captured but async-deferred into one post-marker burst \u2014 per-step timing unrecoverable (torch profiler)",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-07-17T06:13:59Z",
+      "updated_at": "2026-07-17T06:34:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31545",
+      "labels": []
+    },
+    {
+      "number": 29630,
+      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
+      "author": "BBuf",
+      "state": "open",
+      "created_at": "2026-06-29T07:39:33Z",
+      "updated_at": "2026-07-17T05:53:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
+      "labels": [
+        "RFC",
+        "jit-kernel",
+        "kernel"
+      ]
+    },
+    {
+      "number": 31504,
+      "title": "[Proposal] Fuse static FP8 activation quantization into producer kernels (norm / activation / allreduce epilogue)",
+      "author": "YAMY1234",
+      "state": "open",
+      "created_at": "2026-07-17T00:32:03Z",
+      "updated_at": "2026-07-17T00:32:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31504",
+      "labels": []
+    },
+    {
+      "number": 30599,
+      "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
+      "author": "AIwork4me",
+      "state": "open",
+      "created_at": "2026-07-09T04:36:21Z",
+      "updated_at": "2026-07-17T00:13:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30599",
+      "labels": []
+    },
+    {
+      "number": 31490,
+      "title": "[Bug] GSM8K accuracy regression on DeepSeek-V4-Flash-FP8 (dp8ep8, gfx950) traced to #29275 \"Fix gfx95 bpreshuffle FP8 activation scale layout\"",
+      "author": "Lzy17",
+      "state": "open",
+      "created_at": "2026-07-16T19:45:40Z",
+      "updated_at": "2026-07-16T19:45:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31490",
+      "labels": []
+    },
+    {
+      "number": 25551,
+      "title": "v0.5.12 DeepGemm regression on B300 (sm_103): CUDA_ERROR_ILLEGAL_ADDRESS in fp8_fp4_gemm_nt TMA descriptor init for shared-experts FP8 GEMM",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-05-18T01:33:58Z",
+      "updated_at": "2026-07-16T13:26:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/25551",
+      "labels": []
+    },
+    {
+      "number": 30209,
+      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
+      "author": "hongboshi1234",
+      "state": "open",
+      "created_at": "2026-07-06T04:14:01Z",
+      "updated_at": "2026-07-16T13:25:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
+      "labels": []
+    },
+    {
+      "number": 30734,
+      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
+      "author": "tanth47",
+      "state": "open",
+      "created_at": "2026-07-10T03:32:15Z",
+      "updated_at": "2026-07-16T12:00:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
+      "labels": []
+    },
+    {
+      "number": 16255,
+      "title": "[Feature] deepseek_v2.py Refactor",
+      "author": "Fridge003",
+      "state": "open",
+      "created_at": "2026-01-01T03:53:53Z",
+      "updated_at": "2026-07-16T11:18:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
+      "labels": [
+        "inactive",
+        "deepseek",
+        "Good Pro Issue"
+      ]
     },
     {
       "number": 20865,
@@ -34,20 +142,6 @@
       "updated_at": "2026-07-16T08:08:23Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31071",
       "labels": []
-    },
-    {
-      "number": 16255,
-      "title": "[Feature] deepseek_v2.py Refactor",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2026-01-01T03:53:53Z",
-      "updated_at": "2026-07-16T07:53:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
-      "labels": [
-        "inactive",
-        "deepseek",
-        "Good Pro Issue"
-      ]
     },
     {
       "number": 31359,
@@ -115,26 +209,6 @@
       "labels": []
     },
     {
-      "number": 30599,
-      "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
-      "author": "AIwork4me",
-      "state": "open",
-      "created_at": "2026-07-09T04:36:21Z",
-      "updated_at": "2026-07-15T07:24:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30599",
-      "labels": []
-    },
-    {
-      "number": 30734,
-      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-07-10T03:32:15Z",
-      "updated_at": "2026-07-15T02:41:02Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
-      "labels": []
-    },
-    {
       "number": 31015,
       "title": "[Feature] [Roadmap] Support Hygon HCU GPUs",
       "author": "lizhigong1988",
@@ -143,20 +217,6 @@
       "updated_at": "2026-07-14T02:18:56Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31015",
       "labels": []
-    },
-    {
-      "number": 29630,
-      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
-      "author": "BBuf",
-      "state": "open",
-      "created_at": "2026-06-29T07:39:33Z",
-      "updated_at": "2026-07-13T12:46:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
-      "labels": [
-        "RFC",
-        "jit-kernel",
-        "kernel"
-      ]
     },
     {
       "number": 30931,
@@ -243,16 +303,6 @@
       "labels": []
     },
     {
-      "number": 30209,
-      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
-      "author": "hongboshi1234",
-      "state": "open",
-      "created_at": "2026-07-06T04:14:01Z",
-      "updated_at": "2026-07-06T23:27:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
-      "labels": []
-    },
-    {
       "number": 28618,
       "title": "[RFC] Add SM89/L20 support for DeepSeek-V4-Flash-FP8",
       "author": "xesdiny",
@@ -325,16 +375,6 @@
       "labels": []
     },
     {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-07-01T16:01:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
       "number": 29785,
       "title": "[Bug][AMD] EAGLE/MTP spec-v2 crashes on ROCm DSA draft-extend (init_forward_metadata: All of them must not be None)",
       "author": "andyluo7",
@@ -385,28 +425,6 @@
       "labels": []
     },
     {
-      "number": 22092,
-      "title": "[Feature] Parity with CUDA -  AMD when will it support DWDP based parallelism too",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-04T03:19:20Z",
-      "updated_at": "2026-06-29T03:04:36Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22092",
-      "labels": [
-        "inactive"
-      ]
-    },
-    {
-      "number": 29590,
-      "title": "[AMD][multimodal-gen] HIPBLAS_STATUS_NOT_SUPPORTED in torch._scaled_mm FP8 GEMM on MI325 \u2014 all diffusion tests failing on main",
-      "author": "sunxxuns",
-      "state": "open",
-      "created_at": "2026-06-29T00:20:50Z",
-      "updated_at": "2026-06-29T01:06:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29590",
-      "labels": []
-    },
-    {
       "number": 28992,
       "title": "[Bug] `intel_amx` backend can segfault non-deterministically during long-running CPU serving",
       "author": "gxoga",
@@ -414,28 +432,6 @@
       "created_at": "2026-06-23T04:33:21Z",
       "updated_at": "2026-06-28T13:12:13Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/28992",
-      "labels": []
-    },
-    {
-      "number": 22072,
-      "title": "[Bug] EP/DP decode server hangs at startup on MI325X with MoRI a2a backend",
-      "author": "JordanNanos",
-      "state": "open",
-      "created_at": "2026-04-03T19:42:51Z",
-      "updated_at": "2026-06-28T00:57:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22072",
-      "labels": [
-        "inactive"
-      ]
-    },
-    {
-      "number": 29144,
-      "title": "[Bug] EAGLE/NextN speculative decoding + DP attention: collective deadlock (scheduler watchdog timeout) on the draft sub-communicator's first use \u2014 DeepSeek-V4-Flash, CUDA, `dsv4` backend",
-      "author": "WangTuoxytt",
-      "state": "open",
-      "created_at": "2026-06-24T08:33:55Z",
-      "updated_at": "2026-06-26T09:19:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29144",
       "labels": []
     },
     {

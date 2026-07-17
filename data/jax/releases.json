@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-07-16T09:53:05Z",
+  "collected_at": "2026-07-17T09:43:34Z",
   "releases": [
+    {
+      "tag_name": "jax-v0.11.0",
+      "name": "JAX v0.11.0",
+      "published_at": "2026-07-16T19:53:29Z",
+      "html_url": "https://github.com/jax-ml/jax/releases/tag/jax-v0.11.0",
+      "prerelease": false
+    },
     {
       "tag_name": "jax-v0.10.2",
       "name": "JAX v0.10.2",
@@ -27,13 +34,6 @@
       "name": "JAX v0.9.2",
       "published_at": "2026-03-18T23:40:31Z",
       "html_url": "https://github.com/jax-ml/jax/releases/tag/jax-v0.9.2",
-      "prerelease": false
-    },
-    {
-      "tag_name": "jax-v0.9.1",
-      "name": "JAX v0.9.1",
-      "published_at": "2026-03-02T11:13:44Z",
-      "html_url": "https://github.com/jax-ml/jax/releases/tag/jax-v0.9.1",
       "prerelease": false
     }
   ]

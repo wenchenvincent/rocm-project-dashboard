@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-16T09:53:03Z",
+  "collected_at": "2026-07-17T09:43:32Z",
   "prs": [
     {
       "number": 39212,
@@ -8,8 +8,35 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-16T09:47:15Z",
-      "updated_at": "2026-07-16T09:48:13Z",
+      "updated_at": "2026-07-17T08:28:49Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39212",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39249,
+      "title": "Don't trigger the continuous rocm builds from PRs.",
+      "author": "copybara-service[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T21:55:02Z",
+      "updated_at": "2026-07-16T22:10:40Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39249",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 39222,
+      "title": "[ROCm] [pallas:triton] Use a gfx abstract device_kind directly as the arch",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T13:41:19Z",
+      "updated_at": "2026-07-16T16:12:41Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39222",
       "labels": [
         "kokoro:force-run",
         "pull ready"
@@ -23,13 +50,25 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-07-09T19:29:24Z",
-      "updated_at": "2026-07-14T17:56:54Z",
+      "updated_at": "2026-07-16T15:00:41Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39038",
       "labels": [
         "kokoro:force-run",
         "pull ready"
       ],
       "draft": false
+    },
+    {
+      "number": 39220,
+      "title": "[WIP][ROCm] Add runfiles data files for proper hermetic bzl test execution",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T12:37:36Z",
+      "updated_at": "2026-07-16T14:22:50Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39220",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 39074,
@@ -536,21 +575,6 @@
       "draft": false
     },
     {
-      "number": 37740,
-      "title": "[ROCm] Switch to hermetic llvm for rocm",
-      "author": "alekstheod",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-18T10:45:58Z",
-      "updated_at": "2026-05-19T16:36:05Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37740",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
       "number": 37071,
       "title": "[ROCm] Switch to hermetic llvm",
       "author": "alekstheod",
@@ -561,22 +585,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/37071",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 35785,
-      "title": "[ROCm] Fix and simplify jax rocm plugin init script",
-      "author": "alekstheod",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-10T21:06:53Z",
-      "updated_at": "2026-05-08T20:48:18Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/35785",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
     },
     {
       "number": 36572,
