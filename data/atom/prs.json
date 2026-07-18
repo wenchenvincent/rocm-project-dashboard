@@ -1,15 +1,92 @@
 {
-  "collected_at": "2026-07-17T09:44:14Z",
+  "collected_at": "2026-07-18T09:13:59Z",
   "prs": [
     {
-      "number": 1600,
-      "title": "[dsv4] kv cache fp8",
-      "author": "amd-ruitang3",
+      "number": 1585,
+      "title": "[Sglang+atom]Update ATOM SGLang plugin for SGLang 0.5.15",
+      "author": "zhangxinyuanliuhengyu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-14T14:56:02Z",
-      "updated_at": "2026-07-17T09:42:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1600",
+      "created_at": "2026-07-14T06:04:47Z",
+      "updated_at": "2026-07-18T07:22:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1585",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1414,
+      "title": "[Spec Decode] Add DeepSeek-V4 DSpark speculative decoding",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-30T08:31:01Z",
+      "updated_at": "2026-07-18T04:45:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1414",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 477,
+      "title": "adding profiling context",
+      "author": "mohbasit",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-02T16:25:19Z",
+      "updated_at": "2026-07-17T19:02:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/477",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1632,
+      "title": "docs: setup ROCm docs toolchain and publishing",
+      "author": "peterjunpark",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T15:24:16Z",
+      "updated_at": "2026-07-17T17:51:23Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1632",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1530,
+      "title": "[ATOM-SGL/VLLM-CI] Modify testing cases for SGLang and vLLM.",
+      "author": "junyyang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T06:56:36Z",
+      "updated_at": "2026-07-17T16:38:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1530",
+      "labels": [
+        "ci:sglang",
+        "ci:vllm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 860,
+      "title": "Atom-RAPIDserve merge",
+      "author": "amnamasood-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-20T20:07:56Z",
+      "updated_at": "2026-07-17T16:18:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/860",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1570,
+      "title": "wire GUGU - act+quant fusion into triton decode ",
+      "author": "Boss2002n",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T18:20:40Z",
+      "updated_at": "2026-07-17T13:58:40Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1570",
       "labels": [],
       "draft": false
     },
@@ -20,8 +97,56 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-17T08:03:13Z",
-      "updated_at": "2026-07-17T09:17:54Z",
+      "updated_at": "2026-07-17T13:26:59Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1626",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1518,
+      "title": "[vLLM-ATOM] Support EAGLE3 spec decoding for MiniMax-M3",
+      "author": "kliuae",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T09:32:07Z",
+      "updated_at": "2026-07-17T11:39:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1518",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1552,
+      "title": "[Feature] support Chunked Pipeline Parallelism + PD Disaggregation + Atomesh",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-10T06:15:25Z",
+      "updated_at": "2026-07-17T10:25:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1552",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1599,
+      "title": "[atom sgl] glm 5.2 mtp optimize",
+      "author": "ZhiweiYan-96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T14:51:17Z",
+      "updated_at": "2026-07-17T09:50:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1599",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1459,
+      "title": "[Feature] Supports quark perchannel dequantization",
+      "author": "haoyangli0109",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-03T10:12:01Z",
+      "updated_at": "2026-07-17T09:46:37Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1459",
       "labels": [],
       "draft": false
     },
@@ -38,18 +163,6 @@
       "draft": true
     },
     {
-      "number": 1627,
-      "title": "TBO: any rank 8k opens all",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-17T08:37:11Z",
-      "updated_at": "2026-07-17T08:42:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1627",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1201,
       "title": "[vLLM-ATOM] Support Eagle 3.1 spec decoding",
       "author": "kliuae",
@@ -60,18 +173,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1201",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1552,
-      "title": "[Feature] support Chunked Pipeline Parallelism + PD Disaggregation + Atomesh",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T06:15:25Z",
-      "updated_at": "2026-07-17T08:36:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1552",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1410,
@@ -110,18 +211,6 @@
       "draft": false
     },
     {
-      "number": 1585,
-      "title": "[Sglang+atom]Update ATOM SGLang plugin for SGLang 0.5.15",
-      "author": "zhangxinyuanliuhengyu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T06:04:47Z",
-      "updated_at": "2026-07-17T07:25:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1585",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1623,
       "title": "[CI] add agentic MiniMax-M3 PD+LMCache test case",
       "author": "Phi-C",
@@ -130,18 +219,6 @@
       "created_at": "2026-07-17T06:45:12Z",
       "updated_at": "2026-07-17T06:45:42Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1623",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1599,
-      "title": "[atom sgl] glm 5.2 mtp optimize",
-      "author": "ZhiweiYan-96",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T14:51:17Z",
-      "updated_at": "2026-07-17T06:21:51Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1599",
       "labels": [],
       "draft": true
     },
@@ -170,56 +247,6 @@
       "draft": true
     },
     {
-      "number": 1414,
-      "title": "[Spec Decode] Add DeepSeek-V4 DSpark speculative decoding",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-30T08:31:01Z",
-      "updated_at": "2026-07-17T04:58:50Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1414",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 477,
-      "title": "adding profiling context",
-      "author": "mohbasit",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T16:25:19Z",
-      "updated_at": "2026-07-17T03:29:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/477",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1459,
-      "title": "[Feature] Supports quark perchannel dequantization",
-      "author": "haoyangli0109",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-03T10:12:01Z",
-      "updated_at": "2026-07-17T03:00:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1459",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1518,
-      "title": "[vLLM-ATOM] Support EAGLE3 spec decoding for MiniMax-M3",
-      "author": "kliuae",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T09:32:07Z",
-      "updated_at": "2026-07-17T03:00:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1518",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1601,
       "title": "Fix(mxfp4): align activation quant rounding with Quark offline calibr\u2026",
       "author": "thpereir",
@@ -229,47 +256,6 @@
       "updated_at": "2026-07-16T22:35:58Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1601",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1465,
-      "title": "perf: optimize model loading speed",
-      "author": "ftyghome",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-04T17:20:37Z",
-      "updated_at": "2026-07-16T16:09:22Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1465",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1570,
-      "title": "wire GUGU - act+quant fusion into triton decode ",
-      "author": "Boss2002n",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-12T18:20:40Z",
-      "updated_at": "2026-07-16T15:55:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1570",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1530,
-      "title": "[ATOM-SGL/VLLM-CI] Modify testing cases for SGLang and vLLM.",
-      "author": "junyyang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T06:56:36Z",
-      "updated_at": "2026-07-16T14:05:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1530",
-      "labels": [
-        "ci:sglang",
-        "ci:vllm"
-      ],
       "draft": false
     },
     {
@@ -353,18 +339,6 @@
       "created_at": "2026-07-15T17:36:29Z",
       "updated_at": "2026-07-16T02:05:06Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1610",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 860,
-      "title": "Atom-RAPIDserve merge",
-      "author": "amnamasood-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-20T20:07:56Z",
-      "updated_at": "2026-07-15T21:47:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/860",
       "labels": [],
       "draft": false
     },
@@ -1979,6 +1953,104 @@
       "draft": false
     },
     {
+      "number": 1465,
+      "title": "perf: optimize model loading speed",
+      "author": "ftyghome",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-04T17:20:37Z",
+      "updated_at": "2026-07-18T02:18:52Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1465",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1635,
+      "title": "fix: skip distributed barrier on single-rank runs",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-17T17:30:12Z",
+      "updated_at": "2026-07-17T17:33:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1635",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1634,
+      "title": "chore: fix black formatting in tbo/ubatching.py",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-17T16:05:59Z",
+      "updated_at": "2026-07-17T16:07:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1634",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1633,
+      "title": "fix: apply MoE pad_align override before create_weights",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-17T15:57:40Z",
+      "updated_at": "2026-07-17T15:59:02Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1633",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1627,
+      "title": "TBO: any rank 8k opens all",
+      "author": "ZhangLirong-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-17T08:37:11Z",
+      "updated_at": "2026-07-17T14:34:49Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1627",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1631,
+      "title": "[GLM5.2][vllm-atom] fix small con perf gap with atom native",
+      "author": "zejunchen-zejun",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-17T12:04:45Z",
+      "updated_at": "2026-07-17T14:30:02Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1631",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1600,
+      "title": "[dsv4] kv cache fp8",
+      "author": "amd-ruitang3",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T14:56:02Z",
+      "updated_at": "2026-07-17T13:44:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1600",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1629,
+      "title": "[doc] [Benchmark] update MI308 glm5.2 recipe & workflow",
+      "author": "qichu-yun",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-17T09:45:28Z",
+      "updated_at": "2026-07-17T12:32:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1629",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 1622,
       "title": "ci: add retry for aiter wheel downloads",
       "author": "gyohuangxin",
@@ -2898,90 +2970,6 @@
       "created_at": "2026-07-08T09:19:35Z",
       "updated_at": "2026-07-08T09:19:46Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1517",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1512,
-      "title": "fix atomesh mocker benchmark timeout",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-08T04:47:05Z",
-      "updated_at": "2026-07-08T08:20:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1512",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1475,
-      "title": "ci(atomesh): add Spur cluster benchmark support",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-06T08:57:31Z",
-      "updated_at": "2026-07-08T08:09:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1475",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1496,
-      "title": "[fix](llama): support llama-405B quant type",
-      "author": "PerryZhang01",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-07T06:30:16Z",
-      "updated_at": "2026-07-08T06:00:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1496",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1498,
-      "title": "[Kernel Opt] Optimize DeepSeek-V4 sparse prefill attention triton kernel",
-      "author": "ZLkanyo009",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-07T08:25:09Z",
-      "updated_at": "2026-07-08T05:30:50Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1498",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1454,
-      "title": "[atom-vllm] enable prefix cache for deepseek v4",
-      "author": "whx-sjtu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-03T06:37:44Z",
-      "updated_at": "2026-07-08T02:46:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1454",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1447,
-      "title": " Remove legacy proxy, update docs, and enhance scripts",
-      "author": "Jasen2201",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-03T03:32:06Z",
-      "updated_at": "2026-07-08T02:10:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1447",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1502,
-      "title": "[Fix] fix GLM5.2 n-shot100 accuracy",
-      "author": "yitingw1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-07T12:34:13Z",
-      "updated_at": "2026-07-07T13:54:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1502",
       "labels": [],
       "draft": false
     }

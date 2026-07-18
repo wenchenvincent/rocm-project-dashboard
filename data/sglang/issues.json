@@ -1,6 +1,81 @@
 {
-  "collected_at": "2026-07-17T09:43:54Z",
+  "collected_at": "2026-07-18T09:13:39Z",
   "issues": [
+    {
+      "number": 17050,
+      "title": "[Tracking] CI Test Failures and Fixes",
+      "author": "alisonshao",
+      "state": "open",
+      "created_at": "2026-01-14T01:49:31Z",
+      "updated_at": "2026-07-18T08:30:45Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 30815,
+      "title": "[Bug] FP8 KV-cache decode slowdown: unfused K/V quantization + per-layer Q conversion overhead",
+      "author": "Swipe4057",
+      "state": "open",
+      "created_at": "2026-07-10T21:38:57Z",
+      "updated_at": "2026-07-18T05:07:28Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30815",
+      "labels": []
+    },
+    {
+      "number": 31359,
+      "title": "[Tracking] Inkling Day-0 Support",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-07-15T18:18:03Z",
+      "updated_at": "2026-07-18T04:09:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31359",
+      "labels": [
+        "high priority",
+        "new-model"
+      ]
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-07-18T03:52:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 30734,
+      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
+      "author": "tanth47",
+      "state": "open",
+      "created_at": "2026-07-10T03:32:15Z",
+      "updated_at": "2026-07-18T03:28:12Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
+      "labels": []
+    },
+    {
+      "number": 31490,
+      "title": "[Bug] GSM8K accuracy regression on DeepSeek-V4-Flash-FP8 (dp8ep8, gfx950) traced to #29275 \"Fix gfx95 bpreshuffle FP8 activation scale layout\"",
+      "author": "Lzy17",
+      "state": "open",
+      "created_at": "2026-07-16T19:45:40Z",
+      "updated_at": "2026-07-17T23:52:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31490",
+      "labels": []
+    },
+    {
+      "number": 31594,
+      "title": "[Bug] [AMD] Qwen3.5 GatedDeltaNet + dp-attention on ROCm/MoRI: HIP \"invalid configuration argument\" (linear-attn/Mamba state path); process hangs in chunk_gated_delta_rule_fwd under kernel serialization",
+      "author": "ChangLiu0709",
+      "state": "open",
+      "created_at": "2026-07-17T15:58:21Z",
+      "updated_at": "2026-07-17T15:59:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31594",
+      "labels": []
+    },
     {
       "number": 21302,
       "title": "[AITER-Upgrade] PR readiness",
@@ -9,16 +84,6 @@
       "created_at": "2026-03-24T09:28:38Z",
       "updated_at": "2026-07-17T09:03:12Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
-      "number": 17050,
-      "title": "[Tracking] CI Test Failures and Fixes",
-      "author": "alisonshao",
-      "state": "open",
-      "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-17T08:57:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
@@ -66,16 +131,6 @@
       "labels": []
     },
     {
-      "number": 31490,
-      "title": "[Bug] GSM8K accuracy regression on DeepSeek-V4-Flash-FP8 (dp8ep8, gfx950) traced to #29275 \"Fix gfx95 bpreshuffle FP8 activation scale layout\"",
-      "author": "Lzy17",
-      "state": "open",
-      "created_at": "2026-07-16T19:45:40Z",
-      "updated_at": "2026-07-16T19:45:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31490",
-      "labels": []
-    },
-    {
       "number": 25551,
       "title": "v0.5.12 DeepGemm regression on B300 (sm_103): CUDA_ERROR_ILLEGAL_ADDRESS in fp8_fp4_gemm_nt TMA descriptor init for shared-experts FP8 GEMM",
       "author": "functionstackx",
@@ -93,16 +148,6 @@
       "created_at": "2026-07-06T04:14:01Z",
       "updated_at": "2026-07-16T13:25:34Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30209",
-      "labels": []
-    },
-    {
-      "number": 30734,
-      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-07-10T03:32:15Z",
-      "updated_at": "2026-07-16T12:00:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
       "labels": []
     },
     {
@@ -142,19 +187,6 @@
       "updated_at": "2026-07-16T08:08:23Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31071",
       "labels": []
-    },
-    {
-      "number": 31359,
-      "title": "[Tracking] Inkling Day-0 Support",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-07-15T18:18:03Z",
-      "updated_at": "2026-07-15T20:07:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31359",
-      "labels": [
-        "high priority",
-        "new-model"
-      ]
     },
     {
       "number": 31350,
@@ -375,16 +407,6 @@
       "labels": []
     },
     {
-      "number": 29785,
-      "title": "[Bug][AMD] EAGLE/MTP spec-v2 crashes on ROCm DSA draft-extend (init_forward_metadata: All of them must not be None)",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-06-30T23:55:39Z",
-      "updated_at": "2026-06-30T23:55:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29785",
-      "labels": []
-    },
-    {
       "number": 29738,
       "title": "[Bug] NameError: name 'deep_gemm' is not defined in tf32_hc_prenorm_gemm when SGLANG_ENABLE_JIT_DEEPGEMM=0",
       "author": "mattyding",
@@ -412,16 +434,6 @@
       "created_at": "2026-06-30T00:25:54Z",
       "updated_at": "2026-06-30T05:45:56Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29695",
-      "labels": []
-    },
-    {
-      "number": 29683,
-      "title": "[AMD] Qwen3-30B-A3B BF16 MoE on MI355X (gfx950): unstable/low GSM8K accuracy + intermittent decode GPU mem fault (TP=8)",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-06-29T22:33:05Z",
-      "updated_at": "2026-06-29T22:54:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29683",
       "labels": []
     },
     {
@@ -524,16 +536,6 @@
       "created_at": "2026-06-08T01:53:26Z",
       "updated_at": "2026-06-08T01:53:26Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/27519",
-      "labels": []
-    },
-    {
-      "number": 27124,
-      "title": "[Bug]  [AMD MI300X] ValueError: Buffer dtype mismatch - expected torch.float8_e4m3fnuz, got   torch.float8_e4m3fn",
-      "author": "cubezhang",
-      "state": "open",
-      "created_at": "2026-06-03T07:12:19Z",
-      "updated_at": "2026-06-03T07:12:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27124",
       "labels": []
     }
   ]

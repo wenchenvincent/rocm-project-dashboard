@@ -1,6 +1,201 @@
 {
-  "collected_at": "2026-07-17T09:43:58Z",
+  "collected_at": "2026-07-18T09:13:44Z",
   "prs": [
+    {
+      "number": 5074,
+      "title": "Add dynamic support to Shape and Expand",
+      "author": "turneram",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T16:17:00Z",
+      "updated_at": "2026-07-18T02:21:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5074",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5014,
+      "title": "Hoist and horizontal dot",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-25T22:19:09Z",
+      "updated_at": "2026-07-18T00:37:23Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4954,
+      "title": "Add tiling for reductions",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T21:05:13Z",
+      "updated_at": "2026-07-18T00:29:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4954",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4956,
+      "title": "Add support for HipGraph",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-11T21:50:30Z",
+      "updated_at": "2026-07-17T23:53:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4956",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4835,
+      "title": "Extend problem cache with hardware provenance metadata",
+      "author": "danieyan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-30T19:43:40Z",
+      "updated_at": "2026-07-17T22:13:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4835",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5077,
+      "title": "Proto data dependent symbolics",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T21:45:09Z",
+      "updated_at": "2026-07-17T21:51:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5077",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5043,
+      "title": "Symbolic attr support for slice",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T18:59:51Z",
+      "updated_at": "2026-07-17T19:49:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5043",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5076,
+      "title": "Onnxruntime Weekly Sync 2026-07-17",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T17:33:11Z",
+      "updated_at": "2026-07-17T17:33:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5076",
+      "labels": [
+        "onnxruntime",
+        "dependencies",
+        "skip bot checks",
+        "automated"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5075,
+      "title": "rebias uint8 to int8 on models with mixed datatypes",
+      "author": "kahmed10",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T16:30:31Z",
+      "updated_at": "2026-07-17T19:28:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5075",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5066,
+      "title": "[AIMIGRAPHX-1164] Replace device ops inserted during `compile_ops`",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T00:05:01Z",
+      "updated_at": "2026-07-17T16:42:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5066",
+      "labels": [
+        "enhancement",
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4924,
+      "title": "concat: treat fully-unconstrained dynamic dim as a wildcard",
+      "author": "chun-wan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-30T04:54:47Z",
+      "updated_at": "2026-07-17T16:13:43Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4924",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5064,
+      "title": "Fix MLIR conv-pointwise-layout fusion splitting",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T18:57:37Z",
+      "updated_at": "2026-07-17T15:52:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5064",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5052,
+      "title": "Revert find_reshape_cont guard relaxation from PR#4858",
+      "author": "tamahedi",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T14:03:44Z",
+      "updated_at": "2026-07-17T15:52:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
+      "labels": [
+        "bugfix",
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4952,
+      "title": "Bump CI to TheRock 7.14",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T16:46:19Z",
+      "updated_at": "2026-07-17T15:35:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4952",
+      "labels": [
+        "ok-to-test"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5046,
+      "title": "Fix nonzero for non-standard input layouts",
+      "author": "ikalinic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T14:08:43Z",
+      "updated_at": "2026-07-17T13:50:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5046",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5026,
       "title": "Enable mlir attention for yolon12",
@@ -8,7 +203,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-01T01:04:56Z",
-      "updated_at": "2026-07-17T08:24:11Z",
+      "updated_at": "2026-07-17T11:17:23Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5026",
       "labels": [],
       "draft": false
@@ -24,18 +219,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5073",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4956,
-      "title": "Add support for HipGraph",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-11T21:50:30Z",
-      "updated_at": "2026-07-17T04:33:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4956",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4999,
@@ -60,62 +243,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5033",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5052,
-      "title": "Revert find_reshape_cont guard relaxation from PR#4858",
-      "author": "tamahedi",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T14:03:44Z",
-      "updated_at": "2026-07-17T02:50:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5066,
-      "title": "[AIMIGRAPHX-1164] Replace device ops inserted during `compile_ops`",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T00:05:01Z",
-      "updated_at": "2026-07-17T02:26:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5066",
-      "labels": [
-        "enhancement",
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5043,
-      "title": "Symbolic attr support for slice",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T18:59:51Z",
-      "updated_at": "2026-07-17T02:22:19Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5043",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4952,
-      "title": "Bump CI to TheRock 7.14",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-10T16:46:19Z",
-      "updated_at": "2026-07-17T01:41:30Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4952",
-      "labels": [
-        "ok-to-test"
-      ],
-      "draft": false
     },
     {
       "number": 5069,
@@ -190,21 +317,6 @@
       "draft": true
     },
     {
-      "number": 5070,
-      "title": "fix non-standard literals causing failures in mlir modules",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T19:01:58Z",
-      "updated_at": "2026-07-16T21:26:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5070",
-      "labels": [
-        "bugfix",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
       "number": 5067,
       "title": "[AIMIGRAPHX-1100] Add no-rebuild callback for verify",
       "author": "eddieliao",
@@ -256,30 +368,6 @@
       "draft": false
     },
     {
-      "number": 5046,
-      "title": "Fix nonzero for non-standard input layouts",
-      "author": "ikalinic",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T14:08:43Z",
-      "updated_at": "2026-07-16T17:11:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5046",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4924,
-      "title": "concat: treat fully-unconstrained dynamic dim as a wildcard",
-      "author": "chun-wan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-30T04:54:47Z",
-      "updated_at": "2026-07-16T11:32:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4924",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4946,
       "title": "Driver and API updates for using sym shapes",
       "author": "shivadbhavsar",
@@ -302,18 +390,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4809",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 4954,
-      "title": "Add tiling for reductions",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-10T21:05:13Z",
-      "updated_at": "2026-07-16T02:26:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4954",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 4977,
@@ -350,32 +426,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5014,
-      "title": "Hoist and horizontal dot",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-25T22:19:09Z",
-      "updated_at": "2026-07-15T06:02:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5064,
-      "title": "Fix MLIR conv-pointwise-layout fusion splitting",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T18:57:37Z",
-      "updated_at": "2026-07-15T05:27:50Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5064",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5006,
@@ -468,18 +518,6 @@
         "dependencies",
         "python"
       ],
-      "draft": false
-    },
-    {
-      "number": 4835,
-      "title": "Extend problem cache with hardware provenance metadata",
-      "author": "danieyan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T19:43:40Z",
-      "updated_at": "2026-07-08T18:50:23Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4835",
-      "labels": [],
       "draft": false
     },
     {
@@ -1388,6 +1426,21 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5070,
+      "title": "fix non-standard literals causing failures in mlir modules",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-15T19:01:58Z",
+      "updated_at": "2026-07-17T19:54:59Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5070",
+      "labels": [
+        "bugfix",
+        "simple"
+      ],
+      "draft": false
     },
     {
       "number": 5065,
@@ -2622,18 +2675,6 @@
         "high priority",
         "simple"
       ],
-      "draft": false
-    },
-    {
-      "number": 4982,
-      "title": "Encode benchmark MXR comment metadata as JSON",
-      "author": "ahsan-ca",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-17T18:28:40Z",
-      "updated_at": "2026-06-18T01:13:26Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4982",
-      "labels": [],
       "draft": false
     }
   ]

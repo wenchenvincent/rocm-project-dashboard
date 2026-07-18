@@ -1,6 +1,44 @@
 {
-  "collected_at": "2026-07-17T09:44:23Z",
+  "collected_at": "2026-07-18T09:14:10Z",
   "prs": [
+    {
+      "number": 673,
+      "title": "ci: bump te-rocm-wheels artifact retention 1d -> 5d",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T17:33:32Z",
+      "updated_at": "2026-07-17T22:11:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/673",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 599,
+      "title": "Update QoLA/AITER ",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-28T16:18:02Z",
+      "updated_at": "2026-07-17T20:47:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/599",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 602,
+      "title": "Update CI to use TheRock",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-29T15:33:31Z",
+      "updated_at": "2026-07-17T16:49:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 660,
       "title": "Ifu dev 20260706 v2.17",
@@ -8,10 +46,36 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-17T03:59:31Z",
+      "updated_at": "2026-07-17T16:48:51Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 670,
+      "title": "[proof-of-concept] benchmarks dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-07-17T15:50:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 667,
+      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T19:42:42Z",
+      "updated_at": "2026-07-17T14:06:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
     },
     {
       "number": 661,
@@ -25,60 +89,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 667,
-      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T19:42:42Z",
-      "updated_at": "2026-07-17T03:26:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 672,
-      "title": "mxfp4: optimize amax-reduce xor4 with ds_swizzle",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T19:12:33Z",
-      "updated_at": "2026-07-17T03:06:22Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/672",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 669,
-      "title": "fix spurious recompilation on incremental editable builds",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-13T21:25:12Z",
-      "updated_at": "2026-07-17T03:01:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/669",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 602,
-      "title": "Update CI to use TheRock",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-29T15:33:31Z",
-      "updated_at": "2026-07-16T21:02:11Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
-      "labels": [],
       "draft": false
     },
     {
@@ -144,32 +154,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 670,
-      "title": "[proof-of-concept] benchmarks dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-07-15T22:21:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 599,
-      "title": "Update QoLA/AITER ",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-28T16:18:02Z",
-      "updated_at": "2026-07-14T17:07:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/599",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     },
@@ -629,6 +613,34 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 669,
+      "title": "fix spurious recompilation on incremental editable builds",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-13T21:25:12Z",
+      "updated_at": "2026-07-17T22:30:42Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/669",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 672,
+      "title": "mxfp4: optimize amax-reduce xor4 with ds_swizzle",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T19:12:33Z",
+      "updated_at": "2026-07-17T15:22:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/672",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1737,32 +1749,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/550",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 548,
-      "title": "Add Claude PR review/summary action",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-17T15:41:03Z",
-      "updated_at": "2026-04-24T04:26:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/548",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 519,
-      "title": "\"castonly/casttranspose HIP kernel optimization in fp8",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-04T02:20:47Z",
-      "updated_at": "2026-04-23T21:53:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/519",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     }

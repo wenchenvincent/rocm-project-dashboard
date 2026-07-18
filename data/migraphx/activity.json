@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-17T09:44:48Z",
+  "collected_at": "2026-07-18T09:14:51Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
@@ -9,23 +9,23 @@
       "closed": 2
     },
     "last_week": {
-      "opened": 18,
-      "merged": 16,
+      "opened": 21,
+      "merged": 12,
       "closed": 1
     },
     "median_time_to_merge_hours": 120.6,
-    "merge_count": 47,
-    "stale_prs": 55
+    "merge_count": 43,
+    "stale_prs": 59
   },
   "contributors": {
-    "active_this_week": 20,
+    "active_this_week": 21,
     "total_contributors": 47,
     "top_contributors": [
       {
         "author": "pfultz2",
         "prs_submitted": 50,
         "prs_merged": 26,
-        "commits": 20
+        "commits": 19
       },
       {
         "author": "TedThemistokleous",
@@ -34,20 +34,20 @@
         "commits": 7
       },
       {
-        "author": "shivadbhavsar",
-        "prs_submitted": 11,
-        "prs_merged": 4,
-        "commits": 2
+        "author": "CharlieL7",
+        "prs_submitted": 12,
+        "prs_merged": 9,
+        "commits": 8
       },
       {
-        "author": "CharlieL7",
+        "author": "shivadbhavsar",
         "prs_submitted": 11,
-        "prs_merged": 9,
-        "commits": 9
+        "prs_merged": 5,
+        "commits": 3
       },
       {
         "author": "kahmed10",
-        "prs_submitted": 8,
+        "prs_submitted": 9,
         "prs_merged": 5,
         "commits": 3
       },
@@ -56,6 +56,12 @@
         "prs_submitted": 8,
         "prs_merged": 3,
         "commits": 2
+      },
+      {
+        "author": "turneram",
+        "prs_submitted": 6,
+        "prs_merged": 0,
+        "commits": 0
       },
       {
         "author": "causten",
@@ -67,33 +73,27 @@
         "author": "klin2024",
         "prs_submitted": 6,
         "prs_merged": 2,
-        "commits": 2
+        "commits": 1
       },
       {
         "author": "urpetkov-amd",
         "prs_submitted": 6,
         "prs_merged": 6,
-        "commits": 1
-      },
-      {
-        "author": "turneram",
-        "prs_submitted": 5,
-        "prs_merged": 0,
         "commits": 0
       }
     ],
     "bus_factor": 3
   },
   "issue_health": {
-    "total_open": 236,
-    "opened_this_week": 1,
+    "total_open": 237,
+    "opened_this_week": 2,
     "closed_this_week": 1,
     "unanswered": 127
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 49.7,
+    "days_since_last": 50.7,
     "avg_interval_days": 31.7,
     "total_releases": 5,
     "latest_tag": "rocm-7.2.4"

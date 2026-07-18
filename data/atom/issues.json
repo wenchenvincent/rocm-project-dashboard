@@ -1,32 +1,6 @@
 {
-  "collected_at": "2026-07-17T09:44:15Z",
+  "collected_at": "2026-07-18T09:14:01Z",
   "issues": [
-    {
-      "number": 1621,
-      "title": "[Perf Regression] 31 config(s) regressed @ 9bed95e4",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-07-17T04:36:57Z",
-      "updated_at": "2026-07-17T04:36:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1621",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 1619,
-      "title": "[Perf Regression] 26 config(s) regressed @ 0e9804c2",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-07-16T17:59:53Z",
-      "updated_at": "2026-07-16T17:59:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1619",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
     {
       "number": 1616,
       "title": "[Issue]: GDNAttentionMetadataBuilder.prepare_mtp_decode missing keyword-only parameters causing TypeError during speculative decoding",

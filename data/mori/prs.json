@@ -1,15 +1,39 @@
 {
-  "collected_at": "2026-07-17T09:44:18Z",
+  "collected_at": "2026-07-18T09:14:04Z",
   "prs": [
     {
+      "number": 488,
+      "title": "build(setup): auto-disable UMBP when gRPC/Protobuf are missing",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T16:23:53Z",
+      "updated_at": "2026-07-17T16:23:53Z",
+      "html_url": "https://github.com/ROCm/mori/pull/488",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 487,
-      "title": "perf(EPv2): optimize control plane latency in FlyDSL combine kernels",
+      "title": "perf(EPv2): optimize control plane latency in epv2 combine kernels",
       "author": "kawhil-amd",
       "state": "open",
       "merged": false,
       "created_at": "2026-07-17T08:30:54Z",
-      "updated_at": "2026-07-17T09:29:25Z",
+      "updated_at": "2026-07-17T15:56:36Z",
       "html_url": "https://github.com/ROCm/mori/pull/487",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 441,
+      "title": "ccl: hierarchical cross-node AllGather (intra-node SDMA + inter-node RDMA)",
+      "author": "inkcherry",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T03:49:39Z",
+      "updated_at": "2026-07-17T13:48:33Z",
+      "html_url": "https://github.com/ROCm/mori/pull/441",
       "labels": [],
       "draft": false
     },
@@ -22,18 +46,6 @@
       "created_at": "2026-07-17T07:33:41Z",
       "updated_at": "2026-07-17T07:34:32Z",
       "html_url": "https://github.com/ROCm/mori/pull/486",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 441,
-      "title": "ccl: hierarchical cross-node AllGather (intra-node SDMA + inter-node RDMA)",
-      "author": "inkcherry",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T03:49:39Z",
-      "updated_at": "2026-07-17T06:15:21Z",
-      "html_url": "https://github.com/ROCm/mori/pull/441",
       "labels": [],
       "draft": false
     },

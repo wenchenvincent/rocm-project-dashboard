@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-07-17T09:43:56Z",
+  "collected_at": "2026-07-18T09:13:41Z",
   "prs": [
+    {
+      "number": 10725,
+      "title": "[AMD] Add schedule hint for warp-pipeline backedge barrier placement",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T00:26:46Z",
+      "updated_at": "2026-07-18T09:08:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10725",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10943,
+      "title": "[AMD][CI] Switch back to normal gfx950 ci pool",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-18T04:36:42Z",
+      "updated_at": "2026-07-18T06:40:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10943",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10871,
+      "title": "[AMD] emulate descriptor reduce on GFX1250",
+      "author": "zwu-2025",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T05:26:36Z",
+      "updated_at": "2026-07-18T04:09:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10871",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10928,
+      "title": "[AMD][BACKEND][GFX9] Support blocked/shared order mismatch for direct-to-LDS loads",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-17T15:53:59Z",
+      "updated_at": "2026-07-17T23:44:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10928",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10913,
+      "title": "[AMD]Support TDM Fusion and Split for MXFP GEMM Kernel on GFX1250",
+      "author": "knwng",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T23:25:19Z",
+      "updated_at": "2026-07-17T17:01:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10913",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10635,
+      "title": "[AMD] Fix direct-to-LDS staging for undersized tiles",
+      "author": "justinrosner",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-16T17:43:43Z",
+      "updated_at": "2026-07-17T16:20:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10635",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10911,
       "title": "[AMD]Enable Partition Conflicts Tests for MXFP GEMM on GFX1250",
@@ -50,18 +122,6 @@
       "draft": false
     },
     {
-      "number": 10913,
-      "title": "[AMD]Support TDM Fusion and Split for MXFP GEMM Kernel on GFX1250",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T23:25:19Z",
-      "updated_at": "2026-07-16T23:25:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10913",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 10885,
       "title": "[AMD][DRAFT] test out if still broken ",
       "author": "ZelboK",
@@ -70,18 +130,6 @@
       "created_at": "2026-07-14T20:44:21Z",
       "updated_at": "2026-07-16T22:34:45Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10885",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10725,
-      "title": "[AMD] Add schedule hint for warp-pipeline backedge barrier placement",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T00:26:46Z",
-      "updated_at": "2026-07-16T21:55:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10725",
       "labels": [],
       "draft": false
     },
@@ -132,18 +180,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10813",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10871,
-      "title": "[AMD] emulate descriptor reduce on GFX1250",
-      "author": "zwu-2025",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T05:26:36Z",
-      "updated_at": "2026-07-15T17:16:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10871",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10483,
@@ -252,18 +288,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10868",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10635,
-      "title": "[AMD] Fix direct-to-LDS staging for undersized tiles",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-16T17:43:43Z",
-      "updated_at": "2026-07-14T02:01:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10635",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10840,
@@ -494,42 +518,6 @@
       "draft": false
     },
     {
-      "number": 9879,
-      "title": "[AMD] Support MQA for prefill in mxfp fa example",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-28T00:53:56Z",
-      "updated_at": "2026-07-06T07:05:18Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9879",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10793,
-      "title": "[PROTON] Skip AMD tests in periodic flushing due to current issues",
-      "author": "Jokeren",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-03T13:07:29Z",
-      "updated_at": "2026-07-03T19:05:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10793",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 8264,
-      "title": "[AMD] Turn off cache-swizzling for the time being.",
-      "author": "yangshuxin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-09-23T19:19:57Z",
-      "updated_at": "2026-07-02T03:09:13Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/8264",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10733,
       "title": "[AMD] Fix batched WMMA scale layout",
       "author": "alefimov-amd",
@@ -550,18 +538,6 @@
       "created_at": "2026-06-24T15:07:27Z",
       "updated_at": "2026-06-25T20:47:58Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10710",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10720,
-      "title": "[release/3.8.x] Cherry pick AMD buffer soffset optimization revert (#10715)",
-      "author": "warrendeng",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-25T17:54:34Z",
-      "updated_at": "2026-06-25T19:32:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10720",
       "labels": [],
       "draft": false
     },
@@ -718,6 +694,30 @@
       "created_at": "2025-11-12T00:19:55Z",
       "updated_at": "2026-06-17T15:29:24Z",
       "html_url": "https://github.com/triton-lang/triton/pull/8702",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9562,
+      "title": "Add maxnreg support for ROCm/AMD backend",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-25T03:43:32Z",
+      "updated_at": "2026-06-17T15:29:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9562",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9113,
+      "title": "[AMD] Use fine-grained lgkmcnt for better compute-memory overlap",
+      "author": "vivienfanghuagood",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-12-25T05:36:47Z",
+      "updated_at": "2026-06-17T15:29:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9113",
       "labels": [],
       "draft": true
     }

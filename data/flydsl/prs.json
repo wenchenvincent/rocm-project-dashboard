@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-07-17T09:44:20Z",
+  "collected_at": "2026-07-18T09:14:07Z",
   "prs": [
+    {
+      "number": 873,
+      "title": "Fix Vector list()-iteration hang ",
+      "author": "adityas-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T04:34:51Z",
+      "updated_at": "2026-07-18T04:43:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/873",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 786,
+      "title": "[3/5] autotune: add offline config artifacts (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:15:47Z",
+      "updated_at": "2026-07-18T04:34:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 850,
+      "title": "[Perf]optimize flydsl flash attention kernel",
+      "author": "binding7012",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T09:48:32Z",
+      "updated_at": "2026-07-18T02:54:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/850",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 872,
+      "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T00:38:19Z",
+      "updated_at": "2026-07-18T00:42:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 785,
+      "title": "[2/5] autotune: add opt-in search and RMSNorm waves-per-EU tuning (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:05:40Z",
+      "updated_at": "2026-07-17T23:53:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "[Perf] Optimize rmsnorm/layernorm",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-07-17T15:41:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 825,
       "title": "perf(pa tile): readable tile-programming PA decode kernel, matches/beats production",
@@ -8,7 +80,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-10T06:34:28Z",
-      "updated_at": "2026-07-17T09:36:37Z",
+      "updated_at": "2026-07-17T11:22:50Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/825",
       "labels": [],
       "draft": false
@@ -26,42 +98,6 @@
       "draft": false
     },
     {
-      "number": 850,
-      "title": "[Perf]optimize flydsl flash attention kernel",
-      "author": "binding7012",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T09:48:32Z",
-      "updated_at": "2026-07-17T08:42:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/850",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 845,
-      "title": "[FMHA] Kernel refactor for modularity and code simplification",
-      "author": "yanguahe",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T04:50:40Z",
-      "updated_at": "2026-07-17T08:12:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/845",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 848,
-      "title": "[Perf] Optimize rmsnorm/layernorm",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-07-17T08:04:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 869,
       "title": "[Kernel] Add CDNA SageAttention kernel",
       "author": "LiuYinfeng01",
@@ -71,32 +107,6 @@
       "updated_at": "2026-07-17T07:51:32Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/869",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 785,
-      "title": "[2/5] autotune: add opt-in search and RMSNorm waves-per-EU tuning (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:05:40Z",
-      "updated_at": "2026-07-17T06:47:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 812,
-      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T07:09:33Z",
-      "updated_at": "2026-07-17T06:40:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
-      "labels": [
-        "multi-gpu"
-      ],
       "draft": false
     },
     {
@@ -136,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 868,
-      "title": "[Docs] Arithmetic types: authoritative spec + conformance suite",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T10:03:23Z",
-      "updated_at": "2026-07-16T16:34:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/868",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 866,
       "title": "Atom 1250 refactor",
       "author": "coderfeli",
@@ -168,18 +166,6 @@
       "created_at": "2026-07-08T18:03:12Z",
       "updated_at": "2026-07-16T04:39:02Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 786,
-      "title": "[3/5] autotune: offline config emit + runtime lookup (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:15:47Z",
-      "updated_at": "2026-07-14T20:13:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
       "labels": [],
       "draft": false
     },
@@ -613,6 +599,44 @@
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 868,
+      "title": "[Docs] Arithmetic types: authoritative spec + conformance suite",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T10:03:23Z",
+      "updated_at": "2026-07-17T12:35:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/868",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 845,
+      "title": "[FMHA] Refactor kernels into shared helper framework",
+      "author": "yanguahe",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T04:50:40Z",
+      "updated_at": "2026-07-17T12:30:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/845",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 812,
+      "title": "[kernels] Migrate pa_decode_swa reduce kernel to SharedAllocator smem",
+      "author": "xudoyuan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-07T07:09:33Z",
+      "updated_at": "2026-07-17T12:25:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/812",
+      "labels": [
+        "multi-gpu"
+      ],
       "draft": false
     },
     {
@@ -1506,42 +1530,6 @@
       "created_at": "2026-06-19T09:31:38Z",
       "updated_at": "2026-06-22T14:21:09Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/707",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 714,
-      "title": "[Kernel] FP8 4-Wave GEMM: pin MFMA accumulator in AGPR (+5~13%)",
-      "author": "benenzhu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-22T06:20:31Z",
-      "updated_at": "2026-06-22T11:08:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/714",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 704,
-      "title": "[FMHA] add flash_attn_interface L2 wrapper and cross-length Q/KV (seqlen_q != seqlen_kv)",
-      "author": "yanguahe",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-18T17:19:43Z",
-      "updated_at": "2026-06-21T03:19:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/704",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 710,
-      "title": "[Fix] Call aiter pa_reduce_v1 by keyword to track arg-order change",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-20T05:17:42Z",
-      "updated_at": "2026-06-20T12:33:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/710",
       "labels": [],
       "draft": false
     }
