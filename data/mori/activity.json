@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-07-18T09:16:18Z",
+  "collected_at": "2026-07-19T09:43:55Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 22,
+      "opened": 21,
       "merged": 18,
       "closed": 3
     },
     "last_week": {
-      "opened": 18,
+      "opened": 19,
       "merged": 10,
       "closed": 2
     },
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.8,
+    "days_since_last": 2.8,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v1.2.2"

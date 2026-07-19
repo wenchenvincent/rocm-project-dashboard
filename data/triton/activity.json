@@ -1,36 +1,42 @@
 {
-  "collected_at": "2026-07-18T09:14:49Z",
+  "collected_at": "2026-07-19T09:42:45Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
       "opened": 15,
-      "merged": 15,
+      "merged": 14,
       "closed": 0
     },
     "last_week": {
       "opened": 9,
-      "merged": 15,
+      "merged": 16,
       "closed": 0
     },
     "median_time_to_merge_hours": 80.7,
     "merge_count": 30,
-    "stale_prs": 13
+    "stale_prs": 14
   },
   "contributors": {
-    "active_this_week": 20,
+    "active_this_week": 18,
     "total_contributors": 40,
     "top_contributors": [
       {
         "author": "borontion",
-        "prs_submitted": 6,
-        "prs_merged": 6,
+        "prs_submitted": 5,
+        "prs_merged": 5,
         "commits": 0
       },
       {
         "author": "antiagainst",
         "prs_submitted": 4,
         "prs_merged": 4,
+        "commits": 0
+      },
+      {
+        "author": "ZelboK",
+        "prs_submitted": 3,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -43,12 +49,6 @@
         "author": "knwng",
         "prs_submitted": 3,
         "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "ZelboK",
-        "prs_submitted": 3,
-        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -99,7 +99,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 29.8,
+    "days_since_last": 30.8,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

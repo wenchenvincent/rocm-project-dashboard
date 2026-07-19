@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-18T09:14:51Z",
+  "collected_at": "2026-07-19T09:42:46Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
@@ -9,7 +9,7 @@
       "closed": 2
     },
     "last_week": {
-      "opened": 21,
+      "opened": 20,
       "merged": 12,
       "closed": 1
     },
@@ -25,7 +25,7 @@
         "author": "pfultz2",
         "prs_submitted": 50,
         "prs_merged": 26,
-        "commits": 19
+        "commits": 18
       },
       {
         "author": "TedThemistokleous",
@@ -37,7 +37,7 @@
         "author": "CharlieL7",
         "prs_submitted": 12,
         "prs_merged": 9,
-        "commits": 8
+        "commits": 7
       },
       {
         "author": "shivadbhavsar",
@@ -58,16 +58,16 @@
         "commits": 2
       },
       {
-        "author": "turneram",
-        "prs_submitted": 6,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
         "author": "causten",
         "prs_submitted": 6,
         "prs_merged": 5,
         "commits": 5
+      },
+      {
+        "author": "turneram",
+        "prs_submitted": 6,
+        "prs_merged": 0,
+        "commits": 0
       },
       {
         "author": "klin2024",
@@ -86,14 +86,14 @@
   },
   "issue_health": {
     "total_open": 237,
-    "opened_this_week": 2,
+    "opened_this_week": 1,
     "closed_this_week": 1,
     "unanswered": 127
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 50.7,
+    "days_since_last": 51.7,
     "avg_interval_days": 31.7,
     "total_releases": 5,
     "latest_tag": "rocm-7.2.4"

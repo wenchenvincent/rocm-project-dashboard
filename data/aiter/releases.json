@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-07-18T09:13:57Z",
+  "collected_at": "2026-07-19T09:42:09Z",
   "releases": [
+    {
+      "tag_name": "v0.1.17-longctx",
+      "name": "v0.1.17-longctx",
+      "published_at": "2026-07-19T02:29:42Z",
+      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.17-longctx",
+      "prerelease": false
+    },
     {
       "tag_name": "v0.1.17",
       "name": "AITER v0.1.17",
@@ -27,13 +34,6 @@
       "name": "AITER v0.1.16.post3",
       "published_at": "2026-06-26T17:18:37Z",
       "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.16.post3",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v0.1.16.post2",
-      "name": "AITER v0.1.16.post2",
-      "published_at": "2026-06-25T22:43:22Z",
-      "html_url": "https://github.com/ROCm/aiter/releases/tag/v0.1.16.post2",
       "prerelease": false
     }
   ]

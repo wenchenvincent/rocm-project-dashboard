@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-07-18T09:15:24Z",
+  "collected_at": "2026-07-19T09:43:13Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 89,
-      "merged": 58,
-      "closed": 21
+      "opened": 84,
+      "merged": 55,
+      "closed": 19
     },
     "last_week": {
-      "opened": 108,
-      "merged": 67,
-      "closed": 22
+      "opened": 112,
+      "merged": 70,
+      "closed": 23
     },
-    "median_time_to_merge_hours": 30.3,
-    "merge_count": 131,
-    "stale_prs": 14
+    "median_time_to_merge_hours": 29.2,
+    "merge_count": 132,
+    "stale_prs": 81
   },
   "contributors": {
-    "active_this_week": 128,
-    "total_contributors": 213,
+    "active_this_week": 127,
+    "total_contributors": 214,
     "top_contributors": [
       {
         "author": "sunway513",
@@ -46,16 +46,16 @@
         "commits": 21
       },
       {
-        "author": "Boss2002n",
-        "prs_submitted": 9,
-        "prs_merged": 2,
-        "commits": 4
-      },
-      {
         "author": "yadaish",
         "prs_submitted": 9,
         "prs_merged": 4,
         "commits": 5
+      },
+      {
+        "author": "Boss2002n",
+        "prs_submitted": 8,
+        "prs_merged": 1,
+        "commits": 4
       },
       {
         "author": "ganyi1996ppo",
@@ -66,8 +66,8 @@
       {
         "author": "yzhou103",
         "prs_submitted": 7,
-        "prs_merged": 3,
-        "commits": 12
+        "prs_merged": 4,
+        "commits": 13
       },
       {
         "author": "zhiding512",
@@ -93,9 +93,9 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 2.6,
-    "avg_interval_days": 5.0,
+    "days_since_last": 0.3,
+    "avg_interval_days": 5.6,
     "total_releases": 5,
-    "latest_tag": "v0.1.17"
+    "latest_tag": "v0.1.17-longctx"
   }
 }

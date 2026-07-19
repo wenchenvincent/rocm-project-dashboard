@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-07-18T09:13:59Z",
+  "collected_at": "2026-07-19T09:42:11Z",
   "prs": [
     {
-      "number": 1585,
-      "title": "[Sglang+atom]Update ATOM SGLang plugin for SGLang 0.5.15",
-      "author": "zhangxinyuanliuhengyu",
+      "number": 1499,
+      "title": "[KVConnector] native scale-up KV connector (HIP VMM, kv_connector=native)",
+      "author": "carlushuang",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-14T06:04:47Z",
-      "updated_at": "2026-07-18T07:22:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1585",
+      "created_at": "2026-07-07T09:58:23Z",
+      "updated_at": "2026-07-19T05:25:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1499",
       "labels": [],
       "draft": false
     },
@@ -20,11 +20,78 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-30T08:31:01Z",
-      "updated_at": "2026-07-18T04:45:22Z",
+      "updated_at": "2026-07-19T03:59:07Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1414",
       "labels": [
         "ci:atom"
       ],
+      "draft": false
+    },
+    {
+      "number": 1585,
+      "title": "[Sglang+atom]Update ATOM SGLang plugin for SGLang 0.5.15",
+      "author": "zhangxinyuanliuhengyu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T06:04:47Z",
+      "updated_at": "2026-07-19T03:15:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1585",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1570,
+      "title": "wire GUGU - act+quant fusion into triton decode ",
+      "author": "Boss2002n",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T18:20:40Z",
+      "updated_at": "2026-07-18T17:31:49Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1570",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1530,
+      "title": "[ATOM-SGL/VLLM-CI] Modify testing cases for SGLang and vLLM.",
+      "author": "junyyang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T06:56:36Z",
+      "updated_at": "2026-07-18T15:07:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1530",
+      "labels": [
+        "ci:sglang",
+        "ci:vllm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1201,
+      "title": "[vLLM-ATOM] Support Eagle 3.1 spec decoding",
+      "author": "kliuae",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-12T17:58:58Z",
+      "updated_at": "2026-07-18T14:38:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1201",
+      "labels": [
+        "ci:full",
+        "ci:atom",
+        "ci:vllm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1210,
+      "title": "(eplb): EPLB_V_0.9",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-15T00:51:32Z",
+      "updated_at": "2026-07-18T09:24:49Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1210",
+      "labels": [],
       "draft": false
     },
     {
@@ -52,21 +119,6 @@
       "draft": false
     },
     {
-      "number": 1530,
-      "title": "[ATOM-SGL/VLLM-CI] Modify testing cases for SGLang and vLLM.",
-      "author": "junyyang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T06:56:36Z",
-      "updated_at": "2026-07-17T16:38:01Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1530",
-      "labels": [
-        "ci:sglang",
-        "ci:vllm"
-      ],
-      "draft": false
-    },
-    {
       "number": 860,
       "title": "Atom-RAPIDserve merge",
       "author": "amnamasood-amd",
@@ -75,18 +127,6 @@
       "created_at": "2026-05-20T20:07:56Z",
       "updated_at": "2026-07-17T16:18:35Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/860",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1570,
-      "title": "wire GUGU - act+quant fusion into triton decode ",
-      "author": "Boss2002n",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-12T18:20:40Z",
-      "updated_at": "2026-07-17T13:58:40Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1570",
       "labels": [],
       "draft": false
     },
@@ -163,18 +203,6 @@
       "draft": true
     },
     {
-      "number": 1201,
-      "title": "[vLLM-ATOM] Support Eagle 3.1 spec decoding",
-      "author": "kliuae",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-12T17:58:58Z",
-      "updated_at": "2026-07-17T08:38:13Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1201",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1410,
       "title": "[GFX1250] MiniMax-M3 gfx1250 enabling",
       "author": "leonling-ll",
@@ -197,18 +225,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1624",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1210,
-      "title": "(eplb): EPLB_V_0.9",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-15T00:51:32Z",
-      "updated_at": "2026-07-17T07:37:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1210",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1623,
@@ -473,18 +489,6 @@
       "created_at": "2026-07-13T10:51:14Z",
       "updated_at": "2026-07-14T05:10:35Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1579",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1499,
-      "title": "[KVConnector] native scale-up KV connector (HIP VMM, kv_connector=native)",
-      "author": "carlushuang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T09:58:23Z",
-      "updated_at": "2026-07-14T03:59:54Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1499",
       "labels": [],
       "draft": false
     },
@@ -1953,6 +1957,30 @@
       "draft": false
     },
     {
+      "number": 1637,
+      "title": "[vllm-atom benchmark] make up online quant command for GLM5.2 benchmark",
+      "author": "zejunchen-zejun",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-18T13:44:58Z",
+      "updated_at": "2026-07-18T13:48:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1637",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1636,
+      "title": "feat(loader): --load_dummy init modes + EP loader/hash-routing robustness",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-18T10:01:10Z",
+      "updated_at": "2026-07-18T11:59:46Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1636",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 1465,
       "title": "perf: optimize model loading speed",
       "author": "ftyghome",
@@ -2946,30 +2974,6 @@
       "created_at": "2026-07-08T02:30:30Z",
       "updated_at": "2026-07-08T12:04:52Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1508",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1519,
-      "title": "publish ATOMesh benchmark data with MI350X/MI355X hardware tag on dashboard",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-08T09:46:47Z",
-      "updated_at": "2026-07-08T10:04:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1519",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1517,
-      "title": "fix: dpa kv transfer error on spur",
-      "author": "JiaoliangYu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-08T09:19:35Z",
-      "updated_at": "2026-07-08T09:19:46Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1517",
       "labels": [],
       "draft": false
     }

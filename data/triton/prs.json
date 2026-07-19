@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-07-18T09:13:41Z",
+  "collected_at": "2026-07-19T09:41:55Z",
   "prs": [
+    {
+      "number": 10871,
+      "title": "[AMD] emulate descriptor reduce on GFX1250",
+      "author": "zwu-2025",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T05:26:36Z",
+      "updated_at": "2026-07-19T04:25:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10871",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10874,
+      "title": "[AMD] Add tests for compiler fence in AtomicRMWOp lowering on gfx1250",
+      "author": "tyb0807",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T06:18:46Z",
+      "updated_at": "2026-07-18T19:30:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10874",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10813,
+      "title": "[AMD] gfx1250 proton clock instructions",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T19:30:37Z",
+      "updated_at": "2026-07-18T17:46:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10813",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10725,
       "title": "[AMD] Add schedule hint for warp-pipeline backedge barrier placement",
@@ -24,18 +60,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10943",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10871,
-      "title": "[AMD] emulate descriptor reduce on GFX1250",
-      "author": "zwu-2025",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T05:26:36Z",
-      "updated_at": "2026-07-18T04:09:59Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10871",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10928,
@@ -170,18 +194,6 @@
       "draft": true
     },
     {
-      "number": 10813,
-      "title": "[AMD] gfx1250 proton clock instructions",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T19:30:37Z",
-      "updated_at": "2026-07-15T20:17:45Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10813",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10483,
       "title": "[AMD] Prove buffer-load contiguity along LinearLayout register order",
       "author": "panditsa",
@@ -252,18 +264,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10878",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 10874,
-      "title": "[AMD] Add tests for compiler fence in AtomicRMWOp lowering on gfx1250",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T06:18:46Z",
-      "updated_at": "2026-07-14T06:18:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10874",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 10866,
@@ -506,18 +506,6 @@
       "draft": false
     },
     {
-      "number": 9813,
-      "title": "[AMD] Use TDM store for mxfp fa example",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-23T16:29:41Z",
-      "updated_at": "2026-07-06T07:05:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9813",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10733,
       "title": "[AMD] Fix batched WMMA scale layout",
       "author": "alefimov-amd",
@@ -718,6 +706,18 @@
       "created_at": "2025-12-25T05:36:47Z",
       "updated_at": "2026-06-17T15:29:24Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9113",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 9195,
+      "title": "[AMD][mxfp4] ttg::Fp4ToFpOp add support for FP4 upcast to FP32",
+      "author": "jwu10003",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-12T07:12:02Z",
+      "updated_at": "2026-06-17T15:29:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9195",
       "labels": [],
       "draft": true
     }
