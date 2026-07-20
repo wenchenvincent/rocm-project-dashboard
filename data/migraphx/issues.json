@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-19T09:42:00Z",
+  "collected_at": "2026-07-20T10:37:53Z",
   "issues": [
     {
       "number": 5078,
@@ -7,8 +7,18 @@
       "author": "AIwork4me",
       "state": "open",
       "created_at": "2026-07-18T07:26:39Z",
-      "updated_at": "2026-07-18T07:26:43Z",
+      "updated_at": "2026-07-19T22:31:18Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5078",
+      "labels": []
+    },
+    {
+      "number": 5079,
+      "title": "[Issue]: Compiled .mxr files are needlessly large",
+      "author": "TheFeelTrain",
+      "state": "open",
+      "created_at": "2026-07-19T22:06:46Z",
+      "updated_at": "2026-07-19T22:06:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5079",
       "labels": []
     },
     {

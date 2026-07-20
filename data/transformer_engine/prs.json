@@ -1,6 +1,20 @@
 {
-  "collected_at": "2026-07-19T09:42:19Z",
+  "collected_at": "2026-07-20T10:38:13Z",
   "prs": [
+    {
+      "number": 661,
+      "title": "Grouped MXFP8 GEMMs with HipKittens",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T16:44:30Z",
+      "updated_at": "2026-07-19T13:34:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 673,
       "title": "ci: bump te-rocm-wheels artifact retention 1d -> 5d",
@@ -72,20 +86,6 @@
       "created_at": "2026-07-09T19:42:42Z",
       "updated_at": "2026-07-17T14:06:19Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 661,
-      "title": "Grouped MXFP8 GEMMs with HipKittens",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:44:30Z",
-      "updated_at": "2026-07-17T03:42:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
       "labels": [
         "ci-level 3"
       ],

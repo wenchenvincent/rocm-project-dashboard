@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-07-19T09:42:09Z",
+  "collected_at": "2026-07-20T10:38:01Z",
   "issues": [
+    {
+      "number": 3999,
+      "title": "[Regression] EP MoE tuned FMoE configs not picked up after #3377 (topk -= int(is_ep) breaks tuned-config lookup, e.g. GLM-4.7 tuned for topk=8 looked up as topk=7)",
+      "author": "mjkvaak-amd",
+      "state": "open",
+      "created_at": "2026-06-29T12:46:30Z",
+      "updated_at": "2026-07-20T08:03:40Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3999",
+      "labels": []
+    },
+    {
+      "number": 4290,
+      "title": "Ragged paged-MQA logits use incorrect causal bounds for multi-token queries",
+      "author": "morluto",
+      "state": "open",
+      "created_at": "2026-07-19T11:39:16Z",
+      "updated_at": "2026-07-19T12:20:12Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4290",
+      "labels": []
+    },
+    {
+      "number": 4289,
+      "title": "SageAttention V quantization emits NaNs for all-zero channels",
+      "author": "morluto",
+      "state": "open",
+      "created_at": "2026-07-19T11:39:14Z",
+      "updated_at": "2026-07-19T12:20:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4289",
+      "labels": []
+    },
+    {
+      "number": 4288,
+      "title": "Triton FP8/int8 quantization has undefined row-zero, padded-reduction, and zero-input behavior",
+      "author": "morluto",
+      "state": "open",
+      "created_at": "2026-07-19T11:39:13Z",
+      "updated_at": "2026-07-19T12:20:09Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4288",
+      "labels": []
+    },
     {
       "number": 4126,
       "title": "[Bug] int32/i24 offset overflow in FMHA prefill ASM kernel for seqlen >= 8Mi",
@@ -52,16 +92,6 @@
       "labels": []
     },
     {
-      "number": 3999,
-      "title": "[Regression] EP MoE tuned FMoE configs not picked up after #3377 (topk -= int(is_ep) breaks tuned-config lookup, e.g. GLM-4.7 tuned for topk=8 looked up as topk=7)",
-      "author": "mjkvaak-amd",
-      "state": "open",
-      "created_at": "2026-06-29T12:46:30Z",
-      "updated_at": "2026-07-10T10:07:13Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3999",
-      "labels": []
-    },
-    {
       "number": 4137,
       "title": "[Regression] Triton 3.7.0 causes ~4x regression in unified_attention on gfx950",
       "author": "mjkvaak-amd",
@@ -89,16 +119,6 @@
       "created_at": "2026-05-29T14:03:51Z",
       "updated_at": "2026-07-08T18:03:52Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3425",
-      "labels": []
-    },
-    {
-      "number": 3824,
-      "title": "[Bug] ck_tile FMHA `mha_batch_prefill` paged-KV gather: 32-bit *address* overflow at high GPU base addresses",
-      "author": "zx3xyy",
-      "state": "open",
-      "created_at": "2026-06-20T21:41:43Z",
-      "updated_at": "2026-07-08T03:30:39Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3824",
       "labels": []
     },
     {

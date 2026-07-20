@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-19T09:41:56Z",
+  "collected_at": "2026-07-20T10:37:48Z",
   "issues": [
+    {
+      "number": 10962,
+      "title": "[AMD][gfx1250] MXFP GEMM omits partial K scale groups",
+      "author": "morluto",
+      "state": "open",
+      "created_at": "2026-07-20T02:45:14Z",
+      "updated_at": "2026-07-20T02:45:14Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/10962",
+      "labels": []
+    },
     {
       "number": 10808,
       "title": "AMD backend: fused-MoE triton kernel JIT produces GPU memory access fault on gfx1100/RDNA3",
