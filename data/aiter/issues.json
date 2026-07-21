@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-07-20T10:38:01Z",
+  "collected_at": "2026-07-21T10:12:10Z",
   "issues": [
+    {
+      "number": 4318,
+      "title": "[Perf] FlyDSL grouped moe prefill optimizatoin.",
+      "author": "lalala-sh",
+      "state": "open",
+      "created_at": "2026-07-21T06:17:20Z",
+      "updated_at": "2026-07-21T06:17:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4318",
+      "labels": []
+    },
+    {
+      "number": 4316,
+      "title": "[Feature]: [gfx1250] moe ep4",
+      "author": "XingerZhu",
+      "state": "open",
+      "created_at": "2026-07-21T06:04:18Z",
+      "updated_at": "2026-07-21T06:04:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4316",
+      "labels": []
+    },
+    {
+      "number": 4304,
+      "title": "[CI] aiter-release.yaml cannot build wheels for recent tags (post-v0.1.17 regression: start_aot needs GPU, torch 2.13 teardown bug, dispatch cannot pin torch)",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-07-20T15:54:37Z",
+      "updated_at": "2026-07-20T17:58:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4304",
+      "labels": []
+    },
+    {
+      "number": 4302,
+      "title": "[gfx1201] rmsnorm2d CK-tile kernel segfaults at startup on RDNA4 in rocm/vllm-dev:nightly",
+      "author": "NateHag",
+      "state": "open",
+      "created_at": "2026-07-20T14:42:45Z",
+      "updated_at": "2026-07-20T14:42:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4302",
+      "labels": []
+    },
     {
       "number": 3999,
       "title": "[Regression] EP MoE tuned FMoE configs not picked up after #3377 (topk -= int(is_ep) breaks tuned-config lookup, e.g. GLM-4.7 tuned for topk=8 looked up as topk=7)",

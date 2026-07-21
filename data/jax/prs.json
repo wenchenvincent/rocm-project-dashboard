@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-07-20T10:37:28Z",
+  "collected_at": "2026-07-21T10:11:37Z",
   "prs": [
+    {
+      "number": 39338,
+      "title": "[JAX:Build]: Skip pinning test on ROCm",
+      "author": "copybara-service[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T04:34:23Z",
+      "updated_at": "2026-07-21T04:34:23Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39338",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 39212,
       "title": "[ROCm] Add gpu_paged_attention_test_gpu to CI test ignore list",

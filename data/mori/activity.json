@@ -1,43 +1,43 @@
 {
-  "collected_at": "2026-07-20T10:39:59Z",
+  "collected_at": "2026-07-21T10:14:00Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 21,
+      "opened": 20,
       "merged": 24,
       "closed": 3
     },
     "last_week": {
-      "opened": 17,
-      "merged": 8,
+      "opened": 18,
+      "merged": 10,
       "closed": 2
     },
-    "median_time_to_merge_hours": 9.2,
-    "merge_count": 63,
+    "median_time_to_merge_hours": 10.2,
+    "merge_count": 66,
     "stale_prs": 6
   },
   "contributors": {
     "active_this_week": 15,
-    "total_contributors": 21,
+    "total_contributors": 22,
     "top_contributors": [
       {
         "author": "TianDi101",
-        "prs_submitted": 27,
-        "prs_merged": 23,
+        "prs_submitted": 25,
+        "prs_merged": 21,
         "commits": 1
+      },
+      {
+        "author": "jhchouuu",
+        "prs_submitted": 18,
+        "prs_merged": 16,
+        "commits": 16
       },
       {
         "author": "maning00",
         "prs_submitted": 17,
-        "prs_merged": 12,
-        "commits": 8
-      },
-      {
-        "author": "jhchouuu",
-        "prs_submitted": 17,
-        "prs_merged": 16,
-        "commits": 16
+        "prs_merged": 13,
+        "commits": 9
       },
       {
         "author": "QizhouZhang97",
@@ -47,9 +47,9 @@
       },
       {
         "author": "kawhil-amd",
-        "prs_submitted": 7,
-        "prs_merged": 7,
-        "commits": 5
+        "prs_submitted": 8,
+        "prs_merged": 8,
+        "commits": 6
       },
       {
         "author": "inkcherry",
@@ -60,8 +60,8 @@
       {
         "author": "isytwu",
         "prs_submitted": 6,
-        "prs_merged": 4,
-        "commits": 3
+        "prs_merged": 6,
+        "commits": 4
       },
       {
         "author": "zjing14",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 3.9,
+    "days_since_last": 4.9,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v1.2.2"

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-20T10:37:46Z",
+  "collected_at": "2026-07-21T10:11:55Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,76 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-20T10:09:04Z",
+      "updated_at": "2026-07-21T09:56:21Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 31924,
+      "title": "[diffusion] update_weights_from_disk transformer reload fails (shape mismatch 400) \u2014 diffusers checkpoint layout not reconciled with sglang params",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-07-21T09:43:06Z",
+      "updated_at": "2026-07-21T09:43:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31924",
+      "labels": []
+    },
+    {
+      "number": 30734,
+      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
+      "author": "tanth47",
+      "state": "open",
+      "created_at": "2026-07-10T03:32:15Z",
+      "updated_at": "2026-07-21T08:20:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-07-21T02:15:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 23602,
+      "title": "DeepSeek V4 Roadmap",
+      "author": "fzyzcjy",
+      "state": "open",
+      "created_at": "2026-04-24T03:22:31Z",
+      "updated_at": "2026-07-20T17:51:47Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "roadmap"
+      ]
+    },
+    {
+      "number": 31783,
+      "title": "[Roadmap] Quantization 2026 H2",
+      "author": "OrangeRedeng",
+      "state": "open",
+      "created_at": "2026-07-20T13:24:05Z",
+      "updated_at": "2026-07-20T17:04:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31783",
+      "labels": []
+    },
+    {
+      "number": 31774,
+      "title": "[RFC] Backend, KV dtype and platform compatibility is checked case by case, and the responses are inconsistent",
+      "author": "mosya415",
+      "state": "open",
+      "created_at": "2026-07-20T11:56:07Z",
+      "updated_at": "2026-07-20T11:56:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31774",
       "labels": []
     },
     {
@@ -23,16 +91,6 @@
         "high priority",
         "new-model"
       ]
-    },
-    {
-      "number": 30734,
-      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-07-10T03:32:15Z",
-      "updated_at": "2026-07-20T08:16:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
-      "labels": []
     },
     {
       "number": 21302,
@@ -73,20 +131,6 @@
       "updated_at": "2026-07-19T12:47:31Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30344",
       "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-07-18T12:45:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
     },
     {
       "number": 30815,
@@ -271,20 +315,6 @@
       "labels": []
     },
     {
-      "number": 23602,
-      "title": "DeepSeek V4 Roadmap",
-      "author": "fzyzcjy",
-      "state": "open",
-      "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-07-11T18:45:44Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "roadmap"
-      ]
-    },
-    {
       "number": 30781,
       "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
       "author": "tanguofu",
@@ -292,16 +322,6 @@
       "created_at": "2026-07-10T13:41:49Z",
       "updated_at": "2026-07-10T13:41:49Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30781",
-      "labels": []
-    },
-    {
-      "number": 30664,
-      "title": "[Bug] Module Import Failure on Non-NVIDIA Hardware",
-      "author": "dayanandav",
-      "state": "open",
-      "created_at": "2026-07-09T13:36:13Z",
-      "updated_at": "2026-07-09T13:54:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30664",
       "labels": []
     },
     {
@@ -536,16 +556,6 @@
       "created_at": "2026-06-08T13:27:45Z",
       "updated_at": "2026-06-08T13:28:45Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/27567",
-      "labels": []
-    },
-    {
-      "number": 27519,
-      "title": "RDNA3 (gfx1101 / RX 7800 XT) runs sgl-kernel + LFM2.5 \u2014 please widen the gfx whitelist / document it",
-      "author": "etc-sw",
-      "state": "open",
-      "created_at": "2026-06-08T01:53:26Z",
-      "updated_at": "2026-06-08T01:53:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27519",
       "labels": []
     }
   ]

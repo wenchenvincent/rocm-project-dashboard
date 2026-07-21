@@ -1,29 +1,53 @@
 {
-  "collected_at": "2026-07-20T10:38:13Z",
+  "collected_at": "2026-07-21T10:12:21Z",
   "prs": [
     {
-      "number": 661,
-      "title": "Grouped MXFP8 GEMMs with HipKittens",
-      "author": "alextmagro",
+      "number": 671,
+      "title": "[ROCm] Fix THD/ragged dQ backward on the bf16 dq_shuffle path (gfx950)",
+      "author": "wenchenvincent",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-07T16:44:30Z",
-      "updated_at": "2026-07-19T13:34:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
+      "created_at": "2026-07-16T00:55:54Z",
+      "updated_at": "2026-07-21T05:19:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/671",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 602,
+      "title": "Update CI to use TheRock",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-29T15:33:31Z",
+      "updated_at": "2026-07-21T04:55:22Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 667,
+      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T19:42:42Z",
+      "updated_at": "2026-07-21T04:45:04Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
       "labels": [
         "ci-level 3"
       ],
       "draft": false
     },
     {
-      "number": 673,
-      "title": "ci: bump te-rocm-wheels artifact retention 1d -> 5d",
-      "author": "wenchenvincent",
+      "number": 649,
+      "title": "[Feat] Added JAX-Triton bridge for ROCm",
+      "author": "AllenFarcas",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-17T17:33:32Z",
-      "updated_at": "2026-07-17T22:11:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/673",
+      "created_at": "2026-06-24T21:57:11Z",
+      "updated_at": "2026-07-21T04:29:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
       "labels": [],
       "draft": false
     },
@@ -34,110 +58,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-28T16:18:02Z",
-      "updated_at": "2026-07-17T20:47:50Z",
+      "updated_at": "2026-07-21T04:05:38Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/599",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 602,
-      "title": "Update CI to use TheRock",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-29T15:33:31Z",
-      "updated_at": "2026-07-17T16:49:35Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 660,
-      "title": "Ifu dev 20260706 v2.17",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-17T16:48:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 670,
-      "title": "[proof-of-concept] benchmarks dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-07-17T15:50:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 667,
-      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T19:42:42Z",
-      "updated_at": "2026-07-17T14:06:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 666,
-      "title": "Updated CK/AITER Cmake Build",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T18:38:18Z",
-      "updated_at": "2026-07-16T19:50:22Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/666",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 637,
-      "title": "Interleaved Driver Benchmarking",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T20:29:41Z",
-      "updated_at": "2026-07-16T19:21:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 671,
-      "title": "[ROCm] Fix THD/ragged dQ backward on the bf16 dq_shuffle path (gfx950)",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T00:55:54Z",
-      "updated_at": "2026-07-16T19:17:45Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/671",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 656,
-      "title": "Release 2.15",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T01:57:35Z",
-      "updated_at": "2026-07-16T18:25:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/656",
       "labels": [
         "ci-level 3"
       ],
@@ -150,7 +72,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-06T22:01:12Z",
-      "updated_at": "2026-07-16T00:50:14Z",
+      "updated_at": "2026-07-20T21:59:02Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
       "labels": [
         "ci-level 1"
@@ -164,22 +86,112 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-07-11T00:37:43Z",
+      "updated_at": "2026-07-20T21:57:10Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
       "labels": [],
       "draft": false
     },
     {
-      "number": 649,
-      "title": "[Feat] Added JAX-Triton bridge for ROCm",
+      "number": 675,
+      "title": "[wip] native nvfp4 support on gfx1250",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T21:13:55Z",
+      "updated_at": "2026-07-20T21:13:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 666,
+      "title": "Updated CK/AITER Cmake Build",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T18:38:18Z",
+      "updated_at": "2026-07-20T20:19:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/666",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 637,
+      "title": "Interleaved Driver Benchmarking",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T20:29:41Z",
+      "updated_at": "2026-07-20T19:37:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 661,
+      "title": "Grouped MXFP8 GEMMs with HipKittens",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T16:44:30Z",
+      "updated_at": "2026-07-20T19:36:43Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 639,
+      "title": "grouped gemm microbenchmark: use te.GroupedLinear",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T23:15:50Z",
+      "updated_at": "2026-07-20T20:12:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/639",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "[proof-of-concept] benchmarks dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-07-20T16:50:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 674,
+      "title": "Update CLAUDE.md",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T16:48:14Z",
+      "updated_at": "2026-07-20T16:48:15Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/674",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 660,
+      "title": "Ifu dev 20260706 v2.17",
       "author": "AllenFarcas",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-24T21:57:11Z",
-      "updated_at": "2026-07-09T16:52:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
+      "created_at": "2026-07-07T16:25:50Z",
+      "updated_at": "2026-07-20T14:38:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
       "labels": [],
-      "draft": false
+      "draft": true
     },
     {
       "number": 606,
@@ -188,8 +200,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-01T20:55:02Z",
-      "updated_at": "2026-07-08T15:24:44Z",
+      "updated_at": "2026-07-20T14:32:10Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 673,
+      "title": "ci: bump te-rocm-wheels artifact retention 1d -> 5d",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T17:33:32Z",
+      "updated_at": "2026-07-17T22:11:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/673",
       "labels": [],
       "draft": false
     },
@@ -297,18 +321,6 @@
       "labels": [
         "ci-level 1"
       ],
-      "draft": false
-    },
-    {
-      "number": 639,
-      "title": "grouped gemm microbenchmark: use te.GroupedLinear",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T23:15:50Z",
-      "updated_at": "2026-06-22T23:00:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/639",
-      "labels": [],
       "draft": false
     },
     {
@@ -613,6 +625,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 656,
+      "title": "Release 2.15",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-01T01:57:35Z",
+      "updated_at": "2026-07-20T14:20:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/656",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1736,20 +1762,6 @@
       "updated_at": "2026-04-25T02:31:40Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/562",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 550,
-      "title": "Integrate initial version of QoLA",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-20T17:40:03Z",
-      "updated_at": "2026-04-24T14:53:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/550",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": false
     }
   ]

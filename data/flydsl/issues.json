@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-07-20T10:38:11Z",
+  "collected_at": "2026-07-21T10:12:20Z",
   "issues": [
+    {
+      "number": 740,
+      "title": "[Issue]: support Megamoe",
+      "author": "Yaowu-Xiong",
+      "state": "open",
+      "created_at": "2026-06-25T07:37:42Z",
+      "updated_at": "2026-07-21T06:22:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/740",
+      "labels": [
+        "FlyDSL/Customization"
+      ]
+    },
+    {
+      "number": 640,
+      "title": "Deprecate SmemAllocator and expr/vector.py, update to SharedAllocator + typing.Vector",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-06-03T08:30:54Z",
+      "updated_at": "2026-07-21T05:53:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/640",
+      "labels": [
+        "FlyDSL/Customization"
+      ]
+    },
+    {
+      "number": 725,
+      "title": "[Feature]: megeMoEV1",
+      "author": "GwilliamHu",
+      "state": "open",
+      "created_at": "2026-06-23T04:24:56Z",
+      "updated_at": "2026-07-21T05:09:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/725",
+      "labels": [
+        "FlyDSL/Customization"
+      ]
+    },
     {
       "number": 813,
       "title": "SDK-Free Wheel Packaging and Backend Autodetection",
@@ -55,40 +91,6 @@
       "labels": [
         "FlyDSL/Customization"
       ]
-    },
-    {
-      "number": 774,
-      "title": "[FlyDSL ] Refactor FlyDSL Kernel Coding Style and Simplify Implementation",
-      "author": "Phil-amd",
-      "state": "open",
-      "created_at": "2026-06-30T05:46:45Z",
-      "updated_at": "2026-07-14T06:03:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/774",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
-    },
-    {
-      "number": 725,
-      "title": "[Feature]: megeMoEV1",
-      "author": "GwilliamHu",
-      "state": "open",
-      "created_at": "2026-06-23T04:24:56Z",
-      "updated_at": "2026-07-14T05:51:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/725",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
-    },
-    {
-      "number": 843,
-      "title": "[FlyDSL]: MI355 FMHA kernel refactor for modularity and code simplification",
-      "author": "yanguahe",
-      "state": "open",
-      "created_at": "2026-07-14T04:32:52Z",
-      "updated_at": "2026-07-14T04:55:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/843",
-      "labels": []
     },
     {
       "number": 831,
@@ -187,18 +189,6 @@
       ]
     },
     {
-      "number": 640,
-      "title": "Deprecate SmemAllocator and expr/vector.py, update to SharedAllocator + typing.Vector",
-      "author": "sjfeng1999",
-      "state": "open",
-      "created_at": "2026-06-03T08:30:54Z",
-      "updated_at": "2026-07-06T07:16:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/640",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
-    },
-    {
       "number": 793,
       "title": "list(Vector(buffer_load(vec_width>1))) hangs Python tracing (unbounded recursion, no IR emitted)",
       "author": "coderfeli",
@@ -237,18 +227,6 @@
       "updated_at": "2026-06-30T06:13:28Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/775",
       "labels": []
-    },
-    {
-      "number": 740,
-      "title": "[Issue]: support Megamoe",
-      "author": "Yaowu-Xiong",
-      "state": "open",
-      "created_at": "2026-06-25T07:37:42Z",
-      "updated_at": "2026-06-30T05:59:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/740",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
     },
     {
       "number": 726,

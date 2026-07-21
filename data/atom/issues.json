@@ -1,6 +1,19 @@
 {
-  "collected_at": "2026-07-20T10:38:06Z",
+  "collected_at": "2026-07-21T10:12:14Z",
   "issues": [
+    {
+      "number": 1645,
+      "title": "[Perf Regression] 1 config(s) regressed @ 888694f1",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-07-20T11:56:36Z",
+      "updated_at": "2026-07-20T11:56:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1645",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 1616,
       "title": "[Issue]: GDNAttentionMetadataBuilder.prepare_mtp_decode missing keyword-only parameters causing TypeError during speculative decoding",
