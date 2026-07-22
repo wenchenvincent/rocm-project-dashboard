@@ -1,6 +1,60 @@
 {
-  "collected_at": "2026-07-21T10:12:20Z",
+  "collected_at": "2026-07-22T10:12:21Z",
   "issues": [
+    {
+      "number": 691,
+      "title": "[Feature]: inductor prototype",
+      "author": "coderfeli",
+      "state": "open",
+      "created_at": "2026-06-16T07:29:33Z",
+      "updated_at": "2026-07-22T09:24:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/691",
+      "labels": []
+    },
+    {
+      "number": 621,
+      "title": "[Feature]: More robust AOT",
+      "author": "coderfeli",
+      "state": "open",
+      "created_at": "2026-06-02T13:20:23Z",
+      "updated_at": "2026-07-22T03:01:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/621",
+      "labels": []
+    },
+    {
+      "number": 749,
+      "title": "[RFC] FlyDSL kernels in downstream libraries",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-06-25T21:05:32Z",
+      "updated_at": "2026-07-22T00:32:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/749",
+      "labels": []
+    },
+    {
+      "number": 878,
+      "title": "[Runtime] Resolve the JIT target from the input device",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-07-22T00:19:33Z",
+      "updated_at": "2026-07-22T00:31:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/878",
+      "labels": [
+        "bug",
+        "compiler",
+        "multi-gpu"
+      ]
+    },
+    {
+      "number": 770,
+      "title": "[Feature] Make autotune a safe, adopted path",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-06-30T03:08:31Z",
+      "updated_at": "2026-07-21T23:58:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/770",
+      "labels": []
+    },
     {
       "number": 740,
       "title": "[Issue]: support Megamoe",
@@ -68,19 +122,6 @@
       "labels": []
     },
     {
-      "number": 858,
-      "title": "[CI] linux-flydsl-navi-2 GPU 1 consistently hangs the test suite",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-07-15T03:35:53Z",
-      "updated_at": "2026-07-15T05:18:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/858",
-      "labels": [
-        "bug",
-        "frameworks-devops"
-      ]
-    },
-    {
       "number": 641,
       "title": "Move target-specific code out of flydsl.expr",
       "author": "sjfeng1999",
@@ -120,26 +161,6 @@
       "created_at": "2026-07-09T03:23:10Z",
       "updated_at": "2026-07-10T08:46:11Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/821",
-      "labels": []
-    },
-    {
-      "number": 769,
-      "title": "[Feature] Add rmsnorm backward (+ forward saves rstd) to enable training / downstream (quack) integration",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-06-30T03:08:10Z",
-      "updated_at": "2026-07-09T01:20:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/769",
-      "labels": []
-    },
-    {
-      "number": 770,
-      "title": "[Feature] Make autotune a real, adopted tuning path (learn from aiter + existing flydsl autotune)",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-06-30T03:08:31Z",
-      "updated_at": "2026-07-09T01:20:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/770",
       "labels": []
     },
     {
@@ -199,16 +220,6 @@
       "labels": []
     },
     {
-      "number": 621,
-      "title": "[Feature]: More robust AOT",
-      "author": "coderfeli",
-      "state": "open",
-      "created_at": "2026-06-02T13:20:23Z",
-      "updated_at": "2026-06-30T08:47:54Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/621",
-      "labels": []
-    },
-    {
       "number": 663,
       "title": "[ROCm Test-First CI]: Day 0 FlyDSL MI455X UALoE72 Helios Rack open source github CI by AMD Advancing AI July 22 2026",
       "author": "functionstackx",
@@ -239,16 +250,6 @@
       "labels": [
         "FlyDSL/Customization"
       ]
-    },
-    {
-      "number": 749,
-      "title": "[RFC]: a contribution path for FlyDSL kernels into downstream OSS libraries (PoC: Dao-AILab/quack)",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-06-25T21:05:32Z",
-      "updated_at": "2026-06-30T03:30:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/749",
-      "labels": []
     },
     {
       "number": 767,
@@ -381,16 +382,6 @@
       "labels": []
     },
     {
-      "number": 691,
-      "title": "[Feature]: inductor prototype",
-      "author": "coderfeli",
-      "state": "open",
-      "created_at": "2026-06-16T07:29:33Z",
-      "updated_at": "2026-06-16T07:29:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/691",
-      "labels": []
-    },
-    {
       "number": 688,
       "title": "[Feature]:  Troubleshooting for potential issues related to internal control flow value modification",
       "author": "xudoyuan",
@@ -474,26 +465,6 @@
       "created_at": "2026-06-02T16:29:51Z",
       "updated_at": "2026-06-02T16:30:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/631",
-      "labels": []
-    },
-    {
-      "number": 626,
-      "title": "[Feature]: Mega MOE v1: dispatch + gemm1,    gemm2 + combine",
-      "author": "coderfeli",
-      "state": "open",
-      "created_at": "2026-06-02T14:05:39Z",
-      "updated_at": "2026-06-02T14:12:31Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/626",
-      "labels": []
-    },
-    {
-      "number": 625,
-      "title": "[Feature]: AUTO TUNE support",
-      "author": "coderfeli",
-      "state": "open",
-      "created_at": "2026-06-02T14:04:29Z",
-      "updated_at": "2026-06-02T14:04:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/625",
       "labels": []
     },
     {

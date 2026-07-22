@@ -1,16 +1,54 @@
 {
-  "collected_at": "2026-07-21T10:12:21Z",
+  "collected_at": "2026-07-22T10:12:23Z",
   "prs": [
     {
-      "number": 671,
-      "title": "[ROCm] Fix THD/ragged dQ backward on the bf16 dq_shuffle path (gfx950)",
-      "author": "wenchenvincent",
+      "number": 625,
+      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
+      "author": "VeeraRajasekhar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-16T00:55:54Z",
-      "updated_at": "2026-07-21T05:19:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/671",
+      "created_at": "2026-06-15T05:36:28Z",
+      "updated_at": "2026-07-22T06:15:40Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 674,
+      "title": "Update CLAUDE.md",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T16:48:14Z",
+      "updated_at": "2026-07-22T03:47:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/674",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 676,
+      "title": "[WIP] Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T03:23:51Z",
+      "updated_at": "2026-07-22T03:26:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 658,
+      "title": "blockwise fp8 gemm integration for gfx942 and gfx950",
+      "author": "asdfvg123",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-06T22:01:12Z",
+      "updated_at": "2026-07-22T02:19:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -20,8 +58,58 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-29T15:33:31Z",
-      "updated_at": "2026-07-21T04:55:22Z",
+      "updated_at": "2026-07-21T21:25:27Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 660,
+      "title": "Ifu dev 20260706 v2.17",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T16:25:50Z",
+      "updated_at": "2026-07-21T19:51:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 637,
+      "title": "Interleaved Driver Benchmarking",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T20:29:41Z",
+      "updated_at": "2026-07-21T15:39:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 675,
+      "title": "[wip] native nvfp4 GEMM support on gfx1250",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T21:13:55Z",
+      "updated_at": "2026-07-21T15:27:49Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 671,
+      "title": "[ROCm] Fix THD/ragged dQ backward on the bf16 dq_shuffle path (gfx950)",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T00:55:54Z",
+      "updated_at": "2026-07-21T05:19:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/671",
       "labels": [],
       "draft": false
     },
@@ -66,46 +154,6 @@
       "draft": false
     },
     {
-      "number": 658,
-      "title": "blockwise fp8 gemm integration for gfx942 and gfx950",
-      "author": "asdfvg123",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-06T22:01:12Z",
-      "updated_at": "2026-07-20T21:59:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 625,
-      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-07-20T21:57:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 675,
-      "title": "[wip] native nvfp4 support on gfx1250",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T21:13:55Z",
-      "updated_at": "2026-07-20T21:13:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
       "number": 666,
       "title": "Updated CK/AITER Cmake Build",
       "author": "Micky774",
@@ -118,18 +166,6 @@
         "ci-level 1"
       ],
       "draft": false
-    },
-    {
-      "number": 637,
-      "title": "Interleaved Driver Benchmarking",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T20:29:41Z",
-      "updated_at": "2026-07-20T19:37:11Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 661,
@@ -166,30 +202,6 @@
       "created_at": "2026-07-14T15:55:35Z",
       "updated_at": "2026-07-20T16:50:10Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 674,
-      "title": "Update CLAUDE.md",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T16:48:14Z",
-      "updated_at": "2026-07-20T16:48:15Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/674",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 660,
-      "title": "Ifu dev 20260706 v2.17",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-20T14:38:27Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
       "labels": [],
       "draft": true
     },

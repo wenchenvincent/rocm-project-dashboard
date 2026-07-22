@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-21T10:12:14Z",
+  "collected_at": "2026-07-22T10:12:14Z",
   "issues": [
+    {
+      "number": 1661,
+      "title": "[Bug][DSV4 MTP/NEXTN] unified_kv_rope AttributeError during draft cudagraph capture (V4-Pro MTP3 / V4-Flash accuracy red on all PRs)",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-07-21T22:18:15Z",
+      "updated_at": "2026-07-22T02:24:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1661",
+      "labels": []
+    },
     {
       "number": 1645,
       "title": "[Perf Regression] 1 config(s) regressed @ 888694f1",

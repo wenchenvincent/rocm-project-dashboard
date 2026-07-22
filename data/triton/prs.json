@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-07-21T10:11:56Z",
+  "collected_at": "2026-07-22T10:11:49Z",
   "prs": [
+    {
+      "number": 10813,
+      "title": "[AMD] gfx1250 proton clock instructions",
+      "author": "ZelboK",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-07T19:30:37Z",
+      "updated_at": "2026-07-22T05:30:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10813",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10708,
+      "title": "[AMD] Add gfx1250 Gluon stream bandwidth example",
+      "author": "adityakankariya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-24T01:30:44Z",
+      "updated_at": "2026-07-21T20:34:42Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10708",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10885,
+      "title": "[AMD][DRAFT] test out if still broken ",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T20:44:21Z",
+      "updated_at": "2026-07-21T19:10:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10885",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 10725,
       "title": "[AMD] Add schedule hint for warp-pipeline backedge barrier placement",
@@ -26,18 +62,6 @@
       "draft": false
     },
     {
-      "number": 10813,
-      "title": "[AMD] gfx1250 proton clock instructions",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T19:30:37Z",
-      "updated_at": "2026-07-20T21:25:00Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10813",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10020,
       "title": "[AMD] PC Sampling, wave stall reasonings",
       "author": "ZelboK",
@@ -46,18 +70,6 @@
       "created_at": "2026-04-13T16:54:34Z",
       "updated_at": "2026-07-20T20:32:10Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10020",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10885,
-      "title": "[AMD][DRAFT] test out if still broken ",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T20:44:21Z",
-      "updated_at": "2026-07-20T17:10:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10885",
       "labels": [],
       "draft": false
     },
@@ -190,18 +202,6 @@
       "created_at": "2026-07-16T23:23:08Z",
       "updated_at": "2026-07-17T01:50:11Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10912",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10708,
-      "title": "[AMD] Add gfx1250 Gluon stream bandwidth example",
-      "author": "adityakankariya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T01:30:44Z",
-      "updated_at": "2026-07-17T01:34:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10708",
       "labels": [],
       "draft": false
     },
@@ -494,18 +494,6 @@
       "draft": false
     },
     {
-      "number": 9414,
-      "title": "[AMD] Update gfx1250 MXFP FA example kernel",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-09T19:51:51Z",
-      "updated_at": "2026-07-06T07:05:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9414",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10733,
       "title": "[AMD] Fix batched WMMA scale layout",
       "author": "alefimov-amd",
@@ -720,6 +708,18 @@
       "html_url": "https://github.com/triton-lang/triton/pull/9195",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 9860,
+      "title": "[AMD] Support per-function PID bounds on TritonIntegerRangeAnalysis (\u2026",
+      "author": "patrick-toulme",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-03-26T17:10:28Z",
+      "updated_at": "2026-06-17T15:29:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9860",
+      "labels": [],
+      "draft": false
     }
   ]
 }

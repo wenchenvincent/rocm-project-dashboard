@@ -1,40 +1,18 @@
 {
-  "collected_at": "2026-07-21T10:12:19Z",
+  "collected_at": "2026-07-22T10:12:20Z",
   "prs": [
     {
-      "number": 873,
-      "title": "Fix Vector list()-iteration hang ",
-      "author": "adityas-amd",
+      "number": 876,
+      "title": "MegaMoEV1 on Gfx950",
+      "author": "GwilliamHu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-18T04:34:51Z",
-      "updated_at": "2026-07-21T10:05:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/873",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 866,
-      "title": "Atom 1250 refactor",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T08:14:48Z",
-      "updated_at": "2026-07-21T10:02:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/866",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 850,
-      "title": "[Perf]optimize flydsl flash attention kernel",
-      "author": "binding7012",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T09:48:32Z",
-      "updated_at": "2026-07-21T09:48:46Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/850",
-      "labels": [],
+      "created_at": "2026-07-21T02:44:12Z",
+      "updated_at": "2026-07-22T09:43:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
+      "labels": [
+        "multi-gpu"
+      ],
       "draft": false
     },
     {
@@ -44,23 +22,93 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-10T06:34:28Z",
-      "updated_at": "2026-07-21T08:46:51Z",
+      "updated_at": "2026-07-22T09:18:47Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/825",
       "labels": [],
       "draft": false
     },
     {
-      "number": 876,
-      "title": "MegaMoEV1 on Gfx950",
-      "author": "GwilliamHu",
+      "number": 880,
+      "title": "refactor(expr): move buffer_ops to expr.rocdl; split gfx1250 mcast policy to kernels.common",
+      "author": "Phil-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-21T02:44:12Z",
-      "updated_at": "2026-07-21T07:22:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
-      "labels": [
-        "multi-gpu"
-      ],
+      "created_at": "2026-07-22T07:35:37Z",
+      "updated_at": "2026-07-22T07:35:37Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/880",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 786,
+      "title": "[3/5] autotune: add offline config artifacts (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:15:47Z",
+      "updated_at": "2026-07-22T06:30:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 869,
+      "title": "[Kernel] Add CDNA SageAttention kernel",
+      "author": "LiuYinfeng01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T10:49:12Z",
+      "updated_at": "2026-07-22T02:43:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/869",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 788,
+      "title": "autotune: keep CI search opt-in (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T08:04:11Z",
+      "updated_at": "2026-07-21T23:58:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/788",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 844,
+      "title": "Add forward LSE output to FlyDSL flash attention kernels",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T04:44:33Z",
+      "updated_at": "2026-07-21T17:10:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/844",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 872,
+      "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T00:38:19Z",
+      "updated_at": "2026-07-21T15:13:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 873,
+      "title": "Fix Vector list()-iteration hang ",
+      "author": "adityas-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T04:34:51Z",
+      "updated_at": "2026-07-21T11:15:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/873",
+      "labels": [],
       "draft": false
     },
     {
@@ -72,18 +120,6 @@
       "created_at": "2026-07-14T08:23:54Z",
       "updated_at": "2026-07-21T06:08:14Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 844,
-      "title": "Add forward LSE output to FlyDSL flash attention kernels",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T04:44:33Z",
-      "updated_at": "2026-07-20T21:00:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/844",
       "labels": [],
       "draft": false
     },
@@ -136,30 +172,6 @@
       "draft": true
     },
     {
-      "number": 786,
-      "title": "[3/5] autotune: add offline config artifacts (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:15:47Z",
-      "updated_at": "2026-07-20T07:57:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 869,
-      "title": "[Kernel] Add CDNA SageAttention kernel",
-      "author": "LiuYinfeng01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T10:49:12Z",
-      "updated_at": "2026-07-20T05:32:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/869",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 837,
       "title": "Add a8w4 kernel for Quark mix-precision",
       "author": "amd-xiaoyu12",
@@ -168,18 +180,6 @@
       "created_at": "2026-07-12T16:49:53Z",
       "updated_at": "2026-07-19T18:29:25Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/837",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 872,
-      "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-18T00:38:19Z",
-      "updated_at": "2026-07-18T00:42:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
       "labels": [],
       "draft": false
     },
@@ -302,18 +302,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/764",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 788,
-      "title": "[4/5] autotune: CI guard + committed-config regression check (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T08:04:11Z",
-      "updated_at": "2026-07-02T19:28:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/788",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 763,
@@ -588,6 +576,30 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 850,
+      "title": "[Perf]optimize flydsl flash attention kernel",
+      "author": "binding7012",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T09:48:32Z",
+      "updated_at": "2026-07-22T02:48:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/850",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 866,
+      "title": "Atom 1250 refactor",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T08:14:48Z",
+      "updated_at": "2026-07-21T14:46:54Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/866",
       "labels": [],
       "draft": false
     },
@@ -1493,34 +1505,6 @@
       "updated_at": "2026-06-24T03:16:29Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/729",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 705,
-      "title": "[gfx1250][gemm] Fix A-scale VGPR and optimize decode GEMM",
-      "author": "aoli26",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-19T06:54:02Z",
-      "updated_at": "2026-06-23T03:49:55Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/705",
-      "labels": [
-        "FlyDSL/Customization"
-      ],
-      "draft": false
-    },
-    {
-      "number": 679,
-      "title": "[gfx1250][gemm] Make mxscale B-scale preshuffle tile-independent",
-      "author": "aoli26",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-14T15:12:31Z",
-      "updated_at": "2026-06-23T03:49:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/679",
-      "labels": [
-        "FlyDSL/Customization"
-      ],
       "draft": false
     }
   ]

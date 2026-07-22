@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-21T10:14:11Z",
+  "collected_at": "2026-07-22T10:14:36Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
@@ -9,16 +9,16 @@
       "closed": 4
     },
     "last_week": {
-      "opened": 10,
-      "merged": 1,
+      "opened": 5,
+      "merged": 0,
       "closed": 0
     },
-    "median_time_to_merge_hours": 194.6,
-    "merge_count": 6,
+    "median_time_to_merge_hours": 192.7,
+    "merge_count": 5,
     "stale_prs": 24
   },
   "contributors": {
-    "active_this_week": 7,
+    "active_this_week": 8,
     "total_contributors": 22,
     "top_contributors": [
       {
@@ -40,6 +40,12 @@
         "commits": 4
       },
       {
+        "author": "aris134",
+        "prs_submitted": 11,
+        "prs_merged": 9,
+        "commits": 1
+      },
+      {
         "author": "VeeraRajasekhar",
         "prs_submitted": 10,
         "prs_merged": 5,
@@ -50,12 +56,6 @@
         "prs_submitted": 10,
         "prs_merged": 9,
         "commits": 4
-      },
-      {
-        "author": "aris134",
-        "prs_submitted": 10,
-        "prs_merged": 9,
-        "commits": 2
       },
       {
         "author": "AllenFarcas",
@@ -93,9 +93,9 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 47.5,
-    "avg_interval_days": 47.0,
+    "days_since_last": 0.9,
+    "avg_interval_days": 41.6,
     "total_releases": 5,
-    "latest_tag": "v2.10_rocm"
+    "latest_tag": "v2.12_rocm"
   }
 }
