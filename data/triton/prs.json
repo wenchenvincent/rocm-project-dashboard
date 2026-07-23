@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-07-22T10:11:49Z",
+  "collected_at": "2026-07-23T10:09:35Z",
   "prs": [
+    {
+      "number": 10906,
+      "title": " [AMD] Restrict BarrierOpConversion to CDNA to avoid ROCm numeric drift on RDNA",
+      "author": "k-artem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T14:44:45Z",
+      "updated_at": "2026-07-23T08:25:54Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10906",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11019,
+      "title": "[AMD] Fix buffer atomic exchange intrinsic",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T23:27:40Z",
+      "updated_at": "2026-07-22T23:28:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11019",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11018,
+      "title": "[AMD] Emit buffer atomic min/max only for the supported data types ",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T23:13:18Z",
+      "updated_at": "2026-07-22T23:14:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11018",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11012,
+      "title": "[AMD][DRAFT] proton rocprofsdk error 16 pytest fix",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T18:42:42Z",
+      "updated_at": "2026-07-22T18:42:42Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11012",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10725,
+      "title": "[AMD] Add schedule hint for warp-pipeline backedge barrier placement",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T00:26:46Z",
+      "updated_at": "2026-07-22T18:05:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10725",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10878,
+      "title": "[AMD] Add RDNA4m target",
+      "author": "ptrojahn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T10:54:20Z",
+      "updated_at": "2026-07-22T16:07:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10878",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 10813,
       "title": "[AMD] gfx1250 proton clock instructions",
@@ -34,18 +106,6 @@
       "created_at": "2026-07-14T20:44:21Z",
       "updated_at": "2026-07-21T19:10:22Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10885",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10725,
-      "title": "[AMD] Add schedule hint for warp-pipeline backedge barrier placement",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T00:26:46Z",
-      "updated_at": "2026-07-20T21:51:06Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10725",
       "labels": [],
       "draft": false
     },
@@ -218,18 +278,6 @@
       "draft": false
     },
     {
-      "number": 10906,
-      "title": " [AMD] Restrict BarrierOpConversion to CDNA to avoid ROCm numeric drift on RDNA",
-      "author": "k-artem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T14:44:45Z",
-      "updated_at": "2026-07-16T18:01:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10906",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 10483,
       "title": "[AMD] Prove buffer-load contiguity along LinearLayout register order",
       "author": "panditsa",
@@ -288,18 +336,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10628",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10878,
-      "title": "[AMD] Add RDNA4m target",
-      "author": "ptrojahn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T10:54:20Z",
-      "updated_at": "2026-07-14T10:54:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10878",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10866,
@@ -682,42 +718,6 @@
       "created_at": "2026-02-25T03:43:32Z",
       "updated_at": "2026-06-17T15:29:24Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9562",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 9113,
-      "title": "[AMD] Use fine-grained lgkmcnt for better compute-memory overlap",
-      "author": "vivienfanghuagood",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-12-25T05:36:47Z",
-      "updated_at": "2026-06-17T15:29:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9113",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9195,
-      "title": "[AMD][mxfp4] ttg::Fp4ToFpOp add support for FP4 upcast to FP32",
-      "author": "jwu10003",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-12T07:12:02Z",
-      "updated_at": "2026-06-17T15:29:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9195",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9860,
-      "title": "[AMD] Support per-function PID bounds on TritonIntegerRangeAnalysis (\u2026",
-      "author": "patrick-toulme",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-26T17:10:28Z",
-      "updated_at": "2026-06-17T15:29:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9860",
       "labels": [],
       "draft": false
     }

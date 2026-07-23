@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-07-22T10:12:16Z",
+  "collected_at": "2026-07-23T10:10:00Z",
   "prs": [
-    {
-      "number": 437,
-      "title": "Refactor: umbp metadata store rebase",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-29T07:13:40Z",
-      "updated_at": "2026-07-22T09:44:14Z",
-      "html_url": "https://github.com/ROCm/mori/pull/437",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 441,
       "title": "ccl: hierarchical cross-node AllGather (intra-node SDMA + inter-node RDMA)",
@@ -20,20 +8,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-01T03:49:39Z",
-      "updated_at": "2026-07-22T09:36:06Z",
+      "updated_at": "2026-07-23T10:07:57Z",
       "html_url": "https://github.com/ROCm/mori/pull/441",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 454,
-      "title": "(cco) impl sdma transport in cco primitives",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T08:20:57Z",
-      "updated_at": "2026-07-22T03:53:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/454",
       "labels": [],
       "draft": false
     },
@@ -44,8 +20,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T03:01:13Z",
-      "updated_at": "2026-07-21T14:09:38Z",
+      "updated_at": "2026-07-23T08:18:39Z",
       "html_url": "https://github.com/ROCm/mori/pull/492",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 437,
+      "title": "Refactor: umbp metadata store rebase",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-29T07:13:40Z",
+      "updated_at": "2026-07-23T08:11:18Z",
+      "html_url": "https://github.com/ROCm/mori/pull/437",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 454,
+      "title": "(cco) impl sdma transport in cco primitives",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T08:20:57Z",
+      "updated_at": "2026-07-23T08:02:53Z",
+      "html_url": "https://github.com/ROCm/mori/pull/454",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 444,
+      "title": "perf(io): add busy-wait completion mode and numpy batch-transfer mars\u2026",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T11:31:37Z",
+      "updated_at": "2026-07-23T03:44:50Z",
+      "html_url": "https://github.com/ROCm/mori/pull/444",
       "labels": [],
       "draft": false
     },
@@ -130,18 +142,6 @@
       "created_at": "2026-07-02T06:36:18Z",
       "updated_at": "2026-07-03T08:46:06Z",
       "html_url": "https://github.com/ROCm/mori/pull/445",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 444,
-      "title": "perf(io): add busy-wait completion mode and numpy batch-transfer mars\u2026",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T11:31:37Z",
-      "updated_at": "2026-07-01T11:42:18Z",
-      "html_url": "https://github.com/ROCm/mori/pull/444",
       "labels": [],
       "draft": false
     },

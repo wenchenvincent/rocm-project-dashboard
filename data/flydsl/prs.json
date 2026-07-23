@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-07-22T10:12:20Z",
+  "collected_at": "2026-07-23T10:10:04Z",
   "prs": [
+    {
+      "number": 890,
+      "title": "[CI] Save MLIR caches only from main",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T09:51:19Z",
+      "updated_at": "2026-07-23T09:53:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/890",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 876,
       "title": "MegaMoEV1 on Gfx950",
@@ -8,11 +20,155 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T02:44:12Z",
-      "updated_at": "2026-07-22T09:43:24Z",
+      "updated_at": "2026-07-23T09:45:47Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
       "labels": [
         "multi-gpu"
       ],
+      "draft": false
+    },
+    {
+      "number": 880,
+      "title": "refactor(expr): move buffer_ops and split gfx1250 mcast policy to kernels.common",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T07:35:37Z",
+      "updated_at": "2026-07-23T09:05:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/880",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 885,
+      "title": "[WIP][gfx1250] Refactor GEMM kernels with layout/atom API",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T04:18:08Z",
+      "updated_at": "2026-07-23T08:58:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/885",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 887,
+      "title": "gemm: add fp8 per-tensor grouped GEMM forward (M-grouped/MoE)",
+      "author": "kyle-256",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T06:47:30Z",
+      "updated_at": "2026-07-23T08:14:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/887",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 884,
+      "title": "[rmsnorm] Support FP32 weights with FP16/BF16 activations",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T23:48:12Z",
+      "updated_at": "2026-07-23T07:26:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/884",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 786,
+      "title": "[3/5] autotune: add offline config artifacts (#770)",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T07:15:47Z",
+      "updated_at": "2026-07-23T07:14:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 888,
+      "title": "[Kernel][MI350] Add cache-aware 8-wave BF16/FP16 GEMM",
+      "author": "zhanglx13",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T06:51:42Z",
+      "updated_at": "2026-07-23T07:02:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/888",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 886,
+      "title": "Add optional forward LSE output",
+      "author": "AakarshAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T06:04:11Z",
+      "updated_at": "2026-07-23T06:49:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 869,
+      "title": "[Kernel] Add CDNA SageAttention kernel",
+      "author": "LiuYinfeng01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T10:49:12Z",
+      "updated_at": "2026-07-23T05:42:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/869",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 837,
+      "title": "Add a8w4 kernel for Quark mix-precision",
+      "author": "amd-xiaoyu12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-12T16:49:53Z",
+      "updated_at": "2026-07-23T04:00:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/837",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 872,
+      "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T00:38:19Z",
+      "updated_at": "2026-07-23T02:44:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 844,
+      "title": "Add forward LSE output to FlyDSL flash attention kernels",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T04:44:33Z",
+      "updated_at": "2026-07-22T21:39:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/844",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 820,
+      "title": "[Kernel] conv3d: parameterize tile size + add autotuner",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T18:03:12Z",
+      "updated_at": "2026-07-22T17:43:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
+      "labels": [],
       "draft": false
     },
     {
@@ -28,42 +184,6 @@
       "draft": false
     },
     {
-      "number": 880,
-      "title": "refactor(expr): move buffer_ops to expr.rocdl; split gfx1250 mcast policy to kernels.common",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T07:35:37Z",
-      "updated_at": "2026-07-22T07:35:37Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/880",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 786,
-      "title": "[3/5] autotune: add offline config artifacts (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:15:47Z",
-      "updated_at": "2026-07-22T06:30:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 869,
-      "title": "[Kernel] Add CDNA SageAttention kernel",
-      "author": "LiuYinfeng01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T10:49:12Z",
-      "updated_at": "2026-07-22T02:43:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/869",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 788,
       "title": "autotune: keep CI search opt-in (#770)",
       "author": "jhinpan",
@@ -72,42 +192,6 @@
       "created_at": "2026-07-01T08:04:11Z",
       "updated_at": "2026-07-21T23:58:39Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/788",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 844,
-      "title": "Add forward LSE output to FlyDSL flash attention kernels",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T04:44:33Z",
-      "updated_at": "2026-07-21T17:10:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/844",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 872,
-      "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-18T00:38:19Z",
-      "updated_at": "2026-07-21T15:13:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 873,
-      "title": "Fix Vector list()-iteration hang ",
-      "author": "adityas-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-18T04:34:51Z",
-      "updated_at": "2026-07-21T11:15:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/873",
       "labels": [],
       "draft": false
     },
@@ -172,18 +256,6 @@
       "draft": true
     },
     {
-      "number": 837,
-      "title": "Add a8w4 kernel for Quark mix-precision",
-      "author": "amd-xiaoyu12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-12T16:49:53Z",
-      "updated_at": "2026-07-19T18:29:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/837",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 860,
       "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
       "author": "jiacao-amd",
@@ -194,30 +266,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 820,
-      "title": "[Kernel] conv3d: parameterize tile size + add autotuner",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T18:03:12Z",
-      "updated_at": "2026-07-16T04:39:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/820",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 853,
-      "title": "[Refactor] move buffer_ops to kernels.common; remove expr/vector.py",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T14:45:57Z",
-      "updated_at": "2026-07-14T15:08:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/853",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 833,
@@ -576,6 +624,42 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 882,
+      "title": "Skill: align kernel-authoring with code-cleanup (drop buffer_ops/ArithValue)",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-22T14:56:07Z",
+      "updated_at": "2026-07-23T02:59:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/882",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 881,
+      "title": "Add FlyDSL kernel code cleanup skill",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-22T14:21:37Z",
+      "updated_at": "2026-07-22T14:32:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/881",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 873,
+      "title": "Fix Vector list()-iteration hang ",
+      "author": "adityas-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-18T04:34:51Z",
+      "updated_at": "2026-07-22T14:12:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/873",
       "labels": [],
       "draft": false
     },
@@ -1456,54 +1540,6 @@
       "created_at": "2026-06-25T12:03:18Z",
       "updated_at": "2026-06-26T04:08:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/745",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 743,
-      "title": "Tune v2 gemm",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-25T09:35:46Z",
-      "updated_at": "2026-06-25T11:47:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/743",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 735,
-      "title": "[Feat] Export Basis to dsl expression",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-24T09:55:04Z",
-      "updated_at": "2026-06-24T13:32:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/735",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 728,
-      "title": "[Fix] Let Layout permissive in the IntTupleLike ops",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-23T06:26:50Z",
-      "updated_at": "2026-06-24T03:19:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/728",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 729,
-      "title": "[Fix] Capture the width of ir.Value correctly in the IntTupleAttrBuilder",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-23T07:49:52Z",
-      "updated_at": "2026-06-24T03:16:29Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/729",
       "labels": [],
       "draft": false
     }

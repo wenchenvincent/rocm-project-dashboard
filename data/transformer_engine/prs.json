@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-07-22T10:12:23Z",
+  "collected_at": "2026-07-23T10:10:08Z",
   "prs": [
+    {
+      "number": 676,
+      "title": "[WIP] Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T03:23:51Z",
+      "updated_at": "2026-07-23T04:31:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 639,
+      "title": "grouped gemm microbenchmark: use te.GroupedLinear",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T23:15:50Z",
+      "updated_at": "2026-07-22T22:22:26Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/639",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 625,
       "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
@@ -8,7 +34,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-07-22T06:15:40Z",
+      "updated_at": "2026-07-22T22:08:07Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
       "labels": [],
       "draft": false
@@ -20,22 +46,24 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-20T16:48:14Z",
-      "updated_at": "2026-07-22T03:47:45Z",
+      "updated_at": "2026-07-22T22:01:56Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/674",
       "labels": [],
       "draft": false
     },
     {
-      "number": 676,
-      "title": "[WIP] Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "aris134",
+      "number": 599,
+      "title": "Update QoLA/AITER ",
+      "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-07-22T03:26:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
-      "labels": [],
-      "draft": true
+      "created_at": "2026-05-28T16:18:02Z",
+      "updated_at": "2026-07-22T22:01:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/599",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
     },
     {
       "number": 658,
@@ -44,12 +72,36 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-06T22:01:12Z",
-      "updated_at": "2026-07-22T02:19:14Z",
+      "updated_at": "2026-07-22T21:41:16Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
       "labels": [
         "ci-level 1"
       ],
       "draft": false
+    },
+    {
+      "number": 670,
+      "title": "[proof-of-concept] benchmarks dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-07-22T20:50:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 660,
+      "title": "Ifu dev 20260706 v2.17",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T16:25:50Z",
+      "updated_at": "2026-07-22T19:21:22Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 602,
@@ -62,18 +114,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 660,
-      "title": "Ifu dev 20260706 v2.17",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-21T19:51:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 637,
@@ -140,20 +180,6 @@
       "draft": false
     },
     {
-      "number": 599,
-      "title": "Update QoLA/AITER ",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-28T16:18:02Z",
-      "updated_at": "2026-07-21T04:05:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/599",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 666,
       "title": "Updated CK/AITER Cmake Build",
       "author": "Micky774",
@@ -180,30 +206,6 @@
         "ci-level 3"
       ],
       "draft": false
-    },
-    {
-      "number": 639,
-      "title": "grouped gemm microbenchmark: use te.GroupedLinear",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T23:15:50Z",
-      "updated_at": "2026-07-20T20:12:47Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/639",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 670,
-      "title": "[proof-of-concept] benchmarks dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-07-20T16:50:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 606,

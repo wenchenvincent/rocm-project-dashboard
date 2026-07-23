@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-22T10:12:21Z",
+  "collected_at": "2026-07-23T10:10:05Z",
   "issues": [
+    {
+      "number": 749,
+      "title": "[RFC] FlyDSL kernels in downstream libraries",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-06-25T21:05:32Z",
+      "updated_at": "2026-07-22T20:22:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/749",
+      "labels": []
+    },
     {
       "number": 691,
       "title": "[Feature]: inductor prototype",
@@ -20,30 +30,6 @@
       "updated_at": "2026-07-22T03:01:20Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/621",
       "labels": []
-    },
-    {
-      "number": 749,
-      "title": "[RFC] FlyDSL kernels in downstream libraries",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-06-25T21:05:32Z",
-      "updated_at": "2026-07-22T00:32:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/749",
-      "labels": []
-    },
-    {
-      "number": 878,
-      "title": "[Runtime] Resolve the JIT target from the input device",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-07-22T00:19:33Z",
-      "updated_at": "2026-07-22T00:31:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/878",
-      "labels": [
-        "bug",
-        "compiler",
-        "multi-gpu"
-      ]
     },
     {
       "number": 770,
@@ -208,16 +194,6 @@
       "labels": [
         "FlyDSL/Customization"
       ]
-    },
-    {
-      "number": 793,
-      "title": "list(Vector(buffer_load(vec_width>1))) hangs Python tracing (unbounded recursion, no IR emitted)",
-      "author": "coderfeli",
-      "state": "open",
-      "created_at": "2026-07-01T15:07:44Z",
-      "updated_at": "2026-07-01T15:07:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/793",
-      "labels": []
     },
     {
       "number": 663,

@@ -1,14 +1,82 @@
 {
-  "collected_at": "2026-07-22T10:11:47Z",
+  "collected_at": "2026-07-23T10:09:33Z",
   "issues": [
+    {
+      "number": 30734,
+      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
+      "author": "tanth47",
+      "state": "open",
+      "created_at": "2026-07-10T03:32:15Z",
+      "updated_at": "2026-07-23T10:07:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
+      "labels": []
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-22T09:35:05Z",
+      "updated_at": "2026-07-23T09:29:13Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 32169,
+      "title": "[Bug] InternVL2_5-2B fails to start: 'CLIPImageProcessor' object has no attribute 'tokenizer' in get_tokenizer_from_processor",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-07-23T07:35:04Z",
+      "updated_at": "2026-07-23T07:35:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/32169",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-07-23T06:56:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 29630,
+      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
+      "author": "BBuf",
+      "state": "open",
+      "created_at": "2026-06-29T07:39:33Z",
+      "updated_at": "2026-07-23T05:09:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
+      "labels": [
+        "RFC",
+        "jit-kernel",
+        "kernel"
+      ]
+    },
+    {
+      "number": 27194,
+      "title": "moe_kernels.py, stage-2 reduce path: small SGLANG_MORI_NUM_MAX_DISPATCH_TOKENS_PER_RANK silently corrupts output (gsm8k=0) at low concurrency",
+      "author": "Oseltamivir",
+      "state": "open",
+      "created_at": "2026-06-04T00:27:55Z",
+      "updated_at": "2026-07-23T01:20:44Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27194",
+      "labels": []
+    },
+    {
+      "number": 27898,
+      "title": "[RFC] Beyond Passive Byte Stores: Scheduler-Aware Multi-Tier KV Caching for SGLang with MORI-UMBP",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-06-11T08:00:41Z",
+      "updated_at": "2026-07-22T17:46:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27898",
       "labels": []
     },
     {
@@ -21,44 +89,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/13363",
       "labels": [
         "good first issue"
-      ]
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-07-22T05:11:57Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
-      "number": 27194,
-      "title": "moe_kernels.py, stage-2 reduce path: small SGLANG_MORI_NUM_MAX_DISPATCH_TOKENS_PER_RANK silently corrupts output (gsm8k=0) at low concurrency",
-      "author": "Oseltamivir",
-      "state": "open",
-      "created_at": "2026-06-04T00:27:55Z",
-      "updated_at": "2026-07-22T04:57:34Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27194",
-      "labels": []
-    },
-    {
-      "number": 29630,
-      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
-      "author": "BBuf",
-      "state": "open",
-      "created_at": "2026-06-29T07:39:33Z",
-      "updated_at": "2026-07-22T03:32:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
-      "labels": [
-        "RFC",
-        "jit-kernel",
-        "kernel"
       ]
     },
     {
@@ -109,16 +139,6 @@
       "created_at": "2026-07-21T09:43:06Z",
       "updated_at": "2026-07-21T09:43:06Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31924",
-      "labels": []
-    },
-    {
-      "number": 30734,
-      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-07-10T03:32:15Z",
-      "updated_at": "2026-07-21T08:20:08Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
       "labels": []
     },
     {
@@ -556,16 +576,6 @@
       "created_at": "2026-06-06T03:43:02Z",
       "updated_at": "2026-06-12T06:42:39Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/27418",
-      "labels": []
-    },
-    {
-      "number": 27567,
-      "title": "[Feature] Expose CUDA_DISABLE_PERF_BOOST to recover ~26-66 W/GPU idle power",
-      "author": "sathvik-vadari",
-      "state": "open",
-      "created_at": "2026-06-08T13:27:45Z",
-      "updated_at": "2026-06-08T13:28:45Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27567",
       "labels": []
     }
   ]

@@ -1,27 +1,143 @@
 {
-  "collected_at": "2026-07-22T10:11:35Z",
+  "collected_at": "2026-07-23T10:09:20Z",
   "issues": [
+    {
+      "number": 49238,
+      "title": "[Bug]: Decode instance segfaults on NIXL `loadRemoteMD` after prefill pod restarts in P/D disaggregation",
+      "author": "roytman",
+      "state": "open",
+      "created_at": "2026-07-20T20:42:22Z",
+      "updated_at": "2026-07-23T07:47:42Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49238",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 49497,
+      "title": "[Bug]: FlashInfer sampler JIT crashes engine startup when nvcc isn't discoverable (default precompiled/wheel install) \u2014 no fallback to native sampler",
+      "author": "Dhruv235",
+      "state": "open",
+      "created_at": "2026-07-23T00:08:42Z",
+      "updated_at": "2026-07-23T07:44:05Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49497",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 49127,
+      "title": "[Bug]: Native KV offloading with prefix caching changes tool visibility after a long shared-prefix request on Qwen3.6",
+      "author": "raoulprevost",
+      "state": "open",
+      "created_at": "2026-07-19T23:31:51Z",
+      "updated_at": "2026-07-23T07:42:39Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49127",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 49311,
       "title": "[Bug]: v0.25.0 regression - Qwen3.5 FP8 on H200 crashes during CUDA graph capture with CUDA illegal memory access",
       "author": "agxs",
       "state": "open",
       "created_at": "2026-07-21T09:34:23Z",
-      "updated_at": "2026-07-22T10:07:58Z",
+      "updated_at": "2026-07-23T07:11:01Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/49311",
       "labels": [
         "bug"
       ]
     },
     {
-      "number": 49354,
-      "title": "[Bug]: Qwen3.5 / Qwen3.6 hybrid-GDN LoRA: vLLM `enable_lora` does not change generations vs base, while HF Peft does",
-      "author": "fooSynaptic",
+      "number": 49203,
+      "title": "[Bug]: Qwen3.6-35B-A3B (GDN hybrid) intermittently livelocks under load on GB10/SM121 \u2014 GPU 96% util, 0 tok/s, no crash, no Xid",
+      "author": "LoCZoP",
       "state": "open",
-      "created_at": "2026-07-21T17:32:02Z",
-      "updated_at": "2026-07-22T10:04:28Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49354",
-      "labels": []
+      "created_at": "2026-07-20T13:31:15Z",
+      "updated_at": "2026-07-23T07:04:14Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49203",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 33099,
+      "title": "[Bug]: vllm Requests stuck indefinitely",
+      "author": "joules-zapata-pfh",
+      "state": "open",
+      "created_at": "2026-01-26T15:59:00Z",
+      "updated_at": "2026-07-23T06:46:46Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/33099",
+      "labels": [
+        "bug",
+        "stale"
+      ]
+    },
+    {
+      "number": 40980,
+      "title": "[Bug]: TP=2 deadlock on dual AMD R9700 (gfx1201/RDNA4) \u2014 GPUs spin at 100%, inference blocked",
+      "author": "kyuz0",
+      "state": "open",
+      "created_at": "2026-04-27T08:01:55Z",
+      "updated_at": "2026-07-23T05:12:49Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40980",
+      "labels": [
+        "bug",
+        "rocm"
+      ]
+    },
+    {
+      "number": 41663,
+      "title": "[Bug]: XPU TP=2 on dual Intel Arc Pro B70 (Battlemage): GP fault + xe BCS engine reset reproduces in intel/vllm:0.17.0-xpu on Ubuntu 24.04 HWE 6.17",
+      "author": "Zumbasam",
+      "state": "open",
+      "created_at": "2026-05-04T20:52:26Z",
+      "updated_at": "2026-07-23T04:23:41Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/41663",
+      "labels": [
+        "bug",
+        "intel-gpu"
+      ]
+    },
+    {
+      "number": 47761,
+      "title": "[Bug]: vllm 0.23.0 and 0.24.0 - Qwen3.6-35B-A3B-FP8 - Fails generating code- \"400 Unterminated string starting at\"",
+      "author": "rnogueira-tech",
+      "state": "open",
+      "created_at": "2026-07-06T16:42:07Z",
+      "updated_at": "2026-07-23T03:13:10Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/47761",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 37736,
+      "title": "[CI Failure]:  Gemma3 OOMs with transformers backend",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-03-21T05:32:29Z",
+      "updated_at": "2026-07-23T02:19:38Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/37736",
+      "labels": [
+        "rocm",
+        "unstale",
+        "ci-failure"
+      ]
+    },
+    {
+      "number": 37982,
+      "title": "[Bug]: chart-helm does not support configuring shared memory (`/dev/shm`)",
+      "author": "utsumi-fj",
+      "state": "open",
+      "created_at": "2026-03-24T08:34:21Z",
+      "updated_at": "2026-07-23T02:19:00Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/37982",
+      "labels": [
+        "bug",
+        "unstale"
+      ]
     },
     {
       "number": 49147,
@@ -29,10 +145,255 @@
       "author": "lengrongfu",
       "state": "open",
       "created_at": "2026-07-20T03:57:50Z",
-      "updated_at": "2026-07-22T09:35:12Z",
+      "updated_at": "2026-07-23T02:17:35Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/49147",
       "labels": [
         "bug"
+      ]
+    },
+    {
+      "number": 39378,
+      "title": "[Bug]: 0.19.0  rocm+7900xtx\uff1a Failed to infer device type",
+      "author": "kittyzero520",
+      "state": "open",
+      "created_at": "2026-04-09T02:22:56Z",
+      "updated_at": "2026-07-23T02:17:27Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/39378",
+      "labels": [
+        "bug",
+        "rocm",
+        "stale"
+      ]
+    },
+    {
+      "number": 40008,
+      "title": "[Bug][ROCm] MI355 + AITER MXFP4 MOE: `Unsupported kernel config for moe heuristic dispatch`",
+      "author": "fxmarty-amd",
+      "state": "open",
+      "created_at": "2026-04-16T11:59:53Z",
+      "updated_at": "2026-07-23T02:16:40Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40008",
+      "labels": [
+        "bug",
+        "rocm",
+        "stale"
+      ]
+    },
+    {
+      "number": 40081,
+      "title": "[Bug]: vLLM fails to start on RDNA 4 (gfx1201) inside containers \u2014 amdsmi, circular import, and torch.cuda.device_count() all broken",
+      "author": "sleeepss",
+      "state": "open",
+      "created_at": "2026-04-17T01:33:54Z",
+      "updated_at": "2026-07-23T02:16:34Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40081",
+      "labels": [
+        "rocm",
+        "stale"
+      ]
+    },
+    {
+      "number": 40345,
+      "title": "[Bug]: MTP draft head TP allgather deadlock under sustained long-context load (GLM-5.1-FP8)",
+      "author": "archit-spec",
+      "state": "open",
+      "created_at": "2026-04-20T10:59:26Z",
+      "updated_at": "2026-07-23T02:16:17Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40345",
+      "labels": [
+        "bug",
+        "stale"
+      ]
+    },
+    {
+      "number": 40421,
+      "title": "[Feature]: [parity with CUDA] PD disagg recipes on vllm",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-21T01:35:46Z",
+      "updated_at": "2026-07-23T02:16:10Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40421",
+      "labels": [
+        "feature request",
+        "rocm",
+        "stale"
+      ]
+    },
+    {
+      "number": 40593,
+      "title": "[Bug][ROCm]: NIXL not available logs when using MoRI connector",
+      "author": "simondanielsson",
+      "state": "open",
+      "created_at": "2026-04-22T08:12:00Z",
+      "updated_at": "2026-07-23T02:15:58Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40593",
+      "labels": [
+        "bug",
+        "rocm",
+        "stale"
+      ]
+    },
+    {
+      "number": 40620,
+      "title": "[RFC]: Unified Device Capability Abstraction for Cross-Platform Feature Detection",
+      "author": "jikunshang",
+      "state": "open",
+      "created_at": "2026-04-22T13:33:57Z",
+      "updated_at": "2026-07-23T02:15:46Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40620",
+      "labels": [
+        "rocm",
+        "RFC",
+        "stale"
+      ]
+    },
+    {
+      "number": 40649,
+      "title": "[Bug]: KeyError on model.layers.N.self_attn.attn during initialize_attn_backend with pipeline_parallel_size=4 (V1 engine + Ray)",
+      "author": "andersonlunz",
+      "state": "open",
+      "created_at": "2026-04-22T20:41:12Z",
+      "updated_at": "2026-07-23T02:15:42Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40649",
+      "labels": [
+        "bug",
+        "stale"
+      ]
+    },
+    {
+      "number": 40716,
+      "title": "[Bug]: The size of tensor a (34) must match the size of tensor b (63) at non-singleton dimension 1",
+      "author": "ir1ka",
+      "state": "open",
+      "created_at": "2026-04-23T16:12:25Z",
+      "updated_at": "2026-07-23T02:15:34Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40716",
+      "labels": [
+        "bug",
+        "stale"
+      ]
+    },
+    {
+      "number": 40755,
+      "title": "[Model Runner V2][Bug]: The _gumbel_sample_kernel exhibits poor performance on H800.",
+      "author": "lio1226",
+      "state": "open",
+      "created_at": "2026-04-24T02:11:33Z",
+      "updated_at": "2026-07-23T02:15:31Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/40755",
+      "labels": [
+        "bug",
+        "stale"
+      ]
+    },
+    {
+      "number": 47292,
+      "title": "[Bug]: RuntimeError: UVA is not available",
+      "author": "lucalauer",
+      "state": "open",
+      "created_at": "2026-07-01T12:07:12Z",
+      "updated_at": "2026-07-23T00:00:05Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/47292",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 49475,
+      "title": "[Bug]: Failed to run RedHatAI/gemma-4-31B-it-speculator.dspark",
+      "author": "shahizat",
+      "state": "open",
+      "created_at": "2026-07-22T17:51:38Z",
+      "updated_at": "2026-07-22T17:51:38Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49475",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 49254,
+      "title": "[Bug]: nvidia/Gemma-4-26B-A4B-NVFP4 model tool parser issue",
+      "author": "prodney-dev",
+      "state": "open",
+      "created_at": "2026-07-20T23:04:35Z",
+      "updated_at": "2026-07-22T17:09:16Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49254",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 46937,
+      "title": "[RFC]: TorchComms DeviceCommunicator for VLLM",
+      "author": "jemitche1",
+      "state": "open",
+      "created_at": "2026-06-28T03:12:25Z",
+      "updated_at": "2026-07-22T16:52:59Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/46937",
+      "labels": [
+        "rocm",
+        "RFC"
+      ]
+    },
+    {
+      "number": 49468,
+      "title": "[Bug]:  Ubuntu 26.04 with an AMD 9070 and ROCM, an error occurs. cannot open shared object file: No such file or directory",
+      "author": "YuanJie2001",
+      "state": "open",
+      "created_at": "2026-07-22T16:11:58Z",
+      "updated_at": "2026-07-22T16:17:25Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49468",
+      "labels": [
+        "bug",
+        "rocm"
+      ]
+    },
+    {
+      "number": 49463,
+      "title": "[Bug]: BatchPrefillWithPagedKVCache failed with error invalid argument",
+      "author": "maxwellVisual",
+      "state": "open",
+      "created_at": "2026-07-22T15:12:16Z",
+      "updated_at": "2026-07-22T15:12:16Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49463",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 49449,
+      "title": "[Bug]: V1 streaming-session rebuild leaves stale prefix-cache block hashes and can produce incorrect output",
+      "author": "yyymk",
+      "state": "open",
+      "created_at": "2026-07-22T11:50:11Z",
+      "updated_at": "2026-07-22T14:03:05Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49449",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 49355,
+      "title": "[Bug]: MTP speculative decoding is broken with pipeline parallelism (PP>1) \u2014 three distinct failures",
+      "author": "jdwillard19",
+      "state": "open",
+      "created_at": "2026-07-21T17:35:36Z",
+      "updated_at": "2026-07-22T11:58:47Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49355",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 49288,
+      "title": "[RFC]: Multimodal Asynchronous Collaborative Architecture Sidecar",
+      "author": "xiaonaiping114",
+      "state": "open",
+      "created_at": "2026-07-21T06:41:41Z",
+      "updated_at": "2026-07-22T11:29:16Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49288",
+      "labels": [
+        "RFC"
       ]
     },
     {
@@ -73,19 +434,6 @@
       ]
     },
     {
-      "number": 49405,
-      "title": "[Bug]: RuntimeError: _moe_C::topk_softmax() expected at most 6 argument(s) but received 7 argument(s). Declaration: _moe_C::topk_softmax(Tensor($0! -> ) topk_weights, Tensor($1! -> ) topk_indices, Tensor($2! -> ) .....",
-      "author": "azhuvath",
-      "state": "open",
-      "created_at": "2026-07-22T04:24:12Z",
-      "updated_at": "2026-07-22T06:50:03Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49405",
-      "labels": [
-        "bug",
-        "intel-gpu"
-      ]
-    },
-    {
       "number": 49197,
       "title": "[Bug]: Beam Search is slower by a factor of 1000",
       "author": "protonicage",
@@ -95,46 +443,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/49197",
       "labels": [
         "bug"
-      ]
-    },
-    {
-      "number": 40980,
-      "title": "[Bug]: TP=2 deadlock on dual AMD R9700 (gfx1201/RDNA4) \u2014 GPUs spin at 100%, inference blocked",
-      "author": "kyuz0",
-      "state": "open",
-      "created_at": "2026-04-27T08:01:55Z",
-      "updated_at": "2026-07-22T05:59:24Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/40980",
-      "labels": [
-        "bug",
-        "rocm"
-      ]
-    },
-    {
-      "number": 37736,
-      "title": "[CI Failure]:  Gemma3 OOMs with transformers backend",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2026-03-21T05:32:29Z",
-      "updated_at": "2026-07-22T03:42:52Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/37736",
-      "labels": [
-        "rocm",
-        "stale",
-        "ci-failure"
-      ]
-    },
-    {
-      "number": 41469,
-      "title": "[Bug]: AttributeError: '_C' object has no attribute 'awq_dequantize' on Intel Arc B580 XPU (AWQ inference fails)",
-      "author": "noverd",
-      "state": "open",
-      "created_at": "2026-05-01T15:11:24Z",
-      "updated_at": "2026-07-22T03:33:12Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/41469",
-      "labels": [
-        "bug",
-        "intel-gpu"
       ]
     },
     {
@@ -148,19 +456,6 @@
       "labels": [
         "installation",
         "intel-gpu"
-      ]
-    },
-    {
-      "number": 49141,
-      "title": "[Bug]: Fused_moe dimension mismatch for Qwen mxfp4 model on ROCM",
-      "author": "hnhyzz",
-      "state": "open",
-      "created_at": "2026-07-20T03:15:37Z",
-      "updated_at": "2026-07-22T02:19:53Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49141",
-      "labels": [
-        "bug",
-        "rocm"
       ]
     },
     {
@@ -229,18 +524,6 @@
       ]
     },
     {
-      "number": 48491,
-      "title": "[Bug]: cuBLAS NVFP4 GEMM silently rejects M < 128, impacts speech model decode",
-      "author": "1morello",
-      "state": "open",
-      "created_at": "2026-07-13T13:04:36Z",
-      "updated_at": "2026-07-21T23:46:49Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/48491",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 49368,
       "title": "[Bug]: GLM-4.1V fails to start at tensor-parallel size 32 \u2014 vision tower head-count mismatch",
       "author": "wagnerpatriota",
@@ -248,30 +531,6 @@
       "created_at": "2026-07-21T20:37:00Z",
       "updated_at": "2026-07-21T20:37:00Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/49368",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 49122,
-      "title": "[Bug]: AriaForConditionalGeneration produces incoherent garbage output at tensor-parallel size > 1 (reproduces on CPU, no GPU/accelerator needed)",
-      "author": "wagnerpatriota",
-      "state": "open",
-      "created_at": "2026-07-19T19:22:41Z",
-      "updated_at": "2026-07-21T19:42:00Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49122",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 49355,
-      "title": "[Bug]: MTP speculative decoding is broken with pipeline parallelism (PP>1) \u2014 three distinct failures",
-      "author": "jdwillard19",
-      "state": "open",
-      "created_at": "2026-07-21T17:35:36Z",
-      "updated_at": "2026-07-21T18:08:16Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49355",
       "labels": [
         "bug"
       ]
@@ -289,30 +548,6 @@
       ]
     },
     {
-      "number": 49254,
-      "title": "[Bug]: nvidia/Gemma-4-26B-A4B-NVFP4 model tool parser issue",
-      "author": "prodney-dev",
-      "state": "open",
-      "created_at": "2026-07-20T23:04:35Z",
-      "updated_at": "2026-07-21T12:52:45Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49254",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 49290,
-      "title": "[Bug]: [kernel] MRotaryEmbedding Triton kernel hardcodes Neox-style rotation, producing wrong results for GPT-J style models (like GLM-OCR).",
-      "author": "JaYung136",
-      "state": "open",
-      "created_at": "2026-07-21T06:51:02Z",
-      "updated_at": "2026-07-21T11:45:16Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49290",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 48312,
       "title": "[RFC] Weight Reload Correctness for RL",
       "author": "aoshen02",
@@ -326,117 +561,6 @@
       ]
     },
     {
-      "number": 49319,
-      "title": "[Bug]: logprob_token_ids: [] silently bypasses validation and is discarded, on both Chat Completions and Completions",
-      "author": "mahadrehmann",
-      "state": "open",
-      "created_at": "2026-07-21T10:10:45Z",
-      "updated_at": "2026-07-21T10:11:12Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49319",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 49316,
-      "title": "[Bug]: [Parser] kimi_k2 streaming tool-call args skip schema type coercion applied in non-streaming (silent type mismatch)",
-      "author": "muhammadfawaz1",
-      "state": "open",
-      "created_at": "2026-07-21T09:56:46Z",
-      "updated_at": "2026-07-21T09:57:54Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49316",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 49288,
-      "title": "[RFC]: Multimodal Asynchronous Collaborative Architecture Sidecar",
-      "author": "xiaonaiping114",
-      "state": "open",
-      "created_at": "2026-07-21T06:41:41Z",
-      "updated_at": "2026-07-21T09:22:52Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49288",
-      "labels": [
-        "RFC"
-      ]
-    },
-    {
-      "number": 49203,
-      "title": "[Bug]: Qwen3.6-35B-A3B (GDN hybrid) intermittently livelocks under load on GB10/SM121 \u2014 GPU 96% util, 0 tok/s, no crash, no Xid",
-      "author": "LoCZoP",
-      "state": "open",
-      "created_at": "2026-07-20T13:31:15Z",
-      "updated_at": "2026-07-21T09:16:46Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49203",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 49238,
-      "title": "[Bug]: Decode instance segfaults on NIXL `loadRemoteMD` after prefill pod restarts in P/D disaggregation",
-      "author": "roytman",
-      "state": "open",
-      "created_at": "2026-07-20T20:42:22Z",
-      "updated_at": "2026-07-21T06:58:02Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49238",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 37979,
-      "title": "[RFC]: Intel Quantization Support Roadmap (H1 2026)",
-      "author": "yiliu30",
-      "state": "open",
-      "created_at": "2026-03-24T08:14:22Z",
-      "updated_at": "2026-07-21T06:37:52Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/37979",
-      "labels": [
-        "RFC"
-      ]
-    },
-    {
-      "number": 38738,
-      "title": "[Bug]: Anthropic Messages API + Mistral model: \"Invalid assistant message\" on multi-turn tool calling",
-      "author": "aamir-aala",
-      "state": "open",
-      "created_at": "2026-04-01T16:28:56Z",
-      "updated_at": "2026-07-21T02:17:43Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/38738",
-      "labels": [
-        "bug",
-        "stale"
-      ]
-    },
-    {
-      "number": 38976,
-      "title": "[Bug]:TimeoutError: RPC call to sample_tokens timed out. when pp is on under xpu env",
-      "author": "zwh20081",
-      "state": "open",
-      "created_at": "2026-04-04T10:25:39Z",
-      "updated_at": "2026-07-21T02:17:24Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/38976",
-      "labels": [
-        "bug",
-        "unstale"
-      ]
-    },
-    {
-      "number": 40302,
-      "title": "[Bug]: Engine crashes with AssertionError when prompt exceeds auto-fitted max_model_len (admission check missing)",
-      "author": "key4ng",
-      "state": "open",
-      "created_at": "2026-04-19T18:04:10Z",
-      "updated_at": "2026-07-21T02:15:57Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/40302",
-      "labels": [
-        "bug",
-        "stale"
-      ]
-    },
-    {
       "number": 40354,
       "title": "[Bug]: Ampere sm_86 can't load W4A16 quant at TP=2 when a layer's output dim halves to <64 (Marlin min_thread_n block)",
       "author": "noonghunna",
@@ -447,44 +571,6 @@
       "labels": [
         "bug",
         "stale"
-      ]
-    },
-    {
-      "number": 40381,
-      "title": "[Bug]: Buffer overflow when allocating memory error on Qwen3.5-122B-A10B-GPTQ-Int4 and NVFP4",
-      "author": "ECMGit",
-      "state": "open",
-      "created_at": "2026-04-20T16:22:47Z",
-      "updated_at": "2026-07-21T02:15:37Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/40381",
-      "labels": [
-        "bug",
-        "stale"
-      ]
-    },
-    {
-      "number": 40435,
-      "title": "[Bug]: v0.19.1 CUDA illegal memory access with --kv-cache-dtype fp8 + EP + EAGLE3 under concurrent load (Kimi-K2.5) - distinct from #40259",
-      "author": "BenWongCityuCS",
-      "state": "open",
-      "created_at": "2026-04-21T05:51:48Z",
-      "updated_at": "2026-07-21T02:15:27Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/40435",
-      "labels": [
-        "bug",
-        "stale"
-      ]
-    },
-    {
-      "number": 47761,
-      "title": "[Bug]: vllm 0.23.0 and 0.24.0 - Qwen3.6-35B-A3B-FP8 - Fails generating code- \"400 Unterminated string starting at\"",
-      "author": "rnogueira-tech",
-      "state": "open",
-      "created_at": "2026-07-06T16:42:07Z",
-      "updated_at": "2026-07-21T00:57:01Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/47761",
-      "labels": [
-        "bug"
       ]
     },
     {
@@ -526,31 +612,6 @@
       ]
     },
     {
-      "number": 49127,
-      "title": "[Bug]: Native KV offloading with prefix caching changes tool visibility after a long shared-prefix request on Qwen3.6",
-      "author": "raoulprevost",
-      "state": "open",
-      "created_at": "2026-07-19T23:31:51Z",
-      "updated_at": "2026-07-20T07:56:45Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49127",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 41663,
-      "title": "[Bug]: XPU TP=2 on dual Intel Arc Pro B70 (Battlemage): GP fault + xe BCS engine reset reproduces in intel/vllm:0.17.0-xpu on Ubuntu 24.04 HWE 6.17",
-      "author": "Zumbasam",
-      "state": "open",
-      "created_at": "2026-05-04T20:52:26Z",
-      "updated_at": "2026-07-20T02:11:13Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/41663",
-      "labels": [
-        "bug",
-        "intel-gpu"
-      ]
-    },
-    {
       "number": 48680,
       "title": "[Bug]: `--enable-sleep-mode` OOMs loading an NVFP4 (modelopt) 30B on 16GB SM120 cards where the identical model loads fine without it \u2014 cumem MemPool overhead, not resolved by raising max_split_size_mb",
       "author": "JasonVranek",
@@ -559,91 +620,6 @@
       "updated_at": "2026-07-19T23:21:34Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/48680",
       "labels": []
-    },
-    {
-      "number": 49068,
-      "title": "[Bug]: verbose_json returns duration as a string instead of a number",
-      "author": "wskr00",
-      "state": "open",
-      "created_at": "2026-07-19T03:49:20Z",
-      "updated_at": "2026-07-19T17:31:42Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49068",
-      "labels": [
-        "bug",
-        "rocm"
-      ]
-    },
-    {
-      "number": 49106,
-      "title": "[Bug]: False positive warning \"Unexpected gate/up projection names\" for non-gated MoE (Nemotron 3 Ultra / Nemotron H)",
-      "author": "passtoor-agi",
-      "state": "open",
-      "created_at": "2026-07-19T15:47:22Z",
-      "updated_at": "2026-07-19T15:47:53Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49106",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 40756,
-      "title": "[Bug]: MTP speculative decoding crash with illegal memory access on long sequences (Qwen3.6-27B-FP8, v0.19.1)",
-      "author": "SongXiaoMao",
-      "state": "open",
-      "created_at": "2026-04-24T02:28:03Z",
-      "updated_at": "2026-07-19T15:43:52Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/40756",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 48898,
-      "title": "[Bug]: NVFP4 garbage output under torch.compile when per-rank K is not 32-aligned (TP8 on SM120): padded block-scale column reads stale memory; eager/Marlin/aligned-TP correct",
-      "author": "jszzr",
-      "state": "open",
-      "created_at": "2026-07-17T01:06:13Z",
-      "updated_at": "2026-07-19T13:44:55Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/48898",
-      "labels": []
-    },
-    {
-      "number": 33689,
-      "title": "[RFC]: KV Offloading Roadmap",
-      "author": "orozery",
-      "state": "open",
-      "created_at": "2026-02-03T11:22:10Z",
-      "updated_at": "2026-07-19T05:26:36Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/33689",
-      "labels": [
-        "RFC",
-        "keep-open"
-      ]
-    },
-    {
-      "number": 40153,
-      "title": "[Bug]: GPT-OSS-20B on RTX PRO 6000 (SM120) falls back to TRITON_ATTN + Marlin; forcing FLASHINFER fails with sink setting not supported",
-      "author": "dhayanesh",
-      "state": "open",
-      "created_at": "2026-04-17T14:19:19Z",
-      "updated_at": "2026-07-19T02:16:20Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/40153",
-      "labels": [
-        "bug",
-        "stale"
-      ]
-    },
-    {
-      "number": 42770,
-      "title": "[RFC]: Changes in vLLM Model Development",
-      "author": "WoosukKwon",
-      "state": "open",
-      "created_at": "2026-05-15T19:17:56Z",
-      "updated_at": "2026-07-18T10:06:45Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/42770",
-      "labels": [
-        "RFC"
-      ]
     }
   ]
 }
