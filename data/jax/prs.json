@@ -1,6 +1,48 @@
 {
-  "collected_at": "2026-07-23T10:09:05Z",
+  "collected_at": "2026-07-24T10:04:26Z",
   "prs": [
+    {
+      "number": 39420,
+      "title": "[ROCm] Switch to use mi350 rbe pool in jax",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T09:04:46Z",
+      "updated_at": "2026-07-24T09:04:46Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39420",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 39419,
+      "title": "[ROCm] Fix invalid parallel local jobs execution",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T07:24:39Z",
+      "updated_at": "2026-07-24T08:00:49Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39419",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39400,
+      "title": "[ROCm] Reduce RBE build parallelism for rocm bazel jobs",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-23T14:26:02Z",
+      "updated_at": "2026-07-23T18:13:14Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39400",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 39350,
       "title": "[triton] Fixed a few bugs in the ROCm implementation of `get_arch_details`",
@@ -535,21 +577,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/38142",
       "labels": [
         "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38065,
-      "title": "[ROCm] Skip complex-GEMM-failing GPU test suites in ROCm CI",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-29T16:04:35Z",
-      "updated_at": "2026-05-29T22:37:13Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38065",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
       ],
       "draft": false
     },

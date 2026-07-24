@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-07-23T10:09:35Z",
+  "collected_at": "2026-07-24T10:04:51Z",
   "prs": [
+    {
+      "number": 11028,
+      "title": "[AMD] TheRock support",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T20:59:35Z",
+      "updated_at": "2026-07-23T20:59:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11028",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 10906,
       "title": " [AMD] Restrict BarrierOpConversion to CDNA to avoid ROCm numeric drift on RDNA",
@@ -8,8 +20,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-16T14:44:45Z",
-      "updated_at": "2026-07-23T08:25:54Z",
+      "updated_at": "2026-07-23T16:49:40Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10906",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10878,
+      "title": "[AMD] Add RDNA4m target",
+      "author": "ptrojahn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T10:54:20Z",
+      "updated_at": "2026-07-23T15:14:08Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10878",
       "labels": [],
       "draft": true
     },
@@ -60,18 +84,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10725",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10878,
-      "title": "[AMD] Add RDNA4m target",
-      "author": "ptrojahn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T10:54:20Z",
-      "updated_at": "2026-07-22T16:07:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10878",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10813,
@@ -708,18 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/8702",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 9562,
-      "title": "Add maxnreg support for ROCm/AMD backend",
-      "author": "fsx950223",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-25T03:43:32Z",
-      "updated_at": "2026-06-17T15:29:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9562",
-      "labels": [],
-      "draft": false
     }
   ]
 }

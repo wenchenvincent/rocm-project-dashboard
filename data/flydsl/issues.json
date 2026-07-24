@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-23T10:10:05Z",
+  "collected_at": "2026-07-24T10:05:18Z",
   "issues": [
+    {
+      "number": 898,
+      "title": "Nested add_offset fusion merges runtime+const offsets, breaking ds_read immediate folding and causing spills",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "created_at": "2026-07-24T09:33:15Z",
+      "updated_at": "2026-07-24T09:33:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/898",
+      "labels": []
+    },
     {
       "number": 749,
       "title": "[RFC] FlyDSL kernels in downstream libraries",
@@ -292,18 +302,6 @@
       "labels": []
     },
     {
-      "number": 721,
-      "title": "[Feature]:  Upgrade Flydsl to version 0.2.2 (with type closure) in Aiter.",
-      "author": "xudoyuan",
-      "state": "open",
-      "created_at": "2026-06-23T03:48:36Z",
-      "updated_at": "2026-06-23T03:48:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/721",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
-    },
-    {
       "number": 720,
       "title": "minimax M3 moe support",
       "author": "Bernard-Liu",
@@ -331,18 +329,6 @@
       "created_at": "2026-06-23T03:04:55Z",
       "updated_at": "2026-06-23T03:04:56Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/717",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
-    },
-    {
-      "number": 698,
-      "title": "[Feature]: fp8 flash attention",
-      "author": "coderfeli",
-      "state": "open",
-      "created_at": "2026-06-16T14:34:45Z",
-      "updated_at": "2026-06-17T12:04:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/698",
       "labels": [
         "FlyDSL/Customization"
       ]

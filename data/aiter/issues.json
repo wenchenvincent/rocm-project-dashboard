@@ -1,6 +1,122 @@
 {
-  "collected_at": "2026-07-23T10:09:52Z",
+  "collected_at": "2026-07-24T10:05:07Z",
   "issues": [
+    {
+      "number": 4323,
+      "title": "[gfx950][A8W8 B-preshuffle GEMM] Triton routes introduced by #4202 cause GPU memory faults in SGLang on DeepSeek-V3.2 and DeepSeek-V4 Pro",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-07-21T15:05:54Z",
+      "updated_at": "2026-07-24T09:18:34Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4323",
+      "labels": []
+    },
+    {
+      "number": 4364,
+      "title": "[MLA] qh16 fp8 sparse decode run-to-run nondeterministic (split-K reduce) \u2014 \u00b11-2 NIAH needle",
+      "author": "MohitAMD",
+      "state": "open",
+      "created_at": "2026-07-24T01:01:36Z",
+      "updated_at": "2026-07-24T01:26:37Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4364",
+      "labels": []
+    },
+    {
+      "number": 4363,
+      "title": "[MLA][gfx942] Native qh64 fp8 persistent decode kernel GPU-faults at page_size=1 (block_size=1)",
+      "author": "MohitAMD",
+      "state": "open",
+      "created_at": "2026-07-24T01:01:26Z",
+      "updated_at": "2026-07-24T01:01:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4363",
+      "labels": []
+    },
+    {
+      "number": 2826,
+      "title": "Increase vLLM downstream test coverage",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-04-21T05:27:35Z",
+      "updated_at": "2026-07-23T18:38:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2826",
+      "labels": [
+        "enhancement",
+        "frameworks-devops",
+        "ci:vllm"
+      ]
+    },
+    {
+      "number": 2751,
+      "title": "Increase SGLang downstream test coverage in Aiter CI and make Aiter upgrades smoother in the SGLang repo.",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-04-16T05:15:49Z",
+      "updated_at": "2026-07-23T18:38:49Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2751",
+      "labels": [
+        "enhancement",
+        "frameworks-devops",
+        "ci:sglang"
+      ]
+    },
+    {
+      "number": 2102,
+      "title": "[Feature]: Add benchmark tests to detect performance regressions in Aiter releases",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-02-25T02:38:26Z",
+      "updated_at": "2026-07-23T18:38:31Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2102",
+      "labels": [
+        "frameworks-devops"
+      ]
+    },
+    {
+      "number": 1332,
+      "title": "module_fmha_v3_fwd/blob/asm_fmha_fwd_v3_gfx942.cpp:141 fail to call hipModuleLaunchKernel",
+      "author": "jinz2014",
+      "state": "open",
+      "created_at": "2025-11-04T21:52:07Z",
+      "updated_at": "2026-07-23T18:37:33Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/1332",
+      "labels": []
+    },
+    {
+      "number": 3631,
+      "title": "CI: add FFM smoke test coverage for aiter",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-06-09T09:28:11Z",
+      "updated_at": "2026-07-23T18:36:29Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3631",
+      "labels": [
+        "frameworks-devops"
+      ]
+    },
+    {
+      "number": 4356,
+      "title": "[Feature]:  Make fused_qk_norm_rope_cache_pts_quant_shuffle stride-aware for packed KV cache",
+      "author": "stefankoncarevic",
+      "state": "open",
+      "created_at": "2026-07-23T15:22:53Z",
+      "updated_at": "2026-07-23T15:23:17Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4356",
+      "labels": [
+        "ci:vllm"
+      ]
+    },
+    {
+      "number": 4325,
+      "title": "[Issue]: [FlyDSL][MoE][VLLM] moe_gemm_2stage: `fx.ptrtoint` on `!fly.memref` fails to build on gfx9500(MI355)",
+      "author": "stefankoncarevic",
+      "state": "open",
+      "created_at": "2026-07-21T15:41:28Z",
+      "updated_at": "2026-07-23T12:07:36Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4325",
+      "labels": [
+        "ci:vllm"
+      ]
+    },
     {
       "number": 4350,
       "title": "mla_decode_fwd (ASM sparse-MLA decode) returns NaN nondeterministically with num_kv_splits=16",
@@ -9,16 +125,6 @@
       "created_at": "2026-07-23T09:14:16Z",
       "updated_at": "2026-07-23T09:30:32Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4350",
-      "labels": []
-    },
-    {
-      "number": 4323,
-      "title": "[gfx950] PR #4202 Triton decode-M routing breaks DeepSeek-V3.2 and DeepSeek-V4 Pro",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-07-21T15:05:54Z",
-      "updated_at": "2026-07-23T08:50:49Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4323",
       "labels": []
     },
     {
@@ -40,18 +146,6 @@
       "updated_at": "2026-07-21T22:28:59Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4329",
       "labels": []
-    },
-    {
-      "number": 4325,
-      "title": "[Issue]: [FlyDSL][MoE][VLLM] moe_gemm_2stage: `fx.ptrtoint` on `!fly.memref` fails to build on gfx9500(MI355)",
-      "author": "stefankoncarevic",
-      "state": "open",
-      "created_at": "2026-07-21T15:41:28Z",
-      "updated_at": "2026-07-21T15:41:56Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4325",
-      "labels": [
-        "ci:vllm"
-      ]
     },
     {
       "number": 4318,
@@ -292,18 +386,6 @@
       "updated_at": "2026-06-29T23:05:04Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3885",
       "labels": []
-    },
-    {
-      "number": 3631,
-      "title": "CI: add FFM smoke test coverage for aiter",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-06-09T09:28:11Z",
-      "updated_at": "2026-06-29T15:08:36Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3631",
-      "labels": [
-        "frameworks-devops"
-      ]
     },
     {
       "number": 3995,
@@ -591,20 +673,6 @@
       "labels": []
     },
     {
-      "number": 2751,
-      "title": "Increase SGLang downstream test coverage in Aiter CI and make Aiter upgrades smoother in the SGLang repo.",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-04-16T05:15:49Z",
-      "updated_at": "2026-05-27T08:01:23Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2751",
-      "labels": [
-        "enhancement",
-        "frameworks-devops",
-        "ci:sglang"
-      ]
-    },
-    {
       "number": 2516,
       "title": "Triton RMSNorm 5-10x slower than FlashInfer at batch<=1024 on MI355X",
       "author": "sunway513",
@@ -791,20 +859,6 @@
       "updated_at": "2026-04-29T01:11:22Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2857",
       "labels": []
-    },
-    {
-      "number": 2826,
-      "title": "Increase vLLM downstream test coverage",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-04-21T05:27:35Z",
-      "updated_at": "2026-04-28T09:39:09Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2826",
-      "labels": [
-        "enhancement",
-        "frameworks-devops",
-        "ci:vllm"
-      ]
     },
     {
       "number": 2882,
@@ -1587,18 +1641,6 @@
       "labels": []
     },
     {
-      "number": 2102,
-      "title": "[Feature]: Add benchmark tests to detect performance regressions in Aiter releases",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-02-25T02:38:26Z",
-      "updated_at": "2026-02-25T08:19:10Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2102",
-      "labels": [
-        "frameworks-devops"
-      ]
-    },
-    {
       "number": 2093,
       "title": "[Feature]: replace CK moe sorting with opus",
       "author": "carlushuang",
@@ -1778,16 +1820,6 @@
       "created_at": "2026-01-12T10:53:43Z",
       "updated_at": "2026-01-12T15:17:54Z",
       "html_url": "https://github.com/ROCm/aiter/issues/1819",
-      "labels": []
-    },
-    {
-      "number": 1332,
-      "title": "module_fmha_v3_fwd/blob/asm_fmha_fwd_v3_gfx942.cpp:141 fail to call hipModuleLaunchKernel",
-      "author": "jinz2014",
-      "state": "open",
-      "created_at": "2025-11-04T21:52:07Z",
-      "updated_at": "2026-01-06T08:12:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1332",
       "labels": []
     },
     {

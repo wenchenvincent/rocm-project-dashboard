@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-23T10:10:01Z",
+  "collected_at": "2026-07-24T10:05:15Z",
   "issues": [
+    {
+      "number": 497,
+      "title": "Pensando Ionic AI NIC rejects REMOTE_ATOMIC in session/KV MR registration (errno 22 EINVAL) - breaks MoRIIO cross-node KV transfer on gfx950/MI355X",
+      "author": "MIR-AMD",
+      "state": "open",
+      "created_at": "2026-07-24T02:43:39Z",
+      "updated_at": "2026-07-24T02:43:39Z",
+      "html_url": "https://github.com/ROCm/mori/issues/497",
+      "labels": []
+    },
     {
       "number": 475,
       "title": "InterNodeV1 combine returns silently-wrong results cross-node (Pollara / ionic), plus several latent bugs",
