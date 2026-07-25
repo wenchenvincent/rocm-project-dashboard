@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-07-24T10:05:14Z",
+  "collected_at": "2026-07-25T09:25:06Z",
   "prs": [
     {
-      "number": 499,
-      "title": "feat(tools): make Ionic QoS setup configurable",
-      "author": "QizhouZhang97",
+      "number": 501,
+      "title": "feat(cco): honor reqs.sdmaQueueCount, clamp to HW max, guard out-of-range queueId",
+      "author": "jhchouuu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-24T08:02:19Z",
-      "updated_at": "2026-07-24T09:57:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/499",
+      "created_at": "2026-07-24T16:27:57Z",
+      "updated_at": "2026-07-24T16:27:57Z",
+      "html_url": "https://github.com/ROCm/mori/pull/501",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 500,
+      "title": "perf(EPv2): update EPv2 combine tune config",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T13:03:52Z",
+      "updated_at": "2026-07-24T13:55:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/500",
       "labels": [],
       "draft": false
     },
@@ -34,18 +46,6 @@
       "created_at": "2026-07-01T03:49:39Z",
       "updated_at": "2026-07-23T10:07:57Z",
       "html_url": "https://github.com/ROCm/mori/pull/441",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 492,
-      "title": "feat(cco): register external VMM allocations (e.g. torch.symm_mem) into the flat LSA space",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T03:01:13Z",
-      "updated_at": "2026-07-23T08:18:39Z",
-      "html_url": "https://github.com/ROCm/mori/pull/492",
       "labels": [],
       "draft": false
     },
@@ -202,6 +202,30 @@
       "created_at": "2025-10-23T06:18:50Z",
       "updated_at": "2026-01-08T09:18:21Z",
       "html_url": "https://github.com/ROCm/mori/pull/92",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 492,
+      "title": "feat(cco): register external VMM allocations (e.g. torch.symm_mem) into the flat LSA space",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-21T03:01:13Z",
+      "updated_at": "2026-07-24T14:10:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/492",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 499,
+      "title": "feat(tools): make Ionic QoS setup configurable",
+      "author": "QizhouZhang97",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-24T08:02:19Z",
+      "updated_at": "2026-07-24T12:13:21Z",
+      "html_url": "https://github.com/ROCm/mori/pull/499",
       "labels": [],
       "draft": false
     },
@@ -1186,30 +1210,6 @@
       "created_at": "2026-07-10T00:01:41Z",
       "updated_at": "2026-07-14T02:08:46Z",
       "html_url": "https://github.com/ROCm/mori/pull/461",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 462,
-      "title": "ci: recover podman state before internode build on MI355X_AINIC",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-10T03:19:27Z",
-      "updated_at": "2026-07-10T06:10:38Z",
-      "html_url": "https://github.com/ROCm/mori/pull/462",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 449,
-      "title": "feat(cco): merge dev/cco \u2014 Collective Communication Object (CCO) module",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-06T05:22:15Z",
-      "updated_at": "2026-07-09T02:16:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/449",
       "labels": [],
       "draft": false
     }

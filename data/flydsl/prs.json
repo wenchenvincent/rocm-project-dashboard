@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-24T10:05:18Z",
+  "collected_at": "2026-07-25T09:25:08Z",
   "prs": [
     {
       "number": 874,
@@ -8,8 +8,58 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-20T10:29:54Z",
-      "updated_at": "2026-07-24T10:02:34Z",
+      "updated_at": "2026-07-25T03:14:43Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/874",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 902,
+      "title": "[Refactor] Align RMSNorm with current FlyDSL kernel style",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T20:09:28Z",
+      "updated_at": "2026-07-25T00:53:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/902",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 844,
+      "title": "Add forward LSE output to FlyDSL flash attention kernels",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T04:44:33Z",
+      "updated_at": "2026-07-24T21:26:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/844",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 876,
+      "title": "MegaMoEV1 on Gfx950",
+      "author": "GwilliamHu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T02:44:12Z",
+      "updated_at": "2026-07-24T20:10:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 901,
+      "title": "Add Optimized MoE Routing Path",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T19:56:02Z",
+      "updated_at": "2026-07-24T20:01:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
       "labels": [],
       "draft": false
     },
@@ -20,20 +70,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-01T07:15:47Z",
-      "updated_at": "2026-07-24T09:42:34Z",
+      "updated_at": "2026-07-25T00:53:05Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
       "labels": [],
       "draft": false
     },
     {
-      "number": 897,
-      "title": "[CI] Make MLIR cache fallback reliable",
-      "author": "Phil-amd",
+      "number": 899,
+      "title": "[fix] Autotuner: propagate the tuned function's return value",
+      "author": "aryaman-gupta",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-24T09:03:37Z",
-      "updated_at": "2026-07-24T09:12:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/897",
+      "created_at": "2026-07-24T14:51:25Z",
+      "updated_at": "2026-07-24T15:07:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/899",
       "labels": [],
       "draft": false
     },
@@ -44,20 +94,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-23T16:20:46Z",
-      "updated_at": "2026-07-24T08:06:51Z",
+      "updated_at": "2026-07-24T10:06:17Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/894",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 892,
-      "title": "Refactor mxmoe",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T10:27:56Z",
-      "updated_at": "2026-07-24T07:39:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/892",
       "labels": [],
       "draft": false
     },
@@ -86,18 +124,6 @@
       "draft": false
     },
     {
-      "number": 844,
-      "title": "Add forward LSE output to FlyDSL flash attention kernels",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T04:44:33Z",
-      "updated_at": "2026-07-23T14:52:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/844",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 886,
       "title": "Add optional forward LSE output",
       "author": "AakarshAMD",
@@ -119,20 +145,6 @@
       "updated_at": "2026-07-23T10:12:30Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/891",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 876,
-      "title": "MegaMoEV1 on Gfx950",
-      "author": "GwilliamHu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T02:44:12Z",
-      "updated_at": "2026-07-23T09:45:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
-      "labels": [
-        "multi-gpu"
-      ],
       "draft": false
     },
     {
@@ -588,6 +600,30 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 892,
+      "title": "Refactor mxmoe",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-23T10:27:56Z",
+      "updated_at": "2026-07-25T00:52:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/892",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 897,
+      "title": "[CI] Make MLIR cache fallback reliable",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-24T09:03:37Z",
+      "updated_at": "2026-07-24T11:05:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/897",
       "labels": [],
       "draft": false
     },
@@ -1516,30 +1552,6 @@
       "created_at": "2026-06-26T02:15:45Z",
       "updated_at": "2026-06-30T06:07:47Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/750",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 765,
-      "title": "Rlcr/moe fxcopy impl",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-29T13:36:26Z",
-      "updated_at": "2026-06-29T13:37:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/765",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 762,
-      "title": "Add common VectorType alias",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-29T07:05:41Z",
-      "updated_at": "2026-06-29T11:46:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/762",
       "labels": [],
       "draft": false
     }

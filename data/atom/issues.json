@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-24T10:05:12Z",
+  "collected_at": "2026-07-25T09:25:04Z",
   "issues": [
+    {
+      "number": 1696,
+      "title": "[Feature]: Structure Output support",
+      "author": "jiejingzhangamd",
+      "state": "open",
+      "created_at": "2026-07-24T23:21:57Z",
+      "updated_at": "2026-07-24T23:21:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1696",
+      "labels": []
+    },
     {
       "number": 1687,
       "title": "[Perf Regression] 1 config(s) regressed @ 0e1af291",

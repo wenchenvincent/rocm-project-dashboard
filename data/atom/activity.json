@@ -1,31 +1,37 @@
 {
-  "collected_at": "2026-07-24T10:07:11Z",
+  "collected_at": "2026-07-25T09:26:39Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 59,
-      "merged": 55,
-      "closed": 6
+      "opened": 58,
+      "merged": 48,
+      "closed": 8
     },
     "last_week": {
-      "opened": 68,
-      "merged": 47,
-      "closed": 14
+      "opened": 66,
+      "merged": 48,
+      "closed": 12
     },
     "median_time_to_merge_hours": 15.2,
-    "merge_count": 108,
+    "merge_count": 102,
     "stale_prs": 20
   },
   "contributors": {
-    "active_this_week": 36,
-    "total_contributors": 79,
+    "active_this_week": 37,
+    "total_contributors": 78,
     "top_contributors": [
       {
         "author": "PerryZhang01",
         "prs_submitted": 13,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 7
+      },
+      {
+        "author": "ZhangLirong-amd",
+        "prs_submitted": 12,
+        "prs_merged": 8,
+        "commits": 17
       },
       {
         "author": "carlushuang",
@@ -49,13 +55,7 @@
         "author": "junyyang-amd",
         "prs_submitted": 10,
         "prs_merged": 9,
-        "commits": 21
-      },
-      {
-        "author": "ZhangLirong-amd",
-        "prs_submitted": 10,
-        "prs_merged": 8,
-        "commits": 18
+        "commits": 20
       },
       {
         "author": "ChuanLi1101",
@@ -71,7 +71,7 @@
       },
       {
         "author": "yhl-amd",
-        "prs_submitted": 7,
+        "prs_submitted": 8,
         "prs_merged": 2,
         "commits": 11
       },
@@ -79,21 +79,21 @@
         "author": "ganyi1996ppo",
         "prs_submitted": 7,
         "prs_merged": 1,
-        "commits": 2
+        "commits": 1
       }
     ],
     "bus_factor": 6
   },
   "issue_health": {
-    "total_open": 64,
-    "opened_this_week": 2,
+    "total_open": 65,
+    "opened_this_week": 3,
     "closed_this_week": 2,
     "unanswered": 20
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 19.7,
+    "days_since_last": 20.7,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

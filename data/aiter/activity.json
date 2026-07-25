@@ -1,24 +1,24 @@
 {
-  "collected_at": "2026-07-24T10:06:36Z",
+  "collected_at": "2026-07-25T09:26:07Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 82,
-      "merged": 48,
-      "closed": 19
+      "opened": 85,
+      "merged": 49,
+      "closed": 22
     },
     "last_week": {
-      "opened": 93,
-      "merged": 59,
-      "closed": 24
+      "opened": 89,
+      "merged": 58,
+      "closed": 21
     },
-    "median_time_to_merge_hours": 45.4,
-    "merge_count": 117,
-    "stale_prs": 81
+    "median_time_to_merge_hours": 48.1,
+    "merge_count": 118,
+    "stale_prs": 82
   },
   "contributors": {
-    "active_this_week": 110,
+    "active_this_week": 111,
     "total_contributors": 221,
     "top_contributors": [
       {
@@ -29,27 +29,27 @@
       },
       {
         "author": "gyohuangxin",
-        "prs_submitted": 13,
+        "prs_submitted": 12,
         "prs_merged": 1,
-        "commits": 12
+        "commits": 13
       },
       {
         "author": "carlushuang",
         "prs_submitted": 12,
         "prs_merged": 3,
-        "commits": 6
-      },
-      {
-        "author": "yzhou103",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 14
+        "commits": 5
       },
       {
         "author": "k50112113",
         "prs_submitted": 8,
         "prs_merged": 1,
         "commits": 17
+      },
+      {
+        "author": "yzhou103",
+        "prs_submitted": 7,
+        "prs_merged": 3,
+        "commits": 14
       },
       {
         "author": "ganyi1996ppo",
@@ -82,18 +82,18 @@
         "commits": 0
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 13
   },
   "issue_health": {
-    "total_open": 234,
+    "total_open": 233,
     "opened_this_week": 15,
-    "closed_this_week": 1,
+    "closed_this_week": 2,
     "unanswered": 92
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 5.3,
+    "days_since_last": 6.3,
     "avg_interval_days": 5.4,
     "total_releases": 5,
     "latest_tag": "v0.1.18"

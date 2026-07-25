@@ -1,6 +1,106 @@
 {
-  "collected_at": "2026-07-24T10:05:10Z",
+  "collected_at": "2026-07-25T09:25:03Z",
   "prs": [
+    {
+      "number": 1585,
+      "title": "[Sglang+atom]Update ATOM SGLang plugin for SGLang 0.5.15.post1",
+      "author": "zhangxinyuanliuhengyu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T06:04:47Z",
+      "updated_at": "2026-07-25T08:42:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1585",
+      "labels": [
+        "ci:sglang"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1697,
+      "title": "Fix DSpark mtp3 + DP + PIECEWISE tail-drain hang",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T07:06:18Z",
+      "updated_at": "2026-07-25T08:36:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1697",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1694,
+      "title": "[ATOM SGLang] GLM 5.2 MTP",
+      "author": "ZhiweiYan-96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T11:19:09Z",
+      "updated_at": "2026-07-25T07:44:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1694",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1698,
+      "title": "[WIP] dspark perf optimization",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T07:06:56Z",
+      "updated_at": "2026-07-25T07:12:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1698",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1675,
+      "title": "[CI][Doc] add ci case and recipe for glm5.2 agentic benchmark",
+      "author": "Phi-C",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T03:09:19Z",
+      "updated_at": "2026-07-25T01:26:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1675",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1695,
+      "title": "feat(glm-dsa): GLM-5.2 sparse-MLA construct-time determinism (deep-align)",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T16:32:29Z",
+      "updated_at": "2026-07-24T16:33:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1695",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1692,
+      "title": "[Doc] Add explanations for online quantization and offline quantization",
+      "author": "haoyangli0109",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T08:07:25Z",
+      "updated_at": "2026-07-24T10:26:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1692",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1682,
+      "title": "Enable index_share_for_mtp_iteration in native MTP EagleProposer.",
+      "author": "fanxingran",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T08:49:19Z",
+      "updated_at": "2026-07-24T10:13:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1682",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1587,
       "title": "[feat](vllm): upgrade vllm to v0.25.1",
@@ -16,47 +116,6 @@
       "draft": false
     },
     {
-      "number": 1585,
-      "title": "[Sglang+atom]Update ATOM SGLang plugin for SGLang 0.5.15.post1",
-      "author": "zhangxinyuanliuhengyu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T06:04:47Z",
-      "updated_at": "2026-07-24T09:58:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1585",
-      "labels": [
-        "ci:sglang"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1669,
-      "title": "[fea](req): change transformers version to 5.12.1",
-      "author": "PerryZhang01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T12:03:47Z",
-      "updated_at": "2026-07-24T09:23:40Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1669",
-      "labels": [
-        "ci:sglang",
-        "ci:vllm"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1682,
-      "title": "Enable index_share_for_mtp_iteration in native MTP EagleProposer.",
-      "author": "fanxingran",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T08:49:19Z",
-      "updated_at": "2026-07-24T09:18:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1682",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1680,
       "title": "[sgl atom] Enable pcp in sglang atom in glm5.2",
       "author": "ZLkanyo009",
@@ -69,18 +128,6 @@
         "ci:atom",
         "ci:sglang"
       ],
-      "draft": false
-    },
-    {
-      "number": 1692,
-      "title": "[Doc] Add explanations for online quantization and offline quantization",
-      "author": "haoyangli0109",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T08:07:25Z",
-      "updated_at": "2026-07-24T08:39:50Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1692",
-      "labels": [],
       "draft": false
     },
     {
@@ -190,18 +237,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1410",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1675,
-      "title": "[CI][Doc] add ci case and recipe for glm5.2 agentic benchmark",
-      "author": "Phi-C",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T03:09:19Z",
-      "updated_at": "2026-07-23T08:54:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1675",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1667,
@@ -410,18 +445,6 @@
       "draft": false
     },
     {
-      "number": 1599,
-      "title": "[atom sgl] glm 5.2 mtp optimize",
-      "author": "ZhiweiYan-96",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T14:51:17Z",
-      "updated_at": "2026-07-17T09:50:06Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1599",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1624,
       "title": "[SGL ATOM][Feat] Enable sgl atom pcp",
       "author": "ZLkanyo009",
@@ -502,18 +525,6 @@
       "created_at": "2026-07-11T14:17:45Z",
       "updated_at": "2026-07-15T02:31:02Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1564",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1578,
-      "title": "[ATOM SGL] GLM 5.2 MTP",
-      "author": "ZhiweiYan-96",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-13T10:41:35Z",
-      "updated_at": "2026-07-15T02:29:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1578",
       "labels": [],
       "draft": true
     },
@@ -1970,6 +1981,21 @@
       "draft": false
     },
     {
+      "number": 1669,
+      "title": "[fea](req): change transformers version to 5.12.1",
+      "author": "PerryZhang01",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-22T12:03:47Z",
+      "updated_at": "2026-07-24T12:10:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1669",
+      "labels": [
+        "ci:sglang",
+        "ci:vllm"
+      ],
+      "draft": false
+    },
+    {
       "number": 1693,
       "title": "[atom-plugin-accuracy] Use /mnt/dcgpuval cache mount for accuracy validation for mi355",
       "author": "junyyang-amd",
@@ -3061,42 +3087,6 @@
       "created_at": "2026-07-14T11:06:58Z",
       "updated_at": "2026-07-14T12:48:17Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1595",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1572,
-      "title": "[gfx1250][FlyDSL] add blockscale gemm for dsv4",
-      "author": "aoli26",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-13T03:23:50Z",
-      "updated_at": "2026-07-14T12:14:52Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1572",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1411,
-      "title": "[Enhancement] Supports per_block_fp8 format for online quantization",
-      "author": "haoyangli0109",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-30T06:44:43Z",
-      "updated_at": "2026-07-14T08:22:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1411",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1457,
-      "title": "add SemiAnalysis aiperf install to ATOM image",
-      "author": "Yuechguo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-03T08:56:20Z",
-      "updated_at": "2026-07-14T07:09:32Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1457",
       "labels": [],
       "draft": false
     }

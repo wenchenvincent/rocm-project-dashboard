@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-24T10:05:07Z",
+  "collected_at": "2026-07-25T09:25:00Z",
   "issues": [
     {
       "number": 4323,
@@ -70,16 +70,6 @@
       "labels": [
         "frameworks-devops"
       ]
-    },
-    {
-      "number": 1332,
-      "title": "module_fmha_v3_fwd/blob/asm_fmha_fwd_v3_gfx942.cpp:141 fail to call hipModuleLaunchKernel",
-      "author": "jinz2014",
-      "state": "open",
-      "created_at": "2025-11-04T21:52:07Z",
-      "updated_at": "2026-07-23T18:37:33Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1332",
-      "labels": []
     },
     {
       "number": 3631,

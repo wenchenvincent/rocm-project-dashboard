@@ -1,6 +1,28 @@
 {
-  "collected_at": "2026-07-24T10:05:18Z",
+  "collected_at": "2026-07-25T09:25:09Z",
   "issues": [
+    {
+      "number": 640,
+      "title": "Deprecate SmemAllocator and expr/vector.py, update to SharedAllocator + typing.Vector",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-06-03T08:30:54Z",
+      "updated_at": "2026-07-25T04:58:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/640",
+      "labels": [
+        "FlyDSL/Customization"
+      ]
+    },
+    {
+      "number": 749,
+      "title": "[RFC] FlyDSL kernels in downstream libraries",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-06-25T21:05:32Z",
+      "updated_at": "2026-07-24T19:11:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/749",
+      "labels": []
+    },
     {
       "number": 898,
       "title": "Nested add_offset fusion merges runtime+const offsets, breaking ds_read immediate folding and causing spills",
@@ -9,16 +31,6 @@
       "created_at": "2026-07-24T09:33:15Z",
       "updated_at": "2026-07-24T09:33:15Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/898",
-      "labels": []
-    },
-    {
-      "number": 749,
-      "title": "[RFC] FlyDSL kernels in downstream libraries",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-06-25T21:05:32Z",
-      "updated_at": "2026-07-22T20:22:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/749",
       "labels": []
     },
     {
@@ -59,18 +71,6 @@
       "created_at": "2026-06-25T07:37:42Z",
       "updated_at": "2026-07-21T06:22:05Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/740",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
-    },
-    {
-      "number": 640,
-      "title": "Deprecate SmemAllocator and expr/vector.py, update to SharedAllocator + typing.Vector",
-      "author": "sjfeng1999",
-      "state": "open",
-      "created_at": "2026-06-03T08:30:54Z",
-      "updated_at": "2026-07-21T05:53:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/640",
       "labels": [
         "FlyDSL/Customization"
       ]
@@ -438,18 +438,6 @@
       "updated_at": "2026-06-02T14:03:33Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/623",
       "labels": []
-    },
-    {
-      "number": 211,
-      "title": "[Issue]: While loop counter update issue",
-      "author": "ruanjm",
-      "state": "open",
-      "created_at": "2026-03-13T10:51:05Z",
-      "updated_at": "2026-06-02T13:26:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/211",
-      "labels": [
-        "bug"
-      ]
     },
     {
       "number": 603,
