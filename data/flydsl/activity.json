@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-07-25T09:26:54Z",
+  "collected_at": "2026-07-26T09:51:37Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 26,
+      "opened": 27,
       "merged": 20,
       "closed": 6
     },
     "last_week": {
-      "opened": 35,
+      "opened": 34,
       "merged": 21,
-      "closed": 6
+      "closed": 4
     },
-    "median_time_to_merge_hours": 23.2,
-    "merge_count": 42,
-    "stale_prs": 20
+    "median_time_to_merge_hours": 24.5,
+    "merge_count": 41,
+    "stale_prs": 21
   },
   "contributors": {
     "active_this_week": 23,
@@ -25,7 +25,7 @@
         "author": "coderfeli",
         "prs_submitted": 18,
         "prs_merged": 17,
-        "commits": 20
+        "commits": 18
       },
       {
         "author": "jhinpan",
@@ -37,11 +37,11 @@
         "author": "sjfeng1999",
         "prs_submitted": 13,
         "prs_merged": 13,
-        "commits": 16
+        "commits": 15
       },
       {
         "author": "Phil-amd",
-        "prs_submitted": 10,
+        "prs_submitted": 11,
         "prs_merged": 10,
         "commits": 10
       },
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 13.3,
+    "days_since_last": 14.3,
     "avg_interval_days": 12.9,
     "total_releases": 3,
     "latest_tag": "v0.2.3"

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-25T09:25:42Z",
+  "collected_at": "2026-07-26T09:50:17Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
@@ -31,7 +31,7 @@
         "author": "TedThemistokleous",
         "prs_submitted": 13,
         "prs_merged": 9,
-        "commits": 7
+        "commits": 5
       },
       {
         "author": "shivadbhavsar",
@@ -55,7 +55,7 @@
         "author": "kahmed10",
         "prs_submitted": 8,
         "prs_merged": 4,
-        "commits": 3
+        "commits": 2
       },
       {
         "author": "klin2024",
@@ -67,7 +67,7 @@
         "author": "causten",
         "prs_submitted": 6,
         "prs_merged": 5,
-        "commits": 5
+        "commits": 3
       },
       {
         "author": "turneram",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.7,
+    "days_since_last": 5.8,
     "avg_interval_days": 29.6,
     "total_releases": 5,
     "latest_tag": "rocm-7.14"

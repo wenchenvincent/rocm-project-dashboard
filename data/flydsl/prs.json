@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-07-25T09:25:08Z",
+  "collected_at": "2026-07-26T09:49:29Z",
   "prs": [
     {
-      "number": 874,
-      "title": "[compiler] carry Python containers through dynamic if/for/while/ifexp",
-      "author": "xudoyuan",
+      "number": 786,
+      "title": "[3/5] autotune: add offline config artifacts (#770)",
+      "author": "jhinpan",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-20T10:29:54Z",
-      "updated_at": "2026-07-25T03:14:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/874",
+      "created_at": "2026-07-01T07:15:47Z",
+      "updated_at": "2026-07-26T05:38:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
       "labels": [],
       "draft": false
     },
@@ -20,8 +20,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-24T20:09:28Z",
-      "updated_at": "2026-07-25T00:53:57Z",
+      "updated_at": "2026-07-26T05:37:45Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/902",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 903,
+      "title": "[CI] Smoke test shared MLIR cache workflow",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T10:38:17Z",
+      "updated_at": "2026-07-25T10:38:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/903",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 874,
+      "title": "[compiler] carry Python containers through dynamic if/for/while/ifexp",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T10:29:54Z",
+      "updated_at": "2026-07-25T03:14:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/874",
       "labels": [],
       "draft": false
     },
@@ -60,18 +84,6 @@
       "created_at": "2026-07-24T19:56:02Z",
       "updated_at": "2026-07-24T20:01:59Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 786,
-      "title": "[3/5] autotune: add offline config artifacts (#770)",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T07:15:47Z",
-      "updated_at": "2026-07-25T00:53:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/786",
       "labels": [],
       "draft": false
     },

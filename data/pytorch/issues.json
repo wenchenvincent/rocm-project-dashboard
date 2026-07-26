@@ -1,6 +1,184 @@
 {
-  "collected_at": "2026-07-25T09:24:26Z",
+  "collected_at": "2026-07-26T09:48:36Z",
   "issues": [
+    {
+      "number": 190908,
+      "title": "AOTAutograd doesn't eliminate token arguments/outputs before Inductor in `while_loop` HOP",
+      "author": "rYm-A",
+      "state": "open",
+      "created_at": "2026-07-23T17:21:14Z",
+      "updated_at": "2026-07-26T09:34:28Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/190908",
+      "labels": [
+        "triaged",
+        "has workaround",
+        "module: functionalization",
+        "oncall: pt2",
+        "module: aotdispatch",
+        "module: higher order operators",
+        "module: pt2-dispatcher",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 190972,
+      "title": "XPU: RuntimeError: level_zero backend failed with error: 20 (UR_RESULT_ERROR_DEVICE_LOST)",
+      "author": "uairyu",
+      "state": "open",
+      "created_at": "2026-07-24T03:29:40Z",
+      "updated_at": "2026-07-26T09:18:12Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/190972",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: windows",
+        "module: xpu",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 160230,
+      "title": "Offer official Pytorch Vulkan backend on pytorch.org",
+      "author": "alshdavid",
+      "state": "open",
+      "created_at": "2025-08-08T23:19:51Z",
+      "updated_at": "2026-07-26T03:55:23Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/160230",
+      "labels": [
+        "feature",
+        "triaged",
+        "needs research",
+        "module: vulkan"
+      ]
+    },
+    {
+      "number": 190855,
+      "title": "[inductor] Wrong Hessian: `torch.compile(torch.func.hessian(f))` miscompiles the derivative of `torch.trace` \u2014 a constant is added to every Hessian entry",
+      "author": "shadow-orange41",
+      "state": "open",
+      "created_at": "2026-07-23T05:10:23Z",
+      "updated_at": "2026-07-26T02:14:22Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/190855",
+      "labels": [
+        "high priority",
+        "triage review",
+        "triaged",
+        "module: derivatives",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: functorch",
+        "module: inductor",
+        "dynamo-functorch",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 189138,
+      "title": "[RFC] DeviceInterface: Registry Support for PrivateUse1 Backends in torch.compile",
+      "author": "1479518308",
+      "state": "open",
+      "created_at": "2026-07-07T08:17:16Z",
+      "updated_at": "2026-07-26T00:19:24Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/189138",
+      "labels": [
+        "feature",
+        "triaged",
+        "large",
+        "module: backend",
+        "oncall: pt2",
+        "module: inductor",
+        "module: dynamo",
+        "module: PrivateUse1",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 190856,
+      "title": "torch.inductor SIGSEGV at runtime when compiling `jacfwd(jacfwd(f))` and `f` contains `trace(t) * eye(n)`",
+      "author": "shadow-orange41",
+      "state": "open",
+      "created_at": "2026-07-23T05:21:46Z",
+      "updated_at": "2026-07-25T20:25:12Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/190856",
+      "labels": [
+        "high priority",
+        "triage review",
+        "module: crash",
+        "triaged",
+        "module: forward ad",
+        "oncall: pt2",
+        "module: functorch",
+        "module: inductor",
+        "dynamo-functorch",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 189811,
+      "title": "PyTorch XPU: memory_allocated not implemented for Intel Arc, breaks all model loading",
+      "author": "Zenvita",
+      "state": "open",
+      "created_at": "2026-07-14T01:37:32Z",
+      "updated_at": "2026-07-25T17:55:49Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/189811",
+      "labels": [
+        "triage review",
+        "module: memory usage",
+        "enhancement",
+        "module: xpu",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 190283,
+      "title": "torch.compile with Inductor fails at runtime in torch.linalg.matrix_rank due to linalg.svd convergence error while eager execution succeeds",
+      "author": "jasminetrail",
+      "state": "open",
+      "created_at": "2026-07-16T23:12:18Z",
+      "updated_at": "2026-07-25T17:43:38Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/190283",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: aotdispatch",
+        "module: pt2-dispatcher"
+      ]
+    },
+    {
+      "number": 191089,
+      "title": "[Inductor] Conv2d numerical divergence with shape padding on PyTorch 2.10 and 2.12",
+      "author": "hiahu329",
+      "state": "open",
+      "created_at": "2026-07-25T09:24:38Z",
+      "updated_at": "2026-07-25T17:05:25Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191089",
+      "labels": [
+        "triage review",
+        "needs reproduction",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 189327,
+      "title": "DISABLED test_copy_non_blocking_is_pinned_xpu (__main__.AOTInductorTestDualWrapper)",
+      "author": "etaf",
+      "state": "open",
+      "created_at": "2026-07-09T01:57:48Z",
+      "updated_at": "2026-07-25T09:24:35Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/189327",
+      "labels": [
+        "module: tests",
+        "triaged",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor",
+        "module: xpu",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 173315,
       "title": "[cuda] Numerical Inconsistency: NaN in Eager CUDA vs Valid Output in Compiled CPU for nn.LSTM",
@@ -71,6 +249,23 @@
       ]
     },
     {
+      "number": 173921,
+      "title": "[Inductor] Significant numerical divergence (4.7% relative error) in Conv2d on CPU with torch.compile",
+      "author": "zifan6699",
+      "state": "open",
+      "created_at": "2026-01-30T11:27:13Z",
+      "updated_at": "2026-07-25T08:41:23Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/173921",
+      "labels": [
+        "high priority",
+        "oncall: pt2",
+        "module: inductor",
+        "oncall: cpu inductor",
+        "bot-triaged",
+        "PT2-Bug-Bash"
+      ]
+    },
+    {
       "number": 174010,
       "title": "Numerical divergence in GPT2 wpe layer: 2.19e-4 relative error between float32 and float16 on CUDA",
       "author": "zifan6699",
@@ -90,26 +285,6 @@
       ]
     },
     {
-      "number": 189138,
-      "title": "[RFC] DeviceInterface: Registry Support for PrivateUse1 Backends in torch.compile",
-      "author": "1479518308",
-      "state": "open",
-      "created_at": "2026-07-07T08:17:16Z",
-      "updated_at": "2026-07-25T08:13:33Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/189138",
-      "labels": [
-        "feature",
-        "triaged",
-        "large",
-        "module: backend",
-        "oncall: pt2",
-        "module: inductor",
-        "module: dynamo",
-        "module: PrivateUse1",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 189326,
       "title": "DISABLED test_copy_non_blocking_is_pinned_xpu (__main__.AOTInductorTestABICompatibleGpu)",
       "author": "etaf",
@@ -122,22 +297,6 @@
         "triaged",
         "skipped",
         "oncall: pt2",
-        "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 190972,
-      "title": "XPU: RuntimeError: level_zero backend failed with error: 20 (UR_RESULT_ERROR_DEVICE_LOST)",
-      "author": "uairyu",
-      "state": "open",
-      "created_at": "2026-07-24T03:29:40Z",
-      "updated_at": "2026-07-25T07:20:30Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/190972",
-      "labels": [
-        "triage review",
-        "module: crash",
-        "module: windows",
         "module: xpu",
         "bot-triaged"
       ]
@@ -342,67 +501,6 @@
       ]
     },
     {
-      "number": 190908,
-      "title": "AOTAutograd doesn't eliminate token arguments/outputs before Inductor in `while_loop` HOP",
-      "author": "rYm-A",
-      "state": "open",
-      "created_at": "2026-07-23T17:21:14Z",
-      "updated_at": "2026-07-24T20:56:06Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/190908",
-      "labels": [
-        "triaged",
-        "has workaround",
-        "module: functionalization",
-        "oncall: pt2",
-        "module: aotdispatch",
-        "module: higher order operators",
-        "module: pt2-dispatcher",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 190856,
-      "title": "torch.inductor SIGSEGV at runtime when compiling `jacfwd(jacfwd(f))` and `f` contains `trace(t) * eye(n)`",
-      "author": "shadow-orange41",
-      "state": "open",
-      "created_at": "2026-07-23T05:21:46Z",
-      "updated_at": "2026-07-24T20:55:58Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/190856",
-      "labels": [
-        "high priority",
-        "triage review",
-        "module: crash",
-        "triaged",
-        "module: forward ad",
-        "oncall: pt2",
-        "module: functorch",
-        "module: inductor",
-        "dynamo-functorch",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 190855,
-      "title": "[inductor] Wrong Hessian: `torch.compile(torch.func.hessian(f))` miscompiles the derivative of `torch.trace` \u2014 a constant is added to every Hessian entry",
-      "author": "shadow-orange41",
-      "state": "open",
-      "created_at": "2026-07-23T05:10:23Z",
-      "updated_at": "2026-07-24T20:55:32Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/190855",
-      "labels": [
-        "high priority",
-        "triage review",
-        "triaged",
-        "module: derivatives",
-        "module: correctness (silent)",
-        "oncall: pt2",
-        "module: functorch",
-        "module: inductor",
-        "dynamo-functorch",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 190758,
       "title": "Memory-budget partitioner recomputes RNG ops with fresh randomness in backward, silently corrupting gradients at any activation_memory_budget < 1.0",
       "author": "HussainNizamani",
@@ -469,43 +567,6 @@
       ]
     },
     {
-      "number": 188670,
-      "title": "[RFC] Inductor / AOTI tests: decouple \u201ccorrect codegen path\u201d from tight eager-fp16 equality",
-      "author": "iupaikov-amd",
-      "state": "open",
-      "created_at": "2026-07-01T13:57:58Z",
-      "updated_at": "2026-07-24T16:49:38Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/188670",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "enhancement",
-        "oncall: pt2",
-        "module: inductor",
-        "oncall: export",
-        "module: aotinductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 188756,
-      "title": "[MPS] index_select / F.embedding silently return all-zero rows when the source tensor exceeds 2**31 elements (fixed on main, still broken in release/2.13)",
-      "author": "KitPan",
-      "state": "open",
-      "created_at": "2026-07-01T23:17:06Z",
-      "updated_at": "2026-07-24T15:02:35Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/188756",
-      "labels": [
-        "triaged",
-        "module: 64-bit",
-        "module: correctness (silent)",
-        "module: scatter & gather ops",
-        "module: embedding",
-        "module: mps",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 189194,
       "title": "[ROCm] torch 2.13 wheel: \"Can't detect vectorized ISA for CPU\" in torch.compile smoke test on non-ROCm image (regression vs 2.12.1)",
       "author": "atalman",
@@ -537,37 +598,6 @@
         "module: onnx",
         "low priority",
         "module: correctness (silent)",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 111739,
-      "title": "grad is inf/nan when using torch.amp",
-      "author": "taowangcheng",
-      "state": "open",
-      "created_at": "2023-10-21T08:04:24Z",
-      "updated_at": "2026-07-24T11:44:10Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/111739",
-      "labels": [
-        "triaged",
-        "module: amp (automated mixed precision)"
-      ]
-    },
-    {
-      "number": 191000,
-      "title": "DISABLED test_rmsnorm_mxfp8_scale_swizzle_kernel_form (__main__.NestedReductionInternalsPersistentTest)",
-      "author": "guangyey",
-      "state": "open",
-      "created_at": "2026-07-24T09:09:06Z",
-      "updated_at": "2026-07-24T09:11:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191000",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "module: xpu",
         "bot-triaged"
       ]
     },
@@ -802,36 +832,6 @@
         "module: tests",
         "triaged",
         "unstable"
-      ]
-    },
-    {
-      "number": 24422,
-      "title": "Label tracking meta-issue (edit me to get automatically CC'ed on issues! cc bot)",
-      "author": "ezyang",
-      "state": "open",
-      "created_at": "2019-08-15T18:28:22Z",
-      "updated_at": "2026-07-22T20:47:48Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/24422",
-      "labels": [
-        "triaged"
-      ]
-    },
-    {
-      "number": 190781,
-      "title": "torch.nanquantile returns incorrect CUDA results for negative-sign NaNs",
-      "author": "thorhojhus",
-      "state": "open",
-      "created_at": "2026-07-22T11:43:30Z",
-      "updated_at": "2026-07-22T19:28:30Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/190781",
-      "labels": [
-        "triage review",
-        "module: cuda",
-        "module: NaNs and Infs",
-        "module: correctness (silent)",
-        "module: sorting and selection",
-        "module: edge cases",
-        "bot-triaged"
       ]
     }
   ]

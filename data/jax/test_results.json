@@ -1,23 +1,23 @@
 {
-  "collected_at": "2026-07-25T09:25:30Z",
+  "collected_at": "2026-07-26T09:50:04Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "CI - Bazel ROCm tests",
-    "run_id": 30150510918,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/30150510918",
-    "run_date": "2026-07-25T08:25:52Z",
-    "conclusion": "failure",
+    "run_id": 30193981390,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/30193981390",
+    "run_date": "2026-07-26T08:53:02Z",
+    "conclusion": "success",
     "summary": {
       "total_jobs": 2,
-      "passed": 1,
-      "failed": 1,
+      "passed": 2,
+      "failed": 0,
       "skipped": 0,
-      "pass_rate": 50.0
+      "pass_rate": 100.0
     },
     "suites": [
       {
-        "name": "Test / linux x86, py3.14, ROCM=7, jaxlib=head, x64=0, build_jax=true, build_jaxlib=wheel",
-        "conclusion": "failure",
+        "name": "Test / linux x86, py3.14, ROCM=7, jaxlib=pypi_latest, x64=0, build_jax=true, build_jaxlib=false",
+        "conclusion": "success",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -25,7 +25,7 @@
         "errors": null
       },
       {
-        "name": "Test / linux x86, py3.14, ROCM=7, jaxlib=pypi_latest, x64=0, build_jax=true, build_jaxlib=false",
+        "name": "Test / linux x86, py3.14, ROCM=7, jaxlib=head, x64=0, build_jax=true, build_jaxlib=wheel",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -37,21 +37,21 @@
   },
   "cuda": {
     "workflow_name": "CI - Bazel H100 and B200 CUDA tests",
-    "run_id": 30151650139,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/30151650139",
-    "run_date": "2026-07-25T09:06:12Z",
-    "conclusion": "success",
+    "run_id": 30195393022,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/30195393022",
+    "run_date": "2026-07-26T09:05:35Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 2,
-      "passed": 2,
-      "failed": 0,
+      "passed": 1,
+      "failed": 1,
       "skipped": 0,
-      "pass_rate": 100.0
+      "pass_rate": 50.0
     },
     "suites": [
       {
         "name": "Bazel multiple H100 CUDA tests",
-        "conclusion": "success",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,

@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-07-25T09:24:47Z",
+  "collected_at": "2026-07-26T09:49:03Z",
   "prs": [
+    {
+      "number": 11049,
+      "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
+      "author": "JAGANNATHANJP",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T17:04:26Z",
+      "updated_at": "2026-07-25T17:10:04Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11049",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10878,
+      "title": "[AMD] Add RDNA4m target",
+      "author": "ptrojahn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T10:54:20Z",
+      "updated_at": "2026-07-25T16:20:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10878",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 11040,
       "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
@@ -58,18 +82,6 @@
       "created_at": "2026-07-16T14:44:45Z",
       "updated_at": "2026-07-24T13:10:02Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10906",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 10878,
-      "title": "[AMD] Add RDNA4m target",
-      "author": "ptrojahn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T10:54:20Z",
-      "updated_at": "2026-07-23T15:14:08Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10878",
       "labels": [],
       "draft": true
     },
@@ -706,18 +718,6 @@
       "created_at": "2026-02-20T21:11:04Z",
       "updated_at": "2026-06-17T15:29:24Z",
       "html_url": "https://github.com/triton-lang/triton/pull/9533",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 9292,
-      "title": "[AMD] Fixing WMMA.f32 conversion",
-      "author": "ravil-mobile",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-23T20:11:42Z",
-      "updated_at": "2026-06-17T15:29:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9292",
       "labels": [],
       "draft": true
     }

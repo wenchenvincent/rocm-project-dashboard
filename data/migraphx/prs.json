@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-07-25T09:24:50Z",
+  "collected_at": "2026-07-26T09:49:06Z",
   "prs": [
+    {
+      "number": 4998,
+      "title": "Bump CAPI version number for LDS usage estimation function",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-19T17:11:19Z",
+      "updated_at": "2026-07-25T17:52:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4998",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4616,
+      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-17T16:20:19Z",
+      "updated_at": "2026-07-25T11:35:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 5028,
       "title": "split_single_dyn_dim: add bucket_by_optimals to cut dyn-shape compile\u2026",
@@ -8,7 +32,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-01T19:11:35Z",
-      "updated_at": "2026-07-25T08:57:51Z",
+      "updated_at": "2026-07-25T10:30:31Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5028",
       "labels": [],
       "draft": false
@@ -20,7 +44,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T22:15:24Z",
-      "updated_at": "2026-07-25T08:01:45Z",
+      "updated_at": "2026-07-25T09:48:57Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5085",
       "labels": [],
       "draft": false
@@ -198,18 +222,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 4616,
-      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-17T16:20:19Z",
-      "updated_at": "2026-07-24T07:59:24Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 4606,
@@ -610,18 +622,6 @@
         "ok-to-test"
       ],
       "draft": false
-    },
-    {
-      "number": 4998,
-      "title": "Bump CAPI version number for LDS usage estimation function",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-19T17:11:19Z",
-      "updated_at": "2026-06-19T23:39:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4998",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 4983,

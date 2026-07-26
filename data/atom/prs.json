@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-07-25T09:25:03Z",
+  "collected_at": "2026-07-26T09:49:23Z",
   "prs": [
+    {
+      "number": 1500,
+      "title": "[feature] online quantize weights when loading weights",
+      "author": "haoyangli0109",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T11:01:52Z",
+      "updated_at": "2026-07-26T09:31:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1500",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1699,
+      "title": "feat(dp_sticky) : add new dp_sticky policy for dp-aware routing.",
+      "author": "Yuechguo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T16:08:40Z",
+      "updated_at": "2026-07-25T16:08:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1699",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1585,
       "title": "[Sglang+atom]Update ATOM SGLang plugin for SGLang 0.5.15.post1",
@@ -16,20 +40,6 @@
       "draft": false
     },
     {
-      "number": 1697,
-      "title": "Fix DSpark mtp3 + DP + PIECEWISE tail-drain hang",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-25T07:06:18Z",
-      "updated_at": "2026-07-25T08:36:51Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1697",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
       "number": 1694,
       "title": "[ATOM SGLang] GLM 5.2 MTP",
       "author": "ZhiweiYan-96",
@@ -40,18 +50,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1694",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1698,
-      "title": "[WIP] dspark perf optimization",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-25T07:06:56Z",
-      "updated_at": "2026-07-25T07:12:54Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1698",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1675,
@@ -201,18 +199,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1552",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1500,
-      "title": "[feature] online quantize weights when loading weights",
-      "author": "haoyangli0109",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T11:01:52Z",
-      "updated_at": "2026-07-23T10:37:32Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1500",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1681,
@@ -1981,6 +1967,32 @@
       "draft": false
     },
     {
+      "number": 1698,
+      "title": "dspark perf optimization",
+      "author": "ZhangLirong-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-25T07:06:56Z",
+      "updated_at": "2026-07-25T12:05:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1698",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1697,
+      "title": "Fix DSpark mtp3 + DP + PIECEWISE tail-drain hang",
+      "author": "ZhangLirong-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-25T07:06:18Z",
+      "updated_at": "2026-07-25T10:20:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1697",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
       "number": 1669,
       "title": "[fea](req): change transformers version to 5.12.1",
       "author": "PerryZhang01",
@@ -3061,32 +3073,6 @@
       "created_at": "2026-07-14T13:46:29Z",
       "updated_at": "2026-07-14T14:44:27Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1598",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1589,
-      "title": "[Frontend] Abort streaming seq only on real disconnect, not normal completion",
-      "author": "yhl-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T08:07:55Z",
-      "updated_at": "2026-07-14T13:24:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1589",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1595,
-      "title": "[atom-vllm] DeepSeek-V4: reconcile CUDA-graph padding in vLLM PIECEWISE attention",
-      "author": "whx-sjtu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T11:06:58Z",
-      "updated_at": "2026-07-14T12:48:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1595",
       "labels": [],
       "draft": false
     }

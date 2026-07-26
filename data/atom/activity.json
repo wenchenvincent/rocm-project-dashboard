@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-07-25T09:26:39Z",
+  "collected_at": "2026-07-26T09:51:20Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 58,
+      "opened": 56,
       "merged": 48,
       "closed": 8
     },
     "last_week": {
-      "opened": 66,
-      "merged": 48,
+      "opened": 67,
+      "merged": 47,
       "closed": 12
     },
-    "median_time_to_merge_hours": 15.2,
+    "median_time_to_merge_hours": 12.2,
     "merge_count": 102,
-    "stale_prs": 20
+    "stale_prs": 21
   },
   "contributors": {
     "active_this_week": 37,
@@ -30,8 +30,8 @@
       {
         "author": "ZhangLirong-amd",
         "prs_submitted": 12,
-        "prs_merged": 8,
-        "commits": 17
+        "prs_merged": 10,
+        "commits": 19
       },
       {
         "author": "carlushuang",
@@ -55,7 +55,7 @@
         "author": "junyyang-amd",
         "prs_submitted": 10,
         "prs_merged": 9,
-        "commits": 20
+        "commits": 19
       },
       {
         "author": "ChuanLi1101",
@@ -71,9 +71,9 @@
       },
       {
         "author": "yhl-amd",
-        "prs_submitted": 8,
-        "prs_merged": 2,
-        "commits": 11
+        "prs_submitted": 7,
+        "prs_merged": 1,
+        "commits": 10
       },
       {
         "author": "ganyi1996ppo",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 20.7,
+    "days_since_last": 21.7,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"
