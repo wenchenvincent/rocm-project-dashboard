@@ -1,6 +1,33 @@
 {
-  "collected_at": "2026-07-26T09:48:39Z",
+  "collected_at": "2026-07-27T10:59:31Z",
   "prs": [
+    {
+      "number": 39220,
+      "title": "[WIP][ROCm] Add runfiles data files for proper hermetic bzl test execution",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T12:37:36Z",
+      "updated_at": "2026-07-27T09:05:56Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39220",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 38810,
+      "title": "[ROCm] Add TheRock latest to nightly and continuous CI workflows",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T22:36:22Z",
+      "updated_at": "2026-07-27T08:59:02Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38810",
+      "labels": [
+        "CI",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 39424,
       "title": "[ROCm] Update xla reference",
@@ -114,18 +141,6 @@
         "pull ready"
       ],
       "draft": false
-    },
-    {
-      "number": 39220,
-      "title": "[WIP][ROCm] Add runfiles data files for proper hermetic bzl test execution",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T12:37:36Z",
-      "updated_at": "2026-07-16T14:22:50Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39220",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 39074,
@@ -277,21 +292,6 @@
       "updated_at": "2026-06-29T13:10:59Z",
       "html_url": "https://github.com/jax-ml/jax/pull/38803",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 38810,
-      "title": "[ROCm] Add TheRock latest to nightly and continuous CI workflows",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T22:36:22Z",
-      "updated_at": "2026-06-26T22:37:36Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38810",
-      "labels": [
-        "CI",
-        "AMD GPU"
-      ],
       "draft": false
     },
     {

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-26T09:49:34Z",
+  "collected_at": "2026-07-27T11:00:32Z",
   "prs": [
     {
       "number": 625,
@@ -8,8 +8,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-07-26T08:42:44Z",
+      "updated_at": "2026-07-27T05:39:00Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 602,
+      "title": "Update CI to use TheRock",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-29T15:33:31Z",
+      "updated_at": "2026-07-27T03:45:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 658,
+      "title": "blockwise fp8 gemm integration for gfx942 and gfx950",
+      "author": "asdfvg123",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-06T22:01:12Z",
+      "updated_at": "2026-07-27T01:58:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 682,
+      "title": "HipKittens MXFP8 scale lane-reordering",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-26T14:14:05Z",
+      "updated_at": "2026-07-26T14:14:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/682",
       "labels": [],
       "draft": false
     },
@@ -34,32 +72,6 @@
       "created_at": "2026-07-09T19:42:42Z",
       "updated_at": "2026-07-26T03:55:00Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 602,
-      "title": "Update CI to use TheRock",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-29T15:33:31Z",
-      "updated_at": "2026-07-26T03:20:00Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 658,
-      "title": "blockwise fp8 gemm integration for gfx942 and gfx950",
-      "author": "asdfvg123",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-06T22:01:12Z",
-      "updated_at": "2026-07-24T23:13:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
       "labels": [
         "ci-level 3"
       ],

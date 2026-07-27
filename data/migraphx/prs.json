@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-07-26T09:49:06Z",
+  "collected_at": "2026-07-27T11:00:01Z",
   "prs": [
+    {
+      "number": 4616,
+      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-17T16:20:19Z",
+      "updated_at": "2026-07-26T23:02:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 4998,
       "title": "Bump CAPI version number for LDS usage estimation function",
@@ -12,18 +24,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4998",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 4616,
-      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-17T16:20:19Z",
-      "updated_at": "2026-07-25T11:35:24Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5028,

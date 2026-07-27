@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-07-26T09:50:01Z",
+  "collected_at": "2026-07-27T11:01:05Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Integration Tests",
-    "run_id": 30178875158,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/30178875158",
-    "run_date": "2026-07-25T23:54:11Z",
+    "run_id": 30243233833,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/30243233833",
+    "run_date": "2026-07-27T09:36:17Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 4,
@@ -16,7 +16,7 @@
     },
     "suites": [
       {
-        "name": "integration-tests-amd / integration-tests-amd (self-hosted, gfx90a)",
+        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -25,7 +25,7 @@
         "errors": null
       },
       {
-        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950)",
+        "name": "integration-tests-amd / integration-tests-amd (self-hosted, gfx90a)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -55,9 +55,9 @@
   },
   "cuda": {
     "workflow_name": "Integration Tests",
-    "run_id": 30178875158,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/30178875158",
-    "run_date": "2026-07-25T23:54:11Z",
+    "run_id": 30243233833,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/30243233833",
+    "run_date": "2026-07-27T09:36:17Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 3,
@@ -77,7 +77,7 @@
         "errors": null
       },
       {
-        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-h100)",
+        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-gb200)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -86,7 +86,7 @@
         "errors": null
       },
       {
-        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-gb200)",
+        "name": "integration-tests-nvidia / integration-tests-nvidia (nvidia-h100)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
