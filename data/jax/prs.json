@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-27T10:59:31Z",
+  "collected_at": "2026-07-28T10:19:48Z",
   "prs": [
     {
       "number": 39220,
@@ -8,25 +8,37 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-16T12:37:36Z",
-      "updated_at": "2026-07-27T09:05:56Z",
+      "updated_at": "2026-07-28T09:04:36Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39220",
       "labels": [],
-      "draft": true
+      "draft": false
     },
     {
       "number": 38810,
-      "title": "[ROCm] Add TheRock latest to nightly and continuous CI workflows",
+      "title": "[ROCm] Add TheRock N/N+1 coverage to nightly and continuous CI workflows",
       "author": "mminutoli",
       "state": "open",
       "merged": false,
       "created_at": "2026-06-26T22:36:22Z",
-      "updated_at": "2026-07-27T08:59:02Z",
+      "updated_at": "2026-07-28T08:35:23Z",
       "html_url": "https://github.com/jax-ml/jax/pull/38810",
       "labels": [
         "CI",
         "AMD GPU"
       ],
-      "draft": false
+      "draft": true
+    },
+    {
+      "number": 39473,
+      "title": "[WIP][ROCm] Prevent job-container teardown hangs in ROCm CI",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T19:57:46Z",
+      "updated_at": "2026-07-27T20:12:04Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39473",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 39424,

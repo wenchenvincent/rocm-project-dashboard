@@ -1,6 +1,152 @@
 {
-  "collected_at": "2026-07-27T11:00:29Z",
+  "collected_at": "2026-07-28T10:20:48Z",
   "prs": [
+    {
+      "number": 907,
+      "title": "Add stochastic rounding and philox RNG helpers",
+      "author": "kashif",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-26T18:37:29Z",
+      "updated_at": "2026-07-28T09:50:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 915,
+      "title": "[ROCDL] Add arch-aware universal s_waitcnt",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T04:00:34Z",
+      "updated_at": "2026-07-28T09:28:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/915",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 916,
+      "title": "[Enh] Add rounding-mode control for float-to-float casts",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T08:54:53Z",
+      "updated_at": "2026-07-28T09:24:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/916",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 894,
+      "title": "[Kernel][MI350] Add 8 wave GQA sliding-window attention kernel",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T16:20:46Z",
+      "updated_at": "2026-07-28T09:20:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/894",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "[Perf] Optimize rmsnorm/layernorm",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-07-28T08:15:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 910,
+      "title": "[Kernel][Perf] Optimize paged-attention metadata decode",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T05:23:12Z",
+      "updated_at": "2026-07-28T07:18:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/910",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 914,
+      "title": "[Dialect][Perf] Don't merge mixed static/runtime offsets on LDS pointers",
+      "author": "Arist12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T23:39:08Z",
+      "updated_at": "2026-07-28T04:40:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/914",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 900,
+      "title": "Enabling coexec llvm for Flydsl",
+      "author": "omuhamma",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T16:44:29Z",
+      "updated_at": "2026-07-27T23:03:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/900",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 901,
+      "title": "Add Optimized MoE Routing Path",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T19:56:02Z",
+      "updated_at": "2026-07-27T17:11:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 913,
+      "title": "Port GEMM/MoE/conv kernels to the layout API",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T14:49:30Z",
+      "updated_at": "2026-07-27T15:04:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/913",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 912,
+      "title": "Fix hierarchical reduced predicates in copy layout lowering",
+      "author": "HydraQYH",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T13:02:41Z",
+      "updated_at": "2026-07-27T13:02:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/912",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 876,
+      "title": "MegaMoEV1 on Gfx950",
+      "author": "GwilliamHu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T02:44:12Z",
+      "updated_at": "2026-07-27T11:23:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
     {
       "number": 909,
       "title": "[Kernel] Migrate SWA decode to tile programming",
@@ -14,44 +160,6 @@
       "draft": false
     },
     {
-      "number": 876,
-      "title": "MegaMoEV1 on Gfx950",
-      "author": "GwilliamHu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T02:44:12Z",
-      "updated_at": "2026-07-27T09:52:57Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
-      "number": 911,
-      "title": "[Doc] document fast-math flags in the arithmetic_types",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T09:14:25Z",
-      "updated_at": "2026-07-27T09:22:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/911",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 894,
-      "title": "[Kernel][MI350] Add 8 wave GQA sliding-window attention kernel",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T16:20:46Z",
-      "updated_at": "2026-07-27T08:57:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/894",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 906,
       "title": "Add fast_divmod magic-number division helper",
       "author": "kashif",
@@ -60,42 +168,6 @@
       "created_at": "2026-07-26T18:16:40Z",
       "updated_at": "2026-07-27T08:54:10Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/906",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 905,
-      "title": "[perf]optimize flash attention fp8 for gfx950",
-      "author": "binding7012",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-26T10:39:35Z",
-      "updated_at": "2026-07-27T08:31:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/905",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 907,
-      "title": "Add stochastic rounding and philox RNG helpers",
-      "author": "kashif",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-26T18:37:29Z",
-      "updated_at": "2026-07-27T07:52:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 910,
-      "title": "[Kernel][Perf] Optimize paged-attention metadata decode",
-      "author": "fsx950223",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T05:23:12Z",
-      "updated_at": "2026-07-27T07:40:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/910",
       "labels": [],
       "draft": false
     },
@@ -132,18 +204,6 @@
       "created_at": "2026-07-20T10:29:54Z",
       "updated_at": "2026-07-25T03:14:43Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/874",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 901,
-      "title": "Add Optimized MoE Routing Path",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T19:56:02Z",
-      "updated_at": "2026-07-24T20:01:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
       "labels": [],
       "draft": false
     },
@@ -228,18 +288,6 @@
       "created_at": "2026-07-18T00:38:19Z",
       "updated_at": "2026-07-23T02:44:34Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 848,
-      "title": "[Perf] Optimize rmsnorm/layernorm",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-07-21T06:08:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
       "labels": [],
       "draft": false
     },
@@ -636,6 +684,30 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 905,
+      "title": "[perf]optimize flash attention fp8 for gfx950",
+      "author": "binding7012",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-26T10:39:35Z",
+      "updated_at": "2026-07-28T07:38:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/905",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 911,
+      "title": "[Doc] document fast-math flags in the arithmetic_types",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-27T09:14:25Z",
+      "updated_at": "2026-07-27T15:05:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/911",
       "labels": [],
       "draft": false
     },
@@ -1564,18 +1636,6 @@
       "created_at": "2026-06-25T03:34:51Z",
       "updated_at": "2026-06-30T11:10:51Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/737",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 777,
-      "title": "[Enh] Add FallbackLocations rewriter for bare-op source locations",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-30T07:44:10Z",
-      "updated_at": "2026-06-30T10:53:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/777",
       "labels": [],
       "draft": false
     }

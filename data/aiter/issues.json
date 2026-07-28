@@ -1,6 +1,68 @@
 {
-  "collected_at": "2026-07-27T11:00:17Z",
+  "collected_at": "2026-07-28T10:20:35Z",
   "issues": [
+    {
+      "number": 4425,
+      "title": "[Issue]: Failed JIT build, cmath.h not found",
+      "author": "Sector14",
+      "state": "open",
+      "created_at": "2026-07-28T10:19:13Z",
+      "updated_at": "2026-07-28T10:19:13Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4425",
+      "labels": []
+    },
+    {
+      "number": 4423,
+      "title": "[Documentation]: CONTRIBUTE.md specifies `ruff==0.15.7` but CI uses a newer version that enforces additional rules",
+      "author": "menglcai",
+      "state": "open",
+      "created_at": "2026-07-28T09:11:55Z",
+      "updated_at": "2026-07-28T09:11:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4423",
+      "labels": []
+    },
+    {
+      "number": 4419,
+      "title": "Document and automate the AITER release plan",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-07-28T07:38:47Z",
+      "updated_at": "2026-07-28T07:47:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4419",
+      "labels": []
+    },
+    {
+      "number": 4411,
+      "title": "Branch cleanup (2/2): owners GitHub could not notify on #4409",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-07-28T03:32:23Z",
+      "updated_at": "2026-07-28T04:33:25Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4411",
+      "labels": []
+    },
+    {
+      "number": 4409,
+      "title": "Branch cleanup: one-off sweep of 1,154 stale branches (notice closes 2026-08-11)",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-07-28T03:02:24Z",
+      "updated_at": "2026-07-28T03:34:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4409",
+      "labels": []
+    },
+    {
+      "number": 4325,
+      "title": "[Issue]: [FlyDSL][MoE][VLLM] moe_gemm_2stage: `fx.ptrtoint` on `!fly.memref` fails to build on gfx9500(MI355)",
+      "author": "stefankoncarevic",
+      "state": "open",
+      "created_at": "2026-07-21T15:41:28Z",
+      "updated_at": "2026-07-28T01:06:34Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4325",
+      "labels": [
+        "ci:vllm"
+      ]
+    },
     {
       "number": 4364,
       "title": "[MLA] qh16 fp8 sparse decode run-to-run nondeterministic (split-K reduce) \u2014 \u00b11-2 NIAH needle",
@@ -91,18 +153,6 @@
       "created_at": "2026-07-23T15:22:53Z",
       "updated_at": "2026-07-23T15:23:17Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4356",
-      "labels": [
-        "ci:vllm"
-      ]
-    },
-    {
-      "number": 4325,
-      "title": "[Issue]: [FlyDSL][MoE][VLLM] moe_gemm_2stage: `fx.ptrtoint` on `!fly.memref` fails to build on gfx9500(MI355)",
-      "author": "stefankoncarevic",
-      "state": "open",
-      "created_at": "2026-07-21T15:41:28Z",
-      "updated_at": "2026-07-23T12:07:36Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4325",
       "labels": [
         "ci:vllm"
       ]

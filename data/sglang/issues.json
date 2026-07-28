@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-27T10:59:56Z",
+  "collected_at": "2026-07-28T10:20:15Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,28 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-27T10:33:06Z",
+      "updated_at": "2026-07-28T10:11:20Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 32569,
+      "title": "[Bug] Kimi K3 DSPARK speculative decoding crashes with TypeError: 'NoneType' object is not callable in top_k_renorm_prob",
+      "author": "geohot",
+      "state": "open",
+      "created_at": "2026-07-27T20:33:16Z",
+      "updated_at": "2026-07-28T06:33:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/32569",
+      "labels": []
+    },
+    {
+      "number": 27937,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "amd-bot",
+      "state": "open",
+      "created_at": "2026-06-11T15:46:32Z",
+      "updated_at": "2026-07-28T00:52:44Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
       "labels": []
     },
     {
@@ -17,8 +37,38 @@
       "author": "OrangeRedeng",
       "state": "open",
       "created_at": "2026-07-20T13:24:05Z",
-      "updated_at": "2026-07-27T09:24:31Z",
+      "updated_at": "2026-07-27T23:30:31Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31783",
+      "labels": []
+    },
+    {
+      "number": 31774,
+      "title": "[RFC] Backend, KV dtype and platform compatibility is checked case by case, and the responses are inconsistent",
+      "author": "mosya415",
+      "state": "open",
+      "created_at": "2026-07-20T11:56:07Z",
+      "updated_at": "2026-07-27T22:15:31Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31774",
+      "labels": []
+    },
+    {
+      "number": 32548,
+      "title": "[Kimi-K3][AMD] Day 0 and Performance Tracking",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-07-27T15:49:55Z",
+      "updated_at": "2026-07-27T21:10:28Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/32548",
+      "labels": []
+    },
+    {
+      "number": 31504,
+      "title": "[Proposal] Fuse static FP8 activation quantization into producer kernels (norm / activation / allreduce epilogue)",
+      "author": "YAMY1234",
+      "state": "open",
+      "created_at": "2026-07-17T00:32:03Z",
+      "updated_at": "2026-07-27T20:15:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31504",
       "labels": []
     },
     {
@@ -27,7 +77,7 @@
       "author": "noob-se7en",
       "state": "open",
       "created_at": "2026-07-24T12:54:43Z",
-      "updated_at": "2026-07-27T01:28:19Z",
+      "updated_at": "2026-07-27T18:20:47Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/32321",
       "labels": []
     },
@@ -155,16 +205,6 @@
       "labels": []
     },
     {
-      "number": 27937,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "amd-bot",
-      "state": "open",
-      "created_at": "2026-06-11T15:46:32Z",
-      "updated_at": "2026-07-22T01:10:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
-      "labels": []
-    },
-    {
       "number": 15194,
       "title": "[Roadmap] Quantization Modifications",
       "author": "TamirBaydasov",
@@ -197,16 +237,6 @@
         "deepseek",
         "roadmap"
       ]
-    },
-    {
-      "number": 31774,
-      "title": "[RFC] Backend, KV dtype and platform compatibility is checked case by case, and the responses are inconsistent",
-      "author": "mosya415",
-      "state": "open",
-      "created_at": "2026-07-20T11:56:07Z",
-      "updated_at": "2026-07-20T11:56:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31774",
-      "labels": []
     },
     {
       "number": 31490,
@@ -278,16 +308,6 @@
       "created_at": "2026-07-17T06:13:59Z",
       "updated_at": "2026-07-17T06:34:48Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31545",
-      "labels": []
-    },
-    {
-      "number": 31504,
-      "title": "[Proposal] Fuse static FP8 activation quantization into producer kernels (norm / activation / allreduce epilogue)",
-      "author": "YAMY1234",
-      "state": "open",
-      "created_at": "2026-07-17T00:32:03Z",
-      "updated_at": "2026-07-17T00:32:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31504",
       "labels": []
     },
     {
@@ -556,26 +576,6 @@
       "created_at": "2026-06-18T23:07:34Z",
       "updated_at": "2026-06-19T20:47:43Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/28685",
-      "labels": []
-    },
-    {
-      "number": 28300,
-      "title": "Performance regression on 8x B300 Llama-4-Scout after PR #27091 (AIPerf output throughput -1.85%)",
-      "author": "nvpohanh",
-      "state": "open",
-      "created_at": "2026-06-15T12:11:17Z",
-      "updated_at": "2026-06-15T12:15:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/28300",
-      "labels": []
-    },
-    {
-      "number": 27418,
-      "title": "[Mamba] Clean up _handle_mamba_radix_cache and rename mamba_scheduler_strategy \u2192 mamba_radix_cache_strategy",
-      "author": "hanming-lu",
-      "state": "open",
-      "created_at": "2026-06-06T03:43:02Z",
-      "updated_at": "2026-06-12T06:42:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27418",
       "labels": []
     }
   ]

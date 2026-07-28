@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-27T11:00:30Z",
+  "collected_at": "2026-07-28T10:20:49Z",
   "issues": [
+    {
+      "number": 898,
+      "title": "Nested add_offset fusion merges runtime+const offsets, breaking ds_read immediate folding and causing spills",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "created_at": "2026-07-24T09:33:15Z",
+      "updated_at": "2026-07-27T14:13:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/898",
+      "labels": []
+    },
     {
       "number": 640,
       "title": "Deprecate SmemAllocator and expr/vector.py, update to SharedAllocator + typing.Vector",
@@ -21,16 +31,6 @@
       "created_at": "2026-06-25T21:05:32Z",
       "updated_at": "2026-07-24T19:11:45Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/749",
-      "labels": []
-    },
-    {
-      "number": 898,
-      "title": "Nested add_offset fusion merges runtime+const offsets, breaking ds_read immediate folding and causing spills",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "created_at": "2026-07-24T09:33:15Z",
-      "updated_at": "2026-07-24T09:33:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/898",
       "labels": []
     },
     {

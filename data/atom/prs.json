@@ -1,20 +1,153 @@
 {
-  "collected_at": "2026-07-27T11:00:20Z",
+  "collected_at": "2026-07-28T10:20:39Z",
   "prs": [
     {
-      "number": 1587,
-      "title": "[feat](vllm): upgrade vllm to v0.25.1",
-      "author": "PerryZhang01",
+      "number": 1706,
+      "title": "feat: add chat template",
+      "author": "amd-youchen",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-14T07:13:09Z",
-      "updated_at": "2026-07-27T10:58:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1587",
+      "created_at": "2026-07-27T11:29:57Z",
+      "updated_at": "2026-07-28T09:48:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1706",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1715,
+      "title": "feat: keep eplb for pure prefill and optimize remap and record",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T07:20:34Z",
+      "updated_at": "2026-07-28T09:42:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1715",
       "labels": [
-        "ci:atom",
-        "ci:vllm"
+        "ci:atom"
       ],
       "draft": false
+    },
+    {
+      "number": 1563,
+      "title": "[Frontend] DeepSeek-V4 native OpenAI/Anthropic/Responses API + DSML tool parser",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-10T15:21:17Z",
+      "updated_at": "2026-07-28T09:13:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1563",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1701,
+      "title": "[feat][DCP] Optimize MLA DCP (Enable Prefix Cache / Chunked Prefill + FP8 KVCache)",
+      "author": "yitingw1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T05:21:38Z",
+      "updated_at": "2026-07-28T08:37:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1701",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1716,
+      "title": "fix(MI308): keep BF16 fallback out of FP8 quant mode",
+      "author": "qichu-yun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T08:21:12Z",
+      "updated_at": "2026-07-28T08:31:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1716",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1712,
+      "title": "[ATOM][Kimi-K3] ATOM support Kimi-K3",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T01:35:37Z",
+      "updated_at": "2026-07-28T08:00:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1712",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1647,
+      "title": "fix(scheduler): PD decode admission cap and remote-KV backpressur",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T13:19:37Z",
+      "updated_at": "2026-07-28T06:51:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1647",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1691,
+      "title": "Eplb v2 mega",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T01:40:15Z",
+      "updated_at": "2026-07-28T06:43:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1691",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1713,
+      "title": "feat(kimi-k3): run full attention through MLA instead of MHA",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T03:32:37Z",
+      "updated_at": "2026-07-28T03:51:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1713",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1681,
+      "title": "[DSV4] perf(tbo): overlap pure-TP all_reduce on TBO + Delay TP",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T08:27:19Z",
+      "updated_at": "2026-07-28T03:36:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1681",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1316,
+      "title": "[KV-events] block token_offset + sequence numbers + replay",
+      "author": "bongwoobak",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-22T18:59:22Z",
+      "updated_at": "2026-07-28T03:18:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1316",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1594,
+      "title": "Add MoRIIO write-push KV transfer with DeepSeek-V4 and fabric (scale-up) backend",
+      "author": "maning00",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T10:29:44Z",
+      "updated_at": "2026-07-28T02:28:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1594",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 1704,
@@ -23,24 +156,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-27T10:17:31Z",
-      "updated_at": "2026-07-27T10:17:44Z",
+      "updated_at": "2026-07-28T01:44:27Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1704",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1700,
-      "title": "refactor(spec_decode): drafter abstraction + align DSpark with the HF reference (acceptance 34.9% -> 48%)",
-      "author": "valarLip",
+      "number": 1612,
+      "title": "[fix] Stabilize ATOM FP8 no-eager rollout weight sync and CUDA graph lifecycle",
+      "author": "xysheng-AMD",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-26T15:12:23Z",
-      "updated_at": "2026-07-27T09:54:02Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1700",
-      "labels": [
-        "ci:atom"
-      ],
+      "created_at": "2026-07-16T02:57:20Z",
+      "updated_at": "2026-07-27T22:30:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1612",
+      "labels": [],
       "draft": false
+    },
+    {
+      "number": 1707,
+      "title": "fix(scheduler): back-fill deferred-output placeholders before overwrite (IndexError crash)",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T11:54:25Z",
+      "updated_at": "2026-07-27T11:54:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1707",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 1551,
@@ -51,71 +194,6 @@
       "created_at": "2026-07-10T03:38:50Z",
       "updated_at": "2026-07-27T08:56:40Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1551",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1680,
-      "title": "[sgl atom] Enable pcp in sglang atom in glm5.2",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T08:04:36Z",
-      "updated_at": "2026-07-27T08:47:24Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1680",
-      "labels": [
-        "ci:atom",
-        "ci:sglang"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1703,
-      "title": "fix(scheduler): strip deferred-output placeholder on preempt when MTP is off",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T08:23:10Z",
-      "updated_at": "2026-07-27T08:23:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1703",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1691,
-      "title": "Eplb v2 mega",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T01:40:15Z",
-      "updated_at": "2026-07-27T06:51:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1691",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1681,
-      "title": "[DSV4] perf(tbo): overlap pure-TP all_reduce on TBO + Delay TP",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T08:27:19Z",
-      "updated_at": "2026-07-27T06:17:22Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1681",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1701,
-      "title": "[feat][DCP] Optimize MLA DCP (Enable Prefix Cache / Chunked Prefill + FP8 KVCache)",
-      "author": "yitingw1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T05:21:38Z",
-      "updated_at": "2026-07-27T06:04:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1701",
       "labels": [],
       "draft": false
     },
@@ -204,18 +282,6 @@
       "draft": true
     },
     {
-      "number": 1647,
-      "title": "fix(scheduler): PD decode admission cap and remote-KV backpressur",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T13:19:37Z",
-      "updated_at": "2026-07-24T02:03:01Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1647",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1671,
       "title": "[atom-sgl-benchmark] Add manual OOB selection and Minimax-M3 for SGLang MI355 benchmark ",
       "author": "junyyang-amd",
@@ -288,30 +354,6 @@
       "draft": true
     },
     {
-      "number": 1612,
-      "title": "[fix] Stabilize ATOM FP8 no-eager rollout weight sync and CUDA graph lifecycle",
-      "author": "xysheng-AMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T02:57:20Z",
-      "updated_at": "2026-07-22T07:41:40Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1612",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1316,
-      "title": "[KV-events] block token_offset + sequence numbers + replay",
-      "author": "bongwoobak",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-22T18:59:22Z",
-      "updated_at": "2026-07-22T05:31:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1316",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1528,
       "title": "di ci: glm-5-2 1p 1d && 2p1d",
       "author": "JiaoliangYu",
@@ -370,18 +412,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1618",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1594,
-      "title": "Add MoRIIO write-push KV transfer with DeepSeek-V4 and fabric (scale-up) backend",
-      "author": "maning00",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T10:29:44Z",
-      "updated_at": "2026-07-21T01:02:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1594",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1641,
@@ -646,18 +676,6 @@
       "created_at": "2026-07-13T03:19:37Z",
       "updated_at": "2026-07-13T06:00:16Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1571",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1563,
-      "title": "[Frontend] DeepSeek-V4 native OpenAI/Anthropic/Responses API + DSML tool parser",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T15:21:17Z",
-      "updated_at": "2026-07-13T03:24:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1563",
       "labels": [],
       "draft": true
     },
@@ -1970,6 +1988,116 @@
       "draft": false
     },
     {
+      "number": 1709,
+      "title": "feat(deepseek_v4): Add fp4 indexer fo dsv4",
+      "author": "junhaha666",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-27T17:12:38Z",
+      "updated_at": "2026-07-28T10:06:23Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1709",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1710,
+      "title": "bugfix: defer streaming chat role chunk until generation starts",
+      "author": "amd-youchen",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-28T00:55:41Z",
+      "updated_at": "2026-07-28T09:13:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1710",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1587,
+      "title": "[feat](vllm): upgrade vllm to v0.25.1",
+      "author": "PerryZhang01",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T07:13:09Z",
+      "updated_at": "2026-07-28T08:04:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1587",
+      "labels": [
+        "ci:atom",
+        "ci:vllm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1711,
+      "title": "bugfix: Add empty choices field to streaming usage chunks",
+      "author": "amd-youchen",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-28T01:15:38Z",
+      "updated_at": "2026-07-28T04:17:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1711",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1708,
+      "title": "fix(model_loader): give the batched MoE staging path an explicit ownership rule",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-27T13:28:39Z",
+      "updated_at": "2026-07-27T16:09:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1708",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1705,
+      "title": "feat: add served name",
+      "author": "amd-youchen",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-27T11:21:24Z",
+      "updated_at": "2026-07-27T13:32:41Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1705",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1680,
+      "title": "[sgl atom] Enable pcp in sglang atom in glm5.2",
+      "author": "ZLkanyo009",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-23T08:04:36Z",
+      "updated_at": "2026-07-27T12:43:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1680",
+      "labels": [
+        "ci:atom",
+        "ci:sglang"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1700,
+      "title": "refactor(spec_decode): drafter abstraction + align DSpark with the HF reference (acceptance 34.9% -> 48%)",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-26T15:12:23Z",
+      "updated_at": "2026-07-27T12:25:41Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1700",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
       "number": 1692,
       "title": "[Doc] Add explanations for online quantization and offline quantization",
       "author": "haoyangli0109",
@@ -2986,110 +3114,6 @@
       "created_at": "2026-07-13T06:44:52Z",
       "updated_at": "2026-07-16T10:44:25Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1575",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1591,
-      "title": "Fix DeepSeek-V4 SGLang index top-k metadata",
-      "author": "junna2016",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T09:02:55Z",
-      "updated_at": "2026-07-16T06:42:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1591",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1608,
-      "title": "[atom-ci] Fix aiperf install to preserve SGLang dependency stack",
-      "author": "junyyang-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-15T09:20:27Z",
-      "updated_at": "2026-07-16T06:30:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1608",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1576,
-      "title": "[Sglang Plugin] Support GLM5.2 FP8 and FP4",
-      "author": "qichu-yun",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-13T07:39:56Z",
-      "updated_at": "2026-07-16T05:52:37Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1576",
-      "labels": [
-        "ci:atom",
-        "ci:sglang"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1596,
-      "title": "[Bugfix] DeepSeek-V4 DP+PIECEWISE: force aiter unreg collective capture path",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T12:18:50Z",
-      "updated_at": "2026-07-16T01:27:02Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1596",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1549,
-      "title": "review-pr skill v2: dispatch gap rule, arch-constant FP fix, P5 timing error",
-      "author": "zufayu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-10T02:51:58Z",
-      "updated_at": "2026-07-15T10:13:23Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1549",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1609,
-      "title": "[ci][mesh] update ATOMesh dashboard series grouping and point details",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-15T09:55:50Z",
-      "updated_at": "2026-07-15T10:02:29Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1609",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1531,
-      "title": "[atom][atom-vllm] optimize MTP for GLM 5.2",
-      "author": "whx-sjtu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-09T07:16:51Z",
-      "updated_at": "2026-07-15T06:09:43Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1531",
-      "labels": [
-        "ci:atom",
-        "ci:vllm"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1602,
-      "title": "[ci][mesh] optimize mesh ci log and dashboard font",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-15T04:40:58Z",
-      "updated_at": "2026-07-15T05:08:35Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1602",
       "labels": [],
       "draft": false
     }

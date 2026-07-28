@@ -1,6 +1,127 @@
 {
-  "collected_at": "2026-07-27T11:00:01Z",
+  "collected_at": "2026-07-28T10:20:21Z",
   "prs": [
+    {
+      "number": 4946,
+      "title": "Driver and API updates for using sym shapes",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-05T22:23:40Z",
+      "updated_at": "2026-07-28T02:05:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4946",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4954,
+      "title": "Add tiling for reductions",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T21:05:13Z",
+      "updated_at": "2026-07-28T01:25:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4954",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4952,
+      "title": "Bump CI to TheRock 7.14",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T16:46:19Z",
+      "updated_at": "2026-07-27T22:59:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4952",
+      "labels": [
+        "ok-to-test"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5020,
+      "title": "Add opt-in parallel finalization of independent operations",
+      "author": "aditya-dl",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-29T22:11:27Z",
+      "updated_at": "2026-07-27T21:35:17Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5020",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5097,
+      "title": "Bump gitpython from 3.1.52 to 3.1.54 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T20:55:43Z",
+      "updated_at": "2026-07-27T20:55:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5097",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5096,
+      "title": "[AIRADSW-732] Fix reshape layout propagation",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T12:06:18Z",
+      "updated_at": "2026-07-27T19:31:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5096",
+      "labels": [
+        "bugfix",
+        "Windows",
+        "UAI"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5086,
+      "title": "[AIMIGRAPHX-1186] TheRock packaging: amdrocm-migraphx naming + drop weak deps (per-arch packaging in UFB)",
+      "author": "kentqian",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T18:53:17Z",
+      "updated_at": "2026-07-27T18:32:36Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5086",
+      "labels": [
+        "dependencies"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5039,
+      "title": "Add opt-in sharing of identical weight literals across programs on a device",
+      "author": "aditya-dl",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-06T23:08:25Z",
+      "updated_at": "2026-07-27T16:36:56Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5039",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5095,
+      "title": "[ROCM-26952][AIMIGRAPHX-1082] Update workloads and EP registration for Onnxruntime workloads",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T02:25:41Z",
+      "updated_at": "2026-07-27T16:25:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5095",
+      "labels": [
+        "onnxruntime",
+        "Continous Integration"
+      ],
+      "draft": false
+    },
     {
       "number": 4616,
       "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
@@ -12,18 +133,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4998,
-      "title": "Bump CAPI version number for LDS usage estimation function",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-19T17:11:19Z",
-      "updated_at": "2026-07-25T17:52:50Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4998",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5028,
@@ -47,52 +156,6 @@
       "updated_at": "2026-07-25T09:48:57Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5085",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5095,
-      "title": "[ROCM-26952][AIMIGRAPHX-1082] Update workloads and EP registration for Onnxruntime workloads",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-25T02:25:41Z",
-      "updated_at": "2026-07-25T06:39:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5095",
-      "labels": [
-        "onnxruntime",
-        "Continous Integration"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5094,
-      "title": "Onnxruntime Weekly Sync 2026-07-24",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T17:43:14Z",
-      "updated_at": "2026-07-25T00:35:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5094",
-      "labels": [
-        "onnxruntime",
-        "dependencies",
-        "skip bot checks",
-        "automated"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5086,
-      "title": "[AIMIGRAPHX-1186] TheRock packaging: amdrocm-migraphx naming + drop weak deps (per-arch packaging in UFB)",
-      "author": "kentqian",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T18:53:17Z",
-      "updated_at": "2026-07-24T22:01:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5086",
-      "labels": [
-        "dependencies"
-      ],
       "draft": false
     },
     {
@@ -128,44 +191,6 @@
       "created_at": "2026-04-08T01:15:55Z",
       "updated_at": "2026-07-24T20:34:05Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4952,
-      "title": "Bump CI to TheRock 7.14",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-10T16:46:19Z",
-      "updated_at": "2026-07-24T19:15:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4952",
-      "labels": [
-        "ok-to-test"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4954,
-      "title": "Add tiling for reductions",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-10T21:05:13Z",
-      "updated_at": "2026-07-24T18:53:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4954",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4946,
-      "title": "Driver and API updates for using sym shapes",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-05T22:23:40Z",
-      "updated_at": "2026-07-24T18:03:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4946",
       "labels": [],
       "draft": false
     },
@@ -433,18 +458,6 @@
       "draft": true
     },
     {
-      "number": 5039,
-      "title": "Add opt-in sharing of identical weight literals across programs on a device",
-      "author": "aditya-dl",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-06T23:08:25Z",
-      "updated_at": "2026-07-16T23:49:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5039",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5067,
       "title": "[AIMIGRAPHX-1100] Add no-rebuild callback for verify",
       "author": "eddieliao",
@@ -545,18 +558,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5041",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5020,
-      "title": "Add opt-in parallel finalization of independent operations",
-      "author": "aditya-dl",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-29T22:11:27Z",
-      "updated_at": "2026-07-07T16:02:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5020",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5007,
@@ -1360,6 +1361,51 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 4780,
+      "title": "[AIMIGRAPHX-911] Add callback function to eval()",
+      "author": "eddieliao",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-13T16:41:23Z",
+      "updated_at": "2026-07-28T05:30:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4780",
+      "labels": [
+        "enhancement",
+        "Changelog: Added",
+        "ok-to-test"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4998,
+      "title": "Bump CAPI version number for LDS usage estimation function",
+      "author": "justinrosner",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-19T17:11:19Z",
+      "updated_at": "2026-07-27T20:51:43Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4998",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5094,
+      "title": "Onnxruntime Weekly Sync 2026-07-24",
+      "author": "github-actions[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-24T17:43:14Z",
+      "updated_at": "2026-07-27T18:33:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5094",
+      "labels": [
+        "onnxruntime",
+        "dependencies",
+        "skip bot checks",
+        "automated"
+      ],
+      "draft": false
     },
     {
       "number": 5090,
@@ -2499,59 +2545,6 @@
         "onnxruntime",
         "high priority",
         "Continous Integration"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4989,
-      "title": "[4979] Adaptive benchmark bundle during tuning",
-      "author": "itikhono",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-18T16:11:18Z",
-      "updated_at": "2026-06-25T20:32:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4989",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4591,
-      "title": "Support dynamic input values for range op",
-      "author": "klin2024",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-04T06:02:46Z",
-      "updated_at": "2026-06-25T15:00:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4591",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5012,
-      "title": "Use gfx90a for HIP RTC Debug",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-25T04:32:59Z",
-      "updated_at": "2026-06-25T13:34:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5012",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4729,
-      "title": "Improve horizontal fusions",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-01T17:38:20Z",
-      "updated_at": "2026-06-25T01:52:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4729",
-      "labels": [
-        "high priority",
-        "ok-to-test"
       ],
       "draft": false
     }

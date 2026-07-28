@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-07-27T11:00:25Z",
+  "collected_at": "2026-07-28T10:20:44Z",
   "prs": [
     {
-      "number": 502,
-      "title": "perf(cco): fast SDMA put trigger via single-slot reserve + lean commit",
-      "author": "jhchouuu",
+      "number": 177,
+      "title": "[IO] Add TCP backend and benchmark/test coverage",
+      "author": "maning00",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-27T03:38:26Z",
-      "updated_at": "2026-07-27T08:26:24Z",
-      "html_url": "https://github.com/ROCm/mori/pull/502",
+      "created_at": "2026-03-02T04:00:02Z",
+      "updated_at": "2026-07-28T09:45:13Z",
+      "html_url": "https://github.com/ROCm/mori/pull/177",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 503,
+      "title": "chore(cco): drop hip vmm api patches + update cco dockerfile",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T11:54:46Z",
+      "updated_at": "2026-07-28T09:13:17Z",
+      "html_url": "https://github.com/ROCm/mori/pull/503",
       "labels": [],
       "draft": false
     },
@@ -20,7 +32,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-01T03:49:39Z",
-      "updated_at": "2026-07-27T06:31:36Z",
+      "updated_at": "2026-07-28T03:25:05Z",
       "html_url": "https://github.com/ROCm/mori/pull/441",
       "labels": [],
       "draft": false
@@ -146,18 +158,6 @@
       "draft": false
     },
     {
-      "number": 177,
-      "title": "[IO] Add TCP backend and benchmark/test coverage",
-      "author": "maning00",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-03-02T04:00:02Z",
-      "updated_at": "2026-03-02T05:05:29Z",
-      "html_url": "https://github.com/ROCm/mori/pull/177",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 175,
       "title": "Add elastic EP for dispatch/combine flows",
       "author": "maning00",
@@ -190,6 +190,54 @@
       "created_at": "2025-10-23T06:18:50Z",
       "updated_at": "2026-01-08T09:18:21Z",
       "html_url": "https://github.com/ROCm/mori/pull/92",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 490,
+      "title": "feat(kv-indexer): ApplyExternalKvBatch RPC + Redis metadata backend (single/Dragonfly + Cluster)",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-20T08:57:55Z",
+      "updated_at": "2026-07-28T09:49:48Z",
+      "html_url": "https://github.com/ROCm/mori/pull/490",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 460,
+      "title": "Add UMBP standalone process mode",
+      "author": "maning00",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-09T09:38:07Z",
+      "updated_at": "2026-07-28T09:49:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/460",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 437,
+      "title": "Refactor: umbp metadata store rebase",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-29T07:13:40Z",
+      "updated_at": "2026-07-28T09:49:43Z",
+      "html_url": "https://github.com/ROCm/mori/pull/437",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 487,
+      "title": "perf(EPv2): optimize control plane latency in epv2 combine kernels",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-17T08:30:54Z",
+      "updated_at": "2026-07-28T09:49:36Z",
+      "html_url": "https://github.com/ROCm/mori/pull/487",
       "labels": [],
       "draft": false
     },
@@ -322,18 +370,6 @@
       "created_at": "2026-07-24T06:36:15Z",
       "updated_at": "2026-07-24T08:06:18Z",
       "html_url": "https://github.com/ROCm/mori/pull/498",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 437,
-      "title": "Refactor: umbp metadata store rebase",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-29T07:13:40Z",
-      "updated_at": "2026-07-24T07:41:27Z",
-      "html_url": "https://github.com/ROCm/mori/pull/437",
       "labels": [],
       "draft": false
     },
@@ -590,18 +626,6 @@
       "draft": false
     },
     {
-      "number": 460,
-      "title": "Add UMBP standalone process mode",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-09T09:38:07Z",
-      "updated_at": "2026-07-21T07:50:35Z",
-      "html_url": "https://github.com/ROCm/mori/pull/460",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 494,
       "title": "fix(EPv2): resolve comb_bar cross-call race causing random combine hang",
       "author": "kawhil-amd",
@@ -610,18 +634,6 @@
       "created_at": "2026-07-21T06:00:39Z",
       "updated_at": "2026-07-21T07:16:41Z",
       "html_url": "https://github.com/ROCm/mori/pull/494",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 490,
-      "title": "feat(kv-indexer): ApplyExternalKvBatch RPC + Redis metadata backend (single/Dragonfly + Cluster)",
-      "author": "isytwu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-20T08:57:55Z",
-      "updated_at": "2026-07-20T09:28:13Z",
-      "html_url": "https://github.com/ROCm/mori/pull/490",
       "labels": [],
       "draft": false
     },
@@ -874,18 +886,6 @@
       "created_at": "2026-07-17T07:33:41Z",
       "updated_at": "2026-07-20T03:20:09Z",
       "html_url": "https://github.com/ROCm/mori/pull/486",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 487,
-      "title": "perf(EPv2): optimize control plane latency in epv2 combine kernels",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-17T08:30:54Z",
-      "updated_at": "2026-07-20T03:18:33Z",
-      "html_url": "https://github.com/ROCm/mori/pull/487",
       "labels": [],
       "draft": false
     },
@@ -1186,18 +1186,6 @@
       "created_at": "2026-07-15T05:04:41Z",
       "updated_at": "2026-07-15T05:31:31Z",
       "html_url": "https://github.com/ROCm/mori/pull/477",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 476,
-      "title": "fix(cco): serialize handle import under the VMM process lock (SPMT race)",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T15:22:20Z",
-      "updated_at": "2026-07-15T05:02:16Z",
-      "html_url": "https://github.com/ROCm/mori/pull/476",
       "labels": [],
       "draft": false
     }

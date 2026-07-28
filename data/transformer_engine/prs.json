@@ -1,6 +1,20 @@
 {
-  "collected_at": "2026-07-27T11:00:32Z",
+  "collected_at": "2026-07-28T10:20:51Z",
   "prs": [
+    {
+      "number": 660,
+      "title": "Ifu dev 20260706 v2.17",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T16:25:50Z",
+      "updated_at": "2026-07-28T06:51:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 625,
       "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
@@ -8,7 +22,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-07-27T05:39:00Z",
+      "updated_at": "2026-07-27T22:35:32Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
       "labels": [],
       "draft": false
@@ -20,35 +34,37 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-05-29T15:33:31Z",
-      "updated_at": "2026-07-27T03:45:47Z",
+      "updated_at": "2026-07-27T21:58:37Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
       "labels": [],
       "draft": false
     },
     {
-      "number": 658,
-      "title": "blockwise fp8 gemm integration for gfx942 and gfx950",
-      "author": "asdfvg123",
+      "number": 666,
+      "title": "Updated CK/AITER Cmake Build",
+      "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-06T22:01:12Z",
-      "updated_at": "2026-07-27T01:58:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
+      "created_at": "2026-07-09T18:38:18Z",
+      "updated_at": "2026-07-27T20:56:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/666",
       "labels": [
-        "ci-level 3"
+        "ci-level 1"
       ],
       "draft": false
     },
     {
-      "number": 682,
-      "title": "HipKittens MXFP8 scale lane-reordering",
-      "author": "alextmagro",
+      "number": 680,
+      "title": "gfx942 AITER V3 split-kv kernels",
+      "author": "ipanfilo",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-26T14:14:05Z",
-      "updated_at": "2026-07-26T14:14:41Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/682",
-      "labels": [],
+      "created_at": "2026-07-24T22:18:30Z",
+      "updated_at": "2026-07-27T18:55:15Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/680",
+      "labels": [
+        "ci-level 2"
+      ],
       "draft": false
     },
     {
@@ -88,34 +104,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/681",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 680,
-      "title": "gfx942 AITER V3 split-kv kernels",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T22:18:30Z",
-      "updated_at": "2026-07-24T22:27:53Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/680",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 660,
-      "title": "Ifu dev 20260706 v2.17",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-24T19:12:11Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     },
@@ -255,20 +243,6 @@
       "updated_at": "2026-07-21T04:29:25Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 666,
-      "title": "Updated CK/AITER Cmake Build",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T18:38:18Z",
-      "updated_at": "2026-07-20T20:19:05Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/666",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": false
     },
     {
@@ -691,6 +665,34 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 682,
+      "title": "HipKittens MXFP8 scale lane-reordering",
+      "author": "alextmagro",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-26T14:14:05Z",
+      "updated_at": "2026-07-28T00:38:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/682",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 658,
+      "title": "blockwise fp8 gemm integration for gfx942 and gfx950",
+      "author": "asdfvg123",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-06T22:01:12Z",
+      "updated_at": "2026-07-27T21:14:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/658",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1802,32 +1804,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 553,
-      "title": "Refactor TE's CK backend padding add/remove kernels",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-20T21:28:53Z",
-      "updated_at": "2026-04-27T18:38:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/553",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 561,
-      "title": "Moved CK/AITER source validation earlier",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-24T17:07:59Z",
-      "updated_at": "2026-04-27T14:21:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/561",
-      "labels": [],
       "draft": false
     }
   ]
