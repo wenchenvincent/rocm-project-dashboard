@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-07-28T10:22:57Z",
+  "collected_at": "2026-07-29T10:28:43Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 56,
-      "merged": 48,
-      "closed": 6
+      "opened": 57,
+      "merged": 39,
+      "closed": 9
     },
     "last_week": {
-      "opened": 56,
-      "merged": 48,
-      "closed": 8
+      "opened": 50,
+      "merged": 54,
+      "closed": 5
     },
-    "median_time_to_merge_hours": 13.9,
-    "merge_count": 102,
-    "stale_prs": 52
+    "median_time_to_merge_hours": 16.0,
+    "merge_count": 99,
+    "stale_prs": 54
   },
   "contributors": {
-    "active_this_week": 36,
+    "active_this_week": 32,
     "total_contributors": 76,
     "top_contributors": [
       {
-        "author": "valarLip",
-        "prs_submitted": 14,
-        "prs_merged": 13,
-        "commits": 24
+        "author": "carlushuang",
+        "prs_submitted": 13,
+        "prs_merged": 0,
+        "commits": 0
       },
       {
         "author": "PerryZhang01",
@@ -34,21 +34,21 @@
         "commits": 8
       },
       {
-        "author": "JiaoliangYu",
-        "prs_submitted": 12,
-        "prs_merged": 3,
-        "commits": 3
+        "author": "valarLip",
+        "prs_submitted": 13,
+        "prs_merged": 12,
+        "commits": 23
       },
       {
-        "author": "carlushuang",
+        "author": "JiaoliangYu",
         "prs_submitted": 12,
-        "prs_merged": 0,
-        "commits": 0
+        "prs_merged": 4,
+        "commits": 4
       },
       {
         "author": "ZhangLirong-amd",
         "prs_submitted": 11,
-        "prs_merged": 9,
+        "prs_merged": 10,
         "commits": 18
       },
       {
@@ -70,30 +70,30 @@
         "commits": 10
       },
       {
-        "author": "zejunchen-zejun",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 10
-      },
-      {
         "author": "junyyang-amd",
         "prs_submitted": 8,
         "prs_merged": 7,
         "commits": 18
+      },
+      {
+        "author": "zhangxinyuanliuhengyu",
+        "prs_submitted": 7,
+        "prs_merged": 5,
+        "commits": 9
       }
     ],
     "bus_factor": 6
   },
   "issue_health": {
-    "total_open": 67,
-    "opened_this_week": 5,
-    "closed_this_week": 2,
+    "total_open": 69,
+    "opened_this_week": 6,
+    "closed_this_week": 0,
     "unanswered": 20
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 23.7,
+    "days_since_last": 24.7,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

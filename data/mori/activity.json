@@ -1,29 +1,29 @@
 {
-  "collected_at": "2026-07-28T10:23:13Z",
+  "collected_at": "2026-07-29T10:28:57Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
       "opened": 8,
-      "merged": 10,
-      "closed": 2
+      "merged": 7,
+      "closed": 1
     },
     "last_week": {
-      "opened": 20,
-      "merged": 24,
+      "opened": 19,
+      "merged": 20,
       "closed": 3
     },
-    "median_time_to_merge_hours": 14.8,
-    "merge_count": 87,
+    "median_time_to_merge_hours": 16.0,
+    "merge_count": 80,
     "stale_prs": 4
   },
   "contributors": {
-    "active_this_week": 12,
-    "total_contributors": 23,
+    "active_this_week": 10,
+    "total_contributors": 24,
     "top_contributors": [
       {
         "author": "TianDi101",
-        "prs_submitted": 26,
+        "prs_submitted": 27,
         "prs_merged": 24,
         "commits": 1
       },
@@ -31,12 +31,12 @@
         "author": "maning00",
         "prs_submitted": 20,
         "prs_merged": 16,
-        "commits": 10
+        "commits": 8
       },
       {
         "author": "jhchouuu",
-        "prs_submitted": 11,
-        "prs_merged": 10,
+        "prs_submitted": 13,
+        "prs_merged": 11,
         "commits": 18
       },
       {
@@ -55,7 +55,7 @@
         "author": "kawhil-amd",
         "prs_submitted": 5,
         "prs_merged": 4,
-        "commits": 7
+        "commits": 6
       },
       {
         "author": "QizhouZhang97",
@@ -70,7 +70,7 @@
         "commits": 0
       },
       {
-        "author": "AMD-yanfeiwang",
+        "author": "amirakb89",
         "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 11.9,
+    "days_since_last": 12.9,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v1.2.2"

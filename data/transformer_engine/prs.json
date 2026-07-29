@@ -1,18 +1,16 @@
 {
-  "collected_at": "2026-07-28T10:20:51Z",
+  "collected_at": "2026-07-29T10:26:44Z",
   "prs": [
     {
-      "number": 660,
-      "title": "Ifu dev 20260706 v2.17",
-      "author": "AllenFarcas",
+      "number": 602,
+      "title": "Update CI to use TheRock",
+      "author": "VeeraRajasekhar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-07T16:25:50Z",
-      "updated_at": "2026-07-28T06:51:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
-      "labels": [
-        "ci-level 3"
-      ],
+      "created_at": "2026-05-29T15:33:31Z",
+      "updated_at": "2026-07-29T07:57:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
+      "labels": [],
       "draft": false
     },
     {
@@ -22,20 +20,114 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-07-27T22:35:32Z",
+      "updated_at": "2026-07-29T06:11:42Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
       "labels": [],
       "draft": false
     },
     {
-      "number": 602,
-      "title": "Update CI to use TheRock",
-      "author": "VeeraRajasekhar",
+      "number": 684,
+      "title": "Update claude model for PR review",
+      "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-05-29T15:33:31Z",
-      "updated_at": "2026-07-27T21:58:37Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
+      "created_at": "2026-07-28T18:03:40Z",
+      "updated_at": "2026-07-29T04:18:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/684",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 683,
+      "title": "Updated AITER/QoLA",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T15:38:43Z",
+      "updated_at": "2026-07-29T04:18:22Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/683",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 685,
+      "title": "[Hot Fix] guard architectures for blockwise fp8 gemm",
+      "author": "asdfvg123",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T19:49:46Z",
+      "updated_at": "2026-07-29T04:11:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/685",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 639,
+      "title": "grouped gemm microbenchmark: use te.GroupedLinear",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-18T23:15:50Z",
+      "updated_at": "2026-07-29T04:04:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/639",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 676,
+      "title": "[WIP] Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T03:23:51Z",
+      "updated_at": "2026-07-28T23:58:01Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 661,
+      "title": "Grouped MXFP8 GEMMs with HipKittens",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T16:44:30Z",
+      "updated_at": "2026-07-28T21:42:56Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "Initial integration of a4w4 GEMM",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T20:00:46Z",
+      "updated_at": "2026-07-28T17:50:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": true
+    },
+    {
+      "number": 678,
+      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
+      "author": "shurale-nkn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T15:17:24Z",
+      "updated_at": "2026-07-28T15:41:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
       "labels": [],
       "draft": false
     },
@@ -108,18 +200,6 @@
       "draft": false
     },
     {
-      "number": 678,
-      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-07-24T17:05:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 679,
       "title": "microbenchmarks: usv implementation",
       "author": "matthiasdiener",
@@ -156,20 +236,6 @@
       "draft": false
     },
     {
-      "number": 663,
-      "title": "Initial integration of a4w4 GEMM",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T20:00:46Z",
-      "updated_at": "2026-07-23T20:25:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": true
-    },
-    {
       "number": 673,
       "title": "ci: bump te-rocm-wheels artifact retention 1d -> 5d",
       "author": "wenchenvincent",
@@ -178,32 +244,6 @@
       "created_at": "2026-07-17T17:33:32Z",
       "updated_at": "2026-07-23T20:05:29Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/673",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 676,
-      "title": "[WIP] Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-07-23T04:31:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 639,
-      "title": "grouped gemm microbenchmark: use te.GroupedLinear",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T23:15:50Z",
-      "updated_at": "2026-07-22T22:22:26Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/639",
       "labels": [],
       "draft": false
     },
@@ -243,20 +283,6 @@
       "updated_at": "2026-07-21T04:29:25Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 661,
-      "title": "Grouped MXFP8 GEMMs with HipKittens",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:44:30Z",
-      "updated_at": "2026-07-20T19:36:43Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -665,6 +691,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 660,
+      "title": "Ifu dev 20260706 v2.17",
+      "author": "AllenFarcas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-07T16:25:50Z",
+      "updated_at": "2026-07-28T15:30:37Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1787,20 +1827,6 @@
       "created_at": "2026-04-13T19:01:58Z",
       "updated_at": "2026-04-28T03:35:30Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/537",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 508,
-      "title": "[TE] Enable deterministic mode for fused attention",
-      "author": "AllenFarcas",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-27T18:37:04Z",
-      "updated_at": "2026-04-27T18:41:41Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/508",
       "labels": [
         "ci-level 3"
       ],

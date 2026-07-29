@@ -1,6 +1,104 @@
 {
-  "collected_at": "2026-07-28T10:20:48Z",
+  "collected_at": "2026-07-29T10:26:41Z",
   "prs": [
+    {
+      "number": 876,
+      "title": "MegaMoE on Gfx950",
+      "author": "GwilliamHu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T02:44:12Z",
+      "updated_at": "2026-07-29T10:20:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "[Perf] Optimize rmsnorm/layernorm",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-07-29T09:44:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 919,
+      "title": "perf(attention): keep a head's Q-blocks on one XCD in the dualwave mapping",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T15:52:27Z",
+      "updated_at": "2026-07-29T08:34:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/919",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 922,
+      "title": "[llvm] bump up llvm and adapt FlyDSL to new api",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T03:58:23Z",
+      "updated_at": "2026-07-29T06:07:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/922",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 913,
+      "title": "Port GEMM/MoE/conv kernels to the layout API",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T14:49:30Z",
+      "updated_at": "2026-07-29T04:39:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/913",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 918,
+      "title": "[Bugfix][Dialect] Reject vector operands in atomic copy atoms",
+      "author": "AiyyappanMR",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T12:49:41Z",
+      "updated_at": "2026-07-29T04:29:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/918",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 920,
+      "title": "[DSL] Preserve logical signedness of unsigned integer dtypes",
+      "author": "Arist12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T19:32:56Z",
+      "updated_at": "2026-07-29T03:55:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/920",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 921,
+      "title": "[Feat] Add to_llvm_ptr op to convert fly.ptr to llvm.ptr ",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T02:59:40Z",
+      "updated_at": "2026-07-29T03:35:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/921",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 907,
       "title": "Add stochastic rounding and philox RNG helpers",
@@ -8,32 +106,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-26T18:37:29Z",
-      "updated_at": "2026-07-28T09:50:35Z",
+      "updated_at": "2026-07-29T03:06:06Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
       "labels": [],
       "draft": false
     },
     {
-      "number": 915,
-      "title": "[ROCDL] Add arch-aware universal s_waitcnt",
-      "author": "sjfeng1999",
+      "number": 823,
+      "title": "[MoE] Add gelu_tanh activation to MoE stage1 GEMM kernels",
+      "author": "jonahbernard",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-28T04:00:34Z",
-      "updated_at": "2026-07-28T09:28:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/915",
+      "created_at": "2026-07-09T23:19:00Z",
+      "updated_at": "2026-07-28T19:31:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/823",
       "labels": [],
       "draft": false
     },
     {
-      "number": 916,
-      "title": "[Enh] Add rounding-mode control for float-to-float casts",
-      "author": "sjfeng1999",
+      "number": 914,
+      "title": "[Dialect][Perf] Don't merge mixed static/runtime offsets on LDS pointers",
+      "author": "Arist12",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-28T08:54:53Z",
-      "updated_at": "2026-07-28T09:24:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/916",
+      "created_at": "2026-07-27T23:39:08Z",
+      "updated_at": "2026-07-28T17:00:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/914",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 901,
+      "title": "Add Optimized MoE Routing Path",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T19:56:02Z",
+      "updated_at": "2026-07-28T16:27:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
       "labels": [],
       "draft": false
     },
@@ -44,20 +154,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-23T16:20:46Z",
-      "updated_at": "2026-07-28T09:20:31Z",
+      "updated_at": "2026-07-28T14:09:34Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/894",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 848,
-      "title": "[Perf] Optimize rmsnorm/layernorm",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-07-28T08:15:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
       "labels": [],
       "draft": false
     },
@@ -74,18 +172,6 @@
       "draft": false
     },
     {
-      "number": 914,
-      "title": "[Dialect][Perf] Don't merge mixed static/runtime offsets on LDS pointers",
-      "author": "Arist12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T23:39:08Z",
-      "updated_at": "2026-07-28T04:40:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/914",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 900,
       "title": "Enabling coexec llvm for Flydsl",
       "author": "omuhamma",
@@ -94,30 +180,6 @@
       "created_at": "2026-07-24T16:44:29Z",
       "updated_at": "2026-07-27T23:03:27Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/900",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 901,
-      "title": "Add Optimized MoE Routing Path",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T19:56:02Z",
-      "updated_at": "2026-07-27T17:11:46Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 913,
-      "title": "Port GEMM/MoE/conv kernels to the layout API",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T14:49:30Z",
-      "updated_at": "2026-07-27T15:04:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/913",
       "labels": [],
       "draft": true
     },
@@ -131,20 +193,6 @@
       "updated_at": "2026-07-27T13:02:41Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/912",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 876,
-      "title": "MegaMoEV1 on Gfx950",
-      "author": "GwilliamHu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T02:44:12Z",
-      "updated_at": "2026-07-27T11:23:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
-      "labels": [
-        "multi-gpu"
-      ],
       "draft": false
     },
     {
@@ -180,18 +228,6 @@
       "created_at": "2026-07-23T10:12:30Z",
       "updated_at": "2026-07-27T03:42:59Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/891",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 899,
-      "title": "[fix] Autotuner: propagate the tuned function's return value",
-      "author": "aryaman-gupta",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T14:51:25Z",
-      "updated_at": "2026-07-27T01:55:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/899",
       "labels": [],
       "draft": false
     },
@@ -338,18 +374,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 823,
-      "title": "[MoE] Add gelu_tanh activation to MoE stage1 GEMM kernels",
-      "author": "jonahbernard",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T23:19:00Z",
-      "updated_at": "2026-07-11T14:42:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/823",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 829,
@@ -684,6 +708,42 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 899,
+      "title": "[fix] Autotuner: propagate the tuned function's return value",
+      "author": "aryaman-gupta",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-24T14:51:25Z",
+      "updated_at": "2026-07-29T09:47:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/899",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 916,
+      "title": "[Enh] Add rounding-mode control for float-to-float casts",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-28T08:54:53Z",
+      "updated_at": "2026-07-28T16:04:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/916",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 915,
+      "title": "[ROCDL] Add arch-aware universal s_waitcnt",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-28T04:00:34Z",
+      "updated_at": "2026-07-28T16:03:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/915",
       "labels": [],
       "draft": false
     },
@@ -1588,54 +1648,6 @@
       "created_at": "2026-07-01T07:22:16Z",
       "updated_at": "2026-07-01T07:28:04Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/787",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 778,
-      "title": "refactor: move scalar buffer_load and maxnumf into the FlyDSL framework",
-      "author": "fsx950223",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-30T10:11:15Z",
-      "updated_at": "2026-07-01T06:31:26Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/778",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 781,
-      "title": "[Docs] Refer to gfx1250 by arch name only in docs and comments",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T06:29:06Z",
-      "updated_at": "2026-07-01T06:29:54Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/781",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 779,
-      "title": "Add boundary check on example01, make it target-neutral",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-30T15:37:32Z",
-      "updated_at": "2026-07-01T03:35:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/779",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 737,
-      "title": "ci: restore CI performance dashboard (gh-pages, lean main) + README badges",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-25T03:34:51Z",
-      "updated_at": "2026-06-30T11:10:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/737",
       "labels": [],
       "draft": false
     }

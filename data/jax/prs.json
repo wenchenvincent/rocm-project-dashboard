@@ -1,32 +1,52 @@
 {
-  "collected_at": "2026-07-28T10:19:48Z",
+  "collected_at": "2026-07-29T10:25:43Z",
   "prs": [
     {
-      "number": 39220,
-      "title": "[WIP][ROCm] Add runfiles data files for proper hermetic bzl test execution",
+      "number": 39419,
+      "title": "[ROCm] Fix invalid parallel local jobs execution",
       "author": "alekstheod",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-16T12:37:36Z",
-      "updated_at": "2026-07-28T09:04:36Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39220",
-      "labels": [],
+      "created_at": "2026-07-24T07:24:39Z",
+      "updated_at": "2026-07-28T19:56:52Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39419",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
       "draft": false
     },
     {
       "number": 38810,
-      "title": "[ROCm] Add TheRock N/N+1 coverage to nightly and continuous CI workflows",
+      "title": "[ROCm] Add TheRock 7.14.0/latest coverage to CI workflows",
       "author": "mminutoli",
       "state": "open",
       "merged": false,
       "created_at": "2026-06-26T22:36:22Z",
-      "updated_at": "2026-07-28T08:35:23Z",
+      "updated_at": "2026-07-28T19:45:03Z",
       "html_url": "https://github.com/jax-ml/jax/pull/38810",
       "labels": [
+        "kokoro:force-run",
+        "pull ready",
         "CI",
         "AMD GPU"
       ],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 39220,
+      "title": "[ROCm] Add runfiles data files for proper hermetic bzl test execution",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T12:37:36Z",
+      "updated_at": "2026-07-28T15:14:30Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39220",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
     },
     {
       "number": 39473,
@@ -49,21 +69,6 @@
       "created_at": "2026-07-24T13:14:28Z",
       "updated_at": "2026-07-24T14:35:29Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39424",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39419,
-      "title": "[ROCm] Fix invalid parallel local jobs execution",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T07:24:39Z",
-      "updated_at": "2026-07-24T12:18:11Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39419",
       "labels": [
         "kokoro:force-run",
         "pull ready"
@@ -582,18 +587,6 @@
         "AMD GPU"
       ],
       "draft": false
-    },
-    {
-      "number": 37071,
-      "title": "[ROCm] Switch to hermetic llvm",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-22T06:09:01Z",
-      "updated_at": "2026-05-18T10:40:48Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37071",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 36572,

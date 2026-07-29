@@ -1,29 +1,47 @@
 {
-  "collected_at": "2026-07-28T10:20:21Z",
+  "collected_at": "2026-07-29T10:26:15Z",
   "prs": [
     {
-      "number": 4946,
-      "title": "Driver and API updates for using sym shapes",
-      "author": "shivadbhavsar",
+      "number": 5099,
+      "title": "Use #embed to embed files when its available",
+      "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-05T22:23:40Z",
-      "updated_at": "2026-07-28T02:05:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4946",
+      "created_at": "2026-07-28T23:21:16Z",
+      "updated_at": "2026-07-29T02:43:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5099",
       "labels": [],
       "draft": false
     },
     {
-      "number": 4954,
-      "title": "Add tiling for reductions",
-      "author": "pfultz2",
+      "number": 5084,
+      "title": "[AIMIGRAPHX-1175] Add terminate handler for Windows",
+      "author": "eddieliao",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-10T21:05:13Z",
-      "updated_at": "2026-07-28T01:25:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4954",
-      "labels": [],
+      "created_at": "2026-07-21T20:14:38Z",
+      "updated_at": "2026-07-29T01:10:56Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5084",
+      "labels": [
+        "enhancement",
+        "simple",
+        "Windows",
+        "UAI",
+        "Changelog: Added"
+      ],
       "draft": false
+    },
+    {
+      "number": 5075,
+      "title": "rebias uint8 to int8 on models with mixed datatypes",
+      "author": "kahmed10",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T16:30:31Z",
+      "updated_at": "2026-07-28T22:20:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5075",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 4952,
@@ -32,10 +50,62 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-10T16:46:19Z",
-      "updated_at": "2026-07-27T22:59:55Z",
+      "updated_at": "2026-07-28T22:17:46Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4952",
       "labels": [
         "ok-to-test"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5092,
+      "title": "Add fp32 winograd for gfx12",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T15:59:32Z",
+      "updated_at": "2026-07-28T22:01:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4752,
+      "title": "Add std C++ components to rocm namespace and add unit tests",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-08T01:15:55Z",
+      "updated_at": "2026-07-28T19:36:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5026,
+      "title": "Enable mlir attention for yolon12",
+      "author": "weizhu12-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T01:04:56Z",
+      "updated_at": "2026-07-28T18:23:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5026",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5096,
+      "title": "[AIRADSW-732] Fix reshape layout propagation",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T12:06:18Z",
+      "updated_at": "2026-07-28T14:43:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5096",
+      "labels": [
+        "bugfix",
+        "Windows",
+        "UAI"
       ],
       "draft": false
     },
@@ -66,22 +136,6 @@
       "draft": false
     },
     {
-      "number": 5096,
-      "title": "[AIRADSW-732] Fix reshape layout propagation",
-      "author": "ivarusic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T12:06:18Z",
-      "updated_at": "2026-07-27T19:31:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5096",
-      "labels": [
-        "bugfix",
-        "Windows",
-        "UAI"
-      ],
-      "draft": false
-    },
-    {
       "number": 5086,
       "title": "[AIMIGRAPHX-1186] TheRock packaging: amdrocm-migraphx naming + drop weak deps (per-arch packaging in UFB)",
       "author": "kentqian",
@@ -106,21 +160,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5039",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5095,
-      "title": "[ROCM-26952][AIMIGRAPHX-1082] Update workloads and EP registration for Onnxruntime workloads",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-25T02:25:41Z",
-      "updated_at": "2026-07-27T16:25:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5095",
-      "labels": [
-        "onnxruntime",
-        "Continous Integration"
-      ],
-      "draft": false
     },
     {
       "number": 4616,
@@ -183,18 +222,6 @@
       "draft": false
     },
     {
-      "number": 4752,
-      "title": "Add std C++ components to rocm namespace and add unit tests",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-08T01:15:55Z",
-      "updated_at": "2026-07-24T20:34:05Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4924,
       "title": "concat: treat fully-unconstrained dynamic dim as a wildcard",
       "author": "chun-wan",
@@ -217,36 +244,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5001",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5084,
-      "title": "[AIMIGRAPHX-1175] Add terminate handler for Windows",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T20:14:38Z",
-      "updated_at": "2026-07-24T17:22:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5084",
-      "labels": [
-        "enhancement",
-        "simple",
-        "Windows",
-        "UAI",
-        "Changelog: Added"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5092,
-      "title": "Add fp32 winograd for gfx12",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T15:59:32Z",
-      "updated_at": "2026-07-24T15:58:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4606,
@@ -360,18 +357,6 @@
       "draft": false
     },
     {
-      "number": 5026,
-      "title": "Enable mlir attention for yolon12",
-      "author": "weizhu12-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T01:04:56Z",
-      "updated_at": "2026-07-22T02:49:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5026",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5014,
       "title": "Hoist and horizontal dot",
       "author": "TedThemistokleous",
@@ -420,18 +405,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4956",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5075,
-      "title": "rebias uint8 to int8 on models with mixed datatypes",
-      "author": "kahmed10",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-17T16:30:31Z",
-      "updated_at": "2026-07-17T19:28:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5075",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5073,
@@ -1361,6 +1334,45 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5095,
+      "title": "[ROCM-26952][AIMIGRAPHX-1082] Update workloads and EP registration for Onnxruntime workloads",
+      "author": "TedThemistokleous",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-25T02:25:41Z",
+      "updated_at": "2026-07-29T04:50:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5095",
+      "labels": [
+        "onnxruntime",
+        "Continous Integration"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4954,
+      "title": "Add tiling for reductions",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-10T21:05:13Z",
+      "updated_at": "2026-07-28T23:43:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4954",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4946,
+      "title": "Driver and API updates for using sym shapes",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-05T22:23:40Z",
+      "updated_at": "2026-07-28T16:21:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4946",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 4780,
@@ -2500,52 +2512,6 @@
       "updated_at": "2026-06-26T01:54:53Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4981",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4965,
-      "title": "[Docs] Add precision support reference page",
-      "author": "adeljo-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-15T12:25:31Z",
-      "updated_at": "2026-06-25T22:03:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4965",
-      "labels": [
-        "documentation",
-        "Changelog: Not Applicable"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4984,
-      "title": "[AIMIGRAPHX-885] Add concat reshape matcher",
-      "author": "TedThemistokleous",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-17T19:40:39Z",
-      "updated_at": "2026-06-25T22:02:05Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4984",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5002,
-      "title": "[AIMIGRAPHX-1082] Update OnnxRT workloads use Plugin EP Registration",
-      "author": "TedThemistokleous",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-19T21:47:09Z",
-      "updated_at": "2026-06-25T20:42:23Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5002",
-      "labels": [
-        "roadmap",
-        "onnxruntime",
-        "high priority",
-        "Continous Integration"
-      ],
       "draft": false
     }
   ]

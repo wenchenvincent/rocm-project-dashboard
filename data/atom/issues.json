@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-07-28T10:20:41Z",
+  "collected_at": "2026-07-29T10:26:34Z",
   "issues": [
+    {
+      "number": 1722,
+      "title": "[Perf Regression] 30 config(s) regressed @ 4a090c70",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-07-29T03:20:56Z",
+      "updated_at": "2026-07-29T03:20:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1722",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 1720,
+      "title": "[Perf Regression] 30 config(s) regressed @ 4a090c70",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-07-28T22:50:52Z",
+      "updated_at": "2026-07-28T22:50:52Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1720",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 1714,
       "title": "[Perf Regression] 43 config(s) regressed @ 3bfb3dfb",

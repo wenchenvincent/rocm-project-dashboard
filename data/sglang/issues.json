@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-28T10:20:15Z",
+  "collected_at": "2026-07-29T10:26:09Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,38 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-28T10:11:20Z",
+      "updated_at": "2026-07-29T10:12:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 31783,
+      "title": "[Roadmap] Quantization 2026 H2",
+      "author": "OrangeRedeng",
+      "state": "open",
+      "created_at": "2026-07-20T13:24:05Z",
+      "updated_at": "2026-07-29T10:06:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31783",
+      "labels": []
+    },
+    {
+      "number": 27898,
+      "title": "[RFC] Beyond Passive Byte Stores: Scheduler-Aware Multi-Tier KV Caching for SGLang with MORI-UMBP",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-06-11T08:00:41Z",
+      "updated_at": "2026-07-29T03:18:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27898",
+      "labels": []
+    },
+    {
+      "number": 32712,
+      "title": "[Feature] [RFC] SharedEP: a zerocopy execution model for MoE Expert Parallelism",
+      "author": "foraxe",
+      "state": "open",
+      "created_at": "2026-07-29T02:17:34Z",
+      "updated_at": "2026-07-29T02:28:53Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/32712",
       "labels": []
     },
     {
@@ -17,9 +47,35 @@
       "author": "geohot",
       "state": "open",
       "created_at": "2026-07-27T20:33:16Z",
-      "updated_at": "2026-07-28T06:33:17Z",
+      "updated_at": "2026-07-28T21:13:37Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/32569",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 32321,
+      "title": "[RFC] Make BaseTpWorker the explicit framework-to-backend boundary - MLX runner-stub redesign",
+      "author": "noob-se7en",
+      "state": "open",
+      "created_at": "2026-07-24T12:54:43Z",
+      "updated_at": "2026-07-28T21:00:45Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/32321",
       "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-07-28T17:04:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
     },
     {
       "number": 27937,
@@ -29,16 +85,6 @@
       "created_at": "2026-06-11T15:46:32Z",
       "updated_at": "2026-07-28T00:52:44Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/27937",
-      "labels": []
-    },
-    {
-      "number": 31783,
-      "title": "[Roadmap] Quantization 2026 H2",
-      "author": "OrangeRedeng",
-      "state": "open",
-      "created_at": "2026-07-20T13:24:05Z",
-      "updated_at": "2026-07-27T23:30:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31783",
       "labels": []
     },
     {
@@ -72,16 +118,6 @@
       "labels": []
     },
     {
-      "number": 32321,
-      "title": "[RFC] Make BaseTpWorker the explicit framework-to-backend boundary - MLX runner-stub redesign",
-      "author": "noob-se7en",
-      "state": "open",
-      "created_at": "2026-07-24T12:54:43Z",
-      "updated_at": "2026-07-27T18:20:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32321",
-      "labels": []
-    },
-    {
       "number": 30599,
       "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
       "author": "AIwork4me",
@@ -100,20 +136,6 @@
       "updated_at": "2026-07-25T13:37:14Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30734",
       "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-07-25T03:58:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
     },
     {
       "number": 31359,
@@ -182,16 +204,6 @@
       "created_at": "2026-06-04T00:27:55Z",
       "updated_at": "2026-07-23T01:20:44Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/27194",
-      "labels": []
-    },
-    {
-      "number": 27898,
-      "title": "[RFC] Beyond Passive Byte Stores: Scheduler-Aware Multi-Tier KV Caching for SGLang with MORI-UMBP",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-06-11T08:00:41Z",
-      "updated_at": "2026-07-22T17:46:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27898",
       "labels": []
     },
     {
@@ -387,16 +399,6 @@
       "labels": []
     },
     {
-      "number": 30931,
-      "title": "[Build] Build without CUDA",
-      "author": "kiefernforst",
-      "state": "open",
-      "created_at": "2026-07-12T11:44:44Z",
-      "updated_at": "2026-07-12T19:33:36Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30931",
-      "labels": []
-    },
-    {
       "number": 30781,
       "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
       "author": "tanguofu",
@@ -434,16 +436,6 @@
       "created_at": "2026-06-01T06:01:24Z",
       "updated_at": "2026-07-07T09:48:45Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/26890",
-      "labels": []
-    },
-    {
-      "number": 29864,
-      "title": "[AMD/ROCm] store_cache_4d Triton kernel fails to compile on ROCm 7.2.0 (TritonAMDGPUCanonicalizePointers)",
-      "author": "michaelzhang-ai",
-      "state": "open",
-      "created_at": "2026-07-01T18:31:23Z",
-      "updated_at": "2026-07-07T02:07:57Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29864",
       "labels": []
     },
     {
@@ -566,16 +558,6 @@
       "created_at": "2026-06-21T00:21:29Z",
       "updated_at": "2026-06-21T00:21:29Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/28815",
-      "labels": []
-    },
-    {
-      "number": 28685,
-      "title": "[Bug] GLM-5.2-FP8 (DeepSeek-V3.2 / DSA block-fp8) produces wrong output on gfx950 (MI350X/MI355X): aiter gemm_a8w8_blockscale_bpreshuffle is numerically incorrect",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-06-18T23:07:34Z",
-      "updated_at": "2026-06-19T20:47:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/28685",
       "labels": []
     }
   ]
