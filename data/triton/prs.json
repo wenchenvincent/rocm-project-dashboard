@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-07-29T10:26:11Z",
+  "collected_at": "2026-07-30T10:09:10Z",
   "prs": [
+    {
+      "number": 11040,
+      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T22:25:24Z",
+      "updated_at": "2026-07-29T23:30:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11040",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10886,
+      "title": "[AMD] Emit actionable errors when a direct-to-LDS copy cannot be lowered",
+      "author": "vmalepati1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T23:59:49Z",
+      "updated_at": "2026-07-29T22:02:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11096,
+      "title": "[AMD] Fix missing MachineSink fence for scalar atomic-in-loop on gfx950",
+      "author": "patelkrish5090",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T20:33:43Z",
+      "updated_at": "2026-07-29T20:33:44Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11096",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11019,
+      "title": "[AMD] Fix buffer atomic exchange intrinsic",
+      "author": "umangyadav",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-22T23:27:40Z",
+      "updated_at": "2026-07-29T17:34:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11019",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10906,
+      "title": " [AMD] Restrict BarrierOpConversion to CDNA to avoid ROCm numeric drift on RDNA",
+      "author": "k-artem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T14:44:45Z",
+      "updated_at": "2026-07-29T15:15:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10906",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11092,
+      "title": "[AMD][gfx1250] Add noalias_args pointer contract",
+      "author": "jerryyin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T13:56:10Z",
+      "updated_at": "2026-07-29T14:31:54Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11092",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11049,
+      "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
+      "author": "JAGANNATHANJP",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T17:04:26Z",
+      "updated_at": "2026-07-29T14:00:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11049",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11055,
       "title": "[AMD] Guard HIP launcher against kernel arg/annotation count mismatch",
@@ -62,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 11040,
-      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T22:25:24Z",
-      "updated_at": "2026-07-29T02:19:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11040",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10878,
       "title": "[AMD] Add RDNA4m target",
       "author": "ptrojahn",
@@ -122,42 +194,6 @@
       "draft": false
     },
     {
-      "number": 11019,
-      "title": "[AMD] Fix buffer atomic exchange intrinsic",
-      "author": "umangyadav",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T23:27:40Z",
-      "updated_at": "2026-07-28T14:45:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11019",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10886,
-      "title": "[AMD] Emit actionable errors when a direct-to-LDS copy cannot be lowered",
-      "author": "vmalepati1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T23:59:49Z",
-      "updated_at": "2026-07-28T08:59:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10886",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10906,
-      "title": " [AMD] Restrict BarrierOpConversion to CDNA to avoid ROCm numeric drift on RDNA",
-      "author": "k-artem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T14:44:45Z",
-      "updated_at": "2026-07-28T05:52:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10906",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11009,
       "title": "[AMD] rocprofsdk finalization fix for proton",
       "author": "ZelboK",
@@ -192,18 +228,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11012",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11049,
-      "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
-      "author": "JAGANNATHANJP",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-25T17:04:26Z",
-      "updated_at": "2026-07-27T14:00:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11049",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 10020,
@@ -554,18 +578,6 @@
       "draft": false
     },
     {
-      "number": 10809,
-      "title": "[AMD] Rewrite gluon partition layout derivation",
-      "author": "plognjen",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-06T13:26:14Z",
-      "updated_at": "2026-07-09T16:30:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10809",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10328,
       "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
       "author": "Hardcode84",
@@ -706,18 +718,6 @@
       "created_at": "2025-09-26T21:15:00Z",
       "updated_at": "2026-06-17T15:29:25Z",
       "html_url": "https://github.com/triton-lang/triton/pull/8304",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 8450,
-      "title": "[AMD][Draft] Implement implicit layout conversion for DotOp to enable direct GMEM to reg loads",
-      "author": "the-strawhat",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-10-16T04:30:12Z",
-      "updated_at": "2026-06-17T15:29:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/8450",
       "labels": [],
       "draft": false
     }

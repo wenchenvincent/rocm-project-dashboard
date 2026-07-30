@@ -1,6 +1,114 @@
 {
-  "collected_at": "2026-07-29T10:26:41Z",
+  "collected_at": "2026-07-30T10:09:38Z",
   "prs": [
+    {
+      "number": 926,
+      "title": "[Bugfix] Resolve reg offset on dynamic add_offset chains",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T08:39:10Z",
+      "updated_at": "2026-07-30T09:53:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/926",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 930,
+      "title": "DSL-ify raw arith float ops in kernels (flash/mla/pa/moe), fastmath v\u2026",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T09:41:17Z",
+      "updated_at": "2026-07-30T09:41:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/930",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 433,
+      "title": "Adds Grouped and Batched GEMM kernels with blockscaling matching DeepGEMM API",
+      "author": "aryaman-gupta",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-23T22:06:37Z",
+      "updated_at": "2026-07-30T09:40:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/433",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 929,
+      "title": "moe: mxfp_moe gemm1 fp4 A-LDS read -> crd2idx (fp8 kept manual)",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T09:18:23Z",
+      "updated_at": "2026-07-30T09:22:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/929",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 907,
+      "title": "Add stochastic rounding and philox RNG under rocdl",
+      "author": "kashif",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-26T18:37:29Z",
+      "updated_at": "2026-07-30T09:03:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 928,
+      "title": "[Misc] Add per-kernel ISA resource delta table",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T08:51:31Z",
+      "updated_at": "2026-07-30T09:00:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/928",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 925,
+      "title": "[Doc] Define API stability contract",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T07:27:38Z",
+      "updated_at": "2026-07-30T08:31:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/925",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 891,
+      "title": "[Test] Add gfx1250 WMMA lowering tests for additional dtypes",
+      "author": "AiyyappanMR",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T10:12:30Z",
+      "updated_at": "2026-07-30T06:16:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/891",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 924,
+      "title": "Unify benchmark timing contracts and add calibrated CI gates",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T00:34:52Z",
+      "updated_at": "2026-07-30T04:08:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/924",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 876,
       "title": "MegaMoE on Gfx950",
@@ -8,11 +116,35 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-21T02:44:12Z",
-      "updated_at": "2026-07-29T10:20:45Z",
+      "updated_at": "2026-07-30T03:57:31Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
       "labels": [
         "multi-gpu"
       ],
+      "draft": false
+    },
+    {
+      "number": 874,
+      "title": "[compiler] carry Python containers through dynamic if/for/while/ifexp",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T10:29:54Z",
+      "updated_at": "2026-07-30T01:50:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/874",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 860,
+      "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T05:39:47Z",
+      "updated_at": "2026-07-30T01:37:26Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
+      "labels": [],
       "draft": false
     },
     {
@@ -22,8 +154,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-07-29T09:44:32Z",
+      "updated_at": "2026-07-29T16:43:19Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 906,
+      "title": "Add fast_divmod magic-number division helper",
+      "author": "kashif",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-26T18:16:40Z",
+      "updated_at": "2026-07-29T10:56:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/906",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 912,
+      "title": "Fix hierarchical reduced predicates in copy layout lowering",
+      "author": "HydraQYH",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T13:02:41Z",
+      "updated_at": "2026-07-29T10:56:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/912",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 920,
+      "title": "[DSL] Preserve logical signedness of unsigned integer dtypes",
+      "author": "Arist12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T19:32:56Z",
+      "updated_at": "2026-07-29T10:56:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/920",
       "labels": [],
       "draft": false
     },
@@ -52,18 +220,6 @@
       "draft": false
     },
     {
-      "number": 913,
-      "title": "Port GEMM/MoE/conv kernels to the layout API",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T14:49:30Z",
-      "updated_at": "2026-07-29T04:39:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/913",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 918,
       "title": "[Bugfix][Dialect] Reject vector operands in atomic copy atoms",
       "author": "AiyyappanMR",
@@ -72,42 +228,6 @@
       "created_at": "2026-07-28T12:49:41Z",
       "updated_at": "2026-07-29T04:29:25Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/918",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 920,
-      "title": "[DSL] Preserve logical signedness of unsigned integer dtypes",
-      "author": "Arist12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T19:32:56Z",
-      "updated_at": "2026-07-29T03:55:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/920",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 921,
-      "title": "[Feat] Add to_llvm_ptr op to convert fly.ptr to llvm.ptr ",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-29T02:59:40Z",
-      "updated_at": "2026-07-29T03:35:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/921",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 907,
-      "title": "Add stochastic rounding and philox RNG helpers",
-      "author": "kashif",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-26T18:37:29Z",
-      "updated_at": "2026-07-29T03:06:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
       "labels": [],
       "draft": false
     },
@@ -184,18 +304,6 @@
       "draft": true
     },
     {
-      "number": 912,
-      "title": "Fix hierarchical reduced predicates in copy layout lowering",
-      "author": "HydraQYH",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T13:02:41Z",
-      "updated_at": "2026-07-27T13:02:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/912",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 909,
       "title": "[Kernel] Migrate SWA decode to tile programming",
       "author": "fsx950223",
@@ -204,42 +312,6 @@
       "created_at": "2026-07-27T04:50:44Z",
       "updated_at": "2026-07-27T10:05:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/909",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 906,
-      "title": "Add fast_divmod magic-number division helper",
-      "author": "kashif",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-26T18:16:40Z",
-      "updated_at": "2026-07-27T08:54:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/906",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 891,
-      "title": "[Test] Add gfx1250 WMMA lowering tests for additional dtypes",
-      "author": "AiyyappanMR",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T10:12:30Z",
-      "updated_at": "2026-07-27T03:42:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/891",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 874,
-      "title": "[compiler] carry Python containers through dynamic if/for/while/ifexp",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T10:29:54Z",
-      "updated_at": "2026-07-25T03:14:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/874",
       "labels": [],
       "draft": false
     },
@@ -364,18 +436,6 @@
       "draft": false
     },
     {
-      "number": 860,
-      "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T05:39:47Z",
-      "updated_at": "2026-07-17T01:00:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 829,
       "title": "[Feature] Extract reusable event-based benchmarking helper",
       "author": "jhinpan",
@@ -492,18 +552,6 @@
       "created_at": "2026-06-03T08:20:13Z",
       "updated_at": "2026-06-18T22:01:32Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/638",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 433,
-      "title": "Adds Grouped and Batched GEMM kernels with blockscaling matching DeepGEMM API",
-      "author": "aryaman-gupta",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-23T22:06:37Z",
-      "updated_at": "2026-06-17T00:44:26Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/433",
       "labels": [],
       "draft": false
     },
@@ -708,6 +756,30 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 921,
+      "title": "[Feat] Add to_llvm_ptr op to convert fly.ptr to llvm.ptr ",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-29T02:59:40Z",
+      "updated_at": "2026-07-30T09:47:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/921",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 913,
+      "title": "Port GEMM/MoE/conv kernels to the layout API",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-27T14:49:30Z",
+      "updated_at": "2026-07-30T07:58:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/913",
       "labels": [],
       "draft": false
     },
@@ -1600,54 +1672,6 @@
       "created_at": "2026-07-01T15:02:56Z",
       "updated_at": "2026-07-03T04:20:05Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/792",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 776,
-      "title": "[pa] Deterministic split-partition reduce for PS decode",
-      "author": "fsx950223",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-30T06:32:12Z",
-      "updated_at": "2026-07-01T11:07:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/776",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 784,
-      "title": "[Fix] Add coalesceX to keep layout boundary",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T06:42:32Z",
-      "updated_at": "2026-07-01T11:06:54Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/784",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 782,
-      "title": "[Fix] preshuffle_gemm: wire xcd_swizzle + fix xcd_remap_bx_by (recover #754 async regression)",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T06:39:18Z",
-      "updated_at": "2026-07-01T10:00:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/782",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 787,
-      "title": "fix: fix gf1250 naming style",
-      "author": "jli-melchior",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T07:22:16Z",
-      "updated_at": "2026-07-01T07:28:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/787",
       "labels": [],
       "draft": false
     }

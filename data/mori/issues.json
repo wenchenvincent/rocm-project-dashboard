@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-07-29T10:26:38Z",
+  "collected_at": "2026-07-30T10:09:34Z",
   "issues": [
+    {
+      "number": 507,
+      "title": "DispatchInterNodeRecv derives the chunk sub-slice offset from blockId instead of bid (latent; masked when rdma_block_num % 8 == 0)",
+      "author": "yurekami",
+      "state": "open",
+      "created_at": "2026-07-29T14:13:54Z",
+      "updated_at": "2026-07-29T14:13:54Z",
+      "html_url": "https://github.com/ROCm/mori/issues/507",
+      "labels": []
+    },
     {
       "number": 497,
       "title": "Pensando Ionic AI NIC rejects REMOTE_ATOMIC in session/KV MR registration (errno 22 EINVAL) - breaks MoRIIO cross-node KV transfer on gfx950/MI355X",

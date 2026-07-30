@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-07-29T10:26:42Z",
+  "collected_at": "2026-07-30T10:09:39Z",
   "issues": [
     {
-      "number": 732,
-      "title": "[Issue]:  retile() crashed with low-level error messages",
-      "author": "tingqli",
+      "number": 767,
+      "title": "[Issue]: MXFP6 support for A operand removed due to recent changes in #754",
+      "author": "amd-satre",
       "state": "open",
-      "created_at": "2026-06-24T03:32:56Z",
-      "updated_at": "2026-07-28T12:53:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/732",
+      "created_at": "2026-06-29T18:55:43Z",
+      "updated_at": "2026-07-30T09:24:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/767",
       "labels": []
     },
     {
@@ -17,8 +17,18 @@
       "author": "amd-nprotaso",
       "state": "open",
       "created_at": "2026-07-24T09:33:15Z",
-      "updated_at": "2026-07-27T14:13:52Z",
+      "updated_at": "2026-07-30T09:07:45Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/898",
+      "labels": []
+    },
+    {
+      "number": 732,
+      "title": "[Issue]:  retile() crashed with low-level error messages",
+      "author": "tingqli",
+      "state": "open",
+      "created_at": "2026-06-24T03:32:56Z",
+      "updated_at": "2026-07-28T12:53:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/732",
       "labels": []
     },
     {
@@ -222,16 +232,6 @@
       "labels": [
         "FlyDSL/Customization"
       ]
-    },
-    {
-      "number": 767,
-      "title": "[Issue]: MXFP6 support for A operand removed due to recent changes in #754",
-      "author": "amd-satre",
-      "state": "open",
-      "created_at": "2026-06-29T18:55:43Z",
-      "updated_at": "2026-06-29T18:57:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/767",
-      "labels": []
     },
     {
       "number": 739,

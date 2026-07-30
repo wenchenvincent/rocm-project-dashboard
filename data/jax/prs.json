@@ -1,6 +1,37 @@
 {
-  "collected_at": "2026-07-29T10:25:43Z",
+  "collected_at": "2026-07-30T10:08:47Z",
   "prs": [
+    {
+      "number": 39550,
+      "title": "[ROCm] Build ROCm artifacts on CPU runners",
+      "author": "psanal35",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-29T16:11:32Z",
+      "updated_at": "2026-07-29T19:28:05Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39550",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39220,
+      "title": "[ROCm] Add runfiles data files for proper hermetic bzl test execution",
+      "author": "alekstheod",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T12:37:36Z",
+      "updated_at": "2026-07-29T15:16:59Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39220",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 39419,
       "title": "[ROCm] Fix invalid parallel local jobs execution",
@@ -30,21 +61,6 @@
         "pull ready",
         "CI",
         "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39220,
-      "title": "[ROCm] Add runfiles data files for proper hermetic bzl test execution",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T12:37:36Z",
-      "updated_at": "2026-07-28T15:14:30Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39220",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
       ],
       "draft": false
     },
@@ -539,38 +555,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 37485,
-      "title": "[ROCm] Add org-based guards to all CI caller workflows",
-      "author": "mminutoli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-07T22:51:20Z",
-      "updated_at": "2026-06-03T19:37:40Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37485",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 37444,
-      "title": "[ROCm] Version-tier S3 layout, standardized CI job naming, and nightly build workflow",
-      "author": "mminutoli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-07T04:32:23Z",
-      "updated_at": "2026-06-03T18:23:38Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37444",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
       ],
       "draft": false
     },
