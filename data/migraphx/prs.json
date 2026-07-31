@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-07-30T10:09:13Z",
+  "collected_at": "2026-07-31T10:25:56Z",
   "prs": [
+    {
+      "number": 5085,
+      "title": "[AIMIGRAPHX-1215] add runtime symbol resolution op",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T22:15:24Z",
+      "updated_at": "2026-07-31T01:54:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5085",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5077,
+      "title": "Proto data dependent symbolics",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-17T21:45:09Z",
+      "updated_at": "2026-07-31T01:18:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5077",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5088,
+      "title": "Refactor slice op for symbolic bounds and explicit input mode",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T19:14:49Z",
+      "updated_at": "2026-07-31T01:12:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5088",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4616,
+      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-02-17T16:20:19Z",
+      "updated_at": "2026-07-30T23:50:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 5026,
       "title": "Enable mlir attention for yolon12",
@@ -8,20 +56,109 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-01T01:04:56Z",
-      "updated_at": "2026-07-30T08:45:19Z",
+      "updated_at": "2026-07-30T22:42:07Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5026",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5103,
-      "title": "Loop subgraph support",
-      "author": "weizhu12-amd",
+      "number": 5106,
+      "title": "Fix find_concat_transpose with non-transposed inputs",
+      "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-30T06:35:30Z",
-      "updated_at": "2026-07-30T08:11:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5103",
+      "created_at": "2026-07-30T18:08:37Z",
+      "updated_at": "2026-07-30T22:35:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5106",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5072,
+      "title": "Add --start-from option for tests ",
+      "author": "kahmed10",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-16T19:07:13Z",
+      "updated_at": "2026-07-30T21:33:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5072",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4957,
+      "title": "[In Progress] ONNX weight replacement",
+      "author": "kahmed10",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-12T04:34:27Z",
+      "updated_at": "2026-07-30T21:28:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4957",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5099,
+      "title": "Use #embed to embed files when its available",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T23:21:16Z",
+      "updated_at": "2026-07-30T20:58:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5099",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5067,
+      "title": "[AIMIGRAPHX-1100] Add no-rebuild callback for verify",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T01:06:27Z",
+      "updated_at": "2026-07-30T20:34:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5067",
+      "labels": [
+        "enhancement",
+        "Tooling"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5092,
+      "title": "Add fp32 winograd for gfx12",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T15:59:32Z",
+      "updated_at": "2026-07-30T17:59:43Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4952,
+      "title": "Bump CI to TheRock 7.14",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T16:46:19Z",
+      "updated_at": "2026-07-30T17:23:36Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4952",
+      "labels": [
+        "ok-to-test"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5105,
+      "title": "Wip/lower reshape draft",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T13:45:16Z",
+      "updated_at": "2026-07-30T17:10:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5105",
       "labels": [],
       "draft": true
     },
@@ -32,8 +169,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T07:12:59Z",
-      "updated_at": "2026-07-30T07:12:59Z",
+      "updated_at": "2026-07-30T14:51:42Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5104",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5103,
+      "title": "Loop subgraph support",
+      "author": "weizhu12-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T06:35:30Z",
+      "updated_at": "2026-07-30T11:31:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5103",
       "labels": [],
       "draft": true
     },
@@ -50,18 +199,6 @@
       "draft": false
     },
     {
-      "number": 5088,
-      "title": "Refactor slice op for symbolic bounds and explicit input mode",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T19:14:49Z",
-      "updated_at": "2026-07-30T02:38:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5088",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4811,
       "title": "Rewrite skinny gemms to mul+reduce_sum",
       "author": "pfultz2",
@@ -70,44 +207,6 @@
       "created_at": "2026-04-22T00:25:07Z",
       "updated_at": "2026-07-30T02:21:17Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4811",
-      "labels": [
-        "ok-to-test"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5099,
-      "title": "Use #embed to embed files when its available",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T23:21:16Z",
-      "updated_at": "2026-07-30T02:01:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5099",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4957,
-      "title": "[In Progress] ONNX weight replacement",
-      "author": "kahmed10",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-12T04:34:27Z",
-      "updated_at": "2026-07-29T22:56:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4957",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4952,
-      "title": "Bump CI to TheRock 7.14",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-10T16:46:19Z",
-      "updated_at": "2026-07-29T19:54:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4952",
       "labels": [
         "ok-to-test"
       ],
@@ -150,24 +249,6 @@
       "draft": false
     },
     {
-      "number": 5084,
-      "title": "[AIMIGRAPHX-1175] Add terminate handler for Windows",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T20:14:38Z",
-      "updated_at": "2026-07-29T01:10:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5084",
-      "labels": [
-        "enhancement",
-        "simple",
-        "Windows",
-        "UAI",
-        "Changelog: Added"
-      ],
-      "draft": false
-    },
-    {
       "number": 5075,
       "title": "rebias uint8 to int8 on models with mixed datatypes",
       "author": "kahmed10",
@@ -178,18 +259,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5075",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5092,
-      "title": "Add fp32 winograd for gfx12",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T15:59:32Z",
-      "updated_at": "2026-07-28T22:01:08Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4752,
@@ -246,20 +315,6 @@
       "draft": false
     },
     {
-      "number": 5086,
-      "title": "[AIMIGRAPHX-1186] TheRock packaging: amdrocm-migraphx naming + drop weak deps (per-arch packaging in UFB)",
-      "author": "kentqian",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T18:53:17Z",
-      "updated_at": "2026-07-27T18:32:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5086",
-      "labels": [
-        "dependencies"
-      ],
-      "draft": false
-    },
-    {
       "number": 5039,
       "title": "Add opt-in sharing of identical weight literals across programs on a device",
       "author": "aditya-dl",
@@ -272,18 +327,6 @@
       "draft": true
     },
     {
-      "number": 4616,
-      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-17T16:20:19Z",
-      "updated_at": "2026-07-26T23:02:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5028,
       "title": "split_single_dyn_dim: add bucket_by_optimals to cut dyn-shape compile\u2026",
       "author": "chun-wan",
@@ -292,18 +335,6 @@
       "created_at": "2026-07-01T19:11:35Z",
       "updated_at": "2026-07-25T10:30:31Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5028",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5085,
-      "title": "[AIMIGRAPHX-1215] add runtime symbol resolution op",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T22:15:24Z",
-      "updated_at": "2026-07-25T09:48:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5085",
       "labels": [],
       "draft": false
     },
@@ -366,18 +397,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5032",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5077,
-      "title": "Proto data dependent symbolics",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-17T21:45:09Z",
-      "updated_at": "2026-07-22T21:30:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5077",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 4835,
@@ -513,33 +532,6 @@
       "created_at": "2026-07-02T00:14:41Z",
       "updated_at": "2026-07-17T02:50:20Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5033",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5067,
-      "title": "[AIMIGRAPHX-1100] Add no-rebuild callback for verify",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T01:06:27Z",
-      "updated_at": "2026-07-16T21:17:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5067",
-      "labels": [
-        "enhancement",
-        "Tooling"
-      ],
-      "draft": true
-    },
-    {
-      "number": 5072,
-      "title": "Add --start-from option for tests ",
-      "author": "kahmed10",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T19:07:13Z",
-      "updated_at": "2026-07-16T22:18:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5072",
       "labels": [],
       "draft": true
     },
@@ -1382,6 +1374,52 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5084,
+      "title": "[AIMIGRAPHX-1175] Add terminate handler for Windows",
+      "author": "eddieliao",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-21T20:14:38Z",
+      "updated_at": "2026-07-31T01:18:56Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5084",
+      "labels": [
+        "enhancement",
+        "simple",
+        "Windows",
+        "UAI",
+        "Changelog: Added"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4712,
+      "title": "Output debug symbols",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-26T22:10:40Z",
+      "updated_at": "2026-07-30T16:01:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4712",
+      "labels": [
+        "ok-to-test"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5086,
+      "title": "[AIMIGRAPHX-1186] TheRock packaging: amdrocm-migraphx package name (RFC0009)",
+      "author": "kentqian",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-22T18:53:17Z",
+      "updated_at": "2026-07-30T16:00:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5086",
+      "labels": [
+        "dependencies"
+      ],
+      "draft": false
     },
     {
       "number": 4828,
@@ -2532,34 +2570,6 @@
         "bugfix",
         "high priority"
       ],
-      "draft": false
-    },
-    {
-      "number": 5013,
-      "title": "fix bug with simplify reshapes and multi reduction axis",
-      "author": "kahmed10",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-25T18:34:34Z",
-      "updated_at": "2026-06-26T16:39:34Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5013",
-      "labels": [
-        "bugfix",
-        "high priority",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5009,
-      "title": "Bump rocmlir to June 24",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-24T16:39:24Z",
-      "updated_at": "2026-06-26T02:28:35Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5009",
-      "labels": [],
       "draft": false
     }
   ]

@@ -1,6 +1,28 @@
 {
-  "collected_at": "2026-07-30T10:09:39Z",
+  "collected_at": "2026-07-31T10:26:19Z",
   "issues": [
+    {
+      "number": 946,
+      "title": "[Issue]: lld lookup failure in different docker images for gfx1250",
+      "author": "jli-melchior",
+      "state": "open",
+      "created_at": "2026-07-31T09:59:03Z",
+      "updated_at": "2026-07-31T10:01:37Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/946",
+      "labels": []
+    },
+    {
+      "number": 934,
+      "title": "Expression-layer arithmetic cleanup",
+      "author": "Phil-amd",
+      "state": "open",
+      "created_at": "2026-07-30T23:15:44Z",
+      "updated_at": "2026-07-30T23:20:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/934",
+      "labels": [
+        "FlyDSL/Customization"
+      ]
+    },
     {
       "number": 767,
       "title": "[Issue]: MXFP6 support for A operand removed due to recent changes in #754",

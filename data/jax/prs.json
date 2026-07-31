@@ -1,6 +1,50 @@
 {
-  "collected_at": "2026-07-30T10:08:47Z",
+  "collected_at": "2026-07-31T10:25:30Z",
   "prs": [
+    {
+      "number": 39602,
+      "title": "[ROCm] Assign GPUs to multi-process tests via ROCR_VISIBLE_DEVICES",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T00:20:50Z",
+      "updated_at": "2026-07-31T07:44:21Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39602",
+      "labels": [
+        "bug",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39601,
+      "title": "Add --init to docker options in ROCm CI container workflows",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T23:22:58Z",
+      "updated_at": "2026-07-30T23:22:58Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39601",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 38810,
+      "title": "[ROCm] Add TheRock 7.14.0/latest coverage to CI workflows",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T22:36:22Z",
+      "updated_at": "2026-07-30T18:14:14Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38810",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "CI",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 39550,
       "title": "[ROCm] Build ROCm artifacts on CPU runners",
@@ -44,23 +88,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38810,
-      "title": "[ROCm] Add TheRock 7.14.0/latest coverage to CI workflows",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T22:36:22Z",
-      "updated_at": "2026-07-28T19:45:03Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38810",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "CI",
-        "AMD GPU"
       ],
       "draft": false
     },

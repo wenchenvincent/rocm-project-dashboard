@@ -1,13 +1,33 @@
 {
-  "collected_at": "2026-07-30T10:09:26Z",
+  "collected_at": "2026-07-31T10:26:08Z",
   "issues": [
+    {
+      "number": 4472,
+      "title": "[Documentation]: flydsl-tile-programming skill missing",
+      "author": "jamesETsmith",
+      "state": "open",
+      "created_at": "2026-07-30T23:49:43Z",
+      "updated_at": "2026-07-31T08:46:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4472",
+      "labels": []
+    },
+    {
+      "number": 4477,
+      "title": "[Feature]: add gfx1103 to RDNA_ARCHS",
+      "author": "LuXuxue",
+      "state": "open",
+      "created_at": "2026-07-31T04:40:47Z",
+      "updated_at": "2026-07-31T04:40:47Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4477",
+      "labels": []
+    },
     {
       "number": 4457,
       "title": "[Issue]: fused_qk_rope_reshape_and_cache_kernel's latency is larger than than non-fused kernels",
       "author": "amd-yuehuang",
       "state": "open",
       "created_at": "2026-07-30T08:37:02Z",
-      "updated_at": "2026-07-30T08:42:38Z",
+      "updated_at": "2026-07-31T04:03:31Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4457",
       "labels": []
     },

@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-07-30T10:12:02Z",
+  "collected_at": "2026-07-31T10:28:45Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
       "opened": 10,
-      "merged": 8,
+      "merged": 7,
       "closed": 0
     },
     "last_week": {
       "opened": 5,
-      "merged": 3,
-      "closed": 3
+      "merged": 5,
+      "closed": 0
     },
-    "median_time_to_merge_hours": 97.1,
-    "merge_count": 11,
+    "median_time_to_merge_hours": 84.7,
+    "merge_count": 12,
     "stale_prs": 29
   },
   "contributors": {
@@ -35,8 +35,8 @@
       },
       {
         "author": "ipanfilo",
-        "prs_submitted": 17,
-        "prs_merged": 14,
+        "prs_submitted": 16,
+        "prs_merged": 13,
         "commits": 1
       },
       {
@@ -48,7 +48,7 @@
       {
         "author": "VeeraRajasekhar",
         "prs_submitted": 10,
-        "prs_merged": 5,
+        "prs_merged": 6,
         "commits": 1
       },
       {
@@ -64,22 +64,22 @@
         "commits": 0
       },
       {
+        "author": "asdfvg123",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 3
+      },
+      {
         "author": "wenchenvincent",
         "prs_submitted": 4,
         "prs_merged": 0,
-        "commits": 1
+        "commits": 0
       },
       {
         "author": "AllenFarcas",
         "prs_submitted": 4,
         "prs_merged": 3,
         "commits": 4
-      },
-      {
-        "author": "leo-automation",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 0
       }
     ],
     "bus_factor": 3
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 8.9,
+    "days_since_last": 9.9,
     "avg_interval_days": 41.6,
     "total_releases": 5,
     "latest_tag": "v2.12_rocm"

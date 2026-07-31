@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-30T10:09:09Z",
+  "collected_at": "2026-07-31T10:25:51Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,91 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-30T09:59:28Z",
+      "updated_at": "2026-07-31T09:46:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-07-31T09:34:42Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 29630,
+      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
+      "author": "BBuf",
+      "state": "open",
+      "created_at": "2026-06-29T07:39:33Z",
+      "updated_at": "2026-07-31T06:41:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
+      "labels": [
+        "RFC",
+        "jit-kernel",
+        "kernel"
+      ]
+    },
+    {
+      "number": 33015,
+      "title": "[Bug]  Dockerised SGLang for ROCM with gfx1150 cannot load a quantised model: use of undeclared identifier '__cvta_generic_to_shared'",
+      "author": "alex-mashin",
+      "state": "open",
+      "created_at": "2026-07-31T05:59:50Z",
+      "updated_at": "2026-07-31T06:16:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33015",
+      "labels": []
+    },
+    {
+      "number": 32960,
+      "title": "[Bug] Kimi-K3: a literal <|kimi_image_placeholder|> in message text returns 400 \"More image placeholders than image prompts.\"",
+      "author": "chnlich",
+      "state": "open",
+      "created_at": "2026-07-30T19:22:59Z",
+      "updated_at": "2026-07-30T22:35:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/32960",
+      "labels": [
+        "kimi"
+      ]
+    },
+    {
+      "number": 32965,
+      "title": "[Bug][AMD gfx1201] Native MoE kernels segfault during Qwen3.5 inference",
+      "author": "tamascode",
+      "state": "open",
+      "created_at": "2026-07-30T20:00:05Z",
+      "updated_at": "2026-07-30T20:00:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/32965",
+      "labels": []
+    },
+    {
+      "number": 31359,
+      "title": "[Tracking] Inkling Day-0 Support",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-07-15T18:18:03Z",
+      "updated_at": "2026-07-30T18:32:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31359",
+      "labels": [
+        "high priority",
+        "new-model"
+      ]
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-07-30T15:07:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
     },
     {
@@ -94,20 +177,6 @@
       "labels": []
     },
     {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-07-28T17:04:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
       "number": 27937,
       "title": "[Failure Tracker] PR Test (AMD)",
       "author": "amd-bot",
@@ -168,29 +237,6 @@
       "labels": []
     },
     {
-      "number": 31359,
-      "title": "[Tracking] Inkling Day-0 Support",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-07-15T18:18:03Z",
-      "updated_at": "2026-07-25T00:35:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31359",
-      "labels": [
-        "high priority",
-        "new-model"
-      ]
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-07-24T12:14:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
       "number": 13363,
       "title": "[Roadmap] sglang auto tuner",
       "author": "sglang-bot",
@@ -211,20 +257,6 @@
       "updated_at": "2026-07-23T07:35:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/32169",
       "labels": []
-    },
-    {
-      "number": 29630,
-      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
-      "author": "BBuf",
-      "state": "open",
-      "created_at": "2026-06-29T07:39:33Z",
-      "updated_at": "2026-07-23T05:09:41Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
-      "labels": [
-        "RFC",
-        "jit-kernel",
-        "kernel"
-      ]
     },
     {
       "number": 27194,
@@ -409,16 +441,6 @@
       ]
     },
     {
-      "number": 30781,
-      "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
-      "author": "tanguofu",
-      "state": "open",
-      "created_at": "2026-07-10T13:41:49Z",
-      "updated_at": "2026-07-10T13:41:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30781",
-      "labels": []
-    },
-    {
       "number": 30245,
       "title": "ROCm consumer GPU (gfx1100/RDNA3): fused-MoE blocked by upstream triton AMD backend bug \u2014 request configs, allowlist fix, and mitigation",
       "author": "AIwork4me",
@@ -516,38 +538,6 @@
       "created_at": "2026-06-23T12:22:23Z",
       "updated_at": "2026-06-25T06:13:53Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29039",
-      "labels": []
-    },
-    {
-      "number": 29235,
-      "title": "[AMD] qwen3-235b-mxfp4 nightly aborts at CUDA-graph capture: NCCL watchdog hipEventQuery on capturing stream (hipErrorCapturedEvent)",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-06-25T02:20:28Z",
-      "updated_at": "2026-06-25T02:20:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29235",
-      "labels": []
-    },
-    {
-      "number": 28971,
-      "title": "[AMD] kv_canary verify_real_kv_hash intermittently fires in PD full-real-data path on ROCm",
-      "author": "michaelzhang-ai",
-      "state": "open",
-      "created_at": "2026-06-22T23:53:36Z",
-      "updated_at": "2026-06-22T23:53:36Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/28971",
-      "labels": [
-        "amd"
-      ]
-    },
-    {
-      "number": 28815,
-      "title": "Speculative EAGLE verify: greedy/HIP branch missing TP broadcast -> rank divergence -> collective deadlock on ROCm",
-      "author": "Infatoshi",
-      "state": "open",
-      "created_at": "2026-06-21T00:21:29Z",
-      "updated_at": "2026-06-21T00:21:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/28815",
       "labels": []
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-30T10:09:38Z",
+  "collected_at": "2026-07-31T10:26:18Z",
   "prs": [
     {
       "number": 926,
@@ -8,8 +8,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T08:39:10Z",
-      "updated_at": "2026-07-30T09:53:38Z",
+      "updated_at": "2026-07-31T10:25:41Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/926",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "[Perf] Optimize rmsnorm/layernorm",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-07-31T10:07:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
       "labels": [],
       "draft": false
     },
@@ -20,10 +32,120 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T09:41:17Z",
-      "updated_at": "2026-07-30T09:41:17Z",
+      "updated_at": "2026-07-31T10:01:56Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/930",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 945,
+      "title": "[WIP][LLVM][Flydsl] bump up llvm for upstream and internal coexec opt and adapt flydsl api",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T04:15:44Z",
+      "updated_at": "2026-07-31T09:04:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/945",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 943,
+      "title": "[Dialect][Kernel][Perf] Add gfx120x.wmma atom and port the RDNA4 GEMM to the layout API",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T02:49:10Z",
+      "updated_at": "2026-07-31T08:05:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/943",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 942,
+      "title": "[Kernel] Add submanifold sparse 3D convolution (bf16 implicit GEMM, gfx950)",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T01:33:53Z",
+      "updated_at": "2026-07-31T01:36:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/942",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 933,
+      "title": "[Perf] Keep runtime base and static tail separate in add_offset [wip]",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T22:18:59Z",
+      "updated_at": "2026-07-30T23:07:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/933",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 924,
+      "title": "Unify benchmark timing contracts and add calibrated CI gates",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T00:34:52Z",
+      "updated_at": "2026-07-30T21:36:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/924",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 872,
+      "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T00:38:19Z",
+      "updated_at": "2026-07-30T21:33:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 875,
+      "title": "a16w16 for gfx1250 on flydsl",
+      "author": "omuhamma",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T17:46:56Z",
+      "updated_at": "2026-07-30T20:53:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/875",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 931,
+      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
+      "author": "RichardChamberlain1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T11:46:51Z",
+      "updated_at": "2026-07-30T14:23:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 907,
+      "title": "Add stochastic rounding and philox RNG under rocdl",
+      "author": "kashif",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-26T18:37:29Z",
+      "updated_at": "2026-07-30T10:51:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 433,
@@ -50,18 +172,6 @@
       "draft": true
     },
     {
-      "number": 907,
-      "title": "Add stochastic rounding and philox RNG under rocdl",
-      "author": "kashif",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-26T18:37:29Z",
-      "updated_at": "2026-07-30T09:03:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 928,
       "title": "[Misc] Add per-kernel ISA resource delta table",
       "author": "Phil-amd",
@@ -70,18 +180,6 @@
       "created_at": "2026-07-30T08:51:31Z",
       "updated_at": "2026-07-30T09:00:01Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/928",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 925,
-      "title": "[Doc] Define API stability contract",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T07:27:38Z",
-      "updated_at": "2026-07-30T08:31:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/925",
       "labels": [],
       "draft": false
     },
@@ -98,44 +196,6 @@
       "draft": false
     },
     {
-      "number": 924,
-      "title": "Unify benchmark timing contracts and add calibrated CI gates",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T00:34:52Z",
-      "updated_at": "2026-07-30T04:08:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/924",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 876,
-      "title": "MegaMoE on Gfx950",
-      "author": "GwilliamHu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T02:44:12Z",
-      "updated_at": "2026-07-30T03:57:31Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
-      "number": 874,
-      "title": "[compiler] carry Python containers through dynamic if/for/while/ifexp",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T10:29:54Z",
-      "updated_at": "2026-07-30T01:50:31Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/874",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 860,
       "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
       "author": "jiacao-amd",
@@ -144,18 +204,6 @@
       "created_at": "2026-07-15T05:39:47Z",
       "updated_at": "2026-07-30T01:37:26Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 848,
-      "title": "[Perf] Optimize rmsnorm/layernorm",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-07-29T16:43:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
       "labels": [],
       "draft": false
     },
@@ -388,30 +436,6 @@
       "draft": false
     },
     {
-      "number": 872,
-      "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-18T00:38:19Z",
-      "updated_at": "2026-07-23T02:44:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 875,
-      "title": "a16w16 for gfx1250 on flydsl",
-      "author": "omuhamma",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T17:46:56Z",
-      "updated_at": "2026-07-20T17:47:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/875",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 401,
       "title": "gemm a16w16 flydsl implementation (WIP)",
       "author": "omuhamma",
@@ -492,18 +516,6 @@
       "created_at": "2026-06-29T13:18:52Z",
       "updated_at": "2026-07-06T02:06:00Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/764",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 763,
-      "title": "[repro] flash_attn_generic: concise causal-mask loop trips dynamic-if\u2026",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-29T12:04:57Z",
-      "updated_at": "2026-06-29T12:05:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/763",
       "labels": [],
       "draft": true
     },
@@ -756,6 +768,44 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 925,
+      "title": "[Doc] Define API stability contract",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-30T07:27:38Z",
+      "updated_at": "2026-07-31T08:32:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/925",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 876,
+      "title": "MegaMoE on Gfx950",
+      "author": "GwilliamHu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-21T02:44:12Z",
+      "updated_at": "2026-07-31T08:31:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 874,
+      "title": "[compiler] carry Python containers through dynamic if/for/while/ifexp",
+      "author": "xudoyuan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-20T10:29:54Z",
+      "updated_at": "2026-07-30T15:03:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/874",
       "labels": [],
       "draft": false
     },
@@ -1624,54 +1674,6 @@
       "created_at": "2026-07-01T18:33:11Z",
       "updated_at": "2026-07-07T01:33:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/794",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 804,
-      "title": "update to 0.2.3",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-06T07:41:10Z",
-      "updated_at": "2026-07-06T07:41:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/804",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 802,
-      "title": "Refactor/fp8 8wave fx gemm call",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-06T02:51:05Z",
-      "updated_at": "2026-07-06T04:36:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/802",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 799,
-      "title": "[Enh] Support chained comparison",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-03T10:48:33Z",
-      "updated_at": "2026-07-05T13:07:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/799",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 792,
-      "title": "[Fix] Lower CDNA3 32x32x8 BF16 MFMA",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T15:02:56Z",
-      "updated_at": "2026-07-03T04:20:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/792",
       "labels": [],
       "draft": false
     }
