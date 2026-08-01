@@ -1,85 +1,31 @@
 {
-  "collected_at": "2026-07-31T10:26:21Z",
+  "collected_at": "2026-08-01T09:48:01Z",
   "prs": [
     {
-      "number": 687,
-      "title": "Consolidating blockwise FP32 scale flag and increasing the tolerance",
-      "author": "asdfvg123",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T04:38:04Z",
-      "updated_at": "2026-07-31T04:45:14Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/687",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": true
-    },
-    {
-      "number": 680,
-      "title": "gfx942 AITER V3 split-kv kernels",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T22:18:30Z",
-      "updated_at": "2026-07-30T23:21:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/680",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 661,
-      "title": "Grouped MXFP8 GEMMs with HipKittens",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T16:44:30Z",
-      "updated_at": "2026-07-30T22:19:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 625,
-      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
+      "number": 688,
+      "title": "Add pyyaml installation to ci prerequisites",
       "author": "VeeraRajasekhar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-07-30T20:18:11Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 678,
-      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-07-30T18:20:46Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
+      "created_at": "2026-07-31T17:21:41Z",
+      "updated_at": "2026-08-01T04:16:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/688",
       "labels": [
         "ci-level 3"
       ],
       "draft": false
     },
     {
-      "number": 683,
-      "title": "Updated AITER/QoLA",
-      "author": "Micky774",
+      "number": 689,
+      "title": "Honor timeout settings in subprocess run wrapper",
+      "author": "ipanfilo",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-28T15:38:43Z",
-      "updated_at": "2026-07-30T18:09:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/683",
+      "created_at": "2026-08-01T01:14:29Z",
+      "updated_at": "2026-08-01T01:29:00Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/689",
       "labels": [
-        "ci-level 3"
+        "ci-level 2"
       ],
       "draft": false
     },
@@ -90,7 +36,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-07-30T13:53:15Z",
+      "updated_at": "2026-08-01T01:26:50Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
       "labels": [
         "ci-level 1"
@@ -104,11 +50,79 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-09T19:42:42Z",
-      "updated_at": "2026-07-30T04:38:48Z",
+      "updated_at": "2026-08-01T01:24:19Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
       "labels": [
         "ci-level 3"
       ],
+      "draft": false
+    },
+    {
+      "number": 683,
+      "title": "Updated AITER/QoLA",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T15:38:43Z",
+      "updated_at": "2026-07-31T20:08:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/683",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 687,
+      "title": "Consolidating blockwise FP32 scale flag",
+      "author": "asdfvg123",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T04:38:04Z",
+      "updated_at": "2026-07-31T20:02:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/687",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 678,
+      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
+      "author": "shurale-nkn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T15:17:24Z",
+      "updated_at": "2026-07-31T16:32:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 666,
+      "title": "Updated CK/AITER Cmake Build",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T18:38:18Z",
+      "updated_at": "2026-07-31T15:50:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/666",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 625,
+      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-15T05:36:28Z",
+      "updated_at": "2026-07-30T20:18:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
+      "labels": [],
       "draft": false
     },
     {
@@ -147,20 +161,6 @@
       "updated_at": "2026-07-29T04:04:57Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/639",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 666,
-      "title": "Updated CK/AITER Cmake Build",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T18:38:18Z",
-      "updated_at": "2026-07-27T20:56:54Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/666",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": false
     },
     {
@@ -669,6 +669,34 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 680,
+      "title": "gfx942 AITER V3 split-kv kernels",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-24T22:18:30Z",
+      "updated_at": "2026-08-01T00:52:22Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/680",
+      "labels": [
+        "ci-level 2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 661,
+      "title": "Grouped MXFP8 GEMMs with HipKittens",
+      "author": "alextmagro",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-07T16:44:30Z",
+      "updated_at": "2026-07-31T17:03:00Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1803,34 +1831,6 @@
       "created_at": "2026-04-21T01:21:33Z",
       "updated_at": "2026-04-29T16:49:21Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/556",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 528,
-      "title": "CI: Refactor ROCm CI to use GPU-sized runners and build-only jobs",
-      "author": "leo-automation",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-07T14:15:38Z",
-      "updated_at": "2026-04-29T08:12:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/528",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 551,
-      "title": "Refactor CK FA dispatch, and collapse API",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-20T21:12:08Z",
-      "updated_at": "2026-04-28T21:06:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/551",
       "labels": [
         "ci-level 3"
       ],

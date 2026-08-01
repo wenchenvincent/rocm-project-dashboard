@@ -1,18 +1,80 @@
 {
-  "collected_at": "2026-07-31T10:25:30Z",
+  "collected_at": "2026-08-01T09:47:06Z",
   "prs": [
+    {
+      "number": 39634,
+      "title": "[ROCm] Find ROCm plugin packages by major version",
+      "author": "gulsumgudukbay",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-31T18:16:28Z",
+      "updated_at": "2026-07-31T23:04:28Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39634",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39632,
+      "title": "[ROCm] Remove the legacy ROCm GPU Post-Merge Check workflow",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T16:38:35Z",
+      "updated_at": "2026-07-31T18:02:30Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39632",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 39602,
       "title": "[ROCm] Assign GPUs to multi-process tests via ROCR_VISIBLE_DEVICES",
       "author": "mminutoli",
-      "state": "open",
+      "state": "closed",
       "merged": false,
       "created_at": "2026-07-31T00:20:50Z",
-      "updated_at": "2026-07-31T07:44:21Z",
+      "updated_at": "2026-07-31T17:19:36Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39602",
       "labels": [
         "bug",
         "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38810,
+      "title": "[ROCm] Add TheRock 7.14.0/latest coverage to CI workflows",
+      "author": "mminutoli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-26T22:36:22Z",
+      "updated_at": "2026-07-31T14:43:54Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38810",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "CI",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39616,
+      "title": "[ROCm] Add missing wheel deps",
+      "author": "alekstheod",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-31T11:10:33Z",
+      "updated_at": "2026-07-31T14:20:35Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39616",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
       ],
       "draft": false
     },
@@ -27,23 +89,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/39601",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 38810,
-      "title": "[ROCm] Add TheRock 7.14.0/latest coverage to CI workflows",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T22:36:22Z",
-      "updated_at": "2026-07-30T18:14:14Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38810",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "CI",
-        "AMD GPU"
-      ],
-      "draft": false
     },
     {
       "number": 39550,
@@ -537,51 +582,6 @@
         "kokoro:force-run",
         "pull ready",
         "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38258,
-      "title": "[ROCm] CI improvements for ROCm",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-08T14:05:27Z",
-      "updated_at": "2026-06-08T17:14:36Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38258",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38208,
-      "title": "Use ROCm tag in S3 prefix instead of version",
-      "author": "psanal35",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-04T23:21:05Z",
-      "updated_at": "2026-06-05T18:31:21Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38208",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38205,
-      "title": "[ROCm] xdist: select GPU from runner-allocated ROCR slice",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-04T22:46:40Z",
-      "updated_at": "2026-06-04T23:29:10Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38205",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
       ],
       "draft": false
     },

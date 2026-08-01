@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-07-31T10:26:38Z",
+  "collected_at": "2026-08-01T09:48:24Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Integration Tests",
-    "run_id": 30619223115,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/30619223115",
-    "run_date": "2026-07-31T10:13:15Z",
+    "run_id": 30682892872,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/30682892872",
+    "run_date": "2026-08-01T08:05:15Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 4,
@@ -15,15 +15,6 @@
       "pass_rate": 100.0
     },
     "suites": [
-      {
-        "name": "integration-tests-amd / integration-tests-amd (self-hosted, gfx90a)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
       {
         "name": "integration-tests-amd / integration-tests-amd (amd-gfx942)",
         "conclusion": "success",
@@ -35,6 +26,15 @@
       },
       {
         "name": "integration-tests-amd / integration-tests-amd (amd-gfx950)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "integration-tests-amd / integration-tests-amd (self-hosted, gfx90a)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -55,9 +55,9 @@
   },
   "cuda": {
     "workflow_name": "Integration Tests",
-    "run_id": 30619223115,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/30619223115",
-    "run_date": "2026-07-31T10:13:15Z",
+    "run_id": 30682892872,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/30682892872",
+    "run_date": "2026-08-01T08:05:15Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 3,

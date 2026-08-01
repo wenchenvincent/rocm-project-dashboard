@@ -1,6 +1,118 @@
 {
-  "collected_at": "2026-07-31T10:26:11Z",
+  "collected_at": "2026-08-01T09:47:51Z",
   "prs": [
+    {
+      "number": 1755,
+      "title": "Add fake eplb for performance test",
+      "author": "junhaha666",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T02:00:45Z",
+      "updated_at": "2026-08-01T09:45:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1755",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1767,
+      "title": "perf(loader): 2.2x cold / 1.7x warm weight load, plus three loader fixes",
+      "author": "valarLip",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T09:37:07Z",
+      "updated_at": "2026-08-01T09:45:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1767",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1766,
+      "title": "[Perf][Qwen3] Enable QK norm RoPE cache fusion for dense models",
+      "author": "ZhengGong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T06:04:16Z",
+      "updated_at": "2026-08-01T08:58:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1766",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1763,
+      "title": "[atomesh-ci] Add weekly full ATOMesh benchmark schedule",
+      "author": "junyyang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T15:24:04Z",
+      "updated_at": "2026-08-01T01:02:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1763",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1765,
+      "title": "[Triton] [Gluon] [GFX9] [GFX12] Add triton/gluon support for EP+DP_attn",
+      "author": "k50112113",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T00:38:58Z",
+      "updated_at": "2026-08-01T00:39:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1765",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1740,
+      "title": "[feat][ci] support swebench_lite precision validation",
+      "author": "Phi-C",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T05:47:22Z",
+      "updated_at": "2026-07-31T15:50:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1740",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1691,
+      "title": "Eplb v2 mega",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T01:40:15Z",
+      "updated_at": "2026-07-31T15:13:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1691",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1749,
+      "title": "[wip] quantize weights layer by layer",
+      "author": "haoyangli0109",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T11:51:50Z",
+      "updated_at": "2026-07-31T12:29:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1749",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1719,
+      "title": "[Kimi-K3] MI455 support Kimi-K3",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T14:57:21Z",
+      "updated_at": "2026-07-31T12:24:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1719",
+      "labels": [
+        "ci:full"
+      ],
+      "draft": true
+    },
     {
       "number": 1762,
       "title": "feat(glm): support GLM-5.2 DP attention",
@@ -8,7 +120,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-31T09:45:20Z",
-      "updated_at": "2026-07-31T09:45:45Z",
+      "updated_at": "2026-07-31T11:53:25Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1762",
       "labels": [],
       "draft": false
@@ -39,18 +151,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1752",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1719,
-      "title": "[Kimi-K3] MI455 support Kimi-K3",
-      "author": "zejunchen-zejun",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T14:57:21Z",
-      "updated_at": "2026-07-31T09:10:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1719",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1760,
@@ -90,20 +190,6 @@
       "updated_at": "2026-07-31T07:57:57Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1758",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1518,
-      "title": "[vLLM-ATOM] Support EAGLE3 spec decoding for MiniMax-M3",
-      "author": "kliuae",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T09:32:07Z",
-      "updated_at": "2026-07-31T06:20:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1518",
-      "labels": [
-        "ci:vllm"
-      ],
       "draft": false
     },
     {
@@ -157,20 +243,6 @@
       "updated_at": "2026-07-31T03:02:28Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1706",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1755,
-      "title": "Add fake eplb for performance test",
-      "author": "junhaha666",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T02:00:45Z",
-      "updated_at": "2026-07-31T02:55:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1755",
-      "labels": [
-        "ATOM"
-      ],
       "draft": false
     },
     {
@@ -244,42 +316,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1743",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1749,
-      "title": "[wip] quantize weights layer by layer",
-      "author": "haoyangli0109",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T11:51:50Z",
-      "updated_at": "2026-07-30T11:54:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1749",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1740,
-      "title": "[feat][ci] support swebench_lite precision validation",
-      "author": "Phi-C",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T05:47:22Z",
-      "updated_at": "2026-07-30T11:34:46Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1740",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1691,
-      "title": "Eplb v2 mega",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T01:40:15Z",
-      "updated_at": "2026-07-30T08:18:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1691",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1551,
@@ -2096,6 +2132,34 @@
       "draft": false
     },
     {
+      "number": 1518,
+      "title": "[vLLM-ATOM] Support EAGLE3 spec decoding for MiniMax-M3",
+      "author": "kliuae",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-08T09:32:07Z",
+      "updated_at": "2026-08-01T09:12:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1518",
+      "labels": [
+        "ci:vllm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1764,
+      "title": "fix(mtp): recycle the post-final-norm hidden between MTP draft steps",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-31T17:18:02Z",
+      "updated_at": "2026-08-01T02:43:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1764",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
       "number": 1761,
       "title": "fix(ci): correct ATOMesh speculative token arguments",
       "author": "junyyang-amd",
@@ -2906,7 +2970,6 @@
       "updated_at": "2026-07-22T12:49:14Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1640",
       "labels": [
-        "ATOM",
         "ci:atom"
       ],
       "draft": false
@@ -3143,20 +3206,6 @@
       "updated_at": "2026-07-21T04:07:00Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1210",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1553,
-      "title": "[feat][PCP] Enable PCP MoE-Merge+TBO for DeepSeek V4",
-      "author": "yitingw1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-10T06:27:05Z",
-      "updated_at": "2026-07-21T03:34:40Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1553",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     }
   ]

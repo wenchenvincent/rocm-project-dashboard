@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-07-31T10:26:19Z",
+  "collected_at": "2026-08-01T09:48:00Z",
   "releases": [
+    {
+      "tag_name": "v0.3.0",
+      "name": "v0.3.0",
+      "published_at": "2026-08-01T09:21:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/releases/tag/v0.3.0",
+      "prerelease": false
+    },
     {
       "tag_name": "v0.2.3",
       "name": "V0.2.3",

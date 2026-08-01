@@ -1,13 +1,37 @@
 {
-  "collected_at": "2026-07-31T10:25:51Z",
+  "collected_at": "2026-08-01T09:47:30Z",
   "issues": [
+    {
+      "number": 29630,
+      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
+      "author": "BBuf",
+      "state": "open",
+      "created_at": "2026-06-29T07:39:33Z",
+      "updated_at": "2026-08-01T09:44:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
+      "labels": [
+        "RFC",
+        "jit-kernel",
+        "kernel"
+      ]
+    },
+    {
+      "number": 29738,
+      "title": "[Bug] NameError: name 'deep_gemm' is not defined in tf32_hc_prenorm_gemm when SGLANG_ENABLE_JIT_DEEPGEMM=0",
+      "author": "mattyding",
+      "state": "open",
+      "created_at": "2026-06-30T09:16:20Z",
+      "updated_at": "2026-08-01T09:36:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29738",
+      "labels": []
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-07-31T09:46:40Z",
+      "updated_at": "2026-08-01T09:29:32Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
@@ -17,7 +41,7 @@
       "author": "ispobock",
       "state": "open",
       "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-07-31T09:34:42Z",
+      "updated_at": "2026-08-01T07:56:41Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20865",
       "labels": [
         "enhancement",
@@ -26,18 +50,86 @@
       ]
     },
     {
-      "number": 29630,
-      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
-      "author": "BBuf",
+      "number": 33181,
+      "title": "[Bug] Inkling reasoning parser leaks the tool name into visible content when a turn opens with a tool call",
+      "author": "zolinthecow",
       "state": "open",
-      "created_at": "2026-06-29T07:39:33Z",
-      "updated_at": "2026-07-31T06:41:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
+      "created_at": "2026-08-01T04:57:13Z",
+      "updated_at": "2026-08-01T04:57:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33181",
+      "labels": []
+    },
+    {
+      "number": 32960,
+      "title": "[Bug] Kimi-K3: a literal <|kimi_image_placeholder|> in message text returns 400 \"More image placeholders than image prompts.\"",
+      "author": "chnlich",
+      "state": "open",
+      "created_at": "2026-07-30T19:22:59Z",
+      "updated_at": "2026-08-01T03:24:26Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/32960",
       "labels": [
-        "RFC",
-        "jit-kernel",
-        "kernel"
+        "kimi"
       ]
+    },
+    {
+      "number": 33142,
+      "title": "[Bug] ROCm diffusion fused-norm kernels depend on non-public FlyDSL APIs",
+      "author": "Phil-amd",
+      "state": "open",
+      "created_at": "2026-07-31T23:40:00Z",
+      "updated_at": "2026-07-31T23:40:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33142",
+      "labels": []
+    },
+    {
+      "number": 31594,
+      "title": "[Bug] [AMD] Qwen3.5 GatedDeltaNet + dp-attention on ROCm/MoRI: HIP \"invalid configuration argument\" (linear-attn/Mamba state path); process hangs in chunk_gated_delta_rule_fwd under kernel serialization",
+      "author": "ChangLiu0709",
+      "state": "open",
+      "created_at": "2026-07-17T15:58:21Z",
+      "updated_at": "2026-07-31T15:16:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31594",
+      "labels": []
+    },
+    {
+      "number": 31350,
+      "title": "[Bug] [AMD] Qwen3.5 + dp-attention: fused_qk_gemma_rmsnorm_with_gate Triton kernel aborts with HIP \"invalid configuration argument\" (zero-sized grid on empty/idle-rank batch)",
+      "author": "ChangLiu0709",
+      "state": "open",
+      "created_at": "2026-07-15T16:24:10Z",
+      "updated_at": "2026-07-31T15:15:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31350",
+      "labels": []
+    },
+    {
+      "number": 33088,
+      "title": "[Bug][AMD] Qwen3.5-397B-A17B-FP8 disagg + dp-attention: decode DP ranks flood `/query_dp_ranks` bootstrap \u2192 `[Errno 99] Cannot assign requested address`, 0 successful requests",
+      "author": "ChangLiu0709",
+      "state": "open",
+      "created_at": "2026-07-31T15:10:55Z",
+      "updated_at": "2026-07-31T15:10:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33088",
+      "labels": []
+    },
+    {
+      "number": 32321,
+      "title": "[RFC] Make BaseTpWorker the explicit framework-to-backend boundary - MLX runner-stub redesign",
+      "author": "noob-se7en",
+      "state": "open",
+      "created_at": "2026-07-24T12:54:43Z",
+      "updated_at": "2026-07-31T14:25:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/32321",
+      "labels": []
+    },
+    {
+      "number": 29736,
+      "title": "[Roadmap][DCP] Decode Context Parallel & Helix Parallelism \u2014 next steps & tracking",
+      "author": "thanhhao98",
+      "state": "open",
+      "created_at": "2026-06-30T08:43:14Z",
+      "updated_at": "2026-07-31T12:43:19Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
+      "labels": []
     },
     {
       "number": 33015,
@@ -48,18 +140,6 @@
       "updated_at": "2026-07-31T06:16:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33015",
       "labels": []
-    },
-    {
-      "number": 32960,
-      "title": "[Bug] Kimi-K3: a literal <|kimi_image_placeholder|> in message text returns 400 \"More image placeholders than image prompts.\"",
-      "author": "chnlich",
-      "state": "open",
-      "created_at": "2026-07-30T19:22:59Z",
-      "updated_at": "2026-07-30T22:35:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32960",
-      "labels": [
-        "kimi"
-      ]
     },
     {
       "number": 32965,
@@ -92,16 +172,6 @@
       "created_at": "2026-03-24T09:28:38Z",
       "updated_at": "2026-07-30T15:07:07Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
-      "number": 29736,
-      "title": "[Roadmap][DCP] Decode Context Parallel & Helix Parallelism \u2014 next steps & tracking",
-      "author": "thanhhao98",
-      "state": "open",
-      "created_at": "2026-06-30T08:43:14Z",
-      "updated_at": "2026-07-30T05:29:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
       "labels": []
     },
     {
@@ -165,16 +235,6 @@
       "labels": [
         "amd"
       ]
-    },
-    {
-      "number": 32321,
-      "title": "[RFC] Make BaseTpWorker the explicit framework-to-backend boundary - MLX runner-stub redesign",
-      "author": "noob-se7en",
-      "state": "open",
-      "created_at": "2026-07-24T12:54:43Z",
-      "updated_at": "2026-07-28T21:00:45Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32321",
-      "labels": []
     },
     {
       "number": 27937,
@@ -365,16 +425,6 @@
       ]
     },
     {
-      "number": 31594,
-      "title": "[Bug] [AMD] Qwen3.5 GatedDeltaNet + dp-attention on ROCm/MoRI: HIP \"invalid configuration argument\" (linear-attn/Mamba state path); process hangs in chunk_gated_delta_rule_fwd under kernel serialization",
-      "author": "ChangLiu0709",
-      "state": "open",
-      "created_at": "2026-07-17T15:58:21Z",
-      "updated_at": "2026-07-17T15:59:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31594",
-      "labels": []
-    },
-    {
       "number": 31545,
       "title": "[Bug][ROCm] MI355X: CUDA-graph decode kernels are captured but async-deferred into one post-marker burst \u2014 per-step timing unrecoverable (torch profiler)",
       "author": "zufayu",
@@ -385,30 +435,6 @@
       "labels": []
     },
     {
-      "number": 25551,
-      "title": "v0.5.12 DeepGemm regression on B300 (sm_103): CUDA_ERROR_ILLEGAL_ADDRESS in fp8_fp4_gemm_nt TMA descriptor init for shared-experts FP8 GEMM",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-05-18T01:33:58Z",
-      "updated_at": "2026-07-16T13:26:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/25551",
-      "labels": []
-    },
-    {
-      "number": 16255,
-      "title": "[Feature] deepseek_v2.py Refactor",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2026-01-01T03:53:53Z",
-      "updated_at": "2026-07-16T11:18:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
-      "labels": [
-        "inactive",
-        "deepseek",
-        "Good Pro Issue"
-      ]
-    },
-    {
       "number": 31071,
       "title": "[Bug] EAGLE greedy verify lacks TP broadcast \u2192 ranks diverge on accepted tokens \u2192 collective deadlock (tp>1)",
       "author": "zhoaa",
@@ -416,16 +442,6 @@
       "created_at": "2026-07-13T21:19:03Z",
       "updated_at": "2026-07-16T08:08:23Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31071",
-      "labels": []
-    },
-    {
-      "number": 31350,
-      "title": "[Bug] [AMD] Qwen3.5 + dp-attention: fused_qk_gemma_rmsnorm_with_gate Triton kernel aborts with HIP \"invalid configuration argument\" (zero-sized grid on empty/idle-rank batch)",
-      "author": "ChangLiu0709",
-      "state": "open",
-      "created_at": "2026-07-15T16:24:10Z",
-      "updated_at": "2026-07-15T16:31:08Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31350",
       "labels": []
     },
     {
@@ -491,16 +507,6 @@
       "labels": []
     },
     {
-      "number": 29738,
-      "title": "[Bug] NameError: name 'deep_gemm' is not defined in tf32_hc_prenorm_gemm when SGLANG_ENABLE_JIT_DEEPGEMM=0",
-      "author": "mattyding",
-      "state": "open",
-      "created_at": "2026-06-30T09:16:20Z",
-      "updated_at": "2026-06-30T09:16:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29738",
-      "labels": []
-    },
-    {
       "number": 29347,
       "title": "[Bug] [AMD] [ROCm/MI300X] EAGLE speculative decoding + CUDA graph: non-deterministic deadlock in greedy verification fallback",
       "author": "justinpan0",
@@ -508,36 +514,6 @@
       "created_at": "2026-06-25T23:55:43Z",
       "updated_at": "2026-06-30T07:02:24Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29347",
-      "labels": []
-    },
-    {
-      "number": 29695,
-      "title": "[Bug] Speculative CUDA graph metadata buffers use context_len instead of req_to_token capacity across backends",
-      "author": "ronhuafeng",
-      "state": "open",
-      "created_at": "2026-06-30T00:25:54Z",
-      "updated_at": "2026-06-30T05:45:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29695",
-      "labels": []
-    },
-    {
-      "number": 28992,
-      "title": "[Bug] `intel_amx` backend can segfault non-deterministically during long-running CPU serving",
-      "author": "gxoga",
-      "state": "open",
-      "created_at": "2026-06-23T04:33:21Z",
-      "updated_at": "2026-06-28T13:12:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/28992",
-      "labels": []
-    },
-    {
-      "number": 29039,
-      "title": "[Bug][AMD] EP8 + dp_attention + FP8 KV cache: ValueError: Unsupported dtype torch.float8_e4m3fn in NCCL all_gather during CUDA graph capture",
-      "author": "tanguofu",
-      "state": "open",
-      "created_at": "2026-06-23T12:22:23Z",
-      "updated_at": "2026-06-25T06:13:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29039",
       "labels": []
     }
   ]
