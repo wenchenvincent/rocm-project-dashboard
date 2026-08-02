@@ -1,6 +1,135 @@
 {
-  "collected_at": "2026-08-01T09:47:03Z",
+  "collected_at": "2026-08-02T09:46:30Z",
   "issues": [
+    {
+      "number": 191858,
+      "title": "[symm_mem] NVSHMEM backend's barrier(), put_signal() and wait_signal() are silent no-ops - callers synchronize on nothing",
+      "author": "RohitRathore1",
+      "state": "open",
+      "created_at": "2026-08-02T05:13:15Z",
+      "updated_at": "2026-08-02T05:15:32Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191858",
+      "labels": [
+        "oncall: distributed",
+        "triaged",
+        "module: correctness (silent)",
+        "module: symm_mem",
+        "bot-triaged",
+        "oncall: distributed infra"
+      ]
+    },
+    {
+      "number": 191855,
+      "title": "[ONNX] Dynamo export freezes dynamic time dimension in manual bidirectional LSTM/GRU pattern",
+      "author": "SouperDuper",
+      "state": "open",
+      "created_at": "2026-08-02T03:34:40Z",
+      "updated_at": "2026-08-02T03:36:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191855",
+      "labels": [
+        "module: onnx",
+        "triaged",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 191837,
+      "title": "Permute + reshape + F.fold generates an out-of-bounds write and aborts (CPU only)",
+      "author": "hassonofer",
+      "state": "open",
+      "created_at": "2026-08-01T12:13:42Z",
+      "updated_at": "2026-08-01T23:08:58Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191837",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: multithreading",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 191787,
+      "title": "aten::norm.Scalar forward AD returns a non-scalar tangent and raises",
+      "author": "myfykris",
+      "state": "open",
+      "created_at": "2026-07-31T20:16:17Z",
+      "updated_at": "2026-08-01T21:00:45Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191787",
+      "labels": [
+        "module: autograd",
+        "triaged",
+        "module: forward ad",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 181086,
+      "title": "[Symmetric Memory] symm buffer init and rendezvous cannot be assigned to a specific CUDA stream",
+      "author": "leeeizhang",
+      "state": "open",
+      "created_at": "2026-04-22T08:39:14Z",
+      "updated_at": "2026-08-01T18:46:16Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/181086",
+      "labels": [
+        "oncall: distributed",
+        "bot-triaged",
+        "oncall: distributed infra",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 191618,
+      "title": "[symm_mem] check_channel() multiplies by world_size instead of dividing, allowing out-of-bounds signal writes which silently corrupts peer tensor data on main",
+      "author": "RohitRathore1",
+      "state": "open",
+      "created_at": "2026-07-30T10:23:39Z",
+      "updated_at": "2026-08-01T16:40:05Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191618",
+      "labels": [
+        "oncall: distributed",
+        "triaged",
+        "module: correctness (silent)",
+        "module: symm_mem",
+        "bot-triaged",
+        "oncall: distributed infra"
+      ]
+    },
+    {
+      "number": 191089,
+      "title": "[Inductor] Conv2d numerical divergence with shape padding on PyTorch 2.10 and 2.12",
+      "author": "hiahu329",
+      "state": "open",
+      "created_at": "2026-07-25T09:24:38Z",
+      "updated_at": "2026-08-01T12:11:07Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191089",
+      "labels": [
+        "needs reproduction",
+        "module: convolution",
+        "triaged",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 191834,
+      "title": "[rocm][Windows]: Can't compile extensions due to ignoring `_rocm_devel` and `shlex.quote` usage",
+      "author": "astrelsky",
+      "state": "open",
+      "created_at": "2026-08-01T09:52:05Z",
+      "updated_at": "2026-08-01T09:53:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191834",
+      "labels": [
+        "module: windows",
+        "module: cpp-extensions",
+        "module: rocm",
+        "triaged",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 189014,
       "title": "[RFC]: Generalize memory snapshot APIs under `torch.accelerator.memory`",
@@ -15,21 +144,6 @@
         "needs design",
         "module: accelerator",
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 181086,
-      "title": "[Symmetric Memory] symm buffer init and rendezvous cannot be assigned to a specific CUDA stream",
-      "author": "leeeizhang",
-      "state": "open",
-      "created_at": "2026-04-22T08:39:14Z",
-      "updated_at": "2026-08-01T05:40:12Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/181086",
-      "labels": [
-        "oncall: distributed",
-        "bot-triaged",
-        "oncall: distributed infra",
-        "ptd-bot-triaged"
       ]
     },
     {
@@ -83,21 +197,6 @@
         "triaged",
         "module: amp (automated mixed precision)",
         "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 191787,
-      "title": "aten::norm.Scalar forward AD returns a non-scalar tangent and raises",
-      "author": "myfykris",
-      "state": "open",
-      "created_at": "2026-07-31T20:16:17Z",
-      "updated_at": "2026-07-31T20:33:39Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191787",
-      "labels": [
-        "module: autograd",
-        "triaged",
-        "module: forward ad",
         "bot-triaged"
       ]
     },
@@ -417,22 +516,6 @@
       ]
     },
     {
-      "number": 190142,
-      "title": "DISABLED test_max_autotune_cuda (__main__.TestFlexDecodingCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-16T01:14:38Z",
-      "updated_at": "2026-07-31T01:10:20Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/190142",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
       "number": 187203,
       "title": "DISABLED test_disable_external_correlation (__main__.TestProfilerCUDA)",
       "author": "pytorch-bot[bot]",
@@ -742,62 +825,6 @@
         "module: inductor",
         "upstream triton",
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 190002,
-      "title": "[inductor] `_precompile_worker` should catch Triton `CompilationError` and skip invalid autotuning configs",
-      "author": "XAheli",
-      "state": "open",
-      "created_at": "2026-07-15T10:32:43Z",
-      "updated_at": "2026-07-28T17:51:58Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/190002",
-      "labels": [
-        "module: crash",
-        "triaged",
-        "oncall: pt2",
-        "module: inductor",
-        "oncall: export",
-        "module: aotinductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 189138,
-      "title": "[RFC] DeviceInterface: Registry Support for PrivateUse1 Backends in torch.compile",
-      "author": "1479518308",
-      "state": "open",
-      "created_at": "2026-07-07T08:17:16Z",
-      "updated_at": "2026-07-28T08:27:36Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/189138",
-      "labels": [
-        "feature",
-        "triaged",
-        "large",
-        "module: backend",
-        "oncall: pt2",
-        "module: inductor",
-        "module: dynamo",
-        "module: PrivateUse1",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 143580,
-      "title": "RuntimeError: expect_autograd_hooks_ INTERNAL ASSERT FAILED at \"../torch/csrc/distributed/c10d/reducer.cpp\"",
-      "author": "alita-moore",
-      "state": "open",
-      "created_at": "2024-12-19T15:09:33Z",
-      "updated_at": "2026-07-28T07:49:02Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/143580",
-      "labels": [
-        "triage review",
-        "oncall: distributed",
-        "triaged",
-        "module: ddp",
-        "bot-triaged",
-        "oncall: distributed parallelisms",
-        "ptd-bot-triaged"
       ]
     }
   ]

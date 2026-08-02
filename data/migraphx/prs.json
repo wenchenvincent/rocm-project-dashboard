@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-08-01T09:47:34Z",
+  "collected_at": "2026-08-02T09:47:02Z",
   "prs": [
+    {
+      "number": 5026,
+      "title": "Enable mlir attention for yolon12",
+      "author": "weizhu12-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T01:04:56Z",
+      "updated_at": "2026-08-01T21:04:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5026",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5108,
+      "title": "Avoid the output copy when the result is an aliased view",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T23:05:42Z",
+      "updated_at": "2026-08-01T17:36:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5108",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5107,
       "title": "Onnxruntime Weekly Sync 2026-07-31",
@@ -16,18 +40,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 5026,
-      "title": "Enable mlir attention for yolon12",
-      "author": "weizhu12-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T01:04:56Z",
-      "updated_at": "2026-08-01T04:36:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5026",
-      "labels": [],
       "draft": false
     },
     {
@@ -51,18 +63,6 @@
       "created_at": "2026-06-11T21:50:30Z",
       "updated_at": "2026-08-01T02:51:21Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4956",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5108,
-      "title": "Avoid the output copy when the result is an aliased view",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T23:05:42Z",
-      "updated_at": "2026-08-01T03:06:59Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5108",
       "labels": [],
       "draft": false
     },

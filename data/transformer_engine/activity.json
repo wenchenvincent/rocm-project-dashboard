@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-01T09:50:24Z",
+  "collected_at": "2026-08-02T09:49:53Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 10.8,
+    "days_since_last": 11.8,
     "avg_interval_days": 41.6,
     "total_releases": 5,
     "latest_tag": "v2.12_rocm"

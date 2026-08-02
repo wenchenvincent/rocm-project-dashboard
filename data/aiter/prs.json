@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-08-01T09:47:43Z",
+  "collected_at": "2026-08-02T09:47:12Z",
   "prs": [
+    {
+      "number": 4502,
+      "title": "MoE: correct + faster a16w4 (bf16 A x MXFP4 W) SiTUv2 kernel (replaces old a16w4)",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T08:29:02Z",
+      "updated_at": "2026-08-02T08:43:11Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4502",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4510,
+      "title": "[Bugfix][FlyDSL] Honor b_nt in mixed-MoE stage-2 weight loads and retune Kimi-K3 rows",
+      "author": "qiongz",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T07:53:59Z",
+      "updated_at": "2026-08-02T08:27:02Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4510",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4439,
+      "title": "megamoe",
+      "author": "GwilliamHu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T12:37:44Z",
+      "updated_at": "2026-08-02T07:46:30Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4439",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4498,
+      "title": "perf(flydsl): fuse Kimi-K3 B1 BF16 pre-route projections on gfx950",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T23:01:24Z",
+      "updated_at": "2026-08-02T06:14:43Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4498",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4495,
+      "title": "perf(flydsl): fuse Kimi-K3 KDA decode and f_b projection",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T23:01:08Z",
+      "updated_at": "2026-08-02T06:14:41Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4495",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 4450,
       "title": "Optimize 12-head Gluon MLA split scheduling",
@@ -8,8 +68,80 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T01:04:08Z",
-      "updated_at": "2026-08-01T09:23:35Z",
+      "updated_at": "2026-08-02T06:12:18Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4450",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4504,
+      "title": "perf(flydsl): fuse Kimi-K3 FP8 pre-route projections",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T08:36:58Z",
+      "updated_at": "2026-08-02T05:08:07Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4504",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4503,
+      "title": "perf(flydsl): add Kimi-K3 FP8 latent MoE tail",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T08:36:49Z",
+      "updated_at": "2026-08-02T05:08:05Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4503",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4499,
+      "title": "perf(flydsl): optimize Kimi-K3 KDA group64 projection on gfx950",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T23:01:29Z",
+      "updated_at": "2026-08-02T05:08:04Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4499",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4497,
+      "title": "perf(flydsl): fuse Kimi-K3 MLA output gate on gfx950",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T23:01:18Z",
+      "updated_at": "2026-08-02T05:08:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4497",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4496,
+      "title": "perf(flydsl): fuse Kimi-K3 B1 latent MoE tail",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T23:01:13Z",
+      "updated_at": "2026-08-02T05:08:00Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4496",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4494,
+      "title": "Fix ASM split-K semaphore deadlock under CUDA graph capture",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T22:15:00Z",
+      "updated_at": "2026-08-02T03:52:14Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4494",
       "labels": [],
       "draft": false
     },
@@ -20,8 +152,128 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-28T01:15:21Z",
-      "updated_at": "2026-08-01T09:22:56Z",
+      "updated_at": "2026-08-02T03:52:13Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4405",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4474,
+      "title": "[Bugfix][Triton] Fix int32 KV-offset overflow in _mla_gluon >2GB path",
+      "author": "peizhang56",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T02:57:48Z",
+      "updated_at": "2026-08-02T03:34:54Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4474",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4507,
+      "title": "[Gluon][MLA] Size NUM_KV_SPLITS from the page table, not the optional min_kv_seq_len hint",
+      "author": "amd-ethany",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T02:01:13Z",
+      "updated_at": "2026-08-02T02:43:28Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4507",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4509,
+      "title": "[Gluon][MLA] Split-major grid and blocked stage-2 reduce for the small-nhead decode regime for kimi-k3",
+      "author": "amd-ethany",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T02:40:04Z",
+      "updated_at": "2026-08-02T02:40:33Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4509",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4407,
+      "title": "feat(moe): add SharedEP MXFP4 kernels",
+      "author": "AMD-yanfeiwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T02:04:15Z",
+      "updated_at": "2026-08-02T02:30:54Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4407",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4508,
+      "title": "[TRITON][GLUON] Fixing Python 3.14 Compatibility Issue About @aggregate ",
+      "author": "cagrikymk",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T02:20:20Z",
+      "updated_at": "2026-08-02T02:28:39Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4508",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4488,
+      "title": "[Test] mla_gluon: regression test for the >2GB KV cache path",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T19:20:56Z",
+      "updated_at": "2026-08-02T02:24:42Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4488",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4506,
+      "title": "[triton] fix transpose_scale in fused_rms_fp8_group_quant (was silently row-major)",
+      "author": "karverma-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T22:12:29Z",
+      "updated_at": "2026-08-01T22:20:23Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4506",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4362,
+      "title": "Add unit-scale FP8 KV cache support to fused_qknorm_idxrqknorm",
+      "author": "zijiecode",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T23:40:57Z",
+      "updated_at": "2026-08-01T21:11:39Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4362",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4491,
+      "title": "[HIP] Add gfx950 packed BF16 GDN decode kernel",
+      "author": "zijiecode",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T20:40:57Z",
+      "updated_at": "2026-08-01T19:37:55Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4491",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4480,
+      "title": "Enable fp8 KV cache for small-head MLA decode on gfx950",
+      "author": "ZhengGong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T10:32:47Z",
+      "updated_at": "2026-08-01T10:59:29Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4480",
       "labels": [],
       "draft": false
     },
@@ -40,128 +292,6 @@
       "draft": false
     },
     {
-      "number": 4496,
-      "title": "perf(flydsl): fuse Kimi-K3 B1 latent MoE tail",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T23:01:13Z",
-      "updated_at": "2026-08-01T09:20:16Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4496",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4499,
-      "title": "perf(flydsl): optimize Kimi-K3 KDA group64 projection on gfx950",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T23:01:29Z",
-      "updated_at": "2026-08-01T09:10:44Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4499",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4495,
-      "title": "perf(flydsl): fuse Kimi-K3 KDA decode and f_b projection",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T23:01:08Z",
-      "updated_at": "2026-08-01T09:10:43Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4495",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4494,
-      "title": "Fix ASM split-K semaphore deadlock under CUDA graph capture",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T22:15:00Z",
-      "updated_at": "2026-08-01T09:10:41Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4494",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4488,
-      "title": "[Bugfix] mla_gluon: int32 overflow in the KV row offset faults above ~3.7M rows",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T19:20:56Z",
-      "updated_at": "2026-08-01T09:10:40Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4488",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4502,
-      "title": "MoE: correct + faster a16w4 (bf16 A x MXFP4 W) SiTUv2 kernel (replaces old a16w4)",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T08:29:02Z",
-      "updated_at": "2026-08-01T09:05:25Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4502",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4497,
-      "title": "perf(flydsl): fuse Kimi-K3 MLA output gate on gfx950",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T23:01:18Z",
-      "updated_at": "2026-08-01T08:54:02Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4497",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4504,
-      "title": "perf(flydsl): fuse Kimi-K3 FP8 pre-route projections",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T08:36:58Z",
-      "updated_at": "2026-08-01T08:51:52Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4504",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4503,
-      "title": "perf(flydsl): add Kimi-K3 FP8 latent MoE tail",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T08:36:49Z",
-      "updated_at": "2026-08-01T08:51:45Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4503",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4501,
-      "title": "Flydsl kernel cleanup",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T05:49:21Z",
-      "updated_at": "2026-08-01T07:41:57Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4501",
-      "labels": [
-        "ci:all"
-      ],
-      "draft": false
-    },
-    {
       "number": 4398,
       "title": "Two-stage a16w4 MoE GEMM (INTERLEAVE-gate mode)",
       "author": "apicciau",
@@ -170,18 +300,6 @@
       "created_at": "2026-07-27T16:42:14Z",
       "updated_at": "2026-08-01T06:21:52Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4398",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4480,
-      "title": "Enable fp8 KV cache for small-head MLA decode on gfx950",
-      "author": "ZhengGong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T10:32:47Z",
-      "updated_at": "2026-08-01T05:34:42Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4480",
       "labels": [],
       "draft": false
     },
@@ -208,18 +326,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/4500",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4498,
-      "title": "perf(flydsl): fuse Kimi-K3 B1 BF16 pre-route projections on gfx950",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T23:01:24Z",
-      "updated_at": "2026-08-01T00:30:08Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4498",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4484,
@@ -258,18 +364,6 @@
       "draft": false
     },
     {
-      "number": 4474,
-      "title": "[Bugfix][Triton] Fix int32 KV-offset overflow in _mla_gluon >2GB path",
-      "author": "peizhang56",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T02:57:48Z",
-      "updated_at": "2026-07-31T21:42:08Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4474",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2513,
       "title": "[TRITON] [GLUON] GFX1250 Gluon MoE A4W4 Kernel",
       "author": "farlukas",
@@ -280,18 +374,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/2513",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 4491,
-      "title": "[HIP] Add gfx950 packed BF16 GDN decode kernel",
-      "author": "zijiecode",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T20:40:57Z",
-      "updated_at": "2026-07-31T20:49:48Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4491",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 4471,
@@ -548,18 +630,6 @@
       "draft": false
     },
     {
-      "number": 4439,
-      "title": "megamoe",
-      "author": "GwilliamHu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-29T12:37:44Z",
-      "updated_at": "2026-07-31T08:54:25Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4439",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4179,
       "title": "[fmoe][gfx950]Flydsl mxmoe v2",
       "author": "charlieguo1106",
@@ -609,18 +679,6 @@
       "labels": [
         "ci:atom"
       ],
-      "draft": false
-    },
-    {
-      "number": 4362,
-      "title": "[WIP] Add unit-scale FP8 KV cache support to fused_qknorm_idxrqknorm",
-      "author": "zijiecode",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T23:40:57Z",
-      "updated_at": "2026-07-31T06:37:41Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4362",
-      "labels": [],
       "draft": false
     },
     {
@@ -890,18 +948,6 @@
       "created_at": "2026-07-21T05:36:41Z",
       "updated_at": "2026-07-30T16:02:18Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4314",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4269,
-      "title": "[Feature][FlyDSL] Add fused heterogeneous MXFP4/FP8 shared-expert MoE (FHMoE) and share the mixed-MoE kernel builders",
-      "author": "Fangzhou-Ai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-16T18:46:13Z",
-      "updated_at": "2026-07-30T16:01:16Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4269",
       "labels": [],
       "draft": false
     },
@@ -1314,18 +1360,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/2594",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 4407,
-      "title": "feat(moe): add SharedEP MXFP4 kernels",
-      "author": "AMD-yanfeiwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T02:04:15Z",
-      "updated_at": "2026-07-28T02:04:51Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4407",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 2699,
@@ -5543,6 +5577,32 @@
       "draft": false
     },
     {
+      "number": 4501,
+      "title": "Flydsl kernel cleanup",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-01T05:49:21Z",
+      "updated_at": "2026-08-01T11:09:02Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4501",
+      "labels": [
+        "ci:all"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4269,
+      "title": "[Feature][FlyDSL] Add fused heterogeneous MXFP4/FP8 shared-expert MoE (FHMoE) and share the mixed-MoE kernel builders",
+      "author": "Fangzhou-Ai",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T18:46:13Z",
+      "updated_at": "2026-08-01T09:59:11Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4269",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 4485,
       "title": "feat(configs): add Qwen3.5-397B-A17B-MXFP4 a16w4 tuned fmoe config",
       "author": "yichiche",
@@ -6392,47 +6452,6 @@
       "labels": [
         "ci:sglang"
       ],
-      "draft": false
-    },
-    {
-      "number": 4331,
-      "title": "[OPUS] DSV4 fp8fp4 fmoe: best-correct stage2 per token + tighten tuner errRatio",
-      "author": "yifehuan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-22T05:32:06Z",
-      "updated_at": "2026-07-22T08:29:35Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4331",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4299,
-      "title": "[Feat][HIP]: Support causal_conv1d_fwd_split_qkv with channel-last layout",
-      "author": "stevenshenyj",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-20T07:07:41Z",
-      "updated_at": "2026-07-22T07:57:21Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4299",
-      "labels": [
-        "ci:sglang",
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3945,
-      "title": "Zhimding/gfx1250 moe 2mode e2e v1 0615",
-      "author": "zhiding512",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T02:55:22Z",
-      "updated_at": "2026-07-22T07:47:43Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3945",
-      "labels": [],
       "draft": false
     }
   ]

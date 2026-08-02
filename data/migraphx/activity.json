@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-01T09:48:41Z",
+  "collected_at": "2026-08-02T09:48:13Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
@@ -25,7 +25,7 @@
         "author": "pfultz2",
         "prs_submitted": 51,
         "prs_merged": 25,
-        "commits": 17
+        "commits": 16
       },
       {
         "author": "shivadbhavsar",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 11.8,
+    "days_since_last": 12.8,
     "avg_interval_days": 29.6,
     "total_releases": 5,
     "latest_tag": "rocm-7.14"

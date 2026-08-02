@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-08-01T09:47:58Z",
+  "collected_at": "2026-08-02T09:47:28Z",
   "prs": [
     {
-      "number": 948,
-      "title": "MoE: add a16w mix fused 2-stage kernels (bf16 A \u00d7 mxfp4/int4/bf16 W)",
-      "author": "coderfeli",
+      "number": 954,
+      "title": "BugFix for MegaMoE",
+      "author": "GwilliamHu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-01T02:40:12Z",
-      "updated_at": "2026-08-01T09:25:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/948",
+      "created_at": "2026-08-02T07:00:21Z",
+      "updated_at": "2026-08-02T07:00:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/954",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 952,
+      "title": "Feat: Add flydsl-lsp-server for FlyDSL .mlir editor support.",
+      "author": "Peter9606",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T18:25:30Z",
+      "updated_at": "2026-08-01T18:25:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/952",
       "labels": [],
       "draft": false
     },
@@ -20,8 +32,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-01T01:52:41Z",
-      "updated_at": "2026-08-01T08:54:38Z",
+      "updated_at": "2026-08-01T14:18:32Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/947",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 948,
+      "title": "MoE: add a16w mix fused 2-stage kernels (bf16 A \u00d7 mxfp4/int4/bf16 W)",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T02:40:12Z",
+      "updated_at": "2026-08-01T13:09:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/948",
       "labels": [],
       "draft": false
     },
@@ -1636,18 +1660,6 @@
       "created_at": "2026-07-06T11:36:00Z",
       "updated_at": "2026-07-07T07:26:31Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/805",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 789,
-      "title": "[Enh] Add finer FastMathFlag control",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T11:11:10Z",
-      "updated_at": "2026-07-07T07:25:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/789",
       "labels": [],
       "draft": false
     }

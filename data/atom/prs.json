@@ -1,27 +1,15 @@
 {
-  "collected_at": "2026-08-01T09:47:51Z",
+  "collected_at": "2026-08-02T09:47:21Z",
   "prs": [
     {
-      "number": 1755,
-      "title": "Add fake eplb for performance test",
-      "author": "junhaha666",
+      "number": 1769,
+      "title": "[Feature] DeepSeek-V4 CSA prefix-state cache on SWA (native, no arena)",
+      "author": "yhl-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-31T02:00:45Z",
-      "updated_at": "2026-08-01T09:45:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1755",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1767,
-      "title": "perf(loader): 2.2x cold / 1.7x warm weight load, plus three loader fixes",
-      "author": "valarLip",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T09:37:07Z",
-      "updated_at": "2026-08-01T09:45:01Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1767",
+      "created_at": "2026-08-01T16:39:29Z",
+      "updated_at": "2026-08-02T07:15:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1769",
       "labels": [
         "ci:atom"
       ],
@@ -34,8 +22,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-01T06:04:16Z",
-      "updated_at": "2026-08-01T08:58:42Z",
+      "updated_at": "2026-08-01T12:04:21Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1766",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1755,
+      "title": "Add fake eplb for performance test",
+      "author": "junhaha666",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-31T02:00:45Z",
+      "updated_at": "2026-08-01T09:45:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1755",
       "labels": [],
       "draft": false
     },
@@ -2132,6 +2132,34 @@
       "draft": false
     },
     {
+      "number": 1768,
+      "title": "fix(engine): offline output thread dies on the first streamed token",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-01T12:48:42Z",
+      "updated_at": "2026-08-01T15:07:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1768",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1767,
+      "title": "perf(loader): 2.2x cold / 1.7x warm weight load, plus three loader fixes",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-01T09:37:07Z",
+      "updated_at": "2026-08-01T10:30:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1767",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
       "number": 1518,
       "title": "[vLLM-ATOM] Support EAGLE3 spec decoding for MiniMax-M3",
       "author": "kliuae",
@@ -3181,30 +3209,6 @@
       "created_at": "2026-07-20T16:47:29Z",
       "updated_at": "2026-07-21T12:06:47Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1649",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1648,
-      "title": "perf(tbo): compute prefill split scalars on host to cut D2H syncs",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-20T13:41:22Z",
-      "updated_at": "2026-07-21T05:41:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1648",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1210,
-      "title": "(eplb): EPLB_V_0.9",
-      "author": "JiaoliangYu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-15T00:51:32Z",
-      "updated_at": "2026-07-21T04:07:00Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1210",
       "labels": [],
       "draft": false
     }

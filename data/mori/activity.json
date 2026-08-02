@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-01T09:50:11Z",
+  "collected_at": "2026-08-02T09:49:40Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
@@ -15,7 +15,7 @@
     },
     "median_time_to_merge_hours": 25.7,
     "merge_count": 64,
-    "stale_prs": 5
+    "stale_prs": 6
   },
   "contributors": {
     "active_this_week": 16,
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 15.8,
+    "days_since_last": 16.8,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v1.2.2"
