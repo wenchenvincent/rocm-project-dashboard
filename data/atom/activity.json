@@ -1,29 +1,29 @@
 {
-  "collected_at": "2026-08-02T09:49:25Z",
+  "collected_at": "2026-08-03T11:13:02Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 64,
+      "opened": 67,
       "merged": 40,
-      "closed": 11
+      "closed": 13
     },
     "last_week": {
-      "opened": 56,
-      "merged": 48,
+      "opened": 54,
+      "merged": 47,
       "closed": 8
     },
-    "median_time_to_merge_hours": 8.4,
-    "merge_count": 95,
+    "median_time_to_merge_hours": 9.4,
+    "merge_count": 93,
     "stale_prs": 64
   },
   "contributors": {
     "active_this_week": 36,
-    "total_contributors": 77,
+    "total_contributors": 75,
     "top_contributors": [
       {
         "author": "PerryZhang01",
-        "prs_submitted": 14,
+        "prs_submitted": 15,
         "prs_merged": 4,
         "commits": 8
       },
@@ -34,28 +34,28 @@
         "commits": 0
       },
       {
+        "author": "yitingw1",
+        "prs_submitted": 11,
+        "prs_merged": 10,
+        "commits": 7
+      },
+      {
+        "author": "valarLip",
+        "prs_submitted": 11,
+        "prs_merged": 9,
+        "commits": 25
+      },
+      {
         "author": "yhl-amd",
         "prs_submitted": 11,
         "prs_merged": 2,
-        "commits": 9
+        "commits": 8
       },
       {
         "author": "ZhangLirong-amd",
         "prs_submitted": 11,
         "prs_merged": 9,
-        "commits": 19
-      },
-      {
-        "author": "valarLip",
-        "prs_submitted": 11,
-        "prs_merged": 10,
-        "commits": 25
-      },
-      {
-        "author": "yitingw1",
-        "prs_submitted": 10,
-        "prs_merged": 9,
-        "commits": 7
+        "commits": 18
       },
       {
         "author": "ChuanLi1101",
@@ -77,7 +77,7 @@
       },
       {
         "author": "gbyu-amd",
-        "prs_submitted": 7,
+        "prs_submitted": 8,
         "prs_merged": 0,
         "commits": 0
       }
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 28.7,
+    "days_since_last": 29.7,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

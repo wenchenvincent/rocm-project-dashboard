@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-02T09:46:57Z",
+  "collected_at": "2026-08-03T11:10:32Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,57 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-02T08:41:14Z",
+      "updated_at": "2026-08-03T10:42:19Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-03T08:50:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 11762,
+      "title": "[Feature] Overlap Spec Support",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2025-10-17T14:48:31Z",
+      "updated_at": "2026-08-03T03:50:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/11762",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "high priority"
+      ]
+    },
+    {
+      "number": 27937,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "amd-bot",
+      "state": "open",
+      "created_at": "2026-06-11T15:46:32Z",
+      "updated_at": "2026-08-03T00:07:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
+      "labels": []
+    },
+    {
+      "number": 33292,
+      "title": "[Bug] [multimodal_gen] CustomOp.dispatch_forward() XPU breaking model construction on Intel GPUs",
+      "author": "dayanandav",
+      "state": "open",
+      "created_at": "2026-08-02T18:48:21Z",
+      "updated_at": "2026-08-02T18:48:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33292",
       "labels": []
     },
     {
@@ -54,20 +103,6 @@
       "updated_at": "2026-08-01T09:36:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29738",
       "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-01T07:56:41Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
     },
     {
       "number": 32960,
@@ -245,16 +280,6 @@
       "labels": [
         "amd"
       ]
-    },
-    {
-      "number": 27937,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "amd-bot",
-      "state": "open",
-      "created_at": "2026-06-11T15:46:32Z",
-      "updated_at": "2026-07-28T00:52:44Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
-      "labels": []
     },
     {
       "number": 31774,
@@ -435,20 +460,6 @@
       "labels": []
     },
     {
-      "number": 16255,
-      "title": "[Feature] deepseek_v2.py Refactor",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2026-01-01T03:53:53Z",
-      "updated_at": "2026-07-16T11:18:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
-      "labels": [
-        "inactive",
-        "deepseek",
-        "Good Pro Issue"
-      ]
-    },
-    {
       "number": 31071,
       "title": "[Bug] EAGLE greedy verify lacks TP broadcast \u2192 ranks diverge on accepted tokens \u2192 collective deadlock (tp>1)",
       "author": "zhoaa",
@@ -518,16 +529,6 @@
       "created_at": "2026-07-01T22:18:14Z",
       "updated_at": "2026-07-03T06:04:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29875",
-      "labels": []
-    },
-    {
-      "number": 29347,
-      "title": "[Bug] [AMD] [ROCm/MI300X] EAGLE speculative decoding + CUDA graph: non-deterministic deadlock in greedy verification fallback",
-      "author": "justinpan0",
-      "state": "open",
-      "created_at": "2026-06-25T23:55:43Z",
-      "updated_at": "2026-06-30T07:02:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29347",
       "labels": []
     }
   ]

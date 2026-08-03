@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-08-02T09:47:17Z",
+  "collected_at": "2026-08-03T11:10:53Z",
   "issues": [
+    {
+      "number": 4524,
+      "title": "Please ship official gfx90a builds of the fmha_v3_fwd ASM kernels (48 of 56 are assembler-verified portable)",
+      "author": "davetha",
+      "state": "open",
+      "created_at": "2026-08-03T06:54:11Z",
+      "updated_at": "2026-08-03T10:56:44Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4524",
+      "labels": []
+    },
+    {
+      "number": 4528,
+      "title": "[Issue]: [gfx950][fused MoE] Kimi-K3 A8W4 SiTUv2 token=8192 intermittently returns NaN",
+      "author": "fsx950223",
+      "state": "open",
+      "created_at": "2026-08-03T07:57:44Z",
+      "updated_at": "2026-08-03T07:57:44Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4528",
+      "labels": []
+    },
+    {
+      "number": 2194,
+      "title": "Silent incorrectness in `fused_moe` with cloned FP4 weights/scales",
+      "author": "msaroufim",
+      "state": "open",
+      "created_at": "2026-03-05T16:11:46Z",
+      "updated_at": "2026-08-03T04:30:54Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2194",
+      "labels": []
+    },
     {
       "number": 4492,
       "title": "[Issue]: AITER fused MoE is not usable on gfx1201/R9700S: no gfx1201 dispatch entry and `fmoe_g1u1` finds no suitable kernel",
@@ -1696,16 +1726,6 @@
       "created_at": "2025-11-22T21:57:17Z",
       "updated_at": "2026-03-06T20:52:19Z",
       "html_url": "https://github.com/ROCm/aiter/issues/1468",
-      "labels": []
-    },
-    {
-      "number": 2194,
-      "title": "Silent incorrectness in `fused_moe` with cloned FP4 weights/scales",
-      "author": "msaroufim",
-      "state": "open",
-      "created_at": "2026-03-05T16:11:46Z",
-      "updated_at": "2026-03-05T18:27:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2194",
       "labels": []
     },
     {
