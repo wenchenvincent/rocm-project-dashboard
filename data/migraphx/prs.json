@@ -1,55 +1,17 @@
 {
-  "collected_at": "2026-08-03T11:10:38Z",
+  "collected_at": "2026-08-04T10:25:27Z",
   "prs": [
     {
-      "number": 5103,
-      "title": "Loop subgraph support",
-      "author": "weizhu12-amd",
+      "number": 4616,
+      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
+      "author": "shivadbhavsar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-30T06:35:30Z",
-      "updated_at": "2026-08-03T10:33:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5103",
+      "created_at": "2026-02-17T16:20:19Z",
+      "updated_at": "2026-08-04T06:26:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5105,
-      "title": "Lower reshape after  eliminate_contiguous in a single pass",
-      "author": "ivarusic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T13:45:16Z",
-      "updated_at": "2026-08-03T10:13:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5105",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5104,
-      "title": "skip elimination when reshape_lazy",
-      "author": "weizhu12-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T07:12:59Z",
-      "updated_at": "2026-08-03T10:06:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5104",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5048,
-      "title": "Preserve shape ops when removing QDQ pairs",
-      "author": "ikalinic",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T14:22:24Z",
-      "updated_at": "2026-08-03T08:23:19Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4752,
@@ -58,22 +20,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-04-08T01:15:55Z",
-      "updated_at": "2026-08-03T00:38:00Z",
+      "updated_at": "2026-08-04T01:16:55Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5088,
-      "title": "Refactor slice op for symbolic bounds and explicit input mode",
-      "author": "CharlieL7",
+      "number": 5103,
+      "title": "Loop subgraph support",
+      "author": "weizhu12-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-22T19:14:49Z",
-      "updated_at": "2026-08-02T23:28:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5088",
+      "created_at": "2026-07-30T06:35:30Z",
+      "updated_at": "2026-08-03T23:38:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5103",
       "labels": [],
-      "draft": false
+      "draft": true
+    },
+    {
+      "number": 5104,
+      "title": "skip elimination when reshape_lazy",
+      "author": "weizhu12-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T07:12:59Z",
+      "updated_at": "2026-08-03T23:28:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5104",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 4606,
@@ -82,32 +56,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-02-12T03:59:23Z",
-      "updated_at": "2026-08-02T22:44:06Z",
+      "updated_at": "2026-08-03T23:24:53Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4606",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4616,
-      "title": "[AIMIGRAPHX-544] Parallel compilation for dynamic graphs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-17T16:20:19Z",
-      "updated_at": "2026-08-02T21:12:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5026,
-      "title": "Enable mlir attention for yolon12",
-      "author": "weizhu12-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T01:04:56Z",
-      "updated_at": "2026-08-01T21:04:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5026",
       "labels": [],
       "draft": false
     },
@@ -118,8 +68,70 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-31T23:05:42Z",
-      "updated_at": "2026-08-01T17:36:12Z",
+      "updated_at": "2026-08-03T22:30:51Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5108",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4770,
+      "title": "Adding compilation mode",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T19:50:16Z",
+      "updated_at": "2026-08-03T21:19:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5088,
+      "title": "Refactor slice op for symbolic bounds and explicit input mode",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T19:14:49Z",
+      "updated_at": "2026-08-03T19:18:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5088",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5102,
+      "title": "Refactor to use a device_description instead of using the hipDeviceProps struct",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T22:32:01Z",
+      "updated_at": "2026-08-03T18:54:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5102",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5105,
+      "title": "Lower reshape after  eliminate_contiguous in a single pass",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T13:45:16Z",
+      "updated_at": "2026-08-03T14:31:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5105",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5048,
+      "title": "Preserve shape ops when removing QDQ pairs",
+      "author": "ikalinic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T14:22:24Z",
+      "updated_at": "2026-08-03T08:23:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
       "labels": [],
       "draft": false
     },
@@ -138,18 +150,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 5102,
-      "title": "Refactor to use a device_description instead of using the hipDeviceProps struct",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-29T22:32:01Z",
-      "updated_at": "2026-08-01T03:02:26Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5102",
-      "labels": [],
       "draft": false
     },
     {
@@ -288,18 +288,6 @@
       "created_at": "2026-07-23T15:59:32Z",
       "updated_at": "2026-07-30T17:59:43Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4770,
-      "title": "Adding compilation mode",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T19:50:16Z",
-      "updated_at": "2026-07-29T17:01:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
       "labels": [],
       "draft": false
     },
@@ -1369,6 +1357,30 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5026,
+      "title": "Enable mlir attention for yolon12",
+      "author": "weizhu12-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-01T01:04:56Z",
+      "updated_at": "2026-08-04T04:10:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5026",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4730,
+      "title": "[AIMIGRAPHX-841] sym shapes for gemm ops",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-01T20:47:01Z",
+      "updated_at": "2026-08-03T20:31:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4730",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 5099,
@@ -2527,37 +2539,6 @@
       "updated_at": "2026-06-30T12:51:49Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5018",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5016,
-      "title": "Onnxruntime Weekly Sync 2026-06-26",
-      "author": "github-actions[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T17:44:11Z",
-      "updated_at": "2026-06-29T21:58:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5016",
-      "labels": [
-        "onnxruntime",
-        "dependencies",
-        "skip bot checks",
-        "automated"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5004,
-      "title": "[AIMIGRAPHX-885] Add slice squeeze matcher",
-      "author": "TedThemistokleous",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-22T15:31:59Z",
-      "updated_at": "2026-06-29T15:16:59Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5004",
-      "labels": [
-        "high priority"
-      ],
       "draft": false
     }
   ]

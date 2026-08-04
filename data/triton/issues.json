@@ -1,16 +1,6 @@
 {
-  "collected_at": "2026-08-03T11:10:35Z",
+  "collected_at": "2026-08-04T10:25:25Z",
   "issues": [
-    {
-      "number": 11037,
-      "title": "[AMD/gfx950] tl.atomic_add inside a while loop hangs ",
-      "author": "shuyaobi-afk",
-      "state": "open",
-      "created_at": "2026-07-24T17:12:38Z",
-      "updated_at": "2026-07-31T17:51:50Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/11037",
-      "labels": []
-    },
     {
       "number": 10962,
       "title": "[AMD][gfx1250] MXFP GEMM omits partial K scale groups",

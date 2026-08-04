@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-08-03T11:10:06Z",
+  "collected_at": "2026-08-04T10:25:01Z",
   "prs": [
+    {
+      "number": 39698,
+      "title": "[ROCm] Point TheRock latest nightly CI at ROCm 10 wheels",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T23:25:58Z",
+      "updated_at": "2026-08-03T23:38:30Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39698",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39632,
+      "title": "[ROCm] Remove the legacy ROCm GPU Post-Merge Check workflow",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-31T16:38:35Z",
+      "updated_at": "2026-08-03T16:29:03Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39632",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 39634,
       "title": "[ROCm] Find ROCm plugin packages by major version",
@@ -13,36 +43,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39632,
-      "title": "[ROCm] Remove the legacy ROCm GPU Post-Merge Check workflow",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T16:38:35Z",
-      "updated_at": "2026-07-31T18:02:30Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39632",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39602,
-      "title": "[ROCm] Assign GPUs to multi-process tests via ROCR_VISIBLE_DEVICES",
-      "author": "mminutoli",
-      "state": "closed",
-      "merged": false,
-      "created_at": "2026-07-31T00:20:50Z",
-      "updated_at": "2026-07-31T17:19:36Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39602",
-      "labels": [
-        "bug",
-        "AMD GPU"
       ],
       "draft": false
     },
@@ -566,22 +566,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38200,
-      "title": "[ROCm] Remove outdated ROCm skip that depends on ROCm versions < 6.4",
-      "author": "gulsumgudukbay",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-04T17:27:20Z",
-      "updated_at": "2026-06-08T20:53:34Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38200",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
       ],
       "draft": false
     },

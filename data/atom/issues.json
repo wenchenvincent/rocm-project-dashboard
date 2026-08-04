@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-03T11:10:59Z",
+  "collected_at": "2026-08-04T10:25:44Z",
   "issues": [
+    {
+      "number": 1784,
+      "title": "[PR #1771] DeepSeek-V4 agentic: `aiter::ob::radix_topk_one_block_kernel` HIP illegal memory access (indexer top-k races the checkpoint state-copy)",
+      "author": "yhl-amd",
+      "state": "open",
+      "created_at": "2026-08-04T06:48:15Z",
+      "updated_at": "2026-08-04T06:53:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1784",
+      "labels": []
+    },
     {
       "number": 577,
       "title": "[Issue]: RuntimeError with ATOM docker of rocm/atom:rocm7.2.1-ubuntu24.04-pytorch2.9.1-atom0.1.2 for ISL/OSL of 1k/1k and conc64 due to dtype mismatch of two matrices in one gemm kernel call.",
@@ -32,19 +42,6 @@
       "labels": []
     },
     {
-      "number": 1754,
-      "title": "[Perf Regression] 36 config(s) regressed @ d1aa2506",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-07-31T01:41:31Z",
-      "updated_at": "2026-07-31T01:41:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1754",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
       "number": 1748,
       "title": "[Issue]: Mooncake picks a link-local RoCE GID on ionic NICs, requiring a manual MC_GID_INDEX override",
       "author": "mustafa-khalid",
@@ -73,19 +70,6 @@
       "updated_at": "2026-07-24T23:21:57Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1696",
       "labels": []
-    },
-    {
-      "number": 1687,
-      "title": "[Perf Regression] 1 config(s) regressed @ 0e1af291",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-07-23T13:53:46Z",
-      "updated_at": "2026-07-23T13:53:46Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1687",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 1661,

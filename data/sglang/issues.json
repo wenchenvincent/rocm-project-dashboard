@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-03T11:10:32Z",
+  "collected_at": "2026-08-04T10:25:23Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,85 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-03T10:42:19Z",
+      "updated_at": "2026-08-04T10:02:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 26890,
+      "title": "[AITER-Upgrade] AITER Scout Status",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-06-01T06:01:24Z",
+      "updated_at": "2026-08-04T09:05:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
+      "labels": []
+    },
+    {
+      "number": 29736,
+      "title": "[Roadmap][DCP] Decode Context Parallel & Helix Parallelism \u2014 next steps & tracking",
+      "author": "thanhhao98",
+      "state": "open",
+      "created_at": "2026-06-30T08:43:14Z",
+      "updated_at": "2026-08-04T04:12:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
+      "labels": []
+    },
+    {
+      "number": 22464,
+      "title": "[Parity with CUDA] FP8 & FP4 AMD Multi-Node PD Disagg Nightly Regression Testing (ideally with AMD first class Pollara NICs) with multiple prefill workers + multiple decode workers with shallow EP (EP8) and with wide EP (>=EP16)",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-04-09T18:25:32Z",
+      "updated_at": "2026-08-04T02:17:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22464",
+      "labels": [
+        "inactive"
+      ]
+    },
+    {
+      "number": 27937,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "amd-bot",
+      "state": "open",
+      "created_at": "2026-06-11T15:46:32Z",
+      "updated_at": "2026-08-04T00:18:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
+      "labels": []
+    },
+    {
+      "number": 11762,
+      "title": "[Feature] Overlap Spec Support",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2025-10-17T14:48:31Z",
+      "updated_at": "2026-08-03T22:16:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/11762",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "help wanted",
+        "high priority"
+      ]
+    },
+    {
+      "number": 30599,
+      "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
+      "author": "AIwork4me",
+      "state": "open",
+      "created_at": "2026-07-09T04:36:21Z",
+      "updated_at": "2026-08-03T14:09:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30599",
+      "labels": []
+    },
+    {
+      "number": 33383,
+      "title": "[AMD] EAGLE3 spec-decode unsupported for MiniMax-M3: minimax_sparse_backend has no decode-shaped forward path (extend_seq_lens=None)",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-08-03T11:12:25Z",
+      "updated_at": "2026-08-03T11:12:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33383",
       "labels": []
     },
     {
@@ -24,31 +101,6 @@
         "good first issue",
         "ci"
       ]
-    },
-    {
-      "number": 11762,
-      "title": "[Feature] Overlap Spec Support",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2025-10-17T14:48:31Z",
-      "updated_at": "2026-08-03T03:50:23Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/11762",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "help wanted",
-        "high priority"
-      ]
-    },
-    {
-      "number": 27937,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "amd-bot",
-      "state": "open",
-      "created_at": "2026-06-11T15:46:32Z",
-      "updated_at": "2026-08-03T00:07:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
-      "labels": []
     },
     {
       "number": 33292,
@@ -164,16 +216,6 @@
       "created_at": "2026-07-24T12:54:43Z",
       "updated_at": "2026-07-31T14:25:58Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/32321",
-      "labels": []
-    },
-    {
-      "number": 29736,
-      "title": "[Roadmap][DCP] Decode Context Parallel & Helix Parallelism \u2014 next steps & tracking",
-      "author": "thanhhao98",
-      "state": "open",
-      "created_at": "2026-06-30T08:43:14Z",
-      "updated_at": "2026-07-31T12:43:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
       "labels": []
     },
     {
@@ -312,16 +354,6 @@
       "labels": []
     },
     {
-      "number": 30599,
-      "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
-      "author": "AIwork4me",
-      "state": "open",
-      "created_at": "2026-07-09T04:36:21Z",
-      "updated_at": "2026-07-27T00:54:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30599",
-      "labels": []
-    },
-    {
       "number": 30734,
       "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
       "author": "tanth47",
@@ -415,48 +447,6 @@
       "created_at": "2026-07-06T04:14:01Z",
       "updated_at": "2026-07-19T17:40:09Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30209",
-      "labels": []
-    },
-    {
-      "number": 30344,
-      "title": "[Tracking] DSpark in SGLang: roadmap",
-      "author": "sglang-bot",
-      "state": "open",
-      "created_at": "2026-07-07T05:29:04Z",
-      "updated_at": "2026-07-19T12:47:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30344",
-      "labels": []
-    },
-    {
-      "number": 30815,
-      "title": "[Bug] FP8 KV-cache decode slowdown: unfused K/V quantization + per-layer Q conversion overhead",
-      "author": "Swipe4057",
-      "state": "open",
-      "created_at": "2026-07-10T21:38:57Z",
-      "updated_at": "2026-07-18T05:07:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30815",
-      "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-07-18T03:52:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
-    },
-    {
-      "number": 31545,
-      "title": "[Bug][ROCm] MI355X: CUDA-graph decode kernels are captured but async-deferred into one post-marker burst \u2014 per-step timing unrecoverable (torch profiler)",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-07-17T06:13:59Z",
-      "updated_at": "2026-07-17T06:34:48Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31545",
       "labels": []
     },
     {
