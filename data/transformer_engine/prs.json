@@ -1,6 +1,94 @@
 {
-  "collected_at": "2026-08-04T10:25:52Z",
+  "collected_at": "2026-08-05T10:22:36Z",
   "prs": [
+    {
+      "number": 690,
+      "title": "Veergopu/upgrade ci rock 714",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-04T22:30:03Z",
+      "updated_at": "2026-08-05T05:58:43Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/690",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 692,
+      "title": "IFU 2.17 upstream feature enablement",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-04T23:59:24Z",
+      "updated_at": "2026-08-05T00:59:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/692",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 691,
+      "title": "gfx1250: fix MXFP8 scale_inv shape mismatch",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-04T22:35:35Z",
+      "updated_at": "2026-08-04T22:35:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/691",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 670,
+      "title": "[proof-of-concept] benchmarks dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-08-04T19:20:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 677,
+      "title": "microbenchmarks: add buffer rotation option",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T21:25:58Z",
+      "updated_at": "2026-08-04T19:12:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/677",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 675,
+      "title": "[wip] native nvfp4 GEMM support on gfx1250",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T21:13:55Z",
+      "updated_at": "2026-08-04T16:24:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 603,
+      "title": "TE AITER gfx1250 integration WIP",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-29T19:30:33Z",
+      "updated_at": "2026-08-04T16:21:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/603",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 667,
       "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
@@ -8,10 +96,24 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-09T19:42:42Z",
-      "updated_at": "2026-08-04T04:14:00Z",
+      "updated_at": "2026-08-04T15:44:08Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
       "labels": [
         "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 676,
+      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T03:23:51Z",
+      "updated_at": "2026-08-04T15:25:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
+      "labels": [
+        "ci-level 1"
       ],
       "draft": false
     },
@@ -28,32 +130,6 @@
         "ci-level 2"
       ],
       "draft": false
-    },
-    {
-      "number": 676,
-      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-08-03T21:15:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 603,
-      "title": "TE AITER gfx1250 integration WIP",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-29T19:30:33Z",
-      "updated_at": "2026-08-03T19:58:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/603",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 663,
@@ -92,20 +168,6 @@
       "created_at": "2026-06-15T05:36:28Z",
       "updated_at": "2026-08-03T03:15:34Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 688,
-      "title": "Add pyyaml installation to ci prerequisites",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T17:21:41Z",
-      "updated_at": "2026-08-02T17:30:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/688",
       "labels": [
         "ci-level 3"
       ],
@@ -166,32 +228,6 @@
       "draft": false
     },
     {
-      "number": 639,
-      "title": "grouped gemm microbenchmark: use te.GroupedLinear",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-18T23:15:50Z",
-      "updated_at": "2026-07-29T04:04:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/639",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 681,
-      "title": "Update CK-JIT to fix blob build failure if mv -no-clobber returns 1",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T22:36:16Z",
-      "updated_at": "2026-07-24T22:36:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/681",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 679,
       "title": "microbenchmarks: usv implementation",
       "author": "matthiasdiener",
@@ -202,30 +238,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/679",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 670,
-      "title": "[proof-of-concept] benchmarks dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-07-24T15:23:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 677,
-      "title": "microbenchmarks: add buffer rotation option",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T21:25:58Z",
-      "updated_at": "2026-07-24T14:06:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/677",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 673,
@@ -249,20 +261,6 @@
       "updated_at": "2026-07-21T15:39:18Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/637",
       "labels": [],
-      "draft": true
-    },
-    {
-      "number": 675,
-      "title": "[wip] native nvfp4 GEMM support on gfx1250",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T21:13:55Z",
-      "updated_at": "2026-07-21T15:27:49Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": true
     },
     {
@@ -658,6 +656,46 @@
       "created_at": "2025-07-03T08:20:23Z",
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 688,
+      "title": "Add pyyaml installation to ci prerequisites",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-31T17:21:41Z",
+      "updated_at": "2026-08-04T15:32:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/688",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 681,
+      "title": "Update CK-JIT to fix blob build failure if mv -no-clobber returns 1",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-24T22:36:16Z",
+      "updated_at": "2026-08-04T15:26:06Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/681",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 639,
+      "title": "grouped gemm microbenchmark: use te.GroupedLinear",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-18T23:15:50Z",
+      "updated_at": "2026-08-04T14:57:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/639",
       "labels": [],
       "draft": false
     },
@@ -1782,48 +1820,6 @@
       "updated_at": "2026-04-29T19:28:06Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/555",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 518,
-      "title": "NVFP4 recipe with GEMM via BF16 dequant",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-02T16:44:44Z",
-      "updated_at": "2026-04-29T18:09:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/518",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 565,
-      "title": "Fix flash-attention build env in CI deps Dockerfile",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-27T20:35:29Z",
-      "updated_at": "2026-04-29T16:52:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/565",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 567,
-      "title": "Disable all UB layer tests for gfx942",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-28T22:25:52Z",
-      "updated_at": "2026-04-29T16:51:14Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/567",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     }
   ]

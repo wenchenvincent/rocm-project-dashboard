@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-08-04T10:27:20Z",
+  "collected_at": "2026-08-05T10:24:37Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 67,
-      "merged": 41,
-      "closed": 13
+      "opened": 68,
+      "merged": 43,
+      "closed": 12
     },
     "last_week": {
-      "opened": 56,
-      "merged": 48,
-      "closed": 6
+      "opened": 57,
+      "merged": 39,
+      "closed": 9
     },
-    "median_time_to_merge_hours": 8.9,
-    "merge_count": 96,
+    "median_time_to_merge_hours": 7.2,
+    "merge_count": 88,
     "stale_prs": 65
   },
   "contributors": {
-    "active_this_week": 36,
-    "total_contributors": 75,
+    "active_this_week": 38,
+    "total_contributors": 78,
     "top_contributors": [
       {
         "author": "PerryZhang01",
@@ -37,13 +37,7 @@
         "author": "yitingw1",
         "prs_submitted": 11,
         "prs_merged": 9,
-        "commits": 7
-      },
-      {
-        "author": "yhl-amd",
-        "prs_submitted": 11,
-        "prs_merged": 2,
-        "commits": 6
+        "commits": 8
       },
       {
         "author": "valarLip",
@@ -52,10 +46,10 @@
         "commits": 24
       },
       {
-        "author": "ZhangLirong-amd",
+        "author": "yhl-amd",
         "prs_submitted": 10,
-        "prs_merged": 9,
-        "commits": 19
+        "prs_merged": 1,
+        "commits": 6
       },
       {
         "author": "ChuanLi1101",
@@ -70,16 +64,22 @@
         "commits": 1
       },
       {
-        "author": "zhangxinyuanliuhengyu",
+        "author": "ZhangLirong-amd",
         "prs_submitted": 9,
         "prs_merged": 8,
+        "commits": 19
+      },
+      {
+        "author": "zhangxinyuanliuhengyu",
+        "prs_submitted": 8,
+        "prs_merged": 6,
         "commits": 12
       },
       {
-        "author": "ganyi1996ppo",
+        "author": "JiaoliangYu",
         "prs_submitted": 8,
-        "prs_merged": 0,
-        "commits": 1
+        "prs_merged": 1,
+        "commits": 4
       }
     ],
     "bus_factor": 6
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 66,
     "opened_this_week": 2,
-    "closed_this_week": 6,
+    "closed_this_week": 3,
     "unanswered": 21
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 30.7,
+    "days_since_last": 31.7,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

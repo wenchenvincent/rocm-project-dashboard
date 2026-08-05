@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-08-04T10:25:49Z",
+  "collected_at": "2026-08-05T10:22:31Z",
   "prs": [
-    {
-      "number": 960,
-      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-03T12:59:55Z",
-      "updated_at": "2026-08-04T09:26:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 945,
       "title": "[WIP][LLVM][Flydsl] bump up llvm for upstream and internal coexec opt and adapt flydsl api",
@@ -20,70 +8,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-31T04:15:44Z",
-      "updated_at": "2026-08-04T08:45:49Z",
+      "updated_at": "2026-08-05T10:19:05Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/945",
       "labels": [],
       "draft": false
     },
     {
-      "number": 954,
-      "title": "BugFix for MegaMoE",
-      "author": "GwilliamHu",
+      "number": 891,
+      "title": "[Test] Add gfx1250 WMMA lowering tests for additional dtypes",
+      "author": "AiyyappanMR",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-02T07:00:21Z",
-      "updated_at": "2026-08-04T08:10:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/954",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
-      "number": 964,
-      "title": "[Build] Default CMAKE_BUILD_TYPE to RelWithDebInfo when unset",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-04T07:25:21Z",
-      "updated_at": "2026-08-04T07:27:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/964",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 959,
-      "title": "[Perf]opimize moe mxfp4 stage2 perf",
-      "author": "binding7012",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-03T05:07:24Z",
-      "updated_at": "2026-08-04T07:13:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/959",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 860,
-      "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T05:39:47Z",
-      "updated_at": "2026-08-04T04:36:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 907,
-      "title": "Add stochastic rounding and philox RNG under rocdl",
-      "author": "kashif",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-26T18:37:29Z",
-      "updated_at": "2026-08-04T04:26:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
+      "created_at": "2026-07-23T10:12:30Z",
+      "updated_at": "2026-08-05T08:56:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/891",
       "labels": [],
       "draft": false
     },
@@ -94,10 +32,84 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T22:18:59Z",
-      "updated_at": "2026-08-03T20:44:34Z",
+      "updated_at": "2026-08-05T08:17:26Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/933",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 948,
+      "title": "MoE: add a16w mix fused 2-stage kernels (bf16 A \u00d7 mxfp4/int4/bf16 W)",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T02:40:12Z",
+      "updated_at": "2026-08-05T06:53:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/948",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 860,
+      "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T05:39:47Z",
+      "updated_at": "2026-08-04T16:36:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 967,
+      "title": "[gfx1250] Migrate gemm kernels to the stable DSL API",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-04T15:42:20Z",
+      "updated_at": "2026-08-04T15:48:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/967",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 960,
+      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T12:59:55Z",
+      "updated_at": "2026-08-04T15:35:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 954,
+      "title": "BugFix for MegaMoE",
+      "author": "GwilliamHu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T07:00:21Z",
+      "updated_at": "2026-08-04T14:06:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/954",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 931,
+      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
+      "author": "RichardChamberlain1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T11:46:51Z",
+      "updated_at": "2026-08-04T11:18:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 901,
@@ -108,42 +120,6 @@
       "created_at": "2026-07-24T19:56:02Z",
       "updated_at": "2026-08-03T20:16:26Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 931,
-      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
-      "author": "RichardChamberlain1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T11:46:51Z",
-      "updated_at": "2026-08-03T17:05:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 961,
-      "title": "[Fix] Avoid runtime materialization in compile-only mode",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-03T16:14:28Z",
-      "updated_at": "2026-08-03T16:27:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/961",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 958,
-      "title": "[Feature][Test] Validate gfx1100 LDS and integer WMMA foundations",
-      "author": "skyguan92",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-02T22:26:04Z",
-      "updated_at": "2026-08-03T14:24:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/958",
       "labels": [],
       "draft": false
     },
@@ -159,18 +135,6 @@
       "labels": [
         "multi-gpu"
       ],
-      "draft": false
-    },
-    {
-      "number": 948,
-      "title": "MoE: add a16w mix fused 2-stage kernels (bf16 A \u00d7 mxfp4/int4/bf16 W)",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T02:40:12Z",
-      "updated_at": "2026-08-03T05:28:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/948",
-      "labels": [],
       "draft": false
     },
     {
@@ -290,18 +254,6 @@
       "created_at": "2026-04-23T22:06:37Z",
       "updated_at": "2026-07-30T09:40:34Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/433",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 891,
-      "title": "[Test] Add gfx1250 WMMA lowering tests for additional dtypes",
-      "author": "AiyyappanMR",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T10:12:30Z",
-      "updated_at": "2026-07-30T06:16:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/891",
       "labels": [],
       "draft": false
     },
@@ -818,6 +770,90 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 959,
+      "title": "[Perf]opimize moe mxfp4 stage2 perf",
+      "author": "binding7012",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-03T05:07:24Z",
+      "updated_at": "2026-08-05T07:24:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/959",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 958,
+      "title": "[Feature][Test] Validate gfx1100 LDS and integer WMMA foundations",
+      "author": "skyguan92",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-02T22:26:04Z",
+      "updated_at": "2026-08-05T07:06:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/958",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 965,
+      "title": "[Enh] Defer kernel lowering to launch time and infer known_block_size\u2026",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-04T11:03:30Z",
+      "updated_at": "2026-08-05T07:01:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/965",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 907,
+      "title": "Add stochastic rounding and philox RNG under rocdl",
+      "author": "kashif",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-26T18:37:29Z",
+      "updated_at": "2026-08-05T06:59:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 966,
+      "title": "[Prune] Remove CDNA blockscale FP8 GEMM",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-04T13:13:21Z",
+      "updated_at": "2026-08-04T13:16:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/966",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 961,
+      "title": "[Fix] Avoid runtime materialization in compile-only mode",
+      "author": "zhiding512",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-03T16:14:28Z",
+      "updated_at": "2026-08-04T12:31:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/961",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 964,
+      "title": "[Build] Default CMAKE_BUILD_TYPE to RelWithDebInfo when unset",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-04T07:25:21Z",
+      "updated_at": "2026-08-04T12:16:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/964",
       "labels": [],
       "draft": false
     },
@@ -1650,78 +1686,6 @@
       "created_at": "2026-07-08T16:40:21Z",
       "updated_at": "2026-07-10T07:52:30Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/819",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 824,
-      "title": "[Kernel] mxfp4 preshuffle GEMM: thin batched @flyc.jit launcher",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-10T01:46:39Z",
-      "updated_at": "2026-07-10T07:11:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/824",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 822,
-      "title": "perf(pa): use _run_compiled for PA decode kernel launches",
-      "author": "fsx950223",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-09T06:15:25Z",
-      "updated_at": "2026-07-10T00:49:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/822",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 780,
-      "title": "[Kernel] Add compile_mxfp6_gemm: MXFP6\u00d7MXFP4 preshuffle GEMM (gfx950)",
-      "author": "amd-satre",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-30T18:08:30Z",
-      "updated_at": "2026-07-09T08:05:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/780",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 795,
-      "title": "[rmsnorm] Add backward pass + forward store_rstd for training (PR 1/3, #769)",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-03T04:49:59Z",
-      "updated_at": "2026-07-09T07:58:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/795",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 818,
-      "title": "Gemm tune v2",
-      "author": "solinzby1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-08T02:48:47Z",
-      "updated_at": "2026-07-08T06:34:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/818",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 816,
-      "title": "[Fix] Consistent promotion rules for Vector and Numeric",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-07T09:57:01Z",
-      "updated_at": "2026-07-08T01:24:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/816",
       "labels": [],
       "draft": false
     }

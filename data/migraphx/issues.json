@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-04T10:25:30Z",
+  "collected_at": "2026-08-05T10:22:05Z",
   "issues": [
+    {
+      "number": 5089,
+      "title": "libmigraphx_c unconditionally loads the TensorFlow parser and causes duplicate protobuf descriptor registration",
+      "author": "ibuki2003",
+      "state": "open",
+      "created_at": "2026-07-22T19:22:10Z",
+      "updated_at": "2026-08-05T08:12:28Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5089",
+      "labels": []
+    },
     {
       "number": 5109,
       "title": "[Issue]: Try_compute_shape in eliminate_contiguous cannot compute the cumulative layout",
@@ -61,16 +71,6 @@
       "created_at": "2025-10-08T17:51:57Z",
       "updated_at": "2026-07-23T15:57:33Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/4366",
-      "labels": []
-    },
-    {
-      "number": 5089,
-      "title": "libmigraphx_c unconditionally loads the TensorFlow parser and causes duplicate protobuf descriptor registration",
-      "author": "ibuki2003",
-      "state": "open",
-      "created_at": "2026-07-22T19:22:10Z",
-      "updated_at": "2026-07-22T19:22:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5089",
       "labels": []
     },
     {

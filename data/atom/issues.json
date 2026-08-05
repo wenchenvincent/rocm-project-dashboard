@@ -1,15 +1,18 @@
 {
-  "collected_at": "2026-08-04T10:25:44Z",
+  "collected_at": "2026-08-05T10:22:24Z",
   "issues": [
     {
-      "number": 1784,
-      "title": "[PR #1771] DeepSeek-V4 agentic: `aiter::ob::radix_topk_one_block_kernel` HIP illegal memory access (indexer top-k races the checkpoint state-copy)",
-      "author": "yhl-amd",
+      "number": 1797,
+      "title": "[Perf Regression] 46 config(s) regressed @ a7b1f570",
+      "author": "github-actions[bot]",
       "state": "open",
-      "created_at": "2026-08-04T06:48:15Z",
-      "updated_at": "2026-08-04T06:53:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1784",
-      "labels": []
+      "created_at": "2026-08-05T04:58:58Z",
+      "updated_at": "2026-08-05T04:58:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1797",
+      "labels": [
+        "performance",
+        "regression"
+      ]
     },
     {
       "number": 577,
