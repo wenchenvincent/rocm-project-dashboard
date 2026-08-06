@@ -1,33 +1,29 @@
 {
-  "collected_at": "2026-08-05T10:21:28Z",
+  "collected_at": "2026-08-06T10:23:15Z",
   "prs": [
     {
-      "number": 39724,
-      "title": "[ROCm] Stage libhipsparse in the ROCm wheel test dependencies",
-      "author": "magaonka-amd",
+      "number": 39765,
+      "title": "[ROCm] Drop the rocm-sdk PATH/LD_LIBRARY_PATH block from run_pytest_rocm.sh",
+      "author": "gulsumgudukbay",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-04T16:36:07Z",
-      "updated_at": "2026-08-04T17:47:32Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39724",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
+      "created_at": "2026-08-05T22:30:01Z",
+      "updated_at": "2026-08-05T22:33:43Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39765",
+      "labels": [],
       "draft": false
     },
     {
-      "number": 39698,
-      "title": "[ROCm] Point TheRock latest nightly CI at ROCm 10 wheels",
+      "number": 37053,
+      "title": "[ROCm] Fix env var and backend factory leak in xla_bridge_test",
       "author": "magaonka-amd",
-      "state": "open",
+      "state": "closed",
       "merged": false,
-      "created_at": "2026-08-03T23:25:58Z",
-      "updated_at": "2026-08-04T15:59:12Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39698",
+      "created_at": "2026-04-21T21:37:37Z",
+      "updated_at": "2026-08-05T21:43:05Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/37053",
       "labels": [
-        "kokoro:force-run",
-        "pull ready"
+        "AMD GPU"
       ],
       "draft": false
     },
@@ -38,9 +34,27 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-26T18:57:55Z",
-      "updated_at": "2026-08-04T14:25:54Z",
+      "updated_at": "2026-08-05T21:20:20Z",
       "html_url": "https://github.com/jax-ml/jax/pull/38803",
-      "labels": [],
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39698,
+      "title": "[ROCm] Point TheRock latest nightly CI at ROCm 10 wheels",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-03T23:25:58Z",
+      "updated_at": "2026-08-05T20:34:32Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39698",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
       "draft": false
     },
     {
@@ -106,18 +120,6 @@
       "draft": false
     },
     {
-      "number": 39601,
-      "title": "Add --init to docker options in ROCm CI container workflows",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T23:22:58Z",
-      "updated_at": "2026-07-30T23:22:58Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39601",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 39550,
       "title": "[ROCm] Build ROCm artifacts on CPU runners",
       "author": "psanal35",
@@ -162,18 +164,6 @@
         "pull ready"
       ],
       "draft": false
-    },
-    {
-      "number": 39473,
-      "title": "[WIP][ROCm] Prevent job-container teardown hangs in ROCm CI",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T19:57:46Z",
-      "updated_at": "2026-07-27T20:12:04Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39473",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 39424,
@@ -430,18 +420,6 @@
       "draft": false
     },
     {
-      "number": 38604,
-      "title": "[ROCm] Add blocking Bazel PR gate and file-driven test selection",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-20T02:46:34Z",
-      "updated_at": "2026-06-26T19:22:52Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38604",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 38666,
       "title": "[ROCm] Update ROCm runner labels to new labels",
       "author": "psanal35",
@@ -467,20 +445,6 @@
       "updated_at": "2026-06-18T11:00:21Z",
       "html_url": "https://github.com/jax-ml/jax/pull/38558",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 37053,
-      "title": "[ROCm] Fix env var and backend factory leak in xla_bridge_test",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T21:37:37Z",
-      "updated_at": "2026-06-16T03:09:20Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/37053",
-      "labels": [
-        "AMD GPU"
-      ],
       "draft": false
     },
     {
@@ -563,21 +527,6 @@
       "created_at": "2026-06-10T14:30:23Z",
       "updated_at": "2026-06-10T17:42:13Z",
       "html_url": "https://github.com/jax-ml/jax/pull/38352",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38308,
-      "title": "[ROCm] Update rules_ml_toolchain refs",
-      "author": "alekstheod",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-09T16:29:18Z",
-      "updated_at": "2026-06-10T15:11:23Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38308",
       "labels": [
         "kokoro:force-run",
         "pull ready"

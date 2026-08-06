@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-05T10:22:36Z",
+  "collected_at": "2026-08-06T10:24:12Z",
   "prs": [
     {
       "number": 690,
@@ -8,9 +8,61 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-04T22:30:03Z",
-      "updated_at": "2026-08-05T05:58:43Z",
+      "updated_at": "2026-08-05T22:24:44Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/690",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 691,
+      "title": "gfx1250: fix MXFP8 scale_inv shape mismatch in C++ tests",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-04T22:35:35Z",
+      "updated_at": "2026-08-05T22:05:37Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/691",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "[proof-of-concept] benchmarks dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-08-05T20:47:31Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 606,
+      "title": "[FEAT] Lightning Indexer",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-01T20:55:02Z",
+      "updated_at": "2026-08-05T20:10:06Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 618,
+      "title": "Refactored reduction kernels",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-08T19:23:09Z",
+      "updated_at": "2026-08-05T20:06:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/618",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -20,34 +72,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-04T23:59:24Z",
-      "updated_at": "2026-08-05T00:59:45Z",
+      "updated_at": "2026-08-05T16:08:40Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/692",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 691,
-      "title": "gfx1250: fix MXFP8 scale_inv shape mismatch",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-04T22:35:35Z",
-      "updated_at": "2026-08-04T22:35:45Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/691",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 670,
-      "title": "[proof-of-concept] benchmarks dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-08-04T19:20:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
       "labels": [],
       "draft": true
     },
@@ -264,18 +290,6 @@
       "draft": true
     },
     {
-      "number": 606,
-      "title": "[FEAT] Lightning Indexer",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-01T20:55:02Z",
-      "updated_at": "2026-07-20T14:32:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 659,
       "title": "CI: Fix runners GPU isolation",
       "author": "leo-automation",
@@ -388,20 +402,6 @@
       "created_at": "2026-03-17T20:15:20Z",
       "updated_at": "2026-06-15T18:21:19Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/492",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 618,
-      "title": "Refactored reduction kernels",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-08T19:23:09Z",
-      "updated_at": "2026-06-12T03:28:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/618",
       "labels": [
         "ci-level 3"
       ],

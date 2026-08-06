@@ -1,30 +1,36 @@
 {
-  "collected_at": "2026-08-05T10:23:17Z",
+  "collected_at": "2026-08-06T10:24:44Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 11,
-      "merged": 13,
+      "opened": 15,
+      "merged": 14,
       "closed": 0
     },
     "last_week": {
-      "opened": 12,
-      "merged": 5,
+      "opened": 9,
+      "merged": 6,
       "closed": 0
     },
     "median_time_to_merge_hours": 15.3,
     "merge_count": 30,
-    "stale_prs": 13
+    "stale_prs": 10
   },
   "contributors": {
-    "active_this_week": 14,
-    "total_contributors": 35,
+    "active_this_week": 17,
+    "total_contributors": 36,
     "top_contributors": [
       {
         "author": "ZelboK",
         "prs_submitted": 6,
         "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "antiagainst",
+        "prs_submitted": 5,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -40,21 +46,15 @@
         "commits": 0
       },
       {
-        "author": "antiagainst",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
         "author": "FrederickVu",
         "prs_submitted": 3,
         "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "knwng",
-        "prs_submitted": 3,
-        "prs_merged": 3,
+        "author": "willghatch",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -64,9 +64,9 @@
         "commits": 0
       },
       {
-        "author": "willghatch",
+        "author": "pabloantoniom",
         "prs_submitted": 2,
-        "prs_merged": 1,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 47.8,
+    "days_since_last": 48.8,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"
