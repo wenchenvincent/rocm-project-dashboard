@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-08-06T10:26:14Z",
+  "collected_at": "2026-08-07T08:45:55Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 21,
-      "merged": 15,
+      "opened": 18,
+      "merged": 14,
       "closed": 2
     },
     "last_week": {
-      "opened": 9,
-      "merged": 8,
-      "closed": 1
+      "opened": 11,
+      "merged": 7,
+      "closed": 0
     },
-    "median_time_to_merge_hours": 71.3,
-    "merge_count": 32,
+    "median_time_to_merge_hours": 67.5,
+    "merge_count": 31,
     "stale_prs": 7
   },
   "contributors": {
@@ -36,14 +36,14 @@
       {
         "author": "jhchouuu",
         "prs_submitted": 13,
-        "prs_merged": 11,
-        "commits": 16
+        "prs_merged": 12,
+        "commits": 17
       },
       {
         "author": "kawhil-amd",
-        "prs_submitted": 9,
+        "prs_submitted": 10,
         "prs_merged": 7,
-        "commits": 9
+        "commits": 7
       },
       {
         "author": "inkcherry",
@@ -73,7 +73,7 @@
         "author": "pemeliya",
         "prs_submitted": 3,
         "prs_merged": 1,
-        "commits": 1
+        "commits": 0
       },
       {
         "author": "zjing14",
@@ -82,7 +82,7 @@
         "commits": 0
       }
     ],
-    "bus_factor": 4
+    "bus_factor": 3
   },
   "issue_health": {
     "total_open": 17,
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 20.9,
+    "days_since_last": 21.8,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v1.2.2"

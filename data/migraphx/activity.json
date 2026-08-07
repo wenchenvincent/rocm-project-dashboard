@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-08-06T10:24:46Z",
+  "collected_at": "2026-08-07T08:44:36Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 12,
-      "merged": 12,
-      "closed": 2
+      "opened": 13,
+      "merged": 11,
+      "closed": 3
     },
     "last_week": {
-      "opened": 11,
-      "merged": 14,
-      "closed": 1
+      "opened": 12,
+      "merged": 13,
+      "closed": 0
     },
     "median_time_to_merge_hours": 205.1,
-    "merge_count": 34,
-    "stale_prs": 59
+    "merge_count": 32,
+    "stale_prs": 60
   },
   "contributors": {
     "active_this_week": 18,
@@ -23,20 +23,26 @@
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 48,
-        "prs_merged": 23,
-        "commits": 16
+        "prs_submitted": 49,
+        "prs_merged": 24,
+        "commits": 15
       },
       {
         "author": "shivadbhavsar",
-        "prs_submitted": 13,
+        "prs_submitted": 14,
         "prs_merged": 10,
         "commits": 5
       },
       {
         "author": "CharlieL7",
-        "prs_submitted": 11,
+        "prs_submitted": 12,
         "prs_merged": 6,
+        "commits": 5
+      },
+      {
+        "author": "eddieliao",
+        "prs_submitted": 9,
+        "prs_merged": 7,
         "commits": 5
       },
       {
@@ -46,22 +52,16 @@
         "commits": 3
       },
       {
-        "author": "eddieliao",
-        "prs_submitted": 9,
-        "prs_merged": 7,
-        "commits": 5
-      },
-      {
-        "author": "klin2024",
-        "prs_submitted": 7,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
         "author": "bdevorem",
         "prs_submitted": 6,
         "prs_merged": 3,
         "commits": 3
+      },
+      {
+        "author": "klin2024",
+        "prs_submitted": 6,
+        "prs_merged": 2,
+        "commits": 0
       },
       {
         "author": "causten",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 16.8,
+    "days_since_last": 17.7,
     "avg_interval_days": 29.6,
     "total_releases": 5,
     "latest_tag": "rocm-7.14"

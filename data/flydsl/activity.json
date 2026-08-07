@@ -1,37 +1,31 @@
 {
-  "collected_at": "2026-08-06T10:26:19Z",
+  "collected_at": "2026-08-07T08:45:59Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 33,
+      "opened": 31,
       "merged": 25,
-      "closed": 9
-    },
-    "last_week": {
-      "opened": 38,
-      "merged": 22,
       "closed": 6
     },
-    "median_time_to_merge_hours": 30.9,
-    "merge_count": 47,
-    "stale_prs": 23
+    "last_week": {
+      "opened": 40,
+      "merged": 18,
+      "closed": 9
+    },
+    "median_time_to_merge_hours": 30.8,
+    "merge_count": 43,
+    "stale_prs": 24
   },
   "contributors": {
-    "active_this_week": 27,
+    "active_this_week": 28,
     "total_contributors": 54,
     "top_contributors": [
       {
         "author": "sjfeng1999",
-        "prs_submitted": 14,
-        "prs_merged": 13,
-        "commits": 16
-      },
-      {
-        "author": "coderfeli",
-        "prs_submitted": 14,
-        "prs_merged": 12,
-        "commits": 16
+        "prs_submitted": 15,
+        "prs_merged": 14,
+        "commits": 15
       },
       {
         "author": "jhinpan",
@@ -40,10 +34,16 @@
         "commits": 12
       },
       {
-        "author": "Phil-amd",
-        "prs_submitted": 11,
+        "author": "coderfeli",
+        "prs_submitted": 12,
         "prs_merged": 10,
-        "commits": 11
+        "commits": 16
+      },
+      {
+        "author": "Phil-amd",
+        "prs_submitted": 10,
+        "prs_merged": 9,
+        "commits": 10
       },
       {
         "author": "xudoyuan",
@@ -64,16 +64,16 @@
         "commits": 3
       },
       {
-        "author": "omuhamma",
-        "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
         "author": "jiacao-amd",
         "prs_submitted": 4,
         "prs_merged": 2,
         "commits": 2
+      },
+      {
+        "author": "omuhamma",
+        "prs_submitted": 4,
+        "prs_merged": 0,
+        "commits": 0
       },
       {
         "author": "binding7012",
@@ -85,15 +85,15 @@
     "bus_factor": 4
   },
   "issue_health": {
-    "total_open": 49,
+    "total_open": 50,
     "opened_this_week": 3,
-    "closed_this_week": 8,
-    "unanswered": 20
+    "closed_this_week": 3,
+    "unanswered": 21
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 5.0,
+    "days_since_last": 6.0,
     "avg_interval_days": 15.4,
     "total_releases": 4,
     "latest_tag": "v0.3.0"

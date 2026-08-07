@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-08-06T10:23:58Z",
+  "collected_at": "2026-08-07T08:43:58Z",
   "issues": [
+    {
+      "number": 4409,
+      "title": "Branch cleanup: one-off sweep of 1,160 stale branches (wave 1 on 2026-08-13; group C deferred)",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-07-28T03:02:24Z",
+      "updated_at": "2026-08-07T06:55:06Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4409",
+      "labels": []
+    },
+    {
+      "number": 4411,
+      "title": "Branch cleanup (2/2): owners GitHub could not notify on #4409",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-07-28T03:32:23Z",
+      "updated_at": "2026-08-07T06:54:49Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4411",
+      "labels": []
+    },
     {
       "number": 4604,
       "title": "gfx1100 (RDNA3, W7900) works via Triton path but vLLM integration never enables it \u2014 confirm roadmap status",
@@ -179,26 +199,6 @@
       "created_at": "2026-07-28T07:38:47Z",
       "updated_at": "2026-07-28T07:47:46Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4419",
-      "labels": []
-    },
-    {
-      "number": 4411,
-      "title": "Branch cleanup (2/2): owners GitHub could not notify on #4409",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-07-28T03:32:23Z",
-      "updated_at": "2026-07-28T04:33:25Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4411",
-      "labels": []
-    },
-    {
-      "number": 4409,
-      "title": "Branch cleanup: one-off sweep of 1,154 stale branches (notice closes 2026-08-11)",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-07-28T03:02:24Z",
-      "updated_at": "2026-07-28T03:34:00Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4409",
       "labels": []
     },
     {

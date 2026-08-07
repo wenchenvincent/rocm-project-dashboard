@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-06T10:23:39Z",
+  "collected_at": "2026-08-07T08:43:41Z",
   "issues": [
     {
       "number": 17050,
@@ -7,19 +7,23 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-06T09:46:59Z",
+      "updated_at": "2026-08-07T08:25:10Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
-      "number": 33846,
-      "title": "[AMD/ROCm] Kimi-K3 KDA prefill occasional hang at c=1: chunk_kda_fwd \u2192 tolist() \u2192 hipMemcpy D2H never returns",
-      "author": "fallow5",
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
       "state": "open",
-      "created_at": "2026-08-06T08:25:48Z",
-      "updated_at": "2026-08-06T09:02:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33846",
-      "labels": []
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-07T04:54:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
     },
     {
       "number": 29736,
@@ -27,8 +31,30 @@
       "author": "thanhhao98",
       "state": "open",
       "created_at": "2026-06-30T08:43:14Z",
-      "updated_at": "2026-08-06T07:37:20Z",
+      "updated_at": "2026-08-07T03:25:17Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29736",
+      "labels": []
+    },
+    {
+      "number": 33636,
+      "title": "[NVIDIA] DeepSeek V4 Perf Tracking",
+      "author": "b8zhong",
+      "state": "open",
+      "created_at": "2026-08-05T03:38:42Z",
+      "updated_at": "2026-08-06T19:01:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33636",
+      "labels": [
+        "nvidia"
+      ]
+    },
+    {
+      "number": 33846,
+      "title": "[AMD/ROCm] Kimi-K3 KDA prefill occasional hang at c=1: chunk_kda_fwd \u2192 tolist() \u2192 hipMemcpy D2H never returns",
+      "author": "fallow5",
+      "state": "open",
+      "created_at": "2026-08-06T08:25:48Z",
+      "updated_at": "2026-08-06T11:27:44Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33846",
       "labels": []
     },
     {
@@ -62,20 +88,6 @@
       "labels": []
     },
     {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-06T03:39:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
       "number": 27417,
       "title": "[ROCm Test-First CI]: Day 0 SGLang MI455X UALoE72 Helios Rack open source community upstream CI by AMD Advancing AI July 22 2026",
       "author": "functionstackx",
@@ -85,18 +97,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/27417",
       "labels": [
         "inactive"
-      ]
-    },
-    {
-      "number": 33636,
-      "title": "[NVIDIA] DeepSeek V4 Perf Tracking",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-05T03:38:42Z",
-      "updated_at": "2026-08-05T21:22:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33636",
-      "labels": [
-        "nvidia"
       ]
     },
     {
