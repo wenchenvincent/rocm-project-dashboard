@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-08-07T08:43:42Z",
+  "collected_at": "2026-08-08T08:25:24Z",
   "releases": [
+    {
+      "tag_name": "v0.5.17",
+      "name": "v0.5.17",
+      "published_at": "2026-08-08T00:19:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17",
+      "prerelease": false
+    },
     {
       "tag_name": "v0.5.16",
       "name": "v0.5.16",
@@ -27,13 +34,6 @@
       "name": "v0.5.14",
       "published_at": "2026-06-26T22:57:30Z",
       "html_url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.14",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v0.5.13",
-      "name": "v0.5.13",
-      "published_at": "2026-06-13T00:17:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.13",
       "prerelease": false
     }
   ]
