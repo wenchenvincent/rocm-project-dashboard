@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-08T08:25:43Z",
+  "collected_at": "2026-08-09T08:28:00Z",
   "prs": [
     {
       "number": 1836,
@@ -8,9 +8,35 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-08T03:51:26Z",
-      "updated_at": "2026-08-08T04:03:01Z",
+      "updated_at": "2026-08-09T07:15:53Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1836",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1837,
+      "title": "perf(frontend): remove four host-side bottlenecks that idle the GPU at high concurrency",
+      "author": "junhaha666",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T06:57:51Z",
+      "updated_at": "2026-08-09T07:13:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1837",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1821,
+      "title": "[ATOM SGL][model] Kimi K3",
+      "author": "ZhiweiYan-96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T16:16:21Z",
+      "updated_at": "2026-08-08T08:34:43Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1821",
+      "labels": [
+        "ci:sglang"
+      ],
       "draft": false
     },
     {
@@ -167,20 +193,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1830",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1821,
-      "title": "[ATOM SGL][model] Kimi K3",
-      "author": "ZhiweiYan-96",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T16:16:21Z",
-      "updated_at": "2026-08-07T07:45:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1821",
-      "labels": [
-        "ci:sglang"
-      ],
-      "draft": false
     },
     {
       "number": 1826,

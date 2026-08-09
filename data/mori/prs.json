@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-08-08T08:25:46Z",
+  "collected_at": "2026-08-09T08:28:03Z",
   "prs": [
+    {
+      "number": 533,
+      "title": "chore(EPv2): split dispatch/combine tuning schedules into independent tables",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T08:21:36Z",
+      "updated_at": "2026-08-09T08:27:02Z",
+      "html_url": "https://github.com/ROCm/mori/pull/533",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 504,
       "title": "MORI-IO nixl-style cpp bench script",
@@ -274,6 +286,18 @@
       "created_at": "2025-10-23T06:18:50Z",
       "updated_at": "2026-01-08T09:18:21Z",
       "html_url": "https://github.com/ROCm/mori/pull/92",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 532,
+      "title": "feat(ep/intranode): bring MoE dispatch/combine up on gfx1250 (MI450)",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-08T12:38:08Z",
+      "updated_at": "2026-08-08T16:11:27Z",
+      "html_url": "https://github.com/ROCm/mori/pull/532",
       "labels": [],
       "draft": false
     },

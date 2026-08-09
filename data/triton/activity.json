@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-08T08:26:16Z",
+  "collected_at": "2026-08-09T08:28:36Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
@@ -9,28 +9,28 @@
       "closed": 0
     },
     "last_week": {
-      "opened": 9,
-      "merged": 9,
+      "opened": 10,
+      "merged": 10,
       "closed": 0
     },
     "median_time_to_merge_hours": 15.3,
     "merge_count": 30,
-    "stale_prs": 13
+    "stale_prs": 12
   },
   "contributors": {
     "active_this_week": 18,
-    "total_contributors": 37,
+    "total_contributors": 36,
     "top_contributors": [
+      {
+        "author": "antiagainst",
+        "prs_submitted": 7,
+        "prs_merged": 6,
+        "commits": 0
+      },
       {
         "author": "ZelboK",
         "prs_submitted": 6,
         "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "antiagainst",
-        "prs_submitted": 5,
-        "prs_merged": 5,
         "commits": 0
       },
       {
@@ -82,12 +82,12 @@
         "commits": 0
       }
     ],
-    "bus_factor": 5
+    "bus_factor": 4
   },
   "issue_health": {
-    "total_open": 18,
-    "opened_this_week": 0,
-    "closed_this_week": 5,
+    "total_open": 19,
+    "opened_this_week": 1,
+    "closed_this_week": 6,
     "unanswered": 8
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 50.7,
+    "days_since_last": 51.7,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

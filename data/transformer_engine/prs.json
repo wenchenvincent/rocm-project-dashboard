@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-08T08:25:51Z",
+  "collected_at": "2026-08-09T08:28:08Z",
   "prs": [
     {
       "number": 698,
@@ -274,20 +274,6 @@
       "created_at": "2026-07-28T15:38:43Z",
       "updated_at": "2026-07-31T20:08:12Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/683",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 687,
-      "title": "Consolidating blockwise FP32 scale flag",
-      "author": "asdfvg123",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T04:38:04Z",
-      "updated_at": "2026-07-31T20:02:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/687",
       "labels": [
         "ci-level 3"
       ],
@@ -723,6 +709,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 687,
+      "title": "Consolidating blockwise FP32 scale flag",
+      "author": "asdfvg123",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-31T04:38:04Z",
+      "updated_at": "2026-08-08T22:21:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/687",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1874,18 +1874,6 @@
       "labels": [
         "ci-level 1"
       ],
-      "draft": false
-    },
-    {
-      "number": 555,
-      "title": "ci: add workflow to build and publish CI deps Docker image",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-20T23:48:10Z",
-      "updated_at": "2026-04-29T19:28:06Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/555",
-      "labels": [],
       "draft": false
     }
   ]

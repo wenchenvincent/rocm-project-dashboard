@@ -1,6 +1,34 @@
 {
-  "collected_at": "2026-08-08T08:25:27Z",
+  "collected_at": "2026-08-09T08:27:45Z",
   "prs": [
+    {
+      "number": 5125,
+      "title": "Bump gitpython from 3.1.57 to 3.1.58 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T08:15:25Z",
+      "updated_at": "2026-08-09T08:15:26Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5125",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5014,
+      "title": "Hoist and horizontal dot",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-25T22:19:09Z",
+      "updated_at": "2026-08-08T20:30:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
     {
       "number": 5123,
       "title": "Split symbolic dimension pass",
@@ -8,10 +36,36 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-07T19:28:05Z",
-      "updated_at": "2026-08-08T07:43:53Z",
+      "updated_at": "2026-08-08T13:57:26Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5124,
+      "title": "Insert match::opaque into deep matchers to fix large symbol names on windows and debug gcc builds",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T22:50:31Z",
+      "updated_at": "2026-08-08T10:18:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5124",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4811,
+      "title": "Rewrite skinny gemms to mul+reduce_sum",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-22T00:25:07Z",
+      "updated_at": "2026-08-08T08:27:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4811",
+      "labels": [
+        "ok-to-test"
+      ],
+      "draft": false
     },
     {
       "number": 5117,
@@ -48,32 +102,6 @@
       "created_at": "2026-08-04T23:35:47Z",
       "updated_at": "2026-08-08T02:54:09Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5112",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4811,
-      "title": "Rewrite skinny gemms to mul+reduce_sum",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-22T00:25:07Z",
-      "updated_at": "2026-08-08T02:07:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4811",
-      "labels": [
-        "ok-to-test"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5124,
-      "title": "Insert match::opaque into deep matchers to fix large symbol names on windows and debug gcc builds",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T22:50:31Z",
-      "updated_at": "2026-08-08T03:51:07Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5124",
       "labels": [],
       "draft": true
     },
@@ -288,20 +316,6 @@
       "updated_at": "2026-08-06T00:17:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4809",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5014,
-      "title": "Hoist and horizontal dot",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-25T22:19:09Z",
-      "updated_at": "2026-08-05T18:56:07Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
-      "labels": [
-        "high priority"
-      ],
       "draft": false
     },
     {

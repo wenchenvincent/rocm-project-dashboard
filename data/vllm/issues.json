@@ -1,17 +1,129 @@
 {
-  "collected_at": "2026-08-08T08:25:15Z",
+  "collected_at": "2026-08-09T08:27:32Z",
   "issues": [
     {
-      "number": 51467,
-      "title": "[Bug]: DeepSeek-V4-Flash-0731 `response_format` (structured output) crashes the vLLM EngineCore \u2014 `apply_grammar_bitmask` tensor size mismatch (4040 vs 4041)",
-      "author": "PaimonLumine",
+      "number": 51200,
+      "title": "[Bug]: `MiniMAXGemmaRMSNorm` unconditionally calls FlashInfer CUDA kernels, breaking MiniMax-M3 on every non-CUDA platform",
+      "author": "wagnerpatriota",
       "state": "open",
-      "created_at": "2026-08-08T01:27:42Z",
-      "updated_at": "2026-08-08T07:33:12Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/51467",
+      "created_at": "2026-08-05T21:07:40Z",
+      "updated_at": "2026-08-09T08:01:32Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51200",
+      "labels": [
+        "bug",
+        "intel-gpu"
+      ]
+    },
+    {
+      "number": 51530,
+      "title": "[Bug]: [ROCm] DeepSeek-V4 sparse indexer is a dead end on non-MI3xx GPUs, though working torch fallbacks exist in-tree",
+      "author": "ben0112",
+      "state": "open",
+      "created_at": "2026-08-09T03:38:08Z",
+      "updated_at": "2026-08-09T03:46:58Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51530",
+      "labels": [
+        "bug",
+        "rocm",
+        "quantization"
+      ]
+    },
+    {
+      "number": 48786,
+      "title": "[Bug]: Qwen3.5-35B FP8 kv cache is slower than BF16 kv cache on SM90 (Hopper)",
+      "author": "amukkara",
+      "state": "open",
+      "created_at": "2026-07-15T21:18:49Z",
+      "updated_at": "2026-08-09T03:45:14Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/48786",
       "labels": [
         "bug"
       ]
+    },
+    {
+      "number": 51039,
+      "title": "[Model] Kimi-K3: all requests degenerate to a repeated token after long-context prefill (NaN logits; packed KDA prefill suspected)",
+      "author": "almersawi",
+      "state": "open",
+      "created_at": "2026-08-04T14:44:02Z",
+      "updated_at": "2026-08-09T03:37:46Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51039",
+      "labels": [
+        "kimi",
+        "k3"
+      ]
+    },
+    {
+      "number": 50948,
+      "title": "[Bug]: Qwen parser routes grammar-constrained JSON to reasoning when `enable_in_reasoning=true`",
+      "author": "jeffdecoste",
+      "state": "open",
+      "created_at": "2026-08-04T03:07:43Z",
+      "updated_at": "2026-08-09T03:36:30Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/50948",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 19001,
+      "title": "[Usage]: How to use DeepSeek-R1-0528-Qwen3-8B with function call",
+      "author": "alllexx88",
+      "state": "open",
+      "created_at": "2025-06-01T13:18:43Z",
+      "updated_at": "2026-08-09T02:14:45Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/19001",
+      "labels": [
+        "usage",
+        "stale"
+      ]
+    },
+    {
+      "number": 30167,
+      "title": "[Bug][ROCm]: `vision_embeddings` in transformers inaccurate without math SDP",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2025-12-06T01:54:09Z",
+      "updated_at": "2026-08-09T02:14:32Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/30167",
+      "labels": [
+        "bug",
+        "rocm",
+        "unstale"
+      ]
+    },
+    {
+      "number": 36872,
+      "title": "[Bug]: Gibberish output and collapsing generation throughput with Qwen3.5-35B-A3B-FP8 and speculative decoding enabled",
+      "author": "marionchadal",
+      "state": "open",
+      "created_at": "2026-03-12T11:11:35Z",
+      "updated_at": "2026-08-09T02:13:25Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/36872",
+      "labels": [
+        "bug",
+        "unstale"
+      ]
+    },
+    {
+      "number": 51513,
+      "title": "[RFC]: Unify functional P2P gating \u2014 one veto-only verdict for all P2P consumers (NCCL, custom allreduce, symm-mem)",
+      "author": "ldkhang1201",
+      "state": "open",
+      "created_at": "2026-08-08T19:15:11Z",
+      "updated_at": "2026-08-08T19:45:41Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51513",
+      "labels": []
+    },
+    {
+      "number": 42545,
+      "title": "[RFC]: Tensor descriptor (TD) adoption strategy for vLLM Triton kernels",
+      "author": "afierka-intel",
+      "state": "open",
+      "created_at": "2026-05-13T17:05:11Z",
+      "updated_at": "2026-08-08T11:50:16Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/42545",
+      "labels": []
     },
     {
       "number": 50576,
@@ -19,9 +131,79 @@
       "author": "thomaslwang",
       "state": "open",
       "created_at": "2026-07-31T14:42:04Z",
-      "updated_at": "2026-08-08T03:19:06Z",
+      "updated_at": "2026-08-08T10:24:10Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/50576",
       "labels": []
+    },
+    {
+      "number": 51467,
+      "title": "[Bug]: DeepSeek-V4-Flash-0731 `response_format` (structured output) crashes the vLLM EngineCore \u2014 `apply_grammar_bitmask` tensor size mismatch (4040 vs 4041)",
+      "author": "PaimonLumine",
+      "state": "open",
+      "created_at": "2026-08-08T01:27:42Z",
+      "updated_at": "2026-08-08T09:51:29Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51467",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 51456,
+      "title": "[Bug]: online FP8 (--quantization fp8) produces corrupted, non-EOS-terminating output on Qwen2.5-1.5B-Instruct",
+      "author": "kishuxz",
+      "state": "open",
+      "created_at": "2026-08-07T22:00:04Z",
+      "updated_at": "2026-08-08T09:51:17Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51456",
+      "labels": [
+        "quantization"
+      ]
+    },
+    {
+      "number": 51409,
+      "title": "[Bug]: LoRA set_lora on merged QKV/gate_up raises IndexError when lora_a is a single tensor",
+      "author": "ECMGit",
+      "state": "open",
+      "created_at": "2026-08-07T15:20:25Z",
+      "updated_at": "2026-08-08T09:50:26Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51409",
+      "labels": []
+    },
+    {
+      "number": 51376,
+      "title": "[Bug]: Qwen3-ASR `/v1/realtime` returns previous transcription on silence/noise under KV reuse",
+      "author": "tiggerlee2",
+      "state": "open",
+      "created_at": "2026-08-07T08:48:42Z",
+      "updated_at": "2026-08-08T09:49:39Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51376",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 51347,
+      "title": "[Bug]: Qwen3OmniMoeThinkerForConditionalGeneration does not support LoRA yet",
+      "author": "zhao-huan",
+      "state": "open",
+      "created_at": "2026-08-07T02:38:15Z",
+      "updated_at": "2026-08-08T09:49:26Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51347",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 51305,
+      "title": "[Bug]: DSL kernel only supports fp16/bf16 inputs when using torch.float32 dtype",
+      "author": "bigben-dev777",
+      "state": "open",
+      "created_at": "2026-08-06T19:41:19Z",
+      "updated_at": "2026-08-08T09:49:05Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51305",
+      "labels": [
+        "bug"
+      ]
     },
     {
       "number": 51275,
@@ -192,18 +374,6 @@
       ]
     },
     {
-      "number": 51456,
-      "title": "[Bug]: online FP8 (--quantization fp8) produces corrupted, non-EOS-terminating output on Qwen2.5-1.5B-Instruct",
-      "author": "kishuxz",
-      "state": "open",
-      "created_at": "2026-08-07T22:00:04Z",
-      "updated_at": "2026-08-07T22:00:13Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/51456",
-      "labels": [
-        "quantization"
-      ]
-    },
-    {
       "number": 40851,
       "title": "[Feature]: DeepSeek-V4 Flash sm_80 (A100/A800) support",
       "author": "xhd0728",
@@ -227,40 +397,6 @@
       "labels": [
         "cpu"
       ]
-    },
-    {
-      "number": 42545,
-      "title": "[RFC]: Tensor descriptor (TD) adoption strategy for vLLM Triton kernels",
-      "author": "afierka-intel",
-      "state": "open",
-      "created_at": "2026-05-13T17:05:11Z",
-      "updated_at": "2026-08-07T16:58:22Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/42545",
-      "labels": []
-    },
-    {
-      "number": 30167,
-      "title": "[Bug][ROCm]: `vision_embeddings` in transformers inaccurate without math SDP",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2025-12-06T01:54:09Z",
-      "updated_at": "2026-08-07T16:56:44Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/30167",
-      "labels": [
-        "bug",
-        "rocm",
-        "stale"
-      ]
-    },
-    {
-      "number": 51409,
-      "title": "[Bug]: LoRA set_lora on merged QKV/gate_up raises IndexError when lora_a is a single tensor",
-      "author": "ECMGit",
-      "state": "open",
-      "created_at": "2026-08-07T15:20:25Z",
-      "updated_at": "2026-08-07T16:33:39Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/51409",
-      "labels": []
     },
     {
       "number": 35288,
@@ -288,18 +424,6 @@
       ]
     },
     {
-      "number": 51376,
-      "title": "[Bug]: Qwen3-ASR `/v1/realtime` returns previous transcription on silence/noise under KV reuse",
-      "author": "tiggerlee2",
-      "state": "open",
-      "created_at": "2026-08-07T08:48:42Z",
-      "updated_at": "2026-08-07T09:19:52Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/51376",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 35465,
       "title": "[Bug]: No available shared memory broadcast block found in 60 seconds. This typically happens when some processes are hanging or doing some time-consuming work (e.g. compilation, weight/kv cache quantization)",
       "author": "DongZhaoXiong",
@@ -312,31 +436,6 @@
       ]
     },
     {
-      "number": 51305,
-      "title": "[Bug]: DSL kernel only supports fp16/bf16 inputs when using torch.float32 dtype",
-      "author": "bigben-dev777",
-      "state": "open",
-      "created_at": "2026-08-06T19:41:19Z",
-      "updated_at": "2026-08-07T07:52:20Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/51305",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 51039,
-      "title": "[Model] Kimi-K3: all requests degenerate to a repeated token after long-context prefill (NaN logits; packed KDA prefill suspected)",
-      "author": "almersawi",
-      "state": "open",
-      "created_at": "2026-08-04T14:44:02Z",
-      "updated_at": "2026-08-07T07:30:48Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/51039",
-      "labels": [
-        "kimi",
-        "k3"
-      ]
-    },
-    {
       "number": 49562,
       "title": "[Feature] Support `extract_hidden_states` on Model Runner V2",
       "author": "yjyang62",
@@ -346,31 +445,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/49562",
       "labels": [
         "feature request"
-      ]
-    },
-    {
-      "number": 51347,
-      "title": "[Bug]: Qwen3OmniMoeThinkerForConditionalGeneration does not support LoRA yet",
-      "author": "zhao-huan",
-      "state": "open",
-      "created_at": "2026-08-07T02:38:15Z",
-      "updated_at": "2026-08-07T04:00:19Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/51347",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 36872,
-      "title": "[Bug]: Gibberish output and collapsing generation throughput with Qwen3.5-35B-A3B-FP8 and speculative decoding enabled",
-      "author": "marionchadal",
-      "state": "open",
-      "created_at": "2026-03-12T11:11:35Z",
-      "updated_at": "2026-08-07T02:22:01Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/36872",
-      "labels": [
-        "bug",
-        "stale"
       ]
     },
     {
@@ -489,19 +563,6 @@
       ]
     },
     {
-      "number": 50264,
-      "title": "[Performance]: On RDNA, hybrid-Mamba models fall back to Triton paged attention and decode collapses at long context",
-      "author": "cadamcat",
-      "state": "open",
-      "created_at": "2026-07-29T12:37:29Z",
-      "updated_at": "2026-08-06T13:41:09Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/50264",
-      "labels": [
-        "performance",
-        "rocm"
-      ]
-    },
-    {
       "number": 19817,
       "title": "[Feature]: `CustomOp` cleanup",
       "author": "ProExpertProg",
@@ -515,18 +576,6 @@
         "feature request",
         "keep-open",
         "startup-ux"
-      ]
-    },
-    {
-      "number": 46256,
-      "title": "[Bug]: deepseek_v4 / deepseek_v32 tokenizers ignore add_generation_prompt and continue_final_message (silent empty/garbled output on assistant-terminated conversations)",
-      "author": "fank",
-      "state": "open",
-      "created_at": "2026-06-21T00:48:55Z",
-      "updated_at": "2026-08-06T12:01:31Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/46256",
-      "labels": [
-        "deepseek"
       ]
     },
     {
@@ -555,18 +604,6 @@
       ]
     },
     {
-      "number": 50948,
-      "title": "[Bug]: Qwen parser routes grammar-constrained JSON to reasoning when `enable_in_reasoning=true`",
-      "author": "jeffdecoste",
-      "state": "open",
-      "created_at": "2026-08-04T03:07:43Z",
-      "updated_at": "2026-08-06T09:17:27Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/50948",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 50477,
       "title": "[Bug]: gemma4 parser silently ignores named forced tool_choice on 0.26.0 (worked on 0.21.0)",
       "author": "jdoucy",
@@ -588,62 +625,6 @@
         "feature request",
         "rocm",
         "quantization"
-      ]
-    },
-    {
-      "number": 51232,
-      "title": "[Rocm] Fix AITER_MLA issues for the kimik3-dspark model with Agentic workload",
-      "author": "haic0",
-      "state": "open",
-      "created_at": "2026-08-06T07:15:13Z",
-      "updated_at": "2026-08-06T07:39:57Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/51232",
-      "labels": [
-        "rocm",
-        "kimi",
-        "k3"
-      ]
-    },
-    {
-      "number": 9129,
-      "title": "[Misc]: CMake Clean-up / Refactor Tasks",
-      "author": "LucasWilkinson",
-      "state": "open",
-      "created_at": "2024-10-07T16:07:04Z",
-      "updated_at": "2026-08-06T06:10:24Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/9129",
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "keep-open",
-        "unstale"
-      ]
-    },
-    {
-      "number": 38693,
-      "title": "[Feature]: Parity with CUDA: vLLM router should have ROCm CI",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-01T05:43:27Z",
-      "updated_at": "2026-08-06T02:18:11Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/38693",
-      "labels": [
-        "feature request",
-        "rocm",
-        "unstale"
-      ]
-    },
-    {
-      "number": 41343,
-      "title": "[Bug]: `kv_cache_dtype=\"fp8_e5m2\"` silently corrupts output on Qwen-VL models (Qwen2-VL, Qwen2.5-VL) with default scaling",
-      "author": "Ningke-Li",
-      "state": "open",
-      "created_at": "2026-04-30T07:00:46Z",
-      "updated_at": "2026-08-06T02:15:51Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/41343",
-      "labels": [
-        "bug",
-        "stale"
       ]
     }
   ]

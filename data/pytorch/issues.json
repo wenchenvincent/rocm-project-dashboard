@@ -1,13 +1,32 @@
 {
-  "collected_at": "2026-08-08T08:25:03Z",
+  "collected_at": "2026-08-09T08:27:20Z",
   "issues": [
+    {
+      "number": 192629,
+      "title": "`torch.func.functionalize` hides forward-mode tangents from `unpack_dual`",
+      "author": "robertmaxton42",
+      "state": "open",
+      "created_at": "2026-08-09T07:44:14Z",
+      "updated_at": "2026-08-09T07:45:59Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/192629",
+      "labels": [
+        "triage review",
+        "module: correctness (silent)",
+        "module: functionalization",
+        "module: forward ad",
+        "oncall: pt2",
+        "module: functorch",
+        "module: pt2-dispatcher",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 192581,
       "title": "[symm_mem] Signal-pad slots collide across process groups where a signal sent in one group completes a wait in another",
       "author": "RohitRathore1",
       "state": "open",
       "created_at": "2026-08-08T06:26:44Z",
-      "updated_at": "2026-08-08T06:30:51Z",
+      "updated_at": "2026-08-09T06:08:49Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/192581",
       "labels": [
         "triage review",
@@ -15,6 +34,240 @@
         "triaged",
         "bot-triaged",
         "oncall: distributed infra"
+      ]
+    },
+    {
+      "number": 192540,
+      "title": "Differentiating the forward-mode (JVP) rule of `linalg.det` / `slogdet` / `linalg.solve` silently returns a wrong second derivative",
+      "author": "shadow-orange41",
+      "state": "open",
+      "created_at": "2026-08-07T19:10:46Z",
+      "updated_at": "2026-08-09T05:36:55Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/192540",
+      "labels": [
+        "triage review",
+        "module: double backwards",
+        "module: linear algebra",
+        "module: correctness (silent)",
+        "module: forward ad",
+        "module: functorch",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 160230,
+      "title": "Offer official Pytorch Vulkan backend on pytorch.org",
+      "author": "alshdavid",
+      "state": "open",
+      "created_at": "2025-08-08T23:19:51Z",
+      "updated_at": "2026-08-09T05:31:06Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/160230",
+      "labels": [
+        "feature",
+        "triaged",
+        "needs research",
+        "module: vulkan"
+      ]
+    },
+    {
+      "number": 190154,
+      "title": "[ROCm] scaled_dot_product_attention with non-contiguous inputs is significantly slower on iGPU (gfx1151) at large sequence lengths",
+      "author": "menglcai",
+      "state": "open",
+      "created_at": "2026-07-16T03:12:29Z",
+      "updated_at": "2026-08-09T02:55:45Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/190154",
+      "labels": [
+        "module: performance",
+        "module: windows",
+        "module: rocm",
+        "triaged",
+        "enhancement",
+        "has workaround",
+        "module: sdpa",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 192577,
+      "title": "[MPS] multinomial(p, 1) intermittently returns zero-probability indices \u2014 exponential_() emits exact -0.0, Gumbel fast path turns it into a NaN that argmax selects",
+      "author": "JohnMachado11",
+      "state": "open",
+      "created_at": "2026-08-08T03:07:58Z",
+      "updated_at": "2026-08-09T00:54:25Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/192577",
+      "labels": [
+        "triage review",
+        "module: random",
+        "module: correctness (silent)",
+        "module: mps",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 191871,
+      "title": "[XPU] `torch.topk()` fails for tensors with 4096 or more elements in v2.13",
+      "author": "jshn9515",
+      "state": "open",
+      "created_at": "2026-08-02T19:43:16Z",
+      "updated_at": "2026-08-08T23:04:12Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191871",
+      "labels": [
+        "triaged",
+        "module: xpu"
+      ]
+    },
+    {
+      "number": 192610,
+      "title": "hip ck backend fmha_fwd_args mismatch",
+      "author": "xyuan",
+      "state": "open",
+      "created_at": "2026-08-08T17:24:58Z",
+      "updated_at": "2026-08-08T22:15:53Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/192610",
+      "labels": [
+        "module: build",
+        "module: rocm",
+        "triaged",
+        "module: sdpa",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 96602,
+      "title": "[MPS] softmax returns NaN attention probabilities for large tensors, in float16 and float32.",
+      "author": "Birch-san",
+      "state": "open",
+      "created_at": "2023-03-11T13:35:15Z",
+      "updated_at": "2026-08-08T21:32:02Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/96602",
+      "labels": [
+        "triaged",
+        "module: mps"
+      ]
+    },
+    {
+      "number": 129843,
+      "title": "Concatenating CSR matrices fails",
+      "author": "rootjalex",
+      "state": "open",
+      "created_at": "2024-07-01T00:07:25Z",
+      "updated_at": "2026-08-08T21:14:45Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/129843",
+      "labels": [
+        "module: sparse",
+        "triaged"
+      ]
+    },
+    {
+      "number": 192617,
+      "title": "Wrong output dtype for nn.Linear under autocast and vmap",
+      "author": "ValerianRey",
+      "state": "open",
+      "created_at": "2026-08-08T19:25:22Z",
+      "updated_at": "2026-08-08T19:27:06Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/192617",
+      "labels": [
+        "triaged",
+        "module: batching",
+        "module: vmap",
+        "module: amp (automated mixed precision)",
+        "module: functorch",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 192616,
+      "title": "DISABLED test_alloc_rendezvous_on_current_stream (__main__.SymmetricMemoryTest)",
+      "author": "jeffdaily",
+      "state": "open",
+      "created_at": "2026-08-08T18:33:40Z",
+      "updated_at": "2026-08-08T18:36:17Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/192616",
+      "labels": [
+        "module: rocm",
+        "triaged",
+        "skipped",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 158643,
+      "title": "torch.compile() produces inconsistent outputs with models containing dropout and in-place ReLU operations",
+      "author": "zhouxiaoyaozzz",
+      "state": "open",
+      "created_at": "2025-07-18T12:16:30Z",
+      "updated_at": "2026-08-08T17:02:24Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/158643",
+      "labels": [
+        "triaged",
+        "oncall: pt2"
+      ]
+    },
+    {
+      "number": 144071,
+      "title": "torch-nightly doesn't support tesla v100",
+      "author": "Serenagirl",
+      "state": "open",
+      "created_at": "2025-01-02T08:48:44Z",
+      "updated_at": "2026-08-08T16:47:23Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/144071",
+      "labels": [
+        "needs reproduction",
+        "module: binaries",
+        "module: cuda",
+        "triaged"
+      ]
+    },
+    {
+      "number": 191367,
+      "title": "OMP Error #15: duplicate libiomp5md.dll when using PyTorch with Matplotlib on Windows (Python 3.14)",
+      "author": "Mathemilda",
+      "state": "open",
+      "created_at": "2026-07-28T19:30:58Z",
+      "updated_at": "2026-08-08T16:42:06Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/191367",
+      "labels": [
+        "module: windows",
+        "triaged",
+        "module: openmp",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 192594,
+      "title": "[CUDA] torch.multinomial with replacement allocates an unnecessary input-sized temporary for num_samples > 1",
+      "author": "fxlin0261",
+      "state": "open",
+      "created_at": "2026-08-08T11:40:41Z",
+      "updated_at": "2026-08-08T14:49:11Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/192594",
+      "labels": [
+        "module: performance",
+        "module: cuda",
+        "module: memory usage",
+        "triaged",
+        "enhancement",
+        "module: random",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 180377,
+      "title": "[Silent Bug] torch.linalg.qr allows the same tensor for both Q and R in the 'out' argument when the input is square",
+      "author": "cleonard530",
+      "state": "open",
+      "created_at": "2026-04-14T20:30:43Z",
+      "updated_at": "2026-08-08T12:39:44Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/180377",
+      "labels": [
+        "module: error checking",
+        "triaged",
+        "module: linear algebra",
+        "actionable",
+        "module: correctness (silent)",
+        "module: edge cases",
+        "bot-triaged"
       ]
     },
     {
@@ -30,22 +283,6 @@
         "module: crash",
         "module: rocm",
         "has workaround",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 192577,
-      "title": "[MPS] multinomial(p, 1) intermittently returns zero-probability indices \u2014 exponential_() emits exact -0.0, Gumbel fast path turns it into a NaN that argmax selects",
-      "author": "JohnMachado11",
-      "state": "open",
-      "created_at": "2026-08-08T03:07:58Z",
-      "updated_at": "2026-08-08T03:09:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/192577",
-      "labels": [
-        "triage review",
-        "module: random",
-        "module: correctness (silent)",
-        "module: mps",
         "bot-triaged"
       ]
     },
@@ -86,24 +323,6 @@
         "module: mps",
         "oncall: pt2",
         "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 192540,
-      "title": "Differentiating the forward-mode (JVP) rule of `linalg.det` / `slogdet` / `linalg.solve` silently returns a wrong second derivative",
-      "author": "shadow-orange41",
-      "state": "open",
-      "created_at": "2026-08-07T19:10:46Z",
-      "updated_at": "2026-08-07T20:57:37Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/192540",
-      "labels": [
-        "triage review",
-        "module: double backwards",
-        "module: linear algebra",
-        "module: correctness (silent)",
-        "module: forward ad",
-        "module: functorch",
         "bot-triaged"
       ]
     },
@@ -257,69 +476,6 @@
       ]
     },
     {
-      "number": 191159,
-      "title": "DISABLED test_index_propagation_to_dtype_inf_cpu (__main__.CpuTritonTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-27T01:11:57Z",
-      "updated_at": "2026-08-07T13:04:32Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191159",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
-      "number": 190883,
-      "title": "DISABLED test_graph_make_graphed_callables_parameterless_nograd_module_without_amp_not_allow_unused_input (__main__.TestCuda)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-23T13:11:16Z",
-      "updated_at": "2026-08-07T13:04:29Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/190883",
-      "labels": [
-        "module: cuda",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
-      "number": 192461,
-      "title": "DISABLED test_synchronize_threads_all_prior_sync_data (__main__.TestUserStreamCompile)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-08-07T07:02:29Z",
-      "updated_at": "2026-08-07T13:04:20Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/192461",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
-      "number": 192465,
-      "title": "[CI] Tests gated on sm90+/sm100 aren't in the smoke lists that would run them",
-      "author": "jananisriram",
-      "state": "open",
-      "created_at": "2026-08-07T07:16:37Z",
-      "updated_at": "2026-08-07T07:21:31Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/192465",
-      "labels": [
-        "feature",
-        "module: ci",
-        "triaged",
-        "oncall: pt2",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 192259,
       "title": "[ROCm] Tensor.to('cuda') hangs indefinitely in hsaKmtMemoryVaMap when PYTORCH_HIP_ALLOC_CONF=expandable_segments:True",
       "author": "stegorg",
@@ -346,19 +502,6 @@
         "module: determinism",
         "module: linear algebra",
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 129843,
-      "title": "Concatenating CSR matrices fails",
-      "author": "rootjalex",
-      "state": "open",
-      "created_at": "2024-07-01T00:07:25Z",
-      "updated_at": "2026-08-07T01:49:21Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/129843",
-      "labels": [
-        "module: sparse",
-        "triaged"
       ]
     },
     {
@@ -424,50 +567,6 @@
         "module: regression",
         "bot-triaged"
       ]
-    },
-    {
-      "number": 141287,
-      "title": "MPS operator coverage tracking issue (2.6+ version)",
-      "author": "malfet",
-      "state": "open",
-      "created_at": "2024-11-21T21:15:46Z",
-      "updated_at": "2026-08-06T18:54:41Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/141287",
-      "labels": [
-        "feature",
-        "triaged",
-        "tracker",
-        "module: mps"
-      ]
-    },
-    {
-      "number": 191858,
-      "title": "[symm_mem] NVSHMEM backend's barrier(), put_signal() and wait_signal() are silent no-ops - callers synchronize on nothing",
-      "author": "RohitRathore1",
-      "state": "open",
-      "created_at": "2026-08-02T05:13:15Z",
-      "updated_at": "2026-08-06T18:21:11Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191858",
-      "labels": [
-        "high priority",
-        "triage review",
-        "oncall: distributed",
-        "triaged",
-        "module: correctness (silent)",
-        "module: symm_mem",
-        "bot-triaged",
-        "oncall: distributed infra"
-      ]
-    },
-    {
-      "number": 191967,
-      "title": "torch.export(strict=False) stack_trace only keeps frames named forward, dropping helper methods (e.g. forward_impl)",
-      "author": "cymbalrush",
-      "state": "open",
-      "created_at": "2026-08-03T19:34:10Z",
-      "updated_at": "2026-08-06T17:55:25Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191967",
-      "labels": []
     },
     {
       "number": 191433,
@@ -643,90 +742,6 @@
         "skipped",
         "oncall: pt2",
         "module: inductor"
-      ]
-    },
-    {
-      "number": 192143,
-      "title": "AOTInductor triggers an out-of-bounds embedding assert on valid input",
-      "author": "jia-kai",
-      "state": "open",
-      "created_at": "2026-08-04T21:45:22Z",
-      "updated_at": "2026-08-05T02:13:38Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/192143",
-      "labels": [
-        "triage review",
-        "module: crash",
-        "module: regression",
-        "oncall: pt2",
-        "module: inductor",
-        "oncall: export",
-        "module: aotinductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 186909,
-      "title": "DISABLED test_trace_only_export_matches_default_use_cuda_True (__main__.TestProfiler)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-06-10T08:02:34Z",
-      "updated_at": "2026-08-05T01:11:15Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/186909",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: profiler"
-      ]
-    },
-    {
-      "number": 189756,
-      "title": "[DRAFT][RFC] ROCm Preview Nightly Wheels",
-      "author": "jithunnair-amd",
-      "state": "open",
-      "created_at": "2026-07-13T18:56:30Z",
-      "updated_at": "2026-08-04T21:09:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/189756",
-      "labels": [
-        "module: binaries",
-        "module: rocm",
-        "module: ci",
-        "triaged",
-        "enhancement",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 188892,
-      "title": "nvidia-cudnn-cu13==9.20.0.48 bundled by torch is incomplete \u2192 CUDNN_STATUS_SUBLIBRARY_VERSION_MISMATCH",
-      "author": "FabianIsensee",
-      "state": "open",
-      "created_at": "2026-07-03T12:08:36Z",
-      "updated_at": "2026-08-04T19:59:38Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/188892",
-      "labels": [
-        "needs reproduction",
-        "module: binaries",
-        "module: crash",
-        "module: cudnn",
-        "module: convolution",
-        "triaged",
-        "has workaround",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 147317,
-      "title": "Tensorboard `add_video()` broken for `moviepy>=2.0`",
-      "author": "araffin",
-      "state": "open",
-      "created_at": "2025-02-17T11:14:15Z",
-      "updated_at": "2026-08-04T12:09:09Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/147317",
-      "labels": [
-        "triaged",
-        "module: tensorboard"
       ]
     }
   ]

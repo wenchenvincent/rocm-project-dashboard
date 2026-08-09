@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-08T08:25:24Z",
+  "collected_at": "2026-08-09T08:27:41Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,54 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-08T07:49:31Z",
+      "updated_at": "2026-08-09T08:17:58Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 33356,
+      "title": "[Bug] DSpark large decode CUDA-Graph capture can hit non-deterministic illegal memory on TP8 (v0.5.16)",
+      "author": "Phoenix3334",
+      "state": "open",
+      "created_at": "2026-08-03T06:43:59Z",
+      "updated_at": "2026-08-09T03:41:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33356",
+      "labels": []
+    },
+    {
+      "number": 16255,
+      "title": "[Feature] deepseek_v2.py Refactor",
+      "author": "Fridge003",
+      "state": "open",
+      "created_at": "2026-01-01T03:53:53Z",
+      "updated_at": "2026-08-08T20:40:19Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
+      "labels": [
+        "inactive",
+        "deepseek",
+        "Good Pro Issue"
+      ]
+    },
+    {
+      "number": 33636,
+      "title": "[NVIDIA] DeepSeek V4 Perf Tracking",
+      "author": "b8zhong",
+      "state": "open",
+      "created_at": "2026-08-05T03:38:42Z",
+      "updated_at": "2026-08-08T17:16:12Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33636",
+      "labels": [
+        "nvidia"
+      ]
+    },
+    {
+      "number": 30781,
+      "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
+      "author": "tanguofu",
+      "state": "open",
+      "created_at": "2026-07-10T13:41:49Z",
+      "updated_at": "2026-08-08T12:50:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30781",
       "labels": []
     },
     {
@@ -46,18 +92,6 @@
       ]
     },
     {
-      "number": 33636,
-      "title": "[NVIDIA] DeepSeek V4 Perf Tracking",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-05T03:38:42Z",
-      "updated_at": "2026-08-06T19:01:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33636",
-      "labels": [
-        "nvidia"
-      ]
-    },
-    {
       "number": 33846,
       "title": "[AMD/ROCm] Kimi-K3 KDA prefill occasional hang at c=1: chunk_kda_fwd \u2192 tolist() \u2192 hipMemcpy D2H never returns",
       "author": "fallow5",
@@ -85,16 +119,6 @@
       "created_at": "2026-08-06T04:57:51Z",
       "updated_at": "2026-08-06T06:50:21Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33817",
-      "labels": []
-    },
-    {
-      "number": 30781,
-      "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
-      "author": "tanguofu",
-      "state": "open",
-      "created_at": "2026-07-10T13:41:49Z",
-      "updated_at": "2026-08-06T06:27:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30781",
       "labels": []
     },
     {
@@ -306,16 +330,6 @@
       "created_at": "2026-07-31T15:10:55Z",
       "updated_at": "2026-07-31T15:10:55Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33088",
-      "labels": []
-    },
-    {
-      "number": 32321,
-      "title": "[RFC] Make BaseTpWorker the explicit framework-to-backend boundary - MLX runner-stub redesign",
-      "author": "noob-se7en",
-      "state": "open",
-      "created_at": "2026-07-24T12:54:43Z",
-      "updated_at": "2026-07-31T14:25:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32321",
       "labels": []
     },
     {

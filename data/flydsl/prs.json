@@ -1,16 +1,17 @@
 {
-  "collected_at": "2026-08-08T08:25:48Z",
+  "collected_at": "2026-08-09T08:28:06Z",
   "prs": [
     {
-      "number": 985,
-      "title": "Optimize megamoe performance",
-      "author": "GwilliamHu",
+      "number": 989,
+      "title": "CI: upgrade PyTorch images to ROCm 7.14",
+      "author": "coderfeli",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-08T03:38:27Z",
-      "updated_at": "2026-08-08T08:19:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/985",
+      "created_at": "2026-08-09T05:18:13Z",
+      "updated_at": "2026-08-09T07:40:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/989",
       "labels": [
+        "performance",
         "multi-gpu"
       ],
       "draft": false
@@ -22,10 +23,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-08T05:12:22Z",
-      "updated_at": "2026-08-08T05:12:22Z",
+      "updated_at": "2026-08-09T04:15:40Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/986",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 987,
+      "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-08-09T04:15:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 971,
+      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-08-08T15:56:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 980,
@@ -38,18 +63,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/980",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 971,
-      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-08-08T04:16:37Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 984,
@@ -108,18 +121,6 @@
       "created_at": "2026-08-03T12:59:55Z",
       "updated_at": "2026-08-07T15:07:10Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 945,
-      "title": "[LLVM][FlyDSL] Bump up LLVM and Adapt FlyDSL to upstream LLVM/MLIR API changes",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T04:15:44Z",
-      "updated_at": "2026-08-07T09:14:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/945",
       "labels": [],
       "draft": false
     },
@@ -821,6 +822,44 @@
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 988,
+      "title": "Release: bump version to 0.3.1",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-09T04:09:02Z",
+      "updated_at": "2026-08-09T04:13:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/988",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 945,
+      "title": "[LLVM][FlyDSL] Bump up LLVM and Adapt FlyDSL to upstream LLVM/MLIR API changes",
+      "author": "jli-melchior",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-31T04:15:44Z",
+      "updated_at": "2026-08-09T04:01:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/945",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 985,
+      "title": "Optimize megamoe performance",
+      "author": "GwilliamHu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-08T03:38:27Z",
+      "updated_at": "2026-08-08T10:05:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/985",
+      "labels": [
+        "multi-gpu"
+      ],
       "draft": false
     },
     {
@@ -1702,42 +1741,6 @@
       "created_at": "2026-07-14T05:46:00Z",
       "updated_at": "2026-07-14T09:13:29Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/846",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 839,
-      "title": "[kernels]: add common/mem_ops for shared memory/atomic helpers",
-      "author": "Phil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-13T09:37:51Z",
-      "updated_at": "2026-07-14T05:36:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/839",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 841,
-      "title": "[Enh] Add rocdl.buffer_rsrc utilities: make_buffer_ptr & get_buffer_rsrc",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-13T16:06:39Z",
-      "updated_at": "2026-07-14T05:35:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/841",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 838,
-      "title": "add mxfp8 support",
-      "author": "solinzby1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-13T02:32:56Z",
-      "updated_at": "2026-07-13T14:33:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/838",
       "labels": [],
       "draft": false
     }
