@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-09T08:27:41Z",
+  "collected_at": "2026-08-10T09:04:27Z",
   "issues": [
     {
       "number": 17050,
@@ -7,7 +7,7 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-09T08:17:58Z",
+      "updated_at": "2026-08-10T08:59:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
@@ -17,9 +17,51 @@
       "author": "Phoenix3334",
       "state": "open",
       "created_at": "2026-08-03T06:43:59Z",
-      "updated_at": "2026-08-09T03:41:48Z",
+      "updated_at": "2026-08-10T08:41:00Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33356",
       "labels": []
+    },
+    {
+      "number": 34227,
+      "title": "[diffusion] MiniMax-H3 with --use-fsdp-inference produces silently corrupted video/audio output",
+      "author": "TobyMint",
+      "state": "open",
+      "created_at": "2026-08-10T06:12:22Z",
+      "updated_at": "2026-08-10T06:12:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34227",
+      "labels": []
+    },
+    {
+      "number": 34205,
+      "title": "[Bug] Aborted LoRA requests retain a LoRARegistry reference",
+      "author": "AlexEisie",
+      "state": "open",
+      "created_at": "2026-08-10T03:10:40Z",
+      "updated_at": "2026-08-10T03:29:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34205",
+      "labels": []
+    },
+    {
+      "number": 34149,
+      "title": "[Bug] Abort can commit a delayed final chunked-prefill token on latest main",
+      "author": "jeremyzhang866",
+      "state": "open",
+      "created_at": "2026-08-09T03:48:33Z",
+      "updated_at": "2026-08-09T18:34:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34149",
+      "labels": []
+    },
+    {
+      "number": 33636,
+      "title": "[NVIDIA] DeepSeek V4 Perf Tracking",
+      "author": "b8zhong",
+      "state": "open",
+      "created_at": "2026-08-05T03:38:42Z",
+      "updated_at": "2026-08-09T16:26:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33636",
+      "labels": [
+        "nvidia"
+      ]
     },
     {
       "number": 16255,
@@ -33,18 +75,6 @@
         "inactive",
         "deepseek",
         "Good Pro Issue"
-      ]
-    },
-    {
-      "number": 33636,
-      "title": "[NVIDIA] DeepSeek V4 Perf Tracking",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-05T03:38:42Z",
-      "updated_at": "2026-08-08T17:16:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33636",
-      "labels": [
-        "nvidia"
       ]
     },
     {
@@ -386,16 +416,6 @@
       "labels": []
     },
     {
-      "number": 32806,
-      "title": "[MoE] LFM2.5 (E=32, N=1792) has no tuned config for H200: 1.37-1.74x kernel headroom, +23.3% end-to-end",
-      "author": "gujialiang123",
-      "state": "open",
-      "created_at": "2026-07-29T19:33:37Z",
-      "updated_at": "2026-07-29T19:34:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32806",
-      "labels": []
-    },
-    {
       "number": 31783,
       "title": "[Roadmap] Quantization 2026 H2",
       "author": "OrangeRedeng",
@@ -537,26 +557,6 @@
       "created_at": "2026-06-18T05:57:40Z",
       "updated_at": "2026-07-06T07:36:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/28618",
-      "labels": []
-    },
-    {
-      "number": 30190,
-      "title": "PD disaggregation over Mooncake multi-protocol (rdma+hip) is unstable on AMD/ROCm: single-node warmup SIGSEGV + cross-node KV transfer err17",
-      "author": "Lzy17",
-      "state": "open",
-      "created_at": "2026-07-06T00:29:30Z",
-      "updated_at": "2026-07-06T00:29:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30190",
-      "labels": []
-    },
-    {
-      "number": 29875,
-      "title": "[Bug] MI355X nightly: Kimi-K2.6 (trust_remote_code) fails at server startup on image with transformers 5.12.1   (FileNotFoundError: .../blobs/media_utils.py)",
-      "author": "Lzy17",
-      "state": "open",
-      "created_at": "2026-07-01T22:18:14Z",
-      "updated_at": "2026-07-03T06:04:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29875",
       "labels": []
     }
   ]

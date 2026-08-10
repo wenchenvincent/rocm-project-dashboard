@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-08-09T08:28:37Z",
+  "collected_at": "2026-08-10T09:05:45Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
       "opened": 16,
-      "merged": 12,
+      "merged": 14,
       "closed": 3
     },
     "last_week": {
@@ -14,18 +14,18 @@
       "closed": 0
     },
     "median_time_to_merge_hours": 179.0,
-    "merge_count": 30,
-    "stale_prs": 60
+    "merge_count": 32,
+    "stale_prs": 62
   },
   "contributors": {
-    "active_this_week": 16,
+    "active_this_week": 15,
     "total_contributors": 46,
     "top_contributors": [
       {
         "author": "pfultz2",
         "prs_submitted": 49,
         "prs_merged": 23,
-        "commits": 15
+        "commits": 14
       },
       {
         "author": "shivadbhavsar",
@@ -47,15 +47,9 @@
       },
       {
         "author": "TedThemistokleous",
-        "prs_submitted": 8,
-        "prs_merged": 5,
+        "prs_submitted": 7,
+        "prs_merged": 4,
         "commits": 1
-      },
-      {
-        "author": "causten",
-        "prs_submitted": 6,
-        "prs_merged": 5,
-        "commits": 3
       },
       {
         "author": "bdevorem",
@@ -68,6 +62,12 @@
         "prs_submitted": 6,
         "prs_merged": 2,
         "commits": 0
+      },
+      {
+        "author": "causten",
+        "prs_submitted": 6,
+        "prs_merged": 6,
+        "commits": 4
       },
       {
         "author": "kahmed10",
@@ -86,14 +86,14 @@
   },
   "issue_health": {
     "total_open": 241,
-    "opened_this_week": 1,
+    "opened_this_week": 0,
     "closed_this_week": 0,
-    "unanswered": 126
+    "unanswered": 127
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 19.7,
+    "days_since_last": 20.7,
     "avg_interval_days": 29.6,
     "total_releases": 5,
     "latest_tag": "rocm-7.14"

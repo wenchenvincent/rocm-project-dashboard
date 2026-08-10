@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-09T08:28:01Z",
+  "collected_at": "2026-08-10T09:04:53Z",
   "issues": [
+    {
+      "number": 1847,
+      "title": "How can I install and embed ATOM inside an arbitrary vanilla vLLM container \uff1f",
+      "author": "Alan-D-Chen",
+      "state": "open",
+      "created_at": "2026-08-10T07:21:13Z",
+      "updated_at": "2026-08-10T07:21:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1847",
+      "labels": []
+    },
     {
       "number": 1797,
       "title": "[Perf Regression] 46 config(s) regressed @ a7b1f570",

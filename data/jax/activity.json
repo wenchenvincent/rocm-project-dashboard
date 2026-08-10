@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-08-09T08:28:32Z",
+  "collected_at": "2026-08-10T09:05:38Z",
   "project": "jax",
   "repo": "jax-ml/jax",
   "pr_velocity": {
     "this_week": {
-      "opened": 3,
+      "opened": 7,
       "merged": 2,
       "closed": 0
     },
@@ -18,12 +18,12 @@
     "stale_prs": 10
   },
   "contributors": {
-    "active_this_week": 3,
-    "total_contributors": 14,
+    "active_this_week": 4,
+    "total_contributors": 15,
     "top_contributors": [
       {
         "author": "magaonka-amd",
-        "prs_submitted": 11,
+        "prs_submitted": 13,
         "prs_merged": 11,
         "commits": 0
       },
@@ -35,7 +35,7 @@
       },
       {
         "author": "gulsumgudukbay",
-        "prs_submitted": 4,
+        "prs_submitted": 5,
         "prs_merged": 2,
         "commits": 0
       },
@@ -64,6 +64,12 @@
         "commits": 0
       },
       {
+        "author": "amd-jianli12",
+        "prs_submitted": 1,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
         "author": "JehandadKhan",
         "prs_submitted": 1,
         "prs_merged": 1,
@@ -74,12 +80,6 @@
         "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
-      },
-      {
-        "author": "factnn",
-        "prs_submitted": 1,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
     "bus_factor": 2
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 26,
     "opened_this_week": 0,
-    "closed_this_week": 4,
+    "closed_this_week": 2,
     "unanswered": 6
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 23.5,
+    "days_since_last": 24.6,
     "avg_interval_days": 30.0,
     "total_releases": 5,
     "latest_tag": "jax-v0.11.0"

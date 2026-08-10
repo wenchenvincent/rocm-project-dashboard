@@ -1,6 +1,28 @@
 {
-  "collected_at": "2026-08-09T08:28:07Z",
+  "collected_at": "2026-08-10T09:04:59Z",
   "issues": [
+    {
+      "number": 994,
+      "title": "Add type-aware extrema and integer ceil-division APIs",
+      "author": "Phil-amd",
+      "state": "open",
+      "created_at": "2026-08-10T07:03:04Z",
+      "updated_at": "2026-08-10T07:04:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/994",
+      "labels": [
+        "FlyDSL/Customization"
+      ]
+    },
+    {
+      "number": 993,
+      "title": "[Feature]:  conv3d_implicit \u2014 accept and emit NDHWC so chained convs skip the layout round-trip",
+      "author": "ZJLi2013",
+      "state": "open",
+      "created_at": "2026-08-10T06:28:08Z",
+      "updated_at": "2026-08-10T06:28:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/993",
+      "labels": []
+    },
     {
       "number": 978,
       "title": "[Issue]: Investigate MegaMoEV2 end-to-end throughput gap vs V1 on 8\u00d7MI355X",

@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-08-09T08:28:06Z",
+  "collected_at": "2026-08-10T09:04:58Z",
   "prs": [
+    {
+      "number": 996,
+      "title": "[Feat] Add fx.num_warp_threads() as constant accessor",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T08:39:07Z",
+      "updated_at": "2026-08-10T08:44:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/996",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 992,
+      "title": "Refactor gfx950 A16W16 GEMM to use the universal kernel",
+      "author": "xytpai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T03:54:17Z",
+      "updated_at": "2026-08-10T08:32:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/992",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 995,
+      "title": "Add type-aware extrema and integer ceil-division APIs [wip]",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T07:08:55Z",
+      "updated_at": "2026-08-10T08:27:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/995",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 947,
+      "title": "[MoE] Port moe_gemm_2stage (stage1+stage2) to the new fx.* pipeline \u2014 fp8 (gfx942 + gfx950)",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T01:52:41Z",
+      "updated_at": "2026-08-10T07:52:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/947",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 991,
+      "title": "[fix] Resolve normalization-related CI regressions",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T23:49:33Z",
+      "updated_at": "2026-08-10T07:00:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/991",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 971,
+      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-08-10T06:26:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 987,
+      "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-08-10T06:00:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 989,
       "title": "CI: upgrade PyTorch images to ROCm 7.14",
@@ -8,12 +92,24 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-09T05:18:13Z",
-      "updated_at": "2026-08-09T07:40:11Z",
+      "updated_at": "2026-08-10T05:56:49Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/989",
       "labels": [
         "performance",
         "multi-gpu"
       ],
+      "draft": false
+    },
+    {
+      "number": 990,
+      "title": "[fp4_gemm_4wave] MXFP4 GEMM perf optimize",
+      "author": "benenzhu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T11:59:50Z",
+      "updated_at": "2026-08-10T02:41:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/990",
+      "labels": [],
       "draft": false
     },
     {
@@ -27,30 +123,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/986",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 987,
-      "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-08-09T04:15:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 971,
-      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-08-08T15:56:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 980,
@@ -151,18 +223,6 @@
       "draft": false
     },
     {
-      "number": 947,
-      "title": "[MoE] Port moe_gemm_2stage (stage1+stage2) to the new fx.* pipeline \u2014 fp8 (gfx942 + gfx950)",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T01:52:41Z",
-      "updated_at": "2026-08-07T06:36:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/947",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 872,
       "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
       "author": "aris134",
@@ -197,18 +257,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 975,
-      "title": "Replace legacy HGEMM kernels with gfx950 A16W16 universe GEMM",
-      "author": "xytpai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T10:50:33Z",
-      "updated_at": "2026-08-06T10:50:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/975",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 891,
@@ -1729,18 +1777,6 @@
       "created_at": "2026-07-12T14:19:34Z",
       "updated_at": "2026-07-14T09:23:55Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/835",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 846,
-      "title": "[Docs] Remove duplicate Documentation table from README",
-      "author": "Peter9606",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T05:46:00Z",
-      "updated_at": "2026-07-14T09:13:29Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/846",
       "labels": [],
       "draft": false
     }
