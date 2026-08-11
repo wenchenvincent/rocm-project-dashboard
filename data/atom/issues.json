@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-10T09:04:53Z",
+  "collected_at": "2026-08-11T08:42:03Z",
   "issues": [
     {
       "number": 1847,
@@ -7,8 +7,18 @@
       "author": "Alan-D-Chen",
       "state": "open",
       "created_at": "2026-08-10T07:21:13Z",
-      "updated_at": "2026-08-10T07:21:13Z",
+      "updated_at": "2026-08-11T04:09:55Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1847",
+      "labels": []
+    },
+    {
+      "number": 1854,
+      "title": "How can I run the Kimi K3 model on multiple AMD MI308X servers \uff1f",
+      "author": "Alan-D-Chen",
+      "state": "open",
+      "created_at": "2026-08-10T16:14:53Z",
+      "updated_at": "2026-08-11T02:00:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1854",
       "labels": []
     },
     {

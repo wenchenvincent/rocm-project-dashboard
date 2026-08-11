@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-08-10T09:04:58Z",
+  "collected_at": "2026-08-11T08:42:07Z",
   "prs": [
-    {
-      "number": 996,
-      "title": "[Feat] Add fx.num_warp_threads() as constant accessor",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T08:39:07Z",
-      "updated_at": "2026-08-10T08:44:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/996",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 992,
       "title": "Refactor gfx950 A16W16 GEMM to use the universal kernel",
@@ -20,58 +8,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-10T03:54:17Z",
-      "updated_at": "2026-08-10T08:32:34Z",
+      "updated_at": "2026-08-11T08:32:48Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/992",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 995,
-      "title": "Add type-aware extrema and integer ceil-division APIs [wip]",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T07:08:55Z",
-      "updated_at": "2026-08-10T08:27:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/995",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 947,
-      "title": "[MoE] Port moe_gemm_2stage (stage1+stage2) to the new fx.* pipeline \u2014 fp8 (gfx942 + gfx950)",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T01:52:41Z",
-      "updated_at": "2026-08-10T07:52:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/947",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 991,
-      "title": "[fix] Resolve normalization-related CI regressions",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-09T23:49:33Z",
-      "updated_at": "2026-08-10T07:00:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/991",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 971,
-      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-08-10T06:26:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 987,
@@ -80,35 +20,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-08-10T06:00:12Z",
+      "updated_at": "2026-08-11T07:58:16Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
       "labels": [],
       "draft": false
     },
     {
-      "number": 989,
-      "title": "CI: upgrade PyTorch images to ROCm 7.14",
-      "author": "coderfeli",
+      "number": 960,
+      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
+      "author": "amd-nprotaso",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-09T05:18:13Z",
-      "updated_at": "2026-08-10T05:56:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/989",
+      "created_at": "2026-08-03T12:59:55Z",
+      "updated_at": "2026-08-11T07:20:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 972,
+      "title": "add A4W4 and FP8 P2P transport support to MegaMoE",
+      "author": "Yaowu-Xiong",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T06:55:42Z",
+      "updated_at": "2026-08-11T06:41:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/972",
       "labels": [
-        "performance",
         "multi-gpu"
       ],
       "draft": false
     },
     {
-      "number": 990,
-      "title": "[fp4_gemm_4wave] MXFP4 GEMM perf optimize",
-      "author": "benenzhu",
+      "number": 982,
+      "title": "docs: Update docs style to fit style guide",
+      "author": "peterjunpark",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-09T11:59:50Z",
-      "updated_at": "2026-08-10T02:41:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/990",
+      "created_at": "2026-08-07T19:58:48Z",
+      "updated_at": "2026-08-11T05:50:26Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/982",
       "labels": [],
       "draft": false
     },
@@ -119,8 +70,119 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-08T05:12:22Z",
-      "updated_at": "2026-08-09T04:15:40Z",
+      "updated_at": "2026-08-11T05:19:58Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/986",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 991,
+      "title": "[fix] Resolve normalization-related CI regressions",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T23:49:33Z",
+      "updated_at": "2026-08-11T03:17:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/991",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 860,
+      "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T05:39:47Z",
+      "updated_at": "2026-08-11T02:53:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 989,
+      "title": "CI: upgrade PyTorch images to ROCm 7.14",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T05:18:13Z",
+      "updated_at": "2026-08-11T02:32:26Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/989",
+      "labels": [
+        "performance",
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 947,
+      "title": "[MoE] Port moe_gemm_2stage (stage1+stage2) to the new fx.* pipeline \u2014 fp8 (gfx942 + gfx950)",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T01:52:41Z",
+      "updated_at": "2026-08-11T01:23:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/947",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 990,
+      "title": "[fp4_gemm_4wave] MXFP4 GEMM perf optimize",
+      "author": "benenzhu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T11:59:50Z",
+      "updated_at": "2026-08-11T01:19:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/990",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 901,
+      "title": "Add Optimized MoE Routing Path",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T19:56:02Z",
+      "updated_at": "2026-08-11T00:58:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 995,
+      "title": "[wip] Add type-aware extrema and integer ceil-division APIs",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T07:08:55Z",
+      "updated_at": "2026-08-10T21:48:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/995",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 971,
+      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-08-10T13:24:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 996,
+      "title": "[Feat] Add fx.num_warp_threads() as constant accessor",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T08:39:07Z",
+      "updated_at": "2026-08-10T08:44:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/996",
       "labels": [],
       "draft": false
     },
@@ -149,30 +211,6 @@
       "draft": false
     },
     {
-      "number": 982,
-      "title": "docs: Update docs style to fit style guide",
-      "author": "peterjunpark",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T19:58:48Z",
-      "updated_at": "2026-08-07T20:16:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/982",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 981,
-      "title": "docs: Update configs for documentation to host on Read the Docs",
-      "author": "peterjunpark",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T18:39:10Z",
-      "updated_at": "2026-08-07T19:52:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/981",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 931,
       "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
       "author": "RichardChamberlain1",
@@ -183,32 +221,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 960,
-      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-03T12:59:55Z",
-      "updated_at": "2026-08-07T15:07:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 972,
-      "title": "add A4W4 and FP8 P2P transport support to MegaMoE v2",
-      "author": "Yaowu-Xiong",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T06:55:42Z",
-      "updated_at": "2026-08-07T08:54:56Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/972",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
     },
     {
       "number": 976,
@@ -231,30 +243,6 @@
       "created_at": "2026-07-18T00:38:19Z",
       "updated_at": "2026-08-06T21:23:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 860,
-      "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T05:39:47Z",
-      "updated_at": "2026-08-06T18:19:56Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 901,
-      "title": "Add Optimized MoE Routing Path",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T19:56:02Z",
-      "updated_at": "2026-08-06T17:40:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
       "labels": [],
       "draft": false
     },
@@ -869,6 +857,30 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 997,
+      "title": "[Kernel]Remove recast iter from sliding window attention kernel.",
+      "author": "amd-nprotaso",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-10T13:10:20Z",
+      "updated_at": "2026-08-11T07:45:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/997",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 981,
+      "title": "docs: Update configs for documentation to host on Read the Docs",
+      "author": "peterjunpark",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-07T18:39:10Z",
+      "updated_at": "2026-08-11T01:17:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/981",
       "labels": [],
       "draft": false
     },
@@ -1765,18 +1777,6 @@
       "created_at": "2026-07-13T23:57:41Z",
       "updated_at": "2026-07-14T20:16:42Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/842",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 835,
-      "title": "[Misc] Propagate signatures through expr decorators",
-      "author": "simondanielsson",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-12T14:19:34Z",
-      "updated_at": "2026-07-14T09:23:55Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/835",
       "labels": [],
       "draft": false
     }

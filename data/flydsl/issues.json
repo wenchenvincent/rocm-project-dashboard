@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-08-10T09:04:59Z",
+  "collected_at": "2026-08-11T08:42:08Z",
   "issues": [
+    {
+      "number": 993,
+      "title": "[Feature]:  conv3d_implicit \u2014 accept and emit NDHWC so chained convs skip the layout round-trip",
+      "author": "ZJLi2013",
+      "state": "open",
+      "created_at": "2026-08-10T06:28:08Z",
+      "updated_at": "2026-08-10T23:51:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/993",
+      "labels": []
+    },
+    {
+      "number": 861,
+      "title": "[Issue]: Tune conv perf",
+      "author": "coderfeli",
+      "state": "open",
+      "created_at": "2026-07-15T08:17:13Z",
+      "updated_at": "2026-08-10T23:26:36Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/861",
+      "labels": []
+    },
+    {
+      "number": 998,
+      "title": "[RFC] Syntax sugar: extend support of `a if x < y else b` syntax",
+      "author": "xinyazhang",
+      "state": "open",
+      "created_at": "2026-08-10T21:25:33Z",
+      "updated_at": "2026-08-10T21:25:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/998",
+      "labels": []
+    },
     {
       "number": 994,
       "title": "Add type-aware extrema and integer ceil-division APIs",
@@ -12,16 +42,6 @@
       "labels": [
         "FlyDSL/Customization"
       ]
-    },
-    {
-      "number": 993,
-      "title": "[Feature]:  conv3d_implicit \u2014 accept and emit NDHWC so chained convs skip the layout round-trip",
-      "author": "ZJLi2013",
-      "state": "open",
-      "created_at": "2026-08-10T06:28:08Z",
-      "updated_at": "2026-08-10T06:28:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/993",
-      "labels": []
     },
     {
       "number": 978,
@@ -181,16 +201,6 @@
       "created_at": "2026-07-15T08:22:02Z",
       "updated_at": "2026-07-16T02:12:36Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/862",
-      "labels": []
-    },
-    {
-      "number": 861,
-      "title": "[Issue]: Tune conv perf",
-      "author": "coderfeli",
-      "state": "open",
-      "created_at": "2026-07-15T08:17:13Z",
-      "updated_at": "2026-07-15T08:17:13Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/861",
       "labels": []
     },
     {

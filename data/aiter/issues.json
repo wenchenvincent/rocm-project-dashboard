@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-08-10T09:04:47Z",
+  "collected_at": "2026-08-11T08:41:58Z",
   "issues": [
+    {
+      "number": 4667,
+      "title": "[GFX950][GLUON] Sparse-MLA decode path breaks generation accuracy under DP-attention (NaN in the KV cache, propagated not masked)",
+      "author": "jiacao-amd",
+      "state": "open",
+      "created_at": "2026-08-11T02:10:22Z",
+      "updated_at": "2026-08-11T02:34:59Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4667",
+      "labels": []
+    },
+    {
+      "number": 4665,
+      "title": "[Perf][gfx950] Validate SGLang Kimi-K3 TP8 BF16 GEMM coverage on MI350X; conditionally tune one FlyDSL row",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-08-10T22:06:50Z",
+      "updated_at": "2026-08-10T22:06:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4665",
+      "labels": []
+    },
+    {
+      "number": 4658,
+      "title": "[Issue]: IPCBufferPool rejects every non-TCP store, so custom all-reduce cannot run under a FileStore rendezvous",
+      "author": "stefankoncarevic",
+      "state": "open",
+      "created_at": "2026-08-10T12:23:29Z",
+      "updated_at": "2026-08-10T12:23:29Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4658",
+      "labels": []
+    },
     {
       "number": 4437,
       "title": "[Issue]: no attribute 'MlaVersion'",
@@ -49,26 +79,6 @@
       "created_at": "2026-08-07T18:03:19Z",
       "updated_at": "2026-08-07T18:03:19Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4633",
-      "labels": []
-    },
-    {
-      "number": 4409,
-      "title": "Branch cleanup: one-off sweep of 1,160 stale branches (wave 1 on 2026-08-13; group C deferred)",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-07-28T03:02:24Z",
-      "updated_at": "2026-08-07T06:55:06Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4409",
-      "labels": []
-    },
-    {
-      "number": 4411,
-      "title": "Branch cleanup (2/2): owners GitHub could not notify on #4409",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-07-28T03:32:23Z",
-      "updated_at": "2026-08-07T06:54:49Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4411",
       "labels": []
     },
     {

@@ -1,6 +1,48 @@
 {
-  "collected_at": "2026-08-10T09:04:04Z",
+  "collected_at": "2026-08-11T08:41:19Z",
   "prs": [
+    {
+      "number": 39872,
+      "title": "[ROCm] Automatically collect rocm libraries needed to run the rocm wheels under test",
+      "author": "draganmladjenovic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T19:52:33Z",
+      "updated_at": "2026-08-11T05:55:19Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39872",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 39845,
+      "title": "[ROCm] Simplify pytest parallelism calculation for ROCm CI",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T18:26:53Z",
+      "updated_at": "2026-08-10T19:09:32Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39845",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39765,
+      "title": "[ROCm] Drop the rocm-sdk PATH/LD_LIBRARY_PATH block from run_pytest_rocm.sh",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T22:30:01Z",
+      "updated_at": "2026-08-10T18:48:32Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39765",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 39850,
       "title": "[ROCm] Allow running one test subset per run_pytest_rocm.sh invocation",
@@ -8,9 +50,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-10T05:17:46Z",
-      "updated_at": "2026-08-10T05:24:08Z",
+      "updated_at": "2026-08-10T18:19:49Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39850",
-      "labels": [],
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
       "draft": false
     },
     {
@@ -36,45 +81,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/39846",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 39845,
-      "title": "[ROCm] Simplify pytest parallelism calculation for ROCm CI",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-09T18:26:53Z",
-      "updated_at": "2026-08-09T18:26:53Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39845",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 39807,
-      "title": "[ROCm] Put the ROCm runtime libraries in the bazel GPU test runfiles",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T04:45:59Z",
-      "updated_at": "2026-08-07T06:05:01Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39807",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 39765,
-      "title": "[ROCm] Drop the rocm-sdk PATH/LD_LIBRARY_PATH block from run_pytest_rocm.sh",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-05T22:30:01Z",
-      "updated_at": "2026-08-07T04:40:39Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39765",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
     },
     {
       "number": 38803,

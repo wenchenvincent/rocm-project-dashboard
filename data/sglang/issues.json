@@ -1,14 +1,122 @@
 {
-  "collected_at": "2026-08-10T09:04:27Z",
+  "collected_at": "2026-08-11T08:41:40Z",
   "issues": [
+    {
+      "number": 26890,
+      "title": "[AITER-Upgrade] AITER Scout Status",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-06-01T06:01:24Z",
+      "updated_at": "2026-08-11T08:35:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
+      "labels": []
+    },
+    {
+      "number": 34389,
+      "title": "[Bug] [Diffusion] Attention backend fallback change introduced errors on most models",
+      "author": "avjves",
+      "state": "open",
+      "created_at": "2026-08-11T08:31:46Z",
+      "updated_at": "2026-08-11T08:31:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34389",
+      "labels": []
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-10T08:59:40Z",
+      "updated_at": "2026-08-11T08:12:00Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 34367,
+      "title": "[Bug][diffusion] LongLive2 `longlive2_i2v` aborts: num_frames not divisible by num_frames_per_block (causal DMD)",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-08-11T06:03:33Z",
+      "updated_at": "2026-08-11T06:03:33Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34367",
+      "labels": []
+    },
+    {
+      "number": 34366,
+      "title": "[Bug][diffusion] JoyAI-Image-Edit fails at ImageEncodingStage: Qwen3-VL text encoder missing `mm_token_type_ids`",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-08-11T06:03:32Z",
+      "updated_at": "2026-08-11T06:03:32Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34366",
+      "labels": []
+    },
+    {
+      "number": 34351,
+      "title": "[Bug][AMD][diffusion] FLUX server crashes on ROCm: Triton PTX inline-asm ('=f' constraint) in diffusion layernorm/numerics kernels fails to compile on gfx942",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-08-11T03:34:40Z",
+      "updated_at": "2026-08-11T03:34:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34351",
+      "labels": []
+    },
+    {
+      "number": 33636,
+      "title": "[NVIDIA] DeepSeek V4 Perf Tracking",
+      "author": "b8zhong",
+      "state": "open",
+      "created_at": "2026-08-05T03:38:42Z",
+      "updated_at": "2026-08-11T02:17:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33636",
+      "labels": [
+        "nvidia"
+      ]
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-11T01:54:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 22283,
+      "title": "[Apple Silicon] Optimize MoE performance",
+      "author": "jonahbernard",
+      "state": "open",
+      "created_at": "2026-04-07T19:18:19Z",
+      "updated_at": "2026-08-10T20:04:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22283",
+      "labels": [
+        "inactive"
+      ]
+    },
+    {
+      "number": 34297,
+      "title": "[Roadmap] DSpark CUDA Graph correctness and robustness",
+      "author": "Phoenix3334",
+      "state": "open",
+      "created_at": "2026-08-10T14:00:07Z",
+      "updated_at": "2026-08-10T14:33:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34297",
+      "labels": []
+    },
+    {
+      "number": 30344,
+      "title": "[Tracking] DSpark in SGLang: roadmap",
+      "author": "sglang-bot",
+      "state": "open",
+      "created_at": "2026-07-07T05:29:04Z",
+      "updated_at": "2026-08-10T14:00:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30344",
       "labels": []
     },
     {
@@ -17,19 +125,21 @@
       "author": "Phoenix3334",
       "state": "open",
       "created_at": "2026-08-03T06:43:59Z",
-      "updated_at": "2026-08-10T08:41:00Z",
+      "updated_at": "2026-08-10T13:44:09Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33356",
       "labels": []
     },
     {
-      "number": 34227,
-      "title": "[diffusion] MiniMax-H3 with --use-fsdp-inference produces silently corrupted video/audio output",
-      "author": "TobyMint",
+      "number": 34295,
+      "title": "[RFC] Remove the torchao integration (`--torchao-config`)",
+      "author": "b8zhong",
       "state": "open",
-      "created_at": "2026-08-10T06:12:22Z",
-      "updated_at": "2026-08-10T06:12:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34227",
-      "labels": []
+      "created_at": "2026-08-10T13:43:36Z",
+      "updated_at": "2026-08-10T13:44:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34295",
+      "labels": [
+        "RFC"
+      ]
     },
     {
       "number": 34205,
@@ -50,18 +160,6 @@
       "updated_at": "2026-08-09T18:34:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34149",
       "labels": []
-    },
-    {
-      "number": 33636,
-      "title": "[NVIDIA] DeepSeek V4 Perf Tracking",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-05T03:38:42Z",
-      "updated_at": "2026-08-09T16:26:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33636",
-      "labels": [
-        "nvidia"
-      ]
     },
     {
       "number": 16255,
@@ -108,20 +206,6 @@
       "labels": []
     },
     {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-07T04:54:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
       "number": 33846,
       "title": "[AMD/ROCm] Kimi-K3 KDA prefill occasional hang at c=1: chunk_kda_fwd \u2192 tolist() \u2192 hipMemcpy D2H never returns",
       "author": "fallow5",
@@ -139,16 +223,6 @@
       "created_at": "2026-06-24T15:45:03Z",
       "updated_at": "2026-08-06T07:06:58Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29184",
-      "labels": []
-    },
-    {
-      "number": 33817,
-      "title": "[Bug][Qwen3.5] Converted checkpoint cannot generate valid text, and FP8 output length increased significantly",
-      "author": "zijiecode",
-      "state": "open",
-      "created_at": "2026-08-06T04:57:51Z",
-      "updated_at": "2026-08-06T06:50:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33817",
       "labels": []
     },
     {
@@ -185,28 +259,6 @@
       "created_at": "2026-07-21T09:43:06Z",
       "updated_at": "2026-08-04T20:08:08Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31924",
-      "labels": []
-    },
-    {
-      "number": 22283,
-      "title": "[Apple Silicon] Optimize MoE performance",
-      "author": "jonahbernard",
-      "state": "open",
-      "created_at": "2026-04-07T19:18:19Z",
-      "updated_at": "2026-08-04T12:22:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22283",
-      "labels": [
-        "inactive"
-      ]
-    },
-    {
-      "number": 26890,
-      "title": "[AITER-Upgrade] AITER Scout Status",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-06-01T06:01:24Z",
-      "updated_at": "2026-08-04T09:05:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
       "labels": []
     },
     {
@@ -426,16 +478,6 @@
       "labels": []
     },
     {
-      "number": 27898,
-      "title": "[RFC] Beyond Passive Byte Stores: Scheduler-Aware Multi-Tier KV Caching for SGLang with MORI-UMBP",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-06-11T08:00:41Z",
-      "updated_at": "2026-07-29T03:18:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27898",
-      "labels": []
-    },
-    {
       "number": 32712,
       "title": "[Feature] [RFC] SharedEP: a zerocopy execution model for MoE Expert Parallelism",
       "author": "foraxe",
@@ -446,18 +488,6 @@
       "labels": []
     },
     {
-      "number": 32569,
-      "title": "[Bug] Kimi K3 DSPARK speculative decoding crashes with TypeError: 'NoneType' object is not callable in top_k_renorm_prob",
-      "author": "geohot",
-      "state": "open",
-      "created_at": "2026-07-27T20:33:16Z",
-      "updated_at": "2026-07-28T21:13:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32569",
-      "labels": [
-        "amd"
-      ]
-    },
-    {
       "number": 31774,
       "title": "[RFC] Backend, KV dtype and platform compatibility is checked case by case, and the responses are inconsistent",
       "author": "mosya415",
@@ -465,16 +495,6 @@
       "created_at": "2026-07-20T11:56:07Z",
       "updated_at": "2026-07-27T22:15:31Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31774",
-      "labels": []
-    },
-    {
-      "number": 32548,
-      "title": "[Kimi-K3][AMD] Day 0 and Performance Tracking",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-07-27T15:49:55Z",
-      "updated_at": "2026-07-27T21:10:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32548",
       "labels": []
     },
     {
@@ -537,26 +557,6 @@
       "created_at": "2026-07-06T09:20:42Z",
       "updated_at": "2026-07-09T03:06:39Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30245",
-      "labels": []
-    },
-    {
-      "number": 29687,
-      "title": "[Bug][ROCm] Multimodal CUDA-IPC non-pooled fallback crashes (hipErrorInvalidDevicePointer) on MmItemMemoryPool overflow \u2014 encoder-DP nightly (follow-up to #29227)",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-06-29T23:11:16Z",
-      "updated_at": "2026-07-07T16:49:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29687",
-      "labels": []
-    },
-    {
-      "number": 28618,
-      "title": "[RFC] Add SM89/L20 support for DeepSeek-V4-Flash-FP8",
-      "author": "xesdiny",
-      "state": "open",
-      "created_at": "2026-06-18T05:57:40Z",
-      "updated_at": "2026-07-06T07:36:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/28618",
       "labels": []
     }
   ]

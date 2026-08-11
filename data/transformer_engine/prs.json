@@ -1,17 +1,17 @@
 {
-  "collected_at": "2026-08-10T09:05:01Z",
+  "collected_at": "2026-08-11T08:42:10Z",
   "prs": [
     {
-      "number": 697,
-      "title": "Integrate MXFP4 hipblaslt GEMM support",
-      "author": "VeeraRajasekhar",
+      "number": 676,
+      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "aris134",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-07T15:04:06Z",
-      "updated_at": "2026-08-10T06:53:40Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
+      "created_at": "2026-07-22T03:23:51Z",
+      "updated_at": "2026-08-11T02:28:58Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
       "labels": [
-        "ci-level 3"
+        "ci-level 1"
       ],
       "draft": false
     },
@@ -22,7 +22,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-08-10T04:16:24Z",
+      "updated_at": "2026-08-11T01:46:54Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
       "labels": [
         "ci-level 1"
@@ -36,8 +36,50 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-04T23:59:24Z",
-      "updated_at": "2026-08-10T03:17:01Z",
+      "updated_at": "2026-08-10T22:30:31Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/692",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 675,
+      "title": "gfx1250: native nvfp4 support (GEMM/RHT)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T21:13:55Z",
+      "updated_at": "2026-08-10T22:09:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 667,
+      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T19:42:42Z",
+      "updated_at": "2026-08-10T18:12:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 697,
+      "title": "Integrate MXFP4 hipblaslt GEMM support",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T15:04:06Z",
+      "updated_at": "2026-08-10T16:54:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
       "labels": [
         "ci-level 3"
       ],
@@ -50,7 +92,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-08T02:16:00Z",
-      "updated_at": "2026-08-10T00:06:35Z",
+      "updated_at": "2026-08-10T16:32:57Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/698",
       "labels": [
         "ci-level 3"
@@ -58,29 +100,27 @@
       "draft": false
     },
     {
-      "number": 690,
-      "title": "Veergopu/upgrade ci rock 714",
-      "author": "VeeraRajasekhar",
+      "number": 699,
+      "title": "[Fix] add rocm10 te core package support",
+      "author": "GeneDer",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-04T22:30:03Z",
-      "updated_at": "2026-08-07T22:20:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/690",
+      "created_at": "2026-08-10T15:35:22Z",
+      "updated_at": "2026-08-10T15:35:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/699",
       "labels": [],
       "draft": false
     },
     {
-      "number": 676,
-      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "aris134",
+      "number": 677,
+      "title": "microbenchmarks: add buffer rotation option",
+      "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-08-07T17:27:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
-      "labels": [
-        "ci-level 1"
-      ],
+      "created_at": "2026-07-23T21:25:58Z",
+      "updated_at": "2026-08-10T15:29:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/677",
+      "labels": [],
       "draft": false
     },
     {
@@ -122,20 +162,6 @@
       "draft": true
     },
     {
-      "number": 691,
-      "title": "gfx1250: fix MXFP8 scale_inv shape mismatch in C++ tests",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-04T22:35:35Z",
-      "updated_at": "2026-08-05T22:05:37Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/691",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 606,
       "title": "[FEAT] Lightning Indexer",
       "author": "Micky774",
@@ -162,32 +188,6 @@
       "draft": false
     },
     {
-      "number": 677,
-      "title": "microbenchmarks: add buffer rotation option",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T21:25:58Z",
-      "updated_at": "2026-08-04T19:12:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/677",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 675,
-      "title": "[wip] native nvfp4 GEMM support on gfx1250",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T21:13:55Z",
-      "updated_at": "2026-08-04T16:24:27Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
       "number": 603,
       "title": "TE AITER gfx1250 integration WIP",
       "author": "Micky774",
@@ -197,20 +197,6 @@
       "updated_at": "2026-08-04T16:21:11Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/603",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 667,
-      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T19:42:42Z",
-      "updated_at": "2026-08-04T15:44:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -713,6 +699,32 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 690,
+      "title": "Veergopu/upgrade ci rock 714",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-04T22:30:03Z",
+      "updated_at": "2026-08-10T21:26:40Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/690",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 691,
+      "title": "gfx1250: fix MXFP8 scale_inv shape mismatch in C++ tests",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-04T22:35:35Z",
+      "updated_at": "2026-08-10T21:07:49Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/691",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -1861,20 +1873,6 @@
       "created_at": "2026-05-05T05:33:41Z",
       "updated_at": "2026-05-05T17:46:42Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/575",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 572,
-      "title": "[CI] upgrade hypothesis/setuptools",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-04T19:11:24Z",
-      "updated_at": "2026-05-04T22:10:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/572",
       "labels": [
         "ci-level 1"
       ],
