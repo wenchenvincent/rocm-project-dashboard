@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-08-11T08:41:58Z",
+  "collected_at": "2026-08-12T08:58:15Z",
   "issues": [
+    {
+      "number": 4483,
+      "title": "[Issue]: `install_triton.sh` breaks `pip install ... --dry-run`",
+      "author": "fxmarty-amd",
+      "state": "open",
+      "created_at": "2026-07-31T12:51:03Z",
+      "updated_at": "2026-08-12T08:19:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4483",
+      "labels": []
+    },
+    {
+      "number": 4701,
+      "title": "[Feature][Bug]: a flydsl version mismatch takes down flash_attn_varlen_func on every arch`",
+      "author": "ZJLi2013",
+      "state": "open",
+      "created_at": "2026-08-12T03:53:10Z",
+      "updated_at": "2026-08-12T03:53:10Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4701",
+      "labels": []
+    },
+    {
+      "number": 4457,
+      "title": "[Issue]: fused_qk_rope_reshape_and_cache_kernel's latency is larger than than non-fused kernels",
+      "author": "amd-yuehuang",
+      "state": "open",
+      "created_at": "2026-07-30T08:37:02Z",
+      "updated_at": "2026-08-12T02:43:09Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4457",
+      "labels": []
+    },
     {
       "number": 4667,
       "title": "[GFX950][GLUON] Sparse-MLA decode path breaks generation accuracy under DP-attention (NaN in the KV cache, propagated not masked)",
@@ -92,16 +122,6 @@
       "labels": []
     },
     {
-      "number": 4457,
-      "title": "[Issue]: fused_qk_rope_reshape_and_cache_kernel's latency is larger than than non-fused kernels",
-      "author": "amd-yuehuang",
-      "state": "open",
-      "created_at": "2026-07-30T08:37:02Z",
-      "updated_at": "2026-08-04T05:29:04Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4457",
-      "labels": []
-    },
-    {
       "number": 4541,
       "title": "[Kimi-K3 MLA TP8] MLA performance",
       "author": "zejunchen-zejun",
@@ -159,16 +179,6 @@
       "created_at": "2026-07-31T20:15:32Z",
       "updated_at": "2026-07-31T20:15:32Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4490",
-      "labels": []
-    },
-    {
-      "number": 4483,
-      "title": "[Issue]: `install_triton.sh` breaks `pip install ... --dry-run`",
-      "author": "fxmarty-amd",
-      "state": "open",
-      "created_at": "2026-07-31T12:51:03Z",
-      "updated_at": "2026-07-31T12:51:03Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4483",
       "labels": []
     },
     {

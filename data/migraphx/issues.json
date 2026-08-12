@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-11T08:41:47Z",
+  "collected_at": "2026-08-12T08:58:04Z",
   "issues": [
+    {
+      "number": 5126,
+      "title": "[Issue][ONNX]: Error simplify_reshapes: src/include/migraphx/check_shapes.hpp:221: same_dims: mul: Dimensions do not match",
+      "author": "sdroege",
+      "state": "open",
+      "created_at": "2026-08-11T09:13:58Z",
+      "updated_at": "2026-08-11T10:02:34Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5126",
+      "labels": []
+    },
     {
       "number": 5079,
       "title": "[Issue]: Compiled .mxr files are needlessly large",

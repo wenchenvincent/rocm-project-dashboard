@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-08-11T08:42:27Z",
+  "collected_at": "2026-08-12T08:58:40Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Integration Tests",
-    "run_id": 31469712528,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/31469712528",
-    "run_date": "2026-08-11T08:19:41Z",
+    "run_id": 31565440736,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/31565440736",
+    "run_date": "2026-08-12T05:07:56Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 1,
@@ -28,9 +28,9 @@
   },
   "cuda": {
     "workflow_name": "Integration Tests",
-    "run_id": 31469712528,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/31469712528",
-    "run_date": "2026-08-11T08:19:41Z",
+    "run_id": 31565440736,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/31565440736",
+    "run_date": "2026-08-12T05:07:56Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 1,

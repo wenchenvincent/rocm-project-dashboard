@@ -1,24 +1,24 @@
 {
-  "collected_at": "2026-08-11T08:44:06Z",
+  "collected_at": "2026-08-12T09:00:24Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 20,
-      "merged": 16,
+      "opened": 19,
+      "merged": 14,
       "closed": 3
     },
     "last_week": {
-      "opened": 18,
-      "merged": 8,
-      "closed": 0
+      "opened": 20,
+      "merged": 13,
+      "closed": 1
     },
-    "median_time_to_merge_hours": 58.4,
-    "merge_count": 28,
-    "stale_prs": 7
+    "median_time_to_merge_hours": 32.7,
+    "merge_count": 27,
+    "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 13,
+    "active_this_week": 18,
     "total_contributors": 26,
     "top_contributors": [
       {
@@ -29,27 +29,27 @@
       },
       {
         "author": "maning00",
-        "prs_submitted": 17,
-        "prs_merged": 14,
+        "prs_submitted": 16,
+        "prs_merged": 13,
         "commits": 6
       },
       {
         "author": "kawhil-amd",
-        "prs_submitted": 12,
-        "prs_merged": 10,
+        "prs_submitted": 13,
+        "prs_merged": 11,
+        "commits": 10
+      },
+      {
+        "author": "QizhouZhang97",
+        "prs_submitted": 9,
+        "prs_merged": 7,
         "commits": 9
       },
       {
         "author": "jhchouuu",
-        "prs_submitted": 11,
-        "prs_merged": 9,
-        "commits": 16
-      },
-      {
-        "author": "QizhouZhang97",
-        "prs_submitted": 8,
-        "prs_merged": 7,
-        "commits": 9
+        "prs_submitted": 9,
+        "prs_merged": 8,
+        "commits": 17
       },
       {
         "author": "inkcherry",
@@ -65,9 +65,9 @@
       },
       {
         "author": "kudomcho",
-        "prs_submitted": 5,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_submitted": 4,
+        "prs_merged": 2,
+        "commits": 2
       },
       {
         "author": "pemeliya",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 25.8,
+    "days_since_last": 26.8,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v1.2.2"

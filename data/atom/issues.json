@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-11T08:42:03Z",
+  "collected_at": "2026-08-12T08:58:20Z",
   "issues": [
     {
       "number": 1847,
@@ -7,7 +7,7 @@
       "author": "Alan-D-Chen",
       "state": "open",
       "created_at": "2026-08-10T07:21:13Z",
-      "updated_at": "2026-08-11T04:09:55Z",
+      "updated_at": "2026-08-11T08:57:49Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1847",
       "labels": []
     },

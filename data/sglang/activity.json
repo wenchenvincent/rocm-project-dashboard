@@ -1,29 +1,29 @@
 {
-  "collected_at": "2026-08-11T08:42:38Z",
+  "collected_at": "2026-08-12T08:58:50Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 54,
-      "merged": 55,
-      "closed": 0
+      "opened": 59,
+      "merged": 53,
+      "closed": 1
     },
     "last_week": {
-      "opened": 21,
-      "merged": 9,
+      "opened": 18,
+      "merged": 13,
       "closed": 0
     },
-    "median_time_to_merge_hours": 149.1,
-    "merge_count": 64,
+    "median_time_to_merge_hours": 128.8,
+    "merge_count": 66,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 72,
-    "total_contributors": 76,
+    "active_this_week": 64,
+    "total_contributors": 69,
     "top_contributors": [
       {
         "author": "michaelzhang-ai",
-        "prs_submitted": 5,
+        "prs_submitted": 9,
         "prs_merged": 4,
         "commits": 0
       },
@@ -34,33 +34,21 @@
         "commits": 0
       },
       {
-        "author": "AMD-yanfeiwang",
-        "prs_submitted": 4,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "kangwangamd",
-        "prs_submitted": 4,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
         "author": "bingxche",
-        "prs_submitted": 3,
+        "prs_submitted": 4,
         "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "yctseng0211",
-        "prs_submitted": 3,
-        "prs_merged": 1,
+        "author": "ch-wan",
+        "prs_submitted": 4,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "At1a8",
+        "author": "chuyeh",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -70,24 +58,36 @@
         "commits": 0
       },
       {
-        "author": "JessicaJiang-123",
+        "author": "yichiche",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "At1a8",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "yichiche",
+        "author": "Emmanuel0612",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "zijiecode",
+        "prs_submitted": 3,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
-    "bus_factor": 11
+    "bus_factor": 12
   },
   "issue_health": {
-    "total_open": 52,
+    "total_open": 53,
     "opened_this_week": 11,
-    "closed_this_week": 84,
+    "closed_this_week": 94,
     "unanswered": 8
   },
   "ci_health": {
@@ -99,29 +99,29 @@
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 3,
-      "failed": 17,
-      "success_rate": 15.0
+      "succeeded": 1,
+      "failed": 8,
+      "success_rate": 5.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
       "median_minutes": 486.6,
-      "p90_minutes": 1123.3,
+      "p90_minutes": 1381.8,
       "min_minutes": 3.2,
       "max_minutes": 1397.0
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 0.9,
-      "p90_minutes": 25.6,
-      "min_minutes": 0.6,
-      "max_minutes": 27.5
+      "median_minutes": 1.8,
+      "p90_minutes": 6.4,
+      "min_minutes": 0.5,
+      "max_minutes": 6.7
     }
   },
   "release_cadence": {
-    "days_since_last": 3.3,
+    "days_since_last": 4.4,
     "avg_interval_days": 10.5,
     "total_releases": 5,
     "latest_tag": "v0.5.17"

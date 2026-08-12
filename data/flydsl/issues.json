@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-11T08:42:08Z",
+  "collected_at": "2026-08-12T08:58:26Z",
   "issues": [
+    {
+      "number": 998,
+      "title": "[RFC] Syntax sugar: extend support of `a if x < y else b` syntax",
+      "author": "xinyazhang",
+      "state": "open",
+      "created_at": "2026-08-10T21:25:33Z",
+      "updated_at": "2026-08-11T19:37:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/998",
+      "labels": []
+    },
     {
       "number": 993,
       "title": "[Feature]:  conv3d_implicit \u2014 accept and emit NDHWC so chained convs skip the layout round-trip",
@@ -22,16 +32,6 @@
       "labels": []
     },
     {
-      "number": 998,
-      "title": "[RFC] Syntax sugar: extend support of `a if x < y else b` syntax",
-      "author": "xinyazhang",
-      "state": "open",
-      "created_at": "2026-08-10T21:25:33Z",
-      "updated_at": "2026-08-10T21:25:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/998",
-      "labels": []
-    },
-    {
       "number": 994,
       "title": "Add type-aware extrema and integer ceil-division APIs",
       "author": "Phil-amd",
@@ -41,18 +41,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/issues/994",
       "labels": [
         "FlyDSL/Customization"
-      ]
-    },
-    {
-      "number": 978,
-      "title": "[Issue]: Investigate MegaMoEV2 end-to-end throughput gap vs V1 on 8\u00d7MI355X",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-08-06T22:34:23Z",
-      "updated_at": "2026-08-07T23:49:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/978",
-      "labels": [
-        "multi-gpu"
       ]
     },
     {

@@ -1,14 +1,58 @@
 {
-  "collected_at": "2026-08-11T08:41:40Z",
+  "collected_at": "2026-08-12T08:57:57Z",
   "issues": [
     {
-      "number": 26890,
-      "title": "[AITER-Upgrade] AITER Scout Status",
-      "author": "bingxche",
+      "number": 17050,
+      "title": "[Tracking] CI Test Failures and Fixes",
+      "author": "alisonshao",
       "state": "open",
-      "created_at": "2026-06-01T06:01:24Z",
-      "updated_at": "2026-08-11T08:35:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
+      "created_at": "2026-01-14T01:49:31Z",
+      "updated_at": "2026-08-12T08:31:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-12T06:54:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 31995,
+      "title": "[Bug] DWDP unconditionally imports cuda.bindings \u2192 ModuleNotFoundError: No module named 'cuda' on non-CUDA platforms (XPU/CPU) during ModelRunner init",
+      "author": "dayanandav",
+      "state": "open",
+      "created_at": "2026-07-22T03:04:23Z",
+      "updated_at": "2026-08-12T04:02:10Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31995",
+      "labels": []
+    },
+    {
+      "number": 33861,
+      "title": "[RFC] PD disaggregation: single protocol layer, per-backend transport",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2026-08-06T09:20:51Z",
+      "updated_at": "2026-08-12T03:59:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33861",
+      "labels": []
+    },
+    {
+      "number": 34473,
+      "title": "[ROCm] QuickReduce bf16\u2192fp16 cast corrupts gpt-oss-120b residuals: 62.7M non-finite elements on the default config",
+      "author": "alexnails",
+      "state": "open",
+      "created_at": "2026-08-11T23:28:06Z",
+      "updated_at": "2026-08-11T23:28:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34473",
       "labels": []
     },
     {
@@ -17,18 +61,38 @@
       "author": "avjves",
       "state": "open",
       "created_at": "2026-08-11T08:31:46Z",
-      "updated_at": "2026-08-11T08:31:46Z",
+      "updated_at": "2026-08-11T19:44:17Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34389",
       "labels": []
     },
     {
-      "number": 17050,
-      "title": "[Tracking] CI Test Failures and Fixes",
-      "author": "alisonshao",
+      "number": 30344,
+      "title": "[Tracking] DSpark in SGLang: roadmap",
+      "author": "sglang-bot",
       "state": "open",
-      "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-11T08:12:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "created_at": "2026-07-07T05:29:04Z",
+      "updated_at": "2026-08-11T15:12:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30344",
+      "labels": []
+    },
+    {
+      "number": 22949,
+      "title": "Development Roadmap (2026 Q2)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-04-16T08:35:03Z",
+      "updated_at": "2026-08-11T09:26:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
+      "labels": []
+    },
+    {
+      "number": 26890,
+      "title": "[AITER-Upgrade] AITER Scout Status",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-06-01T06:01:24Z",
+      "updated_at": "2026-08-11T08:35:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
       "labels": []
     },
     {
@@ -62,32 +126,6 @@
       "labels": []
     },
     {
-      "number": 33636,
-      "title": "[NVIDIA] DeepSeek V4 Perf Tracking",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-05T03:38:42Z",
-      "updated_at": "2026-08-11T02:17:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33636",
-      "labels": [
-        "nvidia"
-      ]
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-11T01:54:04Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
       "number": 22283,
       "title": "[Apple Silicon] Optimize MoE performance",
       "author": "jonahbernard",
@@ -98,26 +136,6 @@
       "labels": [
         "inactive"
       ]
-    },
-    {
-      "number": 34297,
-      "title": "[Roadmap] DSpark CUDA Graph correctness and robustness",
-      "author": "Phoenix3334",
-      "state": "open",
-      "created_at": "2026-08-10T14:00:07Z",
-      "updated_at": "2026-08-10T14:33:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34297",
-      "labels": []
-    },
-    {
-      "number": 30344,
-      "title": "[Tracking] DSpark in SGLang: roadmap",
-      "author": "sglang-bot",
-      "state": "open",
-      "created_at": "2026-07-07T05:29:04Z",
-      "updated_at": "2026-08-10T14:00:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30344",
-      "labels": []
     },
     {
       "number": 33356,
@@ -548,16 +566,6 @@
       "labels": [
         "inactive"
       ]
-    },
-    {
-      "number": 30245,
-      "title": "ROCm consumer GPU (gfx1100/RDNA3): fused-MoE blocked by upstream triton AMD backend bug \u2014 request configs, allowlist fix, and mitigation",
-      "author": "AIwork4me",
-      "state": "open",
-      "created_at": "2026-07-06T09:20:42Z",
-      "updated_at": "2026-07-09T03:06:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30245",
-      "labels": []
     }
   ]
 }
