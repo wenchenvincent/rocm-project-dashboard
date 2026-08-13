@@ -1,14 +1,56 @@
 {
-  "collected_at": "2026-08-12T08:57:57Z",
+  "collected_at": "2026-08-13T09:00:07Z",
   "issues": [
+    {
+      "number": 27937,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "amd-bot",
+      "state": "open",
+      "created_at": "2026-06-11T15:46:32Z",
+      "updated_at": "2026-08-13T08:55:53Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
+      "labels": []
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-12T08:31:00Z",
+      "updated_at": "2026-08-13T08:23:27Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 34709,
+      "title": "[Bug] benchmark/endpoint.py forks the server process after the parent initializes the accelerator (breaks XPU, latent on CUDA)",
+      "author": "dayanandav",
+      "state": "open",
+      "created_at": "2026-08-13T08:08:27Z",
+      "updated_at": "2026-08-13T08:08:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34709",
+      "labels": []
+    },
+    {
+      "number": 13363,
+      "title": "[Roadmap] sglang auto tuner",
+      "author": "sglang-bot",
+      "state": "open",
+      "created_at": "2025-11-16T04:31:44Z",
+      "updated_at": "2026-08-13T07:20:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
+      "labels": [
+        "good first issue"
+      ]
+    },
+    {
+      "number": 34611,
+      "title": "[Bug] ROCm MI355 HiCache Broken -  Poor Performance for Realistic Agentic Workload",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-08-12T17:56:26Z",
+      "updated_at": "2026-08-13T06:38:33Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34611",
       "labels": []
     },
     {
@@ -17,13 +59,43 @@
       "author": "ispobock",
       "state": "open",
       "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-12T06:54:21Z",
+      "updated_at": "2026-08-13T02:46:05Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20865",
       "labels": [
         "enhancement",
         "good first issue",
         "ci"
       ]
+    },
+    {
+      "number": 34604,
+      "title": "[Bug] Kimi-K3 tool call parser fails ~8x/hour in production: TypeError 'string indices must be integers' and json 'unexpected character'",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-08-12T17:36:11Z",
+      "updated_at": "2026-08-12T17:36:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34604",
+      "labels": []
+    },
+    {
+      "number": 34596,
+      "title": "[Bug] MI355X Qwen3.5 MTP throughput is significantly behind B200/B300 on realistic agentic workloads",
+      "author": "cquil11",
+      "state": "open",
+      "created_at": "2026-08-12T16:14:28Z",
+      "updated_at": "2026-08-12T16:17:12Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34596",
+      "labels": []
+    },
+    {
+      "number": 34562,
+      "title": "[RFC] HIP/ROCm - Provide a bit-exact SWA prefix reuse for DeepSeek-V4 with unified_kv atten backend",
+      "author": "amd-danli103",
+      "state": "open",
+      "created_at": "2026-08-12T10:21:21Z",
+      "updated_at": "2026-08-12T10:26:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34562",
+      "labels": []
     },
     {
       "number": 31995,
@@ -292,16 +364,6 @@
       ]
     },
     {
-      "number": 27937,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "amd-bot",
-      "state": "open",
-      "created_at": "2026-06-11T15:46:32Z",
-      "updated_at": "2026-08-04T00:18:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
-      "labels": []
-    },
-    {
       "number": 11762,
       "title": "[Feature] Overlap Spec Support",
       "author": "hnyls2002",
@@ -453,29 +515,6 @@
       "labels": []
     },
     {
-      "number": 31359,
-      "title": "[Tracking] Inkling Day-0 Support",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-07-15T18:18:03Z",
-      "updated_at": "2026-07-30T18:32:36Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31359",
-      "labels": [
-        "high priority",
-        "new-model"
-      ]
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-07-30T15:07:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
       "number": 31015,
       "title": "[Feature] [Roadmap] Support Hygon HCU GPUs",
       "author": "lizhigong1988",
@@ -544,28 +583,6 @@
       "updated_at": "2026-07-19T17:40:09Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30209",
       "labels": []
-    },
-    {
-      "number": 31071,
-      "title": "[Bug] EAGLE greedy verify lacks TP broadcast \u2192 ranks diverge on accepted tokens \u2192 collective deadlock (tp>1)",
-      "author": "zhoaa",
-      "state": "open",
-      "created_at": "2026-07-13T21:19:03Z",
-      "updated_at": "2026-07-16T08:08:23Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31071",
-      "labels": []
-    },
-    {
-      "number": 18262,
-      "title": "[Bug] [AITER attention] OOM errors as resolved `max_total_num_tokens` does not take into account the memory requirements from attention backends",
-      "author": "fxmarty-amd",
-      "state": "open",
-      "created_at": "2026-02-04T18:23:43Z",
-      "updated_at": "2026-07-15T14:08:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/18262",
-      "labels": [
-        "inactive"
-      ]
     }
   ]
 }

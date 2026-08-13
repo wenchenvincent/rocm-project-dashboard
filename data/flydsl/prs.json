@@ -1,51 +1,27 @@
 {
-  "collected_at": "2026-08-12T08:58:25Z",
+  "collected_at": "2026-08-13T09:00:41Z",
   "prs": [
     {
-      "number": 1001,
-      "title": "[WIP][GFX1250] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
-      "author": "jli-melchior",
+      "number": 971,
+      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
+      "author": "aoli26",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-12T08:37:46Z",
-      "updated_at": "2026-08-12T08:44:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-08-13T08:50:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
       "labels": [],
-      "draft": false
+      "draft": true
     },
     {
       "number": 995,
-      "title": "[wip] Add type-aware extrema and integer ceil-division APIs",
+      "title": "[Expr] Add type-aware extrema and integer ceiling division",
       "author": "Phil-amd",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-10T07:08:55Z",
-      "updated_at": "2026-08-12T08:30:05Z",
+      "updated_at": "2026-08-13T08:36:25Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/995",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 960,
-      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-03T12:59:55Z",
-      "updated_at": "2026-08-12T07:59:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1000,
-      "title": "Just test ci",
-      "author": "xytpai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T05:22:00Z",
-      "updated_at": "2026-08-12T05:31:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1000",
       "labels": [],
       "draft": false
     },
@@ -56,11 +32,95 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T09:41:17Z",
-      "updated_at": "2026-08-12T03:47:47Z",
+      "updated_at": "2026-08-13T06:40:20Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/930",
       "labels": [
         "multi-gpu"
       ],
+      "draft": false
+    },
+    {
+      "number": 996,
+      "title": "[Feat] Add fx.num_warp_threads() as constant accessor",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T08:39:07Z",
+      "updated_at": "2026-08-13T06:39:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/996",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1001,
+      "title": "[Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T08:37:46Z",
+      "updated_at": "2026-08-13T06:29:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1004,
+      "title": "[Docs] Elaboration for composite type and storage",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T15:38:10Z",
+      "updated_at": "2026-08-13T06:16:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1004",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 980,
+      "title": "[Perf] Choose the RDNA3 GEMM tile from the shape",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T03:26:50Z",
+      "updated_at": "2026-08-13T06:11:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/980",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 987,
+      "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-08-13T05:55:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 960,
+      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T12:59:55Z",
+      "updated_at": "2026-08-13T05:39:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1003,
+      "title": "[compiler] isolate mutable state across dynamic if branches",
+      "author": "kefan203",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T13:57:51Z",
+      "updated_at": "2026-08-13T02:50:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1003",
+      "labels": [],
       "draft": false
     },
     {
@@ -70,9 +130,47 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-15T05:39:47Z",
-      "updated_at": "2026-08-12T03:34:44Z",
+      "updated_at": "2026-08-13T00:47:37Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/860",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 991,
+      "title": "[fix] Resolve normalization-related CI regressions",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-09T23:49:33Z",
+      "updated_at": "2026-08-12T19:28:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/991",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "[Perf] Optimize rmsnorm/layernorm",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-08-12T13:53:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 972,
+      "title": "add A4W4 and FP8 P2P transport support to MegaMoE",
+      "author": "Yaowu-Xiong",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T06:55:42Z",
+      "updated_at": "2026-08-12T09:28:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/972",
+      "labels": [
+        "multi-gpu"
+      ],
       "draft": false
     },
     {
@@ -88,44 +186,6 @@
       "draft": false
     },
     {
-      "number": 980,
-      "title": "[Perf] Choose the RDNA3 GEMM tile from the shape",
-      "author": "vlluvia",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T03:26:50Z",
-      "updated_at": "2026-08-12T02:05:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/980",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 987,
-      "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-08-12T01:37:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 972,
-      "title": "add A4W4 and FP8 P2P transport support to MegaMoE",
-      "author": "Yaowu-Xiong",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T06:55:42Z",
-      "updated_at": "2026-08-11T23:49:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/972",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
       "number": 986,
       "title": "[Kernel] Fix single-accumulator RDNA3 GEMM tiles",
       "author": "skyguan92",
@@ -134,42 +194,6 @@
       "created_at": "2026-08-08T05:12:22Z",
       "updated_at": "2026-08-11T23:06:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/986",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 971,
-      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-08-11T14:57:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 996,
-      "title": "[Feat] Add fx.num_warp_threads() as constant accessor",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T08:39:07Z",
-      "updated_at": "2026-08-11T12:43:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/996",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 991,
-      "title": "[fix] Resolve normalization-related CI regressions",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-09T23:49:33Z",
-      "updated_at": "2026-08-11T03:17:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/991",
       "labels": [],
       "draft": false
     },
@@ -316,18 +340,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/942",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 848,
-      "title": "[Perf] Optimize rmsnorm/layernorm",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-07-31T10:07:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 433,
@@ -830,6 +842,42 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1006,
+      "title": "Fix GitHub Pages docs deployment",
+      "author": "gyohuangxin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T08:14:16Z",
+      "updated_at": "2026-08-13T08:16:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1006",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1005,
+      "title": "docs: add rocm-docs-core package to requirements",
+      "author": "nhaehnle",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-12T16:40:52Z",
+      "updated_at": "2026-08-13T02:49:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1005",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1000,
+      "title": "Use stable torch reference API for a16w16 GFX950 GEMM testing",
+      "author": "xytpai",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-12T05:22:00Z",
+      "updated_at": "2026-08-13T00:46:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1000",
       "labels": [],
       "draft": false
     },
@@ -1729,42 +1777,6 @@
       "created_at": "2026-07-16T07:45:01Z",
       "updated_at": "2026-07-16T07:48:17Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/865",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 854,
-      "title": "[Test] Expand RMSNorm backward configs, cache reuse, and Torch benchmarks",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T22:36:38Z",
-      "updated_at": "2026-07-16T07:06:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/854",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 863,
-      "title": "add xcd remap",
-      "author": "solinzby1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-15T08:53:00Z",
-      "updated_at": "2026-07-16T05:19:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/863",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 857,
-      "title": "[CI] Make benchmark baselines fork-safe and bounded",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-15T01:04:25Z",
-      "updated_at": "2026-07-16T04:51:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/857",
       "labels": [],
       "draft": false
     }

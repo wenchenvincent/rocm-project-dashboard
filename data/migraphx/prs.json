@@ -1,15 +1,80 @@
 {
-  "collected_at": "2026-08-12T08:58:01Z",
+  "collected_at": "2026-08-13T09:00:12Z",
   "prs": [
     {
-      "number": 5048,
-      "title": "Preserve shape ops when removing QDQ pairs",
-      "author": "ikalinic",
+      "number": 5014,
+      "title": "Hoist and horizontal dot",
+      "author": "TedThemistokleous",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-08T14:22:24Z",
-      "updated_at": "2026-08-12T08:54:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
+      "created_at": "2026-06-25T22:19:09Z",
+      "updated_at": "2026-08-13T01:35:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5131,
+      "title": "Remove MIGRAPHX_ENABLE_NHWC and make convolution layout a backend option",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T18:17:52Z",
+      "updated_at": "2026-08-12T21:40:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5131",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5112,
+      "title": "`dyn_slice` operator for symbolics and data-dependent operators",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-04T23:35:47Z",
+      "updated_at": "2026-08-12T19:37:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5112",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5130,
+      "title": "Duplicate Lambda Parameter from Repeated Input",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T17:06:05Z",
+      "updated_at": "2026-08-12T19:16:56Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5130",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4439,
+      "title": "AIMIGRAPHX-317 g+g heuristic added to apply",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-11-12T07:22:36Z",
+      "updated_at": "2026-08-12T19:03:23Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4439",
+      "labels": [
+        "Matchers",
+        "Perf Improve"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5092,
+      "title": "Add fp32 winograd for gfx12",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T15:59:32Z",
+      "updated_at": "2026-08-12T19:02:05Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
       "labels": [],
       "draft": false
     },
@@ -20,7 +85,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-15T01:06:27Z",
-      "updated_at": "2026-08-12T01:20:59Z",
+      "updated_at": "2026-08-12T17:53:49Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5067",
       "labels": [
         "enhancement",
@@ -30,17 +95,53 @@
       "draft": false
     },
     {
-      "number": 5014,
-      "title": "Hoist and horizontal dot",
-      "author": "TedThemistokleous",
+      "number": 5085,
+      "title": "[AIMIGRAPHX-1215] add runtime symbol resolution op",
+      "author": "shivadbhavsar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-25T22:19:09Z",
-      "updated_at": "2026-08-11T22:33:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
+      "created_at": "2026-07-21T22:15:24Z",
+      "updated_at": "2026-08-12T16:12:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5085",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4770,
+      "title": "Adding compilation mode",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-09T19:50:16Z",
+      "updated_at": "2026-08-12T14:34:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
       "labels": [
-        "high priority"
+        "Windows"
       ],
+      "draft": false
+    },
+    {
+      "number": 5114,
+      "title": "[DRAFT] [AIMIGRAPHX-1005] [AIMIGRAPHX-1227] [AIMIGRAPHX-1228]",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T17:49:24Z",
+      "updated_at": "2026-08-12T13:55:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5114",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5048,
+      "title": "Preserve shape ops when removing QDQ pairs",
+      "author": "ikalinic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T14:22:24Z",
+      "updated_at": "2026-08-12T10:52:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
+      "labels": [],
       "draft": false
     },
     {
@@ -94,18 +195,6 @@
       "draft": false
     },
     {
-      "number": 5085,
-      "title": "[AIMIGRAPHX-1215] add runtime symbol resolution op",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T22:15:24Z",
-      "updated_at": "2026-08-11T19:06:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5085",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5128,
       "title": "Split prefill/decode within single mxr",
       "author": "turneram",
@@ -118,18 +207,6 @@
       "draft": false
     },
     {
-      "number": 5112,
-      "title": "`dyn_slice` operator for symbolics and data-dependent operators",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-04T23:35:47Z",
-      "updated_at": "2026-08-11T16:23:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5112",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5117,
       "title": "Problem cache follow-on: pluggable backends, layered cache paths, compile-options API, and offline tooling",
       "author": "danieyan-amd",
@@ -138,20 +215,6 @@
       "created_at": "2026-08-05T21:33:30Z",
       "updated_at": "2026-08-11T16:15:11Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5117",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4770,
-      "title": "Adding compilation mode",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T19:50:16Z",
-      "updated_at": "2026-08-11T16:07:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
       "labels": [
         "Windows"
       ],
@@ -194,33 +257,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5028",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 4439,
-      "title": "AIMIGRAPHX-317 g+g heuristic added to apply",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-11-12T07:22:36Z",
-      "updated_at": "2026-08-10T22:07:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4439",
-      "labels": [
-        "Matchers",
-        "Perf Improve"
-      ],
-      "draft": true
-    },
-    {
-      "number": 5114,
-      "title": "[DRAFT] [AIMIGRAPHX-1005] [AIMIGRAPHX-1227] [AIMIGRAPHX-1228]",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-05T17:49:24Z",
-      "updated_at": "2026-08-10T17:57:59Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5114",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 4606,
@@ -305,18 +341,6 @@
       "created_at": "2026-04-08T01:15:55Z",
       "updated_at": "2026-08-07T23:13:32Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5092,
-      "title": "Add fp32 winograd for gfx12",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T15:59:32Z",
-      "updated_at": "2026-08-07T22:33:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
       "labels": [],
       "draft": false
     },
@@ -1335,6 +1359,44 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 4823,
+      "title": "support symbolic shape transpose, contiguous, as_shape",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-24T21:51:09Z",
+      "updated_at": "2026-08-13T02:30:43Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4823",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4704,
+      "title": "[AIMIGRAPHX-840] support symbolic shape prop through conv and pool",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-25T19:00:34Z",
+      "updated_at": "2026-08-13T02:30:34Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4704",
+      "labels": [
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4819,
+      "title": "[AIMIGRAPHX-839] support symbolic shapes for broadcast ops",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-24T01:15:27Z",
+      "updated_at": "2026-08-12T16:01:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4819",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 4878,
@@ -2438,45 +2500,6 @@
       "updated_at": "2026-07-09T16:00:09Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4631",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4758,
-      "title": "Logger updates",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-08T22:13:14Z",
-      "updated_at": "2026-07-09T14:30:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4758",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5050,
-      "title": "update before installing",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-08T15:04:29Z",
-      "updated_at": "2026-07-08T20:59:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5050",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5049,
-      "title": "Prevent propagate_precision from removing fp8 converts",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-08T14:45:49Z",
-      "updated_at": "2026-07-08T20:18:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5049",
-      "labels": [
-        "bugfix",
-        "high priority"
-      ],
       "draft": false
     }
   ]

@@ -1,6 +1,104 @@
 {
-  "collected_at": "2026-08-12T08:58:28Z",
+  "collected_at": "2026-08-13T09:00:45Z",
   "prs": [
+    {
+      "number": 703,
+      "title": "restore test_grouped_gemm_unaligned pytest",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T17:45:18Z",
+      "updated_at": "2026-08-13T04:15:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/703",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 667,
+      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T19:42:42Z",
+      "updated_at": "2026-08-13T03:24:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 697,
+      "title": "Integrate MXFP4 hipblaslt GEMM support",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T15:04:06Z",
+      "updated_at": "2026-08-12T21:16:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 694,
+      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T18:46:22Z",
+      "updated_at": "2026-08-12T20:52:00Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 676,
+      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T03:23:51Z",
+      "updated_at": "2026-08-12T20:50:36Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 701,
+      "title": "Fix CK grouped-GEMM fallback for fused wgrad accumulation (BF16 in / FP32 out)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T22:59:27Z",
+      "updated_at": "2026-08-12T20:32:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/701",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 649,
+      "title": "[Feat] Added JAX-Triton bridge for ROCm",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-24T21:57:11Z",
+      "updated_at": "2026-08-12T18:55:58Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 702,
       "title": "Ifu dev 20260803 v2.18",
@@ -8,8 +106,62 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-12T01:02:21Z",
-      "updated_at": "2026-08-12T04:12:38Z",
+      "updated_at": "2026-08-12T18:47:37Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 677,
+      "title": "microbenchmarks: add buffer rotation option",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T21:25:58Z",
+      "updated_at": "2026-08-12T18:38:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/677",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 675,
+      "title": "gfx1250: native nvfp4 support (GEMM/RHT)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-20T21:13:55Z",
+      "updated_at": "2026-08-12T15:23:01Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 700,
+      "title": "[gfx1250] detect when building on gfx1250, add to build archs",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T16:01:57Z",
+      "updated_at": "2026-08-12T15:12:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/700",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 695,
+      "title": "Compile CP softmax LSE corrections with dynamic shapes",
+      "author": "JessicaJiang-123",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T19:54:03Z",
+      "updated_at": "2026-08-12T14:30:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/695",
       "labels": [
         "ci-level 3"
       ],
@@ -30,76 +182,6 @@
       "draft": false
     },
     {
-      "number": 697,
-      "title": "Integrate MXFP4 hipblaslt GEMM support",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T15:04:06Z",
-      "updated_at": "2026-08-12T03:06:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 676,
-      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-08-12T02:59:11Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 701,
-      "title": "Fix CK grouped-GEMM fallback for fused wgrad accumulation (BF16 in / FP32 out)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T22:59:27Z",
-      "updated_at": "2026-08-11T23:11:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/701",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 692,
-      "title": "IFU 2.17 upstream feature enablement",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-04T23:59:24Z",
-      "updated_at": "2026-08-11T23:07:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/692",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 700,
-      "title": "[gfx1250] detect when building on gfx1250, add to build archs",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T16:01:57Z",
-      "updated_at": "2026-08-11T20:53:05Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/700",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 699,
       "title": "[Fix] add rocm10 te core package support",
       "author": "GeneDer",
@@ -108,32 +190,6 @@
       "created_at": "2026-08-10T15:35:22Z",
       "updated_at": "2026-08-11T20:30:42Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/699",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 675,
-      "title": "gfx1250: native nvfp4 support (GEMM/RHT)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T21:13:55Z",
-      "updated_at": "2026-08-11T16:39:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 677,
-      "title": "microbenchmarks: add buffer rotation option",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T21:25:58Z",
-      "updated_at": "2026-08-11T15:54:37Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/677",
       "labels": [],
       "draft": false
     },
@@ -164,34 +220,6 @@
       "draft": true
     },
     {
-      "number": 694,
-      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-08-11T01:46:54Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 667,
-      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T19:42:42Z",
-      "updated_at": "2026-08-10T18:12:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 698,
       "title": "gfx942-only build bugfix and kittens refactor",
       "author": "alextmagro",
@@ -216,20 +244,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 695,
-      "title": "Compile CP softmax LSE corrections with dynamic shapes",
-      "author": "JessicaJiang-123",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T19:54:03Z",
-      "updated_at": "2026-08-06T22:36:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/695",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
     },
     {
       "number": 606,
@@ -323,18 +337,6 @@
       "labels": [
         "ci-level 1"
       ],
-      "draft": false
-    },
-    {
-      "number": 649,
-      "title": "[Feat] Added JAX-Triton bridge for ROCm",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T21:57:11Z",
-      "updated_at": "2026-07-30T04:10:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
-      "labels": [],
       "draft": false
     },
     {
@@ -684,18 +686,6 @@
       "draft": false
     },
     {
-      "number": 435,
-      "title": "Update README.rst",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-28T17:28:10Z",
-      "updated_at": "2026-04-07T14:07:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/435",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 400,
       "title": "CI: Switch GHA pipeline to build and test wheels",
       "author": "leo-automation",
@@ -741,6 +731,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 692,
+      "title": "IFU 2.17 upstream feature enablement",
+      "author": "AllenFarcas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-04T23:59:24Z",
+      "updated_at": "2026-08-12T14:44:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/692",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1889,34 +1893,6 @@
       "labels": [
         "ci-level 1",
         "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 527,
-      "title": "Gfx1250 changes",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-07T03:45:24Z",
-      "updated_at": "2026-05-06T04:08:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/527",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 575,
-      "title": "Fix build on Pytorch 2.11 (#16505)",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-05T05:33:41Z",
-      "updated_at": "2026-05-05T17:46:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/575",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     }

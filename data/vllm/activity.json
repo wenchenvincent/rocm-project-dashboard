@@ -1,36 +1,48 @@
 {
-  "collected_at": "2026-08-12T08:58:50Z",
+  "collected_at": "2026-08-13T09:01:29Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 60,
-      "merged": 49,
-      "closed": 0
+      "opened": 49,
+      "merged": 48,
+      "closed": 5
     },
     "last_week": {
-      "opened": 23,
+      "opened": 28,
       "merged": 6,
       "closed": 0
     },
     "median_time_to_merge_hours": 214.7,
-    "merge_count": 67,
+    "merge_count": 65,
     "stale_prs": 0
   },
   "contributors": {
     "active_this_week": 76,
-    "total_contributors": 84,
+    "total_contributors": 85,
     "top_contributors": [
       {
         "author": "AndreasKaratzas",
-        "prs_submitted": 16,
-        "prs_merged": 12,
+        "prs_submitted": 11,
+        "prs_merged": 7,
         "commits": 0
       },
       {
         "author": "stefankoncarevic",
-        "prs_submitted": 5,
-        "prs_merged": 5,
+        "prs_submitted": 7,
+        "prs_merged": 7,
+        "commits": 0
+      },
+      {
+        "author": "LiuYinfeng01",
+        "prs_submitted": 6,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "simondanielsson",
+        "prs_submitted": 4,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -46,25 +58,19 @@
         "commits": 0
       },
       {
-        "author": "WoosukKwon",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "jhu960213",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "hongxiayang",
+        "author": "ganeshr10",
         "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "JohnQinAMD",
+        "author": "hongxiayang",
+        "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "akii96",
         "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
@@ -74,26 +80,20 @@
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
-      },
-      {
-        "author": "akii96",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 0
       }
     ],
     "bus_factor": 15
   },
   "issue_health": {
-    "total_open": 51,
-    "opened_this_week": 12,
-    "closed_this_week": 148,
+    "total_open": 48,
+    "opened_this_week": 17,
+    "closed_this_week": 135,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 0.9,
+    "days_since_last": 1.9,
     "avg_interval_days": 7.7,
     "total_releases": 5,
     "latest_tag": "v0.27.1"

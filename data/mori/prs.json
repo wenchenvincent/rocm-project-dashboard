@@ -1,17 +1,29 @@
 {
-  "collected_at": "2026-08-12T08:58:23Z",
+  "collected_at": "2026-08-13T09:00:38Z",
   "prs": [
     {
-      "number": 544,
-      "title": "allocator: register mori as a torch SymmetricMemory backend",
-      "author": "carlushuang",
+      "number": 554,
+      "title": "perf(umbp): port the pure-SSD/multi-drive work onto the backend-agnostic SSD path",
+      "author": "TianDi101",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-11T13:49:55Z",
-      "updated_at": "2026-08-12T08:52:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/544",
+      "created_at": "2026-08-13T08:51:23Z",
+      "updated_at": "2026-08-13T08:51:23Z",
+      "html_url": "https://github.com/ROCm/mori/pull/554",
       "labels": [],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 548,
+      "title": "feat(EPv2): HIP/JIT kernel backend for intranode dispatch/combine, with the gfx1250 TDM body",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T11:57:04Z",
+      "updated_at": "2026-08-13T07:51:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/548",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 541,
@@ -20,10 +32,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-11T06:29:39Z",
-      "updated_at": "2026-08-12T08:36:57Z",
+      "updated_at": "2026-08-13T07:03:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/541",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 544,
+      "title": "allocator: register mori as a torch SymmetricMemory backend",
+      "author": "carlushuang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T13:49:55Z",
+      "updated_at": "2026-08-12T15:28:29Z",
+      "html_url": "https://github.com/ROCm/mori/pull/544",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 546,
@@ -32,8 +56,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-12T06:32:06Z",
-      "updated_at": "2026-08-12T08:27:40Z",
+      "updated_at": "2026-08-12T13:45:44Z",
       "html_url": "https://github.com/ROCm/mori/pull/546",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 547,
+      "title": "feat(umbp): support the UMBP tree connector on a distributed backend",
+      "author": "maning00",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T10:45:10Z",
+      "updated_at": "2026-08-12T10:45:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/547",
       "labels": [],
       "draft": false
     },
@@ -82,18 +118,6 @@
       "created_at": "2026-08-09T08:21:36Z",
       "updated_at": "2026-08-12T08:24:09Z",
       "html_url": "https://github.com/ROCm/mori/pull/533",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 531,
-      "title": "Quantization / Dtype Coverage (FP8 direct-cast / FP4 dispatch on MI355 + BRCM/MLX/AINIC)",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T19:57:20Z",
-      "updated_at": "2026-08-12T08:24:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/531",
       "labels": [],
       "draft": false
     },
@@ -158,18 +182,6 @@
       "draft": true
     },
     {
-      "number": 504,
-      "title": "MORI-IO nixl-style cpp bench script",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T22:56:42Z",
-      "updated_at": "2026-08-12T08:24:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/504",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 491,
       "title": "fix(io): bound EventPool free-list to avoid HSA signal exhaustion",
       "author": "AMD-yanfeiwang",
@@ -202,18 +214,6 @@
       "created_at": "2026-07-02T06:36:18Z",
       "updated_at": "2026-08-12T08:24:09Z",
       "html_url": "https://github.com/ROCm/mori/pull/445",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 444,
-      "title": "perf(io): add busy-wait completion mode and numpy batch-transfer mars\u2026",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T11:31:37Z",
-      "updated_at": "2026-08-12T08:24:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/444",
       "labels": [],
       "draft": false
     },
@@ -322,6 +322,66 @@
       "created_at": "2026-07-29T11:42:16Z",
       "updated_at": "2026-08-03T09:05:28Z",
       "html_url": "https://github.com/ROCm/mori/pull/506",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 504,
+      "title": "MORI-IO nixl-style cpp bench script",
+      "author": "amirakb89",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-28T22:56:42Z",
+      "updated_at": "2026-08-13T05:23:50Z",
+      "html_url": "https://github.com/ROCm/mori/pull/504",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 553,
+      "title": "docs(cco): document the p2p benchmarks and fix their transport comments",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T04:24:31Z",
+      "updated_at": "2026-08-13T04:32:01Z",
+      "html_url": "https://github.com/ROCm/mori/pull/553",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 550,
+      "title": "build: recognise gfx1250 and let anvil_device.hpp compile for it",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-12T15:15:10Z",
+      "updated_at": "2026-08-13T03:37:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/550",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 552,
+      "title": "support UALink bandwidth testing",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-12T17:05:19Z",
+      "updated_at": "2026-08-12T17:06:24Z",
+      "html_url": "https://github.com/ROCm/mori/pull/552",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 531,
+      "title": "test(ep): add cross-dtype and quantized coverage for dispatch/combine",
+      "author": "amd-wsung102",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-07T19:57:20Z",
+      "updated_at": "2026-08-12T14:55:34Z",
+      "html_url": "https://github.com/ROCm/mori/pull/531",
       "labels": [],
       "draft": false
     },
@@ -1270,78 +1330,6 @@
       "created_at": "2026-07-20T02:53:57Z",
       "updated_at": "2026-07-20T03:47:18Z",
       "html_url": "https://github.com/ROCm/mori/pull/489",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 227,
-      "title": "Feature: add disp/comb memory benchmark",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-25T15:31:13Z",
-      "updated_at": "2026-07-20T03:27:50Z",
-      "html_url": "https://github.com/ROCm/mori/pull/227",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 224,
-      "title": "Feat(shmem): expose mori_shmem_free_tensor for triton-dist low latency kernel",
-      "author": "isytwu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-25T06:55:32Z",
-      "updated_at": "2026-07-20T03:27:49Z",
-      "html_url": "https://github.com/ROCm/mori/pull/224",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 234,
-      "title": "Refactor: EP intranode kernel benchmark",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-27T03:40:36Z",
-      "updated_at": "2026-07-20T03:27:47Z",
-      "html_url": "https://github.com/ROCm/mori/pull/234",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 240,
-      "title": "Fix: modify mori-io bench arg, use non-contiguous buffer as default",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-30T10:11:35Z",
-      "updated_at": "2026-07-20T03:27:45Z",
-      "html_url": "https://github.com/ROCm/mori/pull/240",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 241,
-      "title": "fix(io): harden RDMA CQE handling and tighten packaging/CI",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-30T11:01:34Z",
-      "updated_at": "2026-07-20T03:27:44Z",
-      "html_url": "https://github.com/ROCm/mori/pull/241",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 486,
-      "title": "Adapt mori check / mori setup for Mellanox NICs",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-17T07:33:41Z",
-      "updated_at": "2026-07-20T03:20:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/486",
       "labels": [],
       "draft": false
     }

@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-12T08:58:20Z",
+  "collected_at": "2026-08-13T09:00:35Z",
   "issues": [
+    {
+      "number": 1885,
+      "title": "# [Bug] Explicit `tool_choice=\"auto\"` returns HTTP 500 with the DeepSeek-V4 custom message encoder",
+      "author": "cubezhang",
+      "state": "open",
+      "created_at": "2026-08-13T05:20:35Z",
+      "updated_at": "2026-08-13T08:44:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1885",
+      "labels": []
+    },
     {
       "number": 1847,
       "title": "How can I install and embed ATOM inside an arbitrary vanilla vLLM container \uff1f",
