@@ -1,25 +1,83 @@
 {
-  "collected_at": "2026-08-13T09:00:07Z",
+  "collected_at": "2026-08-14T08:55:40Z",
   "issues": [
-    {
-      "number": 27937,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "amd-bot",
-      "state": "open",
-      "created_at": "2026-06-11T15:46:32Z",
-      "updated_at": "2026-08-13T08:55:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
-      "labels": []
-    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-13T08:23:27Z",
+      "updated_at": "2026-08-14T08:37:47Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-08-14T07:27:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 34720,
+      "title": "[Bug] [XPU] Qwen3.5 GDN + speculative decode: causal_conv1d_update_xpu() got an unexpected keyword argument 'intermediate_conv_window'",
+      "author": "dayanandav",
+      "state": "open",
+      "created_at": "2026-08-13T09:40:34Z",
+      "updated_at": "2026-08-14T06:21:19Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34720",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-14T02:28:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 27937,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "amd-bot",
+      "state": "open",
+      "created_at": "2026-06-11T15:46:32Z",
+      "updated_at": "2026-08-13T11:25:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
+      "labels": []
+    },
+    {
+      "number": 30781,
+      "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
+      "author": "tanguofu",
+      "state": "open",
+      "created_at": "2026-07-10T13:41:49Z",
+      "updated_at": "2026-08-13T11:06:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30781",
+      "labels": []
+    },
+    {
+      "number": 23602,
+      "title": "DeepSeek V4 Roadmap",
+      "author": "fzyzcjy",
+      "state": "open",
+      "created_at": "2026-04-24T03:22:31Z",
+      "updated_at": "2026-08-13T10:38:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "roadmap"
+      ]
     },
     {
       "number": 34709,
@@ -27,7 +85,7 @@
       "author": "dayanandav",
       "state": "open",
       "created_at": "2026-08-13T08:08:27Z",
-      "updated_at": "2026-08-13T08:08:27Z",
+      "updated_at": "2026-08-13T09:36:51Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34709",
       "labels": []
     },
@@ -52,20 +110,6 @@
       "updated_at": "2026-08-13T06:38:33Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34611",
       "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-13T02:46:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
     },
     {
       "number": 34604,
@@ -266,16 +310,6 @@
       ]
     },
     {
-      "number": 30781,
-      "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
-      "author": "tanguofu",
-      "state": "open",
-      "created_at": "2026-07-10T13:41:49Z",
-      "updated_at": "2026-08-08T12:50:52Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30781",
-      "labels": []
-    },
-    {
       "number": 29736,
       "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
       "author": "thanhhao98",
@@ -325,20 +359,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/27417",
       "labels": [
         "inactive"
-      ]
-    },
-    {
-      "number": 23602,
-      "title": "DeepSeek V4 Roadmap",
-      "author": "fzyzcjy",
-      "state": "open",
-      "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-08-05T09:15:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "roadmap"
       ]
     },
     {
@@ -572,16 +592,6 @@
       "created_at": "2026-07-23T07:35:04Z",
       "updated_at": "2026-07-23T07:35:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/32169",
-      "labels": []
-    },
-    {
-      "number": 30209,
-      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
-      "author": "hongboshi1234",
-      "state": "open",
-      "created_at": "2026-07-06T04:14:01Z",
-      "updated_at": "2026-07-19T17:40:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
       "labels": []
     }
   ]

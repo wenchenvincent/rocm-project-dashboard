@@ -1,24 +1,24 @@
 {
-  "collected_at": "2026-08-13T09:03:22Z",
+  "collected_at": "2026-08-14T08:58:50Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 26,
-      "merged": 16,
+      "opened": 25,
+      "merged": 13,
       "closed": 2
     },
     "last_week": {
-      "opened": 35,
-      "merged": 26,
-      "closed": 9
+      "opened": 31,
+      "merged": 25,
+      "closed": 6
     },
-    "median_time_to_merge_hours": 28.7,
-    "merge_count": 42,
+    "median_time_to_merge_hours": 24.8,
+    "merge_count": 38,
     "stale_prs": 26
   },
   "contributors": {
-    "active_this_week": 26,
+    "active_this_week": 24,
     "total_contributors": 58,
     "top_contributors": [
       {
@@ -43,7 +43,7 @@
         "author": "Phil-amd",
         "prs_submitted": 7,
         "prs_merged": 5,
-        "commits": 7
+        "commits": 5
       },
       {
         "author": "xudoyuan",
@@ -58,6 +58,12 @@
         "commits": 2
       },
       {
+        "author": "JohnQinAMD",
+        "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 1
+      },
+      {
         "author": "aoli26",
         "prs_submitted": 4,
         "prs_merged": 3,
@@ -70,30 +76,24 @@
         "commits": 1
       },
       {
-        "author": "jiacao-amd",
+        "author": "vlluvia",
         "prs_submitted": 4,
         "prs_merged": 2,
         "commits": 2
-      },
-      {
-        "author": "omuhamma",
-        "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
     "bus_factor": 5
   },
   "issue_health": {
-    "total_open": 53,
-    "opened_this_week": 4,
-    "closed_this_week": 1,
+    "total_open": 52,
+    "opened_this_week": 3,
+    "closed_this_week": 2,
     "unanswered": 22
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 12.0,
+    "days_since_last": 13.0,
     "avg_interval_days": 15.4,
     "total_releases": 4,
     "latest_tag": "v0.3.0"

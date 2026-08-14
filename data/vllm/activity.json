@@ -1,48 +1,48 @@
 {
-  "collected_at": "2026-08-13T09:01:29Z",
+  "collected_at": "2026-08-14T08:57:07Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 49,
-      "merged": 48,
-      "closed": 5
+      "opened": 48,
+      "merged": 47,
+      "closed": 2
     },
     "last_week": {
-      "opened": 28,
-      "merged": 6,
+      "opened": 29,
+      "merged": 5,
       "closed": 0
     },
-    "median_time_to_merge_hours": 214.7,
-    "merge_count": 65,
+    "median_time_to_merge_hours": 206.2,
+    "merge_count": 64,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 76,
-    "total_contributors": 85,
+    "active_this_week": 68,
+    "total_contributors": 76,
     "top_contributors": [
       {
         "author": "AndreasKaratzas",
-        "prs_submitted": 11,
-        "prs_merged": 7,
+        "prs_submitted": 21,
+        "prs_merged": 8,
         "commits": 0
       },
       {
         "author": "stefankoncarevic",
-        "prs_submitted": 7,
-        "prs_merged": 7,
-        "commits": 0
-      },
-      {
-        "author": "LiuYinfeng01",
-        "prs_submitted": 6,
-        "prs_merged": 1,
+        "prs_submitted": 8,
+        "prs_merged": 8,
         "commits": 0
       },
       {
         "author": "simondanielsson",
-        "prs_submitted": 4,
+        "prs_submitted": 6,
         "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "fxmarty-amd",
+        "prs_submitted": 5,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -52,15 +52,15 @@
         "commits": 0
       },
       {
-        "author": "fxmarty-amd",
+        "author": "LiuYinfeng01",
         "prs_submitted": 4,
-        "prs_merged": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "ganeshr10",
+        "author": "Fangzhou-Ai",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -76,24 +76,24 @@
         "commits": 0
       },
       {
-        "author": "Fangzhou-Ai",
-        "prs_submitted": 3,
-        "prs_merged": 2,
+        "author": "mayuyuace",
+        "prs_submitted": 2,
+        "prs_merged": 0,
         "commits": 0
       }
     ],
-    "bus_factor": 15
+    "bus_factor": 9
   },
   "issue_health": {
-    "total_open": 48,
-    "opened_this_week": 17,
-    "closed_this_week": 135,
+    "total_open": 55,
+    "opened_this_week": 23,
+    "closed_this_week": 151,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.9,
+    "days_since_last": 2.9,
     "avg_interval_days": 7.7,
     "total_releases": 5,
     "latest_tag": "v0.27.1"

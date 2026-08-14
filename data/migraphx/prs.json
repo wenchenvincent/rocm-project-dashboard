@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-08-13T09:00:12Z",
+  "collected_at": "2026-08-14T08:55:46Z",
   "prs": [
+    {
+      "number": 5120,
+      "title": "[AIMIGRAPHX-1229] Support ROCm10 TheRock packaging with alternative GPU dependencies",
+      "author": "kentqian",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T20:29:06Z",
+      "updated_at": "2026-08-14T05:25:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5120",
+      "labels": [
+        "dependencies"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5124,
+      "title": "Insert match::opaque into deep matchers to fix large symbol names on windows and debug gcc builds",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T22:50:31Z",
+      "updated_at": "2026-08-13T23:31:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5124",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 5014,
       "title": "Hoist and horizontal dot",
@@ -8,11 +34,116 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-25T22:19:09Z",
-      "updated_at": "2026-08-13T01:35:54Z",
+      "updated_at": "2026-08-13T22:42:56Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
       "labels": [
         "high priority"
       ],
+      "draft": false
+    },
+    {
+      "number": 5129,
+      "title": "8/11 bump rocmlir",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T20:35:42Z",
+      "updated_at": "2026-08-13T22:14:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5129",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5087,
+      "title": "Fuse expert SilU heads (MoE) into batched GEMM via fuse_horizontal",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T19:03:23Z",
+      "updated_at": "2026-08-13T21:37:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5087",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5067,
+      "title": "[AIMIGRAPHX-1100] Add no-rebuild callback for verify",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-15T01:06:27Z",
+      "updated_at": "2026-08-13T20:59:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5067",
+      "labels": [
+        "enhancement",
+        "Tooling",
+        "Changelog: Added"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4439,
+      "title": "AIMIGRAPHX-317 g+g heuristic added to apply",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-11-12T07:22:36Z",
+      "updated_at": "2026-08-13T20:39:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4439",
+      "labels": [
+        "Matchers",
+        "Perf Improve"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5133,
+      "title": "[DRAFT] Add adaptive two-stage benchmarking ",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T20:27:15Z",
+      "updated_at": "2026-08-13T20:35:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5133",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5117,
+      "title": "Problem cache follow-on: pluggable backends, layered cache paths, compile-options API, and offline tooling",
+      "author": "danieyan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T21:33:30Z",
+      "updated_at": "2026-08-13T20:01:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5117",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5112,
+      "title": "`dyn_slice` operator for symbolics and data-dependent operators",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-04T23:35:47Z",
+      "updated_at": "2026-08-13T19:41:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5112",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5132,
+      "title": "Disable ccache when using #embed",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T17:58:11Z",
+      "updated_at": "2026-08-13T18:01:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5132",
+      "labels": [],
       "draft": false
     },
     {
@@ -24,18 +155,6 @@
       "created_at": "2026-08-12T18:17:52Z",
       "updated_at": "2026-08-12T21:40:54Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5131",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5112,
-      "title": "`dyn_slice` operator for symbolics and data-dependent operators",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-04T23:35:47Z",
-      "updated_at": "2026-08-12T19:37:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5112",
       "labels": [],
       "draft": false
     },
@@ -52,21 +171,6 @@
       "draft": false
     },
     {
-      "number": 4439,
-      "title": "AIMIGRAPHX-317 g+g heuristic added to apply",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-11-12T07:22:36Z",
-      "updated_at": "2026-08-12T19:03:23Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4439",
-      "labels": [
-        "Matchers",
-        "Perf Improve"
-      ],
-      "draft": false
-    },
-    {
       "number": 5092,
       "title": "Add fp32 winograd for gfx12",
       "author": "pfultz2",
@@ -76,48 +180,6 @@
       "updated_at": "2026-08-12T19:02:05Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5067,
-      "title": "[AIMIGRAPHX-1100] Add no-rebuild callback for verify",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-15T01:06:27Z",
-      "updated_at": "2026-08-12T17:53:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5067",
-      "labels": [
-        "enhancement",
-        "Tooling",
-        "Changelog: Added"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5085,
-      "title": "[AIMIGRAPHX-1215] add runtime symbol resolution op",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T22:15:24Z",
-      "updated_at": "2026-08-12T16:12:37Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5085",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4770,
-      "title": "Adding compilation mode",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-09T19:50:16Z",
-      "updated_at": "2026-08-12T14:34:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
-      "labels": [
-        "Windows"
-      ],
       "draft": false
     },
     {
@@ -145,18 +207,6 @@
       "draft": false
     },
     {
-      "number": 5129,
-      "title": "8/11 bump rocmlir",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T20:35:42Z",
-      "updated_at": "2026-08-11T21:22:08Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5129",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5123,
       "title": "Split symbolic dimension pass",
       "author": "shivadbhavsar",
@@ -167,20 +217,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5120,
-      "title": "[AIMIGRAPHX-1229] Support ROCm10 TheRock packaging with alternative GPU dependencies",
-      "author": "kentqian",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T20:29:06Z",
-      "updated_at": "2026-08-11T19:50:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5120",
-      "labels": [
-        "dependencies"
-      ],
-      "draft": false
     },
     {
       "number": 5111,
@@ -204,20 +240,6 @@
       "updated_at": "2026-08-11T17:39:30Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5128",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5117,
-      "title": "Problem cache follow-on: pluggable backends, layered cache paths, compile-options API, and offline tooling",
-      "author": "danieyan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-05T21:33:30Z",
-      "updated_at": "2026-08-11T16:15:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5117",
-      "labels": [
-        "Windows"
-      ],
       "draft": false
     },
     {
@@ -279,18 +301,6 @@
       "created_at": "2026-02-17T16:20:19Z",
       "updated_at": "2026-08-09T16:01:52Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5124,
-      "title": "Insert match::opaque into deep matchers to fix large symbol names on windows and debug gcc builds",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T22:50:31Z",
-      "updated_at": "2026-08-08T10:18:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5124",
       "labels": [],
       "draft": true
     },
@@ -488,18 +498,6 @@
       "created_at": "2026-07-02T00:02:16Z",
       "updated_at": "2026-07-23T21:44:24Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5032",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5087,
-      "title": "Fuse expert SilU heads (MoE) into batched GEMM via fuse_horizontal",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T19:03:23Z",
-      "updated_at": "2026-07-22T19:11:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5087",
       "labels": [],
       "draft": false
     },
@@ -1359,6 +1357,32 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 4770,
+      "title": "Adding compilation mode",
+      "author": "pnikolic-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-09T19:50:16Z",
+      "updated_at": "2026-08-13T16:50:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4770",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5085,
+      "title": "[AIMIGRAPHX-1215] add runtime symbol resolution op",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-21T22:15:24Z",
+      "updated_at": "2026-08-13T16:06:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5085",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 4823,
@@ -2474,32 +2498,6 @@
         "bugfix",
         "Onnx Operators"
       ],
-      "draft": false
-    },
-    {
-      "number": 5044,
-      "title": "Mixed length gather merge",
-      "author": "TedThemistokleous",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-07T19:20:45Z",
-      "updated_at": "2026-07-09T21:12:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5044",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4631,
-      "title": "[AIMIGRAPHX-578] Use Eigen 3rd party library for ref GEMMs",
-      "author": "kahmed10",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-24T23:38:34Z",
-      "updated_at": "2026-07-09T16:00:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4631",
-      "labels": [],
       "draft": false
     }
   ]

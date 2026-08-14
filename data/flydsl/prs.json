@@ -1,27 +1,15 @@
 {
-  "collected_at": "2026-08-13T09:00:41Z",
+  "collected_at": "2026-08-14T08:56:16Z",
   "prs": [
     {
-      "number": 971,
-      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
-      "author": "aoli26",
+      "number": 1009,
+      "title": "[Perf] Enable the XCD swizzle for bf16 dense attention on gfx950",
+      "author": "JohnQinAMD",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-08-13T08:50:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 995,
-      "title": "[Expr] Add type-aware extrema and integer ceiling division",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T07:08:55Z",
-      "updated_at": "2026-08-13T08:36:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/995",
+      "created_at": "2026-08-14T05:50:38Z",
+      "updated_at": "2026-08-14T08:44:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1009",
       "labels": [],
       "draft": false
     },
@@ -32,11 +20,107 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T09:41:17Z",
-      "updated_at": "2026-08-13T06:40:20Z",
+      "updated_at": "2026-08-14T08:31:29Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/930",
       "labels": [
         "multi-gpu"
       ],
+      "draft": false
+    },
+    {
+      "number": 971,
+      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-08-14T08:18:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1001,
+      "title": "[Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T08:37:46Z",
+      "updated_at": "2026-08-14T08:04:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1010,
+      "title": "[Perf] Add wide RDNA3 GEMM tiles",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T07:10:31Z",
+      "updated_at": "2026-08-14T07:12:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1010",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1003,
+      "title": "[compiler] isolate mutable state across dynamic if branches",
+      "author": "kefan203",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T13:57:51Z",
+      "updated_at": "2026-08-14T05:46:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1003",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 980,
+      "title": "[Perf] Choose the RDNA3 GEMM tile from the shape",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T03:26:50Z",
+      "updated_at": "2026-08-14T02:02:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/980",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1008,
+      "title": "[Kernel][Perf] Enable the gmem->LDS async copy for f16/bf16 preshuffle GEMM",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T22:41:19Z",
+      "updated_at": "2026-08-13T23:10:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1008",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1007,
+      "title": "[Bugfix] Fix two A-tile loading bugs in the preshuffle GEMM",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T22:40:40Z",
+      "updated_at": "2026-08-13T22:50:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1007",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 960,
+      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T12:59:55Z",
+      "updated_at": "2026-08-13T17:03:36Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
+      "labels": [],
       "draft": false
     },
     {
@@ -46,20 +130,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-10T08:39:07Z",
-      "updated_at": "2026-08-13T06:39:22Z",
+      "updated_at": "2026-08-13T10:20:50Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/996",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1001,
-      "title": "[Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
-      "author": "jli-melchior",
+      "number": 972,
+      "title": "add A4W4 and FP8 P2P transport support to MegaMoE",
+      "author": "Yaowu-Xiong",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-12T08:37:46Z",
-      "updated_at": "2026-08-13T06:29:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
+      "created_at": "2026-08-06T06:55:42Z",
+      "updated_at": "2026-08-13T09:44:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/972",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 995,
+      "title": "[Expr] Add type-aware extrema and integer ceiling division",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T07:08:55Z",
+      "updated_at": "2026-08-13T08:36:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/995",
       "labels": [],
       "draft": false
     },
@@ -76,18 +174,6 @@
       "draft": false
     },
     {
-      "number": 980,
-      "title": "[Perf] Choose the RDNA3 GEMM tile from the shape",
-      "author": "vlluvia",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T03:26:50Z",
-      "updated_at": "2026-08-13T06:11:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/980",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 987,
       "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
       "author": "jli-melchior",
@@ -96,30 +182,6 @@
       "created_at": "2026-08-08T11:53:09Z",
       "updated_at": "2026-08-13T05:55:25Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 960,
-      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-03T12:59:55Z",
-      "updated_at": "2026-08-13T05:39:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1003,
-      "title": "[compiler] isolate mutable state across dynamic if branches",
-      "author": "kefan203",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T13:57:51Z",
-      "updated_at": "2026-08-13T02:50:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1003",
       "labels": [],
       "draft": false
     },
@@ -157,20 +219,6 @@
       "updated_at": "2026-08-12T13:53:28Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 972,
-      "title": "add A4W4 and FP8 P2P transport support to MegaMoE",
-      "author": "Yaowu-Xiong",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T06:55:42Z",
-      "updated_at": "2026-08-12T09:28:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/972",
-      "labels": [
-        "multi-gpu"
-      ],
       "draft": false
     },
     {

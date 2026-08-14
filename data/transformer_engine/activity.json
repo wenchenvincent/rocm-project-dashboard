@@ -1,42 +1,42 @@
 {
-  "collected_at": "2026-08-13T09:03:32Z",
+  "collected_at": "2026-08-14T08:58:59Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 10,
-      "merged": 4,
+      "opened": 9,
+      "merged": 8,
       "closed": 1
     },
     "last_week": {
-      "opened": 6,
-      "merged": 7,
+      "opened": 7,
+      "merged": 6,
       "closed": 0
     },
-    "median_time_to_merge_hours": 176.7,
-    "merge_count": 12,
+    "median_time_to_merge_hours": 196.2,
+    "merge_count": 14,
     "stale_prs": 28
   },
   "contributors": {
-    "active_this_week": 11,
+    "active_this_week": 12,
     "total_contributors": 25,
     "top_contributors": [
       {
         "author": "matthiasdiener",
-        "prs_submitted": 28,
+        "prs_submitted": 26,
         "prs_merged": 19,
-        "commits": 5
+        "commits": 7
       },
       {
         "author": "Micky774",
-        "prs_submitted": 24,
-        "prs_merged": 15,
+        "prs_submitted": 23,
+        "prs_merged": 14,
         "commits": 4
       },
       {
         "author": "ipanfilo",
-        "prs_submitted": 15,
-        "prs_merged": 13,
+        "prs_submitted": 14,
+        "prs_merged": 12,
         "commits": 2
       },
       {
@@ -65,15 +65,15 @@
       },
       {
         "author": "AllenFarcas",
-        "prs_submitted": 5,
+        "prs_submitted": 6,
         "prs_merged": 4,
         "commits": 4
       },
       {
         "author": "wenchenvincent",
         "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_merged": 2,
+        "commits": 2
       },
       {
         "author": "asdfvg123",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 22.8,
+    "days_since_last": 23.8,
     "avg_interval_days": 41.6,
     "total_releases": 5,
     "latest_tag": "v2.12_rocm"

@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-08-13T09:00:09Z",
+  "collected_at": "2026-08-14T08:55:42Z",
   "prs": [
+    {
+      "number": 11289,
+      "title": "[AMD] Fix address space of barriers that carry atomic memory ordering",
+      "author": "mgehre-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T13:18:27Z",
+      "updated_at": "2026-08-13T22:48:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11289",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11028,
+      "title": "[AMD] TheRock support",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T20:59:35Z",
+      "updated_at": "2026-08-13T17:58:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11028",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11295,
+      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T15:41:53Z",
+      "updated_at": "2026-08-13T15:41:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11295",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11294,
+      "title": "[AMD] Map tl.const pointer args to constant address space",
+      "author": "jerryyin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T14:39:47Z",
+      "updated_at": "2026-08-13T14:39:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11294",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 11239,
       "title": "[AMD] Guard extract-slice concat canonicalization",
@@ -46,18 +94,6 @@
       "created_at": "2026-08-12T17:34:06Z",
       "updated_at": "2026-08-12T17:34:07Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11282",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11028,
-      "title": "[AMD] TheRock support",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T20:59:35Z",
-      "updated_at": "2026-08-12T17:01:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11028",
       "labels": [],
       "draft": false
     },
@@ -682,42 +718,6 @@
       "created_at": "2026-06-30T05:40:50Z",
       "updated_at": "2026-07-16T20:42:49Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10759",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10483,
-      "title": "[AMD] Prove buffer-load contiguity along LinearLayout register order",
-      "author": "panditsa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-04T20:24:38Z",
-      "updated_at": "2026-07-15T16:55:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10483",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 10328,
-      "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
-      "author": "Hardcode84",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T22:02:50Z",
-      "updated_at": "2026-07-08T21:58:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10328",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10733,
-      "title": "[AMD] Fix batched WMMA scale layout",
-      "author": "alefimov-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T15:19:09Z",
-      "updated_at": "2026-06-26T15:20:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10733",
       "labels": [],
       "draft": false
     }
