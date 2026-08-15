@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-08-14T08:58:28Z",
+  "collected_at": "2026-08-15T08:15:56Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 64,
-      "merged": 40,
+      "opened": 63,
+      "merged": 43,
       "closed": 21
     },
     "last_week": {
-      "opened": 67,
-      "merged": 43,
+      "opened": 68,
+      "merged": 41,
       "closed": 14
     },
-    "median_time_to_merge_hours": 24.2,
-    "merge_count": 85,
-    "stale_prs": 111
+    "median_time_to_merge_hours": 24.1,
+    "merge_count": 86,
+    "stale_prs": 112
   },
   "contributors": {
-    "active_this_week": 39,
+    "active_this_week": 40,
     "total_contributors": 82,
     "top_contributors": [
       {
         "author": "PerryZhang01",
-        "prs_submitted": 18,
-        "prs_merged": 6,
-        "commits": 11
+        "prs_submitted": 20,
+        "prs_merged": 8,
+        "commits": 13
       },
       {
         "author": "carlushuang",
@@ -64,10 +64,10 @@
         "commits": 8
       },
       {
-        "author": "Jasen2201",
+        "author": "ZhangLirong-amd",
         "prs_submitted": 8,
         "prs_merged": 5,
-        "commits": 5
+        "commits": 18
       },
       {
         "author": "ZhiweiYan-96",
@@ -76,10 +76,10 @@
         "commits": 2
       },
       {
-        "author": "ZhangLirong-amd",
+        "author": "k50112113",
         "prs_submitted": 7,
-        "prs_merged": 3,
-        "commits": 17
+        "prs_merged": 0,
+        "commits": 0
       }
     ],
     "bus_factor": 8
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 40.7,
+    "days_since_last": 41.6,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

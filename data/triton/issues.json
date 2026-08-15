@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-08-14T08:55:43Z",
+  "collected_at": "2026-08-15T08:13:14Z",
   "issues": [
-    {
-      "number": 11217,
-      "title": "[AMD] bfloat16 multiply rounds toward zero instead of to nearest even (lowered to v_dot2_bf16_bf16)",
-      "author": "0xDELUXA",
-      "state": "open",
-      "created_at": "2026-08-08T09:17:36Z",
-      "updated_at": "2026-08-08T09:17:36Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/11217",
-      "labels": [
-        "bug"
-      ]
-    },
     {
       "number": 10962,
       "title": "[AMD][gfx1250] MXFP GEMM omits partial K scale groups",

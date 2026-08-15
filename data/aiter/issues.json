@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-08-14T08:56:02Z",
+  "collected_at": "2026-08-15T08:13:32Z",
   "issues": [
+    {
+      "number": 4770,
+      "title": "[Bug] JIT-built module_fmha_fwd_bf16_opus rejects tensors from prebuilt module_aiter_core: pybind11 internals mismatch (v11 wheel vs v12 runtime JIT)",
+      "author": "hongxiayang",
+      "state": "open",
+      "created_at": "2026-08-14T22:59:49Z",
+      "updated_at": "2026-08-14T22:59:49Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4770",
+      "labels": []
+    },
+    {
+      "number": 4769,
+      "title": "[Issue]: ROCm10.0.0rc2 missing headers",
+      "author": "rjrock",
+      "state": "open",
+      "created_at": "2026-08-14T22:56:09Z",
+      "updated_at": "2026-08-14T22:56:09Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4769",
+      "labels": []
+    },
+    {
+      "number": 4735,
+      "title": "[Bug]: gfx950 a16w16 bf16 tuned CSV hardcoded to cu_num=256, crashes serving when corrected (same pattern as #4634)",
+      "author": "sscargal",
+      "state": "open",
+      "created_at": "2026-08-13T15:35:26Z",
+      "updated_at": "2026-08-14T20:51:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4735",
+      "labels": []
+    },
+    {
+      "number": 4765,
+      "title": "Triton RoPE kernel precision issue: ~15k ULP error vs reference implementation",
+      "author": "divakar-amd",
+      "state": "open",
+      "created_at": "2026-08-14T19:09:27Z",
+      "updated_at": "2026-08-14T19:09:53Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4765",
+      "labels": []
+    },
+    {
+      "number": 4763,
+      "title": "[Issue]: third_party/aiter/csrc/cpp_itfs/mha_bwd.cu:393:5: error: unknown type name 'AiterAsmKernel'",
+      "author": "xyuan",
+      "state": "open",
+      "created_at": "2026-08-14T15:37:24Z",
+      "updated_at": "2026-08-14T15:37:24Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4763",
+      "labels": []
+    },
+    {
+      "number": 4665,
+      "title": "[Perf][gfx950] Validate SGLang Kimi-K3 TP8 BF16 GEMM coverage on MI350X; conditionally tune one FlyDSL row",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-08-10T22:06:50Z",
+      "updated_at": "2026-08-14T14:27:38Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4665",
+      "labels": []
+    },
     {
       "number": 4752,
       "title": "[Bug] MLA persistent decode: bf16 query + fp8 KV aborts for gqa_ratio=16, max_seqlen_q > 4",
@@ -12,16 +72,6 @@
       "labels": []
     },
     {
-      "number": 4457,
-      "title": "[Issue]: fused_qk_rope_reshape_and_cache_kernel's latency is higher than non-fused kernels",
-      "author": "amd-yuehuang",
-      "state": "open",
-      "created_at": "2026-07-30T08:37:02Z",
-      "updated_at": "2026-08-14T05:52:47Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4457",
-      "labels": []
-    },
-    {
       "number": 4743,
       "title": "gemm_a16w16_asm silently returns wrong results past 2**31 elements (32-bit buffer addressing)",
       "author": "JohnQinAMD",
@@ -29,26 +79,6 @@
       "created_at": "2026-08-14T01:59:54Z",
       "updated_at": "2026-08-14T01:59:54Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4743",
-      "labels": []
-    },
-    {
-      "number": 4665,
-      "title": "[Perf][gfx950] Validate SGLang Kimi-K3 TP8 BF16 GEMM coverage on MI350X; conditionally tune one FlyDSL row",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-08-10T22:06:50Z",
-      "updated_at": "2026-08-14T00:01:20Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4665",
-      "labels": []
-    },
-    {
-      "number": 4735,
-      "title": "[Bug]: gfx950 a16w16 bf16 tuned CSV hardcoded to cu_num=256, crashes serving when corrected (same pattern as #4634)",
-      "author": "sscargal",
-      "state": "open",
-      "created_at": "2026-08-13T15:35:26Z",
-      "updated_at": "2026-08-13T15:35:26Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4735",
       "labels": []
     },
     {

@@ -1,54 +1,54 @@
 {
-  "collected_at": "2026-08-14T08:58:50Z",
+  "collected_at": "2026-08-15T08:16:19Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 25,
-      "merged": 13,
-      "closed": 2
+      "opened": 23,
+      "merged": 17,
+      "closed": 3
     },
     "last_week": {
-      "opened": 31,
-      "merged": 25,
-      "closed": 6
+      "opened": 32,
+      "merged": 23,
+      "closed": 5
     },
-    "median_time_to_merge_hours": 24.8,
-    "merge_count": 38,
+    "median_time_to_merge_hours": 35.3,
+    "merge_count": 40,
     "stale_prs": 26
   },
   "contributors": {
-    "active_this_week": 24,
-    "total_contributors": 58,
+    "active_this_week": 23,
+    "total_contributors": 56,
     "top_contributors": [
       {
         "author": "sjfeng1999",
-        "prs_submitted": 16,
-        "prs_merged": 13,
-        "commits": 13
+        "prs_submitted": 17,
+        "prs_merged": 15,
+        "commits": 15
       },
       {
         "author": "coderfeli",
-        "prs_submitted": 14,
-        "prs_merged": 13,
+        "prs_submitted": 13,
+        "prs_merged": 12,
         "commits": 15
       },
       {
         "author": "jhinpan",
         "prs_submitted": 11,
         "prs_merged": 7,
-        "commits": 9
+        "commits": 7
       },
       {
         "author": "Phil-amd",
         "prs_submitted": 7,
-        "prs_merged": 5,
-        "commits": 5
+        "prs_merged": 6,
+        "commits": 6
       },
       {
         "author": "xudoyuan",
-        "prs_submitted": 6,
-        "prs_merged": 2,
+        "prs_submitted": 5,
+        "prs_merged": 1,
         "commits": 2
       },
       {
@@ -64,16 +64,16 @@
         "commits": 1
       },
       {
-        "author": "aoli26",
-        "prs_submitted": 4,
-        "prs_merged": 3,
-        "commits": 3
-      },
-      {
         "author": "jli-melchior",
         "prs_submitted": 4,
         "prs_merged": 1,
         "commits": 1
+      },
+      {
+        "author": "aoli26",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 3
       },
       {
         "author": "vlluvia",
@@ -82,18 +82,18 @@
         "commits": 2
       }
     ],
-    "bus_factor": 5
+    "bus_factor": 4
   },
   "issue_health": {
-    "total_open": 52,
-    "opened_this_week": 3,
-    "closed_this_week": 2,
+    "total_open": 51,
+    "opened_this_week": 2,
+    "closed_this_week": 3,
     "unanswered": 22
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 13.0,
+    "days_since_last": 14.0,
     "avg_interval_days": 15.4,
     "total_releases": 4,
     "latest_tag": "v0.3.0"

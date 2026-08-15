@@ -1,17 +1,17 @@
 {
-  "collected_at": "2026-08-14T08:55:42Z",
+  "collected_at": "2026-08-15T08:13:14Z",
   "prs": [
     {
-      "number": 11289,
-      "title": "[AMD] Fix address space of barriers that carry atomic memory ordering",
-      "author": "mgehre-amd",
+      "number": 11282,
+      "title": "[AMD] Preserve i32 accumulation for small-K int8 dots",
+      "author": "lohiaj",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-13T13:18:27Z",
-      "updated_at": "2026-08-13T22:48:05Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11289",
+      "created_at": "2026-08-12T17:34:06Z",
+      "updated_at": "2026-08-15T06:23:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11282",
       "labels": [],
-      "draft": true
+      "draft": false
     },
     {
       "number": 11028,
@@ -20,8 +20,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-23T20:59:35Z",
-      "updated_at": "2026-08-13T17:58:24Z",
+      "updated_at": "2026-08-15T04:59:04Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11028",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11018,
+      "title": "[AMD] Emit buffer atomic min/max only for the supported data types ",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T23:13:18Z",
+      "updated_at": "2026-08-15T02:11:15Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11018",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11239,
+      "title": "[AMD] Guard extract-slice concat canonicalization",
+      "author": "guoriyue",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-10T02:20:05Z",
+      "updated_at": "2026-08-15T00:08:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11239",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11227,
+      "title": "[AMD] Stop lowering bf16 multiply to v_dot2_bf16_bf16",
+      "author": "0xDELUXA",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-09T13:31:37Z",
+      "updated_at": "2026-08-14T23:48:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11227",
       "labels": [],
       "draft": false
     },
@@ -32,10 +68,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-08-13T15:41:53Z",
+      "updated_at": "2026-08-14T19:00:20Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11295",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 11313,
+      "title": "[AMD][BACKEND] Fix under-approximated loop-carried ranges in range analysis",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T13:37:36Z",
+      "updated_at": "2026-08-14T13:37:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11313",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11289,
+      "title": "[AMD] Fix address space of barriers that carry atomic memory ordering",
+      "author": "mgehre-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T13:18:27Z",
+      "updated_at": "2026-08-14T09:25:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11289",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 11294,
@@ -48,18 +108,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11294",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11239,
-      "title": "[AMD] Guard extract-slice concat canonicalization",
-      "author": "guoriyue",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T02:20:05Z",
-      "updated_at": "2026-08-13T04:17:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11239",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 11285,
@@ -82,18 +130,6 @@
       "created_at": "2026-08-11T20:40:44Z",
       "updated_at": "2026-08-12T21:57:23Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11272",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11282,
-      "title": "[AMD] Preserve i32 accumulation for small-K int8 dots",
-      "author": "lohiaj",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T17:34:06Z",
-      "updated_at": "2026-08-12T17:34:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11282",
       "labels": [],
       "draft": false
     },
@@ -158,18 +194,6 @@
       "draft": false
     },
     {
-      "number": 11227,
-      "title": "[AMD] Stop lowering bf16 multiply to v_dot2_bf16_bf16",
-      "author": "0xDELUXA",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-09T13:31:37Z",
-      "updated_at": "2026-08-11T02:52:45Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11227",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11254,
       "title": "[AMD] Optimize software E4M3FN to FP16 conversion",
       "author": "skyguan92",
@@ -192,18 +216,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11249",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11241,
-      "title": "[AMD] Preserve layout-changing singleton concats",
-      "author": "guoriyue",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T02:20:09Z",
-      "updated_at": "2026-08-10T22:26:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11241",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11040,
@@ -250,18 +262,6 @@
       "created_at": "2026-08-10T08:46:05Z",
       "updated_at": "2026-08-10T08:47:04Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11246",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11235,
-      "title": "[AMD] Preserve memory ordering for prologue loads",
-      "author": "guoriyue",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T02:19:34Z",
-      "updated_at": "2026-08-10T02:19:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11235",
       "labels": [],
       "draft": true
     },
@@ -446,18 +446,6 @@
       "draft": false
     },
     {
-      "number": 11018,
-      "title": "[AMD] Emit buffer atomic min/max only for the supported data types ",
-      "author": "umangyadav",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T23:13:18Z",
-      "updated_at": "2026-08-04T14:28:50Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11018",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11152,
       "title": "[AMD][Gluon] Add cdna5 alias for gfx1250 and document it",
       "author": "antiagainst",
@@ -638,30 +626,6 @@
       "draft": false
     },
     {
-      "number": 11077,
-      "title": "[AMD][BACKEND] Fix rank reducing TDM for INNER_DIM > 1024bytes",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-28T11:53:57Z",
-      "updated_at": "2026-07-29T04:39:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11077",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10878,
-      "title": "[AMD] Add RDNA4m target",
-      "author": "ptrojahn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T10:54:20Z",
-      "updated_at": "2026-07-29T00:55:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10878",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11012,
       "title": "[AMD][DRAFT] proton rocprofsdk error 16 pytest fix",
       "author": "ZelboK",
@@ -718,6 +682,42 @@
       "created_at": "2026-06-30T05:40:50Z",
       "updated_at": "2026-07-16T20:42:49Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10759",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10483,
+      "title": "[AMD] Prove buffer-load contiguity along LinearLayout register order",
+      "author": "panditsa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-04T20:24:38Z",
+      "updated_at": "2026-07-15T16:55:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10483",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10328,
+      "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
+      "author": "Hardcode84",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T22:02:50Z",
+      "updated_at": "2026-07-08T21:58:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10328",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10733,
+      "title": "[AMD] Fix batched WMMA scale layout",
+      "author": "alefimov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T15:19:09Z",
+      "updated_at": "2026-06-26T15:20:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10733",
       "labels": [],
       "draft": false
     }
