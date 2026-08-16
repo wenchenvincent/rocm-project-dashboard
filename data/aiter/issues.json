@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-08-15T08:13:32Z",
+  "collected_at": "2026-08-16T08:14:26Z",
   "issues": [
+    {
+      "number": 4783,
+      "title": "AITER fused_moe: GPU memory permission fault on gfx942 at FP8 e4m3fnuz per-1x128 block-scaled MoE shapes M \u2208 {304, 336}",
+      "author": "vipsharm",
+      "state": "open",
+      "created_at": "2026-08-16T05:07:47Z",
+      "updated_at": "2026-08-16T05:07:47Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4783",
+      "labels": []
+    },
+    {
+      "number": 4780,
+      "title": "[Bug] GroupNorm does not follow FP32 autocast policy",
+      "author": "akshatvishu",
+      "state": "open",
+      "created_at": "2026-08-15T20:04:10Z",
+      "updated_at": "2026-08-15T20:08:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4780",
+      "labels": []
+    },
+    {
+      "number": 4752,
+      "title": "[Bug] MLA persistent decode: bf16 query + fp8 KV aborts for gqa_ratio=16, max_seqlen_q > 4",
+      "author": "lizexu123",
+      "state": "open",
+      "created_at": "2026-08-14T06:47:04Z",
+      "updated_at": "2026-08-15T15:30:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4752",
+      "labels": []
+    },
     {
       "number": 4770,
       "title": "[Bug] JIT-built module_fmha_fwd_bf16_opus rejects tensors from prebuilt module_aiter_core: pybind11 internals mismatch (v11 wheel vs v12 runtime JIT)",
@@ -59,16 +89,6 @@
       "created_at": "2026-08-10T22:06:50Z",
       "updated_at": "2026-08-14T14:27:38Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4665",
-      "labels": []
-    },
-    {
-      "number": 4752,
-      "title": "[Bug] MLA persistent decode: bf16 query + fp8 KV aborts for gqa_ratio=16, max_seqlen_q > 4",
-      "author": "lizexu123",
-      "state": "open",
-      "created_at": "2026-08-14T06:47:04Z",
-      "updated_at": "2026-08-14T06:51:41Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4752",
       "labels": []
     },
     {

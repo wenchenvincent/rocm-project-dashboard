@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-15T08:13:12Z",
+  "collected_at": "2026-08-16T08:14:10Z",
   "issues": [
     {
       "number": 17050,
@@ -7,18 +7,66 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-15T08:04:07Z",
+      "updated_at": "2026-08-16T07:30:51Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
-      "number": 34389,
-      "title": "[Bug] [Diffusion] Attention backend fallback change introduced errors on most models",
-      "author": "avjves",
+      "number": 35003,
+      "title": "AMD Development Roadmap (2026 Q3)",
+      "author": "HaiShaw",
       "state": "open",
-      "created_at": "2026-08-11T08:31:46Z",
-      "updated_at": "2026-08-15T08:00:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34389",
+      "created_at": "2026-08-16T05:07:07Z",
+      "updated_at": "2026-08-16T07:23:30Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35003",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 23494,
+      "title": "AMD Development Roadmap (2026 Q2)",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-04-22T18:41:09Z",
+      "updated_at": "2026-08-16T05:05:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23494",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-15T22:24:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 33861,
+      "title": "[RFC] PD disaggregation: single protocol layer, per-backend transport",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2026-08-06T09:20:51Z",
+      "updated_at": "2026-08-15T19:04:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33861",
+      "labels": []
+    },
+    {
+      "number": 34604,
+      "title": "[Bug] Kimi-K3 tool call parser fails ~8x/hour in production: TypeError 'string indices must be integers' and json 'unexpected character'",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-08-12T17:36:11Z",
+      "updated_at": "2026-08-15T16:59:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34604",
       "labels": []
     },
     {
@@ -89,20 +137,6 @@
       "labels": []
     },
     {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-14T02:28:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
       "number": 27937,
       "title": "[Failure Tracker] PR Test (AMD)",
       "author": "amd-bot",
@@ -157,16 +191,6 @@
       "labels": []
     },
     {
-      "number": 34604,
-      "title": "[Bug] Kimi-K3 tool call parser fails ~8x/hour in production: TypeError 'string indices must be integers' and json 'unexpected character'",
-      "author": "stefanskiasan",
-      "state": "open",
-      "created_at": "2026-08-12T17:36:11Z",
-      "updated_at": "2026-08-12T17:36:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34604",
-      "labels": []
-    },
-    {
       "number": 34596,
       "title": "[Bug] MI355X Qwen3.5 MTP throughput is significantly behind B200/B300 on realistic agentic workloads",
       "author": "cquil11",
@@ -194,16 +218,6 @@
       "created_at": "2026-07-22T03:04:23Z",
       "updated_at": "2026-08-12T04:02:10Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31995",
-      "labels": []
-    },
-    {
-      "number": 33861,
-      "title": "[RFC] PD disaggregation: single protocol layer, per-backend transport",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2026-08-06T09:20:51Z",
-      "updated_at": "2026-08-12T03:59:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33861",
       "labels": []
     },
     {
@@ -498,26 +512,6 @@
       "labels": []
     },
     {
-      "number": 31594,
-      "title": "[Bug] [AMD] Qwen3.5 GatedDeltaNet + dp-attention on ROCm/MoRI: HIP \"invalid configuration argument\" (linear-attn/Mamba state path); process hangs in chunk_gated_delta_rule_fwd under kernel serialization",
-      "author": "ChangLiu0709",
-      "state": "open",
-      "created_at": "2026-07-17T15:58:21Z",
-      "updated_at": "2026-07-31T15:16:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31594",
-      "labels": []
-    },
-    {
-      "number": 31350,
-      "title": "[Bug] [AMD] Qwen3.5 + dp-attention: fused_qk_gemma_rmsnorm_with_gate Triton kernel aborts with HIP \"invalid configuration argument\" (zero-sized grid on empty/idle-rank batch)",
-      "author": "ChangLiu0709",
-      "state": "open",
-      "created_at": "2026-07-15T16:24:10Z",
-      "updated_at": "2026-07-31T15:15:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31350",
-      "labels": []
-    },
-    {
       "number": 33088,
       "title": "[Bug][AMD] Qwen3.5-397B-A17B-FP8 disagg + dp-attention: decode DP ranks flood `/query_dp_ranks` bootstrap \u2192 `[Errno 99] Cannot assign requested address`, 0 successful requests",
       "author": "ChangLiu0709",
@@ -605,6 +599,26 @@
       "created_at": "2026-07-23T07:35:04Z",
       "updated_at": "2026-07-23T07:35:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/32169",
+      "labels": []
+    },
+    {
+      "number": 30209,
+      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
+      "author": "hongboshi1234",
+      "state": "open",
+      "created_at": "2026-07-06T04:14:01Z",
+      "updated_at": "2026-07-19T17:40:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
+      "labels": []
+    },
+    {
+      "number": 31071,
+      "title": "[Bug] EAGLE greedy verify lacks TP broadcast \u2192 ranks diverge on accepted tokens \u2192 collective deadlock (tp>1)",
+      "author": "zhoaa",
+      "state": "open",
+      "created_at": "2026-07-13T21:19:03Z",
+      "updated_at": "2026-07-16T08:08:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31071",
       "labels": []
     }
   ]

@@ -1,6 +1,121 @@
 {
-  "collected_at": "2026-08-15T08:13:35Z",
+  "collected_at": "2026-08-16T08:14:29Z",
   "prs": [
+    {
+      "number": 1839,
+      "title": "[feat](vllm): upgrade vllm to 0.26.1",
+      "author": "PerryZhang01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T02:54:01Z",
+      "updated_at": "2026-08-16T07:33:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1839",
+      "labels": [
+        "ci:atom",
+        "ci:vllm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1910,
+      "title": "feat(k3): Kimi-K3 vLLM plugin vision + DSpark draft support",
+      "author": "sajandhy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T06:19:01Z",
+      "updated_at": "2026-08-16T06:28:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1910",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1909,
+      "title": "Yuechguo/mesh entrypoints",
+      "author": "Yuechguo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T05:55:30Z",
+      "updated_at": "2026-08-16T06:02:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1909",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1895,
+      "title": "feat: support fp4 dispatch and fp8 combine",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T05:09:44Z",
+      "updated_at": "2026-08-16T03:41:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1895",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1882,
+      "title": "Enhance GLM-5.2 with DP attention, prefix cache optimizations, and logging",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T02:54:03Z",
+      "updated_at": "2026-08-16T03:34:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1882",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1899,
+      "title": "Kimi-K3 DSpark speculative decoding for the ATOM vLLM plugin",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T08:24:57Z",
+      "updated_at": "2026-08-16T03:06:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1899",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1908,
+      "title": "Enable Cohere Command-R (CohereForCausalLM / Cohere2ForCausalLM) on ATOM",
+      "author": "jatseng-ai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-15T23:37:11Z",
+      "updated_at": "2026-08-15T23:42:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1908",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1893,
+      "title": "[Kimi-K3] Route KDA prefill through the FlyDSL AITER kernel",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T21:32:43Z",
+      "updated_at": "2026-08-15T16:49:37Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1893",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1861,
+      "title": "Dspark bubble optimization by Zero-Overhead Scheduling N-2 ell and torch compile for draft",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T06:42:45Z",
+      "updated_at": "2026-08-15T09:28:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1861",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1852,
       "title": "Attention FFN Piecewise cudagraph support for optimize DSpark dynamic",
@@ -16,20 +131,6 @@
       "draft": false
     },
     {
-      "number": 1904,
-      "title": "[fix](dsv4): fix dsv4 accuracy",
-      "author": "PerryZhang01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-15T06:24:24Z",
-      "updated_at": "2026-08-15T06:54:51Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1904",
-      "labels": [
-        "ci:full"
-      ],
-      "draft": false
-    },
-    {
       "number": 1795,
       "title": "Feat/v4 wo a mxscale bmm",
       "author": "yzhou103",
@@ -39,34 +140,6 @@
       "updated_at": "2026-08-15T06:44:56Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1795",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1894,
-      "title": "[DSV4] Add PAGE-backed state checkpoints",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T03:04:07Z",
-      "updated_at": "2026-08-15T07:22:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1894",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1691,
-      "title": "Eplb v2 mega",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T01:40:15Z",
-      "updated_at": "2026-08-15T05:46:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1691",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     },
     {
@@ -92,18 +165,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1765",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1893,
-      "title": "[Kimi-K3] Route KDA prefill through the FlyDSL AITER kernel",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T21:32:43Z",
-      "updated_at": "2026-08-14T15:59:45Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1893",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1832,
@@ -134,18 +195,6 @@
       "draft": false
     },
     {
-      "number": 1895,
-      "title": "feat: support fp4 dispatch and fp8 combine",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T05:09:44Z",
-      "updated_at": "2026-08-14T12:38:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1895",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1901,
       "title": "[ATOM-vLLM] Add support for Qwen3.8",
       "author": "kliuae",
@@ -155,32 +204,6 @@
       "updated_at": "2026-08-14T09:38:19Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1901",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1899,
-      "title": "Kimi-K3 DSpark speculative decoding for the ATOM vLLM plugin",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T08:24:57Z",
-      "updated_at": "2026-08-14T09:29:33Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1899",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1882,
-      "title": "Enhance GLM-5.2 with DP attention, prefix cache optimizations, and logging",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T02:54:03Z",
-      "updated_at": "2026-08-14T09:27:24Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1882",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     },
     {
@@ -245,21 +268,6 @@
       "updated_at": "2026-08-14T03:18:18Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1880",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1839,
-      "title": "[feat](vllm): upgrade vllm to 0.26.1",
-      "author": "PerryZhang01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T02:54:01Z",
-      "updated_at": "2026-08-14T03:09:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1839",
-      "labels": [
-        "ci:atom",
-        "ci:vllm"
-      ],
       "draft": false
     },
     {
@@ -489,18 +497,6 @@
         "ci:full",
         "ci:atom"
       ],
-      "draft": false
-    },
-    {
-      "number": 1861,
-      "title": "Dspark bubble optimization by Zero-Overhead Scheduling N-2 ell and torch compile for draft",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T06:42:45Z",
-      "updated_at": "2026-08-12T02:00:30Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1861",
-      "labels": [],
       "draft": false
     },
     {
@@ -1868,18 +1864,6 @@
       "draft": false
     },
     {
-      "number": 675,
-      "title": "Enable Cohere Command-R (CohereForCausalLM / Cohere2ForCausalLM) on ATOM",
-      "author": "jatseng-ai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-30T19:07:09Z",
-      "updated_at": "2026-06-26T13:58:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/675",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 656,
       "title": "prefill gdr kernel enablement",
       "author": "ganyi1996ppo",
@@ -2297,6 +2281,72 @@
       "updated_at": "2026-03-16T05:44:15Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/32",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1904,
+      "title": "[fix](dsv4): fix dsv4 accuracy",
+      "author": "PerryZhang01",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-15T06:24:24Z",
+      "updated_at": "2026-08-16T02:55:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1904",
+      "labels": [
+        "ci:full"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1691,
+      "title": "Eplb v2 mega",
+      "author": "JiaoliangYu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-24T01:40:15Z",
+      "updated_at": "2026-08-16T02:53:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1691",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1907,
+      "title": "perf(benchmark): batch the tokenizer calls that build the random dataset (5.25x)",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-15T15:34:16Z",
+      "updated_at": "2026-08-15T15:42:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1907",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1906,
+      "title": "fix(engine)+perf(frontend): unwedge the request socket, push metrics, merge backlogged SSE chunks",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-15T14:00:56Z",
+      "updated_at": "2026-08-15T15:37:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1906",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1894,
+      "title": "[DSV4] Add PAGE-backed state checkpoints",
+      "author": "yhl-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-14T03:04:07Z",
+      "updated_at": "2026-08-15T15:31:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1894",
+      "labels": [
+        "ci:atom"
+      ],
       "draft": false
     },
     {
@@ -3136,54 +3186,6 @@
       "created_at": "2026-08-05T07:13:14Z",
       "updated_at": "2026-08-05T07:23:02Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1800",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1799,
-      "title": "fix(sglang): align DeepSeek-V4 compressed KV block geometry",
-      "author": "qichu-yun",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T06:37:14Z",
-      "updated_at": "2026-08-05T06:40:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1799",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1776,
-      "title": "[ATOMesh-CI] Refine benchmark schedules and dispatch options",
-      "author": "junyyang-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-03T09:40:46Z",
-      "updated_at": "2026-08-05T06:29:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1776",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1740,
-      "title": "[feat][ci] support swebench_lite precision validation",
-      "author": "Phi-C",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-30T05:47:22Z",
-      "updated_at": "2026-08-05T06:05:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1740",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1792,
-      "title": "Fix/vllm runtime cudagraph mode",
-      "author": "XiaobingSuper",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T11:38:15Z",
-      "updated_at": "2026-08-04T11:38:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1792",
       "labels": [],
       "draft": false
     }

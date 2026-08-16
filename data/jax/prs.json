@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-08-15T08:12:49Z",
+  "collected_at": "2026-08-16T08:13:52Z",
   "prs": [
     {
       "number": 40001,
       "title": "[ROCm] Fix ROCm version in plugin wheel metadata",
       "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-08-14T19:48:51Z",
-      "updated_at": "2026-08-15T07:13:22Z",
+      "updated_at": "2026-08-15T15:04:15Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40001",
       "labels": [
         "kokoro:force-run",
@@ -512,21 +512,6 @@
       "updated_at": "2026-06-18T11:00:21Z",
       "html_url": "https://github.com/jax-ml/jax/pull/38558",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 38478,
-      "title": "[ROCm] Skip testConvGeneralDilated on ROCm",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-15T16:53:54Z",
-      "updated_at": "2026-06-15T17:51:03Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38478",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
       "draft": false
     },
     {

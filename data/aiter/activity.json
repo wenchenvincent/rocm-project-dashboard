@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-08-15T08:15:12Z",
+  "collected_at": "2026-08-16T08:15:36Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 122,
-      "merged": 90,
-      "closed": 19
+      "opened": 124,
+      "merged": 88,
+      "closed": 17
     },
     "last_week": {
-      "opened": 127,
-      "merged": 64,
-      "closed": 13
+      "opened": 123,
+      "merged": 65,
+      "closed": 15
     },
-    "median_time_to_merge_hours": 59.0,
-    "merge_count": 171,
+    "median_time_to_merge_hours": 58.9,
+    "merge_count": 170,
     "stale_prs": 15
   },
   "contributors": {
-    "active_this_week": 120,
-    "total_contributors": 250,
+    "active_this_week": 125,
+    "total_contributors": 254,
     "top_contributors": [
       {
         "author": "gyohuangxin",
@@ -58,6 +58,12 @@
         "commits": 14
       },
       {
+        "author": "LiuYinfeng01",
+        "prs_submitted": 8,
+        "prs_merged": 3,
+        "commits": 7
+      },
+      {
         "author": "k50112113",
         "prs_submitted": 8,
         "prs_merged": 0,
@@ -74,26 +80,20 @@
         "prs_submitted": 8,
         "prs_merged": 1,
         "commits": 5
-      },
-      {
-        "author": "LiuYinfeng01",
-        "prs_submitted": 7,
-        "prs_merged": 3,
-        "commits": 7
       }
     ],
     "bus_factor": 14
   },
   "issue_health": {
-    "total_open": 261,
-    "opened_this_week": 11,
+    "total_open": 263,
+    "opened_this_week": 13,
     "closed_this_week": 5,
     "unanswered": 113
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 10.1,
+    "days_since_last": 11.1,
     "avg_interval_days": 5.7,
     "total_releases": 5,
     "latest_tag": "v0.1.19.post2"

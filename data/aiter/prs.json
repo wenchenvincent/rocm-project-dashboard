@@ -1,6 +1,140 @@
 {
-  "collected_at": "2026-08-15T08:13:27Z",
+  "collected_at": "2026-08-16T08:14:22Z",
   "prs": [
+    {
+      "number": 4784,
+      "title": "MI350 MLA BF16/FP8 decode: support causal=False (msk0 kernels)",
+      "author": "sajandhy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T05:24:31Z",
+      "updated_at": "2026-08-16T06:14:27Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4784",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4383,
+      "title": " [TRITON] Add gluon support for MXFP4 quant kernel in gfx950 and gfx1250",
+      "author": "NimitPtl",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T20:44:44Z",
+      "updated_at": "2026-08-16T03:29:04Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4383",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4781,
+      "title": "[gfx950] Retune the small-M tiles and wave counts in the A16W16 fallback config",
+      "author": "akii96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T00:17:53Z",
+      "updated_at": "2026-08-16T03:22:52Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4781",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4730,
+      "title": "moe gemm optimization",
+      "author": "yadaish",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T09:10:31Z",
+      "updated_at": "2026-08-16T03:20:39Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4730",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4782,
+      "title": "[gfx950][FlyDSL] Add direct dense A4W4 MXFP4 GEMM",
+      "author": "LiuYinfeng01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T02:58:43Z",
+      "updated_at": "2026-08-16T02:59:07Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4782",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4772,
+      "title": "[gfx950][FlyDSL] Add dense BF16 x MXFP4 GEMM",
+      "author": "LiuYinfeng01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-15T02:06:12Z",
+      "updated_at": "2026-08-16T02:38:10Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4772",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2790,
+      "title": "fix(pa_mqa_logits): handle ChunkQ > heads-per-GPU for high tensor parallelism (TP>=8)",
+      "author": "jatseng-ai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-19T22:44:09Z",
+      "updated_at": "2026-08-15T23:03:05Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/2790",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4779,
+      "title": "[Bugfix] Handle GroupNorm autocast safely",
+      "author": "akshatvishu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-15T19:51:04Z",
+      "updated_at": "2026-08-15T20:04:30Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4779",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4771,
+      "title": "[Triton][FMHA] Fused paged-prefill kernel for page_size=1, head_dim 64/256",
+      "author": "amd-ethany",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-15T00:22:35Z",
+      "updated_at": "2026-08-15T16:08:27Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4771",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4778,
+      "title": "[gfx1100] Enable RDNA3 in arch allow-list + Triton GEMM A8W8 tuning config",
+      "author": "okone1995",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-15T15:21:24Z",
+      "updated_at": "2026-08-15T15:21:44Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4778",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4774,
+      "title": "Fix 32-bit KV block offsets in gluon paged-MQA logits kernel (silent zero logits past 2 GiB)",
+      "author": "zzw09773",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-15T05:02:06Z",
+      "updated_at": "2026-08-15T14:11:36Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4774",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
     {
       "number": 4221,
       "title": "Paged mla indexer",
@@ -8,8 +142,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-13T15:05:57Z",
-      "updated_at": "2026-08-15T08:05:36Z",
+      "updated_at": "2026-08-15T12:53:24Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4221",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4776,
+      "title": "perf(mla): chunk the non-FP4 gather_kv_b_proj over KV",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-15T09:24:03Z",
+      "updated_at": "2026-08-15T09:27:27Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4776",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4758,
+      "title": "[Gluon][MLA] Deeper async-copy pipeline in the bh16 stage-1 decode loop",
+      "author": "amd-ethany",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T10:38:32Z",
+      "updated_at": "2026-08-15T08:50:57Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4758",
       "labels": [],
       "draft": false
     },
@@ -34,18 +192,6 @@
       "created_at": "2026-07-24T17:52:02Z",
       "updated_at": "2026-08-15T06:28:30Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4378",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4774,
-      "title": "Fix 32-bit KV block offsets in gluon paged-MQA logits kernel (silent zero logits past 2 GiB)",
-      "author": "zzw09773",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-15T05:02:06Z",
-      "updated_at": "2026-08-15T05:02:42Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4774",
       "labels": [],
       "draft": false
     },
@@ -86,18 +232,6 @@
       "draft": false
     },
     {
-      "number": 4772,
-      "title": "[gfx950][FlyDSL] Add dense BF16 x MXFP4 GEMM",
-      "author": "LiuYinfeng01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-15T02:06:12Z",
-      "updated_at": "2026-08-15T02:57:26Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4772",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 4582,
       "title": "[Gluon][MLA][gfx942] Add CDNA3 decode kernel",
       "author": "maeehart",
@@ -118,30 +252,6 @@
       "created_at": "2026-07-29T20:17:18Z",
       "updated_at": "2026-08-15T01:18:46Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4446",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4771,
-      "title": "[Triton][FMHA] Fused paged-prefill kernel for page_size=1, head_dim 64/256",
-      "author": "amd-ethany",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-15T00:22:35Z",
-      "updated_at": "2026-08-15T00:23:31Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4771",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4758,
-      "title": "[Gluon][MLA] Deeper async-copy pipeline in the bh16 stage-1 decode loop",
-      "author": "amd-ethany",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T10:38:32Z",
-      "updated_at": "2026-08-14T23:26:23Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4758",
       "labels": [],
       "draft": false
     },
@@ -286,18 +396,6 @@
       "created_at": "2026-08-14T05:51:27Z",
       "updated_at": "2026-08-14T13:37:09Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4750",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4730,
-      "title": "moe gemm optimization",
-      "author": "yadaish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T09:10:31Z",
-      "updated_at": "2026-08-14T12:24:09Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4730",
       "labels": [],
       "draft": false
     },
@@ -1770,18 +1868,6 @@
       "draft": false
     },
     {
-      "number": 4383,
-      "title": " [TRITON] Add gluon support for MXFP4 quant kernel in gfx950 and gfx1250",
-      "author": "NimitPtl",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T20:44:44Z",
-      "updated_at": "2026-08-07T19:53:18Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4383",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3686,
       "title": "[DO NOT MERGE][TRITON] Evaluating impact of LLVM bump in Triton compiler",
       "author": "brunomazzottiamd",
@@ -1807,18 +1893,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/4610",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4451,
-      "title": "Work around all-zero fused MoE output at block_m=32",
-      "author": "jatseng-ai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T06:40:01Z",
-      "updated_at": "2026-08-07T13:08:39Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4451",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4587,
@@ -2374,18 +2448,6 @@
       "created_at": "2026-04-17T21:17:36Z",
       "updated_at": "2026-08-05T02:49:35Z",
       "html_url": "https://github.com/ROCm/aiter/pull/2783",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2790,
-      "title": "fix(pa_mqa_logits): handle ChunkQ > heads-per-GPU for high tensor parallelism (TP>=8)",
-      "author": "jatseng-ai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-19T22:44:09Z",
-      "updated_at": "2026-08-05T02:49:34Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/2790",
       "labels": [],
       "draft": false
     },
@@ -6276,6 +6338,18 @@
       "created_at": "2025-10-21T09:13:01Z",
       "updated_at": "2025-11-24T14:33:42Z",
       "html_url": "https://github.com/ROCm/aiter/pull/1232",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4777,
+      "title": "fix(opus_gemm): use __align__ instead of alignas after __shared__ on \u2026",
+      "author": "demonsan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-15T13:03:50Z",
+      "updated_at": "2026-08-15T13:58:18Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4777",
       "labels": [],
       "draft": false
     },

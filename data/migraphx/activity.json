@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-08-15T08:14:39Z",
+  "collected_at": "2026-08-16T08:15:10Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 12,
+      "opened": 13,
       "merged": 6,
-      "closed": 2
+      "closed": 4
     },
     "last_week": {
       "opened": 15,
@@ -15,23 +15,23 @@
     },
     "median_time_to_merge_hours": 168.9,
     "merge_count": 27,
-    "stale_prs": 63
+    "stale_prs": 65
   },
   "contributors": {
     "active_this_week": 17,
-    "total_contributors": 47,
+    "total_contributors": 45,
     "top_contributors": [
       {
         "author": "pfultz2",
         "prs_submitted": 50,
-        "prs_merged": 21,
-        "commits": 10
+        "prs_merged": 20,
+        "commits": 9
       },
       {
         "author": "shivadbhavsar",
         "prs_submitted": 16,
         "prs_merged": 13,
-        "commits": 7
+        "commits": 6
       },
       {
         "author": "CharlieL7",
@@ -49,13 +49,13 @@
         "author": "eddieliao",
         "prs_submitted": 7,
         "prs_merged": 5,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "bdevorem",
         "prs_submitted": 6,
         "prs_merged": 3,
-        "commits": 2
+        "commits": 1
       },
       {
         "author": "turneram",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 25.7,
+    "days_since_last": 26.7,
     "avg_interval_days": 29.6,
     "total_releases": 5,
     "latest_tag": "rocm-7.14"

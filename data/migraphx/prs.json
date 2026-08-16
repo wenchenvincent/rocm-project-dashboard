@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-08-15T08:13:17Z",
+  "collected_at": "2026-08-16T08:14:14Z",
   "prs": [
+    {
+      "number": 5124,
+      "title": "Insert match::opaque into deep matchers to fix large symbol names on windows and debug gcc builds",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T22:50:31Z",
+      "updated_at": "2026-08-16T02:29:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5124",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5100,
+      "title": "Add binary cache",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T15:47:37Z",
+      "updated_at": "2026-08-15T17:06:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5100",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5138,
+      "title": "Add promote_storage_type pass to compute storage-only types in float",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-15T16:29:14Z",
+      "updated_at": "2026-08-15T18:28:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5138",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5136,
       "title": "Fix dynamic-shape parse failure in Softplus and Softsign",
@@ -8,7 +44,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-14T20:13:17Z",
-      "updated_at": "2026-08-15T08:09:17Z",
+      "updated_at": "2026-08-15T10:51:01Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5136",
       "labels": [],
       "draft": false
@@ -26,18 +62,6 @@
         "dependencies"
       ],
       "draft": false
-    },
-    {
-      "number": 5124,
-      "title": "Insert match::opaque into deep matchers to fix large symbol names on windows and debug gcc builds",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T22:50:31Z",
-      "updated_at": "2026-08-15T04:09:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5124",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5132,
@@ -64,18 +88,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5130",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5100,
-      "title": "Add binary cache",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-29T15:47:37Z",
-      "updated_at": "2026-08-15T01:53:20Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5100",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5137,
@@ -508,30 +520,6 @@
       "created_at": "2026-06-12T04:34:27Z",
       "updated_at": "2026-07-30T21:28:44Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4957",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5020,
-      "title": "Add opt-in parallel finalization of independent operations",
-      "author": "aditya-dl",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-29T22:11:27Z",
-      "updated_at": "2026-07-27T21:35:17Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5020",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5039,
-      "title": "Add opt-in sharing of identical weight literals across programs on a device",
-      "author": "aditya-dl",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-06T23:08:25Z",
-      "updated_at": "2026-07-27T16:36:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5039",
       "labels": [],
       "draft": true
     },
@@ -2525,36 +2513,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4928",
       "labels": [
         "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4767,
-      "title": "Move the data into the for loop to avoid data races",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-09T15:57:38Z",
-      "updated_at": "2026-07-10T04:00:19Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4767",
-      "labels": [
-        "bugfix",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4703,
-      "title": "Adding past inputs to MultiHeadAttention parser for supporting new models",
-      "author": "urpetkov-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-25T11:24:38Z",
-      "updated_at": "2026-07-09T21:31:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4703",
-      "labels": [
-        "bugfix",
-        "Onnx Operators"
       ],
       "draft": false
     }

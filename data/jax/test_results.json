@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-08-15T08:14:23Z",
+  "collected_at": "2026-08-16T08:14:57Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "CI - Bazel ROCm tests",
-    "run_id": 31872655749,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/31872655749",
-    "run_date": "2026-08-15T07:49:29Z",
+    "run_id": 31912892177,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/31912892177",
+    "run_date": "2026-08-15T22:50:19Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 2,
@@ -16,7 +16,7 @@
     },
     "suites": [
       {
-        "name": "Test / linux x86, py3.14, ROCM=7, jaxlib=head, x64=0, build_jax=true, build_jaxlib=wheel",
+        "name": "Test / linux x86, py3.14, ROCM=7, jaxlib=pypi_latest, x64=0, build_jax=true, build_jaxlib=false",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -25,7 +25,7 @@
         "errors": null
       },
       {
-        "name": "Test / linux x86, py3.14, ROCM=7, jaxlib=pypi_latest, x64=0, build_jax=true, build_jaxlib=false",
+        "name": "Test / linux x86, py3.14, ROCM=7, jaxlib=head, x64=0, build_jax=true, build_jaxlib=wheel",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -37,21 +37,21 @@
   },
   "cuda": {
     "workflow_name": "CI - Bazel H100 and B200 CUDA tests",
-    "run_id": 31868752499,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/31868752499",
-    "run_date": "2026-08-15T06:23:36Z",
-    "conclusion": "success",
+    "run_id": 31930788098,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/31930788098",
+    "run_date": "2026-08-16T06:27:24Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 2,
-      "passed": 2,
-      "failed": 0,
+      "passed": 1,
+      "failed": 1,
       "skipped": 0,
-      "pass_rate": 100.0
+      "pass_rate": 50.0
     },
     "suites": [
       {
         "name": "Bazel multiple H100 CUDA tests",
-        "conclusion": "success",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,

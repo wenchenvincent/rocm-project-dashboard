@@ -1,30 +1,30 @@
 {
-  "collected_at": "2026-08-15T08:14:32Z",
+  "collected_at": "2026-08-16T08:15:05Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 47,
-      "merged": 49,
-      "closed": 1
+      "opened": 52,
+      "merged": 47,
+      "closed": 2
     },
     "last_week": {
-      "opened": 27,
-      "merged": 7,
+      "opened": 28,
+      "merged": 8,
       "closed": 0
     },
-    "median_time_to_merge_hours": 203.2,
-    "merge_count": 68,
+    "median_time_to_merge_hours": 169.0,
+    "merge_count": 67,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 72,
-    "total_contributors": 81,
+    "active_this_week": 69,
+    "total_contributors": 78,
     "top_contributors": [
       {
         "author": "AndreasKaratzas",
-        "prs_submitted": 14,
-        "prs_merged": 8,
+        "prs_submitted": 15,
+        "prs_merged": 7,
         "commits": 0
       },
       {
@@ -34,21 +34,21 @@
         "commits": 0
       },
       {
-        "author": "amd-sriram",
-        "prs_submitted": 4,
-        "prs_merged": 0,
+        "author": "Fangzhou-Ai",
+        "prs_submitted": 6,
+        "prs_merged": 2,
         "commits": 0
       },
       {
         "author": "LiuYinfeng01",
-        "prs_submitted": 4,
+        "prs_submitted": 6,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "Fangzhou-Ai",
+        "author": "amd-sriram",
         "prs_submitted": 4,
-        "prs_merged": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -70,30 +70,30 @@
         "commits": 0
       },
       {
-        "author": "njhill",
+        "author": "rbrugaro-amd",
         "prs_submitted": 3,
-        "prs_merged": 1,
+        "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "Rohan138",
+        "author": "shen-shanshan",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 0,
         "commits": 0
       }
     ],
     "bus_factor": 11
   },
   "issue_health": {
-    "total_open": 56,
-    "opened_this_week": 22,
-    "closed_this_week": 147,
+    "total_open": 52,
+    "opened_this_week": 25,
+    "closed_this_week": 159,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 3.9,
+    "days_since_last": 4.9,
     "avg_interval_days": 7.7,
     "total_releases": 5,
     "latest_tag": "v0.27.1"
