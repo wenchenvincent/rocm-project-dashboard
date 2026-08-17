@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-16T08:16:37Z",
+  "collected_at": "2026-08-17T08:31:47Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
@@ -25,7 +25,7 @@
         "author": "matthiasdiener",
         "prs_submitted": 26,
         "prs_merged": 20,
-        "commits": 7
+        "commits": 5
       },
       {
         "author": "Micky774",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 25.8,
+    "days_since_last": 26.8,
     "avg_interval_days": 41.6,
     "total_releases": 5,
     "latest_tag": "v2.12_rocm"

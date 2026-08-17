@@ -1,6 +1,29 @@
 {
-  "collected_at": "2026-08-16T08:14:31Z",
+  "collected_at": "2026-08-17T08:29:11Z",
   "issues": [
+    {
+      "number": 1918,
+      "title": "Qwen3.5 cannot start through the SGLang plugin on main (two independent failures)",
+      "author": "zovonoir",
+      "state": "open",
+      "created_at": "2026-08-17T05:22:28Z",
+      "updated_at": "2026-08-17T05:23:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1918",
+      "labels": []
+    },
+    {
+      "number": 1914,
+      "title": "[Perf Regression] 11 config(s) regressed @ ba9ae202",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-08-16T20:00:43Z",
+      "updated_at": "2026-08-16T20:00:43Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1914",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 1897,
       "title": "[Perf Regression] 83 config(s) regressed @ 6a756fdb",

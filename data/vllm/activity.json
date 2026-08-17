@@ -1,47 +1,47 @@
 {
-  "collected_at": "2026-08-16T08:15:05Z",
+  "collected_at": "2026-08-17T08:30:00Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 52,
-      "merged": 47,
-      "closed": 2
-    },
-    "last_week": {
-      "opened": 28,
-      "merged": 8,
+      "opened": 51,
+      "merged": 52,
       "closed": 0
     },
-    "median_time_to_merge_hours": 169.0,
-    "merge_count": 67,
+    "last_week": {
+      "opened": 25,
+      "merged": 7,
+      "closed": 0
+    },
+    "median_time_to_merge_hours": 113.5,
+    "merge_count": 69,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 69,
+    "active_this_week": 72,
     "total_contributors": 78,
     "top_contributors": [
       {
         "author": "AndreasKaratzas",
         "prs_submitted": 15,
-        "prs_merged": 7,
+        "prs_merged": 8,
         "commits": 0
       },
       {
-        "author": "stefankoncarevic",
+        "author": "simondanielsson",
         "prs_submitted": 7,
-        "prs_merged": 7,
-        "commits": 0
-      },
-      {
-        "author": "Fangzhou-Ai",
-        "prs_submitted": 6,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "LiuYinfeng01",
+        "author": "stefankoncarevic",
         "prs_submitted": 6,
+        "prs_merged": 6,
+        "commits": 0
+      },
+      {
+        "author": "akii96",
+        "prs_submitted": 5,
         "prs_merged": 1,
         "commits": 0
       },
@@ -52,9 +52,9 @@
         "commits": 0
       },
       {
-        "author": "akii96",
+        "author": "LiuYinfeng01",
         "prs_submitted": 4,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -70,30 +70,30 @@
         "commits": 0
       },
       {
-        "author": "rbrugaro-amd",
+        "author": "shen-shanshan",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "shen-shanshan",
+        "author": "LucasWilkinson",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
     "bus_factor": 11
   },
   "issue_health": {
-    "total_open": 52,
-    "opened_this_week": 25,
-    "closed_this_week": 159,
+    "total_open": 51,
+    "opened_this_week": 23,
+    "closed_this_week": 134,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.9,
+    "days_since_last": 5.9,
     "avg_interval_days": 7.7,
     "total_releases": 5,
     "latest_tag": "v0.27.1"

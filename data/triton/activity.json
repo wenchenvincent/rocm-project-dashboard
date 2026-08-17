@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-08-16T08:15:08Z",
+  "collected_at": "2026-08-17T08:30:05Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 17,
-      "merged": 7,
+      "opened": 15,
+      "merged": 6,
       "closed": 0
     },
     "last_week": {
       "opened": 17,
-      "merged": 17,
+      "merged": 16,
       "closed": 0
     },
     "median_time_to_merge_hours": 15.3,
@@ -18,7 +18,7 @@
     "stale_prs": 4
   },
   "contributors": {
-    "active_this_week": 21,
+    "active_this_week": 20,
     "total_contributors": 39,
     "top_contributors": [
       {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 58.7,
+    "days_since_last": 59.7,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

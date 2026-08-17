@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-16T08:14:10Z",
+  "collected_at": "2026-08-17T08:28:46Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,64 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-16T07:30:51Z",
+      "updated_at": "2026-08-17T08:22:45Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 35122,
+      "title": "[Bug] [AMD] SGLANG_DSV4_FP4_DEQUANT=1 is ignored by AITER FP4 MoE on ROCm",
+      "author": "yuzhouo7",
+      "state": "open",
+      "created_at": "2026-08-17T08:11:40Z",
+      "updated_at": "2026-08-17T08:11:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35122",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-17T02:27:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 13363,
+      "title": "[Roadmap] sglang auto tuner",
+      "author": "sglang-bot",
+      "state": "open",
+      "created_at": "2025-11-16T04:31:44Z",
+      "updated_at": "2026-08-17T02:13:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
+      "labels": [
+        "good first issue"
+      ]
+    },
+    {
+      "number": 35047,
+      "title": "[Bug] Triton device-pointer tables use int64 and overflow on Intel XPU USM addresses",
+      "author": "dayanandav",
+      "state": "open",
+      "created_at": "2026-08-16T17:59:13Z",
+      "updated_at": "2026-08-16T18:01:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35047",
+      "labels": []
+    },
+    {
+      "number": 33978,
+      "title": "[Bug]",
+      "author": "giovanniguastiamd",
+      "state": "open",
+      "created_at": "2026-08-07T09:55:06Z",
+      "updated_at": "2026-08-16T17:34:19Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33978",
       "labels": []
     },
     {
@@ -33,20 +89,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/23494",
       "labels": [
         "amd"
-      ]
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-15T22:24:04Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
       ]
     },
     {
@@ -102,18 +144,6 @@
       "labels": [
         "amd",
         "aiter"
-      ]
-    },
-    {
-      "number": 13363,
-      "title": "[Roadmap] sglang auto tuner",
-      "author": "sglang-bot",
-      "state": "open",
-      "created_at": "2025-11-16T04:31:44Z",
-      "updated_at": "2026-08-14T10:17:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
-      "labels": [
-        "good first issue"
       ]
     },
     {
@@ -345,16 +375,6 @@
         "deepseek",
         "Good Pro Issue"
       ]
-    },
-    {
-      "number": 33978,
-      "title": "[Bug]",
-      "author": "giovanniguastiamd",
-      "state": "open",
-      "created_at": "2026-08-07T09:55:06Z",
-      "updated_at": "2026-08-07T09:55:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33978",
-      "labels": []
     },
     {
       "number": 33846,
@@ -599,26 +619,6 @@
       "created_at": "2026-07-23T07:35:04Z",
       "updated_at": "2026-07-23T07:35:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/32169",
-      "labels": []
-    },
-    {
-      "number": 30209,
-      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
-      "author": "hongboshi1234",
-      "state": "open",
-      "created_at": "2026-07-06T04:14:01Z",
-      "updated_at": "2026-07-19T17:40:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
-      "labels": []
-    },
-    {
-      "number": 31071,
-      "title": "[Bug] EAGLE greedy verify lacks TP broadcast \u2192 ranks diverge on accepted tokens \u2192 collective deadlock (tp>1)",
-      "author": "zhoaa",
-      "state": "open",
-      "created_at": "2026-07-13T21:19:03Z",
-      "updated_at": "2026-07-16T08:08:23Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31071",
       "labels": []
     }
   ]

@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-08-16T08:14:35Z",
+  "collected_at": "2026-08-17T08:29:17Z",
   "prs": [
+    {
+      "number": 971,
+      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-08-17T08:12:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1001,
+      "title": "[Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T08:37:46Z",
+      "updated_at": "2026-08-17T07:29:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1009,
       "title": "[Perf] Enable the XCD swizzle and pin the softmax basis for gfx950 bf16 attention",
@@ -22,18 +46,6 @@
       "created_at": "2026-08-14T11:55:55Z",
       "updated_at": "2026-08-14T12:34:06Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1013",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1001,
-      "title": "[Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T08:37:46Z",
-      "updated_at": "2026-08-14T12:26:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
       "labels": [],
       "draft": false
     },
@@ -60,32 +72,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 930,
-      "title": "DSL-ify raw arith float ops in kernels (flash/mla/pa/moe), fastmath v\u2026",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T09:41:17Z",
-      "updated_at": "2026-08-14T09:39:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/930",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
-      "number": 971,
-      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-08-14T08:18:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1010,
@@ -210,18 +196,6 @@
       "draft": false
     },
     {
-      "number": 990,
-      "title": "[fp4_gemm_4wave] MXFP4 GEMM perf optimize",
-      "author": "benenzhu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-09T11:59:50Z",
-      "updated_at": "2026-08-11T01:19:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/990",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 901,
       "title": "Add Optimized MoE Routing Path",
       "author": "amd-wsung102",
@@ -314,18 +288,6 @@
       "created_at": "2026-07-27T13:02:41Z",
       "updated_at": "2026-08-03T01:50:25Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/912",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 928,
-      "title": "[Tool] Add per-kernel ISA resource delta table",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T08:51:31Z",
-      "updated_at": "2026-08-02T23:30:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/928",
       "labels": [],
       "draft": false
     },
@@ -858,6 +820,56 @@
       "draft": false
     },
     {
+      "number": 1003,
+      "title": "[compiler] isolate mutable state across dynamic if branches",
+      "author": "kefan203",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-12T13:57:51Z",
+      "updated_at": "2026-08-17T06:26:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1003",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1014,
+      "title": "[CI] Skip amdgpu repo during manylinux image dnf install",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-17T04:42:54Z",
+      "updated_at": "2026-08-17T06:15:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1014",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 990,
+      "title": "[fp4_gemm_4wave] MXFP4 GEMM perf optimize",
+      "author": "benenzhu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-09T11:59:50Z",
+      "updated_at": "2026-08-17T04:54:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/990",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 930,
+      "title": "DSL-ify raw arith float ops in kernels (flash/mla/pa/moe), fastmath v\u2026",
+      "author": "xudoyuan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-30T09:41:17Z",
+      "updated_at": "2026-08-17T03:47:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/930",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
       "number": 1004,
       "title": "[Docs] Elaboration for composite type and storage",
       "author": "sjfeng1999",
@@ -902,18 +914,6 @@
       "created_at": "2026-08-10T07:08:55Z",
       "updated_at": "2026-08-14T13:55:50Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/995",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1003,
-      "title": "[compiler] isolate mutable state across dynamic if branches",
-      "author": "kefan203",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-12T13:57:51Z",
-      "updated_at": "2026-08-14T09:57:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1003",
       "labels": [],
       "draft": false
     },
@@ -1751,54 +1751,6 @@
       "created_at": "2026-07-17T09:11:45Z",
       "updated_at": "2026-07-21T08:29:05Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/871",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 801,
-      "title": "[layernorm] Add backward pass for training (PR 3/3, #769)",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-03T22:53:51Z",
-      "updated_at": "2026-07-21T01:21:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/801",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 855,
-      "title": "[Perf] Optimize RMSNorm backward with staged reduction and vec8 I/O",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-15T00:48:11Z",
-      "updated_at": "2026-07-21T01:20:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/855",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 785,
-      "title": "[2/5] autotune: add opt-in search and RMSNorm waves-per-EU tuning (#770)",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T07:05:40Z",
-      "updated_at": "2026-07-20T06:53:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/785",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 868,
-      "title": "[Docs] Arithmetic types: authoritative spec + conformance suite",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-16T10:03:23Z",
-      "updated_at": "2026-07-17T12:35:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/868",
       "labels": [],
       "draft": false
     }

@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-16T08:14:16Z",
+  "collected_at": "2026-08-17T08:28:54Z",
   "issues": [
+    {
+      "number": 5140,
+      "title": "[Optimization] GridSample is slow and is making InternImage run at less than 1 fps",
+      "author": "Imeguras",
+      "state": "open",
+      "created_at": "2026-08-16T17:37:53Z",
+      "updated_at": "2026-08-16T17:37:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5140",
+      "labels": []
+    },
     {
       "number": 5079,
       "title": "[Issue]: Compiled .mxr files are needlessly large",

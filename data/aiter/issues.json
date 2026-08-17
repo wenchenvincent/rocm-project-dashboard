@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-16T08:14:26Z",
+  "collected_at": "2026-08-17T08:29:06Z",
   "issues": [
+    {
+      "number": 4788,
+      "title": "[Issue] [fused_moe] GLM-5.2-FP8 per_1x128 blockscale: tuned 1-stage config silently produces garbage (gsm8k=0) on gfx942; `AITER_BYPASS_TUNE_CONFIG=1` fixes it",
+      "author": "yitingw1",
+      "state": "open",
+      "created_at": "2026-08-17T03:08:03Z",
+      "updated_at": "2026-08-17T03:08:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4788",
+      "labels": []
+    },
     {
       "number": 4783,
       "title": "AITER fused_moe: GPU memory permission fault on gfx942 at FP8 e4m3fnuz per-1x128 block-scaled MoE shapes M \u2208 {304, 336}",

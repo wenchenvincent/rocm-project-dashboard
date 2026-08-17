@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-08-16T08:13:52Z",
+  "collected_at": "2026-08-17T08:28:23Z",
   "prs": [
+    {
+      "number": 39970,
+      "title": "[ROCm] Tag ROCm CI job names with N / N+1 release tracks",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T19:11:26Z",
+      "updated_at": "2026-08-17T04:49:17Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39970",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 40029,
+      "title": "[ROCm] Run the Bazel ROCm tests in the jax-base image",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T04:40:26Z",
+      "updated_at": "2026-08-17T04:46:47Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40029",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 40001,
       "title": "[ROCm] Fix ROCm version in plugin wheel metadata",
@@ -25,18 +49,6 @@
       "created_at": "2026-08-13T22:27:44Z",
       "updated_at": "2026-08-14T01:59:57Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39974",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 39970,
-      "title": "[ROCm] Tag ROCm CI job names with N / N+1 release tracks",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T19:11:26Z",
-      "updated_at": "2026-08-13T22:02:55Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39970",
       "labels": [],
       "draft": false
     },
