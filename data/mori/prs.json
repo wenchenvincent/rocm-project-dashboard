@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-08-17T08:29:14Z",
+  "collected_at": "2026-08-18T08:21:36Z",
   "prs": [
+    {
+      "number": 573,
+      "title": "Io cpp bench default",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T18:33:02Z",
+      "updated_at": "2026-08-18T08:19:16Z",
+      "html_url": "https://github.com/ROCm/mori/pull/573",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 576,
+      "title": "test(ep/v2): one bench for both backends, with a correctness gate",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T05:49:05Z",
+      "updated_at": "2026-08-18T07:10:44Z",
+      "html_url": "https://github.com/ROCm/mori/pull/576",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 574,
+      "title": "Io prepared transfers v3",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T19:13:18Z",
+      "updated_at": "2026-08-17T22:44:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/574",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 566,
+      "title": "Feat/env check gpu memory",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T23:32:16Z",
+      "updated_at": "2026-08-17T17:24:13Z",
+      "html_url": "https://github.com/ROCm/mori/pull/566",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 544,
+      "title": "allocator: register mori as a torch SymmetricMemory backend",
+      "author": "carlushuang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T13:49:55Z",
+      "updated_at": "2026-08-17T14:50:39Z",
+      "html_url": "https://github.com/ROCm/mori/pull/544",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 540,
+      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T02:07:35Z",
+      "updated_at": "2026-08-17T11:33:24Z",
+      "html_url": "https://github.com/ROCm/mori/pull/540",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 571,
+      "title": "(bugfix) Nightly CI",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T09:38:03Z",
+      "updated_at": "2026-08-17T09:38:03Z",
+      "html_url": "https://github.com/ROCm/mori/pull/571",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 570,
       "title": "test bnxt ci",
@@ -26,42 +110,6 @@
       "draft": false
     },
     {
-      "number": 569,
-      "title": "Feat/umbp tree connector port",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T01:56:03Z",
-      "updated_at": "2026-08-17T04:24:57Z",
-      "html_url": "https://github.com/ROCm/mori/pull/569",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 566,
-      "title": "Feat/env check gpu memory",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T23:32:16Z",
-      "updated_at": "2026-08-15T06:10:14Z",
-      "html_url": "https://github.com/ROCm/mori/pull/566",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 559,
-      "title": "Fix SDMA AllReduce corruption across HIP graph replays",
-      "author": "hubertlu-tw",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T23:53:10Z",
-      "updated_at": "2026-08-14T21:58:44Z",
-      "html_url": "https://github.com/ROCm/mori/pull/559",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 518,
       "title": "MORI-IO: CPU hot-path improvements (profile-guided)",
       "author": "pemeliya",
@@ -74,30 +122,6 @@
       "draft": true
     },
     {
-      "number": 541,
-      "title": "Adpat mori to RoCM 714 container",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T06:29:39Z",
-      "updated_at": "2026-08-14T13:18:20Z",
-      "html_url": "https://github.com/ROCm/mori/pull/541",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 540,
-      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T02:07:35Z",
-      "updated_at": "2026-08-14T10:02:04Z",
-      "html_url": "https://github.com/ROCm/mori/pull/540",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 547,
       "title": "feat(umbp): support the UMBP tree connector on a distributed backend",
       "author": "maning00",
@@ -108,18 +132,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/547",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 544,
-      "title": "allocator: register mori as a torch SymmetricMemory backend",
-      "author": "carlushuang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T13:49:55Z",
-      "updated_at": "2026-08-14T08:43:19Z",
-      "html_url": "https://github.com/ROCm/mori/pull/544",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 558,
@@ -346,6 +358,42 @@
       "created_at": "2026-07-29T11:42:16Z",
       "updated_at": "2026-08-03T09:05:28Z",
       "html_url": "https://github.com/ROCm/mori/pull/506",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 541,
+      "title": "Adpat mori to RoCM 714 container",
+      "author": "QizhouZhang97",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-11T06:29:39Z",
+      "updated_at": "2026-08-18T07:19:11Z",
+      "html_url": "https://github.com/ROCm/mori/pull/541",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 559,
+      "title": "Support graph replays for SDMA AllReduce",
+      "author": "hubertlu-tw",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T23:53:10Z",
+      "updated_at": "2026-08-17T17:08:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/559",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 569,
+      "title": "Feat/umbp tree connector port",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-17T01:56:03Z",
+      "updated_at": "2026-08-17T11:33:23Z",
+      "html_url": "https://github.com/ROCm/mori/pull/569",
       "labels": [],
       "draft": false
     },
@@ -1318,42 +1366,6 @@
       "created_at": "2026-05-09T00:42:42Z",
       "updated_at": "2026-07-20T09:04:36Z",
       "html_url": "https://github.com/ROCm/mori/pull/309",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 311,
-      "title": "feat(EP): FP8 blockwise quantization for IntraNode combine",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-09T07:55:27Z",
-      "updated_at": "2026-07-20T09:04:34Z",
-      "html_url": "https://github.com/ROCm/mori/pull/311",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 310,
-      "title": "CI: add placeholder for manual CI trigger",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-09T01:54:44Z",
-      "updated_at": "2026-07-20T09:04:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/310",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 303,
-      "title": "feat(ccl): add C++ AllGatherIntoTensor  over SDMA",
-      "author": "inkcherry",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-06T11:05:42Z",
-      "updated_at": "2026-07-20T09:04:26Z",
-      "html_url": "https://github.com/ROCm/mori/pull/303",
       "labels": [],
       "draft": false
     }

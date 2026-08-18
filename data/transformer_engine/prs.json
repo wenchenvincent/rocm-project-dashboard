@@ -1,6 +1,62 @@
 {
-  "collected_at": "2026-08-17T08:29:20Z",
+  "collected_at": "2026-08-18T08:21:43Z",
   "prs": [
+    {
+      "number": 694,
+      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T18:46:22Z",
+      "updated_at": "2026-08-17T23:28:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 649,
+      "title": "[Feat] Added JAX-Triton bridge for ROCm",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-24T21:57:11Z",
+      "updated_at": "2026-08-17T22:17:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 702,
+      "title": "Ifu dev 20260803 v2.18",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T01:02:21Z",
+      "updated_at": "2026-08-17T20:56:58Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 678,
+      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
+      "author": "shurale-nkn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T15:17:24Z",
+      "updated_at": "2026-08-17T10:26:09Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 695,
       "title": "Compile CP softmax LSE corrections with dynamic shapes",
@@ -30,20 +86,6 @@
       "draft": false
     },
     {
-      "number": 702,
-      "title": "Ifu dev 20260803 v2.18",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T01:02:21Z",
-      "updated_at": "2026-08-14T19:19:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 676,
       "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
       "author": "aris134",
@@ -54,20 +96,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 649,
-      "title": "[Feat] Added JAX-Triton bridge for ROCm",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T21:57:11Z",
-      "updated_at": "2026-08-14T18:13:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     },
@@ -112,20 +140,6 @@
       "draft": false
     },
     {
-      "number": 694,
-      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-08-12T20:52:00Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
       "number": 700,
       "title": "[gfx1250] detect when building on gfx1250, add to build archs",
       "author": "matthiasdiener",
@@ -136,20 +150,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/700",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 678,
-      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-08-12T03:58:56Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     },

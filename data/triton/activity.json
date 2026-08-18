@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-08-17T08:30:05Z",
+  "collected_at": "2026-08-18T08:22:18Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 15,
-      "merged": 6,
+      "opened": 11,
+      "merged": 7,
       "closed": 0
     },
     "last_week": {
-      "opened": 17,
-      "merged": 16,
+      "opened": 21,
+      "merged": 13,
       "closed": 0
     },
-    "median_time_to_merge_hours": 15.3,
+    "median_time_to_merge_hours": 16.9,
     "merge_count": 30,
-    "stale_prs": 4
+    "stale_prs": 6
   },
   "contributors": {
-    "active_this_week": 20,
-    "total_contributors": 39,
+    "active_this_week": 16,
+    "total_contributors": 41,
     "top_contributors": [
       {
         "author": "antiagainst",
@@ -31,12 +31,6 @@
         "author": "ZelboK",
         "prs_submitted": 4,
         "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "umangyadav",
-        "prs_submitted": 3,
-        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -58,15 +52,15 @@
         "commits": 0
       },
       {
-        "author": "AlexAUT",
+        "author": "umangyadav",
         "prs_submitted": 2,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "yiqian1",
+        "author": "AlexAUT",
         "prs_submitted": 2,
-        "prs_merged": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -79,6 +73,12 @@
         "author": "tyb0807",
         "prs_submitted": 2,
         "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "liminfei-amd",
+        "prs_submitted": 1,
+        "prs_merged": 0,
         "commits": 0
       }
     ],
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 59.7,
+    "days_since_last": 60.7,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

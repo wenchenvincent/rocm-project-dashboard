@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-08-17T08:29:17Z",
+  "collected_at": "2026-08-18T08:21:39Z",
   "prs": [
+    {
+      "number": 1022,
+      "title": "[Kernel] Add opt-in autotuning for Softmax",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T08:19:04Z",
+      "updated_at": "2026-08-18T08:19:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1022",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1021,
+      "title": "[Test] Run every RUN line in the MLIR FileCheck harness",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T08:17:32Z",
+      "updated_at": "2026-08-18T08:17:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1021",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 986,
+      "title": "[Kernel] Fix single-accumulator RDNA3 GEMM tiles",
+      "author": "skyguan92",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T05:12:22Z",
+      "updated_at": "2026-08-18T07:35:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/986",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 971,
       "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
@@ -8,8 +44,68 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-08-17T08:12:05Z",
+      "updated_at": "2026-08-18T07:16:04Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1013,
+      "title": "[ROCDL] Add make_tiled_tdm_atom op and tdm_partition",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T11:55:55Z",
+      "updated_at": "2026-08-18T07:13:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1013",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 980,
+      "title": "[Perf] Choose the RDNA3 GEMM tile from the shape",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T03:26:50Z",
+      "updated_at": "2026-08-18T07:08:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/980",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1020,
+      "title": "[Bugfix][Kernel] Fix fp8 dense attention: softmax normalisation and an int32 dim overflow",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T00:14:06Z",
+      "updated_at": "2026-08-18T00:57:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1020",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1019,
+      "title": "[Kernel] Add row-wise Softmax backward",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T23:36:01Z",
+      "updated_at": "2026-08-18T00:12:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1019",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 931,
+      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
+      "author": "RichardChamberlain1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T11:46:51Z",
+      "updated_at": "2026-08-17T21:57:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
       "labels": [],
       "draft": true
     },
@@ -20,8 +116,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-12T08:37:46Z",
-      "updated_at": "2026-08-17T07:29:39Z",
+      "updated_at": "2026-08-17T10:08:14Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
+      "labels": [
+        "invalid"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1015,
+      "title": "[WIP] [Feature] Add architecture-general ISA resource diff tool",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T09:35:27Z",
+      "updated_at": "2026-08-17T10:05:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 987,
+      "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-08-17T09:48:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
       "labels": [],
       "draft": false
     },
@@ -38,18 +160,6 @@
       "draft": false
     },
     {
-      "number": 1013,
-      "title": "[ROCDL] Add make_tiled_tdm_atom op and tdm_partition",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T11:55:55Z",
-      "updated_at": "2026-08-14T12:34:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1013",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1012,
       "title": "[MFMA] Add 16x16x16 bf16/f16 support with fly-fix-bitcast-width pass",
       "author": "RichardChamberlain1",
@@ -62,18 +172,6 @@
       "draft": true
     },
     {
-      "number": 960,
-      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-03T12:59:55Z",
-      "updated_at": "2026-08-14T10:05:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1010,
       "title": "[Perf] Add wide RDNA3 GEMM tiles",
       "author": "vlluvia",
@@ -82,18 +180,6 @@
       "created_at": "2026-08-14T07:10:31Z",
       "updated_at": "2026-08-14T07:12:14Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1010",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 980,
-      "title": "[Perf] Choose the RDNA3 GEMM tile from the shape",
-      "author": "vlluvia",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T03:26:50Z",
-      "updated_at": "2026-08-14T02:02:57Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/980",
       "labels": [],
       "draft": false
     },
@@ -136,18 +222,6 @@
       "draft": false
     },
     {
-      "number": 987,
-      "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-08-13T05:55:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 860,
       "title": "[Kernel] fp8 conv3d: 8-wave GEMM pipeline + BIG_IN fix",
       "author": "jiacao-amd",
@@ -184,18 +258,6 @@
       "draft": false
     },
     {
-      "number": 986,
-      "title": "[Kernel] Fix single-accumulator RDNA3 GEMM tiles",
-      "author": "skyguan92",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T05:12:22Z",
-      "updated_at": "2026-08-11T23:06:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/986",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 901,
       "title": "Add Optimized MoE Routing Path",
       "author": "amd-wsung102",
@@ -218,18 +280,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/984",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 931,
-      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
-      "author": "RichardChamberlain1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T11:46:51Z",
-      "updated_at": "2026-08-07T17:35:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 976,
@@ -816,6 +866,18 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 960,
+      "title": "[Kernel][MI350] Add bias, alibi bias and sink to flash attention",
+      "author": "amd-nprotaso",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-03T12:59:55Z",
+      "updated_at": "2026-08-18T02:44:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/960",
       "labels": [],
       "draft": false
     },
@@ -1739,18 +1801,6 @@
       "created_at": "2026-07-16T08:14:48Z",
       "updated_at": "2026-07-21T14:46:54Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/866",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 871,
-      "title": "[Feat] Export shuffle xor/up/down/idx ops",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-17T09:11:45Z",
-      "updated_at": "2026-07-21T08:29:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/871",
       "labels": [],
       "draft": false
     }

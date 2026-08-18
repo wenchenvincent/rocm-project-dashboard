@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-17T08:28:46Z",
+  "collected_at": "2026-08-18T08:21:04Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,74 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-17T08:22:45Z",
+      "updated_at": "2026-08-18T07:49:45Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-18T07:17:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-08-18T06:11:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 35144,
+      "title": "[Bug] EAGLE/NEXTN TP=2 hangs at warmup on Intel XPU after #34238 moved the verify-decision TP broadcast out of the sampling branch",
+      "author": "dayanandav",
+      "state": "open",
+      "created_at": "2026-08-17T10:12:49Z",
+      "updated_at": "2026-08-18T05:42:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35144",
+      "labels": []
+    },
+    {
+      "number": 35252,
+      "title": "[Bug] MoE tuner writes config files the runtime never reads (int4_w4a16)",
+      "author": "JeremiahM37",
+      "state": "open",
+      "created_at": "2026-08-18T05:06:13Z",
+      "updated_at": "2026-08-18T05:06:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35252",
+      "labels": []
+    },
+    {
+      "number": 35003,
+      "title": "AMD Development Roadmap (2026 Q3)",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-08-16T05:07:07Z",
+      "updated_at": "2026-08-18T03:09:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35003",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 34596,
+      "title": "[Bug] MI355X Qwen3.5 MTP throughput is significantly behind B200/B300 on realistic agentic workloads",
+      "author": "cquil11",
+      "state": "open",
+      "created_at": "2026-08-12T16:14:28Z",
+      "updated_at": "2026-08-18T02:52:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34596",
       "labels": []
     },
     {
@@ -20,20 +86,6 @@
       "updated_at": "2026-08-17T08:11:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/35122",
       "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-17T02:27:34Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
     },
     {
       "number": 13363,
@@ -66,18 +118,6 @@
       "updated_at": "2026-08-16T17:34:19Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33978",
       "labels": []
-    },
-    {
-      "number": 35003,
-      "title": "AMD Development Roadmap (2026 Q3)",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-08-16T05:07:07Z",
-      "updated_at": "2026-08-16T07:23:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35003",
-      "labels": [
-        "amd"
-      ]
     },
     {
       "number": 23494,
@@ -147,16 +187,6 @@
       ]
     },
     {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-08-14T07:27:23Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
       "number": 34720,
       "title": "[Bug] [XPU] Qwen3.5 GDN + speculative decode: causal_conv1d_update_xpu() got an unexpected keyword argument 'intermediate_conv_window'",
       "author": "dayanandav",
@@ -218,16 +248,6 @@
       "created_at": "2026-08-12T17:56:26Z",
       "updated_at": "2026-08-13T06:38:33Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34611",
-      "labels": []
-    },
-    {
-      "number": 34596,
-      "title": "[Bug] MI355X Qwen3.5 MTP throughput is significantly behind B200/B300 on realistic agentic workloads",
-      "author": "cquil11",
-      "state": "open",
-      "created_at": "2026-08-12T16:14:28Z",
-      "updated_at": "2026-08-12T16:17:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34596",
       "labels": []
     },
     {
@@ -431,21 +451,6 @@
       ]
     },
     {
-      "number": 11762,
-      "title": "[Feature] Overlap Spec Support",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2025-10-17T14:48:31Z",
-      "updated_at": "2026-08-03T22:16:41Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/11762",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "help wanted",
-        "high priority"
-      ]
-    },
-    {
       "number": 30599,
       "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
       "author": "AIwork4me",
@@ -599,26 +604,6 @@
       "created_at": "2026-07-20T11:56:07Z",
       "updated_at": "2026-07-27T22:15:31Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31774",
-      "labels": []
-    },
-    {
-      "number": 30734,
-      "title": "[Roadmap] GLM-5.2 + AMD/ROCm DSpark support",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-07-10T03:32:15Z",
-      "updated_at": "2026-07-25T13:37:14Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30734",
-      "labels": []
-    },
-    {
-      "number": 32169,
-      "title": "[Bug] InternVL2_5-2B fails to start: 'CLIPImageProcessor' object has no attribute 'tokenizer' in get_tokenizer_from_processor",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-07-23T07:35:04Z",
-      "updated_at": "2026-07-23T07:35:04Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32169",
       "labels": []
     }
   ]

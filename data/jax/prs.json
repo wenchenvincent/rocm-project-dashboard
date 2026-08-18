@@ -1,6 +1,33 @@
 {
-  "collected_at": "2026-08-17T08:28:23Z",
+  "collected_at": "2026-08-18T08:20:38Z",
   "prs": [
+    {
+      "number": 39846,
+      "title": "[DO NOT MERGE]Enable previously skipped unit tests on ROCm platform",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T02:45:11Z",
+      "updated_at": "2026-08-17T22:45:36Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39846",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 40029,
+      "title": "[ROCm] Run the Bazel ROCm tests in the jax-base image",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T04:40:26Z",
+      "updated_at": "2026-08-17T18:25:32Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40029",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 39970,
       "title": "[ROCm] Tag ROCm CI job names with N / N+1 release tracks",
@@ -10,18 +37,6 @@
       "created_at": "2026-08-13T19:11:26Z",
       "updated_at": "2026-08-17T04:49:17Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39970",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 40029,
-      "title": "[ROCm] Run the Bazel ROCm tests in the jax-base image",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T04:40:26Z",
-      "updated_at": "2026-08-17T04:46:47Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40029",
       "labels": [],
       "draft": false
     },
@@ -108,18 +123,6 @@
         "pull ready"
       ],
       "draft": false
-    },
-    {
-      "number": 39846,
-      "title": "[DO NOT MERGE]Enable previously skipped unit tests on ROCm platform",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T02:45:11Z",
-      "updated_at": "2026-08-10T02:46:01Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39846",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 39698,

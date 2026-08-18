@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-08-17T08:28:48Z",
+  "collected_at": "2026-08-18T08:21:06Z",
   "prs": [
     {
-      "number": 11313,
-      "title": "[AMD][BACKEND] Fix under-approximated loop-carried ranges in range analysis",
-      "author": "AlexAUT",
+      "number": 11346,
+      "title": "[AMD] Preserve dominance when preparing if combining",
+      "author": "liminfei-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-14T13:37:36Z",
-      "updated_at": "2026-08-17T07:49:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11313",
+      "created_at": "2026-08-18T05:57:00Z",
+      "updated_at": "2026-08-18T08:20:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11346",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11294,
+      "title": "[AMD] Map tl.const pointer args to constant address space",
+      "author": "jerryyin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T14:39:47Z",
+      "updated_at": "2026-08-18T01:51:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11294",
       "labels": [],
       "draft": false
     },
@@ -17,11 +29,23 @@
       "number": 11018,
       "title": "[AMD] Emit buffer atomic min/max only for the supported data types ",
       "author": "umangyadav",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-22T23:13:18Z",
+      "updated_at": "2026-08-17T22:31:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11018",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11040,
+      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
+      "author": "willghatch",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-22T23:13:18Z",
-      "updated_at": "2026-08-17T06:50:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11018",
+      "created_at": "2026-07-24T22:25:24Z",
+      "updated_at": "2026-08-17T19:37:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11040",
       "labels": [],
       "draft": false
     },
@@ -29,10 +53,10 @@
       "number": 11282,
       "title": "[AMD] Preserve i32 accumulation for small-K int8 dots",
       "author": "lohiaj",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-08-12T17:34:06Z",
-      "updated_at": "2026-08-17T05:54:10Z",
+      "updated_at": "2026-08-17T18:07:15Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11282",
       "labels": [],
       "draft": false
@@ -44,8 +68,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-23T20:59:35Z",
-      "updated_at": "2026-08-15T08:14:18Z",
+      "updated_at": "2026-08-17T18:02:17Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11028",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11313,
+      "title": "[AMD][BACKEND] Fix under-approximated loop-carried ranges in range analysis",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T13:37:36Z",
+      "updated_at": "2026-08-17T07:49:44Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11313",
       "labels": [],
       "draft": false
     },
@@ -96,18 +132,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11289",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11294,
-      "title": "[AMD] Map tl.const pointer args to constant address space",
-      "author": "jerryyin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T14:39:47Z",
-      "updated_at": "2026-08-13T14:39:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11294",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11285,
@@ -214,18 +238,6 @@
       "created_at": "2026-08-10T14:51:02Z",
       "updated_at": "2026-08-10T23:59:59Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11249",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11040,
-      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T22:25:24Z",
-      "updated_at": "2026-08-10T16:47:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11040",
       "labels": [],
       "draft": false
     },
@@ -578,18 +590,6 @@
       "draft": false
     },
     {
-      "number": 11019,
-      "title": "[AMD] Fix buffer atomic exchange intrinsic",
-      "author": "umangyadav",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-22T23:27:40Z",
-      "updated_at": "2026-07-29T17:34:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11019",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11092,
       "title": "[AMD][gfx1250] Add noalias_args pointer contract",
       "author": "jerryyin",
@@ -610,18 +610,6 @@
       "created_at": "2026-07-27T08:29:04Z",
       "updated_at": "2026-07-29T08:37:06Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11055",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11081,
-      "title": "[AMD] Fix swapped structured binding in emitFence for buffer atomics",
-      "author": "yiqian1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-28T20:15:19Z",
-      "updated_at": "2026-07-29T05:10:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11081",
       "labels": [],
       "draft": false
     },
@@ -718,6 +706,18 @@
       "created_at": "2026-06-26T15:19:09Z",
       "updated_at": "2026-06-26T15:20:27Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10733",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10710,
+      "title": "[AMD] Adding lds prefetch pass to amd compiler path",
+      "author": "guacamoleo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-24T15:07:27Z",
+      "updated_at": "2026-06-25T20:47:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10710",
       "labels": [],
       "draft": false
     }

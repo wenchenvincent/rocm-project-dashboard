@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-17T08:29:14Z",
+  "collected_at": "2026-08-18T08:21:36Z",
   "issues": [
+    {
+      "number": 572,
+      "title": "[RFC] Async dispatch/combine support for shared expert overlap in vLLM",
+      "author": "eppaneamd",
+      "state": "open",
+      "created_at": "2026-08-17T16:11:11Z",
+      "updated_at": "2026-08-17T16:34:21Z",
+      "html_url": "https://github.com/ROCm/mori/issues/572",
+      "labels": []
+    },
     {
       "number": 549,
       "title": "[RFC] Fix the Python packaging layer around mori CMake build (scikit-build-core)",

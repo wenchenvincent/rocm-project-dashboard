@@ -1,17 +1,127 @@
 {
-  "collected_at": "2026-08-17T08:28:51Z",
+  "collected_at": "2026-08-18T08:21:10Z",
   "prs": [
     {
-      "number": 5142,
-      "title": "Update find_concat_same_inputs to handle dimension > 1",
+      "number": 5087,
+      "title": "Fuse expert SilU heads (MoE) into batched GEMM via fuse_horizontal",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T19:03:23Z",
+      "updated_at": "2026-08-18T07:27:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5087",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5148,
+      "title": "Enhance symbolic onnx parsing via sym_eval",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T05:48:22Z",
+      "updated_at": "2026-08-18T05:48:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5148",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5130,
+      "title": "Duplicate Lambda Parameter from Repeated Input",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T17:06:05Z",
+      "updated_at": "2026-08-18T05:01:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5130",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5145,
+      "title": "[Release merge - no review] Problem cache (#5117) -> gpuep-rel-2610",
+      "author": "danieyan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T20:36:47Z",
+      "updated_at": "2026-08-18T04:01:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5145",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5112,
+      "title": "`dyn_slice` operator for symbolics and data-dependent operators",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-04T23:35:47Z",
+      "updated_at": "2026-08-18T01:40:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5112",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5138,
+      "title": "Add promote_storage_type pass to compute storage-only types in float",
       "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-16T21:22:46Z",
-      "updated_at": "2026-08-17T01:05:08Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5142",
+      "created_at": "2026-08-15T16:29:14Z",
+      "updated_at": "2026-08-18T01:26:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5138",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 5146,
+      "title": "Add rewrite broadcasts for fuse_reduce",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T22:37:05Z",
+      "updated_at": "2026-08-18T00:40:34Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5146",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5127,
+      "title": "Bump rocm-docs-core from 1.38.0 to 1.39.0 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T12:43:35Z",
+      "updated_at": "2026-08-17T23:54:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5127",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5144,
+      "title": "Reject invalid pointwise modules",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T20:10:52Z",
+      "updated_at": "2026-08-17T23:41:43Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5144",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5147,
+      "title": "Common api",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T23:10:49Z",
+      "updated_at": "2026-08-17T23:11:13Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5147",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 5141,
@@ -20,8 +130,109 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-16T20:22:18Z",
-      "updated_at": "2026-08-16T20:27:40Z",
+      "updated_at": "2026-08-17T22:37:15Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5141",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5129,
+      "title": "8/11 bump rocmlir",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T20:35:42Z",
+      "updated_at": "2026-08-17T22:15:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5129",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5142,
+      "title": "Update find_concat_same_inputs to handle dimension > 1",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T21:22:46Z",
+      "updated_at": "2026-08-17T21:58:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5142",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5134,
+      "title": "[AIMIGRAPHX-1242] Support RFC0009 versioned install prefix for TheRock packaging (deb/rpm)",
+      "author": "kentqian",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T16:13:51Z",
+      "updated_at": "2026-08-17T17:04:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5134",
+      "labels": [
+        "dependencies",
+        "Continous Integration"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4983,
+      "title": "NOT TO BE MERGED: Python script to benchmark mxr files - consumes mxr files with json encoding",
+      "author": "ahsan-ca",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-17T18:42:00Z",
+      "updated_at": "2026-08-17T17:01:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4983",
+      "labels": [
+        "skip bot checks"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5092,
+      "title": "Add fp32 winograd for gfx12",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T15:59:32Z",
+      "updated_at": "2026-08-17T16:59:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4809,
+      "title": "Use fp32 FMA in channelwise conv",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-21T01:40:19Z",
+      "updated_at": "2026-08-17T16:51:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4809",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5111,
+      "title": "Add a migraphx code review skill",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-04T15:51:16Z",
+      "updated_at": "2026-08-17T16:46:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5111",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5064,
+      "title": "Fix MLIR conv-pointwise-layout fusion splitting",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T18:57:37Z",
+      "updated_at": "2026-08-17T16:26:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5064",
       "labels": [],
       "draft": false
     },
@@ -62,44 +273,6 @@
       "draft": true
     },
     {
-      "number": 5087,
-      "title": "Fuse expert SilU heads (MoE) into batched GEMM via fuse_horizontal",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T19:03:23Z",
-      "updated_at": "2026-08-16T16:45:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5087",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5014,
-      "title": "Hoist and horizontal dot",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-25T22:19:09Z",
-      "updated_at": "2026-08-16T16:17:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5138,
-      "title": "Add promote_storage_type pass to compute storage-only types in float",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-15T16:29:14Z",
-      "updated_at": "2026-08-15T18:28:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5138",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5136,
       "title": "Fix dynamic-shape parse failure in Softplus and Softsign",
       "author": "zhihuidu-amd",
@@ -108,46 +281,6 @@
       "created_at": "2026-08-14T20:13:17Z",
       "updated_at": "2026-08-15T10:51:01Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5136",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5120,
-      "title": "[AIMIGRAPHX-1229] Support ROCm10 TheRock packaging with alternative GPU dependencies",
-      "author": "kentqian",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T20:29:06Z",
-      "updated_at": "2026-08-15T06:21:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5120",
-      "labels": [
-        "dependencies"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5132,
-      "title": "Disable ccache when using #embed",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T17:58:11Z",
-      "updated_at": "2026-08-15T03:35:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5132",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5130,
-      "title": "Duplicate Lambda Parameter from Repeated Input",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T17:06:05Z",
-      "updated_at": "2026-08-15T02:11:35Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5130",
       "labels": [],
       "draft": false
     },
@@ -176,35 +309,6 @@
       "draft": true
     },
     {
-      "number": 5135,
-      "title": "Onnxruntime Weekly Sync 2026-08-14",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T17:28:54Z",
-      "updated_at": "2026-08-14T21:39:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5135",
-      "labels": [
-        "onnxruntime",
-        "dependencies",
-        "skip bot checks",
-        "automated"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5064,
-      "title": "Fix MLIR conv-pointwise-layout fusion splitting",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T18:57:37Z",
-      "updated_at": "2026-08-14T19:42:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5064",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5131,
       "title": "Remove MIGRAPHX_ENABLE_NHWC and make convolution layout a backend option",
       "author": "pfultz2",
@@ -226,21 +330,6 @@
       "updated_at": "2026-08-14T16:39:37Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5075",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5134,
-      "title": "[AIMIGRAPHX-1242] Support RFC0009 versioned install prefix for TheRock packaging (deb/rpm)",
-      "author": "kentqian",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T16:13:51Z",
-      "updated_at": "2026-08-14T16:19:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5134",
-      "labels": [
-        "dependencies",
-        "Continous Integration"
-      ],
       "draft": false
     },
     {
@@ -267,18 +356,6 @@
       "created_at": "2026-02-12T03:59:23Z",
       "updated_at": "2026-08-14T14:38:06Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4606",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5129,
-      "title": "8/11 bump rocmlir",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T20:35:42Z",
-      "updated_at": "2026-08-13T22:14:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5129",
       "labels": [],
       "draft": false
     },
@@ -325,30 +402,6 @@
       "draft": false
     },
     {
-      "number": 5112,
-      "title": "`dyn_slice` operator for symbolics and data-dependent operators",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-04T23:35:47Z",
-      "updated_at": "2026-08-13T19:41:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5112",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5092,
-      "title": "Add fp32 winograd for gfx12",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T15:59:32Z",
-      "updated_at": "2026-08-12T19:02:05Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5092",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5048,
       "title": "Preserve shape ops when removing QDQ pairs",
       "author": "ikalinic",
@@ -373,18 +426,6 @@
       "draft": true
     },
     {
-      "number": 5111,
-      "title": "Add a migraphx code review skill",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-04T15:51:16Z",
-      "updated_at": "2026-08-11T19:17:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5111",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5128,
       "title": "Split prefill/decode within single mxr",
       "author": "turneram",
@@ -394,20 +435,6 @@
       "updated_at": "2026-08-11T17:39:30Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5128",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5127,
-      "title": "Bump rocm-docs-core from 1.38.0 to 1.39.0 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T12:43:35Z",
-      "updated_at": "2026-08-11T14:48:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5127",
-      "labels": [
-        "documentation"
-      ],
       "draft": false
     },
     {
@@ -485,18 +512,6 @@
         "bugfix",
         "Windows"
       ],
-      "draft": false
-    },
-    {
-      "number": 4809,
-      "title": "Use fp32 FMA in channelwise conv",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T01:40:19Z",
-      "updated_at": "2026-08-06T00:17:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4809",
-      "labels": [],
       "draft": false
     },
     {
@@ -680,21 +695,6 @@
       "draft": true
     },
     {
-      "number": 4734,
-      "title": "Bump onnx from 1.17.0 to 1.21.0 in /tools",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-02T07:04:55Z",
-      "updated_at": "2026-07-10T10:25:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4734",
-      "labels": [
-        "dependencies",
-        "python"
-      ],
-      "draft": false
-    },
-    {
       "number": 5041,
       "title": "Fix `security_gate` workflow semantics for blocked external PRs",
       "author": "Copilot",
@@ -758,20 +758,6 @@
         "ok-to-test"
       ],
       "draft": false
-    },
-    {
-      "number": 4983,
-      "title": "NOT TO BE MERGED: Python script to benchmark mxr files - consumes mxr files with json encoding",
-      "author": "ahsan-ca",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-17T18:42:00Z",
-      "updated_at": "2026-06-18T03:31:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4983",
-      "labels": [
-        "skip bot checks"
-      ],
-      "draft": true
     },
     {
       "number": 4651,
@@ -1439,6 +1425,80 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/2687",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 4734,
+      "title": "Bump onnx from 1.17.0 to 1.21.0 in /tools",
+      "author": "dependabot[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-02T07:04:55Z",
+      "updated_at": "2026-08-17T22:03:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4734",
+      "labels": [
+        "dependencies",
+        "python"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5135,
+      "title": "Onnxruntime Weekly Sync 2026-08-14",
+      "author": "github-actions[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-14T17:28:54Z",
+      "updated_at": "2026-08-17T21:56:28Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5135",
+      "labels": [
+        "onnxruntime",
+        "dependencies",
+        "skip bot checks",
+        "automated"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5120,
+      "title": "[AIMIGRAPHX-1229] Support ROCm10 TheRock packaging with alternative GPU dependencies",
+      "author": "kentqian",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-06T20:29:06Z",
+      "updated_at": "2026-08-17T18:33:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5120",
+      "labels": [
+        "dependencies"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5014,
+      "title": "Hoist and horizontal dot",
+      "author": "TedThemistokleous",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-25T22:19:09Z",
+      "updated_at": "2026-08-17T17:50:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5014",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5132,
+      "title": "Disable ccache when using #embed",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T17:58:11Z",
+      "updated_at": "2026-08-17T17:50:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5132",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
     },
     {
       "number": 4881,
@@ -2464,89 +2524,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4936",
       "labels": [
         "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5051,
-      "title": "Bump rocm-docs-core from 1.35.0 to 1.36.0 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-09T12:47:19Z",
-      "updated_at": "2026-07-13T16:58:34Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5051",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5047,
-      "title": "update rocmlir to eccd4d7",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-08T14:22:18Z",
-      "updated_at": "2026-07-13T14:56:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5047",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5053,
-      "title": "Add mlss_use_specific_ops as a GPU backend option",
-      "author": "Zhaeong",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-09T16:16:05Z",
-      "updated_at": "2026-07-13T14:46:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5053",
-      "labels": [
-        "ok-to-test"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5015,
-      "title": "Slice over dynamic dimension",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T17:30:49Z",
-      "updated_at": "2026-07-13T13:25:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5015",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5027,
-      "title": "Fuse_pointwise fuse dynamic even if scalar",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T17:26:57Z",
-      "updated_at": "2026-07-13T13:24:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5027",
-      "labels": [
-        "bugfix",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5042,
-      "title": "Add notices about following LLVM AI Tool Use Policy",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-07T17:31:06Z",
-      "updated_at": "2026-07-13T13:24:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5042",
-      "labels": [
-        "high priority",
-        "simple",
-        "skip bot checks"
       ],
       "draft": false
     }

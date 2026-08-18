@@ -1,6 +1,52 @@
 {
-  "collected_at": "2026-08-17T08:29:18Z",
+  "collected_at": "2026-08-18T08:21:41Z",
   "issues": [
+    {
+      "number": 1018,
+      "title": "[Kernel] Add opt-in autotuning for Softmax",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-08-17T20:31:11Z",
+      "updated_at": "2026-08-18T08:19:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1018",
+      "labels": [
+        "enhancement",
+        "performance"
+      ]
+    },
+    {
+      "number": 1017,
+      "title": "[Kernel] Add row-wise Softmax backward",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-08-17T20:30:41Z",
+      "updated_at": "2026-08-17T22:59:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1017",
+      "labels": []
+    },
+    {
+      "number": 831,
+      "title": "[Feature]: Intra-kernel profiling",
+      "author": "benenzhu",
+      "state": "open",
+      "created_at": "2026-07-12T06:43:41Z",
+      "updated_at": "2026-08-17T22:27:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/831",
+      "labels": []
+    },
+    {
+      "number": 1016,
+      "title": "[Proposals Welcome] Grow `flydsl.extension` into a library of common GPU building blocks",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-08-17T10:04:48Z",
+      "updated_at": "2026-08-17T10:04:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1016",
+      "labels": [
+        "enhancement",
+        "FlyDSL/Customization"
+      ]
+    },
     {
       "number": 1002,
       "title": "[Issue]: fx.exp2 lowers to an OCML libcall instead of native v_exp_f32, and `fastmath` is silently dropped on that path",
@@ -165,16 +211,6 @@
       "created_at": "2026-07-15T08:22:02Z",
       "updated_at": "2026-07-16T02:12:36Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/862",
-      "labels": []
-    },
-    {
-      "number": 831,
-      "title": "[Feature]: Intra-kernel profiling",
-      "author": "benenzhu",
-      "state": "open",
-      "created_at": "2026-07-12T06:43:41Z",
-      "updated_at": "2026-07-13T08:37:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/831",
       "labels": []
     },
     {

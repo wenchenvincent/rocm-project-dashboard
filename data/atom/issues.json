@@ -1,6 +1,56 @@
 {
-  "collected_at": "2026-08-17T08:29:11Z",
+  "collected_at": "2026-08-18T08:21:33Z",
   "issues": [
+    {
+      "number": 1929,
+      "title": "[Feature]: Enable DP-attention + EP (mori) for Gated-DeltaNet MoE models on ATOM \u2014 pick up SGLang #31794",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-17T11:17:01Z",
+      "updated_at": "2026-08-17T16:47:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1929",
+      "labels": []
+    },
+    {
+      "number": 1935,
+      "title": "[Issue]: ATOM build holds **~16 GB/GPU more resident memory than SGLang without ATOM for the identical model**",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-17T16:45:12Z",
+      "updated_at": "2026-08-17T16:45:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1935",
+      "labels": []
+    },
+    {
+      "number": 1934,
+      "title": "[Feature]:  DeepSeek V4 on ATOM",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-17T16:35:07Z",
+      "updated_at": "2026-08-17T16:35:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1934",
+      "labels": []
+    },
+    {
+      "number": 1927,
+      "title": "[Feature]: Add Kimi\u2011K3 support to the ATOM SGLang plugin (enable ATOM\u2011SGLang serving/benchmarking of Kimi\u2011K3)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-17T10:33:14Z",
+      "updated_at": "2026-08-17T12:09:16Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1927",
+      "labels": []
+    },
+    {
+      "number": 1928,
+      "title": "[Documentation]: ATOM expansion should be consistent across documents",
+      "author": "mohanmithur",
+      "state": "open",
+      "created_at": "2026-08-17T10:42:10Z",
+      "updated_at": "2026-08-17T10:42:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1928",
+      "labels": []
+    },
     {
       "number": 1918,
       "title": "Qwen3.5 cannot start through the SGLang plugin on main (two independent failures)",
