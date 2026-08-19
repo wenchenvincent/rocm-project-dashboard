@@ -1,6 +1,102 @@
 {
-  "collected_at": "2026-08-18T08:21:36Z",
+  "collected_at": "2026-08-19T08:21:57Z",
   "prs": [
+    {
+      "number": 578,
+      "title": "feat(ep/v2): TDM dispatch transport for the flydsl backend",
+      "author": "XingerZhu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T12:10:36Z",
+      "updated_at": "2026-08-19T08:18:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/578",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 577,
+      "title": "perf(EPv2): rework the gfx1250 combine entry barrier and widen its grid",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T08:44:18Z",
+      "updated_at": "2026-08-19T07:21:11Z",
+      "html_url": "https://github.com/ROCm/mori/pull/577",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 540,
+      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T02:07:35Z",
+      "updated_at": "2026-08-19T06:44:56Z",
+      "html_url": "https://github.com/ROCm/mori/pull/540",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 579,
+      "title": "feat(umbp): GPU Direct Storage (hipfile) SSD-to-GPU read path",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T01:51:03Z",
+      "updated_at": "2026-08-19T04:08:32Z",
+      "html_url": "https://github.com/ROCm/mori/pull/579",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 566,
+      "title": "Feat/env check gpu memory",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T23:32:16Z",
+      "updated_at": "2026-08-19T02:26:29Z",
+      "html_url": "https://github.com/ROCm/mori/pull/566",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 580,
+      "title": "docs(ep): add English versions of the EP8/EP16 performance SOPs",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T02:15:26Z",
+      "updated_at": "2026-08-19T02:15:26Z",
+      "html_url": "https://github.com/ROCm/mori/pull/580",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 518,
+      "title": "MORI-IO: CPU hot-path improvements (profile-guided)",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-03T13:22:34Z",
+      "updated_at": "2026-08-18T13:49:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/518",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 544,
+      "title": "allocator: register mori as a torch SymmetricMemory backend",
+      "author": "carlushuang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T13:49:55Z",
+      "updated_at": "2026-08-18T09:34:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/544",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 573,
       "title": "Io cpp bench default",
@@ -10,18 +106,6 @@
       "created_at": "2026-08-17T18:33:02Z",
       "updated_at": "2026-08-18T08:19:16Z",
       "html_url": "https://github.com/ROCm/mori/pull/573",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 576,
-      "title": "test(ep/v2): one bench for both backends, with a correctness gate",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T05:49:05Z",
-      "updated_at": "2026-08-18T07:10:44Z",
-      "html_url": "https://github.com/ROCm/mori/pull/576",
       "labels": [],
       "draft": false
     },
@@ -38,54 +122,6 @@
       "draft": false
     },
     {
-      "number": 566,
-      "title": "Feat/env check gpu memory",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T23:32:16Z",
-      "updated_at": "2026-08-17T17:24:13Z",
-      "html_url": "https://github.com/ROCm/mori/pull/566",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 544,
-      "title": "allocator: register mori as a torch SymmetricMemory backend",
-      "author": "carlushuang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T13:49:55Z",
-      "updated_at": "2026-08-17T14:50:39Z",
-      "html_url": "https://github.com/ROCm/mori/pull/544",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 540,
-      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T02:07:35Z",
-      "updated_at": "2026-08-17T11:33:24Z",
-      "html_url": "https://github.com/ROCm/mori/pull/540",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 571,
-      "title": "(bugfix) Nightly CI",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T09:38:03Z",
-      "updated_at": "2026-08-17T09:38:03Z",
-      "html_url": "https://github.com/ROCm/mori/pull/571",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 570,
       "title": "test bnxt ci",
       "author": "QizhouZhang97",
@@ -96,30 +132,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/570",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 556,
-      "title": "Logger and timer macros improvements",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:09:38Z",
-      "updated_at": "2026-08-17T08:06:19Z",
-      "html_url": "https://github.com/ROCm/mori/pull/556",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 518,
-      "title": "MORI-IO: CPU hot-path improvements (profile-guided)",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-03T13:22:34Z",
-      "updated_at": "2026-08-14T14:28:52Z",
-      "html_url": "https://github.com/ROCm/mori/pull/518",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 547,
@@ -358,6 +370,54 @@
       "created_at": "2026-07-29T11:42:16Z",
       "updated_at": "2026-08-03T09:05:28Z",
       "html_url": "https://github.com/ROCm/mori/pull/506",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 581,
+      "title": "perf(umbp): give ranged get/put separate scratch arenas",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-19T06:08:41Z",
+      "updated_at": "2026-08-19T06:44:54Z",
+      "html_url": "https://github.com/ROCm/mori/pull/581",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 556,
+      "title": "Logger and timer macros improvements",
+      "author": "pemeliya",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T15:09:38Z",
+      "updated_at": "2026-08-18T15:59:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/556",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 571,
+      "title": "(bugfix) Nightly CI",
+      "author": "QizhouZhang97",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-17T09:38:03Z",
+      "updated_at": "2026-08-18T12:19:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/571",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 576,
+      "title": "test(ep/v2): one bench for both backends, with a correctness gate",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-18T05:49:05Z",
+      "updated_at": "2026-08-18T08:37:21Z",
+      "html_url": "https://github.com/ROCm/mori/pull/576",
       "labels": [],
       "draft": false
     },
@@ -1330,42 +1390,6 @@
       "created_at": "2026-07-06T03:39:54Z",
       "updated_at": "2026-07-20T09:06:04Z",
       "html_url": "https://github.com/ROCm/mori/pull/448",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 316,
-      "title": "feat(io): fall back RDMA backend to XGMI when no RDMA device is present",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-13T04:54:49Z",
-      "updated_at": "2026-07-20T09:04:38Z",
-      "html_url": "https://github.com/ROCm/mori/pull/316",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 315,
-      "title": "feat(EP): decouple fp8_blockwise combine scale_dim from user config",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-12T12:33:52Z",
-      "updated_at": "2026-07-20T09:04:37Z",
-      "html_url": "https://github.com/ROCm/mori/pull/315",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 309,
-      "title": "Refactor: decouple allocator from master and client",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-09T00:42:42Z",
-      "updated_at": "2026-07-20T09:04:36Z",
-      "html_url": "https://github.com/ROCm/mori/pull/309",
       "labels": [],
       "draft": false
     }

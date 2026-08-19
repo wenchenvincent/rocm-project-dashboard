@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-18T08:21:41Z",
+  "collected_at": "2026-08-19T08:22:02Z",
   "issues": [
     {
       "number": 1018,
@@ -13,16 +13,6 @@
         "enhancement",
         "performance"
       ]
-    },
-    {
-      "number": 1017,
-      "title": "[Kernel] Add row-wise Softmax backward",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-08-17T20:30:41Z",
-      "updated_at": "2026-08-17T22:59:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1017",
-      "labels": []
     },
     {
       "number": 831,

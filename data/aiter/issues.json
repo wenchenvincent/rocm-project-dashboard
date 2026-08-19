@@ -1,6 +1,56 @@
 {
-  "collected_at": "2026-08-18T08:21:27Z",
+  "collected_at": "2026-08-19T08:21:49Z",
   "issues": [
+    {
+      "number": 4840,
+      "title": "FlyDSL cache-name collision risk: compile_moe_reduction() residual-pointer signature change keeps the pre-change cache name when use_residual=False",
+      "author": "vvagaytsev",
+      "state": "open",
+      "created_at": "2026-08-18T23:14:01Z",
+      "updated_at": "2026-08-18T23:21:17Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4840",
+      "labels": []
+    },
+    {
+      "number": 4827,
+      "title": "[Bug] MoeSortingMultiPhaseKernel_P0_v1: missing lower bound on signed expert id causes GPU memory fault under EP (one-line fix)",
+      "author": "xudonlyu",
+      "state": "open",
+      "created_at": "2026-08-18T15:31:34Z",
+      "updated_at": "2026-08-18T17:28:03Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4827",
+      "labels": []
+    },
+    {
+      "number": 4831,
+      "title": "[Feature] gfx942 (CDNA3/MI300X) support \u2014 or fail-fast at selection time \u2014 for `mla_gluon` MLA decode and the `fp8_ds_mla` quant-insert path",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-08-18T16:15:14Z",
+      "updated_at": "2026-08-18T16:15:14Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4831",
+      "labels": []
+    },
+    {
+      "number": 4830,
+      "title": "[Bug] `top_k_top_p_sampling_from_probs` segfaults (host-side) during vLLM sampler warm-up on MI300X (gfx942), aiter main @ e8f438a",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-08-18T16:15:13Z",
+      "updated_at": "2026-08-18T16:15:13Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4830",
+      "labels": []
+    },
+    {
+      "number": 4819,
+      "title": "sampling.cuh may be missing hipcub includes \u2014 the ROCm 10 gate from #4754 may be unnecessary",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-08-18T08:47:04Z",
+      "updated_at": "2026-08-18T08:47:04Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4819",
+      "labels": []
+    },
     {
       "number": 4769,
       "title": "[Issue]: ROCm10.0.0rc2 missing headers",
@@ -69,16 +119,6 @@
       "created_at": "2026-08-13T15:35:26Z",
       "updated_at": "2026-08-14T20:51:07Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4735",
-      "labels": []
-    },
-    {
-      "number": 4765,
-      "title": "Triton RoPE kernel precision issue: ~15k ULP error vs reference implementation",
-      "author": "divakar-amd",
-      "state": "open",
-      "created_at": "2026-08-14T19:09:27Z",
-      "updated_at": "2026-08-14T19:09:53Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4765",
       "labels": []
     },
     {

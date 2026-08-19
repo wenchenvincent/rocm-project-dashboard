@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-18T08:21:04Z",
+  "collected_at": "2026-08-19T08:21:30Z",
   "issues": [
     {
       "number": 17050,
@@ -7,7 +7,7 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-18T07:49:45Z",
+      "updated_at": "2026-08-19T08:10:05Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
@@ -17,13 +17,53 @@
       "author": "ispobock",
       "state": "open",
       "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-18T07:17:09Z",
+      "updated_at": "2026-08-19T06:23:17Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20865",
       "labels": [
         "enhancement",
         "good first issue",
         "ci"
       ]
+    },
+    {
+      "number": 27194,
+      "title": "moe_kernels.py, stage-2 reduce path: small SGLANG_MORI_NUM_MAX_DISPATCH_TOKENS_PER_RANK silently corrupts output (gsm8k=0) at low concurrency",
+      "author": "Oseltamivir",
+      "state": "open",
+      "created_at": "2026-06-04T00:27:55Z",
+      "updated_at": "2026-08-19T02:03:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27194",
+      "labels": []
+    },
+    {
+      "number": 35420,
+      "title": "[Feature] Add an opt-in SM80 fallback for DeepSeek Sparse Attention (DSA) on NVIDIA A100",
+      "author": "xiangui33423",
+      "state": "open",
+      "created_at": "2026-08-19T01:20:42Z",
+      "updated_at": "2026-08-19T01:20:42Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35420",
+      "labels": []
+    },
+    {
+      "number": 35348,
+      "title": "[Bug] [AMD] torch.compile: \"launcher() missing 1 required positional argument: '_grid_2'\" in _fused_gate_sigmoid_mul_add_kernel on ROCm + torch 2.11 / Triton 3.7",
+      "author": "chuyeh",
+      "state": "open",
+      "created_at": "2026-08-18T15:25:46Z",
+      "updated_at": "2026-08-18T15:25:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35348",
+      "labels": []
+    },
+    {
+      "number": 26890,
+      "title": "[AITER-Upgrade] AITER Scout Status",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-06-01T06:01:24Z",
+      "updated_at": "2026-08-18T14:02:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
+      "labels": []
     },
     {
       "number": 21302,
@@ -33,16 +73,6 @@
       "created_at": "2026-03-24T09:28:38Z",
       "updated_at": "2026-08-18T06:11:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
-      "number": 35144,
-      "title": "[Bug] EAGLE/NEXTN TP=2 hangs at warmup on Intel XPU after #34238 moved the verify-decision TP broadcast out of the sampling branch",
-      "author": "dayanandav",
-      "state": "open",
-      "created_at": "2026-08-17T10:12:49Z",
-      "updated_at": "2026-08-18T05:42:55Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35144",
       "labels": []
     },
     {
@@ -139,16 +169,6 @@
       "created_at": "2026-08-06T09:20:51Z",
       "updated_at": "2026-08-15T19:04:06Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33861",
-      "labels": []
-    },
-    {
-      "number": 34604,
-      "title": "[Bug] Kimi-K3 tool call parser fails ~8x/hour in production: TypeError 'string indices must be integers' and json 'unexpected character'",
-      "author": "stefanskiasan",
-      "state": "open",
-      "created_at": "2026-08-12T17:36:11Z",
-      "updated_at": "2026-08-15T16:59:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34604",
       "labels": []
     },
     {
@@ -301,16 +321,6 @@
       "labels": []
     },
     {
-      "number": 26890,
-      "title": "[AITER-Upgrade] AITER Scout Status",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-06-01T06:01:24Z",
-      "updated_at": "2026-08-11T08:35:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
-      "labels": []
-    },
-    {
       "number": 34367,
       "title": "[Bug][diffusion] LongLive2 `longlive2_i2v` aborts: num_frames not divisible by num_frames_per_block (causal DMD)",
       "author": "kangwangamd",
@@ -437,18 +447,6 @@
       "updated_at": "2026-08-04T20:08:08Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31924",
       "labels": []
-    },
-    {
-      "number": 22464,
-      "title": "[Parity with CUDA] FP8 & FP4 AMD Multi-Node PD Disagg Nightly Regression Testing (ideally with AMD first class Pollara NICs) with multiple prefill workers + multiple decode workers with shallow EP (EP8) and with wide EP (>=EP16)",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-09T18:25:32Z",
-      "updated_at": "2026-08-04T02:17:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22464",
-      "labels": [
-        "inactive"
-      ]
     },
     {
       "number": 30599,

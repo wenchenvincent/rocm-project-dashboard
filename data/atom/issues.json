@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-08-18T08:21:33Z",
+  "collected_at": "2026-08-19T08:21:55Z",
   "issues": [
+    {
+      "number": 1945,
+      "title": "[Issue]: GPT-OSS-120B fails on the ATOM SGLang stack (MXFP4 `triton_kernel` MoE)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-18T10:50:11Z",
+      "updated_at": "2026-08-18T14:13:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1945",
+      "labels": []
+    },
+    {
+      "number": 1944,
+      "title": "[Feature]:  FP8 block-quant MoE rejects TP shards narrower than block_n (Qwen3.6-35B-A3B)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-18T09:51:22Z",
+      "updated_at": "2026-08-18T09:51:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1944",
+      "labels": []
+    },
     {
       "number": 1929,
       "title": "[Feature]: Enable DP-attention + EP (mori) for Gated-DeltaNet MoE models on ATOM \u2014 pick up SGLang #31794",

@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-08-18T08:22:18Z",
+  "collected_at": "2026-08-19T08:22:37Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 11,
-      "merged": 7,
+      "opened": 7,
+      "merged": 6,
       "closed": 0
     },
     "last_week": {
-      "opened": 21,
+      "opened": 22,
       "merged": 13,
       "closed": 0
     },
@@ -18,7 +18,7 @@
     "stale_prs": 6
   },
   "contributors": {
-    "active_this_week": 16,
+    "active_this_week": 14,
     "total_contributors": 41,
     "top_contributors": [
       {
@@ -76,7 +76,7 @@
         "commits": 0
       },
       {
-        "author": "liminfei-amd",
+        "author": "mengfei-jiang",
         "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 20,
     "opened_this_week": 2,
-    "closed_this_week": 2,
+    "closed_this_week": 3,
     "unanswered": 8
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 60.7,
+    "days_since_last": 61.7,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

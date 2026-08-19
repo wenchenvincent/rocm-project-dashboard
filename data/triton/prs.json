@@ -1,15 +1,39 @@
 {
-  "collected_at": "2026-08-18T08:21:06Z",
+  "collected_at": "2026-08-19T08:21:32Z",
   "prs": [
     {
-      "number": 11346,
-      "title": "[AMD] Preserve dominance when preparing if combining",
-      "author": "liminfei-amd",
+      "number": 11246,
+      "title": "[AMD]Fix empty range inference for HistogramOp in RangeAnalysis",
+      "author": "mengfei-jiang",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-18T05:57:00Z",
-      "updated_at": "2026-08-18T08:20:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11346",
+      "created_at": "2026-08-10T08:46:05Z",
+      "updated_at": "2026-08-19T07:05:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11246",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11068,
+      "title": "[AMD] Propagate discardable attributes on the small-tensor pointer path",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T09:39:52Z",
+      "updated_at": "2026-08-19T06:28:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11068",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11028,
+      "title": "[AMD] TheRock support",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T20:59:35Z",
+      "updated_at": "2026-08-19T02:28:14Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11028",
       "labels": [],
       "draft": false
     },
@@ -20,8 +44,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-13T14:39:47Z",
-      "updated_at": "2026-08-18T01:51:43Z",
+      "updated_at": "2026-08-18T21:28:36Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11294",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11295,
+      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T15:41:53Z",
+      "updated_at": "2026-08-18T17:00:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11295",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11346,
+      "title": "[AMD] Preserve dominance when preparing if combining",
+      "author": "liminfei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T05:57:00Z",
+      "updated_at": "2026-08-18T08:20:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11346",
       "labels": [],
       "draft": false
     },
@@ -62,18 +110,6 @@
       "draft": false
     },
     {
-      "number": 11028,
-      "title": "[AMD] TheRock support",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T20:59:35Z",
-      "updated_at": "2026-08-17T18:02:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11028",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11313,
       "title": "[AMD][BACKEND] Fix under-approximated loop-carried ranges in range analysis",
       "author": "AlexAUT",
@@ -108,18 +144,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11227",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11295,
-      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-08-14T19:00:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11295",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11289,
@@ -252,30 +276,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11247",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11068,
-      "title": "[AMD] Propagate discardable attributes on the small-tensor pointer path",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T09:39:52Z",
-      "updated_at": "2026-08-10T09:40:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11068",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11246,
-      "title": "[AMD][DRAFT] Fix empty range inference for HistogramOp in RangeAnalysis",
-      "author": "mengfei-jiang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T08:46:05Z",
-      "updated_at": "2026-08-10T08:47:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11246",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11223,
