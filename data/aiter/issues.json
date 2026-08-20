@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-08-19T08:21:49Z",
+  "collected_at": "2026-08-20T08:22:54Z",
   "issues": [
+    {
+      "number": 4867,
+      "title": "[Triton] gemm_afp4wfp4 preshuffle split-K OOB (GPU memory fault) on gfx950 for M=32/N=8192/K=8192 (regressed by #4630)",
+      "author": "Rohan138",
+      "state": "open",
+      "created_at": "2026-08-19T22:09:21Z",
+      "updated_at": "2026-08-19T22:55:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4867",
+      "labels": []
+    },
+    {
+      "number": 4855,
+      "title": "[Issue]: Silent wrong results on gfx942 TP8 with GLM-5.2-FP8: degenerate output, fixed by VLLM_ROCM_USE_AITER_CUSTOM_AR=0",
+      "author": "jin-amd",
+      "state": "open",
+      "created_at": "2026-08-19T10:20:22Z",
+      "updated_at": "2026-08-19T12:50:02Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4855",
+      "labels": []
+    },
     {
       "number": 4840,
       "title": "FlyDSL cache-name collision risk: compile_moe_reduction() residual-pointer signature change keeps the pre-change cache name when use_residual=False",

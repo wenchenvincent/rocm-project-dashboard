@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-08-19T08:21:57Z",
+  "collected_at": "2026-08-20T08:23:02Z",
   "prs": [
+    {
+      "number": 587,
+      "title": "feat(umbp): peer-local multi-backend placement and logical tier management",
+      "author": "wuyl1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T05:52:27Z",
+      "updated_at": "2026-08-20T05:53:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/587",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 585,
+      "title": "Don't merge: AI NIC perf collection",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T16:06:08Z",
+      "updated_at": "2026-08-20T02:32:51Z",
+      "html_url": "https://github.com/ROCm/mori/pull/585",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 586,
+      "title": "perf(ep): optimize IntraNode dispatch kernel for MI350X",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T20:58:15Z",
+      "updated_at": "2026-08-20T02:07:44Z",
+      "html_url": "https://github.com/ROCm/mori/pull/586",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 584,
+      "title": "Drop local xla_ffi headers in favor of jax-backed header path",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T13:06:47Z",
+      "updated_at": "2026-08-19T15:19:51Z",
+      "html_url": "https://github.com/ROCm/mori/pull/584",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 582,
+      "title": "chore(EPv2): initialize the routing dest_map once within the op construct",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T10:11:15Z",
+      "updated_at": "2026-08-19T12:59:44Z",
+      "html_url": "https://github.com/ROCm/mori/pull/582",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 540,
+      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T02:07:35Z",
+      "updated_at": "2026-08-19T11:57:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/540",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 583,
+      "title": "MORI IO improvements 2nd try",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T10:39:07Z",
+      "updated_at": "2026-08-19T11:20:32Z",
+      "html_url": "https://github.com/ROCm/mori/pull/583",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 578,
       "title": "feat(ep/v2): TDM dispatch transport for the flydsl backend",
@@ -8,7 +92,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-18T12:10:36Z",
-      "updated_at": "2026-08-19T08:18:28Z",
+      "updated_at": "2026-08-19T08:49:30Z",
       "html_url": "https://github.com/ROCm/mori/pull/578",
       "labels": [],
       "draft": false
@@ -22,18 +106,6 @@
       "created_at": "2026-08-18T08:44:18Z",
       "updated_at": "2026-08-19T07:21:11Z",
       "html_url": "https://github.com/ROCm/mori/pull/577",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 540,
-      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T02:07:35Z",
-      "updated_at": "2026-08-19T06:44:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/540",
       "labels": [],
       "draft": false
     },
@@ -58,18 +130,6 @@
       "created_at": "2026-08-14T23:32:16Z",
       "updated_at": "2026-08-19T02:26:29Z",
       "html_url": "https://github.com/ROCm/mori/pull/566",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 580,
-      "title": "docs(ep): add English versions of the EP8/EP16 performance SOPs",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T02:15:26Z",
-      "updated_at": "2026-08-19T02:15:26Z",
-      "html_url": "https://github.com/ROCm/mori/pull/580",
       "labels": [],
       "draft": false
     },
@@ -374,13 +434,49 @@
       "draft": false
     },
     {
+      "number": 403,
+      "title": "perf(umbp): optimize PoolClient BatchPut/BatchGet",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-17T06:21:45Z",
+      "updated_at": "2026-08-19T12:31:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/403",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 380,
+      "title": "test(umbp): align distributed tests with current API and regroup CMake",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-10T14:49:40Z",
+      "updated_at": "2026-08-19T12:31:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/380",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 343,
+      "title": "Feat: Enable SSD tier in distributed UMBP",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-01T02:52:21Z",
+      "updated_at": "2026-08-19T12:31:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/343",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 581,
       "title": "perf(umbp): give ranged get/put separate scratch arenas",
       "author": "isytwu",
       "state": "closed",
       "merged": true,
       "created_at": "2026-08-19T06:08:41Z",
-      "updated_at": "2026-08-19T06:44:54Z",
+      "updated_at": "2026-08-19T11:57:55Z",
       "html_url": "https://github.com/ROCm/mori/pull/581",
       "labels": [],
       "draft": false
@@ -1354,42 +1450,6 @@
       "created_at": "2026-07-06T13:48:15Z",
       "updated_at": "2026-07-21T14:52:34Z",
       "html_url": "https://github.com/ROCm/mori/pull/452",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 457,
-      "title": "fix: only define true/false for C in bnxt_re_hsi.h",
-      "author": "pemeliya",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-07T15:43:13Z",
-      "updated_at": "2026-07-21T14:52:33Z",
-      "html_url": "https://github.com/ROCm/mori/pull/457",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 494,
-      "title": "fix(EPv2): resolve comb_bar cross-call race causing random combine hang",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-21T06:00:39Z",
-      "updated_at": "2026-07-21T07:16:41Z",
-      "html_url": "https://github.com/ROCm/mori/pull/494",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 448,
-      "title": "feat(EPv2): [preview] FlyDSL intranode MoE dispatch/combine",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-06T03:39:54Z",
-      "updated_at": "2026-07-20T09:06:04Z",
-      "html_url": "https://github.com/ROCm/mori/pull/448",
       "labels": [],
       "draft": false
     }

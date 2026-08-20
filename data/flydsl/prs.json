@@ -1,6 +1,212 @@
 {
-  "collected_at": "2026-08-19T08:22:00Z",
+  "collected_at": "2026-08-20T08:23:06Z",
   "prs": [
+    {
+      "number": 1039,
+      "title": "[Docs] Remove Disclaimer section from README",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T08:20:47Z",
+      "updated_at": "2026-08-20T08:21:54Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1039",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1020,
+      "title": "[Bugfix][Kernel] Fix fp8 dense attention: softmax normalisation and an int32 dim overflow",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T00:14:06Z",
+      "updated_at": "2026-08-20T07:42:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1020",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1033,
+      "title": "[Bugfix][Kernel] Fix NaN from the lazy rescale on a wide score range",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T18:36:41Z",
+      "updated_at": "2026-08-20T07:36:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1033",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1001,
+      "title": "[Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T08:37:46Z",
+      "updated_at": "2026-08-20T07:28:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
+      "labels": [
+        "invalid"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1009,
+      "title": "[Fix] Restore the gfx950 XCD mapping for bf16 dense attention",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T05:50:38Z",
+      "updated_at": "2026-08-20T07:27:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1009",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1028,
+      "title": "[Kernel][Perf] Speed up the RDNA3 GEMM up to 1.85x by choosing the tile from the shape",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T05:47:22Z",
+      "updated_at": "2026-08-20T07:12:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1028",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1035,
+      "title": "[Fix] Let fx.maxnumf inherit the ambient fastmath",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T19:37:59Z",
+      "updated_at": "2026-08-20T07:28:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1035",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1037,
+      "title": "[ROCDL] Lower approximate exp2 to native intrinsic",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T21:55:41Z",
+      "updated_at": "2026-08-20T06:45:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1037",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1031,
+      "title": "[Ext][Coop] Add cooperative warp- and block-scope collectives",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T11:33:31Z",
+      "updated_at": "2026-08-20T05:25:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1031",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1008,
+      "title": "[Kernel][Perf] Enable the gmem->LDS async copy for f16/bf16 preshuffle GEMM",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T22:41:19Z",
+      "updated_at": "2026-08-20T05:19:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1008",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1015,
+      "title": "[Tools] Add architecture-general ISA resource diff tool",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T09:35:27Z",
+      "updated_at": "2026-08-20T05:03:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1032,
+      "title": "[Kernel] Add dilation, padding_mode and groups to convolution kernel.",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T13:27:43Z",
+      "updated_at": "2026-08-20T04:55:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1032",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1038,
+      "title": "[AOT] Add resilient parallel job scheduler",
+      "author": "zhiding512",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T00:51:56Z",
+      "updated_at": "2026-08-20T01:15:26Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1038",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1027,
+      "title": "[Skills] Fix silently-ignored frontmatter, de-drift kernel skills and CLAUDE.md",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T20:18:05Z",
+      "updated_at": "2026-08-19T20:23:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1027",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1022,
+      "title": "[Kernel] Add opt-in autotuning for Softmax",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T08:19:04Z",
+      "updated_at": "2026-08-19T19:14:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1022",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "[Perf] Optimize rmsnorm/layernorm",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-08-19T16:00:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1012,
+      "title": "[MFMA] Add 16x16x16 bf16/f16 support with fly-fix-bitcast-width pass",
+      "author": "RichardChamberlain1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T11:06:19Z",
+      "updated_at": "2026-08-19T13:34:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1012",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 910,
       "title": "[Kernel][Perf] Optimize paged-attention metadata decode",
@@ -8,7 +214,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-27T05:23:12Z",
-      "updated_at": "2026-08-19T08:16:35Z",
+      "updated_at": "2026-08-19T09:33:12Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/910",
       "labels": [],
       "draft": false
@@ -24,102 +230,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1020,
-      "title": "[Bugfix][Kernel] Fix fp8 dense attention: softmax normalisation and an int32 dim overflow",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T00:14:06Z",
-      "updated_at": "2026-08-19T08:07:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1020",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1009,
-      "title": "[Fix] Restore the gfx950 XCD mapping for bf16 dense attention",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T05:50:38Z",
-      "updated_at": "2026-08-19T08:04:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1009",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1027,
-      "title": "[Skills] Fix silently-ignored frontmatter, de-drift kernel skills and CLAUDE.md",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T20:18:05Z",
-      "updated_at": "2026-08-19T07:13:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1027",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1029,
-      "title": "[ROCDL] Accept IntegerAttr in the wait-counter for backward compatibility",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T06:24:40Z",
-      "updated_at": "2026-08-19T06:27:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1029",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1028,
-      "title": "[Kernel][Perf] Speed up the RDNA3 GEMM up to 1.85x by choosing the tile from the shape",
-      "author": "vlluvia",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T05:47:22Z",
-      "updated_at": "2026-08-19T05:51:57Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1028",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1015,
-      "title": "[WIP] [Feature] Add architecture-general ISA resource diff tool",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T09:35:27Z",
-      "updated_at": "2026-08-19T05:33:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1022,
-      "title": "[Kernel] Add opt-in autotuning for Softmax",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T08:19:04Z",
-      "updated_at": "2026-08-18T23:40:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1022",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1026,
-      "title": "[CI] Track Softmax backward in the benchmark dashboard",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T19:27:15Z",
-      "updated_at": "2026-08-18T19:41:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1026",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 924,
@@ -194,20 +304,6 @@
       "draft": false
     },
     {
-      "number": 1001,
-      "title": "[Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T08:37:46Z",
-      "updated_at": "2026-08-17T10:08:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
-      "labels": [
-        "invalid"
-      ],
-      "draft": false
-    },
-    {
       "number": 987,
       "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
       "author": "jli-melchior",
@@ -216,30 +312,6 @@
       "created_at": "2026-08-08T11:53:09Z",
       "updated_at": "2026-08-17T09:48:43Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1012,
-      "title": "[MFMA] Add 16x16x16 bf16/f16 support with fly-fix-bitcast-width pass",
-      "author": "RichardChamberlain1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T11:06:19Z",
-      "updated_at": "2026-08-14T11:06:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1012",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1008,
-      "title": "[Kernel][Perf] Enable the gmem->LDS async copy for f16/bf16 preshuffle GEMM",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T22:41:19Z",
-      "updated_at": "2026-08-13T23:10:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1008",
       "labels": [],
       "draft": false
     },
@@ -255,18 +327,6 @@
       "labels": [
         "multi-gpu"
       ],
-      "draft": false
-    },
-    {
-      "number": 848,
-      "title": "[Perf] Optimize rmsnorm/layernorm",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-08-12T13:53:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
-      "labels": [],
       "draft": false
     },
     {
@@ -866,6 +926,42 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1026,
+      "title": "[CI] Track Softmax backward in the benchmark dashboard",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-18T19:27:15Z",
+      "updated_at": "2026-08-20T05:24:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1026",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1029,
+      "title": "[ROCDL] Accept IntegerAttr in the wait-counter for backward compatibility",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-19T06:24:40Z",
+      "updated_at": "2026-08-20T04:42:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1029",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1030,
+      "title": "[FlyToROCDL] Honor fly pointer alignment in ptr.load/ptr.store lowering",
+      "author": "xudoyuan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-19T10:22:34Z",
+      "updated_at": "2026-08-20T04:41:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1030",
       "labels": [],
       "draft": false
     },
@@ -1753,54 +1849,6 @@
       "created_at": "2026-07-10T06:34:28Z",
       "updated_at": "2026-07-24T04:49:34Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/825",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 885,
-      "title": "[gfx1250] Refactor MoE/GEMM kernels with layout/atom API",
-      "author": "aoli26",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-23T04:18:08Z",
-      "updated_at": "2026-07-24T04:47:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/885",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 788,
-      "title": "autotune: keep CI search opt-in (#770)",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T08:04:11Z",
-      "updated_at": "2026-07-23T15:04:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/788",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 893,
-      "title": "Release: bump version to 0.3.0",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-23T14:54:33Z",
-      "updated_at": "2026-07-23T14:56:40Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/893",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 880,
-      "title": "refactor(expr): move buffer_ops and split gfx1250 mcast policy to kernels.common",
-      "author": "Phil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-22T07:35:37Z",
-      "updated_at": "2026-07-23T14:26:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/880",
       "labels": [],
       "draft": false
     }

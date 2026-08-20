@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-19T08:21:30Z",
+  "collected_at": "2026-08-20T08:22:33Z",
   "issues": [
     {
       "number": 17050,
@@ -7,7 +7,7 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-19T08:10:05Z",
+      "updated_at": "2026-08-20T07:50:51Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
@@ -17,13 +17,65 @@
       "author": "ispobock",
       "state": "open",
       "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-19T06:23:17Z",
+      "updated_at": "2026-08-20T07:30:00Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20865",
       "labels": [
         "enhancement",
         "good first issue",
         "ci"
       ]
+    },
+    {
+      "number": 34720,
+      "title": "[Bug] [XPU] Qwen3.5 GDN + speculative decode: causal_conv1d_update_xpu() got an unexpected keyword argument 'intermediate_conv_window'",
+      "author": "dayanandav",
+      "state": "open",
+      "created_at": "2026-08-13T09:40:34Z",
+      "updated_at": "2026-08-20T07:04:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34720",
+      "labels": []
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-08-20T02:34:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 35591,
+      "title": "[Bug] ROCm images pin AITER below the FlyDSL MXFP4 MoE kernels, making tuned AITER_CONFIG_FMOE tables unusable on gfx950",
+      "author": "ThomasNing",
+      "state": "open",
+      "created_at": "2026-08-20T00:04:19Z",
+      "updated_at": "2026-08-20T01:09:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35591",
+      "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-08-20T00:57:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 35518,
+      "title": "[diffusion] MiniMax H3 full-loop denoise rejects ROCm",
+      "author": "jeremyzhang866",
+      "state": "open",
+      "created_at": "2026-08-19T12:39:41Z",
+      "updated_at": "2026-08-19T12:39:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35518",
+      "labels": []
     },
     {
       "number": 27194,
@@ -63,16 +115,6 @@
       "created_at": "2026-06-01T06:01:24Z",
       "updated_at": "2026-08-18T14:02:39Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/26890",
-      "labels": []
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-08-18T06:11:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
     },
     {
@@ -205,16 +247,6 @@
         "amd",
         "aiter"
       ]
-    },
-    {
-      "number": 34720,
-      "title": "[Bug] [XPU] Qwen3.5 GDN + speculative decode: causal_conv1d_update_xpu() got an unexpected keyword argument 'intermediate_conv_window'",
-      "author": "dayanandav",
-      "state": "open",
-      "created_at": "2026-08-13T09:40:34Z",
-      "updated_at": "2026-08-14T06:21:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34720",
-      "labels": []
     },
     {
       "number": 27937,
@@ -459,16 +491,6 @@
       "labels": []
     },
     {
-      "number": 33383,
-      "title": "[AMD] EAGLE3 spec-decode unsupported for MiniMax-M3: minimax_sparse_backend has no decode-shaped forward path (extend_seq_lens=None)",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-08-03T11:12:25Z",
-      "updated_at": "2026-08-03T11:12:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33383",
-      "labels": []
-    },
-    {
       "number": 33292,
       "title": "[Bug] [multimodal_gen] CustomOp.dispatch_forward() XPU breaking model construction on Intel GPUs",
       "author": "dayanandav",
@@ -592,16 +614,6 @@
       "created_at": "2026-07-29T02:17:34Z",
       "updated_at": "2026-07-29T02:28:53Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/32712",
-      "labels": []
-    },
-    {
-      "number": 31774,
-      "title": "[RFC] Backend, KV dtype and platform compatibility is checked case by case, and the responses are inconsistent",
-      "author": "mosya415",
-      "state": "open",
-      "created_at": "2026-07-20T11:56:07Z",
-      "updated_at": "2026-07-27T22:15:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31774",
       "labels": []
     }
   ]

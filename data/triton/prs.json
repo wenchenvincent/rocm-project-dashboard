@@ -1,15 +1,87 @@
 {
-  "collected_at": "2026-08-19T08:21:32Z",
+  "collected_at": "2026-08-20T08:22:35Z",
   "prs": [
+    {
+      "number": 11375,
+      "title": "[Release] [Cherry-Pick] [AMD] Preserve i32 accumulation for small-K int8 dots (#11282)",
+      "author": "lohiaj",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T05:32:34Z",
+      "updated_at": "2026-08-20T05:32:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11375",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11246,
       "title": "[AMD]Fix empty range inference for HistogramOp in RangeAnalysis",
       "author": "mengfei-jiang",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-10T08:46:05Z",
+      "updated_at": "2026-08-20T03:48:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11246",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11374,
+      "title": "[AMD][gfx1250] Auto-select attention prefill tile and schedule",
+      "author": "nithinsubbiah",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-10T08:46:05Z",
-      "updated_at": "2026-08-19T07:05:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11246",
+      "created_at": "2026-08-20T01:46:57Z",
+      "updated_at": "2026-08-20T03:20:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11374",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11294,
+      "title": "[AMD] Map tl.const pointer args to constant address space",
+      "author": "jerryyin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T14:39:47Z",
+      "updated_at": "2026-08-19T21:31:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11294",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11313,
+      "title": "[AMD][BACKEND] Fix under-approximated loop-carried ranges in range analysis",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-14T13:37:36Z",
+      "updated_at": "2026-08-19T21:06:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11313",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11028,
+      "title": "[AMD] TheRock support",
+      "author": "ZelboK",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-23T20:59:35Z",
+      "updated_at": "2026-08-19T16:56:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11028",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11365,
+      "title": "[AMD][LAYOUTS] Refine swizzling for mixed tile bases and asymmetric bank configurations",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T08:40:24Z",
+      "updated_at": "2026-08-19T08:42:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11365",
       "labels": [],
       "draft": false
     },
@@ -24,30 +96,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11068",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11028,
-      "title": "[AMD] TheRock support",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T20:59:35Z",
-      "updated_at": "2026-08-19T02:28:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11028",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11294,
-      "title": "[AMD] Map tl.const pointer args to constant address space",
-      "author": "jerryyin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T14:39:47Z",
-      "updated_at": "2026-08-18T21:28:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11294",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 11295,
@@ -106,18 +154,6 @@
       "created_at": "2026-08-12T17:34:06Z",
       "updated_at": "2026-08-17T18:07:15Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11282",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11313,
-      "title": "[AMD][BACKEND] Fix under-approximated loop-carried ranges in range analysis",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T13:37:36Z",
-      "updated_at": "2026-08-17T07:49:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11313",
       "labels": [],
       "draft": false
     },
@@ -542,30 +578,6 @@
       "draft": false
     },
     {
-      "number": 11113,
-      "title": "[AMD] Remove MachineSink fence workaround now that LLVM is fixed",
-      "author": "tyb0807",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-30T17:46:16Z",
-      "updated_at": "2026-08-01T06:40:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11113",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10906,
-      "title": " [AMD] Restrict BarrierOpConversion to CDNA to avoid ROCm numeric drift on RDNA",
-      "author": "k-artem",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-16T14:44:45Z",
-      "updated_at": "2026-07-31T16:35:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10906",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11049,
       "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
       "author": "JAGANNATHANJP",
@@ -574,18 +586,6 @@
       "created_at": "2026-07-25T17:04:26Z",
       "updated_at": "2026-07-31T14:29:19Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11049",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10725,
-      "title": "[AMD] Optimize warp-pipeline backedge barrier placement",
-      "author": "willghatch",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T00:26:46Z",
-      "updated_at": "2026-07-30T21:59:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10725",
       "labels": [],
       "draft": false
     },

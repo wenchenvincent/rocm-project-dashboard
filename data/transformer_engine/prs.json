@@ -1,16 +1,32 @@
 {
-  "collected_at": "2026-08-19T08:22:03Z",
+  "collected_at": "2026-08-20T08:23:09Z",
   "prs": [
     {
-      "number": 707,
-      "title": "Persistent AG + GEMM kernels w/ HipKittens & UserBuffers",
-      "author": "alextmagro",
+      "number": 706,
+      "title": "Disable FlashAttention on ROCm for MLA-style unequal QK/V head dims",
+      "author": "sudhu2k",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-18T20:44:30Z",
-      "updated_at": "2026-08-19T00:25:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/707",
-      "labels": [],
+      "created_at": "2026-08-18T19:09:44Z",
+      "updated_at": "2026-08-20T05:11:15Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/706",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "sGPU Test Scheduling: Global Work Queue",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T14:24:23Z",
+      "updated_at": "2026-08-20T05:10:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -20,8 +36,64 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-12T01:02:21Z",
-      "updated_at": "2026-08-18T21:16:56Z",
+      "updated_at": "2026-08-20T03:56:23Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 707,
+      "title": "Persistent AG + GEMM kernels w/ HipKittens & UserBuffers",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T20:44:30Z",
+      "updated_at": "2026-08-19T22:59:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/707",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 709,
+      "title": "Update to new QoLA/CK-JIT/AITER",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T22:08:25Z",
+      "updated_at": "2026-08-19T22:08:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/709",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": true
+    },
+    {
+      "number": 708,
+      "title": "[ROCm] Route dense CP softmax-LSE correction through a native kernel",
+      "author": "zjin-lcf",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T21:27:04Z",
+      "updated_at": "2026-08-19T21:28:15Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/708",
+      "labels": [
+        "community-contribution"
+      ],
+      "draft": false
+    },
+    {
+      "number": 678,
+      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
+      "author": "shurale-nkn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T15:17:24Z",
+      "updated_at": "2026-08-19T21:10:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
       "labels": [
         "ci-level 3"
       ],
@@ -34,24 +106,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-18T15:42:54Z",
-      "updated_at": "2026-08-18T20:58:14Z",
+      "updated_at": "2026-08-19T19:14:26Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 706,
-      "title": "Disable FlashAttention on ROCm for MLA-style unequal QK/V head dims",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T19:09:44Z",
-      "updated_at": "2026-08-18T19:49:26Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/706",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 694,
@@ -104,34 +162,6 @@
       "created_at": "2026-06-24T21:57:11Z",
       "updated_at": "2026-08-17T22:17:29Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 678,
-      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-08-17T10:26:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 696,
-      "title": "sGPU Test Scheduling: Global Work Queue",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T14:24:23Z",
-      "updated_at": "2026-08-14T21:22:27Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
       "labels": [
         "ci-level 3"
       ],

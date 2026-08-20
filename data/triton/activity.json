@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-08-19T08:22:37Z",
+  "collected_at": "2026-08-20T08:23:52Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 7,
-      "merged": 6,
+      "opened": 8,
+      "merged": 7,
       "closed": 0
     },
     "last_week": {
-      "opened": 22,
-      "merged": 13,
+      "opened": 19,
+      "merged": 12,
       "closed": 0
     },
     "median_time_to_merge_hours": 16.9,
@@ -18,8 +18,8 @@
     "stale_prs": 6
   },
   "contributors": {
-    "active_this_week": 14,
-    "total_contributors": 41,
+    "active_this_week": 15,
+    "total_contributors": 42,
     "top_contributors": [
       {
         "author": "antiagainst",
@@ -30,17 +30,11 @@
       {
         "author": "ZelboK",
         "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "jerryyin",
-        "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "willghatch",
+        "author": "jerryyin",
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
@@ -52,15 +46,27 @@
         "commits": 0
       },
       {
+        "author": "lohiaj",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "AlexAUT",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
         "author": "umangyadav",
         "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "AlexAUT",
+        "author": "willghatch",
         "prs_submitted": 2,
-        "prs_merged": 1,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -70,15 +76,9 @@
         "commits": 0
       },
       {
-        "author": "tyb0807",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
         "author": "mengfei-jiang",
         "prs_submitted": 1,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 20,
     "opened_this_week": 2,
-    "closed_this_week": 3,
+    "closed_this_week": 6,
     "unanswered": 8
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 61.7,
+    "days_since_last": 62.7,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

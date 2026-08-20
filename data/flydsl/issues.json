@@ -1,6 +1,19 @@
 {
-  "collected_at": "2026-08-19T08:22:02Z",
+  "collected_at": "2026-08-20T08:23:07Z",
   "issues": [
+    {
+      "number": 1016,
+      "title": "[Proposals Welcome] Grow `flydsl.extension` into a library of common GPU building blocks",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-08-17T10:04:48Z",
+      "updated_at": "2026-08-20T07:16:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1016",
+      "labels": [
+        "enhancement",
+        "FlyDSL/Customization"
+      ]
+    },
     {
       "number": 1018,
       "title": "[Kernel] Add opt-in autotuning for Softmax",
@@ -23,19 +36,6 @@
       "updated_at": "2026-08-17T22:27:53Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/831",
       "labels": []
-    },
-    {
-      "number": 1016,
-      "title": "[Proposals Welcome] Grow `flydsl.extension` into a library of common GPU building blocks",
-      "author": "sjfeng1999",
-      "state": "open",
-      "created_at": "2026-08-17T10:04:48Z",
-      "updated_at": "2026-08-17T10:04:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1016",
-      "labels": [
-        "enhancement",
-        "FlyDSL/Customization"
-      ]
     },
     {
       "number": 1002,

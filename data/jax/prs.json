@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-19T08:21:06Z",
+  "collected_at": "2026-08-20T08:22:10Z",
   "prs": [
     {
       "number": 40076,
@@ -8,7 +8,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-18T18:20:06Z",
-      "updated_at": "2026-08-18T23:57:25Z",
+      "updated_at": "2026-08-19T22:39:03Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40076",
       "labels": [
         "kokoro:force-run",
@@ -17,14 +17,31 @@
       "draft": false
     },
     {
-      "number": 39970,
-      "title": "[ROCm] Name ROCm CI jobs after the ROCm release they test",
+      "number": 40098,
+      "title": "[ROCm] Remove upload-test-artifacts from ROCm workflows",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T22:25:44Z",
+      "updated_at": "2026-08-19T22:34:31Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40098",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready",
+        "CI",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 40097,
+      "title": "[ROCm] Reduce pallas input/output aliasing test size on ROCm",
       "author": "magaonka-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-13T19:11:26Z",
-      "updated_at": "2026-08-18T22:04:17Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39970",
+      "created_at": "2026-08-19T21:47:46Z",
+      "updated_at": "2026-08-19T21:53:39Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40097",
       "labels": [
         "kokoro:force-run",
         "pull ready"
@@ -35,10 +52,10 @@
       "number": 39974,
       "title": "[ROCm] Make test_vmap_ellipsis insensitive to reduced-precision matmuls",
       "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-08-13T22:27:44Z",
-      "updated_at": "2026-08-18T17:15:23Z",
+      "updated_at": "2026-08-19T19:13:15Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39974",
       "labels": [
         "kokoro:force-run",
@@ -50,11 +67,26 @@
       "number": 40029,
       "title": "[ROCm] Run the Bazel ROCm tests in the jax-base image",
       "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-08-17T04:40:26Z",
-      "updated_at": "2026-08-18T17:06:33Z",
+      "updated_at": "2026-08-19T16:52:08Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40029",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39970,
+      "title": "[ROCm] Name ROCm CI jobs after the ROCm release they test",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T19:11:26Z",
+      "updated_at": "2026-08-19T16:22:25Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39970",
       "labels": [
         "kokoro:force-run",
         "pull ready"
@@ -505,49 +537,6 @@
         "kokoro:force-run",
         "pull ready"
       ],
-      "draft": false
-    },
-    {
-      "number": 38663,
-      "title": "Consolidate AMD GPU (ROCm) installation documentation",
-      "author": "JehandadKhan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-22T17:00:15Z",
-      "updated_at": "2026-06-26T21:31:14Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38663",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38666,
-      "title": "[ROCm] Update ROCm runner labels to new labels",
-      "author": "psanal35",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-22T18:16:13Z",
-      "updated_at": "2026-06-22T21:55:04Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38666",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38558,
-      "title": "Try to resolve test failure on ROCM.",
-      "author": "copybara-service[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-18T10:18:00Z",
-      "updated_at": "2026-06-18T11:00:21Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38558",
-      "labels": [],
       "draft": false
     },
     {
