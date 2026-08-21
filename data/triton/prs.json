@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-08-20T08:22:35Z",
+  "collected_at": "2026-08-21T08:24:38Z",
   "prs": [
+    {
+      "number": 11367,
+      "title": "[AMD] Do not insert barriers between two async loads for Membar",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T10:23:14Z",
+      "updated_at": "2026-08-21T07:25:25Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11367",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11294,
+      "title": "[AMD] Map tl.const pointer args to constant address space",
+      "author": "jerryyin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T14:39:47Z",
+      "updated_at": "2026-08-21T01:49:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11294",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11274,
+      "title": "[AMD][CI] Add AMD CI image builds",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T22:01:26Z",
+      "updated_at": "2026-08-20T23:24:17Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11274",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11379,
+      "title": "[AMD] Carry buffer-op base address space in the op format",
+      "author": "jerryyin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-20T13:23:23Z",
+      "updated_at": "2026-08-20T21:56:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11379",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11383,
+      "title": "[Release][Cherry-Pick] [AMD][Gluon] Add cdna5 alias for gfx1250 and document it",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T13:36:35Z",
+      "updated_at": "2026-08-20T17:58:25Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11383",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11382,
+      "title": "[Release][Cherry-Pick] [AMD] Fix buffer_load_to_local with other (#11256)",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T13:26:48Z",
+      "updated_at": "2026-08-20T17:54:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11382",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11381,
+      "title": "[Release][Cherry-Pick] [AMD] Support blocked/shared order mismatch for direct-to-LDS (#10928)",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T13:26:44Z",
+      "updated_at": "2026-08-20T17:54:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11381",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11375,
       "title": "[Release] [Cherry-Pick] [AMD] Preserve i32 accumulation for small-K int8 dots (#11282)",
@@ -8,10 +92,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-20T05:32:34Z",
-      "updated_at": "2026-08-20T05:32:35Z",
+      "updated_at": "2026-08-20T15:54:01Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11375",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 11380,
+      "title": "[Release][Cherry-Pick][AMD] Fix direct-to-LDS staging for undersized tiles (#10635)",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T13:26:21Z",
+      "updated_at": "2026-08-20T13:26:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11380",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11377,
+      "title": "[AMD][BACKEND][GLUON] Add `scaled_downcast` for MXFP4/MXFP8",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T10:41:59Z",
+      "updated_at": "2026-08-20T10:41:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11377",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 11246,
@@ -34,18 +142,6 @@
       "created_at": "2026-08-20T01:46:57Z",
       "updated_at": "2026-08-20T03:20:50Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11374",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11294,
-      "title": "[AMD] Map tl.const pointer args to constant address space",
-      "author": "jerryyin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T14:39:47Z",
-      "updated_at": "2026-08-19T21:31:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11294",
       "labels": [],
       "draft": false
     },
@@ -226,18 +322,6 @@
       "created_at": "2026-06-24T01:30:44Z",
       "updated_at": "2026-08-11T23:43:11Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10708",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11274,
-      "title": "[AMD][CI] Add AMD CI image builds",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T22:01:26Z",
-      "updated_at": "2026-08-11T23:31:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11274",
       "labels": [],
       "draft": false
     },
@@ -554,30 +638,6 @@
       "draft": false
     },
     {
-      "number": 10874,
-      "title": "[AMD] Add tests for compiler fence in AtomicRMWOp lowering on gfx1250",
-      "author": "tyb0807",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T06:18:46Z",
-      "updated_at": "2026-08-02T15:35:21Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10874",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11144,
-      "title": "[AMD][NFC][Backend] Refactor ds_read_tr lowerings",
-      "author": "FrederickVu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-01T20:24:29Z",
-      "updated_at": "2026-08-02T01:15:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11144",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11049,
       "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
       "author": "JAGANNATHANJP",
@@ -660,66 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10871",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 10759,
-      "title": "[AMD] Form masked regions for equivalent masked loads/stores",
-      "author": "efric",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-30T05:40:50Z",
-      "updated_at": "2026-07-16T20:42:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10759",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10483,
-      "title": "[AMD] Prove buffer-load contiguity along LinearLayout register order",
-      "author": "panditsa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-04T20:24:38Z",
-      "updated_at": "2026-07-15T16:55:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10483",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 10328,
-      "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
-      "author": "Hardcode84",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T22:02:50Z",
-      "updated_at": "2026-07-08T21:58:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10328",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10733,
-      "title": "[AMD] Fix batched WMMA scale layout",
-      "author": "alefimov-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T15:19:09Z",
-      "updated_at": "2026-06-26T15:20:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10733",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10710,
-      "title": "[AMD] Adding lds prefetch pass to amd compiler path",
-      "author": "guacamoleo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T15:07:27Z",
-      "updated_at": "2026-06-25T20:47:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10710",
-      "labels": [],
-      "draft": false
     }
   ]
 }

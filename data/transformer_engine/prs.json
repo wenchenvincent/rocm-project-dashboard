@@ -1,15 +1,83 @@
 {
-  "collected_at": "2026-08-20T08:23:09Z",
+  "collected_at": "2026-08-21T08:25:15Z",
   "prs": [
     {
-      "number": 706,
-      "title": "Disable FlashAttention on ROCm for MLA-style unequal QK/V head dims",
+      "number": 710,
+      "title": "[TE] Added tests to CI",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T18:48:56Z",
+      "updated_at": "2026-08-21T03:12:04Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/710",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 702,
+      "title": "Ifu dev 20260803 v2.18",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T01:02:21Z",
+      "updated_at": "2026-08-20T21:59:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 707,
+      "title": "Persistent AG + GEMM kernels w/ HipKittens & UserBuffers",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T20:44:30Z",
+      "updated_at": "2026-08-20T21:54:17Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/707",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 704,
+      "title": "[TE] IFU release v2.17",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T21:29:03Z",
+      "updated_at": "2026-08-20T19:55:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/704",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 701,
+      "title": "Fix CK grouped-GEMM fallback for fused wgrad accumulation (BF16 in / FP32 out)",
       "author": "sudhu2k",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-18T19:09:44Z",
-      "updated_at": "2026-08-20T05:11:15Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/706",
+      "created_at": "2026-08-11T22:59:27Z",
+      "updated_at": "2026-08-20T16:35:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/701",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 649,
+      "title": "[Feat] Added JAX-Triton bridge for ROCm",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-24T21:57:11Z",
+      "updated_at": "2026-08-20T16:03:36Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
       "labels": [
         "ci-level 3"
       ],
@@ -24,34 +92,6 @@
       "created_at": "2026-08-07T14:24:23Z",
       "updated_at": "2026-08-20T05:10:50Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 702,
-      "title": "Ifu dev 20260803 v2.18",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T01:02:21Z",
-      "updated_at": "2026-08-20T03:56:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 707,
-      "title": "Persistent AG + GEMM kernels w/ HipKittens & UserBuffers",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T20:44:30Z",
-      "updated_at": "2026-08-19T22:59:14Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/707",
       "labels": [
         "ci-level 3"
       ],
@@ -140,34 +180,6 @@
       "draft": false
     },
     {
-      "number": 701,
-      "title": "Fix CK grouped-GEMM fallback for fused wgrad accumulation (BF16 in / FP32 out)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T22:59:27Z",
-      "updated_at": "2026-08-18T16:39:22Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/701",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 649,
-      "title": "[Feat] Added JAX-Triton bridge for ROCm",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T21:57:11Z",
-      "updated_at": "2026-08-17T22:17:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 676,
       "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
       "author": "aris134",
@@ -180,18 +192,6 @@
         "ci-level 1"
       ],
       "draft": false
-    },
-    {
-      "number": 704,
-      "title": "[TE] IFU release v2.17",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T21:29:03Z",
-      "updated_at": "2026-08-13T21:29:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/704",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 697,
@@ -719,6 +719,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 706,
+      "title": "Disable FlashAttention on ROCm for MLA-style unequal QK/V head dims",
+      "author": "sudhu2k",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-18T19:09:44Z",
+      "updated_at": "2026-08-21T06:29:42Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/706",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {

@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-08-20T08:23:00Z",
+  "collected_at": "2026-08-21T08:25:05Z",
   "issues": [
+    {
+      "number": 1945,
+      "title": "[Issue]: GPT-OSS-120B fails on the ATOM SGLang stack (MXFP4 `triton_kernel` MoE)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-18T10:50:11Z",
+      "updated_at": "2026-08-20T11:28:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1945",
+      "labels": []
+    },
+    {
+      "number": 1972,
+      "title": "[Issue]:",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-20T11:10:19Z",
+      "updated_at": "2026-08-20T11:10:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1972",
+      "labels": []
+    },
+    {
+      "number": 1957,
+      "title": "[Issue]:",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-19T17:34:00Z",
+      "updated_at": "2026-08-20T08:42:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1957",
+      "labels": []
+    },
     {
       "number": 1963,
       "title": "[Perf Regression] 46 config(s) regressed @ 4d0b15ff",
@@ -32,26 +62,6 @@
       "created_at": "2026-08-19T17:43:29Z",
       "updated_at": "2026-08-19T17:43:29Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1959",
-      "labels": []
-    },
-    {
-      "number": 1957,
-      "title": "[Issue]:",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-19T17:34:00Z",
-      "updated_at": "2026-08-19T17:34:00Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1957",
-      "labels": []
-    },
-    {
-      "number": 1945,
-      "title": "[Issue]: GPT-OSS-120B fails on the ATOM SGLang stack (MXFP4 `triton_kernel` MoE)",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-18T10:50:11Z",
-      "updated_at": "2026-08-18T14:13:04Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1945",
       "labels": []
     },
     {

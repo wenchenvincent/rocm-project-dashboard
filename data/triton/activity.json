@@ -1,30 +1,42 @@
 {
-  "collected_at": "2026-08-20T08:23:52Z",
+  "collected_at": "2026-08-21T08:26:11Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 8,
-      "merged": 7,
+      "opened": 12,
+      "merged": 9,
       "closed": 0
     },
     "last_week": {
-      "opened": 19,
-      "merged": 12,
+      "opened": 20,
+      "merged": 9,
       "closed": 0
     },
     "median_time_to_merge_hours": 16.9,
     "merge_count": 30,
-    "stale_prs": 6
+    "stale_prs": 2
   },
   "contributors": {
-    "active_this_week": 15,
-    "total_contributors": 42,
+    "active_this_week": 16,
+    "total_contributors": 37,
     "top_contributors": [
+      {
+        "author": "AlexAUT",
+        "prs_submitted": 7,
+        "prs_merged": 2,
+        "commits": 0
+      },
       {
         "author": "antiagainst",
         "prs_submitted": 7,
         "prs_merged": 7,
+        "commits": 0
+      },
+      {
+        "author": "jerryyin",
+        "prs_submitted": 4,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -34,15 +46,9 @@
         "commits": 0
       },
       {
-        "author": "jerryyin",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "FrederickVu",
-        "prs_submitted": 3,
-        "prs_merged": 3,
+        "author": "willghatch",
+        "prs_submitted": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -52,21 +58,9 @@
         "commits": 0
       },
       {
-        "author": "AlexAUT",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
         "author": "umangyadav",
         "prs_submitted": 2,
         "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "willghatch",
-        "prs_submitted": 2,
-        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -76,17 +70,23 @@
         "commits": 0
       },
       {
-        "author": "mengfei-jiang",
+        "author": "FrederickVu",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "Dewei-Wang-sh",
         "prs_submitted": 1,
-        "prs_merged": 1,
+        "prs_merged": 0,
         "commits": 0
       }
     ],
     "bus_factor": 5
   },
   "issue_health": {
-    "total_open": 20,
-    "opened_this_week": 2,
+    "total_open": 21,
+    "opened_this_week": 3,
     "closed_this_week": 6,
     "unanswered": 8
   },
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 62.7,
+    "days_since_last": 63.7,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

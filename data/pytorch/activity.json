@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-08-20T08:23:42Z",
+  "collected_at": "2026-08-21T08:26:00Z",
   "project": "pytorch",
   "repo": "pytorch/pytorch",
   "pr_velocity": {
     "this_week": {
       "opened": 29,
       "merged": 5,
-      "closed": 1
+      "closed": 0
     },
     "last_week": {
-      "opened": 16,
+      "opened": 11,
       "merged": 5,
       "closed": 0
     },
@@ -18,9 +18,15 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 40,
-    "total_contributors": 46,
+    "active_this_week": 30,
+    "total_contributors": 36,
     "top_contributors": [
+      {
+        "author": "adelesun",
+        "prs_submitted": 5,
+        "prs_merged": 0,
+        "commits": 0
+      },
       {
         "author": "atalman",
         "prs_submitted": 5,
@@ -28,9 +34,9 @@
         "commits": 0
       },
       {
-        "author": "XiaobingSuper",
+        "author": "zoranzhao",
         "prs_submitted": 4,
-        "prs_merged": 1,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -40,15 +46,9 @@
         "commits": 0
       },
       {
-        "author": "ll-pen",
+        "author": "XiaobingSuper",
         "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "chinmaydk99",
-        "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -58,25 +58,25 @@
         "commits": 0
       },
       {
-        "author": "daisyden",
+        "author": "KarhouTam",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "zjliu-amd",
+        "author": "xjbanana258",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "Ria-K912",
+        "author": "xinyazhang",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "ethanwee1",
+        "author": "cyyever",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
@@ -86,42 +86,42 @@
   },
   "issue_health": {
     "total_open": 48,
-    "opened_this_week": 27,
-    "closed_this_week": 74,
+    "opened_this_week": 25,
+    "closed_this_week": 70,
     "unanswered": 0
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
       "succeeded": 6,
-      "failed": 1,
+      "failed": 10,
       "success_rate": 30.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 0,
-      "failed": 0,
-      "success_rate": 0.0
+      "succeeded": 12,
+      "failed": 8,
+      "success_rate": 60.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 211.9,
-      "p90_minutes": 346.2,
-      "min_minutes": 0.2,
-      "max_minutes": 417.4
+      "median_minutes": 165.8,
+      "p90_minutes": 301.4,
+      "min_minutes": 0.5,
+      "max_minutes": 358.9
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 202.6,
-      "p90_minutes": 252.2,
-      "min_minutes": 6.5,
-      "max_minutes": 278.2
+      "median_minutes": 201.6,
+      "p90_minutes": 295.3,
+      "min_minutes": 0.1,
+      "max_minutes": 361.3
     }
   },
   "release_cadence": {
-    "days_since_last": 42.6,
+    "days_since_last": 43.6,
     "avg_interval_days": 42.0,
     "total_releases": 5,
     "latest_tag": "v2.13.0"

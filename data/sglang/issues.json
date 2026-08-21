@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-20T08:22:33Z",
+  "collected_at": "2026-08-21T08:24:35Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,38 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-20T07:50:51Z",
+      "updated_at": "2026-08-21T07:48:54Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-08-21T03:25:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 35785,
+      "title": "Triton version mismatch",
+      "author": "alex-mashin",
+      "state": "open",
+      "created_at": "2026-08-21T03:24:38Z",
+      "updated_at": "2026-08-21T03:24:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35785",
+      "labels": []
+    },
+    {
+      "number": 35673,
+      "title": "[Bug] Gemma-4-31B-it TP=8 hangs in the vision path on AMD/ROCm",
+      "author": "victrgao",
+      "state": "open",
+      "created_at": "2026-08-20T08:35:17Z",
+      "updated_at": "2026-08-20T08:35:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35673",
       "labels": []
     },
     {
@@ -55,16 +85,6 @@
       "created_at": "2026-08-20T00:04:19Z",
       "updated_at": "2026-08-20T01:09:22Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/35591",
-      "labels": []
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-08-20T00:57:36Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
     },
     {
@@ -395,16 +415,6 @@
       ]
     },
     {
-      "number": 33356,
-      "title": "[Bug] DSpark large decode CUDA-Graph capture can hit non-deterministic illegal memory on TP8 (v0.5.16)",
-      "author": "Phoenix3334",
-      "state": "open",
-      "created_at": "2026-08-03T06:43:59Z",
-      "updated_at": "2026-08-10T13:44:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33356",
-      "labels": []
-    },
-    {
       "number": 34205,
       "title": "[Bug] Aborted LoRA requests retain a LoRARegistry reference",
       "author": "AlexEisie",
@@ -447,28 +457,6 @@
       "updated_at": "2026-08-06T11:27:44Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33846",
       "labels": []
-    },
-    {
-      "number": 29184,
-      "title": "[RFC] Generalize cuda_graph_* server args / runner naming to a device-agnostic scheme (device_graph_*)",
-      "author": "siju-samuel",
-      "state": "open",
-      "created_at": "2026-06-24T15:45:03Z",
-      "updated_at": "2026-08-06T07:06:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29184",
-      "labels": []
-    },
-    {
-      "number": 27417,
-      "title": "[ROCm Test-First CI]: Day 0 SGLang MI455X UALoE72 Helios Rack open source community upstream CI by AMD Advancing AI July 22 2026",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-06-06T03:22:49Z",
-      "updated_at": "2026-08-06T02:40:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27417",
-      "labels": [
-        "inactive"
-      ]
     },
     {
       "number": 31924,
@@ -604,16 +592,6 @@
       "created_at": "2026-07-20T13:24:05Z",
       "updated_at": "2026-07-29T10:06:54Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31783",
-      "labels": []
-    },
-    {
-      "number": 32712,
-      "title": "[Feature] [RFC] SharedEP: a zerocopy execution model for MoE Expert Parallelism",
-      "author": "foraxe",
-      "state": "open",
-      "created_at": "2026-07-29T02:17:34Z",
-      "updated_at": "2026-07-29T02:28:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32712",
       "labels": []
     }
   ]

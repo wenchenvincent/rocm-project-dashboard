@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-08-20T08:22:10Z",
+  "collected_at": "2026-08-21T08:24:10Z",
   "prs": [
     {
       "number": 40076,
-      "title": "[ROCm] Export ROCM_VERSION for release wheel PyPI metadata",
+      "title": "[ROCm] Take the wheel metadata ROCm version from the build config",
       "author": "gulsumgudukbay",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-18T18:20:06Z",
-      "updated_at": "2026-08-19T22:39:03Z",
+      "updated_at": "2026-08-20T21:14:34Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40076",
       "labels": [
         "kokoro:force-run",
@@ -17,13 +17,25 @@
       "draft": false
     },
     {
+      "number": 39846,
+      "title": "[DO NOT MERGE]Enable previously skipped unit tests on ROCm platform",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T02:45:11Z",
+      "updated_at": "2026-08-20T18:35:03Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39846",
+      "labels": [],
+      "draft": true
+    },
+    {
       "number": 40098,
       "title": "[ROCm] Remove upload-test-artifacts from ROCm workflows",
       "author": "psanal35",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-08-19T22:25:44Z",
-      "updated_at": "2026-08-19T22:34:31Z",
+      "updated_at": "2026-08-20T18:24:01Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40098",
       "labels": [
         "kokoro:force-run",
@@ -37,10 +49,10 @@
       "number": 40097,
       "title": "[ROCm] Reduce pallas input/output aliasing test size on ROCm",
       "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-08-19T21:47:46Z",
-      "updated_at": "2026-08-19T21:53:39Z",
+      "updated_at": "2026-08-20T14:59:33Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40097",
       "labels": [
         "kokoro:force-run",
@@ -92,18 +104,6 @@
         "pull ready"
       ],
       "draft": false
-    },
-    {
-      "number": 39846,
-      "title": "[DO NOT MERGE]Enable previously skipped unit tests on ROCm platform",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T02:45:11Z",
-      "updated_at": "2026-08-17T22:45:36Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39846",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 40001,
@@ -503,36 +503,6 @@
       "created_at": "2026-06-30T03:58:54Z",
       "updated_at": "2026-07-06T18:56:52Z",
       "html_url": "https://github.com/jax-ml/jax/pull/38862",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38824,
-      "title": "[ROCm] Preserve pinned_host memory kind across DLPack round-trip",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-28T04:37:52Z",
-      "updated_at": "2026-07-06T18:07:29Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38824",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38493,
-      "title": "[ROCm] CI: use address allocator for pytest",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T03:55:22Z",
-      "updated_at": "2026-07-06T17:39:10Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38493",
       "labels": [
         "kokoro:force-run",
         "pull ready"

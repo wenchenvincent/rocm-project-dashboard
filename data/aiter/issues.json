@@ -1,14 +1,44 @@
 {
-  "collected_at": "2026-08-20T08:22:54Z",
+  "collected_at": "2026-08-21T08:24:58Z",
   "issues": [
+    {
+      "number": 4419,
+      "title": "Document and automate the AITER release plan",
+      "author": "gyohuangxin",
+      "state": "open",
+      "created_at": "2026-07-28T07:38:47Z",
+      "updated_at": "2026-08-21T02:06:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4419",
+      "labels": []
+    },
     {
       "number": 4867,
       "title": "[Triton] gemm_afp4wfp4 preshuffle split-K OOB (GPU memory fault) on gfx950 for M=32/N=8192/K=8192 (regressed by #4630)",
       "author": "Rohan138",
       "state": "open",
       "created_at": "2026-08-19T22:09:21Z",
-      "updated_at": "2026-08-19T22:55:08Z",
+      "updated_at": "2026-08-20T20:53:51Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4867",
+      "labels": []
+    },
+    {
+      "number": 4819,
+      "title": "sampling.cuh may be missing hipcub includes \u2014 the ROCm 10 gate from #4754 may be unnecessary",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-08-18T08:47:04Z",
+      "updated_at": "2026-08-20T20:33:53Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4819",
+      "labels": []
+    },
+    {
+      "number": 4888,
+      "title": "[Bug][gfx942] 1-stage fused all-reduce + RMSNorm (custom_fused_ar_rms, use_1stage=True) is silently wrong on the first cold HIP-graph replay",
+      "author": "indivats",
+      "state": "open",
+      "created_at": "2026-08-20T19:21:47Z",
+      "updated_at": "2026-08-20T19:21:47Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4888",
       "labels": []
     },
     {
@@ -59,16 +89,6 @@
       "created_at": "2026-08-18T16:15:13Z",
       "updated_at": "2026-08-18T16:15:13Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4830",
-      "labels": []
-    },
-    {
-      "number": 4819,
-      "title": "sampling.cuh may be missing hipcub includes \u2014 the ROCm 10 gate from #4754 may be unnecessary",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-08-18T08:47:04Z",
-      "updated_at": "2026-08-18T08:47:04Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4819",
       "labels": []
     },
     {
@@ -389,16 +409,6 @@
       "created_at": "2026-07-28T09:11:55Z",
       "updated_at": "2026-07-28T09:11:55Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4423",
-      "labels": []
-    },
-    {
-      "number": 4419,
-      "title": "Document and automate the AITER release plan",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-07-28T07:38:47Z",
-      "updated_at": "2026-07-28T07:47:46Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4419",
       "labels": []
     },
     {
