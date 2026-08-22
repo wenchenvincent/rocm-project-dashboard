@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-21T08:24:58Z",
+  "collected_at": "2026-08-22T08:15:46Z",
   "issues": [
+    {
+      "number": 4920,
+      "title": "[ASM] a16w16 split-K: the entry-zero counter is unsafe under CUDA graph capture; opus-style fp32 partials would remove the class",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "created_at": "2026-08-21T21:10:05Z",
+      "updated_at": "2026-08-21T21:19:16Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4920",
+      "labels": []
+    },
     {
       "number": 4419,
       "title": "Document and automate the AITER release plan",
@@ -9,16 +19,6 @@
       "created_at": "2026-07-28T07:38:47Z",
       "updated_at": "2026-08-21T02:06:30Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4419",
-      "labels": []
-    },
-    {
-      "number": 4867,
-      "title": "[Triton] gemm_afp4wfp4 preshuffle split-K OOB (GPU memory fault) on gfx950 for M=32/N=8192/K=8192 (regressed by #4630)",
-      "author": "Rohan138",
-      "state": "open",
-      "created_at": "2026-08-19T22:09:21Z",
-      "updated_at": "2026-08-20T20:53:51Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4867",
       "labels": []
     },
     {

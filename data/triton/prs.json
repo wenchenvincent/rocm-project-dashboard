@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-08-21T08:24:38Z",
+  "collected_at": "2026-08-22T08:15:26Z",
   "prs": [
+    {
+      "number": 11399,
+      "title": "[AMD][IMP][Launch Latency] read use_buffer_ops once at import time",
+      "author": "irreg",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-22T06:39:48Z",
+      "updated_at": "2026-08-22T06:39:48Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11399",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11040,
+      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T22:25:24Z",
+      "updated_at": "2026-08-21T22:47:40Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11040",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11274,
+      "title": "[AMD][CI] Add AMD CI image builds",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T22:01:26Z",
+      "updated_at": "2026-08-21T22:17:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11274",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11294,
+      "title": "[AMD] Map tl.const pointer args to constant address space",
+      "author": "jerryyin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T14:39:47Z",
+      "updated_at": "2026-08-21T19:39:54Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11294",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11295,
+      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T15:41:53Z",
+      "updated_at": "2026-08-21T17:42:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11295",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11377,
+      "title": "[AMD][BACKEND][GLUON] Add `scaled_downcast` for MXFP4/MXFP8",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-20T10:41:59Z",
+      "updated_at": "2026-08-21T15:43:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11377",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11367,
       "title": "[AMD] Do not insert barriers between two async loads for Membar",
@@ -12,30 +84,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11367",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11294,
-      "title": "[AMD] Map tl.const pointer args to constant address space",
-      "author": "jerryyin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-13T14:39:47Z",
-      "updated_at": "2026-08-21T01:49:33Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11294",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11274,
-      "title": "[AMD][CI] Add AMD CI image builds",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T22:01:26Z",
-      "updated_at": "2026-08-20T23:24:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11274",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 11379,
@@ -110,18 +158,6 @@
       "draft": false
     },
     {
-      "number": 11377,
-      "title": "[AMD][BACKEND][GLUON] Add `scaled_downcast` for MXFP4/MXFP8",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T10:41:59Z",
-      "updated_at": "2026-08-20T10:41:59Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11377",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11246,
       "title": "[AMD]Fix empty range inference for HistogramOp in RangeAnalysis",
       "author": "mengfei-jiang",
@@ -194,18 +230,6 @@
       "draft": true
     },
     {
-      "number": 11295,
-      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-08-18T17:00:45Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11295",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11346,
       "title": "[AMD] Preserve dominance when preparing if combining",
       "author": "liminfei-amd",
@@ -226,18 +250,6 @@
       "created_at": "2026-07-22T23:13:18Z",
       "updated_at": "2026-08-17T22:31:29Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11018",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11040,
-      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T22:25:24Z",
-      "updated_at": "2026-08-17T19:37:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11040",
       "labels": [],
       "draft": false
     },
@@ -622,18 +634,6 @@
       "created_at": "2026-08-03T11:01:51Z",
       "updated_at": "2026-08-03T15:09:16Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11155",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11145,
-      "title": "[AMD][Backend] Add support for ds_read_tr4 lowering on gfx1250",
-      "author": "FrederickVu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-02T01:20:37Z",
-      "updated_at": "2026-08-02T17:25:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11145",
       "labels": [],
       "draft": false
     },

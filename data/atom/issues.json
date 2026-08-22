@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-21T08:25:05Z",
+  "collected_at": "2026-08-22T08:15:52Z",
   "issues": [
     {
       "number": 1945,
@@ -30,19 +30,6 @@
       "updated_at": "2026-08-20T08:42:59Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1957",
       "labels": []
-    },
-    {
-      "number": 1963,
-      "title": "[Perf Regression] 46 config(s) regressed @ 4d0b15ff",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-08-20T07:03:42Z",
-      "updated_at": "2026-08-20T07:03:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1963",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 1927,
@@ -125,32 +112,6 @@
       "labels": []
     },
     {
-      "number": 1914,
-      "title": "[Perf Regression] 11 config(s) regressed @ ba9ae202",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-08-16T20:00:43Z",
-      "updated_at": "2026-08-16T20:00:43Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1914",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 1897,
-      "title": "[Perf Regression] 83 config(s) regressed @ 6a756fdb",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-08-14T06:59:10Z",
-      "updated_at": "2026-08-14T06:59:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1897",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
       "number": 1885,
       "title": "# [Bug] Explicit `tool_choice=\"auto\"` returns HTTP 500 with the DeepSeek-V4 custom message encoder",
       "author": "cubezhang",
@@ -179,19 +140,6 @@
       "updated_at": "2026-08-11T02:00:14Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1854",
       "labels": []
-    },
-    {
-      "number": 1797,
-      "title": "[Perf Regression] 46 config(s) regressed @ a7b1f570",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-08-05T04:58:58Z",
-      "updated_at": "2026-08-05T04:58:58Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1797",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 577,

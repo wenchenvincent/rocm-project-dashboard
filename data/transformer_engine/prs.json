@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-08-21T08:25:15Z",
+  "collected_at": "2026-08-22T08:16:02Z",
   "prs": [
     {
-      "number": 710,
-      "title": "[TE] Added tests to CI",
-      "author": "AllenFarcas",
+      "number": 707,
+      "title": "Persistent AG + GEMM kernels w/ HipKittens & UserBuffers",
+      "author": "alextmagro",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-20T18:48:56Z",
-      "updated_at": "2026-08-21T03:12:04Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/710",
+      "created_at": "2026-08-18T20:44:30Z",
+      "updated_at": "2026-08-22T04:04:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/707",
       "labels": [
         "ci-level 3"
       ],
@@ -22,7 +22,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-12T01:02:21Z",
-      "updated_at": "2026-08-20T21:59:45Z",
+      "updated_at": "2026-08-22T00:06:38Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
       "labels": [
         "ci-level 3"
@@ -30,14 +30,96 @@
       "draft": false
     },
     {
-      "number": 707,
-      "title": "Persistent AG + GEMM kernels w/ HipKittens & UserBuffers",
-      "author": "alextmagro",
+      "number": 697,
+      "title": "Integrate MXFP4 hipblaslt GEMM support",
+      "author": "VeeraRajasekhar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-18T20:44:30Z",
-      "updated_at": "2026-08-20T21:54:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/707",
+      "created_at": "2026-08-07T15:04:06Z",
+      "updated_at": "2026-08-21T23:10:44Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 678,
+      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
+      "author": "shurale-nkn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T15:17:24Z",
+      "updated_at": "2026-08-21T22:48:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 712,
+      "title": "CI: upload Python coverage.json from pytest (non-blocking)",
+      "author": "jiagaoxiang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T22:22:23Z",
+      "updated_at": "2026-08-21T22:33:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/712",
+      "labels": [
+        "community-contribution"
+      ],
+      "draft": false
+    },
+    {
+      "number": 705,
+      "title": "[proof-of-concept] Kernel autotuning in TE",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T15:42:54Z",
+      "updated_at": "2026-08-21T21:46:40Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 710,
+      "title": "[TE] Added tests to CI",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T18:48:56Z",
+      "updated_at": "2026-08-21T20:56:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/710",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 711,
+      "title": "Fix test filtering and reporting",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T18:56:03Z",
+      "updated_at": "2026-08-21T18:56:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/711",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 618,
+      "title": "Refactored reduction kernels",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-08T19:23:09Z",
+      "updated_at": "2026-08-21T18:30:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/618",
       "labels": [
         "ci-level 3"
       ],
@@ -50,9 +132,11 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-13T21:29:03Z",
-      "updated_at": "2026-08-20T19:55:18Z",
+      "updated_at": "2026-08-21T18:22:59Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/704",
-      "labels": [],
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -62,7 +146,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-11T22:59:27Z",
-      "updated_at": "2026-08-20T16:35:48Z",
+      "updated_at": "2026-08-21T18:21:59Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/701",
       "labels": [
         "ci-level 3"
@@ -70,16 +154,16 @@
       "draft": false
     },
     {
-      "number": 649,
-      "title": "[Feat] Added JAX-Triton bridge for ROCm",
-      "author": "AllenFarcas",
+      "number": 676,
+      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "aris134",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-24T21:57:11Z",
-      "updated_at": "2026-08-20T16:03:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
+      "created_at": "2026-07-22T03:23:51Z",
+      "updated_at": "2026-08-21T16:09:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
       "labels": [
-        "ci-level 3"
+        "ci-level 1"
       ],
       "draft": false
     },
@@ -126,32 +210,6 @@
       "draft": false
     },
     {
-      "number": 678,
-      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-08-19T21:10:07Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 705,
-      "title": "[proof-of-concept] Kernel autotuning in TE",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T15:42:54Z",
-      "updated_at": "2026-08-19T19:14:26Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 694,
       "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
       "author": "sudhu2k",
@@ -174,34 +232,6 @@
       "created_at": "2026-08-06T19:54:03Z",
       "updated_at": "2026-08-18T16:45:05Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/695",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 676,
-      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-08-14T18:31:30Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 697,
-      "title": "Integrate MXFP4 hipblaslt GEMM support",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T15:04:06Z",
-      "updated_at": "2026-08-12T21:16:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
       "labels": [
         "ci-level 3"
       ],
@@ -257,20 +287,6 @@
       "updated_at": "2026-08-05T20:10:06Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 618,
-      "title": "Refactored reduction kernels",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-08T19:23:09Z",
-      "updated_at": "2026-08-05T20:06:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/618",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -719,6 +735,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 649,
+      "title": "[Feat] Added JAX-Triton bridge for ROCm",
+      "author": "AllenFarcas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-24T21:57:11Z",
+      "updated_at": "2026-08-21T17:20:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1896,20 +1926,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/568",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 538,
-      "title": "NV upstream release 2.12 merge",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-13T20:30:21Z",
-      "updated_at": "2026-05-21T17:54:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/538",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     }

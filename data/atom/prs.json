@@ -1,41 +1,55 @@
 {
-  "collected_at": "2026-08-21T08:25:03Z",
+  "collected_at": "2026-08-22T08:15:50Z",
   "prs": [
     {
-      "number": 1978,
-      "title": "feat:avoid local copy in eplb",
-      "author": "JiaoliangYu",
+      "number": 1985,
+      "title": "Fix Qwen3.5 block-FP8 correctness under vLLM FULL cudagraph",
+      "author": "zhangxinyuanliuhengyu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-21T05:53:57Z",
-      "updated_at": "2026-08-21T08:08:36Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1978",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1980,
-      "title": "perf(engine): raise GC thresholds in the EngineCore and ModelRunner too",
-      "author": "junhaha666",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T07:57:52Z",
-      "updated_at": "2026-08-21T08:00:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1980",
+      "created_at": "2026-08-21T14:05:31Z",
+      "updated_at": "2026-08-22T07:29:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1985",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1979,
-      "title": "[fix](dsv4): fix vllm-atom deepseek interface",
-      "author": "PerryZhang01",
+      "number": 1987,
+      "title": "Fix dpa spec middle chunk collective align for agentic",
+      "author": "ZhangLirong-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-21T07:26:28Z",
-      "updated_at": "2026-08-21T07:58:03Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1979",
+      "created_at": "2026-08-22T03:48:53Z",
+      "updated_at": "2026-08-22T05:13:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1987",
       "labels": [
-        "ci:vllm"
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1910,
+      "title": "feat(k3): Kimi-K3 vLLM plugin vision + DSpark draft support",
+      "author": "sajandhy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T06:19:01Z",
+      "updated_at": "2026-08-22T05:13:16Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1910",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1975,
+      "title": "Gfx1250/test ep 817",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T04:03:02Z",
+      "updated_at": "2026-08-22T04:49:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1975",
+      "labels": [
+        "ci:atom"
       ],
       "draft": false
     },
@@ -46,8 +60,103 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-19T08:05:12Z",
-      "updated_at": "2026-08-21T07:57:47Z",
+      "updated_at": "2026-08-22T00:30:51Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1953",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1765,
+      "title": "[Triton] [Gluon] [GFX9] [GFX12] Add triton/gluon support for EP+DP_attn",
+      "author": "k50112113",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-01T00:38:58Z",
+      "updated_at": "2026-08-21T21:09:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1765",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1974,
+      "title": "perf(dsv4): optimize FP8 and FP4 indexer prefill",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T17:13:08Z",
+      "updated_at": "2026-08-21T15:44:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1974",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1858,
+      "title": "[ATOM][KVCache] Skip kvcache tensor allocation for shared indexer kv",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T05:20:20Z",
+      "updated_at": "2026-08-21T13:23:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1858",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1980,
+      "title": "perf(engine): raise GC thresholds in the EngineCore and ModelRunner too",
+      "author": "junhaha666",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T07:57:52Z",
+      "updated_at": "2026-08-21T11:26:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1980",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1984,
+      "title": "fix(dsv4): restrict FP4 indexer default to gfx950 only",
+      "author": "junhaha666",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T08:39:43Z",
+      "updated_at": "2026-08-21T09:35:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1984",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1973,
+      "title": "Qwen38 accuracy",
+      "author": "PerryZhang01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T12:29:36Z",
+      "updated_at": "2026-08-21T08:54:50Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1973",
+      "labels": [
+        "ci:atom",
+        "ci:vllm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1978,
+      "title": "feat:avoid local copy in eplb",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T05:53:57Z",
+      "updated_at": "2026-08-21T08:08:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1978",
       "labels": [],
       "draft": true
     },
@@ -84,20 +193,6 @@
       "created_at": "2026-08-07T09:54:52Z",
       "updated_at": "2026-08-21T05:56:54Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1833",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1975,
-      "title": "Gfx1250/test ep 817",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T04:03:02Z",
-      "updated_at": "2026-08-21T05:47:05Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1975",
       "labels": [
         "ci:atom"
       ],
@@ -147,21 +242,6 @@
       "draft": false
     },
     {
-      "number": 1973,
-      "title": "Qwen38 accuracy",
-      "author": "PerryZhang01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T12:29:36Z",
-      "updated_at": "2026-08-21T05:08:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1973",
-      "labels": [
-        "ci:atom",
-        "ci:vllm"
-      ],
-      "draft": false
-    },
-    {
       "number": 1921,
       "title": "fix(atomesh): register decode buffers on reachable RDMA rails for cross-rail PD",
       "author": "junyyang-amd",
@@ -198,33 +278,6 @@
       "draft": false
     },
     {
-      "number": 1749,
-      "title": "[Feature] Quantize weights online when loading weights",
-      "author": "haoyangli0109",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T11:51:50Z",
-      "updated_at": "2026-08-21T02:20:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1749",
-      "labels": [
-        "ci:full",
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1903,
-      "title": "[Gluon] [GFX12] add gluon mxfp8 gemm support",
-      "author": "k50112113",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-15T04:28:05Z",
-      "updated_at": "2026-08-21T01:15:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1903",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1961,
       "title": "fix(openai): a '<' in the answer no longer withholds the whole stream",
       "author": "ThomasNing",
@@ -249,18 +302,6 @@
       "draft": false
     },
     {
-      "number": 1974,
-      "title": "perf(dsv4): add paged FP8 indexer prefill",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T17:13:08Z",
-      "updated_at": "2026-08-21T01:15:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1974",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1926,
       "title": "Feat/shared expert pinned logical",
       "author": "JiaoliangYu",
@@ -271,30 +312,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1926",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1765,
-      "title": "[Triton] [Gluon] [GFX9] [GFX12] Add triton/gluon support for EP+DP_attn",
-      "author": "k50112113",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-01T00:38:58Z",
-      "updated_at": "2026-08-21T00:21:20Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1765",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1910,
-      "title": "feat(k3): Kimi-K3 vLLM plugin vision + DSpark draft support",
-      "author": "sajandhy",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-16T06:19:01Z",
-      "updated_at": "2026-08-20T20:19:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1910",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1893,
@@ -516,20 +533,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1922",
       "labels": [
         "ci:full"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1858,
-      "title": "[ATOM][KVCache] Skip kvcache tensor allocation for shared indexer kv",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T05:20:20Z",
-      "updated_at": "2026-08-18T02:39:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1858",
-      "labels": [
-        "ci:atom"
       ],
       "draft": false
     },
@@ -2475,6 +2478,47 @@
       "draft": false
     },
     {
+      "number": 1986,
+      "title": "perf(dsv4): tune FP4 prefill MQA grid",
+      "author": "yhl-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-21T14:35:11Z",
+      "updated_at": "2026-08-21T14:39:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1986",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1749,
+      "title": "[Feature] Quantize weights online when loading weights",
+      "author": "haoyangli0109",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-30T11:51:50Z",
+      "updated_at": "2026-08-21T10:00:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1749",
+      "labels": [
+        "ci:full",
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1979,
+      "title": "[fix](dsv4): fix vllm-atom deepseek interface",
+      "author": "PerryZhang01",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-21T07:26:28Z",
+      "updated_at": "2026-08-21T08:52:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1979",
+      "labels": [
+        "ci:vllm"
+      ],
+      "draft": false
+    },
+    {
       "number": 1983,
       "title": "Mega v2 bench",
       "author": "JiaoliangYu",
@@ -3439,60 +3483,6 @@
       "labels": [
         "ci:atom"
       ],
-      "draft": false
-    },
-    {
-      "number": 1816,
-      "title": "feat(glm): enable persistent decode for GLM-5.2 DPA",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-06T10:08:29Z",
-      "updated_at": "2026-08-11T14:27:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1816",
-      "labels": [
-        "ci:full"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1782,
-      "title": "enable kimi k3 multimodel",
-      "author": "HaonanWang98",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T04:35:31Z",
-      "updated_at": "2026-08-11T13:38:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1782",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1851,
-      "title": "feat(lmcache): validate NVMe offload storage",
-      "author": "yhl-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-10T12:56:09Z",
-      "updated_at": "2026-08-11T13:09:30Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1851",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1777,
-      "title": "[Doc] Add Online Quantization Best Practices",
-      "author": "haoyangli0109",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-03T12:06:01Z",
-      "updated_at": "2026-08-11T13:08:40Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1777",
-      "labels": [],
       "draft": false
     }
   ]

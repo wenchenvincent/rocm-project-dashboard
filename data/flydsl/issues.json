@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-08-21T08:25:13Z",
+  "collected_at": "2026-08-22T08:16:00Z",
   "issues": [
     {
-      "number": 1049,
-      "title": "[Bug] Dynamic CoordTensor slice after flat_divide drops tile-stride scaling",
-      "author": "zovonoir",
+      "number": 1054,
+      "title": "[Issue]:  Every kernel is compiled twice",
+      "author": "xinyazhang",
       "state": "open",
-      "created_at": "2026-08-21T04:52:06Z",
-      "updated_at": "2026-08-21T06:40:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1049",
+      "created_at": "2026-08-21T20:44:51Z",
+      "updated_at": "2026-08-21T20:44:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1054",
       "labels": []
     },
     {
