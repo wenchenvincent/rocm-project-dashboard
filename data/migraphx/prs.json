@@ -1,20 +1,42 @@
 {
-  "collected_at": "2026-08-22T08:15:30Z",
+  "collected_at": "2026-08-23T08:15:57Z",
   "prs": [
     {
-      "number": 5166,
-      "title": "[ROCM-26610] Replace tags with SHAs",
-      "author": "eddieliao",
+      "number": 5117,
+      "title": "Problem cache follow-on: pluggable backends, layered cache paths, compile-options API, and offline tooling",
+      "author": "danieyan-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-21T17:16:19Z",
-      "updated_at": "2026-08-22T05:50:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5166",
+      "created_at": "2026-08-05T21:33:30Z",
+      "updated_at": "2026-08-23T01:11:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5117",
       "labels": [
-        "dependencies",
-        "simple",
-        "Changelog: Not Applicable"
+        "Windows"
       ],
+      "draft": false
+    },
+    {
+      "number": 5146,
+      "title": "Add rewrite broadcasts for fuse_reduce",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T22:37:05Z",
+      "updated_at": "2026-08-23T00:58:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5146",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5173,
+      "title": "fix(security): pin base image digest and run as jenkins user",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:12:01Z",
+      "updated_at": "2026-08-23T00:26:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5173",
+      "labels": [],
       "draft": false
     },
     {
@@ -24,33 +46,72 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-21T17:33:11Z",
-      "updated_at": "2026-08-22T05:35:48Z",
+      "updated_at": "2026-08-23T00:13:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5167",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5159,
-      "title": "CI: update migraphx-reports repo location to AMD-ROCm-Internal",
-      "author": "causten",
+      "number": 5160,
+      "title": "Have reduce_sum, reduce_mean, and reduce_prod accumulate in wider floating point for fp8",
+      "author": "CharlieL7",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-20T18:38:38Z",
-      "updated_at": "2026-08-22T05:02:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5159",
+      "created_at": "2026-08-20T22:33:55Z",
+      "updated_at": "2026-08-22T21:30:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5160",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5148,
-      "title": "Enhance symbolic onnx parsing via sym_eval",
-      "author": "shivadbhavsar",
+      "number": 5137,
+      "title": "Eliminate concat after reshapes",
+      "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-18T05:48:22Z",
-      "updated_at": "2026-08-22T02:49:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5148",
+      "created_at": "2026-08-14T22:42:07Z",
+      "updated_at": "2026-08-22T19:30:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5137",
       "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5139,
+      "title": "Add GPU JIT implementation for gridsample operation",
+      "author": "Imeguras",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T17:12:34Z",
+      "updated_at": "2026-08-22T17:35:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5139",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4448,
+      "title": "Gpu concat kernel improvements",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-11-19T20:55:20Z",
+      "updated_at": "2026-08-22T17:34:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4448",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5134,
+      "title": "[AIMIGRAPHX-1242] Use ROCm Extras prefix for TheRock packages",
+      "author": "kentqian",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T16:13:51Z",
+      "updated_at": "2026-08-22T15:19:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5134",
+      "labels": [
+        "dependencies",
+        "Continous Integration"
+      ],
       "draft": false
     },
     {
@@ -60,13 +121,81 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-20T15:06:44Z",
-      "updated_at": "2026-08-22T01:00:10Z",
+      "updated_at": "2026-08-22T13:43:11Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5158",
       "labels": [
         "bugfix",
         "simple",
         "Continous Integration"
       ],
+      "draft": false
+    },
+    {
+      "number": 5164,
+      "title": "Emit appropriate msg when no mxr files are dumped",
+      "author": "ahsan-ca",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T16:46:10Z",
+      "updated_at": "2026-08-22T13:23:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5164",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5166,
+      "title": "[ROCM-26610] Replace tags with SHAs",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T17:16:19Z",
+      "updated_at": "2026-08-22T13:18:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5166",
+      "labels": [
+        "dependencies",
+        "simple",
+        "Changelog: Not Applicable"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5159,
+      "title": "CI: update migraphx-reports repo location to AMD-ROCm-Internal",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T18:38:38Z",
+      "updated_at": "2026-08-22T12:03:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5159",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5154,
+      "title": "add missing MLIR wrapper stubs for MLIR-disabled builds",
+      "author": "nkotakal0107",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T06:40:58Z",
+      "updated_at": "2026-08-22T08:27:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5154",
+      "labels": [
+        "bugfix",
+        "simple",
+        "Cleanup"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5148,
+      "title": "Enhance symbolic onnx parsing via sym_eval",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T05:48:22Z",
+      "updated_at": "2026-08-23T04:35:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5148",
+      "labels": [],
       "draft": false
     },
     {
@@ -90,7 +219,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-21T23:11:45Z",
-      "updated_at": "2026-08-21T23:18:30Z",
+      "updated_at": "2026-08-22T22:22:40Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5168",
       "labels": [],
       "draft": false
@@ -138,20 +267,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-21T23:11:59Z",
-      "updated_at": "2026-08-21T23:15:32Z",
+      "updated_at": "2026-08-23T02:32:32Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5172",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5173,
-      "title": "fix(security): pin base image digest and run as jenkins user",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:12:01Z",
-      "updated_at": "2026-08-21T23:14:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5173",
       "labels": [],
       "draft": false
     },
@@ -194,42 +311,6 @@
       "draft": true
     },
     {
-      "number": 5137,
-      "title": "Eliminate concat after reshapes",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T22:42:07Z",
-      "updated_at": "2026-08-21T21:25:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5137",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5160,
-      "title": "Have reduce_sum, reduce_mean, and reduce_prod accumulate in wider floating point for fp8",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T22:33:55Z",
-      "updated_at": "2026-08-21T21:22:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5160",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4448,
-      "title": "Gpu concat kernel improvements",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-11-19T20:55:20Z",
-      "updated_at": "2026-08-21T21:20:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4448",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5124,
       "title": "Insert match::opaque into deep matchers to fix large symbol names on windows and debug gcc builds",
       "author": "pfultz2",
@@ -239,21 +320,6 @@
       "updated_at": "2026-08-21T20:01:24Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5124",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5134,
-      "title": "[AIMIGRAPHX-1242] Use ROCm Extras prefix for TheRock packages",
-      "author": "kentqian",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T16:13:51Z",
-      "updated_at": "2026-08-21T19:41:07Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5134",
-      "labels": [
-        "dependencies",
-        "Continous Integration"
-      ],
       "draft": false
     },
     {
@@ -273,22 +339,6 @@
       "draft": true
     },
     {
-      "number": 5154,
-      "title": "add missing MLIR wrapper stubs for MLIR-disabled builds",
-      "author": "nkotakal0107",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T06:40:58Z",
-      "updated_at": "2026-08-21T18:58:50Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5154",
-      "labels": [
-        "bugfix",
-        "simple",
-        "Cleanup"
-      ],
-      "draft": false
-    },
-    {
       "number": 5165,
       "title": "Onnxruntime Weekly Sync 2026-08-21",
       "author": "github-actions[bot]",
@@ -306,30 +356,6 @@
       "draft": false
     },
     {
-      "number": 5164,
-      "title": "Emit appropriate msg when no mxr files are dumped",
-      "author": "ahsan-ca",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T16:46:10Z",
-      "updated_at": "2026-08-21T18:34:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5164",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5146,
-      "title": "Add rewrite broadcasts for fuse_reduce",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T22:37:05Z",
-      "updated_at": "2026-08-21T16:35:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5146",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5052,
       "title": "Revert find_reshape_cont guard relaxation from PR#4858",
       "author": "tamahedi",
@@ -340,20 +366,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
       "labels": [
         "bugfix",
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5117,
-      "title": "Problem cache follow-on: pluggable backends, layered cache paths, compile-options API, and offline tooling",
-      "author": "danieyan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-05T21:33:30Z",
-      "updated_at": "2026-08-21T06:49:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5117",
-      "labels": [
         "Windows"
       ],
       "draft": false
@@ -648,18 +660,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5133",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5139,
-      "title": "Add GPU JIT implementation for gridsample operation",
-      "author": "Imeguras",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-16T17:12:34Z",
-      "updated_at": "2026-08-18T23:28:35Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5139",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5151,

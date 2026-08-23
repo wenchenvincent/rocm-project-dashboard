@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-08-22T08:15:26Z",
+  "collected_at": "2026-08-23T08:15:53Z",
   "prs": [
+    {
+      "number": 11367,
+      "title": "[AMD] Do not insert barriers between two async loads for Membar",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T10:23:14Z",
+      "updated_at": "2026-08-22T16:35:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11367",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11380,
+      "title": "[Release][Cherry-Pick][AMD] Fix direct-to-LDS staging for undersized tiles (#10635)",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T13:26:21Z",
+      "updated_at": "2026-08-22T15:18:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11380",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11399,
       "title": "[AMD][IMP][Launch Latency] read use_buffer_ops once at import time",
@@ -8,7 +32,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-22T06:39:48Z",
-      "updated_at": "2026-08-22T06:39:48Z",
+      "updated_at": "2026-08-22T08:55:02Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11399",
       "labels": [],
       "draft": false
@@ -74,18 +98,6 @@
       "draft": false
     },
     {
-      "number": 11367,
-      "title": "[AMD] Do not insert barriers between two async loads for Membar",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T10:23:14Z",
-      "updated_at": "2026-08-21T07:25:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11367",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11379,
       "title": "[AMD] Carry buffer-op base address space in the op format",
       "author": "jerryyin",
@@ -142,18 +154,6 @@
       "created_at": "2026-08-20T05:32:34Z",
       "updated_at": "2026-08-20T15:54:01Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11375",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11380,
-      "title": "[Release][Cherry-Pick][AMD] Fix direct-to-LDS staging for undersized tiles (#10635)",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T13:26:21Z",
-      "updated_at": "2026-08-20T13:26:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11380",
       "labels": [],
       "draft": false
     },

@@ -1,29 +1,17 @@
 {
-  "collected_at": "2026-08-22T08:15:50Z",
+  "collected_at": "2026-08-23T08:16:17Z",
   "prs": [
     {
-      "number": 1985,
-      "title": "Fix Qwen3.5 block-FP8 correctness under vLLM FULL cudagraph",
-      "author": "zhangxinyuanliuhengyu",
+      "number": 1989,
+      "title": "perf(v4): cut the host work between two forwards",
+      "author": "valarLip",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-21T14:05:31Z",
-      "updated_at": "2026-08-22T07:29:45Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1985",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1987,
-      "title": "Fix dpa spec middle chunk collective align for agentic",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-22T03:48:53Z",
-      "updated_at": "2026-08-22T05:13:33Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1987",
+      "created_at": "2026-08-23T04:41:19Z",
+      "updated_at": "2026-08-23T05:38:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1989",
       "labels": [
-        "ci:atom"
+        "ci:full"
       ],
       "draft": false
     },
@@ -34,23 +22,35 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-16T06:19:01Z",
-      "updated_at": "2026-08-22T05:13:16Z",
+      "updated_at": "2026-08-22T21:01:27Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1910",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1975,
-      "title": "Gfx1250/test ep 817",
-      "author": "JiaoliangYu",
+      "number": 1833,
+      "title": "[gfx1250] Route wo_a grouped LoRA through the flydsl a8w4 batched GEMM",
+      "author": "XingerZhu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-21T04:03:02Z",
-      "updated_at": "2026-08-22T04:49:14Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1975",
+      "created_at": "2026-08-07T09:54:52Z",
+      "updated_at": "2026-08-22T12:00:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1833",
       "labels": [
         "ci:atom"
       ],
+      "draft": false
+    },
+    {
+      "number": 1985,
+      "title": "Fix Qwen3.5 block-FP8 correctness under vLLM FULL cudagraph",
+      "author": "zhangxinyuanliuhengyu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T14:05:31Z",
+      "updated_at": "2026-08-22T07:29:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1985",
+      "labels": [],
       "draft": false
     },
     {
@@ -100,20 +100,6 @@
       "created_at": "2026-08-11T05:20:20Z",
       "updated_at": "2026-08-21T13:23:34Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1858",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1980,
-      "title": "perf(engine): raise GC thresholds in the EngineCore and ModelRunner too",
-      "author": "junhaha666",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T07:57:52Z",
-      "updated_at": "2026-08-21T11:26:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1980",
       "labels": [
         "ci:atom"
       ],
@@ -183,34 +169,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1960",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1833,
-      "title": "[gfx1250] Route wo_a grouped LoRA through the flydsl a8w4 batched GEMM",
-      "author": "XingerZhu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T09:54:52Z",
-      "updated_at": "2026-08-21T05:56:54Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1833",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1795,
-      "title": "Feat/v4 wo a mxscale bmm",
-      "author": "yzhou103",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-05T02:28:49Z",
-      "updated_at": "2026-08-21T05:40:32Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1795",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
     },
     {
       "number": 1911,
@@ -2478,6 +2436,74 @@
       "draft": false
     },
     {
+      "number": 1980,
+      "title": "perf(engine): raise GC thresholds in the EngineCore and ModelRunner too",
+      "author": "junhaha666",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-21T07:57:52Z",
+      "updated_at": "2026-08-23T04:48:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1980",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1988,
+      "title": "fix(dist): pp-aware init no longer breaks raw IPC input pools",
+      "author": "ThomasNing",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-23T04:30:57Z",
+      "updated_at": "2026-08-23T04:44:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1988",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1987,
+      "title": "Fix dpa spec middle chunk collective align for agentic",
+      "author": "ZhangLirong-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-22T03:48:53Z",
+      "updated_at": "2026-08-22T13:31:46Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1987",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1795,
+      "title": "Feat/v4 wo a mxscale bmm",
+      "author": "yzhou103",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-05T02:28:49Z",
+      "updated_at": "2026-08-22T11:43:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1795",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1975,
+      "title": "Gfx1250/test ep 817",
+      "author": "JiaoliangYu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-21T04:03:02Z",
+      "updated_at": "2026-08-22T11:39:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1975",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
       "number": 1986,
       "title": "perf(dsv4): tune FP4 prefill MQA grid",
       "author": "yhl-amd",
@@ -3445,44 +3471,6 @@
       "updated_at": "2026-08-12T02:45:47Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1868",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1865,
-      "title": "fix(v4-kernels): let a V4 pool have no dense class, which V4-Pro plus DSpark is",
-      "author": "valarLip",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-11T16:07:05Z",
-      "updated_at": "2026-08-12T02:00:24Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1865",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1866,
-      "title": "fix(mooncake): keep TCP transport off RDMA devices",
-      "author": "cquil11",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-11T18:20:03Z",
-      "updated_at": "2026-08-12T02:00:22Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1866",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1850,
-      "title": "feat(spec-decode): add synthetic (forced) acceptance-rate knob",
-      "author": "whx-sjtu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-10T10:39:04Z",
-      "updated_at": "2026-08-12T01:02:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1850",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     }
   ]

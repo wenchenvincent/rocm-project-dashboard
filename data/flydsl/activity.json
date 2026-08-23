@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-08-22T08:18:27Z",
+  "collected_at": "2026-08-23T08:19:00Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 38,
+      "opened": 39,
       "merged": 27,
       "closed": 11
     },
     "last_week": {
-      "opened": 23,
-      "merged": 17,
+      "opened": 20,
+      "merged": 14,
       "closed": 3
     },
-    "median_time_to_merge_hours": 28.3,
-    "merge_count": 44,
-    "stale_prs": 30
+    "median_time_to_merge_hours": 32.7,
+    "merge_count": 41,
+    "stale_prs": 32
   },
   "contributors": {
-    "active_this_week": 22,
-    "total_contributors": 56,
+    "active_this_week": 23,
+    "total_contributors": 57,
     "top_contributors": [
       {
         "author": "sjfeng1999",
@@ -31,13 +31,13 @@
         "author": "jhinpan",
         "prs_submitted": 11,
         "prs_merged": 3,
-        "commits": 7
+        "commits": 6
       },
       {
         "author": "coderfeli",
         "prs_submitted": 11,
         "prs_merged": 11,
-        "commits": 15
+        "commits": 14
       },
       {
         "author": "JohnQinAMD",
@@ -55,7 +55,7 @@
         "author": "Phil-amd",
         "prs_submitted": 5,
         "prs_merged": 3,
-        "commits": 6
+        "commits": 4
       },
       {
         "author": "amd-nprotaso",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 21.0,
+    "days_since_last": 22.0,
     "avg_interval_days": 15.4,
     "total_releases": 4,
     "latest_tag": "v0.3.0"

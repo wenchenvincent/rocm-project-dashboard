@@ -1,6 +1,131 @@
 {
-  "collected_at": "2026-08-22T08:14:54Z",
+  "collected_at": "2026-08-23T08:15:21Z",
   "issues": [
+    {
+      "number": 194447,
+      "title": "ROCm wheel 2.8.0+rocm6.3: three native crashes in the bundled math stack on gfx1100 (bf16 conv / large bf16 GEMM / MIOpen JIT)",
+      "author": "AIwork4me",
+      "state": "open",
+      "created_at": "2026-08-22T13:53:35Z",
+      "updated_at": "2026-08-23T01:10:39Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/194447",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: rocm",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 194473,
+      "title": "Torch does not optimize matrix multiplication on certain transformer architectures",
+      "author": "rumoschilling",
+      "state": "open",
+      "created_at": "2026-08-22T22:42:47Z",
+      "updated_at": "2026-08-22T22:44:57Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/194473",
+      "labels": [
+        "module: performance",
+        "triaged",
+        "enhancement",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 193590,
+      "title": "c10::SourceLocation / AutogradState use C++20-only syntax with no C++17 fallback, causing misleading errors under nvcc -std=c++17",
+      "author": "schall8",
+      "state": "open",
+      "created_at": "2026-08-14T14:55:14Z",
+      "updated_at": "2026-08-22T22:25:04Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/193590",
+      "labels": [
+        "module: build",
+        "module: cpp-extensions",
+        "triaged",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 194329,
+      "title": "[Inductor][aot_autograd][autocast][dynamic_shape] torch.compile with dynamic=True produces incorrect values for fallback ops (e.g., sum) under autocast due to tracing/runtime autocast state mismatch",
+      "author": "markc-614",
+      "state": "open",
+      "created_at": "2026-08-21T06:14:27Z",
+      "updated_at": "2026-08-22T21:20:58Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/194329",
+      "labels": [
+        "triage review",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: dynamic shapes",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 145374,
+      "title": "Memory Leak in MPS Backend During LSTM Iterations (Out of Memory Error)",
+      "author": "Tyndall-log",
+      "state": "open",
+      "created_at": "2025-01-22T14:30:11Z",
+      "updated_at": "2026-08-22T18:54:53Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/145374",
+      "labels": [
+        "module: rnn",
+        "module: memory usage",
+        "triaged",
+        "module: mps"
+      ]
+    },
+    {
+      "number": 194418,
+      "title": "Memory leak with XPU",
+      "author": "Anonimasu1",
+      "state": "open",
+      "created_at": "2026-08-21T23:04:03Z",
+      "updated_at": "2026-08-22T15:38:51Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/194418",
+      "labels": [
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 193979,
+      "title": "[ROCm] PyTorch nightly wheel installation for rocm7.14 results in \"maximum recursion depth exceeded\" error",
+      "author": "jithunnair-amd",
+      "state": "open",
+      "created_at": "2026-08-18T17:55:15Z",
+      "updated_at": "2026-08-22T13:05:35Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/193979",
+      "labels": [
+        "high priority",
+        "triage review",
+        "module: binaries",
+        "module: rocm",
+        "module: regression",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 194053,
+      "title": "[CPU] inductor::_alloc_from_pool creates out-of-bounds views from unchecked byte offsets",
+      "author": "hanbaiGG",
+      "state": "open",
+      "created_at": "2026-08-19T08:15:03Z",
+      "updated_at": "2026-08-22T10:13:09Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/194053",
+      "labels": [
+        "module: crash",
+        "triaged",
+        "oncall: pt2",
+        "module: inductor",
+        "module: aotinductor",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 185141,
       "title": "[Dynamo] torchvision.io functions raise \"RuntimeError when making fake tensor call\" instead of graph breaking",
@@ -30,18 +155,6 @@
         "module: dynamo",
         "bot-triaged",
         "module: compiled streams"
-      ]
-    },
-    {
-      "number": 194418,
-      "title": "Memory leak with XPU",
-      "author": "Anonimasu1",
-      "state": "open",
-      "created_at": "2026-08-21T23:04:03Z",
-      "updated_at": "2026-08-21T23:28:40Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/194418",
-      "labels": [
-        "bot-triaged"
       ]
     },
     {
@@ -289,23 +402,6 @@
       ]
     },
     {
-      "number": 194329,
-      "title": "[Inductor][aot_autograd][autocast][dynamic_shape] torch.compile with dynamic=True produces incorrect values for fallback ops (e.g., sum) under autocast due to tracing/runtime autocast state mismatch",
-      "author": "markc-614",
-      "state": "open",
-      "created_at": "2026-08-21T06:14:27Z",
-      "updated_at": "2026-08-21T06:17:09Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/194329",
-      "labels": [
-        "triage review",
-        "module: correctness (silent)",
-        "oncall: pt2",
-        "module: dynamic shapes",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 173793,
       "title": "Numerical stability discrepancy in torch.compile: LayerNorm produces NaN for large inputs (~1e37) while Eager mode is stable",
       "author": "zifan6699",
@@ -336,23 +432,6 @@
         "module: pt2-dispatcher",
         "compile-cache",
         "module: sdpa"
-      ]
-    },
-    {
-      "number": 193979,
-      "title": "[ROCm] PyTorch nightly wheel installation for rocm7.14 results in \"maximum recursion depth exceeded\" error",
-      "author": "jithunnair-amd",
-      "state": "open",
-      "created_at": "2026-08-18T17:55:15Z",
-      "updated_at": "2026-08-20T23:06:34Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/193979",
-      "labels": [
-        "high priority",
-        "triage review",
-        "module: binaries",
-        "module: rocm",
-        "module: regression",
-        "bot-triaged"
       ]
     },
     {
@@ -481,25 +560,6 @@
       ]
     },
     {
-      "number": 193194,
-      "title": "dynamo: `AssertionError: lift_tracked_freevar_to_input should not be called on root SubgraphTracer` \u2014 dynamic shapes \u00d7 non-reentrant checkpoint with conditional cross-attention",
-      "author": "rwightman",
-      "state": "open",
-      "created_at": "2026-08-12T17:15:24Z",
-      "updated_at": "2026-08-20T16:29:14Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/193194",
-      "labels": [
-        "module: activation checkpointing",
-        "triaged",
-        "has workaround",
-        "oncall: pt2",
-        "module: dynamic shapes",
-        "module: dynamo",
-        "module: higher order operators",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 193193,
       "title": "torch.compile: compiled backward for a graph containing two checkpointed traversals of shared blocks holds a multi-block recompute working set",
       "author": "rwightman",
@@ -515,23 +575,6 @@
         "oncall: pt2",
         "module: aotdispatch",
         "module: pt2-dispatcher",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 194053,
-      "title": "[CPU] inductor::_alloc_from_pool creates out-of-bounds views from unchecked byte offsets",
-      "author": "hanbaiGG",
-      "state": "open",
-      "created_at": "2026-08-19T08:15:03Z",
-      "updated_at": "2026-08-20T12:26:50Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/194053",
-      "labels": [
-        "module: crash",
-        "triaged",
-        "oncall: pt2",
-        "module: inductor",
-        "module: aotinductor",
         "bot-triaged"
       ]
     },
@@ -691,36 +734,6 @@
         "module: bfloat16",
         "actionable",
         "module: correctness (silent)"
-      ]
-    },
-    {
-      "number": 193912,
-      "title": "DISABLED test_grouped_gemm_compiled_op_3d/3d_a_row_major_False_b_row_major_False_max_autotune_True_cuda (__main__.TestMatmulCudaCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-08-18T06:58:26Z",
-      "updated_at": "2026-08-18T06:58:30Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/193912",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "module: flaky-tests",
-        "module: linear algebra",
-        "skipped"
-      ]
-    },
-    {
-      "number": 165141,
-      "title": "[ROCm][RDNA3/GFX1100] MIOpen Conv3d catastrophically fails on large batches with bfloat16, causing vLLM to extremely slowdown",
-      "author": "healy-hub",
-      "state": "open",
-      "created_at": "2025-10-10T11:54:17Z",
-      "updated_at": "2026-08-18T06:46:25Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/165141",
-      "labels": [
-        "module: performance",
-        "module: rocm",
-        "triaged"
       ]
     }
   ]
