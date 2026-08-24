@@ -1,29 +1,29 @@
 {
-  "collected_at": "2026-08-23T08:17:20Z",
+  "collected_at": "2026-08-24T08:34:59Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 66,
-      "merged": 52,
-      "closed": 4
+      "opened": 64,
+      "merged": 53,
+      "closed": 3
     },
     "last_week": {
-      "opened": 14,
-      "merged": 10,
+      "opened": 17,
+      "merged": 13,
       "closed": 0
     },
-    "median_time_to_merge_hours": 141.1,
-    "merge_count": 62,
+    "median_time_to_merge_hours": 138.9,
+    "merge_count": 66,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 80,
-    "total_contributors": 85,
+    "active_this_week": 87,
+    "total_contributors": 92,
     "top_contributors": [
       {
         "author": "AndreasKaratzas",
-        "prs_submitted": 17,
+        "prs_submitted": 11,
         "prs_merged": 9,
         "commits": 0
       },
@@ -34,9 +34,9 @@
         "commits": 0
       },
       {
-        "author": "akii96",
+        "author": "simondanielsson",
         "prs_submitted": 5,
-        "prs_merged": 3,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -46,9 +46,9 @@
         "commits": 0
       },
       {
-        "author": "simondanielsson",
+        "author": "akii96",
         "prs_submitted": 4,
-        "prs_merged": 1,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -58,7 +58,13 @@
         "commits": 0
       },
       {
-        "author": "HakureiPOI",
+        "author": "xiaohuguo2023",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "avininjamay8",
         "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
@@ -70,30 +76,24 @@
         "commits": 0
       },
       {
-        "author": "new-TonyWang",
+        "author": "thunguo",
         "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "wuhangxian",
-        "prs_submitted": 2,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
-    "bus_factor": 7
+    "bus_factor": 8
   },
   "issue_health": {
-    "total_open": 54,
-    "opened_this_week": 28,
-    "closed_this_week": 119,
+    "total_open": 53,
+    "opened_this_week": 26,
+    "closed_this_week": 107,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 11.9,
+    "days_since_last": 12.9,
     "avg_interval_days": 7.7,
     "total_releases": 5,
     "latest_tag": "v0.27.1"

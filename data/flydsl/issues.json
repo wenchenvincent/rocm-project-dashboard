@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-23T08:16:27Z",
+  "collected_at": "2026-08-24T08:34:22Z",
   "issues": [
     {
       "number": 1054,
@@ -45,16 +45,6 @@
       "created_at": "2026-07-12T06:43:41Z",
       "updated_at": "2026-08-17T22:27:53Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/831",
-      "labels": []
-    },
-    {
-      "number": 1002,
-      "title": "[Issue]: fx.exp2 lowers to an OCML libcall instead of native v_exp_f32, and `fastmath` is silently dropped on that path",
-      "author": "yiijin",
-      "state": "open",
-      "created_at": "2026-08-12T09:22:26Z",
-      "updated_at": "2026-08-12T09:32:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1002",
       "labels": []
     },
     {

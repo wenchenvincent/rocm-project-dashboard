@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-08-23T08:15:53Z",
+  "collected_at": "2026-08-24T08:33:52Z",
   "prs": [
+    {
+      "number": 11365,
+      "title": "[AMD][LAYOUTS] Refine swizzling for mixed tile bases and asymmetric bank configurations",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T08:40:24Z",
+      "updated_at": "2026-08-24T03:39:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11365",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11169,
+      "title": "[AMD][LAYOUTS] Restrict low-vector swizzle reorder to <=32 banks",
+      "author": "jerryyin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-04T18:16:09Z",
+      "updated_at": "2026-08-24T02:17:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11169",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11367,
       "title": "[AMD] Do not insert barriers between two async loads for Membar",
@@ -202,18 +226,6 @@
       "created_at": "2026-07-23T20:59:35Z",
       "updated_at": "2026-08-19T16:56:38Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11028",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11365,
-      "title": "[AMD][LAYOUTS] Refine swizzling for mixed tile bases and asymmetric bank configurations",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T08:40:24Z",
-      "updated_at": "2026-08-19T08:42:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11365",
       "labels": [],
       "draft": false
     },
@@ -562,18 +574,6 @@
       "created_at": "2026-08-05T16:41:43Z",
       "updated_at": "2026-08-05T21:22:31Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11183",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11169,
-      "title": "[AMD][LAYOUTS] Restrict low-vector swizzle reorder to <=32 banks",
-      "author": "jerryyin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T18:16:09Z",
-      "updated_at": "2026-08-05T16:01:57Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11169",
       "labels": [],
       "draft": false
     },

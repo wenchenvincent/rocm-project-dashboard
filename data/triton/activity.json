@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-08-23T08:17:24Z",
+  "collected_at": "2026-08-24T08:35:03Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
       "opened": 12,
-      "merged": 8,
+      "merged": 9,
       "closed": 0
     },
     "last_week": {
-      "opened": 17,
-      "merged": 7,
+      "opened": 15,
+      "merged": 6,
       "closed": 0
     },
     "median_time_to_merge_hours": 18.1,
     "merge_count": 30,
-    "stale_prs": 2
+    "stale_prs": 3
   },
   "contributors": {
     "active_this_week": 14,
@@ -70,13 +70,13 @@
         "commits": 0
       },
       {
-        "author": "Dewei-Wang-sh",
+        "author": "amd-jianli12",
         "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "irreg",
+        "author": "Dewei-Wang-sh",
         "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 21,
     "opened_this_week": 1,
-    "closed_this_week": 7,
+    "closed_this_week": 12,
     "unanswered": 9
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 65.7,
+    "days_since_last": 66.7,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

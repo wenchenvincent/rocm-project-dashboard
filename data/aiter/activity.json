@@ -1,31 +1,37 @@
 {
-  "collected_at": "2026-08-23T08:17:56Z",
+  "collected_at": "2026-08-24T08:35:36Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 127,
-      "merged": 76,
-      "closed": 27
+      "opened": 151,
+      "merged": 74,
+      "closed": 24
     },
     "last_week": {
-      "opened": 124,
-      "merged": 88,
-      "closed": 17
+      "opened": 125,
+      "merged": 90,
+      "closed": 20
     },
-    "median_time_to_merge_hours": 59.0,
+    "median_time_to_merge_hours": 50.7,
     "merge_count": 180,
     "stale_prs": 16
   },
   "contributors": {
-    "active_this_week": 122,
-    "total_contributors": 268,
+    "active_this_week": 120,
+    "total_contributors": 270,
     "top_contributors": [
       {
+        "author": "Boss2002n",
+        "prs_submitted": 30,
+        "prs_merged": 3,
+        "commits": 10
+      },
+      {
         "author": "gyohuangxin",
-        "prs_submitted": 25,
-        "prs_merged": 9,
-        "commits": 17
+        "prs_submitted": 26,
+        "prs_merged": 10,
+        "commits": 18
       },
       {
         "author": "JohnQinAMD",
@@ -70,19 +76,13 @@
         "commits": 4
       },
       {
-        "author": "k50112113",
-        "prs_submitted": 7,
-        "prs_merged": 1,
-        "commits": 4
-      },
-      {
-        "author": "Boss2002n",
+        "author": "amd-ruitang3",
         "prs_submitted": 7,
         "prs_merged": 3,
-        "commits": 10
+        "commits": 17
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 11
   },
   "issue_health": {
     "total_open": 271,
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.9,
+    "days_since_last": 5.9,
     "avg_interval_days": 7.6,
     "total_releases": 5,
     "latest_tag": "v0.1.20"

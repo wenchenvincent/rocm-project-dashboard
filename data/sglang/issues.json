@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-23T08:15:51Z",
+  "collected_at": "2026-08-24T08:33:50Z",
   "issues": [
     {
       "number": 17050,
@@ -7,18 +7,8 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-23T07:39:11Z",
+      "updated_at": "2026-08-24T07:29:12Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
-      "labels": []
-    },
-    {
-      "number": 35591,
-      "title": "[Bug] ROCm images pin AITER below the FlyDSL MXFP4 MoE kernels, making tuned AITER_CONFIG_FMOE tables unusable on gfx950",
-      "author": "ThomasNing",
-      "state": "open",
-      "created_at": "2026-08-20T00:04:19Z",
-      "updated_at": "2026-08-23T02:29:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35591",
       "labels": []
     },
     {
@@ -27,7 +17,7 @@
       "author": "ispobock",
       "state": "open",
       "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-22T06:51:43Z",
+      "updated_at": "2026-08-23T14:08:46Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20865",
       "labels": [
         "enhancement",
@@ -36,13 +26,13 @@
       ]
     },
     {
-      "number": 34720,
-      "title": "[Bug] [XPU] Qwen3.5 GDN + speculative decode: causal_conv1d_update_xpu() got an unexpected keyword argument 'intermediate_conv_window'",
-      "author": "dayanandav",
+      "number": 36071,
+      "title": "[Bug][AMD] DSA dense/k-only decode graph produces all-NaN logits with DP attention",
+      "author": "tanth47",
       "state": "open",
-      "created_at": "2026-08-13T09:40:34Z",
-      "updated_at": "2026-08-21T14:47:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34720",
+      "created_at": "2026-08-23T11:02:39Z",
+      "updated_at": "2026-08-23T13:54:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36071",
       "labels": []
     },
     {
@@ -401,18 +391,6 @@
       "updated_at": "2026-08-11T03:34:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34351",
       "labels": []
-    },
-    {
-      "number": 22283,
-      "title": "[Apple Silicon] Optimize MoE performance",
-      "author": "jonahbernard",
-      "state": "open",
-      "created_at": "2026-04-07T19:18:19Z",
-      "updated_at": "2026-08-10T20:04:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22283",
-      "labels": [
-        "inactive"
-      ]
     },
     {
       "number": 34205,
