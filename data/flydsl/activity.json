@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-08-24T08:36:39Z",
+  "collected_at": "2026-08-25T08:29:53Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 43,
-      "merged": 28,
+      "opened": 42,
+      "merged": 29,
       "closed": 11
     },
     "last_week": {
-      "opened": 17,
-      "merged": 17,
+      "opened": 20,
+      "merged": 16,
       "closed": 3
     },
     "median_time_to_merge_hours": 33.9,
@@ -18,8 +18,8 @@
     "stale_prs": 32
   },
   "contributors": {
-    "active_this_week": 22,
-    "total_contributors": 58,
+    "active_this_week": 24,
+    "total_contributors": 59,
     "top_contributors": [
       {
         "author": "sjfeng1999",
@@ -30,8 +30,8 @@
       {
         "author": "jhinpan",
         "prs_submitted": 11,
-        "prs_merged": 5,
-        "commits": 7
+        "prs_merged": 6,
+        "commits": 8
       },
       {
         "author": "coderfeli",
@@ -52,16 +52,22 @@
         "commits": 4
       },
       {
+        "author": "Phil-amd",
+        "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 3
+      },
+      {
         "author": "aoli26",
         "prs_submitted": 5,
         "prs_merged": 3,
         "commits": 3
       },
       {
-        "author": "Phil-amd",
+        "author": "xytpai",
         "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 3
+        "prs_merged": 4,
+        "commits": 4
       },
       {
         "author": "amd-nprotaso",
@@ -74,26 +80,20 @@
         "prs_submitted": 4,
         "prs_merged": 1,
         "commits": 1
-      },
-      {
-        "author": "omuhamma",
-        "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
     "bus_factor": 5
   },
   "issue_health": {
-    "total_open": 52,
-    "opened_this_week": 3,
+    "total_open": 51,
+    "opened_this_week": 1,
     "closed_this_week": 3,
     "unanswered": 22
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 23.0,
+    "days_since_last": 24.0,
     "avg_interval_days": 15.4,
     "total_releases": 4,
     "latest_tag": "v0.3.0"

@@ -1,36 +1,36 @@
 {
-  "collected_at": "2026-08-24T08:35:03Z",
+  "collected_at": "2026-08-25T08:28:22Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 12,
-      "merged": 9,
+      "opened": 13,
+      "merged": 13,
       "closed": 0
     },
     "last_week": {
-      "opened": 15,
-      "merged": 6,
+      "opened": 11,
+      "merged": 7,
       "closed": 0
     },
-    "median_time_to_merge_hours": 18.1,
+    "median_time_to_merge_hours": 78.3,
     "merge_count": 30,
-    "stale_prs": 3
+    "stale_prs": 7
   },
   "contributors": {
-    "active_this_week": 14,
-    "total_contributors": 38,
+    "active_this_week": 13,
+    "total_contributors": 40,
     "top_contributors": [
       {
         "author": "AlexAUT",
-        "prs_submitted": 7,
-        "prs_merged": 3,
+        "prs_submitted": 8,
+        "prs_merged": 7,
         "commits": 0
       },
       {
         "author": "antiagainst",
-        "prs_submitted": 7,
-        "prs_merged": 7,
+        "prs_submitted": 5,
+        "prs_merged": 5,
         "commits": 0
       },
       {
@@ -54,12 +54,6 @@
       {
         "author": "lohiaj",
         "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "umangyadav",
-        "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 0
       },
@@ -70,7 +64,7 @@
         "commits": 0
       },
       {
-        "author": "amd-jianli12",
+        "author": "raikonenfnu",
         "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
@@ -78,11 +72,17 @@
       {
         "author": "Dewei-Wang-sh",
         "prs_submitted": 1,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "amd-jianli12",
+        "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
       }
     ],
-    "bus_factor": 4
+    "bus_factor": 3
   },
   "issue_health": {
     "total_open": 21,
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 66.7,
+    "days_since_last": 67.7,
     "avg_interval_days": 60.0,
     "total_releases": 5,
     "latest_tag": "v3.7.1"

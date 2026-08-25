@@ -1,6 +1,45 @@
 {
-  "collected_at": "2026-08-24T08:33:28Z",
+  "collected_at": "2026-08-25T08:26:56Z",
   "prs": [
+    {
+      "number": 40076,
+      "title": "[ROCm] Take the wheel metadata ROCm version from the build config",
+      "author": "gulsumgudukbay",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-18T18:20:06Z",
+      "updated_at": "2026-08-25T00:25:49Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40076",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 40173,
+      "title": "[WIP] [ROCm] Switch the ROCm CI flows from 7.14 to 10.0",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T20:16:24Z",
+      "updated_at": "2026-08-24T20:16:24Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40173",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 39848,
+      "title": "[ROCm] Reenble previously skipped pallas tests",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T05:00:09Z",
+      "updated_at": "2026-08-24T13:13:58Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39848",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 40131,
       "title": "Remove dynamic discovery of unknown rocm wheels.",
@@ -10,33 +49,6 @@
       "created_at": "2026-08-21T21:19:05Z",
       "updated_at": "2026-08-23T13:25:08Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40131",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 40076,
-      "title": "[ROCm] Take the wheel metadata ROCm version from the build config",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T18:20:06Z",
-      "updated_at": "2026-08-21T16:22:02Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40076",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39848,
-      "title": "[ROCm] Reenble previously skipped pallas tests",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T05:00:09Z",
-      "updated_at": "2026-08-21T16:07:19Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39848",
       "labels": [],
       "draft": false
     },
@@ -488,21 +500,6 @@
         "pull ready",
         "CI",
         "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38950,
-      "title": "[ROCm] Fix PgleTest.testAutoPgle expected fdo profile counts",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-06T17:17:48Z",
-      "updated_at": "2026-07-06T20:31:05Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38950",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
       ],
       "draft": false
     },

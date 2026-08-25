@@ -1,6 +1,114 @@
 {
-  "collected_at": "2026-08-24T08:33:52Z",
+  "collected_at": "2026-08-25T08:27:17Z",
   "prs": [
+    {
+      "number": 11435,
+      "title": "[RFC][AMD][Gluon] Require other for masked buffer-to-shared loads",
+      "author": "raikonenfnu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T00:10:41Z",
+      "updated_at": "2026-08-25T07:53:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11435",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11429,
+      "title": "[Release][Cherry-Pick] [AMD] Fix under-approximated loop-carried ranges in range analysis",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T16:39:14Z",
+      "updated_at": "2026-08-25T00:11:04Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11429",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11040,
+      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T22:25:24Z",
+      "updated_at": "2026-08-24T23:10:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11040",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11381,
+      "title": "[Release][Cherry-Pick] [AMD] Support blocked/shared order mismatch for direct-to-LDS (#10928)",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-20T13:26:44Z",
+      "updated_at": "2026-08-24T21:19:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11381",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11367,
+      "title": "[AMD] Do not insert barriers between two async loads for Membar",
+      "author": "Dewei-Wang-sh",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-19T10:23:14Z",
+      "updated_at": "2026-08-24T16:27:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11367",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11375,
+      "title": "[Release] [Cherry-Pick] [AMD] Preserve i32 accumulation for small-K int8 dots (#11282)",
+      "author": "lohiaj",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-20T05:32:34Z",
+      "updated_at": "2026-08-24T15:16:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11375",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11380,
+      "title": "[Release][Cherry-Pick][AMD] Fix direct-to-LDS staging for undersized tiles (#10635)",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-20T13:26:21Z",
+      "updated_at": "2026-08-24T15:16:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11380",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11382,
+      "title": "[Release][Cherry-Pick] [AMD] Fix buffer_load_to_local with other (#11256)",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-20T13:26:48Z",
+      "updated_at": "2026-08-24T15:14:52Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11382",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11383,
+      "title": "[Release][Cherry-Pick] [AMD][Gluon] Add cdna5 alias for gfx1250 and document it",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-20T13:36:35Z",
+      "updated_at": "2026-08-24T15:13:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11383",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11365,
       "title": "[AMD][LAYOUTS] Refine swizzling for mixed tile bases and asymmetric bank configurations",
@@ -8,7 +116,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-19T08:40:24Z",
-      "updated_at": "2026-08-24T03:39:33Z",
+      "updated_at": "2026-08-24T11:35:22Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11365",
       "labels": [],
       "draft": false
@@ -26,30 +134,6 @@
       "draft": false
     },
     {
-      "number": 11367,
-      "title": "[AMD] Do not insert barriers between two async loads for Membar",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T10:23:14Z",
-      "updated_at": "2026-08-22T16:35:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11367",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11380,
-      "title": "[Release][Cherry-Pick][AMD] Fix direct-to-LDS staging for undersized tiles (#10635)",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T13:26:21Z",
-      "updated_at": "2026-08-22T15:18:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11380",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11399,
       "title": "[AMD][IMP][Launch Latency] read use_buffer_ops once at import time",
       "author": "irreg",
@@ -58,18 +142,6 @@
       "created_at": "2026-08-22T06:39:48Z",
       "updated_at": "2026-08-22T08:55:02Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11399",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11040,
-      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T22:25:24Z",
-      "updated_at": "2026-08-21T22:47:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11040",
       "labels": [],
       "draft": false
     },
@@ -130,54 +202,6 @@
       "created_at": "2026-08-20T13:23:23Z",
       "updated_at": "2026-08-20T21:56:01Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11379",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11383,
-      "title": "[Release][Cherry-Pick] [AMD][Gluon] Add cdna5 alias for gfx1250 and document it",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T13:36:35Z",
-      "updated_at": "2026-08-20T17:58:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11383",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11382,
-      "title": "[Release][Cherry-Pick] [AMD] Fix buffer_load_to_local with other (#11256)",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T13:26:48Z",
-      "updated_at": "2026-08-20T17:54:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11382",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11381,
-      "title": "[Release][Cherry-Pick] [AMD] Support blocked/shared order mismatch for direct-to-LDS (#10928)",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T13:26:44Z",
-      "updated_at": "2026-08-20T17:54:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11381",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11375,
-      "title": "[Release] [Cherry-Pick] [AMD] Preserve i32 accumulation for small-K int8 dots (#11282)",
-      "author": "lohiaj",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T05:32:34Z",
-      "updated_at": "2026-08-20T15:54:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11375",
       "labels": [],
       "draft": false
     },
@@ -566,78 +590,6 @@
       "draft": false
     },
     {
-      "number": 11183,
-      "title": "[Gluon][AMD] Move gfx1250 APIs to cdna5",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T16:41:43Z",
-      "updated_at": "2026-08-05T21:22:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11183",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11178,
-      "title": "[AMD] Support warp-based split-k for mxfp fa on gfx1250",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T02:24:17Z",
-      "updated_at": "2026-08-05T03:02:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11178",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11152,
-      "title": "[AMD][Gluon] Add cdna5 alias for gfx1250 and document it",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-03T03:52:29Z",
-      "updated_at": "2026-08-03T18:28:42Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11152",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11118,
-      "title": "[AMD] Delegate NaN-propagating min/max to LLVM",
-      "author": "umangyadav",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-31T00:44:00Z",
-      "updated_at": "2026-08-03T16:05:00Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11118",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11149,
-      "title": "[AMD][Gluon] Expose `LocalLoadPackedTransposedOp` as `load_shared_fp4_repacked` in Gluon",
-      "author": "FrederickVu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-02T20:48:50Z",
-      "updated_at": "2026-08-03T15:22:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11149",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11155,
-      "title": "[AMD] Removed branching from tdm-prefetch",
-      "author": "ravil-mobile",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-03T11:01:51Z",
-      "updated_at": "2026-08-03T15:09:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11155",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11049,
       "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
       "author": "JAGANNATHANJP",
@@ -720,6 +672,54 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10871",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 10759,
+      "title": "[AMD] Form masked regions for equivalent masked loads/stores",
+      "author": "efric",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-30T05:40:50Z",
+      "updated_at": "2026-07-16T20:42:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10759",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10483,
+      "title": "[AMD] Prove buffer-load contiguity along LinearLayout register order",
+      "author": "panditsa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-04T20:24:38Z",
+      "updated_at": "2026-07-15T16:55:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10483",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10328,
+      "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
+      "author": "Hardcode84",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T22:02:50Z",
+      "updated_at": "2026-07-08T21:58:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10328",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10733,
+      "title": "[AMD] Fix batched WMMA scale layout",
+      "author": "alefimov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T15:19:09Z",
+      "updated_at": "2026-06-26T15:20:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10733",
+      "labels": [],
+      "draft": false
     }
   ]
 }

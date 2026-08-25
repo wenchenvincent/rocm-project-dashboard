@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-24T08:34:22Z",
+  "collected_at": "2026-08-25T08:27:46Z",
   "issues": [
     {
       "number": 1054,
@@ -22,19 +22,6 @@
       "labels": [
         "enhancement",
         "FlyDSL/Customization"
-      ]
-    },
-    {
-      "number": 1018,
-      "title": "[Kernel] Add opt-in autotuning for Softmax",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-08-17T20:31:11Z",
-      "updated_at": "2026-08-18T08:19:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1018",
-      "labels": [
-        "enhancement",
-        "performance"
       ]
     },
     {
