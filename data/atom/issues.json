@@ -1,6 +1,59 @@
 {
-  "collected_at": "2026-08-25T08:27:41Z",
+  "collected_at": "2026-08-26T08:28:29Z",
   "issues": [
+    {
+      "number": 2025,
+      "title": "[Perf Regression] 30 config(s) regressed @ 4e0848dc",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-08-26T05:53:00Z",
+      "updated_at": "2026-08-26T05:53:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2025",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 69,
+      "title": "[Issue]: ATOM nightly docker can not run on gfx942",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2025-12-17T18:57:20Z",
+      "updated_at": "2026-08-25T18:11:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/69",
+      "labels": []
+    },
+    {
+      "number": 2014,
+      "title": "[Feature]: Multimodal support in ATOM",
+      "author": "cubezhang",
+      "state": "open",
+      "created_at": "2026-08-25T03:20:02Z",
+      "updated_at": "2026-08-25T17:08:50Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2014",
+      "labels": []
+    },
+    {
+      "number": 2022,
+      "title": "[Issue]: DeepSeek V4 TP-MoE does not work",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-25T17:02:58Z",
+      "updated_at": "2026-08-25T17:02:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2022",
+      "labels": []
+    },
+    {
+      "number": 2021,
+      "title": "[Issue]: Mori EP-MoE not CUDA-graph-capturable under TP-attention",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-25T16:28:10Z",
+      "updated_at": "2026-08-25T16:36:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2021",
+      "labels": []
+    },
     {
       "number": 2017,
       "title": "[Perf Regression] 29 config(s) regressed @ b8dcfe09",
@@ -13,16 +66,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 2014,
-      "title": "[Feature]: Multimodal support in ATOM",
-      "author": "cubezhang",
-      "state": "open",
-      "created_at": "2026-08-25T03:20:02Z",
-      "updated_at": "2026-08-25T03:20:02Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2014",
-      "labels": []
     },
     {
       "number": 1945,
@@ -777,16 +820,6 @@
       "created_at": "2026-02-06T00:55:04Z",
       "updated_at": "2026-02-10T00:59:37Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/192",
-      "labels": []
-    },
-    {
-      "number": 69,
-      "title": "[Issue]: ATOM nightly docker can not run on gfx942",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2025-12-17T18:57:20Z",
-      "updated_at": "2025-12-19T12:09:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/69",
       "labels": []
     },
     {

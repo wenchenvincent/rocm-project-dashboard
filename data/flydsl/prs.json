@@ -1,6 +1,104 @@
 {
-  "collected_at": "2026-08-25T08:27:45Z",
+  "collected_at": "2026-08-26T08:28:34Z",
   "prs": [
+    {
+      "number": 1020,
+      "title": "[Bugfix][Kernel] Fix fp8 dense attention: softmax normalisation and an int32 dim overflow",
+      "author": "JohnQinAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T00:14:06Z",
+      "updated_at": "2026-08-26T08:20:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1020",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1015,
+      "title": "[Tools] Add architecture-general ISA resource diff tool",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T09:35:27Z",
+      "updated_at": "2026-08-26T08:03:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 971,
+      "title": "[gfx1250] Add A8W8/A8W4/A4W4 compute-bound GEMM",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-08-26T07:29:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1067,
+      "title": "[MI355]support mxfp8 8wave pipeline",
+      "author": "solinzby1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T08:53:38Z",
+      "updated_at": "2026-08-26T07:27:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1067",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 972,
+      "title": "add A4W4 and FP8 P2P transport support to MegaMoE",
+      "author": "Yaowu-Xiong",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T06:55:42Z",
+      "updated_at": "2026-08-26T07:05:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/972",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 957,
+      "title": "Add SVD quant for Quark",
+      "author": "amd-xiaoyu12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T17:57:47Z",
+      "updated_at": "2026-08-26T00:43:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/957",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1056,
+      "title": "Support vLLM paged KV cache layouts on the gfx950 attention kernel",
+      "author": "akii96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:47:09Z",
+      "updated_at": "2026-08-25T22:39:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1056",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1064,
+      "title": "[Bugfix][PA] Fix D192 query staging and 64-bit cache offsets",
+      "author": "sammysun0711",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T09:12:46Z",
+      "updated_at": "2026-08-25T16:35:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1064",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 848,
       "title": "[Perf] Optimize rmsnorm/layernorm",
@@ -20,44 +118,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-21T06:18:20Z",
-      "updated_at": "2026-08-25T08:03:22Z",
+      "updated_at": "2026-08-25T09:15:01Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1051",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1015,
-      "title": "[Tools] Add architecture-general ISA resource diff tool",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T09:35:27Z",
-      "updated_at": "2026-08-25T08:00:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 971,
-      "title": "[gfx1250] Add 256x256 compute-bound GEMM (WIP)",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-08-25T07:48:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1020,
-      "title": "[Bugfix][Kernel] Fix fp8 dense attention: softmax normalisation and an int32 dim overflow",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T00:14:06Z",
-      "updated_at": "2026-08-25T07:17:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1020",
       "labels": [],
       "draft": false
     },
@@ -74,18 +136,6 @@
       "draft": false
     },
     {
-      "number": 1064,
-      "title": "[Bugfix][PA] Fix D192 query staging and 64-bit cache offsets",
-      "author": "sammysun0711",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T09:12:46Z",
-      "updated_at": "2026-08-25T05:47:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1064",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1061,
       "title": "[gfx1250] Add bf16 gemm",
       "author": "aoli26",
@@ -95,20 +145,6 @@
       "updated_at": "2026-08-25T04:50:40Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1061",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 972,
-      "title": "add A4W4 and FP8 P2P transport support to MegaMoE",
-      "author": "Yaowu-Xiong",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T06:55:42Z",
-      "updated_at": "2026-08-25T04:38:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/972",
-      "labels": [
-        "multi-gpu"
-      ],
       "draft": false
     },
     {
@@ -230,18 +266,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1055",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1056,
-      "title": "Support vLLM paged KV cache layouts on the gfx950 attention kernel",
-      "author": "akii96",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:47:09Z",
-      "updated_at": "2026-08-22T11:08:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1056",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1013,
@@ -412,18 +436,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/912",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 957,
-      "title": "Add SVD quant for Quark",
-      "author": "amd-xiaoyu12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-02T17:57:47Z",
-      "updated_at": "2026-08-02T17:58:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/957",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 942,
@@ -890,6 +902,18 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1068,
+      "title": "[Kernel] Refine G2S copy layout for gfx950 GEMM",
+      "author": "xytpai",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-25T10:20:54Z",
+      "updated_at": "2026-08-26T05:13:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1068",
       "labels": [],
       "draft": false
     },
@@ -1826,20 +1850,6 @@
       "updated_at": "2026-07-31T08:32:58Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/925",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 876,
-      "title": "MegaMoE on Gfx950",
-      "author": "GwilliamHu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-21T02:44:12Z",
-      "updated_at": "2026-07-31T08:31:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/876",
-      "labels": [
-        "multi-gpu"
-      ],
       "draft": false
     }
   ]

@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-08-25T08:27:48Z",
+  "collected_at": "2026-08-26T08:28:37Z",
   "prs": [
+    {
+      "number": 716,
+      "title": "Add ROCm Triton blockwise FP8 grouped GEMM",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T19:05:34Z",
+      "updated_at": "2026-08-26T05:05:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 676,
+      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T03:23:51Z",
+      "updated_at": "2026-08-26T04:17:17Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 717,
+      "title": "Integrate Grouped Gemm v2 on ROCm",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T03:24:10Z",
+      "updated_at": "2026-08-26T03:24:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/717",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 715,
       "title": "Do not mark replicated weights as tensor-model-parallel",
@@ -8,9 +48,65 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-25T02:42:16Z",
-      "updated_at": "2026-08-25T02:48:00Z",
+      "updated_at": "2026-08-26T02:05:36Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/715",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 713,
+      "title": "Bulk AG Overlap for bf16 on gfx950",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T18:19:13Z",
+      "updated_at": "2026-08-26T01:47:59Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/713",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 704,
+      "title": "[TE] IFU release v2.17",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T21:29:03Z",
+      "updated_at": "2026-08-26T01:27:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/704",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 702,
+      "title": "Ifu dev 20260803 v2.18",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T01:02:21Z",
+      "updated_at": "2026-08-26T01:14:44Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 711,
+      "title": "Fix test filtering and reporting",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T18:56:03Z",
+      "updated_at": "2026-08-25T17:03:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/711",
+      "labels": [
+        "ci-level 2"
+      ],
       "draft": false
     },
     {
@@ -20,7 +116,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-18T15:42:54Z",
-      "updated_at": "2026-08-24T22:18:54Z",
+      "updated_at": "2026-08-25T16:19:18Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
       "labels": [],
       "draft": true
@@ -38,72 +134,6 @@
         "ci-level 3"
       ],
       "draft": true
-    },
-    {
-      "number": 714,
-      "title": "microbenchmarks: restructure, extend to additional low-precision dtypes",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T22:11:17Z",
-      "updated_at": "2026-08-24T22:11:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/714",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 711,
-      "title": "Fix test filtering and reporting",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T18:56:03Z",
-      "updated_at": "2026-08-24T22:11:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/711",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 676,
-      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-08-24T21:51:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 702,
-      "title": "Ifu dev 20260803 v2.18",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T01:02:21Z",
-      "updated_at": "2026-08-24T19:38:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 713,
-      "title": "Bulk AG Overlap for bf16 on gfx950",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T18:19:13Z",
-      "updated_at": "2026-08-24T19:05:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/713",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 697,
@@ -156,20 +186,6 @@
       "created_at": "2026-08-20T18:48:56Z",
       "updated_at": "2026-08-21T20:56:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/710",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 704,
-      "title": "[TE] IFU release v2.17",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T21:29:03Z",
-      "updated_at": "2026-08-21T18:22:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/704",
       "labels": [
         "ci-level 3"
       ],
@@ -728,6 +744,18 @@
       "created_at": "2025-07-03T08:20:23Z",
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 714,
+      "title": "microbenchmarks: extend all to additional low-precision dtypes, restructure GEMM",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-24T22:11:17Z",
+      "updated_at": "2026-08-26T02:57:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/714",
       "labels": [],
       "draft": false
     },
@@ -1906,20 +1934,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/597",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 595,
-      "title": "PR583 hot fix",
-      "author": "aris134",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-21T15:05:19Z",
-      "updated_at": "2026-05-23T13:43:49Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/595",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     }

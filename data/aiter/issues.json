@@ -1,6 +1,41 @@
 {
-  "collected_at": "2026-08-25T08:27:36Z",
+  "collected_at": "2026-08-26T08:28:24Z",
   "issues": [
+    {
+      "number": 5000,
+      "title": "[Test] Expand FP8 MHA harness coverage beyond 128x128",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-08-25T23:39:15Z",
+      "updated_at": "2026-08-25T23:39:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5000",
+      "labels": []
+    },
+    {
+      "number": 4986,
+      "title": "[Issue]: No guard for gfx1250 in flydsl_moe_stage1 when running DeepSeek-V4-Flash with SGLang",
+      "author": "akao-amd",
+      "state": "open",
+      "created_at": "2026-08-25T08:52:16Z",
+      "updated_at": "2026-08-25T09:11:02Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4986",
+      "labels": [
+        "High Priority"
+      ]
+    },
+    {
+      "number": 4987,
+      "title": "# [gfx1250] FlyDSL MoE heuristic-fallback kernel fails to lower: `LLVM ERROR: Do not know how to expand this operator's operand!` (`raw.ptr.buffer.load.lds`)",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-08-25T08:52:25Z",
+      "updated_at": "2026-08-25T08:58:34Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4987",
+      "labels": [
+        "bug",
+        "High Priority"
+      ]
+    },
     {
       "number": 4920,
       "title": "[ASM] a16w16 split-K: the entry-zero counter is unsafe under CUDA graph capture; opus-style fp32 partials would remove the class",

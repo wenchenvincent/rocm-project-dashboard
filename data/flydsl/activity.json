@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-08-25T08:29:53Z",
+  "collected_at": "2026-08-26T08:30:33Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 42,
-      "merged": 29,
-      "closed": 11
+      "opened": 37,
+      "merged": 25,
+      "closed": 9
     },
     "last_week": {
-      "opened": 20,
-      "merged": 16,
-      "closed": 3
+      "opened": 25,
+      "merged": 17,
+      "closed": 4
     },
-    "median_time_to_merge_hours": 33.9,
-    "merge_count": 45,
+    "median_time_to_merge_hours": 23.1,
+    "merge_count": 42,
     "stale_prs": 32
   },
   "contributors": {
-    "active_this_week": 24,
-    "total_contributors": 59,
+    "active_this_week": 25,
+    "total_contributors": 60,
     "top_contributors": [
       {
         "author": "sjfeng1999",
         "prs_submitted": 17,
         "prs_merged": 15,
-        "commits": 20
+        "commits": 19
       },
       {
         "author": "jhinpan",
         "prs_submitted": 11,
         "prs_merged": 6,
-        "commits": 8
+        "commits": 6
       },
       {
         "author": "coderfeli",
@@ -52,6 +52,12 @@
         "commits": 4
       },
       {
+        "author": "xytpai",
+        "prs_submitted": 6,
+        "prs_merged": 5,
+        "commits": 5
+      },
+      {
         "author": "Phil-amd",
         "prs_submitted": 5,
         "prs_merged": 3,
@@ -62,12 +68,6 @@
         "prs_submitted": 5,
         "prs_merged": 3,
         "commits": 3
-      },
-      {
-        "author": "xytpai",
-        "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 4
       },
       {
         "author": "amd-nprotaso",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 24.0,
+    "days_since_last": 25.0,
     "avg_interval_days": 15.4,
     "total_releases": 4,
     "latest_tag": "v0.3.0"

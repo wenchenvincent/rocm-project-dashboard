@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-25T08:27:16Z",
+  "collected_at": "2026-08-26T08:28:04Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,62 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-25T07:25:18Z",
+      "updated_at": "2026-08-26T07:53:41Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 36462,
+      "title": "[Bug] sglang-kernel wheels omit required PyTorch ABI dependency metadata",
+      "author": "kuma-loong",
+      "state": "open",
+      "created_at": "2026-08-26T07:44:49Z",
+      "updated_at": "2026-08-26T07:44:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36462",
+      "labels": []
+    },
+    {
+      "number": 36207,
+      "title": "[Bug] MLA KV writers can overwrite reserved padding slot 0",
+      "author": "tanth47",
+      "state": "open",
+      "created_at": "2026-08-24T17:04:45Z",
+      "updated_at": "2026-08-26T07:36:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36207",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-26T07:29:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 36390,
+      "title": "[Bug] [ROCm] DeepSeek-V4-Flash FP8 on MI300X (gfx942): output degrades with context length \u2014 coherent <100 tokens, garbage by ~300, NIAH 0/3",
+      "author": "raviguptaamd",
+      "state": "open",
+      "created_at": "2026-08-25T22:33:18Z",
+      "updated_at": "2026-08-25T22:34:02Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36390",
+      "labels": []
+    },
+    {
+      "number": 36302,
+      "title": "[Bug] sglang-kernel JIT: HiCache L3 segfault on first backup with nvcc 12.8 + CUDA 13 runtime (compile-time vs runtime cudaMemcpyBatchAsync ABI in staged_write_back.cuh)",
+      "author": "Neo-113",
+      "state": "open",
+      "created_at": "2026-08-25T08:47:23Z",
+      "updated_at": "2026-08-25T09:01:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36302",
       "labels": []
     },
     {
@@ -22,20 +76,6 @@
       "labels": []
     },
     {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-25T04:37:14Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
       "number": 36071,
       "title": "[Bug][AMD] Custom AR graph registration corrupts DSA DP-attention graph-skew replay",
       "author": "tanth47",
@@ -43,16 +83,6 @@
       "created_at": "2026-08-23T11:02:39Z",
       "updated_at": "2026-08-24T20:02:17Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/36071",
-      "labels": []
-    },
-    {
-      "number": 36207,
-      "title": "[Bug] MLA KV writers can overwrite reserved padding slot 0",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-08-24T17:04:45Z",
-      "updated_at": "2026-08-24T17:04:45Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36207",
       "labels": []
     },
     {
@@ -125,16 +155,6 @@
       "created_at": "2026-08-19T01:20:42Z",
       "updated_at": "2026-08-19T01:20:42Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/35420",
-      "labels": []
-    },
-    {
-      "number": 35348,
-      "title": "[Bug] [AMD] torch.compile: \"launcher() missing 1 required positional argument: '_grid_2'\" in _fused_gate_sigmoid_mul_add_kernel on ROCm + torch 2.11 / Triton 3.7",
-      "author": "chuyeh",
-      "state": "open",
-      "created_at": "2026-08-18T15:25:46Z",
-      "updated_at": "2026-08-18T15:25:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35348",
       "labels": []
     },
     {
@@ -421,20 +441,6 @@
       "updated_at": "2026-08-09T18:34:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34149",
       "labels": []
-    },
-    {
-      "number": 16255,
-      "title": "[Feature] deepseek_v2.py Refactor",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2026-01-01T03:53:53Z",
-      "updated_at": "2026-08-08T20:40:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
-      "labels": [
-        "inactive",
-        "deepseek",
-        "Good Pro Issue"
-      ]
     },
     {
       "number": 31924,
