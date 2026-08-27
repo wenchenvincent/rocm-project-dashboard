@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-26T08:28:31Z",
+  "collected_at": "2026-08-27T18:28:31Z",
   "issues": [
+    {
+      "number": 610,
+      "title": "InterNodeV1: residual stochastic combine corruption at >=128 tokens/rank with correct routing indices (post-#546)",
+      "author": "Oseltamivir",
+      "state": "open",
+      "created_at": "2026-08-27T13:18:07Z",
+      "updated_at": "2026-08-27T13:18:07Z",
+      "html_url": "https://github.com/ROCm/mori/issues/610",
+      "labels": []
+    },
     {
       "number": 572,
       "title": "[RFC] Async dispatch/combine support for shared expert overlap in vLLM",

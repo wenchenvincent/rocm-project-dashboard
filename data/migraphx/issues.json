@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-26T08:28:11Z",
+  "collected_at": "2026-08-27T18:28:06Z",
   "issues": [
+    {
+      "number": 5196,
+      "title": "quantize_fp8 calibration crashes: invalid-argument error, segfault, or hang depending on calibration batch construction",
+      "author": "npow",
+      "state": "open",
+      "created_at": "2026-08-27T05:23:18Z",
+      "updated_at": "2026-08-27T18:22:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5196",
+      "labels": []
+    },
     {
       "number": 5140,
       "title": "[Optimization] GridSample is slow and is making InternImage run at less than 1 fps",

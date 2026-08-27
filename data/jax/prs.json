@@ -1,31 +1,61 @@
 {
-  "collected_at": "2026-08-26T08:27:44Z",
+  "collected_at": "2026-08-27T18:27:35Z",
   "prs": [
-    {
-      "number": 40225,
-      "title": "Switch ROCm RBE to linux_x64_gpu_do_gfx950 pool",
-      "author": "charleshofer",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T06:04:24Z",
-      "updated_at": "2026-08-26T06:04:24Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40225",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 40215,
       "title": "[ROCm] Replace rocm-smi with amd-smi in CI diagnostics",
       "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-08-25T21:38:40Z",
-      "updated_at": "2026-08-25T22:19:15Z",
+      "updated_at": "2026-08-27T00:18:17Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40215",
       "labels": [
         "kokoro:force-run",
         "pull ready"
       ],
+      "draft": false
+    },
+    {
+      "number": 40173,
+      "title": " [ROCm] Switch the ROCm CI flows from 7.14 to 10.0",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-24T20:16:24Z",
+      "updated_at": "2026-08-26T18:25:54Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40173",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 40225,
+      "title": "Switch ROCm RBE to linux_x64_gpu_do_gfx950 pool",
+      "author": "charleshofer",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-26T06:04:24Z",
+      "updated_at": "2026-08-26T16:35:47Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40225",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 39848,
+      "title": "[ROCm] Reenble previously skipped pallas tests",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T05:00:09Z",
+      "updated_at": "2026-08-26T11:58:44Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/39848",
+      "labels": [],
       "draft": false
     },
     {
@@ -41,30 +71,6 @@
         "kokoro:force-run",
         "pull ready"
       ],
-      "draft": false
-    },
-    {
-      "number": 40173,
-      "title": "[WIP] [ROCm] Switch the ROCm CI flows from 7.14 to 10.0",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T20:16:24Z",
-      "updated_at": "2026-08-24T20:16:24Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40173",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 39848,
-      "title": "[ROCm] Reenble previously skipped pallas tests",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T05:00:09Z",
-      "updated_at": "2026-08-24T13:13:58Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39848",
-      "labels": [],
       "draft": false
     },
     {
@@ -478,54 +484,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38490,
-      "title": "[ROCm] Allow XLA_PYTHON_CLIENT_ALLOCATOR=address",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-15T23:04:01Z",
-      "updated_at": "2026-07-10T22:37:51Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38490",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38884,
-      "title": "[ROCm] Update rules_ml_toolchain as well as xla refs",
-      "author": "alekstheod",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T12:30:06Z",
-      "updated_at": "2026-07-10T15:00:12Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38884",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38808,
-      "title": "[ROCm] Add blocking PR gate with a reduced set of tests",
-      "author": "mminutoli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T21:29:31Z",
-      "updated_at": "2026-07-07T14:29:42Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38808",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "CI",
         "AMD GPU"
       ],
       "draft": false

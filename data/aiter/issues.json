@@ -1,6 +1,120 @@
 {
-  "collected_at": "2026-08-26T08:28:24Z",
+  "collected_at": "2026-08-27T18:28:21Z",
   "issues": [
+    {
+      "number": 899,
+      "title": "[Feature]: Add FP8 KV Cache support to Aiter MLA",
+      "author": "HAIAI",
+      "state": "open",
+      "created_at": "2025-08-28T00:30:26Z",
+      "updated_at": "2026-08-27T16:45:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/899",
+      "labels": [
+        "High Priority"
+      ]
+    },
+    {
+      "number": 3737,
+      "title": "[Issue]: batched_gemm_a16wfp4 split-K path reads out of bounds / returns garbage for small M on gfx950",
+      "author": "Concurrensee",
+      "state": "open",
+      "created_at": "2026-06-15T16:53:50Z",
+      "updated_at": "2026-08-27T16:45:01Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3737",
+      "labels": []
+    },
+    {
+      "number": 5049,
+      "title": "[Bug] fused MoE GPU-faults on GLM-5.3-Flash 288-expert/top-8 shape (gfx950, no tuned config)",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-08-27T10:27:17Z",
+      "updated_at": "2026-08-27T16:42:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5049",
+      "labels": []
+    },
+    {
+      "number": 5044,
+      "title": "[Bug] HIP RMSNorm corrupts row-boundary elements for odd hidden sizes",
+      "author": "junna2016",
+      "state": "open",
+      "created_at": "2026-08-27T06:23:50Z",
+      "updated_at": "2026-08-27T06:23:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5044",
+      "labels": []
+    },
+    {
+      "number": 5039,
+      "title": "[Bug] top_k_top_p_sampling_from_probs(deterministic=True) segfaults on gfx942 with some builds; original race attribution withdrawn",
+      "author": "zzw09773",
+      "state": "open",
+      "created_at": "2026-08-27T02:48:00Z",
+      "updated_at": "2026-08-27T03:24:57Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5039",
+      "labels": []
+    },
+    {
+      "number": 5032,
+      "title": "[RFC]: The MoE tuner's acceptance metric accepts a kernel that destroys 18% of its output",
+      "author": "KHassanQazi",
+      "state": "open",
+      "created_at": "2026-08-26T19:56:43Z",
+      "updated_at": "2026-08-27T02:59:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5032",
+      "labels": []
+    },
+    {
+      "number": 5030,
+      "title": "[RFC]: Let a failed `checkAllclose` fail the test",
+      "author": "KHassanQazi",
+      "state": "open",
+      "created_at": "2026-08-26T19:55:58Z",
+      "updated_at": "2026-08-27T02:59:44Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5030",
+      "labels": []
+    },
+    {
+      "number": 5040,
+      "title": "[Bug][MLA] gfx942: native-support list claims (nhead=8, bf16, max_seqlen_q=2) but no such kernel is built \u2014 GPU fault instead of a clean error",
+      "author": "zzw09773",
+      "state": "open",
+      "created_at": "2026-08-27T02:48:58Z",
+      "updated_at": "2026-08-27T02:48:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5040",
+      "labels": []
+    },
+    {
+      "number": 5031,
+      "title": "[RFC]: Replace the hardcoded `atol=100` in the MoE op_tests with a derived tolerance",
+      "author": "KHassanQazi",
+      "state": "open",
+      "created_at": "2026-08-26T19:56:24Z",
+      "updated_at": "2026-08-27T02:45:31Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5031",
+      "labels": []
+    },
+    {
+      "number": 5036,
+      "title": "[Feature Request] Expose a capabilities() API for runtime feature/version detection",
+      "author": "wjabbour",
+      "state": "open",
+      "created_at": "2026-08-26T23:46:57Z",
+      "updated_at": "2026-08-26T23:57:57Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5036",
+      "labels": []
+    },
+    {
+      "number": 4325,
+      "title": "[Issue]: [FlyDSL][MoE][VLLM] moe_gemm_2stage: `fx.ptrtoint` on `!fly.memref` fails to build on gfx9500(MI355)",
+      "author": "stefankoncarevic",
+      "state": "open",
+      "created_at": "2026-07-21T15:41:28Z",
+      "updated_at": "2026-08-26T21:00:52Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4325",
+      "labels": [
+        "ci:vllm"
+      ]
+    },
     {
       "number": 5000,
       "title": "[Test] Expand FP8 MHA harness coverage beyond 128x128",
@@ -10,31 +124,6 @@
       "updated_at": "2026-08-25T23:39:15Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5000",
       "labels": []
-    },
-    {
-      "number": 4986,
-      "title": "[Issue]: No guard for gfx1250 in flydsl_moe_stage1 when running DeepSeek-V4-Flash with SGLang",
-      "author": "akao-amd",
-      "state": "open",
-      "created_at": "2026-08-25T08:52:16Z",
-      "updated_at": "2026-08-25T09:11:02Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4986",
-      "labels": [
-        "High Priority"
-      ]
-    },
-    {
-      "number": 4987,
-      "title": "# [gfx1250] FlyDSL MoE heuristic-fallback kernel fails to lower: `LLVM ERROR: Do not know how to expand this operator's operand!` (`raw.ptr.buffer.load.lds`)",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-08-25T08:52:25Z",
-      "updated_at": "2026-08-25T08:58:34Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4987",
-      "labels": [
-        "bug",
-        "High Priority"
-      ]
     },
     {
       "number": 4920,
@@ -435,18 +524,6 @@
       "updated_at": "2026-07-28T09:11:55Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4423",
       "labels": []
-    },
-    {
-      "number": 4325,
-      "title": "[Issue]: [FlyDSL][MoE][VLLM] moe_gemm_2stage: `fx.ptrtoint` on `!fly.memref` fails to build on gfx9500(MI355)",
-      "author": "stefankoncarevic",
-      "state": "open",
-      "created_at": "2026-07-21T15:41:28Z",
-      "updated_at": "2026-07-28T01:06:34Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4325",
-      "labels": [
-        "ci:vllm"
-      ]
     },
     {
       "number": 4364,
@@ -912,18 +989,6 @@
       "updated_at": "2026-06-17T09:54:21Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3778",
       "labels": []
-    },
-    {
-      "number": 3737,
-      "title": "[Issue]: batched_gemm_a16wfp4 split-K path reads out of bounds / returns garbage for small M on gfx950",
-      "author": "Concurrensee",
-      "state": "open",
-      "created_at": "2026-06-15T16:53:50Z",
-      "updated_at": "2026-06-17T03:29:01Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3737",
-      "labels": [
-        "aiswrcca"
-      ]
     },
     {
       "number": 3762,
@@ -2468,19 +2533,6 @@
       "updated_at": "2025-09-01T15:31:39Z",
       "html_url": "https://github.com/ROCm/aiter/issues/922",
       "labels": []
-    },
-    {
-      "number": 899,
-      "title": "[Feature]: Add FP8 KV Cache support to Aiter MLA",
-      "author": "HAIAI",
-      "state": "open",
-      "created_at": "2025-08-28T00:30:26Z",
-      "updated_at": "2025-08-28T08:43:23Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/899",
-      "labels": [
-        "High Priority",
-        "must-have"
-      ]
     },
     {
       "number": 873,

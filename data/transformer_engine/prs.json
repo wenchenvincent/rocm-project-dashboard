@@ -1,6 +1,76 @@
 {
-  "collected_at": "2026-08-26T08:28:37Z",
+  "collected_at": "2026-08-27T18:28:37Z",
   "prs": [
+    {
+      "number": 719,
+      "title": "CI: parallel download steps, bump {up,down}load-artifacts versions",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T17:58:44Z",
+      "updated_at": "2026-08-27T18:27:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/719",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 713,
+      "title": "Bulk AG Overlap for bf16 on gfx950",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T18:19:13Z",
+      "updated_at": "2026-08-27T17:32:17Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/713",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 702,
+      "title": "Ifu dev 20260803 v2.18",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T01:02:21Z",
+      "updated_at": "2026-08-27T15:54:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 678,
+      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
+      "author": "shurale-nkn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T15:17:24Z",
+      "updated_at": "2026-08-27T15:14:30Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 628,
+      "title": "Enable MultiCastTranspose for expert weights",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-16T15:51:34Z",
+      "updated_at": "2026-08-27T04:25:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/628",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 716,
       "title": "Add ROCm Triton blockwise FP8 grouped GEMM",
@@ -8,10 +78,48 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-25T19:05:34Z",
-      "updated_at": "2026-08-26T05:05:16Z",
+      "updated_at": "2026-08-27T00:09:56Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
       "labels": [
         "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 718,
+      "title": "Add gfx950 MXFP8 CK grouped GEMM",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T17:11:57Z",
+      "updated_at": "2026-08-26T21:14:37Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/718",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 705,
+      "title": "[proof-of-concept] Kernel autotuning in TE",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T15:42:54Z",
+      "updated_at": "2026-08-26T21:08:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 697,
+      "title": "Integrate MXFP4 hipblaslt GEMM support",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T15:04:06Z",
+      "updated_at": "2026-08-26T19:02:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
+      "labels": [
+        "ci-level 3"
       ],
       "draft": false
     },
@@ -22,7 +130,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-08-26T04:17:17Z",
+      "updated_at": "2026-08-26T13:27:19Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
       "labels": [
         "ci-level 1"
@@ -54,48 +162,6 @@
       "draft": false
     },
     {
-      "number": 713,
-      "title": "Bulk AG Overlap for bf16 on gfx950",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T18:19:13Z",
-      "updated_at": "2026-08-26T01:47:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/713",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 704,
-      "title": "[TE] IFU release v2.17",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T21:29:03Z",
-      "updated_at": "2026-08-26T01:27:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/704",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 702,
-      "title": "Ifu dev 20260803 v2.18",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T01:02:21Z",
-      "updated_at": "2026-08-26T01:14:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 711,
       "title": "Fix test filtering and reporting",
       "author": "ipanfilo",
@@ -110,18 +176,6 @@
       "draft": false
     },
     {
-      "number": 705,
-      "title": "[proof-of-concept] Kernel autotuning in TE",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T15:42:54Z",
-      "updated_at": "2026-08-25T16:19:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 709,
       "title": "Update to new QoLA/CK-JIT/AITER",
       "author": "ipanfilo",
@@ -134,34 +188,6 @@
         "ci-level 3"
       ],
       "draft": true
-    },
-    {
-      "number": 697,
-      "title": "Integrate MXFP4 hipblaslt GEMM support",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T15:04:06Z",
-      "updated_at": "2026-08-24T14:33:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 678,
-      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-08-24T11:15:41Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 712,
@@ -398,20 +424,6 @@
       "created_at": "2026-07-07T12:53:23Z",
       "updated_at": "2026-07-08T14:50:39Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/659",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 628,
-      "title": "Enable MultiCastTranspose for expert weights",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-16T15:51:34Z",
-      "updated_at": "2026-07-01T18:48:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/628",
       "labels": [
         "ci-level 3"
       ],
@@ -745,6 +757,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 704,
+      "title": "[TE] IFU release v2.17",
+      "author": "AllenFarcas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T21:29:03Z",
+      "updated_at": "2026-08-27T15:06:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/704",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {

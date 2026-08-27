@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-26T08:28:04Z",
+  "collected_at": "2026-08-27T18:27:58Z",
   "issues": [
     {
       "number": 17050,
@@ -7,18 +7,118 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-26T07:53:41Z",
+      "updated_at": "2026-08-27T18:04:07Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
-      "number": 36462,
-      "title": "[Bug] sglang-kernel wheels omit required PyTorch ABI dependency metadata",
-      "author": "kuma-loong",
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
       "state": "open",
-      "created_at": "2026-08-26T07:44:49Z",
-      "updated_at": "2026-08-26T07:44:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36462",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-27T17:34:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 16255,
+      "title": "[Feature] deepseek_v2.py Refactor",
+      "author": "Fridge003",
+      "state": "open",
+      "created_at": "2026-01-01T03:53:53Z",
+      "updated_at": "2026-08-27T16:18:14Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
+      "labels": [
+        "inactive",
+        "deepseek",
+        "Good Pro Issue"
+      ]
+    },
+    {
+      "number": 22949,
+      "title": "Development Roadmap (2026 Q2)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-04-16T08:35:03Z",
+      "updated_at": "2026-08-27T13:22:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
+      "labels": []
+    },
+    {
+      "number": 36702,
+      "title": "[Bug] Kimi-K3 + DCP: all TP ranks wedge in filter_dcp_local_kv_indices (nonzero \u2192 cudaStreamSynchronize) on long chunked prefill; 300s watchdog, memory free",
+      "author": "archit-spec",
+      "state": "open",
+      "created_at": "2026-08-27T13:11:23Z",
+      "updated_at": "2026-08-27T13:13:02Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36702",
+      "labels": []
+    },
+    {
+      "number": 36616,
+      "title": "[Bug] qwen3.8 flash next rocm bug",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-08-27T04:43:28Z",
+      "updated_at": "2026-08-27T08:25:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36616",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 36390,
+      "title": "[Bug] [ROCm] DeepSeek-V4-Flash FP8 on MI300X (gfx942): output degrades with context length \u2014 coherent <100 tokens, garbage by ~300, NIAH 0/3",
+      "author": "raviguptaamd",
+      "state": "open",
+      "created_at": "2026-08-25T22:33:18Z",
+      "updated_at": "2026-08-27T07:48:56Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36390",
+      "labels": []
+    },
+    {
+      "number": 34351,
+      "title": "[Bug][AMD][diffusion] FLUX server crashes on ROCm: Triton PTX inline-asm ('=f' constraint) in diffusion layernorm/numerics kernels fails to compile on gfx942",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-08-11T03:34:40Z",
+      "updated_at": "2026-08-27T07:17:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34351",
+      "labels": []
+    },
+    {
+      "number": 29864,
+      "title": "[AMD/ROCm] store_cache_4d Triton kernel fails to compile on ROCm 7.2.0 (TritonAMDGPUCanonicalizePointers)",
+      "author": "michaelzhang-ai",
+      "state": "open",
+      "created_at": "2026-07-01T18:31:23Z",
+      "updated_at": "2026-08-27T07:17:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29864",
+      "labels": []
+    },
+    {
+      "number": 36528,
+      "title": "[Bug] EAGLE3 without `--speculative-draft-model-path` loads the target as draft and crashes on normal Qwen/Llama targets",
+      "author": "Hanson-Wang-chn",
+      "state": "open",
+      "created_at": "2026-08-26T15:58:20Z",
+      "updated_at": "2026-08-26T15:58:53Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36528",
+      "labels": []
+    },
+    {
+      "number": 31504,
+      "title": "[Proposal] Fuse static FP8 activation quantization into producer kernels (norm / activation / allreduce epilogue)",
+      "author": "YAMY1234",
+      "state": "open",
+      "created_at": "2026-07-17T00:32:03Z",
+      "updated_at": "2026-08-26T11:56:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31504",
       "labels": []
     },
     {
@@ -29,30 +129,6 @@
       "created_at": "2026-08-24T17:04:45Z",
       "updated_at": "2026-08-26T07:36:15Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/36207",
-      "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-26T07:29:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
-      "number": 36390,
-      "title": "[Bug] [ROCm] DeepSeek-V4-Flash FP8 on MI300X (gfx942): output degrades with context length \u2014 coherent <100 tokens, garbage by ~300, NIAH 0/3",
-      "author": "raviguptaamd",
-      "state": "open",
-      "created_at": "2026-08-25T22:33:18Z",
-      "updated_at": "2026-08-25T22:34:02Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36390",
       "labels": []
     },
     {
@@ -309,20 +385,6 @@
       "labels": []
     },
     {
-      "number": 23602,
-      "title": "DeepSeek V4 Roadmap",
-      "author": "fzyzcjy",
-      "state": "open",
-      "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-08-13T10:38:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "roadmap"
-      ]
-    },
-    {
       "number": 34709,
       "title": "[Bug] benchmark/endpoint.py forks the server process after the parent initializes the accelerator (breaks XPU, latent on CUDA)",
       "author": "dayanandav",
@@ -353,16 +415,6 @@
       "labels": []
     },
     {
-      "number": 31995,
-      "title": "[Bug] DWDP unconditionally imports cuda.bindings \u2192 ModuleNotFoundError: No module named 'cuda' on non-CUDA platforms (XPU/CPU) during ModelRunner init",
-      "author": "dayanandav",
-      "state": "open",
-      "created_at": "2026-07-22T03:04:23Z",
-      "updated_at": "2026-08-12T04:02:10Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31995",
-      "labels": []
-    },
-    {
       "number": 34473,
       "title": "[ROCm] QuickReduce bf16\u2192fp16 cast corrupts gpt-oss-120b residuals: 62.7M non-finite elements on the default config",
       "author": "alexnails",
@@ -370,56 +422,6 @@
       "created_at": "2026-08-11T23:28:06Z",
       "updated_at": "2026-08-11T23:28:06Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34473",
-      "labels": []
-    },
-    {
-      "number": 30344,
-      "title": "[Tracking] DSpark in SGLang: roadmap",
-      "author": "sglang-bot",
-      "state": "open",
-      "created_at": "2026-07-07T05:29:04Z",
-      "updated_at": "2026-08-11T15:12:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30344",
-      "labels": []
-    },
-    {
-      "number": 22949,
-      "title": "Development Roadmap (2026 Q2)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-08-11T09:26:52Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
-      "labels": []
-    },
-    {
-      "number": 34367,
-      "title": "[Bug][diffusion] LongLive2 `longlive2_i2v` aborts: num_frames not divisible by num_frames_per_block (causal DMD)",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-08-11T06:03:33Z",
-      "updated_at": "2026-08-11T06:03:33Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34367",
-      "labels": []
-    },
-    {
-      "number": 34366,
-      "title": "[Bug][diffusion] JoyAI-Image-Edit fails at ImageEncodingStage: Qwen3-VL text encoder missing `mm_token_type_ids`",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-08-11T06:03:32Z",
-      "updated_at": "2026-08-11T06:03:32Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34366",
-      "labels": []
-    },
-    {
-      "number": 34351,
-      "title": "[Bug][AMD][diffusion] FLUX server crashes on ROCm: Triton PTX inline-asm ('=f' constraint) in diffusion layernorm/numerics kernels fails to compile on gfx942",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-08-11T03:34:40Z",
-      "updated_at": "2026-08-11T03:34:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34351",
       "labels": []
     },
     {
@@ -576,16 +578,6 @@
       "created_at": "2026-07-20T13:24:05Z",
       "updated_at": "2026-07-29T10:06:54Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31783",
-      "labels": []
-    },
-    {
-      "number": 32712,
-      "title": "[Feature] [RFC] SharedEP: a zerocopy execution model for MoE Expert Parallelism",
-      "author": "foraxe",
-      "state": "open",
-      "created_at": "2026-07-29T02:17:34Z",
-      "updated_at": "2026-07-29T02:28:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32712",
       "labels": []
     }
   ]

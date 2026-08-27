@@ -1,18 +1,67 @@
 {
-  "collected_at": "2026-08-26T08:28:29Z",
+  "collected_at": "2026-08-27T18:28:28Z",
   "issues": [
     {
-      "number": 2025,
-      "title": "[Perf Regression] 30 config(s) regressed @ 4e0848dc",
-      "author": "github-actions[bot]",
+      "number": 2065,
+      "title": "[Issue]: GPT-OSS-120B fails on the ATOM SGLang stack (MXFP4 `triton_kernel` MoE)",
+      "author": "ibeattyo",
       "state": "open",
-      "created_at": "2026-08-26T05:53:00Z",
-      "updated_at": "2026-08-26T05:53:00Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2025",
+      "created_at": "2026-08-27T17:12:50Z",
+      "updated_at": "2026-08-27T17:12:50Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2065",
+      "labels": []
+    },
+    {
+      "number": 2064,
+      "title": "[Issue]: AITER OPUS FMHA 32-bit buffer-offset overflow on DeepSeek DP-attention at 64k (SGLang 0.5.17 regression)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-27T17:08:57Z",
+      "updated_at": "2026-08-27T17:08:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2064",
+      "labels": []
+    },
+    {
+      "number": 2063,
+      "title": "[Issue]: DeepSeek-V3.2 TP-attention (DSA) prefill GPU coredump on SGLang at 64k (bs >= 48)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-27T17:02:15Z",
+      "updated_at": "2026-08-27T17:02:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2063",
+      "labels": []
+    },
+    {
+      "number": 2062,
+      "title": "[Issue]: ATOM: TP-DSA decode hang in the plugin forward-relay",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-27T17:00:29Z",
+      "updated_at": "2026-08-27T17:00:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2062",
+      "labels": []
+    },
+    {
+      "number": 1928,
+      "title": "[Documentation]: ATOM expansion should be consistent across documents",
+      "author": "mohanmithur",
+      "state": "open",
+      "created_at": "2026-08-17T10:42:10Z",
+      "updated_at": "2026-08-27T05:35:49Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1928",
       "labels": [
-        "performance",
-        "regression"
+        "documentation"
       ]
+    },
+    {
+      "number": 2022,
+      "title": "[Issue]: DeepSeek V4 TP-MoE does not work",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-25T17:02:58Z",
+      "updated_at": "2026-08-26T13:33:10Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2022",
+      "labels": []
     },
     {
       "number": 69,
@@ -35,16 +84,6 @@
       "labels": []
     },
     {
-      "number": 2022,
-      "title": "[Issue]: DeepSeek V4 TP-MoE does not work",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-25T17:02:58Z",
-      "updated_at": "2026-08-25T17:02:58Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2022",
-      "labels": []
-    },
-    {
       "number": 2021,
       "title": "[Issue]: Mori EP-MoE not CUDA-graph-capturable under TP-attention",
       "author": "ibeattyo",
@@ -53,19 +92,6 @@
       "updated_at": "2026-08-25T16:36:00Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2021",
       "labels": []
-    },
-    {
-      "number": 2017,
-      "title": "[Perf Regression] 29 config(s) regressed @ b8dcfe09",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-08-25T06:25:15Z",
-      "updated_at": "2026-08-25T06:25:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2017",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 1945,
@@ -155,16 +181,6 @@
       "created_at": "2026-08-17T16:35:07Z",
       "updated_at": "2026-08-17T16:35:07Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1934",
-      "labels": []
-    },
-    {
-      "number": 1928,
-      "title": "[Documentation]: ATOM expansion should be consistent across documents",
-      "author": "mohanmithur",
-      "state": "open",
-      "created_at": "2026-08-17T10:42:10Z",
-      "updated_at": "2026-08-17T10:42:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1928",
       "labels": []
     },
     {

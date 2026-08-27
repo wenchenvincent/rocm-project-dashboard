@@ -1,6 +1,114 @@
 {
-  "collected_at": "2026-08-26T08:28:06Z",
+  "collected_at": "2026-08-27T18:28:00Z",
   "prs": [
+    {
+      "number": 11475,
+      "title": "[AMD] Disable scalar atomics in multicta kernels",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T20:16:56Z",
+      "updated_at": "2026-08-27T18:07:15Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11475",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11365,
+      "title": "[AMD][LAYOUTS] Refine segment computation to support DS_READ_B128",
+      "author": "amd-jianli12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T08:40:24Z",
+      "updated_at": "2026-08-27T11:35:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11365",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11474,
+      "title": "[AMD] Enable RDNA4m buffer atomics and IEEE min/max",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T15:49:01Z",
+      "updated_at": "2026-08-27T04:00:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11474",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11274,
+      "title": "[AMD][CI] Add AMD CI image builds",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T22:01:26Z",
+      "updated_at": "2026-08-27T00:00:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11274",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11435,
+      "title": "[RFC][AMD][Gluon] Require other for masked buffer-to-shared loads",
+      "author": "raikonenfnu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T00:10:41Z",
+      "updated_at": "2026-08-26T19:00:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11435",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11040,
+      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
+      "author": "willghatch",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-24T22:25:24Z",
+      "updated_at": "2026-08-26T18:41:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11040",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11254,
+      "title": "[AMD] Optimize software E4M3FN to FP16 conversion",
+      "author": "skyguan92",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T02:40:16Z",
+      "updated_at": "2026-08-26T16:27:08Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11254",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11470,
+      "title": "[AMD][GLUON] Expose helper function to compute scaled_upcast fp4 layout",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T13:54:22Z",
+      "updated_at": "2026-08-26T13:54:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11470",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11465,
+      "title": "[AMD][BACKEND] Fix free-variable mask key to enable register deduplication in stores and atomics",
+      "author": "dhernandez0",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T10:13:01Z",
+      "updated_at": "2026-08-26T10:13:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11465",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 11443,
       "title": "[AMD][GLUON][BACKEND] Fix and simplify CGA layout handling of scaled_dot scales",
@@ -14,30 +122,6 @@
       "draft": false
     },
     {
-      "number": 11040,
-      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T22:25:24Z",
-      "updated_at": "2026-08-26T01:26:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11040",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11435,
-      "title": "[RFC][AMD][Gluon] Require other for masked buffer-to-shared loads",
-      "author": "raikonenfnu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T00:10:41Z",
-      "updated_at": "2026-08-25T20:20:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11435",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11442,
       "title": "[AMD][BACKEND Allow compact scales in scaled_upcast on CDNA4",
       "author": "AlexAUT",
@@ -46,18 +130,6 @@
       "created_at": "2026-08-25T14:35:57Z",
       "updated_at": "2026-08-25T16:30:47Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11442",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11365,
-      "title": "[AMD][LAYOUTS] Refine segment computation to support DS_READ_B128",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T08:40:24Z",
-      "updated_at": "2026-08-25T16:27:06Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11365",
       "labels": [],
       "draft": false
     },
@@ -166,18 +238,6 @@
       "created_at": "2026-08-22T06:39:48Z",
       "updated_at": "2026-08-22T08:55:02Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11399",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11274,
-      "title": "[AMD][CI] Add AMD CI image builds",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T22:01:26Z",
-      "updated_at": "2026-08-21T22:17:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11274",
       "labels": [],
       "draft": false
     },
@@ -434,18 +494,6 @@
       "draft": false
     },
     {
-      "number": 11254,
-      "title": "[AMD] Optimize software E4M3FN to FP16 conversion",
-      "author": "skyguan92",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T02:40:16Z",
-      "updated_at": "2026-08-11T02:40:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11254",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11249,
       "title": "[AMD] Choose the scheduling strategy when spilling dominates a hot loop",
       "author": "zjin-lcf",
@@ -578,18 +626,6 @@
       "draft": false
     },
     {
-      "number": 11196,
-      "title": "[docs] NFC: polish AMD Gluon API rendering style",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-06T16:24:11Z",
-      "updated_at": "2026-08-06T23:27:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11196",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11049,
       "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
       "author": "JAGANNATHANJP",
@@ -638,18 +674,6 @@
       "draft": true
     },
     {
-      "number": 10020,
-      "title": "[AMD] PC Sampling, wave stall reasonings",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-13T16:54:34Z",
-      "updated_at": "2026-07-24T22:32:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10020",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10885,
       "title": "[AMD][DRAFT] test out if still broken ",
       "author": "ZelboK",
@@ -696,30 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10483",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 10328,
-      "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
-      "author": "Hardcode84",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T22:02:50Z",
-      "updated_at": "2026-07-08T21:58:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10328",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10733,
-      "title": "[AMD] Fix batched WMMA scale layout",
-      "author": "alefimov-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T15:19:09Z",
-      "updated_at": "2026-06-26T15:20:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10733",
-      "labels": [],
-      "draft": false
     }
   ]
 }

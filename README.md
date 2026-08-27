@@ -1,22 +1,22 @@
 # Project Dashboard
 
-Auto-updated tracking of AMD GPU ecosystem projects. Last updated: **2026-08-26 08:30 UTC**
+Auto-updated tracking of AMD GPU ecosystem projects. Last updated: **2026-08-27 18:31 UTC**
 
 ## Overview
 
 | Project | Role | Latest Release | Open PRs | Open Issues | Links |
 |---------|------|----------------|----------|-------------|-------|
-| **pytorch** | watch | v2.13.0 | 49 | 53 | [repo](https://github.com/pytorch/pytorch) |
-| **jax** | watch | jax-v0.11.1 | 16 | 26 | [repo](https://github.com/jax-ml/jax) |
-| **vllm** | watch | v0.27.1 | 74 | 55 | [repo](https://github.com/vllm-project/vllm) / [fork](https://github.com/sunway513/vllm) |
-| **sglang** | watch | v0.5.18 | 59 | 56 | [repo](https://github.com/sgl-project/sglang) |
+| **pytorch** | watch | v2.13.0 | 51 | 49 | [repo](https://github.com/pytorch/pytorch) |
+| **jax** | watch | jax-v0.11.1 | 13 | 26 | [repo](https://github.com/jax-ml/jax) |
+| **vllm** | watch | v0.28.0 | 73 | 55 | [repo](https://github.com/vllm-project/vllm) / [fork](https://github.com/sunway513/vllm) |
+| **sglang** | watch | v0.5.18 | 54 | 55 | [repo](https://github.com/sgl-project/sglang) |
 | **triton** | watch | v3.7.1 | 30 | 21 | [repo](https://github.com/triton-lang/triton) |
-| **migraphx** | dev | rocm-7.14 | 130 | 242 | [repo](https://github.com/ROCm/AMDMIGraphX) |
-| **aiter** | dev | v0.1.20 | 568 | 273 | [repo](https://github.com/ROCm/aiter) / [fork](https://github.com/sunway513/aiter) |
-| **atom** | dev | v0.1.6-rc0 | 214 | 83 | [repo](https://github.com/ROCm/ATOM) / [fork](https://github.com/sunway513/ATOM) |
-| **mori** | dev | v1.2.2 | 36 | 19 | [repo](https://github.com/ROCm/mori) / [fork](https://github.com/sunway513/mori) |
-| **flydsl** | dev | v0.3.0 | 75 | 51 | [repo](https://github.com/ROCm/FlyDSL) / [fork](https://github.com/sunway513/FlyDSL) |
-| **transformer_engine** | dev | v2.12_rocm | 57 | 8 | [repo](https://github.com/ROCm/TransformerEngine) |
+| **migraphx** | dev | rocm-7.14 | 125 | 243 | [repo](https://github.com/ROCm/AMDMIGraphX) |
+| **aiter** | dev | v0.1.21.dev0 | 573 | 279 | [repo](https://github.com/ROCm/aiter) / [fork](https://github.com/sunway513/aiter) |
+| **atom** | dev | v0.1.6-rc0 | 229 | 85 | [repo](https://github.com/ROCm/ATOM) / [fork](https://github.com/sunway513/ATOM) |
+| **mori** | dev | v1.2.2 | 35 | 20 | [repo](https://github.com/ROCm/mori) / [fork](https://github.com/sunway513/mori) |
+| **flydsl** | dev | v0.3.2 | 76 | 51 | [repo](https://github.com/ROCm/FlyDSL) / [fork](https://github.com/sunway513/FlyDSL) |
+| **transformer_engine** | dev | v2.12_rocm | 58 | 8 | [repo](https://github.com/ROCm/TransformerEngine) |
 
 ## Live Dashboard
 
