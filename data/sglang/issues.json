@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-27T18:27:58Z",
+  "collected_at": "2026-08-28T19:42:26Z",
   "issues": [
     {
       "number": 17050,
@@ -7,9 +7,71 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-27T18:04:07Z",
+      "updated_at": "2026-08-28T18:54:30Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 36830,
+      "title": "[Bug] GLM-5.3-Flash cannot use FP8 KV cache: `index_kpool > 1` excludes `flashmla_kv`, and no CUDA DSA backend supports bf16-query x fp8-KV",
+      "author": "Hansen523",
+      "state": "open",
+      "created_at": "2026-08-28T08:46:05Z",
+      "updated_at": "2026-08-28T14:02:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36830",
+      "labels": []
+    },
+    {
+      "number": 36807,
+      "title": "[Bug] fast_topk_v2 can silently return wrong top-k sets when a radix threshold bucket exceeds its 4096-entry candidate buffer (k=2048, long rows)",
+      "author": "zkyue",
+      "state": "open",
+      "created_at": "2026-08-28T06:40:26Z",
+      "updated_at": "2026-08-28T10:57:19Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36807",
+      "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-08-28T06:47:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 36764,
+      "title": "[Bug] 374 MB of every `lmsysorg/sglang:latest` pull is three directories the Dockerfile deletes one layer too late",
+      "author": "sujeito-operator",
+      "state": "open",
+      "created_at": "2026-08-28T02:05:17Z",
+      "updated_at": "2026-08-28T02:05:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36764",
+      "labels": []
+    },
+    {
+      "number": 36734,
+      "title": "[Bug] Models fail to produce non-empty answer while evaluated for reasoning on long context.",
+      "author": "Alexei-V-Ivanov-AMD",
+      "state": "open",
+      "created_at": "2026-08-27T21:32:23Z",
+      "updated_at": "2026-08-28T00:47:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36734",
+      "labels": []
+    },
+    {
+      "number": 36616,
+      "title": "[Bug] qwen3.8 flash next rocm bug",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-08-27T04:43:28Z",
+      "updated_at": "2026-08-27T22:01:32Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36616",
+      "labels": [
+        "amd"
+      ]
     },
     {
       "number": 20865,
@@ -48,28 +110,6 @@
       "updated_at": "2026-08-27T13:22:25Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22949",
       "labels": []
-    },
-    {
-      "number": 36702,
-      "title": "[Bug] Kimi-K3 + DCP: all TP ranks wedge in filter_dcp_local_kv_indices (nonzero \u2192 cudaStreamSynchronize) on long chunked prefill; 300s watchdog, memory free",
-      "author": "archit-spec",
-      "state": "open",
-      "created_at": "2026-08-27T13:11:23Z",
-      "updated_at": "2026-08-27T13:13:02Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36702",
-      "labels": []
-    },
-    {
-      "number": 36616,
-      "title": "[Bug] qwen3.8 flash next rocm bug",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-08-27T04:43:28Z",
-      "updated_at": "2026-08-27T08:25:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36616",
-      "labels": [
-        "amd"
-      ]
     },
     {
       "number": 36390,
@@ -139,16 +179,6 @@
       "created_at": "2026-08-25T08:47:23Z",
       "updated_at": "2026-08-25T09:01:13Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/36302",
-      "labels": []
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-08-25T06:53:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
     },
     {
@@ -365,16 +395,6 @@
       ]
     },
     {
-      "number": 27937,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "amd-bot",
-      "state": "open",
-      "created_at": "2026-06-11T15:46:32Z",
-      "updated_at": "2026-08-13T11:25:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
-      "labels": []
-    },
-    {
       "number": 30781,
       "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
       "author": "tanguofu",
@@ -385,6 +405,20 @@
       "labels": []
     },
     {
+      "number": 23602,
+      "title": "DeepSeek V4 Roadmap",
+      "author": "fzyzcjy",
+      "state": "open",
+      "created_at": "2026-04-24T03:22:31Z",
+      "updated_at": "2026-08-13T10:38:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
+      "labels": [
+        "high priority",
+        "deepseek",
+        "roadmap"
+      ]
+    },
+    {
       "number": 34709,
       "title": "[Bug] benchmark/endpoint.py forks the server process after the parent initializes the accelerator (breaks XPU, latent on CUDA)",
       "author": "dayanandav",
@@ -392,16 +426,6 @@
       "created_at": "2026-08-13T08:08:27Z",
       "updated_at": "2026-08-13T09:36:51Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34709",
-      "labels": []
-    },
-    {
-      "number": 34611,
-      "title": "[Bug] ROCm MI355 HiCache Broken -  Poor Performance for Realistic Agentic Workload",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-08-12T17:56:26Z",
-      "updated_at": "2026-08-13T06:38:33Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34611",
       "labels": []
     },
     {

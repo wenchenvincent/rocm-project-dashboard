@@ -1,35 +1,78 @@
 {
-  "collected_at": "2026-08-27T18:28:28Z",
+  "collected_at": "2026-08-28T19:42:54Z",
   "issues": [
+    {
+      "number": 2081,
+      "title": "[Feature]: Profiler: option to set a profiler window",
+      "author": "devalshahamd",
+      "state": "open",
+      "created_at": "2026-08-28T15:27:53Z",
+      "updated_at": "2026-08-28T15:27:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2081",
+      "labels": []
+    },
+    {
+      "number": 2079,
+      "title": "Add configurable priority-aware prefix-cache eviction",
+      "author": "ThomasNing",
+      "state": "open",
+      "created_at": "2026-08-28T10:54:14Z",
+      "updated_at": "2026-08-28T11:08:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2079",
+      "labels": []
+    },
+    {
+      "number": 1944,
+      "title": "[Feature]:  FP8 block-quant MoE rejects TP shards narrower than block_n (Qwen3.6-35B-A3B)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-18T09:51:22Z",
+      "updated_at": "2026-08-28T09:59:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1944",
+      "labels": []
+    },
     {
       "number": 2065,
       "title": "[Issue]: GPT-OSS-120B fails on the ATOM SGLang stack (MXFP4 `triton_kernel` MoE)",
       "author": "ibeattyo",
       "state": "open",
       "created_at": "2026-08-27T17:12:50Z",
-      "updated_at": "2026-08-27T17:12:50Z",
+      "updated_at": "2026-08-28T09:58:09Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2065",
       "labels": []
     },
     {
-      "number": 2064,
-      "title": "[Issue]: AITER OPUS FMHA 32-bit buffer-offset overflow on DeepSeek DP-attention at 64k (SGLang 0.5.17 regression)",
+      "number": 1959,
+      "title": "[Issue]: Kimi K3 ATOM+SGLang has ~309KB per token for KV while SGLang with no atom plugin uses only 26KB",
       "author": "ibeattyo",
       "state": "open",
-      "created_at": "2026-08-27T17:08:57Z",
-      "updated_at": "2026-08-27T17:08:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2064",
+      "created_at": "2026-08-19T17:43:29Z",
+      "updated_at": "2026-08-28T09:56:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1959",
       "labels": []
     },
     {
-      "number": 2063,
-      "title": "[Issue]: DeepSeek-V3.2 TP-attention (DSA) prefill GPU coredump on SGLang at 64k (bs >= 48)",
+      "number": 2022,
+      "title": "[Issue]: DeepSeek V4 TP-MoE does not work",
       "author": "ibeattyo",
       "state": "open",
-      "created_at": "2026-08-27T17:02:15Z",
-      "updated_at": "2026-08-27T17:02:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2063",
+      "created_at": "2026-08-25T17:02:58Z",
+      "updated_at": "2026-08-28T09:55:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2022",
       "labels": []
+    },
+    {
+      "number": 2075,
+      "title": "[Perf Regression] 28 config(s) regressed @ f9127a88",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-08-28T07:57:44Z",
+      "updated_at": "2026-08-28T07:57:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2075",
+      "labels": [
+        "performance",
+        "regression"
+      ]
     },
     {
       "number": 2062,
@@ -52,16 +95,6 @@
       "labels": [
         "documentation"
       ]
-    },
-    {
-      "number": 2022,
-      "title": "[Issue]: DeepSeek V4 TP-MoE does not work",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-25T17:02:58Z",
-      "updated_at": "2026-08-26T13:33:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2022",
-      "labels": []
     },
     {
       "number": 69,
@@ -134,26 +167,6 @@
       "labels": []
     },
     {
-      "number": 1959,
-      "title": "[Issue]: Kimi K3 ATOM+SGLang has ~309KB per token for KV while SGLang with no atom plugin uses only 26KB",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-19T17:43:29Z",
-      "updated_at": "2026-08-19T17:43:29Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1959",
-      "labels": []
-    },
-    {
-      "number": 1944,
-      "title": "[Feature]:  FP8 block-quant MoE rejects TP shards narrower than block_n (Qwen3.6-35B-A3B)",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-18T09:51:22Z",
-      "updated_at": "2026-08-18T09:51:22Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1944",
-      "labels": []
-    },
-    {
       "number": 1929,
       "title": "[Feature]: Enable DP-attention + EP (mori) for Gated-DeltaNet MoE models on ATOM \u2014 pick up SGLang #31794",
       "author": "ibeattyo",
@@ -191,16 +204,6 @@
       "created_at": "2026-08-17T05:22:28Z",
       "updated_at": "2026-08-17T05:23:15Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1918",
-      "labels": []
-    },
-    {
-      "number": 1885,
-      "title": "# [Bug] Explicit `tool_choice=\"auto\"` returns HTTP 500 with the DeepSeek-V4 custom message encoder",
-      "author": "cubezhang",
-      "state": "open",
-      "created_at": "2026-08-13T05:20:35Z",
-      "updated_at": "2026-08-13T08:44:51Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1885",
       "labels": []
     },
     {

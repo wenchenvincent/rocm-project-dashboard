@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-08-27T18:28:21Z",
+  "collected_at": "2026-08-28T19:42:48Z",
   "issues": [
+    {
+      "number": 5049,
+      "title": "[Bug] fused MoE GPU-faults on GLM-5.3-Flash 288-expert/top-8 shape (gfx950, no tuned config)",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-08-27T10:27:17Z",
+      "updated_at": "2026-08-28T18:56:12Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5049",
+      "labels": []
+    },
+    {
+      "number": 5086,
+      "title": "[Bug] BF16 FMHA returns zero for finite extreme negative logits",
+      "author": "akshatvishu",
+      "state": "open",
+      "created_at": "2026-08-28T16:39:34Z",
+      "updated_at": "2026-08-28T16:39:34Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5086",
+      "labels": []
+    },
     {
       "number": 899,
       "title": "[Feature]: Add FP8 KV Cache support to Aiter MLA",
@@ -21,16 +41,6 @@
       "created_at": "2026-06-15T16:53:50Z",
       "updated_at": "2026-08-27T16:45:01Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3737",
-      "labels": []
-    },
-    {
-      "number": 5049,
-      "title": "[Bug] fused MoE GPU-faults on GLM-5.3-Flash 288-expert/top-8 shape (gfx950, no tuned config)",
-      "author": "stefanskiasan",
-      "state": "open",
-      "created_at": "2026-08-27T10:27:17Z",
-      "updated_at": "2026-08-27T16:42:28Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5049",
       "labels": []
     },
     {
@@ -71,16 +81,6 @@
       "created_at": "2026-08-26T19:55:58Z",
       "updated_at": "2026-08-27T02:59:44Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5030",
-      "labels": []
-    },
-    {
-      "number": 5040,
-      "title": "[Bug][MLA] gfx942: native-support list claims (nhead=8, bf16, max_seqlen_q=2) but no such kernel is built \u2014 GPU fault instead of a clean error",
-      "author": "zzw09773",
-      "state": "open",
-      "created_at": "2026-08-27T02:48:58Z",
-      "updated_at": "2026-08-27T02:48:58Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5040",
       "labels": []
     },
     {
@@ -323,16 +323,6 @@
       "created_at": "2026-08-12T03:53:10Z",
       "updated_at": "2026-08-12T03:53:10Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4701",
-      "labels": []
-    },
-    {
-      "number": 4667,
-      "title": "[GFX950][GLUON] Sparse-MLA decode path breaks generation accuracy under DP-attention (NaN in the KV cache, propagated not masked)",
-      "author": "jiacao-amd",
-      "state": "open",
-      "created_at": "2026-08-11T02:10:22Z",
-      "updated_at": "2026-08-11T02:34:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4667",
       "labels": []
     },
     {

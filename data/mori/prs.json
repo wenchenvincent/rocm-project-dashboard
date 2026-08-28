@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-08-27T18:28:30Z",
+  "collected_at": "2026-08-28T19:42:57Z",
   "prs": [
+    {
+      "number": 558,
+      "title": "EP support for rail isolated topology through Host based RDMA",
+      "author": "itej89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T22:08:53Z",
+      "updated_at": "2026-08-28T17:27:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/558",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 604,
       "title": "perf(ep): fix the EP tuning margin and remove per-call host overhead in small-token dispatch/combine",
@@ -8,20 +20,104 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-26T02:25:51Z",
-      "updated_at": "2026-08-27T16:58:15Z",
+      "updated_at": "2026-08-28T14:58:03Z",
       "html_url": "https://github.com/ROCm/mori/pull/604",
       "labels": [],
       "draft": false
     },
     {
+      "number": 540,
+      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T02:07:35Z",
+      "updated_at": "2026-08-28T13:38:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/540",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 586,
+      "title": "perf(ep): optimize IntraNode dispatch kernel for MI350X",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T20:58:15Z",
+      "updated_at": "2026-08-28T10:07:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/586",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 607,
-      "title": "mlx 300 ci",
+      "title": "Enable MLX+MI300 CI",
       "author": "QizhouZhang97",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-27T07:03:46Z",
-      "updated_at": "2026-08-27T09:07:25Z",
+      "updated_at": "2026-08-28T09:48:58Z",
       "html_url": "https://github.com/ROCm/mori/pull/607",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 618,
+      "title": "allocator: add CCO-backed LSA symmetric windows",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T08:33:40Z",
+      "updated_at": "2026-08-28T08:34:25Z",
+      "html_url": "https://github.com/ROCm/mori/pull/618",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 615,
+      "title": "[Pre-flight] Add cluster-network-topology skill and scripts",
+      "author": "lcskrishna",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T06:41:51Z",
+      "updated_at": "2026-08-28T06:41:51Z",
+      "html_url": "https://github.com/ROCm/mori/pull/615",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 614,
+      "title": "perf(ep): InterNodeV1LL low-token latency on MI300X + CX7",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T03:45:54Z",
+      "updated_at": "2026-08-28T05:12:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/614",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 613,
+      "title": "perf(ep): optimize InterNodeV1LL small-token latency on EP16",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T02:22:48Z",
+      "updated_at": "2026-08-28T02:22:48Z",
+      "html_url": "https://github.com/ROCm/mori/pull/613",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 612,
+      "title": "fix: use strided offsets in run_single_once when batch_contiguous is disabled",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T19:03:09Z",
+      "updated_at": "2026-08-27T19:03:09Z",
+      "html_url": "https://github.com/ROCm/mori/pull/612",
       "labels": [],
       "draft": false
     },
@@ -38,18 +134,6 @@
       "draft": false
     },
     {
-      "number": 558,
-      "title": "EP support for rail isolated topology through Host based RDMA",
-      "author": "itej89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T22:08:53Z",
-      "updated_at": "2026-08-27T07:57:23Z",
-      "html_url": "https://github.com/ROCm/mori/pull/558",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 587,
       "title": "feat(umbp): peer-local multi-backend placement and logical tier management",
       "author": "wuyl1",
@@ -58,18 +142,6 @@
       "created_at": "2026-08-20T05:52:27Z",
       "updated_at": "2026-08-27T06:41:01Z",
       "html_url": "https://github.com/ROCm/mori/pull/587",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 586,
-      "title": "perf(ep): optimize IntraNode dispatch kernel for MI350X",
-      "author": "kudomcho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T20:58:15Z",
-      "updated_at": "2026-08-26T21:51:12Z",
-      "html_url": "https://github.com/ROCm/mori/pull/586",
       "labels": [],
       "draft": false
     },
@@ -96,18 +168,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/585",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 540,
-      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T02:07:35Z",
-      "updated_at": "2026-08-25T16:46:45Z",
-      "html_url": "https://github.com/ROCm/mori/pull/540",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 598,
@@ -418,6 +478,30 @@
       "created_at": "2025-10-23T06:18:50Z",
       "updated_at": "2026-08-12T08:24:09Z",
       "html_url": "https://github.com/ROCm/mori/pull/92",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 617,
+      "title": "fix(EPv2): align staging pool capacity with EpMaxRecv to prevent metadata loss",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-28T06:46:31Z",
+      "updated_at": "2026-08-28T07:51:49Z",
+      "html_url": "https://github.com/ROCm/mori/pull/617",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 616,
+      "title": "examples: address a torch symmetric tensor as a CCO LSA window",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-28T06:43:40Z",
+      "updated_at": "2026-08-28T07:35:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/616",
       "labels": [],
       "draft": false
     },
@@ -1402,30 +1486,6 @@
       "created_at": "2026-07-21T03:01:13Z",
       "updated_at": "2026-07-24T14:10:15Z",
       "html_url": "https://github.com/ROCm/mori/pull/492",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 499,
-      "title": "feat(tools): make Ionic QoS setup configurable",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-24T08:02:19Z",
-      "updated_at": "2026-07-24T12:13:21Z",
-      "html_url": "https://github.com/ROCm/mori/pull/499",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 498,
-      "title": "Add libibverbs async event monitor to MORI-IO",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-24T06:36:15Z",
-      "updated_at": "2026-07-24T08:06:18Z",
-      "html_url": "https://github.com/ROCm/mori/pull/498",
       "labels": [],
       "draft": false
     }

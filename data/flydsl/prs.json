@@ -1,27 +1,99 @@
 {
-  "collected_at": "2026-08-27T18:28:34Z",
+  "collected_at": "2026-08-28T19:43:02Z",
   "prs": [
     {
-      "number": 1076,
-      "title": "Ci/change image to speedup ci",
-      "author": "coderfeli",
+      "number": 931,
+      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
+      "author": "RichardChamberlain1",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-27T13:44:22Z",
-      "updated_at": "2026-08-27T13:44:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1076",
+      "created_at": "2026-07-30T11:46:51Z",
+      "updated_at": "2026-08-28T17:09:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1079,
+      "title": "[ROCDL] cdna5 tdm_partition: relate only mode-0, pass rest modes through",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T11:53:08Z",
+      "updated_at": "2026-08-28T11:53:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1079",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1078,
+      "title": "[gfx1250] Bf16 GEMM: Issue tdm prefetch earlier for wide tiles and add const init test",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T09:26:14Z",
+      "updated_at": "2026-08-28T11:03:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1078",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1058,
-      "title": "[Perf] avoid hashing when cache not enabled",
-      "author": "ppppqp",
+      "number": 971,
+      "title": "[gfx1250] Add A8W8/A8W4/A4W4 compute-bound GEMM",
+      "author": "aoli26",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-23T19:37:32Z",
-      "updated_at": "2026-08-27T13:12:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1058",
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-08-28T08:14:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "[Perf] Optimize rmsnorm/layernorm",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-08-28T08:12:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1056,
+      "title": "Support vLLM paged KV cache layouts on the gfx950 attention kernel",
+      "author": "akii96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:47:09Z",
+      "updated_at": "2026-08-28T08:07:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1056",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 891,
+      "title": "[Test] Add gfx1250 WMMA lowering tests for additional dtypes",
+      "author": "AiyyappanMR",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-23T10:12:30Z",
+      "updated_at": "2026-08-28T06:13:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/891",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 918,
+      "title": "[Bugfix][Dialect] Reject vector operands in atomic copy atoms",
+      "author": "AiyyappanMR",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T12:49:41Z",
+      "updated_at": "2026-08-28T06:09:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/918",
       "labels": [],
       "draft": false
     },
@@ -32,8 +104,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-27T08:10:07Z",
-      "updated_at": "2026-08-27T12:31:27Z",
+      "updated_at": "2026-08-28T05:30:46Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1073",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1001,
+      "title": "[WIP][Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T08:37:46Z",
+      "updated_at": "2026-08-28T04:44:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
+      "labels": [
+        "WIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1058,
+      "title": "[Perf] avoid hashing when cache not enabled",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-23T19:37:32Z",
+      "updated_at": "2026-08-28T03:11:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1058",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1077,
+      "title": "i[gfx1250] Switch BF16 GEMM LDS loads to ds_read_b256, +0.4 TB/s",
+      "author": "amd-hhashemi",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T03:00:50Z",
+      "updated_at": "2026-08-28T03:05:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1077",
       "labels": [],
       "draft": false
     },
@@ -44,8 +154,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-21T06:18:20Z",
-      "updated_at": "2026-08-27T11:18:00Z",
+      "updated_at": "2026-08-27T21:19:45Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1051",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1015,
+      "title": "[Tools] Add architecture-general ISA resource diff tool",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T09:35:27Z",
+      "updated_at": "2026-08-27T21:13:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1076,
+      "title": "Ci/change image to speedup ci",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T13:44:22Z",
+      "updated_at": "2026-08-27T13:44:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1076",
       "labels": [],
       "draft": false
     },
@@ -74,18 +208,6 @@
       "draft": false
     },
     {
-      "number": 1067,
-      "title": "[MI355]support mxfp8 8wave pipeline",
-      "author": "solinzby1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T08:53:38Z",
-      "updated_at": "2026-08-27T08:10:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1067",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1065,
       "title": "[Kernel][PA] Support BF16 vectorized KV with asymmetric K/V head dim",
       "author": "sammysun0711",
@@ -108,18 +230,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1072",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1056,
-      "title": "Support vLLM paged KV cache layouts on the gfx950 attention kernel",
-      "author": "akii96",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:47:09Z",
-      "updated_at": "2026-08-27T04:16:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1056",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 709,
@@ -172,30 +282,6 @@
       "draft": false
     },
     {
-      "number": 1015,
-      "title": "[Tools] Add architecture-general ISA resource diff tool",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T09:35:27Z",
-      "updated_at": "2026-08-26T08:03:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 971,
-      "title": "[gfx1250] Add A8W8/A8W4/A4W4 compute-bound GEMM",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-08-26T07:29:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 957,
       "title": "Add SVD quant for Quark",
       "author": "amd-xiaoyu12",
@@ -206,18 +292,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/957",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 848,
-      "title": "[Perf] Optimize rmsnorm/layernorm",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-08-25T08:21:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 901,
@@ -340,20 +414,6 @@
       "draft": false
     },
     {
-      "number": 1001,
-      "title": "[WIP][Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T08:37:46Z",
-      "updated_at": "2026-08-20T09:33:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
-      "labels": [
-        "WIP"
-      ],
-      "draft": false
-    },
-    {
       "number": 1012,
       "title": "[MFMA] Add 16x16x16 bf16/f16 support with fly-fix-bitcast-width pass",
       "author": "RichardChamberlain1",
@@ -376,18 +436,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/924",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 931,
-      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
-      "author": "RichardChamberlain1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T11:46:51Z",
-      "updated_at": "2026-08-18T17:26:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 986,
@@ -434,18 +482,6 @@
       "created_at": "2026-08-06T12:53:13Z",
       "updated_at": "2026-08-07T07:55:23Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/976",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 891,
-      "title": "[Test] Add gfx1250 WMMA lowering tests for additional dtypes",
-      "author": "AiyyappanMR",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T10:12:30Z",
-      "updated_at": "2026-08-06T10:22:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/891",
       "labels": [],
       "draft": false
     },
@@ -506,18 +542,6 @@
       "created_at": "2026-07-28T19:32:56Z",
       "updated_at": "2026-07-29T10:56:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/920",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 918,
-      "title": "[Bugfix][Dialect] Reject vector operands in atomic copy atoms",
-      "author": "AiyyappanMR",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T12:49:41Z",
-      "updated_at": "2026-07-29T04:29:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/918",
       "labels": [],
       "draft": false
     },

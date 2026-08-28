@@ -1,6 +1,34 @@
 {
-  "collected_at": "2026-08-27T18:28:37Z",
+  "collected_at": "2026-08-28T19:43:05Z",
   "prs": [
+    {
+      "number": 709,
+      "title": "Update to new QoLA/CK-JIT/AITER",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T22:08:25Z",
+      "updated_at": "2026-08-28T17:39:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/709",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 716,
+      "title": "Add ROCm Triton blockwise FP8 grouped GEMM",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T19:05:34Z",
+      "updated_at": "2026-08-28T16:41:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
     {
       "number": 719,
       "title": "CI: parallel download steps, bump {up,down}load-artifacts versions",
@@ -8,12 +36,26 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-27T17:58:44Z",
-      "updated_at": "2026-08-27T18:27:39Z",
+      "updated_at": "2026-08-28T15:32:06Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/719",
       "labels": [
         "ci-level 1"
       ],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 697,
+      "title": "Integrate MXFP4 hipblaslt GEMM support",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T15:04:06Z",
+      "updated_at": "2026-08-28T02:23:40Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
     },
     {
       "number": 713,
@@ -24,20 +66,6 @@
       "created_at": "2026-08-24T18:19:13Z",
       "updated_at": "2026-08-27T17:32:17Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/713",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 702,
-      "title": "Ifu dev 20260803 v2.18",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T01:02:21Z",
-      "updated_at": "2026-08-27T15:54:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/702",
       "labels": [
         "ci-level 3"
       ],
@@ -72,20 +100,6 @@
       "draft": false
     },
     {
-      "number": 716,
-      "title": "Add ROCm Triton blockwise FP8 grouped GEMM",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T19:05:34Z",
-      "updated_at": "2026-08-27T00:09:56Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 718,
       "title": "Add gfx950 MXFP8 CK grouped GEMM",
       "author": "aris134",
@@ -108,20 +122,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 697,
-      "title": "Integrate MXFP4 hipblaslt GEMM support",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T15:04:06Z",
-      "updated_at": "2026-08-26T19:02:27Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 676,
@@ -160,34 +160,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/715",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 711,
-      "title": "Fix test filtering and reporting",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T18:56:03Z",
-      "updated_at": "2026-08-25T17:03:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/711",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 709,
-      "title": "Update to new QoLA/CK-JIT/AITER",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T22:08:25Z",
-      "updated_at": "2026-08-24T22:18:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/709",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": true
     },
     {
       "number": 712,
@@ -757,6 +729,34 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 720,
+      "title": "Ifu dev 20260803 v2.18 merge",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-27T21:49:39Z",
+      "updated_at": "2026-08-28T03:54:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/720",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 711,
+      "title": "Fix test filtering and reporting",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-21T18:56:03Z",
+      "updated_at": "2026-08-27T21:40:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/711",
+      "labels": [
+        "ci-level 2"
+      ],
       "draft": false
     },
     {
@@ -1930,34 +1930,6 @@
       "created_at": "2026-05-29T02:48:23Z",
       "updated_at": "2026-05-30T03:30:45Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/601",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 596,
-      "title": "Add timeout to distributed torch tests to fail on hang",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-26T13:55:40Z",
-      "updated_at": "2026-05-30T01:27:56Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/596",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 597,
-      "title": "[tests/cpp] register source files as dependencies to rebuild on change",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-26T19:31:05Z",
-      "updated_at": "2026-05-29T21:11:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/597",
       "labels": [
         "ci-level 1"
       ],

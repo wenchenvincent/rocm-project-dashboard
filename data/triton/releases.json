@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-08-27T18:28:01Z",
+  "collected_at": "2026-08-28T19:42:29Z",
   "releases": [
+    {
+      "tag_name": "v3.8.0",
+      "name": "Triton 3.8.0 Release Notes",
+      "published_at": "2026-08-28T18:25:56Z",
+      "html_url": "https://github.com/triton-lang/triton/releases/tag/v3.8.0",
+      "prerelease": false
+    },
     {
       "tag_name": "v3.7.1",
       "name": "Triton 3.7.1 Release Notes",
@@ -27,13 +34,6 @@
       "name": "Triton 3.5.1 release, bug fix release",
       "published_at": "2025-11-12T22:45:12Z",
       "html_url": "https://github.com/triton-lang/triton/releases/tag/v3.5.1",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v3.5.0",
-      "name": "Triton 3.5.0 release",
-      "published_at": "2025-10-21T10:00:38Z",
-      "html_url": "https://github.com/triton-lang/triton/releases/tag/v3.5.0",
       "prerelease": false
     }
   ]

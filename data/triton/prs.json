@@ -1,30 +1,6 @@
 {
-  "collected_at": "2026-08-27T18:28:00Z",
+  "collected_at": "2026-08-28T19:42:28Z",
   "prs": [
-    {
-      "number": 11475,
-      "title": "[AMD] Disable scalar atomics in multicta kernels",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T20:16:56Z",
-      "updated_at": "2026-08-27T18:07:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11475",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11365,
-      "title": "[AMD][LAYOUTS] Refine segment computation to support DS_READ_B128",
-      "author": "amd-jianli12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T08:40:24Z",
-      "updated_at": "2026-08-27T11:35:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11365",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 11474,
       "title": "[AMD] Enable RDNA4m buffer atomics and IEEE min/max",
@@ -32,10 +8,94 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-26T15:49:01Z",
-      "updated_at": "2026-08-27T04:00:07Z",
+      "updated_at": "2026-08-28T19:22:14Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11474",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 11487,
+      "title": "[CI][AMD] switch to tritonci image for gfx950",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T22:11:31Z",
+      "updated_at": "2026-08-28T18:40:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11487",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11295,
+      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T15:41:53Z",
+      "updated_at": "2026-08-28T18:08:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11295",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11475,
+      "title": "[AMD] Disable scalar atomics in multicta kernels",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T20:16:56Z",
+      "updated_at": "2026-08-28T17:04:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11475",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11470,
+      "title": "[AMD][GLUON] Expose helper function to compute scaled_upcast fp4 layout",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T13:54:22Z",
+      "updated_at": "2026-08-28T12:33:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11470",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11365,
+      "title": "[AMD][LAYOUTS] Refine segment computation to support DS_READ_B128",
+      "author": "amd-jianli12",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-19T08:40:24Z",
+      "updated_at": "2026-08-28T05:49:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11365",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11492,
+      "title": "[AMD] Treat TheRock sibling wheels as one ROCm install",
+      "author": "warrendeng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T05:35:10Z",
+      "updated_at": "2026-08-28T05:35:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11492",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11485,
+      "title": "[BACKEND] Package separately pinned AMD LLVM codegen",
+      "author": "ThomasRaoux",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T20:51:43Z",
+      "updated_at": "2026-08-28T01:32:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11485",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 11274,
@@ -44,10 +104,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-11T22:01:26Z",
-      "updated_at": "2026-08-27T00:00:38Z",
+      "updated_at": "2026-08-27T22:15:01Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11274",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 11486,
+      "title": "[AMD] Use hardware cvt instructions for OCP fp8 casts on gfx1170",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T21:43:17Z",
+      "updated_at": "2026-08-27T21:43:17Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11486",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 11435,
@@ -84,18 +156,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11254",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11470,
-      "title": "[AMD][GLUON] Expose helper function to compute scaled_upcast fp4 layout",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T13:54:22Z",
-      "updated_at": "2026-08-26T13:54:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11470",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11465,
@@ -250,18 +310,6 @@
       "created_at": "2026-08-13T14:39:47Z",
       "updated_at": "2026-08-21T19:39:54Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11294",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11295,
-      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-08-21T17:42:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11295",
       "labels": [],
       "draft": false
     },
@@ -614,18 +662,6 @@
       "draft": false
     },
     {
-      "number": 11166,
-      "title": "[AMD][Gluon] Fix transposed asymmetric WMMA CTA layout",
-      "author": "jungpark-mlir",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T13:51:20Z",
-      "updated_at": "2026-08-07T00:51:08Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11166",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11049,
       "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
       "author": "JAGANNATHANJP",
@@ -684,42 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10885",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10871,
-      "title": "[AMD] emulate descriptor reduce on GFX1250",
-      "author": "zwu-2025",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T05:26:36Z",
-      "updated_at": "2026-07-19T04:25:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10871",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 10759,
-      "title": "[AMD] Form masked regions for equivalent masked loads/stores",
-      "author": "efric",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-30T05:40:50Z",
-      "updated_at": "2026-07-16T20:42:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10759",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10483,
-      "title": "[AMD] Prove buffer-load contiguity along LinearLayout register order",
-      "author": "panditsa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-04T20:24:38Z",
-      "updated_at": "2026-07-15T16:55:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10483",
-      "labels": [],
-      "draft": true
     }
   ]
 }

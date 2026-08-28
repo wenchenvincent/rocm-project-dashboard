@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-08-27T18:28:06Z",
+  "collected_at": "2026-08-28T19:42:34Z",
   "issues": [
+    {
+      "number": 5212,
+      "title": "[Issue]: tags rocm-7.14 and rocm-10.0 call rocm_add_version_resource, which is not in any released rocm-cmake",
+      "author": "justinkb",
+      "state": "open",
+      "created_at": "2026-08-28T18:23:42Z",
+      "updated_at": "2026-08-28T18:23:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5212",
+      "labels": []
+    },
     {
       "number": 5196,
       "title": "quantize_fp8 calibration crashes: invalid-argument error, segfault, or hang depending on calibration batch construction",
