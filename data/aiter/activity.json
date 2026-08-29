@@ -1,30 +1,30 @@
 {
-  "collected_at": "2026-08-28T19:44:10Z",
+  "collected_at": "2026-08-29T13:28:27Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 154,
+      "opened": 173,
       "merged": 106,
-      "closed": 22
+      "closed": 20
     },
     "last_week": {
-      "opened": 136,
-      "merged": 77,
-      "closed": 25
+      "opened": 128,
+      "merged": 74,
+      "closed": 27
     },
-    "median_time_to_merge_hours": 32.2,
-    "merge_count": 185,
+    "median_time_to_merge_hours": 29.9,
+    "merge_count": 183,
     "stale_prs": 16
   },
   "contributors": {
-    "active_this_week": 137,
-    "total_contributors": 278,
+    "active_this_week": 139,
+    "total_contributors": 280,
     "top_contributors": [
       {
         "author": "Boss2002n",
-        "prs_submitted": 23,
-        "prs_merged": 18,
+        "prs_submitted": 34,
+        "prs_merged": 15,
         "commits": 39
       },
       {
@@ -58,12 +58,6 @@
         "commits": 4
       },
       {
-        "author": "XiaobingSuper",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 10
-      },
-      {
         "author": "yzhou103",
         "prs_submitted": 8,
         "prs_merged": 1,
@@ -76,24 +70,30 @@
         "commits": 2
       },
       {
+        "author": "XiaobingSuper",
+        "prs_submitted": 8,
+        "prs_merged": 4,
+        "commits": 9
+      },
+      {
         "author": "JiaoliangYu",
         "prs_submitted": 8,
         "prs_merged": 6,
         "commits": 4
       }
     ],
-    "bus_factor": 7
+    "bus_factor": 9
   },
   "issue_health": {
-    "total_open": 278,
-    "opened_this_week": 10,
+    "total_open": 280,
+    "opened_this_week": 11,
     "closed_this_week": 6,
-    "unanswered": 124
+    "unanswered": 125
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.7,
+    "days_since_last": 2.5,
     "avg_interval_days": 7.3,
     "total_releases": 5,
     "latest_tag": "v0.1.21.dev0"

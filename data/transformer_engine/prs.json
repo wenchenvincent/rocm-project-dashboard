@@ -1,6 +1,48 @@
 {
-  "collected_at": "2026-08-28T19:43:05Z",
+  "collected_at": "2026-08-29T13:27:14Z",
   "prs": [
+    {
+      "number": 716,
+      "title": "Add ROCm Triton blockwise FP8 grouped GEMM",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T19:05:34Z",
+      "updated_at": "2026-08-29T00:58:56Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 713,
+      "title": "Bulk AG Overlap for bf16 on gfx950",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T18:19:13Z",
+      "updated_at": "2026-08-29T00:42:01Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/713",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 721,
+      "title": "Ifu dev 20260828 v2.19",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T21:01:06Z",
+      "updated_at": "2026-08-28T21:11:09Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": true
+    },
     {
       "number": 709,
       "title": "Update to new QoLA/CK-JIT/AITER",
@@ -16,34 +58,6 @@
       "draft": false
     },
     {
-      "number": 716,
-      "title": "Add ROCm Triton blockwise FP8 grouped GEMM",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T19:05:34Z",
-      "updated_at": "2026-08-28T16:41:07Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 719,
-      "title": "CI: parallel download steps, bump {up,down}load-artifacts versions",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T17:58:44Z",
-      "updated_at": "2026-08-28T15:32:06Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/719",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 697,
       "title": "Integrate MXFP4 hipblaslt GEMM support",
       "author": "VeeraRajasekhar",
@@ -52,20 +66,6 @@
       "created_at": "2026-08-07T15:04:06Z",
       "updated_at": "2026-08-28T02:23:40Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 713,
-      "title": "Bulk AG Overlap for bf16 on gfx950",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T18:19:13Z",
-      "updated_at": "2026-08-27T17:32:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/713",
       "labels": [
         "ci-level 3"
       ],
@@ -729,6 +729,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 719,
+      "title": "CI: parallel download steps, bump {up,down}load-artifacts versions",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-27T17:58:44Z",
+      "updated_at": "2026-08-29T04:05:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/719",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {

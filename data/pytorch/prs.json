@@ -1,38 +1,45 @@
 {
-  "collected_at": "2026-08-28T19:41:57Z",
+  "collected_at": "2026-08-29T13:26:21Z",
   "prs": [
     {
-      "number": 195049,
-      "title": "[_native][1/14] Add DSL-agnostic native-op utils (utils/)",
-      "author": "slayton58",
+      "number": 191225,
+      "title": "[CI] Add manywheel Dockerfile for riscv64",
+      "author": "luhenry",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-27T21:13:06Z",
-      "updated_at": "2026-08-28T19:41:33Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195049",
-      "labels": [
-        "topic: not user facing",
-        "ciflow/b200"
-      ],
-      "draft": true
-    },
-    {
-      "number": 191938,
-      "title": "Expose scaled matrix multiplication device support query",
-      "author": "sstamenk",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-03T16:13:17Z",
-      "updated_at": "2026-08-28T19:41:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/191938",
+      "created_at": "2026-07-27T15:10:53Z",
+      "updated_at": "2026-08-29T13:18:49Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/191225",
       "labels": [
         "triaged",
         "open source",
-        "ciflow/rocm-mi300",
-        "ciflow/h100",
-        "ciflow/b200"
+        "Merged",
+        "Reverted",
+        "ciflow/trunk",
+        "release notes: releng",
+        "ci-no-td",
+        "ciflow/docker"
       ],
       "draft": false
+    },
+    {
+      "number": 194897,
+      "title": "[DO NOT MERGE][ROCm][CI] : Test DIND CPU isolation",
+      "author": "pelumi1163",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T12:53:20Z",
+      "updated_at": "2026-08-29T13:18:39Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194897",
+      "labels": [
+        "module: rocm",
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "keep-going",
+        "ci-no-td"
+      ],
+      "draft": true
     },
     {
       "number": 193241,
@@ -41,208 +48,36 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-12T23:40:16Z",
-      "updated_at": "2026-08-28T19:38:22Z",
+      "updated_at": "2026-08-29T13:18:39Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/193241",
       "labels": [
+        "Merged",
+        "Reverted",
         "ciflow/trunk",
         "release notes: distributed (c10d)",
+        "ci-no-td",
         "ciflow/torchtitan"
       ],
       "draft": false
     },
     {
-      "number": 190974,
-      "title": "[Testcase Refactoring][Test] Add hw_classification to elastic multiprocessing api_test.py",
-      "author": "xjbanana258",
+      "number": 192281,
+      "title": "[c10d] Make nccl2 the default NCCL backend",
+      "author": "d4l3k",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-24T03:45:20Z",
-      "updated_at": "2026-08-28T19:37:54Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/190974",
+      "created_at": "2026-08-06T01:01:17Z",
+      "updated_at": "2026-08-29T13:18:38Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/192281",
       "labels": [
-        "module: rocm",
-        "triaged",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "merging",
-        "module: tests/distributed"
-      ],
-      "draft": false
-    },
-    {
-      "number": 190771,
-      "title": "[ROCm] Add document SDPA BSHD layout performance on gfx1151 iGPU",
-      "author": "menglcai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T09:10:04Z",
-      "updated_at": "2026-08-28T19:32:59Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/190771",
-      "labels": [
-        "module: docs",
-        "module: rocm",
-        "triaged",
-        "open source",
-        "ciflow/trunk",
-        "release notes: rocm",
-        "merging",
-        "module: sdpa"
-      ],
-      "draft": false
-    },
-    {
-      "number": 195183,
-      "title": "Fix stack buffer overflow in libshm Unix socket path handling",
-      "author": "jerrymannil",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T18:03:21Z",
-      "updated_at": "2026-08-28T19:30:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195183",
-      "labels": [
-        "open source",
-        "topic: not user facing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 195050,
-      "title": "[_native][2/14] Add shared CuteDSL machinery (ops/_cutedsl/)",
-      "author": "slayton58",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T21:13:11Z",
-      "updated_at": "2026-08-28T19:27:20Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195050",
-      "labels": [
-        "topic: not user facing",
-        "ciflow/b200"
-      ],
-      "draft": true
-    },
-    {
-      "number": 193548,
-      "title": "[Eager] Add FlyDSL topk native override",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T08:22:49Z",
-      "updated_at": "2026-08-28T19:25:27Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/193548",
-      "labels": [
-        "open source",
-        "ciflow/b200"
-      ],
-      "draft": false
-    },
-    {
-      "number": 195198,
-      "title": "[DO NOT MERGE][ROCm] Test trunk-rocm-sandbox",
-      "author": "zjliu-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T19:12:02Z",
-      "updated_at": "2026-08-28T19:16:25Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195198",
-      "labels": [
-        "module: rocm",
-        "open source",
-        "release notes: releng"
-      ],
-      "draft": true
-    },
-    {
-      "number": 187784,
-      "title": "[TokenSwitch] Add expert-major dispatch layout",
-      "author": "kwen2501",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-21T08:45:54Z",
-      "updated_at": "2026-08-28T19:10:18Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/187784",
-      "labels": [
-        "open source",
+        "Merged",
+        "Reverted",
         "ciflow/trunk",
         "release notes: distributed (c10d)",
-        "merging",
-        "ciflow/h100-symm-mem",
+        "ci-no-td",
         "ciflow/torchtitan"
       ],
       "draft": false
-    },
-    {
-      "number": 194783,
-      "title": "[AOTI] Add opt-in stream-to-runtime affinity (#194783)",
-      "author": "bilal",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T19:09:10Z",
-      "updated_at": "2026-08-28T19:09:42Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194783",
-      "labels": [
-        "module: inductor",
-        "ciflow/inductor",
-        "release notes: inductor (aoti)",
-        "meta-exported",
-        "ciflow/torchtitan"
-      ],
-      "draft": false
-    },
-    {
-      "number": 194518,
-      "title": "Support MXFP8 in the fused async-TP all-gather and reduce-scatter ops",
-      "author": "anijain2305",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-23T14:55:29Z",
-      "updated_at": "2026-08-28T19:06:01Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194518",
-      "labels": [
-        "ciflow/trunk",
-        "release notes: distributed (symm_mem)",
-        "ciflow/h100-symm-mem",
-        "ciflow/b200",
-        "ciflow/b200-symm-mem",
-        "ciflow/torchtitan"
-      ],
-      "draft": false
-    },
-    {
-      "number": 194280,
-      "title": "[ROCm] Disable hdim>256 support of flash/efficient attention on all gfx11.5 GPUs",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T20:58:01Z",
-      "updated_at": "2026-08-28T18:59:17Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194280",
-      "labels": [
-        "module: rocm",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "ciflow/rocm-mi300"
-      ],
-      "draft": false
-    },
-    {
-      "number": 190711,
-      "title": "[ROCm] Enable TF32 for MIOpen convolution",
-      "author": "dnikolaev-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-21T20:01:52Z",
-      "updated_at": "2026-08-28T18:45:51Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/190711",
-      "labels": [
-        "module: rocm",
-        "open source",
-        "ciflow/trunk",
-        "ciflow/rocm-nightly",
-        "ciflow/rocm-preview"
-      ],
-      "draft": true
     },
     {
       "number": 191628,
@@ -251,7 +86,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-30T13:08:15Z",
-      "updated_at": "2026-08-28T18:45:38Z",
+      "updated_at": "2026-08-29T13:18:37Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/191628",
       "labels": [
         "module: rocm",
@@ -265,122 +100,103 @@
       "draft": false
     },
     {
-      "number": 187785,
-      "title": "[TokenSwitch] Add symmetric-memory zero-copy dispatch/combine",
-      "author": "kwen2501",
+      "number": 195281,
+      "title": "Fix missing stream synchronization in the threaded process group",
+      "author": "albmalamd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-06-21T08:45:58Z",
-      "updated_at": "2026-08-28T18:40:27Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/187785",
+      "created_at": "2026-08-29T12:23:39Z",
+      "updated_at": "2026-08-29T13:18:36Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195281",
       "labels": [
         "open source",
         "ciflow/trunk",
-        "release notes: distributed (c10d)",
-        "ciflow/h100-symm-mem",
-        "module: symm_mem"
+        "ciflow/periodic-rocm-mi300",
+        "ciflow/periodic-rocm-mi200",
+        "ciflow/periodic-rocm-mi350"
       ],
-      "draft": false
+      "draft": true
     },
     {
-      "number": 194704,
-      "title": "[inductor] AOTI cpp wrapper: keep a nested region's Inductor config (#194704)",
-      "author": "zoranzhao",
+      "number": 193412,
+      "title": "[Test] Refactor test/functorch/test_ops.py and enable on XPU",
+      "author": "tszulist-hbn",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-25T05:53:23Z",
-      "updated_at": "2026-08-28T17:57:44Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194704",
+      "created_at": "2026-08-13T16:09:27Z",
+      "updated_at": "2026-08-29T10:20:10Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/193412",
       "labels": [
-        "module: inductor",
-        "ciflow/inductor",
-        "release notes: inductor (aoti)",
-        "meta-exported",
-        "ciflow/torchtitan"
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "ciflow/xpu",
+        "ci-no-td"
       ],
-      "draft": false
+      "draft": true
     },
     {
-      "number": 194703,
-      "title": "[inductor] AOTI cpp wrapper: support invoke_subgraph (#194703)",
-      "author": "zoranzhao",
+      "number": 194880,
+      "title": "Route the riscv64 job back onto the cross-compilation code path",
+      "author": "zklaus",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-25T05:52:18Z",
-      "updated_at": "2026-08-28T17:57:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194703",
+      "created_at": "2026-08-26T09:55:10Z",
+      "updated_at": "2026-08-29T10:00:55Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194880",
       "labels": [
-        "module: inductor",
-        "ciflow/inductor",
-        "release notes: inductor (aoti)",
-        "meta-exported",
-        "ciflow/torchtitan"
+        "open source",
+        "topic: not user facing",
+        "ciflow/riscv64",
+        "ciflow/docker"
       ],
-      "draft": false
+      "draft": true
     },
     {
-      "number": 174241,
-      "title": "[MPS] Fix conv backward to preserve input memory format",
-      "author": "imperatormk",
+      "number": 194309,
+      "title": "[Inductor] Add gfx950 FlyDSL FlexAttention forward",
+      "author": "jiacao-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-02-03T22:09:00Z",
-      "updated_at": "2026-08-28T17:51:32Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/174241",
+      "created_at": "2026-08-21T00:29:40Z",
+      "updated_at": "2026-08-29T07:42:11Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194309",
       "labels": [
         "triaged",
+        "open source",
+        "module: inductor",
+        "ciflow/inductor",
+        "ciflow/rocm-mi300",
+        "ciflow/h100",
+        "ciflow/b200",
+        "ciflow/torchtitan",
+        "ciflow/docker"
+      ],
+      "draft": false
+    },
+    {
+      "number": 162454,
+      "title": "[xpu][feature] Integrate OneDNN SDPA training forward/backward into XPU OVERRIDEABLE Backend",
+      "author": "LuFinch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-09-09T03:37:47Z",
+      "updated_at": "2026-08-29T07:22:29Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/162454",
+      "labels": [
+        "module: cpu",
+        "triaged",
+        "module: mkldnn",
         "open source",
         "Merged",
         "Reverted",
-        "Stale",
-        "ciflow/trunk",
-        "release notes: mps",
-        "ciflow/mps",
+        "ciflow/binaries_wheel",
         "module: inductor",
-        "ciflow/inductor",
-        "ci-no-td"
-      ],
-      "draft": false
-    },
-    {
-      "number": 191493,
-      "title": "[DO NOT MERGE][ROCm][CI] MI350: cap Inductor compile-worker count to fix KFD runlist oversubscription",
-      "author": "amdfaa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-29T14:17:48Z",
-      "updated_at": "2026-08-28T17:36:09Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/191493",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
         "keep-going",
+        "release notes: xpu",
         "ci-no-td",
-        "ciflow/rocm"
-      ],
-      "draft": false
-    },
-    {
-      "number": 188682,
-      "title": "Limit ROCm build targets to architectures covered by testing",
-      "author": "abhilashKaturu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T15:56:40Z",
-      "updated_at": "2026-08-28T17:35:54Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/188682",
-      "labels": [
-        "module: rocm",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "ciflow/rocm-mi300",
-        "ciflow/rocm-mi200",
-        "ciflow/docker",
-        "ciflow/rocm-mi350"
+        "release notes: inductor (aoti)",
+        "jansel-agent-skip"
       ],
       "draft": false
     },
@@ -391,7 +207,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-23T21:50:56Z",
-      "updated_at": "2026-08-28T17:35:16Z",
+      "updated_at": "2026-08-29T07:01:05Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/187989",
       "labels": [
         "module: cpu",
@@ -417,13 +233,159 @@
       "draft": false
     },
     {
+      "number": 194670,
+      "title": "[torchtitan hash update] update the pinned torchtitan hash",
+      "author": "pytorchupdatebot",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T22:06:19Z",
+      "updated_at": "2026-08-29T06:50:10Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194670",
+      "labels": [
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "ciflow/inductor",
+        "ci-no-td",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 194967,
+      "title": "[vllm hash update] update the pinned vllm hash",
+      "author": "pytorchupdatebot",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T01:41:15Z",
+      "updated_at": "2026-08-29T06:50:02Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194967",
+      "labels": [
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "ciflow/inductor",
+        "ci-no-td",
+        "ci-refresh-hf-cache"
+      ],
+      "draft": false
+    },
+    {
+      "number": 173072,
+      "title": "s390x: rework ZVECTOR data into 16-byte-sized vectors",
+      "author": "AlekseiNikiforovIBM",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-01-22T12:21:53Z",
+      "updated_at": "2026-08-29T05:31:51Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/173072",
+      "labels": [
+        "module: cpu",
+        "triaged",
+        "open source",
+        "Stale",
+        "release notes: releng",
+        "module: inductor",
+        "ciflow/inductor",
+        "ciflow/s390",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 194311,
+      "title": "[cuBLAS] Always eagerly allocate cuBLAS(Lt) workspaces",
+      "author": "eqy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T00:59:54Z",
+      "updated_at": "2026-08-29T05:22:14Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194311",
+      "labels": [
+        "triaged",
+        "open source",
+        "topic: not user facing",
+        "module: inductor",
+        "ciflow/inductor",
+        "ciflow/rocm-mi300",
+        "ciflow/h100",
+        "ciflow/b200",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 188682,
+      "title": "Limit ROCm build targets to architectures covered by testing",
+      "author": "abhilashKaturu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T15:56:40Z",
+      "updated_at": "2026-08-29T05:02:09Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/188682",
+      "labels": [
+        "module: rocm",
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "ciflow/rocm-mi300",
+        "ciflow/rocm-mi200",
+        "ciflow/docker",
+        "ciflow/rocm-mi350"
+      ],
+      "draft": false
+    },
+    {
+      "number": 181000,
+      "title": "[inductor] Dump Python stacks on CI test subprocess timeout",
+      "author": "jeffdaily",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-21T17:32:39Z",
+      "updated_at": "2026-08-29T05:01:37Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/181000",
+      "labels": [
+        "triaged",
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "module: inductor",
+        "ciflow/inductor",
+        "keep-going",
+        "ci-no-td",
+        "ciflow/rocm-mi300",
+        "ciflow/rocm-mi355",
+        "ciflow/rocm-mi200",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 187785,
+      "title": "[TokenSwitch] Add symmetric-memory zero-copy dispatch/combine",
+      "author": "kwen2501",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-21T08:45:58Z",
+      "updated_at": "2026-08-29T04:47:07Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/187785",
+      "labels": [
+        "open source",
+        "ciflow/trunk",
+        "release notes: distributed (c10d)",
+        "ciflow/h100-symm-mem",
+        "module: symm_mem"
+      ],
+      "draft": false
+    },
+    {
       "number": 194942,
       "title": "[CI] Expand CUDA 13.4 CI coverage ",
       "author": "tinglvv",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-26T21:41:49Z",
-      "updated_at": "2026-08-28T17:33:48Z",
+      "updated_at": "2026-08-29T04:46:59Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/194942",
       "labels": [
         "triaged",
@@ -439,13 +401,432 @@
       "draft": false
     },
     {
+      "number": 184065,
+      "title": "Fix static launcher 16-bit float scalars",
+      "author": "jansel",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-17T02:50:14Z",
+      "updated_at": "2026-08-29T04:46:46Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/184065",
+      "labels": [
+        "ciflow/trunk",
+        "module: inductor",
+        "ciflow/inductor",
+        "release notes: inductor",
+        "ciflow/torchtitan",
+        "agentic"
+      ],
+      "draft": false
+    },
+    {
+      "number": 194828,
+      "title": "[cuda][rng] Size random distribution grids by unroll factor and predicted offsets",
+      "author": "anatoliylitv",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T00:04:39Z",
+      "updated_at": "2026-08-29T04:46:15Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194828",
+      "labels": [
+        "open source",
+        "ciflow/trunk",
+        "module: inductor",
+        "ciflow/inductor",
+        "keep-going",
+        "ciflow/rocm-mi300",
+        "ciflow/torchtitan"
+      ],
+      "draft": true
+    },
+    {
+      "number": 194390,
+      "title": "[precompile] Read the TORCH_VERSION a standalone artifact already carries",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T16:42:37Z",
+      "updated_at": "2026-08-29T04:29:29Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194390",
+      "labels": [
+        "ciflow/trunk",
+        "topic: not user facing"
+      ],
+      "draft": true
+    },
+    {
+      "number": 193976,
+      "title": "[dynamo] Guard autocast objects by value rather than identity",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T17:52:42Z",
+      "updated_at": "2026-08-29T04:25:12Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/193976",
+      "labels": [
+        "ciflow/trunk",
+        "topic: not user facing",
+        "module: dynamo",
+        "ciflow/inductor",
+        "ciflow/torchtitan"
+      ],
+      "draft": true
+    },
+    {
+      "number": 194940,
+      "title": "Reland [ROCm][TunableOp] Surface wildcard GEMM fallbacks and fix hipBLASLt layout leak (#194940)",
+      "author": "adelesun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T21:17:26Z",
+      "updated_at": "2026-08-29T04:24:47Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194940",
+      "labels": [
+        "module: rocm",
+        "ciflow/trunk",
+        "module: inductor",
+        "ciflow/inductor",
+        "ci-no-td",
+        "meta-exported"
+      ],
+      "draft": false
+    },
+    {
+      "number": 194534,
+      "title": "[aot_autograd] Replay an input mutation the way it actually happened",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-23T18:24:02Z",
+      "updated_at": "2026-08-29T04:06:33Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194534",
+      "labels": [
+        "ciflow/trunk",
+        "topic: not user facing",
+        "ciflow/inductor"
+      ],
+      "draft": true
+    },
+    {
+      "number": 194950,
+      "title": "[precompile] Let a served frame's user globals win over the artifact's own",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T22:42:48Z",
+      "updated_at": "2026-08-29T04:06:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194950",
+      "labels": [
+        "ciflow/trunk",
+        "topic: not user facing"
+      ],
+      "draft": true
+    },
+    {
+      "number": 194479,
+      "title": "[aot_autograd] Don't let a non-differentiable output mark its aliases",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-23T00:34:54Z",
+      "updated_at": "2026-08-29T04:06:26Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194479",
+      "labels": [
+        "ciflow/trunk",
+        "topic: not user facing",
+        "ciflow/inductor"
+      ],
+      "draft": true
+    },
+    {
+      "number": 194488,
+      "title": "[aot_autograd] Name the forward output when a kept tangent slot arrives as None",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-23T05:40:35Z",
+      "updated_at": "2026-08-29T03:48:38Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194488",
+      "labels": [
+        "ciflow/trunk",
+        "topic: not user facing",
+        "ciflow/inductor"
+      ],
+      "draft": true
+    },
+    {
+      "number": 187955,
+      "title": "Make expandable-segment Handle a move-only RAII owner and exception-safe",
+      "author": "cyyever",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-23T16:24:32Z",
+      "updated_at": "2026-08-29T03:48:31Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/187955",
+      "labels": [
+        "triaged",
+        "open source",
+        "Stale",
+        "topic: not user facing"
+      ],
+      "draft": false
+    },
+    {
+      "number": 190974,
+      "title": "[Testcase Refactoring][Test] Add hw_classification to elastic multiprocessing api_test.py",
+      "author": "xjbanana258",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T03:45:20Z",
+      "updated_at": "2026-08-29T03:36:29Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/190974",
+      "labels": [
+        "module: rocm",
+        "triaged",
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "module: tests/distributed"
+      ],
+      "draft": false
+    },
+    {
+      "number": 192193,
+      "title": "[ROCm] Reject unregistered host pointers in getDeviceFromPtr",
+      "author": "liminfei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T07:59:28Z",
+      "updated_at": "2026-08-29T02:28:33Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/192193",
+      "labels": [
+        "module: rocm",
+        "triaged",
+        "open source",
+        "ciflow/trunk",
+        "release notes: rocm",
+        "topic: bug fixes",
+        "merging"
+      ],
+      "draft": false
+    },
+    {
+      "number": 191062,
+      "title": "[ROCm] Use flattened literal OCKL path for ROCm device kernel asserts",
+      "author": "apakbin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T22:11:07Z",
+      "updated_at": "2026-08-29T02:03:01Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/191062",
+      "labels": [
+        "module: rocm",
+        "triaged",
+        "open source",
+        "ciflow/trunk",
+        "keep-going",
+        "ciflow/rocm-mi300",
+        "ciflow/periodic-rocm-mi300",
+        "ciflow/rocm-navi31",
+        "ciflow/periodic-rocm-mi200",
+        "ciflow/rocm-mi200",
+        "ciflow/inductor-rocm-mi200",
+        "ciflow/inductor-rocm-mi300"
+      ],
+      "draft": false
+    },
+    {
+      "number": 195229,
+      "title": "Drop dead paths from tools/ dev scripts",
+      "author": "cyyever",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T23:43:24Z",
+      "updated_at": "2026-08-29T01:24:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195229",
+      "labels": [
+        "open source",
+        "topic: not user facing"
+      ],
+      "draft": false
+    },
+    {
+      "number": 191493,
+      "title": "[DO NOT MERGE][ROCm][CI] MI350: cap Inductor compile-worker count to fix KFD runlist oversubscription",
+      "author": "amdfaa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T14:17:48Z",
+      "updated_at": "2026-08-29T01:07:04Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/191493",
+      "labels": [
+        "module: rocm",
+        "triaged",
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "keep-going",
+        "ci-no-td",
+        "ciflow/rocm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 194783,
+      "title": "[AOTI] Add opt-in stream-to-runtime affinity (#194783)",
+      "author": "bilal",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T19:09:10Z",
+      "updated_at": "2026-08-29T00:51:28Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194783",
+      "labels": [
+        "module: inductor",
+        "ciflow/inductor",
+        "release notes: inductor (aoti)",
+        "meta-exported",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 192898,
+      "title": "[ROCm][TunableOp] Surface wildcard GEMM fallbacks and fix hipBLASLt layout leak (#192898)",
+      "author": "adelesun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T04:01:01Z",
+      "updated_at": "2026-08-29T00:11:51Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/192898",
+      "labels": [
+        "module: rocm",
+        "ciflow/trunk",
+        "module: inductor",
+        "ciflow/inductor",
+        "ciflow/rocm-mi300",
+        "ciflow/h100",
+        "meta-exported",
+        "ciflow/b200",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 195022,
+      "title": "[inductor][eager] Resolve which distribution provides the importable Triton module",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T16:26:27Z",
+      "updated_at": "2026-08-29T00:11:01Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195022",
+      "labels": [
+        "module: rocm",
+        "open source",
+        "ciflow/trunk",
+        "release notes: rocm",
+        "release notes: cuda",
+        "release notes: inductor",
+        "release notes: xpu",
+        "ciflow/b200"
+      ],
+      "draft": false
+    },
+    {
+      "number": 194471,
+      "title": "[ROCm][inductor] Fix Inductor compiler selection for ROCm on Windows",
+      "author": "arsic3",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-22T20:12:48Z",
+      "updated_at": "2026-08-29T00:04:47Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194471",
+      "labels": [
+        "module: rocm",
+        "triaged",
+        "open source",
+        "module: inductor",
+        "ciflow/inductor",
+        "release notes: inductor",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 194131,
+      "title": "[ROCm] Guard native BMM outer-product launches against the HIP work-item limit",
+      "author": "naromero77amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T22:59:51Z",
+      "updated_at": "2026-08-28T23:49:46Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194131",
+      "labels": [
+        "module: rocm",
+        "open source",
+        "ciflow/trunk",
+        "release notes: rocm",
+        "module: inductor",
+        "ciflow/inductor",
+        "ciflow/xpu",
+        "ciflow/b200",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 190711,
+      "title": "[ROCm] Enable TF32 for MIOpen convolution",
+      "author": "dnikolaev-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-21T20:01:52Z",
+      "updated_at": "2026-08-28T23:47:39Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/190711",
+      "labels": [
+        "module: rocm",
+        "open source",
+        "ciflow/trunk",
+        "ciflow/rocm-nightly",
+        "ciflow/rocm-preview"
+      ],
+      "draft": true
+    },
+    {
+      "number": 191166,
+      "title": "[ROCm][inductor] gfx1250 TDM support",
+      "author": "glen-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-27T03:58:01Z",
+      "updated_at": "2026-08-28T23:24:34Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/191166",
+      "labels": [
+        "module: rocm",
+        "triaged",
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "module: inductor",
+        "ciflow/inductor",
+        "keep-going",
+        "ciflow/xpu",
+        "ciflow/rocm-mi300",
+        "ciflow/h100",
+        "ciflow/b200",
+        "ciflow/inductor-rocm-mi300",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
       "number": 177961,
       "title": "[ROCm] Enable native AsyncTP",
       "author": "chinmaydk99",
       "state": "open",
       "merged": false,
       "created_at": "2026-03-20T14:01:11Z",
-      "updated_at": "2026-08-28T17:33:19Z",
+      "updated_at": "2026-08-28T23:23:29Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/177961",
       "labels": [
         "module: rocm",
@@ -466,136 +847,22 @@
       "draft": true
     },
     {
-      "number": 192375,
-      "title": "[inductor] Only run is_big_gpu SM check when GEMM templates are in play",
-      "author": "rgbkrk",
+      "number": 194704,
+      "title": "[inductor] AOTI cpp wrapper: keep a nested region's Inductor config (#194704)",
+      "author": "zoranzhao",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-06T17:30:36Z",
-      "updated_at": "2026-08-28T17:33:13Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/192375",
+      "created_at": "2026-08-25T05:53:23Z",
+      "updated_at": "2026-08-28T23:22:51Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194704",
       "labels": [
-        "open source",
-        "ciflow/trunk",
-        "release notes: mps",
         "module: inductor",
         "ciflow/inductor",
+        "release notes: inductor (aoti)",
+        "meta-exported",
         "ciflow/torchtitan"
       ],
       "draft": false
-    },
-    {
-      "number": 194897,
-      "title": "[DO NOT MERGE][ROCm][CI] : Test DIND CPU isolation",
-      "author": "pelumi1163",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T12:53:20Z",
-      "updated_at": "2026-08-28T17:33:12Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194897",
-      "labels": [
-        "module: rocm",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "keep-going",
-        "ci-no-td"
-      ],
-      "draft": true
-    },
-    {
-      "number": 193412,
-      "title": "[Test] Refactor test/functorch/test_ops.py and enable on XPU",
-      "author": "tszulist-hbn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T16:09:27Z",
-      "updated_at": "2026-08-28T17:33:09Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/193412",
-      "labels": [
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "ciflow/xpu",
-        "ci-no-td"
-      ],
-      "draft": true
-    },
-    {
-      "number": 183776,
-      "title": "C++ FakeTensor",
-      "author": "liangel-02",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-14T20:10:24Z",
-      "updated_at": "2026-08-28T17:33:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/183776",
-      "labels": [
-        "module: mkldnn",
-        "ciflow/trunk",
-        "release notes: fx",
-        "skip-pr-sanity-checks",
-        "module: inductor",
-        "module: dynamo",
-        "ciflow/inductor",
-        "release notes: distributed (dtensor)",
-        "keep-going",
-        "module: compiled autograd",
-        "ci-no-td",
-        "release notes: inductor (aoti)",
-        "ciflow/torchtitan",
-        "ciflow/dtensor"
-      ],
-      "draft": true
-    },
-    {
-      "number": 181000,
-      "title": "[inductor] Dump Python stacks on CI test subprocess timeout",
-      "author": "jeffdaily",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T17:32:39Z",
-      "updated_at": "2026-08-28T17:33:01Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/181000",
-      "labels": [
-        "triaged",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "module: inductor",
-        "ciflow/inductor",
-        "keep-going",
-        "ci-no-td",
-        "ciflow/rocm-mi300",
-        "ciflow/rocm-mi355",
-        "ciflow/rocm-mi200",
-        "ciflow/torchtitan"
-      ],
-      "draft": false
-    },
-    {
-      "number": 181557,
-      "title": "[XPU] Enable grouped_mm and scaled_grouped_mm with OneDNN",
-      "author": "LuFinch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-27T08:16:55Z",
-      "updated_at": "2026-08-28T17:32:55Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/181557",
-      "labels": [
-        "module: cpu",
-        "triaged",
-        "module: mkldnn",
-        "open source",
-        "module: inductor",
-        "ciflow/inductor",
-        "ciflow/rocm-mi300",
-        "release notes: inductor (aoti)",
-        "ciflow/h100",
-        "ciflow/b200",
-        "ciflow/torchtitan"
-      ],
-      "draft": true
     },
     {
       "number": 193185,
@@ -604,7 +871,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-12T15:40:59Z",
-      "updated_at": "2026-08-28T17:32:29Z",
+      "updated_at": "2026-08-28T22:27:47Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/193185",
       "labels": [
         "module: rocm",
@@ -620,22 +887,24 @@
       "draft": true
     },
     {
-      "number": 195154,
-      "title": "[ROCm][CI] Run trunk on Python 3.12 and Ubuntu 24.04",
-      "author": "ethanwee1",
+      "number": 190771,
+      "title": "[ROCm] Add document SDPA BSHD layout performance on gfx1151 iGPU",
+      "author": "menglcai",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-28T15:43:14Z",
-      "updated_at": "2026-08-28T17:32:09Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195154",
+      "created_at": "2026-07-22T09:10:04Z",
+      "updated_at": "2026-08-28T22:18:39Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/190771",
       "labels": [
+        "module: docs",
         "module: rocm",
+        "triaged",
         "open source",
         "ciflow/trunk",
-        "topic: not user facing",
-        "keep-going"
+        "release notes: rocm",
+        "module: sdpa"
       ],
-      "draft": true
+      "draft": false
     },
     {
       "number": 192524,
@@ -644,7 +913,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-07T17:27:51Z",
-      "updated_at": "2026-08-28T17:32:08Z",
+      "updated_at": "2026-08-28T22:14:26Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/192524",
       "labels": [
         "module: rocm",
@@ -666,20 +935,100 @@
       "draft": true
     },
     {
-      "number": 194238,
-      "title": "[native_aot][2/7] export: arch identity and compiler versions in the sidecar",
-      "author": "slayton58",
+      "number": 194703,
+      "title": "[inductor] AOTI cpp wrapper: support invoke_subgraph (#194703)",
+      "author": "zoranzhao",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-20T15:52:02Z",
-      "updated_at": "2026-08-28T17:31:36Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194238",
+      "created_at": "2026-08-25T05:52:18Z",
+      "updated_at": "2026-08-28T22:12:52Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194703",
       "labels": [
-        "topic: not user facing",
+        "module: inductor",
         "ciflow/inductor",
-        "ciflow/b200"
+        "release notes: inductor (aoti)",
+        "meta-exported",
+        "ciflow/torchtitan"
       ],
       "draft": false
+    },
+    {
+      "number": 192786,
+      "title": "Inductor: fuse CUDA FNUZ FP8 conversions into Triton kernels",
+      "author": "IvanYashchuk",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T12:22:07Z",
+      "updated_at": "2026-08-28T21:42:54Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/192786",
+      "labels": [
+        "triaged",
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "module: inductor",
+        "ciflow/inductor",
+        "ciflow/rocm-mi300",
+        "ciflow/h100",
+        "ciflow/b200",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 195198,
+      "title": "[ROCm] Use linux-jammy-rocm-3.10-mi350 as trunk-rocm-sandbox job name/environment",
+      "author": "zjliu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T19:12:02Z",
+      "updated_at": "2026-08-28T21:24:19Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195198",
+      "labels": [
+        "module: rocm",
+        "open source",
+        "release notes: releng",
+        "topic: not user facing"
+      ],
+      "draft": false
+    },
+    {
+      "number": 194924,
+      "title": "[DO NOT MERGE][ROCm] Update rocm preview wheel ",
+      "author": "chinmaydk99",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T17:13:18Z",
+      "updated_at": "2026-08-28T21:17:41Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194924",
+      "labels": [
+        "module: rocm",
+        "open source",
+        "topic: not user facing",
+        "keep-going",
+        "ci-no-td",
+        "ciflow/docker",
+        "ciflow/rocm-preview"
+      ],
+      "draft": true
+    },
+    {
+      "number": 195154,
+      "title": "[ROCm][CI] Run trunk on Python 3.12 and Ubuntu 24.04",
+      "author": "ethanwee1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T15:43:14Z",
+      "updated_at": "2026-08-28T21:15:53Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195154",
+      "labels": [
+        "module: rocm",
+        "open source",
+        "ciflow/trunk",
+        "topic: not user facing",
+        "keep-going"
+      ],
+      "draft": true
     },
     {
       "number": 193173,
@@ -688,7 +1037,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-12T15:08:42Z",
-      "updated_at": "2026-08-28T17:31:27Z",
+      "updated_at": "2026-08-28T21:15:46Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/193173",
       "labels": [
         "module: rocm",
@@ -711,249 +1060,20 @@
       "draft": false
     },
     {
-      "number": 191062,
-      "title": "[ROCm] Use flattened literal OCKL path for ROCm device kernel asserts",
-      "author": "apakbin",
+      "number": 194238,
+      "title": "[native_aot][2/7] export: arch identity and compiler versions in the sidecar",
+      "author": "slayton58",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-24T22:11:07Z",
-      "updated_at": "2026-08-28T17:31:23Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/191062",
+      "created_at": "2026-08-20T15:52:02Z",
+      "updated_at": "2026-08-28T21:15:37Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/194238",
       "labels": [
-        "module: rocm",
-        "triaged",
-        "open source",
-        "ciflow/trunk",
-        "keep-going",
-        "ciflow/rocm-mi300",
-        "ciflow/periodic-rocm-mi300",
-        "ciflow/rocm-navi31",
-        "ciflow/periodic-rocm-mi200",
-        "ciflow/rocm-mi200",
-        "ciflow/inductor-rocm-mi200",
-        "ciflow/inductor-rocm-mi300"
-      ],
-      "draft": false
-    },
-    {
-      "number": 194924,
-      "title": "[DO NOT MERGE][ROCm] Update rocm preview wheel ",
-      "author": "chinmaydk99",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T17:13:18Z",
-      "updated_at": "2026-08-28T15:14:33Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194924",
-      "labels": [
-        "module: rocm",
-        "open source",
         "topic: not user facing",
-        "keep-going",
-        "ci-no-td",
-        "ciflow/docker",
-        "ciflow/rocm-preview"
-      ],
-      "draft": true
-    },
-    {
-      "number": 194471,
-      "title": "[ROCm][inductor] Fix Inductor compiler selection for ROCm on Windows",
-      "author": "arsic3",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-22T20:12:48Z",
-      "updated_at": "2026-08-28T15:11:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194471",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "open source",
-        "module: inductor",
         "ciflow/inductor",
-        "release notes: inductor",
-        "ciflow/torchtitan"
-      ],
-      "draft": false
-    },
-    {
-      "number": 195022,
-      "title": "[inductor][eager] Resolve which distribution provides the importable Triton module",
-      "author": "naromero77amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T16:26:27Z",
-      "updated_at": "2026-08-28T14:56:13Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195022",
-      "labels": [
-        "module: rocm",
-        "open source",
-        "ciflow/trunk",
-        "release notes: rocm",
-        "release notes: cuda",
-        "release notes: inductor",
-        "release notes: xpu",
         "ciflow/b200"
       ],
       "draft": false
-    },
-    {
-      "number": 188114,
-      "title": "[ROCm] Fix CK SDPA flash attention on gfx1200/gfx1201 (RDNA4)",
-      "author": "poad42",
-      "state": "closed",
-      "merged": false,
-      "created_at": "2026-06-24T23:36:50Z",
-      "updated_at": "2026-08-28T14:42:32Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/188114",
-      "labels": [
-        "module: rocm",
-        "module: cpu",
-        "open source",
-        "module: amp (automated mixed precision)",
-        "Merged",
-        "ciflow/trunk",
-        "release notes: quantization",
-        "release notes: rocm",
-        "topic: not user facing",
-        "ciflow/mps",
-        "ciflow/inductor",
-        "ciflow/rocm-mi300",
-        "ciflow/periodic-rocm-mi300",
-        "ciflow/h100",
-        "ciflow/vllm",
-        "ciflow/b200",
-        "ciflow/inductor-rocm-mi300",
-        "ciflow/inductor-pallas",
-        "ci-refresh-hf-cache",
-        "ciflow/torchtitan",
-        "ciflow/docker",
-        "ciflow/rocm"
-      ],
-      "draft": false
-    },
-    {
-      "number": 189760,
-      "title": "[BE] Switch ubuntu-rocm CI image off conda to a deadsnakes venv",
-      "author": "ethanwee1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-13T19:55:17Z",
-      "updated_at": "2026-08-28T09:24:45Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/189760",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "open source",
-        "Merged",
-        "Reverted",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "keep-going",
-        "ci-no-td",
-        "ciflow/docker"
-      ],
-      "draft": false
-    },
-    {
-      "number": 191166,
-      "title": "[ROCm][inductor] gfx1250 TDM support",
-      "author": "glen-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T03:58:01Z",
-      "updated_at": "2026-08-28T09:24:40Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/191166",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "module: inductor",
-        "ciflow/inductor",
-        "keep-going",
-        "ciflow/xpu",
-        "ciflow/rocm-mi300",
-        "ciflow/h100",
-        "ciflow/b200",
-        "ciflow/inductor-rocm-mi300",
-        "ciflow/torchtitan"
-      ],
-      "draft": false
-    },
-    {
-      "number": 194981,
-      "title": "[Inductor][ROCm] Support all input layouts in FlyDSL gfx950 GEMM",
-      "author": "xytpai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T03:53:42Z",
-      "updated_at": "2026-08-28T06:13:23Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194981",
-      "labels": [
-        "module: rocm",
-        "open source",
-        "module: inductor",
-        "ciflow/inductor",
-        "release notes: inductor",
-        "ciflow/rocm-mi300",
-        "ciflow/h100",
-        "ciflow/b200",
-        "ciflow/torchtitan"
-      ],
-      "draft": false
-    },
-    {
-      "number": 194309,
-      "title": "[Inductor] Add gfx950 FlyDSL FlexAttention forward",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T00:29:40Z",
-      "updated_at": "2026-08-28T04:57:39Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/194309",
-      "labels": [
-        "triaged",
-        "open source",
-        "module: inductor",
-        "ciflow/inductor",
-        "ciflow/rocm-mi300",
-        "ciflow/h100",
-        "ciflow/b200",
-        "ciflow/torchtitan",
-        "ciflow/docker"
-      ],
-      "draft": false
-    },
-    {
-      "number": 192814,
-      "title": "[ROCm] Unskip expandable segment UTs on rocm 10.0+",
-      "author": "chinmaydk99",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T17:09:17Z",
-      "updated_at": "2026-08-28T03:25:07Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/192814",
-      "labels": [
-        "module: rocm",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "module: inductor",
-        "ciflow/inductor",
-        "keep-going",
-        "ci-no-td",
-        "ciflow/rocm-mi300",
-        "ciflow/periodic-rocm-mi300",
-        "ciflow/periodic-rocm-mi200",
-        "ciflow/rocm-mi200",
-        "ciflow/inductor-rocm-mi200",
-        "ciflow/inductor-rocm-mi300",
-        "ciflow/docker",
-        "ciflow/periodic-rocm-mi350",
-        "ciflow/rocm-preview"
-      ],
-      "draft": true
     },
     {
       "number": 194821,

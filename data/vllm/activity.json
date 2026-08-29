@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-08-28T19:43:33Z",
+  "collected_at": "2026-08-29T13:27:53Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 61,
-      "merged": 57,
-      "closed": 4
-    },
-    "last_week": {
-      "opened": 25,
-      "merged": 13,
+      "opened": 62,
+      "merged": 54,
       "closed": 0
     },
-    "median_time_to_merge_hours": 120.3,
-    "merge_count": 76,
+    "last_week": {
+      "opened": 22,
+      "merged": 16,
+      "closed": 0
+    },
+    "median_time_to_merge_hours": 174.6,
+    "merge_count": 75,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 102,
-    "total_contributors": 109,
+    "active_this_week": 96,
+    "total_contributors": 103,
     "top_contributors": [
       {
         "author": "simondanielsson",
@@ -28,15 +28,21 @@
         "commits": 0
       },
       {
-        "author": "AndreasKaratzas",
+        "author": "okorzh-amd",
         "prs_submitted": 5,
         "prs_merged": 4,
         "commits": 0
       },
       {
         "author": "akii96",
-        "prs_submitted": 4,
+        "prs_submitted": 5,
         "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "AndreasKaratzas",
+        "prs_submitted": 5,
+        "prs_merged": 5,
         "commits": 0
       },
       {
@@ -46,13 +52,13 @@
         "commits": 0
       },
       {
-        "author": "amd-sriram",
+        "author": "rasmith",
         "prs_submitted": 3,
-        "prs_merged": 0,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "xuebwang-amd",
+        "author": "fxmarty-amd",
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
@@ -64,36 +70,30 @@
         "commits": 0
       },
       {
-        "author": "xiaohuguo2023",
-        "prs_submitted": 3,
-        "prs_merged": 2,
+        "author": "waizuichougou",
+        "prs_submitted": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "rasmith",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "okorzh-amd",
+        "author": "YukioZzz",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       }
     ],
-    "bus_factor": 19
+    "bus_factor": 18
   },
   "issue_health": {
-    "total_open": 51,
-    "opened_this_week": 22,
-    "closed_this_week": 129,
+    "total_open": 57,
+    "opened_this_week": 29,
+    "closed_this_week": 150,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 2.4,
+    "days_since_last": 3.2,
     "avg_interval_days": 10.8,
     "total_releases": 5,
     "latest_tag": "v0.28.0"

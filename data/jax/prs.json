@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-08-28T19:42:01Z",
+  "collected_at": "2026-08-29T13:26:25Z",
   "prs": [
+    {
+      "number": 40304,
+      "title": "[ROCm] Add Python 3.15 to the ROCm CI matrices",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T21:04:41Z",
+      "updated_at": "2026-08-28T21:21:54Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40304",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 40215,
       "title": "[ROCm] Replace rocm-smi with amd-smi in CI diagnostics",

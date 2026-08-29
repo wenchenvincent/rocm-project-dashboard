@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-28T19:43:32Z",
+  "collected_at": "2026-08-29T13:27:53Z",
   "project": "jax",
   "repo": "jax-ml/jax",
   "pr_velocity": {
@@ -18,7 +18,7 @@
     "stale_prs": 11
   },
   "contributors": {
-    "active_this_week": 4,
+    "active_this_week": 5,
     "total_contributors": 15,
     "top_contributors": [
       {
@@ -46,6 +46,12 @@
         "commits": 0
       },
       {
+        "author": "mminutoli",
+        "prs_submitted": 3,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
         "author": "charleshofer",
         "prs_submitted": 3,
         "prs_merged": 1,
@@ -55,12 +61,6 @@
         "author": "psanal35",
         "prs_submitted": 2,
         "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "mminutoli",
-        "prs_submitted": 2,
-        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 11.0,
+    "days_since_last": 11.7,
     "avg_interval_days": 30.8,
     "total_releases": 5,
     "latest_tag": "jax-v0.11.1"

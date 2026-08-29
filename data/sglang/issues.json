@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-28T19:42:26Z",
+  "collected_at": "2026-08-29T13:26:43Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,32 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-28T18:54:30Z",
+      "updated_at": "2026-08-29T12:59:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-29T10:32:42Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 36938,
+      "title": "[Bug] Prefill input logprobs are served from the wrong request when a batch member is retracted or finished",
+      "author": "EnesYilmazcode",
+      "state": "open",
+      "created_at": "2026-08-29T01:34:08Z",
+      "updated_at": "2026-08-29T01:34:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36938",
       "labels": []
     },
     {
@@ -71,20 +95,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/36616",
       "labels": [
         "amd"
-      ]
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-27T17:34:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
       ]
     },
     {
@@ -592,16 +602,6 @@
       "created_at": "2026-07-13T09:28:31Z",
       "updated_at": "2026-07-30T00:55:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31015",
-      "labels": []
-    },
-    {
-      "number": 31783,
-      "title": "[Roadmap] Quantization 2026 H2",
-      "author": "OrangeRedeng",
-      "state": "open",
-      "created_at": "2026-07-20T13:24:05Z",
-      "updated_at": "2026-07-29T10:06:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31783",
       "labels": []
     }
   ]
