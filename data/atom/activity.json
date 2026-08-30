@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-08-29T13:29:08Z",
+  "collected_at": "2026-08-30T13:26:02Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 84,
-      "merged": 47,
+      "opened": 83,
+      "merged": 41,
       "closed": 11
     },
     "last_week": {
       "opened": 69,
       "merged": 50,
-      "closed": 8
+      "closed": 7
     },
     "median_time_to_merge_hours": 21.6,
-    "merge_count": 97,
-    "stale_prs": 120
+    "merge_count": 91,
+    "stale_prs": 122
   },
   "contributors": {
-    "active_this_week": 48,
-    "total_contributors": 88,
+    "active_this_week": 49,
+    "total_contributors": 89,
     "top_contributors": [
       {
         "author": "JiaoliangYu",
@@ -35,21 +35,21 @@
       },
       {
         "author": "ganyi1996ppo",
-        "prs_submitted": 16,
+        "prs_submitted": 17,
         "prs_merged": 4,
         "commits": 4
-      },
-      {
-        "author": "gbyu-amd",
-        "prs_submitted": 15,
-        "prs_merged": 1,
-        "commits": 2
       },
       {
         "author": "carlushuang",
         "prs_submitted": 15,
         "prs_merged": 1,
         "commits": 1
+      },
+      {
+        "author": "gbyu-amd",
+        "prs_submitted": 15,
+        "prs_merged": 1,
+        "commits": 2
       },
       {
         "author": "yhl-amd",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 55.8,
+    "days_since_last": 56.8,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-29T13:26:43Z",
+  "collected_at": "2026-08-30T13:23:02Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,48 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-29T12:59:11Z",
+      "updated_at": "2026-08-30T12:57:09Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 29738,
+      "title": "[Bug] NameError: name 'deep_gemm' is not defined in tf32_hc_prenorm_gemm when SGLANG_ENABLE_JIT_DEEPGEMM=0",
+      "author": "mattyding",
+      "state": "open",
+      "created_at": "2026-06-30T09:16:20Z",
+      "updated_at": "2026-08-30T08:16:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29738",
+      "labels": []
+    },
+    {
+      "number": 35785,
+      "title": "Triton version mismatch",
+      "author": "alex-mashin",
+      "state": "open",
+      "created_at": "2026-08-21T03:24:38Z",
+      "updated_at": "2026-08-30T05:12:59Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35785",
+      "labels": []
+    },
+    {
+      "number": 36830,
+      "title": "[Bug] GLM-5.3-Flash cannot use FP8 KV cache: `index_kpool > 1` excludes `flashmla_kv`, and no CUDA DSA backend supports bf16-query x fp8-KV",
+      "author": "Hansen523",
+      "state": "open",
+      "created_at": "2026-08-28T08:46:05Z",
+      "updated_at": "2026-08-30T04:01:57Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36830",
+      "labels": []
+    },
+    {
+      "number": 36807,
+      "title": "[Bug] fast_topk_v2 can silently return wrong top-k sets when a radix threshold bucket exceeds its 4096-entry candidate buffer (k=2048, long rows)",
+      "author": "zkyue",
+      "state": "open",
+      "created_at": "2026-08-28T06:40:26Z",
+      "updated_at": "2026-08-29T16:38:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36807",
       "labels": []
     },
     {
@@ -17,7 +57,7 @@
       "author": "ispobock",
       "state": "open",
       "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-29T10:32:42Z",
+      "updated_at": "2026-08-29T16:13:36Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/20865",
       "labels": [
         "enhancement",
@@ -33,26 +73,6 @@
       "created_at": "2026-08-29T01:34:08Z",
       "updated_at": "2026-08-29T01:34:49Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/36938",
-      "labels": []
-    },
-    {
-      "number": 36830,
-      "title": "[Bug] GLM-5.3-Flash cannot use FP8 KV cache: `index_kpool > 1` excludes `flashmla_kv`, and no CUDA DSA backend supports bf16-query x fp8-KV",
-      "author": "Hansen523",
-      "state": "open",
-      "created_at": "2026-08-28T08:46:05Z",
-      "updated_at": "2026-08-28T14:02:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36830",
-      "labels": []
-    },
-    {
-      "number": 36807,
-      "title": "[Bug] fast_topk_v2 can silently return wrong top-k sets when a radix threshold bucket exceeds its 4096-entry candidate buffer (k=2048, long rows)",
-      "author": "zkyue",
-      "state": "open",
-      "created_at": "2026-08-28T06:40:26Z",
-      "updated_at": "2026-08-28T10:57:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36807",
       "labels": []
     },
     {
@@ -209,16 +229,6 @@
       "created_at": "2026-06-01T06:01:24Z",
       "updated_at": "2026-08-21T12:37:34Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/26890",
-      "labels": []
-    },
-    {
-      "number": 35785,
-      "title": "Triton version mismatch",
-      "author": "alex-mashin",
-      "state": "open",
-      "created_at": "2026-08-21T03:24:38Z",
-      "updated_at": "2026-08-21T03:24:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35785",
       "labels": []
     },
     {
@@ -449,16 +459,6 @@
       "labels": []
     },
     {
-      "number": 34473,
-      "title": "[ROCm] QuickReduce bf16\u2192fp16 cast corrupts gpt-oss-120b residuals: 62.7M non-finite elements on the default config",
-      "author": "alexnails",
-      "state": "open",
-      "created_at": "2026-08-11T23:28:06Z",
-      "updated_at": "2026-08-11T23:28:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34473",
-      "labels": []
-    },
-    {
       "number": 34205,
       "title": "[Bug] Aborted LoRA requests retain a LoRARegistry reference",
       "author": "AlexEisie",
@@ -533,16 +533,6 @@
       ]
     },
     {
-      "number": 29738,
-      "title": "[Bug] NameError: name 'deep_gemm' is not defined in tf32_hc_prenorm_gemm when SGLANG_ENABLE_JIT_DEEPGEMM=0",
-      "author": "mattyding",
-      "state": "open",
-      "created_at": "2026-06-30T09:16:20Z",
-      "updated_at": "2026-08-01T09:36:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29738",
-      "labels": []
-    },
-    {
       "number": 32960,
       "title": "[Bug] Kimi-K3: a literal <|kimi_image_placeholder|> in message text returns 400 \"More image placeholders than image prompts.\"",
       "author": "chnlich",
@@ -602,6 +592,16 @@
       "created_at": "2026-07-13T09:28:31Z",
       "updated_at": "2026-07-30T00:55:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31015",
+      "labels": []
+    },
+    {
+      "number": 31783,
+      "title": "[Roadmap] Quantization 2026 H2",
+      "author": "OrangeRedeng",
+      "state": "open",
+      "created_at": "2026-07-20T13:24:05Z",
+      "updated_at": "2026-07-29T10:06:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31783",
       "labels": []
     }
   ]

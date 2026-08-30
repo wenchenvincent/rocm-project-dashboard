@@ -1,6 +1,92 @@
 {
-  "collected_at": "2026-08-29T13:26:47Z",
+  "collected_at": "2026-08-30T13:23:08Z",
   "prs": [
+    {
+      "number": 5218,
+      "title": "Add executable path flags and --all option to tools/format.py",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-30T01:08:00Z",
+      "updated_at": "2026-08-30T01:12:00Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5218",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5005,
+      "title": "Leaky relu using max",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-22T21:58:36Z",
+      "updated_at": "2026-08-30T00:23:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5005",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5137,
+      "title": "Eliminate concat after reshapes",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T22:42:07Z",
+      "updated_at": "2026-08-29T23:16:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5137",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 4956,
+      "title": "Add support for HipGraph",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-11T21:50:30Z",
+      "updated_at": "2026-08-29T22:26:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4956",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5183,
+      "title": "Remove concat->reshapes->slice",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T15:31:05Z",
+      "updated_at": "2026-08-29T21:35:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5183",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5182,
+      "title": "Split pointwise ops over concat inputs to enable fused_concat fusion",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T15:28:26Z",
+      "updated_at": "2026-08-29T21:30:34Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5182",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5215,
+      "title": "Use rocmlirtriton as the compiler backend",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T03:17:56Z",
+      "updated_at": "2026-08-29T21:28:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5215",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5216,
       "title": "Bump CI to ROCm 10.0",
@@ -204,18 +290,6 @@
       "draft": false
     },
     {
-      "number": 5005,
-      "title": "Leaky relu using max",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-22T21:58:36Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5005",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4994,
       "title": "simplify_reshapes: skip find_reshape_dot when it would change element\u2026",
       "author": "ycastill2-amd",
@@ -252,18 +326,6 @@
         "skip bot checks"
       ],
       "draft": true
-    },
-    {
-      "number": 4956,
-      "title": "Add support for HipGraph",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-11T21:50:30Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4956",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4934,
@@ -613,21 +675,6 @@
       "draft": true
     },
     {
-      "number": 4439,
-      "title": "AIMIGRAPHX-317 g+g heuristic added to apply",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-11-12T07:22:36Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4439",
-      "labels": [
-        "Matchers",
-        "Perf Improve"
-      ],
-      "draft": false
-    },
-    {
       "number": 4403,
       "title": "`generic_float` for Float8E8M0",
       "author": "CharlieL7",
@@ -884,30 +931,6 @@
       "draft": false
     },
     {
-      "number": 5183,
-      "title": "Remove concat->reshapes->slice",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T15:31:05Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5183",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5182,
-      "title": "Split pointwise ops over concat inputs to enable fused_concat fusion",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T15:28:26Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5182",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5179,
       "title": "Simplify concat same broadcast",
       "author": "pfultz2",
@@ -1035,18 +1058,6 @@
       "draft": false
     },
     {
-      "number": 5163,
-      "title": "Install clangd",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T16:00:41Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5163",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5162,
       "title": "Set reduction thresholds for block size and block algo",
       "author": "TedThemistokleous",
@@ -1133,18 +1144,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5139",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5137,
-      "title": "Eliminate concat after reshapes",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T22:42:07Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5137",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5133,
@@ -1521,18 +1520,6 @@
       "draft": true
     },
     {
-      "number": 5215,
-      "title": "Use rocmlirtriton as the compiler backend",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-29T03:17:56Z",
-      "updated_at": "2026-08-29T03:18:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5215",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5151,
       "title": "NMS parse into `dyn_slice` and remove env variable",
       "author": "CharlieL7",
@@ -1567,6 +1554,33 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4303",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5163,
+      "title": "Install clangd",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-21T16:00:41Z",
+      "updated_at": "2026-08-29T21:40:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5163",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4439,
+      "title": "AIMIGRAPHX-317 g+g heuristic added to apply",
+      "author": "bdevorem",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2025-11-12T07:22:36Z",
+      "updated_at": "2026-08-29T14:48:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4439",
+      "labels": [
+        "Matchers",
+        "Perf Improve"
+      ],
+      "draft": false
     },
     {
       "number": 5214,
@@ -2588,34 +2602,6 @@
       "updated_at": "2026-08-05T22:56:45Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5116",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5113,
-      "title": "Bump cryptography from 48.0.1 to 50.0.0 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T05:03:47Z",
-      "updated_at": "2026-08-05T21:03:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5113",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5110,
-      "title": "Bump gitpython from 3.1.52 to 3.1.57 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T15:47:10Z",
-      "updated_at": "2026-08-05T19:29:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5110",
-      "labels": [
-        "documentation"
-      ],
       "draft": false
     }
   ]

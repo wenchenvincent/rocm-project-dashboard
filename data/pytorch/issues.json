@@ -1,18 +1,112 @@
 {
-  "collected_at": "2026-08-29T13:26:22Z",
+  "collected_at": "2026-08-30T13:22:33Z",
   "issues": [
+    {
+      "number": 194798,
+      "title": "[CPU] batch_norm_update_stats accesses past undersized running-stat tensors",
+      "author": "hanbaiGG",
+      "state": "open",
+      "created_at": "2026-08-25T21:03:28Z",
+      "updated_at": "2026-08-30T10:15:30Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/194798",
+      "labels": []
+    },
+    {
+      "number": 195329,
+      "title": "[Inductor][CPU] Multiple view updates with a returned input alias materialize the full base",
+      "author": "ruddyscent",
+      "state": "open",
+      "created_at": "2026-08-30T09:12:58Z",
+      "updated_at": "2026-08-30T09:15:24Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/195329",
+      "labels": [
+        "module: performance",
+        "triaged",
+        "enhancement",
+        "oncall: pt2",
+        "module: inductor",
+        "module: pt2-dispatcher",
+        "module: reinplacing",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 193670,
       "title": "DISABLED test_avx_py_load_falls_back_to_import_torch (__main__.TestVecISACheckBuild)",
       "author": "etaf",
       "state": "open",
       "created_at": "2026-08-15T13:26:10Z",
-      "updated_at": "2026-08-29T10:41:18Z",
+      "updated_at": "2026-08-30T09:09:17Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/193670",
       "labels": [
         "triaged",
         "skipped",
         "module: xpu"
+      ]
+    },
+    {
+      "number": 141287,
+      "title": "MPS operator coverage tracking issue (2.6+ version)",
+      "author": "malfet",
+      "state": "open",
+      "created_at": "2024-11-21T21:15:46Z",
+      "updated_at": "2026-08-30T08:43:10Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/141287",
+      "labels": [
+        "feature",
+        "triaged",
+        "tracker",
+        "module: mps"
+      ]
+    },
+    {
+      "number": 178368,
+      "title": "On the future of triton-windows",
+      "author": "woct0rdho",
+      "state": "open",
+      "created_at": "2026-03-25T07:00:35Z",
+      "updated_at": "2026-08-30T06:24:48Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/178368",
+      "labels": [
+        "module: binaries",
+        "module: windows",
+        "feature",
+        "module: ci",
+        "triaged",
+        "oncall: pt2",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 146508,
+      "title": "Something very wrong with float16 CPU implementation",
+      "author": "ddpasa",
+      "state": "open",
+      "created_at": "2025-02-05T18:20:15Z",
+      "updated_at": "2026-08-29T20:30:47Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/146508",
+      "labels": [
+        "module: performance",
+        "module: cpu",
+        "triaged",
+        "module: half"
+      ]
+    },
+    {
+      "number": 195285,
+      "title": "[Inductor][CPU] Full-buffer clone for generalized_scatter followed by index_put and input copy-back",
+      "author": "ruddyscent",
+      "state": "open",
+      "created_at": "2026-08-29T16:02:41Z",
+      "updated_at": "2026-08-29T17:30:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/195285",
+      "labels": [
+        "module: performance",
+        "triaged",
+        "enhancement",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
       ]
     },
     {
@@ -245,22 +339,6 @@
       ]
     },
     {
-      "number": 188836,
-      "title": "DISABLED test_dropout_parity_dynamic_shapes (__main__.TestDropoutAlignRandomEager)",
-      "author": "frgossen",
-      "state": "open",
-      "created_at": "2026-07-02T18:38:45Z",
-      "updated_at": "2026-08-28T20:34:06Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/188836",
-      "labels": [
-        "high priority",
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
       "number": 192226,
       "title": "BUG: Out of Bounds Reads with offset/strided views on compiled kernels",
       "author": "KyleMylonakisProtopia",
@@ -458,55 +536,6 @@
         "module: binaries",
         "triaged",
         "upstream triton",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 187202,
-      "title": "DISABLED test_combo_kernel_fusion_within_same_stream (__main__.TestUserStreamCompile)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-06-12T19:22:02Z",
-      "updated_at": "2026-08-28T09:59:32Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/187202",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
-      "number": 152632,
-      "title": "DISABLED test_torchvision_models_efficientnet_v2_l (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2025-05-01T21:41:24Z",
-      "updated_at": "2026-08-28T09:59:28Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/152632",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
-      ]
-    },
-    {
-      "number": 195123,
-      "title": "[Inductor] Redundant computation in the max_pool2d_with_indices_backward decomposition for non-overlapping windows",
-      "author": "orrangetabby17",
-      "state": "open",
-      "created_at": "2026-08-28T09:01:24Z",
-      "updated_at": "2026-08-28T09:03:09Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/195123",
-      "labels": [
-        "module: performance",
-        "triaged",
-        "enhancement",
-        "module: pooling",
-        "oncall: pt2",
-        "module: inductor",
         "bot-triaged"
       ]
     },
@@ -805,22 +834,6 @@
         "skipped",
         "oncall: pt2",
         "module: inductor"
-      ]
-    },
-    {
-      "number": 193890,
-      "title": "torch.cholesky_inverse fails with HIPBLAS_STATUS_ALLOC_FAILED at batch 20 on ROCm due to fixed hipBLAS workspace",
-      "author": "ryanpavlick",
-      "state": "open",
-      "created_at": "2026-08-18T03:46:16Z",
-      "updated_at": "2026-08-26T12:31:50Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/193890",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "has workaround",
-        "module: linear algebra",
-        "bot-triaged"
       ]
     }
   ]

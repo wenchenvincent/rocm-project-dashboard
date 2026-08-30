@@ -1,6 +1,134 @@
 {
-  "collected_at": "2026-08-29T13:27:05Z",
+  "collected_at": "2026-08-30T13:23:29Z",
   "prs": [
+    {
+      "number": 2008,
+      "title": "[DCP] CPP-prefill -> DCP-decode KV transfer, replicated index cache, and MTP",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T10:53:49Z",
+      "updated_at": "2026-08-30T13:16:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2008",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2054,
+      "title": "Jasen/dcp kv transfer",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T08:32:44Z",
+      "updated_at": "2026-08-30T13:09:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2054",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2088,
+      "title": "Settle a step's shape once, and fix the three defects that exposed",
+      "author": "valarLip",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-30T12:58:36Z",
+      "updated_at": "2026-08-30T12:58:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2088",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2087,
+      "title": "[DSA] Opt-in fused DCP decode top-k merge",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-30T12:26:59Z",
+      "updated_at": "2026-08-30T12:31:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2087",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2053,
+      "title": "[Kimi-K3][LMCache] LMCache offload for Kimi-K3",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T08:20:47Z",
+      "updated_at": "2026-08-30T11:46:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2053",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2049,
+      "title": "[PCP] Fix DSV4 PCP with MTP",
+      "author": "yitingw1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T06:08:28Z",
+      "updated_at": "2026-08-30T09:25:23Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2049",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2051,
+      "title": "[Model] GLM-5.3-Flash (glm5_next) \u2014 text path on MI355X",
+      "author": "carlushuang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T06:47:41Z",
+      "updated_at": "2026-08-30T02:30:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2051",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2086,
+      "title": "Draft: DeepSeek-V4-Flash-0731 MI308X TP4 optimization recipe",
+      "author": "cubezhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T18:28:15Z",
+      "updated_at": "2026-08-29T18:45:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2086",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2085,
+      "title": "[feat](vllm): upgrade the OOT plugin to vLLM 0.28.0",
+      "author": "Phi-C",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T15:48:12Z",
+      "updated_at": "2026-08-29T15:48:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2085",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1919,
+      "title": "[Kimi-K3] Integrate aiter fused KDA decode kernel",
+      "author": "mengfei-jiang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T06:33:14Z",
+      "updated_at": "2026-08-29T14:07:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1919",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 2083,
       "title": "Fix/vllm atom ci startup failures",
@@ -82,7 +210,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-27T06:32:00Z",
-      "updated_at": "2026-08-29T08:07:29Z",
+      "updated_at": "2026-08-29T14:25:56Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2050",
       "labels": [
         "ci:atom"
@@ -138,60 +266,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2078",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 2051,
-      "title": "[Model] GLM-5.3-Flash (glm5_next) \u2014 text path on MI355X",
-      "author": "carlushuang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T06:47:41Z",
-      "updated_at": "2026-08-28T12:18:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2051",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2008,
-      "title": "[DCP] CPP-prefill -> DCP-decode KV transfer, replicated index cache, and MTP",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T10:53:49Z",
-      "updated_at": "2026-08-28T11:57:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2008",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2054,
-      "title": "Jasen/dcp kv transfer",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T08:32:44Z",
-      "updated_at": "2026-08-28T11:47:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2054",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2053,
-      "title": "[Kimi-K3][LMCache] LMCache offload for Kimi-K3",
-      "author": "zejunchen-zejun",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T08:20:47Z",
-      "updated_at": "2026-08-28T11:35:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2053",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
     },
     {
       "number": 1890,
@@ -403,20 +477,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1601",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 2049,
-      "title": "[PCP] Fix DSV4 PCP with MTP",
-      "author": "yitingw1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T06:08:28Z",
-      "updated_at": "2026-08-27T06:21:03Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2049",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": true
     },
     {
       "number": 2013,
@@ -738,18 +798,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/1978",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1919,
-      "title": "[Kimi-K3] Integrate aiter fused KDA decode kernel",
-      "author": "mengfei-jiang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T06:33:14Z",
-      "updated_at": "2026-08-24T07:49:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1919",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1962,

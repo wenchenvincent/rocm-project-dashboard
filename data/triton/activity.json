@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-29T13:27:57Z",
+  "collected_at": "2026-08-30T13:24:40Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 22,
     "opened_this_week": 1,
-    "closed_this_week": 11,
+    "closed_this_week": 8,
     "unanswered": 10
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 0.8,
+    "days_since_last": 1.8,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"
