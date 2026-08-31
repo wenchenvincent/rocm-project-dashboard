@@ -1,36 +1,36 @@
 {
-  "collected_at": "2026-08-30T13:24:42Z",
+  "collected_at": "2026-08-31T15:36:24Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 41,
-      "merged": 34,
+      "opened": 35,
+      "merged": 31,
       "closed": 8
     },
     "last_week": {
-      "opened": 34,
-      "merged": 15,
+      "opened": 41,
+      "merged": 19,
       "closed": 5
     },
-    "median_time_to_merge_hours": 150.2,
-    "merge_count": 59,
+    "median_time_to_merge_hours": 136.0,
+    "merge_count": 60,
     "stale_prs": 2
   },
   "contributors": {
-    "active_this_week": 47,
+    "active_this_week": 46,
     "total_contributors": 47,
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 54,
+        "prs_submitted": 55,
         "prs_merged": 21,
-        "commits": 20
+        "commits": 19
       },
       {
         "author": "causten",
-        "prs_submitted": 22,
-        "prs_merged": 13,
+        "prs_submitted": 21,
+        "prs_merged": 12,
         "commits": 12
       },
       {
@@ -41,9 +41,15 @@
       },
       {
         "author": "shivadbhavsar",
-        "prs_submitted": 10,
-        "prs_merged": 7,
+        "prs_submitted": 11,
+        "prs_merged": 8,
         "commits": 3
+      },
+      {
+        "author": "TedThemistokleous",
+        "prs_submitted": 6,
+        "prs_merged": 4,
+        "commits": 2
       },
       {
         "author": "danieyan-amd",
@@ -62,12 +68,6 @@
         "prs_submitted": 5,
         "prs_merged": 0,
         "commits": 0
-      },
-      {
-        "author": "TedThemistokleous",
-        "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 2
       },
       {
         "author": "lakhinderwalia",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.8,
+    "days_since_last": 2.9,
     "avg_interval_days": 34.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.0"

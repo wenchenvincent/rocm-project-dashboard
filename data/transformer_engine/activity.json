@@ -1,24 +1,24 @@
 {
-  "collected_at": "2026-08-30T13:26:36Z",
+  "collected_at": "2026-08-31T15:38:10Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 9,
-      "merged": 8,
+      "opened": 10,
+      "merged": 7,
       "closed": 1
     },
     "last_week": {
       "opened": 8,
-      "merged": 3,
+      "merged": 4,
       "closed": 0
     },
     "median_time_to_merge_hours": 126.6,
     "merge_count": 11,
-    "stale_prs": 30
+    "stale_prs": 32
   },
   "contributors": {
-    "active_this_week": 10,
+    "active_this_week": 9,
     "total_contributors": 27,
     "top_contributors": [
       {
@@ -37,7 +37,7 @@
         "author": "ipanfilo",
         "prs_submitted": 14,
         "prs_merged": 12,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "VeeraRajasekhar",
@@ -49,7 +49,7 @@
         "author": "alextmagro",
         "prs_submitted": 13,
         "prs_merged": 13,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "sudhu2k",
@@ -58,16 +58,16 @@
         "commits": 2
       },
       {
+        "author": "aris134",
+        "prs_submitted": 7,
+        "prs_merged": 4,
+        "commits": 0
+      },
+      {
         "author": "AllenFarcas",
         "prs_submitted": 7,
         "prs_merged": 6,
         "commits": 2
-      },
-      {
-        "author": "aris134",
-        "prs_submitted": 6,
-        "prs_merged": 4,
-        "commits": 0
       },
       {
         "author": "wenchenvincent",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 40.0,
+    "days_since_last": 41.1,
     "avg_interval_days": 41.6,
     "total_releases": 5,
     "latest_tag": "v2.12_rocm"

@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-08-30T13:24:40Z",
+  "collected_at": "2026-08-31T15:36:22Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
       "opened": 13,
-      "merged": 12,
+      "merged": 7,
       "closed": 0
     },
     "last_week": {
       "opened": 12,
-      "merged": 8,
+      "merged": 13,
       "closed": 0
     },
     "median_time_to_merge_hours": 97.8,
     "merge_count": 30,
-    "stale_prs": 4
+    "stale_prs": 5
   },
   "contributors": {
     "active_this_week": 14,
@@ -52,15 +52,15 @@
         "commits": 0
       },
       {
-        "author": "warrendeng",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
         "author": "umangyadav",
         "prs_submitted": 2,
         "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "warrendeng",
+        "prs_submitted": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -76,7 +76,7 @@
         "commits": 0
       },
       {
-        "author": "ThomasRaoux",
+        "author": "mgehre-amd",
         "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 22,
     "opened_this_week": 1,
-    "closed_this_week": 8,
+    "closed_this_week": 7,
     "unanswered": 10
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 1.8,
+    "days_since_last": 2.9,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

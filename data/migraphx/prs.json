@@ -1,18 +1,107 @@
 {
-  "collected_at": "2026-08-30T13:23:08Z",
+  "collected_at": "2026-08-31T15:35:12Z",
   "prs": [
     {
-      "number": 5218,
-      "title": "Add executable path flags and --all option to tools/format.py",
+      "number": 5222,
+      "title": "Format",
       "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-30T01:08:00Z",
-      "updated_at": "2026-08-30T01:12:00Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5218",
+      "created_at": "2026-08-31T15:22:06Z",
+      "updated_at": "2026-08-31T15:23:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5222",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5215,
+      "title": "Use rocmlirtriton as the compiler backend",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T03:17:56Z",
+      "updated_at": "2026-08-31T15:13:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5215",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5175,
+      "title": "Gpu concat kernel improvements",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-23T20:19:24Z",
+      "updated_at": "2026-08-31T15:10:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5175",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5177,
+      "title": "Add block batch reduce algorithm",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T15:06:53Z",
+      "updated_at": "2026-08-31T15:06:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5177",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5221,
+      "title": "Update MIGraphX EP shim to default to the AMD pci vendor ID",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T14:50:30Z",
+      "updated_at": "2026-08-31T14:56:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5221",
       "labels": [
-        "high priority"
+        "onnxruntime",
+        "bugfix",
+        "Continous Integration"
       ],
+      "draft": false
+    },
+    {
+      "number": 5052,
+      "title": "Revert find_reshape_cont guard relaxation from PR#4858",
+      "author": "tamahedi",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T14:03:44Z",
+      "updated_at": "2026-08-31T14:55:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
+      "labels": [
+        "bugfix",
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5048,
+      "title": "Preserve shape ops when removing QDQ pairs",
+      "author": "ikalinic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T14:22:24Z",
+      "updated_at": "2026-08-31T14:40:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5216,
+      "title": "Bump CI to ROCm 10.0",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T04:05:18Z",
+      "updated_at": "2026-08-31T14:32:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5216",
+      "labels": [],
       "draft": false
     },
     {
@@ -22,8 +111,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-22T21:58:36Z",
-      "updated_at": "2026-08-30T00:23:08Z",
+      "updated_at": "2026-08-31T14:17:50Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5005",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5220,
+      "title": "Bump rocm-docs-core from 1.40.0 to 1.40.2 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T12:43:48Z",
+      "updated_at": "2026-08-31T12:43:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5220",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5139,
+      "title": "Add GPU JIT implementation for gridsample operation",
+      "author": "Imeguras",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T17:12:34Z",
+      "updated_at": "2026-08-30T21:09:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5139",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5219,
+      "title": "Add a partial split to split_reduce for large reductions",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-30T19:21:08Z",
+      "updated_at": "2026-08-30T19:35:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5219",
       "labels": [],
       "draft": false
     },
@@ -72,30 +199,6 @@
       "created_at": "2026-08-24T15:28:26Z",
       "updated_at": "2026-08-29T21:30:34Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5182",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5215,
-      "title": "Use rocmlirtriton as the compiler backend",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-29T03:17:56Z",
-      "updated_at": "2026-08-29T21:28:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5215",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5216,
-      "title": "Bump CI to ROCm 10.0",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-29T04:05:18Z",
-      "updated_at": "2026-08-29T06:31:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5216",
       "labels": [],
       "draft": false
     },
@@ -247,18 +350,6 @@
       "created_at": "2026-08-07T22:50:31Z",
       "updated_at": "2026-08-29T04:00:02Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5124",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5048,
-      "title": "Preserve shape ops when removing QDQ pairs",
-      "author": "ikalinic",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T14:22:24Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
       "labels": [],
       "draft": false
     },
@@ -943,18 +1034,6 @@
       "draft": false
     },
     {
-      "number": 5175,
-      "title": "Gpu concat kernel improvements",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-23T20:19:24Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5175",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5174,
       "title": "[ROCM-28806] Remove Navi4x guard for gemm_tune_invalid_sol_index",
       "author": "eddieliao",
@@ -1134,18 +1213,6 @@
       "draft": true
     },
     {
-      "number": 5139,
-      "title": "Add GPU JIT implementation for gridsample operation",
-      "author": "Imeguras",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-16T17:12:34Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5139",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5133,
       "title": "Add adaptive benchmarking to MIGraphX",
       "author": "justinrosner",
@@ -1291,21 +1358,6 @@
       "updated_at": "2026-08-29T04:00:01Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5064",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5052,
-      "title": "Revert find_reshape_cont guard relaxation from PR#4858",
-      "author": "tamahedi",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T14:03:44Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
       "draft": false
     },
     {
@@ -1508,18 +1560,6 @@
       "draft": true
     },
     {
-      "number": 5177,
-      "title": "Add block batch reduce algorithm",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T15:06:53Z",
-      "updated_at": "2026-08-29T04:00:00Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5177",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5151,
       "title": "NMS parse into `dyn_slice` and remove env variable",
       "author": "CharlieL7",
@@ -1554,6 +1594,44 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4303",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5218,
+      "title": "Add executable path flags and --all option to tools/format.py",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-30T01:08:00Z",
+      "updated_at": "2026-08-31T14:36:51Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5218",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4916,
+      "title": "[AIMIGRAPHX-1057] Fix TheRock multi-arch packaging: use Recommends for per-GPU dependencies",
+      "author": "kentqian",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-27T18:23:07Z",
+      "updated_at": "2026-08-31T13:30:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4916",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4918,
+      "title": "symbolic shapes for gather and scatter",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-05-27T21:33:20Z",
+      "updated_at": "2026-08-30T14:30:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4918",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 5163,
@@ -2578,30 +2656,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 5102,
-      "title": "Refactor to use a device_description instead of using the hipDeviceProps struct",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-29T22:32:01Z",
-      "updated_at": "2026-08-05T23:28:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5102",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5116,
-      "title": "Add sqlite3 dev package",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T19:50:16Z",
-      "updated_at": "2026-08-05T22:56:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5116",
-      "labels": [],
       "draft": false
     }
   ]

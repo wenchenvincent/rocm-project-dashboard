@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-08-30T13:24:30Z",
+  "collected_at": "2026-08-31T15:36:11Z",
   "project": "pytorch",
   "repo": "pytorch/pytorch",
   "pr_velocity": {
     "this_week": {
-      "opened": 19,
+      "opened": 18,
       "merged": 1,
-      "closed": 0
+      "closed": 1
     },
     "last_week": {
-      "opened": 16,
+      "opened": 8,
       "merged": 6,
       "closed": 0
     },
@@ -18,15 +18,9 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 38,
-    "total_contributors": 45,
+    "active_this_week": 40,
+    "total_contributors": 44,
     "top_contributors": [
-      {
-        "author": "bobrenjc93",
-        "prs_submitted": 9,
-        "prs_merged": 0,
-        "commits": 0
-      },
       {
         "author": "atalman",
         "prs_submitted": 6,
@@ -35,8 +29,14 @@
       },
       {
         "author": "malfet",
-        "prs_submitted": 4,
+        "prs_submitted": 5,
         "prs_merged": 4,
+        "commits": 0
+      },
+      {
+        "author": "nikitaved",
+        "prs_submitted": 3,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -46,7 +46,7 @@
         "commits": 0
       },
       {
-        "author": "jeffdaily",
+        "author": "tszulist-hbn",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
@@ -58,26 +58,26 @@
         "commits": 0
       },
       {
-        "author": "adelesun",
+        "author": "he-yufeng",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "pelumi1163",
-        "prs_submitted": 1,
+        "author": "eellison",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "jeffdaily",
+        "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "imperatormk",
-        "prs_submitted": 1,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "egeboy35",
-        "prs_submitted": 1,
+        "author": "chinmaydk99",
+        "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       }
@@ -85,43 +85,43 @@
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 51,
-    "opened_this_week": 18,
-    "closed_this_week": 91,
+    "total_open": 55,
+    "opened_this_week": 24,
+    "closed_this_week": 77,
     "unanswered": 0
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 15,
-      "failed": 4,
-      "success_rate": 75.0
+      "succeeded": 10,
+      "failed": 6,
+      "success_rate": 50.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 16,
-      "failed": 4,
-      "success_rate": 80.0
+      "succeeded": 11,
+      "failed": 3,
+      "success_rate": 55.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 272.1,
-      "p90_minutes": 309.6,
-      "min_minutes": 56.4,
-      "max_minutes": 347.5
+      "median_minutes": 202.1,
+      "p90_minutes": 378.8,
+      "min_minutes": 0.1,
+      "max_minutes": 408.1
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 209.6,
-      "p90_minutes": 257.6,
-      "min_minutes": 148.6,
-      "max_minutes": 275.8
+      "median_minutes": 159.7,
+      "p90_minutes": 275.0,
+      "min_minutes": 0.1,
+      "max_minutes": 324.2
     }
   },
   "release_cadence": {
-    "days_since_last": 52.8,
+    "days_since_last": 53.9,
     "avg_interval_days": 42.0,
     "total_releases": 5,
     "latest_tag": "v2.13.0"

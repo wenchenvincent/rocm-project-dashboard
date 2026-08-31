@@ -1,6 +1,58 @@
 {
-  "collected_at": "2026-08-30T13:23:42Z",
+  "collected_at": "2026-08-31T15:35:44Z",
   "prs": [
+    {
+      "number": 722,
+      "title": "[TE] IFU release v2.18",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T14:24:03Z",
+      "updated_at": "2026-08-31T14:24:22Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 709,
+      "title": "Update to new QoLA/CK-JIT/AITER",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T22:08:25Z",
+      "updated_at": "2026-08-31T14:24:00Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/709",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 678,
+      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
+      "author": "shurale-nkn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T15:17:24Z",
+      "updated_at": "2026-08-31T11:06:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 715,
+      "title": "Do not mark replicated weights as tensor-model-parallel",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T02:42:16Z",
+      "updated_at": "2026-08-31T02:50:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/715",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 716,
       "title": "Add ROCm Triton blockwise FP8 grouped GEMM",
@@ -30,20 +82,6 @@
       "draft": true
     },
     {
-      "number": 709,
-      "title": "Update to new QoLA/CK-JIT/AITER",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T22:08:25Z",
-      "updated_at": "2026-08-28T17:39:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/709",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 697,
       "title": "Integrate MXFP4 hipblaslt GEMM support",
       "author": "VeeraRajasekhar",
@@ -52,20 +90,6 @@
       "created_at": "2026-08-07T15:04:06Z",
       "updated_at": "2026-08-28T02:23:40Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 678,
-      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-08-27T15:14:30Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
       "labels": [
         "ci-level 3"
       ],
@@ -134,18 +158,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/717",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 715,
-      "title": "Do not mark replicated weights as tensor-model-parallel",
-      "author": "wenchenvincent",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T02:42:16Z",
-      "updated_at": "2026-08-26T02:05:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/715",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 712,

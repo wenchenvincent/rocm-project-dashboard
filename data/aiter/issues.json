@@ -1,6 +1,70 @@
 {
-  "collected_at": "2026-08-30T13:23:25Z",
+  "collected_at": "2026-08-31T15:35:30Z",
   "issues": [
+    {
+      "number": 5151,
+      "title": "[Issue]: rmsnorm2d_fwd_with_add truncates fp32->bf16 on gfx942, biasing residual_out and compounding across layers",
+      "author": "xiaohong42",
+      "state": "open",
+      "created_at": "2026-08-31T14:57:56Z",
+      "updated_at": "2026-08-31T14:58:24Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5151",
+      "labels": []
+    },
+    {
+      "number": 1354,
+      "title": "[Feature]: Need a Gather-GEMM kernel before MHA for DeepSeeek model",
+      "author": "junhaha666",
+      "state": "open",
+      "created_at": "2025-11-06T13:29:18Z",
+      "updated_at": "2026-08-31T08:15:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/1354",
+      "labels": []
+    },
+    {
+      "number": 289,
+      "title": "test_mha.py:test_mha_backward fails with causal=True and seqlen_q < seqlen_k",
+      "author": "juuso-oskari",
+      "state": "open",
+      "created_at": "2025-04-14T10:47:12Z",
+      "updated_at": "2026-08-31T06:15:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/289",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 2882,
+      "title": "[TRITON][CI] Fix `test_pa_decode.py` flakiness in `gfx942`",
+      "author": "brunomazzottiamd",
+      "state": "open",
+      "created_at": "2026-04-23T13:21:55Z",
+      "updated_at": "2026-08-31T06:14:57Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2882",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 5133,
+      "title": "[CI] op_tests are always run as scripts, so 171 pytest cases never execute",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-08-31T05:36:14Z",
+      "updated_at": "2026-08-31T05:36:14Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5133",
+      "labels": []
+    },
+    {
+      "number": 5125,
+      "title": "gemm_moe_tune.py accepts non-power-of-2 token counts that get_padded_M can never look up (and no fallback below M=32768)",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-08-30T21:27:08Z",
+      "updated_at": "2026-08-30T21:27:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5125",
+      "labels": []
+    },
     {
       "number": 5119,
       "title": "[Gluon MLA][gfx950] FP8 bh16bn128 faults when a KV split reaches 3+ pipeline iterations",
@@ -173,16 +237,6 @@
       "created_at": "2026-08-21T21:10:05Z",
       "updated_at": "2026-08-21T21:19:16Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4920",
-      "labels": []
-    },
-    {
-      "number": 4419,
-      "title": "Document and automate the AITER release plan",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-07-28T07:38:47Z",
-      "updated_at": "2026-08-21T02:06:30Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4419",
       "labels": []
     },
     {
@@ -1357,19 +1411,6 @@
       "updated_at": "2026-04-29T01:11:22Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2857",
       "labels": []
-    },
-    {
-      "number": 2882,
-      "title": "[TRITON][CI] Fix `test_pa_decode.py` flakiness in `gfx942`",
-      "author": "brunomazzottiamd",
-      "state": "open",
-      "created_at": "2026-04-23T13:21:55Z",
-      "updated_at": "2026-04-28T05:27:51Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2882",
-      "labels": [
-        "bug",
-        "triton"
-      ]
     },
     {
       "number": 2517,
@@ -2823,19 +2864,6 @@
       "updated_at": "2025-04-16T07:39:48Z",
       "html_url": "https://github.com/ROCm/aiter/issues/298",
       "labels": []
-    },
-    {
-      "number": 289,
-      "title": "test_mha.py:test_mha_backward fails with causal=True and seqlen_q < seqlen_k",
-      "author": "juuso-oskari",
-      "state": "open",
-      "created_at": "2025-04-14T10:47:12Z",
-      "updated_at": "2025-04-14T12:12:17Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/289",
-      "labels": [
-        "bug",
-        "triton"
-      ]
     },
     {
       "number": 246,

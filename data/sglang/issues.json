@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-30T13:23:02Z",
+  "collected_at": "2026-08-31T15:35:07Z",
   "issues": [
     {
       "number": 17050,
@@ -7,9 +7,56 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-30T12:57:09Z",
+      "updated_at": "2026-08-31T14:38:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-08-31T12:51:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 21703,
+      "title": "[Roadmap] Prefill-Decode Disaggregation Roadmap (2026 Q2)",
+      "author": "ShangmingCai",
+      "state": "open",
+      "created_at": "2026-03-30T17:20:10Z",
+      "updated_at": "2026-08-31T09:40:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21703",
+      "labels": [
+        "inactive",
+        "PD Disaggregation"
+      ]
+    },
+    {
+      "number": 37183,
+      "title": "AMD MI308X SGLang GLM-5.3-Flash ValueError: The checkpoint you are trying to load has model type `glm5_next` but Transformers does not recognize this architecture.",
+      "author": "Alan-D-Chen",
+      "state": "open",
+      "created_at": "2026-08-31T03:34:41Z",
+      "updated_at": "2026-08-31T08:33:47Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37183",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-08-30T15:07:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
     },
     {
       "number": 29738,
@@ -52,20 +99,6 @@
       "labels": []
     },
     {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-29T16:13:36Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
       "number": 36938,
       "title": "[Bug] Prefill input logprobs are served from the wrong request when a batch member is retracted or finished",
       "author": "EnesYilmazcode",
@@ -73,16 +106,6 @@
       "created_at": "2026-08-29T01:34:08Z",
       "updated_at": "2026-08-29T01:34:49Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/36938",
-      "labels": []
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-08-28T06:47:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
     },
     {
@@ -402,19 +425,6 @@
       ]
     },
     {
-      "number": 34857,
-      "title": "[Bug] [ROCm] Router GEMM output should always be fp32, and the expert correction bias should not be cast to bf16",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-14T14:43:53Z",
-      "updated_at": "2026-08-14T15:23:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34857",
-      "labels": [
-        "amd",
-        "aiter"
-      ]
-    },
-    {
       "number": 30781,
       "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
       "author": "tanguofu",
@@ -423,20 +433,6 @@
       "updated_at": "2026-08-13T11:06:52Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30781",
       "labels": []
-    },
-    {
-      "number": 23602,
-      "title": "DeepSeek V4 Roadmap",
-      "author": "fzyzcjy",
-      "state": "open",
-      "created_at": "2026-04-24T03:22:31Z",
-      "updated_at": "2026-08-13T10:38:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23602",
-      "labels": [
-        "high priority",
-        "deepseek",
-        "roadmap"
-      ]
     },
     {
       "number": 34709,
@@ -592,16 +588,6 @@
       "created_at": "2026-07-13T09:28:31Z",
       "updated_at": "2026-07-30T00:55:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31015",
-      "labels": []
-    },
-    {
-      "number": 31783,
-      "title": "[Roadmap] Quantization 2026 H2",
-      "author": "OrangeRedeng",
-      "state": "open",
-      "created_at": "2026-07-20T13:24:05Z",
-      "updated_at": "2026-07-29T10:06:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31783",
       "labels": []
     }
   ]
