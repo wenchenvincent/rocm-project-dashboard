@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-31T15:35:07Z",
+  "collected_at": "2026-09-01T12:50:31Z",
   "issues": [
     {
       "number": 17050,
@@ -7,9 +7,92 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-08-31T14:38:16Z",
+      "updated_at": "2026-09-01T12:26:37Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 37410,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T11:19:02Z",
+      "updated_at": "2026-09-01T11:19:02Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37410",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 37405,
+      "title": "[RFC] Aggressive test cleanup: delete tests that cannot fail, and make the directory encode the CI contract",
+      "author": "BBuf",
+      "state": "open",
+      "created_at": "2026-09-01T10:53:28Z",
+      "updated_at": "2026-09-01T10:53:28Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37405",
+      "labels": [
+        "RFC"
+      ]
+    },
+    {
+      "number": 26890,
+      "title": "[AITER-Upgrade] AITER Scout Status",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-06-01T06:01:24Z",
+      "updated_at": "2026-09-01T10:01:59Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
+      "labels": []
+    },
+    {
+      "number": 37372,
+      "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
+      "author": "imReese",
+      "state": "open",
+      "created_at": "2026-09-01T07:22:04Z",
+      "updated_at": "2026-09-01T09:45:14Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37372",
+      "labels": []
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-09-01T06:40:53Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-09-01T05:36:56Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 21703,
+      "title": "[Roadmap] Prefill-Decode Disaggregation Roadmap (2026 Q2)",
+      "author": "ShangmingCai",
+      "state": "open",
+      "created_at": "2026-03-30T17:20:10Z",
+      "updated_at": "2026-09-01T03:15:30Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21703",
+      "labels": [
+        "inactive",
+        "PD Disaggregation"
+      ]
     },
     {
       "number": 21302,
@@ -22,19 +105,6 @@
       "labels": []
     },
     {
-      "number": 21703,
-      "title": "[Roadmap] Prefill-Decode Disaggregation Roadmap (2026 Q2)",
-      "author": "ShangmingCai",
-      "state": "open",
-      "created_at": "2026-03-30T17:20:10Z",
-      "updated_at": "2026-08-31T09:40:48Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21703",
-      "labels": [
-        "inactive",
-        "PD Disaggregation"
-      ]
-    },
-    {
       "number": 37183,
       "title": "AMD MI308X SGLang GLM-5.3-Flash ValueError: The checkpoint you are trying to load has model type `glm5_next` but Transformers does not recognize this architecture.",
       "author": "Alan-D-Chen",
@@ -43,20 +113,6 @@
       "updated_at": "2026-08-31T08:33:47Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37183",
       "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-08-30T15:07:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
     },
     {
       "number": 29738,
@@ -245,16 +301,6 @@
       "labels": []
     },
     {
-      "number": 26890,
-      "title": "[AITER-Upgrade] AITER Scout Status",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-06-01T06:01:24Z",
-      "updated_at": "2026-08-21T12:37:34Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
-      "labels": []
-    },
-    {
       "number": 35673,
       "title": "[Bug] Gemma-4-31B-it TP=8 hangs in the vision path on AMD/ROCm",
       "author": "victrgao",
@@ -263,18 +309,6 @@
       "updated_at": "2026-08-20T08:35:17Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/35673",
       "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-08-20T02:34:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
     },
     {
       "number": 35518,
@@ -393,16 +427,6 @@
       ]
     },
     {
-      "number": 33861,
-      "title": "[RFC] PD disaggregation: single protocol layer, per-backend transport",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2026-08-06T09:20:51Z",
-      "updated_at": "2026-08-15T19:04:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33861",
-      "labels": []
-    },
-    {
       "number": 29736,
       "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
       "author": "thanhhao98",
@@ -410,28 +434,6 @@
       "created_at": "2026-06-30T08:43:14Z",
       "updated_at": "2026-08-14T19:08:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29736",
-      "labels": []
-    },
-    {
-      "number": 34861,
-      "title": "[Bug] [NPU] Router GEMM output should always be fp32",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-14T15:17:51Z",
-      "updated_at": "2026-08-14T15:23:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34861",
-      "labels": [
-        "npu"
-      ]
-    },
-    {
-      "number": 30781,
-      "title": "[Bug] sgl-model-gateway router rejects /v1/responses requests with tool type \"custom\" \u2014 openai-protocol crate out of sync with Python protocol.py",
-      "author": "tanguofu",
-      "state": "open",
-      "created_at": "2026-07-10T13:41:49Z",
-      "updated_at": "2026-08-13T11:06:52Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30781",
       "labels": []
     },
     {
@@ -578,16 +580,6 @@
       "created_at": "2026-07-30T20:00:05Z",
       "updated_at": "2026-07-30T20:00:05Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/32965",
-      "labels": []
-    },
-    {
-      "number": 31015,
-      "title": "[Feature] [Roadmap] Support Hygon HCU GPUs",
-      "author": "lizhigong1988",
-      "state": "open",
-      "created_at": "2026-07-13T09:28:31Z",
-      "updated_at": "2026-07-30T00:55:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31015",
       "labels": []
     }
   ]

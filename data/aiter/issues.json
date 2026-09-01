@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-08-31T15:35:30Z",
+  "collected_at": "2026-09-01T12:50:53Z",
   "issues": [
+    {
+      "number": 5133,
+      "title": "[CI] op_tests are always run as scripts, so 141 pytest test functions never execute",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-08-31T05:36:14Z",
+      "updated_at": "2026-09-01T01:22:22Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5133",
+      "labels": []
+    },
+    {
+      "number": 5161,
+      "title": "[gfx950] Request: port the fmha_fwd_with_sink asm family (currently gfx1250-gated) \u2014 d64+sinks prefill has no asm path on MI350X/MI355X",
+      "author": "alexnails",
+      "state": "open",
+      "created_at": "2026-09-01T00:58:49Z",
+      "updated_at": "2026-09-01T00:58:49Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5161",
+      "labels": []
+    },
+    {
+      "number": 5160,
+      "title": "[gfx950] CK mha_batch_prefill: no group-mode paged instances at head_dim 64 (blocks gpt-oss-style GQA prefill entirely)",
+      "author": "alexnails",
+      "state": "open",
+      "created_at": "2026-09-01T00:58:32Z",
+      "updated_at": "2026-09-01T00:58:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5160",
+      "labels": []
+    },
+    {
+      "number": 5156,
+      "title": "GLM-5.3-Flash MXFP4 (NE=289, TOPK=9): FlyDSL moe_sort has no codegen'd instance; no tuned fMoE config",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-09-01T00:32:34Z",
+      "updated_at": "2026-09-01T00:55:22Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5156",
+      "labels": []
+    },
     {
       "number": 5151,
       "title": "[Issue]: rmsnorm2d_fwd_with_add truncates fp32->bf16 on gfx942, biasing residual_out and compounding across layers",
@@ -44,16 +84,6 @@
       "labels": [
         "bug"
       ]
-    },
-    {
-      "number": 5133,
-      "title": "[CI] op_tests are always run as scripts, so 171 pytest cases never execute",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-08-31T05:36:14Z",
-      "updated_at": "2026-08-31T05:36:14Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5133",
-      "labels": []
     },
     {
       "number": 5125,

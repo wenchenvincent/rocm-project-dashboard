@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-08-31T15:35:41Z",
+  "collected_at": "2026-09-01T12:51:05Z",
   "prs": [
+    {
+      "number": 931,
+      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
+      "author": "RichardChamberlain1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T11:46:51Z",
+      "updated_at": "2026-09-01T12:45:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 1032,
       "title": "[Kernel] Add dilation, padding_mode and groups to convolution kernel.",
@@ -8,32 +20,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-19T13:27:43Z",
-      "updated_at": "2026-08-31T15:17:20Z",
+      "updated_at": "2026-09-01T12:36:20Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1032",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1066,
-      "title": "[Kernel][FA] Support paged FP8 Flash attention with asymmetric K/V head dim on gfx950",
-      "author": "sammysun0711",
+      "number": 1086,
+      "title": "[A16W16 GEMM] Consolidate gfx950 A/B load setup",
+      "author": "xytpai",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-24T10:19:53Z",
-      "updated_at": "2026-08-31T13:56:31Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1066",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1084,
-      "title": "[CI] Share gfx950 validation across runner pools",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T09:24:25Z",
-      "updated_at": "2026-08-31T13:33:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1084",
+      "created_at": "2026-09-01T06:17:27Z",
+      "updated_at": "2026-09-01T07:22:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1086",
       "labels": [],
       "draft": false
     },
@@ -44,8 +44,68 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-31T05:48:32Z",
-      "updated_at": "2026-08-31T08:33:02Z",
+      "updated_at": "2026-09-01T06:50:54Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1082",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1084,
+      "title": "[CI] Run gfx950 validation on the MI355 and MI35x pools",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T09:24:25Z",
+      "updated_at": "2026-09-01T05:23:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1084",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1074,
+      "title": "[Dialect] Add FP8 support to GFX120X WMMA atom",
+      "author": "big-yellow-duck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T09:00:23Z",
+      "updated_at": "2026-09-01T03:45:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1074",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1015,
+      "title": "[Tools] Add architecture-general ISA resource diff tool",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T09:35:27Z",
+      "updated_at": "2026-09-01T03:38:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1073,
+      "title": "[Kernel][Perf] Add RDNA3 INT8 WMMA GEMM, 1.23-2.80x over torch",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T08:10:07Z",
+      "updated_at": "2026-09-01T03:33:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1073",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1066,
+      "title": "[Kernel][FA] Support paged FP8 Flash attention with asymmetric K/V head dim on gfx950",
+      "author": "sammysun0711",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T10:19:53Z",
+      "updated_at": "2026-09-01T02:54:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1066",
       "labels": [],
       "draft": false
     },
@@ -72,30 +132,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1083",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1015,
-      "title": "[Tools] Add architecture-general ISA resource diff tool",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T09:35:27Z",
-      "updated_at": "2026-08-31T04:56:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1074,
-      "title": "[Dialect] Add FP8 support to GFX120X WMMA atom",
-      "author": "big-yellow-duck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T09:00:23Z",
-      "updated_at": "2026-08-31T03:31:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1074",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1056,
@@ -136,18 +172,6 @@
       "draft": false
     },
     {
-      "number": 931,
-      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
-      "author": "RichardChamberlain1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T11:46:51Z",
-      "updated_at": "2026-08-28T17:09:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 971,
       "title": "[gfx1250] Add A8W8/A8W4/A4W4 compute-bound GEMM",
       "author": "aoli26",
@@ -184,18 +208,6 @@
       "draft": false
     },
     {
-      "number": 1073,
-      "title": "[Kernel][Perf] Add RDNA3 INT8 WMMA GEMM, 1.23-2.80x over torch",
-      "author": "vlluvia",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T08:10:07Z",
-      "updated_at": "2026-08-28T05:30:46Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1073",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1058,
       "title": "[Perf] avoid hashing when cache not enabled",
       "author": "ppppqp",
@@ -228,18 +240,6 @@
       "created_at": "2026-08-21T06:18:20Z",
       "updated_at": "2026-08-27T21:19:45Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1051",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1076,
-      "title": "Ci/change image to speedup ci",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T13:44:22Z",
-      "updated_at": "2026-08-27T13:44:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1076",
       "labels": [],
       "draft": false
     },
@@ -936,6 +936,30 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1076,
+      "title": "Ci/change image to speedup ci",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-27T13:44:22Z",
+      "updated_at": "2026-09-01T01:49:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1076",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1085,
+      "title": "Release: bump version to 0.3.3",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-01T01:02:46Z",
+      "updated_at": "2026-09-01T01:34:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1085",
       "labels": [],
       "draft": false
     },
@@ -1897,30 +1921,6 @@
       "created_at": "2026-08-03T16:14:28Z",
       "updated_at": "2026-08-04T12:31:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/961",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 964,
-      "title": "[Build] Default CMAKE_BUILD_TYPE to RelWithDebInfo when unset",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T07:25:21Z",
-      "updated_at": "2026-08-04T12:16:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/964",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 894,
-      "title": "[Kernel][MI350] Add 8 wave GQA sliding-window attention kernel",
-      "author": "amd-nprotaso",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-23T16:20:46Z",
-      "updated_at": "2026-08-04T09:59:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/894",
       "labels": [],
       "draft": false
     }

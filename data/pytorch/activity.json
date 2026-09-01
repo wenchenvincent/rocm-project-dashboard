@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-08-31T15:36:11Z",
+  "collected_at": "2026-09-01T12:51:44Z",
   "project": "pytorch",
   "repo": "pytorch/pytorch",
   "pr_velocity": {
     "this_week": {
-      "opened": 18,
+      "opened": 20,
       "merged": 1,
-      "closed": 1
+      "closed": 2
     },
     "last_week": {
-      "opened": 8,
-      "merged": 6,
+      "opened": 10,
+      "merged": 2,
       "closed": 0
     },
     "median_time_to_merge_hours": 726.5,
@@ -18,8 +18,8 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 40,
-    "total_contributors": 44,
+    "active_this_week": 41,
+    "total_contributors": 45,
     "top_contributors": [
       {
         "author": "atalman",
@@ -28,57 +28,57 @@
         "commits": 0
       },
       {
-        "author": "malfet",
+        "author": "BBBela",
         "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
-        "author": "nikitaved",
-        "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "kwen2501",
-        "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "tszulist-hbn",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "abhilashKaturu",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "he-yufeng",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "eellison",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "jeffdaily",
-        "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
         "author": "chinmaydk99",
+        "prs_submitted": 4,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "garroud",
+        "prs_submitted": 4,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "malfet",
+        "prs_submitted": 4,
+        "prs_merged": 4,
+        "commits": 0
+      },
+      {
+        "author": "XiaobingSuper",
+        "prs_submitted": 3,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "ethanwee1",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "zhaiyaxing001",
         "prs_submitted": 2,
         "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "williamwen42",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "jagadish-amd",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
@@ -86,42 +86,42 @@
   },
   "issue_health": {
     "total_open": 55,
-    "opened_this_week": 24,
-    "closed_this_week": 77,
+    "opened_this_week": 21,
+    "closed_this_week": 93,
     "unanswered": 0
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 10,
-      "failed": 6,
-      "success_rate": 50.0
+      "succeeded": 14,
+      "failed": 4,
+      "success_rate": 70.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 11,
+      "succeeded": 10,
       "failed": 3,
-      "success_rate": 55.0
+      "success_rate": 50.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 202.1,
-      "p90_minutes": 378.8,
-      "min_minutes": 0.1,
-      "max_minutes": 408.1
+      "median_minutes": 183.7,
+      "p90_minutes": 382.4,
+      "min_minutes": 8.3,
+      "max_minutes": 401.4
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 159.7,
-      "p90_minutes": 275.0,
-      "min_minutes": 0.1,
-      "max_minutes": 324.2
+      "median_minutes": 183.1,
+      "p90_minutes": 260.0,
+      "min_minutes": 4.1,
+      "max_minutes": 366.2
     }
   },
   "release_cadence": {
-    "days_since_last": 53.9,
+    "days_since_last": 54.8,
     "avg_interval_days": 42.0,
     "total_releases": 5,
     "latest_tag": "v2.13.0"
