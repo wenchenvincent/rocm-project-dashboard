@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-09-01T12:50:53Z",
+  "collected_at": "2026-09-02T12:21:02Z",
   "issues": [
+    {
+      "number": 5193,
+      "title": "[Bug]: MLA get_meta_param returns an lru_cache'd device tensor, corrupting the split indptr under CUDA graph replay",
+      "author": "peizhang56",
+      "state": "open",
+      "created_at": "2026-09-02T00:18:26Z",
+      "updated_at": "2026-09-02T00:34:16Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5193",
+      "labels": []
+    },
+    {
+      "number": 5192,
+      "title": "[Bug]: Memory access fault due to top_k_renorm_probs",
+      "author": "peizhang56",
+      "state": "open",
+      "created_at": "2026-09-01T21:27:03Z",
+      "updated_at": "2026-09-02T00:12:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5192",
+      "labels": []
+    },
+    {
+      "number": 5184,
+      "title": "update_config_files auto-resolves duplicate tuned-GEMM entries, then raises \u2014 unrecoverable in containers",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-09-01T13:59:33Z",
+      "updated_at": "2026-09-01T14:49:14Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5184",
+      "labels": []
+    },
+    {
+      "number": 5151,
+      "title": "[Issue]: rmsnorm2d_fwd_with_add truncates fp32->bf16 on gfx942, biasing residual_out and compounding across layers",
+      "author": "xiaohong42",
+      "state": "open",
+      "created_at": "2026-08-31T14:57:56Z",
+      "updated_at": "2026-09-01T14:27:16Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5151",
+      "labels": []
+    },
     {
       "number": 5133,
       "title": "[CI] op_tests are always run as scripts, so 141 pytest test functions never execute",
@@ -39,16 +79,6 @@
       "created_at": "2026-09-01T00:32:34Z",
       "updated_at": "2026-09-01T00:55:22Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5156",
-      "labels": []
-    },
-    {
-      "number": 5151,
-      "title": "[Issue]: rmsnorm2d_fwd_with_add truncates fp32->bf16 on gfx942, biasing residual_out and compounding across layers",
-      "author": "xiaohong42",
-      "state": "open",
-      "created_at": "2026-08-31T14:57:56Z",
-      "updated_at": "2026-08-31T14:58:24Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5151",
       "labels": []
     },
     {
@@ -547,16 +577,6 @@
       "created_at": "2026-08-03T07:57:44Z",
       "updated_at": "2026-08-03T07:57:44Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4528",
-      "labels": []
-    },
-    {
-      "number": 2194,
-      "title": "Silent incorrectness in `fused_moe` with cloned FP4 weights/scales",
-      "author": "msaroufim",
-      "state": "open",
-      "created_at": "2026-03-05T16:11:46Z",
-      "updated_at": "2026-08-03T04:30:54Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2194",
       "labels": []
     },
     {

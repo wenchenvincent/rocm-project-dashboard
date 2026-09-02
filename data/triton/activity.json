@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-09-01T12:51:54Z",
+  "collected_at": "2026-09-02T12:22:06Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 12,
-      "merged": 5,
+      "opened": 11,
+      "merged": 7,
       "closed": 0
     },
     "last_week": {
-      "opened": 13,
-      "merged": 13,
+      "opened": 14,
+      "merged": 15,
       "closed": 0
     },
-    "median_time_to_merge_hours": 97.8,
+    "median_time_to_merge_hours": 104.8,
     "merge_count": 30,
-    "stale_prs": 4
+    "stale_prs": 6
   },
   "contributors": {
-    "active_this_week": 14,
-    "total_contributors": 37,
+    "active_this_week": 16,
+    "total_contributors": 38,
     "top_contributors": [
       {
         "author": "AlexAUT",
@@ -30,7 +30,7 @@
       {
         "author": "willghatch",
         "prs_submitted": 4,
-        "prs_merged": 2,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -40,9 +40,9 @@
         "commits": 0
       },
       {
-        "author": "antiagainst",
+        "author": "ZelboK",
         "prs_submitted": 3,
-        "prs_merged": 3,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -54,7 +54,7 @@
       {
         "author": "warrendeng",
         "prs_submitted": 2,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -70,15 +70,15 @@
         "commits": 0
       },
       {
-        "author": "ZelboK",
-        "prs_submitted": 2,
+        "author": "saeid-rostami",
+        "prs_submitted": 1,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "dhernandez0",
+        "author": "antiagainst",
         "prs_submitted": 1,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 3.8,
+    "days_since_last": 4.7,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

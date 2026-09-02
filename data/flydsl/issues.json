@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-09-01T12:51:06Z",
+  "collected_at": "2026-09-02T12:21:16Z",
   "issues": [
+    {
+      "number": 1087,
+      "title": "[Issue]: gfx950: a dropped `s_mov_b64` in an SGPR spill-staging chain puts an undefined register in a buffer descriptor base",
+      "author": "xinyazhang",
+      "state": "open",
+      "created_at": "2026-09-02T02:51:13Z",
+      "updated_at": "2026-09-02T03:56:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1087",
+      "labels": []
+    },
     {
       "number": 1054,
       "title": "[Issue]:  Every kernel is compiled twice",

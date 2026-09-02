@@ -1,99 +1,15 @@
 {
-  "collected_at": "2026-09-01T12:51:05Z",
+  "collected_at": "2026-09-02T12:21:15Z",
   "prs": [
     {
-      "number": 931,
-      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
-      "author": "RichardChamberlain1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T11:46:51Z",
-      "updated_at": "2026-09-01T12:45:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1032,
-      "title": "[Kernel] Add dilation, padding_mode and groups to convolution kernel.",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T13:27:43Z",
-      "updated_at": "2026-09-01T12:36:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1032",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1086,
-      "title": "[A16W16 GEMM] Consolidate gfx950 A/B load setup",
-      "author": "xytpai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T06:17:27Z",
-      "updated_at": "2026-09-01T07:22:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1086",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1082,
-      "title": "[Bugfix] Add type-safe fx.minnumf wrapper matching maxnumf",
-      "author": "LWenH",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T05:48:32Z",
-      "updated_at": "2026-09-01T06:50:54Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1082",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1084,
-      "title": "[CI] Run gfx950 validation on the MI355 and MI35x pools",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T09:24:25Z",
-      "updated_at": "2026-09-01T05:23:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1084",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1074,
-      "title": "[Dialect] Add FP8 support to GFX120X WMMA atom",
-      "author": "big-yellow-duck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T09:00:23Z",
-      "updated_at": "2026-09-01T03:45:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1074",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1015,
-      "title": "[Tools] Add architecture-general ISA resource diff tool",
+      "number": 1088,
+      "title": "[TEST ONLY][DO NOT MERGE] Bump LLVM pin to 739eaa08 to fix gfx1250 entry prologue",
       "author": "Phil-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-17T09:35:27Z",
-      "updated_at": "2026-09-01T03:38:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1073,
-      "title": "[Kernel][Perf] Add RDNA3 INT8 WMMA GEMM, 1.23-2.80x over torch",
-      "author": "vlluvia",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T08:10:07Z",
-      "updated_at": "2026-09-01T03:33:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1073",
+      "created_at": "2026-09-02T08:25:48Z",
+      "updated_at": "2026-09-02T09:07:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1088",
       "labels": [],
       "draft": false
     },
@@ -104,10 +20,84 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-24T10:19:53Z",
-      "updated_at": "2026-09-01T02:54:31Z",
+      "updated_at": "2026-09-02T08:44:46Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1066",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 1001,
+      "title": "[WIP][Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-12T08:37:46Z",
+      "updated_at": "2026-09-02T08:17:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
+      "labels": [
+        "WIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1032,
+      "title": "[Kernel] Add dilation, padding_mode and groups to convolution kernel.",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T13:27:43Z",
+      "updated_at": "2026-09-02T07:14:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1032",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1074,
+      "title": "[Dialect] Add FP8 support to GFX120X WMMA atom",
+      "author": "big-yellow-duck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T09:00:23Z",
+      "updated_at": "2026-09-02T00:03:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1074",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1055,
+      "title": "Add page-16 sliding-window attention support",
+      "author": "zjing14",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T22:11:44Z",
+      "updated_at": "2026-09-01T21:33:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1055",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1015,
+      "title": "[Tools] Add architecture-general ISA resource diff tool",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T09:35:27Z",
+      "updated_at": "2026-09-01T14:40:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1015",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 931,
+      "title": "Add flex_attention (score_mod / mask_mod) on the generic flash-attention kernel",
+      "author": "RichardChamberlain1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T11:46:51Z",
+      "updated_at": "2026-09-01T14:11:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 1079,
@@ -143,20 +133,6 @@
       "updated_at": "2026-08-31T00:06:33Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1056",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1001,
-      "title": "[WIP][Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T08:37:46Z",
-      "updated_at": "2026-08-30T14:26:31Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
-      "labels": [
-        "WIP"
-      ],
       "draft": false
     },
     {
@@ -204,18 +180,6 @@
       "created_at": "2026-07-28T12:49:41Z",
       "updated_at": "2026-08-28T06:09:58Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/918",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1058,
-      "title": "[Perf] avoid hashing when cache not enabled",
-      "author": "ppppqp",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-23T19:37:32Z",
-      "updated_at": "2026-08-28T03:11:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1058",
       "labels": [],
       "draft": false
     },
@@ -362,18 +326,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1057",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1055,
-      "title": "Add page-16 sliding-window attention support",
-      "author": "zjing14",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T22:11:44Z",
-      "updated_at": "2026-08-22T18:20:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1055",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1013,
@@ -936,6 +888,54 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1058,
+      "title": "[Perf] avoid hashing when cache not enabled",
+      "author": "ppppqp",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-23T19:37:32Z",
+      "updated_at": "2026-09-01T14:37:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1058",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1073,
+      "title": "[Kernel][Perf] Add RDNA3 INT8 WMMA GEMM, 1.23-2.80x over torch",
+      "author": "vlluvia",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-27T08:10:07Z",
+      "updated_at": "2026-09-01T14:36:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1073",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1082,
+      "title": "[Bugfix] Add type-safe fx.minnumf wrapper matching maxnumf",
+      "author": "LWenH",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-31T05:48:32Z",
+      "updated_at": "2026-09-01T14:34:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1082",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1086,
+      "title": "[A16W16 GEMM] Consolidate gfx950 A/B load setup",
+      "author": "xytpai",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-01T06:17:27Z",
+      "updated_at": "2026-09-01T14:27:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1086",
       "labels": [],
       "draft": false
     },
@@ -1861,66 +1861,6 @@
       "created_at": "2026-08-03T05:07:24Z",
       "updated_at": "2026-08-05T07:24:01Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/959",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 958,
-      "title": "[Feature][Test] Validate gfx1100 LDS and integer WMMA foundations",
-      "author": "skyguan92",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-02T22:26:04Z",
-      "updated_at": "2026-08-05T07:06:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/958",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 965,
-      "title": "[Enh] Defer kernel lowering to launch time and infer known_block_size\u2026",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T11:03:30Z",
-      "updated_at": "2026-08-05T07:01:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/965",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 907,
-      "title": "Add stochastic rounding and philox RNG under rocdl",
-      "author": "kashif",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-26T18:37:29Z",
-      "updated_at": "2026-08-05T06:59:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/907",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 966,
-      "title": "[Prune] Remove CDNA blockscale FP8 GEMM",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T13:13:21Z",
-      "updated_at": "2026-08-04T13:16:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/966",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 961,
-      "title": "[Fix] Avoid runtime materialization in compile-only mode",
-      "author": "zhiding512",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-03T16:14:28Z",
-      "updated_at": "2026-08-04T12:31:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/961",
       "labels": [],
       "draft": false
     }

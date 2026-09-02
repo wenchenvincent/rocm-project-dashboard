@@ -1,17 +1,442 @@
 {
-  "collected_at": "2026-09-01T12:50:20Z",
+  "collected_at": "2026-09-02T12:20:26Z",
   "issues": [
+    {
+      "number": 50576,
+      "title": "[Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-Flash-0731 DSpark",
+      "author": "thomaslwang",
+      "state": "open",
+      "created_at": "2026-07-31T14:42:04Z",
+      "updated_at": "2026-09-02T11:27:20Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/50576",
+      "labels": []
+    },
+    {
+      "number": 54945,
+      "title": "[Bug] FlashInfer CUTLASS NVFP4 MoE gives different logits for identical requests (fused finalize); `use_fused_finalize=False` is bit-stable",
+      "author": "jschmied",
+      "state": "open",
+      "created_at": "2026-09-02T11:23:52Z",
+      "updated_at": "2026-09-02T11:24:00Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54945",
+      "labels": [
+        "nvidia"
+      ]
+    },
+    {
+      "number": 35387,
+      "title": "[Performance]: MTP causes 76% latency regression on Qwen3-Next-80B-A3B-Instruct-FP8",
+      "author": "tdoublep",
+      "state": "open",
+      "created_at": "2026-02-26T09:21:10Z",
+      "updated_at": "2026-09-02T11:04:54Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/35387",
+      "labels": [
+        "performance",
+        "unstale"
+      ]
+    },
     {
       "number": 54766,
       "title": "[RFC]: Custom all-reduce for XPU",
       "author": "recutita",
       "state": "open",
       "created_at": "2026-09-01T12:12:39Z",
-      "updated_at": "2026-09-01T12:31:33Z",
+      "updated_at": "2026-09-02T10:51:39Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/54766",
       "labels": [
         "RFC",
         "intel-gpu"
+      ]
+    },
+    {
+      "number": 41623,
+      "title": "[Bug]: Decode Context Parallelism (`--decode-context-parallel-size`) output drift and gibberish in v0.21.0 and latest nightly",
+      "author": "ehfd",
+      "state": "open",
+      "created_at": "2026-05-04T10:57:26Z",
+      "updated_at": "2026-09-02T09:43:49Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/41623",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 52911,
+      "title": "[RFC]: DeepSeek-V4 Performance Optimization on ROCm (Phase Two)",
+      "author": "shen-shanshan",
+      "state": "open",
+      "created_at": "2026-08-19T08:46:04Z",
+      "updated_at": "2026-09-02T09:36:47Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/52911",
+      "labels": [
+        "rocm",
+        "RFC",
+        "deepseek",
+        "DSv4"
+      ]
+    },
+    {
+      "number": 54726,
+      "title": "[Bug]: Qwen3.8-Flash-Next-FP8 + MooncakeStoreConnector fails at startup",
+      "author": "xichengpro",
+      "state": "open",
+      "created_at": "2026-09-01T07:40:14Z",
+      "updated_at": "2026-09-02T09:27:18Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54726",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 54569,
+      "title": "[Bug]: FunASR get error result with fp16 dtype",
+      "author": "gotorion",
+      "state": "open",
+      "created_at": "2026-08-31T12:49:33Z",
+      "updated_at": "2026-09-02T09:22:21Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54569",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 54924,
+      "title": "[Bug]: GLM-5.3 accuracy collapses on ROCm (GSM8K 91.6% -> 14.9%) after #53155 forces MRV1",
+      "author": "jimmy-adams",
+      "state": "open",
+      "created_at": "2026-09-02T08:26:38Z",
+      "updated_at": "2026-09-02T08:52:54Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54924",
+      "labels": [
+        "rocm",
+        "quantization",
+        "glm"
+      ]
+    },
+    {
+      "number": 54928,
+      "title": "[Bug][SpecDecode] DFlash2 changes greedy Qwen3.8 thinking output at token 30, including K=1 and --enforce-eager",
+      "author": "forlayo",
+      "state": "open",
+      "created_at": "2026-09-02T08:50:35Z",
+      "updated_at": "2026-09-02T08:52:53Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54928",
+      "labels": [
+        "bug",
+        "tool-calling"
+      ]
+    },
+    {
+      "number": 54777,
+      "title": "[RFC]: GDS kv offloading",
+      "author": "effi-ofer",
+      "state": "open",
+      "created_at": "2026-09-01T13:22:40Z",
+      "updated_at": "2026-09-02T08:52:10Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54777",
+      "labels": [
+        "RFC"
+      ]
+    },
+    {
+      "number": 34994,
+      "title": "[Feature]: Infrastructure Improvements for ROCm CI",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-02-20T22:35:58Z",
+      "updated_at": "2026-09-02T08:37:26Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/34994",
+      "labels": [
+        "feature request",
+        "rocm",
+        "quantization"
+      ]
+    },
+    {
+      "number": 54317,
+      "title": "[Bug]: GLM-5.3-Flash (glm5next) \u2014 recurring CUDA illegal memory access on 4xB200, surfacing in three unrelated kernels (KDA linear-attention, MHC TileLang, TRT-LLM fused MoE)",
+      "author": "erans",
+      "state": "open",
+      "created_at": "2026-08-29T05:42:52Z",
+      "updated_at": "2026-09-02T07:13:42Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54317",
+      "labels": [
+        "structured-output",
+        "kimi",
+        "glm"
+      ]
+    },
+    {
+      "number": 53691,
+      "title": "[Performance]: DSA indexer is computed redundantly on every TP rank (NVIDIA / CUDA)",
+      "author": "kalenforn",
+      "state": "open",
+      "created_at": "2026-08-25T06:43:44Z",
+      "updated_at": "2026-09-02T06:47:35Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/53691",
+      "labels": [
+        "performance",
+        "nvidia"
+      ]
+    },
+    {
+      "number": 54900,
+      "title": "[Bug]: GLM-5.3 Quark MXFP4 Loading Issue",
+      "author": "wangjiaxin99",
+      "state": "open",
+      "created_at": "2026-09-02T05:52:39Z",
+      "updated_at": "2026-09-02T05:52:50Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54900",
+      "labels": [
+        "bug",
+        "rocm",
+        "quantization",
+        "glm"
+      ]
+    },
+    {
+      "number": 41343,
+      "title": "[Bug]: `kv_cache_dtype=\"fp8_e5m2\"` silently corrupts output on Qwen-VL models (Qwen2-VL, Qwen2.5-VL) with default scaling",
+      "author": "Ningke-Li",
+      "state": "open",
+      "created_at": "2026-04-30T07:00:46Z",
+      "updated_at": "2026-09-02T02:33:54Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/41343",
+      "labels": [
+        "bug",
+        "stale"
+      ]
+    },
+    {
+      "number": 36435,
+      "title": "[Bug]: Responses API streaming emits tool call XML as `response.output_text.delta` instead of `response.function_call_arguments.delta` for non-harmony models",
+      "author": "herve-ves",
+      "state": "open",
+      "created_at": "2026-03-09T03:00:26Z",
+      "updated_at": "2026-09-02T01:49:39Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/36435",
+      "labels": [
+        "bug",
+        "unstale",
+        "tool-calling"
+      ]
+    },
+    {
+      "number": 36654,
+      "title": "[Bug]: Frequent Tool Call Parsing Failures with DeepSeek-V3.2",
+      "author": "Curry30Messi",
+      "state": "open",
+      "created_at": "2026-03-10T13:39:44Z",
+      "updated_at": "2026-09-02T01:49:29Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/36654",
+      "labels": [
+        "bug",
+        "unstale",
+        "tool-calling"
+      ]
+    },
+    {
+      "number": 37967,
+      "title": "[Bug]: TypeError: transformers.tokenization_utils_tokenizers.TokenizersBackend._patch_mistral_regex() got multiple values for keyword argument 'fix_mistral_regex'",
+      "author": "tech112233445566",
+      "state": "open",
+      "created_at": "2026-03-24T06:16:56Z",
+      "updated_at": "2026-09-02T01:48:33Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/37967",
+      "labels": [
+        "bug",
+        "stale"
+      ]
+    },
+    {
+      "number": 38106,
+      "title": "[Bug]: tool_choice=\"required\" + speculative decoding with lukealonso/Qwen3.5-397B-A17B-NVFP4 leads to failed tool calls.",
+      "author": "SvenLorenz",
+      "state": "open",
+      "created_at": "2026-03-25T12:03:54Z",
+      "updated_at": "2026-09-02T01:48:26Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/38106",
+      "labels": [
+        "bug",
+        "unstale",
+        "tool-calling"
+      ]
+    },
+    {
+      "number": 39919,
+      "title": "[Bug]: DeepSeek OCR doesn't work on vllm 0.19",
+      "author": "PatrycyD",
+      "state": "open",
+      "created_at": "2026-04-15T15:20:35Z",
+      "updated_at": "2026-09-02T01:46:46Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/39919",
+      "labels": [
+        "bug",
+        "stale"
+      ]
+    },
+    {
+      "number": 53089,
+      "title": "[Bug]: Assertion failure due to inconsistent block counts between P and D sides when tools dict key ordering differs in template serialization with tool calls enabled",
+      "author": "zhangxyai",
+      "state": "open",
+      "created_at": "2026-08-20T09:39:10Z",
+      "updated_at": "2026-09-01T23:39:18Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/53089",
+      "labels": [
+        "bug",
+        "tool-calling"
+      ]
+    },
+    {
+      "number": 54426,
+      "title": "[RFC] Qwen3.8-Flash-Next: fp8_e4m3 KV cache on the QSA path \u2014 working patch, one machine, looking for corroboration",
+      "author": "Nanetnounou",
+      "state": "open",
+      "created_at": "2026-08-30T13:16:43Z",
+      "updated_at": "2026-09-01T23:20:01Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54426",
+      "labels": []
+    },
+    {
+      "number": 54831,
+      "title": "[Bug]: KV offloading impossible for GLM-5.3 (DSA indexer): tail_cache block_size=4 fails the hash-alignment assertion, --mamba-cache-mode align does not reach it",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-09-01T19:39:41Z",
+      "updated_at": "2026-09-01T21:33:57Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54831",
+      "labels": [
+        "rocm",
+        "glm"
+      ]
+    },
+    {
+      "number": 53912,
+      "title": "[Bug]: prefix caching + MTP still corrupts output on hybrid Mamba/GDN models in v0.28.0 (#43559 closed but unfixed)",
+      "author": "ionut-anghelina",
+      "state": "open",
+      "created_at": "2026-08-26T15:05:25Z",
+      "updated_at": "2026-09-01T21:26:37Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/53912",
+      "labels": [
+        "kv-cache-manager"
+      ]
+    },
+    {
+      "number": 53130,
+      "title": "[Bug]: Scheduler permanently stops admitting requests once running + skipped_waiting (\"deferred\") reaches max_num_seqs - engine reports healthy, KV cache mostly free, only a restart recovers",
+      "author": "kenhaesler",
+      "state": "open",
+      "created_at": "2026-08-20T15:54:08Z",
+      "updated_at": "2026-09-01T20:53:26Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/53130",
+      "labels": [
+        "bug",
+        "scheduler"
+      ]
+    },
+    {
+      "number": 52735,
+      "title": "[Bug]: OffloadingConnector stores but never serves when MTP/EAGLE speculative decoding is enabled (hybrid GDN model, XPU)",
+      "author": "greglechin",
+      "state": "open",
+      "created_at": "2026-08-18T09:45:20Z",
+      "updated_at": "2026-09-01T20:40:34Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/52735",
+      "labels": [
+        "bug",
+        "intel-gpu"
+      ]
+    },
+    {
+      "number": 53961,
+      "title": "[Bug]: PR #51726's >=160GiB tier captures MI300X (191.98 GiB), doubling max_num_batched_tokens and breaking KV cache init for DeepSeek-V4-Pro at 1M",
+      "author": "afriedri",
+      "state": "open",
+      "created_at": "2026-08-26T22:33:48Z",
+      "updated_at": "2026-09-01T19:51:58Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/53961",
+      "labels": [
+        "bug",
+        "rocm",
+        "deepseek",
+        "DSv4"
+      ]
+    },
+    {
+      "number": 43009,
+      "title": "[Bug]: Triton kernel JIT compilation during inference",
+      "author": "SurealCereal",
+      "state": "open",
+      "created_at": "2026-05-18T19:24:57Z",
+      "updated_at": "2026-09-01T19:16:52Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/43009",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 35288,
+      "title": "[Bug]: MTP speculative decoding produces corrupted output at concurrency >= 4 (V1 engine)",
+      "author": "dkremez",
+      "state": "open",
+      "created_at": "2026-02-25T11:52:46Z",
+      "updated_at": "2026-09-01T18:54:47Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/35288",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 54667,
+      "title": "[Bug]: zero pipeline/prefill context parallel size selects no executor backend",
+      "author": "Redempt1onzzZZ",
+      "state": "open",
+      "created_at": "2026-09-01T02:03:49Z",
+      "updated_at": "2026-09-01T17:54:21Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54667",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 46924,
+      "title": "[Bug]: Tool parser returns nested object arguments as JSON strings when tool schema uses $defs/$ref",
+      "author": "sokolgood",
+      "state": "open",
+      "created_at": "2026-06-27T17:49:46Z",
+      "updated_at": "2026-09-01T17:03:49Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/46924",
+      "labels": [
+        "bug",
+        "tool-calling"
+      ]
+    },
+    {
+      "number": 54526,
+      "title": "[Bug]: Cannot load an Eagle3 model, trained with Speculators",
+      "author": "pavelgein",
+      "state": "open",
+      "created_at": "2026-08-31T08:18:23Z",
+      "updated_at": "2026-09-01T15:35:07Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/54526",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 52525,
+      "title": "[Bug]: Marlin MoE output depends on equivalent within-expert token ordering",
+      "author": "bxchange",
+      "state": "open",
+      "created_at": "2026-08-16T13:43:31Z",
+      "updated_at": "2026-09-01T13:54:31Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/52525",
+      "labels": [
+        "bug",
+        "quantization"
       ]
     },
     {
@@ -103,18 +528,6 @@
       ]
     },
     {
-      "number": 54726,
-      "title": "[Bug]: Qwen3.8-Flash-Next-FP8 + MooncakeStoreConnector fails at startup",
-      "author": "xichengpro",
-      "state": "open",
-      "created_at": "2026-09-01T07:40:14Z",
-      "updated_at": "2026-09-01T07:43:39Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/54726",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 54723,
       "title": "[Bug]: FlashInfer TRTLLM MoE Backend stuck under DP/EP (Kimi K2 base, DeepSeek v3 base)",
       "author": "sebastiandero",
@@ -130,31 +543,6 @@
       ]
     },
     {
-      "number": 35288,
-      "title": "[Bug]: MTP speculative decoding produces corrupted output at concurrency >= 4 (V1 engine)",
-      "author": "dkremez",
-      "state": "open",
-      "created_at": "2026-02-25T11:52:46Z",
-      "updated_at": "2026-09-01T07:04:24Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/35288",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 54704,
-      "title": "[RFC]: fp8 KV cache support for Inkling on SM100-family GPUs",
-      "author": "drkm-eng",
-      "state": "open",
-      "created_at": "2026-09-01T05:37:30Z",
-      "updated_at": "2026-09-01T06:03:19Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/54704",
-      "labels": [
-        "quantization",
-        "inkling"
-      ]
-    },
-    {
       "number": 50603,
       "title": "[Bug]: gfx1100 (RDNA3): first-call non-determinism + long-seq corruption from Triton paged-attention fallback (ROCm 7.14)",
       "author": "AIwork4me",
@@ -164,19 +552,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/50603",
       "labels": [
         "rocm"
-      ]
-    },
-    {
-      "number": 54641,
-      "title": "[Bug]: Identity entry in packed_modules_mapping silently disables layer_quant_config (Quark)",
-      "author": "stefanskiasan",
-      "state": "open",
-      "created_at": "2026-08-31T22:10:28Z",
-      "updated_at": "2026-09-01T05:27:27Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/54641",
-      "labels": [
-        "rocm",
-        "quantization"
       ]
     },
     {
@@ -255,72 +630,6 @@
       ]
     },
     {
-      "number": 54667,
-      "title": "[Bug]: zero pipeline/prefill context parallel size selects no executor backend",
-      "author": "Redempt1onzzZZ",
-      "state": "open",
-      "created_at": "2026-09-01T02:03:49Z",
-      "updated_at": "2026-09-01T02:03:49Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/54667",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 54664,
-      "title": "[Bug]: vllm 0.25.0 dsv4 flash PD\u6df7\u90e8\u6d41\u5f0f\u8f93\u51fa\uff0c\u65e0\u53c2\u6570\u53ef\u8bbe\u7f6e\uff0c\u9ed8\u8ba4\u8f93\u51fausage\uff0c\u975e\u6d41\u5f0f\u8f93\u51fa\u9ed8\u8ba4\u5e26usage",
-      "author": "lfyzzl",
-      "state": "open",
-      "created_at": "2026-09-01T01:51:06Z",
-      "updated_at": "2026-09-01T01:57:58Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/54664",
-      "labels": [
-        "bug",
-        "DSv4"
-      ]
-    },
-    {
-      "number": 41691,
-      "title": "[Bug]: The last few reasoning output tokens are missing when using Gemma4 and setting \"--streaming-interval\" to be larger than 1",
-      "author": "CloudyDory",
-      "state": "open",
-      "created_at": "2026-05-05T03:05:46Z",
-      "updated_at": "2026-09-01T01:52:00Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/41691",
-      "labels": [
-        "bug",
-        "unstale",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 41862,
-      "title": "[Bug]: EP Deadlock with Hybrid GDN/Mamba Architecture (Qwen3.5)",
-      "author": "pbelevich",
-      "state": "open",
-      "created_at": "2026-05-06T19:40:36Z",
-      "updated_at": "2026-09-01T01:51:44Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/41862",
-      "labels": [
-        "bug",
-        "stale"
-      ]
-    },
-    {
-      "number": 42110,
-      "title": "[Bug]: gemma4 prompts with embedded json requirements AND response_format.json_schema cause timeouts",
-      "author": "simingy",
-      "state": "open",
-      "created_at": "2026-05-08T19:47:57Z",
-      "updated_at": "2026-09-01T01:51:17Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/42110",
-      "labels": [
-        "bug",
-        "structured-output",
-        "unstale"
-      ]
-    },
-    {
       "number": 42210,
       "title": "[Bug]: Streaming chat completion drops partial content when stop string interrupts auto tool parsing",
       "author": "TheDuyIT",
@@ -332,45 +641,6 @@
         "bug",
         "unstale",
         "tool-calling"
-      ]
-    },
-    {
-      "number": 43244,
-      "title": "[Bug]: `previous_response_id` drops function_call/function_call_output from stored context in Responses API",
-      "author": "ashwing",
-      "state": "open",
-      "created_at": "2026-05-20T20:11:23Z",
-      "updated_at": "2026-09-01T01:49:41Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/43244",
-      "labels": [
-        "unstale",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 44022,
-      "title": "[Bug]: Unable to start Nemotron NVFP4 on 5090 after upgrade to vLLM 0.22",
-      "author": "vrosu",
-      "state": "open",
-      "created_at": "2026-05-29T20:04:06Z",
-      "updated_at": "2026-09-01T01:48:44Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/44022",
-      "labels": [
-        "bug",
-        "stale"
-      ]
-    },
-    {
-      "number": 44281,
-      "title": "[Bug]:  Deployed Qwen3.5-122B-A10B at L20 node 8; after a period of operation, the EngineCore encountered an issue.",
-      "author": "invokerbyxv",
-      "state": "open",
-      "created_at": "2026-06-02T06:02:51Z",
-      "updated_at": "2026-09-01T01:48:22Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/44281",
-      "labels": [
-        "bug",
-        "stale"
       ]
     },
     {
@@ -387,20 +657,6 @@
       ]
     },
     {
-      "number": 19001,
-      "title": "[Usage]: How to use DeepSeek-R1-0528-Qwen3-8B with function call",
-      "author": "alllexx88",
-      "state": "open",
-      "created_at": "2025-06-01T13:18:43Z",
-      "updated_at": "2026-08-31T23:45:39Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/19001",
-      "labels": [
-        "usage",
-        "stale",
-        "tool-calling"
-      ]
-    },
-    {
       "number": 32587,
       "title": "[Bug]: gpt-oss special tokens leak into tool names and responses despite `reasoning_parser: \"openai_gptoss\"`",
       "author": "shinyEazy",
@@ -412,260 +668,6 @@
         "bug",
         "stale",
         "tool-calling"
-      ]
-    },
-    {
-      "number": 36435,
-      "title": "[Bug]: Responses API streaming emits tool call XML as `response.output_text.delta` instead of `response.function_call_arguments.delta` for non-harmony models",
-      "author": "herve-ves",
-      "state": "open",
-      "created_at": "2026-03-09T03:00:26Z",
-      "updated_at": "2026-08-31T23:45:31Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/36435",
-      "labels": [
-        "bug",
-        "stale",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 36654,
-      "title": "[Bug]: Frequent Tool Call Parsing Failures with DeepSeek-V3.2",
-      "author": "Curry30Messi",
-      "state": "open",
-      "created_at": "2026-03-10T13:39:44Z",
-      "updated_at": "2026-08-31T23:45:27Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/36654",
-      "labels": [
-        "bug",
-        "stale",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 38106,
-      "title": "[Bug]: tool_choice=\"required\" + speculative decoding with lukealonso/Qwen3.5-397B-A17B-NVFP4 leads to failed tool calls.",
-      "author": "SvenLorenz",
-      "state": "open",
-      "created_at": "2026-03-25T12:03:54Z",
-      "updated_at": "2026-08-31T23:45:18Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/38106",
-      "labels": [
-        "bug",
-        "stale",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 39468,
-      "title": "[Bug]: vllm 0.19.0, gemma4, The format of the tool call returned by vllm is incorrect.",
-      "author": "Honghe",
-      "state": "open",
-      "created_at": "2026-04-10T02:54:26Z",
-      "updated_at": "2026-08-31T23:44:58Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/39468",
-      "labels": [
-        "bug",
-        "unstale",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 39697,
-      "title": "[Bug]: Qwen3.5 `thinking_token_budget` causes `reasoning_end_str` to leak into `content` field",
-      "author": "andyphua114",
-      "state": "open",
-      "created_at": "2026-04-13T10:52:12Z",
-      "updated_at": "2026-08-31T23:44:55Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/39697",
-      "labels": [
-        "bug",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 41902,
-      "title": "Bug report: vLLM gpt-oss-120b returns content=null, reasoning=null with completion_tokens > 0",
-      "author": "ohsono",
-      "state": "open",
-      "created_at": "2026-05-07T06:28:27Z",
-      "updated_at": "2026-08-31T23:42:16Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/41902",
-      "labels": [
-        "bug",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 46249,
-      "title": "[Bug]: [Regression] Qwen3.6-27B tool calls fail on Responses API when MTP is enabled",
-      "author": "rmhubbert",
-      "state": "open",
-      "created_at": "2026-06-20T19:31:03Z",
-      "updated_at": "2026-08-31T23:40:45Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/46249",
-      "labels": [
-        "bug",
-        "structured-output",
-        "speculative-decoding",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 46262,
-      "title": "[Bug]: PP2 tool calling produces garbled output while PP1 works correctly (GLM-5.2-FP8 DSA, chunked-prefill)",
-      "author": "tanguofu",
-      "state": "open",
-      "created_at": "2026-06-21T04:06:42Z",
-      "updated_at": "2026-08-31T23:40:42Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/46262",
-      "labels": [
-        "rocm",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 46263,
-      "title": "[Bug]: PP2 + tool calling KeyError in scheduler.py: req_id missing from req_id_to_index",
-      "author": "tanguofu",
-      "state": "open",
-      "created_at": "2026-06-21T04:15:44Z",
-      "updated_at": "2026-08-31T23:40:40Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/46263",
-      "labels": [
-        "rocm",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 47137,
-      "title": "[Bug]: Streaming vs non-streaming tool-parser divergence on a truncated `<tool_call>` opener (ParserEngine / Qwen3)",
-      "author": "TheDuyIT",
-      "state": "open",
-      "created_at": "2026-06-30T08:48:05Z",
-      "updated_at": "2026-08-31T23:40:25Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/47137",
-      "labels": [
-        "bug",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 47557,
-      "title": "[Bug]: tool schemas without type field default to string rather than any type",
-      "author": "TwirreM",
-      "state": "open",
-      "created_at": "2026-07-03T12:59:56Z",
-      "updated_at": "2026-08-31T23:40:10Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/47557",
-      "labels": [
-        "bug",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 47734,
-      "title": "[Bug]: Mistral models with tool_choice=required + streaming generates invalid tool_call_id format",
-      "author": "akinsella",
-      "state": "open",
-      "created_at": "2026-07-06T12:25:34Z",
-      "updated_at": "2026-08-31T23:40:08Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/47734",
-      "labels": [
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 49127,
-      "title": "[Bug]: Native KV offloading with prefix caching changes tool visibility after a long shared-prefix request on Qwen3.6",
-      "author": "raoulprevost",
-      "state": "open",
-      "created_at": "2026-07-19T23:31:51Z",
-      "updated_at": "2026-08-31T23:38:55Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49127",
-      "labels": [
-        "bug",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 49717,
-      "title": "[Bug]: Gemma4 streaming: `content` comes back completely empty while `reasoning` holds the model's entire output when the reasoning channel is left open",
-      "author": "ticapix",
-      "state": "open",
-      "created_at": "2026-07-24T12:08:53Z",
-      "updated_at": "2026-08-31T23:38:19Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49717",
-      "labels": [
-        "bug",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 50477,
-      "title": "[Bug]: gemma4 parser silently ignores named forced tool_choice on 0.26.0 (worked on 0.21.0)",
-      "author": "jdoucy",
-      "state": "open",
-      "created_at": "2026-07-30T21:06:27Z",
-      "updated_at": "2026-08-31T23:37:48Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/50477",
-      "labels": [
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 50604,
-      "title": "[Bug] Kimi-K3: tool-call arguments don't stream \u2014 entire payload emitted in one SSE delta after minutes of silence",
-      "author": "almersawi",
-      "state": "open",
-      "created_at": "2026-07-31T17:44:16Z",
-      "updated_at": "2026-08-31T23:37:42Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/50604",
-      "labels": [
-        "bug",
-        "tool-calling",
-        "kimi",
-        "k3"
-      ]
-    },
-    {
-      "number": 50938,
-      "title": "[Bug]: Text emitted before the reasoning start tag escapes both the gemma4 parser and structured output, breaking json_schema responses",
-      "author": "yasutoshi-lab",
-      "state": "open",
-      "created_at": "2026-08-04T00:32:34Z",
-      "updated_at": "2026-08-31T23:37:28Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/50938",
-      "labels": [
-        "structured-output",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 50948,
-      "title": "[Bug]: Qwen parser routes grammar-constrained JSON to reasoning when `enable_in_reasoning=true`",
-      "author": "jeffdecoste",
-      "state": "open",
-      "created_at": "2026-08-04T03:07:43Z",
-      "updated_at": "2026-08-31T23:37:26Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/50948",
-      "labels": [
-        "bug",
-        "structured-output",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 19668,
-      "title": "[Bug]: vllm, EngineCore encountered a fatal error TimeoutError",
-      "author": "surajssd",
-      "state": "open",
-      "created_at": "2025-06-15T21:21:10Z",
-      "updated_at": "2026-08-31T23:26:57Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/19668",
-      "labels": [
-        "bug",
-        "structured-output"
       ]
     }
   ]

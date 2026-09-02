@@ -1,30 +1,6 @@
 {
-  "collected_at": "2026-09-01T12:51:01Z",
+  "collected_at": "2026-09-02T12:21:11Z",
   "prs": [
-    {
-      "number": 623,
-      "title": "SDMA HIP device management fixes",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T11:14:37Z",
-      "updated_at": "2026-09-01T12:47:34Z",
-      "html_url": "https://github.com/ROCm/mori/pull/623",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 613,
-      "title": "perf(ep): optimize InterNodeV1LL small-token latency on EP16",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T02:22:48Z",
-      "updated_at": "2026-09-01T11:49:28Z",
-      "html_url": "https://github.com/ROCm/mori/pull/613",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 628,
       "title": "allocator: back symm_mem.rendezvous() with a CCO window",
@@ -32,20 +8,56 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-01T08:43:16Z",
-      "updated_at": "2026-09-01T10:44:54Z",
+      "updated_at": "2026-09-02T10:51:26Z",
       "html_url": "https://github.com/ROCm/mori/pull/628",
       "labels": [],
       "draft": false
     },
     {
-      "number": 622,
-      "title": "ci: cleanup stale mori containers before internode tests",
-      "author": "QizhouZhang97",
+      "number": 631,
+      "title": "perf(ep/v2): sync main + port #613 InterNodeV1LL combine opt to the cco kernel",
+      "author": "jhchouuu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-31T09:30:51Z",
-      "updated_at": "2026-09-01T10:19:47Z",
-      "html_url": "https://github.com/ROCm/mori/pull/622",
+      "created_at": "2026-09-02T06:53:01Z",
+      "updated_at": "2026-09-02T10:33:34Z",
+      "html_url": "https://github.com/ROCm/mori/pull/631",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 632,
+      "title": "fix(cco): take allocMutex on the window paths, as its comment already promises",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T07:46:45Z",
+      "updated_at": "2026-09-02T07:46:45Z",
+      "html_url": "https://github.com/ROCm/mori/pull/632",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 630,
+      "title": "perf(ep): optimize InterNodeV1LL dispatch on EP16",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T04:52:24Z",
+      "updated_at": "2026-09-02T04:52:24Z",
+      "html_url": "https://github.com/ROCm/mori/pull/630",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 629,
+      "title": "perf(umbp): take the peer pool off the resolve critical path",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T02:40:56Z",
+      "updated_at": "2026-09-02T02:40:56Z",
+      "html_url": "https://github.com/ROCm/mori/pull/629",
       "labels": [],
       "draft": false
     },
@@ -56,10 +68,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-25T16:29:03Z",
-      "updated_at": "2026-09-01T09:06:40Z",
+      "updated_at": "2026-09-01T16:40:01Z",
       "html_url": "https://github.com/ROCm/mori/pull/603",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 612,
+      "title": "fix: use strided offsets in run_single_once when batch_contiguous is disabled",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T19:03:09Z",
+      "updated_at": "2026-09-01T15:47:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/612",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 623,
+      "title": "SDMA HIP device management fixes",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T11:14:37Z",
+      "updated_at": "2026-09-01T15:32:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/623",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 615,
+      "title": "[Pre-flight] Add cluster-network-topology skill and scripts",
+      "author": "lcskrishna",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T06:41:51Z",
+      "updated_at": "2026-09-01T13:05:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/615",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 540,
@@ -86,18 +134,6 @@
       "draft": true
     },
     {
-      "number": 624,
-      "title": "perf(ep): skip the nodeRecvTokenNum atomic when every chunk slot is signalled",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T13:05:27Z",
-      "updated_at": "2026-09-01T04:27:27Z",
-      "html_url": "https://github.com/ROCm/mori/pull/624",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 625,
       "title": "feat(ep/v2): internode dispatch/combine over CCO/GDA, and fix a doorbell-ordering deadlock in flushAsync",
       "author": "QizhouZhang97",
@@ -118,18 +154,6 @@
       "created_at": "2026-08-27T07:20:02Z",
       "updated_at": "2026-08-31T08:43:15Z",
       "html_url": "https://github.com/ROCm/mori/pull/608",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 586,
-      "title": "perf(ep): optimize IntraNode dispatch kernel for MI350X",
-      "author": "kudomcho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T20:58:15Z",
-      "updated_at": "2026-08-31T08:43:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/586",
       "labels": [],
       "draft": false
     },
@@ -446,18 +470,6 @@
       "draft": true
     },
     {
-      "number": 615,
-      "title": "[Pre-flight] Add cluster-network-topology skill and scripts",
-      "author": "lcskrishna",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T06:41:51Z",
-      "updated_at": "2026-08-31T08:43:14Z",
-      "html_url": "https://github.com/ROCm/mori/pull/615",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 614,
       "title": "perf(ep): InterNodeV1LL low-token latency on MI300X + CX7",
       "author": "jhchouuu",
@@ -468,18 +480,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/614",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 612,
-      "title": "fix: use strided offsets in run_single_once when batch_contiguous is disabled",
-      "author": "kudomcho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T19:03:09Z",
-      "updated_at": "2026-08-31T08:43:14Z",
-      "html_url": "https://github.com/ROCm/mori/pull/612",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 598,
@@ -514,6 +514,42 @@
       "created_at": "2026-08-19T01:51:03Z",
       "updated_at": "2026-08-19T04:08:32Z",
       "html_url": "https://github.com/ROCm/mori/pull/579",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 586,
+      "title": "perf(ep): optimize IntraNode dispatch kernel for MI350X",
+      "author": "kudomcho",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-19T20:58:15Z",
+      "updated_at": "2026-09-02T09:05:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/586",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 622,
+      "title": "bugfix: mlx5 ci hung",
+      "author": "QizhouZhang97",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-31T09:30:51Z",
+      "updated_at": "2026-09-02T05:58:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/622",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 613,
+      "title": "perf(ep): optimize InterNodeV1LL small-token latency on EP16",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-28T02:22:48Z",
+      "updated_at": "2026-09-02T04:32:09Z",
+      "html_url": "https://github.com/ROCm/mori/pull/613",
       "labels": [],
       "draft": false
     },
@@ -1474,54 +1510,6 @@
       "created_at": "2026-06-29T07:13:40Z",
       "updated_at": "2026-07-28T09:49:43Z",
       "html_url": "https://github.com/ROCm/mori/pull/437",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 487,
-      "title": "perf(EPv2): optimize control plane latency in epv2 combine kernels",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-17T08:30:54Z",
-      "updated_at": "2026-07-28T09:49:36Z",
-      "html_url": "https://github.com/ROCm/mori/pull/487",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 500,
-      "title": "perf(EPv2): update EPv2 combine tune config",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-24T13:03:52Z",
-      "updated_at": "2026-07-27T08:33:54Z",
-      "html_url": "https://github.com/ROCm/mori/pull/500",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 387,
-      "title": "fix: detect same physical node by MORI_NODE_ID/boot_id, with hostname fallback",
-      "author": "isytwu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-11T14:22:00Z",
-      "updated_at": "2026-07-27T06:02:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/387",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 384,
-      "title": "Fix: umbp qp per transfer default value & add logs",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-11T07:41:34Z",
-      "updated_at": "2026-07-27T06:02:13Z",
-      "html_url": "https://github.com/ROCm/mori/pull/384",
       "labels": [],
       "draft": false
     }

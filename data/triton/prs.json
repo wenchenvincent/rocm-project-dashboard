@@ -1,6 +1,102 @@
 {
-  "collected_at": "2026-09-01T12:50:32Z",
+  "collected_at": "2026-09-02T12:20:41Z",
   "prs": [
+    {
+      "number": 11474,
+      "title": "[AMD] Enable RDNA4m buffer atomics and IEEE min/max",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T15:49:01Z",
+      "updated_at": "2026-09-02T04:35:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11474",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11535,
+      "title": "[AMD] Enable buffer atomics on RDNA3",
+      "author": "saeid-rostami",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-01T22:35:10Z",
+      "updated_at": "2026-09-02T04:31:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11535",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11470,
+      "title": "[AMD][GLUON] Expose helper function to compute scaled_upcast fp4 layout",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T13:54:22Z",
+      "updated_at": "2026-09-02T01:53:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11470",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11532,
+      "title": "[AMD] Use subarchitecture-aware target triples",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-01T19:12:05Z",
+      "updated_at": "2026-09-02T01:32:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11532",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11527,
+      "title": "[AMD] Scalarize masked f32 vec2 buffer stores on gfx1151",
+      "author": "keneoneth",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T03:07:01Z",
+      "updated_at": "2026-09-01T23:36:48Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11527",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11274,
+      "title": "[AMD][CI] Add AMD CI image builds",
+      "author": "willghatch",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-11T22:01:26Z",
+      "updated_at": "2026-09-01T23:25:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11274",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11492,
+      "title": "[AMD] Avoid false HIP runtime mismatch with TheRock",
+      "author": "warrendeng",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-28T05:35:10Z",
+      "updated_at": "2026-09-01T23:06:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11492",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11487,
+      "title": "[CI][AMD] switch to tritonci image for gfx950",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T22:11:31Z",
+      "updated_at": "2026-09-01T23:06:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11487",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11465,
       "title": "[AMD][BACKEND] Fix free-variable mask key to enable register deduplication in stores and atomics",
@@ -12,30 +108,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11465",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11527,
-      "title": "[AMD] Scalarize masked f32 vec2 buffer stores on gfx1151",
-      "author": "keneoneth",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T03:07:01Z",
-      "updated_at": "2026-09-01T03:39:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11527",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11487,
-      "title": "[CI][AMD] switch to tritonci image for gfx950",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T22:11:31Z",
-      "updated_at": "2026-08-31T23:08:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11487",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 11289,
@@ -62,18 +134,6 @@
       "draft": false
     },
     {
-      "number": 11474,
-      "title": "[AMD] Enable RDNA4m buffer atomics and IEEE min/max",
-      "author": "umangyadav",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T15:49:01Z",
-      "updated_at": "2026-08-31T05:31:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11474",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11510,
       "title": "[Proton][AMD] Increase ROCProfiler dispatch flush retries",
       "author": "willghatch",
@@ -82,18 +142,6 @@
       "created_at": "2026-08-28T22:18:15Z",
       "updated_at": "2026-08-29T01:45:07Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11510",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11492,
-      "title": "[AMD] Avoid false HIP runtime mismatch with TheRock",
-      "author": "warrendeng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T05:35:10Z",
-      "updated_at": "2026-08-28T21:57:48Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11492",
       "labels": [],
       "draft": false
     },
@@ -134,18 +182,6 @@
       "draft": false
     },
     {
-      "number": 11470,
-      "title": "[AMD][GLUON] Expose helper function to compute scaled_upcast fp4 layout",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T13:54:22Z",
-      "updated_at": "2026-08-28T12:33:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11470",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11365,
       "title": "[AMD][LAYOUTS] Refine segment computation to support DS_READ_B128",
       "author": "amd-jianli12",
@@ -154,18 +190,6 @@
       "created_at": "2026-08-19T08:40:24Z",
       "updated_at": "2026-08-28T05:49:26Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11365",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11274,
-      "title": "[AMD][CI] Add AMD CI image builds",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T22:01:26Z",
-      "updated_at": "2026-08-27T22:15:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11274",
       "labels": [],
       "draft": false
     },
@@ -590,30 +614,6 @@
       "draft": false
     },
     {
-      "number": 11223,
-      "title": "[AMD] Preserve volatile loads during LLVM lowering",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-09T03:16:03Z",
-      "updated_at": "2026-08-09T15:21:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11223",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11221,
-      "title": "[AMD] Remove dead code and fix assert precedence",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-08T20:54:35Z",
-      "updated_at": "2026-08-09T01:51:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11221",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11208,
       "title": "[AMD] Guard chained-dot pingpong against scaled dots",
       "author": "warrendeng",
@@ -634,30 +634,6 @@
       "created_at": "2026-07-14T23:59:49Z",
       "updated_at": "2026-08-07T23:38:51Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10886",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11213,
-      "title": "[AMD][Gluon] NFC: Migrate consumers to CDNA5 APIs",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-07T19:42:46Z",
-      "updated_at": "2026-08-07T23:05:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11213",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11188,
-      "title": "[AMD] Re-enable true16 feature for gfx11",
-      "author": "saeid-rostami",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T23:16:19Z",
-      "updated_at": "2026-08-07T17:12:28Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11188",
       "labels": [],
       "draft": false
     },
@@ -718,6 +694,30 @@
       "created_at": "2026-07-22T18:42:42Z",
       "updated_at": "2026-07-27T18:27:05Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11012",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 10885,
+      "title": "[AMD][DRAFT] test out if still broken ",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T20:44:21Z",
+      "updated_at": "2026-07-21T19:10:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10885",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10871,
+      "title": "[AMD] emulate descriptor reduce on GFX1250",
+      "author": "zwu-2025",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T05:26:36Z",
+      "updated_at": "2026-07-19T04:25:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10871",
       "labels": [],
       "draft": true
     }

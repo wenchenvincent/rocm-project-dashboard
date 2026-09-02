@@ -1,38 +1,112 @@
 {
-  "collected_at": "2026-09-01T12:50:31Z",
+  "collected_at": "2026-09-02T12:20:39Z",
   "issues": [
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-02T12:14:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 37372,
+      "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
+      "author": "imReese",
+      "state": "open",
+      "created_at": "2026-09-01T07:22:04Z",
+      "updated_at": "2026-09-02T12:07:45Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37372",
+      "labels": []
+    },
+    {
+      "number": 22949,
+      "title": "Development Roadmap (2026 Q2)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-04-16T08:35:03Z",
+      "updated_at": "2026-09-02T12:07:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
+      "labels": []
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-01T12:26:37Z",
+      "updated_at": "2026-09-02T11:36:23Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
-      "number": 37410,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
+      "number": 37559,
+      "title": "[Bug] CUDA_ERROR_ILLEGAL_ADDRESS crash with --moe-a2a-backend megamoe on B300 (SM100) after sgl-deep-gemm 0.1.7 bump",
+      "author": "shyeh25",
       "state": "open",
-      "created_at": "2026-09-01T11:19:02Z",
-      "updated_at": "2026-09-01T11:19:02Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37410",
-      "labels": [
-        "ci-failure-tracker"
-      ]
+      "created_at": "2026-09-02T06:53:34Z",
+      "updated_at": "2026-09-02T08:01:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37559",
+      "labels": []
+    },
+    {
+      "number": 37519,
+      "title": "[Roadmap][Feature] Support T-Head PPU",
+      "author": "Vinsmoke86",
+      "state": "open",
+      "created_at": "2026-09-02T02:58:18Z",
+      "updated_at": "2026-09-02T06:36:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37519",
+      "labels": []
+    },
+    {
+      "number": 37548,
+      "title": "[GLM-5.3-Flash] NextN/MTP crashes on the first request: Glm5NextForConditionalGenerationNextN inherits DeepSeek's draft forward, embedding gather goes out of bounds at TP8",
+      "author": "Hansen523",
+      "state": "open",
+      "created_at": "2026-09-02T06:22:31Z",
+      "updated_at": "2026-09-02T06:22:31Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37548",
+      "labels": []
     },
     {
       "number": 37405,
-      "title": "[RFC] Aggressive test cleanup: delete tests that cannot fail, and make the directory encode the CI contract",
+      "title": "[RFC] Incremental test cleanup, CI taxonomy, and shared diffusion dispatch",
       "author": "BBuf",
       "state": "open",
       "created_at": "2026-09-01T10:53:28Z",
-      "updated_at": "2026-09-01T10:53:28Z",
+      "updated_at": "2026-09-02T00:01:39Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37405",
       "labels": [
         "RFC"
+      ]
+    },
+    {
+      "number": 37478,
+      "title": "[ROCm] IndexerKPool calls aiter fp8_mqa_logits unbounded; >2 GiB logits abort every TP rank (#36960 does not cover this class)",
+      "author": "Arist12",
+      "state": "open",
+      "created_at": "2026-09-01T22:26:59Z",
+      "updated_at": "2026-09-01T23:12:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37478",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-09-01T16:52:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
       ]
     },
     {
@@ -46,16 +120,6 @@
       "labels": []
     },
     {
-      "number": 37372,
-      "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
-      "author": "imReese",
-      "state": "open",
-      "created_at": "2026-09-01T07:22:04Z",
-      "updated_at": "2026-09-01T09:45:14Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37372",
-      "labels": []
-    },
-    {
       "number": 16565,
       "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
       "author": "yeahdongcn",
@@ -65,20 +129,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/16565",
       "labels": [
         "mthreads"
-      ]
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-09-01T05:36:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
       ]
     },
     {
@@ -209,16 +259,6 @@
         "deepseek",
         "Good Pro Issue"
       ]
-    },
-    {
-      "number": 22949,
-      "title": "Development Roadmap (2026 Q2)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-08-27T13:22:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
-      "labels": []
     },
     {
       "number": 36390,
@@ -405,28 +445,6 @@
       "labels": []
     },
     {
-      "number": 33978,
-      "title": "[Bug]",
-      "author": "giovanniguastiamd",
-      "state": "open",
-      "created_at": "2026-08-07T09:55:06Z",
-      "updated_at": "2026-08-16T17:34:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33978",
-      "labels": []
-    },
-    {
-      "number": 23494,
-      "title": "AMD Development Roadmap (2026 Q2)",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-04-22T18:41:09Z",
-      "updated_at": "2026-08-16T05:05:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/23494",
-      "labels": [
-        "amd"
-      ]
-    },
-    {
       "number": 29736,
       "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
       "author": "thanhhao98",
@@ -531,18 +549,6 @@
       ]
     },
     {
-      "number": 32960,
-      "title": "[Bug] Kimi-K3: a literal <|kimi_image_placeholder|> in message text returns 400 \"More image placeholders than image prompts.\"",
-      "author": "chnlich",
-      "state": "open",
-      "created_at": "2026-07-30T19:22:59Z",
-      "updated_at": "2026-08-01T03:24:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32960",
-      "labels": [
-        "kimi"
-      ]
-    },
-    {
       "number": 33142,
       "title": "[Bug] ROCm diffusion fused-norm kernels depend on non-public FlyDSL APIs",
       "author": "Phil-amd",
@@ -560,26 +566,6 @@
       "created_at": "2026-07-31T15:10:55Z",
       "updated_at": "2026-07-31T15:10:55Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33088",
-      "labels": []
-    },
-    {
-      "number": 33015,
-      "title": "[Bug]  Dockerised SGLang for ROCM with gfx1150 cannot load a quantised model: use of undeclared identifier '__cvta_generic_to_shared'",
-      "author": "alex-mashin",
-      "state": "open",
-      "created_at": "2026-07-31T05:59:50Z",
-      "updated_at": "2026-07-31T06:16:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33015",
-      "labels": []
-    },
-    {
-      "number": 32965,
-      "title": "[Bug][AMD gfx1201] Native MoE kernels segfault during Qwen3.5 inference",
-      "author": "tamascode",
-      "state": "open",
-      "created_at": "2026-07-30T20:00:05Z",
-      "updated_at": "2026-07-30T20:00:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/32965",
       "labels": []
     }
   ]
