@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-02T12:20:39Z",
+  "collected_at": "2026-09-03T12:18:16Z",
   "issues": [
     {
       "number": 37451,
@@ -7,60 +7,20 @@
       "author": "bingxche",
       "state": "open",
       "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-02T12:14:43Z",
+      "updated_at": "2026-09-03T12:07:55Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37451",
       "labels": [
         "ci-failure-tracker"
       ]
     },
     {
-      "number": 37372,
-      "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
-      "author": "imReese",
-      "state": "open",
-      "created_at": "2026-09-01T07:22:04Z",
-      "updated_at": "2026-09-02T12:07:45Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37372",
-      "labels": []
-    },
-    {
-      "number": 22949,
-      "title": "Development Roadmap (2026 Q2)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-09-02T12:07:36Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
-      "labels": []
-    },
-    {
-      "number": 17050,
-      "title": "[Tracking] CI Test Failures and Fixes",
-      "author": "alisonshao",
-      "state": "open",
-      "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-02T11:36:23Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
-      "labels": []
-    },
-    {
       "number": 37559,
-      "title": "[Bug] CUDA_ERROR_ILLEGAL_ADDRESS crash with --moe-a2a-backend megamoe on B300 (SM100) after sgl-deep-gemm 0.1.7 bump",
+      "title": "[Bug] CUDA_ERROR_ILLEGAL_ADDRESS in MXFP8FP4/W4A8 MegaMoE path on B300 with sgl-deep-gemm 0.1.7",
       "author": "shyeh25",
       "state": "open",
       "created_at": "2026-09-02T06:53:34Z",
-      "updated_at": "2026-09-02T08:01:23Z",
+      "updated_at": "2026-09-03T12:05:00Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37559",
-      "labels": []
-    },
-    {
-      "number": 37519,
-      "title": "[Roadmap][Feature] Support T-Head PPU",
-      "author": "Vinsmoke86",
-      "state": "open",
-      "created_at": "2026-09-02T02:58:18Z",
-      "updated_at": "2026-09-02T06:36:52Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37519",
       "labels": []
     },
     {
@@ -69,8 +29,137 @@
       "author": "Hansen523",
       "state": "open",
       "created_at": "2026-09-02T06:22:31Z",
-      "updated_at": "2026-09-02T06:22:31Z",
+      "updated_at": "2026-09-03T12:04:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37548",
+      "labels": []
+    },
+    {
+      "number": 17050,
+      "title": "[Tracking] CI Test Failures and Fixes",
+      "author": "alisonshao",
+      "state": "open",
+      "created_at": "2026-01-14T01:49:31Z",
+      "updated_at": "2026-09-03T11:48:59Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 36830,
+      "title": "[Bug] GLM-5.3-Flash cannot use FP8 KV cache: `index_kpool > 1` excludes `flashmla_kv`, and no CUDA DSA backend supports bf16-query x fp8-KV",
+      "author": "Hansen523",
+      "state": "open",
+      "created_at": "2026-08-28T08:46:05Z",
+      "updated_at": "2026-09-03T10:29:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36830",
+      "labels": []
+    },
+    {
+      "number": 29736,
+      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
+      "author": "thanhhao98",
+      "state": "open",
+      "created_at": "2026-06-30T08:43:14Z",
+      "updated_at": "2026-09-03T10:25:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
+      "labels": []
+    },
+    {
+      "number": 30209,
+      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
+      "author": "hongboshi1234",
+      "state": "open",
+      "created_at": "2026-07-06T04:14:01Z",
+      "updated_at": "2026-09-03T08:49:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
+      "labels": []
+    },
+    {
+      "number": 22949,
+      "title": "Development Roadmap (2026 Q2)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-04-16T08:35:03Z",
+      "updated_at": "2026-09-03T07:50:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
+      "labels": []
+    },
+    {
+      "number": 20865,
+      "title": "[Feature] Improve Unit Test Coverage",
+      "author": "ispobock",
+      "state": "open",
+      "created_at": "2026-03-18T14:28:20Z",
+      "updated_at": "2026-09-03T07:35:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "ci"
+      ]
+    },
+    {
+      "number": 37372,
+      "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
+      "author": "imReese",
+      "state": "open",
+      "created_at": "2026-09-01T07:22:04Z",
+      "updated_at": "2026-09-03T07:26:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37372",
+      "labels": []
+    },
+    {
+      "number": 37519,
+      "title": "[Roadmap][Feature] Support T-Head PPU",
+      "author": "Vinsmoke86",
+      "state": "open",
+      "created_at": "2026-09-02T02:58:18Z",
+      "updated_at": "2026-09-03T06:15:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37519",
+      "labels": []
+    },
+    {
+      "number": 34857,
+      "title": "[Bug] [ROCm] Router GEMM output should always be fp32, and the expert correction bias should not be cast to bf16",
+      "author": "b8zhong",
+      "state": "open",
+      "created_at": "2026-08-14T14:43:53Z",
+      "updated_at": "2026-09-03T04:35:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34857",
+      "labels": [
+        "amd",
+        "aiter"
+      ]
+    },
+    {
+      "number": 34861,
+      "title": "[Bug] [NPU] Router GEMM output should always be fp32",
+      "author": "b8zhong",
+      "state": "open",
+      "created_at": "2026-08-14T15:17:51Z",
+      "updated_at": "2026-09-03T04:33:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34861",
+      "labels": [
+        "npu"
+      ]
+    },
+    {
+      "number": 37648,
+      "title": "[Bug][ROCm] GLM-5.3-MXFP4 TP8 + EAGLE GPU memory fault under high-concurrency long-context load",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-09-02T20:05:20Z",
+      "updated_at": "2026-09-02T20:05:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37648",
+      "labels": []
+    },
+    {
+      "number": 36807,
+      "title": "[Bug] fast_topk_v2 can silently return wrong top-k sets when a radix threshold bucket exceeds its 4096-entry candidate buffer (k=2048, long rows)",
+      "author": "zkyue",
+      "state": "open",
+      "created_at": "2026-08-28T06:40:26Z",
+      "updated_at": "2026-09-02T17:41:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36807",
       "labels": []
     },
     {
@@ -94,20 +183,6 @@
       "updated_at": "2026-09-01T23:12:48Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37478",
       "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-09-01T16:52:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
     },
     {
       "number": 26890,
@@ -182,26 +257,6 @@
       "created_at": "2026-08-21T03:24:38Z",
       "updated_at": "2026-08-30T05:12:59Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/35785",
-      "labels": []
-    },
-    {
-      "number": 36830,
-      "title": "[Bug] GLM-5.3-Flash cannot use FP8 KV cache: `index_kpool > 1` excludes `flashmla_kv`, and no CUDA DSA backend supports bf16-query x fp8-KV",
-      "author": "Hansen523",
-      "state": "open",
-      "created_at": "2026-08-28T08:46:05Z",
-      "updated_at": "2026-08-30T04:01:57Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36830",
-      "labels": []
-    },
-    {
-      "number": 36807,
-      "title": "[Bug] fast_topk_v2 can silently return wrong top-k sets when a radix threshold bucket exceeds its 4096-entry candidate buffer (k=2048, long rows)",
-      "author": "zkyue",
-      "state": "open",
-      "created_at": "2026-08-28T06:40:26Z",
-      "updated_at": "2026-08-29T16:38:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36807",
       "labels": []
     },
     {
@@ -423,18 +478,6 @@
       "labels": []
     },
     {
-      "number": 13363,
-      "title": "[Roadmap] sglang auto tuner",
-      "author": "sglang-bot",
-      "state": "open",
-      "created_at": "2025-11-16T04:31:44Z",
-      "updated_at": "2026-08-17T02:13:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/13363",
-      "labels": [
-        "good first issue"
-      ]
-    },
-    {
       "number": 35047,
       "title": "[Bug] Triton device-pointer tables use int64 and overflow on Intel XPU USM addresses",
       "author": "dayanandav",
@@ -445,13 +488,13 @@
       "labels": []
     },
     {
-      "number": 29736,
-      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
-      "author": "thanhhao98",
+      "number": 27937,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "amd-bot",
       "state": "open",
-      "created_at": "2026-06-30T08:43:14Z",
-      "updated_at": "2026-08-14T19:08:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
+      "created_at": "2026-06-11T15:46:32Z",
+      "updated_at": "2026-08-13T11:25:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/27937",
       "labels": []
     },
     {
@@ -532,40 +575,6 @@
       "created_at": "2026-08-01T04:57:13Z",
       "updated_at": "2026-08-01T17:32:38Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33181",
-      "labels": []
-    },
-    {
-      "number": 29630,
-      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
-      "author": "BBuf",
-      "state": "open",
-      "created_at": "2026-06-29T07:39:33Z",
-      "updated_at": "2026-08-01T16:37:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
-      "labels": [
-        "RFC",
-        "jit-kernel",
-        "kernel"
-      ]
-    },
-    {
-      "number": 33142,
-      "title": "[Bug] ROCm diffusion fused-norm kernels depend on non-public FlyDSL APIs",
-      "author": "Phil-amd",
-      "state": "open",
-      "created_at": "2026-07-31T23:40:00Z",
-      "updated_at": "2026-07-31T23:40:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33142",
-      "labels": []
-    },
-    {
-      "number": 33088,
-      "title": "[Bug][AMD] Qwen3.5-397B-A17B-FP8 disagg + dp-attention: decode DP ranks flood `/query_dp_ranks` bootstrap \u2192 `[Errno 99] Cannot assign requested address`, 0 successful requests",
-      "author": "ChangLiu0709",
-      "state": "open",
-      "created_at": "2026-07-31T15:10:55Z",
-      "updated_at": "2026-07-31T15:10:55Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33088",
       "labels": []
     }
   ]

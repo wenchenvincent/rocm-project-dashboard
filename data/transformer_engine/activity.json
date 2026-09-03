@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-09-02T12:23:56Z",
+  "collected_at": "2026-09-03T12:21:09Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 10,
-      "merged": 5,
-      "closed": 1
+      "opened": 13,
+      "merged": 9,
+      "closed": 2
     },
     "last_week": {
-      "opened": 10,
+      "opened": 9,
       "merged": 6,
       "closed": 0
     },
-    "median_time_to_merge_hours": 109.8,
-    "merge_count": 12,
-    "stale_prs": 32
+    "median_time_to_merge_hours": 68.0,
+    "merge_count": 16,
+    "stale_prs": 33
   },
   "contributors": {
     "active_this_week": 10,
@@ -23,26 +23,26 @@
     "top_contributors": [
       {
         "author": "matthiasdiener",
-        "prs_submitted": 32,
-        "prs_merged": 21,
+        "prs_submitted": 31,
+        "prs_merged": 20,
         "commits": 10
       },
       {
         "author": "Micky774",
-        "prs_submitted": 21,
-        "prs_merged": 13,
+        "prs_submitted": 20,
+        "prs_merged": 12,
         "commits": 1
       },
       {
         "author": "ipanfilo",
-        "prs_submitted": 15,
-        "prs_merged": 12,
-        "commits": 3
+        "prs_submitted": 16,
+        "prs_merged": 14,
+        "commits": 4
       },
       {
         "author": "alextmagro",
-        "prs_submitted": 14,
-        "prs_merged": 13,
+        "prs_submitted": 13,
+        "prs_merged": 12,
         "commits": 3
       },
       {
@@ -59,9 +59,9 @@
       },
       {
         "author": "aris134",
-        "prs_submitted": 7,
-        "prs_merged": 4,
-        "commits": 0
+        "prs_submitted": 8,
+        "prs_merged": 5,
+        "commits": 1
       },
       {
         "author": "AllenFarcas",
@@ -73,7 +73,7 @@
         "author": "wenchenvincent",
         "prs_submitted": 5,
         "prs_merged": 2,
-        "commits": 2
+        "commits": 1
       },
       {
         "author": "asdfvg123",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 0.4,
+    "days_since_last": 1.4,
     "avg_interval_days": 41.9,
     "total_releases": 5,
     "latest_tag": "v2.15_rocm"

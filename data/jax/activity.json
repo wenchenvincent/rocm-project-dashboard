@@ -1,30 +1,36 @@
 {
-  "collected_at": "2026-09-02T12:22:00Z",
+  "collected_at": "2026-09-03T12:19:24Z",
   "project": "jax",
   "repo": "jax-ml/jax",
   "pr_velocity": {
     "this_week": {
-      "opened": 3,
-      "merged": 4,
+      "opened": 4,
+      "merged": 3,
       "closed": 0
     },
     "last_week": {
-      "opened": 6,
+      "opened": 4,
       "merged": 7,
       "closed": 0
     },
-    "median_time_to_merge_hours": 45.7,
+    "median_time_to_merge_hours": 33.4,
     "merge_count": 30,
     "stale_prs": 11
   },
   "contributors": {
-    "active_this_week": 5,
+    "active_this_week": 3,
     "total_contributors": 15,
     "top_contributors": [
       {
         "author": "magaonka-amd",
-        "prs_submitted": 12,
+        "prs_submitted": 11,
         "prs_merged": 10,
+        "commits": 0
+      },
+      {
+        "author": "mminutoli",
+        "prs_submitted": 5,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -40,27 +46,21 @@
         "commits": 0
       },
       {
-        "author": "mminutoli",
-        "prs_submitted": 4,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
         "author": "charleshofer",
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "tsrw2048",
-        "prs_submitted": 3,
+        "author": "psanal35",
+        "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "psanal35",
+        "author": "tsrw2048",
         "prs_submitted": 2,
-        "prs_merged": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 15.7,
+    "days_since_last": 16.6,
     "avg_interval_days": 30.8,
     "total_releases": 5,
     "latest_tag": "jax-v0.11.1"

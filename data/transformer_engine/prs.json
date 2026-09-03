@@ -1,6 +1,74 @@
 {
-  "collected_at": "2026-09-02T12:21:18Z",
+  "collected_at": "2026-09-03T12:18:49Z",
   "prs": [
+    {
+      "number": 725,
+      "title": "RS + GEMM overlap for BF16, gfx950, w/ HipKittens + UserBuffers",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:08Z",
+      "updated_at": "2026-09-03T04:49:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/725",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 721,
+      "title": "Ifu dev 20260828 v2.19",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T21:01:06Z",
+      "updated_at": "2026-09-03T02:31:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 716,
+      "title": "Add ROCm Triton blockwise FP8 grouped GEMM",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T19:05:34Z",
+      "updated_at": "2026-09-02T20:55:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 709,
+      "title": "Update to new QoLA/CK-JIT/AITER",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T22:08:25Z",
+      "updated_at": "2026-09-02T20:01:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/709",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 697,
+      "title": "Integrate MXFP4 hipblaslt GEMM support",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T15:04:06Z",
+      "updated_at": "2026-09-02T15:56:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 715,
       "title": "Do not mark replicated weights as tensor-model-parallel",
@@ -14,20 +82,6 @@
       "draft": false
     },
     {
-      "number": 727,
-      "title": "Backport fixes from dev",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T16:53:40Z",
-      "updated_at": "2026-09-02T00:29:26Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/727",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": false
-    },
-    {
       "number": 726,
       "title": "microbenchmarks: use pytest as execution backend",
       "author": "matthiasdiener",
@@ -38,46 +92,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 716,
-      "title": "Add ROCm Triton blockwise FP8 grouped GEMM",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T19:05:34Z",
-      "updated_at": "2026-09-01T21:46:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 725,
-      "title": "RS + GEMM overlap for BF16, gfx950, w/ HipKittens + UserBuffers",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:08Z",
-      "updated_at": "2026-09-01T21:29:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/725",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 721,
-      "title": "Ifu dev 20260828 v2.19",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T21:01:06Z",
-      "updated_at": "2026-09-01T16:54:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": true
     },
     {
       "number": 722,
@@ -118,20 +132,6 @@
       "draft": true
     },
     {
-      "number": 709,
-      "title": "Update to new QoLA/CK-JIT/AITER",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T22:08:25Z",
-      "updated_at": "2026-08-31T16:00:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/709",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 678,
       "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
       "author": "shurale-nkn",
@@ -140,20 +140,6 @@
       "created_at": "2026-07-24T15:17:24Z",
       "updated_at": "2026-08-31T11:06:45Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 697,
-      "title": "Integrate MXFP4 hipblaslt GEMM support",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T15:04:06Z",
-      "updated_at": "2026-08-28T02:23:40Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
       "labels": [
         "ci-level 3"
       ],
@@ -791,6 +777,58 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 731,
+      "title": "Deprecate ROCm-SMI in TE 2.17",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-02T22:51:14Z",
+      "updated_at": "2026-09-03T02:22:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/731",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 729,
+      "title": "Deprecate ROCm-SMI",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-02T22:34:45Z",
+      "updated_at": "2026-09-03T02:22:06Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/729",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 728,
+      "title": "[Hot Fix] Fix OOB read in Triton MXFP8 GEMM kernel causing SIGABRT on gfx950",
+      "author": "aris134",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-02T18:14:57Z",
+      "updated_at": "2026-09-02T23:12:00Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/728",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 727,
+      "title": "Backport fixes from dev",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-01T16:53:40Z",
+      "updated_at": "2026-09-02T19:58:53Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/727",
+      "labels": [
+        "ci-level 2"
+      ],
       "draft": false
     },
     {
@@ -1952,60 +1990,6 @@
       "created_at": "2026-05-05T00:15:07Z",
       "updated_at": "2026-06-03T16:02:33Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/574",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 593,
-      "title": "Triton RMSNorm Optimizations",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-20T20:28:25Z",
-      "updated_at": "2026-06-02T20:05:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/593",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 557,
-      "title": "IFU v2.14.dev0",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-21T21:17:02Z",
-      "updated_at": "2026-06-02T19:47:49Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/557",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 478,
-      "title": "Microbenchmarking, Torch+CSV-based",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-03-10T15:43:14Z",
-      "updated_at": "2026-06-02T16:24:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/478",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 586,
-      "title": "Optimized rocm specific multicast transpose kernel",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-14T22:04:08Z",
-      "updated_at": "2026-06-01T23:47:40Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/586",
       "labels": [
         "ci-level 3"
       ],

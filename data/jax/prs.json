@@ -1,26 +1,41 @@
 {
-  "collected_at": "2026-09-02T12:20:13Z",
+  "collected_at": "2026-09-03T12:17:56Z",
   "prs": [
+    {
+      "number": 40408,
+      "title": "[ROCm] Build and stamp the complete ROCm wheel set in CI",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T23:16:34Z",
+      "updated_at": "2026-09-03T00:19:53Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40408",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 40389,
       "title": "[ROCm] Work around a rocFFT twiddle cache bug in multi-dimensional real FFTs",
       "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-09-02T05:11:59Z",
-      "updated_at": "2026-09-02T06:32:31Z",
+      "updated_at": "2026-09-02T20:56:28Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40389",
-      "labels": [],
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
       "draft": false
     },
     {
       "number": 40370,
       "title": "[ROCm] Drop --security-opt seccomp=unconfined from the ROCm CI containers",
       "author": "mminutoli",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-09-01T21:34:35Z",
-      "updated_at": "2026-09-01T22:29:58Z",
+      "updated_at": "2026-09-02T20:53:37Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40370",
       "labels": [
         "kokoro:force-run",
@@ -483,37 +498,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39038,
-      "title": "[pallas:triton] Resolve ROCm gfx arch from the device ISA",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-09T19:29:24Z",
-      "updated_at": "2026-07-16T15:00:41Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39038",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39074,
-      "title": "[ROCm][Pallas] Skip fused attention fwd tests that exceed device resources",
-      "author": "tsrw2048",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-10T20:29:37Z",
-      "updated_at": "2026-07-13T15:25:51Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39074",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "AMD GPU"
       ],
       "draft": false
     },

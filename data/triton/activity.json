@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-02T12:22:06Z",
+  "collected_at": "2026-09-03T12:19:29Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
@@ -10,16 +10,16 @@
     },
     "last_week": {
       "opened": 14,
-      "merged": 15,
+      "merged": 13,
       "closed": 0
     },
-    "median_time_to_merge_hours": 104.8,
+    "median_time_to_merge_hours": 109.6,
     "merge_count": 30,
-    "stale_prs": 6
+    "stale_prs": 4
   },
   "contributors": {
-    "active_this_week": 16,
-    "total_contributors": 38,
+    "active_this_week": 15,
+    "total_contributors": 36,
     "top_contributors": [
       {
         "author": "AlexAUT",
@@ -29,8 +29,8 @@
       },
       {
         "author": "willghatch",
-        "prs_submitted": 4,
-        "prs_merged": 3,
+        "prs_submitted": 5,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -40,8 +40,14 @@
         "commits": 0
       },
       {
-        "author": "ZelboK",
-        "prs_submitted": 3,
+        "author": "pabloantoniom",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "saeid-rostami",
+        "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       },
@@ -70,14 +76,8 @@
         "commits": 0
       },
       {
-        "author": "saeid-rostami",
-        "prs_submitted": 1,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "antiagainst",
-        "prs_submitted": 1,
+        "author": "ZelboK",
+        "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       }
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 4.7,
+    "days_since_last": 5.7,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

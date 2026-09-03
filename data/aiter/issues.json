@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-09-02T12:21:02Z",
+  "collected_at": "2026-09-03T12:18:36Z",
   "issues": [
+    {
+      "number": 5229,
+      "title": "[Issue]: gfx1201 (R9700) \u2014 Triton unified_attention overflows RDNA's LDS budget, and the ROCm 10.0 vLLM container ships no gfx1201 code objects",
+      "author": "hanchi-gao",
+      "state": "open",
+      "created_at": "2026-09-03T06:01:45Z",
+      "updated_at": "2026-09-03T11:56:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5229",
+      "labels": []
+    },
+    {
+      "number": 5243,
+      "title": "[Perf] 0.1.21 slower than 0.1.19 for GLM-5.3 MXFP4 on gfx950 (\u221218 % prefill, \u221210 % throughput); FlyDSL MoE tuning?",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-09-03T09:54:36Z",
+      "updated_at": "2026-09-03T09:54:36Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5243",
+      "labels": []
+    },
+    {
+      "number": 5233,
+      "title": "MXFP4 MoE: CK-Tile stage-2 mis-indexes E8M0 scales when inter_dim % 256 != 0, returning silently wrong results",
+      "author": "xiaofei-zheng",
+      "state": "open",
+      "created_at": "2026-09-03T07:19:58Z",
+      "updated_at": "2026-09-03T07:19:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5233",
+      "labels": []
+    },
     {
       "number": 5193,
       "title": "[Bug]: MLA get_meta_param returns an lru_cache'd device tensor, corrupting the split indptr under CUDA graph replay",
@@ -39,16 +69,6 @@
       "created_at": "2026-08-31T14:57:56Z",
       "updated_at": "2026-09-01T14:27:16Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5151",
-      "labels": []
-    },
-    {
-      "number": 5133,
-      "title": "[CI] op_tests are always run as scripts, so 141 pytest test functions never execute",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-08-31T05:36:14Z",
-      "updated_at": "2026-09-01T01:22:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5133",
       "labels": []
     },
     {

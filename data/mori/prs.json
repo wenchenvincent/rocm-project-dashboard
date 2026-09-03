@@ -1,17 +1,41 @@
 {
-  "collected_at": "2026-09-02T12:21:11Z",
+  "collected_at": "2026-09-03T12:18:44Z",
   "prs": [
     {
-      "number": 628,
-      "title": "allocator: back symm_mem.rendezvous() with a CCO window",
+      "number": 636,
+      "title": "test(ep/v2): payload distribution and seed for the EP ubench",
       "author": "jhchouuu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-01T08:43:16Z",
-      "updated_at": "2026-09-02T10:51:26Z",
-      "html_url": "https://github.com/ROCm/mori/pull/628",
+      "created_at": "2026-09-03T10:26:13Z",
+      "updated_at": "2026-09-03T11:15:07Z",
+      "html_url": "https://github.com/ROCm/mori/pull/636",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 540,
+      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T02:07:35Z",
+      "updated_at": "2026-09-03T07:40:42Z",
+      "html_url": "https://github.com/ROCm/mori/pull/540",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 619,
+      "title": "perf(umbp): cut per-range overhead in local BatchGetRanges",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T03:03:24Z",
+      "updated_at": "2026-09-03T05:54:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/619",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 631,
@@ -20,7 +44,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-02T06:53:01Z",
-      "updated_at": "2026-09-02T10:33:34Z",
+      "updated_at": "2026-09-02T13:54:57Z",
       "html_url": "https://github.com/ROCm/mori/pull/631",
       "labels": [],
       "draft": false
@@ -48,18 +72,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/630",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 629,
-      "title": "perf(umbp): take the peer pool off the resolve critical path",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T02:40:56Z",
-      "updated_at": "2026-09-02T02:40:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/629",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 603,
@@ -106,30 +118,6 @@
       "created_at": "2026-08-28T06:41:51Z",
       "updated_at": "2026-09-01T13:05:35Z",
       "html_url": "https://github.com/ROCm/mori/pull/615",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 540,
-      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T02:07:35Z",
-      "updated_at": "2026-09-01T07:05:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/540",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 619,
-      "title": "perf(umbp): cut per-range overhead in local BatchGetRanges",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T03:03:24Z",
-      "updated_at": "2026-09-01T06:18:08Z",
-      "html_url": "https://github.com/ROCm/mori/pull/619",
       "labels": [],
       "draft": true
     },
@@ -506,14 +494,86 @@
       "draft": true
     },
     {
+      "number": 505,
+      "title": "fix(ep): AsyncLL slot assignment double-allocates when top-k does not divide warpSize",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-29T08:11:02Z",
+      "updated_at": "2026-09-03T08:00:51Z",
+      "html_url": "https://github.com/ROCm/mori/pull/505",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 517,
+      "title": "feat(EPv2): enable fp4 dispatch feature in EPv2",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-03T06:54:19Z",
+      "updated_at": "2026-09-03T08:00:49Z",
+      "html_url": "https://github.com/ROCm/mori/pull/517",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 635,
+      "title": "CI: enable mlx5 nightly",
+      "author": "QizhouZhang97",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-03T07:55:21Z",
+      "updated_at": "2026-09-03T07:59:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/635",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 579,
       "title": "feat(umbp): GPU Direct Storage (hipfile) SSD-to-GPU read path",
       "author": "isytwu",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-08-19T01:51:03Z",
-      "updated_at": "2026-08-19T04:08:32Z",
+      "updated_at": "2026-09-03T06:22:32Z",
       "html_url": "https://github.com/ROCm/mori/pull/579",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 634,
+      "title": "test(umbp): gate the five client primitives on concurrency in CI",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-03T05:13:50Z",
+      "updated_at": "2026-09-03T05:40:51Z",
+      "html_url": "https://github.com/ROCm/mori/pull/634",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 633,
+      "title": "perf(umbp): keep PeerPool resolve off the metadata lock",
+      "author": "wuyl1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-03T03:52:00Z",
+      "updated_at": "2026-09-03T05:40:32Z",
+      "html_url": "https://github.com/ROCm/mori/pull/633",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 628,
+      "title": "feat(allocator): back symm_mem.rendezvous() with a CCO window",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-01T08:43:16Z",
+      "updated_at": "2026-09-02T14:06:37Z",
+      "html_url": "https://github.com/ROCm/mori/pull/628",
       "labels": [],
       "draft": false
     },
@@ -1238,18 +1298,6 @@
       "draft": false
     },
     {
-      "number": 517,
-      "title": "feat(EPv2): enable fp4 dispatch feature in EPv2",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-03T06:54:19Z",
-      "updated_at": "2026-08-10T05:55:01Z",
-      "html_url": "https://github.com/ROCm/mori/pull/517",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 532,
       "title": "feat(ep/intranode): bring MoE dispatch/combine up on gfx1250 (MI450)",
       "author": "zhangfei829",
@@ -1426,90 +1474,6 @@
       "created_at": "2026-07-30T18:27:33Z",
       "updated_at": "2026-08-03T02:03:17Z",
       "html_url": "https://github.com/ROCm/mori/pull/509",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 505,
-      "title": "fix(ep): AsyncLL slot assignment double-allocates when top-k does not divide warpSize",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-29T08:11:02Z",
-      "updated_at": "2026-07-31T10:11:18Z",
-      "html_url": "https://github.com/ROCm/mori/pull/505",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 441,
-      "title": "ccl: hierarchical cross-node AllGather (intra-node SDMA + inter-node RDMA)",
-      "author": "inkcherry",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T03:49:39Z",
-      "updated_at": "2026-07-31T03:25:28Z",
-      "html_url": "https://github.com/ROCm/mori/pull/441",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 503,
-      "title": "chore(cco): drop hip vmm api patches + update cco dockerfile",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-27T11:54:46Z",
-      "updated_at": "2026-07-31T02:48:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/503",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 502,
-      "title": "feat(cco): fix the SDMA ring, rework signals and multi-lane thread scope",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-27T03:38:26Z",
-      "updated_at": "2026-07-30T06:42:35Z",
-      "html_url": "https://github.com/ROCm/mori/pull/502",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 490,
-      "title": "feat(kv-indexer): ApplyExternalKvBatch RPC + Redis metadata backend (single/Dragonfly + Cluster)",
-      "author": "isytwu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-20T08:57:55Z",
-      "updated_at": "2026-07-28T09:49:48Z",
-      "html_url": "https://github.com/ROCm/mori/pull/490",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 460,
-      "title": "Add UMBP standalone process mode",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-09T09:38:07Z",
-      "updated_at": "2026-07-28T09:49:47Z",
-      "html_url": "https://github.com/ROCm/mori/pull/460",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 437,
-      "title": "Refactor: umbp metadata store rebase",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-29T07:13:40Z",
-      "updated_at": "2026-07-28T09:49:43Z",
-      "html_url": "https://github.com/ROCm/mori/pull/437",
       "labels": [],
       "draft": false
     }

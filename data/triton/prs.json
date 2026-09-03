@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-09-02T12:20:41Z",
+  "collected_at": "2026-09-03T12:18:17Z",
   "prs": [
+    {
+      "number": 11570,
+      "title": "[AMD] Remove ISA family gate on `readfirstlane` in `warp_id` lowering",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T10:14:22Z",
+      "updated_at": "2026-09-03T10:14:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11570",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11566,
+      "title": "[AMD] Fix additive strides for overlapping register bases",
+      "author": "saeid-rostami",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T02:43:50Z",
+      "updated_at": "2026-09-03T02:43:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11566",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11559,
+      "title": "[Proton][AMD] Finalize the ROCprofiler client before process teardown",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T23:10:46Z",
+      "updated_at": "2026-09-03T01:26:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11559",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11487,
+      "title": "[CI][AMD] switch to tritonci image for gfx950",
+      "author": "willghatch",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-27T22:11:31Z",
+      "updated_at": "2026-09-02T20:06:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11487",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11474,
       "title": "[AMD] Enable RDNA4m buffer atomics and IEEE min/max",
@@ -82,18 +130,6 @@
       "created_at": "2026-08-28T05:35:10Z",
       "updated_at": "2026-09-01T23:06:46Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11492",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11487,
-      "title": "[CI][AMD] switch to tritonci image for gfx950",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T22:11:31Z",
-      "updated_at": "2026-09-01T23:06:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11487",
       "labels": [],
       "draft": false
     },
@@ -602,18 +638,6 @@
       "draft": false
     },
     {
-      "number": 11247,
-      "title": "[TEST] Enable AMD multi-stream cuda graph test",
-      "author": "Jokeren",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-10T13:17:09Z",
-      "updated_at": "2026-08-10T16:12:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11247",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11208,
       "title": "[AMD] Guard chained-dot pingpong against scaled dots",
       "author": "warrendeng",
@@ -694,30 +718,6 @@
       "created_at": "2026-07-22T18:42:42Z",
       "updated_at": "2026-07-27T18:27:05Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11012",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 10885,
-      "title": "[AMD][DRAFT] test out if still broken ",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T20:44:21Z",
-      "updated_at": "2026-07-21T19:10:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10885",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10871,
-      "title": "[AMD] emulate descriptor reduce on GFX1250",
-      "author": "zwu-2025",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T05:26:36Z",
-      "updated_at": "2026-07-19T04:25:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10871",
       "labels": [],
       "draft": true
     }

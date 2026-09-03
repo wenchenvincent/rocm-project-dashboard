@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-09-02T12:22:08Z",
+  "collected_at": "2026-09-03T12:19:31Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 37,
-      "merged": 37,
+      "opened": 35,
+      "merged": 32,
       "closed": 7
     },
     "last_week": {
-      "opened": 37,
-      "merged": 19,
+      "opened": 40,
+      "merged": 25,
       "closed": 4
     },
-    "median_time_to_merge_hours": 124.2,
-    "merge_count": 73,
+    "median_time_to_merge_hours": 136.0,
+    "merge_count": 76,
     "stale_prs": 2
   },
   "contributors": {
@@ -24,8 +24,8 @@
       {
         "author": "pfultz2",
         "prs_submitted": 55,
-        "prs_merged": 25,
-        "commits": 25
+        "prs_merged": 26,
+        "commits": 27
       },
       {
         "author": "causten",
@@ -35,9 +35,21 @@
       },
       {
         "author": "CharlieL7",
-        "prs_submitted": 13,
-        "prs_merged": 5,
+        "prs_submitted": 12,
+        "prs_merged": 4,
         "commits": 3
+      },
+      {
+        "author": "eddieliao",
+        "prs_submitted": 7,
+        "prs_merged": 4,
+        "commits": 1
+      },
+      {
+        "author": "ahsan-ca",
+        "prs_submitted": 6,
+        "prs_merged": 4,
+        "commits": 2
       },
       {
         "author": "danieyan-amd",
@@ -47,26 +59,8 @@
       },
       {
         "author": "shivadbhavsar",
-        "prs_submitted": 6,
-        "prs_merged": 3,
-        "commits": 3
-      },
-      {
-        "author": "ahsan-ca",
-        "prs_submitted": 6,
-        "prs_merged": 3,
-        "commits": 1
-      },
-      {
-        "author": "eddieliao",
-        "prs_submitted": 6,
-        "prs_merged": 3,
-        "commits": 1
-      },
-      {
-        "author": "TedThemistokleous",
-        "prs_submitted": 6,
-        "prs_merged": 5,
+        "prs_submitted": 5,
+        "prs_merged": 2,
         "commits": 3
       },
       {
@@ -76,24 +70,30 @@
         "commits": 0
       },
       {
+        "author": "TedThemistokleous",
+        "prs_submitted": 5,
+        "prs_merged": 4,
+        "commits": 3
+      },
+      {
         "author": "justinrosner",
         "prs_submitted": 4,
         "prs_merged": 1,
         "commits": 1
       }
     ],
-    "bus_factor": 3
+    "bus_factor": 2
   },
   "issue_health": {
     "total_open": 244,
-    "opened_this_week": 3,
+    "opened_this_week": 2,
     "closed_this_week": 1,
     "unanswered": 127
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.8,
+    "days_since_last": 5.8,
     "avg_interval_days": 34.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.0"

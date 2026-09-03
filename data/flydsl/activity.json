@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-09-02T12:23:47Z",
+  "collected_at": "2026-09-03T12:21:01Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 17,
+      "opened": 18,
       "merged": 16,
       "closed": 2
     },
     "last_week": {
-      "opened": 36,
-      "merged": 25,
-      "closed": 10
+      "opened": 27,
+      "merged": 16,
+      "closed": 6
     },
-    "median_time_to_merge_hours": 33.9,
-    "merge_count": 41,
+    "median_time_to_merge_hours": 52.4,
+    "merge_count": 34,
     "stale_prs": 37
   },
   "contributors": {
@@ -22,28 +22,22 @@
     "total_contributors": 62,
     "top_contributors": [
       {
+        "author": "coderfeli",
+        "prs_submitted": 16,
+        "prs_merged": 14,
+        "commits": 17
+      },
+      {
         "author": "sjfeng1999",
         "prs_submitted": 13,
         "prs_merged": 11,
-        "commits": 13
-      },
-      {
-        "author": "coderfeli",
-        "prs_submitted": 12,
-        "prs_merged": 12,
-        "commits": 15
+        "commits": 12
       },
       {
         "author": "jhinpan",
         "prs_submitted": 11,
         "prs_merged": 6,
         "commits": 6
-      },
-      {
-        "author": "Phil-amd",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 4
       },
       {
         "author": "xudoyuan",
@@ -58,22 +52,28 @@
         "commits": 6
       },
       {
+        "author": "Phil-amd",
+        "prs_submitted": 7,
+        "prs_merged": 3,
+        "commits": 4
+      },
+      {
         "author": "xytpai",
         "prs_submitted": 7,
         "prs_merged": 6,
         "commits": 6
       },
       {
-        "author": "aoli26",
-        "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 5
-      },
-      {
         "author": "jli-melchior",
         "prs_submitted": 4,
         "prs_merged": 1,
         "commits": 1
+      },
+      {
+        "author": "aoli26",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 4
       },
       {
         "author": "omuhamma",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 6.3,
+    "days_since_last": 7.3,
     "avg_interval_days": 18.0,
     "total_releases": 5,
     "latest_tag": "v0.3.2"
