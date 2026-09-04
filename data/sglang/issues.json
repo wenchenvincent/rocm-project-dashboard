@@ -1,17 +1,35 @@
 {
-  "collected_at": "2026-09-03T12:18:16Z",
+  "collected_at": "2026-09-04T12:18:53Z",
   "issues": [
     {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
+      "number": 17050,
+      "title": "[Tracking] CI Test Failures and Fixes",
+      "author": "alisonshao",
       "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-03T12:07:55Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
+      "created_at": "2026-01-14T01:49:31Z",
+      "updated_at": "2026-09-04T12:04:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 38004,
+      "title": "[RFC] Quantization module layout: Config, Scheme, backend kernels",
+      "author": "mmangkad",
+      "state": "open",
+      "created_at": "2026-09-04T11:30:01Z",
+      "updated_at": "2026-09-04T11:41:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38004",
+      "labels": []
+    },
+    {
+      "number": 37372,
+      "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
+      "author": "imReese",
+      "state": "open",
+      "created_at": "2026-09-01T07:22:04Z",
+      "updated_at": "2026-09-04T04:27:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37372",
+      "labels": []
     },
     {
       "number": 37559,
@@ -19,8 +37,30 @@
       "author": "shyeh25",
       "state": "open",
       "created_at": "2026-09-02T06:53:34Z",
-      "updated_at": "2026-09-03T12:05:00Z",
+      "updated_at": "2026-09-04T02:53:25Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37559",
+      "labels": []
+    },
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-03T22:33:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 30209,
+      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
+      "author": "hongboshi1234",
+      "state": "open",
+      "created_at": "2026-07-06T04:14:01Z",
+      "updated_at": "2026-09-03T15:30:33Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
       "labels": []
     },
     {
@@ -31,16 +71,6 @@
       "created_at": "2026-09-02T06:22:31Z",
       "updated_at": "2026-09-03T12:04:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37548",
-      "labels": []
-    },
-    {
-      "number": 17050,
-      "title": "[Tracking] CI Test Failures and Fixes",
-      "author": "alisonshao",
-      "state": "open",
-      "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-03T11:48:59Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
@@ -64,16 +94,6 @@
       "labels": []
     },
     {
-      "number": 30209,
-      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
-      "author": "hongboshi1234",
-      "state": "open",
-      "created_at": "2026-07-06T04:14:01Z",
-      "updated_at": "2026-09-03T08:49:27Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
-      "labels": []
-    },
-    {
       "number": 22949,
       "title": "Development Roadmap (2026 Q2)",
       "author": "merrymercy",
@@ -81,30 +101,6 @@
       "created_at": "2026-04-16T08:35:03Z",
       "updated_at": "2026-09-03T07:50:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22949",
-      "labels": []
-    },
-    {
-      "number": 20865,
-      "title": "[Feature] Improve Unit Test Coverage",
-      "author": "ispobock",
-      "state": "open",
-      "created_at": "2026-03-18T14:28:20Z",
-      "updated_at": "2026-09-03T07:35:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/20865",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "ci"
-      ]
-    },
-    {
-      "number": 37372,
-      "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
-      "author": "imReese",
-      "state": "open",
-      "created_at": "2026-09-01T07:22:04Z",
-      "updated_at": "2026-09-03T07:26:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37372",
       "labels": []
     },
     {
@@ -576,6 +572,20 @@
       "updated_at": "2026-08-01T17:32:38Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33181",
       "labels": []
+    },
+    {
+      "number": 29630,
+      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
+      "author": "BBuf",
+      "state": "open",
+      "created_at": "2026-06-29T07:39:33Z",
+      "updated_at": "2026-08-01T16:37:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
+      "labels": [
+        "RFC",
+        "jit-kernel",
+        "kernel"
+      ]
     }
   ]
 }

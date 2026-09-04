@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-09-03T12:19:13Z",
+  "collected_at": "2026-09-04T12:19:47Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Integration Tests",
-    "run_id": 33717461894,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/33717461894",
-    "run_date": "2026-09-03T05:33:31Z",
-    "conclusion": "success",
+    "run_id": 33823340247,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/33823340247",
+    "run_date": "2026-09-04T02:00:53Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 4,
       "passed": 4,
@@ -16,16 +16,7 @@
     },
     "suites": [
       {
-        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950, rocm10.1)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950)",
+        "name": "integration-tests-amd / integration-tests-amd (self-hosted, gfx90a)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -43,7 +34,16 @@
         "errors": null
       },
       {
-        "name": "integration-tests-amd / integration-tests-amd (self-hosted, gfx90a)",
+        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950, rocm10.1)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -55,10 +55,10 @@
   },
   "cuda": {
     "workflow_name": "Integration Tests",
-    "run_id": 33717461894,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/33717461894",
-    "run_date": "2026-09-03T05:33:31Z",
-    "conclusion": "success",
+    "run_id": 33823340247,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/33823340247",
+    "run_date": "2026-09-04T02:00:53Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 3,
       "passed": 3,

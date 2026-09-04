@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-09-03T12:20:41Z",
+  "collected_at": "2026-09-04T12:21:24Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 68,
-      "merged": 53,
-      "closed": 13
+      "opened": 58,
+      "merged": 38,
+      "closed": 12
     },
     "last_week": {
-      "opened": 78,
-      "merged": 41,
-      "closed": 14
+      "opened": 84,
+      "merged": 47,
+      "closed": 12
     },
-    "median_time_to_merge_hours": 21.2,
-    "merge_count": 94,
+    "median_time_to_merge_hours": 22.0,
+    "merge_count": 86,
     "stale_prs": 123
   },
   "contributors": {
-    "active_this_week": 43,
-    "total_contributors": 90,
+    "active_this_week": 44,
+    "total_contributors": 91,
     "top_contributors": [
       {
         "author": "JiaoliangYu",
@@ -64,36 +64,36 @@
         "commits": 0
       },
       {
+        "author": "ZhangLirong-amd",
+        "prs_submitted": 9,
+        "prs_merged": 6,
+        "commits": 16
+      },
+      {
         "author": "gyohuangxin",
         "prs_submitted": 9,
         "prs_merged": 1,
         "commits": 1
       },
       {
-        "author": "Phi-C",
+        "author": "sunway513",
         "prs_submitted": 8,
-        "prs_merged": 3,
-        "commits": 6
-      },
-      {
-        "author": "ZhangLirong-amd",
-        "prs_submitted": 8,
-        "prs_merged": 5,
-        "commits": 15
+        "prs_merged": 1,
+        "commits": 1
       }
     ],
     "bus_factor": 7
   },
   "issue_health": {
-    "total_open": 88,
-    "opened_this_week": 8,
-    "closed_this_week": 3,
-    "unanswered": 26
+    "total_open": 89,
+    "opened_this_week": 5,
+    "closed_this_week": 0,
+    "unanswered": 29
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 60.8,
+    "days_since_last": 61.8,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

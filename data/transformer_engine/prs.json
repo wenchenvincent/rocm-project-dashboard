@@ -1,27 +1,29 @@
 {
-  "collected_at": "2026-09-03T12:18:49Z",
+  "collected_at": "2026-09-04T12:19:27Z",
   "prs": [
     {
-      "number": 725,
-      "title": "RS + GEMM overlap for BF16, gfx950, w/ HipKittens + UserBuffers",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:08Z",
-      "updated_at": "2026-09-03T04:49:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/725",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 721,
-      "title": "Ifu dev 20260828 v2.19",
+      "number": 733,
+      "title": "gfx1250 mxfp8: fix dequant",
       "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-28T21:01:06Z",
-      "updated_at": "2026-09-03T02:31:34Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
+      "created_at": "2026-09-03T23:09:49Z",
+      "updated_at": "2026-09-03T23:09:49Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/733",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 732,
+      "title": "GFX1250 changes with updated AITER",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T21:15:40Z",
+      "updated_at": "2026-09-03T21:26:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/732",
       "labels": [
         "ci-level 3"
       ],
@@ -34,11 +36,51 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-25T19:05:34Z",
-      "updated_at": "2026-09-02T20:55:51Z",
+      "updated_at": "2026-09-03T19:34:36Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
       "labels": [
         "ci-level 1"
       ],
+      "draft": false
+    },
+    {
+      "number": 721,
+      "title": "Ifu dev 20260828 v2.19",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T21:01:06Z",
+      "updated_at": "2026-09-03T15:30:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 722,
+      "title": "[TE] IFU release v2.18",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T14:24:03Z",
+      "updated_at": "2026-09-03T14:38:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 725,
+      "title": "RS + GEMM overlap for BF16, gfx950, w/ HipKittens + UserBuffers",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:08Z",
+      "updated_at": "2026-09-03T04:49:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/725",
+      "labels": [],
       "draft": false
     },
     {
@@ -92,18 +134,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 722,
-      "title": "[TE] IFU release v2.18",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T14:24:03Z",
-      "updated_at": "2026-09-01T16:23:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 724,

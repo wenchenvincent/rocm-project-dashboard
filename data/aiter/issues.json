@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-09-03T12:18:36Z",
+  "collected_at": "2026-09-04T12:19:14Z",
   "issues": [
+    {
+      "number": 5256,
+      "title": "fused_moe_2stages passes num_rows to per_tensor_quant_hip, which asserts it is None",
+      "author": "i-kosarev",
+      "state": "open",
+      "created_at": "2026-09-03T13:16:21Z",
+      "updated_at": "2026-09-04T09:57:18Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5256",
+      "labels": []
+    },
+    {
+      "number": 5263,
+      "title": "GEMM tuners: an interrupted run loses everything (results are only written at the end)",
+      "author": "ThomasNing",
+      "state": "open",
+      "created_at": "2026-09-03T23:43:24Z",
+      "updated_at": "2026-09-04T00:04:51Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5263",
+      "labels": []
+    },
+    {
+      "number": 5267,
+      "title": "Untuned-shape logging exists only for bf16 (AITER_TUNE_GEMM); fp8/blockscale/a4w4 have none",
+      "author": "ThomasNing",
+      "state": "open",
+      "created_at": "2026-09-03T23:44:00Z",
+      "updated_at": "2026-09-03T23:44:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5267",
+      "labels": []
+    },
+    {
+      "number": 5266,
+      "title": "JIT baton dead-holder check is ambiguous under --network host (pid + hostname collide across containers)",
+      "author": "ThomasNing",
+      "state": "open",
+      "created_at": "2026-09-03T23:43:46Z",
+      "updated_at": "2026-09-03T23:43:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5266",
+      "labels": []
+    },
+    {
+      "number": 5265,
+      "title": "One infeasible tune candidate fails every kernel in the module (ninja aborts the whole build)",
+      "author": "ThomasNing",
+      "state": "open",
+      "created_at": "2026-09-03T23:43:45Z",
+      "updated_at": "2026-09-03T23:43:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5265",
+      "labels": []
+    },
+    {
+      "number": 5264,
+      "title": "CK Tile tune livelocks: the JIT build counts against the per-task --timeout",
+      "author": "ThomasNing",
+      "state": "open",
+      "created_at": "2026-09-03T23:43:25Z",
+      "updated_at": "2026-09-03T23:43:25Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5264",
+      "labels": []
+    },
     {
       "number": 5229,
       "title": "[Issue]: gfx1201 (R9700) \u2014 Triton unified_attention overflows RDNA's LDS budget, and the ROCm 10.0 vLLM container ships no gfx1201 code objects",

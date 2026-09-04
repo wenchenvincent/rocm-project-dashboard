@@ -1,15 +1,51 @@
 {
-  "collected_at": "2026-09-03T12:18:44Z",
+  "collected_at": "2026-09-04T12:19:22Z",
   "prs": [
     {
-      "number": 636,
-      "title": "test(ep/v2): payload distribution and seed for the EP ubench",
-      "author": "jhchouuu",
+      "number": 573,
+      "title": "Io cpp bench default",
+      "author": "amirakb89",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-03T10:26:13Z",
-      "updated_at": "2026-09-03T11:15:07Z",
-      "html_url": "https://github.com/ROCm/mori/pull/636",
+      "created_at": "2026-08-17T18:33:02Z",
+      "updated_at": "2026-09-03T22:27:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/573",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 639,
+      "title": "Group lanes by CQ before PSD non-CCQE poll",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T21:10:54Z",
+      "updated_at": "2026-09-03T21:11:32Z",
+      "html_url": "https://github.com/ROCm/mori/pull/639",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 566,
+      "title": "Feat/env check gpu memory",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T23:32:16Z",
+      "updated_at": "2026-09-03T19:03:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/566",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 615,
+      "title": "[Pre-flight] Add cluster-network-topology skill and scripts",
+      "author": "lcskrishna",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T06:41:51Z",
+      "updated_at": "2026-09-03T14:08:57Z",
+      "html_url": "https://github.com/ROCm/mori/pull/615",
       "labels": [],
       "draft": false
     },
@@ -20,7 +56,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-11T02:07:35Z",
-      "updated_at": "2026-09-03T07:40:42Z",
+      "updated_at": "2026-09-03T12:41:05Z",
       "html_url": "https://github.com/ROCm/mori/pull/540",
       "labels": [],
       "draft": false
@@ -110,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 615,
-      "title": "[Pre-flight] Add cluster-network-topology skill and scripts",
-      "author": "lcskrishna",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T06:41:51Z",
-      "updated_at": "2026-09-01T13:05:35Z",
-      "html_url": "https://github.com/ROCm/mori/pull/615",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 625,
       "title": "feat(ep/v2): internode dispatch/combine over CCO/GDA, and fix a doorbell-ordering deadlock in flushAsync",
       "author": "QizhouZhang97",
@@ -182,18 +206,6 @@
       "draft": false
     },
     {
-      "number": 573,
-      "title": "Io cpp bench default",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T18:33:02Z",
-      "updated_at": "2026-08-31T08:43:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/573",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 570,
       "title": "test bnxt ci",
       "author": "QizhouZhang97",
@@ -202,18 +214,6 @@
       "created_at": "2026-08-17T04:01:57Z",
       "updated_at": "2026-08-31T08:43:15Z",
       "html_url": "https://github.com/ROCm/mori/pull/570",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 566,
-      "title": "Feat/env check gpu memory",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T23:32:16Z",
-      "updated_at": "2026-08-31T08:43:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/566",
       "labels": [],
       "draft": false
     },
@@ -492,6 +492,30 @@
       "html_url": "https://github.com/ROCm/mori/pull/621",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 636,
+      "title": "test(ep/v2): payload distribution and seed for the EP ubench",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-03T10:26:13Z",
+      "updated_at": "2026-09-03T13:08:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/636",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 637,
+      "title": "perf(umbp): fix the local-path lock contention that fails the primitive concurrency gate",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-03T12:39:04Z",
+      "updated_at": "2026-09-03T12:41:03Z",
+      "html_url": "https://github.com/ROCm/mori/pull/637",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 505,
@@ -1450,30 +1474,6 @@
       "created_at": "2026-08-04T02:34:10Z",
       "updated_at": "2026-08-04T05:34:11Z",
       "html_url": "https://github.com/ROCm/mori/pull/519",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 516,
-      "title": "Remove bnxt ci due to bnxt machine being unavailable",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-03T03:08:19Z",
-      "updated_at": "2026-08-03T03:39:36Z",
-      "html_url": "https://github.com/ROCm/mori/pull/516",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 509,
-      "title": "rdma: fix dmabuf offset for sub-allocated GPU buffers (LOC_PROT on ionic RoCE)",
-      "author": "andyluo7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-30T18:27:33Z",
-      "updated_at": "2026-08-03T02:03:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/509",
       "labels": [],
       "draft": false
     }

@@ -1,17 +1,53 @@
 {
-  "collected_at": "2026-09-03T12:18:17Z",
+  "collected_at": "2026-09-04T12:18:55Z",
   "prs": [
+    {
+      "number": 11474,
+      "title": "[AMD] Enable RDNA4m buffer atomics and IEEE min/max",
+      "author": "umangyadav",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-26T15:49:01Z",
+      "updated_at": "2026-09-04T04:43:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11474",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11579,
+      "title": "[NFC][AMD] Add mixed FP8/BF8 WMMA lowering tests",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T04:30:25Z",
+      "updated_at": "2026-09-04T04:31:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11579",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11577,
+      "title": "[Release][Cherry-Pick] [AMD] Fix empty range inference for HistogramOp in RangeAnalysis (#11246)",
+      "author": "thedandano",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T22:44:37Z",
+      "updated_at": "2026-09-03T22:46:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11577",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11570,
       "title": "[AMD] Remove ISA family gate on `readfirstlane` in `warp_id` lowering",
       "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-09-03T10:14:22Z",
-      "updated_at": "2026-09-03T10:14:22Z",
+      "updated_at": "2026-09-03T15:46:19Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11570",
       "labels": [],
-      "draft": true
+      "draft": false
     },
     {
       "number": 11566,
@@ -46,18 +82,6 @@
       "created_at": "2026-08-27T22:11:31Z",
       "updated_at": "2026-09-02T20:06:05Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11487",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11474,
-      "title": "[AMD] Enable RDNA4m buffer atomics and IEEE min/max",
-      "author": "umangyadav",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T15:49:01Z",
-      "updated_at": "2026-09-02T04:35:59Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11474",
       "labels": [],
       "draft": false
     },
@@ -578,18 +602,6 @@
       "draft": false
     },
     {
-      "number": 11272,
-      "title": "[Release] [Cherry-Pick] [AMD][gfx1250] Refine CodeGen controls (#10721)",
-      "author": "naromero77amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-11T20:40:44Z",
-      "updated_at": "2026-08-12T21:57:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11272",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10708,
       "title": "[AMD] Add CDNA5 Gluon stream bandwidth example",
       "author": "adityakankariya",
@@ -598,18 +610,6 @@
       "created_at": "2026-06-24T01:30:44Z",
       "updated_at": "2026-08-11T23:43:11Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10708",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11256,
-      "title": "[AMD] Fix buffer_load_to_local with other: write other in the after-load block",
-      "author": "yiqian1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-11T04:44:43Z",
-      "updated_at": "2026-08-11T22:25:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11256",
       "labels": [],
       "draft": false
     },

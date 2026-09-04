@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-09-03T12:18:23Z",
+  "collected_at": "2026-09-04T12:19:00Z",
   "issues": [
+    {
+      "number": 5237,
+      "title": "[Issue]: MIGraphX incorrectly determines output tensors' strides",
+      "author": "mferencevic",
+      "state": "open",
+      "created_at": "2026-09-03T20:03:43Z",
+      "updated_at": "2026-09-03T20:12:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5237",
+      "labels": []
+    },
+    {
+      "number": 5235,
+      "title": "[issue] MIGraphX pip wheels fail to load: executables keep build machine RUNPATH",
+      "author": "itikhono",
+      "state": "open",
+      "created_at": "2026-09-03T14:14:49Z",
+      "updated_at": "2026-09-03T14:17:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5235",
+      "labels": []
+    },
+    {
+      "number": 5234,
+      "title": "[Issue][regression]: MIGraphX 2.17 compiles 4x to 11x slower than 2.16 with no inference gain for YOLO models",
+      "author": "itikhono",
+      "state": "open",
+      "created_at": "2026-09-03T12:31:51Z",
+      "updated_at": "2026-09-03T12:32:23Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5234",
+      "labels": []
+    },
     {
       "number": 5217,
       "title": "[Issue]: Tarball (migraphx-2.17.0+rocm10.0.0.tar.gz) is missing CMake-generated headers and config files",
@@ -175,16 +205,6 @@
       "created_at": "2026-06-19T13:36:58Z",
       "updated_at": "2026-06-19T13:36:58Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/4996",
-      "labels": []
-    },
-    {
-      "number": 4970,
-      "title": "YOLO-family models: slow compile that grows dramatically with input size",
-      "author": "itikhono",
-      "state": "open",
-      "created_at": "2026-06-16T17:12:15Z",
-      "updated_at": "2026-06-17T11:36:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/4970",
       "labels": []
     },
     {
