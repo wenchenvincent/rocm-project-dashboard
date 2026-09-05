@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-09-04T12:19:14Z",
+  "collected_at": "2026-09-05T11:26:53Z",
   "issues": [
+    {
+      "number": 3294,
+      "title": "[Issue]: lacking general support for gfx1201",
+      "author": "andysalerno",
+      "state": "open",
+      "created_at": "2026-05-21T02:17:55Z",
+      "updated_at": "2026-09-05T05:51:33Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3294",
+      "labels": []
+    },
+    {
+      "number": 5286,
+      "title": "[Issue]: gemm_a8w8_blockscale (Triton) returns NaN when K/NUM_KSPLIT is not a multiple of BLOCK_SIZE_K (gfx1201 DEFAULT config, K=12800 -> vLLM garbage on R9700)",
+      "author": "xy7ra",
+      "state": "open",
+      "created_at": "2026-09-05T05:51:32Z",
+      "updated_at": "2026-09-05T05:51:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5286",
+      "labels": []
+    },
+    {
+      "number": 5044,
+      "title": "[Bug] HIP RMSNorm corrupts row-boundary elements for odd hidden sizes",
+      "author": "junna2016",
+      "state": "open",
+      "created_at": "2026-08-27T06:23:50Z",
+      "updated_at": "2026-09-05T05:37:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5044",
+      "labels": []
+    },
+    {
+      "number": 5277,
+      "title": "[Perf] a8w8_blockscale tuned table for gfx950 appears to be generated without --splitK: re-tuning gains 13-61% on low-M shapes",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-09-04T16:01:42Z",
+      "updated_at": "2026-09-04T16:01:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5277",
+      "labels": []
+    },
     {
       "number": 5256,
       "title": "fused_moe_2stages passes num_rows to per_tensor_quant_hip, which asserts it is None",
@@ -288,16 +328,6 @@
       "labels": []
     },
     {
-      "number": 5044,
-      "title": "[Bug] HIP RMSNorm corrupts row-boundary elements for odd hidden sizes",
-      "author": "junna2016",
-      "state": "open",
-      "created_at": "2026-08-27T06:23:50Z",
-      "updated_at": "2026-08-27T06:23:50Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5044",
-      "labels": []
-    },
-    {
       "number": 5039,
       "title": "[Bug] top_k_top_p_sampling_from_probs(deterministic=True) segfaults on gfx942 with some builds; original race attribution withdrawn",
       "author": "zzw09773",
@@ -407,16 +437,6 @@
       "created_at": "2026-08-18T23:14:01Z",
       "updated_at": "2026-08-18T23:21:17Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4840",
-      "labels": []
-    },
-    {
-      "number": 4827,
-      "title": "[Bug] MoeSortingMultiPhaseKernel_P0_v1: missing lower bound on signed expert id causes GPU memory fault under EP (one-line fix)",
-      "author": "xudonlyu",
-      "state": "open",
-      "created_at": "2026-08-18T15:31:34Z",
-      "updated_at": "2026-08-18T17:28:03Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4827",
       "labels": []
     },
     {
@@ -939,16 +959,6 @@
       "created_at": "2026-07-14T01:58:38Z",
       "updated_at": "2026-07-14T02:06:06Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4226",
-      "labels": []
-    },
-    {
-      "number": 3294,
-      "title": "[Issue]: lacking general support for gfx1201",
-      "author": "andysalerno",
-      "state": "open",
-      "created_at": "2026-05-21T02:17:55Z",
-      "updated_at": "2026-07-12T19:49:25Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3294",
       "labels": []
     },
     {

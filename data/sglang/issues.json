@@ -1,13 +1,25 @@
 {
-  "collected_at": "2026-09-04T12:18:53Z",
+  "collected_at": "2026-09-05T11:26:34Z",
   "issues": [
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-05T11:10:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-04T12:04:15Z",
+      "updated_at": "2026-09-05T11:02:45Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
@@ -17,8 +29,18 @@
       "author": "mmangkad",
       "state": "open",
       "created_at": "2026-09-04T11:30:01Z",
-      "updated_at": "2026-09-04T11:41:03Z",
+      "updated_at": "2026-09-04T21:06:01Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38004",
+      "labels": []
+    },
+    {
+      "number": 38029,
+      "title": "[Bug] EAGLE DSA draft backend misses KVIndexTranslator in FP8 MHA prefix reads",
+      "author": "tanth47",
+      "state": "open",
+      "created_at": "2026-09-04T17:24:38Z",
+      "updated_at": "2026-09-04T17:24:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38029",
       "labels": []
     },
     {
@@ -40,18 +62,6 @@
       "updated_at": "2026-09-04T02:53:25Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37559",
       "labels": []
-    },
-    {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-03T22:33:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
     },
     {
       "number": 30209,
@@ -454,16 +464,6 @@
       ]
     },
     {
-      "number": 34596,
-      "title": "[Bug] MI355X Qwen3.5 MTP throughput is significantly behind B200/B300 on realistic agentic workloads",
-      "author": "cquil11",
-      "state": "open",
-      "created_at": "2026-08-12T16:14:28Z",
-      "updated_at": "2026-08-18T02:52:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34596",
-      "labels": []
-    },
-    {
       "number": 35122,
       "title": "[Bug] [AMD] SGLANG_DSV4_FP4_DEQUANT=1 is ignored by AITER FP4 MoE on ROCm",
       "author": "yuzhouo7",
@@ -572,20 +572,6 @@
       "updated_at": "2026-08-01T17:32:38Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33181",
       "labels": []
-    },
-    {
-      "number": 29630,
-      "title": "[RFC] Introduce a unified sglang.kernels namespace for kernel organization and dispatch",
-      "author": "BBuf",
-      "state": "open",
-      "created_at": "2026-06-29T07:39:33Z",
-      "updated_at": "2026-08-01T16:37:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29630",
-      "labels": [
-        "RFC",
-        "jit-kernel",
-        "kernel"
-      ]
     }
   ]
 }

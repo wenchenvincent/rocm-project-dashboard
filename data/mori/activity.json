@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-04T12:21:40Z",
+  "collected_at": "2026-09-05T11:29:09Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
@@ -9,7 +9,7 @@
       "closed": 2
     },
     "last_week": {
-      "opened": 25,
+      "opened": 24,
       "merged": 19,
       "closed": 1
     },
@@ -49,7 +49,7 @@
         "author": "QizhouZhang97",
         "prs_submitted": 12,
         "prs_merged": 10,
-        "commits": 9
+        "commits": 7
       },
       {
         "author": "zhangfei829",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 50.0,
+    "days_since_last": 50.9,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v1.2.2"

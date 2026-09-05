@@ -1,27 +1,39 @@
 {
-  "collected_at": "2026-09-04T12:19:25Z",
+  "collected_at": "2026-09-05T11:27:04Z",
   "prs": [
     {
-      "number": 1094,
-      "title": "[CI] Run aiter CSV MoE and HGEMM in the wheel/PyPI test job",
-      "author": "coderfeli",
+      "number": 887,
+      "title": "gemm: add fp8 per-tensor grouped GEMM forward (M-grouped/MoE)",
+      "author": "kyle-256",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-04T12:07:17Z",
-      "updated_at": "2026-09-04T12:17:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1094",
+      "created_at": "2026-07-23T06:47:30Z",
+      "updated_at": "2026-09-05T08:44:54Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/887",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1093,
-      "title": "[CI] Drop the duplicate gfx950 test runner and revert the nightly README badges",
+      "number": 1096,
+      "title": "[DSL] Add ordered ROCDL memory primitives",
+      "author": "big-yellow-duck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T15:49:20Z",
+      "updated_at": "2026-09-04T16:13:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1096",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1095,
+      "title": "[test only]",
       "author": "coderfeli",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-03T06:30:53Z",
-      "updated_at": "2026-09-04T12:03:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1093",
+      "created_at": "2026-09-04T14:26:25Z",
+      "updated_at": "2026-09-04T14:26:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1095",
       "labels": [],
       "draft": false
     },
@@ -32,8 +44,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-21T06:18:20Z",
-      "updated_at": "2026-09-04T08:11:58Z",
+      "updated_at": "2026-09-04T14:04:53Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1051",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1094,
+      "title": "[CI] Run aiter CSV MoE and HGEMM in the wheel/PyPI test job",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T12:07:17Z",
+      "updated_at": "2026-09-04T12:52:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1094",
       "labels": [],
       "draft": false
     },
@@ -60,18 +84,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/931",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1032,
-      "title": "[Kernel] Add dilation, padding_mode and groups to convolution kernel.",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T13:27:43Z",
-      "updated_at": "2026-09-03T11:42:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1032",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1069,
@@ -568,18 +580,6 @@
       "draft": false
     },
     {
-      "number": 887,
-      "title": "gemm: add fp8 per-tensor grouped GEMM forward (M-grouped/MoE)",
-      "author": "kyle-256",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T06:47:30Z",
-      "updated_at": "2026-07-23T08:14:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/887",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 888,
       "title": "[Kernel][MI350] Add cache-aware 8-wave BF16/FP16 GEMM",
       "author": "zhanglx13",
@@ -900,6 +900,30 @@
       "created_at": "2026-03-21T08:34:01Z",
       "updated_at": "2026-03-27T06:51:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1032,
+      "title": "[Kernel] Add dilation, padding_mode and groups to convolution kernel.",
+      "author": "amd-nprotaso",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-19T13:27:43Z",
+      "updated_at": "2026-09-04T14:08:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1032",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1093,
+      "title": "[CI] Drop the duplicate gfx950 test runner and revert the nightly README badges",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-03T06:30:53Z",
+      "updated_at": "2026-09-04T14:04:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1093",
       "labels": [],
       "draft": false
     },
@@ -1861,18 +1885,6 @@
       "created_at": "2026-08-05T17:32:32Z",
       "updated_at": "2026-08-06T06:31:54Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/969",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 968,
-      "title": "[Feat] Add fx.known_block_size() as constant accessor",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T13:09:10Z",
-      "updated_at": "2026-08-05T15:38:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/968",
       "labels": [],
       "draft": false
     }

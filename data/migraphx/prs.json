@@ -1,6 +1,114 @@
 {
-  "collected_at": "2026-09-04T12:18:57Z",
+  "collected_at": "2026-09-05T11:26:38Z",
   "prs": [
+    {
+      "number": 5100,
+      "title": "Add binary cache",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T15:47:37Z",
+      "updated_at": "2026-09-04T23:52:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5100",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5232,
+      "title": "Binary cache sql backend",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T16:40:28Z",
+      "updated_at": "2026-09-04T21:45:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5232",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5239,
+      "title": "Onnxruntime Weekly Sync 2026-09-04",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T17:19:00Z",
+      "updated_at": "2026-09-04T17:19:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5239",
+      "labels": [
+        "onnxruntime",
+        "dependencies",
+        "skip bot checks",
+        "automated"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5052,
+      "title": "Revert find_reshape_cont guard relaxation from PR#4858",
+      "author": "tamahedi",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-09T14:03:44Z",
+      "updated_at": "2026-09-04T15:00:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
+      "labels": [
+        "bugfix",
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5114,
+      "title": "Regular attention flash decoding refactor and bug fixes",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T17:49:24Z",
+      "updated_at": "2026-09-04T14:52:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5114",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5150,
+      "title": "Parse TopK with dyn slice & ONNX node UID expansion",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T17:46:46Z",
+      "updated_at": "2026-09-04T14:30:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5150",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5204,
+      "title": "Drop null problem-cache sentinels on load, keep in-run dedup",
+      "author": "danieyan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T18:52:29Z",
+      "updated_at": "2026-09-04T14:27:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5204",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5189,
+      "title": "Disable subprocess spawning during hiprtc kernel compilation",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T13:54:22Z",
+      "updated_at": "2026-09-04T14:26:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5189",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
     {
       "number": 5139,
       "title": "Add GPU JIT implementation for gridsample operation",
@@ -98,20 +206,6 @@
       "draft": false
     },
     {
-      "number": 5204,
-      "title": "Drop null problem-cache sentinels on load, keep in-run dedup",
-      "author": "danieyan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T18:52:29Z",
-      "updated_at": "2026-09-03T18:03:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5204",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
       "number": 5153,
       "title": "Improve find_permutation with ambiguous layouts",
       "author": "pfultz2",
@@ -189,35 +283,6 @@
       "draft": false
     },
     {
-      "number": 5052,
-      "title": "Revert find_reshape_cont guard relaxation from PR#4858",
-      "author": "tamahedi",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T14:03:44Z",
-      "updated_at": "2026-09-03T15:58:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5189,
-      "title": "Disable subprocess spawning during hiprtc kernel compilation",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T13:54:22Z",
-      "updated_at": "2026-09-03T15:20:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5189",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
       "number": 5048,
       "title": "Preserve shape ops when removing QDQ pairs",
       "author": "ikalinic",
@@ -241,18 +306,6 @@
       "labels": [
         "documentation"
       ],
-      "draft": false
-    },
-    {
-      "number": 5150,
-      "title": "Parse TopK with dyn slice & ONNX node UID expansion",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T17:46:46Z",
-      "updated_at": "2026-09-03T12:43:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5150",
-      "labels": [],
       "draft": false
     },
     {
@@ -296,18 +349,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5210",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5232,
-      "title": "Binary cache sql backend",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T16:40:28Z",
-      "updated_at": "2026-09-02T16:40:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5232",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5186,
@@ -1294,18 +1335,6 @@
       "draft": true
     },
     {
-      "number": 5114,
-      "title": "Regular attention flash decoding refactor and bug fixes",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-05T17:49:24Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5114",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5104,
       "title": "skip elimination when reshape_lazy",
       "author": "weizhu12-amd",
@@ -1328,18 +1357,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5103",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5100,
-      "title": "Add binary cache",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-29T15:47:37Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5100",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5075,
