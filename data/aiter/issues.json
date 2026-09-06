@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-09-05T11:26:53Z",
+  "collected_at": "2026-09-06T11:47:51Z",
   "issues": [
+    {
+      "number": 2869,
+      "title": "[Feature]: Add Windows support",
+      "author": "0xDELUXA",
+      "state": "open",
+      "created_at": "2026-04-22T19:46:42Z",
+      "updated_at": "2026-09-05T21:19:47Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2869",
+      "labels": []
+    },
+    {
+      "number": 5293,
+      "title": "[Perf] pa_decode_sparse: BLOCK_K=64 is suboptimal above the CU count \u2014 up to +43 % on gfx950 with a load-dependent choice",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-09-05T15:13:29Z",
+      "updated_at": "2026-09-05T15:13:29Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5293",
+      "labels": []
+    },
+    {
+      "number": 5292,
+      "title": "mhc_post silently computes wrong results when post_layer_mix / comb_res_mix are non-contiguous",
+      "author": "Duyi-Wang",
+      "state": "open",
+      "created_at": "2026-09-05T14:10:01Z",
+      "updated_at": "2026-09-05T14:12:12Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5292",
+      "labels": []
+    },
     {
       "number": 3294,
       "title": "[Issue]: lacking general support for gfx1201",
@@ -1592,16 +1622,6 @@
       "created_at": "2026-04-22T20:35:18Z",
       "updated_at": "2026-04-22T20:35:18Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2870",
-      "labels": []
-    },
-    {
-      "number": 2869,
-      "title": "[Feature]: Add Windows support",
-      "author": "0xDELUXA",
-      "state": "open",
-      "created_at": "2026-04-22T19:46:42Z",
-      "updated_at": "2026-04-22T19:46:53Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2869",
       "labels": []
     },
     {

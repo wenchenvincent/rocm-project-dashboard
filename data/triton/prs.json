@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-05T11:26:36Z",
+  "collected_at": "2026-09-06T11:47:35Z",
   "prs": [
     {
       "number": 11599,
@@ -698,18 +698,6 @@
       "draft": false
     },
     {
-      "number": 11092,
-      "title": "[AMD][gfx1250] Add noalias_args pointer contract",
-      "author": "jerryyin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-29T13:56:10Z",
-      "updated_at": "2026-07-29T14:31:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11092",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11055,
       "title": "[AMD] Guard HIP launcher against kernel arg/annotation count mismatch",
       "author": "zihaomu",
@@ -720,6 +708,18 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11055",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 11012,
+      "title": "[AMD][DRAFT] proton rocprofsdk error 16 pytest fix",
+      "author": "ZelboK",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T18:42:42Z",
+      "updated_at": "2026-07-27T18:27:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11012",
+      "labels": [],
+      "draft": true
     }
   ]
 }

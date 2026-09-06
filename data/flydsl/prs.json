@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-09-05T11:27:04Z",
+  "collected_at": "2026-09-06T11:48:01Z",
   "prs": [
+    {
+      "number": 1095,
+      "title": "[test only]",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T14:26:25Z",
+      "updated_at": "2026-09-06T11:06:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1095",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1094,
+      "title": "[CI] Run aiter CSV MoE and HGEMM in the wheel/PyPI test job",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-04T12:07:17Z",
+      "updated_at": "2026-09-06T11:02:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1094",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1097,
+      "title": "FlashAttention FP8: Added support for asymmetric head dimensions, variable sequence lengths (varlen), and KV splitting",
+      "author": "binding7012",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-06T07:11:33Z",
+      "updated_at": "2026-09-06T07:22:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1097",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 887,
       "title": "gemm: add fp8 per-tensor grouped GEMM forward (M-grouped/MoE)",
@@ -26,18 +62,6 @@
       "draft": false
     },
     {
-      "number": 1095,
-      "title": "[test only]",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-04T14:26:25Z",
-      "updated_at": "2026-09-04T14:26:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1095",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1051,
       "title": "[FlyToROCDL] Bump LLVM to 941a04e6 and adapt gpu.launch_func lowering",
       "author": "Phil-amd",
@@ -46,18 +70,6 @@
       "created_at": "2026-08-21T06:18:20Z",
       "updated_at": "2026-09-04T14:04:53Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1051",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1094,
-      "title": "[CI] Run aiter CSV MoE and HGEMM in the wheel/PyPI test job",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-04T12:07:17Z",
-      "updated_at": "2026-09-04T12:52:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1094",
       "labels": [],
       "draft": false
     },

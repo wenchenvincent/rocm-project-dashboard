@@ -1,6 +1,23 @@
 {
-  "collected_at": "2026-09-05T11:26:08Z",
+  "collected_at": "2026-09-06T11:47:11Z",
   "prs": [
+    {
+      "number": 195427,
+      "title": "[xpu][1/N] Integrate OneDNN grouped_mm and scaled_grouped_mm",
+      "author": "LuFinch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T08:43:05Z",
+      "updated_at": "2026-09-06T09:50:21Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195427",
+      "labels": [
+        "module: cpu",
+        "triaged",
+        "module: mkldnn",
+        "open source"
+      ],
+      "draft": false
+    },
     {
       "number": 193168,
       "title": "[FSDP] Stabilize fully_shard overlap timing test",
@@ -8,7 +25,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-12T14:49:31Z",
-      "updated_at": "2026-09-05T11:19:08Z",
+      "updated_at": "2026-09-06T09:45:55Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/193168",
       "labels": [
         "triaged",
@@ -23,20 +40,256 @@
       "draft": false
     },
     {
-      "number": 192337,
-      "title": "[Testcase Refactoring] Classify activation memory budget tests by hardware",
-      "author": "ll-pen",
+      "number": 187104,
+      "title": "Fix embedding_bag CPU segfault when offsets is empty and indices is not",
+      "author": "qflen",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-06T10:43:41Z",
-      "updated_at": "2026-09-05T11:19:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/192337",
+      "created_at": "2026-06-11T23:21:32Z",
+      "updated_at": "2026-09-06T09:39:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/187104",
       "labels": [
         "triaged",
         "open source",
+        "Stale",
+        "release notes: nn",
+        "topic: bug fixes",
+        "no-stale"
+      ],
+      "draft": false
+    },
+    {
+      "number": 181000,
+      "title": "[inductor] Dump Python stacks on CI test subprocess timeout",
+      "author": "jeffdaily",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-21T17:32:39Z",
+      "updated_at": "2026-09-06T06:33:34Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/181000",
+      "labels": [
+        "triaged",
+        "open source",
+        "ciflow/trunk",
         "topic: not user facing",
+        "module: inductor",
         "ciflow/inductor",
-        "module: tests/graph"
+        "keep-going",
+        "ci-no-td",
+        "ciflow/rocm-mi300",
+        "ciflow/rocm-mi355",
+        "ciflow/rocm-mi200",
+        "ciflow/torchtitan"
+      ],
+      "draft": false
+    },
+    {
+      "number": 196142,
+      "title": "Update inductor expected accuracy files",
+      "author": "pytorchbot",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-06T03:12:00Z",
+      "updated_at": "2026-09-06T06:00:55Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/196142",
+      "labels": [
+        "open source",
+        "topic: not user facing",
+        "module: dynamo",
+        "ciflow/inductor"
+      ],
+      "draft": false
+    },
+    {
+      "number": 196155,
+      "title": "Let fastAtomicAdd derive its bound from a packed accessor",
+      "author": "cyyever",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-06T03:58:10Z",
+      "updated_at": "2026-09-06T05:46:19Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/196155",
+      "labels": [
+        "open source",
+        "ciflow/inductor"
+      ],
+      "draft": false
+    },
+    {
+      "number": 185114,
+      "title": "[Test] Refractor TestSDPACudaOnly into TestSDPAGpuOnly with CUDA-only assumptions removed",
+      "author": "daisyden",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-25T07:27:38Z",
+      "updated_at": "2026-09-06T05:01:28Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/185114",
+      "labels": [
+        "triaged",
+        "open source",
+        "topic: not user facing"
+      ],
+      "draft": false
+    },
+    {
+      "number": 195354,
+      "title": "[aot_compile] Fix global guards on reloaded nn.Module artifacts",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-30T17:02:43Z",
+      "updated_at": "2026-09-06T05:01:25Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195354",
+      "labels": [
+        "ciflow/trunk",
+        "module: dynamo",
+        "ciflow/inductor",
+        "release notes: dynamo",
+        "ciflow/torchtitan"
+      ],
+      "draft": true
+    },
+    {
+      "number": 189011,
+      "title": "include activation epilogue in GemmAndBiasParams::Signature()",
+      "author": "menglcai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-06T07:08:02Z",
+      "updated_at": "2026-09-06T03:40:17Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/189011",
+      "labels": [
+        "triaged",
+        "open source",
+        "Stale",
+        "release notes: linalg_frontend"
+      ],
+      "draft": false
+    },
+    {
+      "number": 196132,
+      "title": "[flop counter] Fix _efficient_attention_forward/backward layout mismatch",
+      "author": "WatchTree-19",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-05T22:02:02Z",
+      "updated_at": "2026-09-05T22:16:31Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/196132",
+      "labels": [
+        "open source"
+      ],
+      "draft": false
+    },
+    {
+      "number": 170396,
+      "title": "[typing] Fix return type annotations for various functions",
+      "author": "kleinicke",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-12-14T05:09:44Z",
+      "updated_at": "2026-09-05T21:37:07Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/170396",
+      "labels": [
+        "triaged",
+        "open source",
+        "Merged",
+        "Reverted",
+        "ciflow/trunk",
+        "release notes: distributed (c10d)",
+        "module: dynamo",
+        "ciflow/inductor",
+        "ci-no-td",
+        "ciflow/torchtitan",
+        "ciflow/docker"
+      ],
+      "draft": false
+    },
+    {
+      "number": 195925,
+      "title": "[precompile] Report guard drift and drop unrebuildable guards",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T19:54:04Z",
+      "updated_at": "2026-09-05T19:31:28Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195925",
+      "labels": [
+        "ciflow/trunk",
+        "module: dynamo",
+        "ciflow/inductor",
+        "release notes: dynamo",
+        "ciflow/torchtitan"
+      ],
+      "draft": true
+    },
+    {
+      "number": 195922,
+      "title": "[precompile] End-to-end tests for the dynamo tracer's guard policy, installed mode and numerics",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T19:54:00Z",
+      "updated_at": "2026-09-05T19:31:23Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195922",
+      "labels": [
+        "ciflow/trunk",
+        "topic: not user facing",
+        "module: dynamo",
+        "ciflow/inductor"
+      ],
+      "draft": true
+    },
+    {
+      "number": 195360,
+      "title": "[precompile] Implement torch.compiler.precompile(tracer=\"dynamo\") and load",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-30T17:02:50Z",
+      "updated_at": "2026-09-05T16:31:45Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195360",
+      "labels": [
+        "ciflow/trunk",
+        "module: dynamo",
+        "ciflow/inductor",
+        "release notes: dynamo",
+        "ciflow/torchtitan"
+      ],
+      "draft": true
+    },
+    {
+      "number": 195926,
+      "title": "[precompile] Harden the artifact install/serve lifecycle and disk writes",
+      "author": "bobrenjc93",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T19:54:05Z",
+      "updated_at": "2026-09-05T16:31:37Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/195926",
+      "labels": [
+        "ciflow/trunk",
+        "module: dynamo",
+        "ciflow/inductor",
+        "release notes: dynamo",
+        "ciflow/torchtitan"
+      ],
+      "draft": true
+    },
+    {
+      "number": 196115,
+      "title": "[ROCm][Inductor] Skip AMD buffer ops when as_strided rebases to a negative offset",
+      "author": "liminfei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-05T14:19:43Z",
+      "updated_at": "2026-09-05T14:31:25Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/196115",
+      "labels": [
+        "module: rocm",
+        "open source",
+        "module: inductor",
+        "ciflow/inductor",
+        "ciflow/torchtitan"
       ],
       "draft": false
     },
@@ -47,7 +300,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2025-12-16T09:26:16Z",
-      "updated_at": "2026-09-05T10:45:52Z",
+      "updated_at": "2026-09-05T14:20:06Z",
       "html_url": "https://github.com/pytorch/pytorch/pull/170538",
       "labels": [
         "triaged",
@@ -58,6 +311,24 @@
         "ciflow/xpu"
       ],
       "draft": true
+    },
+    {
+      "number": 192337,
+      "title": "[Testcase Refactoring] Classify activation memory budget tests by hardware",
+      "author": "ll-pen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T10:43:41Z",
+      "updated_at": "2026-09-05T13:30:42Z",
+      "html_url": "https://github.com/pytorch/pytorch/pull/192337",
+      "labels": [
+        "triaged",
+        "open source",
+        "topic: not user facing",
+        "ciflow/inductor",
+        "module: tests/graph"
+      ],
+      "draft": false
     },
     {
       "number": 183613,
@@ -138,31 +409,6 @@
       "draft": false
     },
     {
-      "number": 181000,
-      "title": "[inductor] Dump Python stacks on CI test subprocess timeout",
-      "author": "jeffdaily",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-21T17:32:39Z",
-      "updated_at": "2026-09-05T05:00:58Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/181000",
-      "labels": [
-        "triaged",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing",
-        "module: inductor",
-        "ciflow/inductor",
-        "keep-going",
-        "ci-no-td",
-        "ciflow/rocm-mi300",
-        "ciflow/rocm-mi355",
-        "ciflow/rocm-mi200",
-        "ciflow/torchtitan"
-      ],
-      "draft": false
-    },
-    {
       "number": 196081,
       "title": "Make _split_iteration_ranges leftover check size-oblivious",
       "author": "desertfire",
@@ -179,24 +425,6 @@
         "ciflow/torchtitan"
       ],
       "draft": false
-    },
-    {
-      "number": 195924,
-      "title": "[precompile] Fix guard-state pickling round trips",
-      "author": "bobrenjc93",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T19:54:03Z",
-      "updated_at": "2026-09-05T03:46:39Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195924",
-      "labels": [
-        "ciflow/trunk",
-        "module: dynamo",
-        "ciflow/inductor",
-        "release notes: dynamo",
-        "ciflow/torchtitan"
-      ],
-      "draft": true
     },
     {
       "number": 185511,
@@ -241,40 +469,6 @@
         "ciflow/torchtitan"
       ],
       "draft": false
-    },
-    {
-      "number": 185114,
-      "title": "[Test] Refractor TestSDPACudaOnly into TestSDPAGpuOnly with CUDA-only assumptions removed",
-      "author": "daisyden",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-25T07:27:38Z",
-      "updated_at": "2026-09-05T03:14:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/185114",
-      "labels": [
-        "triaged",
-        "open source",
-        "topic: not user facing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 195360,
-      "title": "[precompile] Implement torch.compiler.precompile(tracer=\"dynamo\") and load",
-      "author": "bobrenjc93",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-30T17:02:50Z",
-      "updated_at": "2026-09-05T02:49:12Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195360",
-      "labels": [
-        "ciflow/trunk",
-        "module: dynamo",
-        "ciflow/inductor",
-        "release notes: dynamo",
-        "ciflow/torchtitan"
-      ],
-      "draft": true
     },
     {
       "number": 194029,
@@ -338,41 +532,6 @@
       "draft": true
     },
     {
-      "number": 195427,
-      "title": "[xpu][1/N] Integrate OneDNN grouped_mm and scaled_grouped_mm",
-      "author": "LuFinch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T08:43:05Z",
-      "updated_at": "2026-09-05T02:05:15Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195427",
-      "labels": [
-        "module: cpu",
-        "triaged",
-        "module: mkldnn",
-        "open source"
-      ],
-      "draft": false
-    },
-    {
-      "number": 195921,
-      "title": "[precompile] Install and serve a multi-graph artifact on live code objects",
-      "author": "bobrenjc93",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T19:53:59Z",
-      "updated_at": "2026-09-05T01:11:28Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195921",
-      "labels": [
-        "ciflow/trunk",
-        "module: dynamo",
-        "ciflow/inductor",
-        "release notes: dynamo",
-        "ciflow/torchtitan"
-      ],
-      "draft": true
-    },
-    {
       "number": 196036,
       "title": "[inductor] Match eager for i0/i1 under strict pointwise numerics",
       "author": "karthickai",
@@ -385,75 +544,6 @@
         "module: inductor",
         "ciflow/inductor",
         "ciflow/torchtitan"
-      ],
-      "draft": true
-    },
-    {
-      "number": 195361,
-      "title": "[aot_autograd] Compose a training graph's forward and backward into standalone source",
-      "author": "bobrenjc93",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-30T17:02:52Z",
-      "updated_at": "2026-09-04T23:47:10Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195361",
-      "labels": [
-        "ciflow/trunk",
-        "module: inductor",
-        "module: dynamo",
-        "ciflow/inductor",
-        "release notes: dynamo",
-        "ciflow/torchtitan"
-      ],
-      "draft": true
-    },
-    {
-      "number": 195925,
-      "title": "[precompile] Report guard drift and drop unrebuildable guards",
-      "author": "bobrenjc93",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T19:54:04Z",
-      "updated_at": "2026-09-04T23:47:08Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195925",
-      "labels": [
-        "ciflow/trunk",
-        "module: dynamo",
-        "ciflow/inductor",
-        "release notes: dynamo",
-        "ciflow/torchtitan"
-      ],
-      "draft": true
-    },
-    {
-      "number": 195923,
-      "title": "[precompile] Document the dynamo tracer",
-      "author": "bobrenjc93",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T19:54:02Z",
-      "updated_at": "2026-09-04T23:47:05Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195923",
-      "labels": [
-        "ciflow/trunk",
-        "topic: not user facing"
-      ],
-      "draft": true
-    },
-    {
-      "number": 195922,
-      "title": "[precompile] End-to-end tests for the dynamo tracer's guard policy, installed mode and numerics",
-      "author": "bobrenjc93",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T19:54:00Z",
-      "updated_at": "2026-09-04T23:47:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195922",
-      "labels": [
-        "ciflow/trunk",
-        "topic: not user facing",
-        "module: dynamo",
-        "ciflow/inductor"
       ],
       "draft": true
     },
@@ -488,80 +578,6 @@
         "ciflow/torchtitan"
       ],
       "draft": true
-    },
-    {
-      "number": 195776,
-      "title": "[Inductor] Add Blackwell decompose-K subgraph",
-      "author": "jananisriram",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T20:49:27Z",
-      "updated_at": "2026-09-04T22:50:16Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195776",
-      "labels": [
-        "module: inductor",
-        "ciflow/inductor",
-        "ciflow/rocm-mi300",
-        "ciflow/h100",
-        "ciflow/b200",
-        "ciflow/torchtitan"
-      ],
-      "draft": true
-    },
-    {
-      "number": 193125,
-      "title": "Fix SciPy kstest API usage in test_init and NumPy 2 row_stack export check",
-      "author": "VShanks-B",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-12T09:03:18Z",
-      "updated_at": "2026-09-04T22:31:40Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/193125",
-      "labels": [
-        "module: cpu",
-        "triaged",
-        "open source",
-        "ciflow/trunk",
-        "topic: not user facing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 190885,
-      "title": "[Inductor] Preserve Triton JIT options only for helpers",
-      "author": "AnthonyBarbier",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T13:19:46Z",
-      "updated_at": "2026-09-04T21:31:37Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/190885",
-      "labels": [
-        "triaged",
-        "open source",
-        "module: inductor",
-        "ciflow/inductor",
-        "release notes: inductor",
-        "ciflow/torchtitan"
-      ],
-      "draft": false
-    },
-    {
-      "number": 185053,
-      "title": "[Test]Refactor test_custom_ops.py to be device agnostic",
-      "author": "kumartanmay-28",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-24T07:28:48Z",
-      "updated_at": "2026-09-04T21:20:49Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/185053",
-      "labels": [
-        "triaged",
-        "open source",
-        "Stale",
-        "ciflow/trunk",
-        "topic: not user facing"
-      ],
-      "draft": false
     },
     {
       "number": 195879,
@@ -1067,24 +1083,6 @@
       "labels": [
         "module: rocm",
         "meta-exported"
-      ],
-      "draft": false
-    },
-    {
-      "number": 195786,
-      "title": "[ROCm][FlexAttention] Enable TLX backward template choices",
-      "author": "bangtianliu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T22:10:38Z",
-      "updated_at": "2026-09-03T21:21:54Z",
-      "html_url": "https://github.com/pytorch/pytorch/pull/195786",
-      "labels": [
-        "module: rocm",
-        "open source",
-        "module: inductor",
-        "ciflow/inductor",
-        "ciflow/torchtitan"
       ],
       "draft": false
     },

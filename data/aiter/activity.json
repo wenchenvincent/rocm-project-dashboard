@@ -1,29 +1,29 @@
 {
-  "collected_at": "2026-09-05T11:28:14Z",
+  "collected_at": "2026-09-06T11:49:15Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 159,
-      "merged": 91,
-      "closed": 34
+      "opened": 151,
+      "merged": 94,
+      "closed": 38
     },
     "last_week": {
-      "opened": 171,
-      "merged": 106,
-      "closed": 20
+      "opened": 178,
+      "merged": 103,
+      "closed": 21
     },
-    "median_time_to_merge_hours": 29.4,
-    "merge_count": 198,
-    "stale_prs": 160
+    "median_time_to_merge_hours": 29.2,
+    "merge_count": 199,
+    "stale_prs": 168
   },
   "contributors": {
-    "active_this_week": 211,
-    "total_contributors": 296,
+    "active_this_week": 207,
+    "total_contributors": 295,
     "top_contributors": [
       {
         "author": "Boss2002n",
-        "prs_submitted": 21,
+        "prs_submitted": 20,
         "prs_merged": 11,
         "commits": 51
       },
@@ -64,12 +64,6 @@
         "commits": 1
       },
       {
-        "author": "ganyi1996ppo",
-        "prs_submitted": 8,
-        "prs_merged": 2,
-        "commits": 1
-      },
-      {
         "author": "AMD-yanfeiwang",
         "prs_submitted": 7,
         "prs_merged": 0,
@@ -80,12 +74,18 @@
         "prs_submitted": 7,
         "prs_merged": 1,
         "commits": 1
+      },
+      {
+        "author": "ganyi1996ppo",
+        "prs_submitted": 7,
+        "prs_merged": 1,
+        "commits": 1
       }
     ],
-    "bus_factor": 9
+    "bus_factor": 7
   },
   "issue_health": {
-    "total_open": 299,
+    "total_open": 301,
     "opened_this_week": 21,
     "closed_this_week": 5,
     "unanswered": 129
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 2.2,
+    "days_since_last": 3.2,
     "avg_interval_days": 7.3,
     "total_releases": 5,
     "latest_tag": "v0.1.21.post1"

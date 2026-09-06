@@ -1,6 +1,103 @@
 {
-  "collected_at": "2026-09-05T11:26:10Z",
+  "collected_at": "2026-09-06T11:47:13Z",
   "issues": [
+    {
+      "number": 196164,
+      "title": "Run-to-run bit divergence under GPU contention with use_deterministic_algorithms(True) (ROCm, gfx1101)",
+      "author": "KitKyoD",
+      "state": "open",
+      "created_at": "2026-09-06T09:39:27Z",
+      "updated_at": "2026-09-06T09:41:17Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/196164",
+      "labels": [
+        "triage review",
+        "module: rocm",
+        "module: determinism",
+        "module: correctness (silent)",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 141287,
+      "title": "MPS operator coverage tracking issue (2.6+ version)",
+      "author": "malfet",
+      "state": "open",
+      "created_at": "2024-11-21T21:15:46Z",
+      "updated_at": "2026-09-06T04:16:27Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/141287",
+      "labels": [
+        "feature",
+        "triaged",
+        "tracker",
+        "module: mps"
+      ]
+    },
+    {
+      "number": 196143,
+      "title": "[Test][linalg] Incorrect batch indexing in NumPy eig/eigvals comparisons",
+      "author": "MaxXSoft",
+      "state": "open",
+      "created_at": "2026-09-06T03:41:18Z",
+      "updated_at": "2026-09-06T03:42:39Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/196143",
+      "labels": [
+        "module: tests",
+        "triaged",
+        "module: linear algebra",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 160230,
+      "title": "Offer official Pytorch Vulkan backend on pytorch.org",
+      "author": "alshdavid",
+      "state": "open",
+      "created_at": "2025-08-08T23:19:51Z",
+      "updated_at": "2026-09-05T18:09:05Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/160230",
+      "labels": [
+        "feature",
+        "triaged",
+        "needs research",
+        "module: vulkan"
+      ]
+    },
+    {
+      "number": 196110,
+      "title": "Missing const-correctness and inefficient parameter passing in inline_container.h",
+      "author": "Eamon2009",
+      "state": "open",
+      "created_at": "2026-09-05T13:45:55Z",
+      "updated_at": "2026-09-05T14:25:59Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/196110",
+      "labels": [
+        "module: cpp",
+        "module: serialization",
+        "triaged",
+        "enhancement",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 195823,
+      "title": "[ROCm][Inductor] `as_strided` on a graph-input view reads back zeros when the rebased offset is negative",
+      "author": "KyleMylonakisProtopia",
+      "state": "open",
+      "created_at": "2026-09-03T08:27:06Z",
+      "updated_at": "2026-09-05T14:19:57Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/195823",
+      "labels": [
+        "high priority",
+        "module: rocm",
+        "triaged",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
     {
       "number": 181576,
       "title": "torch.meshgrid raises RuntimeError if no arrays passed",
@@ -213,25 +310,6 @@
       ]
     },
     {
-      "number": 195823,
-      "title": "[ROCm][Inductor] `as_strided` on a graph-input view reads back zeros when the rebased offset is negative",
-      "author": "KyleMylonakisProtopia",
-      "state": "open",
-      "created_at": "2026-09-03T08:27:06Z",
-      "updated_at": "2026-09-04T19:10:11Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/195823",
-      "labels": [
-        "high priority",
-        "module: rocm",
-        "triaged",
-        "module: correctness (silent)",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
       "number": 196057,
       "title": "DISABLED test_run2run_determinism_model_name_DistillGPT2_training_or_inference_training_precision_bfloat16 (__main__.DeterministicTest)",
       "author": "pytorch-bot[bot]",
@@ -410,50 +488,6 @@
       ]
     },
     {
-      "number": 195982,
-      "title": "[DCP] TORCH_SAVE filesystem writer retains serialized CPU tensors",
-      "author": "samuelhe52",
-      "state": "open",
-      "created_at": "2026-09-04T06:34:25Z",
-      "updated_at": "2026-09-04T13:11:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/195982",
-      "labels": [
-        "triaged",
-        "oncall: distributed checkpointing",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 191752,
-      "title": "[AI-assisted] Editable installs expose an invalid CMake prefix path",
-      "author": "khlaifiabilel",
-      "state": "open",
-      "created_at": "2026-07-31T14:31:39Z",
-      "updated_at": "2026-09-04T13:07:17Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191752",
-      "labels": [
-        "module: build",
-        "triaged",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 196006,
-      "title": "DISABLED test_run2run_determinism_model_name_BertForMaskedLM_training_or_inference_training_precision_float16 (__main__.DeterministicTest)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-04T12:51:25Z",
-      "updated_at": "2026-09-04T12:51:31Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/196006",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
       "number": 186910,
       "title": "DISABLED test_Embedding_discontiguous_cuda (__main__.TestNN)",
       "author": "pytorch-bot[bot]",
@@ -569,21 +603,6 @@
         "module: inductor",
         "oncall: export",
         "module: aotinductor"
-      ]
-    },
-    {
-      "number": 160230,
-      "title": "Offer official Pytorch Vulkan backend on pytorch.org",
-      "author": "alshdavid",
-      "state": "open",
-      "created_at": "2025-08-08T23:19:51Z",
-      "updated_at": "2026-09-03T00:16:05Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/160230",
-      "labels": [
-        "feature",
-        "triaged",
-        "needs research",
-        "module: vulkan"
       ]
     },
     {
@@ -728,36 +747,6 @@
       "updated_at": "2026-09-02T06:42:09Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/195701",
       "labels": []
-    },
-    {
-      "number": 195685,
-      "title": "torch.tanh backward loses a representable float32 derivative near saturation",
-      "author": "ALinrunrun",
-      "state": "open",
-      "created_at": "2026-09-02T04:03:20Z",
-      "updated_at": "2026-09-02T04:05:27Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/195685",
-      "labels": [
-        "module: numerical-stability",
-        "triaged",
-        "module: derivatives",
-        "module: trigonometric functions",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 195684,
-      "title": "torch.softmax loses a representable float64 VJP component",
-      "author": "ALinrunrun",
-      "state": "open",
-      "created_at": "2026-09-02T04:00:51Z",
-      "updated_at": "2026-09-02T04:03:21Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/195684",
-      "labels": [
-        "triaged",
-        "module: edge cases",
-        "bot-triaged"
-      ]
     }
   ]
 }

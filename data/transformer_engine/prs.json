@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-05T11:27:06Z",
+  "collected_at": "2026-09-06T11:48:03Z",
   "prs": [
     {
       "number": 733,
@@ -8,12 +8,12 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-03T23:09:49Z",
-      "updated_at": "2026-09-03T23:09:49Z",
+      "updated_at": "2026-09-05T20:52:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/733",
       "labels": [
         "ci-level 1"
       ],
-      "draft": true
+      "draft": false
     },
     {
       "number": 732,

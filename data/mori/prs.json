@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-05T11:27:01Z",
+  "collected_at": "2026-09-06T11:47:58Z",
   "prs": [
     {
       "number": 573,
@@ -494,6 +494,30 @@
       "draft": true
     },
     {
+      "number": 577,
+      "title": "perf(EPv2): rework the gfx1250 combine entry barrier and widen its grid",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-18T08:44:18Z",
+      "updated_at": "2026-09-06T08:47:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/577",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 606,
+      "title": "feat(EPv2): support wide EP (larger than 32) in intranode kernels",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-26T10:41:14Z",
+      "updated_at": "2026-09-06T07:41:18Z",
+      "html_url": "https://github.com/ROCm/mori/pull/606",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 636,
       "title": "test(ep/v2): payload distribution and seed for the EP ubench",
       "author": "jhchouuu",
@@ -746,18 +770,6 @@
       "draft": false
     },
     {
-      "number": 606,
-      "title": "feat(EPv2): support wide EP (larger than 32) in intranode kernels",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-26T10:41:14Z",
-      "updated_at": "2026-08-27T09:50:44Z",
-      "html_url": "https://github.com/ROCm/mori/pull/606",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 609,
       "title": "fix(cco): initialize packaged ROCm runtime before native load",
       "author": "yangyuhuiling",
@@ -934,18 +946,6 @@
       "created_at": "2026-08-21T07:55:50Z",
       "updated_at": "2026-08-24T02:26:17Z",
       "html_url": "https://github.com/ROCm/mori/pull/590",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 577,
-      "title": "perf(EPv2): rework the gfx1250 combine entry barrier and widen its grid",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-18T08:44:18Z",
-      "updated_at": "2026-08-21T09:09:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/577",
       "labels": [],
       "draft": false
     },
