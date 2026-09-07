@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-09-06T11:50:07Z",
+  "collected_at": "2026-09-07T13:48:27Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 19,
-      "merged": 16,
-      "closed": 2
+      "opened": 16,
+      "merged": 18,
+      "closed": 3
     },
     "last_week": {
-      "opened": 24,
-      "merged": 19,
+      "opened": 23,
+      "merged": 18,
       "closed": 1
     },
-    "median_time_to_merge_hours": 39.9,
-    "merge_count": 38,
+    "median_time_to_merge_hours": 43.5,
+    "merge_count": 39,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 21,
+    "active_this_week": 14,
     "total_contributors": 27,
     "top_contributors": [
       {
         "author": "jhchouuu",
-        "prs_submitted": 21,
-        "prs_merged": 16,
-        "commits": 14
+        "prs_submitted": 22,
+        "prs_merged": 18,
+        "commits": 15
       },
       {
         "author": "isytwu",
@@ -35,27 +35,27 @@
       },
       {
         "author": "kawhil-amd",
-        "prs_submitted": 13,
-        "prs_merged": 11,
+        "prs_submitted": 12,
+        "prs_merged": 9,
         "commits": 8
       },
       {
         "author": "TianDi101",
         "prs_submitted": 12,
-        "prs_merged": 9,
-        "commits": 0
+        "prs_merged": 10,
+        "commits": 1
       },
       {
         "author": "QizhouZhang97",
-        "prs_submitted": 12,
-        "prs_merged": 10,
+        "prs_submitted": 10,
+        "prs_merged": 9,
         "commits": 7
       },
       {
         "author": "zhangfei829",
         "prs_submitted": 7,
-        "prs_merged": 6,
-        "commits": 6
+        "prs_merged": 7,
+        "commits": 7
       },
       {
         "author": "pemeliya",
@@ -64,16 +64,16 @@
         "commits": 3
       },
       {
-        "author": "kudomcho",
-        "prs_submitted": 6,
-        "prs_merged": 3,
+        "author": "amirakb89",
+        "prs_submitted": 5,
+        "prs_merged": 2,
         "commits": 2
       },
       {
-        "author": "amirakb89",
+        "author": "kudomcho",
         "prs_submitted": 5,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_merged": 2,
+        "commits": 2
       },
       {
         "author": "yangyuhuiling",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 51.9,
+    "days_since_last": 53.0,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v1.2.2"

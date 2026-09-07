@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-09-06T11:48:49Z",
+  "collected_at": "2026-09-07T13:46:55Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 17,
+      "opened": 15,
       "merged": 18,
       "closed": 1
     },
     "last_week": {
       "opened": 41,
-      "merged": 34,
+      "merged": 31,
       "closed": 8
     },
-    "median_time_to_merge_hours": 117.6,
-    "merge_count": 78,
+    "median_time_to_merge_hours": 115.0,
+    "merge_count": 74,
     "stale_prs": 1
   },
   "contributors": {
@@ -23,9 +23,9 @@
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 55,
-        "prs_merged": 25,
-        "commits": 25
+        "prs_submitted": 56,
+        "prs_merged": 26,
+        "commits": 24
       },
       {
         "author": "causten",
@@ -37,7 +37,7 @@
         "author": "CharlieL7",
         "prs_submitted": 12,
         "prs_merged": 5,
-        "commits": 3
+        "commits": 2
       },
       {
         "author": "eddieliao",
@@ -49,19 +49,19 @@
         "author": "shivadbhavsar",
         "prs_submitted": 7,
         "prs_merged": 4,
-        "commits": 3
+        "commits": 2
+      },
+      {
+        "author": "danieyan-amd",
+        "prs_submitted": 6,
+        "prs_merged": 4,
+        "commits": 1
       },
       {
         "author": "ahsan-ca",
         "prs_submitted": 6,
         "prs_merged": 4,
         "commits": 2
-      },
-      {
-        "author": "danieyan-amd",
-        "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 1
       },
       {
         "author": "chun-wan",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 8.7,
+    "days_since_last": 9.8,
     "avg_interval_days": 34.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.0"

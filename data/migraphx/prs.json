@@ -1,6 +1,21 @@
 {
-  "collected_at": "2026-09-06T11:47:37Z",
+  "collected_at": "2026-09-07T13:45:21Z",
   "prs": [
+    {
+      "number": 5192,
+      "title": "[AIRADSW-852] Fixing regression with slice-squeeze rewrite for scalar inputs",
+      "author": "urpetkov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T16:23:28Z",
+      "updated_at": "2026-09-07T09:40:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5192",
+      "labels": [
+        "bugfix",
+        "Windows"
+      ],
+      "draft": false
+    },
     {
       "number": 5100,
       "title": "Add binary cache",
@@ -265,21 +280,6 @@
       "updated_at": "2026-09-03T16:34:08Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5229",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5192,
-      "title": "[AIRADSW-852] Fixing regression with slice-squeeze rewrite for scalar inputs",
-      "author": "urpetkov-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T16:23:28Z",
-      "updated_at": "2026-09-03T16:18:21Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5192",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
       "draft": false
     },
     {
@@ -1539,6 +1539,30 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4303",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 4938,
+      "title": "Remove rocm-cmake dependency in docker",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-03T23:02:19Z",
+      "updated_at": "2026-09-06T16:30:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4938",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4764,
+      "title": "Fix concat_past_present OOB write when seqlens_k is negative",
+      "author": "danieyan-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-09T14:43:04Z",
+      "updated_at": "2026-09-06T12:00:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4764",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 4943,

@@ -1,14 +1,66 @@
 {
-  "collected_at": "2026-09-06T11:47:33Z",
+  "collected_at": "2026-09-07T13:45:15Z",
   "issues": [
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-07T13:42:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-06T11:31:17Z",
+      "updated_at": "2026-09-07T13:38:53Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 30209,
+      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
+      "author": "hongboshi1234",
+      "state": "open",
+      "created_at": "2026-07-06T04:14:01Z",
+      "updated_at": "2026-09-07T13:16:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
+      "labels": []
+    },
+    {
+      "number": 37372,
+      "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
+      "author": "imReese",
+      "state": "open",
+      "created_at": "2026-09-01T07:22:04Z",
+      "updated_at": "2026-09-07T07:07:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37372",
+      "labels": []
+    },
+    {
+      "number": 31504,
+      "title": "[Proposal] Fuse static FP8 activation quantization into producer kernels (norm / activation / allreduce epilogue)",
+      "author": "YAMY1234",
+      "state": "open",
+      "created_at": "2026-07-17T00:32:03Z",
+      "updated_at": "2026-09-07T06:55:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/31504",
+      "labels": []
+    },
+    {
+      "number": 35252,
+      "title": "[Bug] MoE tuner writes config files the runtime never reads (int4_w4a16)",
+      "author": "JeremiahM37",
+      "state": "open",
+      "created_at": "2026-08-18T05:06:13Z",
+      "updated_at": "2026-09-07T05:13:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35252",
       "labels": []
     },
     {
@@ -17,7 +69,7 @@
       "author": "ormandj",
       "state": "open",
       "created_at": "2026-09-03T13:05:18Z",
-      "updated_at": "2026-09-06T11:30:48Z",
+      "updated_at": "2026-09-06T20:49:46Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37813",
       "labels": []
     },
@@ -44,18 +96,6 @@
       "labels": []
     },
     {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-05T17:40:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
-    },
-    {
       "number": 38004,
       "title": "[RFC] Quantization module layout: Config, Scheme, backend kernels",
       "author": "mmangkad",
@@ -76,16 +116,6 @@
       "labels": []
     },
     {
-      "number": 37372,
-      "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
-      "author": "imReese",
-      "state": "open",
-      "created_at": "2026-09-01T07:22:04Z",
-      "updated_at": "2026-09-04T04:27:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37372",
-      "labels": []
-    },
-    {
       "number": 37559,
       "title": "[Bug] CUDA_ERROR_ILLEGAL_ADDRESS in MXFP8FP4/W4A8 MegaMoE path on B300 with sgl-deep-gemm 0.1.7",
       "author": "shyeh25",
@@ -93,16 +123,6 @@
       "created_at": "2026-09-02T06:53:34Z",
       "updated_at": "2026-09-04T02:53:25Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37559",
-      "labels": []
-    },
-    {
-      "number": 30209,
-      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
-      "author": "hongboshi1234",
-      "state": "open",
-      "created_at": "2026-07-06T04:14:01Z",
-      "updated_at": "2026-09-03T15:30:33Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
       "labels": []
     },
     {
@@ -384,16 +404,6 @@
       "labels": []
     },
     {
-      "number": 31504,
-      "title": "[Proposal] Fuse static FP8 activation quantization into producer kernels (norm / activation / allreduce epilogue)",
-      "author": "YAMY1234",
-      "state": "open",
-      "created_at": "2026-07-17T00:32:03Z",
-      "updated_at": "2026-08-26T11:56:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31504",
-      "labels": []
-    },
-    {
       "number": 36207,
       "title": "[Bug] MLA KV writers can overwrite reserved padding slot 0",
       "author": "tanth47",
@@ -451,16 +461,6 @@
       "created_at": "2026-06-04T00:27:55Z",
       "updated_at": "2026-08-19T02:03:29Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/27194",
-      "labels": []
-    },
-    {
-      "number": 35252,
-      "title": "[Bug] MoE tuner writes config files the runtime never reads (int4_w4a16)",
-      "author": "JeremiahM37",
-      "state": "open",
-      "created_at": "2026-08-18T05:06:13Z",
-      "updated_at": "2026-08-18T05:06:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35252",
       "labels": []
     },
     {

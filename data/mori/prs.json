@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-09-06T11:47:58Z",
+  "collected_at": "2026-09-07T13:45:50Z",
   "prs": [
+    {
+      "number": 642,
+      "title": "perf(EPv2): hide the dispatch drain read behind the grid barrier on gfx1250",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-07T13:08:14Z",
+      "updated_at": "2026-09-07T13:31:22Z",
+      "html_url": "https://github.com/ROCm/mori/pull/642",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 641,
+      "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
+      "author": "vinaynkaranth",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-07T12:28:42Z",
+      "updated_at": "2026-09-07T12:28:42Z",
+      "html_url": "https://github.com/ROCm/mori/pull/641",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 615,
+      "title": "[Pre-flight] Add cluster-network-topology skill and scripts",
+      "author": "lcskrishna",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T06:41:51Z",
+      "updated_at": "2026-09-07T08:07:56Z",
+      "html_url": "https://github.com/ROCm/mori/pull/615",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 625,
+      "title": "feat(ep/v2): internode dispatch/combine over CCO/GDA, and fix a doorbell-ordering deadlock in flushAsync",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T03:15:29Z",
+      "updated_at": "2026-09-07T03:50:06Z",
+      "html_url": "https://github.com/ROCm/mori/pull/625",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 573,
       "title": "Io cpp bench default",
@@ -26,42 +74,6 @@
       "draft": false
     },
     {
-      "number": 566,
-      "title": "Feat/env check gpu memory",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T23:32:16Z",
-      "updated_at": "2026-09-03T19:03:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/566",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 615,
-      "title": "[Pre-flight] Add cluster-network-topology skill and scripts",
-      "author": "lcskrishna",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T06:41:51Z",
-      "updated_at": "2026-09-03T14:08:57Z",
-      "html_url": "https://github.com/ROCm/mori/pull/615",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 540,
-      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T02:07:35Z",
-      "updated_at": "2026-09-03T12:41:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/540",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 619,
       "title": "perf(umbp): cut per-range overhead in local BatchGetRanges",
       "author": "isytwu",
@@ -72,18 +84,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/619",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 631,
-      "title": "perf(ep/v2): sync main + port #613 InterNodeV1LL combine opt to the cco kernel",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T06:53:01Z",
-      "updated_at": "2026-09-02T13:54:57Z",
-      "html_url": "https://github.com/ROCm/mori/pull/631",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 632,
@@ -146,30 +146,6 @@
       "draft": false
     },
     {
-      "number": 625,
-      "title": "feat(ep/v2): internode dispatch/combine over CCO/GDA, and fix a doorbell-ordering deadlock in flushAsync",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T03:15:29Z",
-      "updated_at": "2026-09-01T03:33:16Z",
-      "html_url": "https://github.com/ROCm/mori/pull/625",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 608,
-      "title": "perf(EPv2): size the gfx1250 combine pull tile against the LDS budget",
-      "author": "zhangfei829",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T07:20:02Z",
-      "updated_at": "2026-08-31T08:43:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/608",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 585,
       "title": "Don't merge: AI NIC perf collection",
       "author": "amirakb89",
@@ -202,18 +178,6 @@
       "created_at": "2026-08-17T19:13:18Z",
       "updated_at": "2026-08-31T08:43:15Z",
       "html_url": "https://github.com/ROCm/mori/pull/574",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 570,
-      "title": "test bnxt ci",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T04:01:57Z",
-      "updated_at": "2026-08-31T08:43:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/570",
       "labels": [],
       "draft": false
     },
@@ -492,6 +456,66 @@
       "html_url": "https://github.com/ROCm/mori/pull/621",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 640,
+      "title": "docs(known-issues): ROCm 7.2.x clr bugs \u2014 hipMemSetAccess sub-buffer + uncached VMM",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-07T03:05:43Z",
+      "updated_at": "2026-09-07T08:27:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/640",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 608,
+      "title": "perf(EPv2): size the gfx1250 combine pull tile against the LDS budget",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-27T07:20:02Z",
+      "updated_at": "2026-09-07T07:33:30Z",
+      "html_url": "https://github.com/ROCm/mori/pull/608",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 566,
+      "title": "Feat/env check gpu memory",
+      "author": "amirakb89",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-14T23:32:16Z",
+      "updated_at": "2026-09-07T06:40:45Z",
+      "html_url": "https://github.com/ROCm/mori/pull/566",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 631,
+      "title": "perf(ep/v2): sync main + port #613 InterNodeV1LL combine opt to the cco kernel",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-02T06:53:01Z",
+      "updated_at": "2026-09-07T02:59:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/631",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 540,
+      "title": "refactor(umbp): make distributed mode backend- and transport-agnostic",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-11T02:07:35Z",
+      "updated_at": "2026-09-07T02:17:12Z",
+      "html_url": "https://github.com/ROCm/mori/pull/540",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 577,
@@ -1414,66 +1438,6 @@
       "created_at": "2026-07-09T08:52:21Z",
       "updated_at": "2026-08-05T02:25:02Z",
       "html_url": "https://github.com/ROCm/mori/pull/459",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 524,
-      "title": "fix(EP): detect GPU model by PCI DID instead of CU count",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T10:01:18Z",
-      "updated_at": "2026-08-05T01:10:12Z",
-      "html_url": "https://github.com/ROCm/mori/pull/524",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 511,
-      "title": "perf(EP): tune EPv1 MI355X EP8 for DeepSeek-V4-Pro / Kimi-K3, key configs by topk",
-      "author": "Duyi-Wang",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-31T05:46:20Z",
-      "updated_at": "2026-08-04T14:03:45Z",
-      "html_url": "https://github.com/ROCm/mori/pull/511",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 522,
-      "title": "fix(EPv2): correctness and perf fixes for the EPv2 intranode dispatch/combine",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T06:02:08Z",
-      "updated_at": "2026-08-04T10:01:36Z",
-      "html_url": "https://github.com/ROCm/mori/pull/522",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 464,
-      "title": "perf(ep): add MI350X IntraNode/IntraNodeLL tuning configs for EP2/4/8",
-      "author": "kudomcho",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-10T23:56:57Z",
-      "updated_at": "2026-08-04T09:48:18Z",
-      "html_url": "https://github.com/ROCm/mori/pull/464",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 519,
-      "title": "Fix flaky data corruption in CCO SDMA tests",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T02:34:10Z",
-      "updated_at": "2026-08-04T05:34:11Z",
-      "html_url": "https://github.com/ROCm/mori/pull/519",
       "labels": [],
       "draft": false
     }
