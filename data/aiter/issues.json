@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-09-07T13:45:40Z",
+  "collected_at": "2026-09-08T12:20:42Z",
   "issues": [
+    {
+      "number": 5322,
+      "title": "[MI355X][MegaMoEV2] GLM-5.2 EP8 tuning handoff and C14 performance gap",
+      "author": "jiejingzhangamd",
+      "state": "open",
+      "created_at": "2026-09-08T06:12:21Z",
+      "updated_at": "2026-09-08T06:13:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5322",
+      "labels": []
+    },
+    {
+      "number": 5293,
+      "title": "[Perf] pa_decode_sparse: BLOCK_K=64 is suboptimal above the CU count \u2014 up to +43 % on gfx950 with a load-dependent choice",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-09-05T15:13:29Z",
+      "updated_at": "2026-09-07T19:02:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5293",
+      "labels": []
+    },
     {
       "number": 5299,
       "title": "[Bug] AITER_FLYDSL_FORCE_REDUCE: comment states the inverse default, and the switch is inert on the tuned-config path",
@@ -39,16 +59,6 @@
       "created_at": "2026-04-22T19:46:42Z",
       "updated_at": "2026-09-05T21:19:47Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2869",
-      "labels": []
-    },
-    {
-      "number": 5293,
-      "title": "[Perf] pa_decode_sparse: BLOCK_K=64 is suboptimal above the CU count \u2014 up to +43 % on gfx950 with a load-dependent choice",
-      "author": "stefanskiasan",
-      "state": "open",
-      "created_at": "2026-09-05T15:13:29Z",
-      "updated_at": "2026-09-05T15:13:29Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5293",
       "labels": []
     },
     {

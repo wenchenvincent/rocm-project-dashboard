@@ -1,6 +1,20 @@
 {
-  "collected_at": "2026-09-07T13:45:21Z",
+  "collected_at": "2026-09-08T12:20:25Z",
   "prs": [
+    {
+      "number": 5189,
+      "title": "Disable subprocess spawning during hiprtc kernel compilation",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T13:54:22Z",
+      "updated_at": "2026-09-08T07:24:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5189",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
     {
       "number": 5192,
       "title": "[AIRADSW-852] Fixing regression with slice-squeeze rewrite for scalar inputs",
@@ -105,20 +119,6 @@
       "created_at": "2026-08-27T18:52:29Z",
       "updated_at": "2026-09-04T14:27:54Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5204",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5189,
-      "title": "Disable subprocess spawning during hiprtc kernel compilation",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T13:54:22Z",
-      "updated_at": "2026-09-04T14:26:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5189",
       "labels": [
         "Windows"
       ],
@@ -1541,6 +1541,21 @@
       "draft": true
     },
     {
+      "number": 4948,
+      "title": "[AIMIGRAPHX-1081] Add Cache to instruction::eval()",
+      "author": "eddieliao",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-08T21:52:15Z",
+      "updated_at": "2026-09-08T01:30:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4948",
+      "labels": [
+        "high priority",
+        "Changelog: Optimized"
+      ],
+      "draft": false
+    },
+    {
       "number": 4938,
       "title": "Remove rocm-cmake dependency in docker",
       "author": "pfultz2",
@@ -2638,18 +2653,6 @@
       "created_at": "2026-07-22T19:03:23Z",
       "updated_at": "2026-08-21T16:34:45Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5087",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4801,
-      "title": "Add md5 sum function",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-20T15:43:11Z",
-      "updated_at": "2026-08-21T03:00:21Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4801",
       "labels": [],
       "draft": false
     }

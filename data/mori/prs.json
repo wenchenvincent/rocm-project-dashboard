@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-07T13:45:50Z",
+  "collected_at": "2026-09-08T12:20:51Z",
   "prs": [
     {
       "number": 642,
@@ -8,22 +8,70 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-07T13:08:14Z",
-      "updated_at": "2026-09-07T13:31:22Z",
+      "updated_at": "2026-09-08T11:55:46Z",
       "html_url": "https://github.com/ROCm/mori/pull/642",
       "labels": [],
       "draft": false
     },
     {
-      "number": 641,
-      "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
-      "author": "vinaynkaranth",
+      "number": 648,
+      "title": "test(EPv2): emit a JSON result table and per-point clock/power telemetry",
+      "author": "jhchouuu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-07T12:28:42Z",
-      "updated_at": "2026-09-07T12:28:42Z",
-      "html_url": "https://github.com/ROCm/mori/pull/641",
+      "created_at": "2026-09-08T11:40:27Z",
+      "updated_at": "2026-09-08T11:49:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/648",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 646,
+      "title": "feat(ep/v2): make the internode dispatch/combine a v2-native kernel",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T10:46:22Z",
+      "updated_at": "2026-09-08T11:43:27Z",
+      "html_url": "https://github.com/ROCm/mori/pull/646",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 647,
+      "title": "perf(ep): add MI355X IntraNodeLL combine tuning",
+      "author": "xudonlyu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T11:37:35Z",
+      "updated_at": "2026-09-08T11:37:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/647",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 639,
+      "title": "Group lanes by CQ before PSD non-CCQE poll",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T21:10:54Z",
+      "updated_at": "2026-09-08T10:32:51Z",
+      "html_url": "https://github.com/ROCm/mori/pull/639",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 644,
+      "title": "perf(umbp): send and resolve a key set once, not once per layer group",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T07:16:15Z",
+      "updated_at": "2026-09-08T07:16:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/644",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 615,
@@ -60,30 +108,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/573",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 639,
-      "title": "Group lanes by CQ before PSD non-CCQE poll",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T21:10:54Z",
-      "updated_at": "2026-09-03T21:11:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/639",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 619,
-      "title": "perf(umbp): cut per-range overhead in local BatchGetRanges",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T03:03:24Z",
-      "updated_at": "2026-09-03T05:54:14Z",
-      "html_url": "https://github.com/ROCm/mori/pull/619",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 632,
@@ -456,6 +480,30 @@
       "html_url": "https://github.com/ROCm/mori/pull/621",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 645,
+      "title": "perf(EPv2): skip the dispatch completion spin when the peer slot is a\u2026",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-08T07:51:36Z",
+      "updated_at": "2026-09-08T07:52:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/645",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 643,
+      "title": "fix(EPv2): honor the 128B TDM row invariant on gfx1250 metadata trans\u2026",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-08T03:26:15Z",
+      "updated_at": "2026-09-08T03:32:25Z",
+      "html_url": "https://github.com/ROCm/mori/pull/643",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 640,
@@ -1390,54 +1438,6 @@
       "created_at": "2026-07-30T20:44:04Z",
       "updated_at": "2026-08-06T03:53:47Z",
       "html_url": "https://github.com/ROCm/mori/pull/510",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 512,
-      "title": "(feat) generate perf report after nightly building",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-31T07:23:36Z",
-      "updated_at": "2026-08-05T12:33:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/512",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 528,
-      "title": "bugfix: guard ModuleLogger's shared state with a mutex",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T09:21:59Z",
-      "updated_at": "2026-08-05T12:31:43Z",
-      "html_url": "https://github.com/ROCm/mori/pull/528",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 513,
-      "title": "feat(cco): gfx1250 SDMA support + anvil loopback/lifecycle fixes",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-31T09:36:36Z",
-      "updated_at": "2026-08-05T05:57:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/513",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 459,
-      "title": "test(ep): add configurable CLI knobs to dispatch/combine benchmark",
-      "author": "amd-arozanov",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-09T08:52:21Z",
-      "updated_at": "2026-08-05T02:25:02Z",
-      "html_url": "https://github.com/ROCm/mori/pull/459",
       "labels": [],
       "draft": false
     }

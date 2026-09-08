@@ -1,6 +1,28 @@
 {
-  "collected_at": "2026-09-07T13:45:55Z",
+  "collected_at": "2026-09-08T12:20:56Z",
   "issues": [
+    {
+      "number": 652,
+      "title": "Full docstring + minimal-example coverage for the Python package",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-06-04T06:47:33Z",
+      "updated_at": "2026-09-08T08:07:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/652",
+      "labels": [
+        "FlyDSL/Customization"
+      ]
+    },
+    {
+      "number": 701,
+      "title": "Preserve logical signedness for Pointer and Tensor integer dtypes",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-06-17T07:02:45Z",
+      "updated_at": "2026-09-08T08:04:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/701",
+      "labels": []
+    },
     {
       "number": 1087,
       "title": "[Issue]: gfx950: a dropped `s_mov_b64` in an SGPR spill-staging chain puts an undefined register in a buffer descriptor base",
@@ -285,18 +307,6 @@
       "labels": []
     },
     {
-      "number": 652,
-      "title": "Full docstring + minimal-example coverage for the Python package",
-      "author": "sjfeng1999",
-      "state": "open",
-      "created_at": "2026-06-04T06:47:33Z",
-      "updated_at": "2026-06-25T09:50:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/652",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
-    },
-    {
       "number": 708,
       "title": "[Issue]: MXFP4 MoE low MFU at large shapes and long latency at small tokens",
       "author": "coderfeli",
@@ -349,16 +359,6 @@
       "labels": [
         "FlyDSL/Customization"
       ]
-    },
-    {
-      "number": 701,
-      "title": "Preserve logical signedness for Pointer and Tensor integer dtypes",
-      "author": "sjfeng1999",
-      "state": "open",
-      "created_at": "2026-06-17T07:02:45Z",
-      "updated_at": "2026-06-17T07:02:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/701",
-      "labels": []
     },
     {
       "number": 688,
@@ -414,16 +414,6 @@
       "created_at": "2026-06-04T15:33:04Z",
       "updated_at": "2026-06-05T06:45:12Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/653",
-      "labels": []
-    },
-    {
-      "number": 573,
-      "title": "[Documentation]: Add a comprehensive onboarding Jupyter notebook for FlyDSL",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-05-27T06:22:24Z",
-      "updated_at": "2026-06-03T07:54:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/573",
       "labels": []
     },
     {
