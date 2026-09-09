@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-09-08T12:20:51Z",
+  "collected_at": "2026-09-09T12:32:48Z",
   "prs": [
+    {
+      "number": 644,
+      "title": "perf(umbp): send and resolve a key set once, not once per layer group",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T07:16:15Z",
+      "updated_at": "2026-09-09T11:28:24Z",
+      "html_url": "https://github.com/ROCm/mori/pull/644",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 649,
+      "title": "register Ionic CQ/SQ/RQ rings and atomic ibuf via dmabuf",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T16:44:10Z",
+      "updated_at": "2026-09-09T10:52:48Z",
+      "html_url": "https://github.com/ROCm/mori/pull/649",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 625,
+      "title": "feat(ep/v2): internode dispatch/combine over CCO/GDA, and fix a doorbell-ordering deadlock in flushAsync",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T03:15:29Z",
+      "updated_at": "2026-09-09T10:23:50Z",
+      "html_url": "https://github.com/ROCm/mori/pull/625",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 653,
+      "title": "fix(rdma): cco/shmem indicies wraparound (#626)",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T09:17:05Z",
+      "updated_at": "2026-09-09T09:17:05Z",
+      "html_url": "https://github.com/ROCm/mori/pull/653",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 652,
+      "title": "feat(ccl): support HIP graph capture in AllGather SDMA",
+      "author": "alanshwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T09:05:03Z",
+      "updated_at": "2026-09-09T09:11:49Z",
+      "html_url": "https://github.com/ROCm/mori/pull/652",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 651,
+      "title": "ci: add a ROCm 10 intranode gate, and fix the two things that broke it",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T06:12:45Z",
+      "updated_at": "2026-09-09T08:21:54Z",
+      "html_url": "https://github.com/ROCm/mori/pull/651",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 642,
       "title": "perf(EPv2): hide the dispatch drain read behind the grid barrier on gfx1250",
@@ -12,30 +84,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/642",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 648,
-      "title": "test(EPv2): emit a JSON result table and per-point clock/power telemetry",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-08T11:40:27Z",
-      "updated_at": "2026-09-08T11:49:35Z",
-      "html_url": "https://github.com/ROCm/mori/pull/648",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 646,
-      "title": "feat(ep/v2): make the internode dispatch/combine a v2-native kernel",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-08T10:46:22Z",
-      "updated_at": "2026-09-08T11:43:27Z",
-      "html_url": "https://github.com/ROCm/mori/pull/646",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 647,
@@ -58,42 +106,6 @@
       "created_at": "2026-09-03T21:10:54Z",
       "updated_at": "2026-09-08T10:32:51Z",
       "html_url": "https://github.com/ROCm/mori/pull/639",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 644,
-      "title": "perf(umbp): send and resolve a key set once, not once per layer group",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-08T07:16:15Z",
-      "updated_at": "2026-09-08T07:16:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/644",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 615,
-      "title": "[Pre-flight] Add cluster-network-topology skill and scripts",
-      "author": "lcskrishna",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T06:41:51Z",
-      "updated_at": "2026-09-07T08:07:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/615",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 625,
-      "title": "feat(ep/v2): internode dispatch/combine over CCO/GDA, and fix a doorbell-ordering deadlock in flushAsync",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T03:15:29Z",
-      "updated_at": "2026-09-07T03:50:06Z",
-      "html_url": "https://github.com/ROCm/mori/pull/625",
       "labels": [],
       "draft": false
     },
@@ -142,18 +154,6 @@
       "created_at": "2026-08-25T16:29:03Z",
       "updated_at": "2026-09-01T16:40:01Z",
       "html_url": "https://github.com/ROCm/mori/pull/603",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 612,
-      "title": "fix: use strided offsets in run_single_once when batch_contiguous is disabled",
-      "author": "kudomcho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T19:03:09Z",
-      "updated_at": "2026-09-01T15:47:19Z",
-      "html_url": "https://github.com/ROCm/mori/pull/612",
       "labels": [],
       "draft": false
     },
@@ -480,6 +480,66 @@
       "html_url": "https://github.com/ROCm/mori/pull/621",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 612,
+      "title": "fix: use strided offsets in run_single_once when batch_contiguous is disabled",
+      "author": "kudomcho",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-27T19:03:09Z",
+      "updated_at": "2026-09-09T10:56:12Z",
+      "html_url": "https://github.com/ROCm/mori/pull/612",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 646,
+      "title": "feat(ep/v2): make the internode dispatch/combine a v2-native kernel",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-08T10:46:22Z",
+      "updated_at": "2026-09-09T10:23:48Z",
+      "html_url": "https://github.com/ROCm/mori/pull/646",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 648,
+      "title": "test(EPv2): emit a JSON result table and per-point clock/power telemetry",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-08T11:40:27Z",
+      "updated_at": "2026-09-09T09:04:32Z",
+      "html_url": "https://github.com/ROCm/mori/pull/648",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 615,
+      "title": "docs(skills): [Pre-flight] Add cluster-network-topology skill and scripts",
+      "author": "lcskrishna",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-28T06:41:51Z",
+      "updated_at": "2026-09-09T08:06:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/615",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 650,
+      "title": "fix(umbp): dlopen libhipfile instead of linking it",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-09T02:54:19Z",
+      "updated_at": "2026-09-09T03:57:59Z",
+      "html_url": "https://github.com/ROCm/mori/pull/650",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 645,
@@ -1390,54 +1450,6 @@
       "created_at": "2026-08-10T06:20:00Z",
       "updated_at": "2026-08-10T07:02:38Z",
       "html_url": "https://github.com/ROCm/mori/pull/535",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 532,
-      "title": "feat(ep/intranode): bring MoE dispatch/combine up on gfx1250 (MI450)",
-      "author": "zhangfei829",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-08T12:38:08Z",
-      "updated_at": "2026-08-08T16:11:27Z",
-      "html_url": "https://github.com/ROCm/mori/pull/532",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 530,
-      "title": "perf(EPv2): update gfx1250 tune config + optimize kernel impl",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-06T12:47:28Z",
-      "updated_at": "2026-08-07T08:52:28Z",
-      "html_url": "https://github.com/ROCm/mori/pull/530",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 529,
-      "title": "compat(epv2): support FlyDSL 0.3.0 alongside 0.2.x",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-06T07:56:14Z",
-      "updated_at": "2026-08-07T06:43:38Z",
-      "html_url": "https://github.com/ROCm/mori/pull/529",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 510,
-      "title": "roctx ranges",
-      "author": "AakarshAMD",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-30T20:44:04Z",
-      "updated_at": "2026-08-06T03:53:47Z",
-      "html_url": "https://github.com/ROCm/mori/pull/510",
       "labels": [],
       "draft": false
     }

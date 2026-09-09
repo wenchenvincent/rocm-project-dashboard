@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-09-08T12:21:42Z",
+  "collected_at": "2026-09-09T12:33:27Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 9,
-      "merged": 9,
+      "opened": 12,
+      "merged": 8,
       "closed": 0
     },
     "last_week": {
-      "opened": 12,
-      "merged": 5,
+      "opened": 11,
+      "merged": 7,
       "closed": 0
     },
-    "median_time_to_merge_hours": 109.6,
+    "median_time_to_merge_hours": 100.9,
     "merge_count": 30,
-    "stale_prs": 7
+    "stale_prs": 5
   },
   "contributors": {
     "active_this_week": 12,
@@ -23,8 +23,8 @@
     "top_contributors": [
       {
         "author": "AlexAUT",
-        "prs_submitted": 10,
-        "prs_merged": 8,
+        "prs_submitted": 11,
+        "prs_merged": 9,
         "commits": 0
       },
       {
@@ -34,7 +34,7 @@
         "commits": 0
       },
       {
-        "author": "umangyadav",
+        "author": "antiagainst",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
@@ -46,8 +46,14 @@
         "commits": 0
       },
       {
-        "author": "ZelboK",
-        "prs_submitted": 3,
+        "author": "Dewei-Wang-sh",
+        "prs_submitted": 2,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "umangyadav",
+        "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       },
@@ -74,12 +80,6 @@
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
-      },
-      {
-        "author": "lohiaj",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
       }
     ],
     "bus_factor": 3
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 22,
     "opened_this_week": 0,
-    "closed_this_week": 10,
+    "closed_this_week": 11,
     "unanswered": 10
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 10.7,
+    "days_since_last": 11.8,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

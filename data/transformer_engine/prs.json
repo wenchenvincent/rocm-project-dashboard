@@ -1,19 +1,57 @@
 {
-  "collected_at": "2026-09-08T12:20:58Z",
+  "collected_at": "2026-09-09T12:32:56Z",
   "prs": [
     {
       "number": 733,
-      "title": "gfx1250 mxfp8: fix dequant",
+      "title": "gfx1250 mxfp8: fix dequant, reference test swizzle",
       "author": "matthiasdiener",
       "state": "open",
       "merged": false,
       "created_at": "2026-09-03T23:09:49Z",
-      "updated_at": "2026-09-05T20:52:28Z",
+      "updated_at": "2026-09-08T22:37:12Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/733",
       "labels": [
         "ci-level 1"
       ],
       "draft": false
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-09-08T22:18:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 723,
+      "title": " Triton mxfp4 grouped GEMM kernel",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T18:58:10Z",
+      "updated_at": "2026-09-08T21:03:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/723",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 724,
+      "title": "[proof-of-concept] comm overlap microbenchmarks",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T21:11:44Z",
+      "updated_at": "2026-09-08T20:59:52Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/724",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 732,
@@ -22,8 +60,50 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-03T21:15:40Z",
-      "updated_at": "2026-09-03T21:26:38Z",
+      "updated_at": "2026-09-08T20:54:42Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/732",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 697,
+      "title": "Integrate MXFP4 hipblaslt GEMM support",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T15:04:06Z",
+      "updated_at": "2026-09-08T20:28:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 712,
+      "title": "CI: upload Python coverage.json from pytest (non-blocking)",
+      "author": "jiagaoxiang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T22:22:23Z",
+      "updated_at": "2026-09-08T19:59:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/712",
+      "labels": [
+        "community-contribution"
+      ],
+      "draft": false
+    },
+    {
+      "number": 625,
+      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-15T05:36:28Z",
+      "updated_at": "2026-09-08T19:45:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
       "labels": [
         "ci-level 3"
       ],
@@ -36,12 +116,38 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-25T19:05:34Z",
-      "updated_at": "2026-09-03T19:34:36Z",
+      "updated_at": "2026-09-08T19:34:32Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/716",
       "labels": [
         "ci-level 1"
       ],
       "draft": false
+    },
+    {
+      "number": 676,
+      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-22T03:23:51Z",
+      "updated_at": "2026-09-08T19:15:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 705,
+      "title": "[proof-of-concept] Kernel autotuning in TE",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T15:42:54Z",
+      "updated_at": "2026-09-08T17:01:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 721,
@@ -84,34 +190,6 @@
       "draft": false
     },
     {
-      "number": 709,
-      "title": "Update to new QoLA/CK-JIT/AITER",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T22:08:25Z",
-      "updated_at": "2026-09-02T20:01:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/709",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 697,
-      "title": "Integrate MXFP4 hipblaslt GEMM support",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T15:04:06Z",
-      "updated_at": "2026-09-02T15:56:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/697",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 715,
       "title": "Do not mark replicated weights as tensor-model-parallel",
       "author": "wenchenvincent",
@@ -122,44 +200,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/715",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-09-01T21:56:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 724,
-      "title": "[proof-of-concept] comm overlap microbenchmarks",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T21:11:44Z",
-      "updated_at": "2026-08-31T21:13:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/724",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 723,
-      "title": " Triton mxfp4 grouped GEMM kernel",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T18:58:10Z",
-      "updated_at": "2026-08-31T18:59:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/723",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
     },
     {
       "number": 678,
@@ -202,32 +242,6 @@
       "draft": true
     },
     {
-      "number": 705,
-      "title": "[proof-of-concept] Kernel autotuning in TE",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T15:42:54Z",
-      "updated_at": "2026-08-26T21:08:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 676,
-      "title": "Experimental FlyDSL GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T03:23:51Z",
-      "updated_at": "2026-08-26T13:27:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/676",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 717,
       "title": "Integrate Grouped Gemm v2 on ROCm",
       "author": "VeeraRajasekhar",
@@ -238,20 +252,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/717",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 712,
-      "title": "CI: upload Python coverage.json from pytest (non-blocking)",
-      "author": "jiagaoxiang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T22:22:23Z",
-      "updated_at": "2026-08-21T22:33:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/712",
-      "labels": [
-        "community-contribution"
-      ],
-      "draft": false
     },
     {
       "number": 710,
@@ -338,20 +338,6 @@
       "draft": false
     },
     {
-      "number": 625,
-      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-08-11T15:54:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 670,
       "title": "[proof-of-concept] benchmarks dashboard",
       "author": "matthiasdiener",
@@ -400,20 +386,6 @@
         "ci-level 3"
       ],
       "draft": true
-    },
-    {
-      "number": 683,
-      "title": "Updated AITER/QoLA",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T15:38:43Z",
-      "updated_at": "2026-07-31T20:08:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/683",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 666,
@@ -807,6 +779,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 709,
+      "title": "Update to new QoLA/CK-JIT/AITER",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-19T22:08:25Z",
+      "updated_at": "2026-09-08T17:28:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/709",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1997,32 +1983,6 @@
       "updated_at": "2026-06-05T16:58:38Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/448",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 607,
-      "title": "Moves to ROCm hosted QoLA",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-02T16:57:10Z",
-      "updated_at": "2026-06-03T16:02:34Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/607",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 574,
-      "title": "ck_tile grouped gemm: more padding options",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-05T00:15:07Z",
-      "updated_at": "2026-06-03T16:02:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/574",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     }
   ]

@@ -1,47 +1,47 @@
 {
-  "collected_at": "2026-09-08T12:21:43Z",
+  "collected_at": "2026-09-09T12:33:29Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 8,
-      "merged": 13,
+      "opened": 6,
+      "merged": 8,
       "closed": 1
     },
     "last_week": {
-      "opened": 36,
-      "merged": 30,
+      "opened": 37,
+      "merged": 37,
       "closed": 7
     },
-    "median_time_to_merge_hours": 116.5,
-    "merge_count": 67,
+    "median_time_to_merge_hours": 151.0,
+    "merge_count": 72,
     "stale_prs": 1
   },
   "contributors": {
-    "active_this_week": 18,
-    "total_contributors": 47,
+    "active_this_week": 15,
+    "total_contributors": 46,
     "top_contributors": [
       {
         "author": "pfultz2",
         "prs_submitted": 55,
-        "prs_merged": 25,
-        "commits": 24
+        "prs_merged": 26,
+        "commits": 25
       },
       {
         "author": "causten",
         "prs_submitted": 22,
-        "prs_merged": 12,
+        "prs_merged": 13,
         "commits": 13
       },
       {
         "author": "CharlieL7",
         "prs_submitted": 12,
-        "prs_merged": 5,
-        "commits": 2
+        "prs_merged": 6,
+        "commits": 3
       },
       {
         "author": "eddieliao",
-        "prs_submitted": 9,
+        "prs_submitted": 10,
         "prs_merged": 6,
         "commits": 1
       },
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 10.8,
+    "days_since_last": 11.8,
     "avg_interval_days": 34.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.0"

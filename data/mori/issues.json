@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-08T12:20:52Z",
+  "collected_at": "2026-09-09T12:32:49Z",
   "issues": [
     {
       "number": 610,
@@ -7,8 +7,18 @@
       "author": "Oseltamivir",
       "state": "open",
       "created_at": "2026-08-27T13:18:07Z",
-      "updated_at": "2026-09-08T08:36:14Z",
+      "updated_at": "2026-09-09T08:31:46Z",
       "html_url": "https://github.com/ROCm/mori/issues/610",
+      "labels": []
+    },
+    {
+      "number": 626,
+      "title": "[Issue]: shmem ibgda: 32-bit WQE counter wraparound can deadlock ShmemPutMemNbiThreadKernelImpl",
+      "author": "btbearnj",
+      "state": "open",
+      "created_at": "2026-09-01T03:53:49Z",
+      "updated_at": "2026-09-09T02:09:34Z",
+      "html_url": "https://github.com/ROCm/mori/issues/626",
       "labels": []
     },
     {
@@ -22,16 +32,6 @@
       "labels": [
         "bug"
       ]
-    },
-    {
-      "number": 626,
-      "title": "[Issue]: shmem ibgda: 32-bit WQE counter wraparound can deadlock ShmemPutMemNbiThreadKernelImpl",
-      "author": "btbearnj",
-      "state": "open",
-      "created_at": "2026-09-01T03:53:49Z",
-      "updated_at": "2026-09-01T03:53:49Z",
-      "html_url": "https://github.com/ROCm/mori/issues/626",
-      "labels": []
     },
     {
       "number": 557,

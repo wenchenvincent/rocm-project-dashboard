@@ -1,55 +1,55 @@
 {
-  "collected_at": "2026-09-08T12:23:27Z",
+  "collected_at": "2026-09-09T12:35:25Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 7,
-      "merged": 4,
-      "closed": 1
+      "opened": 6,
+      "merged": 5,
+      "closed": 2
     },
     "last_week": {
-      "opened": 11,
-      "merged": 6,
+      "opened": 10,
+      "merged": 5,
       "closed": 1
     },
-    "median_time_to_merge_hours": 28.8,
+    "median_time_to_merge_hours": 34.1,
     "merge_count": 11,
-    "stale_prs": 35
+    "stale_prs": 34
   },
   "contributors": {
-    "active_this_week": 8,
+    "active_this_week": 7,
     "total_contributors": 27,
     "top_contributors": [
       {
         "author": "matthiasdiener",
-        "prs_submitted": 32,
-        "prs_merged": 20,
+        "prs_submitted": 31,
+        "prs_merged": 19,
         "commits": 9
       },
       {
         "author": "Micky774",
-        "prs_submitted": 20,
-        "prs_merged": 12,
+        "prs_submitted": 18,
+        "prs_merged": 11,
         "commits": 1
       },
       {
         "author": "ipanfilo",
         "prs_submitted": 17,
-        "prs_merged": 14,
-        "commits": 3
-      },
-      {
-        "author": "alextmagro",
-        "prs_submitted": 13,
-        "prs_merged": 12,
-        "commits": 3
+        "prs_merged": 15,
+        "commits": 4
       },
       {
         "author": "VeeraRajasekhar",
         "prs_submitted": 13,
         "prs_merged": 6,
         "commits": 5
+      },
+      {
+        "author": "alextmagro",
+        "prs_submitted": 13,
+        "prs_merged": 12,
+        "commits": 3
       },
       {
         "author": "sudhu2k",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 6.4,
+    "days_since_last": 7.4,
     "avg_interval_days": 41.9,
     "total_releases": 5,
     "latest_tag": "v2.15_rocm"

@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-09-08T12:20:22Z",
+  "collected_at": "2026-09-09T12:32:16Z",
   "prs": [
+    {
+      "number": 11640,
+      "title": "Use stable python API in `triton_amd.cc`",
+      "author": "anmyachev",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-08T16:15:29Z",
+      "updated_at": "2026-09-09T11:06:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11640",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11657,
+      "title": "[AMD][NFC] Export scaled_upcast layout helper for every supported arch",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T10:12:40Z",
+      "updated_at": "2026-09-09T10:28:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11657",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11655,
+      "title": "[AMD] Widen InstCombine's SimplifyDemandedVectorElts walk depth",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T07:30:19Z",
+      "updated_at": "2026-09-09T07:30:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11655",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11651,
+      "title": "[AMD] Fence LDS around wave synchronization",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T00:50:33Z",
+      "updated_at": "2026-09-09T02:59:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11651",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11638,
+      "title": "[AMD][Gluon] Refresh language API docs",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-08T15:43:15Z",
+      "updated_at": "2026-09-08T21:09:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11638",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11470,
+      "title": "[AMD][GLUON] Expose helper function to compute scaled_upcast fp4 layout",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-26T13:54:22Z",
+      "updated_at": "2026-09-08T16:36:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11470",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11465,
       "title": "[AMD][BACKEND] Fix free-variable mask key to enable register deduplication in stores and atomics",
@@ -12,18 +84,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11465",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11470,
-      "title": "[AMD][GLUON] Expose helper function to compute scaled_upcast fp4 layout",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T13:54:22Z",
-      "updated_at": "2026-09-08T10:12:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11470",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 11599,
@@ -566,42 +626,6 @@
       "draft": false
     },
     {
-      "number": 11018,
-      "title": "[AMD] Emit buffer atomic min/max only for the supported data types ",
-      "author": "umangyadav",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-22T23:13:18Z",
-      "updated_at": "2026-08-17T22:31:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11018",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11282,
-      "title": "[AMD] Preserve i32 accumulation for small-K int8 dots",
-      "author": "lohiaj",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-12T17:34:06Z",
-      "updated_at": "2026-08-17T18:07:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11282",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11239,
-      "title": "[AMD] Guard extract-slice concat canonicalization",
-      "author": "guoriyue",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-10T02:20:05Z",
-      "updated_at": "2026-08-15T00:08:00Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11239",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10708,
       "title": "[AMD] Add CDNA5 Gluon stream bandwidth example",
       "author": "adityakankariya",
@@ -694,30 +718,6 @@
       "created_at": "2026-07-27T08:29:04Z",
       "updated_at": "2026-07-29T08:37:06Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11055",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11012,
-      "title": "[AMD][DRAFT] proton rocprofsdk error 16 pytest fix",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-22T18:42:42Z",
-      "updated_at": "2026-07-27T18:27:05Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11012",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 10885,
-      "title": "[AMD][DRAFT] test out if still broken ",
-      "author": "ZelboK",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T20:44:21Z",
-      "updated_at": "2026-07-21T19:10:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10885",
       "labels": [],
       "draft": false
     }

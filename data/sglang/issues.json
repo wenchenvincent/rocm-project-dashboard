@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-08T12:20:20Z",
+  "collected_at": "2026-09-09T12:32:14Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,40 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-08T12:13:31Z",
+      "updated_at": "2026-09-09T12:26:50Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-09T12:09:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 38513,
+      "title": "supports_fp8() always True; _apply_fallback_scaled_mm still calls torch._scaled_mm (no escape on SM<89)",
+      "author": "quantz8a",
+      "state": "open",
+      "created_at": "2026-09-08T13:07:38Z",
+      "updated_at": "2026-09-09T08:47:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38513",
+      "labels": []
+    },
+    {
+      "number": 38618,
+      "title": "[Bug] GLM-5.3: checkpoints written by transformers load with MoE/mHC/KDA weights silently dropped",
+      "author": "siliangchen-amd",
+      "state": "open",
+      "created_at": "2026-09-09T03:44:08Z",
+      "updated_at": "2026-09-09T03:50:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38618",
       "labels": []
     },
     {
@@ -17,28 +49,73 @@
       "author": "hongboshi1234",
       "state": "open",
       "created_at": "2026-07-06T04:14:01Z",
-      "updated_at": "2026-09-08T10:40:43Z",
+      "updated_at": "2026-09-09T02:20:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30209",
       "labels": []
     },
     {
-      "number": 37813,
-      "title": "[Tracking] GLM-5.3-Flash on SM120: required fixes, carry status and release qualification",
-      "author": "ormandj",
+      "number": 21703,
+      "title": "[Roadmap] Prefill-Decode Disaggregation Roadmap (2026 Q2)",
+      "author": "ShangmingCai",
       "state": "open",
-      "created_at": "2026-09-03T13:05:18Z",
-      "updated_at": "2026-09-08T10:22:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37813",
+      "created_at": "2026-03-30T17:20:10Z",
+      "updated_at": "2026-09-09T00:20:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21703",
+      "labels": [
+        "inactive",
+        "PD Disaggregation"
+      ]
+    },
+    {
+      "number": 22949,
+      "title": "Development Roadmap (2026 Q2)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-04-16T08:35:03Z",
+      "updated_at": "2026-09-08T20:14:51Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
       "labels": []
     },
     {
-      "number": 38477,
-      "title": "[Bug] FP8 MHA hybrid model crashes: HybridLinearAttnBackend has no forward_metadata",
-      "author": "long10024070",
+      "number": 34861,
+      "title": "[Bug] [NPU] Router GEMM output should always be fp32",
+      "author": "b8zhong",
       "state": "open",
-      "created_at": "2026-09-08T09:37:16Z",
-      "updated_at": "2026-09-08T09:37:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/38477",
+      "created_at": "2026-08-14T15:17:51Z",
+      "updated_at": "2026-09-08T19:00:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34861",
+      "labels": [
+        "npu"
+      ]
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-09-08T15:09:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 26890,
+      "title": "[AITER-Upgrade] AITER Scout Status",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-06-01T06:01:24Z",
+      "updated_at": "2026-09-08T14:19:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
+      "labels": []
+    },
+    {
+      "number": 38004,
+      "title": "[RFC] Quantization module layout: Config, Scheme, backend kernels",
+      "author": "mmangkad",
+      "state": "open",
+      "created_at": "2026-09-04T11:30:01Z",
+      "updated_at": "2026-09-08T12:40:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38004",
       "labels": []
     },
     {
@@ -62,28 +139,6 @@
       "labels": [
         "amd",
         "aiter"
-      ]
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-09-08T01:31:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-07T18:03:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
       ]
     },
     {
@@ -139,16 +194,6 @@
       "labels": []
     },
     {
-      "number": 38004,
-      "title": "[RFC] Quantization module layout: Config, Scheme, backend kernels",
-      "author": "mmangkad",
-      "state": "open",
-      "created_at": "2026-09-04T11:30:01Z",
-      "updated_at": "2026-09-04T21:06:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/38004",
-      "labels": []
-    },
-    {
       "number": 38029,
       "title": "[Bug] EAGLE DSA draft backend misses KVIndexTranslator in FP8 MHA prefix reads",
       "author": "tanth47",
@@ -187,28 +232,6 @@
       "updated_at": "2026-09-03T10:25:36Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29736",
       "labels": []
-    },
-    {
-      "number": 22949,
-      "title": "Development Roadmap (2026 Q2)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-09-03T07:50:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
-      "labels": []
-    },
-    {
-      "number": 34861,
-      "title": "[Bug] [NPU] Router GEMM output should always be fp32",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-14T15:17:51Z",
-      "updated_at": "2026-09-03T04:33:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34861",
-      "labels": [
-        "npu"
-      ]
     },
     {
       "number": 37648,
@@ -253,16 +276,6 @@
       "labels": []
     },
     {
-      "number": 26890,
-      "title": "[AITER-Upgrade] AITER Scout Status",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-06-01T06:01:24Z",
-      "updated_at": "2026-09-01T10:01:59Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
-      "labels": []
-    },
-    {
       "number": 16565,
       "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
       "author": "yeahdongcn",
@@ -272,19 +285,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/16565",
       "labels": [
         "mthreads"
-      ]
-    },
-    {
-      "number": 21703,
-      "title": "[Roadmap] Prefill-Decode Disaggregation Roadmap (2026 Q2)",
-      "author": "ShangmingCai",
-      "state": "open",
-      "created_at": "2026-03-30T17:20:10Z",
-      "updated_at": "2026-09-01T03:15:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21703",
-      "labels": [
-        "inactive",
-        "PD Disaggregation"
       ]
     },
     {

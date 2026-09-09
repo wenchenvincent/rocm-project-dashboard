@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-09-08T12:19:57Z",
+  "collected_at": "2026-09-09T12:31:48Z",
   "prs": [
+    {
+      "number": 40408,
+      "title": "[ROCm] Build and stamp the complete ROCm wheel set in CI",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T23:16:34Z",
+      "updated_at": "2026-09-08T21:09:49Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40408",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 40427,
       "title": "[ROCm] Enable more bazel tests in ROCm CI",
@@ -14,18 +26,6 @@
         "kokoro:force-run",
         "pull ready"
       ],
-      "draft": false
-    },
-    {
-      "number": 40408,
-      "title": "[ROCm] Build and stamp the complete ROCm wheel set in CI",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T23:16:34Z",
-      "updated_at": "2026-09-03T00:19:53Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40408",
-      "labels": [],
       "draft": false
     },
     {

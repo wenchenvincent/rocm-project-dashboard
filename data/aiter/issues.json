@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-09-08T12:20:42Z",
+  "collected_at": "2026-09-09T12:32:39Z",
   "issues": [
+    {
+      "number": 5229,
+      "title": "[Issue]: gfx1201 (R9700) \u2014 Triton unified_attention overflows RDNA's LDS budget, and the ROCm 10.0 vLLM container ships no gfx1201 code objects",
+      "author": "hanchi-gao",
+      "state": "open",
+      "created_at": "2026-09-03T06:01:45Z",
+      "updated_at": "2026-09-09T06:47:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5229",
+      "labels": []
+    },
+    {
+      "number": 5356,
+      "title": "[tune] a4w4_blockscale tuner has no --libtype axis, so CK Tile's MX GEMM can never compete",
+      "author": "ThomasNing",
+      "state": "open",
+      "created_at": "2026-09-08T20:59:50Z",
+      "updated_at": "2026-09-08T20:59:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5356",
+      "labels": []
+    },
+    {
+      "number": 5032,
+      "title": "[RFC]: The MoE tuner's acceptance metric accepts a kernel that destroys 18% of its output",
+      "author": "KHassanQazi",
+      "state": "open",
+      "created_at": "2026-08-26T19:56:43Z",
+      "updated_at": "2026-09-08T15:54:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5032",
+      "labels": []
+    },
+    {
+      "number": 5031,
+      "title": "[RFC]: Replace the hardcoded `atol=100` in the MoE op_tests with a derived tolerance",
+      "author": "KHassanQazi",
+      "state": "open",
+      "created_at": "2026-08-26T19:56:24Z",
+      "updated_at": "2026-09-08T15:54:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5031",
+      "labels": []
+    },
+    {
+      "number": 5030,
+      "title": "[RFC]: Let a failed `checkAllclose` fail the test",
+      "author": "KHassanQazi",
+      "state": "open",
+      "created_at": "2026-08-26T19:55:58Z",
+      "updated_at": "2026-09-08T15:50:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5030",
+      "labels": []
+    },
+    {
+      "number": 5344,
+      "title": "`get_num_xcds()` is hard-coded to 8 everywhere",
+      "author": "neoblizz",
+      "state": "open",
+      "created_at": "2026-09-08T14:14:05Z",
+      "updated_at": "2026-09-08T14:14:05Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5344",
+      "labels": []
+    },
     {
       "number": 5322,
       "title": "[MI355X][MegaMoEV2] GLM-5.2 EP8 tuning handoff and C14 performance gap",
@@ -169,16 +229,6 @@
       "created_at": "2026-09-03T23:43:25Z",
       "updated_at": "2026-09-03T23:43:25Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5264",
-      "labels": []
-    },
-    {
-      "number": 5229,
-      "title": "[Issue]: gfx1201 (R9700) \u2014 Triton unified_attention overflows RDNA's LDS budget, and the ROCm 10.0 vLLM container ships no gfx1201 code objects",
-      "author": "hanchi-gao",
-      "state": "open",
-      "created_at": "2026-09-03T06:01:45Z",
-      "updated_at": "2026-09-03T11:56:58Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5229",
       "labels": []
     },
     {
@@ -395,36 +445,6 @@
       "created_at": "2026-08-27T02:48:00Z",
       "updated_at": "2026-08-27T03:24:57Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5039",
-      "labels": []
-    },
-    {
-      "number": 5032,
-      "title": "[RFC]: The MoE tuner's acceptance metric accepts a kernel that destroys 18% of its output",
-      "author": "KHassanQazi",
-      "state": "open",
-      "created_at": "2026-08-26T19:56:43Z",
-      "updated_at": "2026-08-27T02:59:50Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5032",
-      "labels": []
-    },
-    {
-      "number": 5030,
-      "title": "[RFC]: Let a failed `checkAllclose` fail the test",
-      "author": "KHassanQazi",
-      "state": "open",
-      "created_at": "2026-08-26T19:55:58Z",
-      "updated_at": "2026-08-27T02:59:44Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5030",
-      "labels": []
-    },
-    {
-      "number": 5031,
-      "title": "[RFC]: Replace the hardcoded `atol=100` in the MoE op_tests with a derived tolerance",
-      "author": "KHassanQazi",
-      "state": "open",
-      "created_at": "2026-08-26T19:56:24Z",
-      "updated_at": "2026-08-27T02:45:31Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5031",
       "labels": []
     },
     {
