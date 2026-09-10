@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-09-09T12:32:48Z",
+  "collected_at": "2026-09-10T12:26:43Z",
   "prs": [
+    {
+      "number": 652,
+      "title": "feat(ccl): support HIP graph capture in AllGather SDMA",
+      "author": "alanshwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T09:05:03Z",
+      "updated_at": "2026-09-10T11:44:49Z",
+      "html_url": "https://github.com/ROCm/mori/pull/652",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 625,
+      "title": "feat(ep/v2): internode dispatch/combine over CCO/GDA, and fix a doorbell-ordering deadlock in flushAsync",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T03:15:29Z",
+      "updated_at": "2026-09-10T11:25:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/625",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 656,
+      "title": "perf(umbp): remove three bottlenecks from the distributed ranged read path",
+      "author": "maning00",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T02:09:23Z",
+      "updated_at": "2026-09-10T09:38:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/656",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 654,
+      "title": "Add DMA buffer support to mlx5",
+      "author": "avbokovoy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T12:55:20Z",
+      "updated_at": "2026-09-10T08:14:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/654",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 653,
+      "title": "fix(rdma): cco/shmem indicies wraparound (#626)",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T09:17:05Z",
+      "updated_at": "2026-09-10T06:25:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/653",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 644,
       "title": "perf(umbp): send and resolve a key set once, not once per layer group",
@@ -8,7 +68,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-08T07:16:15Z",
-      "updated_at": "2026-09-09T11:28:24Z",
+      "updated_at": "2026-09-10T04:37:25Z",
       "html_url": "https://github.com/ROCm/mori/pull/644",
       "labels": [],
       "draft": true
@@ -24,54 +84,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/649",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 625,
-      "title": "feat(ep/v2): internode dispatch/combine over CCO/GDA, and fix a doorbell-ordering deadlock in flushAsync",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T03:15:29Z",
-      "updated_at": "2026-09-09T10:23:50Z",
-      "html_url": "https://github.com/ROCm/mori/pull/625",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 653,
-      "title": "fix(rdma): cco/shmem indicies wraparound (#626)",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T09:17:05Z",
-      "updated_at": "2026-09-09T09:17:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/653",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 652,
-      "title": "feat(ccl): support HIP graph capture in AllGather SDMA",
-      "author": "alanshwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T09:05:03Z",
-      "updated_at": "2026-09-09T09:11:49Z",
-      "html_url": "https://github.com/ROCm/mori/pull/652",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 651,
-      "title": "ci: add a ROCm 10 intranode gate, and fix the two things that broke it",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T06:12:45Z",
-      "updated_at": "2026-09-09T08:21:54Z",
-      "html_url": "https://github.com/ROCm/mori/pull/651",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 642,
@@ -480,6 +492,18 @@
       "html_url": "https://github.com/ROCm/mori/pull/621",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 651,
+      "title": "ci: add a ROCm 10 intranode gate, and fix the two things that broke it",
+      "author": "QizhouZhang97",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-09T06:12:45Z",
+      "updated_at": "2026-09-10T02:04:44Z",
+      "html_url": "https://github.com/ROCm/mori/pull/651",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 612,
@@ -1438,18 +1462,6 @@
       "created_at": "2026-08-10T05:56:04Z",
       "updated_at": "2026-08-12T01:50:26Z",
       "html_url": "https://github.com/ROCm/mori/pull/534",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 535,
-      "title": "fix(build): cap setuptools before build_ext lifecycle change",
-      "author": "yangyuhuiling",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-10T06:20:00Z",
-      "updated_at": "2026-08-10T07:02:38Z",
-      "html_url": "https://github.com/ROCm/mori/pull/535",
       "labels": [],
       "draft": false
     }

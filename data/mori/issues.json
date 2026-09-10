@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-09-09T12:32:49Z",
+  "collected_at": "2026-09-10T12:26:44Z",
   "issues": [
+    {
+      "number": 655,
+      "title": "MoRI-IO: a single lost KV-write ACK permanently wedges PD-disagg decode (no QP-error recovery, no consumer-side reclaim)",
+      "author": "MohitAMD",
+      "state": "open",
+      "created_at": "2026-09-09T18:59:29Z",
+      "updated_at": "2026-09-09T19:20:14Z",
+      "html_url": "https://github.com/ROCm/mori/issues/655",
+      "labels": []
+    },
     {
       "number": 610,
       "title": "InterNodeV1: residual stochastic combine corruption at >=128 tokens/rank with correct routing indices (post-#546)",
@@ -20,18 +30,6 @@
       "updated_at": "2026-09-09T02:09:34Z",
       "html_url": "https://github.com/ROCm/mori/issues/626",
       "labels": []
-    },
-    {
-      "number": 638,
-      "title": "[Issue]: Build fails on ROCm 10.x \u2014 rocm_smi/rocm_smi.h not found (replaced by amd_smi)",
-      "author": "srinivamd",
-      "state": "open",
-      "created_at": "2026-09-03T16:08:23Z",
-      "updated_at": "2026-09-07T07:58:36Z",
-      "html_url": "https://github.com/ROCm/mori/issues/638",
-      "labels": [
-        "bug"
-      ]
     },
     {
       "number": 557,

@@ -1,35 +1,35 @@
 {
-  "collected_at": "2026-09-09T12:34:51Z",
+  "collected_at": "2026-09-10T12:29:23Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 52,
-      "merged": 27,
-      "closed": 12
+      "opened": 53,
+      "merged": 28,
+      "closed": 9
     },
     "last_week": {
-      "opened": 66,
-      "merged": 48,
-      "closed": 10
+      "opened": 67,
+      "merged": 53,
+      "closed": 13
     },
     "median_time_to_merge_hours": 21.6,
-    "merge_count": 75,
+    "merge_count": 81,
     "stale_prs": 129
   },
   "contributors": {
-    "active_this_week": 38,
-    "total_contributors": 91,
+    "active_this_week": 36,
+    "total_contributors": 90,
     "top_contributors": [
       {
         "author": "JiaoliangYu",
-        "prs_submitted": 19,
+        "prs_submitted": 20,
         "prs_merged": 9,
-        "commits": 10
+        "commits": 11
       },
       {
         "author": "gbyu-amd",
-        "prs_submitted": 17,
+        "prs_submitted": 18,
         "prs_merged": 2,
         "commits": 2
       },
@@ -43,25 +43,25 @@
         "author": "PerryZhang01",
         "prs_submitted": 15,
         "prs_merged": 1,
-        "commits": 14
+        "commits": 12
       },
       {
         "author": "carlushuang",
-        "prs_submitted": 15,
-        "prs_merged": 2,
+        "prs_submitted": 14,
+        "prs_merged": 1,
         "commits": 2
       },
       {
         "author": "ZhangLirong-amd",
-        "prs_submitted": 12,
-        "prs_merged": 8,
-        "commits": 19
+        "prs_submitted": 13,
+        "prs_merged": 9,
+        "commits": 21
       },
       {
         "author": "yhl-amd",
-        "prs_submitted": 10,
-        "prs_merged": 2,
-        "commits": 12
+        "prs_submitted": 12,
+        "prs_merged": 3,
+        "commits": 14
       },
       {
         "author": "ChuanLi1101",
@@ -70,16 +70,16 @@
         "commits": 0
       },
       {
-        "author": "whx-sjtu",
+        "author": "Jasen2201",
         "prs_submitted": 9,
-        "prs_merged": 7,
-        "commits": 13
+        "prs_merged": 5,
+        "commits": 8
       },
       {
-        "author": "Jasen2201",
+        "author": "whx-sjtu",
         "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 7
+        "prs_merged": 6,
+        "commits": 14
       }
     ],
     "bus_factor": 6
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 66.8,
+    "days_since_last": 67.8,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

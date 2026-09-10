@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-09-09T12:31:48Z",
+  "collected_at": "2026-09-10T12:25:31Z",
   "prs": [
-    {
-      "number": 40408,
-      "title": "[ROCm] Build and stamp the complete ROCm wheel set in CI",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T23:16:34Z",
-      "updated_at": "2026-09-08T21:09:49Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40408",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 40427,
       "title": "[ROCm] Enable more bazel tests in ROCm CI",
@@ -20,8 +8,38 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-03T15:56:11Z",
-      "updated_at": "2026-09-03T17:27:54Z",
+      "updated_at": "2026-09-09T23:04:49Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40427",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 40408,
+      "title": "[ROCm] Build and stamp the complete ROCm wheel set in CI",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T23:16:34Z",
+      "updated_at": "2026-09-09T23:03:15Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40408",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 40569,
+      "title": "[ROCm] Run ROCm RBE bazel tests remotely",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T13:38:05Z",
+      "updated_at": "2026-09-09T16:16:06Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40569",
       "labels": [
         "kokoro:force-run",
         "pull ready"

@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-09-09T12:32:39Z",
+  "collected_at": "2026-09-10T12:26:31Z",
   "issues": [
+    {
+      "number": 4137,
+      "title": "[Regression] Triton 3.7.0 causes ~4x regression in unified_attention on gfx950",
+      "author": "mjkvaak-amd",
+      "state": "open",
+      "created_at": "2026-07-08T11:51:18Z",
+      "updated_at": "2026-09-10T09:16:53Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4137",
+      "labels": []
+    },
+    {
+      "number": 5380,
+      "title": "[Config] bf16_tuned_gemm.csv ships no gfx942 rows - every bf16 GEMM falls back to torch on MI300X",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-09-09T17:27:39Z",
+      "updated_at": "2026-09-09T18:09:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5380",
+      "labels": []
+    },
+    {
+      "number": 5256,
+      "title": "fused_moe_2stages passes num_rows to per_tensor_quant_hip, which asserts it is None",
+      "author": "i-kosarev",
+      "state": "open",
+      "created_at": "2026-09-03T13:16:21Z",
+      "updated_at": "2026-09-09T12:53:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5256",
+      "labels": []
+    },
     {
       "number": 5229,
       "title": "[Issue]: gfx1201 (R9700) \u2014 Triton unified_attention overflows RDNA's LDS budget, and the ROCm 10.0 vLLM container ships no gfx1201 code objects",
@@ -169,16 +199,6 @@
       "created_at": "2026-09-04T16:01:42Z",
       "updated_at": "2026-09-04T16:01:42Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5277",
-      "labels": []
-    },
-    {
-      "number": 5256,
-      "title": "fused_moe_2stages passes num_rows to per_tensor_quant_hip, which asserts it is None",
-      "author": "i-kosarev",
-      "state": "open",
-      "created_at": "2026-09-03T13:16:21Z",
-      "updated_at": "2026-09-04T09:57:18Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5256",
       "labels": []
     },
     {
@@ -547,16 +567,6 @@
       "created_at": "2026-08-14T22:56:09Z",
       "updated_at": "2026-08-17T16:58:35Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4769",
-      "labels": []
-    },
-    {
-      "number": 4799,
-      "title": "[Bug] Interrupted JIT codegen can leave and persistently reuse an incomplete CK MHA cache",
-      "author": "Ruye-aa",
-      "state": "open",
-      "created_at": "2026-08-17T10:54:20Z",
-      "updated_at": "2026-08-17T10:54:20Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4799",
       "labels": []
     },
     {
@@ -1059,16 +1069,6 @@
       "created_at": "2026-04-16T22:45:49Z",
       "updated_at": "2026-07-12T03:14:09Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2768",
-      "labels": []
-    },
-    {
-      "number": 4137,
-      "title": "[Regression] Triton 3.7.0 causes ~4x regression in unified_attention on gfx950",
-      "author": "mjkvaak-amd",
-      "state": "open",
-      "created_at": "2026-07-08T11:51:18Z",
-      "updated_at": "2026-07-10T05:34:44Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4137",
       "labels": []
     },
     {

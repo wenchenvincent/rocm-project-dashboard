@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-09-09T12:33:27Z",
+  "collected_at": "2026-09-10T12:27:53Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 12,
-      "merged": 8,
+      "opened": 11,
+      "merged": 9,
       "closed": 0
     },
     "last_week": {
@@ -13,18 +13,18 @@
       "merged": 7,
       "closed": 0
     },
-    "median_time_to_merge_hours": 100.9,
+    "median_time_to_merge_hours": 97.8,
     "merge_count": 30,
-    "stale_prs": 5
+    "stale_prs": 7
   },
   "contributors": {
-    "active_this_week": 12,
-    "total_contributors": 36,
+    "active_this_week": 15,
+    "total_contributors": 37,
     "top_contributors": [
       {
         "author": "AlexAUT",
-        "prs_submitted": 11,
-        "prs_merged": 9,
+        "prs_submitted": 10,
+        "prs_merged": 8,
         "commits": 0
       },
       {
@@ -36,7 +36,7 @@
       {
         "author": "antiagainst",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -52,6 +52,12 @@
         "commits": 0
       },
       {
+        "author": "saeid-rostami",
+        "prs_submitted": 2,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
         "author": "umangyadav",
         "prs_submitted": 2,
         "prs_merged": 1,
@@ -59,12 +65,6 @@
       },
       {
         "author": "pabloantoniom",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "saeid-rostami",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 22,
     "opened_this_week": 0,
-    "closed_this_week": 11,
+    "closed_this_week": 9,
     "unanswered": 10
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 11.8,
+    "days_since_last": 12.8,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

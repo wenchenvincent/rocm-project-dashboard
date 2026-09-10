@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-09-09T12:35:10Z",
+  "collected_at": "2026-09-10T12:29:42Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 20,
-      "merged": 19,
-      "closed": 4
+      "opened": 18,
+      "merged": 15,
+      "closed": 3
     },
     "last_week": {
-      "opened": 24,
-      "merged": 15,
-      "closed": 2
+      "opened": 25,
+      "merged": 17,
+      "closed": 3
     },
-    "median_time_to_merge_hours": 44.5,
-    "merge_count": 37,
+    "median_time_to_merge_hours": 36.9,
+    "merge_count": 36,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 13,
-    "total_contributors": 26,
+    "active_this_week": 14,
+    "total_contributors": 27,
     "top_contributors": [
       {
         "author": "jhchouuu",
@@ -48,8 +48,8 @@
       {
         "author": "QizhouZhang97",
         "prs_submitted": 10,
-        "prs_merged": 7,
-        "commits": 7
+        "prs_merged": 8,
+        "commits": 8
       },
       {
         "author": "zhangfei829",
@@ -70,16 +70,16 @@
         "commits": 3
       },
       {
+        "author": "maning00",
+        "prs_submitted": 5,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
         "author": "kudomcho",
         "prs_submitted": 5,
         "prs_merged": 3,
         "commits": 3
-      },
-      {
-        "author": "yangyuhuiling",
-        "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 2
       }
     ],
     "bus_factor": 4
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 22,
     "opened_this_week": 1,
-    "closed_this_week": 0,
+    "closed_this_week": 1,
     "unanswered": 6
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.4,
+    "days_since_last": 2.4,
     "avg_interval_days": 34.2,
     "total_releases": 5,
     "latest_tag": "v1.2.3"

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-09T12:32:14Z",
+  "collected_at": "2026-09-10T12:26:02Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,50 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-09T12:26:50Z",
+      "updated_at": "2026-09-10T11:27:56Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 38849,
+      "title": "[Bug] GLM 5.3 segfault on MI300 in SGLang scheduler",
+      "author": "kazenshi",
+      "state": "open",
+      "created_at": "2026-09-10T09:30:36Z",
+      "updated_at": "2026-09-10T09:30:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38849",
+      "labels": []
+    },
+    {
+      "number": 38618,
+      "title": "[Bug] GLM-5.3: checkpoints written by transformers load with MoE/mHC/KDA weights silently dropped",
+      "author": "siliangchen-amd",
+      "state": "open",
+      "created_at": "2026-09-09T03:44:08Z",
+      "updated_at": "2026-09-10T08:02:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38618",
+      "labels": []
+    },
+    {
+      "number": 34861,
+      "title": "[Bug] [NPU] Router GEMM output should always be fp32",
+      "author": "b8zhong",
+      "state": "open",
+      "created_at": "2026-08-14T15:17:51Z",
+      "updated_at": "2026-09-10T01:09:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34861",
+      "labels": [
+        "npu"
+      ]
+    },
+    {
+      "number": 38745,
+      "title": "`DUAL_STREAM_TOKEN_THRESHOLD` makes the DSA indexer's dual-stream gate unsatisfiable on ROCm \u2014 the leftover #14337's TODO named",
+      "author": "heslami",
+      "state": "open",
+      "created_at": "2026-09-09T22:22:31Z",
+      "updated_at": "2026-09-09T22:22:31Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38745",
       "labels": []
     },
     {
@@ -17,11 +59,61 @@
       "author": "bingxche",
       "state": "open",
       "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-09T12:09:21Z",
+      "updated_at": "2026-09-09T17:46:28Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37451",
       "labels": [
         "ci-failure-tracker"
       ]
+    },
+    {
+      "number": 38709,
+      "title": "[Bug][ROCm] --dcp-size > 1 crashes every rank on the first forward: forward_absorb_rocm_core unpacks 2 values from a 1-value return",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-09-09T17:27:38Z",
+      "updated_at": "2026-09-09T17:27:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38709",
+      "labels": []
+    },
+    {
+      "number": 38710,
+      "title": "[Bug] enable_aiter_allreduce_fusion auto-enable is commented out while the log still claims it was enabled",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-09-09T17:27:38Z",
+      "updated_at": "2026-09-09T17:27:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38710",
+      "labels": []
+    },
+    {
+      "number": 38707,
+      "title": "[Bug][ROCm] PP + DSA: HIP fault on multi-chunk prefill; failure threshold tracks --cuda-graph-backend-decode",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-09-09T17:27:37Z",
+      "updated_at": "2026-09-09T17:27:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38707",
+      "labels": []
+    },
+    {
+      "number": 38708,
+      "title": "[Bug][ROCm] --cuda-graph-backend-decode breakable fails at startup on DSA models: 'NoneType' object has no attribute 'get_page_table_64'",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-09-09T17:27:37Z",
+      "updated_at": "2026-09-09T17:27:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38708",
+      "labels": []
+    },
+    {
+      "number": 30209,
+      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
+      "author": "hongboshi1234",
+      "state": "open",
+      "created_at": "2026-07-06T04:14:01Z",
+      "updated_at": "2026-09-09T12:37:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
+      "labels": []
     },
     {
       "number": 38513,
@@ -31,26 +123,6 @@
       "created_at": "2026-09-08T13:07:38Z",
       "updated_at": "2026-09-09T08:47:09Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38513",
-      "labels": []
-    },
-    {
-      "number": 38618,
-      "title": "[Bug] GLM-5.3: checkpoints written by transformers load with MoE/mHC/KDA weights silently dropped",
-      "author": "siliangchen-amd",
-      "state": "open",
-      "created_at": "2026-09-09T03:44:08Z",
-      "updated_at": "2026-09-09T03:50:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/38618",
-      "labels": []
-    },
-    {
-      "number": 30209,
-      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
-      "author": "hongboshi1234",
-      "state": "open",
-      "created_at": "2026-07-06T04:14:01Z",
-      "updated_at": "2026-09-09T02:20:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
       "labels": []
     },
     {
@@ -75,18 +147,6 @@
       "updated_at": "2026-09-08T20:14:51Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22949",
       "labels": []
-    },
-    {
-      "number": 34861,
-      "title": "[Bug] [NPU] Router GEMM output should always be fp32",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-14T15:17:51Z",
-      "updated_at": "2026-09-08T19:00:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34861",
-      "labels": [
-        "npu"
-      ]
     },
     {
       "number": 21302,
@@ -414,36 +474,6 @@
       "labels": []
     },
     {
-      "number": 36207,
-      "title": "[Bug] MLA KV writers can overwrite reserved padding slot 0",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-08-24T17:04:45Z",
-      "updated_at": "2026-08-26T07:36:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36207",
-      "labels": []
-    },
-    {
-      "number": 36302,
-      "title": "[Bug] sglang-kernel JIT: HiCache L3 segfault on first backup with nvcc 12.8 + CUDA 13 runtime (compile-time vs runtime cudaMemcpyBatchAsync ABI in staged_write_back.cuh)",
-      "author": "Neo-113",
-      "state": "open",
-      "created_at": "2026-08-25T08:47:23Z",
-      "updated_at": "2026-08-25T09:01:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36302",
-      "labels": []
-    },
-    {
-      "number": 36071,
-      "title": "[Bug][AMD] Custom AR graph registration corrupts DSA DP-attention graph-skew replay",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-08-23T11:02:39Z",
-      "updated_at": "2026-08-24T20:02:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36071",
-      "labels": []
-    },
-    {
       "number": 35673,
       "title": "[Bug] Gemma-4-31B-it TP=8 hangs in the vision path on AMD/ROCm",
       "author": "victrgao",
@@ -464,16 +494,6 @@
       "labels": []
     },
     {
-      "number": 27194,
-      "title": "moe_kernels.py, stage-2 reduce path: small SGLANG_MORI_NUM_MAX_DISPATCH_TOKENS_PER_RANK silently corrupts output (gsm8k=0) at low concurrency",
-      "author": "Oseltamivir",
-      "state": "open",
-      "created_at": "2026-06-04T00:27:55Z",
-      "updated_at": "2026-08-19T02:03:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/27194",
-      "labels": []
-    },
-    {
       "number": 35122,
       "title": "[Bug] [AMD] SGLANG_DSV4_FP4_DEQUANT=1 is ignored by AITER FP4 MoE on ROCm",
       "author": "yuzhouo7",
@@ -481,16 +501,6 @@
       "created_at": "2026-08-17T08:11:40Z",
       "updated_at": "2026-08-17T08:11:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/35122",
-      "labels": []
-    },
-    {
-      "number": 35047,
-      "title": "[Bug] Triton device-pointer tables use int64 and overflow on Intel XPU USM addresses",
-      "author": "dayanandav",
-      "state": "open",
-      "created_at": "2026-08-16T17:59:13Z",
-      "updated_at": "2026-08-16T18:01:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35047",
       "labels": []
     },
     {
@@ -561,16 +571,6 @@
       "created_at": "2026-07-09T04:36:21Z",
       "updated_at": "2026-08-03T14:09:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30599",
-      "labels": []
-    },
-    {
-      "number": 33292,
-      "title": "[Bug] [multimodal_gen] CustomOp.dispatch_forward() XPU breaking model construction on Intel GPUs",
-      "author": "dayanandav",
-      "state": "open",
-      "created_at": "2026-08-02T18:48:21Z",
-      "updated_at": "2026-08-02T18:48:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33292",
       "labels": []
     }
   ]

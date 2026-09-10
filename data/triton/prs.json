@@ -1,27 +1,15 @@
 {
-  "collected_at": "2026-09-09T12:32:16Z",
+  "collected_at": "2026-09-10T12:26:04Z",
   "prs": [
     {
-      "number": 11640,
-      "title": "Use stable python API in `triton_amd.cc`",
-      "author": "anmyachev",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T16:15:29Z",
-      "updated_at": "2026-09-09T11:06:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11640",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11657,
-      "title": "[AMD][NFC] Export scaled_upcast layout helper for every supported arch",
-      "author": "AlexAUT",
+      "number": 11485,
+      "title": "[BACKEND] Package separately pinned AMD LLVM codegen",
+      "author": "ThomasRaoux",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-09T10:12:40Z",
-      "updated_at": "2026-09-09T10:28:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11657",
+      "created_at": "2026-08-27T20:51:43Z",
+      "updated_at": "2026-09-10T03:21:18Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11485",
       "labels": [],
       "draft": true
     },
@@ -32,20 +20,92 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-09T07:30:19Z",
-      "updated_at": "2026-09-09T07:30:19Z",
+      "updated_at": "2026-09-10T02:53:19Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11655",
       "labels": [],
       "draft": true
     },
     {
+      "number": 11666,
+      "title": "Avoid PyTorch imports during AMD backend discovery",
+      "author": "lyu-oai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T20:40:23Z",
+      "updated_at": "2026-09-09T23:38:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11666",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11663,
+      "title": "[AMD] Enable amdgpu-use-amdgpu-trackers only when waves_per_eu > 1",
+      "author": "zhanglx13",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T19:04:17Z",
+      "updated_at": "2026-09-09T19:21:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11663",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11559,
+      "title": "[Proton][AMD] Finalize the ROCprofiler client before process teardown",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T23:10:46Z",
+      "updated_at": "2026-09-09T17:09:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11559",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 11651,
       "title": "[AMD] Fence LDS around wave synchronization",
       "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-09T00:50:33Z",
+      "updated_at": "2026-09-09T16:00:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11651",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11657,
+      "title": "[AMD][Gluon] Export scaled_upcast layout helper for every supported arch",
+      "author": "AlexAUT",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-09T00:50:33Z",
-      "updated_at": "2026-09-09T02:59:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11651",
+      "created_at": "2026-09-09T10:12:40Z",
+      "updated_at": "2026-09-09T15:53:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11657",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11566,
+      "title": "[AMD] Fix additive strides for overlapping register bases",
+      "author": "saeid-rostami",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-03T02:43:50Z",
+      "updated_at": "2026-09-09T13:49:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11566",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11640,
+      "title": "Use stable python API in `triton_amd.cc`",
+      "author": "anmyachev",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-08T16:15:29Z",
+      "updated_at": "2026-09-09T11:06:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11640",
       "labels": [],
       "draft": false
     },
@@ -158,30 +218,6 @@
       "draft": false
     },
     {
-      "number": 11566,
-      "title": "[AMD] Fix additive strides for overlapping register bases",
-      "author": "saeid-rostami",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T02:43:50Z",
-      "updated_at": "2026-09-03T02:43:50Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11566",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11559,
-      "title": "[Proton][AMD] Finalize the ROCprofiler client before process teardown",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T23:10:46Z",
-      "updated_at": "2026-09-03T01:26:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11559",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11487,
       "title": "[CI][AMD] switch to tritonci image for gfx950",
       "author": "willghatch",
@@ -288,18 +324,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11510",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11485,
-      "title": "[BACKEND] Package separately pinned AMD LLVM codegen",
-      "author": "ThomasRaoux",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T20:51:43Z",
-      "updated_at": "2026-08-28T19:54:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11485",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11295,
@@ -566,42 +590,6 @@
       "draft": false
     },
     {
-      "number": 11374,
-      "title": "[AMD][gfx1250] Auto-select attention prefill tile and schedule",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T01:46:57Z",
-      "updated_at": "2026-08-20T03:20:50Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11374",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11313,
-      "title": "[AMD][BACKEND] Fix under-approximated loop-carried ranges in range analysis",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-14T13:37:36Z",
-      "updated_at": "2026-08-19T21:06:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11313",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11028,
-      "title": "[AMD] TheRock support",
-      "author": "ZelboK",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-23T20:59:35Z",
-      "updated_at": "2026-08-19T16:56:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11028",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11068,
       "title": "[AMD] Propagate discardable attributes on the small-tensor pointer path",
       "author": "pabloantoniom",
@@ -720,6 +708,18 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11055",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 10871,
+      "title": "[AMD] emulate descriptor reduce on GFX1250",
+      "author": "zwu-2025",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T05:26:36Z",
+      "updated_at": "2026-07-19T04:25:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10871",
+      "labels": [],
+      "draft": true
     }
   ]
 }
