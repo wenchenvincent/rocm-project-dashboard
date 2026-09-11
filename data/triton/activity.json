@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-10T12:27:53Z",
+  "collected_at": "2026-09-11T12:25:35Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
@@ -9,8 +9,8 @@
       "closed": 0
     },
     "last_week": {
-      "opened": 11,
-      "merged": 7,
+      "opened": 9,
+      "merged": 8,
       "closed": 0
     },
     "median_time_to_merge_hours": 97.8,
@@ -18,8 +18,8 @@
     "stale_prs": 7
   },
   "contributors": {
-    "active_this_week": 15,
-    "total_contributors": 37,
+    "active_this_week": 17,
+    "total_contributors": 36,
     "top_contributors": [
       {
         "author": "AlexAUT",
@@ -34,15 +34,21 @@
         "commits": 0
       },
       {
+        "author": "pabloantoniom",
+        "prs_submitted": 3,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
         "author": "antiagainst",
         "prs_submitted": 3,
         "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "jerryyin",
-        "prs_submitted": 3,
-        "prs_merged": 3,
+        "author": "choi3171",
+        "prs_submitted": 2,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -64,12 +70,6 @@
         "commits": 0
       },
       {
-        "author": "pabloantoniom",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
         "author": "warrendeng",
         "prs_submitted": 2,
         "prs_merged": 1,
@@ -85,9 +85,9 @@
     "bus_factor": 3
   },
   "issue_health": {
-    "total_open": 22,
-    "opened_this_week": 0,
-    "closed_this_week": 9,
+    "total_open": 23,
+    "opened_this_week": 1,
+    "closed_this_week": 12,
     "unanswered": 10
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 12.8,
+    "days_since_last": 13.7,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-09-10T12:26:04Z",
+  "collected_at": "2026-09-11T12:24:15Z",
   "prs": [
+    {
+      "number": 11704,
+      "title": "[AMD] Bypass the epilogue relayout for FMA",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T10:26:29Z",
+      "updated_at": "2026-09-11T10:26:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11704",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11265,
+      "title": "[AMD] Avoid GIL deadlock during HIP library lookup",
+      "author": "nemanjaudovic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T09:35:12Z",
+      "updated_at": "2026-09-11T09:46:14Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11265",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11289,
+      "title": "[AMD] Fix address space of barriers that carry atomic memory ordering",
+      "author": "mgehre-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T13:18:27Z",
+      "updated_at": "2026-09-11T09:29:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11289",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10906,
+      "title": " [AMD] Restrict BarrierOpConversion to CDNA to avoid ROCm numeric drift on RDNA",
+      "author": "k-artem",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-16T14:44:45Z",
+      "updated_at": "2026-09-11T08:27:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10906",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11485,
       "title": "[BACKEND] Package separately pinned AMD LLVM codegen",
@@ -8,10 +56,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-27T20:51:43Z",
-      "updated_at": "2026-09-10T03:21:18Z",
+      "updated_at": "2026-09-11T01:53:23Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11485",
       "labels": [],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 11684,
+      "title": "[Gluon] Run test_noinline_call_preserves_live_shared_allocation on AMD",
+      "author": "choi3171",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-10T12:27:19Z",
+      "updated_at": "2026-09-10T16:49:13Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11684",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 11655,
@@ -290,18 +350,6 @@
       "draft": false
     },
     {
-      "number": 11289,
-      "title": "[AMD] Fix address space of barriers that carry atomic memory ordering",
-      "author": "mgehre-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T13:18:27Z",
-      "updated_at": "2026-08-31T13:29:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11289",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11266,
       "title": "[AMD][Backend] Lower tl.fdiv to approximate f32 division on AMD",
       "author": "purerli98",
@@ -566,30 +614,6 @@
       "draft": false
     },
     {
-      "number": 11379,
-      "title": "[AMD] Carry buffer-op base address space in the op format",
-      "author": "jerryyin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-20T13:23:23Z",
-      "updated_at": "2026-08-20T21:56:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11379",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11246,
-      "title": "[AMD]Fix empty range inference for HistogramOp in RangeAnalysis",
-      "author": "mengfei-jiang",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-10T08:46:05Z",
-      "updated_at": "2026-08-20T03:48:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11246",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11068,
       "title": "[AMD] Propagate discardable attributes on the small-tensor pointer path",
       "author": "pabloantoniom",
@@ -624,18 +648,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10708",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11265,
-      "title": "[AMD] Avoid GIL deadlock during HIP library lookup",
-      "author": "nemanjaudovic",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T09:35:12Z",
-      "updated_at": "2026-08-11T16:10:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11265",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11249,
@@ -708,18 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11055",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10871,
-      "title": "[AMD] emulate descriptor reduce on GFX1250",
-      "author": "zwu-2025",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T05:26:36Z",
-      "updated_at": "2026-07-19T04:25:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10871",
-      "labels": [],
-      "draft": true
     }
   ]
 }

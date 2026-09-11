@@ -1,14 +1,46 @@
 {
-  "collected_at": "2026-09-10T12:26:02Z",
+  "collected_at": "2026-09-11T12:24:13Z",
   "issues": [
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-11T12:17:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-10T11:27:56Z",
+      "updated_at": "2026-09-11T11:15:26Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 39070,
+      "title": "[Bug] FLUX.2 rejects --attention-backend sage_attn: model-level whitelist excludes SAGE_ATTN (regression since #22423)",
+      "author": "jxiaof",
+      "state": "open",
+      "created_at": "2026-09-11T09:00:12Z",
+      "updated_at": "2026-09-11T09:00:12Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39070",
+      "labels": []
+    },
+    {
+      "number": 39054,
+      "title": "is_musa() graph-breaks TorchDynamo (gb0069) on the traced prefill path since b6c31b155c, killing tc_piecewise prefill CUDA-graph capture",
+      "author": "janbernloehr",
+      "state": "open",
+      "created_at": "2026-09-11T08:01:50Z",
+      "updated_at": "2026-09-11T08:01:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39054",
       "labels": []
     },
     {
@@ -52,18 +84,6 @@
       "updated_at": "2026-09-09T22:22:31Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38745",
       "labels": []
-    },
-    {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-09T17:46:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
     },
     {
       "number": 38709,
@@ -408,18 +428,6 @@
       "labels": []
     },
     {
-      "number": 36616,
-      "title": "[Bug] qwen3.8 flash next rocm bug",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-08-27T04:43:28Z",
-      "updated_at": "2026-08-27T22:01:32Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36616",
-      "labels": [
-        "amd"
-      ]
-    },
-    {
       "number": 16255,
       "title": "[Feature] deepseek_v2.py Refactor",
       "author": "Fridge003",
@@ -461,16 +469,6 @@
       "created_at": "2026-07-01T18:31:23Z",
       "updated_at": "2026-08-27T07:17:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29864",
-      "labels": []
-    },
-    {
-      "number": 36528,
-      "title": "[Bug] EAGLE3 without `--speculative-draft-model-path` loads the target as draft and crashes on normal Qwen/Llama targets",
-      "author": "Hanson-Wang-chn",
-      "state": "open",
-      "created_at": "2026-08-26T15:58:20Z",
-      "updated_at": "2026-08-26T15:58:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36528",
       "labels": []
     },
     {
@@ -561,16 +559,6 @@
       "created_at": "2026-07-21T09:43:06Z",
       "updated_at": "2026-08-04T20:08:08Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/31924",
-      "labels": []
-    },
-    {
-      "number": 30599,
-      "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
-      "author": "AIwork4me",
-      "state": "open",
-      "created_at": "2026-07-09T04:36:21Z",
-      "updated_at": "2026-08-03T14:09:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30599",
       "labels": []
     }
   ]

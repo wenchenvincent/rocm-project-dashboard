@@ -1,6 +1,197 @@
 {
-  "collected_at": "2026-09-10T12:26:08Z",
+  "collected_at": "2026-09-11T12:24:18Z",
   "prs": [
+    {
+      "number": 5192,
+      "title": "[AIRADSW-852] Fixing regression with slice-squeeze rewrite for scalar inputs",
+      "author": "urpetkov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T16:23:28Z",
+      "updated_at": "2026-09-11T09:28:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5192",
+      "labels": [
+        "bugfix",
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5215,
+      "title": "Use rocmlirtriton as the compiler backend",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T03:17:56Z",
+      "updated_at": "2026-09-11T04:29:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5215",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5249,
+      "title": "Add proper handling of prefill attributes from rocMLIR/rocmlirTriton",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T21:09:36Z",
+      "updated_at": "2026-09-11T03:42:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5249",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5174,
+      "title": "[ROCM-28806] Make navi4x gemm_tune_invalid_sol_index guard version specific",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:24:35Z",
+      "updated_at": "2026-09-11T02:21:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5174",
+      "labels": [
+        "Changelog: Not Applicable"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5250,
+      "title": "[AIMIGRAPHX-1279] Skip horizontal fusion if dots are dependent",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T00:03:43Z",
+      "updated_at": "2026-09-11T00:12:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5250",
+      "labels": [
+        "bugfix",
+        "Changelog: Resolved Issues"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5193,
+      "title": "Accuracy: Round to nearest, ties to even for `generic_float`",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T16:34:32Z",
+      "updated_at": "2026-09-11T00:12:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5193",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5190,
+      "title": "Fix matcher `has_value` tolerance for low precision types",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T19:04:33Z",
+      "updated_at": "2026-09-11T00:11:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5190",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5064,
+      "title": "Fix MLIR conv-pointwise-layout fusion splitting",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T18:57:37Z",
+      "updated_at": "2026-09-10T23:47:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5064",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5248,
+      "title": "Have convolution_backwards error on indivisible groups and reference operator accumulate in double",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T21:05:19Z",
+      "updated_at": "2026-09-10T23:13:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5248",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5243,
+      "title": "[AIMIGRAPHX-1208] Run ONNX Model Zoo on CI",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T17:23:03Z",
+      "updated_at": "2026-09-10T22:45:26Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5243",
+      "labels": [
+        "Continous Integration",
+        "Changelog: Not Applicable"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5139,
+      "title": "Add GPU JIT implementation for gridsample operation",
+      "author": "Imeguras",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T17:12:34Z",
+      "updated_at": "2026-09-10T22:09:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5139",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5205,
+      "title": "Python and Cpp symbolic shape printing",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T20:29:50Z",
+      "updated_at": "2026-09-10T21:14:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5205",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5160,
+      "title": "Have reduce_sum, reduce_mean, and reduce_prod accumulate in wider floating point for fp8",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-20T22:33:55Z",
+      "updated_at": "2026-09-10T17:43:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5160",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5245,
+      "title": "Update NonZero to slice to number of non-zero elements",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T17:29:24Z",
+      "updated_at": "2026-09-10T17:29:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5245",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5186,
+      "title": "Jenkins: retry checkout scm with backoff and debug diagnostics on failure",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T20:59:17Z",
+      "updated_at": "2026-09-10T15:42:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5186",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5048,
       "title": "Preserve shape ops when removing QDQ pairs",
@@ -26,18 +217,6 @@
       "draft": true
     },
     {
-      "number": 5193,
-      "title": "Accuracy: Round to nearest, ties to even for `generic_float`",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T16:34:32Z",
-      "updated_at": "2026-09-10T00:55:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5193",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5240,
       "title": "[ROCM-26731] Exclude external PRs from CI GitHub action",
       "author": "eddieliao",
@@ -53,59 +232,6 @@
       "draft": false
     },
     {
-      "number": 5133,
-      "title": "Add adaptive benchmarking to MIGraphX",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T20:27:15Z",
-      "updated_at": "2026-09-09T23:24:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5133",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5174,
-      "title": "[ROCM-28806] Make navi4x gemm_tune_invalid_sol_index guard version specific",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:24:35Z",
-      "updated_at": "2026-09-09T21:52:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5174",
-      "labels": [
-        "Changelog: Not Applicable"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5160,
-      "title": "Have reduce_sum, reduce_mean, and reduce_prod accumulate in wider floating point for fp8",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T22:33:55Z",
-      "updated_at": "2026-09-09T18:15:20Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5160",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5243,
-      "title": "[AIMIGRAPHX-1208] Run ONNX Model Zoo on CI",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T17:23:03Z",
-      "updated_at": "2026-09-09T17:33:05Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5243",
-      "labels": [
-        "Continous Integration",
-        "Changelog: Not Applicable"
-      ],
-      "draft": true
-    },
-    {
       "number": 5241,
       "title": "Bump gitpython from 3.1.58 to 3.1.59 in /docs/sphinx",
       "author": "dependabot[bot]",
@@ -117,45 +243,6 @@
       "labels": [
         "documentation"
       ],
-      "draft": false
-    },
-    {
-      "number": 5215,
-      "title": "Use rocmlirtriton as the compiler backend",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-29T03:17:56Z",
-      "updated_at": "2026-09-09T14:58:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5215",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5192,
-      "title": "[AIRADSW-852] Fixing regression with slice-squeeze rewrite for scalar inputs",
-      "author": "urpetkov-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T16:23:28Z",
-      "updated_at": "2026-09-09T09:17:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5192",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5064,
-      "title": "Fix MLIR conv-pointwise-layout fusion splitting",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T18:57:37Z",
-      "updated_at": "2026-09-08T15:43:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5064",
-      "labels": [],
       "draft": false
     },
     {
@@ -256,18 +343,6 @@
       "draft": false
     },
     {
-      "number": 5139,
-      "title": "Add GPU JIT implementation for gridsample operation",
-      "author": "Imeguras",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-16T17:12:34Z",
-      "updated_at": "2026-09-04T11:01:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5139",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5123,
       "title": "Split symbolic dimension pass",
       "author": "shivadbhavsar",
@@ -278,18 +353,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5205,
-      "title": "Python and Cpp symbolic shape printing",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T20:29:50Z",
-      "updated_at": "2026-09-03T21:40:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5205",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5233,
@@ -352,18 +415,6 @@
       "draft": false
     },
     {
-      "number": 5190,
-      "title": "Fix matcher `has_value` tolerance for low precision types",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T19:04:33Z",
-      "updated_at": "2026-09-03T17:16:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5190",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5210,
       "title": "Fix credential issue for performance tests",
       "author": "ahsan-ca",
@@ -372,18 +423,6 @@
       "created_at": "2026-08-28T15:45:27Z",
       "updated_at": "2026-09-02T21:31:53Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5210",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5186,
-      "title": "Jenkins: retry checkout scm with backoff and debug diagnostics on failure",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T20:59:17Z",
-      "updated_at": "2026-09-02T13:43:08Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5186",
       "labels": [],
       "draft": false
     },
@@ -1479,6 +1518,42 @@
       "draft": true
     },
     {
+      "number": 5247,
+      "title": "Use Python3.11 in SLES docker",
+      "author": "ahsan-ca",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-10T20:53:52Z",
+      "updated_at": "2026-09-10T23:58:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5247",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4832,
+      "title": "Sym reshapes",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-29T23:20:27Z",
+      "updated_at": "2026-09-10T20:30:23Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4832",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5133,
+      "title": "Add adaptive benchmarking to MIGraphX",
+      "author": "justinrosner",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-13T20:27:15Z",
+      "updated_at": "2026-09-10T19:25:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5133",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 4806,
       "title": "Add fusedMatMul microsoft contrib operator",
       "author": "ahsan-ca",
@@ -2549,44 +2624,6 @@
       "created_at": "2026-05-14T16:19:49Z",
       "updated_at": "2026-08-25T05:00:45Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4882",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5157,
-      "title": "Release protobuf state on ONNX DLL unload",
-      "author": "ivarusic-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-20T14:57:30Z",
-      "updated_at": "2026-08-24T21:25:08Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5157",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5136,
-      "title": "Fix dynamic-shape parse failure in Softplus and Softsign",
-      "author": "zhihuidu-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-14T20:13:17Z",
-      "updated_at": "2026-08-24T21:23:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5136",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5185,
-      "title": "windows-gpu: free disk space before ROCm install",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T15:48:28Z",
-      "updated_at": "2026-08-24T21:10:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5185",
       "labels": [],
       "draft": false
     }

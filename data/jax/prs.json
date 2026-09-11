@@ -1,14 +1,41 @@
 {
-  "collected_at": "2026-09-10T12:25:31Z",
+  "collected_at": "2026-09-11T12:23:48Z",
   "prs": [
+    {
+      "number": 40616,
+      "title": "[ROCm] Reduce ROCm RBE bazel test jobs to 32",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T21:59:59Z",
+      "updated_at": "2026-09-10T21:59:59Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40616",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 40569,
+      "title": "[ROCm] Run ROCm RBE bazel tests remotely",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T13:38:05Z",
+      "updated_at": "2026-09-10T21:46:23Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40569",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 40427,
       "title": "[ROCm] Enable more bazel tests in ROCm CI",
       "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-09-03T15:56:11Z",
-      "updated_at": "2026-09-09T23:04:49Z",
+      "updated_at": "2026-09-10T21:34:58Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40427",
       "labels": [
         "kokoro:force-run",
@@ -20,26 +47,11 @@
       "number": 40408,
       "title": "[ROCm] Build and stamp the complete ROCm wheel set in CI",
       "author": "mminutoli",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-09-02T23:16:34Z",
-      "updated_at": "2026-09-09T23:03:15Z",
+      "updated_at": "2026-09-10T19:34:47Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40408",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40569,
-      "title": "[ROCm] Run ROCm RBE bazel tests remotely",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T13:38:05Z",
-      "updated_at": "2026-09-09T16:16:06Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40569",
       "labels": [
         "kokoro:force-run",
         "pull ready"
@@ -501,33 +513,6 @@
       "created_at": "2026-07-16T09:47:15Z",
       "updated_at": "2026-07-20T09:19:18Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39212",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39249,
-      "title": "Don't trigger the continuous rocm builds from PRs.",
-      "author": "copybara-service[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-16T21:55:02Z",
-      "updated_at": "2026-07-16T22:10:40Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39249",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 39222,
-      "title": "[ROCm] [pallas:triton] Use a gfx abstract device_kind directly as the arch",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-16T13:41:19Z",
-      "updated_at": "2026-07-16T16:12:41Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39222",
       "labels": [
         "kokoro:force-run",
         "pull ready"

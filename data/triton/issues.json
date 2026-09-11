@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-09-10T12:26:05Z",
+  "collected_at": "2026-09-11T12:24:15Z",
   "issues": [
+    {
+      "number": 11696,
+      "title": "[AMD] gfx942 block-pingpong two-cluster schedule races LDS: s_barrier emitted before the ds_read waitcnt, producing stale-by-one-BLOCK_K A operands",
+      "author": "jeffdaily",
+      "state": "open",
+      "created_at": "2026-09-10T21:27:54Z",
+      "updated_at": "2026-09-10T21:32:07Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/11696",
+      "labels": []
+    },
     {
       "number": 11378,
       "title": "[AMD] scf.for with runtime trip count miscompiled on gfx1151",
