@@ -1,30 +1,30 @@
 {
-  "collected_at": "2026-09-11T12:25:35Z",
+  "collected_at": "2026-09-12T11:47:40Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 11,
-      "merged": 9,
+      "opened": 15,
+      "merged": 12,
       "closed": 0
     },
     "last_week": {
       "opened": 9,
-      "merged": 8,
+      "merged": 7,
       "closed": 0
     },
-    "median_time_to_merge_hours": 97.8,
+    "median_time_to_merge_hours": 97.7,
     "merge_count": 30,
-    "stale_prs": 7
+    "stale_prs": 5
   },
   "contributors": {
-    "active_this_week": 17,
+    "active_this_week": 20,
     "total_contributors": 36,
     "top_contributors": [
       {
         "author": "AlexAUT",
-        "prs_submitted": 10,
-        "prs_merged": 8,
+        "prs_submitted": 9,
+        "prs_merged": 7,
         "commits": 0
       },
       {
@@ -43,6 +43,18 @@
         "author": "antiagainst",
         "prs_submitted": 3,
         "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "zhanglx13",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "Jokeren",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -68,26 +80,14 @@
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
-      },
-      {
-        "author": "warrendeng",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "erizheng-amd",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
-    "bus_factor": 3
+    "bus_factor": 4
   },
   "issue_health": {
     "total_open": 23,
     "opened_this_week": 1,
-    "closed_this_week": 12,
+    "closed_this_week": 11,
     "unanswered": 10
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 13.7,
+    "days_since_last": 14.7,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

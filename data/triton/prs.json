@@ -1,6 +1,102 @@
 {
-  "collected_at": "2026-09-11T12:24:15Z",
+  "collected_at": "2026-09-12T11:45:56Z",
   "prs": [
+    {
+      "number": 11719,
+      "title": "[AMD] Make the membar async-load filter direction-aware",
+      "author": "zhanglx13",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T19:13:54Z",
+      "updated_at": "2026-09-12T05:58:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11719",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11727,
+      "title": "[AMD] Fix XF32 MFMA lowering for small K",
+      "author": "Jokeren",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-12T00:06:50Z",
+      "updated_at": "2026-09-12T00:12:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11727",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11709,
+      "title": "[AMD] Fix XF32 MFMA lowering for small K",
+      "author": "Jokeren",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T14:44:21Z",
+      "updated_at": "2026-09-11T23:55:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11709",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11717,
+      "title": "[Build] Refresh Ninja path for cached AMD bootstrap builds",
+      "author": "roman-openai",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T18:44:38Z",
+      "updated_at": "2026-09-11T22:04:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11717",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11485,
+      "title": "[BACKEND] Package separately pinned AMD LLVM codegen",
+      "author": "ThomasRaoux",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-27T20:51:43Z",
+      "updated_at": "2026-09-11T17:49:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11485",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11559,
+      "title": "[Proton][AMD] Finalize the ROCprofiler client before process teardown",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T23:10:46Z",
+      "updated_at": "2026-09-11T17:38:16Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11559",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11265,
+      "title": "[AMD] Avoid GIL deadlock during HIP library lookup",
+      "author": "nemanjaudovic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T09:35:12Z",
+      "updated_at": "2026-09-11T16:03:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11265",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11707,
+      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T14:21:46Z",
+      "updated_at": "2026-09-11T14:23:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11707",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 11704,
       "title": "[AMD] Bypass the epilogue relayout for FMA",
@@ -10,18 +106,6 @@
       "created_at": "2026-09-11T10:26:29Z",
       "updated_at": "2026-09-11T10:26:29Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11704",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11265,
-      "title": "[AMD] Avoid GIL deadlock during HIP library lookup",
-      "author": "nemanjaudovic",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T09:35:12Z",
-      "updated_at": "2026-09-11T09:46:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11265",
       "labels": [],
       "draft": true
     },
@@ -46,18 +130,6 @@
       "created_at": "2026-07-16T14:44:45Z",
       "updated_at": "2026-09-11T08:27:45Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10906",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11485,
-      "title": "[BACKEND] Package separately pinned AMD LLVM codegen",
-      "author": "ThomasRaoux",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T20:51:43Z",
-      "updated_at": "2026-09-11T01:53:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11485",
       "labels": [],
       "draft": false
     },
@@ -108,18 +180,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11663",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11559,
-      "title": "[Proton][AMD] Finalize the ROCprofiler client before process teardown",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T23:10:46Z",
-      "updated_at": "2026-09-09T17:09:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11559",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 11651,
@@ -566,18 +626,6 @@
       "draft": false
     },
     {
-      "number": 11169,
-      "title": "[AMD][LAYOUTS] Restrict low-vector swizzle reorder to <=32 banks",
-      "author": "jerryyin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-04T18:16:09Z",
-      "updated_at": "2026-08-24T02:17:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11169",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11399,
       "title": "[AMD][IMP][Launch Latency] read use_buffer_ops once at import time",
       "author": "irreg",
@@ -586,30 +634,6 @@
       "created_at": "2026-08-22T06:39:48Z",
       "updated_at": "2026-08-22T08:55:02Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11399",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11294,
-      "title": "[AMD] Map tl.const pointer args to constant address space",
-      "author": "jerryyin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-13T14:39:47Z",
-      "updated_at": "2026-08-21T19:39:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11294",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11377,
-      "title": "[AMD][BACKEND][GLUON] Add `scaled_downcast` for MXFP4/MXFP8",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-20T10:41:59Z",
-      "updated_at": "2026-08-21T15:43:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11377",
       "labels": [],
       "draft": false
     },
@@ -694,30 +718,6 @@
       "created_at": "2026-08-05T18:10:33Z",
       "updated_at": "2026-08-07T06:08:16Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11184",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11049,
-      "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
-      "author": "JAGANNATHANJP",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-25T17:04:26Z",
-      "updated_at": "2026-07-31T14:29:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11049",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11055,
-      "title": "[AMD] Guard HIP launcher against kernel arg/annotation count mismatch",
-      "author": "zihaomu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T08:29:04Z",
-      "updated_at": "2026-07-29T08:37:06Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11055",
       "labels": [],
       "draft": false
     }

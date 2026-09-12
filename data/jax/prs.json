@@ -1,6 +1,21 @@
 {
-  "collected_at": "2026-09-11T12:23:48Z",
+  "collected_at": "2026-09-12T11:45:30Z",
   "prs": [
+    {
+      "number": 40569,
+      "title": "[ROCm] Run ROCm RBE bazel tests remotely",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T13:38:05Z",
+      "updated_at": "2026-09-11T15:08:35Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40569",
+      "labels": [
+        "kokoro:force-run",
+        "pull ready"
+      ],
+      "draft": true
+    },
     {
       "number": 40616,
       "title": "[ROCm] Reduce ROCm RBE bazel test jobs to 32",
@@ -12,21 +27,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/40616",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 40569,
-      "title": "[ROCm] Run ROCm RBE bazel tests remotely",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T13:38:05Z",
-      "updated_at": "2026-09-10T21:46:23Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40569",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
     },
     {
       "number": 40427,

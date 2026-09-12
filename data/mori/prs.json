@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-09-11T12:24:45Z",
+  "collected_at": "2026-09-12T11:46:30Z",
   "prs": [
+    {
+      "number": 666,
+      "title": "fix(allocator): link c10_hip in JIT path for getCurrentHIPStream",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-12T10:25:47Z",
+      "updated_at": "2026-09-12T10:25:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/666",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 665,
+      "title": "test(ep/v2): warm the internode bench with the timed loop's tensor lifetime",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-12T07:52:15Z",
+      "updated_at": "2026-09-12T07:52:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/665",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 662,
+      "title": "Fuse DSV4-Pro wo_b's GEMM with its all-reduce over cco SDMA",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T09:22:11Z",
+      "updated_at": "2026-09-12T07:47:30Z",
+      "html_url": "https://github.com/ROCm/mori/pull/662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 664,
+      "title": "perf(EPv2): add validated MI308X/Thor2 MoE tuning profiles",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-12T03:31:22Z",
+      "updated_at": "2026-09-12T03:31:22Z",
+      "html_url": "https://github.com/ROCm/mori/pull/664",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 657,
+      "title": "new collective development for JAX/XLA",
+      "author": "i-chaochen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T13:41:07Z",
+      "updated_at": "2026-09-12T00:27:51Z",
+      "html_url": "https://github.com/ROCm/mori/pull/657",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "fix: migrate GPU topology from rocm_smi to amd_smi (ROCm 10.1+)",
+      "author": "srinivamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T20:09:16Z",
+      "updated_at": "2026-09-11T20:09:16Z",
+      "html_url": "https://github.com/ROCm/mori/pull/663",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 659,
       "title": "test(EPv2): make the routing independent of the sweep list, and report the spread",
@@ -24,18 +96,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/652",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 662,
-      "title": "Fuse DSV4-Pro wo_b's GEMM with its all-reduce over cco SDMA",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T09:22:11Z",
-      "updated_at": "2026-09-11T09:22:11Z",
-      "html_url": "https://github.com/ROCm/mori/pull/662",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 660,
@@ -94,18 +154,6 @@
       "created_at": "2026-09-09T12:55:20Z",
       "updated_at": "2026-09-11T08:26:01Z",
       "html_url": "https://github.com/ROCm/mori/pull/654",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 657,
-      "title": "new collective development for JAX/XLA",
-      "author": "i-chaochen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T13:41:07Z",
-      "updated_at": "2026-09-10T14:13:58Z",
-      "html_url": "https://github.com/ROCm/mori/pull/657",
       "labels": [],
       "draft": false
     },
@@ -494,6 +542,18 @@
       "draft": true
     },
     {
+      "number": 642,
+      "title": "perf(EPv2): hide the dispatch drain read behind the grid barrier on gfx1250",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-07T13:08:14Z",
+      "updated_at": "2026-09-12T06:30:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/642",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 653,
       "title": "fix(rdma): cco/shmem indicies wraparound (#626)",
       "author": "QizhouZhang97",
@@ -502,18 +562,6 @@
       "created_at": "2026-09-09T09:17:05Z",
       "updated_at": "2026-09-11T09:56:27Z",
       "html_url": "https://github.com/ROCm/mori/pull/653",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 642,
-      "title": "perf(EPv2): hide the dispatch drain read behind the grid barrier on gfx1250",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-07T13:08:14Z",
-      "updated_at": "2026-09-11T09:24:26Z",
-      "html_url": "https://github.com/ROCm/mori/pull/642",
       "labels": [],
       "draft": false
     },

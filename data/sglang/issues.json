@@ -1,26 +1,58 @@
 {
-  "collected_at": "2026-09-11T12:24:13Z",
+  "collected_at": "2026-09-12T11:45:55Z",
   "issues": [
-    {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-11T12:17:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
-    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-11T11:15:26Z",
+      "updated_at": "2026-09-12T11:23:40Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 30815,
+      "title": "[Bug] FP8 KV-cache decode slowdown: unfused K/V quantization + per-layer Q conversion overhead",
+      "author": "Swipe4057",
+      "state": "open",
+      "created_at": "2026-07-10T21:38:57Z",
+      "updated_at": "2026-09-12T01:00:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30815",
+      "labels": []
+    },
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-11T18:12:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 30599,
+      "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
+      "author": "AIwork4me",
+      "state": "open",
+      "created_at": "2026-07-09T04:36:21Z",
+      "updated_at": "2026-09-11T17:19:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30599",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 39092,
+      "title": "[Bug] SGLANG_GRAPH_BATCH_CAPTURE mislabels capture traces and crashes with IndexError when a bs bucket captures multiple graphs",
+      "author": "haishuok0525",
+      "state": "open",
+      "created_at": "2026-09-11T13:05:53Z",
+      "updated_at": "2026-09-11T13:05:53Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39092",
       "labels": []
     },
     {
@@ -408,26 +440,6 @@
       "labels": []
     },
     {
-      "number": 36764,
-      "title": "[Bug] 374 MB of every `lmsysorg/sglang:latest` pull is three directories the Dockerfile deletes one layer too late",
-      "author": "sujeito-operator",
-      "state": "open",
-      "created_at": "2026-08-28T02:05:17Z",
-      "updated_at": "2026-08-28T02:05:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36764",
-      "labels": []
-    },
-    {
-      "number": 36734,
-      "title": "[Bug] Models fail to produce non-empty answer while evaluated for reasoning on long context.",
-      "author": "Alexei-V-Ivanov-AMD",
-      "state": "open",
-      "created_at": "2026-08-27T21:32:23Z",
-      "updated_at": "2026-08-28T00:47:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36734",
-      "labels": []
-    },
-    {
       "number": 16255,
       "title": "[Feature] deepseek_v2.py Refactor",
       "author": "Fridge003",
@@ -549,16 +561,6 @@
       "created_at": "2026-08-09T03:48:33Z",
       "updated_at": "2026-08-09T18:34:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34149",
-      "labels": []
-    },
-    {
-      "number": 31924,
-      "title": "[diffusion] update_weights_from_disk transformer reload fails (shape mismatch 400) \u2014 diffusers checkpoint layout not reconciled with sglang params",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-07-21T09:43:06Z",
-      "updated_at": "2026-08-04T20:08:08Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/31924",
       "labels": []
     }
   ]
