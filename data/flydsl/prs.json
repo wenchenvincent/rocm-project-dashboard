@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-09-12T11:46:34Z",
+  "collected_at": "2026-09-13T12:54:26Z",
   "prs": [
     {
-      "number": 1127,
-      "title": "Migrate vector consumers to expr APIs and remove unused kernel helpers",
-      "author": "coderfeli",
+      "number": 1129,
+      "title": "[WIP][DSL][Feature] Add IKET in-kernel event tracing for gfx950",
+      "author": "Phil-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-12T10:23:38Z",
-      "updated_at": "2026-09-12T11:41:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1127",
+      "created_at": "2026-09-13T12:15:08Z",
+      "updated_at": "2026-09-13T12:31:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1129",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1066,
+      "title": "[Kernel][FA] Support paged FP8 Flash attention with asymmetric K/V head dim on gfx950",
+      "author": "sammysun0711",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T10:19:53Z",
+      "updated_at": "2026-09-12T17:46:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1066",
       "labels": [],
       "draft": false
     },
@@ -20,19 +32,19 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-11T14:29:11Z",
-      "updated_at": "2026-09-12T11:41:03Z",
+      "updated_at": "2026-09-12T14:48:38Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1123",
       "labels": [],
       "draft": false
     },
     {
       "number": 1128,
-      "title": "Support scale fragments in fully expanded tiled GEMM",
+      "title": "Support variadic operands in fully expanded tiled GEMM",
       "author": "coderfeli",
       "state": "open",
       "merged": false,
       "created_at": "2026-09-12T11:35:27Z",
-      "updated_at": "2026-09-12T11:35:27Z",
+      "updated_at": "2026-09-12T12:43:35Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
       "labels": [],
       "draft": false
@@ -154,18 +166,6 @@
       "created_at": "2026-08-22T11:27:06Z",
       "updated_at": "2026-09-11T08:34:44Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1057",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1066,
-      "title": "[Kernel][FA] Support paged FP8 Flash attention with asymmetric K/V head dim on gfx950",
-      "author": "sammysun0711",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T10:19:53Z",
-      "updated_at": "2026-09-11T04:11:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1066",
       "labels": [],
       "draft": false
     },
@@ -614,6 +614,18 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1127,
+      "title": "Migrate vector consumers and consolidate kernel helpers",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-12T10:23:38Z",
+      "updated_at": "2026-09-13T08:02:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1127",
       "labels": [],
       "draft": false
     },
@@ -1220,18 +1232,6 @@
       "created_at": "2026-08-19T19:37:59Z",
       "updated_at": "2026-08-21T05:30:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1035",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1043,
-      "title": "[Fix] Fix alignment reported by ptr.load/ptr.store lowering",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-20T11:10:32Z",
-      "updated_at": "2026-08-21T05:29:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1043",
       "labels": [],
       "draft": false
     }

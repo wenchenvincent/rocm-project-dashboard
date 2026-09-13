@@ -1,6 +1,83 @@
 {
-  "collected_at": "2026-09-12T11:45:27Z",
+  "collected_at": "2026-09-13T12:53:25Z",
   "issues": [
+    {
+      "number": 195141,
+      "title": "Triton 3.5.0 wheel hash mismatch between PyPI metadata and download server",
+      "author": "himkt",
+      "state": "open",
+      "created_at": "2026-08-28T11:52:43Z",
+      "updated_at": "2026-09-13T12:08:10Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/195141",
+      "labels": [
+        "module: binaries",
+        "triaged",
+        "upstream triton",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 141287,
+      "title": "MPS operator coverage tracking issue (2.6+ version)",
+      "author": "malfet",
+      "state": "open",
+      "created_at": "2024-11-21T21:15:46Z",
+      "updated_at": "2026-09-13T10:32:08Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/141287",
+      "labels": [
+        "feature",
+        "triaged",
+        "tracker",
+        "module: mps"
+      ]
+    },
+    {
+      "number": 196899,
+      "title": "DISABLED test_nested_and_autotuned_same_kernel (__main__.FxGraphRunnableTest)",
+      "author": "chuanqi129",
+      "state": "open",
+      "created_at": "2026-09-13T07:56:19Z",
+      "updated_at": "2026-09-13T07:58:45Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/196899",
+      "labels": [
+        "triaged",
+        "skipped",
+        "oncall: pt2",
+        "module: dynamo",
+        "module: xpu",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 196744,
+      "title": "pytorch crashes in test_jit.py when built with DEBUG=1",
+      "author": "AlekseiNikiforovIBM",
+      "state": "open",
+      "created_at": "2026-09-11T11:41:36Z",
+      "updated_at": "2026-09-12T15:12:09Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/196744",
+      "labels": [
+        "oncall: jit",
+        "module: debug-build",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 196703,
+      "title": "torch.sinc produces NaN in the second derivative at its removable singularity",
+      "author": "ALinrunrun",
+      "state": "open",
+      "created_at": "2026-09-11T02:27:19Z",
+      "updated_at": "2026-09-12T11:56:19Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/196703",
+      "labels": [
+        "module: double backwards",
+        "triaged",
+        "module: derivatives",
+        "module: NaNs and Infs",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 196219,
       "title": "TorchDynamo fails to trace three-argument pow() dispatch to user-defined __pow__",
@@ -28,22 +105,6 @@
         "triaged",
         "oncall: pt2",
         "module: dynamo",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 196703,
-      "title": "torch.sinc produces NaN in the second derivative at its removable singularity",
-      "author": "ALinrunrun",
-      "state": "open",
-      "created_at": "2026-09-11T02:27:19Z",
-      "updated_at": "2026-09-12T04:30:59Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/196703",
-      "labels": [
-        "module: double backwards",
-        "triaged",
-        "module: derivatives",
-        "module: NaNs and Infs",
         "bot-triaged"
       ]
     },
@@ -292,19 +353,6 @@
       ]
     },
     {
-      "number": 196744,
-      "title": "pytorch crashes in test_jit.py when built with DEBUG=1",
-      "author": "AlekseiNikiforovIBM",
-      "state": "open",
-      "created_at": "2026-09-11T11:41:36Z",
-      "updated_at": "2026-09-11T11:44:11Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/196744",
-      "labels": [
-        "oncall: jit",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 196583,
       "title": "[ROCm][UT] Tests skipped on ROCm by #185013 that were never reported as failing",
       "author": "lstojilj-amd",
@@ -432,22 +480,6 @@
       ]
     },
     {
-      "number": 191009,
-      "title": "DISABLED test_index_propagation_to_dtype_inf_cpu_halide (__main__.HalideCpuTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-24T13:06:20Z",
-      "updated_at": "2026-09-11T06:53:56Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191009",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
       "number": 189151,
       "title": "DISABLED test_pending_fusion_pro_and_epi_use_async_compile_False (__main__.TestPrologueFusion)",
       "author": "pytorch-bot[bot]",
@@ -455,22 +487,6 @@
       "created_at": "2026-07-07T13:25:28Z",
       "updated_at": "2026-09-11T06:53:46Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/189151",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
-      "number": 194899,
-      "title": "DISABLED test_layout_TN_dynamic_k (__main__.LayoutCoverageWildcardTest)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-08-26T12:59:28Z",
-      "updated_at": "2026-09-11T06:53:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/194899",
       "labels": [
         "triaged",
         "module: flaky-tests",
@@ -743,24 +759,6 @@
       "labels": [
         "oncall: cpu inductor",
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 194004,
-      "title": "[Pytorch][ROCm 7.14] Qwen3 MoE TP+EP training produces extremely large(nan) gradient norms",
-      "author": "vidushi8",
-      "state": "open",
-      "created_at": "2026-08-18T23:38:16Z",
-      "updated_at": "2026-09-10T15:02:26Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/194004",
-      "labels": [
-        "triage review",
-        "module: rocm",
-        "module: NaNs and Infs",
-        "module: bfloat16",
-        "module: correctness (silent)",
-        "bot-triaged",
-        "release triage"
       ]
     }
   ]

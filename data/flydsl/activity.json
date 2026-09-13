@@ -1,19 +1,19 @@
 {
-  "collected_at": "2026-09-12T11:49:22Z",
+  "collected_at": "2026-09-13T12:57:07Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
       "opened": 32,
-      "merged": 15,
+      "merged": 16,
       "closed": 41
     },
     "last_week": {
-      "opened": 15,
-      "merged": 18,
+      "opened": 16,
+      "merged": 17,
       "closed": 1
     },
-    "median_time_to_merge_hours": 32.8,
+    "median_time_to_merge_hours": 32.6,
     "merge_count": 33,
     "stale_prs": 7
   },
@@ -24,8 +24,8 @@
       {
         "author": "coderfeli",
         "prs_submitted": 12,
-        "prs_merged": 9,
-        "commits": 13
+        "prs_merged": 10,
+        "commits": 14
       },
       {
         "author": "jhinpan",
@@ -34,16 +34,16 @@
         "commits": 8
       },
       {
-        "author": "sjfeng1999",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 11
-      },
-      {
         "author": "Phil-amd",
-        "prs_submitted": 6,
+        "prs_submitted": 7,
         "prs_merged": 4,
         "commits": 5
+      },
+      {
+        "author": "sjfeng1999",
+        "prs_submitted": 7,
+        "prs_merged": 3,
+        "commits": 11
       },
       {
         "author": "big-yellow-duck",
@@ -70,16 +70,16 @@
         "commits": 3
       },
       {
-        "author": "tangzzycc",
-        "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
         "author": "sammysun0711",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 2
+      },
+      {
+        "author": "tangzzycc",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
       }
     ],
     "bus_factor": 5
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 16.3,
+    "days_since_last": 17.3,
     "avg_interval_days": 18.0,
     "total_releases": 5,
     "latest_tag": "v0.3.2"

@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-09-12T11:46:00Z",
+  "collected_at": "2026-09-13T12:53:56Z",
   "prs": [
+    {
+      "number": 5253,
+      "title": "Fix unsafe MLIR split boundaries",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T21:50:28Z",
+      "updated_at": "2026-09-13T12:36:36Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5253",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5215,
+      "title": "Use rocmlirtriton as the compiler backend",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-29T03:17:56Z",
+      "updated_at": "2026-09-13T04:09:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5215",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5123,
       "title": "Split symbolic dimension pass",
@@ -11,32 +35,6 @@
       "updated_at": "2026-09-11T23:35:52Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5253,
-      "title": "Fix unsafe MLIR split boundaries",
-      "author": "umangyadav",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T21:50:28Z",
-      "updated_at": "2026-09-11T22:58:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5253",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5252,
-      "title": "Fix MLIR benchmark fill for non-packed outputs",
-      "author": "umangyadav",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T20:25:17Z",
-      "updated_at": "2026-09-11T20:30:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5252",
-      "labels": [
-        "high priority"
-      ],
       "draft": false
     },
     {
@@ -69,18 +67,6 @@
       "draft": false
     },
     {
-      "number": 5249,
-      "title": "Add proper handling of prefill attributes from rocMLIR/rocmlirTriton",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T21:09:36Z",
-      "updated_at": "2026-09-11T16:55:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5249",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5192,
       "title": "[AIRADSW-852] Fixing regression with slice-squeeze rewrite for scalar inputs",
       "author": "urpetkov-amd",
@@ -93,18 +79,6 @@
         "bugfix",
         "Windows"
       ],
-      "draft": false
-    },
-    {
-      "number": 5215,
-      "title": "Use rocmlirtriton as the compiler backend",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-29T03:17:56Z",
-      "updated_at": "2026-09-11T04:29:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5215",
-      "labels": [],
       "draft": false
     },
     {
@@ -1561,6 +1535,32 @@
       "draft": true
     },
     {
+      "number": 5252,
+      "title": "Fix MLIR benchmark fill for non-packed outputs",
+      "author": "umangyadav",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T20:25:17Z",
+      "updated_at": "2026-09-13T03:52:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5252",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5249,
+      "title": "Add proper handling of prefill attributes from rocMLIR/rocmlirTriton",
+      "author": "justinrosner",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-10T21:09:36Z",
+      "updated_at": "2026-09-13T03:24:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5249",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5247,
       "title": "Use Python3.11 in SLES docker",
       "author": "ahsan-ca",
@@ -2643,30 +2643,6 @@
       "created_at": "2026-08-16T20:22:18Z",
       "updated_at": "2026-08-25T13:30:22Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5141",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4910,
-      "title": "CI Skip passing jobs",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-25T19:23:20Z",
-      "updated_at": "2026-08-25T05:00:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4910",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4882,
-      "title": "autotune using env variables",
-      "author": "aarushjain29",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-14T16:19:49Z",
-      "updated_at": "2026-08-25T05:00:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4882",
       "labels": [],
       "draft": false
     }

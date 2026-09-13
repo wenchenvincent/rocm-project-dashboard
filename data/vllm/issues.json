@@ -1,17 +1,135 @@
 {
-  "collected_at": "2026-09-12T11:45:43Z",
+  "collected_at": "2026-09-13T12:53:40Z",
   "issues": [
+    {
+      "number": 56605,
+      "title": "[Bug]: GLM-5.3-Flash degenerates into repeated-token \"word salad\" in multi-turn agentic use",
+      "author": "amjhou",
+      "state": "open",
+      "created_at": "2026-09-12T12:22:26Z",
+      "updated_at": "2026-09-13T12:09:16Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/56605",
+      "labels": [
+        "bug",
+        "glm"
+      ]
+    },
+    {
+      "number": 55238,
+      "title": "[Bug]: sm100 only (B200/B300): CUDA graph replay changes greedy output for gemma-4-26B-A4B-it with torch.compile off in both arms",
+      "author": "hijohnnylin",
+      "state": "open",
+      "created_at": "2026-09-03T21:13:28Z",
+      "updated_at": "2026-09-13T10:38:20Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/55238",
+      "labels": [
+        "bug",
+        "torch.compile"
+      ]
+    },
+    {
+      "number": 56506,
+      "title": "[RFC]: DeepSeek-V4.1-Flash performance on ROCm",
+      "author": "Fangzhou-Ai",
+      "state": "open",
+      "created_at": "2026-09-11T19:19:25Z",
+      "updated_at": "2026-09-13T06:24:06Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/56506",
+      "labels": [
+        "performance",
+        "rocm",
+        "RFC",
+        "deepseek",
+        "quantization",
+        "DSv4",
+        "DSv4.1"
+      ]
+    },
+    {
+      "number": 56668,
+      "title": "[Bug]: 81 kv_connector unit tests fail on CPU-only machines since #54042 (No common block size for 16)",
+      "author": "xiaozhenbi",
+      "state": "open",
+      "created_at": "2026-09-13T06:13:47Z",
+      "updated_at": "2026-09-13T06:13:47Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/56668",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 55515,
+      "title": "[Bug]: Qwen4Exp N-gram PLE embedding requires pipeline_parallel_size=1 because non-first pipeline ranks do not receive the raw input_ids it needs. Please run with PP=1",
+      "author": "Alireza3242",
+      "state": "open",
+      "created_at": "2026-09-06T00:36:52Z",
+      "updated_at": "2026-09-13T04:33:24Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/55515",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 27433,
+      "title": "[Feature]: Batch Invariant Feature and Performance Optimization",
+      "author": "yewentao256",
+      "state": "open",
+      "created_at": "2025-10-23T19:38:03Z",
+      "updated_at": "2026-09-12T20:26:55Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/27433",
+      "labels": [
+        "good first issue",
+        "feature request"
+      ]
+    },
     {
       "number": 56583,
       "title": "[Bug]: Garbled output for GLM 5.3 Flash when weights loaded with run:ai distributed streamer",
       "author": "MadhavJivrajani",
       "state": "open",
       "created_at": "2026-09-12T07:41:45Z",
-      "updated_at": "2026-09-12T07:47:40Z",
+      "updated_at": "2026-09-12T20:17:21Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/56583",
       "labels": [
         "bug",
         "glm"
+      ]
+    },
+    {
+      "number": 50576,
+      "title": "[Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-Flash-0731 DSpark",
+      "author": "thomaslwang",
+      "state": "open",
+      "created_at": "2026-07-31T14:42:04Z",
+      "updated_at": "2026-09-12T19:33:47Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/50576",
+      "labels": []
+    },
+    {
+      "number": 56556,
+      "title": "[Bug]: JSON schema with multiple allOf branches is silently ignored by the xgrammar structured-output backend",
+      "author": "kushaldabbe",
+      "state": "open",
+      "created_at": "2026-09-12T02:59:11Z",
+      "updated_at": "2026-09-12T15:08:15Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/56556",
+      "labels": [
+        "bug",
+        "structured-output"
+      ]
+    },
+    {
+      "number": 50587,
+      "title": "[Feature]: Kimi K3 Performance Optimization",
+      "author": "yewentao256",
+      "state": "open",
+      "created_at": "2026-07-31T15:49:29Z",
+      "updated_at": "2026-09-12T15:05:33Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/50587",
+      "labels": [
+        "feature request",
+        "kimi",
+        "k3"
       ]
     },
     {
@@ -27,37 +145,6 @@
       ]
     },
     {
-      "number": 56347,
-      "title": "[Bug][ROCm]: DeepSeek-V4.1 segfaults on the 3rd decode token with FULL_DECODE_ONLY graphs unless --no-async-scheduling is set",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "created_at": "2026-09-10T21:21:18Z",
-      "updated_at": "2026-09-12T06:25:36Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/56347",
-      "labels": [
-        "rocm",
-        "deepseek",
-        "DSv4"
-      ]
-    },
-    {
-      "number": 56506,
-      "title": "[RFC]: DeepSeek-V4.1-Flash performance on ROCm",
-      "author": "Fangzhou-Ai",
-      "state": "open",
-      "created_at": "2026-09-11T19:19:25Z",
-      "updated_at": "2026-09-12T04:43:36Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/56506",
-      "labels": [
-        "performance",
-        "rocm",
-        "RFC",
-        "deepseek",
-        "DSv4",
-        "DSv4.1"
-      ]
-    },
-    {
       "number": 47930,
       "title": "[Bug]: DFlash/DSpark draft acceptance collapses with automatic prefix caching enabled",
       "author": "giorgiopiatti-caffeinated",
@@ -67,32 +154,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/47930",
       "labels": [
         "bug"
-      ]
-    },
-    {
-      "number": 52644,
-      "title": "[Bug][ROCm]: DeepSeek V4 accuracy drops with MRV2 on MI350/MI355 when FULL_DECODE_ONLY graph",
-      "author": "qli88",
-      "state": "open",
-      "created_at": "2026-08-17T18:49:58Z",
-      "updated_at": "2026-09-12T03:27:00Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/52644",
-      "labels": [
-        "bug",
-        "rocm"
-      ]
-    },
-    {
-      "number": 56556,
-      "title": "[Bug]: JSON schema with multiple allOf branches is silently ignored by the xgrammar structured-output backend",
-      "author": "kushaldabbe",
-      "state": "open",
-      "created_at": "2026-09-12T02:59:11Z",
-      "updated_at": "2026-09-12T03:07:57Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/56556",
-      "labels": [
-        "bug",
-        "structured-output"
       ]
     },
     {
@@ -132,19 +193,6 @@
       "labels": [
         "bug",
         "tool-calling"
-      ]
-    },
-    {
-      "number": 27433,
-      "title": "[Feature]: Batch Invariant Feature and Performance Optimization",
-      "author": "yewentao256",
-      "state": "open",
-      "created_at": "2025-10-23T19:38:03Z",
-      "updated_at": "2026-09-11T22:39:09Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/27433",
-      "labels": [
-        "good first issue",
-        "feature request"
       ]
     },
     {
@@ -429,16 +477,6 @@
       ]
     },
     {
-      "number": 50576,
-      "title": "[Feature]: SM8x (Ampere A100/A800) support for DeepSeek-V4-Flash / DeepSeek-V4-Flash-0731 DSpark",
-      "author": "thomaslwang",
-      "state": "open",
-      "created_at": "2026-07-31T14:42:04Z",
-      "updated_at": "2026-09-10T17:35:16Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/50576",
-      "labels": []
-    },
-    {
       "number": 56022,
       "title": "[Bug]: Assistant message contains both non-empty content and tool_calls in Agent loop, with persistent failure after first occurrence",
       "author": "xiny-spec",
@@ -620,31 +658,6 @@
       "labels": [
         "installation",
         "rocm",
-        "stale"
-      ]
-    },
-    {
-      "number": 44688,
-      "title": "[Performance]: Qwen3.6-35B-A3B-FP8 on RTX PRO 6000 Blackwell has very low decode throughput; missing FP8 MoE config for E=256,N=256",
-      "author": "shoucandanghehe",
-      "state": "open",
-      "created_at": "2026-06-05T21:13:42Z",
-      "updated_at": "2026-09-10T01:40:42Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/44688",
-      "labels": [
-        "stale"
-      ]
-    },
-    {
-      "number": 44878,
-      "title": "[Bug]: vllm serve hangs permanently with data_parallel_size > 1 on multi-node Ray cluster (MoE model, --enable-expert-parallel)",
-      "author": "Neo0214",
-      "state": "open",
-      "created_at": "2026-06-08T12:40:42Z",
-      "updated_at": "2026-09-10T01:40:30Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/44878",
-      "labels": [
-        "bug",
         "stale"
       ]
     }

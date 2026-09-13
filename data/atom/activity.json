@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-09-12T11:49:01Z",
+  "collected_at": "2026-09-13T12:56:43Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 60,
-      "merged": 36,
-      "closed": 12
+      "opened": 65,
+      "merged": 40,
+      "closed": 14
     },
     "last_week": {
-      "opened": 58,
-      "merged": 38,
+      "opened": 54,
+      "merged": 37,
       "closed": 12
     },
-    "median_time_to_merge_hours": 22.4,
-    "merge_count": 75,
-    "stale_prs": 134
+    "median_time_to_merge_hours": 18.6,
+    "merge_count": 79,
+    "stale_prs": 136
   },
   "contributors": {
     "active_this_week": 38,
@@ -23,15 +23,9 @@
     "top_contributors": [
       {
         "author": "gbyu-amd",
-        "prs_submitted": 20,
-        "prs_merged": 3,
+        "prs_submitted": 21,
+        "prs_merged": 5,
         "commits": 3
-      },
-      {
-        "author": "JiaoliangYu",
-        "prs_submitted": 19,
-        "prs_merged": 8,
-        "commits": 11
       },
       {
         "author": "ganyi1996ppo",
@@ -46,9 +40,9 @@
         "commits": 13
       },
       {
-        "author": "PerryZhang01",
+        "author": "JiaoliangYu",
         "prs_submitted": 14,
-        "prs_merged": 0,
+        "prs_merged": 3,
         "commits": 11
       },
       {
@@ -58,9 +52,21 @@
         "commits": 2
       },
       {
+        "author": "PerryZhang01",
+        "prs_submitted": 13,
+        "prs_merged": 0,
+        "commits": 10
+      },
+      {
         "author": "ZhangLirong-amd",
         "prs_submitted": 12,
         "prs_merged": 7,
+        "commits": 18
+      },
+      {
+        "author": "valarLip",
+        "prs_submitted": 10,
+        "prs_merged": 9,
         "commits": 18
       },
       {
@@ -70,30 +76,24 @@
         "commits": 0
       },
       {
-        "author": "valarLip",
+        "author": "ZhiweiYan-96",
         "prs_submitted": 9,
-        "prs_merged": 8,
-        "commits": 16
-      },
-      {
-        "author": "Jasen2201",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 8
+        "prs_merged": 1,
+        "commits": 3
       }
     ],
     "bus_factor": 6
   },
   "issue_health": {
-    "total_open": 89,
-    "opened_this_week": 4,
+    "total_open": 90,
+    "opened_this_week": 5,
     "closed_this_week": 6,
     "unanswered": 30
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 69.8,
+    "days_since_last": 70.8,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

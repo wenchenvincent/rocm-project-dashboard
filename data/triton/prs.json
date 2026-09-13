@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-09-12T11:45:56Z",
+  "collected_at": "2026-09-13T12:53:54Z",
   "prs": [
+    {
+      "number": 11289,
+      "title": "[AMD] Fix address space of barriers that carry atomic memory ordering",
+      "author": "mgehre-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T13:18:27Z",
+      "updated_at": "2026-09-13T06:43:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11289",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10886,
+      "title": "[AMD] Emit actionable errors when a direct-to-LDS copy cannot be lowered",
+      "author": "vmalepati1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T23:59:49Z",
+      "updated_at": "2026-09-12T23:34:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11745,
+      "title": "[AMD] [gfx1250] Bump pinned AMD LLVM to pick up the entry-sequence fix",
+      "author": "zhanglx13",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-12T21:59:03Z",
+      "updated_at": "2026-09-12T22:48:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11745",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11727,
+      "title": "[AMD] Fix XF32 MFMA lowering for small K",
+      "author": "Jokeren",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-12T00:06:50Z",
+      "updated_at": "2026-09-12T18:42:25Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11727",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11707,
+      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T14:21:46Z",
+      "updated_at": "2026-09-12T18:11:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11707",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 11719,
       "title": "[AMD] Make the membar async-load filter direction-aware",
@@ -8,22 +68,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-11T19:13:54Z",
-      "updated_at": "2026-09-12T05:58:29Z",
+      "updated_at": "2026-09-12T16:08:56Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11719",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11727,
-      "title": "[AMD] Fix XF32 MFMA lowering for small K",
-      "author": "Jokeren",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-12T00:06:50Z",
-      "updated_at": "2026-09-12T00:12:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11727",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 11709,
@@ -86,18 +134,6 @@
       "draft": false
     },
     {
-      "number": 11707,
-      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:21:46Z",
-      "updated_at": "2026-09-11T14:23:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11707",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11704,
       "title": "[AMD] Bypass the epilogue relayout for FMA",
       "author": "pabloantoniom",
@@ -108,18 +144,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11704",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11289,
-      "title": "[AMD] Fix address space of barriers that carry atomic memory ordering",
-      "author": "mgehre-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T13:18:27Z",
-      "updated_at": "2026-09-11T09:29:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11289",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 10906,
@@ -602,30 +626,6 @@
       "draft": false
     },
     {
-      "number": 11382,
-      "title": "[Release][Cherry-Pick] [AMD] Fix buffer_load_to_local with other (#11256)",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-20T13:26:48Z",
-      "updated_at": "2026-08-24T15:14:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11382",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11383,
-      "title": "[Release][Cherry-Pick] [AMD][Gluon] Add cdna5 alias for gfx1250 and document it",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-20T13:36:35Z",
-      "updated_at": "2026-08-24T15:13:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11383",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11399,
       "title": "[AMD][IMP][Launch Latency] read use_buffer_ops once at import time",
       "author": "irreg",
@@ -698,18 +698,6 @@
       "draft": true
     },
     {
-      "number": 10886,
-      "title": "[AMD] Emit actionable errors when a direct-to-LDS copy cannot be lowered",
-      "author": "vmalepati1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T23:59:49Z",
-      "updated_at": "2026-08-07T23:38:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10886",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11184,
       "title": "[AMD] Align TDM descriptor layouts with allocations",
       "author": "agron911",
@@ -718,6 +706,18 @@
       "created_at": "2026-08-05T18:10:33Z",
       "updated_at": "2026-08-07T06:08:16Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11184",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11049,
+      "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
+      "author": "JAGANNATHANJP",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-25T17:04:26Z",
+      "updated_at": "2026-07-31T14:29:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11049",
       "labels": [],
       "draft": false
     }

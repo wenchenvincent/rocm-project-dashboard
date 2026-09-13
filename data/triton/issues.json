@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-09-12T11:45:57Z",
+  "collected_at": "2026-09-13T12:53:54Z",
   "issues": [
+    {
+      "number": 11748,
+      "title": "[AMD][gfx1250] TDM lowering crashes when a block dimension is smaller than num_warps",
+      "author": "nurmukhametov",
+      "state": "open",
+      "created_at": "2026-09-13T12:50:31Z",
+      "updated_at": "2026-09-13T12:50:31Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/11748",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 11696,
       "title": "[AMD] gfx942 block-pingpong two-cluster schedule races LDS: s_barrier emitted before the ds_read waitcnt, producing stale-by-one-BLOCK_K A operands",

@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-09-12T11:46:20Z",
+  "collected_at": "2026-09-13T12:54:14Z",
   "issues": [
+    {
+      "number": 5477,
+      "title": "gfx950 paged MQA logits: next_n spends the tile on program count, leaving the kernel's own M-efficiency curve unused (M=32 vs 1.53x at M=128)",
+      "author": "Fangzhou-Ai",
+      "state": "open",
+      "created_at": "2026-09-12T19:44:26Z",
+      "updated_at": "2026-09-12T19:44:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5477",
+      "labels": []
+    },
     {
       "number": 5469,
       "title": "Crash for DeepSeek-V4-Flash TP+EP: fused_moe tuned-config lookup keys on local (per-rank) expert count under EP, never matches CSVs tuned for global expert count",
