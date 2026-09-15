@@ -1,14 +1,94 @@
 {
-  "collected_at": "2026-09-13T12:54:14Z",
+  "collected_at": "2026-09-15T12:57:11Z",
   "issues": [
+    {
+      "number": 5541,
+      "title": "Add fused SiLU-and-multiply backward kernel",
+      "author": "DaiXindi-AMD",
+      "state": "open",
+      "created_at": "2026-09-15T12:16:10Z",
+      "updated_at": "2026-09-15T12:16:10Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5541",
+      "labels": []
+    },
+    {
+      "number": 5537,
+      "title": "Add packed FP4 logical transpose",
+      "author": "DaiXindi-AMD",
+      "state": "open",
+      "created_at": "2026-09-15T11:11:19Z",
+      "updated_at": "2026-09-15T11:11:19Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5537",
+      "labels": []
+    },
+    {
+      "number": 5530,
+      "title": "Add gfx950 stochastic MXFP4 quantization",
+      "author": "DaiXindi-AMD",
+      "state": "open",
+      "created_at": "2026-09-15T10:15:05Z",
+      "updated_at": "2026-09-15T10:15:05Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5530",
+      "labels": []
+    },
     {
       "number": 5477,
       "title": "gfx950 paged MQA logits: next_n spends the tile on program count, leaving the kernel's own M-efficiency curve unused (M=32 vs 1.53x at M=128)",
       "author": "Fangzhou-Ai",
       "state": "open",
       "created_at": "2026-09-12T19:44:26Z",
-      "updated_at": "2026-09-12T19:44:26Z",
+      "updated_at": "2026-09-15T01:38:08Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5477",
+      "labels": []
+    },
+    {
+      "number": 5515,
+      "title": "BF16 causal prefill prefix differs across sequence lengths on MI300X",
+      "author": "rawsh",
+      "state": "open",
+      "created_at": "2026-09-14T21:00:20Z",
+      "updated_at": "2026-09-14T21:48:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5515",
+      "labels": []
+    },
+    {
+      "number": 3294,
+      "title": "[Issue]: lacking general support for gfx1201",
+      "author": "andysalerno",
+      "state": "open",
+      "created_at": "2026-05-21T02:17:55Z",
+      "updated_at": "2026-09-14T21:14:25Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3294",
+      "labels": []
+    },
+    {
+      "number": 5512,
+      "title": "[ROCm] GLM-5.3-Flash kpool indexer: GPU memory-access fault at max_num_batched_tokens=16384 (crash-loops production MI350 pods)",
+      "author": "mustafayildirim",
+      "state": "open",
+      "created_at": "2026-09-14T18:45:11Z",
+      "updated_at": "2026-09-14T18:45:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5512",
+      "labels": []
+    },
+    {
+      "number": 5502,
+      "title": "[Bug] gfx942 CK SiLU MoE drops positive swiglu_limit in BF16/block-FP8 paths",
+      "author": "AranKomat",
+      "state": "open",
+      "created_at": "2026-09-14T12:16:49Z",
+      "updated_at": "2026-09-14T13:50:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5502",
+      "labels": []
+    },
+    {
+      "number": 5503,
+      "title": "[Feature] Package gfx942 BF16 sparse-decode donor for a supported vLLM adapter",
+      "author": "AranKomat",
+      "state": "open",
+      "created_at": "2026-09-14T12:25:20Z",
+      "updated_at": "2026-09-14T12:25:20Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5503",
       "labels": []
     },
     {
@@ -231,16 +311,6 @@
       "created_at": "2026-09-05T14:10:01Z",
       "updated_at": "2026-09-05T14:12:12Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5292",
-      "labels": []
-    },
-    {
-      "number": 3294,
-      "title": "[Issue]: lacking general support for gfx1201",
-      "author": "andysalerno",
-      "state": "open",
-      "created_at": "2026-05-21T02:17:55Z",
-      "updated_at": "2026-09-05T05:51:33Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3294",
       "labels": []
     },
     {

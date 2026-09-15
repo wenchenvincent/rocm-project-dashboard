@@ -1,27 +1,161 @@
 {
-  "collected_at": "2026-09-13T12:54:26Z",
+  "collected_at": "2026-09-15T12:57:24Z",
   "prs": [
     {
-      "number": 1129,
-      "title": "[WIP][DSL][Feature] Add IKET in-kernel event tracing for gfx950",
-      "author": "Phil-amd",
+      "number": 1138,
+      "title": "[DSL] Support struct as the elemType of Array",
+      "author": "sjfeng1999",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-13T12:15:08Z",
-      "updated_at": "2026-09-13T12:31:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1129",
+      "created_at": "2026-09-15T09:13:13Z",
+      "updated_at": "2026-09-15T11:02:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1138",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1066,
-      "title": "[Kernel][FA] Support paged FP8 Flash attention with asymmetric K/V head dim on gfx950",
-      "author": "sammysun0711",
+      "number": 1137,
+      "title": "[Kernel][Perf] Fix and tune gfx950 dense FP8 attention",
+      "author": "coderfeli",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-24T10:19:53Z",
-      "updated_at": "2026-09-12T17:46:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1066",
+      "created_at": "2026-09-15T07:36:29Z",
+      "updated_at": "2026-09-15T10:50:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1137",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1136,
+      "title": "[Bugfix][Kernel] Fix rdna3_int8_gemm RDNA bounds checks",
+      "author": "qiangpan2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T07:22:47Z",
+      "updated_at": "2026-09-15T08:18:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1136",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1106,
+      "title": "[Skills] Add flydsl-code-review skill and workflow",
+      "author": "zhiding512",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T12:40:53Z",
+      "updated_at": "2026-09-15T03:24:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1106",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1109,
+      "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
+      "author": "big-yellow-duck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T06:44:24Z",
+      "updated_at": "2026-09-15T02:33:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1116,
+      "title": "clean atomic add",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T08:18:43Z",
+      "updated_at": "2026-09-15T02:21:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1116",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1119,
+      "title": "[Perf] Reduce small-batch TopK selection overhead on gfx950",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T23:06:50Z",
+      "updated_at": "2026-09-14T18:24:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1119",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1013,
+      "title": "[ROCDL] Add make_tiled_tdm_atom op and tdm_partition",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-14T11:55:55Z",
+      "updated_at": "2026-09-14T17:21:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1013",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 872,
+      "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-18T00:38:19Z",
+      "updated_at": "2026-09-14T14:05:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1128,
+      "title": "Support variadic operands in fully expanded tiled GEMM",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-12T11:35:27Z",
+      "updated_at": "2026-09-14T13:10:26Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1131,
+      "title": "[Kernel] Refactor preshuffle GEMM indexing with layout algebra",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-14T08:44:18Z",
+      "updated_at": "2026-09-14T10:57:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1131",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1079,
+      "title": "[ROCDL] cdna5 tdm_partition: relate only mode-0, pass rest modes through",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T11:53:08Z",
+      "updated_at": "2026-09-14T07:19:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1079",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1126,
+      "title": "[Kernel][Perf] Optimize gfx950 head64 prefill attention",
+      "author": "michael604work",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T20:28:29Z",
+      "updated_at": "2026-09-14T00:13:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1126",
       "labels": [],
       "draft": false
     },
@@ -38,54 +172,6 @@
       "draft": false
     },
     {
-      "number": 1128,
-      "title": "Support variadic operands in fully expanded tiled GEMM",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-12T11:35:27Z",
-      "updated_at": "2026-09-12T12:43:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1109,
-      "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
-      "author": "big-yellow-duck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T06:44:24Z",
-      "updated_at": "2026-09-12T09:30:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1119,
-      "title": "[Perf] Reduce small-batch TopK selection overhead on gfx950",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T23:06:50Z",
-      "updated_at": "2026-09-11T20:44:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1119",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1126,
-      "title": "[Kernel][Perf] Optimize gfx950 head64 prefill attention",
-      "author": "michael604work",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T20:28:29Z",
-      "updated_at": "2026-09-11T20:28:29Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1126",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1125,
       "title": "[Perf] gemm_bf16 gfx1250: cross-tile carry to hide K-tile prologue ds\u2026",
       "author": "amd-hhashemi",
@@ -94,18 +180,6 @@
       "created_at": "2026-09-11T19:07:55Z",
       "updated_at": "2026-09-11T19:13:11Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1125",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1106,
-      "title": "[Skills] Add flydsl-code-review skill and workflow",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-08T12:40:53Z",
-      "updated_at": "2026-09-11T17:35:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1106",
       "labels": [],
       "draft": false
     },
@@ -134,30 +208,6 @@
       "draft": false
     },
     {
-      "number": 1121,
-      "title": "[CI] Skip GPU tests for more non-code path changes",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T09:57:42Z",
-      "updated_at": "2026-09-11T10:00:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1121",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1120,
-      "title": "[Doc] Introduction for DSL procotols",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T09:40:53Z",
-      "updated_at": "2026-09-11T09:53:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1120",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1057,
       "title": "[Kernel][Perf] Add gfx1151 tile selection for RDNA3 GEMM",
       "author": "tangzzycc",
@@ -168,20 +218,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1057",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1116,
-      "title": "clean atomic add",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T08:18:43Z",
-      "updated_at": "2026-09-11T03:06:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1116",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": true
     },
     {
       "number": 912,
@@ -270,18 +306,6 @@
       "draft": false
     },
     {
-      "number": 1101,
-      "title": "Tdm migrate to tiled atom",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-07T14:05:25Z",
-      "updated_at": "2026-09-09T10:26:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1101",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1062,
       "title": "smem cleanup: move capacity helpers off legacy allocator, migrate tes\u2026",
       "author": "xudoyuan",
@@ -366,54 +390,6 @@
       "draft": true
     },
     {
-      "number": 1088,
-      "title": "[TEST ONLY][DO NOT MERGE] Bump LLVM pin to 739eaa08 to fix gfx1250 entry prologue",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T08:25:48Z",
-      "updated_at": "2026-09-02T09:07:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1088",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1055,
-      "title": "Add page-16 sliding-window attention support",
-      "author": "zjing14",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T22:11:44Z",
-      "updated_at": "2026-09-01T21:33:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1055",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1079,
-      "title": "[ROCDL] cdna5 tdm_partition: relate only mode-0, pass rest modes through",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T11:53:08Z",
-      "updated_at": "2026-08-31T06:41:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1079",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 891,
-      "title": "[Test] Add gfx1250 WMMA lowering tests for additional dtypes",
-      "author": "AiyyappanMR",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T10:12:30Z",
-      "updated_at": "2026-08-28T06:13:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/891",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 918,
       "title": "[Bugfix][Dialect] Reject vector operands in atomic copy atoms",
       "author": "AiyyappanMR",
@@ -450,18 +426,6 @@
       "draft": false
     },
     {
-      "number": 1050,
-      "title": "[Fix] Restore the fx.maxnumf contract, and keep ninf off the score reductions",
-      "author": "JohnQinAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T05:29:55Z",
-      "updated_at": "2026-08-24T19:06:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1050",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 906,
       "title": "Add fast_divmod magic-number division helper",
       "author": "kashif",
@@ -470,18 +434,6 @@
       "created_at": "2026-07-26T18:16:40Z",
       "updated_at": "2026-08-24T15:28:03Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/906",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1013,
-      "title": "[ROCDL] Add make_tiled_tdm_atom op and tdm_partition",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-14T11:55:55Z",
-      "updated_at": "2026-08-21T08:41:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1013",
       "labels": [],
       "draft": false
     },
@@ -530,18 +482,6 @@
       "created_at": "2026-08-08T11:53:09Z",
       "updated_at": "2026-08-17T09:48:43Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 872,
-      "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-18T00:38:19Z",
-      "updated_at": "2026-08-12T03:07:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
       "labels": [],
       "draft": false
     },
@@ -614,6 +554,90 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1135,
+      "title": "[Docs] Remove tedious typed arithmetic section",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-14T17:22:38Z",
+      "updated_at": "2026-09-15T01:15:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1135",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1120,
+      "title": "[Doc] Introduction for DSL procotols",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T09:40:53Z",
+      "updated_at": "2026-09-14T14:07:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1120",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1132,
+      "title": "[CI] Reduce full test runtime without dropping edge coverage",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-14T10:59:41Z",
+      "updated_at": "2026-09-14T14:02:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1132",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1133,
+      "title": "[CI] Align pre-commit Python and C++ style checks with CI",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-14T12:31:12Z",
+      "updated_at": "2026-09-14T13:12:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1133",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1130,
+      "title": "[Bugfix] Include captured types in the JIT cache key",
+      "author": "LWenH",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-14T07:37:26Z",
+      "updated_at": "2026-09-14T10:51:40Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1130",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1121,
+      "title": "[CI] Skip GPU tests for more non-code path changes",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T09:57:42Z",
+      "updated_at": "2026-09-14T07:21:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1121",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1066,
+      "title": "[Kernel][FA] Support paged FP8 Flash attention with asymmetric K/V head dim on gfx950",
+      "author": "sammysun0711",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-24T10:19:53Z",
+      "updated_at": "2026-09-14T07:20:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1066",
       "labels": [],
       "draft": false
     },
@@ -1122,116 +1146,6 @@
       "created_at": "2026-08-24T08:38:03Z",
       "updated_at": "2026-08-24T11:44:32Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1063",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1060,
-      "title": "[gfx1250][GEMM] Add const-init to the test and support mxscale tile_m=16",
-      "author": "aoli26",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T04:17:59Z",
-      "updated_at": "2026-08-24T08:31:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1060",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1033,
-      "title": "[Bugfix][Kernel] Fix NaN from the lazy rescale on a wide score range",
-      "author": "JohnQinAMD",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-19T18:36:41Z",
-      "updated_at": "2026-08-24T06:50:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1033",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1027,
-      "title": "[Skills] Fix silently-ignored frontmatter, de-drift kernel skills and CLAUDE.md",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-18T20:18:05Z",
-      "updated_at": "2026-08-24T06:42:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1027",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1037,
-      "title": "[ROCDL] Lower approximate exp2 to native intrinsic",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-19T21:55:41Z",
-      "updated_at": "2026-08-24T06:39:37Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1037",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1052,
-      "title": "[Fix] crd2idx uses wrong dynamic basis leaf",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-21T07:10:16Z",
-      "updated_at": "2026-08-21T13:49:26Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1052",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 910,
-      "title": "[Kernel][Perf] Optimize paged-attention metadata decode",
-      "author": "fsx950223",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-27T05:23:12Z",
-      "updated_at": "2026-08-21T09:27:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/910",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1025,
-      "title": "[Kernel] Replace raw scf ops with Python control flow in kernels",
-      "author": "xudoyuan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-18T11:11:03Z",
-      "updated_at": "2026-08-21T09:22:56Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1025",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1028,
-      "title": "[Kernel][Perf] Speed up the RDNA3 GEMM up to 1.85x by choosing the tile from the shape",
-      "author": "vlluvia",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-19T05:47:22Z",
-      "updated_at": "2026-08-21T08:23:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1028",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1035,
-      "title": "[Fix] Let fx.maxnumf inherit the ambient fastmath",
-      "author": "JohnQinAMD",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-19T19:37:59Z",
-      "updated_at": "2026-08-21T05:30:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1035",
       "labels": [],
       "draft": false
     }

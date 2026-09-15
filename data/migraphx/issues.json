@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-13T12:53:59Z",
+  "collected_at": "2026-09-15T12:56:55Z",
   "issues": [
     {
       "number": 5246,
@@ -7,7 +7,7 @@
       "author": "itikhono",
       "state": "open",
       "created_at": "2026-09-10T19:34:52Z",
-      "updated_at": "2026-09-10T19:35:22Z",
+      "updated_at": "2026-09-14T17:52:37Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5246",
       "labels": []
     },

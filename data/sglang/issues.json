@@ -1,27 +1,109 @@
 {
-  "collected_at": "2026-09-13T12:53:52Z",
+  "collected_at": "2026-09-15T12:56:46Z",
   "issues": [
-    {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-13T12:19:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
-    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-13T12:03:47Z",
+      "updated_at": "2026-09-15T12:49:19Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-15T12:21:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 39499,
+      "title": "[Roadmap] SGLang dLLM Serving",
+      "author": "rwang5203",
+      "state": "open",
+      "created_at": "2026-09-15T01:21:47Z",
+      "updated_at": "2026-09-15T09:17:57Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
+      "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-09-15T06:58:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 39517,
+      "title": "[Bug] NEXTN with Qwen3.5-122B-A10B-FP8 memory-faults on MI300X/MI325X/MI355X (aiter backend, rocm10 nightlies); triton works, SGLANG_USE_AITER_UNIFIED_ATTN works on gfx942 only",
+      "author": "jolpindo96",
+      "state": "open",
+      "created_at": "2026-09-15T03:51:38Z",
+      "updated_at": "2026-09-15T03:51:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39517",
+      "labels": []
+    },
+    {
+      "number": 39441,
+      "title": "[Bug] [ROCm] DeepSeek-V4.1 FP4 indexer still exhausts HBM under long-context AgentX after #37660",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-09-14T17:29:40Z",
+      "updated_at": "2026-09-14T23:15:44Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39441",
+      "labels": []
+    },
+    {
+      "number": 29736,
+      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
+      "author": "thanhhao98",
+      "state": "open",
+      "created_at": "2026-06-30T08:43:14Z",
+      "updated_at": "2026-09-14T22:10:28Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
+      "labels": []
+    },
+    {
+      "number": 39442,
+      "title": "[Bug] [ROCm] MEM profiling crashes TP server in _dump_snapshot with RuntimeError: stoi",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-09-14T17:29:47Z",
+      "updated_at": "2026-09-14T18:48:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39442",
+      "labels": []
+    },
+    {
+      "number": 37559,
+      "title": "[Bug] CUDA_ERROR_ILLEGAL_ADDRESS in MXFP8FP4/W4A8 MegaMoE path on B300 with sgl-deep-gemm 0.1.7",
+      "author": "shyeh25",
+      "state": "open",
+      "created_at": "2026-09-02T06:53:34Z",
+      "updated_at": "2026-09-14T08:40:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37559",
+      "labels": []
+    },
+    {
+      "number": 34861,
+      "title": "[Bug] [NPU] Router GEMM output should always be fp32",
+      "author": "b8zhong",
+      "state": "open",
+      "created_at": "2026-08-14T15:17:51Z",
+      "updated_at": "2026-09-14T06:18:47Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34861",
+      "labels": [
+        "npu"
+      ]
     },
     {
       "number": 30815,
@@ -66,16 +148,6 @@
       "labels": []
     },
     {
-      "number": 39054,
-      "title": "is_musa() graph-breaks TorchDynamo (gb0069) on the traced prefill path since b6c31b155c, killing tc_piecewise prefill CUDA-graph capture",
-      "author": "janbernloehr",
-      "state": "open",
-      "created_at": "2026-09-11T08:01:50Z",
-      "updated_at": "2026-09-11T08:01:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39054",
-      "labels": []
-    },
-    {
       "number": 38849,
       "title": "[Bug] GLM 5.3 segfault on MI300 in SGLang scheduler",
       "author": "kazenshi",
@@ -94,18 +166,6 @@
       "updated_at": "2026-09-10T08:02:37Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38618",
       "labels": []
-    },
-    {
-      "number": 34861,
-      "title": "[Bug] [NPU] Router GEMM output should always be fp32",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-14T15:17:51Z",
-      "updated_at": "2026-09-10T01:09:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34861",
-      "labels": [
-        "npu"
-      ]
     },
     {
       "number": 38745,
@@ -198,16 +258,6 @@
       "created_at": "2026-04-16T08:35:03Z",
       "updated_at": "2026-09-08T20:14:51Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/22949",
-      "labels": []
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-09-08T15:09:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
     },
     {
@@ -316,16 +366,6 @@
       "labels": []
     },
     {
-      "number": 37559,
-      "title": "[Bug] CUDA_ERROR_ILLEGAL_ADDRESS in MXFP8FP4/W4A8 MegaMoE path on B300 with sgl-deep-gemm 0.1.7",
-      "author": "shyeh25",
-      "state": "open",
-      "created_at": "2026-09-02T06:53:34Z",
-      "updated_at": "2026-09-04T02:53:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37559",
-      "labels": []
-    },
-    {
       "number": 37548,
       "title": "[GLM-5.3-Flash] NextN/MTP crashes on the first request: Glm5NextForConditionalGenerationNextN inherits DeepSeek's draft forward, embedding gather goes out of bounds at TP8",
       "author": "Hansen523",
@@ -333,16 +373,6 @@
       "created_at": "2026-09-02T06:22:31Z",
       "updated_at": "2026-09-03T12:04:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37548",
-      "labels": []
-    },
-    {
-      "number": 29736,
-      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
-      "author": "thanhhao98",
-      "state": "open",
-      "created_at": "2026-06-30T08:43:14Z",
-      "updated_at": "2026-09-03T10:25:36Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
       "labels": []
     },
     {
@@ -420,16 +450,6 @@
       "labels": []
     },
     {
-      "number": 35785,
-      "title": "Triton version mismatch",
-      "author": "alex-mashin",
-      "state": "open",
-      "created_at": "2026-08-21T03:24:38Z",
-      "updated_at": "2026-08-30T05:12:59Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35785",
-      "labels": []
-    },
-    {
       "number": 36938,
       "title": "[Bug] Prefill input logprobs are served from the wrong request when a batch member is retracted or finished",
       "author": "EnesYilmazcode",
@@ -438,20 +458,6 @@
       "updated_at": "2026-08-29T01:34:49Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/36938",
       "labels": []
-    },
-    {
-      "number": 16255,
-      "title": "[Feature] deepseek_v2.py Refactor",
-      "author": "Fridge003",
-      "state": "open",
-      "created_at": "2026-01-01T03:53:53Z",
-      "updated_at": "2026-08-27T16:18:14Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16255",
-      "labels": [
-        "inactive",
-        "deepseek",
-        "Good Pro Issue"
-      ]
     },
     {
       "number": 36390,
@@ -541,26 +547,6 @@
       "created_at": "2026-08-12T10:21:21Z",
       "updated_at": "2026-08-12T10:26:00Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34562",
-      "labels": []
-    },
-    {
-      "number": 34205,
-      "title": "[Bug] Aborted LoRA requests retain a LoRARegistry reference",
-      "author": "AlexEisie",
-      "state": "open",
-      "created_at": "2026-08-10T03:10:40Z",
-      "updated_at": "2026-08-10T03:29:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34205",
-      "labels": []
-    },
-    {
-      "number": 34149,
-      "title": "[Bug] Abort can commit a delayed final chunked-prefill token on latest main",
-      "author": "jeremyzhang866",
-      "state": "open",
-      "created_at": "2026-08-09T03:48:33Z",
-      "updated_at": "2026-08-09T18:34:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34149",
       "labels": []
     }
   ]

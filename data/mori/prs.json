@@ -1,30 +1,6 @@
 {
-  "collected_at": "2026-09-13T12:54:23Z",
+  "collected_at": "2026-09-15T12:57:20Z",
   "prs": [
-    {
-      "number": 666,
-      "title": "fix(allocator): link c10_hip in JIT path for getCurrentHIPStream",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-12T10:25:47Z",
-      "updated_at": "2026-09-12T11:59:41Z",
-      "html_url": "https://github.com/ROCm/mori/pull/666",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 665,
-      "title": "test(ep/v2): warm the internode bench with the timed loop's tensor lifetime",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-12T07:52:15Z",
-      "updated_at": "2026-09-12T07:52:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/665",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 662,
       "title": "Fuse DSV4-Pro wo_b's GEMM with its all-reduce over cco SDMA",
@@ -32,8 +8,92 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-11T09:22:11Z",
-      "updated_at": "2026-09-12T07:47:30Z",
+      "updated_at": "2026-09-15T12:53:00Z",
       "html_url": "https://github.com/ROCm/mori/pull/662",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 671,
+      "title": "Include github_agpl_crawler.py in __init__.py",
+      "author": "WLloverSZ",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T12:47:28Z",
+      "updated_at": "2026-09-15T12:48:38Z",
+      "html_url": "https://github.com/ROCm/mori/pull/671",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 654,
+      "title": "Add DMA buffer support to mlx5",
+      "author": "avbokovoy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T12:55:20Z",
+      "updated_at": "2026-09-15T08:39:45Z",
+      "html_url": "https://github.com/ROCm/mori/pull/654",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 652,
+      "title": "feat(ccl): support HIP graph capture in AllGather SDMA",
+      "author": "alanshwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T09:05:03Z",
+      "updated_at": "2026-09-15T08:02:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/652",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 669,
+      "title": "intra ci migrate",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-14T08:58:29Z",
+      "updated_at": "2026-09-15T02:47:51Z",
+      "html_url": "https://github.com/ROCm/mori/pull/669",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "Feat/io rdma retry tunables",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-14T22:27:14Z",
+      "updated_at": "2026-09-14T22:27:58Z",
+      "html_url": "https://github.com/ROCm/mori/pull/670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 658,
+      "title": "Fix/env check mlnx qos no sudo",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T21:36:48Z",
+      "updated_at": "2026-09-14T17:43:07Z",
+      "html_url": "https://github.com/ROCm/mori/pull/658",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "fix: migrate GPU topology from rocm_smi to amd_smi (ROCm 10.1+)",
+      "author": "srinivamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T20:09:16Z",
+      "updated_at": "2026-09-14T05:48:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/663",
       "labels": [],
       "draft": false
     },
@@ -62,18 +122,6 @@
       "draft": false
     },
     {
-      "number": 663,
-      "title": "fix: migrate GPU topology from rocm_smi to amd_smi (ROCm 10.1+)",
-      "author": "srinivamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T20:09:16Z",
-      "updated_at": "2026-09-11T20:09:16Z",
-      "html_url": "https://github.com/ROCm/mori/pull/663",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 659,
       "title": "test(EPv2): make the routing independent of the sweep list, and report the spread",
       "author": "jhchouuu",
@@ -82,18 +130,6 @@
       "created_at": "2026-09-11T09:07:39Z",
       "updated_at": "2026-09-11T09:53:43Z",
       "html_url": "https://github.com/ROCm/mori/pull/659",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 652,
-      "title": "feat(ccl): support HIP graph capture in AllGather SDMA",
-      "author": "alanshwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T09:05:03Z",
-      "updated_at": "2026-09-11T09:52:44Z",
-      "html_url": "https://github.com/ROCm/mori/pull/652",
       "labels": [],
       "draft": false
     },
@@ -122,18 +158,6 @@
       "draft": true
     },
     {
-      "number": 658,
-      "title": "Fix/env check mlnx qos no sudo",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T21:36:48Z",
-      "updated_at": "2026-09-11T07:52:03Z",
-      "html_url": "https://github.com/ROCm/mori/pull/658",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 647,
       "title": "perf(ep): add MI355X IntraNodeLL combine tuning",
       "author": "xudonlyu",
@@ -142,18 +166,6 @@
       "created_at": "2026-09-08T11:37:35Z",
       "updated_at": "2026-09-11T05:44:35Z",
       "html_url": "https://github.com/ROCm/mori/pull/647",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 654,
-      "title": "Add DMA buffer support to mlx5",
-      "author": "avbokovoy",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T12:55:20Z",
-      "updated_at": "2026-09-11T08:26:01Z",
-      "html_url": "https://github.com/ROCm/mori/pull/654",
       "labels": [],
       "draft": false
     },
@@ -540,6 +552,54 @@
       "html_url": "https://github.com/ROCm/mori/pull/621",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 666,
+      "title": "fix(allocator): link c10_hip in JIT path for getCurrentHIPStream",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-12T10:25:47Z",
+      "updated_at": "2026-09-15T10:42:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/666",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 668,
+      "title": "refactor(EPv2): name the dispatch transport fp8 or fp4x2, not byte8",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-14T04:29:54Z",
+      "updated_at": "2026-09-14T06:24:56Z",
+      "html_url": "https://github.com/ROCm/mori/pull/668",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 665,
+      "title": "test(ep/v2): warm the internode bench with the timed loop's tensor lifetime",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-12T07:52:15Z",
+      "updated_at": "2026-09-14T02:52:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/665",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 667,
+      "title": "perf(EPv2): fix the 512-token performance on gfx1250 A1B0",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-13T17:33:00Z",
+      "updated_at": "2026-09-13T17:33:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/667",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 642,
@@ -1498,42 +1558,6 @@
       "created_at": "2026-07-28T22:56:42Z",
       "updated_at": "2026-08-13T05:23:50Z",
       "html_url": "https://github.com/ROCm/mori/pull/504",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 553,
-      "title": "docs(cco): document the p2p benchmarks and fix their transport comments",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-13T04:24:31Z",
-      "updated_at": "2026-08-13T04:32:01Z",
-      "html_url": "https://github.com/ROCm/mori/pull/553",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 550,
-      "title": "build: recognise gfx1250 and let anvil_device.hpp compile for it",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-12T15:15:10Z",
-      "updated_at": "2026-08-13T03:37:19Z",
-      "html_url": "https://github.com/ROCm/mori/pull/550",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 552,
-      "title": "support UALink bandwidth testing",
-      "author": "zhangfei829",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-12T17:05:19Z",
-      "updated_at": "2026-08-12T17:06:24Z",
-      "html_url": "https://github.com/ROCm/mori/pull/552",
       "labels": [],
       "draft": false
     }

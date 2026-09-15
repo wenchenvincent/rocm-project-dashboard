@@ -1,32 +1,26 @@
 {
-  "collected_at": "2026-09-13T12:55:57Z",
+  "collected_at": "2026-09-15T12:58:43Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 172,
-      "merged": 97,
-      "closed": 50
+      "opened": 185,
+      "merged": 108,
+      "closed": 55
     },
     "last_week": {
-      "opened": 150,
-      "merged": 94,
-      "closed": 38
+      "opened": 136,
+      "merged": 84,
+      "closed": 47
     },
-    "median_time_to_merge_hours": 38.7,
-    "merge_count": 193,
-    "stale_prs": 198
+    "median_time_to_merge_hours": 41.1,
+    "merge_count": 194,
+    "stale_prs": 201
   },
   "contributors": {
-    "active_this_week": 147,
-    "total_contributors": 309,
+    "active_this_week": 144,
+    "total_contributors": 302,
     "top_contributors": [
-      {
-        "author": "Boss2002n",
-        "prs_submitted": 20,
-        "prs_merged": 8,
-        "commits": 53
-      },
       {
         "author": "JohnQinAMD",
         "prs_submitted": 19,
@@ -34,22 +28,34 @@
         "commits": 1
       },
       {
+        "author": "gyohuangxin",
+        "prs_submitted": 15,
+        "prs_merged": 2,
+        "commits": 25
+      },
+      {
         "author": "sunway513",
-        "prs_submitted": 16,
+        "prs_submitted": 15,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "gyohuangxin",
+        "author": "Boss2002n",
         "prs_submitted": 14,
         "prs_merged": 2,
-        "commits": 23
+        "commits": 53
       },
       {
         "author": "yzhou103",
-        "prs_submitted": 10,
-        "prs_merged": 2,
+        "prs_submitted": 9,
+        "prs_merged": 1,
         "commits": 5
+      },
+      {
+        "author": "yadaish",
+        "prs_submitted": 9,
+        "prs_merged": 3,
+        "commits": 9
       },
       {
         "author": "AMD-yanfeiwang",
@@ -64,38 +70,32 @@
         "commits": 1
       },
       {
-        "author": "yadaish",
+        "author": "zhiding512",
         "prs_submitted": 8,
-        "prs_merged": 2,
-        "commits": 8
-      },
-      {
-        "author": "XiaobingSuper",
-        "prs_submitted": 7,
         "prs_merged": 1,
-        "commits": 10
+        "commits": 1
       },
       {
         "author": "amirumoAMD",
-        "prs_submitted": 7,
-        "prs_merged": 0,
+        "prs_submitted": 8,
+        "prs_merged": 1,
         "commits": 2
       }
     ],
-    "bus_factor": 16
+    "bus_factor": 18
   },
   "issue_health": {
-    "total_open": 313,
-    "opened_this_week": 13,
-    "closed_this_week": 2,
-    "unanswered": 143
+    "total_open": 320,
+    "opened_this_week": 17,
+    "closed_this_week": 1,
+    "unanswered": 146
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.3,
-    "avg_interval_days": 5.5,
+    "days_since_last": 1.2,
+    "avg_interval_days": 4.6,
     "total_releases": 5,
-    "latest_tag": "v0.1.21.post2"
+    "latest_tag": "v0.1.22"
   }
 }

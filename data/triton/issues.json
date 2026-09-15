@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-13T12:53:54Z",
+  "collected_at": "2026-09-15T12:56:49Z",
   "issues": [
     {
       "number": 11748,
@@ -12,16 +12,6 @@
       "labels": [
         "bug"
       ]
-    },
-    {
-      "number": 11696,
-      "title": "[AMD] gfx942 block-pingpong two-cluster schedule races LDS: s_barrier emitted before the ds_read waitcnt, producing stale-by-one-BLOCK_K A operands",
-      "author": "jeffdaily",
-      "state": "open",
-      "created_at": "2026-09-10T21:27:54Z",
-      "updated_at": "2026-09-10T21:32:07Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/11696",
-      "labels": []
     },
     {
       "number": 11378,
