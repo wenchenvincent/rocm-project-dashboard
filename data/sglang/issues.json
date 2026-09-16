@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-15T12:56:46Z",
+  "collected_at": "2026-09-16T12:54:24Z",
   "issues": [
     {
       "number": 17050,
@@ -7,21 +7,39 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-15T12:49:19Z",
+      "updated_at": "2026-09-16T11:52:09Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
+      "number": 39800,
+      "title": "HellaSwag accuracy test cannot run: rowanz/hellaswag is blocked (HTTP 451), breaking base-a and stage-a-amd on every PR",
+      "author": "siliangchen-amd",
       "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-15T12:21:48Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
+      "created_at": "2026-09-16T11:08:36Z",
+      "updated_at": "2026-09-16T11:08:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39800",
+      "labels": []
+    },
+    {
+      "number": 37519,
+      "title": "[Roadmap][Feature] Support T-Head PPU",
+      "author": "Vinsmoke86",
+      "state": "open",
+      "created_at": "2026-09-02T02:58:18Z",
+      "updated_at": "2026-09-16T10:17:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37519",
+      "labels": []
+    },
+    {
+      "number": 30209,
+      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
+      "author": "hongboshi1234",
+      "state": "open",
+      "created_at": "2026-07-06T04:14:01Z",
+      "updated_at": "2026-09-16T08:23:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
+      "labels": []
     },
     {
       "number": 39499,
@@ -29,7 +47,7 @@
       "author": "rwang5203",
       "state": "open",
       "created_at": "2026-09-15T01:21:47Z",
-      "updated_at": "2026-09-15T09:17:57Z",
+      "updated_at": "2026-09-16T07:04:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/39499",
       "labels": []
     },
@@ -39,9 +57,34 @@
       "author": "HaiShaw",
       "state": "open",
       "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-09-15T06:58:49Z",
+      "updated_at": "2026-09-16T03:49:12Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
+    },
+    {
+      "number": 21703,
+      "title": "[Roadmap] Prefill-Decode Disaggregation Roadmap (2026 Q2)",
+      "author": "ShangmingCai",
+      "state": "open",
+      "created_at": "2026-03-30T17:20:10Z",
+      "updated_at": "2026-09-16T02:29:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21703",
+      "labels": [
+        "inactive",
+        "PD Disaggregation"
+      ]
+    },
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-16T00:06:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
     },
     {
       "number": 39517,
@@ -218,16 +261,6 @@
       "labels": []
     },
     {
-      "number": 30209,
-      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
-      "author": "hongboshi1234",
-      "state": "open",
-      "created_at": "2026-07-06T04:14:01Z",
-      "updated_at": "2026-09-09T12:37:08Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
-      "labels": []
-    },
-    {
       "number": 38513,
       "title": "supports_fp8() always True; _apply_fallback_scaled_mm still calls torch._scaled_mm (no escape on SM<89)",
       "author": "quantz8a",
@@ -236,19 +269,6 @@
       "updated_at": "2026-09-09T08:47:09Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38513",
       "labels": []
-    },
-    {
-      "number": 21703,
-      "title": "[Roadmap] Prefill-Decode Disaggregation Roadmap (2026 Q2)",
-      "author": "ShangmingCai",
-      "state": "open",
-      "created_at": "2026-03-30T17:20:10Z",
-      "updated_at": "2026-09-09T00:20:55Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21703",
-      "labels": [
-        "inactive",
-        "PD Disaggregation"
-      ]
     },
     {
       "number": 22949,
@@ -344,16 +364,6 @@
       "labels": [
         "apple-silicon"
       ]
-    },
-    {
-      "number": 37519,
-      "title": "[Roadmap][Feature] Support T-Head PPU",
-      "author": "Vinsmoke86",
-      "state": "open",
-      "created_at": "2026-09-02T02:58:18Z",
-      "updated_at": "2026-09-06T05:35:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37519",
-      "labels": []
     },
     {
       "number": 38029,
@@ -530,16 +540,6 @@
       "labels": []
     },
     {
-      "number": 34709,
-      "title": "[Bug] benchmark/endpoint.py forks the server process after the parent initializes the accelerator (breaks XPU, latent on CUDA)",
-      "author": "dayanandav",
-      "state": "open",
-      "created_at": "2026-08-13T08:08:27Z",
-      "updated_at": "2026-08-13T09:36:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34709",
-      "labels": []
-    },
-    {
       "number": 34562,
       "title": "[RFC] HIP/ROCm - Provide a bit-exact SWA prefix reuse for DeepSeek-V4 with unified_kv atten backend",
       "author": "amd-danli103",
@@ -547,6 +547,16 @@
       "created_at": "2026-08-12T10:21:21Z",
       "updated_at": "2026-08-12T10:26:00Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34562",
+      "labels": []
+    },
+    {
+      "number": 34205,
+      "title": "[Bug] Aborted LoRA requests retain a LoRARegistry reference",
+      "author": "AlexEisie",
+      "state": "open",
+      "created_at": "2026-08-10T03:10:40Z",
+      "updated_at": "2026-08-10T03:29:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34205",
       "labels": []
     }
   ]

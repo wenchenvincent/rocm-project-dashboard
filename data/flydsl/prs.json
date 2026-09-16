@@ -1,15 +1,161 @@
 {
-  "collected_at": "2026-09-15T12:57:24Z",
+  "collected_at": "2026-09-16T12:55:01Z",
   "prs": [
     {
-      "number": 1138,
-      "title": "[DSL] Support struct as the elemType of Array",
+      "number": 1148,
+      "title": "[Enh] Make specialized Vector and Pointer types Storable",
       "author": "sjfeng1999",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-15T09:13:13Z",
-      "updated_at": "2026-09-15T11:02:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1138",
+      "created_at": "2026-09-16T09:45:43Z",
+      "updated_at": "2026-09-16T12:01:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1148",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1146,
+      "title": "[CI] Fix silent skip of the MLIR lit stage",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T08:48:57Z",
+      "updated_at": "2026-09-16T09:07:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1146",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1116,
+      "title": "refactor communication ops",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T08:18:43Z",
+      "updated_at": "2026-09-16T09:06:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1116",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1147,
+      "title": "[a16w4] gfx942: software E2M1 decode so the mxfp4 path builds on CDNA3",
+      "author": "MHYangAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T08:57:16Z",
+      "updated_at": "2026-09-16T08:57:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1147",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1145,
+      "title": "[WIP][LLVM] bump llvm which improve the sequence for initial unclaused vmem",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T08:06:06Z",
+      "updated_at": "2026-09-16T08:15:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1145",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1106,
+      "title": "[Skills] Add flydsl-code-review skill and workflow",
+      "author": "zhiding512",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T12:40:53Z",
+      "updated_at": "2026-09-16T07:50:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1106",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1136,
+      "title": "[Bugfix][Kernel] Fix rdna3_int8_gemm RDNA bounds checks",
+      "author": "qiangpan2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T07:22:47Z",
+      "updated_at": "2026-09-16T07:33:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1136",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1144,
+      "title": "Support unroll/unroll_full on dynamic for-range loops",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T06:57:55Z",
+      "updated_at": "2026-09-16T06:58:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1144",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1141,
+      "title": "[Enh] Give Align fields alignas-like value semantics",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T18:29:34Z",
+      "updated_at": "2026-09-16T04:55:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1141",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1142,
+      "title": "[Build] Find ROCm through rocm-sdk before falling back to /opt/rocm*",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T18:30:13Z",
+      "updated_at": "2026-09-15T18:47:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1142",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1140,
+      "title": "[Fix] Convert fly pointer types across control-flow boundaries",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T17:27:00Z",
+      "updated_at": "2026-09-15T17:53:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1140",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1139,
+      "title": "Opus fa4 align bf16 perf",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T13:57:57Z",
+      "updated_at": "2026-09-15T14:39:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1139",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1128,
+      "title": "Support variadic operands in fully expanded tiled GEMM",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-12T11:35:27Z",
+      "updated_at": "2026-09-15T14:15:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
       "labels": [],
       "draft": false
     },
@@ -26,30 +172,6 @@
       "draft": false
     },
     {
-      "number": 1136,
-      "title": "[Bugfix][Kernel] Fix rdna3_int8_gemm RDNA bounds checks",
-      "author": "qiangpan2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-15T07:22:47Z",
-      "updated_at": "2026-09-15T08:18:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1136",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1106,
-      "title": "[Skills] Add flydsl-code-review skill and workflow",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-08T12:40:53Z",
-      "updated_at": "2026-09-15T03:24:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1106",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1109,
       "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
       "author": "big-yellow-duck",
@@ -60,20 +182,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1116,
-      "title": "clean atomic add",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T08:18:43Z",
-      "updated_at": "2026-09-15T02:21:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1116",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": true
     },
     {
       "number": 1119,
@@ -112,18 +220,6 @@
       "draft": false
     },
     {
-      "number": 1128,
-      "title": "Support variadic operands in fully expanded tiled GEMM",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-12T11:35:27Z",
-      "updated_at": "2026-09-14T13:10:26Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1131,
       "title": "[Kernel] Refactor preshuffle GEMM indexing with layout algebra",
       "author": "coderfeli",
@@ -156,18 +252,6 @@
       "created_at": "2026-09-11T20:28:29Z",
       "updated_at": "2026-09-14T00:13:31Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1126",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1123,
-      "title": "Add grouped MXFP8/A8W4 MoE GEMMs and fused GEMM1 quantization",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:29:11Z",
-      "updated_at": "2026-09-12T14:48:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1123",
       "labels": [],
       "draft": false
     },
@@ -366,18 +450,6 @@
       "draft": false
     },
     {
-      "number": 1051,
-      "title": "[FlyToROCDL] Bump LLVM to 941a04e6 and adapt gpu.launch_func lowering",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T06:18:20Z",
-      "updated_at": "2026-09-04T14:04:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1051",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 931,
       "title": "Add flex/flash-attention forward kernel on the layout API (gfx950)",
       "author": "RichardChamberlain1",
@@ -554,6 +626,30 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1143,
+      "title": "pyproject: bound nanobind below 3, as MLIR requires",
+      "author": "xinyazhang",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-15T22:56:00Z",
+      "updated_at": "2026-09-16T06:36:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1143",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1138,
+      "title": "[DSL] Support struct as the elemType of Array",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-15T09:13:13Z",
+      "updated_at": "2026-09-15T13:55:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1138",
       "labels": [],
       "draft": false
     },
@@ -1110,42 +1206,6 @@
       "created_at": "2026-08-18T00:14:06Z",
       "updated_at": "2026-08-26T16:07:49Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1020",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1068,
-      "title": "[Kernel] Refine G2S copy layout for gfx950 GEMM",
-      "author": "xytpai",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-25T10:20:54Z",
-      "updated_at": "2026-08-26T05:13:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1068",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1022,
-      "title": "[Kernel] Add opt-in autotuning for Softmax",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-18T08:19:04Z",
-      "updated_at": "2026-08-25T03:20:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1022",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1063,
-      "title": "[GEMM] Track gfx950 async LDS loads with asyncmark",
-      "author": "xytpai",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T08:38:03Z",
-      "updated_at": "2026-08-24T11:44:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1063",
       "labels": [],
       "draft": false
     }

@@ -1,30 +1,30 @@
 {
-  "collected_at": "2026-09-15T12:59:51Z",
+  "collected_at": "2026-09-16T12:57:38Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 22,
-      "merged": 16,
-      "closed": 0
+      "opened": 23,
+      "merged": 17,
+      "closed": 3
     },
     "last_week": {
-      "opened": 19,
-      "merged": 17,
-      "closed": 5
+      "opened": 21,
+      "merged": 19,
+      "closed": 4
     },
-    "median_time_to_merge_hours": 44.5,
-    "merge_count": 37,
+    "median_time_to_merge_hours": 42.2,
+    "merge_count": 40,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 17,
-    "total_contributors": 30,
+    "active_this_week": 19,
+    "total_contributors": 33,
     "top_contributors": [
       {
         "author": "jhchouuu",
-        "prs_submitted": 24,
-        "prs_merged": 18,
+        "prs_submitted": 22,
+        "prs_merged": 17,
         "commits": 14
       },
       {
@@ -34,22 +34,22 @@
         "commits": 3
       },
       {
-        "author": "TianDi101",
-        "prs_submitted": 12,
-        "prs_merged": 10,
-        "commits": 1
+        "author": "kawhil-amd",
+        "prs_submitted": 11,
+        "prs_merged": 9,
+        "commits": 8
       },
       {
         "author": "QizhouZhang97",
         "prs_submitted": 11,
-        "prs_merged": 10,
-        "commits": 9
+        "prs_merged": 11,
+        "commits": 10
       },
       {
-        "author": "kawhil-amd",
-        "prs_submitted": 11,
-        "prs_merged": 9,
-        "commits": 7
+        "author": "TianDi101",
+        "prs_submitted": 10,
+        "prs_merged": 8,
+        "commits": 1
       },
       {
         "author": "zhangfei829",
@@ -59,9 +59,9 @@
       },
       {
         "author": "amirakb89",
-        "prs_submitted": 8,
+        "prs_submitted": 7,
         "prs_merged": 2,
-        "commits": 1
+        "commits": 2
       },
       {
         "author": "pemeliya",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.4,
+    "days_since_last": 2.4,
     "avg_interval_days": 24.4,
     "total_releases": 5,
     "latest_tag": "v1.2.3.post1"

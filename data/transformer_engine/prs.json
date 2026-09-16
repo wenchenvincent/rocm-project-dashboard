@@ -1,6 +1,112 @@
 {
-  "collected_at": "2026-09-15T12:57:27Z",
+  "collected_at": "2026-09-16T12:55:03Z",
   "prs": [
+    {
+      "number": 732,
+      "title": "GFX1250 changes with updated AITER",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T21:15:40Z",
+      "updated_at": "2026-09-16T03:28:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/732",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 734,
+      "title": "Persistent AG + GEMM MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:42:24Z",
+      "updated_at": "2026-09-16T03:25:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "Performance dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-09-15T21:45:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 606,
+      "title": "[FEAT] Lightning Indexer",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-01T20:55:02Z",
+      "updated_at": "2026-09-15T18:42:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 736,
+      "title": "Upgrade ci to therock 10.0",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T19:23:22Z",
+      "updated_at": "2026-09-15T18:28:44Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "Initial integration of a4w4 GEMM",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T20:00:46Z",
+      "updated_at": "2026-09-15T18:07:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 694,
+      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T18:46:22Z",
+      "updated_at": "2026-09-15T17:23:26Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-09-15T14:22:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 678,
       "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
@@ -16,42 +122,6 @@
       "draft": false
     },
     {
-      "number": 734,
-      "title": "Persistent AG + GEMM MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T15:42:24Z",
-      "updated_at": "2026-09-15T03:01:46Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-09-14T21:56:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 606,
-      "title": "[FEAT] Lightning Indexer",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-01T20:55:02Z",
-      "updated_at": "2026-09-14T21:23:58Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 721,
       "title": "Ifu dev 20260828 v2.19",
       "author": "matthiasdiener",
@@ -64,58 +134,6 @@
         "ci-level 3"
       ],
       "draft": false
-    },
-    {
-      "number": 694,
-      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-09-14T19:36:54Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 670,
-      "title": "Benchmarks dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-09-14T19:29:37Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 732,
-      "title": "GFX1250 changes with updated AITER",
-      "author": "ipanfilo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T21:15:40Z",
-      "updated_at": "2026-09-14T19:17:30Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/732",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 663,
-      "title": "Initial integration of a4w4 GEMM",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T20:00:46Z",
-      "updated_at": "2026-09-14T19:13:27Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": true
     },
     {
       "number": 723,
@@ -142,20 +160,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/733",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 736,
-      "title": "Upgrade ci to therock 10.0",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T19:23:22Z",
-      "updated_at": "2026-09-10T19:53:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     },
@@ -359,18 +363,6 @@
       "labels": [
         "ci-level 1"
       ],
-      "draft": false
-    },
-    {
-      "number": 603,
-      "title": "TE AITER gfx1250 integration WIP",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-29T19:30:33Z",
-      "updated_at": "2026-08-04T16:21:11Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/603",
-      "labels": [],
       "draft": false
     },
     {
@@ -1856,20 +1848,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/605",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 582,
-      "title": "CK JIT integration",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-11T15:43:55Z",
-      "updated_at": "2026-06-14T01:47:31Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/582",
-      "labels": [
-        "ci-level 2"
       ],
       "draft": false
     }

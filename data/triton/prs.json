@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-15T12:56:49Z",
+  "collected_at": "2026-09-16T12:54:25Z",
   "prs": [
     {
       "number": 11657,
@@ -8,8 +8,80 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-09T10:12:40Z",
-      "updated_at": "2026-09-15T10:51:39Z",
+      "updated_at": "2026-09-16T11:24:10Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11657",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11809,
+      "title": "[AMD] Use hardware OCP FP8 upcasts on RDNA4",
+      "author": "zihaomu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T05:25:52Z",
+      "updated_at": "2026-09-16T10:47:14Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11809",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11802,
+      "title": "[CI][AMD] Record runner environment diagnostics",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T23:10:03Z",
+      "updated_at": "2026-09-15T23:20:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11802",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11749,
+      "title": "[AMD] Don't over-subscribe TDM warps on small blocks",
+      "author": "nurmukhametov",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T13:13:16Z",
+      "updated_at": "2026-09-15T17:38:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11749",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11465,
+      "title": "[AMD][BACKEND] Fix free-variable mask key to enable register deduplication in stores",
+      "author": "dhernandez0",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-26T10:13:01Z",
+      "updated_at": "2026-09-15T17:17:21Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11465",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10708,
+      "title": "[AMD] Add CDNA5 Gluon stream bandwidth example",
+      "author": "adityakankariya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-24T01:30:44Z",
+      "updated_at": "2026-09-15T17:16:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10708",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11798,
+      "title": "[AMD] Support configurable warp-pipeline phase gaps",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T14:53:22Z",
+      "updated_at": "2026-09-15T15:04:44Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11798",
       "labels": [],
       "draft": true
     },
@@ -192,18 +264,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11719",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11749,
-      "title": "[AMD] Don't over-subscribe TDM warps on small blocks",
-      "author": "nurmukhametov",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-13T13:13:16Z",
-      "updated_at": "2026-09-13T13:17:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11749",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 11745,
@@ -396,18 +456,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11470",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11465,
-      "title": "[AMD][BACKEND] Fix free-variable mask key to enable register deduplication in stores and atomics",
-      "author": "dhernandez0",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T10:13:01Z",
-      "updated_at": "2026-09-08T11:13:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11465",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11599,
@@ -662,18 +710,6 @@
       "draft": false
     },
     {
-      "number": 11442,
-      "title": "[AMD][BACKEND Allow compact scales in scaled_upcast on CDNA4",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-25T14:35:57Z",
-      "updated_at": "2026-08-25T16:30:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11442",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11429,
       "title": "[Release][Cherry-Pick] [AMD] Fix under-approximated loop-carried ranges in range analysis",
       "author": "AlexAUT",
@@ -682,42 +718,6 @@
       "created_at": "2026-08-24T16:39:14Z",
       "updated_at": "2026-08-25T00:11:04Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11429",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11399,
-      "title": "[AMD][IMP][Launch Latency] read use_buffer_ops once at import time",
-      "author": "irreg",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-22T06:39:48Z",
-      "updated_at": "2026-08-22T08:55:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11399",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11068,
-      "title": "[AMD] Propagate discardable attributes on the small-tensor pointer path",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T09:39:52Z",
-      "updated_at": "2026-08-19T06:28:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11068",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11346,
-      "title": "[AMD] Preserve dominance when preparing if combining",
-      "author": "liminfei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T05:57:00Z",
-      "updated_at": "2026-08-18T08:20:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11346",
       "labels": [],
       "draft": false
     }
