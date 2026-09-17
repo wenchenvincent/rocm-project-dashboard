@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-09-16T12:55:38Z",
+  "collected_at": "2026-09-17T12:51:54Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "CI - Bazel ROCm tests",
-    "run_id": 35098190228,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/35098190228",
-    "run_date": "2026-09-16T12:54:22Z",
+    "run_id": 35221463639,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/35221463639",
+    "run_date": "2026-09-17T12:35:13Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 2,

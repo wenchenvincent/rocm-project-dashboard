@@ -1,29 +1,43 @@
 {
-  "collected_at": "2026-09-16T12:55:03Z",
+  "collected_at": "2026-09-17T12:51:28Z",
   "prs": [
     {
-      "number": 732,
-      "title": "GFX1250 changes with updated AITER",
-      "author": "ipanfilo",
+      "number": 678,
+      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
+      "author": "shurale-nkn",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-03T21:15:40Z",
-      "updated_at": "2026-09-16T03:28:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/732",
+      "created_at": "2026-07-24T15:17:24Z",
+      "updated_at": "2026-09-17T11:53:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-09-16T23:40:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [],
       "draft": false
     },
     {
-      "number": 734,
-      "title": "Persistent AG + GEMM MXFP8 Enablement",
-      "author": "aris134",
+      "number": 625,
+      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
+      "author": "VeeraRajasekhar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-09T15:42:24Z",
-      "updated_at": "2026-09-16T03:25:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
+      "created_at": "2026-06-15T05:36:28Z",
+      "updated_at": "2026-09-16T23:33:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
       "labels": [
-        "ci-level 1"
+        "ci-level 3"
       ],
       "draft": false
     },
@@ -34,9 +48,23 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-09-15T21:45:29Z",
+      "updated_at": "2026-09-16T23:16:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
       "labels": [],
+      "draft": true
+    },
+    {
+      "number": 734,
+      "title": "Persistent AG + GEMM MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:42:24Z",
+      "updated_at": "2026-09-16T22:24:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": true
     },
     {
@@ -46,7 +74,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-01T20:55:02Z",
-      "updated_at": "2026-09-15T18:42:51Z",
+      "updated_at": "2026-09-16T22:21:02Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
       "labels": [
         "ci-level 1"
@@ -96,32 +124,6 @@
       "draft": false
     },
     {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-09-15T14:22:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 678,
-      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-09-15T09:52:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 721,
       "title": "Ifu dev 20260828 v2.19",
       "author": "matthiasdiener",
@@ -144,20 +146,6 @@
       "created_at": "2026-08-31T18:58:10Z",
       "updated_at": "2026-09-11T21:02:33Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/723",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 733,
-      "title": "gfx1250 mxfp8: fix dequant, reference test swizzle",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T23:09:49Z",
-      "updated_at": "2026-09-11T15:30:01Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/733",
       "labels": [
         "ci-level 1"
       ],
@@ -258,20 +246,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/724",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 625,
-      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-09-08T19:45:11Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 705,
@@ -689,6 +663,34 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 732,
+      "title": "GFX1250 changes with updated AITER",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-03T21:15:40Z",
+      "updated_at": "2026-09-16T23:32:17Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/732",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 733,
+      "title": "gfx1250 mxfp8: fix dequant, reference test swizzle",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-03T23:09:49Z",
+      "updated_at": "2026-09-16T18:26:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/733",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -1820,34 +1822,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/608",
       "labels": [
         "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 615,
-      "title": "[Fix] TE RMSNorm Triton Kernel Optimization",
-      "author": "AllenFarcas",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-08T15:00:06Z",
-      "updated_at": "2026-06-15T14:51:31Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/615",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 605,
-      "title": "add MXFP8 pre-swizzling for gfx1250 GEMM (#568)",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-01T17:04:15Z",
-      "updated_at": "2026-06-15T04:03:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/605",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     }

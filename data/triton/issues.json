@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-09-16T12:54:26Z",
+  "collected_at": "2026-09-17T12:50:47Z",
   "issues": [
-    {
-      "number": 11748,
-      "title": "[AMD][gfx1250] TDM lowering crashes when a block dimension is smaller than num_warps",
-      "author": "nurmukhametov",
-      "state": "open",
-      "created_at": "2026-09-13T12:50:31Z",
-      "updated_at": "2026-09-13T12:50:31Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/11748",
-      "labels": [
-        "bug"
-      ]
-    },
     {
       "number": 11378,
       "title": "[AMD] scf.for with runtime trip count miscompiled on gfx1151",

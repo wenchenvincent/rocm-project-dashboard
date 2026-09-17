@@ -1,27 +1,75 @@
 {
-  "collected_at": "2026-09-16T12:54:25Z",
+  "collected_at": "2026-09-17T12:50:46Z",
   "prs": [
     {
-      "number": 11657,
-      "title": "[AMD][Gluon] Export scaled_upcast layout helper for every supported arch",
-      "author": "AlexAUT",
+      "number": 11707,
+      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
+      "author": "jungpark-mlir",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-09T10:12:40Z",
-      "updated_at": "2026-09-16T11:24:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11657",
+      "created_at": "2026-09-11T14:21:46Z",
+      "updated_at": "2026-09-17T12:28:08Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11707",
       "labels": [],
       "draft": true
     },
     {
-      "number": 11809,
-      "title": "[AMD] Use hardware OCP FP8 upcasts on RDNA4",
-      "author": "zihaomu",
+      "number": 11833,
+      "title": "[AMD][BACEND] Fix multi-cta OOB handling of TDM gather/scatter",
+      "author": "AlexAUT",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-16T05:25:52Z",
-      "updated_at": "2026-09-16T10:47:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11809",
+      "created_at": "2026-09-17T11:19:05Z",
+      "updated_at": "2026-09-17T11:19:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11833",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11814,
+      "title": "[AMD] Fix shared-memory loads and stores of pointer elements",
+      "author": "he-weiwen",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-16T17:52:11Z",
+      "updated_at": "2026-09-17T10:10:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11814",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11812,
+      "title": "[Release] [Cherry-Pick] [AMD] rocprofsdk finalization fix for proton (#11009)",
+      "author": "alexxony",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T14:44:01Z",
+      "updated_at": "2026-09-17T09:58:14Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11812",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11749,
+      "title": "[AMD][BACKEND] Don't over-subscribe TDM warps on small blocks",
+      "author": "nurmukhametov",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-13T13:13:16Z",
+      "updated_at": "2026-09-17T08:57:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11749",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11579,
+      "title": "[NFC][AMD] Add mixed FP8/BF8 WMMA lowering tests",
+      "author": "umangyadav",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-04T04:30:25Z",
+      "updated_at": "2026-09-16T22:43:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11579",
       "labels": [],
       "draft": false
     },
@@ -32,20 +80,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-15T23:10:03Z",
-      "updated_at": "2026-09-15T23:20:58Z",
+      "updated_at": "2026-09-16T20:02:16Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11802",
       "labels": [],
       "draft": false
     },
     {
-      "number": 11749,
-      "title": "[AMD] Don't over-subscribe TDM warps on small blocks",
-      "author": "nurmukhametov",
+      "number": 11657,
+      "title": "[AMD][Gluon] Export scaled_upcast layout helper for every supported arch",
+      "author": "AlexAUT",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-13T13:13:16Z",
-      "updated_at": "2026-09-15T17:38:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11749",
+      "created_at": "2026-09-09T10:12:40Z",
+      "updated_at": "2026-09-16T13:59:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11657",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11809,
+      "title": "[AMD] Use hardware OCP FP8 upcasts on RDNA4",
+      "author": "zihaomu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T05:25:52Z",
+      "updated_at": "2026-09-16T12:59:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11809",
       "labels": [],
       "draft": false
     },
@@ -290,18 +350,6 @@
       "draft": false
     },
     {
-      "number": 11707,
-      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:21:46Z",
-      "updated_at": "2026-09-12T18:11:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11707",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11709,
       "title": "[AMD] Fix XF32 MFMA lowering for small K",
       "author": "Jokeren",
@@ -482,18 +530,6 @@
       "draft": false
     },
     {
-      "number": 11579,
-      "title": "[NFC][AMD] Add mixed FP8/BF8 WMMA lowering tests",
-      "author": "umangyadav",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-04T04:30:25Z",
-      "updated_at": "2026-09-07T13:55:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11579",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11474,
       "title": "[AMD] Enable RDNA4m buffer atomics and IEEE min/max",
       "author": "umangyadav",
@@ -638,18 +674,6 @@
       "draft": false
     },
     {
-      "number": 11365,
-      "title": "[AMD][LAYOUTS] Refine segment computation to support DS_READ_B128",
-      "author": "amd-jianli12",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-19T08:40:24Z",
-      "updated_at": "2026-08-28T05:49:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11365",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11486,
       "title": "[AMD] Use hardware cvt instructions for OCP fp8 casts on gfx1170",
       "author": "erizheng-amd",
@@ -674,18 +698,6 @@
       "draft": false
     },
     {
-      "number": 11040,
-      "title": "[Proton][AMD] Add ROCProfiler PC sampling with source attribution",
-      "author": "willghatch",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-24T22:25:24Z",
-      "updated_at": "2026-08-26T18:41:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11040",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11254,
       "title": "[AMD] Optimize software E4M3FN to FP16 conversion",
       "author": "skyguan92",
@@ -694,18 +706,6 @@
       "created_at": "2026-08-11T02:40:16Z",
       "updated_at": "2026-08-26T16:27:08Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11254",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11443,
-      "title": "[AMD][GLUON][BACKEND] Fix and simplify CGA layout handling of scaled_dot scales",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-25T14:42:59Z",
-      "updated_at": "2026-08-26T04:48:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11443",
       "labels": [],
       "draft": false
     },
