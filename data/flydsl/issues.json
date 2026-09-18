@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-09-17T12:51:25Z",
+  "collected_at": "2026-09-18T12:26:18Z",
   "issues": [
+    {
+      "number": 1165,
+      "title": "[Issue]: Tensor.fill fails for singleton layouts with multiple unit strides",
+      "author": "gau-nernst",
+      "state": "open",
+      "created_at": "2026-09-18T08:25:18Z",
+      "updated_at": "2026-09-18T08:25:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1165",
+      "labels": []
+    },
     {
       "number": 663,
       "title": "[ROCm Test-First CI]: Day 0 FlyDSL MI455X UALoE72 Helios Rack open source github CI by AMD Advancing AI July 22 2026",

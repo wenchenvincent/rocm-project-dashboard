@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-17T12:50:44Z",
+  "collected_at": "2026-09-18T12:25:41Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,48 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-17T11:55:49Z",
+      "updated_at": "2026-09-18T12:05:01Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 40156,
+      "title": "[Bug] EAGLE spec-decode: num_token_non_padded is 0 for draft batches, masking all draft topk ids to -1 and corrupting the MoE dispatch",
+      "author": "Leoyzen",
+      "state": "open",
+      "created_at": "2026-09-18T09:39:27Z",
+      "updated_at": "2026-09-18T09:39:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/40156",
+      "labels": []
+    },
+    {
+      "number": 39054,
+      "title": "is_musa() graph-breaks TorchDynamo (gb0069) on the traced prefill path since b6c31b155c, killing tc_piecewise prefill CUDA-graph capture",
+      "author": "janbernloehr",
+      "state": "open",
+      "created_at": "2026-09-11T08:01:50Z",
+      "updated_at": "2026-09-18T08:13:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39054",
+      "labels": []
+    },
+    {
+      "number": 40084,
+      "title": "[ROCm][QuickReduce] Q8 BF16\u2192FP16 low-amplitude scale saturation attenuates all-reduce output",
+      "author": "tanth47",
+      "state": "open",
+      "created_at": "2026-09-18T04:29:17Z",
+      "updated_at": "2026-09-18T04:29:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/40084",
+      "labels": []
+    },
+    {
+      "number": 39499,
+      "title": "[Roadmap] SGLang dLLM Serving",
+      "author": "rwang5203",
+      "state": "open",
+      "created_at": "2026-09-15T01:21:47Z",
+      "updated_at": "2026-09-17T15:52:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
       "labels": []
     },
     {
@@ -29,16 +69,6 @@
       "created_at": "2026-09-16T11:08:36Z",
       "updated_at": "2026-09-17T03:32:42Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/39800",
-      "labels": []
-    },
-    {
-      "number": 39499,
-      "title": "[Roadmap] SGLang dLLM Serving",
-      "author": "rwang5203",
-      "state": "open",
-      "created_at": "2026-09-15T01:21:47Z",
-      "updated_at": "2026-09-16T16:33:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
       "labels": []
     },
     {
@@ -344,16 +374,6 @@
       "labels": []
     },
     {
-      "number": 35252,
-      "title": "[Bug] MoE tuner writes config files the runtime never reads (int4_w4a16)",
-      "author": "JeremiahM37",
-      "state": "open",
-      "created_at": "2026-08-18T05:06:13Z",
-      "updated_at": "2026-09-07T05:13:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35252",
-      "labels": []
-    },
-    {
       "number": 19137,
       "title": "[Roadmap] Apple Device Support (2026 Q2)",
       "author": "jonahbernard",
@@ -396,16 +416,6 @@
       "labels": []
     },
     {
-      "number": 36807,
-      "title": "[Bug] fast_topk_v2 can silently return wrong top-k sets when a radix threshold bucket exceeds its 4096-entry candidate buffer (k=2048, long rows)",
-      "author": "zkyue",
-      "state": "open",
-      "created_at": "2026-08-28T06:40:26Z",
-      "updated_at": "2026-09-02T17:41:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36807",
-      "labels": []
-    },
-    {
       "number": 37405,
       "title": "[RFC] Incremental test cleanup, CI taxonomy, and shared diffusion dispatch",
       "author": "BBuf",
@@ -426,18 +436,6 @@
       "updated_at": "2026-09-01T23:12:48Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37478",
       "labels": []
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-09-01T06:40:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
     },
     {
       "number": 37183,
@@ -520,16 +518,6 @@
       "labels": []
     },
     {
-      "number": 35122,
-      "title": "[Bug] [AMD] SGLANG_DSV4_FP4_DEQUANT=1 is ignored by AITER FP4 MoE on ROCm",
-      "author": "yuzhouo7",
-      "state": "open",
-      "created_at": "2026-08-17T08:11:40Z",
-      "updated_at": "2026-08-17T08:11:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35122",
-      "labels": []
-    },
-    {
       "number": 27937,
       "title": "[Failure Tracker] PR Test (AMD)",
       "author": "amd-bot",
@@ -557,6 +545,16 @@
       "created_at": "2026-08-10T03:10:40Z",
       "updated_at": "2026-08-10T03:29:03Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/34205",
+      "labels": []
+    },
+    {
+      "number": 34149,
+      "title": "[Bug] Abort can commit a delayed final chunked-prefill token on latest main",
+      "author": "jeremyzhang866",
+      "state": "open",
+      "created_at": "2026-08-09T03:48:33Z",
+      "updated_at": "2026-08-09T18:34:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34149",
       "labels": []
     }
   ]

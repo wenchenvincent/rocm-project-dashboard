@@ -1,6 +1,102 @@
 {
-  "collected_at": "2026-09-17T12:51:28Z",
+  "collected_at": "2026-09-18T12:26:20Z",
   "prs": [
+    {
+      "number": 723,
+      "title": " Triton mxfp4 (and a8w4) grouped GEMM kernel",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T18:58:10Z",
+      "updated_at": "2026-09-18T04:11:59Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/723",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 736,
+      "title": "Upgrade ci to therock 10.0",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T19:23:22Z",
+      "updated_at": "2026-09-18T03:55:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 722,
+      "title": "[TE] IFU release v2.18",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T14:24:03Z",
+      "updated_at": "2026-09-18T03:07:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 721,
+      "title": "Ifu dev 20260828 v2.19",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T21:01:06Z",
+      "updated_at": "2026-09-18T02:41:09Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "Performance dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-09-17T22:40:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 734,
+      "title": "Persistent AG + GEMM MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:42:24Z",
+      "updated_at": "2026-09-17T19:33:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 606,
+      "title": "[FEAT] Lightning Indexer",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-01T20:55:02Z",
+      "updated_at": "2026-09-17T17:07:43Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
     {
       "number": 678,
       "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
@@ -8,7 +104,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-09-17T11:53:05Z",
+      "updated_at": "2026-09-17T13:53:21Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
       "labels": [
         "ci-level 3"
@@ -25,74 +121,6 @@
       "updated_at": "2026-09-16T23:40:24Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 625,
-      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-15T05:36:28Z",
-      "updated_at": "2026-09-16T23:33:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 670,
-      "title": "Performance dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-09-16T23:16:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 734,
-      "title": "Persistent AG + GEMM MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T15:42:24Z",
-      "updated_at": "2026-09-16T22:24:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 606,
-      "title": "[FEAT] Lightning Indexer",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-01T20:55:02Z",
-      "updated_at": "2026-09-16T22:21:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 736,
-      "title": "Upgrade ci to therock 10.0",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T19:23:22Z",
-      "updated_at": "2026-09-15T18:28:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -118,34 +146,6 @@
       "created_at": "2026-08-06T18:46:22Z",
       "updated_at": "2026-09-15T17:23:26Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 721,
-      "title": "Ifu dev 20260828 v2.19",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T21:01:06Z",
-      "updated_at": "2026-09-14T21:22:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 723,
-      "title": " Triton mxfp4 grouped GEMM kernel",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T18:58:10Z",
-      "updated_at": "2026-09-11T21:02:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/723",
       "labels": [
         "ci-level 1"
       ],
@@ -218,20 +218,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/712",
       "labels": [
         "community-contribution"
-      ],
-      "draft": false
-    },
-    {
-      "number": 722,
-      "title": "[TE] IFU release v2.18",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T14:24:03Z",
-      "updated_at": "2026-09-10T15:53:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     },
@@ -663,6 +649,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 625,
+      "title": "Add ROCm HIP small-seq fused attention via crossattn_hip_kernel",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-15T05:36:28Z",
+      "updated_at": "2026-09-17T17:24:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/625",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1806,20 +1806,6 @@
       "created_at": "2026-06-12T03:40:16Z",
       "updated_at": "2026-06-16T15:37:39Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/623",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 608,
-      "title": "Updated test logging and timeouts",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-02T21:03:57Z",
-      "updated_at": "2026-06-15T18:51:11Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/608",
       "labels": [
         "ci-level 3"
       ],

@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-09-17T12:53:39Z",
+  "collected_at": "2026-09-18T12:28:20Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 76,
-      "merged": 60,
-      "closed": 11
+      "opened": 88,
+      "merged": 59,
+      "closed": 13
     },
     "last_week": {
-      "opened": 53,
-      "merged": 28,
-      "closed": 8
+      "opened": 52,
+      "merged": 35,
+      "closed": 10
     },
-    "median_time_to_merge_hours": 22.6,
-    "merge_count": 89,
-    "stale_prs": 141
+    "median_time_to_merge_hours": 22.5,
+    "merge_count": 96,
+    "stale_prs": 144
   },
   "contributors": {
-    "active_this_week": 39,
-    "total_contributors": 90,
+    "active_this_week": 41,
+    "total_contributors": 91,
     "top_contributors": [
       {
         "author": "PerryZhang01",
-        "prs_submitted": 20,
-        "prs_merged": 1,
-        "commits": 5
+        "prs_submitted": 22,
+        "prs_merged": 3,
+        "commits": 7
       },
       {
         "author": "yhl-amd",
         "prs_submitted": 19,
         "prs_merged": 8,
-        "commits": 15
+        "commits": 14
       },
       {
         "author": "gbyu-amd",
@@ -52,21 +52,21 @@
         "commits": 9
       },
       {
+        "author": "gyohuangxin",
+        "prs_submitted": 13,
+        "prs_merged": 5,
+        "commits": 6
+      },
+      {
         "author": "carlushuang",
         "prs_submitted": 13,
         "prs_merged": 0,
         "commits": 2
       },
       {
-        "author": "gyohuangxin",
-        "prs_submitted": 11,
-        "prs_merged": 3,
-        "commits": 4
-      },
-      {
         "author": "ZhangLirong-amd",
         "prs_submitted": 11,
-        "prs_merged": 8,
+        "prs_merged": 6,
         "commits": 18
       },
       {
@@ -82,7 +82,7 @@
         "commits": 0
       }
     ],
-    "bus_factor": 7
+    "bus_factor": 8
   },
   "issue_health": {
     "total_open": 90,
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 74.8,
+    "days_since_last": 75.8,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

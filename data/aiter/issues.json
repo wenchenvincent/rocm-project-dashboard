@@ -1,14 +1,54 @@
 {
-  "collected_at": "2026-09-17T12:51:10Z",
+  "collected_at": "2026-09-18T12:26:04Z",
   "issues": [
+    {
+      "number": 5662,
+      "title": "bench_unified_attention.py: throughput/bandwidth metrics ignore sliding_window (inflated, above-roofline numbers)",
+      "author": "mpashkovskii",
+      "state": "open",
+      "created_at": "2026-09-18T10:36:32Z",
+      "updated_at": "2026-09-18T10:38:20Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5662",
+      "labels": []
+    },
+    {
+      "number": 5661,
+      "title": "bench_unified_attention.py: fp8 KV -test reference is mis-scaled (false correctness failures)",
+      "author": "mpashkovskii",
+      "state": "open",
+      "created_at": "2026-09-18T10:36:18Z",
+      "updated_at": "2026-09-18T10:38:17Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5661",
+      "labels": []
+    },
+    {
+      "number": 5595,
+      "title": "[ROCm][AITER]: get_2stage_cfgs: topk -= int(is_ep) incorrectly strips Fused Shared Expert column, producing wrong kernel config and gibberish output",
+      "author": "psakhamo",
+      "state": "open",
+      "created_at": "2026-09-16T15:50:07Z",
+      "updated_at": "2026-09-18T08:55:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5595",
+      "labels": []
+    },
     {
       "number": 5611,
       "title": "[Issue]: Flash Attention -Triton / MI35X (1GPU) CI fails during building docker image",
       "author": "ZhangDanyang-AMD",
       "state": "open",
       "created_at": "2026-09-17T03:22:03Z",
-      "updated_at": "2026-09-17T06:07:07Z",
+      "updated_at": "2026-09-18T03:14:02Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5611",
+      "labels": []
+    },
+    {
+      "number": 5646,
+      "title": "dsv4_bf16_tuned_gemm.csv contains only DeepSeek-V3 shapes; every DeepSeek-V4.1 dense GEMM lookup misses and falls back to torch",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-09-17T19:46:26Z",
+      "updated_at": "2026-09-17T19:46:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5646",
       "labels": []
     },
     {
@@ -19,16 +59,6 @@
       "created_at": "2026-09-14T18:45:11Z",
       "updated_at": "2026-09-16T22:32:33Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5512",
-      "labels": []
-    },
-    {
-      "number": 5595,
-      "title": "[ROCm][AITER]: get_2stage_cfgs: topk -= int(is_ep) incorrectly strips Fused Shared Expert column, producing wrong kernel config and gibberish output",
-      "author": "psakhamo",
-      "state": "open",
-      "created_at": "2026-09-16T15:50:07Z",
-      "updated_at": "2026-09-16T15:50:18Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5595",
       "labels": []
     },
     {
@@ -749,16 +779,6 @@
       "created_at": "2026-08-18T16:15:13Z",
       "updated_at": "2026-08-18T16:15:13Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4830",
-      "labels": []
-    },
-    {
-      "number": 4769,
-      "title": "[Issue]: ROCm10.0.0rc2 missing headers",
-      "author": "rjrock",
-      "state": "open",
-      "created_at": "2026-08-14T22:56:09Z",
-      "updated_at": "2026-08-17T16:58:35Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4769",
       "labels": []
     },
     {
