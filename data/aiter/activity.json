@@ -1,29 +1,29 @@
 {
-  "collected_at": "2026-09-18T12:27:28Z",
+  "collected_at": "2026-09-19T12:08:30Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 190,
-      "merged": 106,
-      "closed": 54
+      "opened": 185,
+      "merged": 107,
+      "closed": 55
     },
     "last_week": {
-      "opened": 162,
-      "merged": 89,
-      "closed": 64
+      "opened": 168,
+      "merged": 93,
+      "closed": 56
     },
-    "median_time_to_merge_hours": 50.6,
-    "merge_count": 198,
-    "stale_prs": 192
+    "median_time_to_merge_hours": 52.8,
+    "merge_count": 202,
+    "stale_prs": 198
   },
   "contributors": {
-    "active_this_week": 155,
+    "active_this_week": 157,
     "total_contributors": 313,
     "top_contributors": [
       {
         "author": "Boss2002n",
-        "prs_submitted": 24,
+        "prs_submitted": 25,
         "prs_merged": 4,
         "commits": 56
       },
@@ -36,7 +36,7 @@
       {
         "author": "gyohuangxin",
         "prs_submitted": 14,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 19
       },
       {
@@ -70,30 +70,30 @@
         "commits": 1
       },
       {
-        "author": "yadaish",
-        "prs_submitted": 8,
-        "prs_merged": 1,
-        "commits": 8
+        "author": "RElbers",
+        "prs_submitted": 7,
+        "prs_merged": 0,
+        "commits": 0
       },
       {
-        "author": "Bernard-Liu",
+        "author": "yadaish",
         "prs_submitted": 7,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_merged": 0,
+        "commits": 7
       }
     ],
     "bus_factor": 15
   },
   "issue_health": {
-    "total_open": 326,
-    "opened_this_week": 17,
-    "closed_this_week": 5,
-    "unanswered": 153
+    "total_open": 329,
+    "opened_this_week": 19,
+    "closed_this_week": 6,
+    "unanswered": 154
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 0.6,
+    "days_since_last": 1.6,
     "avg_interval_days": 3.9,
     "total_releases": 5,
     "latest_tag": "v0.1.22.post1"

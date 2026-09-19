@@ -1,6 +1,88 @@
 {
-  "collected_at": "2026-09-18T12:26:20Z",
+  "collected_at": "2026-09-19T12:07:27Z",
   "prs": [
+    {
+      "number": 737,
+      "title": "Fix blockwise numerical issues and add ROCm testing",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T20:36:22Z",
+      "updated_at": "2026-09-19T05:11:53Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/737",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 738,
+      "title": "Update HipKittens Module with clang 24+ fixes",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T20:37:54Z",
+      "updated_at": "2026-09-19T01:11:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/738",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 721,
+      "title": "Ifu dev 20260828 v2.19",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T21:01:06Z",
+      "updated_at": "2026-09-18T23:07:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 739,
+      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
+      "author": "yaomingamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T22:00:13Z",
+      "updated_at": "2026-09-18T22:00:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
+      "labels": [
+        "community-contribution"
+      ],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "Performance dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-09-18T21:37:49Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "Initial integration of a4w4 GEMM",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T20:00:46Z",
+      "updated_at": "2026-09-18T21:15:06Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 723,
       "title": " Triton mxfp4 (and a8w4) grouped GEMM kernel",
@@ -8,8 +90,50 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-31T18:58:10Z",
-      "updated_at": "2026-09-18T04:11:59Z",
+      "updated_at": "2026-09-18T20:41:59Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/723",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 722,
+      "title": "[TE] IFU release v2.18",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T14:24:03Z",
+      "updated_at": "2026-09-18T19:50:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 734,
+      "title": "Persistent AG + GEMM MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:42:24Z",
+      "updated_at": "2026-09-18T19:28:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 700,
+      "title": "[gfx1250] detect when building on gfx1250, add to build archs",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T16:01:57Z",
+      "updated_at": "2026-09-18T17:50:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/700",
       "labels": [
         "ci-level 1"
       ],
@@ -30,60 +154,6 @@
       "draft": false
     },
     {
-      "number": 722,
-      "title": "[TE] IFU release v2.18",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T14:24:03Z",
-      "updated_at": "2026-09-18T03:07:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 721,
-      "title": "Ifu dev 20260828 v2.19",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T21:01:06Z",
-      "updated_at": "2026-09-18T02:41:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 670,
-      "title": "Performance dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-09-17T22:40:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 734,
-      "title": "Persistent AG + GEMM MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T15:42:24Z",
-      "updated_at": "2026-09-17T19:33:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 606,
       "title": "[FEAT] Lightning Indexer",
       "author": "Micky774",
@@ -98,20 +168,6 @@
       "draft": false
     },
     {
-      "number": 678,
-      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T15:17:24Z",
-      "updated_at": "2026-09-17T13:53:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 726,
       "title": "microbenchmarks: use pytest as execution backend",
       "author": "matthiasdiener",
@@ -121,20 +177,6 @@
       "updated_at": "2026-09-16T23:40:24Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 663,
-      "title": "Initial integration of a4w4 GEMM",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T20:00:46Z",
-      "updated_at": "2026-09-15T18:07:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {
@@ -308,20 +350,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
       "labels": [
         "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 700,
-      "title": "[gfx1250] detect when building on gfx1250, add to build archs",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T16:01:57Z",
-      "updated_at": "2026-08-12T15:12:20Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/700",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     },
@@ -649,6 +677,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 678,
+      "title": "[ROCm] Jax Add softmax sink (learnable off-by-one) support for the ROCm/CK fused attention backend",
+      "author": "shurale-nkn",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-24T15:17:24Z",
+      "updated_at": "2026-09-18T18:41:30Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/678",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1795,20 +1837,6 @@
       "updated_at": "2026-06-17T16:11:03Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/610",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 623,
-      "title": "Fix fused cross-entropy backward with broadcasted grad_output",
-      "author": "sudhu2k",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-12T03:40:16Z",
-      "updated_at": "2026-06-16T15:37:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/623",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     }
   ]

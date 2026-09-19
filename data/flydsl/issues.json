@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-18T12:26:18Z",
+  "collected_at": "2026-09-19T12:07:25Z",
   "issues": [
     {
       "number": 1165,
@@ -94,16 +94,6 @@
       "created_at": "2026-07-12T06:43:41Z",
       "updated_at": "2026-08-17T22:27:53Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/831",
-      "labels": []
-    },
-    {
-      "number": 861,
-      "title": "[Issue]: Tune conv perf",
-      "author": "coderfeli",
-      "state": "open",
-      "created_at": "2026-07-15T08:17:13Z",
-      "updated_at": "2026-08-10T23:26:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/861",
       "labels": []
     },
     {

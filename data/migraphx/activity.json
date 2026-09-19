@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-09-18T12:26:59Z",
+  "collected_at": "2026-09-19T12:08:03Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 31,
-      "merged": 16,
+      "opened": 32,
+      "merged": 18,
       "closed": 3
     },
     "last_week": {
-      "opened": 11,
+      "opened": 13,
       "merged": 9,
       "closed": 3
     },
-    "median_time_to_merge_hours": 362.3,
-    "merge_count": 52,
+    "median_time_to_merge_hours": 380.0,
+    "merge_count": 53,
     "stale_prs": 1
   },
   "contributors": {
-    "active_this_week": 24,
+    "active_this_week": 26,
     "total_contributors": 51,
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 59,
+        "prs_submitted": 60,
         "prs_merged": 24,
-        "commits": 24
+        "commits": 25
       },
       {
         "author": "causten",
         "prs_submitted": 15,
         "prs_merged": 6,
-        "commits": 15
+        "commits": 14
       },
       {
         "author": "CharlieL7",
@@ -46,16 +46,16 @@
         "commits": 5
       },
       {
-        "author": "shivadbhavsar",
-        "prs_submitted": 8,
-        "prs_merged": 5,
-        "commits": 1
-      },
-      {
         "author": "rlegithub",
         "prs_submitted": 8,
         "prs_merged": 0,
         "commits": 0
+      },
+      {
+        "author": "shivadbhavsar",
+        "prs_submitted": 7,
+        "prs_merged": 4,
+        "commits": 1
       },
       {
         "author": "ahsan-ca",
@@ -76,10 +76,10 @@
         "commits": 0
       },
       {
-        "author": "umangyadav",
+        "author": "Zhaeong",
         "prs_submitted": 4,
-        "prs_merged": 2,
-        "commits": 2
+        "prs_merged": 1,
+        "commits": 0
       }
     ],
     "bus_factor": 4
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 20.8,
+    "days_since_last": 21.7,
     "avg_interval_days": 34.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.0"

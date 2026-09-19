@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-09-18T12:26:14Z",
+  "collected_at": "2026-09-19T12:07:21Z",
   "prs": [
+    {
+      "number": 670,
+      "title": "Feat/io rdma retry tunables",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-14T22:27:14Z",
+      "updated_at": "2026-09-18T22:00:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/670",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 685,
       "title": "ci(cco): stop the SDMA queue reclamation race from failing CI",
@@ -8,8 +20,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-17T10:53:16Z",
-      "updated_at": "2026-09-17T10:53:16Z",
+      "updated_at": "2026-09-18T16:49:04Z",
       "html_url": "https://github.com/ROCm/mori/pull/685",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 603,
+      "title": "CCO SDMA micro optimizations",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T16:29:03Z",
+      "updated_at": "2026-09-18T16:38:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/603",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 623,
+      "title": "SDMA HIP device management fixes",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T11:14:37Z",
+      "updated_at": "2026-09-18T16:35:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/623",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 689,
+      "title": "tune(ep/v1): add hidden_dim=7168 (DSV4) small-token InterNodeV1LL tuning on MI308X",
+      "author": "yoqiu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T13:48:51Z",
+      "updated_at": "2026-09-18T13:49:38Z",
+      "html_url": "https://github.com/ROCm/mori/pull/689",
       "labels": [],
       "draft": false
     },
@@ -86,18 +134,6 @@
       "draft": false
     },
     {
-      "number": 623,
-      "title": "SDMA HIP device management fixes",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T11:14:37Z",
-      "updated_at": "2026-09-16T08:59:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/623",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 652,
       "title": "feat(ccl): support HIP graph capture in AllGather SDMA",
       "author": "alanshwang",
@@ -142,18 +178,6 @@
       "created_at": "2026-09-15T12:47:28Z",
       "updated_at": "2026-09-15T12:48:38Z",
       "html_url": "https://github.com/ROCm/mori/pull/671",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 670,
-      "title": "Feat/io rdma retry tunables",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-14T22:27:14Z",
-      "updated_at": "2026-09-14T22:27:58Z",
-      "html_url": "https://github.com/ROCm/mori/pull/670",
       "labels": [],
       "draft": true
     },
@@ -226,18 +250,6 @@
       "created_at": "2026-09-02T07:46:45Z",
       "updated_at": "2026-09-02T07:46:45Z",
       "html_url": "https://github.com/ROCm/mori/pull/632",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 603,
-      "title": "CCO SDMA micro optimizations",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T16:29:03Z",
-      "updated_at": "2026-09-01T16:40:01Z",
-      "html_url": "https://github.com/ROCm/mori/pull/603",
       "labels": [],
       "draft": false
     },
