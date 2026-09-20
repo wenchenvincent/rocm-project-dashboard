@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-09-19T12:07:21Z",
+  "collected_at": "2026-09-20T12:43:24Z",
   "prs": [
+    {
+      "number": 690,
+      "title": "gemm_ar: MXFP8 (32-wide ue8m0) support, and the GEMM usable without a collective",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T02:43:11Z",
+      "updated_at": "2026-09-20T09:24:59Z",
+      "html_url": "https://github.com/ROCm/mori/pull/690",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 689,
+      "title": "tune(ep/v1): add hidden_dim=7168 (DSV4) small-token InterNodeV1LL tuning on MI308X",
+      "author": "yoqiu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T13:48:51Z",
+      "updated_at": "2026-09-20T08:52:58Z",
+      "html_url": "https://github.com/ROCm/mori/pull/689",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "fix: migrate GPU topology from rocm_smi to amd_smi (ROCm 10.1+)",
+      "author": "srinivamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T20:09:16Z",
+      "updated_at": "2026-09-19T17:48:25Z",
+      "html_url": "https://github.com/ROCm/mori/pull/663",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 670,
       "title": "Feat/io rdma retry tunables",
@@ -46,18 +82,6 @@
       "created_at": "2026-08-31T11:14:37Z",
       "updated_at": "2026-09-18T16:35:20Z",
       "html_url": "https://github.com/ROCm/mori/pull/623",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 689,
-      "title": "tune(ep/v1): add hidden_dim=7168 (DSV4) small-token InterNodeV1LL tuning on MI308X",
-      "author": "yoqiu-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T13:48:51Z",
-      "updated_at": "2026-09-18T13:49:38Z",
-      "html_url": "https://github.com/ROCm/mori/pull/689",
       "labels": [],
       "draft": false
     },
@@ -130,30 +154,6 @@
       "created_at": "2026-09-16T11:56:07Z",
       "updated_at": "2026-09-16T12:46:55Z",
       "html_url": "https://github.com/ROCm/mori/pull/678",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 652,
-      "title": "feat(ccl): support HIP graph capture in AllGather SDMA",
-      "author": "alanshwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T09:05:03Z",
-      "updated_at": "2026-09-16T08:21:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/652",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 663,
-      "title": "fix: migrate GPU topology from rocm_smi to amd_smi (ROCm 10.1+)",
-      "author": "srinivamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T20:09:16Z",
-      "updated_at": "2026-09-16T02:44:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/663",
       "labels": [],
       "draft": false
     },
@@ -530,6 +530,30 @@
       "draft": false
     },
     {
+      "number": 652,
+      "title": "feat(ccl): support HIP graph capture in AllGather SDMA",
+      "author": "alanshwang",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-09T09:05:03Z",
+      "updated_at": "2026-09-20T06:38:21Z",
+      "html_url": "https://github.com/ROCm/mori/pull/652",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 667,
+      "title": "perf(EPv2): fix the 512-token performance on gfx1250",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-13T17:33:00Z",
+      "updated_at": "2026-09-20T02:39:02Z",
+      "html_url": "https://github.com/ROCm/mori/pull/667",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 688,
       "title": "docs: unbreak the -W build and correct the EP fp4 target list",
       "author": "jhchouuu",
@@ -754,18 +778,6 @@
       "created_at": "2026-09-12T07:52:15Z",
       "updated_at": "2026-09-14T02:52:35Z",
       "html_url": "https://github.com/ROCm/mori/pull/665",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 667,
-      "title": "perf(EPv2): fix the 512-token performance on gfx1250 A1B0",
-      "author": "zhangfei829",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-13T17:33:00Z",
-      "updated_at": "2026-09-13T17:33:19Z",
-      "html_url": "https://github.com/ROCm/mori/pull/667",
       "labels": [],
       "draft": false
     },

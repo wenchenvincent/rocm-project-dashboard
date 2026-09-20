@@ -1,38 +1,52 @@
 {
-  "collected_at": "2026-09-19T12:06:26Z",
+  "collected_at": "2026-09-20T12:42:12Z",
   "issues": [
     {
-      "number": 197085,
-      "title": "[dynamo] random.shuffle / random.sample inside a compiled function return the same permutation on every call (eager advances the RNG)",
-      "author": "cuiliaomei-beep",
+      "number": 197807,
+      "title": "`torch.compile` (inductor) silently accepts `logcumsumexp` on a 0-d uint8 tensor that eager rejects",
+      "author": "tinywisdom",
       "state": "open",
-      "created_at": "2026-09-15T11:46:32Z",
-      "updated_at": "2026-09-19T07:05:44Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/197085",
+      "created_at": "2026-09-20T09:28:39Z",
+      "updated_at": "2026-09-20T11:40:48Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197807",
       "labels": [
+        "module: error checking",
         "triaged",
-        "module: correctness (silent)",
         "oncall: pt2",
-        "module: dynamo",
-        "bot-triaged",
-        "release triage",
-        "dynamo-triaged"
+        "module: inductor",
+        "bot-triaged"
       ]
     },
     {
-      "number": 197673,
-      "title": "[CUDA] `torch.arange` silently leaves every element from index 2**32 onward as zero when N > 2**32",
-      "author": "jniimi",
+      "number": 197062,
+      "title": "adaptive_max_pool2d int64: eager raises but `torch.compile` (inductor) silently accepts",
+      "author": "tinywisdom",
       "state": "open",
-      "created_at": "2026-09-19T04:18:13Z",
-      "updated_at": "2026-09-19T04:20:30Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/197673",
+      "created_at": "2026-09-15T03:16:59Z",
+      "updated_at": "2026-09-20T10:08:00Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197062",
+      "labels": [
+        "triaged",
+        "module: pooling",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 197805,
+      "title": "[MPS] Process crashes (SIGSEGV/SIGABRT inside Metal) when two Python threads run tensor ops concurrently",
+      "author": "SkuratovichA",
+      "state": "open",
+      "created_at": "2026-09-20T08:51:11Z",
+      "updated_at": "2026-09-20T08:52:49Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197805",
       "labels": [
         "triage review",
-        "module: cuda",
-        "module: 64-bit",
-        "module: correctness (silent)",
-        "module: tensor creation",
+        "module: crash",
+        "module: multithreading",
+        "module: mps",
         "bot-triaged",
         "release triage"
       ]
@@ -43,7 +57,7 @@
       "author": "powerofaisinstudy-debug",
       "state": "open",
       "created_at": "2026-09-14T02:58:41Z",
-      "updated_at": "2026-09-19T03:29:44Z",
+      "updated_at": "2026-09-20T08:01:20Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/196936",
       "labels": [
         "feature",
@@ -63,11 +77,176 @@
       "author": "SkyIsland-CN",
       "state": "open",
       "created_at": "2025-07-07T15:26:34Z",
-      "updated_at": "2026-09-19T03:20:58Z",
+      "updated_at": "2026-09-20T03:21:01Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/157714",
       "labels": [
         "triaged",
         "module: xpu"
+      ]
+    },
+    {
+      "number": 197774,
+      "title": "add torch.build.check_environment() pre-flight diagnostic for custom extension builds",
+      "author": "powerofaisinstudy-debug",
+      "state": "open",
+      "created_at": "2026-09-20T02:32:45Z",
+      "updated_at": "2026-09-20T02:36:50Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197774",
+      "labels": [
+        "module: build",
+        "module: cpp-extensions",
+        "feature",
+        "triaged",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 197093,
+      "title": "[dynamo] `dynamic=True`: f-string with a format spec on a SymInt/SymFloat (`f\"{x.shape[0]:d}\"`) raises InternalTorchDynamoError \"Unknown format code 'd' for object of type 'str'\"",
+      "author": "cuiliaomei-beep",
+      "state": "open",
+      "created_at": "2026-09-15T11:57:35Z",
+      "updated_at": "2026-09-20T02:09:55Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197093",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: dynamic shapes",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 197765,
+      "title": "PIP Wheels Does not Support AOT Inductor Feature - Missing nvcc binary and/or <nv/target> headers",
+      "author": "nWEIdia",
+      "state": "open",
+      "created_at": "2026-09-19T23:07:33Z",
+      "updated_at": "2026-09-20T01:34:00Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197765",
+      "labels": [
+        "module: binaries",
+        "triaged",
+        "enhancement",
+        "oncall: pt2",
+        "oncall: export",
+        "module: aotinductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 197561,
+      "title": "[MPS][Accelerator] empty_host_cache() segfaults without tensor allocation on macOS / PyTorch 2.13.0",
+      "author": "suntp",
+      "state": "open",
+      "created_at": "2026-09-18T15:26:12Z",
+      "updated_at": "2026-09-19T19:43:56Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197561",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: accelerator",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 197236,
+      "title": "[MPS] linalg solves return row-major where CPU and CUDA return column-major",
+      "author": "imperatormk",
+      "state": "open",
+      "created_at": "2026-09-16T11:17:49Z",
+      "updated_at": "2026-09-19T15:44:09Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197236",
+      "labels": [
+        "triage review",
+        "module: linear algebra",
+        "module: mps",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 197716,
+      "title": "torch.compile(dynamic=True) crashes because TensorReferenceAnalysis is missing SymPy handlers",
+      "author": "CaelusHu",
+      "state": "open",
+      "created_at": "2026-09-19T14:13:48Z",
+      "updated_at": "2026-09-19T14:34:30Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197716",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: dynamic shapes",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 123996,
+      "title": "MSE loss triggers ZeroTensor immutable error inside `torch.func`",
+      "author": "lengstrom",
+      "state": "open",
+      "created_at": "2024-04-13T02:17:21Z",
+      "updated_at": "2026-09-19T14:15:06Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/123996",
+      "labels": [
+        "module: autograd",
+        "triaged",
+        "module: functorch"
+      ]
+    },
+    {
+      "number": 187567,
+      "title": "[MPS] torch.linalg.qr is 25-250\u00d7 slower than CPU on tall-skinny matrices",
+      "author": "walkerchi",
+      "state": "open",
+      "created_at": "2026-06-17T10:23:41Z",
+      "updated_at": "2026-09-19T14:13:30Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/187567",
+      "labels": [
+        "high priority",
+        "module: performance",
+        "triaged",
+        "module: macos",
+        "has workaround",
+        "module: linear algebra",
+        "module: mps",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 197673,
+      "title": "[CUDA] `torch.arange` silently leaves every element from index 2**32 onward as zero when N > 2**32",
+      "author": "jniimi",
+      "state": "open",
+      "created_at": "2026-09-19T04:18:13Z",
+      "updated_at": "2026-09-19T12:56:22Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197673",
+      "labels": [
+        "triage review",
+        "module: cuda",
+        "module: 64-bit",
+        "module: correctness (silent)",
+        "module: tensor creation",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 197085,
+      "title": "[dynamo] random.shuffle / random.sample inside a compiled function return the same permutation on every call (eager advances the RNG)",
+      "author": "cuiliaomei-beep",
+      "state": "open",
+      "created_at": "2026-09-15T11:46:32Z",
+      "updated_at": "2026-09-19T07:05:44Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197085",
+      "labels": [
+        "triaged",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: dynamo",
+        "bot-triaged",
+        "release triage",
+        "dynamo-triaged"
       ]
     },
     {
@@ -129,21 +308,6 @@
       "html_url": "https://github.com/pytorch/pytorch/issues/197599",
       "labels": [
         "oncall: profiler",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 197561,
-      "title": "[MPS][Accelerator] empty_host_cache() segfaults without tensor allocation on macOS / PyTorch 2.13.0",
-      "author": "suntp",
-      "state": "open",
-      "created_at": "2026-09-18T15:26:12Z",
-      "updated_at": "2026-09-18T20:13:11Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/197561",
-      "labels": [
-        "triage review",
-        "module: crash",
-        "module: mps",
         "bot-triaged"
       ]
     },
@@ -290,22 +454,6 @@
       ]
     },
     {
-      "number": 197236,
-      "title": "[MPS] linalg solves return row-major where CPU and CUDA return column-major",
-      "author": "imperatormk",
-      "state": "open",
-      "created_at": "2026-09-16T11:17:49Z",
-      "updated_at": "2026-09-18T17:51:37Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/197236",
-      "labels": [
-        "triage review",
-        "module: linear algebra",
-        "module: mps",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
       "number": 186176,
       "title": "AOTInductor serializes entire underlying storage for each constant tensor, causing severe bloat for shared-storage weights",
       "author": "lothifia",
@@ -396,23 +544,6 @@
       ]
     },
     {
-      "number": 197235,
-      "title": "[MPS] `var`/`std`/`var_mean` intermittently return wrong values on large reductions (macOS 27)",
-      "author": "imperatormk",
-      "state": "open",
-      "created_at": "2026-09-16T11:01:17Z",
-      "updated_at": "2026-09-18T13:41:23Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/197235",
-      "labels": [
-        "triage review",
-        "module: regression",
-        "module: correctness (silent)",
-        "module: mps",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
       "number": 196177,
       "title": "torch.topk is non-deterministic on ROCm for bfloat16/float16 when the reduced dim exceeds 256",
       "author": "stefanskiasan",
@@ -477,22 +608,6 @@
       ]
     },
     {
-      "number": 196671,
-      "title": "DISABLED test_backward_choices_hook_preserves_captured_grad_mutations_cuda (__main__.TestFlexAttentionCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-11T01:08:13Z",
-      "updated_at": "2026-09-18T12:51:12Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/196671",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
       "number": 186873,
       "title": "DISABLED test_mm_submatrix_offline_tunableop_cuda_float32 (__main__.TestLinalgCudaOnlyCUDA)",
       "author": "pytorch-bot[bot]",
@@ -505,21 +620,6 @@
         "triaged",
         "module: flaky-tests",
         "module: linear algebra",
-        "skipped"
-      ]
-    },
-    {
-      "number": 159113,
-      "title": "DISABLED test_graph_two_successive (__main__.TestCuda)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2025-07-25T01:02:25Z",
-      "updated_at": "2026-09-18T12:51:06Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/159113",
-      "labels": [
-        "module: cuda",
-        "triaged",
-        "module: flaky-tests",
         "skipped"
       ]
     },
@@ -781,58 +881,6 @@
         "triaged",
         "needs research",
         "module: vulkan"
-      ]
-    },
-    {
-      "number": 194141,
-      "title": "DISABLED test_bmm_shared_a_offered_when_eligible_cuda (__main__.AOTInductorTestDualWrapper)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-08-20T01:00:26Z",
-      "updated_at": "2026-09-16T14:42:02Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/194141",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: tf32",
-        "oncall: pt2",
-        "module: inductor",
-        "oncall: export",
-        "module: aotinductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 190875,
-      "title": "[RFC] Integrating FlyDSL with PyTorch DSL Extension Points",
-      "author": "wuhuikx",
-      "state": "open",
-      "created_at": "2026-07-23T09:39:26Z",
-      "updated_at": "2026-09-16T06:48:18Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/190875",
-      "labels": [
-        "triaged",
-        "module: dsl-native-ops"
-      ]
-    },
-    {
-      "number": 189322,
-      "title": "DISABLED test_aoti_debug_printer_codegen_cuda (__main__.AOTInductorTestDualWrapper)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-09T01:17:07Z",
-      "updated_at": "2026-09-16T01:10:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/189322",
-      "labels": [
-        "high priority",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "oncall: export",
-        "module: aotinductor"
       ]
     }
   ]

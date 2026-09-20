@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-19T12:06:51Z",
+  "collected_at": "2026-09-20T12:42:43Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,48 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-19T11:05:36Z",
+      "updated_at": "2026-09-20T12:07:58Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 29736,
+      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
+      "author": "thanhhao98",
+      "state": "open",
+      "created_at": "2026-06-30T08:43:14Z",
+      "updated_at": "2026-09-20T08:27:31Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
+      "labels": []
+    },
+    {
+      "number": 39499,
+      "title": "[Roadmap] SGLang dLLM Serving",
+      "author": "rwang5203",
+      "state": "open",
+      "created_at": "2026-09-15T01:21:47Z",
+      "updated_at": "2026-09-20T06:29:28Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
+      "labels": []
+    },
+    {
+      "number": 40156,
+      "title": "[Bug] EAGLE spec-decode: num_token_non_padded is 0 for draft batches, masking all draft topk ids to -1 and corrupting the MoE dispatch",
+      "author": "Leoyzen",
+      "state": "open",
+      "created_at": "2026-09-18T09:39:27Z",
+      "updated_at": "2026-09-20T06:22:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/40156",
+      "labels": []
+    },
+    {
+      "number": 40393,
+      "title": "[Bug] 0.5.20: `--quantization humming` crashes at weight load \u2014 `BlockQuantScaleParameter` has no attribute `format_ue8m0`",
+      "author": "c4bbage",
+      "state": "open",
+      "created_at": "2026-09-20T01:38:44Z",
+      "updated_at": "2026-09-20T02:10:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/40393",
       "labels": []
     },
     {
@@ -52,16 +92,6 @@
       "labels": []
     },
     {
-      "number": 40156,
-      "title": "[Bug] EAGLE spec-decode: num_token_non_padded is 0 for draft batches, masking all draft topk ids to -1 and corrupting the MoE dispatch",
-      "author": "Leoyzen",
-      "state": "open",
-      "created_at": "2026-09-18T09:39:27Z",
-      "updated_at": "2026-09-18T09:39:27Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/40156",
-      "labels": []
-    },
-    {
       "number": 39054,
       "title": "is_musa() graph-breaks TorchDynamo (gb0069) on the traced prefill path since b6c31b155c, killing tc_piecewise prefill CUDA-graph capture",
       "author": "janbernloehr",
@@ -69,16 +99,6 @@
       "created_at": "2026-09-11T08:01:50Z",
       "updated_at": "2026-09-18T08:13:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/39054",
-      "labels": []
-    },
-    {
-      "number": 39499,
-      "title": "[Roadmap] SGLang dLLM Serving",
-      "author": "rwang5203",
-      "state": "open",
-      "created_at": "2026-09-15T01:21:47Z",
-      "updated_at": "2026-09-17T15:52:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
       "labels": []
     },
     {
@@ -164,16 +184,6 @@
       "created_at": "2026-09-14T17:29:40Z",
       "updated_at": "2026-09-14T23:15:44Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/39441",
-      "labels": []
-    },
-    {
-      "number": 29736,
-      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
-      "author": "thanhhao98",
-      "state": "open",
-      "created_at": "2026-06-30T08:43:14Z",
-      "updated_at": "2026-09-14T22:10:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
       "labels": []
     },
     {

@@ -1,43 +1,43 @@
 {
-  "collected_at": "2026-09-19T12:09:14Z",
+  "collected_at": "2026-09-20T12:45:52Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 84,
-      "merged": 63,
-      "closed": 13
+      "opened": 93,
+      "merged": 64,
+      "closed": 15
     },
     "last_week": {
-      "opened": 60,
-      "merged": 36,
-      "closed": 11
+      "opened": 64,
+      "merged": 40,
+      "closed": 13
     },
-    "median_time_to_merge_hours": 22.9,
-    "merge_count": 100,
+    "median_time_to_merge_hours": 23.9,
+    "merge_count": 105,
     "stale_prs": 149
   },
   "contributors": {
-    "active_this_week": 44,
-    "total_contributors": 92,
+    "active_this_week": 45,
+    "total_contributors": 94,
     "top_contributors": [
       {
         "author": "PerryZhang01",
-        "prs_submitted": 22,
-        "prs_merged": 3,
-        "commits": 7
+        "prs_submitted": 23,
+        "prs_merged": 4,
+        "commits": 6
       },
       {
         "author": "yhl-amd",
         "prs_submitted": 17,
         "prs_merged": 6,
-        "commits": 12
+        "commits": 11
       },
       {
-        "author": "gbyu-amd",
-        "prs_submitted": 17,
-        "prs_merged": 3,
-        "commits": 3
+        "author": "gyohuangxin",
+        "prs_submitted": 15,
+        "prs_merged": 6,
+        "commits": 7
       },
       {
         "author": "ganyi1996ppo",
@@ -46,9 +46,15 @@
         "commits": 6
       },
       {
-        "author": "JiaoliangYu",
+        "author": "gbyu-amd",
         "prs_submitted": 14,
-        "prs_merged": 1,
+        "prs_merged": 2,
+        "commits": 3
+      },
+      {
+        "author": "JiaoliangYu",
+        "prs_submitted": 13,
+        "prs_merged": 0,
         "commits": 8
       },
       {
@@ -58,16 +64,10 @@
         "commits": 2
       },
       {
-        "author": "gyohuangxin",
-        "prs_submitted": 13,
-        "prs_merged": 6,
-        "commits": 7
-      },
-      {
         "author": "ZhangLirong-amd",
         "prs_submitted": 11,
-        "prs_merged": 7,
-        "commits": 19
+        "prs_merged": 6,
+        "commits": 18
       },
       {
         "author": "ZhiweiYan-96",
@@ -82,18 +82,18 @@
         "commits": 0
       }
     ],
-    "bus_factor": 8
+    "bus_factor": 7
   },
   "issue_health": {
-    "total_open": 90,
-    "opened_this_week": 2,
-    "closed_this_week": 2,
-    "unanswered": 34
+    "total_open": 85,
+    "opened_this_week": 0,
+    "closed_this_week": 7,
+    "unanswered": 31
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 76.8,
+    "days_since_last": 77.8,
     "avg_interval_days": 8.6,
     "total_releases": 5,
     "latest_tag": "v0.1.6-rc0"

@@ -1,49 +1,49 @@
 {
-  "collected_at": "2026-09-19T12:09:37Z",
+  "collected_at": "2026-09-20T12:46:18Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 40,
-      "merged": 27,
+      "opened": 41,
+      "merged": 30,
       "closed": 14
     },
     "last_week": {
       "opened": 32,
-      "merged": 15,
+      "merged": 16,
       "closed": 41
     },
     "median_time_to_merge_hours": 22.5,
-    "merge_count": 42,
+    "merge_count": 46,
     "stale_prs": 9
   },
   "contributors": {
     "active_this_week": 18,
-    "total_contributors": 41,
+    "total_contributors": 40,
     "top_contributors": [
       {
         "author": "coderfeli",
         "prs_submitted": 15,
         "prs_merged": 11,
-        "commits": 16
+        "commits": 18
       },
       {
         "author": "sjfeng1999",
         "prs_submitted": 14,
         "prs_merged": 12,
-        "commits": 14
+        "commits": 13
       },
       {
         "author": "jhinpan",
         "prs_submitted": 8,
         "prs_merged": 5,
-        "commits": 8
+        "commits": 7
       },
       {
         "author": "Phil-amd",
         "prs_submitted": 7,
-        "prs_merged": 3,
-        "commits": 5
+        "prs_merged": 5,
+        "commits": 7
       },
       {
         "author": "jli-melchior",
@@ -61,7 +61,7 @@
         "author": "xudoyuan",
         "prs_submitted": 3,
         "prs_merged": 1,
-        "commits": 2
+        "commits": 1
       },
       {
         "author": "tangzzycc",
@@ -85,17 +85,17 @@
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 45,
-    "opened_this_week": 1,
-    "closed_this_week": 1,
+    "total_open": 46,
+    "opened_this_week": 3,
+    "closed_this_week": 2,
     "unanswered": 18
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 23.3,
-    "avg_interval_days": 18.0,
+    "days_since_last": 0.9,
+    "avg_interval_days": 23.5,
     "total_releases": 5,
-    "latest_tag": "v0.3.2"
+    "latest_tag": "v0.3.4.1"
   }
 }

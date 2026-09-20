@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-19T12:06:56Z",
+  "collected_at": "2026-09-20T12:42:49Z",
   "prs": [
     {
       "number": 5285,
@@ -8,9 +8,35 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-19T07:50:39Z",
-      "updated_at": "2026-09-19T08:27:35Z",
+      "updated_at": "2026-09-19T20:11:17Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5285",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5279,
+      "title": "Refactor adaptive benchmarking",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T00:52:47Z",
+      "updated_at": "2026-09-19T15:47:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5279",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4811,
+      "title": "Rewrite skinny gemms to mul+reduce_sum",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-22T00:25:07Z",
+      "updated_at": "2026-09-19T15:03:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4811",
+      "labels": [
+        "ok-to-test"
+      ],
       "draft": false
     },
     {
@@ -26,18 +52,6 @@
       "draft": false
     },
     {
-      "number": 4752,
-      "title": "Add std C++ components to rocm namespace and add unit tests",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-08T01:15:55Z",
-      "updated_at": "2026-09-18T21:00:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5215,
       "title": "Use rocmlirtriton as the compiler backend",
       "author": "causten",
@@ -46,18 +60,6 @@
       "created_at": "2026-08-29T03:17:56Z",
       "updated_at": "2026-09-18T18:50:25Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5215",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5279,
-      "title": "Refactor adaptive benchmarking",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T00:52:47Z",
-      "updated_at": "2026-09-18T18:41:31Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5279",
       "labels": [],
       "draft": false
     },
@@ -306,20 +308,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5001",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 4811,
-      "title": "Rewrite skinny gemms to mul+reduce_sum",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-22T00:25:07Z",
-      "updated_at": "2026-09-17T13:59:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4811",
-      "labels": [
-        "ok-to-test"
-      ],
-      "draft": false
     },
     {
       "number": 4787,
@@ -1677,6 +1665,18 @@
       "draft": true
     },
     {
+      "number": 4752,
+      "title": "Add std C++ components to rocm namespace and add unit tests",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-04-08T01:15:55Z",
+      "updated_at": "2026-09-19T15:00:51Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4752",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5275,
       "title": "Support nonpacked fill",
       "author": "pfultz2",
@@ -2836,18 +2836,6 @@
       "labels": [
         "high priority"
       ],
-      "draft": false
-    },
-    {
-      "number": 4916,
-      "title": "[AIMIGRAPHX-1057] Fix TheRock multi-arch packaging: use Recommends for per-GPU dependencies",
-      "author": "kentqian",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-27T18:23:07Z",
-      "updated_at": "2026-08-31T13:30:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4916",
-      "labels": [],
       "draft": false
     }
   ]
