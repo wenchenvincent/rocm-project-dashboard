@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-09-20T12:43:59Z",
+  "collected_at": "2026-09-21T14:39:19Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Nightly Test (AMD)",
-    "run_id": 35458589013,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/35458589013",
-    "run_date": "2026-09-19T23:58:58Z",
+    "run_id": 35526354895,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/35526354895",
+    "run_date": "2026-09-21T03:14:44Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 9,
@@ -16,25 +16,7 @@
     },
     "suites": [
       {
-        "name": "nightly-test-1-gpu-kernel (rocm724, linux-mi300-1gpu-sglang)",
-        "conclusion": "failure",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
         "name": "nightly-test-1-gpu-mi35x (rocm720, linux-mi35x-gpu-1)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "nightly-test-1-gpu-unit (rocm720, linux-mi300-1gpu-sglang)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -52,8 +34,17 @@
         "errors": null
       },
       {
-        "name": "nightly-test-1-gpu-mi35x (rocm724, linux-mi35x-gpu-1)",
-        "conclusion": "success",
+        "name": "nightly-test-1-gpu-kernel (rocm724, linux-mi300-1gpu-sglang)",
+        "conclusion": "failure",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "nightly-test-1-gpu-kernel (rocm720, linux-mi300-1gpu-sglang)",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -62,15 +53,6 @@
       },
       {
         "name": "nightly-test-1-gpu-mi35x (rocm10, linux-mi35x-gpu-1)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "nightly-test-1-gpu-unit (rocm10, linux-mi300-1gpu-sglang)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -88,8 +70,26 @@
         "errors": null
       },
       {
-        "name": "nightly-test-1-gpu-kernel (rocm720, linux-mi300-1gpu-sglang)",
-        "conclusion": "failure",
+        "name": "nightly-test-1-gpu-mi35x (rocm724, linux-mi35x-gpu-1)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "nightly-test-1-gpu-unit (rocm720, linux-mi300-1gpu-sglang)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "nightly-test-1-gpu-unit (rocm10, linux-mi300-1gpu-sglang)",
+        "conclusion": "success",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -100,56 +100,20 @@
   },
   "cuda": {
     "workflow_name": "PR Test",
-    "run_id": 35511055128,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/35511055128",
-    "run_date": "2026-09-20T12:36:06Z",
+    "run_id": 35613235050,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/35613235050",
+    "run_date": "2026-09-21T14:36:46Z",
     "conclusion": "failure",
     "summary": {
-      "total_jobs": 17,
+      "total_jobs": 10,
       "passed": 0,
       "failed": 1,
-      "skipped": 16,
+      "skipped": 9,
       "pass_rate": 0.0
     },
     "suites": [
       {
         "name": "call-pr-test-extra",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-a-test-cpu",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "call-multimodal-gen-tests",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-b-test-1-gpu-large",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-a-test-1-gpu-small",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -167,7 +131,7 @@
         "errors": null
       },
       {
-        "name": "base-b-test-4-gpu-b200",
+        "name": "base-b-test-${{ matrix.runner_config }}",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -176,7 +140,25 @@
         "errors": null
       },
       {
-        "name": "base-b-test-1-gpu-small",
+        "name": "call-multimodal-gen-tests",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-a-test-${{ matrix.runner_config }}",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-a-test-cpu",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -203,7 +185,7 @@
         "errors": null
       },
       {
-        "name": "base-b-test-2-gpu-large",
+        "name": "base-c-test-${{ matrix.runner_config }}",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -212,52 +194,7 @@
         "errors": null
       },
       {
-        "name": "base-c-test-4-gpu-h100",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-c-test-4-gpu-gb300",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-c-test-8-gpu-h20",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-c-test-8-gpu-h200",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-c-test-8-gpu-b300",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-c-test-4-gpu-b200",
+        "name": "base-c-test-${{ matrix.runner_config }}",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,

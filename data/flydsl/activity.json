@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-09-20T12:46:18Z",
+  "collected_at": "2026-09-21T14:41:37Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 41,
-      "merged": 30,
-      "closed": 14
+      "opened": 37,
+      "merged": 26,
+      "closed": 9
     },
     "last_week": {
-      "opened": 32,
-      "merged": 16,
-      "closed": 41
+      "opened": 33,
+      "merged": 22,
+      "closed": 44
     },
     "median_time_to_merge_hours": 22.5,
-    "merge_count": 46,
+    "merge_count": 48,
     "stale_prs": 9
   },
   "contributors": {
-    "active_this_week": 18,
-    "total_contributors": 40,
+    "active_this_week": 16,
+    "total_contributors": 39,
     "top_contributors": [
       {
         "author": "coderfeli",
@@ -30,7 +30,7 @@
       {
         "author": "sjfeng1999",
         "prs_submitted": 14,
-        "prs_merged": 12,
+        "prs_merged": 13,
         "commits": 13
       },
       {
@@ -47,7 +47,13 @@
       },
       {
         "author": "jli-melchior",
-        "prs_submitted": 4,
+        "prs_submitted": 5,
+        "prs_merged": 2,
+        "commits": 2
+      },
+      {
+        "author": "xudoyuan",
+        "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 1
       },
@@ -56,12 +62,6 @@
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 3
-      },
-      {
-        "author": "xudoyuan",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 1
       },
       {
         "author": "tangzzycc",
@@ -85,15 +85,15 @@
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 46,
-    "opened_this_week": 3,
+    "total_open": 47,
+    "opened_this_week": 4,
     "closed_this_week": 2,
     "unanswered": 18
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 0.9,
+    "days_since_last": 2.0,
     "avg_interval_days": 23.5,
     "total_releases": 5,
     "latest_tag": "v0.3.4.1"

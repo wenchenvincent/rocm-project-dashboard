@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-09-20T12:42:46Z",
+  "collected_at": "2026-09-21T14:38:32Z",
   "issues": [
+    {
+      "number": 11883,
+      "title": "TRITON_CODEGEN_BACKENDS cannot exclude nvidia/amd: core headers and libtriton include the backend trees",
+      "author": "benkelaya",
+      "state": "open",
+      "created_at": "2026-09-20T21:12:19Z",
+      "updated_at": "2026-09-21T00:06:54Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/11883",
+      "labels": []
+    },
     {
       "number": 11378,
       "title": "[AMD] scf.for with runtime trip count miscompiled on gfx1151",

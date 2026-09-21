@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-09-20T12:42:45Z",
+  "collected_at": "2026-09-21T14:38:31Z",
   "prs": [
+    {
+      "number": 11890,
+      "title": "[AMD] Do not stagger CDNA4 padded layouts over rows that do not exist",
+      "author": "bogdan-petkovic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T13:55:22Z",
+      "updated_at": "2026-09-21T14:02:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11890",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11707,
+      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T14:21:46Z",
+      "updated_at": "2026-09-21T13:22:17Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11707",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11884,
+      "title": "[AMD][BACKEND] Hash external library contents in compiler options",
+      "author": "qedawkins",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-20T23:39:46Z",
+      "updated_at": "2026-09-21T04:04:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11884",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11880,
+      "title": "[AMD] Compute the HIP pointer-range bit natively",
+      "author": "lijinpei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T18:39:30Z",
+      "updated_at": "2026-09-20T18:59:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11880",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 11876,
       "title": "[AMD] isolate LLVM CodeGen dependencies",
@@ -98,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 11707,
-      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:21:46Z",
-      "updated_at": "2026-09-17T22:22:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11707",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11835,
       "title": "[AMD] Cap the MFMA instruction shape by the per-warp share of the tile",
       "author": "Mazukiri",
@@ -144,18 +180,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11833",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11812,
-      "title": "[Release] [Cherry-Pick] [AMD] rocprofsdk finalization fix for proton (#11009)",
-      "author": "alexxony",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T14:44:01Z",
-      "updated_at": "2026-09-17T12:51:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11812",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11814,
@@ -614,18 +638,6 @@
       "draft": false
     },
     {
-      "number": 11570,
-      "title": "[AMD] Remove ISA family gate on `readfirstlane` in `warp_id` lowering",
-      "author": "pabloantoniom",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-03T10:14:22Z",
-      "updated_at": "2026-09-03T15:46:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11570",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11527,
       "title": "[AMD] Scalarize masked f32 vec2 buffer stores on gfx1151",
       "author": "keneoneth",
@@ -706,18 +718,6 @@
       "created_at": "2026-08-24T16:39:14Z",
       "updated_at": "2026-08-25T00:11:04Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11429",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11399,
-      "title": "[AMD][IMP][Launch Latency] read use_buffer_ops once at import time",
-      "author": "irreg",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-22T06:39:48Z",
-      "updated_at": "2026-08-22T08:55:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11399",
       "labels": [],
       "draft": false
     }

@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-09-20T12:43:13Z",
+  "collected_at": "2026-09-21T14:38:53Z",
   "issues": [
     {
-      "number": 5696,
-      "title": "Consolidate gfx942 unified-attention tuning for Gemma-4 (prefill #5650 + decode #5664/#5675)",
-      "author": "mpashkovskii",
+      "number": 5729,
+      "title": "[MLA] get_ps_metadata_info_v1 should return the partial buffer size, and accept the real token budget",
+      "author": "simondanielsson",
       "state": "open",
-      "created_at": "2026-09-20T06:16:09Z",
-      "updated_at": "2026-09-20T06:30:32Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5696",
+      "created_at": "2026-09-21T11:09:32Z",
+      "updated_at": "2026-09-21T11:09:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5729",
       "labels": []
     },
     {
@@ -17,8 +17,18 @@
       "author": "taisunyoung",
       "state": "open",
       "created_at": "2026-09-19T08:33:09Z",
-      "updated_at": "2026-09-20T03:52:27Z",
+      "updated_at": "2026-09-20T22:32:07Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5683",
+      "labels": []
+    },
+    {
+      "number": 5696,
+      "title": "Consolidate gfx942 unified-attention tuning for Gemma-4 (prefill #5650 + decode #5664/#5675)",
+      "author": "mpashkovskii",
+      "state": "open",
+      "created_at": "2026-09-20T06:16:09Z",
+      "updated_at": "2026-09-20T06:30:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5696",
       "labels": []
     },
     {

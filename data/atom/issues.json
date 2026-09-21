@@ -1,6 +1,52 @@
 {
-  "collected_at": "2026-09-20T12:43:21Z",
+  "collected_at": "2026-09-21T14:38:59Z",
   "issues": [
+    {
+      "number": 2322,
+      "title": "[CI] Approving a PR restarts the CI pipeline",
+      "author": "junhaha666",
+      "state": "open",
+      "created_at": "2026-09-21T04:26:30Z",
+      "updated_at": "2026-09-21T09:21:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2322",
+      "labels": []
+    },
+    {
+      "number": 2323,
+      "title": "[Perf Regression] 9 config(s) regressed @ d0708937",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-09-21T04:55:56Z",
+      "updated_at": "2026-09-21T04:55:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2323",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2317,
+      "title": "[Perf Regression] 3 config(s) regressed @ a8ddd6be",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-09-20T16:18:58Z",
+      "updated_at": "2026-09-20T16:18:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2317",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2316,
+      "title": "GLM-5.3-Flash does not work with vllm serve on rocm/atom-dev:vllm-latest",
+      "author": "sajandhy",
+      "state": "open",
+      "created_at": "2026-09-20T16:03:42Z",
+      "updated_at": "2026-09-20T16:03:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2316",
+      "labels": []
+    },
     {
       "number": 2022,
       "title": "[Issue]: DeepSeek V4 TP-MoE does not work",

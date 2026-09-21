@@ -1,30 +1,6 @@
 {
-  "collected_at": "2026-09-20T12:43:28Z",
+  "collected_at": "2026-09-21T14:39:05Z",
   "prs": [
-    {
-      "number": 1162,
-      "title": "[DSL][Runtime][Kernel] Add in-kernel wave tracing (fx.ktrace) for gfx942/gfx950",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T06:35:40Z",
-      "updated_at": "2026-09-20T10:04:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1162",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1167,
-      "title": "[Ext][Coop] Add more warp-level primitives",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T11:15:09Z",
-      "updated_at": "2026-09-20T08:29:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1167",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 1154,
       "title": "[llvm][Skill] Add an LLVM kernel-tuning and verification skill",
@@ -32,20 +8,56 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-17T02:56:06Z",
-      "updated_at": "2026-09-20T04:52:22Z",
+      "updated_at": "2026-09-21T12:13:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1154",
       "labels": [],
       "draft": false
     },
     {
+      "number": 1162,
+      "title": "[DSL][Runtime][Kernel] Add in-kernel wave tracing (fx.ktrace) for gfx942/gfx950",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T06:35:40Z",
+      "updated_at": "2026-09-21T11:20:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1162",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 987,
-      "title": "[WIP][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path",
+      "title": "[Feat][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
       "author": "jli-melchior",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-09-20T02:30:06Z",
+      "updated_at": "2026-09-21T10:41:33Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1062,
+      "title": "smem cleanup: move capacity helpers off legacy allocator, migrate tes\u2026",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T08:21:39Z",
+      "updated_at": "2026-09-21T10:29:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1062",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1122,
+      "title": "Reject global->LDS direct loads on gfx11",
+      "author": "mgehre-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T10:44:31Z",
+      "updated_at": "2026-09-21T10:01:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1122",
       "labels": [],
       "draft": false
     },
@@ -56,7 +68,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-12T11:35:27Z",
-      "updated_at": "2026-09-19T05:41:38Z",
+      "updated_at": "2026-09-21T09:52:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
       "labels": [],
       "draft": false
@@ -280,18 +292,6 @@
       "draft": false
     },
     {
-      "number": 1122,
-      "title": "Reject global->LDS direct loads on gfx11",
-      "author": "mgehre-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T10:44:31Z",
-      "updated_at": "2026-09-11T10:47:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1122",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1057,
       "title": "[Kernel][Perf] Add gfx1151 tile selection for RDNA3 GEMM",
       "author": "tangzzycc",
@@ -362,18 +362,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1062,
-      "title": "smem cleanup: move capacity helpers off legacy allocator, migrate tes\u2026",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T08:21:39Z",
-      "updated_at": "2026-09-09T08:56:29Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1062",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1111,
@@ -576,6 +564,30 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1175,
+      "title": "[CI] Remove ancestor-of-main gate from PyPI publish workflow",
+      "author": "jli-melchior",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-21T07:04:16Z",
+      "updated_at": "2026-09-21T10:24:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1175",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1167,
+      "title": "[Ext][Coop] Add more warp-level primitives",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-18T11:15:09Z",
+      "updated_at": "2026-09-21T01:28:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1167",
       "labels": [],
       "draft": false
     },
@@ -1118,18 +1130,6 @@
       "created_at": "2026-09-08T07:51:13Z",
       "updated_at": "2026-09-08T10:55:21Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1103",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1097,
-      "title": "FlashAttention FP8: Added support for asymmetric head dimensions, variable sequence lengths (varlen), and KV splitting",
-      "author": "binding7012",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-06T07:11:33Z",
-      "updated_at": "2026-09-08T02:21:57Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1097",
       "labels": [],
       "draft": false
     }

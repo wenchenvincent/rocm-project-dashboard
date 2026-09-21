@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-20T12:42:49Z",
+  "collected_at": "2026-09-21T14:38:34Z",
   "prs": [
     {
       "number": 5285,
@@ -8,10 +8,143 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-19T07:50:39Z",
-      "updated_at": "2026-09-19T20:11:17Z",
+      "updated_at": "2026-09-21T13:36:25Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5285",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 5290,
+      "title": "Bump rocm-docs-core from 1.40.2 to 1.41.0 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T12:43:24Z",
+      "updated_at": "2026-09-21T12:43:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5290",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5286,
+      "title": "[AIMIGRAPHX-1264] QMoE Op not supported",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T14:55:58Z",
+      "updated_at": "2026-09-21T03:04:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5286",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5139,
+      "title": "Add GPU JIT implementation for gridsample operation",
+      "author": "Imeguras",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-16T17:12:34Z",
+      "updated_at": "2026-09-20T23:47:00Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5139",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5289,
+      "title": "Add missing tests",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T17:07:40Z",
+      "updated_at": "2026-09-20T17:11:56Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5289",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5233,
+      "title": "Add support for int4 reduce",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T18:45:51Z",
+      "updated_at": "2026-09-20T16:37:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5233",
+      "labels": [
+        "llm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5287,
+      "title": "[AIMIGRAPHX-1266] GQA fails when the operator has 12 inputs ",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T15:36:56Z",
+      "updated_at": "2026-09-20T16:02:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5287",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4811,
+      "title": "Rewrite skinny gemms to mul+reduce_sum",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-22T00:25:07Z",
+      "updated_at": "2026-09-20T15:59:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4811",
+      "labels": [
+        "ok-to-test",
+        "llm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5271,
+      "title": "Fuse reduce slices and squeezed epilogues, tile short reductions, and match attention output through view ops",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T14:59:37Z",
+      "updated_at": "2026-09-20T15:05:34Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5271",
+      "labels": [
+        "llm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5184,
+      "title": "Eliminate concat_past_present",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-24T15:32:38Z",
+      "updated_at": "2026-09-20T15:05:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5184",
+      "labels": [
+        "llm"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5001,
+      "title": "Nontemporal loads",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-19T19:53:52Z",
+      "updated_at": "2026-09-20T15:05:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5001",
+      "labels": [
+        "llm"
+      ],
+      "draft": true
     },
     {
       "number": 5279,
@@ -23,20 +156,6 @@
       "updated_at": "2026-09-19T15:47:31Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5279",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4811,
-      "title": "Rewrite skinny gemms to mul+reduce_sum",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-22T00:25:07Z",
-      "updated_at": "2026-09-19T15:03:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4811",
-      "labels": [
-        "ok-to-test"
-      ],
       "draft": false
     },
     {
@@ -211,18 +330,6 @@
       "draft": false
     },
     {
-      "number": 5265,
-      "title": "Marshall exception in simple_par_for",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-14T21:56:10Z",
-      "updated_at": "2026-09-17T23:11:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5265",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5277,
       "title": "ensure standard shapes for lrn operator",
       "author": "kahmed10",
@@ -298,18 +405,6 @@
       "draft": true
     },
     {
-      "number": 5001,
-      "title": "Nontemporal loads",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-19T19:53:52Z",
-      "updated_at": "2026-09-17T14:00:08Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5001",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 4787,
       "title": "Rewrite mul reduce to use fdot2 instructions",
       "author": "pfultz2",
@@ -320,18 +415,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4787",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5233,
-      "title": "Add support for int4 reduce",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T18:45:51Z",
-      "updated_at": "2026-09-16T23:36:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5233",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5151,
@@ -368,18 +451,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5273",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5271,
-      "title": "Fuse reduce slices and squeezed epilogues, tile short reductions, and match attention output through view ops",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T14:59:37Z",
-      "updated_at": "2026-09-16T15:35:31Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5271",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5244,
@@ -551,18 +622,6 @@
       "created_at": "2026-09-13T19:37:59Z",
       "updated_at": "2026-09-14T19:26:50Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5256",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5139,
-      "title": "Add GPU JIT implementation for gridsample operation",
-      "author": "Imeguras",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-16T17:12:34Z",
-      "updated_at": "2026-09-10T22:09:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5139",
       "labels": [],
       "draft": false
     },
@@ -1641,18 +1700,6 @@
       "draft": false
     },
     {
-      "number": 5184,
-      "title": "Eliminate concat_past_present",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T15:32:38Z",
-      "updated_at": "2026-08-29T04:00:00Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5184",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 4303,
       "title": "Add initial integration of amdmlss mha",
       "author": "Zhaeong",
@@ -1663,6 +1710,85 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4303",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5265,
+      "title": "Marshall exception in simple_par_for",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-14T21:56:10Z",
+      "updated_at": "2026-09-21T03:05:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5265",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5288,
+      "title": "Fix tidy warnings in generic_float",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-20T17:05:43Z",
+      "updated_at": "2026-09-21T03:01:34Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5288",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4993,
+      "title": "Remove dev_intro.rst and formatting contributing-to-migraphx",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-19T00:18:07Z",
+      "updated_at": "2026-09-21T01:00:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4993",
+      "labels": [
+        "documentation",
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5003,
+      "title": "Add checkers for redundant static_cast",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-22T14:14:44Z",
+      "updated_at": "2026-09-20T23:00:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5003",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4987,
+      "title": "Fix verify auto-print handler registration for late targets",
+      "author": "ikalinic",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-18T11:39:57Z",
+      "updated_at": "2026-09-20T23:00:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4991,
+      "title": "Fix redundant re-benchmarking for pooling when using problem cache",
+      "author": "ahsan-ca",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-18T20:31:21Z",
+      "updated_at": "2026-09-20T19:31:17Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4991",
+      "labels": [
+        "bugfix",
+        "high priority",
+        "ok-to-test"
+      ],
+      "draft": false
     },
     {
       "number": 4752,
@@ -2755,86 +2881,6 @@
         "high priority",
         "Windows",
         "UAI"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5216,
-      "title": "Bump CI to ROCm 10.0",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-29T04:05:18Z",
-      "updated_at": "2026-09-01T01:13:31Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5216",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5223,
-      "title": "[ROCM-29926] fix non-standard literals causing failures in mlir modules",
-      "author": "eddieliao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-31T17:09:45Z",
-      "updated_at": "2026-08-31T22:15:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5223",
-      "labels": [
-        "bugfix",
-        "backport",
-        "Changelog: Not Applicable"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5220,
-      "title": "Bump rocm-docs-core from 1.40.0 to 1.40.2 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-31T12:43:48Z",
-      "updated_at": "2026-08-31T20:47:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5220",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4795,
-      "title": "[AIMIGRAPHX-828] Cross Compile Pt 2: construct gpu target with gfx number to enable cross compilation",
-      "author": "kahmed10",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-17T04:16:22Z",
-      "updated_at": "2026-08-31T18:30:37Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4795",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5222,
-      "title": "Format",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-31T15:22:06Z",
-      "updated_at": "2026-08-31T17:45:23Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5222",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5218,
-      "title": "Add executable path flags and --all option to tools/format.py",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-30T01:08:00Z",
-      "updated_at": "2026-08-31T14:36:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5218",
-      "labels": [
-        "high priority"
       ],
       "draft": false
     }
