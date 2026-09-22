@@ -1,6 +1,29 @@
 {
-  "collected_at": "2026-09-21T14:38:59Z",
+  "collected_at": "2026-09-22T12:54:17Z",
   "issues": [
+    {
+      "number": 2354,
+      "title": "moriio registers as a `reads_block_regions` backend but never reads them: DSA models decode garbage past the dense window, and its completion test frees in-flight `TransferStatus` objects",
+      "author": "IvanShan177",
+      "state": "open",
+      "created_at": "2026-09-22T09:49:46Z",
+      "updated_at": "2026-09-22T09:49:46Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2354",
+      "labels": []
+    },
+    {
+      "number": 2341,
+      "title": "[Perf Regression] 11 config(s) regressed @ 52a6a96f",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-09-22T00:58:20Z",
+      "updated_at": "2026-09-22T00:58:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2341",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 2322,
       "title": "[CI] Approving a PR restarts the CI pipeline",

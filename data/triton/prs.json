@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-09-21T14:38:31Z",
+  "collected_at": "2026-09-22T12:53:45Z",
   "prs": [
+    {
+      "number": 10328,
+      "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
+      "author": "Hardcode84",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-15T22:02:50Z",
+      "updated_at": "2026-09-22T12:19:28Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10328",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11843,
+      "title": "[WIP][AMD] Add rocjitsu based integration tests for cdna5",
+      "author": "sriakrish",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T03:08:34Z",
+      "updated_at": "2026-09-22T03:15:21Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11843",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11904,
+      "title": "[AMD] Swap floating-point values as integers in buffer atomic xchg",
+      "author": "LiRunGuo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T02:53:43Z",
+      "updated_at": "2026-09-22T02:53:44Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11904",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10886,
+      "title": "[AMD] Emit actionable errors when a direct-to-LDS copy cannot be lowered",
+      "author": "vmalepati1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T23:59:49Z",
+      "updated_at": "2026-09-21T22:21:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11896,
+      "title": "[AMD] Do not insert barriers between mbarrier-synchronized TDM copies",
+      "author": "nirvedhmeshram",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T19:52:11Z",
+      "updated_at": "2026-09-21T19:52:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11896",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10694,
+      "title": "[AMD] Use operand-major LDS layout for FMA dot operands",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-22T13:49:28Z",
+      "updated_at": "2026-09-21T18:02:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10694",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11707,
+      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T14:21:46Z",
+      "updated_at": "2026-09-21T17:12:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11707",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 11890,
       "title": "[AMD] Do not stagger CDNA4 padded layouts over rows that do not exist",
@@ -12,18 +96,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11890",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11707,
-      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:21:46Z",
-      "updated_at": "2026-09-21T13:22:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11707",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11884,
@@ -58,18 +130,6 @@
       "created_at": "2026-09-19T22:58:39Z",
       "updated_at": "2026-09-19T23:44:30Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11876",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11843,
-      "title": "[WIP][AMD] Add rocjitsu based integration tests for cdna5",
-      "author": "sriakrish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T03:08:34Z",
-      "updated_at": "2026-09-19T13:48:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11843",
       "labels": [],
       "draft": true
     },
@@ -298,18 +358,6 @@
       "created_at": "2026-09-15T03:23:38Z",
       "updated_at": "2026-09-15T06:03:20Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11793",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10886,
-      "title": "[AMD] Emit actionable errors when a direct-to-LDS copy cannot be lowered",
-      "author": "vmalepati1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T23:59:49Z",
-      "updated_at": "2026-09-15T04:26:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10886",
       "labels": [],
       "draft": false
     },
@@ -670,54 +718,6 @@
       "created_at": "2026-08-26T20:16:56Z",
       "updated_at": "2026-08-28T17:04:27Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11475",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11486,
-      "title": "[AMD] Use hardware cvt instructions for OCP fp8 casts on gfx1170",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T21:43:17Z",
-      "updated_at": "2026-08-27T21:43:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11486",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11435,
-      "title": "[RFC][AMD][Gluon] Require other for masked buffer-to-shared loads",
-      "author": "raikonenfnu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T00:10:41Z",
-      "updated_at": "2026-08-26T19:00:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11435",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11254,
-      "title": "[AMD] Optimize software E4M3FN to FP16 conversion",
-      "author": "skyguan92",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T02:40:16Z",
-      "updated_at": "2026-08-26T16:27:08Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11254",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11429,
-      "title": "[Release][Cherry-Pick] [AMD] Fix under-approximated loop-carried ranges in range analysis",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T16:39:14Z",
-      "updated_at": "2026-08-25T00:11:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11429",
       "labels": [],
       "draft": false
     }

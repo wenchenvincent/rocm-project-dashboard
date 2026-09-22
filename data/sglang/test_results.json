@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-21T14:39:19Z",
+  "collected_at": "2026-09-22T12:54:55Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Nightly Test (AMD)",
@@ -100,9 +100,9 @@
   },
   "cuda": {
     "workflow_name": "PR Test",
-    "run_id": 35613235050,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/35613235050",
-    "run_date": "2026-09-21T14:36:46Z",
+    "run_id": 35729936995,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/35729936995",
+    "run_date": "2026-09-22T12:54:28Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 10,
@@ -122,8 +122,8 @@
         "errors": null
       },
       {
-        "name": "pr-test-finish",
-        "conclusion": "failure",
+        "name": "call-multimodal-gen-tests",
+        "conclusion": "skipped",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -140,8 +140,8 @@
         "errors": null
       },
       {
-        "name": "call-multimodal-gen-tests",
-        "conclusion": "skipped",
+        "name": "pr-test-finish",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -149,16 +149,7 @@
         "errors": null
       },
       {
-        "name": "base-a-test-${{ matrix.runner_config }}",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-a-test-cpu",
+        "name": "call-sgl-kernel-tests",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -176,7 +167,16 @@
         "errors": null
       },
       {
-        "name": "call-sgl-kernel-tests",
+        "name": "base-a-test-cpu",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-a-test-${{ matrix.runner_config }}",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,

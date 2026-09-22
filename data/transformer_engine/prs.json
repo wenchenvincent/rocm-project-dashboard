@@ -1,6 +1,144 @@
 {
-  "collected_at": "2026-09-21T14:39:08Z",
+  "collected_at": "2026-09-22T12:54:29Z",
   "prs": [
+    {
+      "number": 739,
+      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
+      "author": "yaomingamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T22:00:13Z",
+      "updated_at": "2026-09-22T06:12:09Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
+      "labels": [
+        "community-contribution"
+      ],
+      "draft": false
+    },
+    {
+      "number": 736,
+      "title": "Upgrade ci to therock 10.0",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T19:23:22Z",
+      "updated_at": "2026-09-22T02:26:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-09-21T21:27:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 737,
+      "title": "Fix blockwise numerical issues and add ROCm testing",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T20:36:22Z",
+      "updated_at": "2026-09-21T19:43:04Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/737",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 738,
+      "title": "Update HipKittens Module with clang 24+ fixes",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T20:37:54Z",
+      "updated_at": "2026-09-21T19:24:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/738",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 740,
+      "title": "relax gfx950 fp8 GEMM atol for forced-hipblaslt",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T17:16:50Z",
+      "updated_at": "2026-09-21T17:16:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/740",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 734,
+      "title": "Persistent AG + GEMM MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:42:24Z",
+      "updated_at": "2026-09-21T17:05:08Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "Initial integration of a4w4 GEMM",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T20:00:46Z",
+      "updated_at": "2026-09-21T16:46:08Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 694,
+      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T18:46:22Z",
+      "updated_at": "2026-09-21T16:43:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "sGPU Test Scheduling: Global Work Queue",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T14:24:23Z",
+      "updated_at": "2026-09-21T16:42:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 710,
       "title": "[TE] Added tests to CI",
@@ -30,34 +168,6 @@
       "draft": false
     },
     {
-      "number": 737,
-      "title": "Fix blockwise numerical issues and add ROCm testing",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T20:36:22Z",
-      "updated_at": "2026-09-21T14:04:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/737",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 738,
-      "title": "Update HipKittens Module with clang 24+ fixes",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T20:37:54Z",
-      "updated_at": "2026-09-19T01:11:34Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/738",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 721,
       "title": "Ifu dev 20260828 v2.19",
       "author": "matthiasdiener",
@@ -68,20 +178,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
       "labels": [
         "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 739,
-      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
-      "author": "yaomingamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T22:00:13Z",
-      "updated_at": "2026-09-18T22:00:35Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
-      "labels": [
-        "community-contribution"
       ],
       "draft": false
     },
@@ -98,20 +194,6 @@
       "draft": false
     },
     {
-      "number": 663,
-      "title": "Initial integration of a4w4 GEMM",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T20:00:46Z",
-      "updated_at": "2026-09-18T21:15:06Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 722,
       "title": "[TE] IFU release v2.18",
       "author": "aris134",
@@ -122,20 +204,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
       "labels": [
         "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 734,
-      "title": "Persistent AG + GEMM MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T15:42:24Z",
-      "updated_at": "2026-09-18T19:28:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     },
@@ -154,20 +222,6 @@
       "draft": false
     },
     {
-      "number": 736,
-      "title": "Upgrade ci to therock 10.0",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T19:23:22Z",
-      "updated_at": "2026-09-18T03:55:27Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 606,
       "title": "[FEAT] Lightning Indexer",
       "author": "Micky774",
@@ -176,32 +230,6 @@
       "created_at": "2026-06-01T20:55:02Z",
       "updated_at": "2026-09-17T17:07:43Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/606",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-09-16T23:40:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 694,
-      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-09-15T17:23:26Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
       "labels": [
         "ci-level 1"
       ],
@@ -338,20 +366,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/717",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 696,
-      "title": "sGPU Test Scheduling: Global Work Queue",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T14:24:23Z",
-      "updated_at": "2026-08-20T05:10:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 666,
@@ -677,6 +691,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 649,
+      "title": "[Feat] Added JAX-Triton bridge for ROCm",
+      "author": "AllenFarcas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-24T21:57:11Z",
+      "updated_at": "2026-09-21T15:41:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1026,20 +1054,6 @@
       "created_at": "2026-08-18T20:44:30Z",
       "updated_at": "2026-08-22T17:48:54Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/707",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 649,
-      "title": "[Feat] Added JAX-Triton bridge for ROCm",
-      "author": "AllenFarcas",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-24T21:57:11Z",
-      "updated_at": "2026-08-21T17:20:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/649",
       "labels": [
         "ci-level 3"
       ],

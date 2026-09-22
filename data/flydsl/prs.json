@@ -1,15 +1,87 @@
 {
-  "collected_at": "2026-09-21T14:39:05Z",
+  "collected_at": "2026-09-22T12:54:26Z",
   "prs": [
     {
-      "number": 1154,
-      "title": "[llvm][Skill] Add an LLVM kernel-tuning and verification skill",
-      "author": "Phil-amd",
+      "number": 1182,
+      "title": "[a16w4] Sync moe_2stage_a16wmix from aiter (gfx942 MXFP4 + 7 earlier \u2026",
+      "author": "MHYangAMD",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-17T02:56:06Z",
-      "updated_at": "2026-09-21T12:13:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1154",
+      "created_at": "2026-09-22T12:36:50Z",
+      "updated_at": "2026-09-22T12:37:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1182",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1157,
+      "title": "feat(review): harden review engine for unattended runs",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T21:57:38Z",
+      "updated_at": "2026-09-22T11:04:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1157",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1181,
+      "title": "[API] Add extension as stable, exclude experimental module paths",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T10:20:37Z",
+      "updated_at": "2026-09-22T10:26:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1181",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1180,
+      "title": "Bugfix: Unwrap zip2By singleton guides only on rank-2 pairs",
+      "author": "Peter9606",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T09:35:07Z",
+      "updated_at": "2026-09-22T09:35:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1180",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1179,
+      "title": "[Enh] Accept LLVM pointer types in ffi declarations",
+      "author": "LWenH",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T09:04:02Z",
+      "updated_at": "2026-09-22T09:04:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1179",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1178,
+      "title": "[Fix][Coop] Align warp array collective semantics",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T06:43:40Z",
+      "updated_at": "2026-09-22T07:29:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1178",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1128,
+      "title": "Support variadic operands in fully expanded tiled GEMM",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-12T11:35:27Z",
+      "updated_at": "2026-09-22T07:12:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
       "labels": [],
       "draft": false
     },
@@ -38,18 +110,6 @@
       "draft": false
     },
     {
-      "number": 1062,
-      "title": "smem cleanup: move capacity helpers off legacy allocator, migrate tes\u2026",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-24T08:21:39Z",
-      "updated_at": "2026-09-21T10:29:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1062",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1122,
       "title": "Reject global->LDS direct loads on gfx11",
       "author": "mgehre-amd",
@@ -62,18 +122,6 @@
       "draft": false
     },
     {
-      "number": 1128,
-      "title": "Support variadic operands in fully expanded tiled GEMM",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-12T11:35:27Z",
-      "updated_at": "2026-09-21T09:52:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 848,
       "title": "[Perf] Optimize rmsnorm/layernorm",
       "author": "cschenjunlin",
@@ -82,30 +130,6 @@
       "created_at": "2026-07-14T08:23:54Z",
       "updated_at": "2026-09-19T03:32:28Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1158,
-      "title": "feat(review): add local coderfeli review watcher",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T21:59:49Z",
-      "updated_at": "2026-09-19T01:22:56Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1158",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1157,
-      "title": "feat(review): harden review engine for unattended runs",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T21:57:38Z",
-      "updated_at": "2026-09-19T01:22:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1157",
       "labels": [],
       "draft": false
     },
@@ -142,18 +166,6 @@
       "created_at": "2026-09-16T08:06:06Z",
       "updated_at": "2026-09-18T08:52:06Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1145",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1079,
-      "title": "[ROCDL] cdna5 tdm_partition: relate only mode-0, pass rest modes through",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T11:53:08Z",
-      "updated_at": "2026-09-18T07:09:26Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1079",
       "labels": [],
       "draft": false
     },
@@ -564,6 +576,54 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1154,
+      "title": "[llvm][Skill] Add an LLVM kernel-tuning and verification skill",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-17T02:56:06Z",
+      "updated_at": "2026-09-22T11:07:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1154",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1158,
+      "title": "feat(review): add local coderfeli review watcher",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-17T21:59:49Z",
+      "updated_at": "2026-09-22T11:04:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1158",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1177,
+      "title": "[Kernel][FA] Fix the DAZ flag never reaching the hardware",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-22T00:05:00Z",
+      "updated_at": "2026-09-22T11:03:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1177",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1062,
+      "title": "smem cleanup: move capacity helpers off legacy allocator, migrate tes\u2026",
+      "author": "xudoyuan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-24T08:21:39Z",
+      "updated_at": "2026-09-22T11:02:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1062",
       "labels": [],
       "draft": false
     },
@@ -1080,56 +1140,6 @@
       "created_at": "2026-09-09T09:18:09Z",
       "updated_at": "2026-09-10T06:19:30Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1112",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1102,
-      "title": "[Chore] pre commit formatter",
-      "author": "ppppqp",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T07:17:37Z",
-      "updated_at": "2026-09-09T09:41:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1102",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1098,
-      "title": "refactor: migrate to extension api",
-      "author": "ppppqp",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-07T04:58:37Z",
-      "updated_at": "2026-09-08T13:33:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1098",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1100,
-      "title": "[DSL] Expose atomic operations via llvm dialect",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-07T12:34:21Z",
-      "updated_at": "2026-09-08T10:56:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1100",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1103,
-      "title": "[Doc] Add api document for rand extention",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T07:51:13Z",
-      "updated_at": "2026-09-08T10:55:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1103",
       "labels": [],
       "draft": false
     }

@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-09-21T14:38:18Z",
+  "collected_at": "2026-09-22T12:53:29Z",
   "releases": [
+    {
+      "tag_name": "v0.30.0",
+      "name": "v0.30.0",
+      "published_at": "2026-09-22T05:20:54Z",
+      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.30.0",
+      "prerelease": false
+    },
     {
       "tag_name": "v0.29.0",
       "name": "v0.29.0",
@@ -27,13 +34,6 @@
       "name": "v0.27.0",
       "published_at": "2026-08-10T21:18:11Z",
       "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v0.26.0",
-      "name": "v0.26.0",
-      "published_at": "2026-07-27T01:06:58Z",
-      "html_url": "https://github.com/vllm-project/vllm/releases/tag/v0.26.0",
       "prerelease": false
     }
   ]
