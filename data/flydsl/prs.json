@@ -1,15 +1,63 @@
 {
-  "collected_at": "2026-09-22T12:54:26Z",
+  "collected_at": "2026-09-23T13:05:48Z",
   "prs": [
     {
-      "number": 1182,
-      "title": "[a16w4] Sync moe_2stage_a16wmix from aiter (gfx942 MXFP4 + 7 earlier \u2026",
-      "author": "MHYangAMD",
+      "number": 1185,
+      "title": "fix(coop): preserve declared operator element types",
+      "author": "sjfeng1999",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-22T12:36:50Z",
-      "updated_at": "2026-09-22T12:37:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1182",
+      "created_at": "2026-09-23T11:44:20Z",
+      "updated_at": "2026-09-23T11:53:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1185",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 987,
+      "title": "[Feat][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-09-23T08:13:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1184,
+      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T07:21:49Z",
+      "updated_at": "2026-09-23T08:13:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1162,
+      "title": "[DSL][Runtime][Kernel] Add in-kernel wave tracing (fx.ktrace) for gfx942/gfx950",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T06:35:40Z",
+      "updated_at": "2026-09-23T08:11:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1162",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1180,
+      "title": "Bugfix: Unwrap zip2By singleton guides only on rank-2 pairs",
+      "author": "Peter9606",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T09:35:07Z",
+      "updated_at": "2026-09-23T05:39:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1180",
       "labels": [],
       "draft": false
     },
@@ -26,30 +74,6 @@
       "draft": false
     },
     {
-      "number": 1181,
-      "title": "[API] Add extension as stable, exclude experimental module paths",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T10:20:37Z",
-      "updated_at": "2026-09-22T10:26:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1181",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1180,
-      "title": "Bugfix: Unwrap zip2By singleton guides only on rank-2 pairs",
-      "author": "Peter9606",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T09:35:07Z",
-      "updated_at": "2026-09-22T09:35:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1180",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1179,
       "title": "[Enh] Accept LLVM pointer types in ffi declarations",
       "author": "LWenH",
@@ -58,66 +82,6 @@
       "created_at": "2026-09-22T09:04:02Z",
       "updated_at": "2026-09-22T09:04:02Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1179",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1178,
-      "title": "[Fix][Coop] Align warp array collective semantics",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T06:43:40Z",
-      "updated_at": "2026-09-22T07:29:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1178",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1128,
-      "title": "Support variadic operands in fully expanded tiled GEMM",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-12T11:35:27Z",
-      "updated_at": "2026-09-22T07:12:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1162,
-      "title": "[DSL][Runtime][Kernel] Add in-kernel wave tracing (fx.ktrace) for gfx942/gfx950",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T06:35:40Z",
-      "updated_at": "2026-09-21T11:20:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1162",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 987,
-      "title": "[Feat][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-09-21T10:41:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1122,
-      "title": "Reject global->LDS direct loads on gfx11",
-      "author": "mgehre-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T10:44:31Z",
-      "updated_at": "2026-09-21T10:01:55Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1122",
       "labels": [],
       "draft": false
     },
@@ -218,20 +182,6 @@
       "draft": false
     },
     {
-      "number": 1116,
-      "title": "refactor communication ops",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T08:18:43Z",
-      "updated_at": "2026-09-16T09:06:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1116",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
       "number": 1139,
       "title": "Opus fa4 align bf16 perf",
       "author": "coderfeli",
@@ -264,18 +214,6 @@
       "created_at": "2026-07-18T00:38:19Z",
       "updated_at": "2026-09-14T14:05:12Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/872",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1131,
-      "title": "[Kernel] Refactor preshuffle GEMM indexing with layout algebra",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-14T08:44:18Z",
-      "updated_at": "2026-09-14T10:57:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1131",
       "labels": [],
       "draft": false
     },
@@ -577,6 +515,104 @@
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1128,
+      "title": "Support variadic operands in fully expanded tiled GEMM",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-12T11:35:27Z",
+      "updated_at": "2026-09-23T09:42:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1128",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1131,
+      "title": "[Kernel] Refactor preshuffle GEMM indexing with layout algebra",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-14T08:44:18Z",
+      "updated_at": "2026-09-23T07:58:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1131",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1183,
+      "title": "[Kernel][GEMM] Add gfx950 2-wave preshuffle tiles",
+      "author": "XiaobingSuper",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-23T02:32:43Z",
+      "updated_at": "2026-09-23T07:56:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1183",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1178,
+      "title": "[Fix][Coop] Align warp array collective semantics",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-22T06:43:40Z",
+      "updated_at": "2026-09-23T03:39:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1178",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1182,
+      "title": "[a16w4] Sync moe_2stage_a16wmix from aiter (gfx942 MXFP4 + 7 earlier \u2026",
+      "author": "MHYangAMD",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-22T12:36:50Z",
+      "updated_at": "2026-09-23T03:37:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1182",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1122,
+      "title": "Reject global->LDS direct loads on gfx11",
+      "author": "mgehre-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T10:44:31Z",
+      "updated_at": "2026-09-22T13:34:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1122",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1181,
+      "title": "[API] Add extension as stable, exclude experimental module paths",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-22T10:20:37Z",
+      "updated_at": "2026-09-22T13:23:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1181",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1116,
+      "title": "refactor communication ops",
+      "author": "yanboshao",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-10T08:18:43Z",
+      "updated_at": "2026-09-22T13:19:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1116",
+      "labels": [
+        "multi-gpu"
+      ],
       "draft": false
     },
     {
@@ -1128,18 +1164,6 @@
       "created_at": "2026-08-12T08:37:46Z",
       "updated_at": "2026-09-10T08:59:26Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1112,
-      "title": "[CI] Move 1-GPU tests to linux-flydsl-mi35x-1 and filter MI350 from the perf dashboard",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-09T09:18:09Z",
-      "updated_at": "2026-09-10T06:19:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1112",
       "labels": [],
       "draft": false
     }

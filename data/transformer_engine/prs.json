@@ -1,17 +1,31 @@
 {
-  "collected_at": "2026-09-22T12:54:29Z",
+  "collected_at": "2026-09-23T13:05:51Z",
   "prs": [
     {
-      "number": 739,
-      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
-      "author": "yaomingamd",
+      "number": 722,
+      "title": "[TE] IFU release v2.18",
+      "author": "aris134",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-18T22:00:13Z",
-      "updated_at": "2026-09-22T06:12:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
+      "created_at": "2026-08-31T14:24:03Z",
+      "updated_at": "2026-09-23T01:52:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
       "labels": [
-        "community-contribution"
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 723,
+      "title": " Triton mxfp4 (and a8w4) grouped GEMM kernel",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T18:58:10Z",
+      "updated_at": "2026-09-23T01:49:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/723",
+      "labels": [
+        "ci-level 1"
       ],
       "draft": false
     },
@@ -22,11 +36,23 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-10T19:23:22Z",
-      "updated_at": "2026-09-22T02:26:20Z",
+      "updated_at": "2026-09-23T01:49:04Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
       "labels": [
         "ci-level 3"
       ],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "Performance dashboard",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T15:55:35Z",
+      "updated_at": "2026-09-22T23:23:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
+      "labels": [],
       "draft": false
     },
     {
@@ -36,50 +62,36 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-09-21T21:27:23Z",
+      "updated_at": "2026-09-22T23:17:44Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [],
       "draft": false
     },
     {
-      "number": 737,
-      "title": "Fix blockwise numerical issues and add ROCm testing",
-      "author": "alextmagro",
+      "number": 739,
+      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
+      "author": "yaomingamd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-18T20:36:22Z",
-      "updated_at": "2026-09-21T19:43:04Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/737",
+      "created_at": "2026-09-18T22:00:13Z",
+      "updated_at": "2026-09-22T18:02:36Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
       "labels": [
-        "ci-level 3"
+        "community-contribution"
       ],
       "draft": false
     },
     {
-      "number": 738,
-      "title": "Update HipKittens Module with clang 24+ fixes",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T20:37:54Z",
-      "updated_at": "2026-09-21T19:24:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/738",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 740,
-      "title": "relax gfx950 fp8 GEMM atol for forced-hipblaslt",
+      "number": 721,
+      "title": "Ifu dev 20260828 v2.19",
       "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-21T17:16:50Z",
-      "updated_at": "2026-09-21T17:16:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/740",
+      "created_at": "2026-08-28T21:01:06Z",
+      "updated_at": "2026-09-22T17:23:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
       "labels": [
-        "ci-level 1"
+        "ci-level 3"
       ],
       "draft": false
     },
@@ -134,74 +146,6 @@
       "created_at": "2026-08-07T14:24:23Z",
       "updated_at": "2026-09-21T16:42:54Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 710,
-      "title": "[TE] Added tests to CI",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-20T18:48:56Z",
-      "updated_at": "2026-09-21T14:26:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/710",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 723,
-      "title": " Triton mxfp4 (and a8w4) grouped GEMM kernel",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T18:58:10Z",
-      "updated_at": "2026-09-21T14:06:40Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/723",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 721,
-      "title": "Ifu dev 20260828 v2.19",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T21:01:06Z",
-      "updated_at": "2026-09-18T23:07:47Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 670,
-      "title": "Performance dashboard",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T15:55:35Z",
-      "updated_at": "2026-09-18T21:37:49Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 722,
-      "title": "[TE] IFU release v2.18",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T14:24:03Z",
-      "updated_at": "2026-09-18T19:50:47Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/722",
       "labels": [
         "ci-level 3"
       ],
@@ -691,6 +635,62 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 737,
+      "title": "Fix blockwise numerical issues and add ROCm testing",
+      "author": "alextmagro",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-18T20:36:22Z",
+      "updated_at": "2026-09-23T03:01:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/737",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 710,
+      "title": "[TE] Added tests to CI",
+      "author": "AllenFarcas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-20T18:48:56Z",
+      "updated_at": "2026-09-22T18:56:32Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/710",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 740,
+      "title": "relax gfx950 fp8 GEMM atol for forced-hipblaslt",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-21T17:16:50Z",
+      "updated_at": "2026-09-22T18:37:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/740",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 738,
+      "title": "Update HipKittens Module with clang 24+ fixes",
+      "author": "alextmagro",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-18T20:37:54Z",
+      "updated_at": "2026-09-22T18:25:56Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/738",
+      "labels": [
+        "ci-level 3"
+      ],
       "draft": false
     },
     {
@@ -1797,60 +1797,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 598,
-      "title": "Mxfp8 grouped and multi quantize",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-27T21:43:36Z",
-      "updated_at": "2026-06-19T15:35:31Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/598",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 633,
-      "title": "Ipanfilo/port fixes to 212",
-      "author": "ipanfilo",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-17T17:01:53Z",
-      "updated_at": "2026-06-19T01:19:54Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/633",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 613,
-      "title": "CK MXFP8 Group Gemm gfx1250 Enablement",
-      "author": "aris134",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-08T14:46:19Z",
-      "updated_at": "2026-06-17T18:55:04Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/613",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 610,
-      "title": "microbenchmarks: add kernel profiling option",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-03T20:43:34Z",
-      "updated_at": "2026-06-17T16:11:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/610",
-      "labels": [],
       "draft": false
     }
   ]

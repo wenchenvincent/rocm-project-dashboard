@@ -1,14 +1,76 @@
 {
-  "collected_at": "2026-09-22T12:54:10Z",
+  "collected_at": "2026-09-23T13:05:34Z",
   "issues": [
+    {
+      "number": 5781,
+      "title": "[Issue]: bf16 GEMM asm kernels crash with GPU memory access fault on skinny M=1 shapes (gfx950)",
+      "author": "samutamm",
+      "state": "open",
+      "created_at": "2026-09-23T06:05:20Z",
+      "updated_at": "2026-09-23T06:05:20Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5781",
+      "labels": []
+    },
+    {
+      "number": 5777,
+      "title": "[Triton/Gluon] Productize FMHA kernels in GFX950 Gluon Tutorial",
+      "author": "leonling-ll",
+      "state": "open",
+      "created_at": "2026-09-23T04:34:46Z",
+      "updated_at": "2026-09-23T04:35:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5777",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
     {
       "number": 5741,
       "title": "[Defect]: Unified_attention produces wrong output using SPLIT_UNMASKED_LOOP=1 and SLIDING_WINDOW=1",
       "author": "amd-xavierwang",
       "state": "open",
       "created_at": "2026-09-21T22:05:01Z",
-      "updated_at": "2026-09-22T06:31:11Z",
+      "updated_at": "2026-09-22T18:24:59Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5741",
+      "labels": []
+    },
+    {
+      "number": 5769,
+      "title": "[Bug] `fmoe_fp8_blockscale_g1u1` reads the activation scale past its end (per_1x128, gfx950)",
+      "author": "afriedri",
+      "state": "open",
+      "created_at": "2026-09-22T18:16:25Z",
+      "updated_at": "2026-09-22T18:16:25Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5769",
+      "labels": []
+    },
+    {
+      "number": 5766,
+      "title": "[MoE][Build] Multi-arch `GPU_ARCHS=gfx942;gfx950` bakes the gfx950 instance table into 13 prebuilt `moe_ck2stages` modules, so gfx942 rejects `inter_dim=384` (breaks Qwen3-30B-A3B at TP2 under vLLM)",
+      "author": "jatseng-ai",
+      "state": "open",
+      "created_at": "2026-09-22T16:58:28Z",
+      "updated_at": "2026-09-22T16:58:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5766",
+      "labels": []
+    },
+    {
+      "number": 5765,
+      "title": "[Bug] bf16 MLA decode still wraps past a 4 GiB window from `ptr_KV` on gfx950 \u2014 qh16 / qh32 / qh128 (qh64 is fixed)",
+      "author": "afriedri",
+      "state": "open",
+      "created_at": "2026-09-22T16:49:32Z",
+      "updated_at": "2026-09-22T16:49:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5765",
+      "labels": []
+    },
+    {
+      "number": 5760,
+      "title": "[Feature]: Support for unquantized bf16 MoE default CK path (fused_moe), currently always assumes separated Swiglu gate/up layout",
+      "author": "divakar-amd",
+      "state": "open",
+      "created_at": "2026-09-22T14:18:05Z",
+      "updated_at": "2026-09-22T14:18:05Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5760",
       "labels": []
     },
     {
@@ -49,16 +111,6 @@
       "created_at": "2026-09-21T20:31:58Z",
       "updated_at": "2026-09-21T20:31:58Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5738",
-      "labels": []
-    },
-    {
-      "number": 5595,
-      "title": "[ROCm][AITER]: get_2stage_cfgs: topk -= int(is_ep) incorrectly strips Fused Shared Expert column, producing wrong kernel config and gibberish output",
-      "author": "psakhamo",
-      "state": "open",
-      "created_at": "2026-09-16T15:50:07Z",
-      "updated_at": "2026-09-21T16:01:41Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5595",
       "labels": []
     },
     {
@@ -195,16 +247,6 @@
       "labels": []
     },
     {
-      "number": 5547,
-      "title": "Add 32x32 block-scaled MXFP4 quantization",
-      "author": "DaiXindi-AMD",
-      "state": "open",
-      "created_at": "2026-09-15T13:25:17Z",
-      "updated_at": "2026-09-15T13:26:38Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5547",
-      "labels": []
-    },
-    {
       "number": 5541,
       "title": "Add fused SiLU-and-multiply backward kernel",
       "author": "DaiXindi-AMD",
@@ -222,16 +264,6 @@
       "created_at": "2026-09-15T11:11:19Z",
       "updated_at": "2026-09-15T11:11:19Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5537",
-      "labels": []
-    },
-    {
-      "number": 5530,
-      "title": "Add gfx950 stochastic MXFP4 quantization",
-      "author": "DaiXindi-AMD",
-      "state": "open",
-      "created_at": "2026-09-15T10:15:05Z",
-      "updated_at": "2026-09-15T10:15:05Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5530",
       "labels": []
     },
     {

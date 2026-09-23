@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-22T12:53:43Z",
+  "collected_at": "2026-09-23T13:05:09Z",
   "issues": [
     {
       "number": 17050,
@@ -7,8 +7,18 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-22T12:09:13Z",
+      "updated_at": "2026-09-23T12:59:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 36830,
+      "title": "[Bug] GLM-5.3-Flash cannot use FP8 KV cache: `index_kpool > 1` excludes `flashmla_kv`, and no CUDA DSA backend supports bf16-query x fp8-KV",
+      "author": "Hansen523",
+      "state": "open",
+      "created_at": "2026-08-28T08:46:05Z",
+      "updated_at": "2026-09-23T08:52:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36830",
       "labels": []
     },
     {
@@ -17,8 +27,38 @@
       "author": "rwang5203",
       "state": "open",
       "created_at": "2026-09-15T01:21:47Z",
-      "updated_at": "2026-09-22T11:42:58Z",
+      "updated_at": "2026-09-23T06:34:25Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/39499",
+      "labels": []
+    },
+    {
+      "number": 30815,
+      "title": "[Bug] FP8 KV-cache decode slowdown: unfused K/V quantization + per-layer Q conversion overhead",
+      "author": "Swipe4057",
+      "state": "open",
+      "created_at": "2026-07-10T21:38:57Z",
+      "updated_at": "2026-09-22T21:49:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30815",
+      "labels": []
+    },
+    {
+      "number": 40623,
+      "title": "[Bug] Illegal memory access in the Triton fused-MoE kernel when `flashinfer_megamoe` is combined with EAGLE speculative decoding (GLM-5.2-NVFP4, sm_107)",
+      "author": "wenscarl",
+      "state": "open",
+      "created_at": "2026-09-21T20:30:54Z",
+      "updated_at": "2026-09-22T19:07:26Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/40623",
+      "labels": []
+    },
+    {
+      "number": 40574,
+      "title": "[Feature][DSv4.1] Tracking: every backend's two-level candidate indexer behind CandidateIndexer",
+      "author": "yuan-luo",
+      "state": "open",
+      "created_at": "2026-09-21T11:29:37Z",
+      "updated_at": "2026-09-22T18:49:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/40574",
       "labels": []
     },
     {
@@ -41,16 +81,6 @@
       "created_at": "2026-06-30T08:43:14Z",
       "updated_at": "2026-09-22T05:42:12Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29736",
-      "labels": []
-    },
-    {
-      "number": 40574,
-      "title": "[Feature][DSv4.1] Tracking: every backend's two-level candidate indexer behind CandidateIndexer",
-      "author": "yuan-luo",
-      "state": "open",
-      "created_at": "2026-09-21T11:29:37Z",
-      "updated_at": "2026-09-22T03:55:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/40574",
       "labels": []
     },
     {
@@ -268,16 +298,6 @@
       ]
     },
     {
-      "number": 30815,
-      "title": "[Bug] FP8 KV-cache decode slowdown: unfused K/V quantization + per-layer Q conversion overhead",
-      "author": "Swipe4057",
-      "state": "open",
-      "created_at": "2026-07-10T21:38:57Z",
-      "updated_at": "2026-09-12T01:00:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30815",
-      "labels": []
-    },
-    {
       "number": 30599,
       "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
       "author": "AIwork4me",
@@ -407,16 +427,6 @@
       "created_at": "2026-09-04T11:30:01Z",
       "updated_at": "2026-09-08T12:40:46Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38004",
-      "labels": []
-    },
-    {
-      "number": 36830,
-      "title": "[Bug] GLM-5.3-Flash cannot use FP8 KV cache: `index_kpool > 1` excludes `flashmla_kv`, and no CUDA DSA backend supports bf16-query x fp8-KV",
-      "author": "Hansen523",
-      "state": "open",
-      "created_at": "2026-08-28T08:46:05Z",
-      "updated_at": "2026-09-08T06:26:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36830",
       "labels": []
     },
     {
@@ -562,16 +572,6 @@
       "created_at": "2026-08-20T08:35:17Z",
       "updated_at": "2026-08-20T08:35:17Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/35673",
-      "labels": []
-    },
-    {
-      "number": 35518,
-      "title": "[diffusion] MiniMax H3 full-loop denoise rejects ROCm",
-      "author": "jeremyzhang866",
-      "state": "open",
-      "created_at": "2026-08-19T12:39:41Z",
-      "updated_at": "2026-08-19T12:39:41Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35518",
       "labels": []
     }
   ]

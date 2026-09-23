@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-09-22T12:54:21Z",
+  "collected_at": "2026-09-23T13:05:44Z",
   "prs": [
+    {
+      "number": 705,
+      "title": "perf(ep): skip the rest of a node in DispatchInterNodeLLRecv once it is exhausted (V1+V2)",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T13:01:27Z",
+      "updated_at": "2026-09-23T13:01:27Z",
+      "html_url": "https://github.com/ROCm/mori/pull/705",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 703,
+      "title": "refactor(EPv2): replace per-module __device__ staging with shared buffer",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T11:26:55Z",
+      "updated_at": "2026-09-23T12:15:33Z",
+      "html_url": "https://github.com/ROCm/mori/pull/703",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 704,
+      "title": "fix(cco): skip window MRs on one node; round big allocations to 2 MiB",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T11:46:01Z",
+      "updated_at": "2026-09-23T11:46:01Z",
+      "html_url": "https://github.com/ROCm/mori/pull/704",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 698,
+      "title": "feat(ep): support precompiled active QP subsets",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T17:34:20Z",
+      "updated_at": "2026-09-23T10:16:24Z",
+      "html_url": "https://github.com/ROCm/mori/pull/698",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 678,
       "title": "fix(umbp): arm every standalone-process data-plane RPC with a deadline",
@@ -8,8 +56,68 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-16T11:56:07Z",
-      "updated_at": "2026-09-22T12:24:50Z",
+      "updated_at": "2026-09-23T10:07:28Z",
       "html_url": "https://github.com/ROCm/mori/pull/678",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "Feat/io rdma retry tunables",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-14T22:27:14Z",
+      "updated_at": "2026-09-23T09:43:05Z",
+      "html_url": "https://github.com/ROCm/mori/pull/670",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 701,
+      "title": "fix setup tools",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T06:45:53Z",
+      "updated_at": "2026-09-23T09:18:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/701",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 700,
+      "title": "fix(umbp): stop standalone client_mu_ serializing the whole node behind one rank",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T04:38:43Z",
+      "updated_at": "2026-09-23T08:07:42Z",
+      "html_url": "https://github.com/ROCm/mori/pull/700",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 621,
+      "title": "fix(ep): correct recv-slice indexing in DispatchInterNodeRecv (v1 kernel)",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T04:05:11Z",
+      "updated_at": "2026-09-23T04:41:34Z",
+      "html_url": "https://github.com/ROCm/mori/pull/621",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 699,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T18:28:49Z",
+      "updated_at": "2026-09-22T18:31:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/699",
       "labels": [],
       "draft": false
     },
@@ -74,18 +182,6 @@
       "draft": true
     },
     {
-      "number": 670,
-      "title": "Feat/io rdma retry tunables",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-14T22:27:14Z",
-      "updated_at": "2026-09-18T22:00:40Z",
-      "html_url": "https://github.com/ROCm/mori/pull/670",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 685,
       "title": "ci(cco): stop the SDMA queue reclamation race from failing CI",
       "author": "yangyuhuiling",
@@ -106,18 +202,6 @@
       "created_at": "2026-08-31T11:14:37Z",
       "updated_at": "2026-09-18T16:35:20Z",
       "html_url": "https://github.com/ROCm/mori/pull/623",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 621,
-      "title": "fix(ep): correct recv-slice indexing in DispatchInterNodeRecv (v1 kernel)",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T04:05:11Z",
-      "updated_at": "2026-09-17T06:29:14Z",
-      "html_url": "https://github.com/ROCm/mori/pull/621",
       "labels": [],
       "draft": false
     },
@@ -526,6 +610,18 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 702,
+      "title": "perf(ep): skip redundant nodeRecvTokenNum re-reads in DispatchInterNodeLLRecv (V1+V2)",
+      "author": "yoqiu-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-23T08:31:30Z",
+      "updated_at": "2026-09-23T12:03:33Z",
+      "html_url": "https://github.com/ROCm/mori/pull/702",
       "labels": [],
       "draft": false
     },
@@ -1570,18 +1666,6 @@
       "created_at": "2026-06-10T14:49:40Z",
       "updated_at": "2026-08-19T12:31:41Z",
       "html_url": "https://github.com/ROCm/mori/pull/380",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 343,
-      "title": "Feat: Enable SSD tier in distributed UMBP",
-      "author": "isytwu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-01T02:52:21Z",
-      "updated_at": "2026-08-19T12:31:41Z",
-      "html_url": "https://github.com/ROCm/mori/pull/343",
       "labels": [],
       "draft": false
     }

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-22T12:53:13Z",
+  "collected_at": "2026-09-23T13:04:44Z",
   "prs": [
     {
       "number": 40859,
@@ -8,8 +8,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-22T05:02:17Z",
-      "updated_at": "2026-09-22T05:32:33Z",
+      "updated_at": "2026-09-22T19:58:34Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40859",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 40877,
+      "title": "[ROCM] Added gfx1250 and gfx1250-strict targets",
+      "author": "zahiqbal",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T16:24:52Z",
+      "updated_at": "2026-09-22T18:28:44Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40877",
       "labels": [],
       "draft": false
     },

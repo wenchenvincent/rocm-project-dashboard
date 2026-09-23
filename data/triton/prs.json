@@ -1,6 +1,126 @@
 {
-  "collected_at": "2026-09-22T12:53:45Z",
+  "collected_at": "2026-09-23T13:05:12Z",
   "prs": [
+    {
+      "number": 11896,
+      "title": "[AMD] Do not insert barriers between mbarrier-synchronized TDM copies",
+      "author": "nirvedhmeshram",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T19:52:11Z",
+      "updated_at": "2026-09-23T08:59:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11896",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11719,
+      "title": "[AMD] Make the membar async-load filter direction-aware",
+      "author": "zhanglx13",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T19:13:54Z",
+      "updated_at": "2026-09-23T04:08:28Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11719",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11843,
+      "title": "[AMD] Add rocjitsu based integration tests for cdna5",
+      "author": "sriakrish",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-18T03:08:34Z",
+      "updated_at": "2026-09-23T03:42:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11843",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11916,
+      "title": "[AMD] Update AMD CodeGen to triton-lang/llvm-project@9e5edb7ed944",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T00:51:19Z",
+      "updated_at": "2026-09-23T02:30:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11916",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11802,
+      "title": "[CI][AMD] Record runner environment diagnostics",
+      "author": "willghatch",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-15T23:10:03Z",
+      "updated_at": "2026-09-22T20:57:04Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11802",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11912,
+      "title": "[AMD] build AMD CodeGen LLVM @ 9e5edb7ed944",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-22T19:03:59Z",
+      "updated_at": "2026-09-22T20:35:44Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11912",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11707,
+      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T14:21:46Z",
+      "updated_at": "2026-09-22T20:32:42Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11707",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11911,
+      "title": "[AMD] Allow the tagged barrier lowering on RDNA in CU mode",
+      "author": "mgehre-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T17:39:44Z",
+      "updated_at": "2026-09-22T20:00:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11911",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11910,
+      "title": "[AMD] Add a cu_mode option to compile for CU wavefront execution mode",
+      "author": "mgehre-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T17:31:52Z",
+      "updated_at": "2026-09-22T20:00:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11910",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11909,
+      "title": "[WIP] [AMD][BACKEND] Emit packed scaled_upcast layout for dot decomposition",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T16:29:45Z",
+      "updated_at": "2026-09-22T16:29:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11909",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 10328,
       "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
@@ -12,18 +132,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/10328",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11843,
-      "title": "[WIP][AMD] Add rocjitsu based integration tests for cdna5",
-      "author": "sriakrish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T03:08:34Z",
-      "updated_at": "2026-09-22T03:15:21Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11843",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11904,
@@ -50,18 +158,6 @@
       "draft": false
     },
     {
-      "number": 11896,
-      "title": "[AMD] Do not insert barriers between mbarrier-synchronized TDM copies",
-      "author": "nirvedhmeshram",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T19:52:11Z",
-      "updated_at": "2026-09-21T19:52:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11896",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10694,
       "title": "[AMD] Use operand-major LDS layout for FMA dot operands",
       "author": "pabloantoniom",
@@ -70,18 +166,6 @@
       "created_at": "2026-06-22T13:49:28Z",
       "updated_at": "2026-09-21T18:02:55Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10694",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11707,
-      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:21:46Z",
-      "updated_at": "2026-09-21T17:12:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11707",
       "labels": [],
       "draft": true
     },
@@ -156,18 +240,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11809",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11719,
-      "title": "[AMD] Make the membar async-load filter direction-aware",
-      "author": "zhanglx13",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T19:13:54Z",
-      "updated_at": "2026-09-19T01:23:21Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11719",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11792,
@@ -274,18 +346,6 @@
       "created_at": "2026-09-04T04:30:25Z",
       "updated_at": "2026-09-16T22:43:34Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11579",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11802,
-      "title": "[CI][AMD] Record runner environment diagnostics",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-15T23:10:03Z",
-      "updated_at": "2026-09-16T20:02:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11802",
       "labels": [],
       "draft": false
     },
@@ -626,54 +686,6 @@
       "draft": false
     },
     {
-      "number": 11470,
-      "title": "[AMD][GLUON] Expose helper function to compute scaled_upcast fp4 layout",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-26T13:54:22Z",
-      "updated_at": "2026-09-08T16:36:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11470",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11599,
-      "title": "[AMD] Register gluon-infer-coalesced-encodings in the HIP pipeline",
-      "author": "choi3171",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-05T03:53:34Z",
-      "updated_at": "2026-09-07T18:50:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11599",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11629,
-      "title": "[AMD] Use AMD dot_scaled decomposition path for RDNA",
-      "author": "ptrojahn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-07T16:46:48Z",
-      "updated_at": "2026-09-07T17:58:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11629",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11474,
-      "title": "[AMD] Enable RDNA4m buffer atomics and IEEE min/max",
-      "author": "umangyadav",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-26T15:49:01Z",
-      "updated_at": "2026-09-04T04:43:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11474",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11577,
       "title": "[Release][Cherry-Pick] [AMD] Fix empty range inference for HistogramOp in RangeAnalysis (#11246)",
       "author": "thedandano",
@@ -706,18 +718,6 @@
       "created_at": "2026-08-11T12:25:52Z",
       "updated_at": "2026-08-31T09:22:51Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11266",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11475,
-      "title": "[AMD] Disable scalar atomics in multicta kernels",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T20:16:56Z",
-      "updated_at": "2026-08-28T17:04:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11475",
       "labels": [],
       "draft": false
     }

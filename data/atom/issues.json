@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-22T12:54:17Z",
+  "collected_at": "2026-09-23T13:05:42Z",
   "issues": [
     {
       "number": 2354,
@@ -7,9 +7,35 @@
       "author": "IvanShan177",
       "state": "open",
       "created_at": "2026-09-22T09:49:46Z",
-      "updated_at": "2026-09-22T09:49:46Z",
+      "updated_at": "2026-09-23T01:30:39Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2354",
       "labels": []
+    },
+    {
+      "number": 2363,
+      "title": "[Perf Regression] 4 config(s) regressed @ d9f0720e",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-09-23T01:04:24Z",
+      "updated_at": "2026-09-23T01:04:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2363",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2360,
+      "title": "vLLM plugin pin (2cf0a6915, Aug 23) predates GLM-5.3-Flash support; no published atom-dev image can serve it",
+      "author": "npoulad1",
+      "state": "open",
+      "created_at": "2026-09-22T21:04:46Z",
+      "updated_at": "2026-09-22T21:05:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2360",
+      "labels": [
+        "bug",
+        "enhancement"
+      ]
     },
     {
       "number": 2341,
