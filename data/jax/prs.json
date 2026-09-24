@@ -1,16 +1,18 @@
 {
-  "collected_at": "2026-09-23T13:04:44Z",
+  "collected_at": "2026-09-24T12:57:28Z",
   "prs": [
     {
       "number": 40859,
       "title": "[ROCm] Build with the pinned ROCm, not rules_ml_toolchain's test-only one",
       "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-09-22T05:02:17Z",
-      "updated_at": "2026-09-22T19:58:34Z",
+      "updated_at": "2026-09-23T23:07:07Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40859",
-      "labels": [],
+      "labels": [
+        "pull ready"
+      ],
       "draft": false
     },
     {
@@ -502,21 +504,6 @@
         "pull ready",
         "CI",
         "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39616,
-      "title": "[ROCm] Add missing wheel deps",
-      "author": "alekstheod",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-31T11:10:33Z",
-      "updated_at": "2026-07-31T14:20:35Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39616",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
       ],
       "draft": false
     },

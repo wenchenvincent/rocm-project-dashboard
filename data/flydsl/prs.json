@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-09-23T13:05:48Z",
+  "collected_at": "2026-09-24T12:58:28Z",
   "prs": [
+    {
+      "number": 1191,
+      "title": "[Fix][Expr] Honor allocate(..., alignment=) for static shared allocat\u2026",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T11:56:43Z",
+      "updated_at": "2026-09-24T11:56:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1191",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1188,
+      "title": "[Compiler][Debug] Add a compile path for hand-edited assembly",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T01:47:30Z",
+      "updated_at": "2026-09-24T11:20:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1188",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "[Perf] Optimize rmsnorm/layernorm",
+      "author": "cschenjunlin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-09-24T11:09:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1185,
       "title": "fix(coop): preserve declared operator element types",
@@ -8,44 +44,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-23T11:44:20Z",
-      "updated_at": "2026-09-23T11:53:05Z",
+      "updated_at": "2026-09-24T11:07:23Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1185",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 987,
-      "title": "[Feat][Fix] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-09-23T08:13:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1184,
-      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T07:21:49Z",
-      "updated_at": "2026-09-23T08:13:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1162,
-      "title": "[DSL][Runtime][Kernel] Add in-kernel wave tracing (fx.ktrace) for gfx942/gfx950",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T06:35:40Z",
-      "updated_at": "2026-09-23T08:11:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1162",
       "labels": [],
       "draft": false
     },
@@ -56,8 +56,92 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-22T09:35:07Z",
-      "updated_at": "2026-09-23T05:39:19Z",
+      "updated_at": "2026-09-24T10:36:04Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1180",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1184,
+      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T07:21:49Z",
+      "updated_at": "2026-09-24T08:43:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1190,
+      "title": "[llvm] Extend LLVM for FlyDSL end-to-end performance work",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T07:24:36Z",
+      "updated_at": "2026-09-24T07:39:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1190",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 987,
+      "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-09-24T06:24:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1113,
+      "title": "[Bugfix][Kernel] Fix fused RoPE for head dimension 96",
+      "author": "tangzzycc",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T09:47:50Z",
+      "updated_at": "2026-09-24T03:13:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1113",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1186,
+      "title": "Issue causal flash q-blocks longest-first",
+      "author": "RichardChamberlain1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T13:39:24Z",
+      "updated_at": "2026-09-24T03:11:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1186",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1162,
+      "title": "[DSL][Runtime][Kernel] Add in-kernel wave tracing (fx.ktrace) for gfx942/gfx950",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T06:35:40Z",
+      "updated_at": "2026-09-23T23:28:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1162",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1109,
+      "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
+      "author": "big-yellow-duck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T06:44:24Z",
+      "updated_at": "2026-09-23T13:07:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
       "labels": [],
       "draft": false
     },
@@ -86,18 +170,6 @@
       "draft": false
     },
     {
-      "number": 848,
-      "title": "[Perf] Optimize rmsnorm/layernorm",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-09-19T03:32:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1166,
       "title": "[dont merge][llvm] cherry commits for unclausevmem patch",
       "author": "jli-melchior",
@@ -106,18 +178,6 @@
       "created_at": "2026-09-18T09:45:48Z",
       "updated_at": "2026-09-18T13:07:43Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1166",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1109,
-      "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
-      "author": "big-yellow-duck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T06:44:24Z",
-      "updated_at": "2026-09-18T09:34:31Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
       "labels": [],
       "draft": false
     },
@@ -286,18 +346,6 @@
       "created_at": "2026-08-21T23:47:09Z",
       "updated_at": "2026-09-10T08:35:44Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1056",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1113,
-      "title": "[Bugfix][Kernel] Fix fused RoPE for head dimension 96",
-      "author": "tangzzycc",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T09:47:50Z",
-      "updated_at": "2026-09-09T14:56:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1113",
       "labels": [],
       "draft": false
     },
@@ -514,6 +562,30 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1187,
+      "title": "[CI] Fix dumpir.sh silently succeeding with no command",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-23T23:42:13Z",
+      "updated_at": "2026-09-24T11:21:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1187",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1189,
+      "title": "Revert \"Refactor preshuffle GEMM indexing with layout algebra (#1131)\"",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-24T02:51:08Z",
+      "updated_at": "2026-09-24T03:08:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1189",
       "labels": [],
       "draft": false
     },
@@ -1140,30 +1212,6 @@
       "created_at": "2026-09-04T15:49:20Z",
       "updated_at": "2026-09-10T09:23:51Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1096",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1115,
-      "title": "[CI] Avoid unused ROCm repository refresh in manylinux build",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-10T06:56:07Z",
-      "updated_at": "2026-09-10T09:11:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1115",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1001,
-      "title": "[Compiler][gfx120] Add modC/reuseA/reuseB to MmaOpGFX1250_WMMAType",
-      "author": "jli-melchior",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-12T08:37:46Z",
-      "updated_at": "2026-09-10T08:59:26Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1001",
       "labels": [],
       "draft": false
     }

@@ -1,6 +1,126 @@
 {
-  "collected_at": "2026-09-23T13:05:12Z",
+  "collected_at": "2026-09-24T12:57:54Z",
   "prs": [
+    {
+      "number": 11707,
+      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T14:21:46Z",
+      "updated_at": "2026-09-24T12:42:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11707",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11704,
+      "title": "[AMD] Bypass the epilogue relayout for FMA",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T10:26:29Z",
+      "updated_at": "2026-09-24T12:36:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11704",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11932,
+      "title": "[AMD][GLUON] Expose sched barrier",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T22:57:30Z",
+      "updated_at": "2026-09-24T10:02:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11932",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11929,
+      "title": "[AMD][GFX1250] TDM copy reordering in the pipeliner",
+      "author": "yiqian1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T20:44:53Z",
+      "updated_at": "2026-09-24T09:47:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11929",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11916,
+      "title": "[AMD] Update AMD CodeGen to triton-lang/llvm-project@d26ff26e",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-23T00:51:19Z",
+      "updated_at": "2026-09-24T00:39:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11916",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11475,
+      "title": "[AMD] Disable scalar atomics in multicta kernels",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T20:16:56Z",
+      "updated_at": "2026-09-23T23:41:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11475",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11921,
+      "title": "[AMD][NFC] Fix gfx1250 unit tests for multiplication and TDM descriptors",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-23T13:46:12Z",
+      "updated_at": "2026-09-23T18:23:16Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11921",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11925,
+      "title": "[AMD] Build AMD CodeGen LLVM at d26ff26ef4e9",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-23T16:00:33Z",
+      "updated_at": "2026-09-23T16:03:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11925",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11709,
+      "title": "[AMD] Fix XF32 MFMA lowering for small K",
+      "author": "Jokeren",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T14:44:21Z",
+      "updated_at": "2026-09-23T15:11:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11709",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11922,
+      "title": "[AMD] Fix RDNA DRAM bandwidth estimates",
+      "author": "lstojilj-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T14:58:45Z",
+      "updated_at": "2026-09-23T14:58:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11922",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 11896,
       "title": "[AMD] Do not insert barriers between mbarrier-synchronized TDM copies",
@@ -38,18 +158,6 @@
       "draft": false
     },
     {
-      "number": 11916,
-      "title": "[AMD] Update AMD CodeGen to triton-lang/llvm-project@9e5edb7ed944",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T00:51:19Z",
-      "updated_at": "2026-09-23T02:30:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11916",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11802,
       "title": "[CI][AMD] Record runner environment diagnostics",
       "author": "willghatch",
@@ -72,18 +180,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11912",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11707,
-      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:21:46Z",
-      "updated_at": "2026-09-22T20:32:42Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11707",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11911,
@@ -542,18 +638,6 @@
       "draft": false
     },
     {
-      "number": 11709,
-      "title": "[AMD] Fix XF32 MFMA lowering for small K",
-      "author": "Jokeren",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-11T14:44:21Z",
-      "updated_at": "2026-09-11T23:55:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11709",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11717,
       "title": "[Build] Refresh Ninja path for cached AMD bootstrap builds",
       "author": "roman-openai",
@@ -576,18 +660,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11485",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11704,
-      "title": "[AMD] Bypass the epilogue relayout for FMA",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T10:26:29Z",
-      "updated_at": "2026-09-11T10:26:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11704",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 10906,
@@ -646,78 +718,6 @@
       "created_at": "2026-09-09T00:50:33Z",
       "updated_at": "2026-09-09T16:00:38Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11651",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11566,
-      "title": "[AMD] Fix additive strides for overlapping register bases",
-      "author": "saeid-rostami",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-03T02:43:50Z",
-      "updated_at": "2026-09-09T13:49:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11566",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11640,
-      "title": "Use stable python API in `triton_amd.cc`",
-      "author": "anmyachev",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T16:15:29Z",
-      "updated_at": "2026-09-09T11:06:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11640",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11638,
-      "title": "[AMD][Gluon] Refresh language API docs",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T15:43:15Z",
-      "updated_at": "2026-09-08T21:09:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11638",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11577,
-      "title": "[Release][Cherry-Pick] [AMD] Fix empty range inference for HistogramOp in RangeAnalysis (#11246)",
-      "author": "thedandano",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T22:44:37Z",
-      "updated_at": "2026-09-03T22:46:00Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11577",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11527,
-      "title": "[AMD] Scalarize masked f32 vec2 buffer stores on gfx1151",
-      "author": "keneoneth",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T03:07:01Z",
-      "updated_at": "2026-09-01T23:36:48Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11527",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11266,
-      "title": "[AMD][Backend] Lower tl.fdiv to approximate f32 division on AMD",
-      "author": "purerli98",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T12:25:52Z",
-      "updated_at": "2026-08-31T09:22:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11266",
       "labels": [],
       "draft": false
     }

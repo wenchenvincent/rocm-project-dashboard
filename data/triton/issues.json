@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-09-23T13:05:12Z",
+  "collected_at": "2026-09-24T12:57:54Z",
   "issues": [
+    {
+      "number": 11321,
+      "title": "AMD CanonicalizePointers crashes on tt.pointer_range=32 pointer live across control-flow merge with nested early return.",
+      "author": "O1iveira7",
+      "state": "open",
+      "created_at": "2026-08-15T17:47:17Z",
+      "updated_at": "2026-09-24T09:34:11Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/11321",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 11883,
       "title": "TRITON_CODEGEN_BACKENDS cannot exclude nvidia/amd: core headers and libtriton include the backend trees",
@@ -41,18 +53,6 @@
       "created_at": "2026-08-16T07:22:39Z",
       "updated_at": "2026-08-18T05:57:14Z",
       "html_url": "https://github.com/triton-lang/triton/issues/11327",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 11321,
-      "title": "AMD CanonicalizePointers crashes on tt.pointer_range=32 pointer live across control-flow merge with nested early return.",
-      "author": "O1iveira7",
-      "state": "open",
-      "created_at": "2026-08-15T17:47:17Z",
-      "updated_at": "2026-08-15T18:33:20Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/11321",
       "labels": [
         "bug"
       ]
