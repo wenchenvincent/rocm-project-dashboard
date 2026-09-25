@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-09-24T13:01:31Z",
+  "collected_at": "2026-09-25T13:07:43Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 5,
-      "merged": 7,
+      "opened": 7,
+      "merged": 6,
       "closed": 0
     },
     "last_week": {
-      "opened": 1,
-      "merged": 8,
-      "closed": 3
+      "opened": 0,
+      "merged": 5,
+      "closed": 1
     },
-    "median_time_to_merge_hours": 395.0,
-    "merge_count": 16,
-    "stale_prs": 26
+    "median_time_to_merge_hours": 446.4,
+    "merge_count": 12,
+    "stale_prs": 27
   },
   "contributors": {
-    "active_this_week": 9,
-    "total_contributors": 27,
+    "active_this_week": 10,
+    "total_contributors": 28,
     "top_contributors": [
       {
         "author": "matthiasdiener",
         "prs_submitted": 28,
         "prs_merged": 19,
-        "commits": 8
+        "commits": 7
       },
       {
         "author": "VeeraRajasekhar",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 22.5,
+    "days_since_last": 23.5,
     "avg_interval_days": 41.9,
     "total_releases": 5,
     "latest_tag": "v2.15_rocm"

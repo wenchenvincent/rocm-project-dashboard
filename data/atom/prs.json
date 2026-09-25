@@ -1,27 +1,51 @@
 {
-  "collected_at": "2026-09-24T12:58:20Z",
+  "collected_at": "2026-09-25T13:04:53Z",
   "prs": [
     {
-      "number": 2339,
-      "title": "fix(offload): fence dense LMCache saves",
-      "author": "NidhoggD1",
+      "number": 2358,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-21T16:34:02Z",
-      "updated_at": "2026-09-24T12:22:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2339",
+      "created_at": "2026-09-22T18:29:31Z",
+      "updated_at": "2026-09-25T11:25:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2358",
       "labels": [],
       "draft": false
     },
     {
-      "number": 2393,
-      "title": "fix(build): only use v* tags for setuptools_scm version",
-      "author": "yhl-amd",
+      "number": 2369,
+      "title": "fix(plugin): hold the deferred-save clock on the slotted SeqView",
+      "author": "PerryZhang01",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-24T12:21:28Z",
-      "updated_at": "2026-09-24T12:22:05Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2393",
+      "created_at": "2026-09-23T07:20:44Z",
+      "updated_at": "2026-09-25T09:45:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2369",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2402,
+      "title": "fix(ci): validate all LMCache Dockerfile pins before writing",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T07:43:56Z",
+      "updated_at": "2026-09-25T07:47:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2402",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2274,
+      "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T21:03:54Z",
+      "updated_at": "2026-09-25T04:32:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
       "labels": [],
       "draft": false
     },
@@ -32,22 +56,86 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-16T04:01:49Z",
-      "updated_at": "2026-09-24T12:01:13Z",
+      "updated_at": "2026-09-25T04:28:26Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2250",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2256,
+      "title": "perf(dsv4): use FlyDSL for native FP8 attention",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T11:12:08Z",
+      "updated_at": "2026-09-25T02:16:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2256",
       "labels": [],
       "draft": true
     },
     {
-      "number": 2369,
-      "title": "fix(plugin): hold the deferred-save clock on the slotted SeqView",
-      "author": "PerryZhang01",
+      "number": 2112,
+      "title": "Adding support to define profiler window ",
+      "author": "devalshahamd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-23T07:20:44Z",
-      "updated_at": "2026-09-24T11:20:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2369",
+      "created_at": "2026-09-02T00:10:09Z",
+      "updated_at": "2026-09-25T00:02:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2112",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 2365,
+      "title": "[feature] support pp>1 for Kimi-K3",
+      "author": "gbyu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T02:35:33Z",
+      "updated_at": "2026-09-24T20:57:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2365",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2013,
+      "title": "docker: fix ATOM and SGLang release builds",
+      "author": "ThomasNing",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T00:13:37Z",
+      "updated_at": "2026-09-24T18:50:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2013",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2384,
+      "title": "feat(moe): enable mega stage1_fused on fp4/fp8 dispatch wire",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T06:48:24Z",
+      "updated_at": "2026-09-24T15:38:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2384",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2364,
+      "title": "feat(sp): add Ulysses sequence parallelism and optimize M3 prefill communication",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T02:27:48Z",
+      "updated_at": "2026-09-24T13:48:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2364",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 2371,
@@ -72,18 +160,6 @@
       "created_at": "2026-09-24T10:10:31Z",
       "updated_at": "2026-09-24T10:16:19Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2390",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2358,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T18:29:31Z",
-      "updated_at": "2026-09-24T10:12:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2358",
       "labels": [],
       "draft": false
     },
@@ -128,20 +204,6 @@
       "draft": false
     },
     {
-      "number": 2384,
-      "title": "feat(moe): enable mega stage1_fused on fp4/fp8 dispatch wire",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T06:48:24Z",
-      "updated_at": "2026-09-24T09:51:36Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2384",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
       "number": 2386,
       "title": "[Performance] Split NUMA-bound CPUs into per-GPU physical-core groups",
       "author": "yhl-amd",
@@ -164,18 +226,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2385",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 2256,
-      "title": "perf(dsv4): add tuned hybrid native FP8 attention",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T11:12:08Z",
-      "updated_at": "2026-09-24T08:44:50Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2256",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 2376,
@@ -290,18 +340,6 @@
       "draft": false
     },
     {
-      "number": 2274,
-      "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T21:03:54Z",
-      "updated_at": "2026-09-23T23:36:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2295,
       "title": "Add GPT-OSS IQ2R 2-bit MoE integration",
       "author": "ssharma4-amd",
@@ -324,30 +362,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2375",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 2364,
-      "title": "feat: add Ulysses sequence parallelism for native GQA prefill",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T02:27:48Z",
-      "updated_at": "2026-09-23T10:39:04Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2364",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2365,
-      "title": "[feature] support pp>1 for Kimi-K3",
-      "author": "gbyu-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T02:35:33Z",
-      "updated_at": "2026-09-23T08:55:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2365",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 2353,
@@ -1228,18 +1242,6 @@
       "draft": false
     },
     {
-      "number": 2112,
-      "title": "Adding support to define profiler window ",
-      "author": "devalshahamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T00:10:09Z",
-      "updated_at": "2026-09-04T23:44:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2112",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2125,
       "title": "[PCP] Shard `shared_experts` on the folded TP grid, and sync sampled ids outside the speculative branch",
       "author": "yitingw1",
@@ -1362,18 +1364,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2066",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 2013,
-      "title": "docker: fix ATOM and SGLang release builds",
-      "author": "ThomasNing",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T00:13:37Z",
-      "updated_at": "2026-08-27T05:52:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2013",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 2024,
@@ -3343,6 +3333,86 @@
       "draft": false
     },
     {
+      "number": 2339,
+      "title": "fix(offload): fence dense LMCache saves",
+      "author": "NidhoggD1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-21T16:34:02Z",
+      "updated_at": "2026-09-25T11:19:49Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2339",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2400,
+      "title": "fix: prevent agentic FP8 tail faults and capture AITER wheel identity",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-25T05:48:53Z",
+      "updated_at": "2026-09-25T07:20:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2400",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2399,
+      "title": "perf: unify metadata publication and reuse page tables and Triton kernels",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-25T05:08:20Z",
+      "updated_at": "2026-09-25T06:29:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2399",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2398,
+      "title": "perf(loader): prefetch under disable_mmap, one-copy reads, mmap in CI",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-25T01:46:39Z",
+      "updated_at": "2026-09-25T02:21:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2398",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2395,
+      "title": "ci(lmcache): ship LMCache wheels as Docker Hub images, not GitHub Releases",
+      "author": "yhl-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-24T13:42:43Z",
+      "updated_at": "2026-09-24T15:13:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2395",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2396,
+      "title": "feat(benchmarks): select an optional AITER wheel for manual agentic runs",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-24T13:47:15Z",
+      "updated_at": "2026-09-24T14:38:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2396",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 2392,
       "title": "perf(v41): bound candidate block maxima by each row's context",
       "author": "valarLip",
@@ -4288,72 +4358,6 @@
       "updated_at": "2026-09-17T09:21:25Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2271",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2257,
-      "title": "fix(release): make the wheel release flow usable \u2014 git ownership, and a build-only switch",
-      "author": "zufayu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-16T11:54:20Z",
-      "updated_at": "2026-09-17T09:01:33Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2257",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2179,
-      "title": "[Perf][MiniMax-M3] Split the dense paged decode by workgroups",
-      "author": "yitingw1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-10T03:03:20Z",
-      "updated_at": "2026-09-17T06:55:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2179",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2265,
-      "title": "test: use real sequences in scheduler metrics preemption test",
-      "author": "Jasen2201",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-17T02:23:53Z",
-      "updated_at": "2026-09-17T04:35:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2265",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2249,
-      "title": "feat(dsv4): PD support FP4 index PAGE transfer over Mooncake",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-16T02:12:08Z",
-      "updated_at": "2026-09-16T13:26:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2249",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2255,
-      "title": "ci: use loopback sockets on 8-GPU runners",
-      "author": "gyohuangxin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-16T09:17:52Z",
-      "updated_at": "2026-09-16T12:25:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2255",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     }
   ]

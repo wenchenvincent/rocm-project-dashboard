@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-09-24T12:57:28Z",
+  "collected_at": "2026-09-25T13:04:01Z",
   "prs": [
+    {
+      "number": 40972,
+      "title": "[ROCm] Enable build on rocm rbe and switch to dpx runners",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T08:22:29Z",
+      "updated_at": "2026-09-25T08:30:18Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40972",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 40859,
       "title": "[ROCm] Build with the pinned ROCm, not rules_ml_toolchain's test-only one",

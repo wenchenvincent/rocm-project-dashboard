@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-09-24T13:01:22Z",
+  "collected_at": "2026-09-25T13:07:35Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 31,
-      "merged": 31,
+      "opened": 25,
+      "merged": 25,
       "closed": 3
     },
     "last_week": {
-      "opened": 38,
-      "merged": 22,
-      "closed": 22
+      "opened": 44,
+      "merged": 23,
+      "closed": 14
     },
-    "median_time_to_merge_hours": 21.6,
-    "merge_count": 53,
-    "stale_prs": 12
+    "median_time_to_merge_hours": 21.1,
+    "merge_count": 48,
+    "stale_prs": 11
   },
   "contributors": {
-    "active_this_week": 18,
-    "total_contributors": 41,
+    "active_this_week": 19,
+    "total_contributors": 43,
     "top_contributors": [
       {
         "author": "sjfeng1999",
@@ -52,6 +52,12 @@
         "commits": 2
       },
       {
+        "author": "mustafayildirim",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
         "author": "xudoyuan",
         "prs_submitted": 3,
         "prs_merged": 2,
@@ -70,12 +76,6 @@
         "commits": 0
       },
       {
-        "author": "big-yellow-duck",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 3
-      },
-      {
         "author": "LWenH",
         "prs_submitted": 3,
         "prs_merged": 2,
@@ -86,14 +86,14 @@
   },
   "issue_health": {
     "total_open": 47,
-    "opened_this_week": 4,
+    "opened_this_week": 3,
     "closed_this_week": 2,
-    "unanswered": 18
+    "unanswered": 19
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.9,
+    "days_since_last": 5.9,
     "avg_interval_days": 23.5,
     "total_releases": 5,
     "latest_tag": "v0.3.4.1"

@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-09-24T12:58:25Z",
+  "collected_at": "2026-09-25T13:04:58Z",
   "prs": [
+    {
+      "number": 623,
+      "title": "SDMA HIP device management fixes",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T11:14:37Z",
+      "updated_at": "2026-09-25T12:46:11Z",
+      "html_url": "https://github.com/ROCm/mori/pull/623",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 699,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T18:28:49Z",
+      "updated_at": "2026-09-25T11:25:06Z",
+      "html_url": "https://github.com/ROCm/mori/pull/699",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 674,
+      "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
+      "author": "vinaynkaranth",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T18:16:53Z",
+      "updated_at": "2026-09-25T01:00:30Z",
+      "html_url": "https://github.com/ROCm/mori/pull/674",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 711,
       "title": "fix(cco): two SDMA device-post deadlocks (multi-queue publish, commit snapshot)",
@@ -110,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 699,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T18:28:49Z",
-      "updated_at": "2026-09-22T18:31:10Z",
-      "html_url": "https://github.com/ROCm/mori/pull/699",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 696,
       "title": "opt v2 internode",
       "author": "QizhouZhang97",
@@ -158,18 +182,6 @@
       "draft": false
     },
     {
-      "number": 674,
-      "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
-      "author": "vinaynkaranth",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-15T18:16:53Z",
-      "updated_at": "2026-09-22T01:56:10Z",
-      "html_url": "https://github.com/ROCm/mori/pull/674",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 692,
       "title": "feat(umbp): make the heartbeat interval changeable at runtime",
       "author": "isytwu",
@@ -190,18 +202,6 @@
       "created_at": "2026-09-17T10:53:16Z",
       "updated_at": "2026-09-18T16:49:04Z",
       "html_url": "https://github.com/ROCm/mori/pull/685",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 623,
-      "title": "SDMA HIP device management fixes",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T11:14:37Z",
-      "updated_at": "2026-09-18T16:35:20Z",
-      "html_url": "https://github.com/ROCm/mori/pull/623",
       "labels": [],
       "draft": false
     },

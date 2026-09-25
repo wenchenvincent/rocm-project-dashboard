@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-09-24T13:00:03Z",
+  "collected_at": "2026-09-25T13:06:22Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 162,
-      "merged": 113,
+      "opened": 153,
+      "merged": 96,
       "closed": 33
     },
     "last_week": {
-      "opened": 205,
-      "merged": 100,
-      "closed": 58
+      "opened": 191,
+      "merged": 106,
+      "closed": 53
     },
-    "median_time_to_merge_hours": 76.0,
-    "merge_count": 217,
-    "stale_prs": 215
+    "median_time_to_merge_hours": 71.3,
+    "merge_count": 206,
+    "stale_prs": 225
   },
   "contributors": {
-    "active_this_week": 146,
-    "total_contributors": 326,
+    "active_this_week": 159,
+    "total_contributors": 330,
     "top_contributors": [
       {
         "author": "Boss2002n",
         "prs_submitted": 21,
         "prs_merged": 3,
-        "commits": 36
+        "commits": 35
       },
       {
         "author": "sunway513",
@@ -35,14 +35,14 @@
       },
       {
         "author": "gyohuangxin",
-        "prs_submitted": 12,
-        "prs_merged": 3,
-        "commits": 18
+        "prs_submitted": 11,
+        "prs_merged": 2,
+        "commits": 17
       },
       {
         "author": "zhiding512",
-        "prs_submitted": 11,
-        "prs_merged": 5,
+        "prs_submitted": 10,
+        "prs_merged": 4,
         "commits": 2
       },
       {
@@ -61,7 +61,7 @@
         "author": "yzhou103",
         "prs_submitted": 9,
         "prs_merged": 2,
-        "commits": 7
+        "commits": 6
       },
       {
         "author": "carlushuang",
@@ -70,30 +70,30 @@
         "commits": 1
       },
       {
-        "author": "fangche123",
-        "prs_submitted": 7,
+        "author": "RElbers",
+        "prs_submitted": 8,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "XiaobingSuper",
+        "author": "xiaohuguo2023",
         "prs_submitted": 7,
-        "prs_merged": 5,
-        "commits": 17
+        "prs_merged": 0,
+        "commits": 0
       }
     ],
-    "bus_factor": 14
+    "bus_factor": 15
   },
   "issue_health": {
-    "total_open": 341,
-    "opened_this_week": 22,
+    "total_open": 347,
+    "opened_this_week": 26,
     "closed_this_week": 4,
-    "unanswered": 159
+    "unanswered": 162
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 6.7,
+    "days_since_last": 7.7,
     "avg_interval_days": 3.9,
     "total_releases": 5,
     "latest_tag": "v0.1.22.post1"
