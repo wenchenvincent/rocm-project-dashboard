@@ -1,6 +1,166 @@
 {
-  "collected_at": "2026-09-25T13:04:53Z",
+  "collected_at": "2026-09-26T12:32:16Z",
   "prs": [
+    {
+      "number": 2335,
+      "title": "Add plain GLM-5.3 IQ2R 2-bit MoE integration",
+      "author": "ssharma4-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T11:09:19Z",
+      "updated_at": "2026-09-26T12:15:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2411,
+      "title": "perf(dsv4): adapt tuned AITER ASM FP8 decode",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-26T03:49:49Z",
+      "updated_at": "2026-09-26T03:51:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2411",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2407,
+      "title": "docs(offload): clarify LMCache MP lookup timeout scope",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T22:26:13Z",
+      "updated_at": "2026-09-26T03:41:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2407",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2250,
+      "title": "feat(offload): support native DSv4 checkpoints with LMCache MP",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T04:01:49Z",
+      "updated_at": "2026-09-26T03:25:41Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2250",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2410,
+      "title": "[Docs] Qwen3.8-Flash-Next recipe: agentic serving on one MI350X (prefix caching + MTP)",
+      "author": "mavizao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-26T01:51:09Z",
+      "updated_at": "2026-09-26T01:51:32Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2410",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2384,
+      "title": "feat(moe): enable mega stage1_fused on fp4/fp8 dispatch wire",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T06:48:24Z",
+      "updated_at": "2026-09-26T00:18:32Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2384",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2389,
+      "title": "ci(mesh): use --spec-decode-acceptance-length for GLM-5.2 agentic cases",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T09:30:56Z",
+      "updated_at": "2026-09-26T00:18:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2389",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2404,
+      "title": "fix(offload): distinguish unmeasured profile timings",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T18:53:45Z",
+      "updated_at": "2026-09-26T00:18:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2404",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2405,
+      "title": "[MORI] Multi-node + MORI_V2- #5855",
+      "author": "k50112113",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T19:11:15Z",
+      "updated_at": "2026-09-26T00:18:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2405",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2406,
+      "title": "fix(offload): include exception type in dense lookup warnings",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T20:24:46Z",
+      "updated_at": "2026-09-26T00:18:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2406",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2402,
+      "title": "fix(ci): validate all LMCache Dockerfile pins before writing",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T07:43:56Z",
+      "updated_at": "2026-09-25T16:25:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2402",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2353,
+      "title": "feat(offload): add MP-only save admission budget",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T09:43:55Z",
+      "updated_at": "2026-09-25T15:56:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2353",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2403,
+      "title": "fix(gdn): store the temporal state in the checkpoint's mamba_ssm_dtype",
+      "author": "eky-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T15:03:13Z",
+      "updated_at": "2026-09-25T15:03:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2403",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 2358,
       "title": "chore: add security scanning workflows",
@@ -26,18 +186,6 @@
       "draft": false
     },
     {
-      "number": 2402,
-      "title": "fix(ci): validate all LMCache Dockerfile pins before writing",
-      "author": "kvnloo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T07:43:56Z",
-      "updated_at": "2026-09-25T07:47:58Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2402",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2274,
       "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
       "author": "sudhu2k",
@@ -48,32 +196,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2274",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 2250,
-      "title": "feat(offload): support native DSv4 checkpoints with LMCache MP",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T04:01:49Z",
-      "updated_at": "2026-09-25T04:28:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2250",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2256,
-      "title": "perf(dsv4): use FlyDSL for native FP8 attention",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T11:12:08Z",
-      "updated_at": "2026-09-25T02:16:54Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2256",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 2112,
@@ -109,20 +231,6 @@
       "updated_at": "2026-09-24T18:50:12Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2013",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2384,
-      "title": "feat(moe): enable mega stage1_fused on fp4/fp8 dispatch wire",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T06:48:24Z",
-      "updated_at": "2026-09-24T15:38:20Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2384",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     },
     {
@@ -175,18 +283,6 @@
       "labels": [
         "ci:atom"
       ],
-      "draft": false
-    },
-    {
-      "number": 2389,
-      "title": "ci(mesh): use --spec-decode-acceptance-length for GLM-5.2 agentic cases",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T09:30:56Z",
-      "updated_at": "2026-09-24T10:10:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2389",
-      "labels": [],
       "draft": false
     },
     {
@@ -364,18 +460,6 @@
       "draft": false
     },
     {
-      "number": 2353,
-      "title": "feat(offload): add MP-only save admission budget",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T09:43:55Z",
-      "updated_at": "2026-09-23T06:52:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2353",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2344,
       "title": "(doc)GLM-5.3 LMCache: concurrency sweep (8/16/32) and HBM/tier/ceiling split",
       "author": "PerryZhang01",
@@ -452,18 +536,6 @@
         "bug"
       ],
       "draft": false
-    },
-    {
-      "number": 2335,
-      "title": "Add plain GLM-5.3 IQ2R 2-bit MoE integration",
-      "author": "ssharma4-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T11:09:19Z",
-      "updated_at": "2026-09-23T00:29:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 2340,
@@ -3339,7 +3411,7 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-09-21T16:34:02Z",
-      "updated_at": "2026-09-25T11:19:49Z",
+      "updated_at": "2026-09-25T15:51:31Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2339",
       "labels": [
         "ci:atom"
@@ -4332,32 +4404,6 @@
       "labels": [
         "ci:vllm"
       ],
-      "draft": false
-    },
-    {
-      "number": 2259,
-      "title": "[feat] Support LMCache offload with the FP4 sparse indexer",
-      "author": "ZhiweiYan-96",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-16T13:01:29Z",
-      "updated_at": "2026-09-17T12:14:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2259",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2271,
-      "title": "feat(v4): reuse sparse prefill ASM for decode",
-      "author": "amd-ruitang3",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-17T07:54:28Z",
-      "updated_at": "2026-09-17T09:21:25Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2271",
-      "labels": [],
       "draft": false
     }
   ]
