@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-09-26T12:32:16Z",
+  "collected_at": "2026-09-27T13:22:57Z",
   "prs": [
-    {
-      "number": 2335,
-      "title": "Add plain GLM-5.3 IQ2R 2-bit MoE integration",
-      "author": "ssharma4-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T11:09:19Z",
-      "updated_at": "2026-09-26T12:15:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
-      "labels": [],
-      "draft": true
-    },
     {
       "number": 2411,
       "title": "perf(dsv4): adapt tuned AITER ASM FP8 decode",
@@ -20,9 +8,23 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-26T03:49:49Z",
-      "updated_at": "2026-09-26T03:51:29Z",
+      "updated_at": "2026-09-27T13:22:32Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2411",
       "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2371,
+      "title": "[WIP][PD][DCP] Reorder mla cache in P to the dcp layout in D",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T08:28:04Z",
+      "updated_at": "2026-09-27T10:57:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2371",
+      "labels": [
+        "ci:atom"
+      ],
       "draft": true
     },
     {
@@ -32,8 +34,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-25T22:26:13Z",
-      "updated_at": "2026-09-26T03:41:45Z",
+      "updated_at": "2026-09-27T06:22:42Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2407",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2412,
+      "title": "fix(offload): reject invalid LMCache lookup scope at startup",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-27T06:20:49Z",
+      "updated_at": "2026-09-27T06:21:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2412",
       "labels": [],
       "draft": false
     },
@@ -44,7 +58,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-16T04:01:49Z",
-      "updated_at": "2026-09-26T03:25:41Z",
+      "updated_at": "2026-09-27T04:48:22Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2250",
       "labels": [
         "ci:atom"
@@ -58,8 +72,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-26T01:51:09Z",
-      "updated_at": "2026-09-26T01:51:32Z",
+      "updated_at": "2026-09-27T00:33:03Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2410",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2335,
+      "title": "Add plain GLM-5.3 IQ2R 2-bit MoE integration",
+      "author": "ssharma4-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T11:09:19Z",
+      "updated_at": "2026-09-26T17:09:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2406,
+      "title": "fix(offload): include exception type in dense lookup warnings",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T20:24:46Z",
+      "updated_at": "2026-09-26T15:02:05Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2406",
       "labels": [],
       "draft": false
     },
@@ -110,18 +148,6 @@
       "created_at": "2026-09-25T19:11:15Z",
       "updated_at": "2026-09-26T00:18:17Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2405",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2406,
-      "title": "fix(offload): include exception type in dense lookup warnings",
-      "author": "kvnloo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T20:24:46Z",
-      "updated_at": "2026-09-26T00:18:13Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2406",
       "labels": [],
       "draft": false
     },
@@ -243,20 +269,6 @@
       "updated_at": "2026-09-24T13:48:27Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2364",
       "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2371,
-      "title": "[WIP][PD][DCP] Reorder mla cache in P to the dcp layout in D",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T08:28:04Z",
-      "updated_at": "2026-09-24T10:19:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2371",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": true
     },
     {

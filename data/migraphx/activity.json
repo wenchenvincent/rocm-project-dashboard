@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-09-26T12:32:58Z",
+  "collected_at": "2026-09-27T13:24:07Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
       "opened": 34,
-      "merged": 24,
+      "merged": 23,
       "closed": 9
     },
     "last_week": {
       "opened": 32,
-      "merged": 18,
+      "merged": 17,
       "closed": 3
     },
-    "median_time_to_merge_hours": 134.4,
-    "merge_count": 66,
+    "median_time_to_merge_hours": 145.7,
+    "merge_count": 65,
     "stale_prs": 1
   },
   "contributors": {
@@ -25,7 +25,7 @@
         "author": "pfultz2",
         "prs_submitted": 60,
         "prs_merged": 27,
-        "commits": 29
+        "commits": 26
       },
       {
         "author": "CharlieL7",
@@ -37,7 +37,7 @@
         "author": "causten",
         "prs_submitted": 15,
         "prs_merged": 5,
-        "commits": 10
+        "commits": 7
       },
       {
         "author": "eddieliao",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 28.8,
+    "days_since_last": 29.8,
     "avg_interval_days": 34.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.0"

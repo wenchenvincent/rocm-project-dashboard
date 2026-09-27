@@ -1,6 +1,102 @@
 {
-  "collected_at": "2026-09-26T12:31:31Z",
+  "collected_at": "2026-09-27T13:22:05Z",
   "issues": [
+    {
+      "number": 198734,
+      "title": "[Inductor][ROCm] log_ndtr: FP contraction makes two numerically-equal evaluations disagree, giving wrong results that depend on compilation history",
+      "author": "demandal25",
+      "state": "open",
+      "created_at": "2026-09-26T21:57:20Z",
+      "updated_at": "2026-09-27T09:37:04Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/198734",
+      "labels": [
+        "triage review",
+        "module: rocm",
+        "has workaround",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 142228,
+      "title": "Scaled Dot-Product Attention Invalid Configuration Error on Large batch size",
+      "author": "f14-bertolotti",
+      "state": "open",
+      "created_at": "2024-12-06T10:54:13Z",
+      "updated_at": "2026-09-27T07:00:55Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/142228",
+      "labels": [
+        "triaged",
+        "module: sdpa"
+      ]
+    },
+    {
+      "number": 198652,
+      "title": "[compiled autograd] Chained cuDNN LSTMs silently produce a wrong weight_hh_l0 gradient",
+      "author": "SasalBartosz",
+      "state": "open",
+      "created_at": "2026-09-25T15:58:14Z",
+      "updated_at": "2026-09-27T06:04:38Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/198652",
+      "labels": [
+        "triage review",
+        "module: cudnn",
+        "module: rnn",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: compiled autograd",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 198676,
+      "title": "[inductor] weight_norm(..., name=\"bias\") returns wrong values and non-finite gradients",
+      "author": "CaelusHu",
+      "state": "open",
+      "created_at": "2026-09-25T19:47:57Z",
+      "updated_at": "2026-09-27T06:03:52Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/198676",
+      "labels": [
+        "triage review",
+        "oncall: pt2",
+        "module: decompositions",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 198206,
+      "title": "`torch.compile` \u2014 fails to preserve Scalar binding for a cross-device 0-D Tensor used as `torch.full`'s `fill_value` (eager works; backend-independent)",
+      "author": "tinywisdom",
+      "state": "open",
+      "created_at": "2026-09-22T13:48:54Z",
+      "updated_at": "2026-09-27T05:54:01Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/198206",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: dynamo",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 197236,
+      "title": "[MPS] linalg solves return row-major where CPU and CUDA return column-major",
+      "author": "imperatormk",
+      "state": "open",
+      "created_at": "2026-09-16T11:17:49Z",
+      "updated_at": "2026-09-26T15:16:25Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197236",
+      "labels": [
+        "triage review",
+        "module: linear algebra",
+        "module: mps",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
     {
       "number": 198533,
       "title": "[inductor] y.index_put_((mask,), v) with a mask that reads y through a transposed view reads the update's own output (regression)",
@@ -182,21 +278,6 @@
         "enhancement",
         "module: mps",
         "matrix multiplication",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 198676,
-      "title": "[inductor] weight_norm(..., name=\"bias\") returns wrong values and non-finite gradients",
-      "author": "CaelusHu",
-      "state": "open",
-      "created_at": "2026-09-25T19:47:57Z",
-      "updated_at": "2026-09-25T21:02:49Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198676",
-      "labels": [
-        "triage review",
-        "oncall: pt2",
-        "module: decompositions",
         "bot-triaged"
       ]
     },
@@ -429,44 +510,6 @@
       ]
     },
     {
-      "number": 197846,
-      "title": "aten.native_dropout: train=None is interpreted inconsistently across backends, AD modes, and compile/export paths",
-      "author": "sha7doww",
-      "state": "open",
-      "created_at": "2026-09-21T03:37:10Z",
-      "updated_at": "2026-09-25T16:14:33Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/197846",
-      "labels": [
-        "module: onnx",
-        "triaged",
-        "module: derivatives",
-        "module: correctness (silent)",
-        "module: mps",
-        "oncall: pt2",
-        "module: decompositions",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 198652,
-      "title": "[compiled autograd] Chained cuDNN LSTMs silently produce a wrong weight_hh_l0 gradient",
-      "author": "SasalBartosz",
-      "state": "open",
-      "created_at": "2026-09-25T15:58:14Z",
-      "updated_at": "2026-09-25T15:59:56Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198652",
-      "labels": [
-        "triage review",
-        "module: cudnn",
-        "module: rnn",
-        "module: correctness (silent)",
-        "oncall: pt2",
-        "module: compiled autograd",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
       "number": 198632,
       "title": "DISABLED test_copy_transpose_tiled_small_case_at_cuda_bool (__main__.TestTorchDeviceTypeCUDA)",
       "author": "pytorch-bot[bot]",
@@ -480,39 +523,6 @@
         "triaged",
         "module: flaky-tests",
         "skipped"
-      ]
-    },
-    {
-      "number": 198597,
-      "title": "DISABLED test_case (__main__.FilterTestCase)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-25T06:58:01Z",
-      "updated_at": "2026-09-25T12:53:40Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198597",
-      "labels": [
-        "triage review",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: dynamo",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 191009,
-      "title": "DISABLED test_index_propagation_to_dtype_inf_cpu_halide (__main__.HalideCpuTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-24T13:06:20Z",
-      "updated_at": "2026-09-25T12:53:31Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191009",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
       ]
     },
     {
@@ -793,21 +803,6 @@
       "labels": [
         "module: build",
         "module: cpp-extensions",
-        "triaged",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 196583,
-      "title": "[ROCm][UT] Review and re-enable skipped tests on AMD RDNA",
-      "author": "lstojilj-amd",
-      "state": "open",
-      "created_at": "2026-09-10T12:44:42Z",
-      "updated_at": "2026-09-24T08:30:57Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/196583",
-      "labels": [
-        "module: rocm",
-        "module: tests",
         "triaged",
         "bot-triaged"
       ]
