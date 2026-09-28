@@ -1,30 +1,30 @@
 {
-  "collected_at": "2026-09-27T13:24:34Z",
+  "collected_at": "2026-09-28T16:11:56Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 159,
-      "merged": 104,
-      "closed": 35
+      "opened": 156,
+      "merged": 92,
+      "closed": 28
     },
     "last_week": {
-      "opened": 198,
-      "merged": 108,
-      "closed": 57
+      "opened": 204,
+      "merged": 117,
+      "closed": 59
     },
-    "median_time_to_merge_hours": 77.3,
-    "merge_count": 215,
-    "stale_prs": 231
+    "median_time_to_merge_hours": 69.7,
+    "merge_count": 212,
+    "stale_prs": 234
   },
   "contributors": {
-    "active_this_week": 163,
-    "total_contributors": 333,
+    "active_this_week": 166,
+    "total_contributors": 337,
     "top_contributors": [
       {
         "author": "Boss2002n",
-        "prs_submitted": 25,
-        "prs_merged": 7,
+        "prs_submitted": 23,
+        "prs_merged": 6,
         "commits": 32
       },
       {
@@ -40,22 +40,22 @@
         "commits": 0
       },
       {
-        "author": "gyohuangxin",
-        "prs_submitted": 10,
-        "prs_merged": 1,
-        "commits": 15
-      },
-      {
         "author": "JohnQinAMD",
         "prs_submitted": 10,
         "prs_merged": 0,
         "commits": 2
       },
       {
+        "author": "gyohuangxin",
+        "prs_submitted": 9,
+        "prs_merged": 0,
+        "commits": 15
+      },
+      {
         "author": "carlushuang",
         "prs_submitted": 9,
         "prs_merged": 0,
-        "commits": 1
+        "commits": 0
       },
       {
         "author": "yzhou103",
@@ -76,26 +76,26 @@
         "commits": 2
       },
       {
-        "author": "JohnNikolay84",
+        "author": "k50112113",
         "prs_submitted": 7,
-        "prs_merged": 0,
-        "commits": 2
+        "prs_merged": 1,
+        "commits": 6
       }
     ],
-    "bus_factor": 19
+    "bus_factor": 17
   },
   "issue_health": {
-    "total_open": 348,
-    "opened_this_week": 23,
-    "closed_this_week": 6,
+    "total_open": 351,
+    "opened_this_week": 26,
+    "closed_this_week": 7,
     "unanswered": 165
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.4,
-    "avg_interval_days": 5.7,
+    "days_since_last": 0.3,
+    "avg_interval_days": 4.8,
     "total_releases": 5,
-    "latest_tag": "v0.1.23"
+    "latest_tag": "v0.1.24"
   }
 }

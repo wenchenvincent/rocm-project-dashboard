@@ -1,6 +1,56 @@
 {
-  "collected_at": "2026-09-27T13:22:53Z",
+  "collected_at": "2026-09-28T16:10:14Z",
   "issues": [
+    {
+      "number": 5031,
+      "title": "[RFC]: Replace the hardcoded `atol=100` in the MoE op_tests with a derived tolerance",
+      "author": "KHassanQazi",
+      "state": "open",
+      "created_at": "2026-08-26T19:56:24Z",
+      "updated_at": "2026-09-28T15:39:33Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5031",
+      "labels": []
+    },
+    {
+      "number": 5916,
+      "title": "[Feature]: Centralized MXFP8 (E4M3 + E8M0 1x32) dense GEMM support",
+      "author": "sshlyapn",
+      "state": "open",
+      "created_at": "2026-09-28T14:38:34Z",
+      "updated_at": "2026-09-28T14:55:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5916",
+      "labels": []
+    },
+    {
+      "number": 5912,
+      "title": "[Feature] Optionally emit fp8-quantized Q from fused_qk_norm_rope_cache_pts_quant_shuffle",
+      "author": "mpashkovskii",
+      "state": "open",
+      "created_at": "2026-09-28T12:23:05Z",
+      "updated_at": "2026-09-28T12:23:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5912",
+      "labels": []
+    },
+    {
+      "number": 5894,
+      "title": "[Bug] [fa]gfx950 hd128 causal bwd kernels write dK = 0 under GPU sharing (missing s_barrier)",
+      "author": "Johnsonms",
+      "state": "open",
+      "created_at": "2026-09-27T21:45:10Z",
+      "updated_at": "2026-09-27T22:01:57Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5894",
+      "labels": []
+    },
+    {
+      "number": 5892,
+      "title": "[CI][gfx950] Execute pytest regressions in standard shards and detect missing test coverage",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-09-27T19:09:08Z",
+      "updated_at": "2026-09-27T19:09:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5892",
+      "labels": []
+    },
     {
       "number": 5889,
       "title": "[Issue]: [Triton][Conv2D] conv2d raises under torch.inference_mode(): _pack_cache_key reads w._version",
@@ -39,16 +89,6 @@
       "created_at": "2026-09-24T21:37:48Z",
       "updated_at": "2026-09-25T22:24:20Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5827",
-      "labels": []
-    },
-    {
-      "number": 5840,
-      "title": "[tuner] mp_tuner waits on tasks whose worker was killed by a GPU fault",
-      "author": "siliangchen-amd",
-      "state": "open",
-      "created_at": "2026-09-25T07:15:51Z",
-      "updated_at": "2026-09-25T11:03:31Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5840",
       "labels": []
     },
     {
@@ -527,16 +567,6 @@
       "created_at": "2026-08-26T19:56:43Z",
       "updated_at": "2026-09-08T15:54:15Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5032",
-      "labels": []
-    },
-    {
-      "number": 5031,
-      "title": "[RFC]: Replace the hardcoded `atol=100` in the MoE op_tests with a derived tolerance",
-      "author": "KHassanQazi",
-      "state": "open",
-      "created_at": "2026-08-26T19:56:24Z",
-      "updated_at": "2026-09-08T15:54:15Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5031",
       "labels": []
     },
     {

@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-09-27T13:23:06Z",
+  "collected_at": "2026-09-28T16:10:31Z",
   "issues": [
+    {
+      "number": 1206,
+      "title": "[Bug] Captured dataclass traits fields are omitted from the JIT manager cache key",
+      "author": "fsx950223",
+      "state": "open",
+      "created_at": "2026-09-28T06:06:16Z",
+      "updated_at": "2026-09-28T06:13:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1206",
+      "labels": []
+    },
     {
       "number": 1176,
       "title": "[Issue]:Launch fails with `struct.error: 'i' format requires ...` for tensors with more than 2^31-1 elements ",
@@ -91,16 +101,6 @@
       "created_at": "2026-06-17T07:02:45Z",
       "updated_at": "2026-09-08T08:04:06Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/701",
-      "labels": []
-    },
-    {
-      "number": 1054,
-      "title": "[Issue]:  Every kernel is compiled twice",
-      "author": "xinyazhang",
-      "state": "open",
-      "created_at": "2026-08-21T20:44:51Z",
-      "updated_at": "2026-09-01T03:39:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1054",
       "labels": []
     },
     {

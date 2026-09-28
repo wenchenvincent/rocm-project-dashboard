@@ -1,55 +1,55 @@
 {
-  "collected_at": "2026-09-27T13:24:07Z",
+  "collected_at": "2026-09-28T16:11:21Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 34,
+      "opened": 31,
       "merged": 23,
       "closed": 9
     },
     "last_week": {
-      "opened": 32,
-      "merged": 17,
-      "closed": 3
+      "opened": 31,
+      "merged": 18,
+      "closed": 4
     },
-    "median_time_to_merge_hours": 145.7,
-    "merge_count": 65,
-    "stale_prs": 1
+    "median_time_to_merge_hours": 149.2,
+    "merge_count": 63,
+    "stale_prs": 71
   },
   "contributors": {
-    "active_this_week": 23,
+    "active_this_week": 24,
     "total_contributors": 54,
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 60,
+        "prs_submitted": 61,
         "prs_merged": 27,
         "commits": 26
       },
       {
-        "author": "CharlieL7",
-        "prs_submitted": 17,
-        "prs_merged": 9,
+        "author": "causten",
+        "prs_submitted": 16,
+        "prs_merged": 7,
         "commits": 8
       },
       {
-        "author": "causten",
+        "author": "CharlieL7",
         "prs_submitted": 15,
-        "prs_merged": 5,
-        "commits": 7
-      },
-      {
-        "author": "eddieliao",
-        "prs_submitted": 10,
-        "prs_merged": 8,
-        "commits": 5
+        "prs_merged": 7,
+        "commits": 6
       },
       {
         "author": "rlegithub",
         "prs_submitted": 8,
         "prs_merged": 0,
         "commits": 0
+      },
+      {
+        "author": "eddieliao",
+        "prs_submitted": 8,
+        "prs_merged": 6,
+        "commits": 6
       },
       {
         "author": "justinrosner",
@@ -67,22 +67,22 @@
         "author": "ahsan-ca",
         "prs_submitted": 5,
         "prs_merged": 3,
-        "commits": 3
+        "commits": 2
+      },
+      {
+        "author": "umangyadav",
+        "prs_submitted": 4,
+        "prs_merged": 2,
+        "commits": 2
       },
       {
         "author": "pnikolic-amd",
         "prs_submitted": 4,
         "prs_merged": 3,
         "commits": 3
-      },
-      {
-        "author": "kahmed10",
-        "prs_submitted": 4,
-        "prs_merged": 2,
-        "commits": 1
       }
     ],
-    "bus_factor": 3
+    "bus_factor": 4
   },
   "issue_health": {
     "total_open": 247,
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 29.8,
+    "days_since_last": 30.9,
     "avg_interval_days": 34.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.0"

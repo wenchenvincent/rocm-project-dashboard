@@ -1,6 +1,142 @@
 {
-  "collected_at": "2026-09-27T13:22:36Z",
+  "collected_at": "2026-09-28T16:09:50Z",
   "prs": [
+    {
+      "number": 5213,
+      "title": "Docs: getting started and miscellaneous docs refactoring",
+      "author": "anisha-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T19:57:44Z",
+      "updated_at": "2026-09-28T15:30:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5213",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5322,
+      "title": "Optimize MLIR compile time by disabling nested threading",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-27T21:00:36Z",
+      "updated_at": "2026-09-28T12:43:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5322",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5123,
+      "title": "Split symbolic dimension pass",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T19:28:05Z",
+      "updated_at": "2026-09-28T04:04:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5324,
+      "title": "Fuse topk",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-27T22:41:25Z",
+      "updated_at": "2026-09-27T22:41:26Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5324",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5271,
+      "title": "Fuse reduce slices and squeezed epilogues, tile short reductions, and match attention output through view ops",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T14:59:37Z",
+      "updated_at": "2026-09-27T22:36:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5271",
+      "labels": [
+        "llm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5259,
+      "title": "layernorm: FP32 SimplifiedLayerNorm/SkipSLN to prevent MoE routing collapse",
+      "author": "rlegithub",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T23:57:49Z",
+      "updated_at": "2026-09-27T21:18:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5259",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5258,
+      "title": "gpu: fused GptOssMoE op (sparse top-4 INT4 MoE) for GPT-OSS-20B",
+      "author": "rlegithub",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T23:57:47Z",
+      "updated_at": "2026-09-27T21:18:39Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5258",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5260,
+      "title": "gqa/fuse_attention: attention sinks + sliding-window decode mask for GPT-OSS",
+      "author": "rlegithub",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T23:57:51Z",
+      "updated_at": "2026-09-27T21:17:28Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5260",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5256,
+      "title": "gpu/hip: fall back to hipHostMalloc when hipHostRegister fails",
+      "author": "rlegithub",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T19:37:59Z",
+      "updated_at": "2026-09-27T21:16:43Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5256",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5257,
+      "title": "cse: skip merging >64MB single-output ops",
+      "author": "rlegithub",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T19:38:01Z",
+      "updated_at": "2026-09-27T21:16:34Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5257",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5255,
+      "title": "fuse_attention: exclude side-input reductions from the decode (kv_cache) attention group",
+      "author": "rlegithub",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-13T19:37:56Z",
+      "updated_at": "2026-09-27T21:16:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5255",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5100,
       "title": "Add binary cache",
@@ -62,18 +198,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5304",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5321,
-      "title": "Bump RMT to 0925",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T21:05:50Z",
-      "updated_at": "2026-09-25T21:09:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5321",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5287,
@@ -201,20 +325,6 @@
       "draft": false
     },
     {
-      "number": 5271,
-      "title": "Fuse reduce slices and squeezed epilogues, tile short reductions, and match attention output through view ops",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T14:59:37Z",
-      "updated_at": "2026-09-24T21:30:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5271",
-      "labels": [
-        "llm"
-      ],
-      "draft": false
-    },
-    {
       "number": 5278,
       "title": "Share identical weight literals across programs on the same device",
       "author": "aditya-dl",
@@ -225,18 +335,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5278",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5260,
-      "title": "gqa/fuse_attention: attention sinks + sliding-window decode mask for GPT-OSS",
-      "author": "rlegithub",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-13T23:57:51Z",
-      "updated_at": "2026-09-24T20:47:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5260",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5052,
@@ -291,30 +389,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5309",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5258,
-      "title": "gpu: fused GptOssMoE op (sparse top-4 INT4 MoE) for GPT-OSS-20B",
-      "author": "rlegithub",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-13T23:57:47Z",
-      "updated_at": "2026-09-24T18:23:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5258",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5259,
-      "title": "layernorm: FP32 SimplifiedLayerNorm/SkipSLN to prevent MoE routing collapse",
-      "author": "rlegithub",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-13T23:57:49Z",
-      "updated_at": "2026-09-24T18:22:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5259",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5295,
@@ -411,18 +485,6 @@
       "created_at": "2026-07-17T16:30:31Z",
       "updated_at": "2026-09-23T22:09:31Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5075",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5123,
-      "title": "Split symbolic dimension pass",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T19:28:05Z",
-      "updated_at": "2026-09-23T19:22:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
       "labels": [],
       "draft": false
     },
@@ -655,42 +717,6 @@
       "created_at": "2026-09-14T01:01:26Z",
       "updated_at": "2026-09-14T21:21:14Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5261",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5255,
-      "title": "fuse_attention: exclude side-input reductions from the decode (kv_cache) attention group",
-      "author": "rlegithub",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-13T19:37:56Z",
-      "updated_at": "2026-09-14T19:48:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5255",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5257,
-      "title": "cse: skip merging >64MB single-output ops",
-      "author": "rlegithub",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-13T19:38:01Z",
-      "updated_at": "2026-09-14T19:46:20Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5257",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5256,
-      "title": "gpu/hip: fall back to hipHostMalloc when hipHostRegister fails",
-      "author": "rlegithub",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-13T19:37:59Z",
-      "updated_at": "2026-09-14T19:26:50Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5256",
       "labels": [],
       "draft": false
     },
@@ -1667,20 +1693,6 @@
       "draft": true
     },
     {
-      "number": 5213,
-      "title": "Docs: getting started and miscellaneous docs refactoring",
-      "author": "anisha-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T19:57:44Z",
-      "updated_at": "2026-08-29T04:00:00Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5213",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
       "number": 4303,
       "title": "Add initial integration of amdmlss mha",
       "author": "Zhaeong",
@@ -1691,6 +1703,72 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4303",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5326,
+      "title": "Set CHANGELOG for 10.1",
+      "author": "causten",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-28T15:10:06Z",
+      "updated_at": "2026-09-28T16:08:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5326",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5321,
+      "title": "Bump RMT to 0925",
+      "author": "causten",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-25T21:05:50Z",
+      "updated_at": "2026-09-28T14:27:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5321",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5018,
+      "title": "Use eigen for convolution",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-28T21:30:01Z",
+      "updated_at": "2026-09-28T13:00:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5018",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5004,
+      "title": "[AIMIGRAPHX-885] Add slice squeeze matcher",
+      "author": "TedThemistokleous",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-22T15:31:59Z",
+      "updated_at": "2026-09-27T15:30:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5004",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4725,
+      "title": "[AIMIGRAPHX-885] Add gather_slice_concat matcher",
+      "author": "TedThemistokleous",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-03-31T21:47:46Z",
+      "updated_at": "2026-09-27T15:00:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4725",
+      "labels": [
+        "high priority",
+        "Matchers",
+        "Perf Improve"
+      ],
+      "draft": false
     },
     {
       "number": 5317,
@@ -2742,87 +2820,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5177",
       "labels": [
         "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5150,
-      "title": "Parse TopK with dyn slice & ONNX node UID expansion",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-18T17:46:46Z",
-      "updated_at": "2026-09-08T13:26:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5150",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4948,
-      "title": "[AIMIGRAPHX-1081] Add Cache to instruction::eval()",
-      "author": "eddieliao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-08T21:52:15Z",
-      "updated_at": "2026-09-08T01:30:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4948",
-      "labels": [
-        "high priority",
-        "Changelog: Optimized"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4938,
-      "title": "Remove rocm-cmake dependency in docker",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-03T23:02:19Z",
-      "updated_at": "2026-09-06T16:30:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4938",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4764,
-      "title": "Fix concat_past_present OOB write when seqlens_k is negative",
-      "author": "danieyan-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-09T14:43:04Z",
-      "updated_at": "2026-09-06T12:00:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4764",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4943,
-      "title": "Have ONNX parser add debug symbols for literals",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-05T21:21:36Z",
-      "updated_at": "2026-09-06T04:00:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4943",
-      "labels": [
-        "simple",
-        "skip bot checks"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4937,
-      "title": "[AIMIGRAPHX-1053] Show Failing Check when Exceptions are Thrown",
-      "author": "eddieliao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-03T19:32:17Z",
-      "updated_at": "2026-09-05T16:30:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4937",
-      "labels": [
-        "simple",
-        "Changelog: Added"
       ],
       "draft": false
     }

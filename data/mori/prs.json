@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-09-27T13:23:02Z",
+  "collected_at": "2026-09-28T16:10:26Z",
   "prs": [
+    {
+      "number": 674,
+      "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
+      "author": "vinaynkaranth",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T18:16:53Z",
+      "updated_at": "2026-09-28T15:49:30Z",
+      "html_url": "https://github.com/ROCm/mori/pull/674",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 703,
+      "title": "refactor(EPv2): replace per-module __device__ staging with shared buffer",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T11:26:55Z",
+      "updated_at": "2026-09-28T11:30:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/703",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 712,
+      "title": "feat(ep): add opt-in gfx1201 EP2/EP4 support",
+      "author": "dongdongzhao1121",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T01:52:42Z",
+      "updated_at": "2026-09-28T08:02:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/712",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "opt v2 internode",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T03:05:00Z",
+      "updated_at": "2026-09-28T07:04:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/696",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 678,
+      "title": "fix(umbp): arm every standalone-process data-plane RPC with a deadline",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T11:56:07Z",
+      "updated_at": "2026-09-28T04:46:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/678",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 711,
       "title": "fix(cco): two SDMA device-post deadlocks (multi-queue publish, commit snapshot)",
@@ -38,30 +98,6 @@
       "draft": false
     },
     {
-      "number": 674,
-      "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
-      "author": "vinaynkaranth",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-15T18:16:53Z",
-      "updated_at": "2026-09-25T01:00:30Z",
-      "html_url": "https://github.com/ROCm/mori/pull/674",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 703,
-      "title": "refactor(EPv2): replace per-module __device__ staging with shared buffer",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T11:26:55Z",
-      "updated_at": "2026-09-24T08:27:13Z",
-      "html_url": "https://github.com/ROCm/mori/pull/703",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 698,
       "title": "feat(ep): support precompiled active QP subsets",
       "author": "jhchouuu",
@@ -82,18 +118,6 @@
       "created_at": "2026-09-24T07:08:39Z",
       "updated_at": "2026-09-24T07:22:58Z",
       "html_url": "https://github.com/ROCm/mori/pull/710",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 678,
-      "title": "fix(umbp): arm every standalone-process data-plane RPC with a deadline",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T11:56:07Z",
-      "updated_at": "2026-09-24T06:42:22Z",
-      "html_url": "https://github.com/ROCm/mori/pull/678",
       "labels": [],
       "draft": false
     },
@@ -142,18 +166,6 @@
       "created_at": "2026-08-31T04:05:11Z",
       "updated_at": "2026-09-23T04:41:34Z",
       "html_url": "https://github.com/ROCm/mori/pull/621",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 696,
-      "title": "opt v2 internode",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T03:05:00Z",
-      "updated_at": "2026-09-22T04:03:23Z",
-      "html_url": "https://github.com/ROCm/mori/pull/696",
       "labels": [],
       "draft": false
     },
