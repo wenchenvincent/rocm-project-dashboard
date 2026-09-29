@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-09-28T16:09:52Z",
+  "collected_at": "2026-09-29T14:24:57Z",
   "issues": [
+    {
+      "number": 5332,
+      "title": "[Issue]: TF parser protobuf messages clash with TensorFlow when both are loaded in the same process",
+      "author": "fwyzard",
+      "state": "open",
+      "created_at": "2026-09-29T08:43:45Z",
+      "updated_at": "2026-09-29T08:44:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5332",
+      "labels": []
+    },
+    {
+      "number": 5089,
+      "title": "libmigraphx_c unconditionally loads the TensorFlow parser and causes duplicate protobuf descriptor registration",
+      "author": "ibuki2003",
+      "state": "open",
+      "created_at": "2026-07-22T19:22:10Z",
+      "updated_at": "2026-09-29T06:36:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5089",
+      "labels": []
+    },
     {
       "number": 5314,
       "title": "Attribution/provenance review requested for MLIR-off fix merged in #5154",
@@ -103,16 +123,6 @@
       "created_at": "2026-08-11T09:13:58Z",
       "updated_at": "2026-08-11T10:02:34Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5126",
-      "labels": []
-    },
-    {
-      "number": 5089,
-      "title": "libmigraphx_c unconditionally loads the TensorFlow parser and causes duplicate protobuf descriptor registration",
-      "author": "ibuki2003",
-      "state": "open",
-      "created_at": "2026-07-22T19:22:10Z",
-      "updated_at": "2026-08-05T08:12:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5089",
       "labels": []
     },
     {

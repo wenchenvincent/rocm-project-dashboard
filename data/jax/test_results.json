@@ -1,23 +1,23 @@
 {
-  "collected_at": "2026-09-28T16:10:58Z",
+  "collected_at": "2026-09-29T14:25:52Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "CI - Bazel ROCm tests",
-    "run_id": 36448062575,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/36448062575",
-    "run_date": "2026-09-28T16:06:36Z",
-    "conclusion": "failure",
+    "run_id": 36580082248,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/36580082248",
+    "run_date": "2026-09-29T14:10:53Z",
+    "conclusion": "success",
     "summary": {
       "total_jobs": 2,
-      "passed": 0,
-      "failed": 2,
+      "passed": 2,
+      "failed": 0,
       "skipped": 0,
-      "pass_rate": 0.0
+      "pass_rate": 100.0
     },
     "suites": [
       {
         "name": "Test / linux x86, py3.14, ROCM=10.0.0, jaxlib=head, x64=0, build_jax=true, build_jaxlib=wheel",
-        "conclusion": "failure",
+        "conclusion": "success",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -26,7 +26,7 @@
       },
       {
         "name": "Test / linux x86, py3.14, ROCM=10.0.0, jaxlib=pypi_latest, x64=0, build_jax=true, build_jaxlib=false",
-        "conclusion": "failure",
+        "conclusion": "success",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -37,21 +37,21 @@
   },
   "cuda": {
     "workflow_name": "CI - Bazel H100 and B200 CUDA tests",
-    "run_id": 34786126061,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/34786126061",
-    "run_date": "2026-09-13T22:24:55Z",
-    "conclusion": "failure",
+    "run_id": 26011605243,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/26011605243",
+    "run_date": "2026-05-18T03:29:34Z",
+    "conclusion": "success",
     "summary": {
       "total_jobs": 2,
-      "passed": 0,
-      "failed": 2,
+      "passed": 2,
+      "failed": 0,
       "skipped": 0,
-      "pass_rate": 0.0
+      "pass_rate": 100.0
     },
     "suites": [
       {
-        "name": "Bazel single B200 CUDA tests",
-        "conclusion": "failure",
+        "name": "Bazel multiple H100 CUDA tests",
+        "conclusion": "success",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -59,8 +59,8 @@
         "errors": null
       },
       {
-        "name": "Bazel multiple H100 CUDA tests",
-        "conclusion": "failure",
+        "name": "Bazel single B200 CUDA tests",
+        "conclusion": "success",
         "tests": null,
         "passed": null,
         "failed": null,

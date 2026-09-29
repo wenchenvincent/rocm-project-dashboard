@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-09-28T16:10:26Z",
+  "collected_at": "2026-09-29T14:25:22Z",
   "prs": [
+    {
+      "number": 707,
+      "title": "feat(umbp): add NUMA-aware DRAM placement and shared-key replication",
+      "author": "maning00",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T02:54:13Z",
+      "updated_at": "2026-09-29T08:10:03Z",
+      "html_url": "https://github.com/ROCm/mori/pull/707",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "Feat/io rdma retry tunables",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-14T22:27:14Z",
+      "updated_at": "2026-09-29T03:41:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/670",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 716,
+      "title": "Report peer failures instead of always claiming peers are alive",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T22:05:48Z",
+      "updated_at": "2026-09-28T22:05:48Z",
+      "html_url": "https://github.com/ROCm/mori/pull/716",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 713,
+      "title": "fix(build): let torch pick the C++ standard for mori_torch_symm",
+      "author": "jeffdaily",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T20:30:40Z",
+      "updated_at": "2026-09-28T20:30:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/713",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "fix: migrate GPU topology from rocm_smi to amd_smi (ROCm 10.1+)",
+      "author": "srinivamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T20:09:16Z",
+      "updated_at": "2026-09-28T18:17:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/663",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 674,
       "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
@@ -122,30 +182,6 @@
       "draft": false
     },
     {
-      "number": 707,
-      "title": "feat(umbp): add NUMA-aware DRAM placement and shared-key replication",
-      "author": "maning00",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T02:54:13Z",
-      "updated_at": "2026-09-24T03:44:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/707",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 670,
-      "title": "Feat/io rdma retry tunables",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-14T22:27:14Z",
-      "updated_at": "2026-09-23T09:43:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/670",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 700,
       "title": "fix(umbp): stop standalone client_mu_ serializing the whole node behind one rank",
       "author": "isytwu",
@@ -180,18 +216,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/695",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 663,
-      "title": "fix: migrate GPU topology from rocm_smi to amd_smi (ROCm 10.1+)",
-      "author": "srinivamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T20:09:16Z",
-      "updated_at": "2026-09-22T02:09:39Z",
-      "html_url": "https://github.com/ROCm/mori/pull/663",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 692,

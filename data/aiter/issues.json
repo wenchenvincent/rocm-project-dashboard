@@ -1,6 +1,68 @@
 {
-  "collected_at": "2026-09-28T16:10:14Z",
+  "collected_at": "2026-09-29T14:25:13Z",
   "issues": [
+    {
+      "number": 5947,
+      "title": "[Feature]: Tune fp8 unified attention for Gemma4 prefill shapes [gfx942]",
+      "author": "simondanielsson",
+      "state": "open",
+      "created_at": "2026-09-29T13:59:10Z",
+      "updated_at": "2026-09-29T14:00:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5947",
+      "labels": []
+    },
+    {
+      "number": 5946,
+      "title": "[Task]: Tune DSr1 GEMMs on gfx1250",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-09-29T13:36:56Z",
+      "updated_at": "2026-09-29T13:37:37Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5946",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 5931,
+      "title": "[Issue]: [Bugfix][ROCm] Force Triton MXFP4 for 96-row ASM scale tiles",
+      "author": "abrahamzewoudie",
+      "state": "open",
+      "created_at": "2026-09-29T07:51:48Z",
+      "updated_at": "2026-09-29T07:51:48Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5931",
+      "labels": []
+    },
+    {
+      "number": 5930,
+      "title": "[HIP] Duplicate hip_bfloat16 template specialization in quant_mxfp6_gemm.cu",
+      "author": "shantipriya-amd",
+      "state": "open",
+      "created_at": "2026-09-29T06:48:37Z",
+      "updated_at": "2026-09-29T07:05:51Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5930",
+      "labels": []
+    },
+    {
+      "number": 5923,
+      "title": "[AITER] K3 GEMM tuning",
+      "author": "omuhamma",
+      "state": "open",
+      "created_at": "2026-09-29T02:04:46Z",
+      "updated_at": "2026-09-29T02:04:49Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5923",
+      "labels": []
+    },
+    {
+      "number": 5889,
+      "title": "[Issue]: [Triton][Conv2D] conv2d raises under torch.inference_mode(): _pack_cache_key reads w._version",
+      "author": "Ragua1",
+      "state": "open",
+      "created_at": "2026-09-27T10:58:39Z",
+      "updated_at": "2026-09-28T18:07:38Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5889",
+      "labels": []
+    },
     {
       "number": 5031,
       "title": "[RFC]: Replace the hardcoded `atol=100` in the MoE op_tests with a derived tolerance",
@@ -49,16 +111,6 @@
       "created_at": "2026-09-27T19:09:08Z",
       "updated_at": "2026-09-27T19:09:21Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5892",
-      "labels": []
-    },
-    {
-      "number": 5889,
-      "title": "[Issue]: [Triton][Conv2D] conv2d raises under torch.inference_mode(): _pack_cache_key reads w._version",
-      "author": "Ragua1",
-      "state": "open",
-      "created_at": "2026-09-27T10:58:39Z",
-      "updated_at": "2026-09-27T10:58:39Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5889",
       "labels": []
     },
     {
@@ -837,18 +889,6 @@
       "created_at": "2025-04-14T10:47:12Z",
       "updated_at": "2026-08-31T06:15:00Z",
       "html_url": "https://github.com/ROCm/aiter/issues/289",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 2882,
-      "title": "[TRITON][CI] Fix `test_pa_decode.py` flakiness in `gfx942`",
-      "author": "brunomazzottiamd",
-      "state": "open",
-      "created_at": "2026-04-23T13:21:55Z",
-      "updated_at": "2026-08-31T06:14:57Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2882",
       "labels": [
         "bug"
       ]

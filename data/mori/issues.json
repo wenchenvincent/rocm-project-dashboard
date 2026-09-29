@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-09-28T16:10:26Z",
+  "collected_at": "2026-09-29T14:25:23Z",
   "issues": [
+    {
+      "number": 714,
+      "title": "EP IntraNode: replay dispatch (routing=) does not move the payload",
+      "author": "jeffdaily",
+      "state": "open",
+      "created_at": "2026-09-28T20:39:50Z",
+      "updated_at": "2026-09-28T20:41:41Z",
+      "html_url": "https://github.com/ROCm/mori/issues/714",
+      "labels": []
+    },
+    {
+      "number": 715,
+      "title": "EPv2: routing handles alias op-owned buffers; replaying an older handle faults",
+      "author": "jeffdaily",
+      "state": "open",
+      "created_at": "2026-09-28T20:39:51Z",
+      "updated_at": "2026-09-28T20:39:51Z",
+      "html_url": "https://github.com/ROCm/mori/issues/715",
+      "labels": []
+    },
     {
       "number": 694,
       "title": "MORI for Slingshot",
