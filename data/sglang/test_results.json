@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-09-29T14:25:47Z",
+  "collected_at": "2026-09-30T14:22:06Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Nightly Test (AMD)",
-    "run_id": 36551834936,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/36551834936",
-    "run_date": "2026-09-29T11:23:22Z",
+    "run_id": 36678520753,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/36678520753",
+    "run_date": "2026-09-30T10:57:13Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 3,
@@ -16,7 +16,7 @@
     },
     "suites": [
       {
-        "name": "nightly-test-1-gpu-mi35x (${{ matrix.rocm_version }}, linux-mi35x-gpu-1)",
+        "name": "nightly-test-1-gpu-unit (${{ matrix.rocm_version }}, linux-mi300-1gpu-sglang)",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -34,7 +34,7 @@
         "errors": null
       },
       {
-        "name": "nightly-test-1-gpu-unit (${{ matrix.rocm_version }}, linux-mi300-1gpu-sglang)",
+        "name": "nightly-test-1-gpu-mi35x (${{ matrix.rocm_version }}, linux-mi35x-gpu-1)",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -46,9 +46,9 @@
   },
   "cuda": {
     "workflow_name": "PR Test",
-    "run_id": 36582057067,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/36582057067",
-    "run_date": "2026-09-29T14:22:11Z",
+    "run_id": 36727947526,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/36727947526",
+    "run_date": "2026-09-30T14:17:46Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 10,
@@ -61,6 +61,24 @@
       {
         "name": "call-pr-test-extra",
         "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-a-test-cpu",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "pr-test-finish",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -95,24 +113,6 @@
         "errors": null
       },
       {
-        "name": "base-a-test-cpu",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "call-jit-kernel-tests",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
         "name": "base-b-test-${{ matrix.runner_config }}",
         "conclusion": "skipped",
         "tests": null,
@@ -122,8 +122,8 @@
         "errors": null
       },
       {
-        "name": "pr-test-finish",
-        "conclusion": "failure",
+        "name": "base-c-test-${{ matrix.runner_config }}",
+        "conclusion": "skipped",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -131,7 +131,7 @@
         "errors": null
       },
       {
-        "name": "base-c-test-${{ matrix.runner_config }}",
+        "name": "call-jit-kernel-tests",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,

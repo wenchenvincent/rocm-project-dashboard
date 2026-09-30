@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-29T14:24:50Z",
+  "collected_at": "2026-09-30T14:20:53Z",
   "issues": [
     {
       "number": 17050,
@@ -7,9 +7,41 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-29T13:22:27Z",
+      "updated_at": "2026-09-30T13:07:28Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-09-30T08:50:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 41852,
+      "title": "[AMD][Diffusion] Add a reliable gfx1151 attention path without AOTriton",
+      "author": "weimin023",
+      "state": "open",
+      "created_at": "2026-09-30T07:45:11Z",
+      "updated_at": "2026-09-30T07:52:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/41852",
+      "labels": []
+    },
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-09-30T02:03:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
     },
     {
       "number": 16565,
@@ -21,18 +53,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/16565",
       "labels": [
         "mthreads"
-      ]
-    },
-    {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-29T01:06:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
       ]
     },
     {
@@ -268,16 +288,6 @@
       "labels": []
     },
     {
-      "number": 39054,
-      "title": "is_musa() graph-breaks TorchDynamo (gb0069) on the traced prefill path since b6c31b155c, killing tc_piecewise prefill CUDA-graph capture",
-      "author": "janbernloehr",
-      "state": "open",
-      "created_at": "2026-09-11T08:01:50Z",
-      "updated_at": "2026-09-18T08:13:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39054",
-      "labels": []
-    },
-    {
       "number": 30209,
       "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
       "author": "hongboshi1234",
@@ -285,16 +295,6 @@
       "created_at": "2026-07-06T04:14:01Z",
       "updated_at": "2026-09-16T08:23:15Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30209",
-      "labels": []
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-09-16T03:49:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
     },
     {
@@ -452,16 +452,6 @@
       "labels": []
     },
     {
-      "number": 26890,
-      "title": "[AITER-Upgrade] AITER Scout Status",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-06-01T06:01:24Z",
-      "updated_at": "2026-09-08T14:19:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/26890",
-      "labels": []
-    },
-    {
       "number": 37372,
       "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
       "author": "imReese",
@@ -539,6 +529,16 @@
       "created_at": "2026-08-25T22:33:18Z",
       "updated_at": "2026-08-27T07:48:56Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/36390",
+      "labels": []
+    },
+    {
+      "number": 34351,
+      "title": "[Bug][AMD][diffusion] FLUX server crashes on ROCm: Triton PTX inline-asm ('=f' constraint) in diffusion layernorm/numerics kernels fails to compile on gfx942",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-08-11T03:34:40Z",
+      "updated_at": "2026-08-27T07:17:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/34351",
       "labels": []
     }
   ]

@@ -1,6 +1,72 @@
 {
-  "collected_at": "2026-09-29T14:25:27Z",
+  "collected_at": "2026-09-30T14:21:38Z",
   "prs": [
+    {
+      "number": 736,
+      "title": "Upgrade ci to therock 10.0",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T19:23:22Z",
+      "updated_at": "2026-09-30T04:20:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 745,
+      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T17:13:42Z",
+      "updated_at": "2026-09-29T22:57:32Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 744,
+      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-26T19:19:41Z",
+      "updated_at": "2026-09-29T22:07:08Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 746,
+      "title": "FlyDSL persistent work-stealing MXFP8 grouped GEMM (gfx950)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T21:45:10Z",
+      "updated_at": "2026-09-29T21:45:10Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 718,
+      "title": "Add gfx950 MXFP8 CK grouped GEMM",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T17:11:57Z",
+      "updated_at": "2026-09-29T16:22:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/718",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 696,
       "title": "sGPU Test Scheduling: Global Work Queue",
@@ -14,20 +80,6 @@
         "ci-level 3"
       ],
       "draft": false
-    },
-    {
-      "number": 745,
-      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T17:13:42Z",
-      "updated_at": "2026-09-29T03:22:30Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
     },
     {
       "number": 694,
@@ -69,34 +121,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 736,
-      "title": "Upgrade ci to therock 10.0",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T19:23:22Z",
-      "updated_at": "2026-09-28T08:25:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 744,
-      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-26T19:19:41Z",
-      "updated_at": "2026-09-27T20:31:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     },
@@ -327,18 +351,6 @@
         "ci-level 3"
       ],
       "draft": false
-    },
-    {
-      "number": 718,
-      "title": "Add gfx950 MXFP8 CK grouped GEMM",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T17:11:57Z",
-      "updated_at": "2026-08-26T21:14:37Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/718",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 717,

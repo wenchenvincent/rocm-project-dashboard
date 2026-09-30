@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-09-29T14:25:25Z",
+  "collected_at": "2026-09-30T14:21:34Z",
   "prs": [
+    {
+      "number": 1216,
+      "title": "[Kernel] Add dense Flash Attention for gfx1100",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T07:22:21Z",
+      "updated_at": "2026-09-30T12:46:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1216",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1184,
+      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T07:21:49Z",
+      "updated_at": "2026-09-30T09:40:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1217,
+      "title": "feat(conv3d): align bf16 implicit GEMM with aiter #5370",
+      "author": "huizzhan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T08:00:37Z",
+      "updated_at": "2026-09-30T09:18:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1217",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1215,
+      "title": "[compiler][opt] add schedule_bank api for gfx1250",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T01:00:55Z",
+      "updated_at": "2026-09-30T07:37:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1215",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 987,
+      "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-09-30T01:09:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1214,
+      "title": "[Kernel][gfx1250] Add the GLM-5 MonoKernel",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T21:11:44Z",
+      "updated_at": "2026-09-29T23:02:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1214",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1193,
       "title": "[LayoutLowering] Ignore size-one leaves in contiguous-segment detection",
@@ -134,18 +206,6 @@
       "draft": false
     },
     {
-      "number": 1184,
-      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T07:21:49Z",
-      "updated_at": "2026-09-28T02:28:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1190,
       "title": "[llvm] Extend LLVM for FlyDSL end-to-end performance work",
       "author": "Phil-amd",
@@ -192,18 +252,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1191",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 987,
-      "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-09-24T06:24:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1162,

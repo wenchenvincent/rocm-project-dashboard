@@ -1,13 +1,25 @@
 {
-  "collected_at": "2026-09-29T14:24:52Z",
+  "collected_at": "2026-09-30T14:20:56Z",
   "issues": [
+    {
+      "number": 12038,
+      "title": "[AMD][gfx1151] Kernel with many scalar buffer loads and heavy register spilling returns wrong results or leaves the device unusable",
+      "author": "GMNGeoffrey",
+      "state": "open",
+      "created_at": "2026-09-30T04:13:54Z",
+      "updated_at": "2026-09-30T05:21:04Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/12038",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 10329,
       "title": "Build Triton without Nvidia/AMD backends?",
       "author": "woct0rdho",
       "state": "open",
       "created_at": "2026-05-16T03:48:27Z",
-      "updated_at": "2026-09-29T07:45:16Z",
+      "updated_at": "2026-09-30T04:26:58Z",
       "html_url": "https://github.com/triton-lang/triton/issues/10329",
       "labels": []
     },

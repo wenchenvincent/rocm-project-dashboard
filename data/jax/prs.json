@@ -1,6 +1,20 @@
 {
-  "collected_at": "2026-09-29T14:24:28Z",
+  "collected_at": "2026-09-30T14:20:24Z",
   "prs": [
+    {
+      "number": 41130,
+      "title": "[ROCm] Enable the Pallas-Triton ragged_dot lowering on ROCm",
+      "author": "mminutoli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T00:10:33Z",
+      "updated_at": "2026-09-30T00:28:45Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41130",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": true
+    },
     {
       "number": 40972,
       "title": "[ROCm] Enable build on rocm rbe and switch to dpx runners",

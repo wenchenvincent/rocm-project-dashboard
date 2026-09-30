@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-29T14:25:20Z",
+  "collected_at": "2026-09-30T14:21:28Z",
   "issues": [
     {
       "number": 2424,
@@ -12,58 +12,6 @@
       "labels": []
     },
     {
-      "number": 2421,
-      "title": "[Perf Regression] 9 config(s) regressed @ aa0c5c3a",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-09-29T00:56:19Z",
-      "updated_at": "2026-09-29T00:56:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2421",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2415,
-      "title": "[Perf Regression] 11 config(s) regressed @ 68e0df5e",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-09-27T23:50:47Z",
-      "updated_at": "2026-09-27T23:50:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2415",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2413,
-      "title": "[Perf Regression] 15 config(s) regressed @ 68e0df5e",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-09-27T10:32:21Z",
-      "updated_at": "2026-09-27T10:32:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2413",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2408,
-      "title": "[Perf Regression] 10 config(s) regressed @ 68e0df5e",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-09-25T23:34:40Z",
-      "updated_at": "2026-09-25T23:34:40Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2408",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
       "number": 2354,
       "title": "moriio registers as a `reads_block_regions` backend but never reads them: DSA models decode garbage past the dense window, and its completion test frees in-flight `TransferStatus` objects",
       "author": "IvanShan177",
@@ -72,32 +20,6 @@
       "updated_at": "2026-09-25T22:59:13Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2354",
       "labels": []
-    },
-    {
-      "number": 2397,
-      "title": "[Perf Regression] 15 config(s) regressed @ a5ad0a50",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-09-25T00:47:31Z",
-      "updated_at": "2026-09-25T00:47:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2397",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2363,
-      "title": "[Perf Regression] 4 config(s) regressed @ d9f0720e",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-09-23T01:04:24Z",
-      "updated_at": "2026-09-23T01:04:24Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2363",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 2360,
@@ -113,19 +35,6 @@
       ]
     },
     {
-      "number": 2341,
-      "title": "[Perf Regression] 11 config(s) regressed @ 52a6a96f",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-09-22T00:58:20Z",
-      "updated_at": "2026-09-22T00:58:20Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2341",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
       "number": 2322,
       "title": "[CI] Approving a PR restarts the CI pipeline",
       "author": "junhaha666",
@@ -134,32 +43,6 @@
       "updated_at": "2026-09-21T09:21:20Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2322",
       "labels": []
-    },
-    {
-      "number": 2323,
-      "title": "[Perf Regression] 9 config(s) regressed @ d0708937",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-09-21T04:55:56Z",
-      "updated_at": "2026-09-21T04:55:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2323",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2317,
-      "title": "[Perf Regression] 3 config(s) regressed @ a8ddd6be",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-09-20T16:18:58Z",
-      "updated_at": "2026-09-20T16:18:58Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2317",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 2316,

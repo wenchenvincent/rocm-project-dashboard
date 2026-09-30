@@ -1,15 +1,87 @@
 {
-  "collected_at": "2026-09-29T14:25:22Z",
+  "collected_at": "2026-09-30T14:21:31Z",
   "prs": [
     {
-      "number": 707,
-      "title": "feat(umbp): add NUMA-aware DRAM placement and shared-key replication",
-      "author": "maning00",
+      "number": 712,
+      "title": "feat(ep): add opt-in gfx1201 EP2/EP4 support",
+      "author": "dongdongzhao1121",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-24T02:54:13Z",
-      "updated_at": "2026-09-29T08:10:03Z",
-      "html_url": "https://github.com/ROCm/mori/pull/707",
+      "created_at": "2026-09-28T01:52:42Z",
+      "updated_at": "2026-09-30T13:27:59Z",
+      "html_url": "https://github.com/ROCm/mori/pull/712",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 623,
+      "title": "SDMA HIP device management fixes",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T11:14:37Z",
+      "updated_at": "2026-09-30T12:05:18Z",
+      "html_url": "https://github.com/ROCm/mori/pull/623",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 718,
+      "title": "perf(umbp): prefault unbound DRAM tiers in parallel across NUMA nodes",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T10:08:27Z",
+      "updated_at": "2026-09-30T10:18:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/718",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 717,
+      "title": "perf(umbp): keep large restore fragments on the gather kernel",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T06:09:55Z",
+      "updated_at": "2026-09-30T06:09:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/717",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "opt v2 internode",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T03:05:00Z",
+      "updated_at": "2026-09-30T03:01:52Z",
+      "html_url": "https://github.com/ROCm/mori/pull/696",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 716,
+      "title": "Report peer failures instead of always claiming peers are alive",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T22:05:48Z",
+      "updated_at": "2026-09-30T02:07:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/716",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 675,
+      "title": "fix(ep/intranode training): restore replay-mode payload dispatch dropped by #532",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T04:42:34Z",
+      "updated_at": "2026-09-29T22:13:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/675",
       "labels": [],
       "draft": false
     },
@@ -22,42 +94,6 @@
       "created_at": "2026-09-14T22:27:14Z",
       "updated_at": "2026-09-29T03:41:47Z",
       "html_url": "https://github.com/ROCm/mori/pull/670",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 716,
-      "title": "Report peer failures instead of always claiming peers are alive",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T22:05:48Z",
-      "updated_at": "2026-09-28T22:05:48Z",
-      "html_url": "https://github.com/ROCm/mori/pull/716",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 713,
-      "title": "fix(build): let torch pick the C++ standard for mori_torch_symm",
-      "author": "jeffdaily",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T20:30:40Z",
-      "updated_at": "2026-09-28T20:30:40Z",
-      "html_url": "https://github.com/ROCm/mori/pull/713",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 663,
-      "title": "fix: migrate GPU topology from rocm_smi to amd_smi (ROCm 10.1+)",
-      "author": "srinivamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T20:09:16Z",
-      "updated_at": "2026-09-28T18:17:46Z",
-      "html_url": "https://github.com/ROCm/mori/pull/663",
       "labels": [],
       "draft": false
     },
@@ -86,30 +122,6 @@
       "draft": false
     },
     {
-      "number": 712,
-      "title": "feat(ep): add opt-in gfx1201 EP2/EP4 support",
-      "author": "dongdongzhao1121",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T01:52:42Z",
-      "updated_at": "2026-09-28T08:02:20Z",
-      "html_url": "https://github.com/ROCm/mori/pull/712",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 696,
-      "title": "opt v2 internode",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T03:05:00Z",
-      "updated_at": "2026-09-28T07:04:08Z",
-      "html_url": "https://github.com/ROCm/mori/pull/696",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 678,
       "title": "fix(umbp): arm every standalone-process data-plane RPC with a deadline",
       "author": "isytwu",
@@ -130,18 +142,6 @@
       "created_at": "2026-09-24T09:03:38Z",
       "updated_at": "2026-09-27T04:21:56Z",
       "html_url": "https://github.com/ROCm/mori/pull/711",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 623,
-      "title": "SDMA HIP device management fixes",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T11:14:37Z",
-      "updated_at": "2026-09-25T16:18:25Z",
-      "html_url": "https://github.com/ROCm/mori/pull/623",
       "labels": [],
       "draft": false
     },
@@ -170,18 +170,6 @@
       "draft": false
     },
     {
-      "number": 710,
-      "title": "build(cco): compile the SDMA path by default",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T07:08:39Z",
-      "updated_at": "2026-09-24T07:22:58Z",
-      "html_url": "https://github.com/ROCm/mori/pull/710",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 700,
       "title": "fix(umbp): stop standalone client_mu_ serializing the whole node behind one rank",
       "author": "isytwu",
@@ -192,18 +180,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/700",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 621,
-      "title": "fix(ep): correct recv-slice indexing in DispatchInterNodeRecv (v1 kernel)",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T04:05:11Z",
-      "updated_at": "2026-09-23T04:41:34Z",
-      "html_url": "https://github.com/ROCm/mori/pull/621",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 695,
@@ -276,18 +252,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/681",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 675,
-      "title": "fix(ep/intranode training): restore replay-mode payload dispatch dropped by #532",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T04:42:34Z",
-      "updated_at": "2026-09-16T15:41:03Z",
-      "html_url": "https://github.com/ROCm/mori/pull/675",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 671,
@@ -610,6 +574,66 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 621,
+      "title": "fix(ep): correct recv-slice indexing in DispatchInterNodeRecv (v1 kernel)",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-31T04:05:11Z",
+      "updated_at": "2026-09-30T10:17:50Z",
+      "html_url": "https://github.com/ROCm/mori/pull/621",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 707,
+      "title": "feat(umbp): add NUMA-aware DRAM placement",
+      "author": "maning00",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-24T02:54:13Z",
+      "updated_at": "2026-09-30T09:59:57Z",
+      "html_url": "https://github.com/ROCm/mori/pull/707",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "fix: migrate GPU topology from rocm_smi to amd_smi (ROCm 10.1+)",
+      "author": "srinivamd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T20:09:16Z",
+      "updated_at": "2026-09-30T06:24:27Z",
+      "html_url": "https://github.com/ROCm/mori/pull/663",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 713,
+      "title": "fix(build): let torch pick the C++ standard for mori_torch_symm",
+      "author": "jeffdaily",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-28T20:30:40Z",
+      "updated_at": "2026-09-30T03:37:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/713",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 710,
+      "title": "build(cco): compile the SDMA path by default",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-24T07:08:39Z",
+      "updated_at": "2026-09-30T03:02:21Z",
+      "html_url": "https://github.com/ROCm/mori/pull/710",
       "labels": [],
       "draft": false
     },
@@ -1606,66 +1630,6 @@
       "created_at": "2026-08-24T02:18:05Z",
       "updated_at": "2026-08-25T14:52:23Z",
       "html_url": "https://github.com/ROCm/mori/pull/592",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 591,
-      "title": "feat(shmem): MORI_ENABLE_RAIL_ONLY to restrict RDMA QPs to same-rail peers",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-22T03:39:06Z",
-      "updated_at": "2026-08-25T11:00:33Z",
-      "html_url": "https://github.com/ROCm/mori/pull/591",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 597,
-      "title": "feat(EPv2): extend support for rack-level wide-ep.",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T10:48:53Z",
-      "updated_at": "2026-08-25T09:23:34Z",
-      "html_url": "https://github.com/ROCm/mori/pull/597",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 583,
-      "title": "MORI IO improvements 2nd try",
-      "author": "pemeliya",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-19T10:39:07Z",
-      "updated_at": "2026-08-25T06:45:30Z",
-      "html_url": "https://github.com/ROCm/mori/pull/583",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 593,
-      "title": "feat(EPv2): forward a per-token scale row with dispatch",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T06:43:43Z",
-      "updated_at": "2026-08-24T16:11:01Z",
-      "html_url": "https://github.com/ROCm/mori/pull/593",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 599,
-      "title": "Perf/ep disp 1250 ship",
-      "author": "zhangfei829",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T14:14:37Z",
-      "updated_at": "2026-08-24T14:16:30Z",
-      "html_url": "https://github.com/ROCm/mori/pull/599",
       "labels": [],
       "draft": false
     }
