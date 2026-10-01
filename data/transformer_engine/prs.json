@@ -1,6 +1,74 @@
 {
-  "collected_at": "2026-09-30T14:21:38Z",
+  "collected_at": "2026-10-01T14:54:06Z",
   "prs": [
+    {
+      "number": 721,
+      "title": "Ifu dev 20260828 v2.19",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T21:01:06Z",
+      "updated_at": "2026-09-30T23:54:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 747,
+      "title": "Fix Triton norm MXFP4",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T22:42:25Z",
+      "updated_at": "2026-09-30T23:17:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/747",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-09-30T21:11:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "sGPU Test Scheduling: Global Work Queue",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T14:24:23Z",
+      "updated_at": "2026-09-30T21:07:00Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 746,
+      "title": "FlyDSL persistent work-stealing MXFP8 grouped GEMM (gfx950)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T21:45:10Z",
+      "updated_at": "2026-09-30T16:02:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
     {
       "number": 736,
       "title": "Upgrade ci to therock 10.0",
@@ -44,18 +112,6 @@
       "draft": false
     },
     {
-      "number": 746,
-      "title": "FlyDSL persistent work-stealing MXFP8 grouped GEMM (gfx950)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T21:45:10Z",
-      "updated_at": "2026-09-29T21:45:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 718,
       "title": "Add gfx950 MXFP8 CK grouped GEMM",
       "author": "aris134",
@@ -66,20 +122,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/718",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 696,
-      "title": "sGPU Test Scheduling: Global Work Queue",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T14:24:23Z",
-      "updated_at": "2026-09-29T03:55:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 694,
@@ -125,18 +167,6 @@
       "draft": false
     },
     {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-09-25T21:32:58Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 742,
       "title": "[JAX] grouped GEMM interface fix",
       "author": "shurale-nkn",
@@ -172,20 +202,6 @@
       "updated_at": "2026-09-24T19:43:53Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/743",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 721,
-      "title": "Ifu dev 20260828 v2.19",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T21:01:06Z",
-      "updated_at": "2026-09-24T19:31:17Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/721",
-      "labels": [
-        "ci-level 3"
-      ],
       "draft": false
     },
     {

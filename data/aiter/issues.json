@@ -1,16 +1,87 @@
 {
-  "collected_at": "2026-09-30T14:21:20Z",
+  "collected_at": "2026-10-01T14:53:46Z",
   "issues": [
     {
-      "number": 5990,
-      "title": "[gfx950][Triton/Gluon] Unified attention: scf.for i64/i32 loop-carried type mismatch breaks CUDA-graph capture",
-      "author": "kangwangamd",
+      "number": 6053,
+      "title": "[Feature]: Improve top_k_per_row_decode performance at <64k ctx, topk=512",
+      "author": "simondanielsson",
       "state": "open",
-      "created_at": "2026-09-30T09:28:15Z",
-      "updated_at": "2026-09-30T09:28:15Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5990",
+      "created_at": "2026-10-01T13:39:52Z",
+      "updated_at": "2026-10-01T13:39:52Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6053",
+      "labels": []
+    },
+    {
+      "number": 6023,
+      "title": "DSV4.1 Flash Optimization",
+      "author": "ahmed-bsod",
+      "state": "open",
+      "created_at": "2026-09-30T20:09:36Z",
+      "updated_at": "2026-10-01T01:01:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6023",
+      "labels": []
+    },
+    {
+      "number": 6021,
+      "title": "Create Triton kernel backup for `paged_mxfp4_mqa_logits` operator",
+      "author": "brunomazzottiamd",
+      "state": "open",
+      "created_at": "2026-09-30T18:15:22Z",
+      "updated_at": "2026-09-30T18:15:22Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6021",
+      "labels": []
+    },
+    {
+      "number": 6014,
+      "title": "[Feature]: Create a Perf CI",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-09-30T16:59:27Z",
+      "updated_at": "2026-09-30T17:08:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6014",
       "labels": [
-        "bug",
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6012,
+      "title": "[Kimik3] Accumulate the latent-MoE up-projection in aiter a16w16 atomic",
+      "author": "nsusanto",
+      "state": "open",
+      "created_at": "2026-09-30T16:47:25Z",
+      "updated_at": "2026-09-30T16:48:33Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6012",
+      "labels": []
+    },
+    {
+      "number": 6011,
+      "title": "[Kimik3] Fuse Kimi-K3 MLA chunked-context gather on AITER",
+      "author": "nsusanto",
+      "state": "open",
+      "created_at": "2026-09-30T16:46:32Z",
+      "updated_at": "2026-09-30T16:46:35Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6011",
+      "labels": []
+    },
+    {
+      "number": 6010,
+      "title": "[KimiK3] Fuse shared-expert down-proj into the latent-MoE tail GEMM",
+      "author": "nsusanto",
+      "state": "open",
+      "created_at": "2026-09-30T16:45:14Z",
+      "updated_at": "2026-09-30T16:45:17Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6010",
+      "labels": []
+    },
+    {
+      "number": 6008,
+      "title": "move gluon kernels into proper Dirs",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-09-30T15:51:32Z",
+      "updated_at": "2026-09-30T15:51:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6008",
+      "labels": [
         "Triton/Gluon"
       ]
     },
@@ -385,16 +456,6 @@
       "labels": []
     },
     {
-      "number": 5737,
-      "title": "[Kimik3] remove Shared Expert all reduce by duplicating weights in vllm.",
-      "author": "nsusanto",
-      "state": "open",
-      "created_at": "2026-09-21T20:30:48Z",
-      "updated_at": "2026-09-21T20:32:12Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5737",
-      "labels": []
-    },
-    {
       "number": 5738,
       "title": "[Gluon] bf16 attention",
       "author": "nsusanto",
@@ -512,16 +573,6 @@
       "created_at": "2026-09-15T14:43:48Z",
       "updated_at": "2026-09-15T14:43:48Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5552",
-      "labels": []
-    },
-    {
-      "number": 5541,
-      "title": "Add fused SiLU-and-multiply backward kernel",
-      "author": "DaiXindi-AMD",
-      "state": "open",
-      "created_at": "2026-09-15T12:16:10Z",
-      "updated_at": "2026-09-15T12:16:10Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5541",
       "labels": []
     },
     {

@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-09-30T14:20:21Z",
+  "collected_at": "2026-10-01T14:52:51Z",
   "releases": [
+    {
+      "tag_name": "v2.14.1",
+      "name": "PyTorch 2.14.1 Release",
+      "published_at": "2026-09-30T19:14:48Z",
+      "html_url": "https://github.com/pytorch/pytorch/releases/tag/v2.14.1",
+      "prerelease": false
+    },
     {
       "tag_name": "v2.14.0",
       "name": "PyTorch 2.14.0 Release",
@@ -27,13 +34,6 @@
       "name": "PyTorch 2.12.0 Release",
       "published_at": "2026-05-13T17:38:06Z",
       "html_url": "https://github.com/pytorch/pytorch/releases/tag/v2.12.0",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v2.11.0",
-      "name": "PyTorch 2.11.0 Release",
-      "published_at": "2026-03-23T18:38:28Z",
-      "html_url": "https://github.com/pytorch/pytorch/releases/tag/v2.11.0",
       "prerelease": false
     }
   ]

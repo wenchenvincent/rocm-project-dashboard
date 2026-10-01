@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-30T14:20:55Z",
+  "collected_at": "2026-10-01T14:53:20Z",
   "prs": [
     {
       "number": 11707,
@@ -8,8 +8,104 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-11T14:21:46Z",
-      "updated_at": "2026-09-30T14:16:36Z",
+      "updated_at": "2026-10-01T14:34:49Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11707",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12050,
+      "title": "[AMD] Enable test_debug.py in CI",
+      "author": "alefimov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T12:02:32Z",
+      "updated_at": "2026-10-01T12:02:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12050",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11922,
+      "title": "[AMD] Fix RDNA DRAM bandwidth estimates",
+      "author": "lstojilj-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T14:58:45Z",
+      "updated_at": "2026-10-01T10:54:18Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11922",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11911,
+      "title": "[AMD] Allow the tagged barrier lowering on RDNA in CU mode",
+      "author": "mgehre-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T17:39:44Z",
+      "updated_at": "2026-10-01T07:05:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11911",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11910,
+      "title": "[AMD] Support controlling WGP/CU mode for RDNA",
+      "author": "mgehre-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-22T17:31:52Z",
+      "updated_at": "2026-10-01T00:47:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11910",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11909,
+      "title": "[AMD][BACKEND] Emit packed scaled_upcast layout for dot decomposition",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-22T16:29:45Z",
+      "updated_at": "2026-09-30T21:58:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11909",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12043,
+      "title": "[AMD][CI] Move rocjitsu workflow to gfx90a",
+      "author": "sriakrish",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-30T18:43:54Z",
+      "updated_at": "2026-09-30T21:12:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12043",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12042,
+      "title": "[AMD] Remove RDNA1 and RDNA2 target support",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-30T16:49:31Z",
+      "updated_at": "2026-09-30T19:39:28Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12042",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12039,
+      "title": "[AMD] NFC: Modernize backend code with C++20 features",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-30T05:43:38Z",
+      "updated_at": "2026-09-30T15:49:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12039",
       "labels": [],
       "draft": false
     },
@@ -26,30 +122,6 @@
       "draft": false
     },
     {
-      "number": 11909,
-      "title": "[AMD][BACKEND] Emit packed scaled_upcast layout for dot decomposition",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T16:29:45Z",
-      "updated_at": "2026-09-30T13:23:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11909",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11911,
-      "title": "[AMD] Allow the tagged barrier lowering on RDNA in CU mode",
-      "author": "mgehre-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T17:39:44Z",
-      "updated_at": "2026-09-30T12:33:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11911",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 10886,
       "title": "[AMD][BACKEND] Improve emitted errors when a direct-to-LDS copy cannot be lowered",
       "author": "vmalepati1",
@@ -58,30 +130,6 @@
       "created_at": "2026-07-14T23:59:49Z",
       "updated_at": "2026-09-30T11:34:19Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10886",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11910,
-      "title": "[AMD] Support controlling WGP/CU mode for RDNA",
-      "author": "mgehre-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T17:31:52Z",
-      "updated_at": "2026-09-30T11:01:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11910",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12039,
-      "title": "[AMD] NFC: Modernize backend code with C++20 features",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T05:43:38Z",
-      "updated_at": "2026-09-30T07:36:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12039",
       "labels": [],
       "draft": false
     },
@@ -274,18 +322,6 @@
       "created_at": "2026-09-25T17:15:22Z",
       "updated_at": "2026-09-25T22:02:46Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11968",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11922,
-      "title": "[AMD] Fix RDNA DRAM bandwidth estimates",
-      "author": "lstojilj-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T14:58:45Z",
-      "updated_at": "2026-09-25T17:40:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11922",
       "labels": [],
       "draft": false
     },
@@ -542,30 +578,6 @@
       "draft": false
     },
     {
-      "number": 11850,
-      "title": "[Build] Honor artifact mirrors for AMD codegen downloads",
-      "author": "peterbell10",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-18T15:52:08Z",
-      "updated_at": "2026-09-18T16:33:05Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11850",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11783,
-      "title": "Preserve NaNs in AMD TF32 matmuls",
-      "author": "roman-openai",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-14T19:15:19Z",
-      "updated_at": "2026-09-18T15:36:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11783",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11835,
       "title": "[AMD] Cap the MFMA instruction shape by the per-warp share of the tile",
       "author": "Mazukiri",
@@ -574,42 +586,6 @@
       "created_at": "2026-09-17T16:01:34Z",
       "updated_at": "2026-09-17T16:01:35Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11835",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11657,
-      "title": "[AMD][Gluon] Export scaled_upcast layout helper for every supported arch",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-09T10:12:40Z",
-      "updated_at": "2026-09-17T15:50:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11657",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11833,
-      "title": "[AMD][BACEND] Fix multi-cta OOB handling of TDM gather/scatter",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-17T11:19:05Z",
-      "updated_at": "2026-09-17T15:42:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11833",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11814,
-      "title": "[AMD] Fix shared-memory loads and stores of pointer elements",
-      "author": "he-weiwen",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-16T17:52:11Z",
-      "updated_at": "2026-09-17T10:10:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11814",
       "labels": [],
       "draft": false
     },
@@ -720,6 +696,30 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11527",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 11266,
+      "title": "[AMD][Backend] Lower tl.fdiv to approximate f32 division on AMD",
+      "author": "purerli98",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T12:25:52Z",
+      "updated_at": "2026-08-31T09:22:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11266",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11435,
+      "title": "[RFC][AMD][Gluon] Require other for masked buffer-to-shared loads",
+      "author": "raikonenfnu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T00:10:41Z",
+      "updated_at": "2026-08-26T19:00:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11435",
+      "labels": [],
+      "draft": false
     }
   ]
 }

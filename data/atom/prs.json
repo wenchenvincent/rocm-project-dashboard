@@ -1,6 +1,162 @@
 {
-  "collected_at": "2026-09-30T14:21:25Z",
+  "collected_at": "2026-10-01T14:53:51Z",
   "prs": [
+    {
+      "number": 2444,
+      "title": "feat(offload): LMCache MP for PP4 prefill with one server per NUMA node (GLM-5.2 cpp4/dcp4)",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T14:07:18Z",
+      "updated_at": "2026-10-01T14:07:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2444",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2443,
+      "title": "feat(plugin/mp): run the K3 offload connector on ATOM's MP LMCache tier",
+      "author": "PerryZhang01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T13:41:53Z",
+      "updated_at": "2026-10-01T13:44:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2443",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2442,
+      "title": "docs(offload): clarify LMCache MP lookup timeout scope",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T08:44:21Z",
+      "updated_at": "2026-10-01T08:44:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2442",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2364,
+      "title": "feat(sp): add Ulysses sequence parallelism and optimize M3 prefill communication",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T02:27:48Z",
+      "updated_at": "2026-10-01T08:29:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2364",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2431,
+      "title": "feat(pd): stage DCP MLA KV into destination pages, and land it in a decode GPU pool",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T03:31:25Z",
+      "updated_at": "2026-10-01T08:13:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2431",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2433,
+      "title": "ci(atomesh)+fix(offload): GLM-5.2 cpp4/dcp4 c56+ \u2014 per-stage LMCache lookup, keep-alive, c64-c192 cases, release LMCache lookup pins exactly once",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T03:36:05Z",
+      "updated_at": "2026-10-01T07:49:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2433",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2274,
+      "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T21:03:54Z",
+      "updated_at": "2026-10-01T06:57:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2429,
+      "title": "[ATOM] Enable DPA comm-fused MoE reduce-scatter with compact ragged gathers",
+      "author": "yifehuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T01:54:51Z",
+      "updated_at": "2026-10-01T00:33:08Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2429",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2430,
+      "title": "fix: DCP prefill + MTP draft crash, Mooncake notify-port bind race; GLM-5.2 DCP8 CI cases",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T02:16:33Z",
+      "updated_at": "2026-10-01T00:33:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2430",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2437,
+      "title": "[DCP]sparse prefill use QREP, removing AllGather Q and copy",
+      "author": "ZhiweiYan-96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T07:23:56Z",
+      "updated_at": "2026-10-01T00:32:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2437",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2439,
+      "title": "add more MP LMCache instructions hosting Kimi-K3 from vllm ATOM plugin",
+      "author": "linsun12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T20:24:33Z",
+      "updated_at": "2026-10-01T00:32:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2439",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2335,
+      "title": "IQ2R: load GLM-5.3 packed MoE checkpoints with TP slicing",
+      "author": "ssharma4-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T11:09:19Z",
+      "updated_at": "2026-09-30T22:24:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2412,
+      "title": "fix(offload): reject invalid LMCache lookup scope at startup",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-27T06:20:49Z",
+      "updated_at": "2026-09-30T17:10:49Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2412",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 2418,
       "title": "perf(qwen4_exp): MI308X optimizations for Qwen3.8-Flash-Next PTPC-FP8 (TTFT -31.6%, TPOT -33.6%, output +55.2%)",
@@ -90,78 +246,6 @@
       "draft": true
     },
     {
-      "number": 2429,
-      "title": "[ATOM] Enable DPA comm-fused MoE reduce-scatter with compact ragged gathers",
-      "author": "yifehuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T01:54:51Z",
-      "updated_at": "2026-09-30T07:44:00Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2429",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2437,
-      "title": "[DCP]sparse prefill use QREP, removing AllGather Q and copy",
-      "author": "ZhiweiYan-96",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T07:23:56Z",
-      "updated_at": "2026-09-30T07:24:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2437",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2431,
-      "title": "feat(pd): stage MLA KV into DCP destination pages and coalesce P->D RDMA writes",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T03:31:25Z",
-      "updated_at": "2026-09-30T06:08:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2431",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2432,
-      "title": "feat(pd): decode host landing + fix(offload): release LMCache lookup pins exactly once",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T03:32:07Z",
-      "updated_at": "2026-09-30T06:08:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2432",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2433,
-      "title": "fix(offload)+ci(atomesh): GLM-5.2 cpp4/dcp4 c56+ \u2014 THP opt-out for pinned alloc, per-stage LMCache lookup, keep-alive, c64-c192 cases",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T03:36:05Z",
-      "updated_at": "2026-09-30T06:08:36Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2433",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2430,
-      "title": "fix: DCP prefill + MTP draft crash, Mooncake notify-port bind race; GLM-5.2 DCP8 CI cases",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T02:16:33Z",
-      "updated_at": "2026-09-30T06:07:08Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2430",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2037,
       "title": "feat: support v4 mixed-schedule large conc opt",
       "author": "jiayyu",
@@ -238,18 +322,6 @@
       "draft": false
     },
     {
-      "number": 2274,
-      "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T21:03:54Z",
-      "updated_at": "2026-09-29T09:36:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2384,
       "title": "feat(moe): enable mega stage1_fused on fp4/fp8 dispatch wire",
       "author": "yanboshao",
@@ -302,30 +374,6 @@
       "draft": false
     },
     {
-      "number": 2335,
-      "title": "Add plain GLM-5.3 IQ2R 2-bit MoE integration",
-      "author": "ssharma4-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T11:09:19Z",
-      "updated_at": "2026-09-28T23:10:06Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2412,
-      "title": "fix(offload): reject invalid LMCache lookup scope at startup",
-      "author": "kvnloo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-27T06:20:49Z",
-      "updated_at": "2026-09-28T18:35:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2412",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2132,
       "title": "[Kimi-K3][LMCache] Fuse the state load leg, and fence the KV save against the forward",
       "author": "zejunchen-zejun",
@@ -348,18 +396,6 @@
       "created_at": "2026-09-28T13:19:02Z",
       "updated_at": "2026-09-28T13:19:23Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2420",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2364,
-      "title": "feat(sp): add Ulysses sequence parallelism and optimize M3 prefill communication",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T02:27:48Z",
-      "updated_at": "2026-09-28T09:44:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2364",
       "labels": [],
       "draft": true
     },
@@ -4466,20 +4502,6 @@
       "updated_at": "2026-09-19T14:05:51Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2273",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2244,
-      "title": "perf(sampler): take the greedy picks from aiter.topk_select",
-      "author": "valarLip",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-15T10:11:33Z",
-      "updated_at": "2026-09-19T07:16:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2244",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     }
   ]

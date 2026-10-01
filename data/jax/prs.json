@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-30T14:20:24Z",
+  "collected_at": "2026-10-01T14:52:54Z",
   "prs": [
     {
       "number": 41130,
@@ -8,12 +8,26 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-30T00:10:33Z",
-      "updated_at": "2026-09-30T00:28:45Z",
+      "updated_at": "2026-09-30T23:02:27Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41130",
       "labels": [
         "AMD GPU"
       ],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 40877,
+      "title": "[ROCM] Added gfx1250 and gfx1250-strict targets",
+      "author": "zahiqbal",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-22T16:24:52Z",
+      "updated_at": "2026-09-30T17:24:53Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/40877",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
     },
     {
       "number": 40972,
@@ -39,18 +53,6 @@
       "labels": [
         "pull ready"
       ],
-      "draft": false
-    },
-    {
-      "number": 40877,
-      "title": "[ROCM] Added gfx1250 and gfx1250-strict targets",
-      "author": "zahiqbal",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T16:24:52Z",
-      "updated_at": "2026-09-22T18:28:44Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40877",
-      "labels": [],
       "draft": false
     },
     {
@@ -513,23 +515,6 @@
       "labels": [
         "kokoro:force-run",
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38810,
-      "title": "[ROCm] Add TheRock 7.14.0/latest coverage to CI workflows",
-      "author": "mminutoli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T22:36:22Z",
-      "updated_at": "2026-07-31T14:43:54Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38810",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready",
-        "CI",
-        "AMD GPU"
       ],
       "draft": false
     },

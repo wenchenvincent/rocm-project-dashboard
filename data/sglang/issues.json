@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-30T14:20:53Z",
+  "collected_at": "2026-10-01T14:53:18Z",
   "issues": [
     {
       "number": 17050,
@@ -7,7 +7,7 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-09-30T13:07:28Z",
+      "updated_at": "2026-10-01T14:32:28Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
@@ -17,8 +17,18 @@
       "author": "HaiShaw",
       "state": "open",
       "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-09-30T08:50:54Z",
+      "updated_at": "2026-10-01T14:14:14Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 39499,
+      "title": "[Roadmap] SGLang dLLM Serving",
+      "author": "rwang5203",
+      "state": "open",
+      "created_at": "2026-09-15T01:21:47Z",
+      "updated_at": "2026-10-01T04:09:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
       "labels": []
     },
     {
@@ -27,7 +37,7 @@
       "author": "weimin023",
       "state": "open",
       "created_at": "2026-09-30T07:45:11Z",
-      "updated_at": "2026-09-30T07:52:34Z",
+      "updated_at": "2026-09-30T18:41:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/41852",
       "labels": []
     },
@@ -133,16 +143,6 @@
       "created_at": "2026-09-24T08:15:21Z",
       "updated_at": "2026-09-24T08:15:21Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/41070",
-      "labels": []
-    },
-    {
-      "number": 39499,
-      "title": "[Roadmap] SGLang dLLM Serving",
-      "author": "rwang5203",
-      "state": "open",
-      "created_at": "2026-09-15T01:21:47Z",
-      "updated_at": "2026-09-24T05:37:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
       "labels": []
     },
     {

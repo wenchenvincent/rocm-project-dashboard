@@ -1,36 +1,42 @@
 {
-  "collected_at": "2026-09-30T14:22:32Z",
+  "collected_at": "2026-10-01T14:55:19Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 18,
-      "merged": 18,
+      "opened": 17,
+      "merged": 19,
       "closed": 0
     },
     "last_week": {
-      "opened": 17,
-      "merged": 12,
+      "opened": 18,
+      "merged": 11,
       "closed": 0
     },
     "median_time_to_merge_hours": 33.8,
     "merge_count": 30,
-    "stale_prs": 0
+    "stale_prs": 2
   },
   "contributors": {
-    "active_this_week": 21,
-    "total_contributors": 37,
+    "active_this_week": 20,
+    "total_contributors": 36,
     "top_contributors": [
       {
         "author": "antiagainst",
-        "prs_submitted": 9,
-        "prs_merged": 7,
+        "prs_submitted": 10,
+        "prs_merged": 9,
         "commits": 0
       },
       {
         "author": "AlexAUT",
-        "prs_submitted": 5,
-        "prs_merged": 4,
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "sriakrish",
+        "prs_submitted": 3,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -48,13 +54,7 @@
       {
         "author": "mgehre-amd",
         "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "sriakrish",
-        "prs_submitted": 2,
-        "prs_merged": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -82,12 +82,12 @@
         "commits": 0
       }
     ],
-    "bus_factor": 4
+    "bus_factor": 3
   },
   "issue_health": {
-    "total_open": 24,
-    "opened_this_week": 2,
-    "closed_this_week": 19,
+    "total_open": 23,
+    "opened_this_week": 1,
+    "closed_this_week": 18,
     "unanswered": 9
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 32.8,
+    "days_since_last": 33.9,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

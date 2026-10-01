@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-09-30T14:21:36Z",
+  "collected_at": "2026-10-01T14:54:04Z",
   "issues": [
+    {
+      "number": 1218,
+      "title": "Bug: the Numeric wrapper bypasses index normalization.",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "created_at": "2026-09-30T18:34:15Z",
+      "updated_at": "2026-09-30T18:34:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1218",
+      "labels": []
+    },
     {
       "number": 1211,
       "title": "[Issue]: convert-fly-to-rocdl fails to legalize FP8 scf.for iter_args in 0.3.4.1",
