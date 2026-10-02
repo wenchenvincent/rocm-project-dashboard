@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-10-01T14:54:02Z",
+  "collected_at": "2026-10-02T14:15:45Z",
   "prs": [
+    {
+      "number": 1223,
+      "title": "[Kernel][FA][AOT][Feature][Dialect][DSL][ROCDL][Perf][Doc][Test] Add \u2026",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T16:38:35Z",
+      "updated_at": "2026-10-02T02:50:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1222,
       "title": "[Build] Fall back to HIP runtime from rocm-sdk core wheels",

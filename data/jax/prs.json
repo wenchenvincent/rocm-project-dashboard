@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-10-01T14:52:54Z",
+  "collected_at": "2026-10-02T14:14:34Z",
   "prs": [
+    {
+      "number": 41231,
+      "title": "[ROCm] Fix copy file build to fix rbe build failures with no docker imgs",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T13:48:42Z",
+      "updated_at": "2026-10-02T13:48:42Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41231",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 41230,
+      "title": "[ROCM]  Add TheRock `rocm_sysdeps/lib` to wheel RUNPATHs needed for MORI deps",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T13:25:30Z",
+      "updated_at": "2026-10-02T13:29:08Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41230",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41187,
+      "title": "[ROCm] Drop gfx1250-strict from the default ROCm targets",
+      "author": "gulsumgudukbay",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-01T16:02:46Z",
+      "updated_at": "2026-10-01T19:09:45Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41187",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 41130,
       "title": "[ROCm] Enable the Pallas-Triton ragged_dot lowering on ROCm",
@@ -497,21 +537,6 @@
       "created_at": "2026-07-31T16:38:35Z",
       "updated_at": "2026-08-03T16:29:03Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39632",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39634,
-      "title": "[ROCm] Find ROCm plugin packages by major version",
-      "author": "gulsumgudukbay",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-31T18:16:28Z",
-      "updated_at": "2026-07-31T23:04:28Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39634",
       "labels": [
         "kokoro:force-run",
         "pull ready"

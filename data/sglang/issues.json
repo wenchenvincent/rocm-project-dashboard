@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-01T14:53:18Z",
+  "collected_at": "2026-10-02T14:15:01Z",
   "issues": [
     {
       "number": 17050,
@@ -7,9 +7,63 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-10-01T14:32:28Z",
+      "updated_at": "2026-10-02T13:55:21Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 35003,
+      "title": "AMD Development Roadmap (2026 Q3)",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-08-16T05:07:07Z",
+      "updated_at": "2026-10-02T07:51:10Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/35003",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 42173,
+      "title": "RFC: Capability-based device gating for CUDA-compatible OOT platforms",
+      "author": "Peter9606",
+      "state": "open",
+      "created_at": "2026-10-02T02:30:50Z",
+      "updated_at": "2026-10-02T07:14:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42173",
+      "labels": []
+    },
+    {
+      "number": 42188,
+      "title": "[Bug] DSv4.1: text-only batches take `vision_topk()` on CUDA, skipping recorder and EPLB remap",
+      "author": "Frank-whw",
+      "state": "open",
+      "created_at": "2026-10-02T05:10:25Z",
+      "updated_at": "2026-10-02T05:10:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42188",
+      "labels": []
+    },
+    {
+      "number": 41852,
+      "title": "[AMD][Diffusion] Add a FlyDSL attention path for gfx1151",
+      "author": "weimin023",
+      "state": "open",
+      "created_at": "2026-09-30T07:45:11Z",
+      "updated_at": "2026-10-02T02:45:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/41852",
+      "labels": []
+    },
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-10-02T00:59:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
     },
     {
       "number": 21302,
@@ -30,28 +84,6 @@
       "updated_at": "2026-10-01T04:09:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/39499",
       "labels": []
-    },
-    {
-      "number": 41852,
-      "title": "[AMD][Diffusion] Add a reliable gfx1151 attention path without AOTriton",
-      "author": "weimin023",
-      "state": "open",
-      "created_at": "2026-09-30T07:45:11Z",
-      "updated_at": "2026-09-30T18:41:04Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/41852",
-      "labels": []
-    },
-    {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-09-30T02:03:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
     },
     {
       "number": 16565,
@@ -412,16 +444,6 @@
       "labels": []
     },
     {
-      "number": 38709,
-      "title": "[Bug][ROCm] --dcp-size > 1 crashes every rank on the first forward: forward_absorb_rocm_core unpacks 2 values from a 1-value return",
-      "author": "skimanwhite",
-      "state": "open",
-      "created_at": "2026-09-09T17:27:38Z",
-      "updated_at": "2026-09-09T17:27:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/38709",
-      "labels": []
-    },
-    {
       "number": 38710,
       "title": "[Bug] enable_aiter_allreduce_fusion auto-enable is commented out while the log still claims it was enabled",
       "author": "skimanwhite",
@@ -432,6 +454,16 @@
       "labels": []
     },
     {
+      "number": 38709,
+      "title": "[Bug][ROCm] --dcp-size > 1 crashes every rank on the first forward: forward_absorb_rocm_core unpacks 2 values from a 1-value return",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-09-09T17:27:38Z",
+      "updated_at": "2026-09-09T17:27:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38709",
+      "labels": []
+    },
+    {
       "number": 38708,
       "title": "[Bug][ROCm] --cuda-graph-backend-decode breakable fails at startup on DSA models: 'NoneType' object has no attribute 'get_page_table_64'",
       "author": "skimanwhite",
@@ -439,16 +471,6 @@
       "created_at": "2026-09-09T17:27:37Z",
       "updated_at": "2026-09-09T17:27:37Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38708",
-      "labels": []
-    },
-    {
-      "number": 22949,
-      "title": "Development Roadmap (2026 Q2)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-09-08T20:14:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
       "labels": []
     },
     {
@@ -519,26 +541,6 @@
       "created_at": "2026-06-30T09:16:20Z",
       "updated_at": "2026-08-30T08:16:50Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29738",
-      "labels": []
-    },
-    {
-      "number": 36390,
-      "title": "[Bug] [ROCm] DeepSeek-V4-Flash FP8 on MI300X (gfx942): output degrades with context length \u2014 coherent <100 tokens, garbage by ~300, NIAH 0/3",
-      "author": "raviguptaamd",
-      "state": "open",
-      "created_at": "2026-08-25T22:33:18Z",
-      "updated_at": "2026-08-27T07:48:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36390",
-      "labels": []
-    },
-    {
-      "number": 34351,
-      "title": "[Bug][AMD][diffusion] FLUX server crashes on ROCm: Triton PTX inline-asm ('=f' constraint) in diffusion layernorm/numerics kernels fails to compile on gfx942",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-08-11T03:34:40Z",
-      "updated_at": "2026-08-27T07:17:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34351",
       "labels": []
     }
   ]

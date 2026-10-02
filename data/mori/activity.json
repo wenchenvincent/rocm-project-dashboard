@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-01T14:57:06Z",
+  "collected_at": "2026-10-02T14:18:37Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
@@ -9,35 +9,35 @@
       "closed": 0
     },
     "last_week": {
-      "opened": 25,
-      "merged": 20,
+      "opened": 21,
+      "merged": 15,
       "closed": 2
     },
-    "median_time_to_merge_hours": 19.4,
-    "merge_count": 28,
-    "stale_prs": 21
+    "median_time_to_merge_hours": 20.1,
+    "merge_count": 23,
+    "stale_prs": 22
   },
   "contributors": {
-    "active_this_week": 16,
+    "active_this_week": 15,
     "total_contributors": 38,
     "top_contributors": [
       {
         "author": "jhchouuu",
         "prs_submitted": 23,
         "prs_merged": 17,
-        "commits": 13
+        "commits": 12
       },
       {
         "author": "isytwu",
         "prs_submitted": 12,
         "prs_merged": 7,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "QizhouZhang97",
         "prs_submitted": 11,
         "prs_merged": 10,
-        "commits": 9
+        "commits": 8
       },
       {
         "author": "kawhil-amd",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 17.5,
+    "days_since_last": 18.5,
     "avg_interval_days": 24.4,
     "total_releases": 5,
     "latest_tag": "v1.2.3.post1"

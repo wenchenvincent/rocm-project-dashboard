@@ -1,15 +1,111 @@
 {
-  "collected_at": "2026-10-01T14:53:20Z",
+  "collected_at": "2026-10-02T14:15:04Z",
   "prs": [
     {
-      "number": 11707,
-      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
-      "author": "jungpark-mlir",
+      "number": 11945,
+      "title": "[AMD] Add GFX1250-strict Support",
+      "author": "amirumoAMD",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-11T14:21:46Z",
-      "updated_at": "2026-10-01T14:34:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11707",
+      "created_at": "2026-09-24T19:30:59Z",
+      "updated_at": "2026-10-02T14:03:40Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11945",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11486,
+      "title": "[AMD] Use hardware cvt instructions for OCP fp8 casts on gfx1170",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T21:43:17Z",
+      "updated_at": "2026-10-02T13:22:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11486",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11896,
+      "title": "[AMD] Do not insert barriers between mbarrier-synchronized TDM copies",
+      "author": "nirvedhmeshram",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T19:52:11Z",
+      "updated_at": "2026-10-02T11:38:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11896",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12058,
+      "title": "[AMD] Build the scheduling DAG on the live codegen MachineFunction",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T22:17:45Z",
+      "updated_at": "2026-10-02T10:51:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12058",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12064,
+      "title": "[AMD] Find llc in Triton's own LLVM package for the DAG cross-check",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T05:53:02Z",
+      "updated_at": "2026-10-02T10:44:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12064",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11068,
+      "title": "[AMD] Propagate discardable attributes on the small-tensor pointer path",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T09:39:52Z",
+      "updated_at": "2026-10-02T09:37:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11068",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12063,
+      "title": "[AMD][gfx1250] Turn on kernarg SGPR preload",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-02T05:50:41Z",
+      "updated_at": "2026-10-02T06:30:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12063",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12062,
+      "title": "[AMD] Launch the MIR-stage subprocess tests with sys.executable",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T05:49:14Z",
+      "updated_at": "2026-10-02T06:00:04Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12062",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12060,
+      "title": "[AMD] Avoid redundant batch warps in dot layouts",
+      "author": "pculaf",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T23:07:35Z",
+      "updated_at": "2026-10-01T23:07:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12060",
       "labels": [],
       "draft": false
     },
@@ -17,13 +113,49 @@
       "number": 12050,
       "title": "[AMD] Enable test_debug.py in CI",
       "author": "alefimov-amd",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-10-01T12:02:32Z",
-      "updated_at": "2026-10-01T12:02:37Z",
+      "updated_at": "2026-10-01T22:56:12Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12050",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 11707,
+      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
+      "author": "jungpark-mlir",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-11T14:21:46Z",
+      "updated_at": "2026-10-01T22:37:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11707",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11295,
+      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T15:41:53Z",
+      "updated_at": "2026-10-01T22:09:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11295",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11911,
+      "title": "[AMD] Allow the tagged barrier lowering on RDNA in CU mode",
+      "author": "mgehre-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T17:39:44Z",
+      "updated_at": "2026-10-01T19:32:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11911",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 11922,
@@ -36,18 +168,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11922",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11911,
-      "title": "[AMD] Allow the tagged barrier lowering on RDNA in CU mode",
-      "author": "mgehre-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T17:39:44Z",
-      "updated_at": "2026-10-01T07:05:05Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11911",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11910,
@@ -106,18 +226,6 @@
       "created_at": "2026-09-30T05:43:38Z",
       "updated_at": "2026-09-30T15:49:46Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12039",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11945,
-      "title": "[AMD] Add GFX1250-strict Support",
-      "author": "amirumoAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T19:30:59Z",
-      "updated_at": "2026-09-30T14:10:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11945",
       "labels": [],
       "draft": false
     },
@@ -182,18 +290,6 @@
       "draft": true
     },
     {
-      "number": 11896,
-      "title": "[AMD] Do not insert barriers between mbarrier-synchronized TDM copies",
-      "author": "nirvedhmeshram",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T19:52:11Z",
-      "updated_at": "2026-09-29T21:49:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11896",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12031,
       "title": "[AMD][CI] Bump rocjitsu and enable more tests",
       "author": "sriakrish",
@@ -204,18 +300,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12031",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11486,
-      "title": "[AMD] Use hardware cvt instructions for OCP fp8 casts on gfx1170",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T21:43:17Z",
-      "updated_at": "2026-09-29T16:08:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11486",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11890,
@@ -506,18 +590,6 @@
       "draft": true
     },
     {
-      "number": 11884,
-      "title": "[AMD][BACKEND] Hash external library contents in compiler options",
-      "author": "qedawkins",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-20T23:39:46Z",
-      "updated_at": "2026-09-21T04:04:53Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11884",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11880,
       "title": "[AMD] Compute the HIP pointer-range bit natively",
       "author": "lijinpei-amd",
@@ -542,18 +614,6 @@
       "draft": true
     },
     {
-      "number": 11049,
-      "title": "[AMD] Fix AMDMfmaEncodingAttr invalid-bool-load UBSan error",
-      "author": "JAGANNATHANJP",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-25T17:04:26Z",
-      "updated_at": "2026-09-19T03:50:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11049",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11809,
       "title": "[AMD] Use hardware OCP FP8 upcasts on RDNA4",
       "author": "zihaomu",
@@ -562,18 +622,6 @@
       "created_at": "2026-09-16T05:25:52Z",
       "updated_at": "2026-09-19T01:37:06Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11809",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11792,
-      "title": "[AMD][gfx950][Gluon] Add cd_regclass to mfma and mfma_scaled",
-      "author": "zhanglx13",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-15T02:33:06Z",
-      "updated_at": "2026-09-19T00:16:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11792",
       "labels": [],
       "draft": false
     },
@@ -638,18 +686,6 @@
       "draft": false
     },
     {
-      "number": 11295,
-      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-09-14T18:58:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11295",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11655,
       "title": "[AMD] Widen InstCombine's SimplifyDemandedVectorElts walk depth",
       "author": "Dewei-Wang-sh",
@@ -682,42 +718,6 @@
       "created_at": "2026-09-03T22:44:37Z",
       "updated_at": "2026-09-03T22:46:00Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11577",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11527,
-      "title": "[AMD] Scalarize masked f32 vec2 buffer stores on gfx1151",
-      "author": "keneoneth",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T03:07:01Z",
-      "updated_at": "2026-09-01T23:36:48Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11527",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11266,
-      "title": "[AMD][Backend] Lower tl.fdiv to approximate f32 division on AMD",
-      "author": "purerli98",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T12:25:52Z",
-      "updated_at": "2026-08-31T09:22:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11266",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11435,
-      "title": "[RFC][AMD][Gluon] Require other for masked buffer-to-shared loads",
-      "author": "raikonenfnu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T00:10:41Z",
-      "updated_at": "2026-08-26T19:00:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11435",
       "labels": [],
       "draft": false
     }

@@ -1,6 +1,76 @@
 {
-  "collected_at": "2026-10-01T14:53:46Z",
+  "collected_at": "2026-10-02T14:15:30Z",
   "issues": [
+    {
+      "number": 6094,
+      "title": "[Issue]: fused_reduce_rms_fp8_group_quant masks inp2 columns with inp1's width",
+      "author": "truong-v",
+      "state": "open",
+      "created_at": "2026-10-02T14:02:20Z",
+      "updated_at": "2026-10-02T14:02:20Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6094",
+      "labels": []
+    },
+    {
+      "number": 6093,
+      "title": "[Issue]: Triton topk returns repeated / out-of-range indices and NaN for rows containing -inf",
+      "author": "truong-v",
+      "state": "open",
+      "created_at": "2026-10-02T14:02:19Z",
+      "updated_at": "2026-10-02T14:02:19Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6093",
+      "labels": []
+    },
+    {
+      "number": 6072,
+      "title": "[Bug] moe_gemm_a16w4 gfx950 Gluon kernel fails to compile when indices are upcast to int64 (buffer_load_to_shared needs int32 offsets)",
+      "author": "zhanglx13",
+      "state": "open",
+      "created_at": "2026-10-02T00:10:31Z",
+      "updated_at": "2026-10-02T00:10:31Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6072",
+      "labels": []
+    },
+    {
+      "number": 6062,
+      "title": "[vLLM] DSR1 FP4 Optimizations",
+      "author": "farlukas",
+      "state": "open",
+      "created_at": "2026-10-01T18:13:36Z",
+      "updated_at": "2026-10-01T18:14:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6062",
+      "labels": []
+    },
+    {
+      "number": 6059,
+      "title": "FlyDSL PA decode kernel",
+      "author": "ahmed-bsod",
+      "state": "open",
+      "created_at": "2026-10-01T15:31:58Z",
+      "updated_at": "2026-10-01T15:32:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6059",
+      "labels": []
+    },
+    {
+      "number": 6058,
+      "title": "FlyDSL MLA bf16 kernel",
+      "author": "ahmed-bsod",
+      "state": "open",
+      "created_at": "2026-10-01T15:31:06Z",
+      "updated_at": "2026-10-01T15:31:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6058",
+      "labels": []
+    },
+    {
+      "number": 6057,
+      "title": "MXFP8 GEMM for DSV4.1",
+      "author": "ahmed-bsod",
+      "state": "open",
+      "created_at": "2026-10-01T15:29:28Z",
+      "updated_at": "2026-10-01T15:29:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6057",
+      "labels": []
+    },
     {
       "number": 6053,
       "title": "[Feature]: Improve top_k_per_row_decode performance at <64k ctx, topk=512",
@@ -268,16 +338,6 @@
       "labels": []
     },
     {
-      "number": 5827,
-      "title": "[Feature]: Support mm_prefix + noncausal in unified attention",
-      "author": "amd-xavierwang",
-      "state": "open",
-      "created_at": "2026-09-24T21:37:48Z",
-      "updated_at": "2026-09-25T22:24:20Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5827",
-      "labels": []
-    },
-    {
       "number": 5843,
       "title": "[vLLM][AITER] Integrate relu2 (Squared ReLU) MoE support into vLLM AITER backend",
       "author": "shantipriya-amd",
@@ -394,16 +454,6 @@
       "labels": [
         "Triton/Gluon"
       ]
-    },
-    {
-      "number": 5741,
-      "title": "[Defect]: Unified_attention produces wrong output using SPLIT_UNMASKED_LOOP=1 and SLIDING_WINDOW=1",
-      "author": "amd-xavierwang",
-      "state": "open",
-      "created_at": "2026-09-21T22:05:01Z",
-      "updated_at": "2026-09-22T18:24:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5741",
-      "labels": []
     },
     {
       "number": 5769,
@@ -523,26 +573,6 @@
       "created_at": "2026-09-18T15:26:47Z",
       "updated_at": "2026-09-18T15:31:36Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5673",
-      "labels": []
-    },
-    {
-      "number": 5662,
-      "title": "bench_unified_attention.py: throughput/bandwidth metrics ignore sliding_window (inflated, above-roofline numbers)",
-      "author": "mpashkovskii",
-      "state": "open",
-      "created_at": "2026-09-18T10:36:32Z",
-      "updated_at": "2026-09-18T10:38:20Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5662",
-      "labels": []
-    },
-    {
-      "number": 5661,
-      "title": "bench_unified_attention.py: fp8 KV -test reference is mis-scaled (false correctness failures)",
-      "author": "mpashkovskii",
-      "state": "open",
-      "created_at": "2026-09-18T10:36:18Z",
-      "updated_at": "2026-09-18T10:38:17Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5661",
       "labels": []
     },
     {

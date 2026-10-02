@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-10-01T14:53:58Z",
+  "collected_at": "2026-10-02T14:15:41Z",
   "prs": [
+    {
+      "number": 623,
+      "title": "SDMA HIP device management fixes",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T11:14:37Z",
+      "updated_at": "2026-10-01T15:50:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/623",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 716,
+      "title": "Report peer failures instead of always claiming peers are alive",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T22:05:48Z",
+      "updated_at": "2026-10-01T15:00:31Z",
+      "html_url": "https://github.com/ROCm/mori/pull/716",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 670,
       "title": "Feat/io rdma retry tunables",
@@ -22,18 +46,6 @@
       "created_at": "2026-09-28T01:52:42Z",
       "updated_at": "2026-09-30T13:27:59Z",
       "html_url": "https://github.com/ROCm/mori/pull/712",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 623,
-      "title": "SDMA HIP device management fixes",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T11:14:37Z",
-      "updated_at": "2026-09-30T12:05:18Z",
-      "html_url": "https://github.com/ROCm/mori/pull/623",
       "labels": [],
       "draft": false
     },
@@ -70,18 +82,6 @@
       "created_at": "2026-09-22T03:05:00Z",
       "updated_at": "2026-09-30T03:01:52Z",
       "html_url": "https://github.com/ROCm/mori/pull/696",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 716,
-      "title": "Report peer failures instead of always claiming peers are alive",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T22:05:48Z",
-      "updated_at": "2026-09-30T02:07:28Z",
-      "html_url": "https://github.com/ROCm/mori/pull/716",
       "labels": [],
       "draft": false
     },

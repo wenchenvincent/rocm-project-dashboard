@@ -1,24 +1,24 @@
 {
-  "collected_at": "2026-10-01T14:57:12Z",
+  "collected_at": "2026-10-02T14:18:43Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 28,
+      "opened": 24,
       "merged": 14,
-      "closed": 5
+      "closed": 4
     },
     "last_week": {
-      "opened": 31,
-      "merged": 30,
+      "opened": 25,
+      "merged": 25,
       "closed": 3
     },
-    "median_time_to_merge_hours": 25.4,
-    "merge_count": 47,
+    "median_time_to_merge_hours": 28.3,
+    "merge_count": 42,
     "stale_prs": 12
   },
   "contributors": {
-    "active_this_week": 21,
+    "active_this_week": 19,
     "total_contributors": 49,
     "top_contributors": [
       {
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 49,
     "opened_this_week": 3,
-    "closed_this_week": 1,
+    "closed_this_week": 2,
     "unanswered": 21
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 12.0,
+    "days_since_last": 13.0,
     "avg_interval_days": 23.5,
     "total_releases": 5,
     "latest_tag": "v0.3.4.1"
