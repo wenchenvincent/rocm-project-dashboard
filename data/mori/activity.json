@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-02T14:18:37Z",
+  "collected_at": "2026-10-03T12:51:14Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
@@ -37,7 +37,7 @@
         "author": "QizhouZhang97",
         "prs_submitted": 11,
         "prs_merged": 10,
-        "commits": 8
+        "commits": 7
       },
       {
         "author": "kawhil-amd",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 18.5,
+    "days_since_last": 19.4,
     "avg_interval_days": 24.4,
     "total_releases": 5,
     "latest_tag": "v1.2.3.post1"

@@ -1,30 +1,30 @@
 {
-  "collected_at": "2026-10-02T14:17:22Z",
+  "collected_at": "2026-10-03T12:50:08Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 211,
-      "merged": 100,
-      "closed": 25
+      "opened": 215,
+      "merged": 89,
+      "closed": 24
     },
     "last_week": {
-      "opened": 154,
-      "merged": 97,
-      "closed": 33
+      "opened": 163,
+      "merged": 110,
+      "closed": 35
     },
-    "median_time_to_merge_hours": 71.6,
-    "merge_count": 199,
-    "stale_prs": 252
+    "median_time_to_merge_hours": 72.7,
+    "merge_count": 202,
+    "stale_prs": 259
   },
   "contributors": {
-    "active_this_week": 168,
-    "total_contributors": 341,
+    "active_this_week": 164,
+    "total_contributors": 343,
     "top_contributors": [
       {
         "author": "Boss2002n",
         "prs_submitted": 28,
-        "prs_merged": 12,
+        "prs_merged": 13,
         "commits": 30
       },
       {
@@ -44,6 +44,12 @@
         "prs_submitted": 10,
         "prs_merged": 0,
         "commits": 2
+      },
+      {
+        "author": "k50112113",
+        "prs_submitted": 9,
+        "prs_merged": 2,
+        "commits": 7
       },
       {
         "author": "yzhou103",
@@ -70,32 +76,26 @@
         "commits": 0
       },
       {
-        "author": "akii96",
+        "author": "XiaobingSuper",
         "prs_submitted": 8,
-        "prs_merged": 0,
-        "commits": 1
-      },
-      {
-        "author": "omuhamma",
-        "prs_submitted": 8,
-        "prs_merged": 2,
-        "commits": 4
+        "prs_merged": 1,
+        "commits": 11
       }
     ],
-    "bus_factor": 16
+    "bus_factor": 13
   },
   "issue_health": {
-    "total_open": 368,
-    "opened_this_week": 31,
-    "closed_this_week": 12,
-    "unanswered": 175
+    "total_open": 372,
+    "opened_this_week": 35,
+    "closed_this_week": 11,
+    "unanswered": 173
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.2,
-    "avg_interval_days": 4.8,
+    "days_since_last": 0.8,
+    "avg_interval_days": 4.6,
     "total_releases": 5,
-    "latest_tag": "v0.1.24"
+    "latest_tag": "v0.1.24.post1"
   }
 }

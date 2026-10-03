@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-02T14:14:34Z",
+  "collected_at": "2026-10-03T12:48:01Z",
   "prs": [
     {
       "number": 41231,
@@ -8,8 +8,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-02T13:48:42Z",
-      "updated_at": "2026-10-02T13:48:42Z",
+      "updated_at": "2026-10-02T15:40:46Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41231",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 41233,
+      "title": "Switch to new RBE cluster for ROCm Bazel tests",
+      "author": "charleshofer",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T14:44:31Z",
+      "updated_at": "2026-10-02T14:49:06Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41233",
       "labels": [],
       "draft": true
     },

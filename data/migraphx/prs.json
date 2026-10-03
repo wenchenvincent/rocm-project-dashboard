@@ -1,15 +1,53 @@
 {
-  "collected_at": "2026-10-02T14:15:07Z",
+  "collected_at": "2026-10-03T12:48:26Z",
   "prs": [
     {
-      "number": 5339,
-      "title": "[AIMIGRAPHX-1301] add checks for size of literals when creating from protobuf",
-      "author": "kahmed10",
+      "number": 5350,
+      "title": "fix fuse_concat across submods",
+      "author": "shivadbhavsar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-30T18:48:42Z",
-      "updated_at": "2026-10-02T05:26:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5339",
+      "created_at": "2026-10-03T03:49:54Z",
+      "updated_at": "2026-10-03T06:56:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5350",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5100,
+      "title": "Add binary cache",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-29T15:47:37Z",
+      "updated_at": "2026-10-03T05:18:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5100",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5271,
+      "title": "Fuse reduce slices and squeezed epilogues, tile short reductions, and match attention output through view ops",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T14:59:37Z",
+      "updated_at": "2026-10-03T03:13:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5271",
+      "labels": [
+        "llm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5340,
+      "title": "Split_sym_dim prefill+decode support",
+      "author": "turneram",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T19:01:24Z",
+      "updated_at": "2026-10-03T01:24:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5340",
       "labels": [],
       "draft": true
     },
@@ -20,8 +58,151 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-01T00:20:39Z",
-      "updated_at": "2026-10-02T04:33:01Z",
+      "updated_at": "2026-10-03T00:31:56Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5344",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5304,
+      "title": "Adding support for operators with data-depdendent shape functions to `split_sym_dim`",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T01:04:10Z",
+      "updated_at": "2026-10-03T00:02:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5304",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5338,
+      "title": "Add support for quantized add",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T18:01:25Z",
+      "updated_at": "2026-10-02T23:43:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5338",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5245,
+      "title": "Update NonZero to slice to number of non-zero elements",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T17:29:24Z",
+      "updated_at": "2026-10-02T23:15:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5245",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5281,
+      "title": "Bump soupsieve from 2.8.4 to 2.9 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T01:31:13Z",
+      "updated_at": "2026-10-03T03:34:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5281",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5290,
+      "title": "Bump rocm-docs-core from 1.40.2 to 1.41.0 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T12:43:24Z",
+      "updated_at": "2026-10-03T02:30:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5290",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5349,
+      "title": "Onnxruntime Weekly Sync 2026-10-02",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T17:22:25Z",
+      "updated_at": "2026-10-02T23:03:00Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5349",
+      "labels": [
+        "onnxruntime",
+        "dependencies",
+        "skip bot checks",
+        "automated"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5213,
+      "title": "Docs: getting started and miscellaneous docs refactoring",
+      "author": "anisha-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-28T19:57:44Z",
+      "updated_at": "2026-10-02T22:23:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5213",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5123,
+      "title": "Split symbolic dimension pass",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T19:28:05Z",
+      "updated_at": "2026-10-02T20:01:00Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5339,
+      "title": "[AIMIGRAPHX-1301] add checks for size of literals when creating from protobuf",
+      "author": "kahmed10",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T18:48:42Z",
+      "updated_at": "2026-10-02T18:36:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5339",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3766,
+      "title": "Remove rocmlir unsupported reduce types",
+      "author": "dhernandez0",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-01-17T14:43:48Z",
+      "updated_at": "2026-10-02T18:34:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3766",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5348,
+      "title": "Fuse expert gathers, interleaved swiglu, and the expert sum into the fused_reduce kernels",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T16:12:40Z",
+      "updated_at": "2026-10-02T16:18:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5348",
       "labels": [],
       "draft": false
     },
@@ -38,30 +219,6 @@
       "draft": false
     },
     {
-      "number": 5340,
-      "title": "Split_sym_dim prefill+decode support",
-      "author": "turneram",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T19:01:24Z",
-      "updated_at": "2026-10-02T01:37:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5340",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5123,
-      "title": "Split symbolic dimension pass",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T19:28:05Z",
-      "updated_at": "2026-10-01T22:22:30Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5324,
       "title": "Fuse topk",
       "author": "pfultz2",
@@ -71,21 +228,6 @@
       "updated_at": "2026-10-01T22:07:23Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5324",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5330,
-      "title": "Specify list of models for model zoo CI",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T00:42:29Z",
-      "updated_at": "2026-10-01T21:07:07Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5330",
-      "labels": [
-        "Continous Integration",
-        "Changelog: Not Applicable"
-      ],
       "draft": false
     },
     {
@@ -100,48 +242,6 @@
       "labels": [
         "enhancement",
         "Changelog: Added"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5347,
-      "title": "Bump gitpython from 3.1.58 to 3.1.62 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T17:48:02Z",
-      "updated_at": "2026-10-01T17:48:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5347",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5346,
-      "title": "Bump tornado from 6.5.8 to 6.5.9 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T17:47:48Z",
-      "updated_at": "2026-10-01T17:47:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5346",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5271,
-      "title": "Fuse reduce slices and squeezed epilogues, tile short reductions, and match attention output through view ops",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T14:59:37Z",
-      "updated_at": "2026-10-01T16:32:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5271",
-      "labels": [
-        "llm"
       ],
       "draft": false
     },
@@ -170,46 +270,6 @@
       "draft": true
     },
     {
-      "number": 5343,
-      "title": "Bump urllib3 from 2.7.0 to 2.8.0 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T22:41:57Z",
-      "updated_at": "2026-09-30T22:41:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5343",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5342,
-      "title": "Bump pyjwt from 2.13.0 to 2.15.0 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T22:41:53Z",
-      "updated_at": "2026-09-30T22:41:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5342",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5304,
-      "title": "Adding support for operators with data-depdendent shape functions to `split_sym_dim`",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T01:04:10Z",
-      "updated_at": "2026-09-30T22:39:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5304",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5260,
       "title": "gqa/fuse_attention: attention sinks + sliding-window decode mask for GPT-OSS",
       "author": "rlegithub",
@@ -218,42 +278,6 @@
       "created_at": "2026-09-13T23:57:51Z",
       "updated_at": "2026-09-30T21:19:47Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5260",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3766,
-      "title": "Remove rocmlir unsupported reduce types",
-      "author": "dhernandez0",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-01-17T14:43:48Z",
-      "updated_at": "2026-09-30T21:07:08Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3766",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5245,
-      "title": "Update NonZero to slice to number of non-zero elements",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T17:29:24Z",
-      "updated_at": "2026-09-30T20:23:20Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5245",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5338,
-      "title": "Add support for quantized add",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T18:01:25Z",
-      "updated_at": "2026-09-30T18:14:35Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5338",
       "labels": [],
       "draft": false
     },
@@ -318,32 +342,6 @@
       "updated_at": "2026-09-28T21:56:43Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5175",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5100,
-      "title": "Add binary cache",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-29T15:47:37Z",
-      "updated_at": "2026-09-28T21:55:17Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5100",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5213,
-      "title": "Docs: getting started and miscellaneous docs refactoring",
-      "author": "anisha-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-28T19:57:44Z",
-      "updated_at": "2026-09-28T15:30:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5213",
-      "labels": [
-        "documentation"
-      ],
       "draft": false
     },
     {
@@ -539,20 +537,6 @@
       "draft": true
     },
     {
-      "number": 5290,
-      "title": "Bump rocm-docs-core from 1.40.2 to 1.41.0 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T12:43:24Z",
-      "updated_at": "2026-09-21T16:43:31Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5290",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
       "number": 5284,
       "title": "Update mlir problem key with a md5 sum",
       "author": "pfultz2",
@@ -562,20 +546,6 @@
       "updated_at": "2026-09-18T18:35:26Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5284",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5281,
-      "title": "Bump soupsieve from 2.8.4 to 2.9 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T01:31:13Z",
-      "updated_at": "2026-09-18T01:31:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5281",
-      "labels": [
-        "documentation"
-      ],
       "draft": false
     },
     {
@@ -1621,6 +1591,77 @@
       "draft": true
     },
     {
+      "number": 5342,
+      "title": "Bump pyjwt from 2.13.0 to 2.15.0 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-30T22:41:53Z",
+      "updated_at": "2026-10-02T23:07:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5342",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5343,
+      "title": "Bump urllib3 from 2.7.0 to 2.8.0 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-30T22:41:57Z",
+      "updated_at": "2026-10-02T23:07:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5343",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5346,
+      "title": "Bump tornado from 6.5.8 to 6.5.9 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-01T17:47:48Z",
+      "updated_at": "2026-10-02T23:06:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5346",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5347,
+      "title": "Bump gitpython from 3.1.58 to 3.1.62 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-01T17:48:02Z",
+      "updated_at": "2026-10-02T23:05:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5347",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5330,
+      "title": "Specify list of models for model zoo CI",
+      "author": "eddieliao",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-29T00:42:29Z",
+      "updated_at": "2026-10-02T20:52:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5330",
+      "labels": [
+        "Continous Integration",
+        "Changelog: Not Applicable"
+      ],
+      "draft": false
+    },
+    {
       "number": 5151,
       "title": "NMS parse into `dyn_slice` and remove env variable",
       "author": "CharlieL7",
@@ -2635,42 +2676,6 @@
       "labels": [
         "ok-to-test"
       ],
-      "draft": false
-    },
-    {
-      "number": 5263,
-      "title": "Revert \"[ROCM-26731] Exclude external PRs from CI GitHub action\"",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-14T19:15:32Z",
-      "updated_at": "2026-09-16T18:25:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5263",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5190,
-      "title": "Fix matcher `has_value` tolerance for low precision types",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-25T19:04:33Z",
-      "updated_at": "2026-09-16T17:49:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5190",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5160,
-      "title": "Have reduce_sum, reduce_mean, and reduce_prod accumulate in wider floating point for fp8",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-20T22:33:55Z",
-      "updated_at": "2026-09-16T13:58:34Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5160",
-      "labels": [],
       "draft": false
     }
   ]

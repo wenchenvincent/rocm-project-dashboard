@@ -1,15 +1,99 @@
 {
-  "collected_at": "2026-10-02T14:15:04Z",
+  "collected_at": "2026-10-03T12:48:23Z",
   "prs": [
+    {
+      "number": 12073,
+      "title": "[AMD][Gluon] Adds a standalone Gluon example for clustered warp-pipeline GEMMs on AMD CDNA5.",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T14:59:52Z",
+      "updated_at": "2026-10-03T11:39:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12073",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12058,
+      "title": "[AMD] Build the scheduling DAG on the live codegen MachineFunction",
+      "author": "tyb0807",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-01T22:17:45Z",
+      "updated_at": "2026-10-03T06:03:25Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12058",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12083,
+      "title": "Catch LLVM diagnostic and raise Python exception in both Nvidia and AMD backends",
+      "author": "woct0rdho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-03T03:01:32Z",
+      "updated_at": "2026-10-03T05:44:54Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12083",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12082,
+      "title": "feat(amd): expose gfx1250 WMMA arbitration control",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-03T00:38:48Z",
+      "updated_at": "2026-10-03T00:40:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12082",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12080,
+      "title": "[AMD] Run the MIR-stage tests in AMD CI",
+      "author": "tyb0807",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-02T18:24:22Z",
+      "updated_at": "2026-10-02T23:01:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12080",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 11945,
       "title": "[AMD] Add GFX1250-strict Support",
       "author": "amirumoAMD",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-09-24T19:30:59Z",
-      "updated_at": "2026-10-02T14:03:40Z",
+      "updated_at": "2026-10-02T19:29:03Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11945",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12062,
+      "title": "[AMD] Launch the MIR-stage subprocess tests with sys.executable",
+      "author": "tyb0807",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-02T05:49:14Z",
+      "updated_at": "2026-10-02T18:09:17Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12062",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12064,
+      "title": "[AMD] Find llc in Triton's own LLVM package for the DAG cross-check",
+      "author": "tyb0807",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-02T05:53:02Z",
+      "updated_at": "2026-10-02T16:30:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12064",
       "labels": [],
       "draft": false
     },
@@ -38,30 +122,6 @@
       "draft": false
     },
     {
-      "number": 12058,
-      "title": "[AMD] Build the scheduling DAG on the live codegen MachineFunction",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T22:17:45Z",
-      "updated_at": "2026-10-02T10:51:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12058",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12064,
-      "title": "[AMD] Find llc in Triton's own LLVM package for the DAG cross-check",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T05:53:02Z",
-      "updated_at": "2026-10-02T10:44:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12064",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11068,
       "title": "[AMD] Propagate discardable attributes on the small-tensor pointer path",
       "author": "pabloantoniom",
@@ -82,18 +142,6 @@
       "created_at": "2026-10-02T05:50:41Z",
       "updated_at": "2026-10-02T06:30:43Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12063",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12062,
-      "title": "[AMD] Launch the MIR-stage subprocess tests with sys.executable",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T05:49:14Z",
-      "updated_at": "2026-10-02T06:00:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12062",
       "labels": [],
       "draft": false
     },
@@ -494,66 +542,6 @@
       "draft": false
     },
     {
-      "number": 11709,
-      "title": "[AMD] Fix XF32 MFMA lowering for small K",
-      "author": "Jokeren",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-11T14:44:21Z",
-      "updated_at": "2026-09-23T15:11:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11709",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11719,
-      "title": "[AMD] Make the membar async-load filter direction-aware",
-      "author": "zhanglx13",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-11T19:13:54Z",
-      "updated_at": "2026-09-23T04:08:28Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11719",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11843,
-      "title": "[AMD] Add rocjitsu based integration tests for cdna5",
-      "author": "sriakrish",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-18T03:08:34Z",
-      "updated_at": "2026-09-23T03:42:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11843",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11802,
-      "title": "[CI][AMD] Record runner environment diagnostics",
-      "author": "willghatch",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-15T23:10:03Z",
-      "updated_at": "2026-09-22T20:57:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11802",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11912,
-      "title": "[AMD] build AMD CodeGen LLVM @ 9e5edb7ed944",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-22T19:03:59Z",
-      "updated_at": "2026-09-22T20:35:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11912",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 10328,
       "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
       "author": "Hardcode84",
@@ -720,6 +708,18 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11577",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 11527,
+      "title": "[AMD] Scalarize masked f32 vec2 buffer stores on gfx1151",
+      "author": "keneoneth",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T03:07:01Z",
+      "updated_at": "2026-09-01T23:36:48Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11527",
+      "labels": [],
+      "draft": true
     }
   ]
 }

@@ -1,93 +1,93 @@
 {
-  "collected_at": "2026-10-02T14:16:43Z",
+  "collected_at": "2026-10-03T12:49:34Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 62,
+      "opened": 81,
       "merged": 57,
-      "closed": 2
-    },
-    "last_week": {
-      "opened": 24,
-      "merged": 1,
       "closed": 0
     },
-    "median_time_to_merge_hours": 75.8,
-    "merge_count": 58,
+    "last_week": {
+      "opened": 17,
+      "merged": 0,
+      "closed": 0
+    },
+    "median_time_to_merge_hours": 52.1,
+    "merge_count": 57,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 71,
-    "total_contributors": 72,
+    "active_this_week": 64,
+    "total_contributors": 64,
     "top_contributors": [
       {
-        "author": "michaelzhang-ai",
-        "prs_submitted": 10,
-        "prs_merged": 5,
+        "author": "ch-wan",
+        "prs_submitted": 15,
+        "prs_merged": 14,
         "commits": 0
       },
       {
-        "author": "chuyeh",
-        "prs_submitted": 5,
+        "author": "yyihuang",
+        "prs_submitted": 6,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "caihuali95",
+        "author": "michaelzhang-ai",
         "prs_submitted": 5,
-        "prs_merged": 5,
+        "prs_merged": 3,
         "commits": 0
       },
       {
         "author": "kevin-mii",
-        "prs_submitted": 5,
-        "prs_merged": 5,
-        "commits": 0
-      },
-      {
-        "author": "mmangkad",
         "prs_submitted": 4,
-        "prs_merged": 2,
+        "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "elvischenv",
-        "prs_submitted": 3,
+        "author": "Tokha233",
+        "prs_submitted": 4,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "kkHuang-amd",
-        "prs_submitted": 3,
-        "prs_merged": 2,
+        "author": "DarkSharpness",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "chuyeh",
+        "prs_submitted": 4,
+        "prs_merged": 0,
         "commits": 0
       },
       {
         "author": "sherlockwu",
         "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "jiaryang",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "ajit283",
-        "prs_submitted": 2,
         "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "hnyls2002",
+        "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "niehen6174",
+        "prs_submitted": 3,
+        "prs_merged": 1,
         "commits": 0
       }
     ],
-    "bus_factor": 9
+    "bus_factor": 7
   },
   "issue_health": {
-    "total_open": 53,
+    "total_open": 52,
     "opened_this_week": 4,
-    "closed_this_week": 69,
+    "closed_this_week": 63,
     "unanswered": 15
   },
   "ci_health": {
@@ -99,29 +99,29 @@
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 2,
-      "failed": 11,
-      "success_rate": 10.0
+      "succeeded": 0,
+      "failed": 17,
+      "success_rate": 0.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 343.9,
-      "p90_minutes": 1440.2,
-      "min_minutes": 7.6,
-      "max_minutes": 2219.1
+      "median_minutes": 66.3,
+      "p90_minutes": 544.6,
+      "min_minutes": 6.7,
+      "max_minutes": 713.8
     },
     "cuda": {
-      "sample_size": 19,
-      "median_minutes": 0.8,
-      "p90_minutes": 86.6,
-      "min_minutes": 0.4,
-      "max_minutes": 98.2
+      "sample_size": 20,
+      "median_minutes": 0.6,
+      "p90_minutes": 0.8,
+      "min_minutes": 0.5,
+      "max_minutes": 60.6
     }
   },
   "release_cadence": {
-    "days_since_last": 0.5,
+    "days_since_last": 1.5,
     "avg_interval_days": 13.8,
     "total_releases": 5,
     "latest_tag": "v0.5.21"
