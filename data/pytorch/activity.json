@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-10-03T12:49:29Z",
+  "collected_at": "2026-10-04T13:34:39Z",
   "project": "pytorch",
   "repo": "pytorch/pytorch",
   "pr_velocity": {
     "this_week": {
-      "opened": 25,
+      "opened": 22,
       "merged": 1,
-      "closed": 0
+      "closed": 3
     },
     "last_week": {
-      "opened": 8,
+      "opened": 10,
       "merged": 1,
       "closed": 0
     },
@@ -23,19 +23,13 @@
     "top_contributors": [
       {
         "author": "atalman",
-        "prs_submitted": 9,
+        "prs_submitted": 8,
         "prs_merged": 8,
         "commits": 0
       },
       {
-        "author": "pablo-garay",
-        "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "ethanwee1",
-        "prs_submitted": 4,
+        "author": "lstojilj-amd",
+        "prs_submitted": 5,
         "prs_merged": 0,
         "commits": 0
       },
@@ -46,8 +40,20 @@
         "commits": 0
       },
       {
-        "author": "warrendeng",
-        "prs_submitted": 2,
+        "author": "ngimel",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "huydhn",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "pablo-garay",
+        "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
       },
@@ -58,25 +64,19 @@
         "commits": 0
       },
       {
+        "author": "dingsheng758",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "warrendeng",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
         "author": "chinmaydk99",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "williamwen42",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "gderossi",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "dnikolaev-amd",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
@@ -85,43 +85,43 @@
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 53,
-    "opened_this_week": 19,
-    "closed_this_week": 250,
+    "total_open": 48,
+    "opened_this_week": 21,
+    "closed_this_week": 255,
     "unanswered": 0
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
       "succeeded": 8,
-      "failed": 3,
+      "failed": 0,
       "success_rate": 40.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 13,
-      "failed": 3,
-      "success_rate": 65.0
+      "succeeded": 10,
+      "failed": 4,
+      "success_rate": 50.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 97.8,
-      "p90_minutes": 289.1,
+      "median_minutes": 64.8,
+      "p90_minutes": 257.2,
       "min_minutes": 0.1,
-      "max_minutes": 291.8
+      "max_minutes": 257.3
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 231.2,
-      "p90_minutes": 291.4,
-      "min_minutes": 0.1,
-      "max_minutes": 293.4
+      "median_minutes": 223.1,
+      "p90_minutes": 361.1,
+      "min_minutes": 2.3,
+      "max_minutes": 395.7
     }
   },
   "release_cadence": {
-    "days_since_last": 2.7,
+    "days_since_last": 3.8,
     "avg_interval_days": 35.0,
     "total_releases": 5,
     "latest_tag": "v2.14.1"
