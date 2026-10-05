@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-04T13:33:33Z",
+  "collected_at": "2026-10-05T16:31:34Z",
   "issues": [
+    {
+      "number": 6137,
+      "title": "[Bug] gfx942: v3 FP8 FMHA and Triton Sage drop softmax mass (constant-V output \u2248 0.42)",
+      "author": "akshatvishu",
+      "state": "open",
+      "created_at": "2026-10-04T19:29:41Z",
+      "updated_at": "2026-10-04T19:36:36Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6137",
+      "labels": []
+    },
     {
       "number": 6114,
       "title": "[Issue]: `tgemm.mm` selects split-K FlyDSL bf16 GEMMs that are nondeterministic and disagree with PyTorch on 37-50% of outputs",

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-04T13:33:46Z",
+  "collected_at": "2026-10-05T16:31:46Z",
   "prs": [
     {
       "number": 1223,
@@ -8,10 +8,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-01T16:38:35Z",
-      "updated_at": "2026-10-04T03:45:48Z",
+      "updated_at": "2026-10-05T15:33:43Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 1222,
+      "title": "[Build][JIT] Support core-only ROCm SDK environments",
+      "author": "apinge",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T10:40:54Z",
+      "updated_at": "2026-10-05T13:59:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1222",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 1225,
@@ -24,18 +36,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1225",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1222,
-      "title": "[Build] Fall back to HIP runtime from rocm-sdk core wheels",
-      "author": "apinge",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T10:40:54Z",
-      "updated_at": "2026-10-01T11:40:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1222",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1221,

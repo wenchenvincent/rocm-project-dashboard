@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-10-04T13:36:11Z",
+  "collected_at": "2026-10-05T16:33:55Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 50,
-      "merged": 18,
-      "closed": 8
+      "opened": 46,
+      "merged": 12,
+      "closed": 7
     },
     "last_week": {
-      "opened": 89,
-      "merged": 53,
-      "closed": 15
+      "opened": 74,
+      "merged": 47,
+      "closed": 12
     },
-    "median_time_to_merge_hours": 16.3,
-    "merge_count": 72,
+    "median_time_to_merge_hours": 17.0,
+    "merge_count": 59,
     "stale_prs": 171
   },
   "contributors": {
-    "active_this_week": 35,
-    "total_contributors": 105,
+    "active_this_week": 32,
+    "total_contributors": 106,
     "top_contributors": [
       {
         "author": "PerryZhang01",
-        "prs_submitted": 25,
-        "prs_merged": 5,
+        "prs_submitted": 24,
+        "prs_merged": 4,
         "commits": 8
       },
       {
         "author": "yhl-amd",
         "prs_submitted": 21,
-        "prs_merged": 7,
-        "commits": 16
+        "prs_merged": 9,
+        "commits": 18
       },
       {
         "author": "Jasen2201",
@@ -47,7 +47,7 @@
       },
       {
         "author": "JiaoliangYu",
-        "prs_submitted": 15,
+        "prs_submitted": 16,
         "prs_merged": 2,
         "commits": 2
       },
@@ -55,7 +55,7 @@
         "author": "valarLip",
         "prs_submitted": 15,
         "prs_merged": 13,
-        "commits": 23
+        "commits": 21
       },
       {
         "author": "ganyi1996ppo",
@@ -85,15 +85,15 @@
     "bus_factor": 6
   },
   "issue_health": {
-    "total_open": 91,
-    "opened_this_week": 3,
+    "total_open": 92,
+    "opened_this_week": 4,
     "closed_this_week": 10,
     "unanswered": 32
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 12.4,
+    "days_since_last": 13.5,
     "avg_interval_days": 27.0,
     "total_releases": 5,
     "latest_tag": "v0.1.6"

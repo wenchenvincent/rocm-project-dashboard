@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-10-04T13:33:11Z",
+  "collected_at": "2026-10-05T16:31:11Z",
   "issues": [
+    {
+      "number": 12116,
+      "title": "[AMD] CoalesceAsyncCopy produces a layout the direct-to-LDS lowering cannot coalesce when a warp spans more than the fastest shared dimension",
+      "author": "bogdan-petkovic",
+      "state": "open",
+      "created_at": "2026-10-05T10:58:02Z",
+      "updated_at": "2026-10-05T10:58:02Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/12116",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 10329,
       "title": "Build Triton without Nvidia/AMD backends?",

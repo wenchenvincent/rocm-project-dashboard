@@ -1,24 +1,56 @@
 {
-  "collected_at": "2026-10-04T13:33:09Z",
+  "collected_at": "2026-10-05T16:31:08Z",
   "issues": [
+    {
+      "number": 42473,
+      "title": "Development Roadmap (2026 Q4)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-10-04T08:24:43Z",
+      "updated_at": "2026-10-05T16:05:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
+      "labels": []
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-10-04T13:14:02Z",
+      "updated_at": "2026-10-05T15:36:55Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
     {
-      "number": 42473,
-      "title": "Test issue (deprecated)",
-      "author": "merrymercy",
+      "number": 42564,
+      "title": "[Bug][ROCm] FLUX.2-dev fails on gfx1151: NVIDIA PTX inline assembly in residual_gate_add kernel",
+      "author": "vvvdwbvvv",
       "state": "open",
-      "created_at": "2026-10-04T08:24:43Z",
-      "updated_at": "2026-10-04T10:01:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
+      "created_at": "2026-10-05T09:03:22Z",
+      "updated_at": "2026-10-05T09:04:19Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42564",
+      "labels": []
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-10-05T02:26:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 29736,
+      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
+      "author": "thanhhao98",
+      "state": "open",
+      "created_at": "2026-06-30T08:43:14Z",
+      "updated_at": "2026-10-04T23:05:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
       "labels": []
     },
     {
@@ -41,18 +73,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/37451",
       "labels": [
         "ci-failure-tracker"
-      ]
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-10-04T03:09:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
       ]
     },
     {
@@ -175,16 +195,6 @@
       "created_at": "2026-09-24T16:58:52Z",
       "updated_at": "2026-09-25T07:14:57Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/41151",
-      "labels": []
-    },
-    {
-      "number": 29736,
-      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
-      "author": "thanhhao98",
-      "state": "open",
-      "created_at": "2026-06-30T08:43:14Z",
-      "updated_at": "2026-09-25T01:37:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
       "labels": []
     },
     {
@@ -380,16 +390,6 @@
       "labels": []
     },
     {
-      "number": 37559,
-      "title": "[Bug] CUDA_ERROR_ILLEGAL_ADDRESS in MXFP8FP4/W4A8 MegaMoE path on B300 with sgl-deep-gemm 0.1.7",
-      "author": "shyeh25",
-      "state": "open",
-      "created_at": "2026-09-02T06:53:34Z",
-      "updated_at": "2026-09-14T08:40:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37559",
-      "labels": []
-    },
-    {
       "number": 34861,
       "title": "[Bug] [NPU] Router GEMM output should always be fp32",
       "author": "b8zhong",
@@ -454,16 +454,6 @@
       "labels": []
     },
     {
-      "number": 38745,
-      "title": "`DUAL_STREAM_TOKEN_THRESHOLD` makes the DSA indexer's dual-stream gate unsatisfiable on ROCm \u2014 the leftover #14337's TODO named",
-      "author": "heslami",
-      "state": "open",
-      "created_at": "2026-09-09T22:22:31Z",
-      "updated_at": "2026-09-09T22:22:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/38745",
-      "labels": []
-    },
-    {
       "number": 38710,
       "title": "[Bug] enable_aiter_allreduce_fusion auto-enable is commented out while the log still claims it was enabled",
       "author": "skimanwhite",
@@ -521,16 +511,6 @@
       "created_at": "2026-09-01T22:26:59Z",
       "updated_at": "2026-09-01T23:12:48Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37478",
-      "labels": []
-    },
-    {
-      "number": 37183,
-      "title": "AMD MI308X SGLang GLM-5.3-Flash ValueError: The checkpoint you are trying to load has model type `glm5_next` but Transformers does not recognize this architecture.",
-      "author": "Alan-D-Chen",
-      "state": "open",
-      "created_at": "2026-08-31T03:34:41Z",
-      "updated_at": "2026-08-31T08:33:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37183",
       "labels": []
     }
   ]

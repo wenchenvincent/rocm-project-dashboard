@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-10-04T13:34:45Z",
+  "collected_at": "2026-10-05T16:32:24Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 74,
-      "merged": 55,
-      "closed": 0
+      "opened": 68,
+      "merged": 58,
+      "closed": 1
     },
     "last_week": {
-      "opened": 14,
+      "opened": 10,
       "merged": 0,
       "closed": 0
     },
-    "median_time_to_merge_hours": 99.3,
-    "merge_count": 55,
+    "median_time_to_merge_hours": 134.6,
+    "merge_count": 58,
     "stale_prs": 0
   },
   "contributors": {
@@ -22,106 +22,106 @@
     "total_contributors": 63,
     "top_contributors": [
       {
-        "author": "amd-pedghazi",
-        "prs_submitted": 10,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
         "author": "michaelzhang-ai",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
-        "author": "mmangkad",
-        "prs_submitted": 5,
+        "prs_submitted": 10,
         "prs_merged": 5,
         "commits": 0
       },
       {
-        "author": "chuyeh",
+        "author": "mickqian",
+        "prs_submitted": 9,
+        "prs_merged": 8,
+        "commits": 0
+      },
+      {
+        "author": "Tokha233",
+        "prs_submitted": 5,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "Raiden-Makoto",
         "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "avjves",
+        "prs_submitted": 4,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "yctseng0211",
+        "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "AMD-yanfeiwang",
-        "prs_submitted": 4,
-        "prs_merged": 3,
+        "author": "amd-mvarjoka",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "DarkSharpness",
+        "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "1am9trash",
+        "prs_submitted": 3,
+        "prs_merged": 1,
         "commits": 0
       },
       {
         "author": "BBuf",
         "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "niehen6174",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "ch-wan",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "seokwoosong",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "Li-brua",
-        "prs_submitted": 2,
-        "prs_merged": 0,
+        "prs_merged": 3,
         "commits": 0
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 9
   },
   "issue_health": {
-    "total_open": 52,
-    "opened_this_week": 5,
-    "closed_this_week": 74,
-    "unanswered": 14
+    "total_open": 50,
+    "opened_this_week": 6,
+    "closed_this_week": 77,
+    "unanswered": 13
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 4,
-      "failed": 15,
-      "success_rate": 20.0
+      "succeeded": 9,
+      "failed": 9,
+      "success_rate": 45.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 9,
-      "failed": 11,
-      "success_rate": 45.0
+      "succeeded": 0,
+      "failed": 20,
+      "success_rate": 0.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 71.9,
+      "median_minutes": 55.7,
       "p90_minutes": 544.6,
       "min_minutes": 6.7,
       "max_minutes": 713.8
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 0.7,
-      "p90_minutes": 0.9,
-      "min_minutes": 0.4,
-      "max_minutes": 1.4
+      "median_minutes": 0.4,
+      "p90_minutes": 30.4,
+      "min_minutes": 0.3,
+      "max_minutes": 32.5
     }
   },
   "release_cadence": {
-    "days_since_last": 2.5,
+    "days_since_last": 3.6,
     "avg_interval_days": 13.8,
     "total_releases": 5,
     "latest_tag": "v0.5.21"

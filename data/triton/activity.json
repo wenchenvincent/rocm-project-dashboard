@@ -1,48 +1,48 @@
 {
-  "collected_at": "2026-10-04T13:34:50Z",
+  "collected_at": "2026-10-05T16:32:31Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 21,
-      "merged": 24,
+      "opened": 23,
+      "merged": 25,
       "closed": 0
     },
     "last_week": {
-      "opened": 18,
-      "merged": 6,
+      "opened": 16,
+      "merged": 5,
       "closed": 0
     },
-    "median_time_to_merge_hours": 13.4,
+    "median_time_to_merge_hours": 13.8,
     "merge_count": 30,
-    "stale_prs": 2
+    "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 22,
-    "total_contributors": 35,
+    "active_this_week": 23,
+    "total_contributors": 34,
     "top_contributors": [
       {
         "author": "antiagainst",
-        "prs_submitted": 10,
-        "prs_merged": 9,
+        "prs_submitted": 9,
+        "prs_merged": 8,
         "commits": 0
       },
       {
         "author": "tyb0807",
+        "prs_submitted": 5,
+        "prs_merged": 5,
+        "commits": 0
+      },
+      {
+        "author": "AlexAUT",
         "prs_submitted": 4,
-        "prs_merged": 4,
+        "prs_merged": 3,
         "commits": 0
       },
       {
         "author": "pabloantoniom",
         "prs_submitted": 3,
         "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "AlexAUT",
-        "prs_submitted": 3,
-        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -85,9 +85,9 @@
     "bus_factor": 3
   },
   "issue_health": {
-    "total_open": 23,
-    "opened_this_week": 0,
-    "closed_this_week": 8,
+    "total_open": 24,
+    "opened_this_week": 1,
+    "closed_this_week": 10,
     "unanswered": 9
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 36.8,
+    "days_since_last": 37.9,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

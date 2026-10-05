@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-10-04T13:32:45Z",
+  "collected_at": "2026-10-05T16:30:40Z",
   "prs": [
-    {
-      "number": 41231,
-      "title": "[ROCm] Fix copy file build to fix rbe build failures with no docker imgs",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T13:48:42Z",
-      "updated_at": "2026-10-02T15:40:46Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41231",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 41233,
       "title": "Switch to new RBE cluster for ROCm Bazel tests",
@@ -20,7 +8,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-02T14:44:31Z",
-      "updated_at": "2026-10-02T14:49:06Z",
+      "updated_at": "2026-10-05T14:35:54Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41233",
       "labels": [],
       "draft": true
@@ -32,11 +20,23 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-02T13:25:30Z",
-      "updated_at": "2026-10-02T13:29:08Z",
+      "updated_at": "2026-10-05T11:08:34Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41230",
       "labels": [
         "AMD GPU"
       ],
+      "draft": false
+    },
+    {
+      "number": 41231,
+      "title": "[ROCm] Fix copy file build to fix rbe build failures with no docker imgs",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T13:48:42Z",
+      "updated_at": "2026-10-02T15:40:46Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41231",
+      "labels": [],
       "draft": false
     },
     {
