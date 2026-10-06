@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-10-05T16:31:43Z",
+  "collected_at": "2026-10-06T14:34:10Z",
   "prs": [
+    {
+      "number": 722,
+      "title": "feat(umbp): share storage configuration across deployment modes",
+      "author": "BadrBasowid",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T06:43:47Z",
+      "updated_at": "2026-10-06T06:43:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/722",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 716,
+      "title": "Report peer failures instead of always claiming peers are alive",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T22:05:48Z",
+      "updated_at": "2026-10-05T22:12:21Z",
+      "html_url": "https://github.com/ROCm/mori/pull/716",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 674,
       "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
@@ -22,18 +46,6 @@
       "created_at": "2026-08-31T11:14:37Z",
       "updated_at": "2026-10-01T15:50:55Z",
       "html_url": "https://github.com/ROCm/mori/pull/623",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 716,
-      "title": "Report peer failures instead of always claiming peers are alive",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T22:05:48Z",
-      "updated_at": "2026-10-01T15:00:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/716",
       "labels": [],
       "draft": false
     },

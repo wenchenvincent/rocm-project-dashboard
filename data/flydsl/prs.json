@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-05T16:31:46Z",
+  "collected_at": "2026-10-06T14:34:15Z",
   "prs": [
     {
       "number": 1223,
@@ -8,7 +8,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-01T16:38:35Z",
-      "updated_at": "2026-10-05T15:33:43Z",
+      "updated_at": "2026-10-06T12:21:51Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
       "labels": [],
       "draft": true

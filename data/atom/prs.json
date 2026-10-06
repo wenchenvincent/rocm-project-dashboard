@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-10-05T16:31:38Z",
+  "collected_at": "2026-10-06T14:34:03Z",
   "prs": [
+    {
+      "number": 2453,
+      "title": "[1/3 entrypoint refactor] [feat(mesh)]: unify multi-API ingress for HTTP and ext-proc",
+      "author": "Yuechguo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T12:07:13Z",
+      "updated_at": "2026-10-06T13:27:50Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2453",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2425,
+      "title": "[ATOM][PD][Feat] Transfer KV by chunk",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T07:12:47Z",
+      "updated_at": "2026-10-06T13:04:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2425",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2297,
+      "title": "[Lumen-RL] Generic collective_rpc across all DP and TP ranks, with capability discovery",
+      "author": "i-chaochen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-19T17:51:40Z",
+      "updated_at": "2026-10-06T11:22:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2297",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 2298,
       "title": "[Lumen-RL] Receive trained weights over RCCL, transactionally",
@@ -8,20 +44,70 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-19T17:54:26Z",
-      "updated_at": "2026-10-05T13:48:23Z",
+      "updated_at": "2026-10-06T11:22:25Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2298",
       "labels": [],
       "draft": false
     },
     {
-      "number": 2475,
-      "title": "feat(shutdown): add ATOM_SHUTDOWN_TIMEOUT_S for the wait before terminating child processes",
-      "author": "venkat1361",
+      "number": 2461,
+      "title": "[EPLB] Add ATOM_EPLB_FREEZE_FILE; skip layers outside placement map",
+      "author": "yhl-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-05T07:49:50Z",
-      "updated_at": "2026-10-05T07:53:37Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2475",
+      "created_at": "2026-10-03T13:08:27Z",
+      "updated_at": "2026-10-06T05:20:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2461",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2335,
+      "title": "IQ2R: load GLM-5.3 packed MoE checkpoints with TP slicing",
+      "author": "ssharma4-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T11:09:19Z",
+      "updated_at": "2026-10-06T04:57:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2474,
+      "title": "[Perf] MoRI v2 fused transport: mask DP pad rows (ATOM_MEGA_MASK_PAD_ROWS)",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T04:45:55Z",
+      "updated_at": "2026-10-06T04:04:40Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2474",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2477,
+      "title": "fix(rollout): stop long RL runs falling back to eager after ~40 sleep/wake cycles",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T03:21:19Z",
+      "updated_at": "2026-10-06T03:25:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2477",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2274,
+      "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T21:03:54Z",
+      "updated_at": "2026-10-05T23:14:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
       "labels": [],
       "draft": false
     },
@@ -36,18 +122,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2435",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 2474,
-      "title": "[Perf] MoRI v2 fused transport: mask DP pad rows (ATOM_MEGA_MASK_PAD_ROWS)",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T04:45:55Z",
-      "updated_at": "2026-10-05T04:46:14Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2474",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 2470,
@@ -184,18 +258,6 @@
       "draft": false
     },
     {
-      "number": 2335,
-      "title": "IQ2R: load GLM-5.3 packed MoE checkpoints with TP slicing",
-      "author": "ssharma4-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T11:09:19Z",
-      "updated_at": "2026-10-04T09:15:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 2468,
       "title": "fix(sampler): fall back when AITER topk_select is unsupported",
       "author": "amd-ruitang3",
@@ -256,18 +318,6 @@
       "draft": false
     },
     {
-      "number": 2461,
-      "title": "[EPLB] Add ATOM_EPLB_FREEZE_FILE; skip layers outside placement map",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-03T13:08:27Z",
-      "updated_at": "2026-10-03T13:51:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2461",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 2455,
       "title": "build(docker): build Mooncake with Mooncake Store (WITH_STORE=ON)",
       "author": "Jasen2201",
@@ -276,18 +326,6 @@
       "created_at": "2026-10-02T22:53:28Z",
       "updated_at": "2026-10-03T09:01:15Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2455",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2453,
-      "title": "[1/3 entrypoint refactor] [feat(mesh)]: unify multi-API ingress for HTTP and ext-proc",
-      "author": "Yuechguo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T12:07:13Z",
-      "updated_at": "2026-10-03T03:51:00Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2453",
       "labels": [],
       "draft": false
     },
@@ -364,18 +402,6 @@
       "draft": false
     },
     {
-      "number": 2297,
-      "title": "[Lumen-RL] Generic collective_rpc across all DP and TP ranks, with capability discovery",
-      "author": "i-chaochen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-19T17:51:40Z",
-      "updated_at": "2026-10-02T16:13:25Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2297",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2430,
       "title": "fix: DCP prefill + MTP draft crash, Mooncake notify-port bind race; GLM-5.2 DCP8 CI cases",
       "author": "Jasen2201",
@@ -410,18 +436,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2449",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 2274,
-      "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T21:03:54Z",
-      "updated_at": "2026-10-02T05:35:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 2442,
@@ -546,18 +560,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2369",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 2425,
-      "title": "[ATOM][PD][Feat] Transfer KV by chunk",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T07:12:47Z",
-      "updated_at": "2026-09-30T09:06:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2425",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 2037,
@@ -3707,6 +3709,44 @@
       "draft": false
     },
     {
+      "number": 2479,
+      "title": "feat(v41): mono decode, FP4 index plane, shared mono framework",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-06T11:54:10Z",
+      "updated_at": "2026-10-06T14:32:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2479",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2478,
+      "title": "ci: install requests for the non-GPU unit tests",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-06T03:23:58Z",
+      "updated_at": "2026-10-06T03:44:41Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2478",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2475,
+      "title": "feat(shutdown): add ATOM_SHUTDOWN_TIMEOUT_S for the wait before terminating child processes",
+      "author": "venkat1361",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-05T07:49:50Z",
+      "updated_at": "2026-10-06T02:41:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2475",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 2463,
       "title": "[Perf] MegaMoE: DP pad-row masking and configurable decode capacity",
       "author": "yhl-amd",
@@ -4679,44 +4719,6 @@
       "labels": [
         "ci:atom"
       ],
-      "draft": false
-    },
-    {
-      "number": 2311,
-      "title": "perf(qsa): optimize _qsa_sparse_paged_gqa_kernel for MI308X",
-      "author": "mengfei-jiang",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-20T12:02:56Z",
-      "updated_at": "2026-09-20T13:32:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2311",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2277,
-      "title": "docs: update DeepSeek-V4 agentic PD recipe",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-18T03:03:33Z",
-      "updated_at": "2026-09-20T13:04:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2277",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2302,
-      "title": "fix(atomesh): resolve LMCache disk paths under job logs",
-      "author": "junyyang-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-20T08:08:37Z",
-      "updated_at": "2026-09-20T11:34:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2302",
-      "labels": [],
       "draft": false
     }
   ]

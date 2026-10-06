@@ -1,24 +1,46 @@
 {
-  "collected_at": "2026-10-05T16:31:08Z",
+  "collected_at": "2026-10-06T14:33:30Z",
   "issues": [
-    {
-      "number": 42473,
-      "title": "Development Roadmap (2026 Q4)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-10-04T08:24:43Z",
-      "updated_at": "2026-10-05T16:05:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
-      "labels": []
-    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-10-05T15:36:55Z",
+      "updated_at": "2026-10-06T14:32:58Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-10-06T11:22:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 29736,
+      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q4)",
+      "author": "thanhhao98",
+      "state": "open",
+      "created_at": "2026-06-30T08:43:14Z",
+      "updated_at": "2026-10-06T02:34:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
+      "labels": []
+    },
+    {
+      "number": 42473,
+      "title": "Development Roadmap (2026 Q4)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-10-04T08:24:43Z",
+      "updated_at": "2026-10-05T20:36:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
       "labels": []
     },
     {
@@ -44,16 +66,6 @@
       ]
     },
     {
-      "number": 29736,
-      "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q3)",
-      "author": "thanhhao98",
-      "state": "open",
-      "created_at": "2026-06-30T08:43:14Z",
-      "updated_at": "2026-10-04T23:05:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/29736",
-      "labels": []
-    },
-    {
       "number": 42361,
       "title": "[Bug] DeepSeek V4 Pro loading on Lustre takes 95 minutes despite prefetch; limiting tensor-copy workers reduces it to 3.3 minutes",
       "author": "janbernloehr",
@@ -62,18 +74,6 @@
       "updated_at": "2026-10-04T08:29:51Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/42361",
       "labels": []
-    },
-    {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-10-04T03:50:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
     },
     {
       "number": 39499,

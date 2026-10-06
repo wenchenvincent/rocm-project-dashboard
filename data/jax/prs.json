@@ -1,17 +1,34 @@
 {
-  "collected_at": "2026-10-05T16:30:40Z",
+  "collected_at": "2026-10-06T14:33:01Z",
   "prs": [
     {
-      "number": 41233,
-      "title": "Switch to new RBE cluster for ROCm Bazel tests",
-      "author": "charleshofer",
+      "number": 41305,
+      "title": "[ROCm] Enable thunky on ROCm",
+      "author": "gulsumgudukbay",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-02T14:44:31Z",
-      "updated_at": "2026-10-05T14:35:54Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41233",
-      "labels": [],
-      "draft": true
+      "created_at": "2026-10-06T00:33:21Z",
+      "updated_at": "2026-10-06T14:20:11Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41305",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41310,
+      "title": "[ROCm] Switch to rocm_library from rules_ml_toolchain",
+      "author": "alekstheod",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-06T07:32:14Z",
+      "updated_at": "2026-10-06T11:19:17Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41310",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
     },
     {
       "number": 41230,
@@ -20,9 +37,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-02T13:25:30Z",
-      "updated_at": "2026-10-05T11:08:34Z",
+      "updated_at": "2026-10-06T10:05:55Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41230",
       "labels": [
+        "pull ready",
         "AMD GPU"
       ],
       "draft": false
@@ -34,10 +52,24 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-02T13:48:42Z",
-      "updated_at": "2026-10-02T15:40:46Z",
+      "updated_at": "2026-10-06T08:10:46Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41231",
-      "labels": [],
+      "labels": [
+        "AMD GPU"
+      ],
       "draft": false
+    },
+    {
+      "number": 41233,
+      "title": "Switch to new RBE cluster for ROCm Bazel tests",
+      "author": "charleshofer",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T14:44:31Z",
+      "updated_at": "2026-10-05T21:02:05Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41233",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 41187,
@@ -534,21 +566,6 @@
       "created_at": "2026-08-03T23:25:58Z",
       "updated_at": "2026-08-05T20:34:32Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39698",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39632,
-      "title": "[ROCm] Remove the legacy ROCm GPU Post-Merge Check workflow",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-31T16:38:35Z",
-      "updated_at": "2026-08-03T16:29:03Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39632",
       "labels": [
         "kokoro:force-run",
         "pull ready"
