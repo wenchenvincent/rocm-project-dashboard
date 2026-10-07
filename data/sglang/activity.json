@@ -1,70 +1,76 @@
 {
-  "collected_at": "2026-10-06T14:35:11Z",
+  "collected_at": "2026-10-07T14:51:51Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 67,
-      "merged": 58,
-      "closed": 0
+      "opened": 68,
+      "merged": 56,
+      "closed": 11
     },
     "last_week": {
-      "opened": 17,
+      "opened": 19,
       "merged": 0,
       "closed": 0
     },
-    "median_time_to_merge_hours": 74.3,
-    "merge_count": 58,
+    "median_time_to_merge_hours": 94.7,
+    "merge_count": 56,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 71,
-    "total_contributors": 71,
+    "active_this_week": 73,
+    "total_contributors": 73,
     "top_contributors": [
       {
-        "author": "michaelzhang-ai",
-        "prs_submitted": 10,
-        "prs_merged": 5,
-        "commits": 0
-      },
-      {
-        "author": "sherlockwu",
-        "prs_submitted": 6,
-        "prs_merged": 6,
-        "commits": 0
-      },
-      {
-        "author": "niehen6174",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "elvischenv",
-        "prs_submitted": 4,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "AMD-yanfeiwang",
-        "prs_submitted": 4,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "Constantine3",
-        "prs_submitted": 3,
+        "author": "yuychang",
+        "prs_submitted": 14,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "chuyeh",
-        "prs_submitted": 3,
+        "author": "michaelzhang-ai",
+        "prs_submitted": 6,
+        "prs_merged": 5,
+        "commits": 0
+      },
+      {
+        "author": "TamirBaydasov",
+        "prs_submitted": 4,
         "prs_merged": 0,
         "commits": 0
       },
       {
         "author": "1am9trash",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "chuyeh",
+        "prs_submitted": 4,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "AMD-yanfeiwang",
+        "prs_submitted": 4,
+        "prs_merged": 4,
+        "commits": 0
+      },
+      {
+        "author": "avjves",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "mmangkad",
+        "prs_submitted": 3,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "nvpohanh",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
@@ -74,34 +80,28 @@
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
-      },
-      {
-        "author": "Raiden-Makoto",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 0
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 14
   },
   "issue_health": {
-    "total_open": 50,
+    "total_open": 51,
     "opened_this_week": 6,
-    "closed_this_week": 91,
-    "unanswered": 13
+    "closed_this_week": 90,
+    "unanswered": 12
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 5,
-      "failed": 10,
-      "success_rate": 25.0
+      "succeeded": 4,
+      "failed": 11,
+      "success_rate": 20.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 1,
-      "failed": 15,
-      "success_rate": 5.0
+      "succeeded": 0,
+      "failed": 18,
+      "success_rate": 0.0
     }
   },
   "ci_signal_time": {
@@ -114,14 +114,14 @@
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 1.2,
-      "p90_minutes": 54.5,
-      "min_minutes": 0.3,
-      "max_minutes": 56.1
+      "median_minutes": 0.8,
+      "p90_minutes": 23.5,
+      "min_minutes": 0.7,
+      "max_minutes": 44.9
     }
   },
   "release_cadence": {
-    "days_since_last": 4.6,
+    "days_since_last": 5.6,
     "avg_interval_days": 13.8,
     "total_releases": 5,
     "latest_tag": "v0.5.21"

@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-10-06T14:35:53Z",
+  "collected_at": "2026-10-07T14:52:31Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 196,
-      "merged": 87,
-      "closed": 25
+      "opened": 189,
+      "merged": 80,
+      "closed": 45
     },
     "last_week": {
-      "opened": 160,
-      "merged": 87,
-      "closed": 22
+      "opened": 186,
+      "merged": 88,
+      "closed": 24
     },
-    "median_time_to_merge_hours": 72.3,
-    "merge_count": 177,
-    "stale_prs": 364
+    "median_time_to_merge_hours": 73.9,
+    "merge_count": 170,
+    "stale_prs": 15
   },
   "contributors": {
-    "active_this_week": 155,
-    "total_contributors": 344,
+    "active_this_week": 304,
+    "total_contributors": 341,
     "top_contributors": [
       {
-        "author": "Boss2002n",
-        "prs_submitted": 31,
-        "prs_merged": 10,
-        "commits": 32
+        "author": "yuychang",
+        "prs_submitted": 17,
+        "prs_merged": 0,
+        "commits": 0
       },
       {
         "author": "AMD-yanfeiwang",
@@ -40,10 +40,10 @@
         "commits": 0
       },
       {
-        "author": "XiaobingSuper",
+        "author": "Boss2002n",
         "prs_submitted": 10,
-        "prs_merged": 1,
-        "commits": 11
+        "prs_merged": 5,
+        "commits": 33
       },
       {
         "author": "JohnQinAMD",
@@ -64,10 +64,10 @@
         "commits": 6
       },
       {
-        "author": "gyohuangxin",
+        "author": "XiaobingSuper",
         "prs_submitted": 9,
         "prs_merged": 0,
-        "commits": 8
+        "commits": 11
       },
       {
         "author": "carlushuang",
@@ -76,24 +76,24 @@
         "commits": 0
       },
       {
-        "author": "xiaohuguo2023",
-        "prs_submitted": 8,
+        "author": "gyohuangxin",
+        "prs_submitted": 9,
         "prs_merged": 0,
-        "commits": 0
+        "commits": 8
       }
     ],
-    "bus_factor": 12
+    "bus_factor": 9
   },
   "issue_health": {
-    "total_open": 372,
-    "opened_this_week": 24,
-    "closed_this_week": 9,
-    "unanswered": 182
+    "total_open": 375,
+    "opened_this_week": 23,
+    "closed_this_week": 7,
+    "unanswered": 185
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 3.9,
+    "days_since_last": 4.9,
     "avg_interval_days": 4.6,
     "total_releases": 5,
     "latest_tag": "v0.1.24.post1"

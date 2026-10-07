@@ -1,6 +1,138 @@
 {
-  "collected_at": "2026-10-06T14:34:03Z",
+  "collected_at": "2026-10-07T14:50:45Z",
   "prs": [
+    {
+      "number": 2464,
+      "title": "feat(offload): mooncake_store \u2014 prefill prefix cache in a Mooncake Store ",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-03T21:09:35Z",
+      "updated_at": "2026-10-07T13:44:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2464",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2486,
+      "title": "[gfx1250] Add ATOM_MLA_ABSORB_A16W8: BF16-activation x FP8-weight MLA absorb",
+      "author": "karverma-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T05:36:00Z",
+      "updated_at": "2026-10-07T05:40:05Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2486",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2412,
+      "title": "fix(offload): reject invalid LMCache lookup scope at startup",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-27T06:20:49Z",
+      "updated_at": "2026-10-07T05:24:46Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2412",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2406,
+      "title": "fix(offload): include exception type in dense lookup warnings",
+      "author": "kvnloo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T20:24:46Z",
+      "updated_at": "2026-10-07T04:51:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2406",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2451,
+      "title": "fix(glm5-next): MTP verify always writes sparse KV indices; kpool tail uses the history ring layout",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T08:06:08Z",
+      "updated_at": "2026-10-07T03:35:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2451",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2459,
+      "title": "feat(offload): LMCache MP servers per NUMA node and a Mooncake Store L2 pooled across nodes (GLM-5.2 cpp4/dcp4)",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-03T05:47:44Z",
+      "updated_at": "2026-10-07T02:21:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2459",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2335,
+      "title": "[Feature] IQ2R glm53_moe: load packed 2-bit MoE checkpoints with TP4/TP8 slicing (BF16)",
+      "author": "ssharma4-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T11:09:19Z",
+      "updated_at": "2026-10-07T01:47:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2477,
+      "title": "fix(rollout): stop long RL runs falling back to eager after ~40 sleep/wake cycles",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T03:21:19Z",
+      "updated_at": "2026-10-07T01:47:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2477",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2481,
+      "title": "[ATOM-vLLM] Add support for GLM-5.3-Flash with LMCache offload",
+      "author": "kliuae",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T17:00:17Z",
+      "updated_at": "2026-10-07T01:47:40Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2481",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2295,
+      "title": "Add GPT-OSS IQ2R 2-bit MoE integration",
+      "author": "ssharma4-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T22:44:00Z",
+      "updated_at": "2026-10-06T23:45:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2295",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2329,
+      "title": "Add GLM-5.3-Flash IQ2R 2-bit MoE integration",
+      "author": "ssharma4-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T07:01:43Z",
+      "updated_at": "2026-10-06T23:45:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2329",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 2453,
       "title": "[1/3 entrypoint refactor] [feat(mesh)]: unify multi-API ingress for HTTP and ext-proc",
@@ -8,8 +140,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-02T12:07:13Z",
-      "updated_at": "2026-10-06T13:27:50Z",
+      "updated_at": "2026-10-06T17:59:53Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2453",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2274,
+      "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T21:03:54Z",
+      "updated_at": "2026-10-06T16:05:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2470,
+      "title": "fix(logging): isolate atom logger and support ATOM_LOG_LEVEL",
+      "author": "amd-ruitang3",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-04T12:21:39Z",
+      "updated_at": "2026-10-06T14:38:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2470",
       "labels": [],
       "draft": false
     },
@@ -50,30 +206,6 @@
       "draft": false
     },
     {
-      "number": 2461,
-      "title": "[EPLB] Add ATOM_EPLB_FREEZE_FILE; skip layers outside placement map",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-03T13:08:27Z",
-      "updated_at": "2026-10-06T05:20:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2461",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2335,
-      "title": "IQ2R: load GLM-5.3 packed MoE checkpoints with TP slicing",
-      "author": "ssharma4-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T11:09:19Z",
-      "updated_at": "2026-10-06T04:57:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2335",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 2474,
       "title": "[Perf] MoRI v2 fused transport: mask DP pad rows (ATOM_MEGA_MASK_PAD_ROWS)",
       "author": "JiaoliangYu",
@@ -88,30 +220,6 @@
       "draft": false
     },
     {
-      "number": 2477,
-      "title": "fix(rollout): stop long RL runs falling back to eager after ~40 sleep/wake cycles",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T03:21:19Z",
-      "updated_at": "2026-10-06T03:25:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2477",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2274,
-      "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T21:03:54Z",
-      "updated_at": "2026-10-05T23:14:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2435,
       "title": "[Draft][Perf] Integrate GLM-5.2 and Kimi-K3 AgentX MonoKernels",
       "author": "XiaobingSuper",
@@ -122,18 +230,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2435",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 2470,
-      "title": "fix(logging): isolate atom logger and support ATOM_LOG_LEVEL",
-      "author": "amd-ruitang3",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-04T12:21:39Z",
-      "updated_at": "2026-10-05T04:00:54Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2470",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 2384,
@@ -222,30 +318,6 @@
       "draft": false
     },
     {
-      "number": 2472,
-      "title": "fix(mla): slice padded decode metadata on forced-eager DP path",
-      "author": "amd-ruitang3",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-04T12:21:39Z",
-      "updated_at": "2026-10-05T00:31:34Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2472",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2464,
-      "title": "feat(offload): mooncake_store \u2014 prefill prefix cache in a Mooncake Store without LMCache (GLM-5.2 cpp4/dcp4)",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-03T21:09:35Z",
-      "updated_at": "2026-10-04T23:04:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2464",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 2357,
       "title": "feat(plugin): DeepSeek-V4.1-Flash on the vLLM plugin, with LMCache byte offload",
       "author": "PerryZhang01",
@@ -254,18 +326,6 @@
       "created_at": "2026-09-22T18:07:06Z",
       "updated_at": "2026-10-04T16:31:51Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2357",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2468,
-      "title": "fix(sampler): fall back when AITER topk_select is unsupported",
-      "author": "amd-ruitang3",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-04T08:01:57Z",
-      "updated_at": "2026-10-04T08:03:04Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2468",
       "labels": [],
       "draft": false
     },
@@ -280,30 +340,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2333",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 2459,
-      "title": "feat(offload): LMCache MP servers per NUMA node and a Mooncake Store L2 pooled across nodes (GLM-5.2 cpp4/dcp4)",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-03T05:47:44Z",
-      "updated_at": "2026-10-04T00:33:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2459",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2412,
-      "title": "fix(offload): reject invalid LMCache lookup scope at startup",
-      "author": "kvnloo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-27T06:20:49Z",
-      "updated_at": "2026-10-03T22:42:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2412",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 2452,
@@ -362,18 +398,6 @@
       "created_at": "2026-10-02T06:37:06Z",
       "updated_at": "2026-10-03T00:34:24Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2448",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2451,
-      "title": "fix(glm5-next): MTP verify always writes sparse KV indices; kpool tail uses the history ring layout",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T08:06:08Z",
-      "updated_at": "2026-10-03T00:34:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2451",
       "labels": [],
       "draft": false
     },
@@ -532,20 +556,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2418",
       "labels": [
         "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2426,
-      "title": "[sgl+atom] Keep Qwen3.8 Flash full-attn, EP, and MTP on SGLang 0.5.20",
-      "author": "zhangxinyuanliuhengyu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T09:00:00Z",
-      "updated_at": "2026-09-30T11:30:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2426",
-      "labels": [
-        "ci:sglang"
       ],
       "draft": false
     },
@@ -714,18 +724,6 @@
       "draft": false
     },
     {
-      "number": 2406,
-      "title": "fix(offload): include exception type in dense lookup warnings",
-      "author": "kvnloo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T20:24:46Z",
-      "updated_at": "2026-09-26T15:02:05Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2406",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2404,
       "title": "fix(offload): distinguish unmeasured profile timings",
       "author": "kvnloo",
@@ -846,18 +844,6 @@
       "created_at": "2026-09-23T08:21:16Z",
       "updated_at": "2026-09-24T01:45:29Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2370",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2295,
-      "title": "Add GPT-OSS IQ2R 2-bit MoE integration",
-      "author": "ssharma4-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T22:44:00Z",
-      "updated_at": "2026-09-23T17:51:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2295",
       "labels": [],
       "draft": false
     },
@@ -1086,18 +1072,6 @@
         "performance",
         "ci:atom"
       ],
-      "draft": true
-    },
-    {
-      "number": 2329,
-      "title": "Add GLM-5.3-Flash IQ2R 2-bit MoE integration",
-      "author": "ssharma4-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T07:01:43Z",
-      "updated_at": "2026-09-21T07:03:36Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2329",
-      "labels": [],
       "draft": true
     },
     {
@@ -3709,6 +3683,102 @@
       "draft": false
     },
     {
+      "number": 2488,
+      "title": "[Bugfix] DSV4: publish decode block tables at the padded running_bs",
+      "author": "yhl-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T12:18:25Z",
+      "updated_at": "2026-10-07T13:59:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2488",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2482,
+      "title": "[EPLB] Add ATOM_EPLB_MAX_REBALANCES to stop rebalancing after N rebalances",
+      "author": "yhl-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-06T17:19:50Z",
+      "updated_at": "2026-10-07T09:16:16Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2482",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2461,
+      "title": "[Bugfix] EPLB: skip MoE layers outside the placement map (DSpark drafter)",
+      "author": "yhl-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-03T13:08:27Z",
+      "updated_at": "2026-10-07T09:11:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2461",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2426,
+      "title": "[sgl+atom] Keep Qwen3.8 Flash full-attn, EP, and MTP on SGLang 0.5.20",
+      "author": "zhangxinyuanliuhengyu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-29T09:00:00Z",
+      "updated_at": "2026-10-07T06:32:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2426",
+      "labels": [
+        "ci:sglang"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2485,
+      "title": "fix(minimax-m3): mono rows independent of the step's other rows; pad rows join no expert",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T04:47:56Z",
+      "updated_at": "2026-10-07T05:57:50Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2485",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2483,
+      "title": "fix(mono): zero the mailboxes and fence the ranks in one FlyDSL launch",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T01:30:21Z",
+      "updated_at": "2026-10-07T02:16:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2483",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2480,
+      "title": "ci: locate Pre Checkin run by commit; add concurrency 1 to benchmark grid",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-06T15:03:36Z",
+      "updated_at": "2026-10-06T15:20:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2480",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 2479,
       "title": "feat(v41): mono decode, FP4 index plane, shared mono framework",
       "author": "valarLip",
@@ -4612,113 +4682,6 @@
       "updated_at": "2026-09-21T06:00:43Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2324",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2319,
-      "title": "CI: Add Crusoe shared NFS model cache fallback",
-      "author": "gyohuangxin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-21T02:27:09Z",
-      "updated_at": "2026-09-21T03:22:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2319",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2320,
-      "title": "feat(moe): route MoRI low-latency transport through all2all manager",
-      "author": "JiaoliangYu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-21T02:37:41Z",
-      "updated_at": "2026-09-21T02:37:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2320",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2048,
-      "title": "Support Qwen3.8 Flash Next",
-      "author": "HaonanWang98",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-27T05:15:34Z",
-      "updated_at": "2026-09-21T02:30:06Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2048",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1910,
-      "title": "feat(k3): Kimi-K3 vLLM plugin vision + DSpark draft support",
-      "author": "sajandhy",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-16T06:19:01Z",
-      "updated_at": "2026-09-20T17:04:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1910",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2300,
-      "title": "docker: pin ordering-edge HIP/HSA in native and nightly release images",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-20T03:00:41Z",
-      "updated_at": "2026-09-20T16:16:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2300",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2315,
-      "title": "Revert \"feat(kimi-k3): support P/D disaggregation (#2154)\"",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-20T14:50:54Z",
-      "updated_at": "2026-09-20T15:20:04Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2315",
-      "labels": [
-        "ci:full",
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2303,
-      "title": "CI: Allow per-model accuracy timeouts",
-      "author": "gyohuangxin",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-20T08:12:22Z",
-      "updated_at": "2026-09-20T14:08:23Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2303",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2267,
-      "title": "[fix][model_engine][rollout]: blank a capture's cache write targets, and keep the KV pool size across a wake",
-      "author": "xysheng-AMD",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-17T03:13:48Z",
-      "updated_at": "2026-09-20T13:58:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2267",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     }
   ]

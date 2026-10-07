@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-10-06T14:37:13Z",
+  "collected_at": "2026-10-07T14:53:47Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
       "opened": 5,
-      "merged": 7,
+      "merged": 3,
       "closed": 0
     },
     "last_week": {
-      "opened": 17,
-      "merged": 8,
+      "opened": 11,
+      "merged": 12,
       "closed": 2
     },
     "median_time_to_merge_hours": 14.8,
@@ -18,14 +18,14 @@
     "stale_prs": 22
   },
   "contributors": {
-    "active_this_week": 14,
+    "active_this_week": 6,
     "total_contributors": 39,
     "top_contributors": [
       {
         "author": "jhchouuu",
-        "prs_submitted": 23,
-        "prs_merged": 17,
-        "commits": 11
+        "prs_submitted": 22,
+        "prs_merged": 16,
+        "commits": 10
       },
       {
         "author": "isytwu",
@@ -47,8 +47,8 @@
       },
       {
         "author": "zhangfei829",
-        "prs_submitted": 10,
-        "prs_merged": 10,
+        "prs_submitted": 11,
+        "prs_merged": 11,
         "commits": 10
       },
       {
@@ -61,13 +61,13 @@
         "author": "TianDi101",
         "prs_submitted": 8,
         "prs_merged": 5,
-        "commits": 1
+        "commits": 0
       },
       {
         "author": "amirakb89",
         "prs_submitted": 7,
         "prs_merged": 3,
-        "commits": 3
+        "commits": 2
       },
       {
         "author": "maning00",
@@ -76,10 +76,10 @@
         "commits": 4
       },
       {
-        "author": "yoqiu-amd",
+        "author": "pemeliya",
         "prs_submitted": 4,
-        "prs_merged": 3,
-        "commits": 3
+        "prs_merged": 1,
+        "commits": 1
       }
     ],
     "bus_factor": 4
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 24,
     "opened_this_week": 1,
-    "closed_this_week": 2,
+    "closed_this_week": 0,
     "unanswered": 7
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 22.5,
+    "days_since_last": 23.5,
     "avg_interval_days": 24.4,
     "total_releases": 5,
     "latest_tag": "v1.2.3.post1"

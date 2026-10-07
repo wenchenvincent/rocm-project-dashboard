@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-10-06T14:34:10Z",
+  "collected_at": "2026-10-07T14:50:51Z",
   "prs": [
+    {
+      "number": 724,
+      "title": "Drop the `pciutils`/`libpci` dependency from topology detection",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T10:49:55Z",
+      "updated_at": "2026-10-07T10:54:16Z",
+      "html_url": "https://github.com/ROCm/mori/pull/724",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 716,
+      "title": "Report peer failures instead of always claiming peers are alive",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T22:05:48Z",
+      "updated_at": "2026-10-06T22:07:02Z",
+      "html_url": "https://github.com/ROCm/mori/pull/716",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 722,
       "title": "feat(umbp): share storage configuration across deployment modes",
@@ -12,18 +36,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/722",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 716,
-      "title": "Report peer failures instead of always claiming peers are alive",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T22:05:48Z",
-      "updated_at": "2026-10-05T22:12:21Z",
-      "html_url": "https://github.com/ROCm/mori/pull/716",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 674,
@@ -586,6 +598,18 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 723,
+      "title": "Perf/epv2 1250x ep8",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T03:36:39Z",
+      "updated_at": "2026-10-07T03:37:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/723",
       "labels": [],
       "draft": false
     },
@@ -1630,18 +1654,6 @@
       "created_at": "2026-08-24T14:51:30Z",
       "updated_at": "2026-08-26T10:22:17Z",
       "html_url": "https://github.com/ROCm/mori/pull/600",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 605,
-      "title": "fix(security): harden bootstrap and CI against scan findings",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-26T03:01:36Z",
-      "updated_at": "2026-08-26T03:54:08Z",
-      "html_url": "https://github.com/ROCm/mori/pull/605",
       "labels": [],
       "draft": false
     }

@@ -1,6 +1,58 @@
 {
-  "collected_at": "2026-10-06T14:33:58Z",
+  "collected_at": "2026-10-07T14:50:41Z",
   "issues": [
+    {
+      "number": 6221,
+      "title": "[Gluon][gfx950] unified_attention: batches with max_seqlen_q > 1 (speculative-decode verify) take the 2d grid with no KV split, so decode slows with context; plain decode also slower than the Triton backend",
+      "author": "jolpindo96",
+      "state": "open",
+      "created_at": "2026-10-07T14:43:30Z",
+      "updated_at": "2026-10-07T14:43:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6221",
+      "labels": []
+    },
+    {
+      "number": 6105,
+      "title": "[Triton/Gluon]: Update test and process so that all configs are tested",
+      "author": "rahulbatra85",
+      "state": "open",
+      "created_at": "2026-10-02T18:28:30Z",
+      "updated_at": "2026-10-07T12:46:17Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6105",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 5931,
+      "title": "[Issue]: [Bugfix][ROCm] Force Triton MXFP4 for 96-row ASM scale tiles",
+      "author": "abrahamzewoudie",
+      "state": "open",
+      "created_at": "2026-09-29T07:51:48Z",
+      "updated_at": "2026-10-07T11:08:37Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5931",
+      "labels": []
+    },
+    {
+      "number": 6189,
+      "title": "[MLA][gfx942] BF16 mla_decode_stage1 kernel for gqa_ratio=64, max_seqlen_q=1 (GLM-5/5.3 TP=1)",
+      "author": "zjin-lcf",
+      "state": "open",
+      "created_at": "2026-10-06T21:57:56Z",
+      "updated_at": "2026-10-06T22:45:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6189",
+      "labels": []
+    },
+    {
+      "number": 6187,
+      "title": "gfx950 FP8 attention forward (MHA v4 `fwd_hd128_fp8`, v3 `fwd_hd128_fp8_group`) occasionally returns different results for identical inputs",
+      "author": "iseeyuan",
+      "state": "open",
+      "created_at": "2026-10-06T21:23:16Z",
+      "updated_at": "2026-10-06T21:23:16Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6187",
+      "labels": []
+    },
     {
       "number": 3632,
       "title": "[Issue]: W4A4 AITER_MXFP4_MXFP4 fused MoE kernel not HIP-graph-safe on gfx950 (MI355X)",
@@ -51,18 +103,6 @@
       "created_at": "2026-10-02T18:26:47Z",
       "updated_at": "2026-10-02T18:28:57Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6104",
-      "labels": [
-        "Triton/Gluon"
-      ]
-    },
-    {
-      "number": 6105,
-      "title": "[Triton/Gluon]: Update test and process so that all configs are tested",
-      "author": "rahulbatra85",
-      "state": "open",
-      "created_at": "2026-10-02T18:28:30Z",
-      "updated_at": "2026-10-02T18:28:44Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6105",
       "labels": [
         "Triton/Gluon"
       ]
@@ -312,16 +352,6 @@
       "labels": [
         "Triton/Gluon"
       ]
-    },
-    {
-      "number": 5931,
-      "title": "[Issue]: [Bugfix][ROCm] Force Triton MXFP4 for 96-row ASM scale tiles",
-      "author": "abrahamzewoudie",
-      "state": "open",
-      "created_at": "2026-09-29T07:51:48Z",
-      "updated_at": "2026-09-29T07:51:48Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5931",
-      "labels": []
     },
     {
       "number": 5930,
