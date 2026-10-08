@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-07T14:50:55Z",
+  "collected_at": "2026-10-08T15:01:54Z",
   "issues": [
+    {
+      "number": 1237,
+      "title": "[RFC] Roadmap: an LDS synchronization sanitizer for FlyDSL",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-10-08T06:10:14Z",
+      "updated_at": "2026-10-08T06:10:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1237",
+      "labels": []
+    },
     {
       "number": 1218,
       "title": "Bug: the Numeric wrapper bypasses index normalization.",

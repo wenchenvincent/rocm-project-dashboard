@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-10-07T14:50:51Z",
+  "collected_at": "2026-10-08T15:01:48Z",
   "prs": [
+    {
+      "number": 725,
+      "title": "[gfx1250] DSR1 EP4: add topk9 dispatch+combine schedule",
+      "author": "karverma-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T00:26:53Z",
+      "updated_at": "2026-10-08T14:47:25Z",
+      "html_url": "https://github.com/ROCm/mori/pull/725",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 623,
+      "title": "SDMA HIP device management fixes",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T11:14:37Z",
+      "updated_at": "2026-10-08T13:18:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/623",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 728,
+      "title": "ci: move MI355X_AINIC internode CI to mi355-gpu-49/50; fix JIT ionic",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T12:51:11Z",
+      "updated_at": "2026-10-08T12:51:11Z",
+      "html_url": "https://github.com/ROCm/mori/pull/728",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 727,
+      "title": "test(jit): check EpCfg's field count against VisitFields, not a literal",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T11:05:36Z",
+      "updated_at": "2026-10-08T11:06:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/727",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 703,
+      "title": "refactor(EPv2): replace per-module __device__ staging with shared buffer",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T11:26:55Z",
+      "updated_at": "2026-10-08T10:13:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/703",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 724,
       "title": "Drop the `pciutils`/`libpci` dependency from topology detection",
@@ -8,8 +68,56 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-07T10:49:55Z",
-      "updated_at": "2026-10-07T10:54:16Z",
+      "updated_at": "2026-10-08T08:31:02Z",
       "html_url": "https://github.com/ROCm/mori/pull/724",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 698,
+      "title": "feat(ep): support precompiled active QP subsets",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T17:34:20Z",
+      "updated_at": "2026-10-08T07:30:07Z",
+      "html_url": "https://github.com/ROCm/mori/pull/698",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "opt v2 internode",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T03:05:00Z",
+      "updated_at": "2026-10-08T06:53:36Z",
+      "html_url": "https://github.com/ROCm/mori/pull/696",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 674,
+      "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
+      "author": "vinaynkaranth",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T18:16:53Z",
+      "updated_at": "2026-10-08T03:46:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/674",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 711,
+      "title": "fix(cco): two SDMA device-post deadlocks (multi-queue publish, commit snapshot)",
+      "author": "yoqiu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T09:03:38Z",
+      "updated_at": "2026-10-08T02:35:07Z",
+      "html_url": "https://github.com/ROCm/mori/pull/711",
       "labels": [],
       "draft": false
     },
@@ -34,42 +142,6 @@
       "created_at": "2026-10-06T06:43:47Z",
       "updated_at": "2026-10-06T06:43:47Z",
       "html_url": "https://github.com/ROCm/mori/pull/722",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 674,
-      "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
-      "author": "vinaynkaranth",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-15T18:16:53Z",
-      "updated_at": "2026-10-02T19:17:52Z",
-      "html_url": "https://github.com/ROCm/mori/pull/674",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 623,
-      "title": "SDMA HIP device management fixes",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T11:14:37Z",
-      "updated_at": "2026-10-01T15:50:55Z",
-      "html_url": "https://github.com/ROCm/mori/pull/623",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 670,
-      "title": "Feat/io rdma retry tunables",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-14T22:27:14Z",
-      "updated_at": "2026-09-30T21:12:02Z",
-      "html_url": "https://github.com/ROCm/mori/pull/670",
       "labels": [],
       "draft": false
     },
@@ -110,42 +182,6 @@
       "draft": false
     },
     {
-      "number": 696,
-      "title": "opt v2 internode",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T03:05:00Z",
-      "updated_at": "2026-09-30T03:01:52Z",
-      "html_url": "https://github.com/ROCm/mori/pull/696",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 675,
-      "title": "fix(ep/intranode training): restore replay-mode payload dispatch dropped by #532",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T04:42:34Z",
-      "updated_at": "2026-09-29T22:13:10Z",
-      "html_url": "https://github.com/ROCm/mori/pull/675",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 703,
-      "title": "refactor(EPv2): replace per-module __device__ staging with shared buffer",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T11:26:55Z",
-      "updated_at": "2026-09-28T11:30:00Z",
-      "html_url": "https://github.com/ROCm/mori/pull/703",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 678,
       "title": "fix(umbp): arm every standalone-process data-plane RPC with a deadline",
       "author": "isytwu",
@@ -158,18 +194,6 @@
       "draft": false
     },
     {
-      "number": 711,
-      "title": "fix(cco): two SDMA device-post deadlocks (multi-queue publish, commit snapshot)",
-      "author": "yoqiu-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T09:03:38Z",
-      "updated_at": "2026-09-27T04:21:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/711",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 699,
       "title": "chore: add security scanning workflows",
       "author": "haribabug",
@@ -178,18 +202,6 @@
       "created_at": "2026-09-22T18:28:49Z",
       "updated_at": "2026-09-25T11:25:06Z",
       "html_url": "https://github.com/ROCm/mori/pull/699",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 698,
-      "title": "feat(ep): support precompiled active QP subsets",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T17:34:20Z",
-      "updated_at": "2026-09-24T07:29:19Z",
-      "html_url": "https://github.com/ROCm/mori/pull/698",
       "labels": [],
       "draft": false
     },
@@ -598,6 +610,42 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 726,
+      "title": "gfx1250 EPv2: EP4 topk-9 geometry; selfFirst follows MORI_EP_TOKOFF_EXT",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T09:39:57Z",
+      "updated_at": "2026-10-08T09:40:53Z",
+      "html_url": "https://github.com/ROCm/mori/pull/726",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 675,
+      "title": "fix(ep/intranode training): restore replay-mode payload dispatch dropped by #532",
+      "author": "sudhu2k",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-16T04:42:34Z",
+      "updated_at": "2026-10-08T05:57:09Z",
+      "html_url": "https://github.com/ROCm/mori/pull/675",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 670,
+      "title": "Feat/io rdma retry tunables",
+      "author": "amirakb89",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-14T22:27:14Z",
+      "updated_at": "2026-10-08T03:03:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/670",
       "labels": [],
       "draft": false
     },
@@ -1618,42 +1666,6 @@
       "created_at": "2026-08-24T07:09:33Z",
       "updated_at": "2026-08-27T12:34:12Z",
       "html_url": "https://github.com/ROCm/mori/pull/594",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 609,
-      "title": "fix(cco): initialize packaged ROCm runtime before native load",
-      "author": "yangyuhuiling",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-27T07:22:37Z",
-      "updated_at": "2026-08-27T08:46:20Z",
-      "html_url": "https://github.com/ROCm/mori/pull/609",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 544,
-      "title": "allocator: register mori as a torch SymmetricMemory backend",
-      "author": "carlushuang",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-11T13:49:55Z",
-      "updated_at": "2026-08-26T15:04:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/544",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 600,
-      "title": "[AMD][DSV4] fix: recognize fp4_blockwise in the AUTO tuning config",
-      "author": "karverma-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T14:51:30Z",
-      "updated_at": "2026-08-26T10:22:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/600",
       "labels": [],
       "draft": false
     }

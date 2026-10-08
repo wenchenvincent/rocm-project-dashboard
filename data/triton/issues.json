@@ -1,27 +1,27 @@
 {
-  "collected_at": "2026-10-07T14:50:11Z",
+  "collected_at": "2026-10-08T15:01:05Z",
   "issues": [
+    {
+      "number": 12173,
+      "title": "Document the AMD `ptr_range()` contract and preserve it in native tensor specialization",
+      "author": "GodRishUniverse",
+      "state": "open",
+      "created_at": "2026-10-08T14:09:31Z",
+      "updated_at": "2026-10-08T14:09:31Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/12173",
+      "labels": []
+    },
     {
       "number": 12116,
       "title": "[AMD] CoalesceAsyncCopy produces a layout the direct-to-LDS lowering cannot coalesce when a warp spans more than the fastest shared dimension",
       "author": "bogdan-petkovic",
       "state": "open",
       "created_at": "2026-10-05T10:58:02Z",
-      "updated_at": "2026-10-07T13:48:51Z",
+      "updated_at": "2026-10-07T23:27:02Z",
       "html_url": "https://github.com/triton-lang/triton/issues/12116",
       "labels": [
         "bug"
       ]
-    },
-    {
-      "number": 12155,
-      "title": "[AMD] On gfx12 (RDNA4), OCP fp8 downcasts (e4m3fn and e5m2) lower to the software path though v_cvt_pk_fp8_f32 / v_cvt_pk_bf8_f32 are available",
-      "author": "lobo235",
-      "state": "open",
-      "created_at": "2026-10-07T05:37:21Z",
-      "updated_at": "2026-10-07T07:01:51Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/12155",
-      "labels": []
     },
     {
       "number": 10329,
@@ -76,16 +76,6 @@
       "labels": [
         "bug"
       ]
-    },
-    {
-      "number": 11497,
-      "title": "[AMD] On gfx12 (RDNA4), OCP fp8 (e4m3fn) upcasts lower to the software path, though `v_cvt_pk_f32_fp8` is available and is OCP FN on this target",
-      "author": "yanghoeg",
-      "state": "open",
-      "created_at": "2026-08-28T11:14:47Z",
-      "updated_at": "2026-08-28T11:14:47Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/11497",
-      "labels": []
     },
     {
       "number": 11327,

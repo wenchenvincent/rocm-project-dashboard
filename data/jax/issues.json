@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-10-07T14:49:41Z",
+  "collected_at": "2026-10-08T15:00:29Z",
   "issues": [
+    {
+      "number": 34519,
+      "title": "Unsupported ROCm Tests `tests/scaled_matmul_stablehlo_test.py`",
+      "author": "JehandadKhan",
+      "state": "open",
+      "created_at": "2026-01-21T04:44:46Z",
+      "updated_at": "2026-10-07T21:18:48Z",
+      "html_url": "https://github.com/jax-ml/jax/issues/34519",
+      "labels": [
+        "bug",
+        "AMD GPU"
+      ]
+    },
+    {
+      "number": 34515,
+      "title": "Unsupported ROCm Tests `tests/nn_test.py`",
+      "author": "JehandadKhan",
+      "state": "open",
+      "created_at": "2026-01-21T04:32:54Z",
+      "updated_at": "2026-10-07T21:18:44Z",
+      "html_url": "https://github.com/jax-ml/jax/issues/34515",
+      "labels": [
+        "bug",
+        "AMD GPU"
+      ]
+    },
     {
       "number": 34373,
       "title": "Unsupported ROCm Tests `tests/pallas/ops_test.py`",
@@ -9,20 +35,6 @@
       "created_at": "2026-01-14T21:59:48Z",
       "updated_at": "2026-09-10T19:14:32Z",
       "html_url": "https://github.com/jax-ml/jax/issues/34373",
-      "labels": [
-        "bug",
-        "AMD GPU",
-        "pallas"
-      ]
-    },
-    {
-      "number": 34516,
-      "title": "Unsupported ROCm Tests `tests/pallas/gpu_pallas_distributed_test.py`",
-      "author": "JehandadKhan",
-      "state": "open",
-      "created_at": "2026-01-21T04:34:43Z",
-      "updated_at": "2026-07-24T08:43:57Z",
-      "html_url": "https://github.com/jax-ml/jax/issues/34516",
       "labels": [
         "bug",
         "AMD GPU",
@@ -53,32 +65,6 @@
       "html_url": "https://github.com/jax-ml/jax/issues/37879",
       "labels": [
         "bug"
-      ]
-    },
-    {
-      "number": 34667,
-      "title": "Enable Nightly CI Phase III: Build PJRT wheel and Plugin using tip of tree",
-      "author": "JehandadKhan",
-      "state": "open",
-      "created_at": "2026-01-27T23:05:07Z",
-      "updated_at": "2026-04-06T21:04:24Z",
-      "html_url": "https://github.com/jax-ml/jax/issues/34667",
-      "labels": [
-        "enhancement",
-        "AMD GPU"
-      ]
-    },
-    {
-      "number": 34368,
-      "title": "Unsupported ROCm Tests `tests/linalg_test.py`",
-      "author": "JehandadKhan",
-      "state": "open",
-      "created_at": "2026-01-14T19:39:38Z",
-      "updated_at": "2026-04-06T20:31:54Z",
-      "html_url": "https://github.com/jax-ml/jax/issues/34368",
-      "labels": [
-        "bug",
-        "AMD GPU"
       ]
     },
     {
@@ -155,32 +141,6 @@
       "created_at": "2026-01-14T22:57:13Z",
       "updated_at": "2026-04-05T01:09:34Z",
       "html_url": "https://github.com/jax-ml/jax/issues/34386",
-      "labels": [
-        "bug",
-        "AMD GPU"
-      ]
-    },
-    {
-      "number": 34515,
-      "title": "Unsupported ROCm Tests `tests/nn_test.py`",
-      "author": "JehandadKhan",
-      "state": "open",
-      "created_at": "2026-01-21T04:32:54Z",
-      "updated_at": "2026-04-05T00:49:14Z",
-      "html_url": "https://github.com/jax-ml/jax/issues/34515",
-      "labels": [
-        "bug",
-        "AMD GPU"
-      ]
-    },
-    {
-      "number": 34519,
-      "title": "Unsupported ROCm Tests `tests/scaled_matmul_stablehlo_test.py`",
-      "author": "JehandadKhan",
-      "state": "open",
-      "created_at": "2026-01-21T04:44:46Z",
-      "updated_at": "2026-04-05T00:18:31Z",
-      "html_url": "https://github.com/jax-ml/jax/issues/34519",
       "labels": [
         "bug",
         "AMD GPU"

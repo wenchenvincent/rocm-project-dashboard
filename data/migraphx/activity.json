@@ -1,42 +1,42 @@
 {
-  "collected_at": "2026-10-07T14:52:00Z",
+  "collected_at": "2026-10-08T15:03:22Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 23,
-      "merged": 24,
-      "closed": 5
+      "opened": 20,
+      "merged": 18,
+      "closed": 2
     },
     "last_week": {
-      "opened": 32,
-      "merged": 23,
-      "closed": 7
+      "opened": 33,
+      "merged": 30,
+      "closed": 10
     },
     "median_time_to_merge_hours": 167.7,
-    "merge_count": 67,
-    "stale_prs": 74
+    "merge_count": 69,
+    "stale_prs": 73
   },
   "contributors": {
-    "active_this_week": 22,
+    "active_this_week": 19,
     "total_contributors": 52,
     "top_contributors": [
       {
         "author": "pfultz2",
         "prs_submitted": 61,
         "prs_merged": 29,
-        "commits": 26
-      },
-      {
-        "author": "CharlieL7",
-        "prs_submitted": 15,
-        "prs_merged": 10,
-        "commits": 9
+        "commits": 29
       },
       {
         "author": "causten",
-        "prs_submitted": 15,
-        "prs_merged": 8,
+        "prs_submitted": 16,
+        "prs_merged": 9,
+        "commits": 8
+      },
+      {
+        "author": "CharlieL7",
+        "prs_submitted": 14,
+        "prs_merged": 9,
         "commits": 8
       },
       {
@@ -53,8 +53,14 @@
       },
       {
         "author": "TedThemistokleous",
+        "prs_submitted": 6,
+        "prs_merged": 5,
+        "commits": 0
+      },
+      {
+        "author": "shivadbhavsar",
         "prs_submitted": 5,
-        "prs_merged": 4,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -64,15 +70,9 @@
         "commits": 2
       },
       {
-        "author": "shivadbhavsar",
-        "prs_submitted": 5,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
         "author": "ahsan-ca",
-        "prs_submitted": 5,
-        "prs_merged": 2,
+        "prs_submitted": 4,
+        "prs_merged": 1,
         "commits": 1
       },
       {
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 248,
     "opened_this_week": 1,
-    "closed_this_week": 1,
+    "closed_this_week": 0,
     "unanswered": 130
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 0.0,
+    "days_since_last": 1.0,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

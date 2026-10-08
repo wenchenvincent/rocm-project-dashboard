@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-07T14:50:54Z",
+  "collected_at": "2026-10-08T15:01:52Z",
   "prs": [
     {
       "number": 1234,
@@ -8,10 +8,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-07T12:39:34Z",
-      "updated_at": "2026-10-07T14:10:46Z",
+      "updated_at": "2026-10-08T14:49:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1234",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 1212,
+      "title": "[fix] Correct zipped_divide tiler hierarchy handling",
+      "author": "Peter9606",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T02:28:11Z",
+      "updated_at": "2026-10-08T14:49:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1212",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 1223,
@@ -20,8 +32,128 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-01T16:38:35Z",
-      "updated_at": "2026-10-07T08:06:13Z",
+      "updated_at": "2026-10-08T13:08:59Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1239,
+      "title": "[Windows] Add native ROCm JIT support",
+      "author": "Yasei-no-otoko",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T10:59:07Z",
+      "updated_at": "2026-10-08T11:37:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1239",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1216,
+      "title": "[Kernel] Add dense Flash Attention for gfx1100",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T07:22:21Z",
+      "updated_at": "2026-10-08T11:04:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1216",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1238,
+      "title": "Migrate kernels tiled tdm",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T06:37:06Z",
+      "updated_at": "2026-10-08T06:37:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1222,
+      "title": "[Build][JIT] Support core-only ROCm SDK environments",
+      "author": "apinge",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T10:40:54Z",
+      "updated_at": "2026-10-08T05:15:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1222",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1236,
+      "title": "[Bugfix] Compute dynamic layout sizes in i64 and name oversized tensor dims",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T00:23:17Z",
+      "updated_at": "2026-10-08T01:01:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1236",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1188,
+      "title": "[Script][Debug] Patch a JIT cache entry with hand-edited assembly",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T01:47:30Z",
+      "updated_at": "2026-10-08T00:44:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1188",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1190,
+      "title": "[llvm] Add support for custom LLVM extensions",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T07:24:36Z",
+      "updated_at": "2026-10-08T00:13:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1190",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1227,
+      "title": "[Kernel][Perf] Keep RMSNorm on the 128-bit path for partial tiles and small N",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T17:57:28Z",
+      "updated_at": "2026-10-07T20:29:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1235,
+      "title": "[Bugfix] Sync waves before the RMSNorm/LayerNorm quant kernels reuse their reduction slot",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T20:29:18Z",
+      "updated_at": "2026-10-07T20:29:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1235",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1229,
+      "title": "[Bugfix][gfx1250] Keep the FP8 GEMM's B reads and C stores inside N",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T21:44:15Z",
+      "updated_at": "2026-10-07T20:29:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1229",
       "labels": [],
       "draft": false
     },
@@ -48,30 +180,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1157",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1227,
-      "title": "[Kernel][Perf] Keep RMSNorm on the 128-bit path for partial tiles and small N",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T17:57:28Z",
-      "updated_at": "2026-10-07T03:28:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1229,
-      "title": "[Bugfix][gfx1250] Keep the FP8 GEMM's B reads and C stores inside N",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T21:44:15Z",
-      "updated_at": "2026-10-07T02:55:57Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1229",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1232,
@@ -122,18 +230,6 @@
       "draft": false
     },
     {
-      "number": 1222,
-      "title": "[Build][JIT] Support core-only ROCm SDK environments",
-      "author": "apinge",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T10:40:54Z",
-      "updated_at": "2026-10-05T13:59:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1222",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1225,
       "title": "[compiler][opt] schedule bank based on a verified llvm version",
       "author": "jli-melchior",
@@ -170,18 +266,6 @@
       "draft": false
     },
     {
-      "number": 1220,
-      "title": "[Bugfix][Test] Fix atomic_fmin/fmax Out left at +inf on side-stream launch",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T05:56:32Z",
-      "updated_at": "2026-10-01T06:01:40Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1220",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1214,
       "title": "[Kernel][gfx1250] Add the GLM-5 MonoKernel",
       "author": "jhinpan",
@@ -202,18 +286,6 @@
       "created_at": "2026-09-25T00:24:03Z",
       "updated_at": "2026-09-30T16:51:37Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1194",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1216,
-      "title": "[Kernel] Add dense Flash Attention for gfx1100",
-      "author": "vlluvia",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T07:22:21Z",
-      "updated_at": "2026-09-30T12:46:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1216",
       "labels": [],
       "draft": false
     },
@@ -290,18 +362,6 @@
       "draft": false
     },
     {
-      "number": 1212,
-      "title": "[fix] Correct zipped_divide tiler hierarchy handling",
-      "author": "Peter9606",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T02:28:11Z",
-      "updated_at": "2026-09-29T02:38:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1212",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 848,
       "title": "[Perf] Optimize rmsnorm/layernorm",
       "author": "cschenjunlin",
@@ -370,30 +430,6 @@
       "created_at": "2026-09-09T09:47:50Z",
       "updated_at": "2026-09-28T06:30:00Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1113",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1190,
-      "title": "[llvm] Extend LLVM for FlyDSL end-to-end performance work",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T07:24:36Z",
-      "updated_at": "2026-09-25T00:06:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1190",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1188,
-      "title": "[Compiler][Debug] Add a compile path for hand-edited assembly",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T01:47:30Z",
-      "updated_at": "2026-09-25T00:05:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1188",
       "labels": [],
       "draft": false
     },
@@ -790,6 +826,18 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1220,
+      "title": "[Bugfix][Test] Fix atomic_fmin/fmax Out left at +inf on side-stream launch",
+      "author": "dimitri91209",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-01T05:56:32Z",
+      "updated_at": "2026-10-08T12:53:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1220",
       "labels": [],
       "draft": false
     },

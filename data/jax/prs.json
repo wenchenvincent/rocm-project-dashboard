@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-10-07T14:49:40Z",
+  "collected_at": "2026-10-08T15:00:28Z",
   "prs": [
+    {
+      "number": 41341,
+      "title": "[ROCm] dev mxfp4 recipe",
+      "author": "ScXfjiang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:38:55Z",
+      "updated_at": "2026-10-08T09:08:07Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41341",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 41331,
       "title": "Add jax[rocm] extras that install ROCm from AMD's package index",
@@ -8,10 +20,25 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-07T01:19:18Z",
-      "updated_at": "2026-10-07T01:19:18Z",
+      "updated_at": "2026-10-07T19:29:09Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41331",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 41230,
+      "title": "[ROCM]  Add TheRock `rocm_sysdeps/lib` to wheel RUNPATHs needed for MORI deps",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T13:25:30Z",
+      "updated_at": "2026-10-07T15:59:44Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41230",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
     },
     {
       "number": 41233,
@@ -53,21 +80,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/41305",
       "labels": [
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 41230,
-      "title": "[ROCM]  Add TheRock `rocm_sysdeps/lib` to wheel RUNPATHs needed for MORI deps",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T13:25:30Z",
-      "updated_at": "2026-10-06T14:38:48Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41230",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
       ],
       "draft": false
     },

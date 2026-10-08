@@ -1,6 +1,88 @@
 {
-  "collected_at": "2026-10-07T14:50:57Z",
+  "collected_at": "2026-10-08T15:01:57Z",
   "prs": [
+    {
+      "number": 741,
+      "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
+      "author": "yaomingamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T16:23:35Z",
+      "updated_at": "2026-10-08T02:13:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
+      "labels": [
+        "community-contribution"
+      ],
+      "draft": false
+    },
+    {
+      "number": 751,
+      "title": "Ifu release v2.19",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T04:36:00Z",
+      "updated_at": "2026-10-07T23:51:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/751",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 747,
+      "title": "Fix Triton norm MXFP4",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T22:42:25Z",
+      "updated_at": "2026-10-07T23:13:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/747",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 745,
+      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T17:13:42Z",
+      "updated_at": "2026-10-07T23:07:50Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 755,
+      "title": "[TE] CK fused attention: return max_logit",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:54:41Z",
+      "updated_at": "2026-10-07T22:50:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 756,
+      "title": "IFU 2.20",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T19:30:41Z",
+      "updated_at": "2026-10-07T20:31:08Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/756",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 726,
       "title": "microbenchmarks: use pytest as execution backend",
@@ -8,7 +90,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-10-07T14:48:42Z",
+      "updated_at": "2026-10-07T15:32:44Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [],
       "draft": false
@@ -24,21 +106,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/754",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 742,
-      "title": "[JAX] grouped GEMM interface fix",
-      "author": "shurale-nkn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T14:01:17Z",
-      "updated_at": "2026-10-06T21:50:35Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/742",
-      "labels": [
-        "ci-level 3",
-        "claude-review"
       ],
       "draft": false
     },
@@ -71,34 +138,6 @@
       "draft": false
     },
     {
-      "number": 751,
-      "title": "Ifu release v2.19",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T04:36:00Z",
-      "updated_at": "2026-10-06T19:51:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/751",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 741,
-      "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
-      "author": "yaomingamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T16:23:35Z",
-      "updated_at": "2026-10-05T21:54:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
-      "labels": [
-        "community-contribution"
-      ],
-      "draft": false
-    },
-    {
       "number": 743,
       "title": "chore: add security scanning workflows",
       "author": "haribabug",
@@ -125,20 +164,6 @@
       "draft": false
     },
     {
-      "number": 747,
-      "title": "Fix Triton norm MXFP4",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T22:42:25Z",
-      "updated_at": "2026-10-01T18:29:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/747",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 746,
       "title": "FlyDSL persistent work-stealing MXFP8 grouped GEMM (gfx950)",
       "author": "aris134",
@@ -151,20 +176,6 @@
         "ci-level 1"
       ],
       "draft": true
-    },
-    {
-      "number": 745,
-      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T17:13:42Z",
-      "updated_at": "2026-09-29T22:57:32Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
     },
     {
       "number": 718,
@@ -719,6 +730,21 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 742,
+      "title": "[JAX] grouped GEMM interface fix",
+      "author": "shurale-nkn",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-24T14:01:17Z",
+      "updated_at": "2026-10-08T11:02:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/742",
+      "labels": [
+        "ci-level 3",
+        "claude-review"
+      ],
       "draft": false
     },
     {
@@ -1864,20 +1890,6 @@
       "created_at": "2026-06-19T19:48:34Z",
       "updated_at": "2026-06-23T15:16:13Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/641",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 630,
-      "title": "gfx1250 mxfp8 gemm: add NN/NT transpose workaround",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T18:53:41Z",
-      "updated_at": "2026-06-23T14:08:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/630",
       "labels": [
         "ci-level 1"
       ],

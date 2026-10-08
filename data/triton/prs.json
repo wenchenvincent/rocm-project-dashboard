@@ -1,17 +1,17 @@
 {
-  "collected_at": "2026-10-07T14:50:10Z",
+  "collected_at": "2026-10-08T15:01:05Z",
   "prs": [
     {
-      "number": 12157,
-      "title": "[AMD] Enable ConSan on gfx1250 rocjitsu",
-      "author": "PMylon",
+      "number": 12115,
+      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
+      "author": "dhernandez0",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-07T08:32:35Z",
-      "updated_at": "2026-10-07T13:37:08Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12157",
+      "created_at": "2026-10-05T10:00:49Z",
+      "updated_at": "2026-10-08T14:19:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12115",
       "labels": [],
-      "draft": false
+      "draft": true
     },
     {
       "number": 12141,
@@ -20,8 +20,128 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-06T12:45:22Z",
-      "updated_at": "2026-10-07T13:33:17Z",
+      "updated_at": "2026-10-08T13:47:30Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12141",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12172,
+      "title": "[AMD] Derive pipeliner buffer slots from the induction variable",
+      "author": "dhernandez0",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T12:44:55Z",
+      "updated_at": "2026-10-08T13:34:44Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12172",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12157,
+      "title": "[AMD] Enable ConSan on gfx1250 rocjitsu",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T08:32:35Z",
+      "updated_at": "2026-10-08T08:20:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12157",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12171,
+      "title": "[AMD][FpSan] Support scaled FP4 and FP8 downcasts",
+      "author": "kelesvol",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T07:34:42Z",
+      "updated_at": "2026-10-08T07:34:44Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12171",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12167,
+      "title": "[AMD] Saturate infinities in RDNA4 HW OCP FP8 downcasts",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T02:13:25Z",
+      "updated_at": "2026-10-08T02:45:21Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12167",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12166,
+      "title": "[AMD] Move assert barrier out of divergent control flow",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T00:45:32Z",
+      "updated_at": "2026-10-08T02:30:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12166",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12164,
+      "title": "[AMD] NFC: Move scaled upcast HW helpers out of Utility.h",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T22:51:33Z",
+      "updated_at": "2026-10-08T00:50:05Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12164",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11809,
+      "title": "[AMD] Use hardware OCP FP8 upcasts on RDNA4",
+      "author": "zihaomu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-16T05:25:52Z",
+      "updated_at": "2026-10-08T00:04:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11809",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12162,
+      "title": "[AMD] Switch MI250 jobs to amd-gfx90a",
+      "author": "sriakrish",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T21:09:27Z",
+      "updated_at": "2026-10-07T23:33:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12162",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12163,
+      "title": "[AMD] NFC: Remove dead code in the AMD backend",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T22:15:51Z",
+      "updated_at": "2026-10-07T22:44:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12163",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11295,
+      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T15:41:53Z",
+      "updated_at": "2026-10-07T20:43:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11295",
       "labels": [],
       "draft": true
     },
@@ -32,8 +152,56 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-05T16:43:55Z",
-      "updated_at": "2026-10-07T08:03:57Z",
+      "updated_at": "2026-10-07T20:33:46Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12122",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11880,
+      "title": "[AMD] Compute the HIP pointer-range bit natively",
+      "author": "lijinpei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T18:39:30Z",
+      "updated_at": "2026-10-07T20:16:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11880",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11486,
+      "title": "[AMD] Use hardware cvt instructions for OCP fp8 casts on gfx1170",
+      "author": "erizheng-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-27T21:43:17Z",
+      "updated_at": "2026-10-07T19:47:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11486",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12156,
+      "title": "[AMD] Use explicit fma in mxfp FA example",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T06:27:47Z",
+      "updated_at": "2026-10-07T15:26:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12156",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12159,
+      "title": "[AMD] Keep shared order in CoalesceAsyncCopy when the src order cannot lower to direct-to-LDS",
+      "author": "he-yufeng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:17:18Z",
+      "updated_at": "2026-10-07T15:17:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12159",
       "labels": [],
       "draft": false
     },
@@ -74,18 +242,6 @@
       "draft": true
     },
     {
-      "number": 12156,
-      "title": "[AMD] Use explicit fma in mxfp FA example",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T06:27:47Z",
-      "updated_at": "2026-10-07T06:31:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12156",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12154,
       "title": "[AMD][gfx1250] Lower math.fma to packed FMA",
       "author": "antiagainst",
@@ -96,18 +252,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12154",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11295,
-      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-10-07T05:27:45Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11295",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12140,
@@ -142,18 +286,6 @@
       "created_at": "2026-10-06T19:36:28Z",
       "updated_at": "2026-10-07T03:16:15Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12147",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11486,
-      "title": "[AMD] Use hardware cvt instructions for OCP fp8 casts on gfx1170",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T21:43:17Z",
-      "updated_at": "2026-10-07T02:32:45Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11486",
       "labels": [],
       "draft": false
     },
@@ -264,18 +396,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12119",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12115,
-      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
-      "author": "dhernandez0",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T10:00:49Z",
-      "updated_at": "2026-10-05T10:07:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12115",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12106,
@@ -458,78 +578,6 @@
       "draft": false
     },
     {
-      "number": 12043,
-      "title": "[AMD][CI] Move rocjitsu workflow to gfx90a",
-      "author": "sriakrish",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-30T18:43:54Z",
-      "updated_at": "2026-09-30T21:12:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12043",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12042,
-      "title": "[AMD] Remove RDNA1 and RDNA2 target support",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-30T16:49:31Z",
-      "updated_at": "2026-09-30T19:39:28Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12042",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12039,
-      "title": "[AMD] NFC: Modernize backend code with C++20 features",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-30T05:43:38Z",
-      "updated_at": "2026-09-30T15:49:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12039",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10886,
-      "title": "[AMD][BACKEND] Improve emitted errors when a direct-to-LDS copy cannot be lowered",
-      "author": "vmalepati1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T23:59:49Z",
-      "updated_at": "2026-09-30T11:34:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10886",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11963,
-      "title": "[AMD][BACKEND] Fix TDM verifiers to use shaperPerCTA",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-25T12:33:12Z",
-      "updated_at": "2026-09-30T04:54:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11963",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11992,
-      "title": "[AMD][KERNELS] Disable XCD swizzle on RDNA",
-      "author": "zihaomu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-28T09:04:41Z",
-      "updated_at": "2026-09-30T04:29:28Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11992",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12020,
       "title": "Add TRITON_BUILD_{NVIDIA,AMD}_BACKEND options to build without in-tree backends",
       "author": "KX76",
@@ -614,18 +662,6 @@
       "draft": true
     },
     {
-      "number": 11880,
-      "title": "[AMD] Compute the HIP pointer-range bit natively",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-20T18:39:30Z",
-      "updated_at": "2026-09-20T18:59:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11880",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 11876,
       "title": "[AMD] isolate LLVM CodeGen dependencies",
       "author": "antiagainst",
@@ -636,18 +672,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11876",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11809,
-      "title": "[AMD] Use hardware OCP FP8 upcasts on RDNA4",
-      "author": "zihaomu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T05:25:52Z",
-      "updated_at": "2026-09-19T01:37:06Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11809",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 11835,
@@ -694,30 +718,6 @@
       "created_at": "2026-09-15T03:23:38Z",
       "updated_at": "2026-09-15T06:03:20Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11793",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11769,
-      "title": "[AMD][GFX9] Disable local runtime loop unrolling for gfx942/gfx950",
-      "author": "xgxanq",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-14T11:43:40Z",
-      "updated_at": "2026-09-15T03:45:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11769",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11655,
-      "title": "[AMD] Widen InstCombine's SimplifyDemandedVectorElts walk depth",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T07:30:19Z",
-      "updated_at": "2026-09-14T03:18:13Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11655",
       "labels": [],
       "draft": false
     }
