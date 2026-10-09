@@ -1,6 +1,130 @@
 {
-  "collected_at": "2026-10-08T15:01:34Z",
+  "collected_at": "2026-10-09T14:45:43Z",
   "issues": [
+    {
+      "number": 6320,
+      "title": "[Issue]: Triton paged_attention_decode V2 double-counts and drops tokens when KV_BLK_SZ does not divide 1024",
+      "author": "truong-v",
+      "state": "open",
+      "created_at": "2026-10-09T14:00:35Z",
+      "updated_at": "2026-10-09T14:00:35Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6320",
+      "labels": []
+    },
+    {
+      "number": 6319,
+      "title": "[Issue]: Triton paged_attention_decode returns wrong output for non-power-of-two KV block sizes",
+      "author": "truong-v",
+      "state": "open",
+      "created_at": "2026-10-09T14:00:33Z",
+      "updated_at": "2026-10-09T14:00:33Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6319",
+      "labels": []
+    },
+    {
+      "number": 6318,
+      "title": "[Issue]: fused_qk_rope_cat_and_cache_mla skips and misplaces decode_q_pe_out / q_nope_zeros_out rows when num_decode_toks_for_zeros < B",
+      "author": "truong-v",
+      "state": "open",
+      "created_at": "2026-10-09T14:00:32Z",
+      "updated_at": "2026-10-09T14:00:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6318",
+      "labels": []
+    },
+    {
+      "number": 6317,
+      "title": "[Issue]: topk_gating kernels never select the last num_experts % vec_size experts (latent)",
+      "author": "truong-v",
+      "state": "open",
+      "created_at": "2026-10-09T14:00:31Z",
+      "updated_at": "2026-10-09T14:00:31Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6317",
+      "labels": []
+    },
+    {
+      "number": 6316,
+      "title": "[Issue]: sampling radix_topk_one_block_kernel ignores rowStarts in the radix passes and the renorm sum",
+      "author": "truong-v",
+      "state": "open",
+      "created_at": "2026-10-09T14:00:29Z",
+      "updated_at": "2026-10-09T14:00:29Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6316",
+      "labels": []
+    },
+    {
+      "number": 6315,
+      "title": "[Issue]: fused_rearrange_sigmoid_gated_delta_rule with is_kda=True reads the wrong gate for tokens after the first",
+      "author": "truong-v",
+      "state": "open",
+      "created_at": "2026-10-09T14:00:28Z",
+      "updated_at": "2026-10-09T14:00:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6315",
+      "labels": []
+    },
+    {
+      "number": 5184,
+      "title": "update_config_files auto-resolves duplicate tuned-GEMM entries, then raises \u2014 unrecoverable in containers",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-09-01T13:59:33Z",
+      "updated_at": "2026-10-09T09:18:57Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5184",
+      "labels": []
+    },
+    {
+      "number": 6221,
+      "title": "[Gluon][gfx950] unified_attention: batches with max_seqlen_q > 1 (speculative-decode verify) take the 2d grid with no KV split, so decode slows with context; plain decode also slower than the Triton backend",
+      "author": "jolpindo96",
+      "state": "open",
+      "created_at": "2026-10-07T14:43:30Z",
+      "updated_at": "2026-10-09T03:47:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6221",
+      "labels": []
+    },
+    {
+      "number": 6282,
+      "title": "[TRITON] Merging 2d/3d Unified Attention kernels for easy maintenance",
+      "author": "cagrikymk",
+      "state": "open",
+      "created_at": "2026-10-08T18:27:40Z",
+      "updated_at": "2026-10-08T18:36:57Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6282",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6280,
+      "title": "[TRITON] Unified Attention changes: main ticket",
+      "author": "cagrikymk",
+      "state": "open",
+      "created_at": "2026-10-08T18:25:48Z",
+      "updated_at": "2026-10-08T18:30:06Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6280",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6281,
+      "title": "[TRITON] Handling speculative tokens natively in Unified Attention",
+      "author": "cagrikymk",
+      "state": "open",
+      "created_at": "2026-10-08T18:26:55Z",
+      "updated_at": "2026-10-08T18:26:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6281",
+      "labels": []
+    },
+    {
+      "number": 6275,
+      "title": "[Bug] fused_moe dynamic per-tensor quant: inf in an unrouted/padding row corrupts the entire batch's output",
+      "author": "divakar-amd",
+      "state": "open",
+      "created_at": "2026-10-08T17:03:11Z",
+      "updated_at": "2026-10-08T17:34:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6275",
+      "labels": []
+    },
     {
       "number": 5766,
       "title": "[MoE][Build] Multi-arch `GPU_ARCHS=gfx942;gfx950` bakes the gfx950 instance table into 13 prebuilt `moe_ck2stages` modules, so gfx942 rejects `inter_dim=384` (breaks Qwen3-30B-A3B at TP2 under vLLM)",
@@ -29,16 +153,6 @@
       "created_at": "2026-10-08T07:01:09Z",
       "updated_at": "2026-10-08T07:01:09Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6249",
-      "labels": []
-    },
-    {
-      "number": 6221,
-      "title": "[Gluon][gfx950] unified_attention: batches with max_seqlen_q > 1 (speculative-decode verify) take the 2d grid with no KV split, so decode slows with context; plain decode also slower than the Triton backend",
-      "author": "jolpindo96",
-      "state": "open",
-      "created_at": "2026-10-07T14:43:30Z",
-      "updated_at": "2026-10-07T21:27:24Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6221",
       "labels": []
     },
     {
@@ -1089,16 +1203,6 @@
       "created_at": "2026-09-01T21:27:03Z",
       "updated_at": "2026-09-02T00:12:21Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5192",
-      "labels": []
-    },
-    {
-      "number": 5184,
-      "title": "update_config_files auto-resolves duplicate tuned-GEMM entries, then raises \u2014 unrecoverable in containers",
-      "author": "stefanskiasan",
-      "state": "open",
-      "created_at": "2026-09-01T13:59:33Z",
-      "updated_at": "2026-09-01T14:49:14Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5184",
       "labels": []
     },
     {
@@ -3430,18 +3534,6 @@
       "updated_at": "2025-10-12T18:27:51Z",
       "html_url": "https://github.com/ROCm/aiter/issues/887",
       "labels": []
-    },
-    {
-      "number": 898,
-      "title": "[Feature]: AITER fused MoE to support gpt-oss MoE with bias",
-      "author": "HAIAI",
-      "state": "open",
-      "created_at": "2025-08-27T23:00:51Z",
-      "updated_at": "2025-10-10T07:15:11Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/898",
-      "labels": [
-        "High Priority"
-      ]
     },
     {
       "number": 1150,

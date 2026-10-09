@@ -1,27 +1,15 @@
 {
-  "collected_at": "2026-10-08T15:01:05Z",
+  "collected_at": "2026-10-09T14:45:18Z",
   "prs": [
     {
-      "number": 12115,
-      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
-      "author": "dhernandez0",
+      "number": 12177,
+      "title": "[AMD] Add FP16-accumulate WMMA support for WMMAv3",
+      "author": "pabloantoniom",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-05T10:00:49Z",
-      "updated_at": "2026-10-08T14:19:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12115",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12141,
-      "title": "[AMD][GLUON] Allow scalar fp32 scales in scaled_downcast",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T12:45:22Z",
-      "updated_at": "2026-10-08T13:47:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12141",
+      "created_at": "2026-10-08T15:52:46Z",
+      "updated_at": "2026-10-09T14:42:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12177",
       "labels": [],
       "draft": true
     },
@@ -32,22 +20,130 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-08T12:44:55Z",
-      "updated_at": "2026-10-08T13:34:44Z",
+      "updated_at": "2026-10-09T14:01:39Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12172",
       "labels": [],
       "draft": true
     },
     {
+      "number": 12115,
+      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
+      "author": "dhernandez0",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T10:00:49Z",
+      "updated_at": "2026-10-09T12:39:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12115",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12203,
+      "title": "[AMD] CanonicalizePointers: normalize mixed pointer representations at scf.if yields",
+      "author": "he-yufeng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T11:56:50Z",
+      "updated_at": "2026-10-09T11:56:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12203",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12199,
+      "title": "[TUTORIAL] Enable FP8 matmul on supported AMD GPUs",
+      "author": "zihaomu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T09:19:37Z",
+      "updated_at": "2026-10-09T09:19:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12199",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11295,
+      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T15:41:53Z",
+      "updated_at": "2026-10-09T08:10:25Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11295",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12162,
+      "title": "[AMD] Switch MI250 jobs to amd-gfx90a",
+      "author": "sriakrish",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T21:09:27Z",
+      "updated_at": "2026-10-09T00:03:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12162",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12167,
+      "title": "[AMD] Saturate infinities in RDNA4 HW OCP FP8 downcasts",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T02:13:25Z",
+      "updated_at": "2026-10-08T22:34:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12167",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 12157,
       "title": "[AMD] Enable ConSan on gfx1250 rocjitsu",
       "author": "PMylon",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-10-07T08:32:35Z",
-      "updated_at": "2026-10-08T08:20:49Z",
+      "updated_at": "2026-10-08T22:10:22Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12157",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 11880,
+      "title": "[AMD] Compute the HIP pointer-range bit natively",
+      "author": "lijinpei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T18:39:30Z",
+      "updated_at": "2026-10-08T20:29:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11880",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12179,
+      "title": "[AMD] Fix s_memrealtime waitcnt for gfx9",
+      "author": "dsidler",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T17:43:36Z",
+      "updated_at": "2026-10-08T19:08:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12179",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12141,
+      "title": "[AMD][GLUON] Allow scalar fp32 scales in scaled_downcast",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T12:45:22Z",
+      "updated_at": "2026-10-08T15:06:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12141",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 12171,
@@ -58,18 +154,6 @@
       "created_at": "2026-10-08T07:34:42Z",
       "updated_at": "2026-10-08T07:34:44Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12171",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12167,
-      "title": "[AMD] Saturate infinities in RDNA4 HW OCP FP8 downcasts",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T02:13:25Z",
-      "updated_at": "2026-10-08T02:45:21Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12167",
       "labels": [],
       "draft": false
     },
@@ -110,18 +194,6 @@
       "draft": false
     },
     {
-      "number": 12162,
-      "title": "[AMD] Switch MI250 jobs to amd-gfx90a",
-      "author": "sriakrish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T21:09:27Z",
-      "updated_at": "2026-10-07T23:33:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12162",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12163,
       "title": "[AMD] NFC: Remove dead code in the AMD backend",
       "author": "antiagainst",
@@ -134,18 +206,6 @@
       "draft": false
     },
     {
-      "number": 11295,
-      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-10-07T20:43:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11295",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12122,
       "title": "[AMD] Add MIR entry points to the standalone AMD code generator (1/2)",
       "author": "tyb0807",
@@ -156,18 +216,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12122",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11880,
-      "title": "[AMD] Compute the HIP pointer-range bit natively",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-20T18:39:30Z",
-      "updated_at": "2026-10-07T20:16:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11880",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11486,
@@ -518,30 +566,6 @@
       "draft": false
     },
     {
-      "number": 12050,
-      "title": "[AMD] Enable test_debug.py in CI",
-      "author": "alefimov-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-01T12:02:32Z",
-      "updated_at": "2026-10-01T22:56:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12050",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11707,
-      "title": "[AMD] Fix partitioned shared and WMMA layouts for CGAs",
-      "author": "jungpark-mlir",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-11T14:21:46Z",
-      "updated_at": "2026-10-01T22:37:06Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11707",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11911,
       "title": "[AMD] Allow the tagged barrier lowering on RDNA in CU mode",
       "author": "mgehre-amd",
@@ -552,30 +576,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11911",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11910,
-      "title": "[AMD] Support controlling WGP/CU mode for RDNA",
-      "author": "mgehre-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-22T17:31:52Z",
-      "updated_at": "2026-10-01T00:47:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11910",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11909,
-      "title": "[AMD][BACKEND] Emit packed scaled_upcast layout for dot decomposition",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-22T16:29:45Z",
-      "updated_at": "2026-09-30T21:58:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11909",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12020,

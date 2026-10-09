@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-08T15:01:48Z",
+  "collected_at": "2026-10-09T14:45:52Z",
   "issues": [
+    {
+      "number": 732,
+      "title": "# [RFC][IO] MORI-IO fault simulation: enumerate and fix NIC/network failure modes (tracking)",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-09T08:55:33Z",
+      "updated_at": "2026-10-09T10:10:01Z",
+      "html_url": "https://github.com/ROCm/mori/issues/732",
+      "labels": []
+    },
     {
       "number": 715,
       "title": "EPv2: routing handles alias op-owned buffers; replaying an older handle faults",

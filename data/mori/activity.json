@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-08T15:05:34Z",
+  "collected_at": "2026-10-09T14:48:35Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 7,
-      "merged": 4,
+      "opened": 10,
+      "merged": 6,
       "closed": 0
     },
     "last_week": {
@@ -13,19 +13,19 @@
       "merged": 7,
       "closed": 0
     },
-    "median_time_to_merge_hours": 139.9,
-    "merge_count": 11,
-    "stale_prs": 22
+    "median_time_to_merge_hours": 31.1,
+    "merge_count": 13,
+    "stale_prs": 23
   },
   "contributors": {
-    "active_this_week": 12,
-    "total_contributors": 38,
+    "active_this_week": 14,
+    "total_contributors": 39,
     "top_contributors": [
       {
         "author": "jhchouuu",
         "prs_submitted": 23,
-        "prs_merged": 16,
-        "commits": 10
+        "prs_merged": 17,
+        "commits": 9
       },
       {
         "author": "QizhouZhang97",
@@ -53,20 +53,20 @@
       },
       {
         "author": "TianDi101",
-        "prs_submitted": 8,
+        "prs_submitted": 9,
         "prs_merged": 5,
         "commits": 0
-      },
-      {
-        "author": "yangyuhuiling",
-        "prs_submitted": 7,
-        "prs_merged": 4,
-        "commits": 3
       },
       {
         "author": "amirakb89",
         "prs_submitted": 7,
         "prs_merged": 4,
+        "commits": 3
+      },
+      {
+        "author": "yangyuhuiling",
+        "prs_submitted": 6,
+        "prs_merged": 3,
         "commits": 3
       },
       {
@@ -76,24 +76,24 @@
         "commits": 4
       },
       {
-        "author": "pemeliya",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 1
+        "author": "yoqiu-amd",
+        "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 3
       }
     ],
     "bus_factor": 4
   },
   "issue_health": {
-    "total_open": 24,
-    "opened_this_week": 1,
+    "total_open": 25,
+    "opened_this_week": 2,
     "closed_this_week": 0,
     "unanswered": 7
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 24.5,
+    "days_since_last": 25.5,
     "avg_interval_days": 24.4,
     "total_releases": 5,
     "latest_tag": "v1.2.3.post1"

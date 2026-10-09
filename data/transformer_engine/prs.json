@@ -1,19 +1,45 @@
 {
-  "collected_at": "2026-10-08T15:01:57Z",
+  "collected_at": "2026-10-09T14:45:59Z",
   "prs": [
     {
-      "number": 741,
-      "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
-      "author": "yaomingamd",
+      "number": 746,
+      "title": "FlyDSL persistent work-stealing grouped GEMM enablement (gfx950)",
+      "author": "aris134",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-23T16:23:35Z",
-      "updated_at": "2026-10-08T02:13:14Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
+      "created_at": "2026-09-29T21:45:10Z",
+      "updated_at": "2026-10-09T14:26:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
       "labels": [
-        "community-contribution"
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 744,
+      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-26T19:19:41Z",
+      "updated_at": "2026-10-09T02:42:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
+      "labels": [
+        "ci-level 3"
       ],
       "draft": false
+    },
+    {
+      "number": 757,
+      "title": "Revert \"Disable async on distributed softmax test on 8x GPU jobs due \u2026",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T22:48:40Z",
+      "updated_at": "2026-10-08T22:50:52Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/757",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 751,
@@ -22,7 +48,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-02T04:36:00Z",
-      "updated_at": "2026-10-07T23:51:21Z",
+      "updated_at": "2026-10-08T19:33:19Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/751",
       "labels": [
         "ci-level 3"
@@ -30,16 +56,16 @@
       "draft": false
     },
     {
-      "number": 747,
-      "title": "Fix Triton norm MXFP4",
-      "author": "matthiasdiener",
+      "number": 741,
+      "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
+      "author": "yaomingamd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-30T22:42:25Z",
-      "updated_at": "2026-10-07T23:13:35Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/747",
+      "created_at": "2026-09-23T16:23:35Z",
+      "updated_at": "2026-10-08T18:27:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
       "labels": [
-        "ci-level 1"
+        "community-contribution"
       ],
       "draft": false
     },
@@ -124,20 +150,6 @@
       "draft": false
     },
     {
-      "number": 744,
-      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-26T19:19:41Z",
-      "updated_at": "2026-10-06T21:31:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 743,
       "title": "chore: add security scanning workflows",
       "author": "haribabug",
@@ -162,20 +174,6 @@
         "ci-level 3"
       ],
       "draft": false
-    },
-    {
-      "number": 746,
-      "title": "FlyDSL persistent work-stealing MXFP8 grouped GEMM (gfx950)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T21:45:10Z",
-      "updated_at": "2026-09-30T16:02:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
     },
     {
       "number": 718,
@@ -730,6 +728,20 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 747,
+      "title": "Fix Triton norm MXFP4",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-30T22:42:25Z",
+      "updated_at": "2026-10-08T16:03:01Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/747",
+      "labels": [
+        "ci-level 1"
+      ],
       "draft": false
     },
     {
@@ -1876,20 +1888,6 @@
       "created_at": "2026-06-22T17:24:33Z",
       "updated_at": "2026-06-24T11:40:50Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/645",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 641,
-      "title": "Added sidecar mechanism for hard-fault-/thread-kill-tolerant CI test logging",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-19T19:48:34Z",
-      "updated_at": "2026-06-23T15:16:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/641",
       "labels": [
         "ci-level 1"
       ],

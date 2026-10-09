@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-08T15:00:28Z",
+  "collected_at": "2026-10-09T14:44:50Z",
   "prs": [
     {
       "number": 41341,
@@ -8,7 +8,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-07T15:38:55Z",
-      "updated_at": "2026-10-08T09:08:07Z",
+      "updated_at": "2026-10-09T11:40:44Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41341",
       "labels": [],
       "draft": true

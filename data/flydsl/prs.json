@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-10-08T15:01:52Z",
+  "collected_at": "2026-10-09T14:45:55Z",
   "prs": [
+    {
+      "number": 1243,
+      "title": "[llvm] bump llvm to 1df311a6",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T09:37:09Z",
+      "updated_at": "2026-10-09T12:38:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1243",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1227,
+      "title": "[Kernel][Perf] Tune RMSNorm for gfx1250: BF16 hardware conversion, early loads, small-N kernel choice",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T17:57:28Z",
+      "updated_at": "2026-10-09T10:23:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1228,
+      "title": "[Perf][gfx1250] Add split-K and a decode config selector to the FP8 GEMM",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T17:57:30Z",
+      "updated_at": "2026-10-09T10:11:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1228",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1229,
+      "title": "[Bugfix][gfx1250] Keep the FP8 GEMM's B reads and C stores inside N",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T21:44:15Z",
+      "updated_at": "2026-10-09T10:03:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1229",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1244,
+      "title": "[Doc] Add GLM and Kimi-K3 mono-kernel performance reports",
+      "author": "james-huang09",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T09:55:32Z",
+      "updated_at": "2026-10-09T09:55:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1244",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 1234,
       "title": "[Kernel]feat(dsv4): add the DeepSeek-V4 decode MonoKernel",
@@ -8,20 +68,68 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-07T12:39:34Z",
-      "updated_at": "2026-10-08T14:49:52Z",
+      "updated_at": "2026-10-09T09:11:58Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1234",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1184,
+      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T07:21:49Z",
+      "updated_at": "2026-10-09T09:08:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1230,
+      "title": "[Kernel][gfx1250] Support K tails in the BF16 GEMM",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T22:40:56Z",
+      "updated_at": "2026-10-09T08:46:37Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1230",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1242,
+      "title": "[fix] Correct zipped_divide tiler hierarchy handling",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T08:41:27Z",
+      "updated_at": "2026-10-09T08:41:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1242",
       "labels": [],
       "draft": true
     },
     {
-      "number": 1212,
-      "title": "[fix] Correct zipped_divide tiler hierarchy handling",
-      "author": "Peter9606",
+      "number": 1238,
+      "title": "Migrate kernels tiled tdm",
+      "author": "xudoyuan",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-29T02:28:11Z",
-      "updated_at": "2026-10-08T14:49:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1212",
+      "created_at": "2026-10-08T06:37:06Z",
+      "updated_at": "2026-10-09T07:00:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1240,
+      "title": "[Bugfix] Shared numerics, streams, and tests",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T02:00:58Z",
+      "updated_at": "2026-10-09T05:21:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1240",
       "labels": [],
       "draft": false
     },
@@ -32,22 +140,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-01T16:38:35Z",
-      "updated_at": "2026-10-08T13:08:59Z",
+      "updated_at": "2026-10-09T06:06:39Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1239,
-      "title": "[Windows] Add native ROCm JIT support",
-      "author": "Yasei-no-otoko",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T10:59:07Z",
-      "updated_at": "2026-10-08T11:37:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1239",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1216,
@@ -56,22 +152,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-30T07:22:21Z",
-      "updated_at": "2026-10-08T11:04:28Z",
+      "updated_at": "2026-10-09T03:13:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1216",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1238,
-      "title": "Migrate kernels tiled tdm",
-      "author": "xudoyuan",
+      "number": 1190,
+      "title": "[llvm] Add support for custom LLVM extensions",
+      "author": "Phil-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-08T06:37:06Z",
-      "updated_at": "2026-10-08T06:37:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
+      "created_at": "2026-09-24T07:24:36Z",
+      "updated_at": "2026-10-09T02:36:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1190",
       "labels": [],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 1212,
+      "title": "[fix] Correct zipped_divide tiler hierarchy handling",
+      "author": "Peter9606",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T02:28:11Z",
+      "updated_at": "2026-10-09T09:46:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1212",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1239,
+      "title": "[Windows] Add native ROCm JIT support",
+      "author": "Yasei-no-otoko",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T10:59:07Z",
+      "updated_at": "2026-10-08T22:32:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1239",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 1222,
@@ -110,30 +230,6 @@
       "draft": false
     },
     {
-      "number": 1190,
-      "title": "[llvm] Add support for custom LLVM extensions",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T07:24:36Z",
-      "updated_at": "2026-10-08T00:13:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1190",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1227,
-      "title": "[Kernel][Perf] Keep RMSNorm on the 128-bit path for partial tiles and small N",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T17:57:28Z",
-      "updated_at": "2026-10-07T20:29:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1235,
       "title": "[Bugfix] Sync waves before the RMSNorm/LayerNorm quant kernels reuse their reduction slot",
       "author": "jhinpan",
@@ -142,18 +238,6 @@
       "created_at": "2026-10-07T20:29:18Z",
       "updated_at": "2026-10-07T20:29:18Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1235",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1229,
-      "title": "[Bugfix][gfx1250] Keep the FP8 GEMM's B reads and C stores inside N",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T21:44:15Z",
-      "updated_at": "2026-10-07T20:29:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1229",
       "labels": [],
       "draft": false
     },
@@ -202,30 +286,6 @@
       "created_at": "2026-10-06T22:40:58Z",
       "updated_at": "2026-10-07T02:55:53Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1231",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1230,
-      "title": "[Kernel][gfx1250] Support K tails in the BF16 GEMM",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T22:40:56Z",
-      "updated_at": "2026-10-07T02:55:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1230",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1228,
-      "title": "[Perf][gfx1250] Add split-K and a decode config selector to the FP8 GEMM",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T17:57:30Z",
-      "updated_at": "2026-10-07T02:55:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1228",
       "labels": [],
       "draft": false
     },
@@ -290,18 +350,6 @@
       "draft": false
     },
     {
-      "number": 1184,
-      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T07:21:49Z",
-      "updated_at": "2026-09-30T09:40:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1217,
       "title": "feat(conv3d): align bf16 implicit GEMM with aiter #5370",
       "author": "huizzhan",
@@ -358,18 +406,6 @@
       "created_at": "2026-09-09T06:44:24Z",
       "updated_at": "2026-09-29T05:13:14Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 848,
-      "title": "[Perf] Optimize rmsnorm/layernorm",
-      "author": "cschenjunlin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T08:23:54Z",
-      "updated_at": "2026-09-28T18:55:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
       "labels": [],
       "draft": false
     },
@@ -826,6 +862,30 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1241,
+      "title": "[Perf] Tile GLM MXFP4 scales and pair gate/up rows",
+      "author": "james-huang09",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-09T04:30:10Z",
+      "updated_at": "2026-10-09T06:44:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1241",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "[Perf] Optimize rmsnorm/layernorm",
+      "author": "cschenjunlin",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-14T08:23:54Z",
+      "updated_at": "2026-10-09T00:22:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/848",
       "labels": [],
       "draft": false
     },
@@ -1632,30 +1692,6 @@
       "created_at": "2026-09-10T20:31:20Z",
       "updated_at": "2026-09-11T07:38:35Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1118",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1105,
-      "title": "[Perf][Dialect] Fold redundant index cast pairs in layout lowering",
-      "author": "Phil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T09:46:09Z",
-      "updated_at": "2026-09-11T07:32:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1105",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1107,
-      "title": "Mxfp8 8w 1*32 scale",
-      "author": "solinzby1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-09T01:59:35Z",
-      "updated_at": "2026-09-11T06:13:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1107",
       "labels": [],
       "draft": false
     }

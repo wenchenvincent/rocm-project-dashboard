@@ -1,88 +1,88 @@
 {
-  "collected_at": "2026-10-08T15:05:07Z",
+  "collected_at": "2026-10-09T14:48:16Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
       "opened": 49,
-      "merged": 17,
-      "closed": 13
+      "merged": 18,
+      "closed": 131
     },
     "last_week": {
-      "opened": 38,
-      "merged": 21,
+      "opened": 41,
+      "merged": 16,
       "closed": 6
     },
-    "median_time_to_merge_hours": 17.9,
-    "merge_count": 38,
-    "stale_prs": 175
+    "median_time_to_merge_hours": 26.0,
+    "merge_count": 35,
+    "stale_prs": 58
   },
   "contributors": {
-    "active_this_week": 32,
-    "total_contributors": 104,
+    "active_this_week": 28,
+    "total_contributors": 68,
     "top_contributors": [
       {
         "author": "PerryZhang01",
-        "prs_submitted": 24,
-        "prs_merged": 3,
+        "prs_submitted": 13,
+        "prs_merged": 0,
         "commits": 8
-      },
-      {
-        "author": "yhl-amd",
-        "prs_submitted": 23,
-        "prs_merged": 12,
-        "commits": 20
       },
       {
         "author": "Jasen2201",
-        "prs_submitted": 19,
-        "prs_merged": 5,
+        "prs_submitted": 13,
+        "prs_merged": 0,
         "commits": 8
       },
       {
-        "author": "valarLip",
-        "prs_submitted": 19,
-        "prs_merged": 17,
-        "commits": 25
-      },
-      {
         "author": "JiaoliangYu",
-        "prs_submitted": 16,
-        "prs_merged": 1,
+        "prs_submitted": 11,
+        "prs_merged": 0,
         "commits": 2
       },
       {
         "author": "ganyi1996ppo",
-        "prs_submitted": 16,
+        "prs_submitted": 11,
+        "prs_merged": 0,
+        "commits": 1
+      },
+      {
+        "author": "yhl-amd",
+        "prs_submitted": 10,
+        "prs_merged": 0,
+        "commits": 20
+      },
+      {
+        "author": "ZhiweiYan-96",
+        "prs_submitted": 9,
+        "prs_merged": 0,
+        "commits": 4
+      },
+      {
+        "author": "linsun12",
+        "prs_submitted": 8,
         "prs_merged": 0,
         "commits": 1
       },
       {
         "author": "gbyu-amd",
-        "prs_submitted": 16,
-        "prs_merged": 3,
-        "commits": 4
-      },
-      {
-        "author": "carlushuang",
-        "prs_submitted": 13,
+        "prs_submitted": 7,
         "prs_merged": 0,
-        "commits": 0
+        "commits": 4
       },
       {
         "author": "gyohuangxin",
-        "prs_submitted": 10,
-        "prs_merged": 1,
+        "prs_submitted": 5,
+        "prs_merged": 0,
         "commits": 10
       },
       {
-        "author": "ZhiweiYan-96",
-        "prs_submitted": 10,
-        "prs_merged": 2,
-        "commits": 4
+        "author": "XiaobingSuper",
+        "prs_submitted": 5,
+        "prs_merged": 0,
+        "commits": 2
       }
     ],
-    "bus_factor": 4
+    "bus_factor": null
   },
   "issue_health": {
     "total_open": 95,
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 0.5,
+    "days_since_last": 1.5,
     "avg_interval_days": 30.8,
     "total_releases": 5,
     "latest_tag": "v0.1.7"

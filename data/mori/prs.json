@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-10-08T15:01:48Z",
+  "collected_at": "2026-10-09T14:45:52Z",
   "prs": [
+    {
+      "number": 728,
+      "title": "ci: move MI355X_AINIC internode CI to mi355-gpu-49/50; fix JIT ionic",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T12:51:11Z",
+      "updated_at": "2026-10-09T13:51:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/728",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 724,
+      "title": "Drop the `pciutils`/`libpci` dependency from topology detection",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T10:49:55Z",
+      "updated_at": "2026-10-09T12:47:36Z",
+      "html_url": "https://github.com/ROCm/mori/pull/724",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 623,
+      "title": "SDMA HIP device management fixes",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T11:14:37Z",
+      "updated_at": "2026-10-09T12:46:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/623",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 730,
+      "title": "draft: perf(ep/asyncll): fuse recv-count signal onto send QP, defer CQE drain",
+      "author": "yoqiu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T07:06:48Z",
+      "updated_at": "2026-10-09T10:56:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/730",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 731,
+      "title": "feat(io): verbs seam + compile-time fault injector for MORI-IO RDMA",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T08:35:13Z",
+      "updated_at": "2026-10-09T08:38:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/731",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 683,
+      "title": "feat(umbp): serve metrics from a masterless node, and summarise offload/load/evict/promote/demote at INFO",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T03:26:06Z",
+      "updated_at": "2026-10-09T08:20:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/683",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 716,
+      "title": "Report peer failures instead of always claiming peers are alive",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T22:05:48Z",
+      "updated_at": "2026-10-09T07:05:53Z",
+      "html_url": "https://github.com/ROCm/mori/pull/716",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 725,
       "title": "[gfx1250] DSR1 EP4: add topk9 dispatch+combine schedule",
@@ -14,42 +98,6 @@
       "draft": false
     },
     {
-      "number": 623,
-      "title": "SDMA HIP device management fixes",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T11:14:37Z",
-      "updated_at": "2026-10-08T13:18:47Z",
-      "html_url": "https://github.com/ROCm/mori/pull/623",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 728,
-      "title": "ci: move MI355X_AINIC internode CI to mi355-gpu-49/50; fix JIT ionic",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T12:51:11Z",
-      "updated_at": "2026-10-08T12:51:11Z",
-      "html_url": "https://github.com/ROCm/mori/pull/728",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 727,
-      "title": "test(jit): check EpCfg's field count against VisitFields, not a literal",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T11:05:36Z",
-      "updated_at": "2026-10-08T11:06:14Z",
-      "html_url": "https://github.com/ROCm/mori/pull/727",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 703,
       "title": "refactor(EPv2): replace per-module __device__ staging with shared buffer",
       "author": "kawhil-amd",
@@ -58,18 +106,6 @@
       "created_at": "2026-09-23T11:26:55Z",
       "updated_at": "2026-10-08T10:13:08Z",
       "html_url": "https://github.com/ROCm/mori/pull/703",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 724,
-      "title": "Drop the `pciutils`/`libpci` dependency from topology detection",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T10:49:55Z",
-      "updated_at": "2026-10-08T08:31:02Z",
-      "html_url": "https://github.com/ROCm/mori/pull/724",
       "labels": [],
       "draft": false
     },
@@ -118,18 +154,6 @@
       "created_at": "2026-09-24T09:03:38Z",
       "updated_at": "2026-10-08T02:35:07Z",
       "html_url": "https://github.com/ROCm/mori/pull/711",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 716,
-      "title": "Report peer failures instead of always claiming peers are alive",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T22:05:48Z",
-      "updated_at": "2026-10-06T22:07:02Z",
-      "html_url": "https://github.com/ROCm/mori/pull/716",
       "labels": [],
       "draft": false
     },
@@ -250,18 +274,6 @@
       "created_at": "2026-09-17T10:53:16Z",
       "updated_at": "2026-09-18T16:49:04Z",
       "html_url": "https://github.com/ROCm/mori/pull/685",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 683,
-      "title": "feat(umbp): serve metrics from a masterless node, and summarise offload/load/evict/promote/demote at INFO",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T03:26:06Z",
-      "updated_at": "2026-09-17T03:26:07Z",
-      "html_url": "https://github.com/ROCm/mori/pull/683",
       "labels": [],
       "draft": false
     },
@@ -610,6 +622,30 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 727,
+      "title": "test(jit): check EpCfg's field count against VisitFields, not a literal",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T11:05:36Z",
+      "updated_at": "2026-10-09T06:20:38Z",
+      "html_url": "https://github.com/ROCm/mori/pull/727",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 729,
+      "title": "fix(io/rdma): export VMM memory by allocation handle so deregistered regions are freed",
+      "author": "indianspeedster",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T19:18:26Z",
+      "updated_at": "2026-10-09T05:52:16Z",
+      "html_url": "https://github.com/ROCm/mori/pull/729",
       "labels": [],
       "draft": false
     },
@@ -1654,18 +1690,6 @@
       "created_at": "2026-08-28T06:43:40Z",
       "updated_at": "2026-08-28T07:35:10Z",
       "html_url": "https://github.com/ROCm/mori/pull/616",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 594,
-      "title": "feat(cco): add Triton device API bindings",
-      "author": "yangyuhuiling",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T07:09:33Z",
-      "updated_at": "2026-08-27T12:34:12Z",
-      "html_url": "https://github.com/ROCm/mori/pull/594",
       "labels": [],
       "draft": false
     }
