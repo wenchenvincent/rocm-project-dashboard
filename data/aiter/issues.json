@@ -1,6 +1,48 @@
 {
-  "collected_at": "2026-10-09T14:45:43Z",
+  "collected_at": "2026-10-10T14:03:17Z",
   "issues": [
+    {
+      "number": 6346,
+      "title": "[gfx1250] tuned_grouped_fmoe.csv: the A8W4 rows for 7168 x 768 with 384 experts are the same for every token count and slower than the defaults at T = 4096",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-10-09T23:46:18Z",
+      "updated_at": "2026-10-09T23:46:18Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6346",
+      "labels": []
+    },
+    {
+      "number": 6345,
+      "title": "[gfx1250] BF16 GEMM: shapes without a tuned entry go to Triton, which is slower than AITER's own FlyDSL kernel",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-10-09T23:46:17Z",
+      "updated_at": "2026-10-09T23:46:17Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6345",
+      "labels": []
+    },
+    {
+      "number": 6344,
+      "title": "[gfx1250] RMSNorm returns wrong values: row tails are not written when N % 8 != 0, and wide rows sometimes get a wrong scale",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-10-09T23:46:16Z",
+      "updated_at": "2026-10-09T23:46:16Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6344",
+      "labels": []
+    },
+    {
+      "number": 6341,
+      "title": "[Bug] _as_int crashes on float strings in tuned_grouped_fmoe.csv",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-10-09T20:16:15Z",
+      "updated_at": "2026-10-09T20:16:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6341",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 6320,
       "title": "[Issue]: Triton paged_attention_decode V2 double-counts and drops tokens when KV_BLK_SZ does not divide 1024",
@@ -568,16 +610,6 @@
       "labels": []
     },
     {
-      "number": 5912,
-      "title": "[Feature] Optionally emit fp8-quantized Q from fused_qk_norm_rope_cache_pts_quant_shuffle",
-      "author": "mpashkovskii",
-      "state": "open",
-      "created_at": "2026-09-28T12:23:05Z",
-      "updated_at": "2026-09-28T12:23:39Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5912",
-      "labels": []
-    },
-    {
       "number": 5894,
       "title": "[Bug] [fa]gfx950 hd128 causal bwd kernels write dK = 0 under GPU sharing (missing s_barrier)",
       "author": "Johnsonms",
@@ -645,16 +677,6 @@
       "created_at": "2026-09-24T22:56:44Z",
       "updated_at": "2026-09-24T22:56:44Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5829",
-      "labels": []
-    },
-    {
-      "number": 5826,
-      "title": "[Issue]: bf16 MLA decode on gfx942 reads the wrong KV past 4 GiB from ptr_KV",
-      "author": "jamesETsmith",
-      "state": "open",
-      "created_at": "2026-09-24T20:56:06Z",
-      "updated_at": "2026-09-24T20:57:55Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5826",
       "labels": []
     },
     {

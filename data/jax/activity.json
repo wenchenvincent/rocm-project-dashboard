@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-09T14:46:33Z",
+  "collected_at": "2026-10-10T14:04:02Z",
   "project": "jax",
   "repo": "jax-ml/jax",
   "pr_velocity": {
@@ -15,11 +15,11 @@
     },
     "median_time_to_merge_hours": 41.1,
     "merge_count": 30,
-    "stale_prs": 9
+    "stale_prs": 8
   },
   "contributors": {
     "active_this_week": 6,
-    "total_contributors": 19,
+    "total_contributors": 18,
     "top_contributors": [
       {
         "author": "magaonka-amd",
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 22,
     "opened_this_week": 0,
-    "closed_this_week": 31,
+    "closed_this_week": 60,
     "unanswered": 6
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 21.6,
+    "days_since_last": 22.6,
     "avg_interval_days": 30.1,
     "total_releases": 5,
     "latest_tag": "jax-v0.11.2"

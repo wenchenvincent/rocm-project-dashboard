@@ -1,6 +1,202 @@
 {
-  "collected_at": "2026-10-09T14:45:22Z",
+  "collected_at": "2026-10-10T14:02:53Z",
   "prs": [
+    {
+      "number": 5365,
+      "title": "Fix moving shape transforms through a shared reduction and fold unsqueeze into multibroadcast",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T20:25:35Z",
+      "updated_at": "2026-10-10T00:35:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5365",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5339,
+      "title": "[AIMIGRAPHX-1301] add checks for size of literals when creating from protobuf",
+      "author": "kahmed10",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T18:48:42Z",
+      "updated_at": "2026-10-09T23:52:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5339",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5373,
+      "title": "docs: update installation docs with TheRock packages",
+      "author": "peterjunpark",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T19:35:31Z",
+      "updated_at": "2026-10-09T20:41:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5373",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5351,
+      "title": "Fix invalid const attribute on generated fused reductions",
+      "author": "ahsan-ca",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T17:17:44Z",
+      "updated_at": "2026-10-09T20:14:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5351",
+      "labels": [
+        "high priority",
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5304,
+      "title": "Adding support for operators with data-depdendent shape functions to `split_sym_dim`",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T01:04:10Z",
+      "updated_at": "2026-10-09T20:11:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5304",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5232,
+      "title": "Binary cache sql backend",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T16:40:28Z",
+      "updated_at": "2026-10-09T19:22:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5232",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5357,
+      "title": "Run verify tests across all supported compile modes per target",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T23:23:36Z",
+      "updated_at": "2026-10-09T18:22:26Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5357",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5168,
+      "title": "fix(security): guard ONNX/shape overflow and external data paths",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:11:45Z",
+      "updated_at": "2026-10-09T18:10:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5168",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5370,
+      "title": "Batch compile_ops across all modules from the root module",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T21:28:11Z",
+      "updated_at": "2026-10-09T18:06:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5370",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5364,
+      "title": "Add `select_module_index` op",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T19:25:39Z",
+      "updated_at": "2026-10-09T17:46:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5364",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5301,
+      "title": "gpu: skip optimize_module in eager compile mode",
+      "author": "vmilanov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T14:08:45Z",
+      "updated_at": "2026-10-09T17:27:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5301",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5372,
+      "title": "Onnxruntime Weekly Sync 2026-10-09",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T17:20:49Z",
+      "updated_at": "2026-10-09T17:20:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5372",
+      "labels": [
+        "onnxruntime",
+        "dependencies",
+        "skip bot checks",
+        "automated"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5358,
+      "title": "[AIMIGRAPHX-1103] Update docs for verify changes",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T23:56:34Z",
+      "updated_at": "2026-10-09T16:38:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5358",
+      "labels": [
+        "documentation",
+        "skip bot checks",
+        "Changelog: Not Applicable"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5348,
+      "title": "Fuse expert gathers, interleaved swiglu, and the expert sum into the fused_reduce kernels",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T16:12:40Z",
+      "updated_at": "2026-10-09T16:21:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5348",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5366,
+      "title": "Hoist submodule scratch memory into the parent in memory coloring",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T20:32:30Z",
+      "updated_at": "2026-10-09T16:08:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 3766,
       "title": "Remove rocmlir unsupported reduce types",
@@ -8,7 +204,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2025-01-17T14:43:48Z",
-      "updated_at": "2026-10-09T14:37:56Z",
+      "updated_at": "2026-10-09T15:27:28Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3766",
       "labels": [],
       "draft": false
@@ -26,68 +222,6 @@
         "claude-review"
       ],
       "draft": true
-    },
-    {
-      "number": 5301,
-      "title": "gpu: skip optimize_module in eager compile mode",
-      "author": "vmilanov-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T14:08:45Z",
-      "updated_at": "2026-10-09T14:17:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5301",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5364,
-      "title": "Add `select_module_index` op",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T19:25:39Z",
-      "updated_at": "2026-10-09T04:37:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5364",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5168,
-      "title": "fix(security): guard ONNX/shape overflow and external data paths",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:11:45Z",
-      "updated_at": "2026-10-09T02:27:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5168",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5370,
-      "title": "Batch compile_ops across all modules from the root module",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T21:28:11Z",
-      "updated_at": "2026-10-09T00:17:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5370",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5371,
-      "title": "Add copilot review with claude opus",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T21:38:38Z",
-      "updated_at": "2026-10-08T23:37:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5371",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5356,
@@ -112,33 +246,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4957",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5351,
-      "title": "Fix invalid const attribute on generated fused reductions",
-      "author": "ahsan-ca",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T17:17:44Z",
-      "updated_at": "2026-10-08T21:48:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5351",
-      "labels": [
-        "high priority",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5339,
-      "title": "[AIMIGRAPHX-1301] add checks for size of literals when creating from protobuf",
-      "author": "kahmed10",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T18:48:42Z",
-      "updated_at": "2026-10-08T19:58:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5339",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5213,
@@ -167,63 +274,6 @@
       "draft": false
     },
     {
-      "number": 5361,
-      "title": "Fix pad with non-finite value",
-      "author": "ivarusic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T13:35:48Z",
-      "updated_at": "2026-10-08T18:36:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5361",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5358,
-      "title": "[AIMIGRAPHX-1103] Update docs for verify changes",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T23:56:34Z",
-      "updated_at": "2026-10-08T21:56:24Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5358",
-      "labels": [
-        "documentation",
-        "skip bot checks",
-        "Changelog: Not Applicable"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5304,
-      "title": "Adding support for operators with data-depdendent shape functions to `split_sym_dim`",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T01:04:10Z",
-      "updated_at": "2026-10-08T15:46:50Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5304",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5232,
-      "title": "Binary cache sql backend",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T16:40:28Z",
-      "updated_at": "2026-10-08T14:15:26Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5232",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
       "number": 5362,
       "title": "Reduce compile-time heap allocations in matchers and optimization passes",
       "author": "vmilanov-amd",
@@ -234,18 +284,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5362",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5365,
-      "title": "Fix moving shape transforms through a shared reduction and fold unsqueeze into multibroadcast",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T20:25:35Z",
-      "updated_at": "2026-10-08T10:57:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5365",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5334,
@@ -260,18 +298,6 @@
         "enhancement",
         "Changelog: Added"
       ],
-      "draft": false
-    },
-    {
-      "number": 5366,
-      "title": "Hoist submodule scratch memory into the parent in memory coloring",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T20:32:30Z",
-      "updated_at": "2026-10-07T23:57:23Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
-      "labels": [],
       "draft": false
     },
     {
@@ -299,18 +325,6 @@
       "draft": false
     },
     {
-      "number": 5348,
-      "title": "Fuse expert gathers, interleaved swiglu, and the expert sum into the fused_reduce kernels",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T16:12:40Z",
-      "updated_at": "2026-10-07T17:59:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5348",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5350,
       "title": "fix fuse_concat across submods",
       "author": "shivadbhavsar",
@@ -319,18 +333,6 @@
       "created_at": "2026-10-03T03:49:54Z",
       "updated_at": "2026-10-07T06:05:38Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5350",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5357,
-      "title": "Run verify tests across all supported compile modes per target",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T23:23:36Z",
-      "updated_at": "2026-10-07T03:00:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5357",
       "labels": [],
       "draft": false
     },
@@ -1672,6 +1674,33 @@
       "draft": true
     },
     {
+      "number": 5371,
+      "title": "Add copilot review with claude opus",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T21:38:38Z",
+      "updated_at": "2026-10-09T18:18:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5371",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5361,
+      "title": "Fix pad with non-finite value",
+      "author": "ivarusic-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T13:35:48Z",
+      "updated_at": "2026-10-09T14:51:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5361",
+      "labels": [
+        "bugfix",
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
       "number": 5368,
       "title": "Pad nonfinite value rel 2611",
       "author": "ivarusic-amd",
@@ -2738,30 +2767,6 @@
       "labels": [
         "high priority"
       ],
-      "draft": false
-    },
-    {
-      "number": 5248,
-      "title": "Have convolution_backwards error on indivisible groups and reference operator accumulate in double",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-10T21:05:19Z",
-      "updated_at": "2026-09-21T23:24:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5248",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5285,
-      "title": "[AIRADSW-709] Remove division of batch size since does not scale with workgroups",
-      "author": "Zhaeong",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-19T07:50:39Z",
-      "updated_at": "2026-09-21T23:22:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5285",
-      "labels": [],
       "draft": false
     }
   ]

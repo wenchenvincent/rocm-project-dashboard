@@ -1,6 +1,86 @@
 {
-  "collected_at": "2026-10-09T14:45:59Z",
+  "collected_at": "2026-10-10T14:03:32Z",
   "prs": [
+    {
+      "number": 744,
+      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-26T19:19:41Z",
+      "updated_at": "2026-10-10T03:52:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-10-09T22:35:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 734,
+      "title": "Persistent AG + GEMM MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:42:24Z",
+      "updated_at": "2026-10-09T19:39:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 758,
+      "title": "Ifu release v2.19 linear",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T18:48:28Z",
+      "updated_at": "2026-10-09T18:48:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/758",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": true
+    },
+    {
+      "number": 743,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T19:42:17Z",
+      "updated_at": "2026-10-09T18:35:36Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/743",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 745,
+      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T17:13:42Z",
+      "updated_at": "2026-10-09T16:59:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
     {
       "number": 746,
       "title": "FlyDSL persistent work-stealing grouped GEMM enablement (gfx950)",
@@ -16,20 +96,6 @@
       "draft": true
     },
     {
-      "number": 744,
-      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-26T19:19:41Z",
-      "updated_at": "2026-10-09T02:42:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 757,
       "title": "Revert \"Disable async on distributed softmax test on 8x GPU jobs due \u2026",
       "author": "matthiasdiener",
@@ -42,20 +108,6 @@
       "draft": true
     },
     {
-      "number": 751,
-      "title": "Ifu release v2.19",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T04:36:00Z",
-      "updated_at": "2026-10-08T19:33:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/751",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 741,
       "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
       "author": "yaomingamd",
@@ -66,20 +118,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
       "labels": [
         "community-contribution"
-      ],
-      "draft": false
-    },
-    {
-      "number": 745,
-      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T17:13:42Z",
-      "updated_at": "2026-10-07T23:07:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     },
@@ -110,18 +148,6 @@
       "draft": false
     },
     {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-10-07T15:32:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 754,
       "title": "fix HipKittens grouped MXFP8 GEMM under CUDA graphs and enable MXFP8 grouped linear tests",
       "author": "matthiasdiener",
@@ -147,18 +173,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 743,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T19:42:17Z",
-      "updated_at": "2026-10-05T19:28:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/743",
-      "labels": [],
       "draft": false
     },
     {
@@ -213,20 +227,6 @@
       "labels": [
         "ci-level 3",
         "community-contribution"
-      ],
-      "draft": false
-    },
-    {
-      "number": 734,
-      "title": "Persistent AG + GEMM MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T15:42:24Z",
-      "updated_at": "2026-09-28T14:57:34Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     },

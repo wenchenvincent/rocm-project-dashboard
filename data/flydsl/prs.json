@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-10-09T14:45:55Z",
+  "collected_at": "2026-10-10T14:03:29Z",
   "prs": [
+    {
+      "number": 1259,
+      "title": "[Enh] Add CompiledFunction.max_blocks_per_cu()",
+      "author": "akii96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T11:56:43Z",
+      "updated_at": "2026-10-10T13:00:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1259",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1260,
+      "title": "[DSL] Add a category independent cute algebra framework",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T12:11:05Z",
+      "updated_at": "2026-10-10T12:16:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1260",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1258,
+      "title": "[fix] Build the zipped_divide guide from the tiler shape",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T08:50:25Z",
+      "updated_at": "2026-10-10T11:24:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1258",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1217,
+      "title": "feat(conv3d): align bf16 implicit GEMM with aiter #5370",
+      "author": "huizzhan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T08:00:37Z",
+      "updated_at": "2026-10-10T10:12:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1217",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1256,
+      "title": "[Perf] Fuse GLM-5.2 TP4 indexer for MTP4 C1/C2",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T05:26:56Z",
+      "updated_at": "2026-10-10T10:11:54Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1256",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1223,
+      "title": "[Kernel][Feature][Dialect][DSL][Perf][Doc][Test] Add gfx120x RDNA4 wave32 ops",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T16:38:35Z",
+      "updated_at": "2026-10-10T06:52:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 1243,
       "title": "[llvm] bump llvm to 1df311a6",
@@ -8,8 +80,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-09T09:37:09Z",
-      "updated_at": "2026-10-09T12:38:00Z",
+      "updated_at": "2026-10-10T01:24:34Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1243",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1254,
+      "title": "[Perf][gfx1250] Preload the kernel arguments of the BF16 and A8W8 GEMMs",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T00:01:43Z",
+      "updated_at": "2026-10-10T00:01:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1254",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1253,
+      "title": "[Bugfix][Test] Round MXFP8 E8M0 scales up in the test quantizers",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T21:44:15Z",
+      "updated_at": "2026-10-09T23:10:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1253",
       "labels": [],
       "draft": false
     },
@@ -20,22 +116,166 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-06T17:57:28Z",
-      "updated_at": "2026-10-09T10:23:08Z",
+      "updated_at": "2026-10-09T22:15:49Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1228,
-      "title": "[Perf][gfx1250] Add split-K and a decode config selector to the FP8 GEMM",
+      "number": 1231,
+      "title": "[Perf][gfx1250] Add a per-stage config selector to the A8W4 MoE GEMM",
       "author": "jhinpan",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-06T17:57:30Z",
-      "updated_at": "2026-10-09T10:11:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1228",
+      "created_at": "2026-10-06T22:40:58Z",
+      "updated_at": "2026-10-09T21:53:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1231",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 1232,
+      "title": "[Perf][gfx1250] Add a prefill config selector to the BF16 GEMM",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T22:41:16Z",
+      "updated_at": "2026-10-09T21:18:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1232",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1230,
+      "title": "[Kernel][gfx1250] Support K tails in the BF16 GEMM",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T22:40:56Z",
+      "updated_at": "2026-10-09T21:18:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1230",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1192,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T15:48:52Z",
+      "updated_at": "2026-10-09T18:34:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1192",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1240,
+      "title": "[Bugfix] Shared numerics, streams, and tests",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T02:00:58Z",
+      "updated_at": "2026-10-09T16:25:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1240",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1245,
+      "title": "[Kernel][FA] Fix ds_read_tr waitcnt hazard and stagger SCC clobber (1/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:17Z",
+      "updated_at": "2026-10-09T16:16:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1245",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1252,
+      "title": "[Kernel][FA] Document the gfx950 attention kernels and the 8xD head-dim protocol (8/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:44Z",
+      "updated_at": "2026-10-09T16:11:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1252",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1251,
+      "title": "[Kernel][FA] Route flydsl_flash_attn_func to the new gfx950 bf16/f16 kernels (7/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:39Z",
+      "updated_at": "2026-10-09T16:11:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1251",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1250,
+      "title": "[Kernel][FA] Add gfx950 attention backward (dQ and dK/dV) ported from AOTriton 0.14 (6/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:35Z",
+      "updated_at": "2026-10-09T16:11:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1250",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1249,
+      "title": "[Kernel][FA] Port gfx950 attention ALiBi, sink, paged KV, split-K and XCD swizzle to the new forward (5/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:30Z",
+      "updated_at": "2026-10-09T16:11:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1249",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1248,
+      "title": "[Kernel][FA] Add the gfx950 attention forward kernel (dual-wave and wide bodies) (4/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:27Z",
+      "updated_at": "2026-10-09T16:11:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1248",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1247,
+      "title": "[Kernel][FA] Add gfx950 attention metadata, knobs and traits config (3/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:24Z",
+      "updated_at": "2026-10-09T16:11:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1247",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1246,
+      "title": "[Kernel][FA] Add arch-neutral attention common, abi, philox and dispatch modules (2/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:21Z",
+      "updated_at": "2026-10-09T16:11:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1246",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 1229,
@@ -86,18 +326,6 @@
       "draft": false
     },
     {
-      "number": 1230,
-      "title": "[Kernel][gfx1250] Support K tails in the BF16 GEMM",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T22:40:56Z",
-      "updated_at": "2026-10-09T08:46:37Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1230",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1242,
       "title": "[fix] Correct zipped_divide tiler hierarchy handling",
       "author": "xudoyuan",
@@ -118,30 +346,6 @@
       "created_at": "2026-10-08T06:37:06Z",
       "updated_at": "2026-10-09T07:00:04Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1240,
-      "title": "[Bugfix] Shared numerics, streams, and tests",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T02:00:58Z",
-      "updated_at": "2026-10-09T05:21:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1240",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1223,
-      "title": "[Kernel][Feature][Dialect][DSL][Perf][Doc][Test] Add gfx120x RDNA4 wave32 ops",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T16:38:35Z",
-      "updated_at": "2026-10-09T06:06:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
       "labels": [],
       "draft": true
     },
@@ -176,7 +380,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-29T02:28:11Z",
-      "updated_at": "2026-10-09T09:46:13Z",
+      "updated_at": "2026-10-10T11:25:47Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1212",
       "labels": [],
       "draft": false
@@ -242,18 +446,6 @@
       "draft": false
     },
     {
-      "number": 1233,
-      "title": "[Perf][gfx1250] Pipeline the FP8 GEMM K-loop and add a prefill config selector",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T22:50:38Z",
-      "updated_at": "2026-10-07T03:28:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1233",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1157,
       "title": "feat(review): harden review engine for unattended runs",
       "author": "jhinpan",
@@ -264,30 +456,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1157",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1232,
-      "title": "[Perf][gfx1250] Add a prefill config selector to the BF16 GEMM",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T22:41:16Z",
-      "updated_at": "2026-10-07T02:55:54Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1232",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1231,
-      "title": "[Perf][gfx1250] Add a per-stage config selector to the A8W4 MoE GEMM",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T22:40:58Z",
-      "updated_at": "2026-10-07T02:55:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1231",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1225,
@@ -350,18 +518,6 @@
       "draft": false
     },
     {
-      "number": 1217,
-      "title": "feat(conv3d): align bf16 implicit GEMM with aiter #5370",
-      "author": "huizzhan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T08:00:37Z",
-      "updated_at": "2026-09-30T09:18:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1217",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 987,
       "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
       "author": "jli-melchior",
@@ -392,7 +548,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-22T09:04:02Z",
-      "updated_at": "2026-09-29T05:27:53Z",
+      "updated_at": "2026-10-10T02:00:36Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1179",
       "labels": [],
       "draft": false
@@ -466,18 +622,6 @@
       "created_at": "2026-09-09T09:47:50Z",
       "updated_at": "2026-09-28T06:30:00Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1113",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1192,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T15:48:52Z",
-      "updated_at": "2026-09-24T15:48:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1192",
       "labels": [],
       "draft": false
     },
@@ -698,18 +842,6 @@
       "draft": false
     },
     {
-      "number": 1069,
-      "title": "[Flydsl] Qwen-Image conv3d 3x3 opt",
-      "author": "huizzhan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T10:03:45Z",
-      "updated_at": "2026-09-08T08:39:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1069",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 887,
       "title": "gemm: add fp8 per-tensor grouped GEMM forward (M-grouped/MoE)",
       "author": "kyle-256",
@@ -862,6 +994,18 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1255,
+      "title": "[Kernel]add mega moe tp kernel for gfx950",
+      "author": "binding7012",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-10T02:41:20Z",
+      "updated_at": "2026-10-10T11:28:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1255",
       "labels": [],
       "draft": false
     },
@@ -1668,30 +1812,6 @@
       "created_at": "2026-09-11T17:15:37Z",
       "updated_at": "2026-09-11T17:22:55Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1124",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1094,
-      "title": "[CI] Run aiter CSV MoE and HGEMM in the wheel/PyPI test job",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-04T12:07:17Z",
-      "updated_at": "2026-09-11T08:53:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1094",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1118,
-      "title": "[CI] Use host networking for manylinux image builds",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-10T20:31:20Z",
-      "updated_at": "2026-09-11T07:38:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1118",
       "labels": [],
       "draft": false
     }

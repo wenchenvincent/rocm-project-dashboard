@@ -1,13 +1,23 @@
 {
-  "collected_at": "2026-10-09T14:45:57Z",
+  "collected_at": "2026-10-10T14:03:30Z",
   "issues": [
+    {
+      "number": 1257,
+      "title": "[Issue]: source-location capture (dsl_loc_tracing) is ~55% of a cold JIT and cannot be turned off",
+      "author": "valarLip",
+      "state": "open",
+      "created_at": "2026-10-10T05:41:22Z",
+      "updated_at": "2026-10-10T05:41:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1257",
+      "labels": []
+    },
     {
       "number": 1237,
       "title": "[RFC] Roadmap: an LDS synchronization sanitizer for FlyDSL",
       "author": "jhinpan",
       "state": "open",
       "created_at": "2026-10-08T06:10:14Z",
-      "updated_at": "2026-10-08T23:03:14Z",
+      "updated_at": "2026-10-10T00:15:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1237",
       "labels": []
     },

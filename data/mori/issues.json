@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-09T14:45:52Z",
+  "collected_at": "2026-10-10T14:03:26Z",
   "issues": [
     {
       "number": 732,
@@ -29,16 +29,6 @@
       "created_at": "2026-10-04T04:29:24Z",
       "updated_at": "2026-10-08T12:53:07Z",
       "html_url": "https://github.com/ROCm/mori/issues/721",
-      "labels": []
-    },
-    {
-      "number": 714,
-      "title": "EP IntraNode: replay dispatch (routing=) does not move the payload",
-      "author": "jeffdaily",
-      "state": "open",
-      "created_at": "2026-09-28T20:39:50Z",
-      "updated_at": "2026-09-29T22:13:12Z",
-      "html_url": "https://github.com/ROCm/mori/issues/714",
       "labels": []
     },
     {

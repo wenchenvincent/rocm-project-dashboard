@@ -1,42 +1,42 @@
 {
-  "collected_at": "2026-10-09T14:46:41Z",
+  "collected_at": "2026-10-10T14:04:08Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 22,
-      "merged": 17,
+      "opened": 21,
+      "merged": 14,
       "closed": 1
     },
     "last_week": {
-      "opened": 28,
-      "merged": 28,
-      "closed": 11
+      "opened": 27,
+      "merged": 27,
+      "closed": 7
     },
     "median_time_to_merge_hours": 166.0,
-    "merge_count": 65,
+    "merge_count": 61,
     "stale_prs": 72
   },
   "contributors": {
-    "active_this_week": 16,
+    "active_this_week": 17,
     "total_contributors": 52,
     "top_contributors": [
       {
         "author": "pfultz2",
         "prs_submitted": 63,
-        "prs_merged": 28,
-        "commits": 29
+        "prs_merged": 29,
+        "commits": 30
       },
       {
         "author": "causten",
         "prs_submitted": 17,
         "prs_merged": 10,
-        "commits": 7
+        "commits": 6
       },
       {
         "author": "CharlieL7",
-        "prs_submitted": 14,
-        "prs_merged": 9,
+        "prs_submitted": 13,
+        "prs_merged": 8,
         "commits": 8
       },
       {
@@ -49,7 +49,7 @@
         "author": "eddieliao",
         "prs_submitted": 8,
         "prs_merged": 5,
-        "commits": 8
+        "commits": 7
       },
       {
         "author": "TedThemistokleous",
@@ -82,7 +82,7 @@
         "commits": 0
       }
     ],
-    "bus_factor": 3
+    "bus_factor": 2
   },
   "issue_health": {
     "total_open": 248,
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 2.0,
+    "days_since_last": 3.0,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

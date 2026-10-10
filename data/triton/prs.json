@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-10-09T14:45:18Z",
+  "collected_at": "2026-10-10T14:02:50Z",
   "prs": [
+    {
+      "number": 11655,
+      "title": "[AMD] Widen InstCombine's SimplifyDemandedVectorElts walk depth",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T07:30:19Z",
+      "updated_at": "2026-10-10T06:12:15Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11655",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12218,
+      "title": "[AMD] Remove the ScalarizePackedFOps LLVM pass",
+      "author": "zhanglx13",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T04:49:32Z",
+      "updated_at": "2026-10-10T05:35:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12218",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12216,
+      "title": "[AMD][Proton] Use llvm.amdgcn.s.getreg for hwreg reads",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T02:47:12Z",
+      "updated_at": "2026-10-10T02:47:14Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12216",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12209,
+      "title": "[AMD] Add an opt-in MFMA scheduler for gfx950",
+      "author": "zhanglx13",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-09T16:54:55Z",
+      "updated_at": "2026-10-10T02:16:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12209",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12115,
+      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
+      "author": "dhernandez0",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T10:00:49Z",
+      "updated_at": "2026-10-10T02:09:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12115",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12211,
+      "title": "[AMD] Fix TDM copies to and from shared memory subviews",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T19:20:17Z",
+      "updated_at": "2026-10-09T19:21:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12211",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12210,
+      "title": "[DRAFT][AMD][ConSan] Improve async-copy waits and load/store tracking",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T18:07:37Z",
+      "updated_at": "2026-10-09T18:08:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12210",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 12177,
       "title": "[AMD] Add FP16-accumulate WMMA support for WMMAv3",
@@ -8,10 +92,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-08T15:52:46Z",
-      "updated_at": "2026-10-09T14:42:31Z",
+      "updated_at": "2026-10-09T15:28:35Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12177",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 10254,
+      "title": "[AMD] Add LLVM flag passthrough for AMDGPU codegen",
+      "author": "raikonenfnu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-07T01:43:24Z",
+      "updated_at": "2026-10-09T14:54:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10254",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 12172,
@@ -22,18 +118,6 @@
       "created_at": "2026-10-08T12:44:55Z",
       "updated_at": "2026-10-09T14:01:39Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12172",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12115,
-      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
-      "author": "dhernandez0",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T10:00:49Z",
-      "updated_at": "2026-10-09T12:39:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12115",
       "labels": [],
       "draft": true
     },
@@ -542,18 +626,6 @@
       "draft": true
     },
     {
-      "number": 12063,
-      "title": "[AMD][gfx1250] Turn on kernarg SGPR preload",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-02T05:50:41Z",
-      "updated_at": "2026-10-02T06:30:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12063",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12060,
       "title": "[AMD] Avoid redundant batch warps in dot layouts",
       "author": "pculaf",
@@ -646,78 +718,6 @@
       "created_at": "2026-09-22T02:53:43Z",
       "updated_at": "2026-09-22T02:53:44Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11904",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10694,
-      "title": "[AMD] Use operand-major LDS layout for FMA dot operands",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-22T13:49:28Z",
-      "updated_at": "2026-09-21T18:02:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10694",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11876,
-      "title": "[AMD] isolate LLVM CodeGen dependencies",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-19T22:58:39Z",
-      "updated_at": "2026-09-19T23:44:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11876",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11835,
-      "title": "[AMD] Cap the MFMA instruction shape by the per-warp share of the tile",
-      "author": "Mazukiri",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T16:01:34Z",
-      "updated_at": "2026-09-17T16:01:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11835",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10708,
-      "title": "[AMD] Add CDNA5 Gluon stream bandwidth example",
-      "author": "adityakankariya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-24T01:30:44Z",
-      "updated_at": "2026-09-15T17:16:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10708",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11787,
-      "title": "[DO NOT MERGE][CI][AMD] Migrate gfx950 CI to MI355 runner",
-      "author": "raikonenfnu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-14T21:51:25Z",
-      "updated_at": "2026-09-15T10:50:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11787",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11793,
-      "title": "[TEST][AMD] Add runtime loop regression for #11378",
-      "author": "zihaomu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-15T03:23:38Z",
-      "updated_at": "2026-09-15T06:03:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11793",
       "labels": [],
       "draft": false
     }
