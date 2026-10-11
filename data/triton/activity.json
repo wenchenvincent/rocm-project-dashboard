@@ -1,36 +1,36 @@
 {
-  "collected_at": "2026-10-10T14:04:06Z",
+  "collected_at": "2026-10-11T14:28:36Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 34,
-      "merged": 25,
+      "opened": 36,
+      "merged": 28,
       "closed": 0
     },
     "last_week": {
-      "opened": 9,
-      "merged": 5,
+      "opened": 7,
+      "merged": 2,
       "closed": 0
     },
-    "median_time_to_merge_hours": 14.1,
+    "median_time_to_merge_hours": 14.6,
     "merge_count": 30,
     "stale_prs": 0
   },
   "contributors": {
     "active_this_week": 25,
-    "total_contributors": 33,
+    "total_contributors": 32,
     "top_contributors": [
       {
         "author": "antiagainst",
-        "prs_submitted": 7,
-        "prs_merged": 6,
+        "prs_submitted": 8,
+        "prs_merged": 8,
         "commits": 0
       },
       {
         "author": "tyb0807",
-        "prs_submitted": 7,
-        "prs_merged": 6,
+        "prs_submitted": 5,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -41,14 +41,14 @@
       },
       {
         "author": "pabloantoniom",
-        "prs_submitted": 3,
+        "prs_submitted": 4,
         "prs_merged": 0,
         "commits": 0
       },
       {
         "author": "zhanglx13",
-        "prs_submitted": 2,
-        "prs_merged": 1,
+        "prs_submitted": 3,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 23,
     "opened_this_week": 1,
-    "closed_this_week": 12,
+    "closed_this_week": 9,
     "unanswered": 8
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 42.8,
+    "days_since_last": 43.8,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

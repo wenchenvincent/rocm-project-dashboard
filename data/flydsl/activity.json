@@ -1,43 +1,43 @@
 {
-  "collected_at": "2026-10-10T14:05:58Z",
+  "collected_at": "2026-10-11T14:30:21Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 32,
-      "merged": 4,
-      "closed": 3
-    },
-    "last_week": {
-      "opened": 21,
-      "merged": 14,
+      "opened": 39,
+      "merged": 6,
       "closed": 5
     },
-    "median_time_to_merge_hours": 37.3,
-    "merge_count": 20,
-    "stale_prs": 19
+    "last_week": {
+      "opened": 17,
+      "merged": 14,
+      "closed": 4
+    },
+    "median_time_to_merge_hours": 31.2,
+    "merge_count": 22,
+    "stale_prs": 20
   },
   "contributors": {
-    "active_this_week": 20,
+    "active_this_week": 21,
     "total_contributors": 51,
     "top_contributors": [
       {
         "author": "coderfeli",
-        "prs_submitted": 22,
+        "prs_submitted": 24,
         "prs_merged": 18,
-        "commits": 18
+        "commits": 17
       },
       {
         "author": "jhinpan",
-        "prs_submitted": 18,
+        "prs_submitted": 19,
         "prs_merged": 7,
-        "commits": 6
+        "commits": 5
       },
       {
         "author": "sjfeng1999",
         "prs_submitted": 16,
-        "prs_merged": 13,
-        "commits": 13
+        "prs_merged": 14,
+        "commits": 14
       },
       {
         "author": "xinyazhang",
@@ -49,7 +49,7 @@
         "author": "Phil-amd",
         "prs_submitted": 10,
         "prs_merged": 6,
-        "commits": 8
+        "commits": 6
       },
       {
         "author": "jli-melchior",
@@ -64,6 +64,12 @@
         "commits": 2
       },
       {
+        "author": "qiangpan2",
+        "prs_submitted": 3,
+        "prs_merged": 1,
+        "commits": 1
+      },
+      {
         "author": "dimitri91209",
         "prs_submitted": 3,
         "prs_merged": 1,
@@ -74,12 +80,6 @@
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 2
-      },
-      {
-        "author": "mustafayildirim",
-        "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 1
       }
     ],
     "bus_factor": 3
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 50,
     "opened_this_week": 2,
-    "closed_this_week": 1,
+    "closed_this_week": 0,
     "unanswered": 24
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 21.0,
+    "days_since_last": 22.0,
     "avg_interval_days": 23.5,
     "total_releases": 5,
     "latest_tag": "v0.3.4.1"

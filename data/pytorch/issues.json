@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-10T14:02:16Z",
+  "collected_at": "2026-10-11T14:26:56Z",
   "issues": [
     {
       "number": 200514,
@@ -7,7 +7,7 @@
       "author": "HOOLoLo",
       "state": "open",
       "created_at": "2026-10-10T09:03:19Z",
-      "updated_at": "2026-10-10T09:05:04Z",
+      "updated_at": "2026-10-11T14:07:53Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/200514",
       "labels": [
         "module: performance",
@@ -16,6 +16,268 @@
         "enhancement",
         "module: CUDACachingAllocator",
         "bot-triaged"
+      ]
+    },
+    {
+      "number": 200539,
+      "title": "[inductor] M=1 mm decomposition writes a (1, K, N) fp32 product to memory when the fused producers cross realize_opcount_threshold (3-6x slower GEMV)",
+      "author": "LoveManna",
+      "state": "open",
+      "created_at": "2026-10-10T21:34:48Z",
+      "updated_at": "2026-10-11T14:05:30Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200539",
+      "labels": [
+        "module: performance",
+        "triaged",
+        "has workaround",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 200558,
+      "title": "`nn.ModuleList.insert` with a negative or out-of-range index raises and leaves the list corrupted",
+      "author": "superdiaodiao",
+      "state": "open",
+      "created_at": "2026-10-11T11:11:22Z",
+      "updated_at": "2026-10-11T14:03:37Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200558",
+      "labels": [
+        "module: nn",
+        "triaged",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 200545,
+      "title": "[MPS] bfloat16 lerp fails with ambiguous Metal abs call",
+      "author": "art-test-stack",
+      "state": "open",
+      "created_at": "2026-10-11T00:12:51Z",
+      "updated_at": "2026-10-11T12:07:53Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200545",
+      "labels": [
+        "triaged",
+        "module: mps",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 149837,
+      "title": "Intermittent \"AssertionError: can only test a child process\" Warning with PyTorch DataLoader on Colab",
+      "author": "n3than",
+      "state": "open",
+      "created_at": "2025-03-24T01:18:56Z",
+      "updated_at": "2026-10-11T11:53:40Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/149837",
+      "labels": [
+        "module: multiprocessing",
+        "module: dataloader",
+        "triaged"
+      ]
+    },
+    {
+      "number": 200546,
+      "title": "`torch.compile fails during fake-tensor propagation on deprecated uint8 mask indexing that eager still accepts`",
+      "author": "tinywisdom",
+      "state": "open",
+      "created_at": "2026-10-11T02:17:25Z",
+      "updated_at": "2026-10-11T11:26:35Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200546",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: pt2-dispatcher",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 146508,
+      "title": "Something very wrong with float16 CPU implementation",
+      "author": "ddpasa",
+      "state": "open",
+      "created_at": "2025-02-05T18:20:15Z",
+      "updated_at": "2026-10-11T07:20:16Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/146508",
+      "labels": [
+        "module: performance",
+        "module: cpu",
+        "triaged",
+        "module: half"
+      ]
+    },
+    {
+      "number": 200544,
+      "title": "float8_e8m0fnu: float32 -> E8M0 cast rounds every exact tie up, never to the even code",
+      "author": "sw23",
+      "state": "open",
+      "created_at": "2026-10-10T23:42:50Z",
+      "updated_at": "2026-10-11T03:59:01Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200544",
+      "labels": [
+        "triage review",
+        "module: correctness (silent)",
+        "module: floatx (formerly float8)",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 199708,
+      "title": "float8_e8m0fnu: float32 values in (2^-127, 1.5*2^-127) cast to 2^-126 (code 1) instead of 2^-127 (code 0)",
+      "author": "sw23",
+      "state": "open",
+      "created_at": "2026-10-04T22:12:04Z",
+      "updated_at": "2026-10-11T03:56:09Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/199708",
+      "labels": [
+        "triaged",
+        "module: correctness (silent)",
+        "module: floatx (formerly float8)",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 200547,
+      "title": "[Inductor] torch.mm and torch.bmm do not respect `out_dtype` when using `native_matmul`",
+      "author": "nathan-az",
+      "state": "open",
+      "created_at": "2026-10-11T02:55:36Z",
+      "updated_at": "2026-10-11T02:57:37Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200547",
+      "labels": [
+        "triage review",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 197089,
+      "title": "[inductor][cpu] `torch.std`/`var` accumulate in float32: inf/NaN for 1e30-scale inputs, and **zero output with an all-zero gradient** for 1e-30-scale inputs (eager and float64 are correct)",
+      "author": "cuiliaomei-beep",
+      "state": "open",
+      "created_at": "2026-09-15T11:51:09Z",
+      "updated_at": "2026-10-11T01:37:42Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/197089",
+      "labels": [
+        "module: numerical-stability",
+        "module: cpu",
+        "triaged",
+        "module: NaNs and Infs",
+        "module: correctness (silent)",
+        "module: reductions",
+        "oncall: pt2",
+        "module: inductor",
+        "oncall: cpu inductor",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 200543,
+      "title": "torch.compile: complex sgn decomposition overflows on tiny inputs which causes NaN gradients in abs backward",
+      "author": "Shakil-Muhit",
+      "state": "open",
+      "created_at": "2026-10-10T23:22:11Z",
+      "updated_at": "2026-10-10T23:24:58Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200543",
+      "labels": [
+        "triage review",
+        "oncall: pt2",
+        "module: decompositions",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 200542,
+      "title": "torch.triu/torch.tril on CPU write out of bounds when out= has non-contiguous batch dims",
+      "author": "ethanclawsie",
+      "state": "open",
+      "created_at": "2026-10-10T22:19:50Z",
+      "updated_at": "2026-10-10T22:21:47Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200542",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: cpu",
+        "module: correctness (silent)",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 200541,
+      "title": "[cuDNN][Blackwell] F.conv1d produces even/odd batch-position differences for identical FP32 inputs",
+      "author": "huster-wgm",
+      "state": "open",
+      "created_at": "2026-10-10T22:13:12Z",
+      "updated_at": "2026-10-10T22:15:52Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200541",
+      "labels": [
+        "triage review",
+        "module: cudnn",
+        "module: convolution",
+        "module: correctness (silent)",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 200537,
+      "title": "torch.autocast(dtype=torch.bfloat16) runs cuDNN LSTM/GRU in float16",
+      "author": "KeithG33",
+      "state": "open",
+      "created_at": "2026-10-10T19:41:02Z",
+      "updated_at": "2026-10-10T19:43:01Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200537",
+      "labels": [
+        "triage review",
+        "module: cudnn",
+        "module: rnn",
+        "module: rocm",
+        "module: amp (automated mixed precision)",
+        "module: correctness (silent)",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 200531,
+      "title": "Numerical accuracy docs: bf16 matmul on Intel AMX CPUs treats subnormal inputs as zero above 16x16x16, regardless of set_flush_denormal",
+      "author": "tech4biz-yasha",
+      "state": "open",
+      "created_at": "2026-10-10T15:32:57Z",
+      "updated_at": "2026-10-10T15:37:14Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200531",
+      "labels": [
+        "module: docs",
+        "module: cpu",
+        "triaged",
+        "module: mkldnn",
+        "module: bfloat16",
+        "module: edge cases",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 176662,
+      "title": "C++20 Rollout Tracking",
+      "author": "r-barnes",
+      "state": "open",
+      "created_at": "2026-03-05T23:55:56Z",
+      "updated_at": "2026-10-10T14:25:02Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/176662",
+      "labels": [
+        "module: cpp",
+        "triaged",
+        "topic: improvements"
       ]
     },
     {
@@ -320,53 +582,6 @@
       ]
     },
     {
-      "number": 200423,
-      "title": "DISABLED test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_xpu (__main__.GPUTests)",
-      "author": "chuanqi129",
-      "state": "open",
-      "created_at": "2026-10-09T16:55:56Z",
-      "updated_at": "2026-10-09T16:57:58Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200423",
-      "labels": [
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 200422,
-      "title": "DISABLED test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_dynamic_shapes (__main__._cls)",
-      "author": "chuanqi129",
-      "state": "open",
-      "created_at": "2026-10-09T16:55:03Z",
-      "updated_at": "2026-10-09T16:56:40Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200422",
-      "labels": [
-        "triaged",
-        "skipped",
-        "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 200421,
-      "title": "DISABLED test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_dynamic_shapes (__main__.DynamicShapesCodegenGPUTestsXPU)",
-      "author": "chuanqi129",
-      "state": "open",
-      "created_at": "2026-10-09T16:47:30Z",
-      "updated_at": "2026-10-09T16:49:26Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200421",
-      "labels": [
-        "triaged",
-        "skipped",
-        "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 200416,
       "title": "Windows CPU: Intel OpenMP (libiomp5md) worker threads leak when the thread that ran an op exits",
       "author": "Tarek-yagami",
@@ -386,102 +601,6 @@
       ]
     },
     {
-      "number": 200406,
-      "title": "[SDPA] cuDNN backward returns NaN dQ for head_dim=256 with a bool attn_mask and short sequences on Blackwell (B300, sm_103), torch 2.14.1+cu130 / cuDNN 9.24",
-      "author": "Ingvarstep",
-      "state": "open",
-      "created_at": "2026-10-09T14:44:09Z",
-      "updated_at": "2026-10-09T15:26:56Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200406",
-      "labels": [
-        "triage review",
-        "module: cudnn",
-        "module: NaNs and Infs",
-        "has workaround",
-        "module: correctness (silent)",
-        "module: sdpa",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
-      "number": 200404,
-      "title": "`kl_divergence(ContinuousBernoulli, Uniform)` returns `inf` when the Uniform's support touches [0, 1]",
-      "author": "superdiaodiao",
-      "state": "open",
-      "created_at": "2026-10-09T13:09:00Z",
-      "updated_at": "2026-10-09T13:10:52Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200404",
-      "labels": [
-        "triage review",
-        "module: distributions",
-        "module: correctness (silent)",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 200379,
-      "title": "[inductor] merge_loops crashes with ValueError: The argument '-1 + ((-1))' is not comparable",
-      "author": "kaixuanliu",
-      "state": "open",
-      "created_at": "2026-10-09T05:48:40Z",
-      "updated_at": "2026-10-09T13:08:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200379",
-      "labels": [
-        "triaged",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 200402,
-      "title": "DISABLED test_copy_transpose_tiled_batched_layout_padded_src_batch_cuda_float64 (__main__.TestTorchDeviceTypeCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-09T12:58:31Z",
-      "updated_at": "2026-10-09T13:00:13Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200402",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 200403,
-      "title": "DISABLED test_compile_backward_bmm_cuda_float32 (__main__.TestNestedTensorOpInfoCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-09T12:58:34Z",
-      "updated_at": "2026-10-09T12:58:38Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200403",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "module: nestedtensor",
-        "skipped"
-      ]
-    },
-    {
-      "number": 200401,
-      "title": "DISABLED test_copy_transpose_tiled_batched_layout_padded_dst_batch_cuda_uint8 (__main__.TestTorchDeviceTypeCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-09T12:58:28Z",
-      "updated_at": "2026-10-09T12:58:31Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200401",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
       "number": 200400,
       "title": "DISABLED test_copy_transpose_tiled_batched_layout_padded_dst_batch_cuda_float32 (__main__.TestTorchDeviceTypeCUDA)",
       "author": "pytorch-bot[bot]",
@@ -495,36 +614,6 @@
         "triaged",
         "module: flaky-tests",
         "skipped"
-      ]
-    },
-    {
-      "number": 127536,
-      "title": "DISABLED test_cusparse_multiple_threads_same_device (__main__.TestCuda)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2024-05-30T15:39:40Z",
-      "updated_at": "2026-10-09T12:58:23Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/127536",
-      "labels": [
-        "module: cuda",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
-      "number": 124152,
-      "title": "DISABLED test_torchvision_models_efficientnet_v2_m (__main__.TestVisionTracing)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2024-04-16T06:39:45Z",
-      "updated_at": "2026-10-09T12:58:16Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/124152",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: fx"
       ]
     },
     {
@@ -844,103 +933,6 @@
         "oncall: pt2",
         "module: aotdispatch",
         "module: pt2-dispatcher"
-      ]
-    },
-    {
-      "number": 155916,
-      "title": "[`torch.distributed`] Watchdog monitor error handling should match watchdog error handling",
-      "author": "PSilvestre",
-      "state": "open",
-      "created_at": "2025-06-13T15:56:42Z",
-      "updated_at": "2026-10-06T09:42:35Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/155916",
-      "labels": [
-        "oncall: distributed",
-        "triaged",
-        "bot-triaged",
-        "oncall: distributed infra",
-        "ptd-bot-triaged"
-      ]
-    },
-    {
-      "number": 199890,
-      "title": "DISABLED test_copy_transpose_tiled_batched_layout_odd_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-06T07:01:06Z",
-      "updated_at": "2026-10-06T07:01:10Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199890",
-      "labels": [
-        "module: rocm",
-        "module: tests",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
-      "number": 199889,
-      "title": "DISABLED test_variable_sharing_cuda (__main__.TestMultiprocessingDeviceCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-06T07:01:03Z",
-      "updated_at": "2026-10-06T07:01:07Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199889",
-      "labels": [
-        "module: multiprocessing",
-        "module: rocm",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
-      "number": 195679,
-      "title": "torch.nn.functional.logsigmoid loses a representable float64 second-derivative component",
-      "author": "ALinrunrun",
-      "state": "open",
-      "created_at": "2026-09-02T03:51:47Z",
-      "updated_at": "2026-10-05T17:07:25Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/195679",
-      "labels": [
-        "module: autograd",
-        "triaged",
-        "needs research",
-        "module: edge cases",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 199776,
-      "title": "test_aoti_inference never runs in CI: its library and data files are not in the build artifacts",
-      "author": "jeffdaily",
-      "state": "open",
-      "created_at": "2026-10-05T16:20:39Z",
-      "updated_at": "2026-10-05T16:20:49Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199776",
-      "labels": [
-        "module: ci",
-        "triaged",
-        "oncall: pt2",
-        "oncall: export",
-        "module: aotinductor"
-      ]
-    },
-    {
-      "number": 199163,
-      "title": "[XPU] boolean-mask indexing silently returns empty on Intel Arc B580",
-      "author": "dieuctunpimp",
-      "state": "open",
-      "created_at": "2026-09-30T16:00:41Z",
-      "updated_at": "2026-10-05T15:53:26Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199163",
-      "labels": [
-        "triaged",
-        "module: advanced indexing",
-        "module: correctness (silent)",
-        "module: xpu",
-        "bot-triaged",
-        "release triage"
       ]
     }
   ]

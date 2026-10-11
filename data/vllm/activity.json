@@ -1,35 +1,35 @@
 {
-  "collected_at": "2026-10-10T14:04:02Z",
+  "collected_at": "2026-10-11T14:28:32Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 61,
-      "merged": 62,
+      "opened": 51,
+      "merged": 65,
       "closed": 0
     },
     "last_week": {
-      "opened": 31,
-      "merged": 12,
+      "opened": 36,
+      "merged": 14,
       "closed": 0
     },
-    "median_time_to_merge_hours": 204.3,
-    "merge_count": 74,
+    "median_time_to_merge_hours": 211.7,
+    "merge_count": 79,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 105,
-    "total_contributors": 110,
+    "active_this_week": 106,
+    "total_contributors": 111,
     "top_contributors": [
       {
-        "author": "amd-sriram",
-        "prs_submitted": 5,
-        "prs_merged": 1,
+        "author": "Sunt-ing",
+        "prs_submitted": 8,
+        "prs_merged": 7,
         "commits": 0
       },
       {
         "author": "mjkvaak-amd",
-        "prs_submitted": 5,
+        "prs_submitted": 6,
         "prs_merged": 1,
         "commits": 0
       },
@@ -40,15 +40,15 @@
         "commits": 0
       },
       {
-        "author": "pctablet505",
+        "author": "amd-sriram",
         "prs_submitted": 4,
-        "prs_merged": 0,
+        "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "simondanielsson",
+        "author": "aoshen02",
         "prs_submitted": 4,
-        "prs_merged": 2,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -58,21 +58,21 @@
         "commits": 0
       },
       {
-        "author": "peperunas",
+        "author": "Fangzhou-Ai",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "mgoin",
+        "author": "NolenLiang",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "aoshen02",
+        "author": "simondanielsson",
         "prs_submitted": 3,
-        "prs_merged": 3,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -82,18 +82,18 @@
         "commits": 0
       }
     ],
-    "bus_factor": 21
+    "bus_factor": 19
   },
   "issue_health": {
-    "total_open": 55,
-    "opened_this_week": 25,
-    "closed_this_week": 181,
+    "total_open": 52,
+    "opened_this_week": 19,
+    "closed_this_week": 178,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 5.3,
+    "days_since_last": 6.3,
     "avg_interval_days": 13.7,
     "total_releases": 5,
     "latest_tag": "v0.31.0"

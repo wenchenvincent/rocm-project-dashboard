@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-10-10T14:03:23Z",
+  "collected_at": "2026-10-11T14:27:48Z",
   "issues": [
+    {
+      "number": 2530,
+      "title": "[Perf Regression] 19 config(s) regressed @ 98a03df2",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-11T11:59:06Z",
+      "updated_at": "2026-10-11T11:59:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2530",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2527,
+      "title": "[Perf Regression] 9 config(s) regressed @ 4a1948ad",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-11T00:04:57Z",
+      "updated_at": "2026-10-11T00:04:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2527",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 2491,
       "title": "[Perf Regression] 7 config(s) regressed @ a526f0d5",
@@ -65,16 +91,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 2424,
-      "title": "GLM-5.3-Flash MTP: verify step never writes sparse KV indices below index_topk (or under CUDA graphs); DSA layers read the previous request's selection",
-      "author": "capy-ai-staging[bot]",
-      "state": "open",
-      "created_at": "2026-09-29T06:38:33Z",
-      "updated_at": "2026-10-02T08:08:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2424",
-      "labels": []
     },
     {
       "number": 2440,

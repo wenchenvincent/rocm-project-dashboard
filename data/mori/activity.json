@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-10-10T14:05:52Z",
+  "collected_at": "2026-10-11T14:30:16Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 20,
-      "merged": 11,
-      "closed": 3
+      "opened": 22,
+      "merged": 12,
+      "closed": 4
     },
     "last_week": {
       "opened": 7,
       "merged": 7,
       "closed": 0
     },
-    "median_time_to_merge_hours": 44.2,
-    "merge_count": 18,
-    "stale_prs": 22
+    "median_time_to_merge_hours": 37.7,
+    "merge_count": 19,
+    "stale_prs": 23
   },
   "contributors": {
     "active_this_week": 15,
@@ -23,27 +23,27 @@
     "top_contributors": [
       {
         "author": "jhchouuu",
-        "prs_submitted": 24,
-        "prs_merged": 16,
-        "commits": 9
+        "prs_submitted": 25,
+        "prs_merged": 17,
+        "commits": 10
       },
       {
         "author": "kawhil-amd",
         "prs_submitted": 12,
         "prs_merged": 8,
-        "commits": 5
+        "commits": 4
       },
       {
         "author": "QizhouZhang97",
         "prs_submitted": 12,
         "prs_merged": 10,
-        "commits": 7
+        "commits": 5
       },
       {
         "author": "zhangfei829",
         "prs_submitted": 12,
         "prs_merged": 12,
-        "commits": 9
+        "commits": 8
       },
       {
         "author": "TianDi101",
@@ -53,9 +53,9 @@
       },
       {
         "author": "isytwu",
-        "prs_submitted": 10,
-        "prs_merged": 5,
-        "commits": 3
+        "prs_submitted": 9,
+        "prs_merged": 4,
+        "commits": 2
       },
       {
         "author": "amirakb89",
@@ -86,14 +86,14 @@
   },
   "issue_health": {
     "total_open": 24,
-    "opened_this_week": 2,
+    "opened_this_week": 1,
     "closed_this_week": 1,
     "unanswered": 7
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 26.4,
+    "days_since_last": 27.5,
     "avg_interval_days": 24.4,
     "total_releases": 5,
     "latest_tag": "v1.2.3.post1"

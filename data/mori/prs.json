@@ -1,6 +1,56 @@
 {
-  "collected_at": "2026-10-10T14:03:25Z",
+  "collected_at": "2026-10-11T14:27:50Z",
   "prs": [
+    {
+      "number": 737,
+      "title": "perf(EPv2/gfx1250): retune EP4 topk-9 fp4 combine; un-shadow the topk-9 dispatch row",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T07:02:12Z",
+      "updated_at": "2026-10-11T01:28:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/737",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 744,
+      "title": "ci: skip the ci-rerun label on fork PRs; use /ci-rerun there",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T01:12:16Z",
+      "updated_at": "2026-10-11T01:12:16Z",
+      "html_url": "https://github.com/ROCm/mori/pull/744",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 711,
+      "title": "fix(cco): two SDMA device-post deadlocks (multi-queue publish, commit snapshot)",
+      "author": "yoqiu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T09:03:38Z",
+      "updated_at": "2026-10-11T00:41:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/711",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 730,
+      "title": "draft: perf(ep/asyncll): fuse recv-count signal onto send QP, defer CQE drain",
+      "author": "yoqiu-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T07:06:48Z",
+      "updated_at": "2026-10-11T00:41:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/730",
+      "labels": [
+        "ci-rerun"
+      ],
+      "draft": false
+    },
     {
       "number": 742,
       "title": "feat(umbp): size master eviction rounds in bytes, not a 32-row cap",
@@ -8,23 +58,9 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-10T14:03:05Z",
-      "updated_at": "2026-10-10T14:03:05Z",
+      "updated_at": "2026-10-10T14:15:02Z",
       "html_url": "https://github.com/ROCm/mori/pull/742",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 738,
-      "title": "ci: re-run PR CI against current main via /ci-rerun, ci-rerun label, or Re-run",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T09:28:56Z",
-      "updated_at": "2026-10-10T13:31:22Z",
-      "html_url": "https://github.com/ROCm/mori/pull/738",
-      "labels": [
-        "enhancement"
-      ],
       "draft": false
     },
     {
@@ -100,18 +136,6 @@
       "draft": false
     },
     {
-      "number": 737,
-      "title": "perf(EPv2/gfx1250): retune EP4 topk-9 fp4 combine; un-shadow the topk-9 dispatch row",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T07:02:12Z",
-      "updated_at": "2026-10-10T07:36:21Z",
-      "html_url": "https://github.com/ROCm/mori/pull/737",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 623,
       "title": "SDMA HIP device management fixes",
       "author": "pemeliya",
@@ -120,18 +144,6 @@
       "created_at": "2026-08-31T11:14:37Z",
       "updated_at": "2026-10-10T07:19:37Z",
       "html_url": "https://github.com/ROCm/mori/pull/623",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 711,
-      "title": "fix(cco): two SDMA device-post deadlocks (multi-queue publish, commit snapshot)",
-      "author": "yoqiu-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T09:03:38Z",
-      "updated_at": "2026-10-10T07:15:20Z",
-      "html_url": "https://github.com/ROCm/mori/pull/711",
       "labels": [],
       "draft": false
     },
@@ -168,18 +180,6 @@
       "created_at": "2026-09-17T03:26:06Z",
       "updated_at": "2026-10-10T03:53:00Z",
       "html_url": "https://github.com/ROCm/mori/pull/683",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 730,
-      "title": "draft: perf(ep/asyncll): fuse recv-count signal onto send QP, defer CQE drain",
-      "author": "yoqiu-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T07:06:48Z",
-      "updated_at": "2026-10-09T10:56:46Z",
-      "html_url": "https://github.com/ROCm/mori/pull/730",
       "labels": [],
       "draft": false
     },
@@ -649,6 +649,20 @@
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 738,
+      "title": "ci: re-run PR CI against current main via /ci-rerun, ci-rerun label, or Re-run",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-10T09:28:56Z",
+      "updated_at": "2026-10-10T15:00:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/738",
+      "labels": [
+        "enhancement"
+      ],
       "draft": false
     },
     {
@@ -1668,18 +1682,6 @@
       "created_at": "2026-08-31T09:30:51Z",
       "updated_at": "2026-09-02T05:58:08Z",
       "html_url": "https://github.com/ROCm/mori/pull/622",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 613,
-      "title": "perf(ep): optimize InterNodeV1LL small-token latency on EP16",
-      "author": "isytwu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-28T02:22:48Z",
-      "updated_at": "2026-09-02T04:32:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/613",
       "labels": [],
       "draft": false
     }

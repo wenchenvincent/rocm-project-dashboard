@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-10-10T14:02:53Z",
+  "collected_at": "2026-10-11T14:27:24Z",
   "prs": [
+    {
+      "number": 5232,
+      "title": "Binary cache sql backend",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T16:40:28Z",
+      "updated_at": "2026-10-11T14:25:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5232",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5357,
+      "title": "Run verify tests across all supported compile modes per target",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T23:23:36Z",
+      "updated_at": "2026-10-11T14:24:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5357",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5365,
       "title": "Fix moving shape transforms through a shared reduction and fold unsqueeze into multibroadcast",
@@ -8,8 +34,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-07T20:25:35Z",
-      "updated_at": "2026-10-10T00:35:50Z",
+      "updated_at": "2026-10-11T02:37:46Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5365",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5356,
+      "title": "Document reviewer conventions in AGENTS.md and the review skills, and make review flags act on every finding",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T23:03:21Z",
+      "updated_at": "2026-10-11T02:17:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5356",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5348,
+      "title": "Fuse expert gathers, interleaved swiglu, and the expert sum into the fused_reduce kernels",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T16:12:40Z",
+      "updated_at": "2026-10-11T01:26:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5348",
       "labels": [],
       "draft": false
     },
@@ -63,32 +113,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5304",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5232,
-      "title": "Binary cache sql backend",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T16:40:28Z",
-      "updated_at": "2026-10-09T19:22:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5232",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5357,
-      "title": "Run verify tests across all supported compile modes per target",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T23:23:36Z",
-      "updated_at": "2026-10-09T18:22:26Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5357",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5168,
@@ -174,18 +198,6 @@
       "draft": false
     },
     {
-      "number": 5348,
-      "title": "Fuse expert gathers, interleaved swiglu, and the expert sum into the fused_reduce kernels",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T16:12:40Z",
-      "updated_at": "2026-10-09T16:21:31Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5348",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5366,
       "title": "Hoist submodule scratch memory into the parent in memory coloring",
       "author": "pfultz2",
@@ -222,18 +234,6 @@
         "claude-review"
       ],
       "draft": true
-    },
-    {
-      "number": 5356,
-      "title": "Document reviewer conventions in AGENTS.md and the review skills, and make review flags act on every finding",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T23:03:21Z",
-      "updated_at": "2026-10-08T23:25:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5356",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 4957,
@@ -1674,6 +1674,45 @@
       "draft": true
     },
     {
+      "number": 5015,
+      "title": "Slice over dynamic dimension",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-26T17:30:49Z",
+      "updated_at": "2026-10-11T13:31:39Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5015",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5027,
+      "title": "Fuse_pointwise fuse dynamic even if scalar",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-01T17:26:57Z",
+      "updated_at": "2026-10-11T13:31:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5027",
+      "labels": [
+        "bugfix",
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5054,
+      "title": "Add from_string/to_string enum macro",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-10T16:51:27Z",
+      "updated_at": "2026-10-10T23:30:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5054",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5371,
       "title": "Add copilot review with claude opus",
       "author": "pfultz2",
@@ -2275,21 +2314,6 @@
       "draft": false
     },
     {
-      "number": 5027,
-      "title": "Fuse_pointwise fuse dynamic even if scalar",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-01T17:26:57Z",
-      "updated_at": "2026-09-30T19:29:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5027",
-      "labels": [
-        "bugfix",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
       "number": 4803,
       "title": "Python API debug symbols",
       "author": "CharlieL7",
@@ -2752,20 +2776,6 @@
       "labels": [
         "ok-to-test",
         "llm"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4554,
-      "title": "Add deref op",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-01-19T23:43:35Z",
-      "updated_at": "2026-09-21T23:30:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4554",
-      "labels": [
-        "high priority"
       ],
       "draft": false
     }
