@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-10-11T14:27:43Z",
+  "collected_at": "2026-10-12T17:05:39Z",
   "issues": [
+    {
+      "number": 6415,
+      "title": "[mha_v4] Feature request: valid-length masking for the KV tail in sorted-sparse (and dense) calls (gfx950)",
+      "author": "manproai",
+      "state": "open",
+      "created_at": "2026-10-12T04:53:45Z",
+      "updated_at": "2026-10-12T04:53:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6415",
+      "labels": []
+    },
+    {
+      "number": 6414,
+      "title": "[mha_v4] Suspected correctness issue: MXFP6 / MXFP4 V recipes are wrong when the KV length is not a multiple of 128 (gfx950)",
+      "author": "manproai",
+      "state": "open",
+      "created_at": "2026-10-12T04:53:43Z",
+      "updated_at": "2026-10-12T04:53:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6414",
+      "labels": []
+    },
+    {
+      "number": 6413,
+      "title": "[mha_v4] Suspected correctness issue: sorted-sparse output differs from dense for the MXFP8 recipe with an all-true block mask (gfx950)",
+      "author": "manproai",
+      "state": "open",
+      "created_at": "2026-10-12T04:53:42Z",
+      "updated_at": "2026-10-12T04:53:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6413",
+      "labels": []
+    },
+    {
+      "number": 6402,
+      "title": "[gfx1250] BF16 GEMM: Triton gemm_a16w16 leaves the rows of C past byte 2^31 unwritten",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-10-11T18:09:29Z",
+      "updated_at": "2026-10-11T18:37:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6402",
+      "labels": []
+    },
     {
       "number": 6222,
       "title": "[Issue]: `sage_quant` / `fav3_sage_wrapper_func`: wrong results and out-of-bounds writes for non-dense Q/K/V",
@@ -121,16 +161,6 @@
       "created_at": "2026-09-01T13:59:33Z",
       "updated_at": "2026-10-09T09:18:57Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5184",
-      "labels": []
-    },
-    {
-      "number": 6221,
-      "title": "[Gluon][gfx950] unified_attention: batches with max_seqlen_q > 1 (speculative-decode verify) take the 2d grid with no KV split, so decode slows with context; plain decode also slower than the Triton backend",
-      "author": "jolpindo96",
-      "state": "open",
-      "created_at": "2026-10-07T14:43:30Z",
-      "updated_at": "2026-10-09T03:47:07Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6221",
       "labels": []
     },
     {

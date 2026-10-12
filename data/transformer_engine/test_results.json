@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-11T14:28:27Z",
+  "collected_at": "2026-10-12T17:06:20Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "TransformerEngine CI",

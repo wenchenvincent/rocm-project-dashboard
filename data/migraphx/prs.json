@@ -1,18 +1,68 @@
 {
-  "collected_at": "2026-10-11T14:27:24Z",
+  "collected_at": "2026-10-12T17:05:17Z",
   "prs": [
     {
-      "number": 5232,
-      "title": "Binary cache sql backend",
-      "author": "pnikolic-amd",
+      "number": 5358,
+      "title": "[AIMIGRAPHX-1103] Update docs for verify changes",
+      "author": "eddieliao",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-02T16:40:28Z",
-      "updated_at": "2026-10-11T14:25:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5232",
+      "created_at": "2026-10-06T23:56:34Z",
+      "updated_at": "2026-10-12T17:04:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5358",
       "labels": [
-        "Windows"
+        "documentation",
+        "skip bot checks",
+        "Changelog: Not Applicable"
       ],
+      "draft": false
+    },
+    {
+      "number": 5364,
+      "title": "Add `select_module_index` op",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T19:25:39Z",
+      "updated_at": "2026-10-12T16:42:51Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5364",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5168,
+      "title": "fix(security): guard ONNX/shape overflow and external data paths",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:11:45Z",
+      "updated_at": "2026-10-12T16:16:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5168",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5377,
+      "title": "Use small_vector",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T14:44:54Z",
+      "updated_at": "2026-10-12T14:44:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5377",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5376,
+      "title": "Fix reduce_slice_interleaved failure",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T14:24:10Z",
+      "updated_at": "2026-10-12T14:26:59Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5376",
+      "labels": [],
       "draft": false
     },
     {
@@ -22,56 +72,56 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-06T23:23:36Z",
-      "updated_at": "2026-10-11T14:24:53Z",
+      "updated_at": "2026-10-12T12:02:14Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5357",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5365,
-      "title": "Fix moving shape transforms through a shared reduction and fold unsqueeze into multibroadcast",
+      "number": 5374,
+      "title": "Add an indices type to topk, fold index converts into it, and keep the input layout",
       "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-07T20:25:35Z",
-      "updated_at": "2026-10-11T02:37:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5365",
+      "created_at": "2026-10-11T17:14:42Z",
+      "updated_at": "2026-10-11T20:29:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5374",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5356,
-      "title": "Document reviewer conventions in AGENTS.md and the review skills, and make review flags act on every finding",
+      "number": 5366,
+      "title": "Hoist submodule scratch memory into the parent in memory coloring",
       "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-06T23:03:21Z",
-      "updated_at": "2026-10-11T02:17:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5356",
+      "created_at": "2026-10-07T20:32:30Z",
+      "updated_at": "2026-10-11T20:27:34Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5348,
-      "title": "Fuse expert gathers, interleaved swiglu, and the expert sum into the fused_reduce kernels",
+      "number": 5370,
+      "title": "Batch compile_ops across all modules from the root module",
       "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-02T16:12:40Z",
-      "updated_at": "2026-10-11T01:26:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5348",
+      "created_at": "2026-10-08T21:28:11Z",
+      "updated_at": "2026-10-11T17:06:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5370",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5339,
-      "title": "[AIMIGRAPHX-1301] add checks for size of literals when creating from protobuf",
-      "author": "kahmed10",
+      "number": 5352,
+      "title": "Fuse reduce reshapes",
+      "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-30T18:48:42Z",
-      "updated_at": "2026-10-09T23:52:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5339",
+      "created_at": "2026-10-05T21:48:08Z",
+      "updated_at": "2026-10-11T14:55:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5352",
       "labels": [],
       "draft": false
     },
@@ -115,42 +165,6 @@
       "draft": true
     },
     {
-      "number": 5168,
-      "title": "fix(security): guard ONNX/shape overflow and external data paths",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:11:45Z",
-      "updated_at": "2026-10-09T18:10:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5168",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5370,
-      "title": "Batch compile_ops across all modules from the root module",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T21:28:11Z",
-      "updated_at": "2026-10-09T18:06:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5370",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5364,
-      "title": "Add `select_module_index` op",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T19:25:39Z",
-      "updated_at": "2026-10-09T17:46:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5364",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5301,
       "title": "gpu: skip optimize_module in eager compile mode",
       "author": "vmilanov-amd",
@@ -179,34 +193,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 5358,
-      "title": "[AIMIGRAPHX-1103] Update docs for verify changes",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T23:56:34Z",
-      "updated_at": "2026-10-09T16:38:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5358",
-      "labels": [
-        "documentation",
-        "skip bot checks",
-        "Changelog: Not Applicable"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5366,
-      "title": "Hoist submodule scratch memory into the parent in memory coloring",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T20:32:30Z",
-      "updated_at": "2026-10-09T16:08:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
-      "labels": [],
       "draft": false
     },
     {
@@ -369,18 +355,6 @@
       "created_at": "2026-07-08T14:22:24Z",
       "updated_at": "2026-10-06T15:43:13Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5352,
-      "title": "Fuse reduce reshapes",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T21:48:08Z",
-      "updated_at": "2026-10-05T22:00:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5352",
       "labels": [],
       "draft": false
     },
@@ -1674,6 +1648,82 @@
       "draft": true
     },
     {
+      "number": 5339,
+      "title": "[AIMIGRAPHX-1301] add checks for size of literals when creating from protobuf",
+      "author": "kahmed10",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-30T18:48:42Z",
+      "updated_at": "2026-10-12T16:59:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5339",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4936,
+      "title": "Add conv winograd for gfx12",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-03T18:06:13Z",
+      "updated_at": "2026-10-11T19:30:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4936",
+      "labels": [
+        "high priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5232,
+      "title": "Binary cache sql backend",
+      "author": "pnikolic-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-02T16:40:28Z",
+      "updated_at": "2026-10-11T16:47:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5232",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5365,
+      "title": "Fix moving shape transforms through a shared reduction and fold unsqueeze into multibroadcast",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T20:25:35Z",
+      "updated_at": "2026-10-11T14:56:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5365",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5348,
+      "title": "Fuse expert gathers, interleaved swiglu, and the expert sum into the fused_reduce kernels",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-02T16:12:40Z",
+      "updated_at": "2026-10-11T14:55:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5348",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5356,
+      "title": "Document reviewer conventions in AGENTS.md and the review skills, and make review flags act on every finding",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-06T23:03:21Z",
+      "updated_at": "2026-10-11T14:54:36Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5356",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5015,
       "title": "Slice over dynamic dimension",
       "author": "CharlieL7",
@@ -2704,78 +2754,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5300",
       "labels": [
         "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4729,
-      "title": "Improve horizontal fusions",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-01T17:38:20Z",
-      "updated_at": "2026-09-23T02:00:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4729",
-      "labels": [
-        "high priority",
-        "ok-to-test"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4956,
-      "title": "Add support for HipGraph",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-11T21:50:30Z",
-      "updated_at": "2026-09-22T21:20:19Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4956",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5297,
-      "title": "Fix conv concat fusion with different output channels",
-      "author": "urpetkov-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-22T12:23:25Z",
-      "updated_at": "2026-09-22T19:51:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5297",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5277,
-      "title": "ensure standard shapes for lrn operator",
-      "author": "kahmed10",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-17T17:33:15Z",
-      "updated_at": "2026-09-22T16:49:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5277",
-      "labels": [
-        "bugfix",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4811,
-      "title": "Rewrite skinny gemms to mul+reduce_sum",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-22T00:25:07Z",
-      "updated_at": "2026-09-22T14:07:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4811",
-      "labels": [
-        "ok-to-test",
-        "llm"
       ],
       "draft": false
     }

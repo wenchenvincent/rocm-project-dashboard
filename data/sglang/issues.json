@@ -1,14 +1,119 @@
 {
-  "collected_at": "2026-10-11T14:27:20Z",
+  "collected_at": "2026-10-12T17:05:12Z",
   "issues": [
+    {
+      "number": 43098,
+      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
+      "author": "hzh0425",
+      "state": "open",
+      "created_at": "2026-10-08T11:44:11Z",
+      "updated_at": "2026-10-12T17:03:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
+      "labels": []
+    },
+    {
+      "number": 43313,
+      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
+      "author": "mickqian",
+      "state": "open",
+      "created_at": "2026-10-09T06:57:46Z",
+      "updated_at": "2026-10-12T14:01:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
+      "labels": [
+        "diffusion",
+        "roadmap"
+      ]
+    },
+    {
+      "number": 43526,
+      "title": "[AMD][Bug] Accuracy issue with gfx942 block-FP8 linear AITER CK blockscale GEMM",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-10-10T08:28:36Z",
+      "updated_at": "2026-10-12T09:33:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43526",
+      "labels": []
+    },
+    {
+      "number": 43765,
+      "title": "[Bug][AMD] DSV4 compact_attention_hip imports aiter's pa_decode_sparse, which aiter removed on 2026-09-18",
+      "author": "michaelzhang-ai",
+      "state": "open",
+      "created_at": "2026-10-12T04:47:25Z",
+      "updated_at": "2026-10-12T04:59:53Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43765",
+      "labels": []
+    },
+    {
+      "number": 16565,
+      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
+      "author": "yeahdongcn",
+      "state": "open",
+      "created_at": "2026-01-06T10:32:16Z",
+      "updated_at": "2026-10-12T02:01:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
+      "labels": [
+        "mthreads"
+      ]
+    },
+    {
+      "number": 43731,
+      "title": "[Bug] [Diffusion] Concurrent instances: scheduler silently rebinds to port+42 and requests reach the other instance",
+      "author": "Shan2L",
+      "state": "open",
+      "created_at": "2026-10-11T23:34:46Z",
+      "updated_at": "2026-10-11T23:34:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43731",
+      "labels": []
+    },
+    {
+      "number": 43730,
+      "title": "[Bug][ROCm] NGRAM speculative decoding on a DSA model (GLM-5.3, gfx942): HSA 0x1016 on every rank after the first ~50k-token prompt",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-10-11T23:29:48Z",
+      "updated_at": "2026-10-11T23:29:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43730",
+      "labels": []
+    },
+    {
+      "number": 38709,
+      "title": "[Bug][ROCm] --dcp-size > 1 crashes every rank on the first forward: forward_absorb_rocm_core unpacks 2 values from a 1-value return",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-09-09T17:27:38Z",
+      "updated_at": "2026-10-11T23:29:47Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38709",
+      "labels": []
+    },
+    {
+      "number": 38710,
+      "title": "[Bug] enable_aiter_allreduce_fusion auto-enable is commented out while the log still claims it was enabled",
+      "author": "skimanwhite",
+      "state": "open",
+      "created_at": "2026-09-09T17:27:38Z",
+      "updated_at": "2026-10-11T23:29:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/38710",
+      "labels": []
+    },
     {
       "number": 39499,
       "title": "[Roadmap] SGLang dLLM Serving",
       "author": "rwang5203",
       "state": "open",
       "created_at": "2026-09-15T01:21:47Z",
-      "updated_at": "2026-10-10T21:42:57Z",
+      "updated_at": "2026-10-11T16:49:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/39499",
+      "labels": []
+    },
+    {
+      "number": 42473,
+      "title": "Development Roadmap (2026 Q4)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-10-04T08:24:43Z",
+      "updated_at": "2026-10-11T15:14:26Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
       "labels": []
     },
     {
@@ -19,16 +124,6 @@
       "created_at": "2026-01-14T01:49:31Z",
       "updated_at": "2026-10-10T19:40:28Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
-      "labels": []
-    },
-    {
-      "number": 43526,
-      "title": "[AMD][Bug] Accuracy issue with gfx942 block-FP8 linear AITER CK blockscale GEMM",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-10-10T08:28:36Z",
-      "updated_at": "2026-10-10T11:37:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43526",
       "labels": []
     },
     {
@@ -53,41 +148,6 @@
       "html_url": "https://github.com/sgl-project/sglang/issues/37451",
       "labels": [
         "ci-failure-tracker"
-      ]
-    },
-    {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-10-10T01:17:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
-    },
-    {
-      "number": 42473,
-      "title": "Development Roadmap (2026 Q4)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-10-04T08:24:43Z",
-      "updated_at": "2026-10-10T00:50:28Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
-      "labels": []
-    },
-    {
-      "number": 43313,
-      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
-      "author": "mickqian",
-      "state": "open",
-      "created_at": "2026-10-09T06:57:46Z",
-      "updated_at": "2026-10-09T23:56:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
-      "labels": [
-        "diffusion",
-        "roadmap"
       ]
     },
     {
@@ -131,16 +191,6 @@
       "labels": []
     },
     {
-      "number": 43098,
-      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
-      "author": "hzh0425",
-      "state": "open",
-      "created_at": "2026-10-08T11:44:11Z",
-      "updated_at": "2026-10-08T13:42:27Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
-      "labels": []
-    },
-    {
       "number": 21302,
       "title": "[AITER-Upgrade] PR readiness",
       "author": "HaiShaw",
@@ -148,16 +198,6 @@
       "created_at": "2026-03-24T09:28:38Z",
       "updated_at": "2026-10-08T08:59:37Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
-      "number": 42981,
-      "title": "[AMD] Fused FP8 prefix-valid commit kernel disagrees with eager on float8_e4m3fnuz overflow",
-      "author": "michaelzhang-ai",
-      "state": "open",
-      "created_at": "2026-10-07T14:49:06Z",
-      "updated_at": "2026-10-07T14:49:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42981",
       "labels": []
     },
     {
@@ -455,18 +495,6 @@
       "labels": []
     },
     {
-      "number": 34861,
-      "title": "[Bug] [NPU] Router GEMM output should always be fp32",
-      "author": "b8zhong",
-      "state": "open",
-      "created_at": "2026-08-14T15:17:51Z",
-      "updated_at": "2026-09-14T06:18:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/34861",
-      "labels": [
-        "npu"
-      ]
-    },
-    {
       "number": 30599,
       "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
       "author": "AIwork4me",
@@ -477,26 +505,6 @@
       "labels": [
         "amd"
       ]
-    },
-    {
-      "number": 39092,
-      "title": "[Bug] SGLANG_GRAPH_BATCH_CAPTURE mislabels capture traces and crashes with IndexError when a bs bucket captures multiple graphs",
-      "author": "haishuok0525",
-      "state": "open",
-      "created_at": "2026-09-11T13:05:53Z",
-      "updated_at": "2026-09-11T13:05:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39092",
-      "labels": []
-    },
-    {
-      "number": 39070,
-      "title": "[Bug] FLUX.2 rejects --attention-backend sage_attn: model-level whitelist excludes SAGE_ATTN (regression since #22423)",
-      "author": "jxiaof",
-      "state": "open",
-      "created_at": "2026-09-11T09:00:12Z",
-      "updated_at": "2026-09-11T09:00:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39070",
-      "labels": []
     },
     {
       "number": 38849,
@@ -526,36 +534,6 @@
       "created_at": "2026-09-01T07:22:04Z",
       "updated_at": "2026-09-07T07:07:41Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37372",
-      "labels": []
-    },
-    {
-      "number": 38029,
-      "title": "[Bug] EAGLE DSA draft backend misses KVIndexTranslator in FP8 MHA prefix reads",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-09-04T17:24:38Z",
-      "updated_at": "2026-09-04T17:24:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/38029",
-      "labels": []
-    },
-    {
-      "number": 37548,
-      "title": "[GLM-5.3-Flash] NextN/MTP crashes on the first request: Glm5NextForConditionalGenerationNextN inherits DeepSeek's draft forward, embedding gather goes out of bounds at TP8",
-      "author": "Hansen523",
-      "state": "open",
-      "created_at": "2026-09-02T06:22:31Z",
-      "updated_at": "2026-09-03T12:04:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37548",
-      "labels": []
-    },
-    {
-      "number": 37648,
-      "title": "[Bug][ROCm] GLM-5.3-MXFP4 TP8 + EAGLE GPU memory fault under high-concurrency long-context load",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-09-02T20:05:20Z",
-      "updated_at": "2026-09-02T20:05:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37648",
       "labels": []
     }
   ]
