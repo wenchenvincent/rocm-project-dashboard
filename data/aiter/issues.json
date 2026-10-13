@@ -1,6 +1,62 @@
 {
-  "collected_at": "2026-10-12T17:05:39Z",
+  "collected_at": "2026-10-13T15:21:55Z",
   "issues": [
+    {
+      "number": 6452,
+      "title": "`fused_moe` JIT (`preshuffle_off`) CK GEMM dispatch failure on gfx950 (MI355) for fp8 (non-block) quant at `intermediate_size=384` \u2014 distinct from #5766",
+      "author": "divakar-amd",
+      "state": "open",
+      "created_at": "2026-10-12T21:49:32Z",
+      "updated_at": "2026-10-13T14:17:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6452",
+      "labels": []
+    },
+    {
+      "number": 6103,
+      "title": "[Documentation]: [Triton/Gluon] Update README.md and add a section on PR checklist for kernel developer",
+      "author": "rahulbatra85",
+      "state": "open",
+      "created_at": "2026-10-02T18:19:51Z",
+      "updated_at": "2026-10-13T12:32:20Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6103",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6474,
+      "title": "[Feature request] fmha v3 asm forward for head_dim 256 on gfx942 (MI300X/MI325X): Qwen3.5/3.6 prefill runs the CK-tile fallback at ~30 % of peak",
+      "author": "kendrick-tinyfish",
+      "state": "open",
+      "created_at": "2026-10-13T08:11:10Z",
+      "updated_at": "2026-10-13T08:11:10Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6474",
+      "labels": []
+    },
+    {
+      "number": 6449,
+      "title": "[Issue Report] qkv_to_padded_dense returns bfloat16 instead of preserving float32 in zero-padding path",
+      "author": "azaidy",
+      "state": "open",
+      "created_at": "2026-10-12T19:47:30Z",
+      "updated_at": "2026-10-12T19:47:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6449",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6447,
+      "title": "[Bench] bench_mla: support documented --decode_qlen 0 default path",
+      "author": "azaidy",
+      "state": "open",
+      "created_at": "2026-10-12T18:14:59Z",
+      "updated_at": "2026-10-12T18:14:59Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6447",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
     {
       "number": 6415,
       "title": "[mha_v4] Feature request: valid-length masking for the KV tail in sorted-sparse (and dense) calls (gfx950)",
@@ -338,18 +394,6 @@
       "updated_at": "2026-10-03T04:28:56Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6114",
       "labels": []
-    },
-    {
-      "number": 6103,
-      "title": "[Documentation]: [Triton/Gluon] Update README.md and add a section on PR checklist for kernel developer",
-      "author": "rahulbatra85",
-      "state": "open",
-      "created_at": "2026-10-02T18:19:51Z",
-      "updated_at": "2026-10-02T18:29:11Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6103",
-      "labels": [
-        "Triton/Gluon"
-      ]
     },
     {
       "number": 6104,
@@ -1255,16 +1299,6 @@
       "created_at": "2026-09-01T21:27:03Z",
       "updated_at": "2026-09-02T00:12:21Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5192",
-      "labels": []
-    },
-    {
-      "number": 5151,
-      "title": "[Issue]: rmsnorm2d_fwd_with_add truncates fp32->bf16 on gfx942, biasing residual_out and compounding across layers",
-      "author": "xiaohong42",
-      "state": "open",
-      "created_at": "2026-08-31T14:57:56Z",
-      "updated_at": "2026-09-01T14:27:16Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5151",
       "labels": []
     },
     {

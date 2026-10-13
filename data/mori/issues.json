@@ -1,6 +1,28 @@
 {
-  "collected_at": "2026-10-12T17:05:49Z",
+  "collected_at": "2026-10-13T15:22:04Z",
   "issues": [
+    {
+      "number": 757,
+      "title": "[EPv2] staging_base binding required by #703 breaks callers that go through aiter MegaMoE (ATOM EP4+DPA)",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-10-12T21:12:10Z",
+      "updated_at": "2026-10-13T14:00:00Z",
+      "html_url": "https://github.com/ROCm/mori/issues/757",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 759,
+      "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-13T04:05:06Z",
+      "updated_at": "2026-10-13T04:09:18Z",
+      "html_url": "https://github.com/ROCm/mori/issues/759",
+      "labels": []
+    },
     {
       "number": 755,
       "title": "UMBP file SSD tier never reclaims space: disk use and fds grow with bytes written; manage it by blocks like SpdkSsdTier",

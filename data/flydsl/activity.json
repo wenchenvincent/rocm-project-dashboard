@@ -1,42 +1,42 @@
 {
-  "collected_at": "2026-10-12T17:08:32Z",
+  "collected_at": "2026-10-13T15:25:06Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 49,
-      "merged": 11,
-      "closed": 5
+      "opened": 56,
+      "merged": 13,
+      "closed": 14
     },
     "last_week": {
-      "opened": 13,
-      "merged": 4,
+      "opened": 11,
+      "merged": 0,
       "closed": 2
     },
-    "median_time_to_merge_hours": 25.4,
-    "merge_count": 15,
+    "median_time_to_merge_hours": 19.0,
+    "merge_count": 13,
     "stale_prs": 21
   },
   "contributors": {
-    "active_this_week": 25,
-    "total_contributors": 53,
+    "active_this_week": 24,
+    "total_contributors": 52,
     "top_contributors": [
       {
         "author": "coderfeli",
         "prs_submitted": 25,
-        "prs_merged": 19,
+        "prs_merged": 20,
         "commits": 19
       },
       {
         "author": "jhinpan",
-        "prs_submitted": 21,
+        "prs_submitted": 17,
         "prs_merged": 6,
         "commits": 5
       },
       {
         "author": "sjfeng1999",
-        "prs_submitted": 16,
-        "prs_merged": 14,
+        "prs_submitted": 12,
+        "prs_merged": 10,
         "commits": 14
       },
       {
@@ -59,13 +59,19 @@
       },
       {
         "author": "xudoyuan",
-        "prs_submitted": 6,
+        "prs_submitted": 7,
         "prs_merged": 3,
         "commits": 3
       },
       {
+        "author": "james-huang09",
+        "prs_submitted": 4,
+        "prs_merged": 2,
+        "commits": 2
+      },
+      {
         "author": "qiangpan2",
-        "prs_submitted": 3,
+        "prs_submitted": 4,
         "prs_merged": 1,
         "commits": 1
       },
@@ -74,26 +80,20 @@
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 1
-      },
-      {
-        "author": "james-huang09",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 2
       }
     ],
     "bus_factor": 3
   },
   "issue_health": {
-    "total_open": 51,
-    "opened_this_week": 3,
+    "total_open": 52,
+    "opened_this_week": 4,
     "closed_this_week": 0,
     "unanswered": 24
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 23.1,
+    "days_since_last": 24.0,
     "avg_interval_days": 23.5,
     "total_releases": 5,
     "latest_tag": "v0.3.4.1"

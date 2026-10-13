@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-12T17:05:54Z",
+  "collected_at": "2026-10-13T15:22:08Z",
   "issues": [
+    {
+      "number": 1285,
+      "title": "FLYDSL_DEBUG_DUMP_ASM is documented but has no effect",
+      "author": "Phil-amd",
+      "state": "open",
+      "created_at": "2026-10-13T07:28:10Z",
+      "updated_at": "2026-10-13T08:19:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1285",
+      "labels": []
+    },
     {
       "number": 1273,
       "title": "[Issue]: gfx950: kernel spills 346 VGPRs and runs 2.2x slower after FlyDSL 0.2.4 -> 0.3.4.1 (bundled LLVM 7f77ca0d -> e2a39f50) with near-identical LLVM IR",

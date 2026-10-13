@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-12T17:06:17Z",
+  "collected_at": "2026-10-13T15:22:45Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "CI - Bazel ROCm tests",
-    "run_id": 38280696294,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/38280696294",
-    "run_date": "2026-10-12T17:00:19Z",
+    "run_id": 38419819748,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/38419819748",
+    "run_date": "2026-10-13T15:17:24Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 2,
@@ -16,7 +16,7 @@
     },
     "suites": [
       {
-        "name": "Test / linux x86, py3.14, ROCM=10.0.0, jaxlib=head, x64=0, build_jax=true, build_jaxlib=wheel",
+        "name": "Test / linux x86, py3.14, ROCM=10.0.0, jaxlib=pypi_latest, x64=0, build_jax=true, build_jaxlib=false",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -25,7 +25,7 @@
         "errors": null
       },
       {
-        "name": "Test / linux x86, py3.14, ROCM=10.0.0, jaxlib=pypi_latest, x64=0, build_jax=true, build_jaxlib=false",
+        "name": "Test / linux x86, py3.14, ROCM=10.0.0, jaxlib=head, x64=0, build_jax=true, build_jaxlib=wheel",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -37,16 +37,16 @@
   },
   "cuda": {
     "workflow_name": "CI - Bazel H100 and B200 CUDA tests",
-    "run_id": 38276297867,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/38276297867",
-    "run_date": "2026-10-12T16:37:27Z",
-    "conclusion": "success",
+    "run_id": 38412304019,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/38412304019",
+    "run_date": "2026-10-13T14:31:50Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 2,
-      "passed": 2,
-      "failed": 0,
+      "passed": 1,
+      "failed": 1,
       "skipped": 0,
-      "pass_rate": 100.0
+      "pass_rate": 50.0
     },
     "suites": [
       {
@@ -60,7 +60,7 @@
       },
       {
         "name": "Bazel multiple H100 CUDA tests",
-        "conclusion": "success",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,

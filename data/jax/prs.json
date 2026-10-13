@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-10-12T17:04:46Z",
+  "collected_at": "2026-10-13T15:21:00Z",
   "prs": [
+    {
+      "number": 41508,
+      "title": "[ROCm] Scale pytest workers by compute partition mode",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T22:53:32Z",
+      "updated_at": "2026-10-13T14:06:05Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41508",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 41341,
       "title": "[ROCm] dev mxfp4 recipe",

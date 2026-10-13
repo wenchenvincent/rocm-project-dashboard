@@ -1,17 +1,59 @@
 {
-  "collected_at": "2026-10-12T17:05:56Z",
+  "collected_at": "2026-10-13T15:22:10Z",
   "prs": [
     {
-      "number": 736,
-      "title": "Upgrade ci to therock 10.0",
-      "author": "VeeraRajasekhar",
+      "number": 759,
+      "title": "speed up multi-stream execution",
+      "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-10T19:23:22Z",
-      "updated_at": "2026-10-12T16:51:43Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
+      "created_at": "2026-10-13T15:04:03Z",
+      "updated_at": "2026-10-13T15:04:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/759",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 734,
+      "title": "Persistent AG + GEMM MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:42:24Z",
+      "updated_at": "2026-10-13T15:01:09Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 758,
+      "title": "Ifu release v2.19 linear",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T18:48:28Z",
+      "updated_at": "2026-10-13T14:48:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/758",
       "labels": [
         "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 739,
+      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
+      "author": "yaomingamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T22:00:13Z",
+      "updated_at": "2026-10-13T14:40:28Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
+      "labels": [
+        "community-contribution"
       ],
       "draft": false
     },
@@ -22,8 +64,36 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-26T19:19:41Z",
-      "updated_at": "2026-10-12T16:39:53Z",
+      "updated_at": "2026-10-13T02:37:44Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 745,
+      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T17:13:42Z",
+      "updated_at": "2026-10-12T20:21:42Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 736,
+      "title": "Upgrade ci to therock 10.0",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T19:23:22Z",
+      "updated_at": "2026-10-12T17:08:53Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
       "labels": [
         "ci-level 3"
       ],
@@ -42,34 +112,6 @@
       "draft": false
     },
     {
-      "number": 734,
-      "title": "Persistent AG + GEMM MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T15:42:24Z",
-      "updated_at": "2026-10-09T19:39:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 758,
-      "title": "Ifu release v2.19 linear",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T18:48:28Z",
-      "updated_at": "2026-10-09T18:48:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/758",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": true
-    },
-    {
       "number": 743,
       "title": "chore: add security scanning workflows",
       "author": "haribabug",
@@ -79,20 +121,6 @@
       "updated_at": "2026-10-09T18:35:36Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/743",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 745,
-      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T17:13:42Z",
-      "updated_at": "2026-10-09T16:59:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": false
     },
     {
@@ -253,20 +281,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
       "labels": [
         "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 739,
-      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
-      "author": "yaomingamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T22:00:13Z",
-      "updated_at": "2026-09-22T18:02:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
-      "labels": [
-        "community-contribution"
       ],
       "draft": false
     },
