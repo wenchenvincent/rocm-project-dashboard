@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-10-13T15:23:00Z",
+  "collected_at": "2026-10-14T13:10:13Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 29,
-      "merged": 27,
+      "opened": 27,
+      "merged": 20,
       "closed": 0
     },
     "last_week": {
-      "opened": 12,
-      "merged": 3,
+      "opened": 16,
+      "merged": 10,
       "closed": 0
     },
     "median_time_to_merge_hours": 16.4,
@@ -18,37 +18,49 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 25,
-    "total_contributors": 33,
+    "active_this_week": 23,
+    "total_contributors": 31,
     "top_contributors": [
       {
         "author": "antiagainst",
-        "prs_submitted": 9,
-        "prs_merged": 8,
+        "prs_submitted": 10,
+        "prs_merged": 10,
         "commits": 0
       },
       {
         "author": "PMylon",
-        "prs_submitted": 4,
+        "prs_submitted": 5,
         "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "pabloantoniom",
-        "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "AlexAUT",
+        "author": "sriakrish",
         "prs_submitted": 3,
-        "prs_merged": 3,
+        "prs_merged": 1,
         "commits": 0
       },
       {
         "author": "zhanglx13",
         "prs_submitted": 3,
         "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "pabloantoniom",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "plognjen",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "tyb0807",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -64,30 +76,18 @@
         "commits": 0
       },
       {
-        "author": "sriakrish",
+        "author": "AlexAUT",
         "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "he-yufeng",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "zihaomu",
-        "prs_submitted": 2,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       }
     ],
-    "bus_factor": 4
+    "bus_factor": 3
   },
   "issue_health": {
     "total_open": 23,
     "opened_this_week": 0,
-    "closed_this_week": 6,
+    "closed_this_week": 7,
     "unanswered": 8
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 45.9,
+    "days_since_last": 46.8,
     "avg_interval_days": 72.2,
     "total_releases": 5,
     "latest_tag": "v3.8.0"

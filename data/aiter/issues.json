@@ -1,6 +1,50 @@
 {
-  "collected_at": "2026-10-13T15:21:55Z",
+  "collected_at": "2026-10-14T13:09:15Z",
   "issues": [
+    {
+      "number": 6518,
+      "title": "mha_batch_prefill reads past the paged KV cache at head_dim 64/96 (GPU memory fault)",
+      "author": "demandal25",
+      "state": "open",
+      "created_at": "2026-10-14T05:20:24Z",
+      "updated_at": "2026-10-14T05:20:24Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6518",
+      "labels": []
+    },
+    {
+      "number": 6497,
+      "title": "Fix copilot reviews being too verbose.",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-10-13T18:13:44Z",
+      "updated_at": "2026-10-13T18:13:59Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6497",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 5286,
+      "title": "[Issue]: gemm_a8w8_blockscale (Triton) returns NaN when K/NUM_KSPLIT is not a multiple of BLOCK_SIZE_K (gfx1201 DEFAULT config, K=12800 -> vLLM garbage on R9700)",
+      "author": "xy7ra",
+      "state": "open",
+      "created_at": "2026-09-05T05:51:32Z",
+      "updated_at": "2026-10-13T16:50:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5286",
+      "labels": []
+    },
+    {
+      "number": 6489,
+      "title": "MLA prefill fails when query blocks exceed the HIP grid-y limit",
+      "author": "azaidy",
+      "state": "open",
+      "created_at": "2026-10-13T15:56:29Z",
+      "updated_at": "2026-10-13T15:56:29Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6489",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
     {
       "number": 6452,
       "title": "`fused_moe` JIT (`preshuffle_off`) CK GEMM dispatch failure on gfx950 (MI355) for fp8 (non-block) quant at `intermediate_size=384` \u2014 distinct from #5766",
@@ -32,30 +76,6 @@
       "updated_at": "2026-10-13T08:11:10Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6474",
       "labels": []
-    },
-    {
-      "number": 6449,
-      "title": "[Issue Report] qkv_to_padded_dense returns bfloat16 instead of preserving float32 in zero-padding path",
-      "author": "azaidy",
-      "state": "open",
-      "created_at": "2026-10-12T19:47:30Z",
-      "updated_at": "2026-10-12T19:47:30Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6449",
-      "labels": [
-        "Triton/Gluon"
-      ]
-    },
-    {
-      "number": 6447,
-      "title": "[Bench] bench_mla: support documented --decode_qlen 0 default path",
-      "author": "azaidy",
-      "state": "open",
-      "created_at": "2026-10-12T18:14:59Z",
-      "updated_at": "2026-10-12T18:14:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6447",
-      "labels": [
-        "Triton/Gluon"
-      ]
     },
     {
       "number": 6415,
@@ -95,16 +115,6 @@
       "created_at": "2026-10-11T18:09:29Z",
       "updated_at": "2026-10-11T18:37:55Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6402",
-      "labels": []
-    },
-    {
-      "number": 6222,
-      "title": "[Issue]: `sage_quant` / `fav3_sage_wrapper_func`: wrong results and out-of-bounds writes for non-dense Q/K/V",
-      "author": "Arech8",
-      "state": "open",
-      "created_at": "2026-10-07T15:33:51Z",
-      "updated_at": "2026-10-11T13:41:17Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6222",
       "labels": []
     },
     {
@@ -167,16 +177,6 @@
       "created_at": "2026-10-09T14:00:33Z",
       "updated_at": "2026-10-09T14:00:33Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6319",
-      "labels": []
-    },
-    {
-      "number": 6318,
-      "title": "[Issue]: fused_qk_rope_cat_and_cache_mla skips and misplaces decode_q_pe_out / q_nope_zeros_out rows when num_decode_toks_for_zeros < B",
-      "author": "truong-v",
-      "state": "open",
-      "created_at": "2026-10-09T14:00:32Z",
-      "updated_at": "2026-10-09T14:00:32Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6318",
       "labels": []
     },
     {
@@ -1189,16 +1189,6 @@
       "created_at": "2026-09-05T14:10:01Z",
       "updated_at": "2026-09-05T14:12:12Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5292",
-      "labels": []
-    },
-    {
-      "number": 5286,
-      "title": "[Issue]: gemm_a8w8_blockscale (Triton) returns NaN when K/NUM_KSPLIT is not a multiple of BLOCK_SIZE_K (gfx1201 DEFAULT config, K=12800 -> vLLM garbage on R9700)",
-      "author": "xy7ra",
-      "state": "open",
-      "created_at": "2026-09-05T05:51:32Z",
-      "updated_at": "2026-09-05T05:51:32Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5286",
       "labels": []
     },
     {

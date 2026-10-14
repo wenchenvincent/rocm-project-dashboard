@@ -1,17 +1,37 @@
 {
-  "collected_at": "2026-10-13T15:22:04Z",
+  "collected_at": "2026-10-14T13:09:25Z",
   "issues": [
+    {
+      "number": 770,
+      "title": "UMBP: master's GetEvictionCandidates scans its whole index per query (0.6\u20131.9 s); add a per-(node, tier) recency index",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-14T10:08:31Z",
+      "updated_at": "2026-10-14T10:08:31Z",
+      "html_url": "https://github.com/ROCm/mori/issues/770",
+      "labels": []
+    },
     {
       "number": 757,
       "title": "[EPv2] staging_base binding required by #703 breaks callers that go through aiter MegaMoE (ATOM EP4+DPA)",
       "author": "srinivamd",
       "state": "open",
       "created_at": "2026-10-12T21:12:10Z",
-      "updated_at": "2026-10-13T14:00:00Z",
+      "updated_at": "2026-10-14T09:48:41Z",
       "html_url": "https://github.com/ROCm/mori/issues/757",
       "labels": [
         "bug"
       ]
+    },
+    {
+      "number": 767,
+      "title": "UMBP: master-backed standalone server halves e2e throughput vs masterless (DSv4 agentic, DRAM\u2192SSD tiers)",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-14T09:13:58Z",
+      "updated_at": "2026-10-14T09:13:58Z",
+      "html_url": "https://github.com/ROCm/mori/issues/767",
+      "labels": []
     },
     {
       "number": 759,

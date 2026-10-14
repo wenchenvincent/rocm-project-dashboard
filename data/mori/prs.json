@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-10-13T15:22:03Z",
+  "collected_at": "2026-10-14T13:09:25Z",
   "prs": [
+    {
+      "number": 748,
+      "title": "perf(gemm-ar): opt-in optimization paths, and their measurements",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T06:09:18Z",
+      "updated_at": "2026-10-14T12:36:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/748",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 768,
+      "title": "feat(ep/v2): AsyncLL dispatch/combine on cco, with cross-node and gfx125x support",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T09:50:38Z",
+      "updated_at": "2026-10-14T12:34:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/768",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 717,
+      "title": "perf(umbp): keep large restore fragments on the gather kernel",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T06:09:55Z",
+      "updated_at": "2026-10-14T11:11:57Z",
+      "html_url": "https://github.com/ROCm/mori/pull/717",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 769,
+      "title": "fix(umbp): acknowledge local clear when no master is configured",
+      "author": "tjtanaa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T09:55:17Z",
+      "updated_at": "2026-10-14T10:16:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/769",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 741,
       "title": "feat(umbp): converge eviction onto one path; nodes evict locally by default",
@@ -8,8 +56,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-10T13:20:57Z",
-      "updated_at": "2026-10-13T14:23:31Z",
+      "updated_at": "2026-10-14T09:14:54Z",
       "html_url": "https://github.com/ROCm/mori/pull/741",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 763,
+      "title": "fix(umbp): retry eviction demotions instead of dropping the only copy; count what is dropped",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T15:35:53Z",
+      "updated_at": "2026-10-14T08:56:38Z",
+      "html_url": "https://github.com/ROCm/mori/pull/763",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 762,
+      "title": "fix(umbp): SSD staging no longer fails local loads; a local read's hold never expires under its copy",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T15:35:50Z",
+      "updated_at": "2026-10-14T08:56:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/762",
       "labels": [],
       "draft": false
     },
@@ -20,8 +92,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-22T03:05:00Z",
-      "updated_at": "2026-10-13T10:01:43Z",
+      "updated_at": "2026-10-14T06:58:46Z",
       "html_url": "https://github.com/ROCm/mori/pull/696",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 765,
+      "title": "perf(umbp): build LocalCopyEngine transfer plans incrementally",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T06:34:55Z",
+      "updated_at": "2026-10-14T06:41:25Z",
+      "html_url": "https://github.com/ROCm/mori/pull/765",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 733,
+      "title": "fix(EPv2): give routing handles their own buffers on request (snapshot=True)",
+      "author": "jeffdaily",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T21:48:22Z",
+      "updated_at": "2026-10-14T02:35:31Z",
+      "html_url": "https://github.com/ROCm/mori/pull/733",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 683,
+      "title": "feat(umbp): serve metrics from a masterless node, and summarise offload/load/evict/promote/demote at INFO",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T03:26:06Z",
+      "updated_at": "2026-10-13T23:53:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/683",
       "labels": [],
       "draft": false
     },
@@ -50,42 +158,6 @@
       "draft": false
     },
     {
-      "number": 758,
-      "title": "perf(umbp): build transfer plans incrementally",
-      "author": "BadrBasowid",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T02:54:04Z",
-      "updated_at": "2026-10-13T07:36:34Z",
-      "html_url": "https://github.com/ROCm/mori/pull/758",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 683,
-      "title": "feat(umbp): serve metrics from a masterless node, and summarise offload/load/evict/promote/demote at INFO",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T03:26:06Z",
-      "updated_at": "2026-10-13T04:04:04Z",
-      "html_url": "https://github.com/ROCm/mori/pull/683",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 733,
-      "title": "fix(EPv2): give routing handles their own buffers on request (snapshot=True)",
-      "author": "jeffdaily",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T21:48:22Z",
-      "updated_at": "2026-10-13T01:24:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/733",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 739,
       "title": "feat(EPv2): let callers allocate mori's staging region (staging_region=)",
       "author": "kawhil-amd",
@@ -96,18 +168,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/739",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 748,
-      "title": "perf(gemm-ar): opt-in optimization paths, and their measurements",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T06:09:18Z",
-      "updated_at": "2026-10-12T10:32:30Z",
-      "html_url": "https://github.com/ROCm/mori/pull/748",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 730,
@@ -166,18 +226,6 @@
       "created_at": "2026-09-28T01:52:42Z",
       "updated_at": "2026-09-30T13:27:59Z",
       "html_url": "https://github.com/ROCm/mori/pull/712",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 717,
-      "title": "perf(umbp): keep large restore fragments on the gather kernel",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T06:09:55Z",
-      "updated_at": "2026-09-30T06:09:55Z",
-      "html_url": "https://github.com/ROCm/mori/pull/717",
       "labels": [],
       "draft": false
     },
@@ -550,6 +598,42 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 758,
+      "title": "perf(umbp): build transfer plans incrementally",
+      "author": "BadrBasowid",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T02:54:04Z",
+      "updated_at": "2026-10-14T10:52:51Z",
+      "html_url": "https://github.com/ROCm/mori/pull/758",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 766,
+      "title": "fix(anvil): spread gfx1250 loopback over peer-link engines when there is no CPU link",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-14T08:28:09Z",
+      "updated_at": "2026-10-14T10:51:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/766",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 764,
+      "title": "fix(EPv2): give a dispatch plan a default staging buffer its caller can replace",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T16:53:05Z",
+      "updated_at": "2026-10-14T09:46:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/764",
       "labels": [],
       "draft": false
     },
@@ -1524,42 +1608,6 @@
       "created_at": "2026-09-08T11:40:27Z",
       "updated_at": "2026-09-09T09:04:32Z",
       "html_url": "https://github.com/ROCm/mori/pull/648",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 615,
-      "title": "docs(skills): [Pre-flight] Add cluster-network-topology skill and scripts",
-      "author": "lcskrishna",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-28T06:41:51Z",
-      "updated_at": "2026-09-09T08:06:19Z",
-      "html_url": "https://github.com/ROCm/mori/pull/615",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 650,
-      "title": "fix(umbp): dlopen libhipfile instead of linking it",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-09T02:54:19Z",
-      "updated_at": "2026-09-09T03:57:59Z",
-      "html_url": "https://github.com/ROCm/mori/pull/650",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 645,
-      "title": "perf(EPv2): skip the dispatch completion spin when the peer slot is a\u2026",
-      "author": "zhangfei829",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T07:51:36Z",
-      "updated_at": "2026-09-08T07:52:08Z",
-      "html_url": "https://github.com/ROCm/mori/pull/645",
       "labels": [],
       "draft": false
     }

@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-10-13T15:21:00Z",
+  "collected_at": "2026-10-14T13:08:26Z",
   "prs": [
-    {
-      "number": 41508,
-      "title": "[ROCm] Scale pytest workers by compute partition mode",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T22:53:32Z",
-      "updated_at": "2026-10-13T14:06:05Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41508",
-      "labels": [],
-      "draft": true
-    },
     {
       "number": 41341,
       "title": "[ROCm] dev mxfp4 recipe",
@@ -20,8 +8,37 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-07T15:38:55Z",
-      "updated_at": "2026-10-12T14:04:55Z",
+      "updated_at": "2026-10-14T12:53:14Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41341",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41230,
+      "title": "[ROCM]  Add TheRock `rocm_sysdeps/lib` to wheel RUNPATHs needed for MORI deps",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T13:25:30Z",
+      "updated_at": "2026-10-14T03:34:34Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41230",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41508,
+      "title": "[ROCm] Scale pytest workers by compute partition mode",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-12T22:53:32Z",
+      "updated_at": "2026-10-13T18:02:30Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41508",
       "labels": [
         "pull ready"
       ],
@@ -38,21 +55,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/41331",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 41230,
-      "title": "[ROCM]  Add TheRock `rocm_sysdeps/lib` to wheel RUNPATHs needed for MORI deps",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T13:25:30Z",
-      "updated_at": "2026-10-07T15:59:44Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41230",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
     },
     {
       "number": 41233,
@@ -576,21 +578,6 @@
       "created_at": "2026-08-10T19:52:33Z",
       "updated_at": "2026-08-13T07:33:33Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39872",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 38803,
-      "title": "[ROCm] Add expanded target set for ROCm",
-      "author": "tsrw2048",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T18:57:55Z",
-      "updated_at": "2026-08-13T07:30:27Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38803",
       "labels": [
         "kokoro:force-run",
         "pull ready"

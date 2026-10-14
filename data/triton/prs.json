@@ -1,6 +1,114 @@
 {
-  "collected_at": "2026-10-13T15:21:29Z",
+  "collected_at": "2026-10-14T13:08:52Z",
   "prs": [
+    {
+      "number": 12269,
+      "title": "[AMD] NFC: Split stream-op builders and LDS encoding out of LowerLoops",
+      "author": "plognjen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T17:13:23Z",
+      "updated_at": "2026-10-14T12:51:40Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12269",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12284,
+      "title": "[AMD][Backend] Skip volatile loads in buffer-op conversion",
+      "author": "sriakrish",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T04:57:23Z",
+      "updated_at": "2026-10-14T12:39:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12284",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12210,
+      "title": "[AMD][ConSan] Improve async-copy waits and load/store tracking",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T18:07:37Z",
+      "updated_at": "2026-10-14T08:15:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12210",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12286,
+      "title": "[AMD][mdmbar] Prove slots of loop-carried views of multi-buffered all\u2026",
+      "author": "yanxuer-999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T06:43:05Z",
+      "updated_at": "2026-10-14T06:43:13Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12286",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12230,
+      "title": "[AMD] NFC: Simplify MFMA/WMMA instruction selection",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-11T20:24:44Z",
+      "updated_at": "2026-10-14T05:47:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12230",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12279,
+      "title": "[AMD] NFC: Rename gfx1250 symbols and definitions to CDNA5",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-14T00:48:25Z",
+      "updated_at": "2026-10-14T02:06:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12279",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12122,
+      "title": "[AMD] Add MIR entry points to the standalone AMD code generator (1/2)",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T16:43:55Z",
+      "updated_at": "2026-10-13T23:16:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12122",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11911,
+      "title": "[AMD] Allow the tagged barrier lowering on RDNA in CU mode",
+      "author": "mgehre-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-22T17:39:44Z",
+      "updated_at": "2026-10-13T21:39:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11911",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12273,
+      "title": "[DRAFT][AMD][ConSan] Handle mixed-direction partial async-copy waits",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T18:04:42Z",
+      "updated_at": "2026-10-13T18:04:42Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12273",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 12233,
       "title": "[AMD] Support scheduling, LDS prefetch and TDM fusion for sliced GEMM kernels ",
@@ -8,32 +116,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-12T18:14:37Z",
-      "updated_at": "2026-10-13T14:53:09Z",
+      "updated_at": "2026-10-13T15:35:01Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12233",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11911,
-      "title": "[AMD] Allow the tagged barrier lowering on RDNA in CU mode",
-      "author": "mgehre-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T17:39:44Z",
-      "updated_at": "2026-10-13T13:41:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11911",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12210,
-      "title": "[DRAFT][AMD][ConSan] Improve async-copy waits and load/store tracking",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T18:07:37Z",
-      "updated_at": "2026-10-13T12:39:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12210",
       "labels": [],
       "draft": true
     },
@@ -120,18 +204,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12229",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12230,
-      "title": "[AMD] NFC: Simplify MFMA/WMMA instruction selection",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T20:24:44Z",
-      "updated_at": "2026-10-11T20:24:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12230",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12218,
@@ -386,18 +458,6 @@
       "draft": false
     },
     {
-      "number": 12122,
-      "title": "[AMD] Add MIR entry points to the standalone AMD code generator (1/2)",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T16:43:55Z",
-      "updated_at": "2026-10-07T20:33:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12122",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 11486,
       "title": "[AMD] Use hardware cvt instructions for OCP fp8 casts on gfx1170",
       "author": "erizheng-amd",
@@ -566,18 +626,6 @@
       "draft": false
     },
     {
-      "number": 11896,
-      "title": "[AMD] Do not insert barriers between mbarrier-synchronized TDM copies",
-      "author": "nirvedhmeshram",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-21T19:52:11Z",
-      "updated_at": "2026-10-06T14:27:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11896",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12034,
       "title": "[GSan] Support symmetric memory allocator on AMD (HIP)",
       "author": "amgddm",
@@ -588,30 +636,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12034",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12073,
-      "title": "[AMD][Gluon] Adds a standalone Gluon example for clustered warp-pipeline GEMMs on AMD CDNA5.",
-      "author": "jungpark-mlir",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-02T14:59:52Z",
-      "updated_at": "2026-10-05T23:02:08Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12073",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12119,
-      "title": "[AMD][GLUON] Add multi-cta to mxfp gemm example on CDNA5",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-05T13:06:09Z",
-      "updated_at": "2026-10-05T18:05:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12119",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12083,
@@ -696,30 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11475",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 10328,
-      "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
-      "author": "Hardcode84",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T22:02:50Z",
-      "updated_at": "2026-09-22T12:19:28Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10328",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10694,
-      "title": "[AMD] Use operand-major LDS layout for FMA dot operands",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-22T13:49:28Z",
-      "updated_at": "2026-09-21T18:02:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10694",
-      "labels": [],
-      "draft": true
     }
   ]
 }

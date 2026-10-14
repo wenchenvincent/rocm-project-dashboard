@@ -1,6 +1,234 @@
 {
-  "collected_at": "2026-10-13T15:22:06Z",
+  "collected_at": "2026-10-14T13:09:28Z",
   "prs": [
+    {
+      "number": 1292,
+      "title": "[Core] Add four concrete layout categories",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T10:24:56Z",
+      "updated_at": "2026-10-14T11:37:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1292",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1235,
+      "title": "[Bugfix] Sync waves before the RMSNorm/LayerNorm quant kernels reuse their reduction slot",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T20:29:18Z",
+      "updated_at": "2026-10-14T10:29:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1235",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1217,
+      "title": "Align bf16 implicit Conv3d with aiter",
+      "author": "huizzhan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T08:00:37Z",
+      "updated_at": "2026-10-14T10:17:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1217",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1291,
+      "title": "[LayoutAlgebra] Drop layout modes beyond the tiler rank in composition",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T09:37:04Z",
+      "updated_at": "2026-10-14T09:37:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1291",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1290,
+      "title": "[Fix] Bitcast small floats across converted ops in convert-fly-to-rocdl",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T09:33:47Z",
+      "updated_at": "2026-10-14T09:35:54Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1290",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1288,
+      "title": "[Feat] Support warp exchange with layout",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T05:40:42Z",
+      "updated_at": "2026-10-14T09:25:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1288",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1289,
+      "title": "[llvm] Bump LLVM hash and add gfx1250-strict support",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T06:29:03Z",
+      "updated_at": "2026-10-14T09:18:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1289",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 971,
+      "title": "[gfx1250] Add A8W8/A8W4/A4W4 compute-bound GEMM",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-10-14T07:59:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1284,
+      "title": "[fix] Make make_tile treat every argument list as modes",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T07:21:36Z",
+      "updated_at": "2026-10-14T07:58:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1284",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1286,
+      "title": "[JIT][Debug] Implement FLYDSL_DEBUG_DUMP_ASM to dump only the final ISA",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T08:07:57Z",
+      "updated_at": "2026-10-14T07:40:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1286",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1276,
+      "title": "[compiler] pin register use reservedregs method",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T13:05:25Z",
+      "updated_at": "2026-10-14T07:37:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1276",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1238,
+      "title": "Migrate kernels tiled tdm",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T06:37:06Z",
+      "updated_at": "2026-10-14T06:08:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1188,
+      "title": "[Tool][Debug] Inject hand-edited assembly into a JIT cache entry",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T01:47:30Z",
+      "updated_at": "2026-10-14T03:57:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1188",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1184,
+      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T07:21:49Z",
+      "updated_at": "2026-10-14T02:50:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1269,
+      "title": "[Bugfix] Sync both wave groups before the gfx950 A16W16 HTI GEMM reads its first and last stages",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T17:56:09Z",
+      "updated_at": "2026-10-13T21:53:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1269",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1287,
+      "title": "[CI] Fix the SGLang nightly setup after sgl-kernel moved into sglang.kernels.aot",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T21:33:02Z",
+      "updated_at": "2026-10-13T21:53:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1287",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1264,
+      "title": "[Bugfix][gfx1250] Reject FP8 and A8W4 GEMM tiles that issue no WMMA, and test that stores stay inside N",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T09:12:14Z",
+      "updated_at": "2026-10-13T20:43:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1264",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1253,
+      "title": "[Bugfix][Test] Round MXFP8 E8M0 scales up in the test quantizers",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T21:44:15Z",
+      "updated_at": "2026-10-13T20:43:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1253",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1245,
+      "title": "[Kernel][FA] Fix ds_read_tr waitcnt hazard and stagger SCC clobber (1/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:17Z",
+      "updated_at": "2026-10-13T16:11:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1245",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1256,
       "title": "[Perf] Fuse GLM-5.2 TP4 indexer for MTP4 C1/C2",
@@ -14,30 +242,6 @@
       "draft": true
     },
     {
-      "number": 1217,
-      "title": "Align bf16 implicit Conv3d with aiter",
-      "author": "huizzhan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T08:00:37Z",
-      "updated_at": "2026-10-13T09:46:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1217",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1188,
-      "title": "[Script][Debug] Inject hand-edited assembly into a JIT cache entry",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T01:47:30Z",
-      "updated_at": "2026-10-13T09:38:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1188",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1280,
       "title": "[Doc] Add MI355 mono-kernel development skills",
       "author": "james-huang09",
@@ -48,42 +252,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1280",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1286,
-      "title": "[Debug] Make FLYDSL_DEBUG_DUMP_ASM write the final ISA",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T08:07:57Z",
-      "updated_at": "2026-10-13T08:07:57Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1286",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1284,
-      "title": "[fix] Make make_tile treat every argument list as modes",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T07:21:36Z",
-      "updated_at": "2026-10-13T07:27:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1284",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1264,
-      "title": "[Bugfix][gfx1250] Reject FP8 and A8W4 GEMM tiles that issue no WMMA, and test that stores stay inside N",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T09:12:14Z",
-      "updated_at": "2026-10-13T06:46:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1264",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1231,
@@ -106,18 +274,6 @@
       "created_at": "2026-10-06T22:41:16Z",
       "updated_at": "2026-10-13T06:42:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1232",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1269,
-      "title": "[Bugfix] Sync both wave groups before the gfx950 A16W16 HTI GEMM reads its first and last stages",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T17:56:09Z",
-      "updated_at": "2026-10-13T06:42:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1269",
       "labels": [],
       "draft": true
     },
@@ -168,42 +324,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1282",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1279,
-      "title": "[Skills] Add review-pr: advisory PR review adapted from aiter and ATOM",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T19:13:52Z",
-      "updated_at": "2026-10-13T06:41:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1279",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1184,
-      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T07:21:49Z",
-      "updated_at": "2026-10-13T02:40:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1276,
-      "title": "[compiler] pin register use reservedregs method",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T13:05:25Z",
-      "updated_at": "2026-10-13T02:38:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1276",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1277,
@@ -302,42 +422,6 @@
       "draft": false
     },
     {
-      "number": 1235,
-      "title": "[Bugfix] Sync waves before the RMSNorm/LayerNorm quant kernels reuse their reduction slot",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T20:29:18Z",
-      "updated_at": "2026-10-11T07:18:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1235",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1253,
-      "title": "[Bugfix][Test] Round MXFP8 E8M0 scales up in the test quantizers",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T21:44:15Z",
-      "updated_at": "2026-10-09T23:10:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1253",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1230,
-      "title": "[Kernel][gfx1250] Support K tails in the BF16 GEMM",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T22:40:56Z",
-      "updated_at": "2026-10-09T21:18:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1230",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1192,
       "title": "chore: add security scanning workflows",
       "author": "haribabug",
@@ -358,18 +442,6 @@
       "created_at": "2026-10-09T02:00:58Z",
       "updated_at": "2026-10-09T16:25:16Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1240",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1245,
-      "title": "[Kernel][FA] Fix ds_read_tr waitcnt hazard and stagger SCC clobber (1/8)",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T16:11:17Z",
-      "updated_at": "2026-10-09T16:16:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1245",
       "labels": [],
       "draft": false
     },
@@ -480,30 +552,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1234",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1242,
-      "title": "[fix] Correct zipped_divide tiler hierarchy handling",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T08:41:27Z",
-      "updated_at": "2026-10-09T08:41:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1242",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1238,
-      "title": "Migrate kernels tiled tdm",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T06:37:06Z",
-      "updated_at": "2026-10-09T07:00:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1216,
@@ -854,18 +902,6 @@
       "draft": false
     },
     {
-      "number": 971,
-      "title": "[gfx1250] Add A8W8/A8W4/A4W4 compute-bound GEMM",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-09-09T11:02:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1111,
       "title": "[DO NOT MERGE] Add MegaMoE engineering skill",
       "author": "GwilliamHu",
@@ -1042,6 +1078,30 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1230,
+      "title": "[Kernel][gfx1250] Support K tails in the BF16 GEMM",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-06T22:40:56Z",
+      "updated_at": "2026-10-14T09:12:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1230",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1279,
+      "title": "[Skills] Add review-pr: advisory PR review adapted from aiter and ATOM",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-12T19:13:52Z",
+      "updated_at": "2026-10-14T07:43:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1279",
       "labels": [],
       "draft": false
     },
@@ -1860,18 +1920,6 @@
       "created_at": "2026-09-15T22:56:00Z",
       "updated_at": "2026-09-16T06:36:02Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1143",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1138,
-      "title": "[DSL] Support struct as the elemType of Array",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-15T09:13:13Z",
-      "updated_at": "2026-09-15T13:55:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1138",
       "labels": [],
       "draft": false
     }

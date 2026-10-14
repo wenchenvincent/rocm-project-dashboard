@@ -1,6 +1,100 @@
 {
-  "collected_at": "2026-10-13T15:22:10Z",
+  "collected_at": "2026-10-14T13:09:31Z",
   "prs": [
+    {
+      "number": 745,
+      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T17:13:42Z",
+      "updated_at": "2026-10-13T22:24:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 756,
+      "title": "IFU 2.20",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T19:30:41Z",
+      "updated_at": "2026-10-13T22:22:38Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/756",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-10-13T21:02:32Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 758,
+      "title": "Ifu release v2.19 linear",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T18:48:28Z",
+      "updated_at": "2026-10-13T20:55:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/758",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 754,
+      "title": "fix HipKittens grouped MXFP8 GEMM under CUDA graphs and enable MXFP8 grouped linear tests",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T20:38:48Z",
+      "updated_at": "2026-10-13T20:36:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/754",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 755,
+      "title": "[TE] CK fused attention: return max_logit",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:54:41Z",
+      "updated_at": "2026-10-13T17:37:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 739,
+      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
+      "author": "yaomingamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T22:00:13Z",
+      "updated_at": "2026-10-13T15:35:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
+      "labels": [
+        "community-contribution"
+      ],
+      "draft": false
+    },
     {
       "number": 759,
       "title": "speed up multi-stream execution",
@@ -30,34 +124,6 @@
       "draft": false
     },
     {
-      "number": 758,
-      "title": "Ifu release v2.19 linear",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T18:48:28Z",
-      "updated_at": "2026-10-13T14:48:29Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/758",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 739,
-      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
-      "author": "yaomingamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T22:00:13Z",
-      "updated_at": "2026-10-13T14:40:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
-      "labels": [
-        "community-contribution"
-      ],
-      "draft": false
-    },
-    {
       "number": 744,
       "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
       "author": "wangye805",
@@ -68,20 +134,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
       "labels": [
         "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 745,
-      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T17:13:42Z",
-      "updated_at": "2026-10-12T20:21:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     },
@@ -97,18 +149,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-10-09T22:35:07Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [],
       "draft": false
     },
     {
@@ -160,46 +200,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
       "labels": [
         "community-contribution"
-      ],
-      "draft": false
-    },
-    {
-      "number": 755,
-      "title": "[TE] CK fused attention: return max_logit",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:54:41Z",
-      "updated_at": "2026-10-07T22:50:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 756,
-      "title": "IFU 2.20",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T19:30:41Z",
-      "updated_at": "2026-10-07T20:31:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/756",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 754,
-      "title": "fix HipKittens grouped MXFP8 GEMM under CUDA graphs and enable MXFP8 grouped linear tests",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T20:38:48Z",
-      "updated_at": "2026-10-07T14:44:19Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/754",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     },
