@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-10-14T13:09:28Z",
+  "collected_at": "2026-10-15T12:56:21Z",
   "prs": [
+    {
+      "number": 971,
+      "title": "[gfx1250] Add A8W8/A8W4/A4W4 compute-bound GEMM",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T04:18:11Z",
+      "updated_at": "2026-10-15T10:48:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1223,
+      "title": "[Kernel][Feature][Dialect][DSL][Perf][Doc][Test] Add gfx120x RDNA4 wave32 ops",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T16:38:35Z",
+      "updated_at": "2026-10-15T10:21:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1297,
+      "title": "[llvm] Stop failed SLP ordered reductions from starving the block",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T09:36:23Z",
+      "updated_at": "2026-10-15T09:52:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1297",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1276,
+      "title": "[compiler] pin register use reservedregs method",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T13:05:25Z",
+      "updated_at": "2026-10-15T08:21:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1276",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1291,
+      "title": "[LayoutAlgebra] Drop layout modes beyond the tiler rank in composition",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T09:37:04Z",
+      "updated_at": "2026-10-15T08:10:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1291",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1266,
+      "title": "[Dialect][ROCDL] Add gfx120 integer WMMA and an INT4 GEMM",
+      "author": "qiangpan2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T14:23:19Z",
+      "updated_at": "2026-10-15T07:12:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1266",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1292,
       "title": "[Core] Add four concrete layout categories",
@@ -8,8 +80,116 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-14T10:24:56Z",
-      "updated_at": "2026-10-14T11:37:24Z",
+      "updated_at": "2026-10-15T07:01:14Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1292",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1289,
+      "title": "[llvm] Bump LLVM hash and add gfx1250-strict support",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T06:29:03Z",
+      "updated_at": "2026-10-15T06:19:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1289",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1296,
+      "title": "[compiler] support schedule_bank/vgpr/apgr/sgpr",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T01:09:39Z",
+      "updated_at": "2026-10-15T03:15:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1296",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1295,
+      "title": "[Debug] Support device assert",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T22:59:20Z",
+      "updated_at": "2026-10-14T23:07:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1295",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1240,
+      "title": "[Bugfix] Shared numerics, streams, and tests",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T02:00:58Z",
+      "updated_at": "2026-10-14T20:27:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1240",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1194,
+      "title": "[JIT] Actionable diagnostic for dynamic layout field overflow",
+      "author": "mustafayildirim",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T00:24:03Z",
+      "updated_at": "2026-10-14T16:12:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1194",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1193,
+      "title": "[LayoutLowering] Ignore size-one leaves in contiguous-segment detection",
+      "author": "mustafayildirim",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T00:13:38Z",
+      "updated_at": "2026-10-14T16:12:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1193",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1294,
+      "title": "[Bugfix] Handle Numeric conversion recursively",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T15:58:07Z",
+      "updated_at": "2026-10-14T16:03:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1294",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1288,
+      "title": "[Feat] Support warp exchange with layout",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T05:40:42Z",
+      "updated_at": "2026-10-14T15:05:54Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1288",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1192,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T15:48:52Z",
+      "updated_at": "2026-10-14T14:21:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1192",
       "labels": [],
       "draft": false
     },
@@ -38,18 +218,6 @@
       "draft": false
     },
     {
-      "number": 1291,
-      "title": "[LayoutAlgebra] Drop layout modes beyond the tiler rank in composition",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T09:37:04Z",
-      "updated_at": "2026-10-14T09:37:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1291",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1290,
       "title": "[Fix] Bitcast small floats across converted ops in convert-fly-to-rocdl",
       "author": "Phil-amd",
@@ -58,54 +226,6 @@
       "created_at": "2026-10-14T09:33:47Z",
       "updated_at": "2026-10-14T09:35:54Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1290",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1288,
-      "title": "[Feat] Support warp exchange with layout",
-      "author": "ppppqp",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T05:40:42Z",
-      "updated_at": "2026-10-14T09:25:29Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1288",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1289,
-      "title": "[llvm] Bump LLVM hash and add gfx1250-strict support",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T06:29:03Z",
-      "updated_at": "2026-10-14T09:18:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1289",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 971,
-      "title": "[gfx1250] Add A8W8/A8W4/A4W4 compute-bound GEMM",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T04:18:11Z",
-      "updated_at": "2026-10-14T07:59:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1284,
-      "title": "[fix] Make make_tile treat every argument list as modes",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T07:21:36Z",
-      "updated_at": "2026-10-14T07:58:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1284",
       "labels": [],
       "draft": false
     },
@@ -122,18 +242,6 @@
       "draft": false
     },
     {
-      "number": 1276,
-      "title": "[compiler] pin register use reservedregs method",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T13:05:25Z",
-      "updated_at": "2026-10-14T07:37:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1276",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1238,
       "title": "Migrate kernels tiled tdm",
       "author": "xudoyuan",
@@ -144,30 +252,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1188,
-      "title": "[Tool][Debug] Inject hand-edited assembly into a JIT cache entry",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T01:47:30Z",
-      "updated_at": "2026-10-14T03:57:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1188",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1184,
-      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T07:21:49Z",
-      "updated_at": "2026-10-14T02:50:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1269,
@@ -290,18 +374,6 @@
       "draft": true
     },
     {
-      "number": 1266,
-      "title": "[Dialect][ROCDL] Add gfx120 integer WMMA and an INT4 GEMM",
-      "author": "qiangpan2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T14:23:19Z",
-      "updated_at": "2026-10-13T06:37:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1266",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1267,
       "title": "[Runtime] Report GPU last-level cache size from KFD",
       "author": "qiangpan2",
@@ -374,18 +446,6 @@
       "draft": false
     },
     {
-      "number": 1223,
-      "title": "[Kernel][Feature][Dialect][DSL][Perf][Doc][Test] Add gfx120x RDNA4 wave32 ops",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T16:38:35Z",
-      "updated_at": "2026-10-11T20:51:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1109,
       "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
       "author": "big-yellow-duck",
@@ -418,30 +478,6 @@
       "created_at": "2026-10-06T17:57:28Z",
       "updated_at": "2026-10-11T08:00:40Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1192,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T15:48:52Z",
-      "updated_at": "2026-10-09T18:34:46Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1192",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1240,
-      "title": "[Bugfix] Shared numerics, streams, and tests",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T02:00:58Z",
-      "updated_at": "2026-10-09T16:25:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1240",
       "labels": [],
       "draft": false
     },
@@ -638,18 +674,6 @@
       "draft": false
     },
     {
-      "number": 1194,
-      "title": "[JIT] Actionable diagnostic for dynamic layout field overflow",
-      "author": "mustafayildirim",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T00:24:03Z",
-      "updated_at": "2026-09-30T16:51:37Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1194",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 987,
       "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
       "author": "jli-melchior",
@@ -658,18 +682,6 @@
       "created_at": "2026-08-08T11:53:09Z",
       "updated_at": "2026-09-30T01:09:01Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1193,
-      "title": "[LayoutLowering] Ignore size-one leaves in contiguous-segment detection",
-      "author": "mustafayildirim",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T00:13:38Z",
-      "updated_at": "2026-09-29T10:30:46Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1193",
       "labels": [],
       "draft": false
     },
@@ -1078,6 +1090,42 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1188,
+      "title": "[Tool][Debug] Inject hand-edited assembly into a JIT cache entry",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-24T01:47:30Z",
+      "updated_at": "2026-10-15T03:21:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1188",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1184,
+      "title": "[fix] Support waves_per_eu min,max range for full VGPR utilization",
+      "author": "jli-melchior",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-23T07:21:49Z",
+      "updated_at": "2026-10-15T03:20:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1184",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1284,
+      "title": "[fix] Make make_tile treat every argument list as modes",
+      "author": "xudoyuan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T07:21:36Z",
+      "updated_at": "2026-10-14T14:18:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1284",
       "labels": [],
       "draft": false
     },
@@ -1896,30 +1944,6 @@
       "created_at": "2026-09-16T08:48:57Z",
       "updated_at": "2026-09-16T14:38:45Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1146",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1140,
-      "title": "[Fix] Convert fly pointer types across control-flow boundaries",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-15T17:27:00Z",
-      "updated_at": "2026-09-16T14:37:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1140",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1143,
-      "title": "pyproject: bound nanobind below 3, as MLIR requires",
-      "author": "xinyazhang",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-15T22:56:00Z",
-      "updated_at": "2026-09-16T06:36:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1143",
       "labels": [],
       "draft": false
     }

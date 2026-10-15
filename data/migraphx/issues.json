@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-14T13:08:57Z",
+  "collected_at": "2026-10-15T12:55:44Z",
   "issues": [
+    {
+      "number": 5375,
+      "title": "MLIR compile abort: rock.transform with empty attributes fails type inference on a large detection transformer (Windows, gfx1100)",
+      "author": "vecStardo",
+      "state": "open",
+      "created_at": "2026-10-12T11:33:47Z",
+      "updated_at": "2026-10-14T18:42:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5375",
+      "labels": []
+    },
     {
       "number": 5396,
       "title": "Enable MLIR attention fusion by default on gfx11 (unfused attention is 2-3x slower than PyTorch from 2k tokens on RX 7900 XTX)",
@@ -9,16 +19,6 @@
       "created_at": "2026-10-14T05:16:52Z",
       "updated_at": "2026-10-14T05:16:52Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5396",
-      "labels": []
-    },
-    {
-      "number": 5375,
-      "title": "MLIR compile abort: rock.transform with empty attributes fails type inference on a large detection transformer (Windows, gfx1100)",
-      "author": "vecStardo",
-      "state": "open",
-      "created_at": "2026-10-12T11:33:47Z",
-      "updated_at": "2026-10-13T21:46:31Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5375",
       "labels": []
     },
     {

@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-10-14T13:09:15Z",
+  "collected_at": "2026-10-15T12:56:04Z",
   "issues": [
+    {
+      "number": 6574,
+      "title": "RDNA3/RDNA4 (gfx1100, gfx1201) Triton-only test report: fused KDA decode works; two install/config issues",
+      "author": "boxwrench",
+      "state": "open",
+      "created_at": "2026-10-15T11:45:15Z",
+      "updated_at": "2026-10-15T11:45:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6574",
+      "labels": []
+    },
+    {
+      "number": 5683,
+      "title": "gemma-4-12B on gfx1201: ROCM_AITER_UNIFIED_ATTN is 4.65x faster at prefill than TRITON_ATTN (A/B on rocm/vllm:latest + aiter main)",
+      "author": "taisunyoung",
+      "state": "open",
+      "created_at": "2026-09-19T08:33:09Z",
+      "updated_at": "2026-10-15T09:48:06Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5683",
+      "labels": []
+    },
+    {
+      "number": 6565,
+      "title": "[Issue]: a8w4 fused_moe writes NaN at small token counts on gfx950 (uninitialized padded scratch)",
+      "author": "PerryZhang01",
+      "state": "open",
+      "created_at": "2026-10-15T07:08:59Z",
+      "updated_at": "2026-10-15T07:35:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6565",
+      "labels": []
+    },
+    {
+      "number": 6562,
+      "title": "FlyDSL FP4 paged MQA-logits prefill (flydsl_pa_mqa_logits_fp4_prefill) faults at address 0 with zero query rows (gfx950)",
+      "author": "ChangLi811",
+      "state": "open",
+      "created_at": "2026-10-15T06:07:11Z",
+      "updated_at": "2026-10-15T06:14:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6562",
+      "labels": []
+    },
+    {
+      "number": 6548,
+      "title": "[Issue]:  FlyDSL MoE stage-1 fused FP8 output uses a different MXFP8 scale rule than fused_dynamic_mx_quant_moe_sort",
+      "author": "josh-schell-amd",
+      "state": "open",
+      "created_at": "2026-10-14T20:52:55Z",
+      "updated_at": "2026-10-14T21:12:40Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6548",
+      "labels": []
+    },
+    {
+      "number": 6062,
+      "title": "[vLLM] DSR1 FP4 Optimizations",
+      "author": "farlukas",
+      "state": "open",
+      "created_at": "2026-10-01T18:13:36Z",
+      "updated_at": "2026-10-14T20:09:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6062",
+      "labels": []
+    },
     {
       "number": 6518,
       "title": "mha_batch_prefill reads past the paged KV cache at head_dim 64/96 (GPU memory fault)",
@@ -10,18 +70,6 @@
       "updated_at": "2026-10-14T05:20:24Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6518",
       "labels": []
-    },
-    {
-      "number": 6497,
-      "title": "Fix copilot reviews being too verbose.",
-      "author": "Boss2002n",
-      "state": "open",
-      "created_at": "2026-10-13T18:13:44Z",
-      "updated_at": "2026-10-13T18:13:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6497",
-      "labels": [
-        "Triton/Gluon"
-      ]
     },
     {
       "number": 5286,
@@ -54,18 +102,6 @@
       "updated_at": "2026-10-13T14:17:50Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6452",
       "labels": []
-    },
-    {
-      "number": 6103,
-      "title": "[Documentation]: [Triton/Gluon] Update README.md and add a section on PR checklist for kernel developer",
-      "author": "rahulbatra85",
-      "state": "open",
-      "created_at": "2026-10-02T18:19:51Z",
-      "updated_at": "2026-10-13T12:32:20Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6103",
-      "labels": [
-        "Triton/Gluon"
-      ]
     },
     {
       "number": 6474,
@@ -197,16 +233,6 @@
       "created_at": "2026-10-09T14:00:29Z",
       "updated_at": "2026-10-09T14:00:29Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6316",
-      "labels": []
-    },
-    {
-      "number": 6315,
-      "title": "[Issue]: fused_rearrange_sigmoid_gated_delta_rule with is_kda=True reads the wrong gate for tokens after the first",
-      "author": "truong-v",
-      "state": "open",
-      "created_at": "2026-10-09T14:00:28Z",
-      "updated_at": "2026-10-09T14:00:28Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6315",
       "labels": []
     },
     {
@@ -445,16 +471,6 @@
       "created_at": "2026-10-02T00:10:31Z",
       "updated_at": "2026-10-02T00:10:31Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6072",
-      "labels": []
-    },
-    {
-      "number": 6062,
-      "title": "[vLLM] DSR1 FP4 Optimizations",
-      "author": "farlukas",
-      "state": "open",
-      "created_at": "2026-10-01T18:13:36Z",
-      "updated_at": "2026-10-01T18:14:07Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6062",
       "labels": []
     },
     {
@@ -869,16 +885,6 @@
       "created_at": "2026-09-21T20:31:58Z",
       "updated_at": "2026-09-21T20:31:58Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5738",
-      "labels": []
-    },
-    {
-      "number": 5683,
-      "title": "gemma-4-12B on gfx1201: ROCM_AITER_UNIFIED_ATTN is 4.65x faster at prefill than TRITON_ATTN (A/B on rocm/vllm:latest + aiter main)",
-      "author": "taisunyoung",
-      "state": "open",
-      "created_at": "2026-09-19T08:33:09Z",
-      "updated_at": "2026-09-20T22:32:07Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5683",
       "labels": []
     },
     {

@@ -1,6 +1,72 @@
 {
-  "collected_at": "2026-10-14T13:09:31Z",
+  "collected_at": "2026-10-15T12:56:25Z",
   "prs": [
+    {
+      "number": 746,
+      "title": "FlyDSL persistent work-stealing grouped GEMM enablement (gfx950)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T21:45:10Z",
+      "updated_at": "2026-10-14T21:45:31Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-10-14T20:28:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 755,
+      "title": "[TE] CK fused attention: return max_logit",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:54:41Z",
+      "updated_at": "2026-10-14T18:31:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 736,
+      "title": "Upgrade ci to therock 10.0",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T19:23:22Z",
+      "updated_at": "2026-10-14T17:30:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 744,
+      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-26T19:19:41Z",
+      "updated_at": "2026-10-14T16:05:43Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
     {
       "number": 745,
       "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
@@ -8,8 +74,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-28T17:13:42Z",
-      "updated_at": "2026-10-13T22:24:23Z",
+      "updated_at": "2026-10-14T15:42:33Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 743,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T19:42:17Z",
+      "updated_at": "2026-10-14T14:15:00Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/743",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 734,
+      "title": "Persistent AG + GEMM MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:42:24Z",
+      "updated_at": "2026-10-14T14:00:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
       "labels": [
         "ci-level 1"
       ],
@@ -27,18 +119,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-10-13T21:02:32Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [],
       "draft": false
     },
     {
@@ -70,32 +150,6 @@
       "draft": false
     },
     {
-      "number": 755,
-      "title": "[TE] CK fused attention: return max_logit",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:54:41Z",
-      "updated_at": "2026-10-13T17:37:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 739,
-      "title": "Fix rocprofv3 Hang in JAX Training Docker 26.6/26.7 by Skipping TheRock Core SDK Preload",
-      "author": "yaomingamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T22:00:13Z",
-      "updated_at": "2026-10-13T15:35:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/739",
-      "labels": [
-        "community-contribution"
-      ],
-      "draft": false
-    },
-    {
       "number": 759,
       "title": "speed up multi-stream execution",
       "author": "matthiasdiener",
@@ -104,74 +158,6 @@
       "created_at": "2026-10-13T15:04:03Z",
       "updated_at": "2026-10-13T15:04:03Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/759",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 734,
-      "title": "Persistent AG + GEMM MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T15:42:24Z",
-      "updated_at": "2026-10-13T15:01:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 744,
-      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-26T19:19:41Z",
-      "updated_at": "2026-10-13T02:37:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 736,
-      "title": "Upgrade ci to therock 10.0",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T19:23:22Z",
-      "updated_at": "2026-10-12T17:08:53Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 743,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T19:42:17Z",
-      "updated_at": "2026-10-09T18:35:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/743",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 746,
-      "title": "FlyDSL persistent work-stealing grouped GEMM enablement (gfx950)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T21:45:10Z",
-      "updated_at": "2026-10-09T14:26:41Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
       "labels": [
         "ci-level 1"
       ],
@@ -1890,20 +1876,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/646",
       "labels": [
         "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 645,
-      "title": "Removal of the AITER submodule",
-      "author": "Micky774",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-22T17:24:33Z",
-      "updated_at": "2026-06-24T11:40:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/645",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     }

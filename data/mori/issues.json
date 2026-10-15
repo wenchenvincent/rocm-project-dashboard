@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-14T13:09:25Z",
+  "collected_at": "2026-10-15T12:56:18Z",
   "issues": [
+    {
+      "number": 773,
+      "title": "UMBP: incremental plan builders for MoriIoEngine and GdsEngine, and move the remaining Transfer(vector) callers onto them",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-15T05:56:53Z",
+      "updated_at": "2026-10-15T05:56:53Z",
+      "html_url": "https://github.com/ROCm/mori/issues/773",
+      "labels": []
+    },
     {
       "number": 770,
       "title": "UMBP: master's GetEvictionCandidates scans its whole index per query (0.6\u20131.9 s); add a per-(node, tier) recency index",

@@ -1,14 +1,14 @@
 {
-  "collected_at": "2026-10-14T13:08:26Z",
+  "collected_at": "2026-10-15T12:54:59Z",
   "prs": [
     {
       "number": 41341,
       "title": "[ROCm] dev mxfp4 recipe",
       "author": "ScXfjiang",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-10-07T15:38:55Z",
-      "updated_at": "2026-10-14T12:53:14Z",
+      "updated_at": "2026-10-14T18:15:57Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41341",
       "labels": [
         "pull ready"
@@ -563,21 +563,6 @@
       "created_at": "2026-08-14T19:48:51Z",
       "updated_at": "2026-08-15T15:04:15Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40001",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39872,
-      "title": "[ROCm] Automatically collect rocm libraries needed to run the rocm wheels under test",
-      "author": "draganmladjenovic",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-10T19:52:33Z",
-      "updated_at": "2026-08-13T07:33:33Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39872",
       "labels": [
         "kokoro:force-run",
         "pull ready"

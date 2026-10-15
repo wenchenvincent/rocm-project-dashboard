@@ -1,6 +1,104 @@
 {
-  "collected_at": "2026-10-14T13:09:25Z",
+  "collected_at": "2026-10-15T12:56:17Z",
   "prs": [
+    {
+      "number": 776,
+      "title": "feat(umbp): SSD demote/promote skip staging; promoting reads land in DRAM; 4 GiB staging preset",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T08:25:25Z",
+      "updated_at": "2026-10-15T10:06:09Z",
+      "html_url": "https://github.com/ROCm/mori/pull/776",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 775,
+      "title": "fix(umbp): SSD tier gives disk back a segment at a time",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T07:24:32Z",
+      "updated_at": "2026-10-15T10:06:07Z",
+      "html_url": "https://github.com/ROCm/mori/pull/775",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 774,
+      "title": "refactor(umbp): one incremental plan builder shared by every transfer engine",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T06:21:24Z",
+      "updated_at": "2026-10-15T10:06:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/774",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 763,
+      "title": "fix(umbp): retry eviction demotions instead of dropping the only copy; count what is dropped",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T15:35:53Z",
+      "updated_at": "2026-10-15T10:06:02Z",
+      "html_url": "https://github.com/ROCm/mori/pull/763",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 762,
+      "title": "fix(umbp): SSD staging no longer fails local loads; a local read's hold never expires under its copy",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T15:35:50Z",
+      "updated_at": "2026-10-15T10:06:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/762",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 733,
+      "title": "fix(EPv2): give routing handles their own buffers on request (snapshot=True)",
+      "author": "jeffdaily",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T21:48:22Z",
+      "updated_at": "2026-10-15T07:16:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/733",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 771,
+      "title": "fix(bootstrap): add retry and increase timeout in SendMessage for cross-node reliability",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T23:30:40Z",
+      "updated_at": "2026-10-15T03:09:37Z",
+      "html_url": "https://github.com/ROCm/mori/pull/771",
+      "labels": [
+        "fix-precommit"
+      ],
+      "draft": false
+    },
+    {
+      "number": 699,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T18:28:49Z",
+      "updated_at": "2026-10-14T14:42:25Z",
+      "html_url": "https://github.com/ROCm/mori/pull/699",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 748,
       "title": "perf(gemm-ar): opt-in optimization paths, and their measurements",
@@ -38,54 +136,6 @@
       "draft": false
     },
     {
-      "number": 769,
-      "title": "fix(umbp): acknowledge local clear when no master is configured",
-      "author": "tjtanaa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T09:55:17Z",
-      "updated_at": "2026-10-14T10:16:40Z",
-      "html_url": "https://github.com/ROCm/mori/pull/769",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 741,
-      "title": "feat(umbp): converge eviction onto one path; nodes evict locally by default",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T13:20:57Z",
-      "updated_at": "2026-10-14T09:14:54Z",
-      "html_url": "https://github.com/ROCm/mori/pull/741",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 763,
-      "title": "fix(umbp): retry eviction demotions instead of dropping the only copy; count what is dropped",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T15:35:53Z",
-      "updated_at": "2026-10-14T08:56:38Z",
-      "html_url": "https://github.com/ROCm/mori/pull/763",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 762,
-      "title": "fix(umbp): SSD staging no longer fails local loads; a local read's hold never expires under its copy",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T15:35:50Z",
-      "updated_at": "2026-10-14T08:56:35Z",
-      "html_url": "https://github.com/ROCm/mori/pull/762",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 696,
       "title": "opt v2 internode",
       "author": "QizhouZhang97",
@@ -94,42 +144,6 @@
       "created_at": "2026-09-22T03:05:00Z",
       "updated_at": "2026-10-14T06:58:46Z",
       "html_url": "https://github.com/ROCm/mori/pull/696",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 765,
-      "title": "perf(umbp): build LocalCopyEngine transfer plans incrementally",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T06:34:55Z",
-      "updated_at": "2026-10-14T06:41:25Z",
-      "html_url": "https://github.com/ROCm/mori/pull/765",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 733,
-      "title": "fix(EPv2): give routing handles their own buffers on request (snapshot=True)",
-      "author": "jeffdaily",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T21:48:22Z",
-      "updated_at": "2026-10-14T02:35:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/733",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 683,
-      "title": "feat(umbp): serve metrics from a masterless node, and summarise offload/load/evict/promote/demote at INFO",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T03:26:06Z",
-      "updated_at": "2026-10-13T23:53:46Z",
-      "html_url": "https://github.com/ROCm/mori/pull/683",
       "labels": [],
       "draft": false
     },
@@ -226,18 +240,6 @@
       "created_at": "2026-09-28T01:52:42Z",
       "updated_at": "2026-09-30T13:27:59Z",
       "html_url": "https://github.com/ROCm/mori/pull/712",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 699,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T18:28:49Z",
-      "updated_at": "2026-09-25T11:25:06Z",
-      "html_url": "https://github.com/ROCm/mori/pull/699",
       "labels": [],
       "draft": false
     },
@@ -598,6 +600,42 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 683,
+      "title": "feat(umbp): serve metrics from a masterless node, and summarise offload/load/evict/promote/demote at INFO",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-17T03:26:06Z",
+      "updated_at": "2026-10-15T09:41:17Z",
+      "html_url": "https://github.com/ROCm/mori/pull/683",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 741,
+      "title": "feat(umbp): converge eviction onto one path; nodes evict locally by default",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-10T13:20:57Z",
+      "updated_at": "2026-10-15T01:19:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/741",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 769,
+      "title": "fix(umbp): acknowledge local clear when no master is configured",
+      "author": "tjtanaa",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-14T09:55:17Z",
+      "updated_at": "2026-10-14T13:13:57Z",
+      "html_url": "https://github.com/ROCm/mori/pull/769",
       "labels": [],
       "draft": false
     },
@@ -1548,66 +1586,6 @@
       "created_at": "2026-09-03T21:10:54Z",
       "updated_at": "2026-09-11T06:30:47Z",
       "html_url": "https://github.com/ROCm/mori/pull/639",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 625,
-      "title": "feat(EPv2): [preview] internode dispatch/combine over CCO/GDA",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-01T03:15:29Z",
-      "updated_at": "2026-09-11T06:22:16Z",
-      "html_url": "https://github.com/ROCm/mori/pull/625",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 651,
-      "title": "ci: add a ROCm 10 intranode gate, and fix the two things that broke it",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-09T06:12:45Z",
-      "updated_at": "2026-09-10T02:04:44Z",
-      "html_url": "https://github.com/ROCm/mori/pull/651",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 612,
-      "title": "fix: use strided offsets in run_single_once when batch_contiguous is disabled",
-      "author": "kudomcho",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-27T19:03:09Z",
-      "updated_at": "2026-09-09T10:56:12Z",
-      "html_url": "https://github.com/ROCm/mori/pull/612",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 646,
-      "title": "feat(ep/v2): make the internode dispatch/combine a v2-native kernel",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T10:46:22Z",
-      "updated_at": "2026-09-09T10:23:48Z",
-      "html_url": "https://github.com/ROCm/mori/pull/646",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 648,
-      "title": "test(EPv2): emit a JSON result table and per-point clock/power telemetry",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T11:40:27Z",
-      "updated_at": "2026-09-09T09:04:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/648",
       "labels": [],
       "draft": false
     }

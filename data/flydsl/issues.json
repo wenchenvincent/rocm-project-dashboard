@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-14T13:09:29Z",
+  "collected_at": "2026-10-15T12:56:23Z",
   "issues": [
+    {
+      "number": 1273,
+      "title": "[Issue]: gfx950: kernel spills 346 VGPRs and runs 2.2x slower after FlyDSL 0.2.4 -> 0.3.4.1 (bundled LLVM 7f77ca0d -> e2a39f50) with near-identical LLVM IR",
+      "author": "HuangWei-95",
+      "state": "open",
+      "created_at": "2026-10-12T02:24:05Z",
+      "updated_at": "2026-10-15T07:52:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1273",
+      "labels": []
+    },
     {
       "number": 1211,
       "title": "[Issue]: convert-fly-to-rocdl fails to legalize FP8 scf.for iter_args in 0.3.4.1",
@@ -19,16 +29,6 @@
       "created_at": "2026-10-13T07:28:10Z",
       "updated_at": "2026-10-13T08:19:19Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1285",
-      "labels": []
-    },
-    {
-      "number": 1273,
-      "title": "[Issue]: gfx950: kernel spills 346 VGPRs and runs 2.2x slower after FlyDSL 0.2.4 -> 0.3.4.1 (bundled LLVM 7f77ca0d -> e2a39f50) with near-identical LLVM IR",
-      "author": "HuangWei-95",
-      "state": "open",
-      "created_at": "2026-10-12T02:24:05Z",
-      "updated_at": "2026-10-12T04:09:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1273",
       "labels": []
     },
     {
