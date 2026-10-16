@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-10-15T12:55:36Z",
+  "collected_at": "2026-10-16T12:47:29Z",
   "prs": [
+    {
+      "number": 12331,
+      "title": "[AMD][BACKEND] Ignore unit dims when checking the shared order for TDM ops",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T10:30:54Z",
+      "updated_at": "2026-10-16T10:32:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12331",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12324,
+      "title": "[AMD]Support Multi-CTA in TDM Scatter",
+      "author": "knwng",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T21:43:38Z",
+      "updated_at": "2026-10-16T04:00:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12324",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12325,
+      "title": "[AMD] Add native JIT cache dispatch for HIP",
+      "author": "adityakankariya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T21:46:55Z",
+      "updated_at": "2026-10-15T22:51:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12325",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11968,
+      "title": "[AMD] Add a pre-bound HIP kernel launcher",
+      "author": "adityakankariya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T17:15:22Z",
+      "updated_at": "2026-10-15T22:26:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11968",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12320,
+      "title": "[DRAFT][AMD][ConSan] Support async-copy mbarrier arrive",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T18:48:43Z",
+      "updated_at": "2026-10-15T18:52:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12320",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12233,
+      "title": "[AMD] Support scheduling, LDS prefetch and TDM fusion for sliced GEMM kernels ",
+      "author": "plognjen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T18:14:37Z",
+      "updated_at": "2026-10-15T16:35:48Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12233",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 12273,
       "title": "[DRAFT][AMD][ConSan] Handle mixed-direction partial async-copy waits",
@@ -60,18 +132,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11178",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12233,
-      "title": "[AMD] Support scheduling, LDS prefetch and TDM fusion for sliced GEMM kernels ",
-      "author": "plognjen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T18:14:37Z",
-      "updated_at": "2026-10-14T17:43:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12233",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12284,
@@ -602,18 +662,6 @@
       "draft": false
     },
     {
-      "number": 12147,
-      "title": "[AMD] Use the codegen library to upgrade legacy named barriers",
-      "author": "PMylon",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-06T19:36:28Z",
-      "updated_at": "2026-10-07T03:16:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12147",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12034,
       "title": "[GSan] Support symmetric memory allocator on AMD (HIP)",
       "author": "amgddm",
@@ -672,54 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12020",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 11968,
-      "title": "[AMD] Add a pre-bound HIP kernel launcher",
-      "author": "adityakankariya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T17:15:22Z",
-      "updated_at": "2026-09-25T22:02:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11968",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11704,
-      "title": "[AMD] Bypass the epilogue relayout for FMA",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T10:26:29Z",
-      "updated_at": "2026-09-24T12:36:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11704",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11475,
-      "title": "[AMD] Disable scalar atomics in multicta kernels",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T20:16:56Z",
-      "updated_at": "2026-09-23T23:41:06Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11475",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10328,
-      "title": "[AMD] Preserve assumptions in FoldTrueCmpIOp",
-      "author": "Hardcode84",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-15T22:02:50Z",
-      "updated_at": "2026-09-22T12:19:28Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10328",
-      "labels": [],
-      "draft": false
     }
   ]
 }

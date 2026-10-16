@@ -1,35 +1,35 @@
 {
-  "collected_at": "2026-10-15T12:59:59Z",
+  "collected_at": "2026-10-16T12:51:19Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 3,
-      "merged": 1,
+      "opened": 5,
+      "merged": 2,
       "closed": 2
     },
     "last_week": {
-      "opened": 9,
-      "merged": 6,
-      "closed": 1
+      "opened": 6,
+      "merged": 5,
+      "closed": 0
     },
-    "median_time_to_merge_hours": 61.4,
+    "median_time_to_merge_hours": 166.3,
     "merge_count": 8,
     "stale_prs": 34
   },
   "contributors": {
-    "active_this_week": 8,
+    "active_this_week": 9,
     "total_contributors": 28,
     "top_contributors": [
       {
         "author": "matthiasdiener",
         "prs_submitted": 31,
-        "prs_merged": 18,
+        "prs_merged": 19,
         "commits": 7
       },
       {
         "author": "ipanfilo",
-        "prs_submitted": 15,
+        "prs_submitted": 16,
         "prs_merged": 15,
         "commits": 3
       },
@@ -40,21 +40,21 @@
         "commits": 1
       },
       {
+        "author": "Micky774",
+        "prs_submitted": 13,
+        "prs_merged": 6,
+        "commits": 2
+      },
+      {
         "author": "alextmagro",
         "prs_submitted": 13,
         "prs_merged": 13,
         "commits": 2
       },
       {
-        "author": "Micky774",
-        "prs_submitted": 12,
-        "prs_merged": 5,
-        "commits": 0
-      },
-      {
         "author": "AllenFarcas",
         "prs_submitted": 8,
-        "prs_merged": 7,
+        "prs_merged": 6,
         "commits": 2
       },
       {
@@ -73,7 +73,7 @@
         "author": "wenchenvincent",
         "prs_submitted": 5,
         "prs_merged": 4,
-        "commits": 0
+        "commits": 1
       },
       {
         "author": "wangye805",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 12.8,
+    "days_since_last": 13.8,
     "avg_interval_days": 46.0,
     "total_releases": 5,
     "latest_tag": "v2.17_rocm"

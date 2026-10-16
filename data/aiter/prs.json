@@ -1,6 +1,586 @@
 {
-  "collected_at": "2026-10-15T12:55:55Z",
+  "collected_at": "2026-10-16T12:47:46Z",
   "prs": [
+    {
+      "number": 6620,
+      "title": "[MoE] Keep the CK-Tile split-k route for SwiGLU MXFP4 callers that leave gate_up_interleave unset (MiniMax-M3 TP8 regression from #6478)",
+      "author": "ZhiweiYan-96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T10:00:51Z",
+      "updated_at": "2026-10-16T12:47:16Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6620",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 6218,
+      "title": "FlyDSL A4W4 decode GEMM for M<=16 on gfx950",
+      "author": "johannes-graner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T11:39:38Z",
+      "updated_at": "2026-10-16T12:47:14Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6218",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6171,
+      "title": "[ASM] [HIP] [JIT] [Perf] [Hardware][MI300X] Delayed mHC seam for gfx942 (mhc_fused_post_pre_delayed)",
+      "author": "jhartika-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T11:10:55Z",
+      "updated_at": "2026-10-16T12:47:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6171",
+      "labels": [
+        "HIP",
+        "JIT",
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5164,
+      "title": "[HIP] [OPUS] [FlyDSL] Simplify AITER compiler worker fan-out to smooth-out regressions",
+      "author": "Qubitium",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T02:36:54Z",
+      "updated_at": "2026-10-16T12:43:54Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5164",
+      "labels": [
+        "ci:atom",
+        "CI",
+        "HIP",
+        "FlyDSL",
+        "JIT",
+        "Build",
+        "OPUS"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6613,
+      "title": "[Triton][MHA] Proposal: tune Triton MHA tiles with the Triton harness, inside a cross-backend MHA tuner",
+      "author": "amd-bartgips",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T08:07:22Z",
+      "updated_at": "2026-10-16T12:24:06Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6613",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5849,
+      "title": "[Tuning] A family-agnostic race for large candidate fields (draft, not for review yet)",
+      "author": "amd-bartgips",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T13:36:21Z",
+      "updated_at": "2026-10-16T12:24:05Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5849",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6580,
+      "title": "[MHA] Tune MHA forward across every backend on the shared tuning contract",
+      "author": "amd-bartgips",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T13:26:23Z",
+      "updated_at": "2026-10-16T12:24:03Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6580",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5762,
+      "title": "[MHA] Route MHA forward through a tuned backend row",
+      "author": "amd-bartgips",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T15:07:52Z",
+      "updated_at": "2026-10-16T12:24:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5762",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5846,
+      "title": "[Tuning] One tuning contract: typed results, one promotion bar, selection proof and GatedTuner",
+      "author": "amd-bartgips",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T11:15:28Z",
+      "updated_at": "2026-10-16T12:24:00Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5846",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6579,
+      "title": "[JIT] Fix an indefinite JIT build hang when a lock holder is a zombie",
+      "author": "amd-bartgips",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T13:26:20Z",
+      "updated_at": "2026-10-16T12:23:58Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6579",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5677,
+      "title": "[FlyDSL] Adaptive decode Top-K kernel, dispatched by one measured gate",
+      "author": "JH-Leon-KIM-AMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T20:26:25Z",
+      "updated_at": "2026-10-16T12:23:50Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5677",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6067,
+      "title": "[ASM] [HIP] [CK] Add persistent gfx950 f4gemm 256x256 kernel (_ps)",
+      "author": "tarik-sarac",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T21:16:08Z",
+      "updated_at": "2026-10-16T12:21:16Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6067",
+      "labels": [
+        "ci:atom_full",
+        "HIP",
+        "CK",
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4188,
+      "title": "[FlyDSL] gfx1201 (RDNA4) FlyDSL BF16 attention optimizations & FP8 attention implementation",
+      "author": "pds-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-10T14:51:47Z",
+      "updated_at": "2026-10-16T12:20:57Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4188",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6614,
+      "title": "Fusing dvdk and dq with split-K, using pingpong pipeline",
+      "author": "hellozhuo-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T08:22:31Z",
+      "updated_at": "2026-10-16T12:06:46Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6614",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6575,
+      "title": "MHAv4 per-row block-sparse geometry, LSE and ragged KV on gfx950",
+      "author": "nsakkine",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T12:00:01Z",
+      "updated_at": "2026-10-16T11:56:17Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6575",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5670,
+      "title": "[FlyDSL] Fused all-reduce + RMSNorm",
+      "author": "vpietila-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T14:37:40Z",
+      "updated_at": "2026-10-16T11:50:58Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5670",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6514,
+      "title": "[FlyDSL] mega_moe_tp: unified big-M path and optimizations",
+      "author": "binding7012",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T02:33:04Z",
+      "updated_at": "2026-10-16T11:44:06Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6514",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6624,
+      "title": "fix(dist): log MORI all2all handle creation",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T11:19:55Z",
+      "updated_at": "2026-10-16T11:20:31Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6624",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 6609,
+      "title": "[Triton/Gluon] Gfx1250 flash kda gluon",
+      "author": "Liang-jianhao97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T04:07:32Z",
+      "updated_at": "2026-10-16T11:11:15Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6609",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6445,
+      "title": "[Triton/Gluon] [HIP] [CI] Gluon PA decode: ragged (varlen) query support",
+      "author": "andrei-kochin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T16:51:04Z",
+      "updated_at": "2026-10-16T11:09:34Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6445",
+      "labels": [
+        "CI",
+        "Triton/Gluon",
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6621,
+      "title": "[HIP] [FlyDSL] [JIT] [gfx1250] Add MXFP4 a4w4 GEMM with tuned DSR1 configs",
+      "author": "aoli26",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T10:25:47Z",
+      "updated_at": "2026-10-16T11:05:03Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6621",
+      "labels": [
+        "HIP",
+        "FlyDSL",
+        "JIT"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6531,
+      "title": "[Config] [Perf] [gfx950] Add MiniMax-M3 ViT BF16 GEMM config",
+      "author": "amd-bishwoadhikari",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T10:41:42Z",
+      "updated_at": "2026-10-16T10:58:41Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6531",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6623,
+      "title": "[Config][GEMM][gfx950] Qwen3.8-27B ViT BF16 GEMM shapes (tuning pending)",
+      "author": "vorapolsiloai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T10:55:25Z",
+      "updated_at": "2026-10-16T10:56:09Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6623",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6060,
+      "title": "[HIP] [FlyDSL] gfx950 MXFP8 bmm: 1x32 weight scales, grouped XCD order, MiniMax-M3 configs",
+      "author": "sshlyapn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T17:07:35Z",
+      "updated_at": "2026-10-16T10:48:30Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6060",
+      "labels": [
+        "HIP",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5556,
+      "title": "[FlyDSL] [CI] gfx950 FP8 paged-prefill attention with asymmetric head dim and varlen support",
+      "author": "sammysun0711",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T16:38:14Z",
+      "updated_at": "2026-10-16T10:42:16Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5556",
+      "labels": [
+        "CI",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5518,
+      "title": "[FlyDSL] [gfx950] Add explicit page strides and 64-bit rebase for FP4 MQA logits",
+      "author": "LiuYinfeng01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T05:39:32Z",
+      "updated_at": "2026-10-16T10:40:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5518",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6558,
+      "title": "[MoonEP] Run the planner and weight pool on gfx1250 MegaMoE",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T02:52:22Z",
+      "updated_at": "2026-10-16T10:37:48Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6558",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6622,
+      "title": "[Config] Add v41 tp2 moe config for shared expert fusion on 8k/16k input",
+      "author": "1am9trash",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T10:29:58Z",
+      "updated_at": "2026-10-16T10:33:57Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6622",
+      "labels": [
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6585,
+      "title": "[Config] [Perf] [gfx950] Add MiniMax-M3-MXFP4-AttnFP8 tuned A8W8 ",
+      "author": "amd-bishwoadhikari",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T14:59:48Z",
+      "updated_at": "2026-10-16T10:31:35Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6585",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5949,
+      "title": "[FlyDSL] Speed up gfx950 head-256 single-M-tile paged-attention decode, with NHD page-64 support",
+      "author": "samremes",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T15:40:43Z",
+      "updated_at": "2026-10-16T10:31:33Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5949",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6403,
+      "title": "[FlyDSL] Two-launch FlyDSL delayed mHC seam for gfx942",
+      "author": "RElbers",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T21:37:57Z",
+      "updated_at": "2026-10-16T10:26:28Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6403",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6219,
+      "title": "[Triton/Gluon] moe_gemm_a8w8: fnuz FP8 and MXFP8 on gfx942",
+      "author": "akii96",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T12:59:15Z",
+      "updated_at": "2026-10-16T10:17:41Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6219",
+      "labels": [
+        "ci:triton-300x",
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6395,
+      "title": "[CK] [Bugfix] Write grouped MoE tuning results back in place",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T08:09:14Z",
+      "updated_at": "2026-10-16T10:05:15Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6395",
+      "labels": [
+        "CK"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6604,
+      "title": "[HIP] [CK] [Tuning] [gfx950] MiniMax-M3 non-fused MoE (E=128, top-4, TP4 and TP2): add A4W4 and A16W4 configs, fix A16W4 tuner checks",
+      "author": "lirui927",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T02:15:55Z",
+      "updated_at": "2026-10-16T10:03:38Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6604",
+      "labels": [
+        "HIP",
+        "CK"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6617,
+      "title": "[FlyDSL] Extend D256 pipe to per-token KV, transposed V and sliding windows",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T09:00:00Z",
+      "updated_at": "2026-10-16T10:03:23Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6617",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 6619,
+      "title": "[FlyDSL] Optimize PA partition reduction (split from #5949)",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T09:47:01Z",
+      "updated_at": "2026-10-16T10:03:22Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6619",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6522,
+      "title": "[FlyDSL] generalize gfx942 FMHA varlen backward to head dims 64..192",
+      "author": "amd-wangfan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T07:56:41Z",
+      "updated_at": "2026-10-16T09:54:27Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6522",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6525,
+      "title": "[FlyDSL] feat(mega_moe): add required_vmm_bytes for cco sizing",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T08:42:38Z",
+      "updated_at": "2026-10-16T09:48:53Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6525",
+      "labels": [
+        "ci:multi-gpu",
+        "FlyDSL"
+      ],
+      "draft": true
+    },
+    {
+      "number": 6049,
+      "title": "[FlyDSL] QuickAllReduce INT4: add a shared global divisor to avoid E4M3 scale saturation",
+      "author": "msaffari-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T12:03:40Z",
+      "updated_at": "2026-10-16T09:42:40Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6049",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6618,
+      "title": "[MORI] Manage v2 CCO through the all2all manager",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T09:23:29Z",
+      "updated_at": "2026-10-16T09:41:14Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6618",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 6612,
+      "title": "[Qwen3.5 FP8][Tuning] Add TP8 (inter_dim=128) fused-MoE tuned configs for gfx950",
+      "author": "chuyeh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T05:27:45Z",
+      "updated_at": "2026-10-16T09:34:36Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6612",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6583,
+      "title": "[MoE] fused_moe: add a deterministic mode for bf16 x MXFP4 MoE",
+      "author": "aarnetalman",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T14:23:29Z",
+      "updated_at": "2026-10-16T09:34:06Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6583",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6252,
+      "title": "[FlyDSL] Flydsl tdm new interface",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T07:08:37Z",
+      "updated_at": "2026-10-16T09:18:13Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6252",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
     {
       "number": 5996,
       "title": "[Triton/Gluon] [FlyDSL] [CI] FlyDSL QSA indexer scorer + sparse GQA",
@@ -8,7 +588,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-30T10:12:16Z",
-      "updated_at": "2026-10-15T12:54:50Z",
+      "updated_at": "2026-10-16T09:13:44Z",
       "html_url": "https://github.com/ROCm/aiter/pull/5996",
       "labels": [
         "CI",
@@ -18,46 +598,1797 @@
       "draft": false
     },
     {
-      "number": 6060,
-      "title": "[FlyDSL] gfx950 MXFP8 bmm: 1x32 weight scales, grouped XCD order, MiniMax-M3 configs",
-      "author": "sshlyapn",
+      "number": 6083,
+      "title": "[Triton/Gluon] [FlyDSL] FlyDSL QSA indexer scorer + sparse GQA gfx942 performance improvements",
+      "author": "SamiAario-AMD",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-01T17:07:35Z",
-      "updated_at": "2026-10-15T12:54:44Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6060",
+      "created_at": "2026-10-02T08:25:32Z",
+      "updated_at": "2026-10-16T09:13:04Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6083",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5817,
+      "title": "[FlyDSL] [Feature] Add MiniMax-M3 gfx950 dense MXFP8 per-1x32 preshuffle GEMM",
+      "author": "amd-yashagar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T09:21:48Z",
+      "updated_at": "2026-10-16T09:13:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5817",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5882,
+      "title": "[FlyDSL] [MLA] DeepSeek-V4 fp8 MLA decode (v4 nm) in one FlyDSL launch on gfx950",
+      "author": "AMD-yanfeiwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-27T01:24:51Z",
+      "updated_at": "2026-10-16T09:08:29Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5882",
       "labels": [
         "FlyDSL"
       ],
       "draft": false
     },
     {
-      "number": 6067,
-      "title": "[ASM] [HIP] [CK] Add persistent gfx950 f4gemm 256x256 kernel (_ps)",
-      "author": "tarik-sarac",
+      "number": 6482,
+      "title": "[Tune] Make pretune fail on tuner errors and rebuild every inference module that reads the tuned CSV",
+      "author": "a-canadasruiz",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-01T21:16:08Z",
-      "updated_at": "2026-10-15T12:54:05Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6067",
+      "created_at": "2026-10-13T13:15:17Z",
+      "updated_at": "2026-10-16T09:05:22Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6482",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6464,
+      "title": "Fea/mxfp4 flydsl a8w4 opt & replace",
+      "author": "Bernard-Liu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T05:10:18Z",
+      "updated_at": "2026-10-16T09:04:26Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6464",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5969,
+      "title": "[CK] [FlyDSL] Introduce FP8 a8w8 gemm kernel with fp32 blockscale to uplift the MI355 blockwise gemm perf",
+      "author": "LuweiZhou2025",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T01:36:05Z",
+      "updated_at": "2026-10-16T08:59:34Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5969",
+      "labels": [
+        "CK",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6536,
+      "title": "[ASM] [HIP] Rebuild the gfx950 bf16 opus MLA decode kernels with named-register pins",
+      "author": "kaiyang-1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T13:00:47Z",
+      "updated_at": "2026-10-16T08:50:50Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6536",
       "labels": [
         "HIP",
-        "CK",
         "ASM"
       ],
       "draft": false
     },
     {
-      "number": 6403,
-      "title": "Two-launch FlyDSL delayed mHC seam for gfx942",
+      "number": 6530,
+      "title": "[Config] [FlyDSL] Kimi-K3 gfx1250 mxfp8_128 blockscale GEMM tuning",
+      "author": "qichu-yun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T10:33:47Z",
+      "updated_at": "2026-10-16T08:46:42Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6530",
+      "labels": [
+        "no-auto-title",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6616,
+      "title": "[MHA] Fix -DONLY_FAV3=0 quoting that breaks the backward JIT build",
+      "author": "menglcai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T08:40:15Z",
+      "updated_at": "2026-10-16T08:40:46Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6616",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 6286,
+      "title": "[Triton] Retune gfx942 a16w4 DSv4.1 tiles for Triton 3.8",
+      "author": "frida-andersson",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T19:14:13Z",
+      "updated_at": "2026-10-16T08:32:24Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6286",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6369,
+      "title": "[FlyDSL] Fuse add-RMSNorm and MXFP4 quant into INT4 QuickReduce",
+      "author": "mjkvaak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T08:38:26Z",
+      "updated_at": "2026-10-16T07:38:50Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6369",
+      "labels": [
+        "ci:multi-gpu",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6599,
+      "title": "[CI] Enable triton test selection script",
+      "author": "Boss2002n",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T22:37:19Z",
+      "updated_at": "2026-10-16T07:23:18Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6599",
+      "labels": [
+        "CI"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6527,
+      "title": "[FlyDSL] [MoE] Enable AITER_FLYDSL_USE_HERD on gfx1250 and add a fused HERD selector for GPT-OSS",
+      "author": "charlieguo1106",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T09:17:45Z",
+      "updated_at": "2026-10-16T06:59:39Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6527",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4676,
+      "title": "[Triton/Gluon] [FlyDSL] [CI] fp8 unified attention for gfx950",
+      "author": "johannes-graner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T08:08:38Z",
+      "updated_at": "2026-10-16T06:59:23Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4676",
+      "labels": [
+        "CI",
+        "Triton/Gluon",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6578,
+      "title": "[ASM] Fix KV addressing, mask scratch and empty splits in gfx950 BF16 32-head MLA",
+      "author": "alexioslyrakis-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T13:20:54Z",
+      "updated_at": "2026-10-16T06:55:29Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6578",
+      "labels": [
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6421,
+      "title": "[HIP] [FlyDSL] conv3d: kW and kH x kW LDS reuse of the im2col input on gfx950",
+      "author": "huizzhan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T07:27:07Z",
+      "updated_at": "2026-10-16T06:43:51Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6421",
+      "labels": [
+        "HIP",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6052,
+      "title": "[FlyDSL] [CI] MegaMoE: stage1_fused/stage2_fused switches, mori combine path",
+      "author": "yanboshao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T12:24:04Z",
+      "updated_at": "2026-10-16T06:41:56Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6052",
+      "labels": [
+        "CI",
+        "FlyDSL"
+      ],
+      "draft": true
+    },
+    {
+      "number": 6001,
+      "title": "[FlyDSL] fp8_mqa_logits: drop the host row-pad copies",
+      "author": "frida-andersson",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T12:42:44Z",
+      "updated_at": "2026-10-16T06:40:54Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6001",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6606,
+      "title": "[ASM] Fix gfx950 GQA16 MTP softmax initialization",
+      "author": "fangche123",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T03:14:47Z",
+      "updated_at": "2026-10-16T06:25:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6606",
+      "labels": [
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6556,
+      "title": "[FlyDSL] [MegaMoE] fix(dispatch): source-indexed payload for every rank at the indexed MTPR class",
+      "author": "Yaowu-Xiong",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T01:59:28Z",
+      "updated_at": "2026-10-16T06:21:45Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6556",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6368,
+      "title": "[FlyDSL] [gfx950] Fix 8-wave a8w8 GEMM dropping LDS writes at the K-step barrier",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T08:18:00Z",
+      "updated_at": "2026-10-16T06:19:39Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6368",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5409,
+      "title": "[Triton/Gluon] Unified attention: opt-in prefill configs for head sizes 129+",
+      "author": "cpersson-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T15:31:52Z",
+      "updated_at": "2026-10-16T06:15:37Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5409",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6355,
+      "title": "[FlyDSL] [FMHA][gfx1250] m32x8 prefill: d64 support, wider shape coverage, and a rewritten KV pipeline",
+      "author": "ruanjm",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T04:11:20Z",
+      "updated_at": "2026-10-16T06:14:40Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6355",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6436,
+      "title": "[Config] [Tune] Add GLM-5.3 Flash MoE router GEMM configs for gfx950",
+      "author": "amd-sriram",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T13:56:18Z",
+      "updated_at": "2026-10-16T06:12:05Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6436",
+      "labels": [
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6602,
+      "title": "[Triton/Gluon] [Config] [Perf] Add gfx942 triton configs for gemm_a8w8_blockscale (GLM-5.3 inference optimization)",
+      "author": "hunhokim",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T01:53:51Z",
+      "updated_at": "2026-10-16T05:37:13Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6602",
+      "labels": [
+        "ci:triton-300x",
+        "Triton/Gluon",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6611,
+      "title": "[DSV4.1Flash] Fuse the moe stage-2 input quant into the stage-1 epilogue",
+      "author": "heachary",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T05:23:20Z",
+      "updated_at": "2026-10-16T05:24:49Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6611",
+      "labels": [
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6610,
+      "title": "[DSV4.1Flash] Bound the a8w4 MoE activation quant to the live token count",
+      "author": "heachary",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T05:21:26Z",
+      "updated_at": "2026-10-16T05:21:59Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6610",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 6607,
+      "title": "[ASM] [HIP] [JIT] [gfx1250] add 192x256 no-ps & fix dispatch for A4W4",
+      "author": "dbyoung18",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T03:24:58Z",
+      "updated_at": "2026-10-16T04:11:51Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6607",
+      "labels": [
+        "HIP",
+        "JIT",
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6600,
+      "title": "[Triton/Gluon] : Use rot_bufs and do_bench_aiter_triton in bench_mla_*",
+      "author": "rahulbatra85",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T01:11:52Z",
+      "updated_at": "2026-10-16T04:08:18Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6600",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": true
+    },
+    {
+      "number": 6523,
+      "title": "[Triton/Gluon] [Config] [gfx950] Tuned configs for GLM-5.2 MTP verify: MLA FP8 BMMs + BF16 GEMMs",
+      "author": "EricKing626",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T08:12:51Z",
+      "updated_at": "2026-10-16T03:54:28Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6523",
+      "labels": [
+        "Triton/Gluon",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6508,
+      "title": "[Triton/Gluon] MHA FP8 subtiled kernel",
+      "author": "lburzawa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T23:24:46Z",
+      "updated_at": "2026-10-16T03:48:28Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6508",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5786,
+      "title": "[CI] [JIT] [Build] Make CK fmha kernel generation follow GPU_ARCHS",
+      "author": "qiangpan2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T09:43:33Z",
+      "updated_at": "2026-10-16T03:47:06Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5786",
+      "labels": [
+        "CI",
+        "JIT",
+        "Build"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6366,
+      "title": "[Triton/Gluon] [HIP] [CK] review-pr: add HK20 (submodule upstream check) and A4 (new-feature regression guard)",
+      "author": "yzhou103",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T07:38:17Z",
+      "updated_at": "2026-10-16T03:46:26Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6366",
+      "labels": [
+        "Triton/Gluon",
+        "HIP",
+        "CK",
+        "FlyDSL",
+        "JIT",
+        "OPUS"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5642,
+      "title": "[HIP] [Bugfix] paged_attention_ragged: scale FP8 softmax probabilities into the e4m3 normal range",
+      "author": "rbrugaro-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T17:31:04Z",
+      "updated_at": "2026-10-16T03:40:52Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5642",
+      "labels": [
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6605,
+      "title": "[FlyDSL] [Perf] [gfx950] Swap A/B in the mxfp8 8-wave epilogue for 64-bit stores",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T02:25:21Z",
+      "updated_at": "2026-10-16T03:27:42Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6605",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6593,
+      "title": "[Config] Add Muse Spark Open MXFP4 FMoE tuning for gfx950",
+      "author": "hongxiayang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T17:51:49Z",
+      "updated_at": "2026-10-16T03:03:36Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6593",
+      "labels": [
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6000,
+      "title": "[HIP] Support Gemma (1 + w) weights in fused AR+RMSNorm+MXFP4 quant",
+      "author": "mjkvaak-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T12:42:01Z",
+      "updated_at": "2026-10-16T02:54:31Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6000",
+      "labels": [
+        "ci:multi-gpu",
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4072,
+      "title": "[FlyDSL] [Bugfix] Grouped MoE build should respect GPU_ARCHS",
+      "author": "simondanielsson",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-03T08:12:47Z",
+      "updated_at": "2026-10-16T01:41:52Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4072",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4209,
+      "title": "[WIP] [FlyDSL] [Simplify] Simplify qk_norm_rope_quant kernels with FlyDSL syntactic sugar",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T02:40:23Z",
+      "updated_at": "2026-10-16T01:41:50Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4209",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4219,
+      "title": "support test csv",
+      "author": "yadaish",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-13T12:27:32Z",
+      "updated_at": "2026-10-16T01:41:49Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4219",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4378,
+      "title": "[CI] [MLA] Deterministic single-split decode option for reproducible serving (fixes #4364)",
+      "author": "MohitAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T17:52:02Z",
+      "updated_at": "2026-10-16T01:41:47Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4378",
+      "labels": [
+        "CI"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4511,
+      "title": "[HIP] [OPUS] [JIT] [GFX950] Add OPUS mxfp8 pa mqa logits",
+      "author": "shay-li77",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-02T13:21:54Z",
+      "updated_at": "2026-10-16T01:41:45Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4511",
+      "labels": [
+        "HIP",
+        "JIT",
+        "OPUS"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4810,
+      "title": "[FlyDSL] registering ops in pytorch",
+      "author": "mohbasit",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T20:14:14Z",
+      "updated_at": "2026-10-16T01:41:33Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4810",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4848,
+      "title": "[FlyDSL] [MoE] Address expert weights past 4 GB in the MoE GEMMs",
+      "author": "dianzhan0124",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T07:13:33Z",
+      "updated_at": "2026-10-16T01:41:31Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4863,
+      "title": "[ASM] [FlyDSL] [Kernel][Feature] Add Kimi-K3 AttnResidual score + combine ASM kernel",
+      "author": "nehaprakriya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T16:46:44Z",
+      "updated_at": "2026-10-16T01:41:30Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4863",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4905,
+      "title": "[FlyDSL] [Build] Use upstream parallel scheduler for AOT builds",
+      "author": "zhiding512",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T07:49:58Z",
+      "updated_at": "2026-10-16T01:41:28Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4905",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4998,
+      "title": "[bugfix] Fix caching of dynamic FlyDSL stage2 tensors",
+      "author": "RolaoDenthu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-25T21:00:53Z",
+      "updated_at": "2026-10-16T01:41:26Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4998",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5025,
+      "title": "[FlyDSL] jdbmm backward pass",
+      "author": "SamiAario-AMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T13:57:27Z",
+      "updated_at": "2026-10-16T01:41:24Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5025",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5058,
+      "title": "[FlyDSL] [ROCm] Keep untuned SiLU A4W4 on native CK",
+      "author": "andyluo7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-27T18:17:23Z",
+      "updated_at": "2026-10-16T01:41:23Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5058",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5120,
+      "title": "[HIP] Guard MLA decode output dtype before kernel launch",
+      "author": "tanth47",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-30T09:33:33Z",
+      "updated_at": "2026-10-16T01:41:21Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5120",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5186,
+      "title": "[CK] [CI] [JIT] Mi300a enablement",
+      "author": "afanfa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-01T15:56:16Z",
+      "updated_at": "2026-10-16T01:41:19Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5186",
+      "labels": [
+        "CI",
+        "CK",
+        "JIT"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5194,
+      "title": "Cache the MLA split count, not the split indptr tensor",
+      "author": "peizhang56",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-02T00:44:23Z",
+      "updated_at": "2026-10-16T01:41:17Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5194",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5260,
+      "title": "[FlyDSL] Add tuned BF16 GEMM configs for GLM-5.2 decode shapes (N=6144)",
+      "author": "nehaprakriya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-03T19:29:37Z",
+      "updated_at": "2026-10-16T01:41:15Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5260",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5315,
+      "title": "[CK] [FlyDSL] [CI] [Bugfix] Explicit gfx in shipped fused-MoE tuning CSVs",
+      "author": "amd-bartgips",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-07T12:28:27Z",
+      "updated_at": "2026-10-16T01:41:12Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5315",
+      "labels": [
+        "ci:sglang",
+        "ci:vllm",
+        "CI",
+        "CK",
+        "FlyDSL",
+        "JIT"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5358,
+      "title": "[HIP] [FlyDSL] [JIT] Add a6w4 preshuffle GEMM from FlyDSL",
+      "author": "amd-satre",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T22:03:03Z",
+      "updated_at": "2026-10-16T01:41:11Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5358",
+      "labels": [
+        "HIP",
+        "FlyDSL",
+        "JIT"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5450,
+      "title": "[FlyDSL] [CI] [Bugfix] Rebase large MoE expert weights",
+      "author": "xudonlyu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T11:49:32Z",
+      "updated_at": "2026-10-16T01:41:10Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5450",
+      "labels": [
+        "CI",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5460,
+      "title": "[FlyDSL] Store fp8 MoE stage2 output through 64-bit pointers",
+      "author": "jamesbowley",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T14:20:23Z",
+      "updated_at": "2026-10-16T01:41:08Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5460",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5462,
+      "title": "[FlyDSL] Tune MiniMax MXFP8 prefill MoE",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T14:30:23Z",
+      "updated_at": "2026-10-16T01:41:07Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5462",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5465,
+      "title": "[FlyDSL] [gfx1250] Drop the row-major a1 scale layout",
+      "author": "lalala-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T14:44:36Z",
+      "updated_at": "2026-10-16T01:41:06Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5465",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5559,
+      "title": "[Bugfix][MLA] Fix reduce_partial_map over-allocation when max_split_per_batch is set",
+      "author": "xiaohuguo2023",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-15T17:06:47Z",
+      "updated_at": "2026-10-16T01:41:03Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5559",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5588,
+      "title": "[FlyDSL] remove g2l for ep and accepts local_expert_hash as arg",
+      "author": "yadaish",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-16T12:55:20Z",
+      "updated_at": "2026-10-16T01:41:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5588",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5668,
+      "title": "[OPUS] [JIT] Key the MXFP8 BMM tuned lookup on cu_num",
       "author": "RElbers",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-11T21:37:57Z",
-      "updated_at": "2026-10-15T12:54:00Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6403",
+      "created_at": "2026-09-18T12:38:45Z",
+      "updated_at": "2026-10-16T01:40:58Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5668",
+      "labels": [
+        "ci:all",
+        "JIT",
+        "OPUS"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5704,
+      "title": "[FlyDSL] [CI] [gfx1250] stage1 fused for mega-moe EP",
+      "author": "XingerZhu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T10:20:48Z",
+      "updated_at": "2026-10-16T01:40:56Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5704",
+      "labels": [
+        "CI",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5744,
+      "title": "[FlyDSL] [AMD][MoE] Avoid layout-v2 stage2 and over-padded tiles under EP",
+      "author": "karverma-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T04:45:41Z",
+      "updated_at": "2026-10-16T01:40:55Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5744",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5752,
+      "title": "[FlyDSL] [gfx1250] Optimize A4W4 MoE prefill with A preshuffle",
+      "author": "yanguahe",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T10:06:44Z",
+      "updated_at": "2026-10-16T01:40:54Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5752",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5776,
+      "title": "MLA v4 nm: faster cross-split merge for small decode grids",
+      "author": "AMD-yanfeiwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T04:01:11Z",
+      "updated_at": "2026-10-16T01:40:51Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5776",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5779,
+      "title": "[HIP] [JIT] Remove unintended CK dependency from plain top-k",
+      "author": "UD-mmcminn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T05:21:33Z",
+      "updated_at": "2026-10-16T01:40:50Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5779",
+      "labels": [
+        "ci:atom",
+        "HIP",
+        "JIT"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5801,
+      "title": "[FlyDSL] Fix gfx1250 TDM grouped GEMM bias index missing in calculation",
+      "author": "JadenMathias",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T23:09:32Z",
+      "updated_at": "2026-10-16T01:40:48Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5801",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5802,
+      "title": "[FlyDSL] [Bugfix] Route a16w4 SiLU MoE to CK-Tile and apply swiglu_limit",
+      "author": "kevin-mii",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T01:28:58Z",
+      "updated_at": "2026-10-16T01:40:47Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5802",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5884,
+      "title": "[FlyDSL] Respect GPU_ARCHS for Grouped MoE AOT builds",
+      "author": "chandankumr",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-27T03:29:38Z",
+      "updated_at": "2026-10-16T01:40:45Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5884",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5918,
+      "title": "[HIP] Add fused all_reduce_add; retune gfx950 all-reduce dispatch",
+      "author": "cpersson-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T16:09:56Z",
+      "updated_at": "2026-10-16T01:40:43Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5918",
+      "labels": [
+        "HIP",
+        "stale"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5925,
+      "title": "[FlyDSL] [FP4 MQA logits] Stop serving-time recompiles of _prefill_row_plan_kernel",
+      "author": "AMD-yanfeiwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T05:12:31Z",
+      "updated_at": "2026-10-16T01:40:41Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5925",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5948,
+      "title": "[HIP] Fix 3D binary-op broadcast guard for incompatible shapes",
+      "author": "adenzhou1350",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T14:28:04Z",
+      "updated_at": "2026-10-16T01:40:40Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5948",
+      "labels": [
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6601,
+      "title": "[Triton] gfx950: tune gemm_a16w16 configs for DeepSeek-V4 GEMMs (K=7168)",
+      "author": "k50112113",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T01:20:41Z",
+      "updated_at": "2026-10-16T01:21:10Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6601",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5153,
+      "title": "[Triton/Gluon] [GFX950] Productize gluon mha kernel from GFX950-gluon-tutorials",
+      "author": "leonling-ll",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T17:35:08Z",
+      "updated_at": "2026-10-16T01:11:21Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5153",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6486,
+      "title": "[HIP][Bugfix] Fix Gluon PA AOT compatibility for asymmetric K/V head dim",
+      "author": "sammysun0711",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T14:07:48Z",
+      "updated_at": "2026-10-16T01:11:13Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6486",
+      "labels": [
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6557,
+      "title": "[Config] [gfx1250] Tune DeepSeek-R1 FP4 MoE tiles for high-batch decode",
+      "author": "karverma-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T02:26:59Z",
+      "updated_at": "2026-10-16T01:11:06Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6557",
+      "labels": [
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6564,
+      "title": "[HIP] [FlyDSL] perf(mega_moe): fuse the gfx1250 compact dispatch and GEMM1 into one stage-1 kernel",
+      "author": "GwilliamHu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T06:53:02Z",
+      "updated_at": "2026-10-16T01:10:56Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6564",
+      "labels": [
+        "HIP",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6567,
+      "title": "[FlyDSL] Optimize FlyDSL grouped MoE kernels",
+      "author": "yadaish",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T07:21:29Z",
+      "updated_at": "2026-10-16T01:10:47Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6567",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6568,
+      "title": "[FlyDSL] [Bugfix] Initialize padded MoE scratch to stop NaN at small token counts (gfx950 a8w4)",
+      "author": "PerryZhang01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T07:30:54Z",
+      "updated_at": "2026-10-16T01:10:39Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6568",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6570,
+      "title": "[HIP] fea: support max tp64 on ag",
+      "author": "TennyWang1223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T08:18:39Z",
+      "updated_at": "2026-10-16T01:10:29Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6570",
+      "labels": [
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6584,
+      "title": "[HIP] Add q_head_stride to the fused QK-norm + MRoPE + KV-cache kernel",
+      "author": "eky-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T14:54:09Z",
+      "updated_at": "2026-10-16T01:10:16Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6584",
+      "labels": [
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6586,
+      "title": "[HIP] [Fix][Perf] topk_plain: correct multi-block fp16/bf16 results, graph-capturable and faster small-batch merge",
+      "author": "zhentaocc",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T15:08:23Z",
+      "updated_at": "2026-10-16T01:10:11Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6586",
+      "labels": [
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6592,
+      "title": "[HIP] [Bugfix] Fix topk_sigmoid pybind conversion",
+      "author": "rjrock",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T16:56:10Z",
+      "updated_at": "2026-10-16T01:10:00Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6592",
+      "labels": [
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6597,
+      "title": "[FlyDSL] # [Perf] Cache the gfx950 A16W16 GEMM param per config",
+      "author": "afriedri",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T20:04:10Z",
+      "updated_at": "2026-10-16T01:09:50Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6597",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6598,
+      "title": "[FlyDSL] [MoE] Fix stage-1 grid leaving padded intermediate columns unwritten",
+      "author": "micah-wil",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T20:22:34Z",
+      "updated_at": "2026-10-16T01:09:40Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6598",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6116,
+      "title": "[Triton/Gluon] [GFX12] Gluon a8w8 Sparse MLA",
+      "author": "k50112113",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-03T02:01:36Z",
+      "updated_at": "2026-10-16T00:48:23Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6116",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6037,
+      "title": "[HIP] Add FP8 sparse MLA with fused BF16 I/O for gfx950",
+      "author": "sumin-hong",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T05:41:08Z",
+      "updated_at": "2026-10-16T00:18:25Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6037",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5654,
+      "title": "[ASM] Fix gfx950 GQA16 FP8 paged attention short-tail NaNs",
+      "author": "fangche123",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-18T02:54:56Z",
+      "updated_at": "2026-10-16T00:02:17Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5654",
+      "labels": [
+        "ASM",
+        "stale"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5883,
+      "title": "Ci timeout fix recon",
+      "author": "TennyWang1223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-27T03:25:07Z",
+      "updated_at": "2026-10-16T00:02:15Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5883",
+      "labels": [
+        "ci:multi-gpu",
+        "stale"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5965,
+      "title": "[HIP] [JIT] Enable gfx1250 QuickReduce for TP2 and TP4",
+      "author": "hubertlu-tw",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T00:35:53Z",
+      "updated_at": "2026-10-15T23:56:15Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5965",
+      "labels": [
+        "multigpu",
+        "ci:multi-gpu",
+        "HIP",
+        "JIT"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6397,
+      "title": "Use the FlyDSL BF16 GEMM by default for large untuned gfx1250 shapes",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T09:11:15Z",
+      "updated_at": "2026-10-15T22:30:27Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6397",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3962,
+      "title": "[Triton/Gluon] [Kernel][Perf] split-K long-context decode for shuffled fp8 SWA path",
+      "author": "reger-men",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T17:27:01Z",
+      "updated_at": "2026-10-15T21:42:32Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3962",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3959,
+      "title": "[Triton/Gluon] [Kernel] sliding-window decode over shuffled fp8 paged KV",
+      "author": "reger-men",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-26T16:08:10Z",
+      "updated_at": "2026-10-15T21:38:39Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3959",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6100,
+      "title": "[ASM] [HIP] [JIT] Fuse the router GEMM and top-k softmax into one gfx950 asm kernel",
+      "author": "maeehart",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T17:13:08Z",
+      "updated_at": "2026-10-15T21:04:33Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6100",
+      "labels": [
+        "HIP",
+        "JIT",
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5687,
+      "title": "[CI] Fix Flash Attention CI failures",
+      "author": "micmelesse",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-19T21:26:07Z",
+      "updated_at": "2026-10-15T20:47:42Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5687",
+      "labels": [
+        "CI"
+      ],
+      "draft": true
+    },
+    {
+      "number": 6453,
+      "title": "[Triton/Gluon] PA decode: use more splits for small grids in get_recommended_splits",
+      "author": "NimitPtl",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T00:13:16Z",
+      "updated_at": "2026-10-15T20:35:41Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6453",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6450,
+      "title": "[FlyDSL] Read (B, next_n) context lengths in the paged MQA logits kernel",
+      "author": "amd-sriram",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T20:55:04Z",
+      "updated_at": "2026-10-15T20:17:52Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6450",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6594,
+      "title": "[Triton/Gluon] Route short sliding-window queries to the gfx950 split grid",
+      "author": "hongxiayang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T17:54:16Z",
+      "updated_at": "2026-10-15T19:33:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6594",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6595,
+      "title": "[Triton/Gluon] [Config] Tune gfx1250 Gluon a16w16 GEMMs for Kimi K2",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T19:16:42Z",
+      "updated_at": "2026-10-15T19:23:00Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6595",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6488,
+      "title": "[Triton/Gluon] Fused GDN decode kernel for any value/key head ratio (Qwen3.5/3.8)",
+      "author": "eky-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T15:14:40Z",
+      "updated_at": "2026-10-15T18:59:32Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6488",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6451,
+      "title": "[Triton/Gluon] Read (B, next_n) context lengths in the paged MQA logits kernels",
+      "author": "amd-sriram",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T21:29:47Z",
+      "updated_at": "2026-10-15T18:30:21Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6451",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6158,
+      "title": "[Triton/Gluon] [Config] MoE and MLA configs for gfx1101, gfx1150 and gfx1151: sparse_mla_dsv4_train, sonicmoe",
+      "author": "Ragua1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T18:37:42Z",
+      "updated_at": "2026-10-15T18:25:59Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6158",
+      "labels": [
+        "Triton/Gluon",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6237,
+      "title": "Catch MoE accuracy failures that CI currently logs and passes: per-file strict checkAllclose and per-row tuner scoring",
+      "author": "KHassanQazi",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T23:45:02Z",
+      "updated_at": "2026-10-15T18:13:30Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6237",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3269,
+      "title": "[Triton/Gluon] add block_cat_fused fused op",
+      "author": "reger-men",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-05-19T14:12:24Z",
+      "updated_at": "2026-10-15T17:43:15Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/3269",
+      "labels": [
+        "ci:triton-300x",
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5981,
+      "title": "[Triton/Gluon] Tune gfx950 FP8 batched GEMM query/value configurations",
+      "author": "heslami",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T07:01:07Z",
+      "updated_at": "2026-10-15T17:32:57Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5981",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4685,
+      "title": "[Triton/Gluon] batched_gemm_a16wfp4: ragged-K regression test and operand shape validation",
+      "author": "lijinpei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T15:42:07Z",
+      "updated_at": "2026-10-15T17:30:45Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4685",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6521,
+      "title": "[Triton/Gluon] [Config] [Perf] Retune gfx950 preshuffled AFP4WFP4 config for N=4096, K=14336",
+      "author": "reger-men",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T07:44:06Z",
+      "updated_at": "2026-10-15T17:22:35Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6521",
+      "labels": [
+        "Triton/Gluon",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6588,
+      "title": "[Triton/Gluon] [Config] Tune Triton Conv3D launch parameters for gfx1100",
+      "author": "saeid-rostami",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T15:21:52Z",
+      "updated_at": "2026-10-15T17:03:31Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6588",
+      "labels": [
+        "Triton/Gluon",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5686,
+      "title": "[HIP] [FlyDSL] [JIT] Feat/topk per row gfx950",
+      "author": "MHYangAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-19T14:30:58Z",
+      "updated_at": "2026-10-15T15:44:34Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5686",
+      "labels": [
+        "HIP",
+        "FlyDSL",
+        "JIT"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6236,
+      "title": "[FlyDSL] TP2 quick all-reduce through a passive xGMI relay",
+      "author": "samremes",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T22:14:35Z",
+      "updated_at": "2026-10-15T15:39:12Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6236",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6550,
+      "title": "[Triton/Gluon] Add fused Kimi-K3 KDA whole-layer ops (gfx950, TP8)",
+      "author": "karverma-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T22:46:43Z",
+      "updated_at": "2026-10-15T15:32:32Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6550",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6546,
+      "title": "[Triton/Gluon] [Config] Add gfx950 preshuffled AFP4WFP4 GEMM configs for Llama-3.1-405B MXFP4 TP8",
+      "author": "afriedri",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T18:47:55Z",
+      "updated_at": "2026-10-15T15:27:34Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6546",
+      "labels": [
+        "Triton/Gluon",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6161,
+      "title": "[Triton/Gluon] Add `x_EQ_x` Config Matcher to Unified Attention",
+      "author": "farlukas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T20:43:19Z",
+      "updated_at": "2026-10-15T15:23:00Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6161",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 4234,
+      "title": "[Triton/Gluon] [Config] [gfx1100] Add gfx1100 (RDNA3) tuned Triton A16W16 GEMM configs",
+      "author": "WhatGhost",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-14T09:51:24Z",
+      "updated_at": "2026-10-15T15:17:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/4234",
+      "labels": [
+        "Triton/Gluon",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6543,
+      "title": "Optimize FlyDSL Kimi K2 Thinking Kernel",
+      "author": "amirumoAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T16:42:12Z",
+      "updated_at": "2026-10-15T15:04:51Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6543",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6398,
+      "title": "[Bugfix] Bind load_hip_runtime to the HIP runtime already loaded",
+      "author": "omirosh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T10:53:41Z",
+      "updated_at": "2026-10-15T14:54:37Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6398",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 6582,
+      "title": "[hipb] Support scale mode arguments in hipb_mm",
+      "author": "rkayaith",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T14:16:03Z",
+      "updated_at": "2026-10-15T14:16:54Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6582",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6576,
+      "title": "[FlyDSL] Add QSA sparse prefill attention for MI308",
+      "author": "luocheng25",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T12:02:50Z",
+      "updated_at": "2026-10-15T14:10:12Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6576",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5887,
+      "title": "[FlyDSL] [PA] Extend pa decode tile to support Qlen8 and SWA with sink",
+      "author": "sammysun0711",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-27T07:30:32Z",
+      "updated_at": "2026-10-15T13:55:12Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5887",
+      "labels": [
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5379,
+      "title": "[Config] [MoE] Add Qwen3.8 Flash Next FP8 tuned config for Prefill on MI308X",
+      "author": "sammysun0711",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T17:22:13Z",
+      "updated_at": "2026-10-15T13:54:52Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5379",
+      "labels": [
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6538,
+      "title": "[Feature] tuned_gemm: write a16w16 into a caller-owned buffer",
+      "author": "amd-yashagar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T13:29:21Z",
+      "updated_at": "2026-10-15T13:52:02Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6538",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6374,
+      "title": "[Triton/Gluon] [Config] Add gfx1200 and gfx1201 Triton MHA configs",
+      "author": "0xDELUXA",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T11:41:49Z",
+      "updated_at": "2026-10-15T13:40:05Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6374",
+      "labels": [
+        "Triton/Gluon",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5148,
+      "title": "[FlyDSL] Single-launch decode GEMM: in-kernel blockscale, ragged split-K, small-M tiles, gfx942",
+      "author": "johannes-graner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T13:07:27Z",
+      "updated_at": "2026-10-15T13:36:34Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5148",
+      "labels": [
+        "CI",
+        "HIP",
+        "CK",
+        "FlyDSL",
+        "stale"
+      ],
+      "draft": true
+    },
+    {
+      "number": 6581,
+      "title": "fix(attention): normalize Gluon split constexpr values",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T13:29:30Z",
+      "updated_at": "2026-10-15T13:30:05Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6581",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 6195,
+      "title": "[CI] Change stale PR workflow schedule and settings",
+      "author": "Boss2002n",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T03:46:02Z",
+      "updated_at": "2026-10-15T13:20:20Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6195",
+      "labels": [
+        "CI"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6180,
+      "title": "[Triton/Gluon] MHA: write -inf LSE for fully masked rows, not 0.0",
+      "author": "phambinhfin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T16:43:38Z",
+      "updated_at": "2026-10-15T13:18:46Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6180",
+      "labels": [
+        "bug",
+        "Triton/Gluon"
+      ],
+      "draft": true
+    },
+    {
+      "number": 6347,
+      "title": "[Triton/Gluon] : Make use of parser arg consistent in benchmarks",
+      "author": "rahulbatra85",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T00:28:19Z",
+      "updated_at": "2026-10-15T13:16:29Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6347",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
     },
     {
       "number": 5461,
@@ -66,7 +2397,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-11T14:28:42Z",
-      "updated_at": "2026-10-15T12:52:50Z",
+      "updated_at": "2026-10-15T13:13:01Z",
       "html_url": "https://github.com/ROCm/aiter/pull/5461",
       "labels": [
         "ci:multi-gpu",
@@ -76,30 +2407,32 @@
       "draft": false
     },
     {
-      "number": 6577,
-      "title": "[ASM] Correct SGPR counts in gfx950 QH16 MLA metadata",
-      "author": "alexioslyrakis-amd",
+      "number": 6016,
+      "title": "[CK] [CI] [Bugfix] Align FMoE tuning token buckets with runtime lookup",
+      "author": "yuzhouo7",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-15T12:38:40Z",
-      "updated_at": "2026-10-15T12:44:44Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6577",
+      "created_at": "2026-09-30T17:48:01Z",
+      "updated_at": "2026-10-15T13:09:11Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6016",
       "labels": [
-        "ASM"
+        "CI",
+        "CK"
       ],
       "draft": false
     },
     {
-      "number": 6271,
-      "title": "[Config] Add gfx942 Kimi-K3 a16wi4 tuned MoE configs for topk=16",
-      "author": "xaguilar-amd",
+      "number": 6013,
+      "title": "[CK] [CI] [Bugfix] Fix gfx942 FLAT candidates in ASM FMoE tuning",
+      "author": "yuzhouo7",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-08T12:50:20Z",
-      "updated_at": "2026-10-15T12:43:42Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6271",
+      "created_at": "2026-09-30T16:54:48Z",
+      "updated_at": "2026-10-15T13:08:47Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6013",
       "labels": [
-        "Config"
+        "CI",
+        "CK"
       ],
       "draft": false
     },
@@ -113,49 +2446,6 @@
       "updated_at": "2026-10-15T12:43:17Z",
       "html_url": "https://github.com/ROCm/aiter/pull/5993",
       "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4676,
-      "title": "[FlyDSL] fp8 unified attention for gfx950",
-      "author": "johannes-graner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T08:08:38Z",
-      "updated_at": "2026-10-15T12:41:13Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4676",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": true
-    },
-    {
-      "number": 6486,
-      "title": "[HIP][Bugfix] Fix Gluon PA AOT compatibility for asymmetric K/V head dim",
-      "author": "sammysun0711",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T14:07:48Z",
-      "updated_at": "2026-10-15T12:40:50Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6486",
-      "labels": [
-        "HIP"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6564,
-      "title": "[HIP] [FlyDSL] perf(mega_moe): fuse the gfx1250 compact dispatch and GEMM1 into one stage-1 kernel",
-      "author": "GwilliamHu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T06:53:02Z",
-      "updated_at": "2026-10-15T12:37:07Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6564",
-      "labels": [
-        "HIP",
         "FlyDSL"
       ],
       "draft": false
@@ -177,65 +2467,6 @@
       "draft": false
     },
     {
-      "number": 6180,
-      "title": "[Triton/Gluon] MHA: write -inf LSE for fully masked rows, not 0.0",
-      "author": "phambinhfin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T16:43:38Z",
-      "updated_at": "2026-10-15T12:35:27Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6180",
-      "labels": [
-        "bug",
-        "Triton/Gluon"
-      ],
-      "draft": true
-    },
-    {
-      "number": 5670,
-      "title": "[FlyDSL] Fused all-reduce + RMSNorm",
-      "author": "vpietila-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T14:37:40Z",
-      "updated_at": "2026-10-15T12:34:48Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5670",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5799,
-      "title": "[CustomAllreduce] Re-take the expandable_segments decision at capture time",
-      "author": "okorzh-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T21:28:26Z",
-      "updated_at": "2026-10-15T12:30:50Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5799",
-      "labels": [
-        "multigpu",
-        "ci:multi-gpu",
-        "ci:atom_full"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6445,
-      "title": "[Triton/Gluon] [HIP] [CI] Gluon PA decode: ragged (varlen) query support",
-      "author": "andrei-kochin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T16:51:04Z",
-      "updated_at": "2026-10-15T12:23:17Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6445",
-      "labels": [
-        "CI",
-        "Triton/Gluon",
-        "HIP"
-      ],
-      "draft": false
-    },
-    {
       "number": 3993,
       "title": "[ASM] mla_decode_fwd: wire is_causal through Python and C++ dispatch",
       "author": "alexioslyrakis-amd",
@@ -250,46 +2481,6 @@
       "draft": false
     },
     {
-      "number": 6576,
-      "title": "[FlyDSL] Add QSA sparse prefill attention for MI308",
-      "author": "luocheng25",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T12:02:50Z",
-      "updated_at": "2026-10-15T12:14:13Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6576",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 6171,
-      "title": "[ASM] [HIP] [JIT] [Perf] [Hardware][MI300X] Delayed mHC seam for gfx942 (mhc_fused_post_pre_delayed)",
-      "author": "jhartika-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T11:10:55Z",
-      "updated_at": "2026-10-15T12:03:30Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6171",
-      "labels": [
-        "HIP",
-        "JIT",
-        "ASM"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6575,
-      "title": "MHAv4 per-row block-sparse geometry, LSE and ragged KV on gfx950",
-      "author": "nsakkine",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T12:00:01Z",
-      "updated_at": "2026-10-15T12:00:41Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6575",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5787,
       "title": "[HIP] Enable CK fmha LLC head grouping on RDNA (batch mode)",
       "author": "qiangpan2",
@@ -302,48 +2493,6 @@
         "HIP"
       ],
       "draft": false
-    },
-    {
-      "number": 5786,
-      "title": "[CI] [JIT] [Build] Make CK fmha kernel generation follow GPU_ARCHS",
-      "author": "qiangpan2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T09:43:33Z",
-      "updated_at": "2026-10-15T11:59:42Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5786",
-      "labels": [
-        "CI",
-        "JIT",
-        "Build"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5642,
-      "title": "[HIP] [Bugfix] paged_attention_ragged: scale FP8 softmax probabilities into the e4m3 normal range",
-      "author": "rbrugaro-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T17:31:04Z",
-      "updated_at": "2026-10-15T11:57:14Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5642",
-      "labels": [
-        "HIP"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5677,
-      "title": "[FlyDSL] Adaptive decode Top-K kernel, dispatched by one measured gate",
-      "author": "JH-Leon-KIM-AMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T20:26:25Z",
-      "updated_at": "2026-10-15T11:50:04Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5677",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 6140,
@@ -363,21 +2512,6 @@
       "draft": false
     },
     {
-      "number": 6561,
-      "title": "[ASM] [HIP] Add gfx1250 QH64 shuffled KV decode",
-      "author": "feifei14119",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T05:53:19Z",
-      "updated_at": "2026-10-15T11:48:00Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6561",
-      "labels": [
-        "HIP",
-        "ASM"
-      ],
-      "draft": false
-    },
-    {
       "number": 6419,
       "title": "[gfx950] a4w4: route triton_preshuffle tuned rows to Triton split-K GEMM; Qwen3.8-27B rows",
       "author": "vorapolsiloai",
@@ -390,33 +2524,6 @@
       "draft": true
     },
     {
-      "number": 6531,
-      "title": "[Config] [Perf] [gfx950] Add MiniMax-M3 ViT BF16 GEMM config",
-      "author": "amd-bishwoadhikari",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T10:41:42Z",
-      "updated_at": "2026-10-15T11:07:24Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6531",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 6000,
-      "title": "[HIP] Support Gemma (1 + w) weights in fused AR+RMSNorm+MXFP4 quant",
-      "author": "mjkvaak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T12:42:01Z",
-      "updated_at": "2026-10-15T11:05:31Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6000",
-      "labels": [
-        "ci:multi-gpu",
-        "HIP"
-      ],
-      "draft": false
-    },
-    {
       "number": 6444,
       "title": "[HIP] PA decode PS reduce: optional query_start_loc for ragged (varlen) output",
       "author": "andrei-kochin",
@@ -427,20 +2534,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6444",
       "labels": [
         "HIP"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6049,
-      "title": "[FlyDSL] QuickAllReduce INT4: add a shared global divisor to avoid E4M3 scale saturation",
-      "author": "msaffari-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T12:03:40Z",
-      "updated_at": "2026-10-15T10:55:37Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6049",
-      "labels": [
-        "FlyDSL"
       ],
       "draft": false
     },
@@ -469,21 +2562,6 @@
         "HIP",
         "JIT",
         "Build"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6446,
-      "title": "[HIP] Fix ar_ll128_unroll2 hang on consecutive calls of different sizes",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T16:57:28Z",
-      "updated_at": "2026-10-15T10:39:46Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6446",
-      "labels": [
-        "ci:multi-gpu",
-        "HIP"
       ],
       "draft": false
     },
@@ -543,35 +2621,6 @@
       "draft": false
     },
     {
-      "number": 6099,
-      "title": "[Triton/Gluon] [HIP] [FlyDSL] Gluon PA decode: ragged (varlen) query support",
-      "author": "sshlyapn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T16:24:43Z",
-      "updated_at": "2026-10-15T10:14:39Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6099",
-      "labels": [
-        "CI",
-        "Triton/Gluon",
-        "HIP",
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6421,
-      "title": "[FlyDSL] conv3d: kW and kH x kW LDS reuse of the im2col input on gfx950",
-      "author": "huizzhan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T07:27:07Z",
-      "updated_at": "2026-10-15T10:07:57Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6421",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 6362,
       "title": "[OPUS] [FlyDSL] [JIT] [Feature] Build the MoE and MegaMoE AOT caches by replaying the runtime on CPU",
       "author": "zhiding512",
@@ -626,78 +2675,6 @@
       "draft": false
     },
     {
-      "number": 6016,
-      "title": "[CK] [CI] [Bugfix] Align FMoE tuning token buckets with runtime lookup",
-      "author": "yuzhouo7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T17:48:01Z",
-      "updated_at": "2026-10-15T09:50:16Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6016",
-      "labels": [
-        "CI",
-        "CK"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4234,
-      "title": "[Triton/Gluon] [Config] [gfx1100] Add gfx1100 (RDNA3) tuned Triton A16W16 GEMM configs",
-      "author": "WhatGhost",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-14T09:51:24Z",
-      "updated_at": "2026-10-15T09:39:58Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4234",
-      "labels": [
-        "Triton/Gluon",
-        "Config"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5949,
-      "title": "[FlyDSL] Speed up gfx950 head-256 single-M-tile paged-attention decode, with NHD page-64 support",
-      "author": "samremes",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T15:40:43Z",
-      "updated_at": "2026-10-15T09:38:05Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5949",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5409,
-      "title": "[Triton/Gluon] Unified attention: opt-in prefill configs for head sizes 129+",
-      "author": "cpersson-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-10T15:31:52Z",
-      "updated_at": "2026-10-15T09:36:16Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5409",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6481,
-      "title": "[ASM] [Bugfix] Fix gfx950 MLA KV addressing and optimize gfx942 addressing",
-      "author": "alexioslyrakis-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T12:48:36Z",
-      "updated_at": "2026-10-15T09:36:15Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6481",
-      "labels": [
-        "ASM"
-      ],
-      "draft": false
-    },
-    {
       "number": 6428,
       "title": "[Triton/Gluon] Fix NaN dq in Triton MHA backward when every logit of a row is very n\u2026",
       "author": "Abdennacer-Badaoui",
@@ -708,21 +2685,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6428",
       "labels": [
         "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5925,
-      "title": "[FlyDSL] [FP4 MQA logits] Stop serving-time recompiles of _prefill_row_plan_kernel",
-      "author": "AMD-yanfeiwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T05:12:31Z",
-      "updated_at": "2026-10-15T09:29:14Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5925",
-      "labels": [
-        "FlyDSL",
-        "stale"
       ],
       "draft": false
     },
@@ -752,85 +2714,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6435",
       "labels": [
         "HIP"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5686,
-      "title": "[HIP] [FlyDSL] [JIT] Feat/topk per row gfx950",
-      "author": "MHYangAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-19T14:30:58Z",
-      "updated_at": "2026-10-15T09:24:39Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5686",
-      "labels": [
-        "HIP",
-        "FlyDSL",
-        "JIT"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6556,
-      "title": "[FlyDSL] [MegaMoE] fix(dispatch): write payload by destination layout under mixed SBM",
-      "author": "Yaowu-Xiong",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T01:59:28Z",
-      "updated_at": "2026-10-15T09:13:05Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6556",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6366,
-      "title": "[Triton/Gluon] [HIP] [CK] review-pr: add HK20 (submodule upstream check) and A4 (new-feature regression guard)",
-      "author": "yzhou103",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T07:38:17Z",
-      "updated_at": "2026-10-15T09:07:58Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6366",
-      "labels": [
-        "Triton/Gluon",
-        "HIP",
-        "CK",
-        "FlyDSL",
-        "JIT",
-        "OPUS"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6525,
-      "title": "[FlyDSL] feat(mega_moe): add required_vmm_bytes for cco sizing",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T08:42:38Z",
-      "updated_at": "2026-10-15T09:07:39Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6525",
-      "labels": [
-        "ci:multi-gpu",
-        "FlyDSL"
-      ],
-      "draft": true
-    },
-    {
-      "number": 6469,
-      "title": "[Triton/Gluon] [QSA] Add paged sparse attention kernels",
-      "author": "mengfei-jiang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T06:31:53Z",
-      "updated_at": "2026-10-15T09:04:56Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6469",
-      "labels": [
-        "ci:triton-300x",
-        "Triton/Gluon"
       ],
       "draft": false
     },
@@ -908,20 +2791,6 @@
       "draft": false
     },
     {
-      "number": 5978,
-      "title": "[HIP] Opt qk norm rope mla  cache gfx1250",
-      "author": "yzhou103",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T05:42:56Z",
-      "updated_at": "2026-10-15T08:47:39Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5978",
-      "labels": [
-        "HIP"
-      ],
-      "draft": false
-    },
-    {
       "number": 5535,
       "title": "[ASM] [Fix] Scale gfx950 FP8 MLA softmax numerators before E4M3",
       "author": "tanth47",
@@ -951,191 +2820,6 @@
       "draft": false
     },
     {
-      "number": 5776,
-      "title": "MLA v4 nm: faster cross-split merge for small decode grids",
-      "author": "AMD-yanfeiwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T04:01:11Z",
-      "updated_at": "2026-10-15T08:47:05Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5776",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5559,
-      "title": "[Bugfix][MLA] Fix reduce_partial_map over-allocation when max_split_per_batch is set",
-      "author": "xiaohuguo2023",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-15T17:06:47Z",
-      "updated_at": "2026-10-15T08:46:06Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5559",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5194,
-      "title": "Cache the MLA split count, not the split indptr tensor",
-      "author": "peizhang56",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T00:44:23Z",
-      "updated_at": "2026-10-15T08:45:57Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5194",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5120,
-      "title": "[HIP] Guard MLA decode output dtype before kernel launch",
-      "author": "tanth47",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-30T09:33:33Z",
-      "updated_at": "2026-10-15T08:45:41Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5120",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4511,
-      "title": "[HIP] [OPUS] [JIT] [GFX950] Add OPUS mxfp8 pa mqa logits",
-      "author": "shay-li77",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-02T13:21:54Z",
-      "updated_at": "2026-10-15T08:45:28Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4511",
-      "labels": [
-        "HIP",
-        "JIT",
-        "OPUS",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4378,
-      "title": "[CI] [MLA] Deterministic single-split decode option for reproducible serving (fixes #4364)",
-      "author": "MohitAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T17:52:02Z",
-      "updated_at": "2026-10-15T08:45:10Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4378",
-      "labels": [
-        "CI",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6527,
-      "title": "[FlyDSL] [MoE] Enable AITER_FLYDSL_USE_HERD on gfx1250 and add a fused HERD selector for GPT-OSS",
-      "author": "charlieguo1106",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T09:17:45Z",
-      "updated_at": "2026-10-15T08:40:00Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6527",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6478,
-      "title": "[HIP] [CK] [MoE] Fix missing SwiGLU non-split no-bias CK-Tile MXFP4 dispatch (follow-up to #6376 revert)",
-      "author": "shantipriya-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T10:14:06Z",
-      "updated_at": "2026-10-15T08:32:54Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6478",
-      "labels": [
-        "ci:vllm",
-        "HIP",
-        "CK"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6570,
-      "title": "[HIP] fea: support max tp64 on ag",
-      "author": "TennyWang1223",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T08:18:39Z",
-      "updated_at": "2026-10-15T08:19:31Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6570",
-      "labels": [
-        "HIP"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6083,
-      "title": "[Triton/Gluon] [FlyDSL] FlyDSL QSA indexer scorer + sparse GQA gfx942 performance improvements",
-      "author": "SamiAario-AMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T08:25:32Z",
-      "updated_at": "2026-10-15T08:18:43Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6083",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 6218,
-      "title": "FlyDSL A4W4 decode GEMM for M<=16 on gfx950",
-      "author": "johannes-graner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T11:39:38Z",
-      "updated_at": "2026-10-15T08:17:06Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6218",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4188,
-      "title": "[FlyDSL] gfx1201 (RDNA4) FlyDSL BF16 attention optimizations & FP8 attention implementation",
-      "author": "pds-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-10T14:51:47Z",
-      "updated_at": "2026-10-15T08:11:18Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4188",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5025,
-      "title": "[FlyDSL] jdbmm backward pass",
-      "author": "SamiAario-AMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T13:57:27Z",
-      "updated_at": "2026-10-15T07:54:45Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5025",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
       "number": 6515,
       "title": "[FlyDSL] [QSA] Add QSA paged MQA logits MFMA scorer for prefill",
       "author": "zovonoir",
@@ -1144,20 +2828,6 @@
       "created_at": "2026-10-14T02:39:29Z",
       "updated_at": "2026-10-15T07:54:42Z",
       "html_url": "https://github.com/ROCm/aiter/pull/6515",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6001,
-      "title": "[FlyDSL] fp8_mqa_logits: drop the host row-pad copies",
-      "author": "frida-andersson",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T12:42:44Z",
-      "updated_at": "2026-10-15T07:54:40Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6001",
       "labels": [
         "FlyDSL"
       ],
@@ -1235,20 +2905,6 @@
       "draft": false
     },
     {
-      "number": 6522,
-      "title": "[FlyDSL] generalize gfx942 FMHA varlen backward to head dims 64..192",
-      "author": "amd-wangfan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T07:56:41Z",
-      "updated_at": "2026-10-15T07:54:14Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6522",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
       "number": 6264,
       "title": "[FlyDSL] MXFP4 MoE: BK=128 native gemm2 for non-256-aligned inter_dim",
       "author": "yuychang",
@@ -1275,18 +2931,6 @@
         "CI",
         "FlyDSL"
       ],
-      "draft": false
-    },
-    {
-      "number": 6397,
-      "title": "Use the FlyDSL BF16 GEMM by default for large untuned gfx1250 shapes",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T09:11:15Z",
-      "updated_at": "2026-10-15T08:18:27Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6397",
-      "labels": [],
       "draft": false
     },
     {
@@ -1416,21 +3060,6 @@
       "draft": false
     },
     {
-      "number": 5969,
-      "title": "[CK] [FlyDSL] Introduce FP8 a8w8 gemm kernel with fp32 blockscale to uplift the MI355 blockwise gemm perf",
-      "author": "LuweiZhou2025",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T01:36:05Z",
-      "updated_at": "2026-10-15T07:52:36Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5969",
-      "labels": [
-        "CK",
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
       "number": 5899,
       "title": "[FlyDSL] [gfx1250] Overlap decode compact plan with dispatch",
       "author": "XingerZhu",
@@ -1441,140 +3070,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/5899",
       "labels": [
         "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5744,
-      "title": "[FlyDSL] [AMD][MoE] Avoid layout-v2 stage2 and over-padded tiles under EP",
-      "author": "karverma-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T04:45:41Z",
-      "updated_at": "2026-10-15T07:52:15Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5744",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5704,
-      "title": "[FlyDSL] [CI] [gfx1250] stage1 fused for mega-moe EP",
-      "author": "XingerZhu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-20T10:20:48Z",
-      "updated_at": "2026-10-15T07:52:09Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5704",
-      "labels": [
-        "CI",
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5460,
-      "title": "[FlyDSL] Store fp8 MoE stage2 output through 64-bit pointers",
-      "author": "jamesbowley",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:20:23Z",
-      "updated_at": "2026-10-15T07:52:05Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5460",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5465,
-      "title": "[FlyDSL] [gfx1250] Drop the row-major a1 scale layout",
-      "author": "lalala-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:44:36Z",
-      "updated_at": "2026-10-15T07:51:59Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5465",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5358,
-      "title": "[HIP] [FlyDSL] [JIT] Add a6w4 preshuffle GEMM from FlyDSL",
-      "author": "amd-satre",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-08T22:03:03Z",
-      "updated_at": "2026-10-15T07:51:56Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5358",
-      "labels": [
-        "HIP",
-        "FlyDSL",
-        "JIT",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4998,
-      "title": "[bugfix] Fix caching of dynamic FlyDSL stage2 tensors",
-      "author": "RolaoDenthu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-25T21:00:53Z",
-      "updated_at": "2026-10-15T07:51:52Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4998",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4905,
-      "title": "[FlyDSL] [Build] Use upstream parallel scheduler for AOT builds",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T07:49:58Z",
-      "updated_at": "2026-10-15T07:51:47Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4905",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4848,
-      "title": "[FlyDSL] [MoE] Address expert weights past 4 GB in the MoE GEMMs",
-      "author": "dianzhan0124",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T07:13:33Z",
-      "updated_at": "2026-10-15T07:51:43Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4848",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4810,
-      "title": "[FlyDSL] registering ops in pytorch",
-      "author": "mohbasit",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T20:14:14Z",
-      "updated_at": "2026-10-15T07:51:40Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4810",
-      "labels": [
-        "stale"
       ],
       "draft": false
     },
@@ -1663,20 +3158,6 @@
       "draft": false
     },
     {
-      "number": 6567,
-      "title": "[FlyDSL] Optimize FlyDSL grouped MoE kernels",
-      "author": "yadaish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T07:21:29Z",
-      "updated_at": "2026-10-15T07:37:12Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6567",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
       "number": 5815,
       "title": "[FlyDSL] [CI] Add FlyDSL fused intranode all-to-all for Ulysses sequence-parallel attention",
       "author": "johannes-graner",
@@ -1687,20 +3168,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/5815",
       "labels": [
         "CI",
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6568,
-      "title": "[FlyDSL] [Bugfix] Initialize padded MoE scratch to stop NaN at small token counts (gfx950 a8w4)",
-      "author": "PerryZhang01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T07:30:54Z",
-      "updated_at": "2026-10-15T07:35:22Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6568",
-      "labels": [
         "FlyDSL"
       ],
       "draft": false
@@ -1730,21 +3197,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6537",
       "labels": [
         "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4072,
-      "title": "[FlyDSL] [Bugfix] Grouped MoE build should respect GPU_ARCHS",
-      "author": "simondanielsson",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-03T08:12:47Z",
-      "updated_at": "2026-10-15T07:33:25Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4072",
-      "labels": [
-        "FlyDSL",
-        "stale"
       ],
       "draft": false
     },
@@ -1791,110 +3243,6 @@
       "draft": false
     },
     {
-      "number": 6052,
-      "title": "[FlyDSL] [CI] MegaMoE: stage1_fused/stage2_fused switches, mori combine path",
-      "author": "yanboshao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T12:24:04Z",
-      "updated_at": "2026-10-15T07:32:43Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6052",
-      "labels": [
-        "CI",
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5884,
-      "title": "[FlyDSL] Respect GPU_ARCHS for Grouped MoE AOT builds",
-      "author": "chandankumr",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-27T03:29:38Z",
-      "updated_at": "2026-10-15T07:32:37Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5884",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5752,
-      "title": "[FlyDSL] [gfx1250] Optimize A4W4 MoE prefill with A preshuffle",
-      "author": "yanguahe",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T10:06:44Z",
-      "updated_at": "2026-10-15T07:32:33Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5752",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5588,
-      "title": "[FlyDSL] remove g2l for ep and accepts local_expert_hash as arg",
-      "author": "yadaish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-16T12:55:20Z",
-      "updated_at": "2026-10-15T07:32:26Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5588",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4219,
-      "title": "support test csv",
-      "author": "yadaish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-13T12:27:32Z",
-      "updated_at": "2026-10-15T07:32:17Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4219",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5260,
-      "title": "[FlyDSL] Add tuned BF16 GEMM configs for GLM-5.2 decode shapes (N=6144)",
-      "author": "nehaprakriya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-03T19:29:37Z",
-      "updated_at": "2026-10-15T07:30:44Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5260",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5058,
-      "title": "[FlyDSL] [ROCm] Keep untuned SiLU A4W4 on native CK",
-      "author": "andyluo7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-27T18:17:23Z",
-      "updated_at": "2026-10-15T07:30:39Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5058",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
       "number": 6566,
       "title": "fix(attention): zero empty decode rows in unified attention",
       "author": "XiaobingSuper",
@@ -1921,20 +3269,6 @@
       "draft": false
     },
     {
-      "number": 6370,
-      "title": "[FlyDSL] [gfx950] Add an 8-wave mxfp8 GEMM",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T09:27:55Z",
-      "updated_at": "2026-10-15T07:17:44Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6370",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
       "number": 6191,
       "title": "[CK] [FlyDSL] Mxfp8 w_scale 1*32",
       "author": "solinzby1",
@@ -1946,63 +3280,6 @@
       "labels": [
         "CK",
         "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5887,
-      "title": "[FlyDSL] [PA] Extend pa decode tile to support Qlen8 and SWA with sink",
-      "author": "sammysun0711",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-27T07:30:32Z",
-      "updated_at": "2026-10-15T07:17:11Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5887",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5518,
-      "title": "[FlyDSL] [gfx950] Add explicit page strides and 64-bit rebase for FP4 MQA logits",
-      "author": "LiuYinfeng01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-15T05:39:32Z",
-      "updated_at": "2026-10-15T07:17:06Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5518",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5556,
-      "title": "[FlyDSL] [CI] gfx950 FP8 paged-prefill attention with asymmetric head dim and varlen support",
-      "author": "sammysun0711",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-15T16:38:14Z",
-      "updated_at": "2026-10-15T07:17:00Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5556",
-      "labels": [
-        "CI",
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4863,
-      "title": "[ASM] [FlyDSL] [Kernel][Feature] Add Kimi-K3 AttnResidual score + combine ASM kernel",
-      "author": "nehaprakriya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T16:46:44Z",
-      "updated_at": "2026-10-15T07:16:42Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4863",
-      "labels": [
-        "stale"
       ],
       "draft": false
     },
@@ -2019,35 +3296,6 @@
       "draft": false
     },
     {
-      "number": 6368,
-      "title": "[FlyDSL] [gfx950] Fix 8-wave a8w8 GEMM dropping LDS writes at the K-step barrier",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T08:18:00Z",
-      "updated_at": "2026-10-15T07:16:06Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6368",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6369,
-      "title": "[FlyDSL] Fuse add-RMSNorm and MXFP4 quant into INT4 QuickReduce",
-      "author": "mjkvaak-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T08:38:26Z",
-      "updated_at": "2026-10-15T06:54:44Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6369",
-      "labels": [
-        "ci:multi-gpu",
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
       "number": 6476,
       "title": "[Triton/Gluon] [Kernel] Add MXFP4 dequant H16 requantization",
       "author": "DaiXindi-AMD",
@@ -2058,21 +3306,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6476",
       "labels": [
         "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5948,
-      "title": "[HIP] Fix 3D binary-op broadcast guard for incompatible shapes",
-      "author": "adenzhou1350",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T14:28:04Z",
-      "updated_at": "2026-10-15T06:48:57Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5948",
-      "labels": [
-        "HIP",
-        "stale"
       ],
       "draft": false
     },
@@ -2105,72 +3338,6 @@
       "draft": false
     },
     {
-      "number": 5802,
-      "title": "[FlyDSL] [Bugfix] Route a16w4 SiLU MoE to CK-Tile and apply swiglu_limit",
-      "author": "kevin-mii",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T01:28:58Z",
-      "updated_at": "2026-10-15T06:43:49Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5802",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5462,
-      "title": "[FlyDSL] Tune MiniMax MXFP8 prefill MoE",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T14:30:23Z",
-      "updated_at": "2026-10-15T06:43:42Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5462",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5450,
-      "title": "[FlyDSL] [CI] [Bugfix] Rebase large MoE expert weights",
-      "author": "xudonlyu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T11:49:32Z",
-      "updated_at": "2026-10-15T06:43:39Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5450",
-      "labels": [
-        "CI",
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5315,
-      "title": "[CK] [FlyDSL] [CI] [Bugfix] Explicit gfx in shipped fused-MoE tuning CSVs",
-      "author": "amd-bartgips",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-07T12:28:27Z",
-      "updated_at": "2026-10-15T06:43:32Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5315",
-      "labels": [
-        "ci:sglang",
-        "ci:vllm",
-        "CI",
-        "CK",
-        "FlyDSL",
-        "JIT",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
       "number": 5897,
       "title": "[WIP] [Triton/Gluon] gfx950 a16w16: compute-bound Gluon kernel scheduled by Triton's MFMA scheduler",
       "author": "zhanglx13",
@@ -2193,49 +3360,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6533",
       "labels": [
         "HIP",
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6494,
-      "title": "[FlyDSL] split-K epilogue optimization in gfx950 a16w16 + Kimi-K3 router/in_proj tune",
-      "author": "nsusanto",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T16:50:17Z",
-      "updated_at": "2026-10-15T06:36:38Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6494",
-      "labels": [
-        "HIP",
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6450,
-      "title": "[FlyDSL] Read (B, next_n) context lengths in the paged MQA logits kernel",
-      "author": "amd-sriram",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T20:55:04Z",
-      "updated_at": "2026-10-15T06:36:24Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6450",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6252,
-      "title": "[FlyDSL] Flydsl tdm new interface",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T07:08:37Z",
-      "updated_at": "2026-10-15T06:35:59Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6252",
-      "labels": [
         "FlyDSL"
       ],
       "draft": false
@@ -2270,70 +3394,6 @@
       "draft": false
     },
     {
-      "number": 5801,
-      "title": "[FlyDSL] Fix gfx1250 TDM grouped GEMM bias index missing in calculation",
-      "author": "JadenMathias",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T23:09:32Z",
-      "updated_at": "2026-10-15T06:34:41Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5801",
-      "labels": [
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5654,
-      "title": "[ASM] Fix gfx950 GQA16 FP8 paged attention short-tail NaNs",
-      "author": "fangche123",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T02:54:56Z",
-      "updated_at": "2026-10-15T06:28:23Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5654",
-      "labels": [
-        "ASM",
-        "stale"
-      ],
-      "draft": true
-    },
-    {
-      "number": 5779,
-      "title": "[HIP] [JIT] Remove unintended CK dependency from plain top-k",
-      "author": "UD-mmcminn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T05:21:33Z",
-      "updated_at": "2026-10-15T06:23:47Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5779",
-      "labels": [
-        "ci:atom",
-        "HIP",
-        "JIT",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5186,
-      "title": "[CK] [CI] [JIT] Mi300a enablement",
-      "author": "afanfa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T15:56:16Z",
-      "updated_at": "2026-10-15T06:18:45Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5186",
-      "labels": [
-        "CI",
-        "CK",
-        "JIT",
-        "stale"
-      ],
-      "draft": false
-    },
-    {
       "number": 5911,
       "title": "[HIP] fix(quant): remove duplicate hip_bfloat16 template specialization in quant_mxfp6_gemm.cu",
       "author": "shantipriya-amd",
@@ -2360,40 +3420,6 @@
       "labels": [
         "HIP",
         "JIT",
-        "OPUS"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6550,
-      "title": "[Triton/Gluon] Add fused Kimi-K3 KDA whole-layer ops (gfx950, TP8)",
-      "author": "karverma-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T22:46:43Z",
-      "updated_at": "2026-10-15T05:08:55Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6550",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5164,
-      "title": "[HIP] [OPUS] [FlyDSL] Simplify AITER compiler worker fan-out to smooth-out regressions",
-      "author": "Qubitium",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-01T02:36:54Z",
-      "updated_at": "2026-10-15T05:04:00Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5164",
-      "labels": [
-        "ci:atom",
-        "CI",
-        "HIP",
-        "FlyDSL",
-        "JIT",
-        "Build",
         "OPUS"
       ],
       "draft": false
@@ -2470,20 +3496,6 @@
       "draft": false
     },
     {
-      "number": 6508,
-      "title": "[Triton/Gluon] MHA FP8 subtiled kernel",
-      "author": "lburzawa",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T23:24:46Z",
-      "updated_at": "2026-10-15T03:50:08Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6508",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": true
-    },
-    {
       "number": 6327,
       "title": "[Triton/Gluon] [JIT] [Bugfix] add support for MI300A and fix XCD count",
       "author": "aurianer",
@@ -2499,36 +3511,6 @@
       "draft": false
     },
     {
-      "number": 5883,
-      "title": "Ci timeout fix recon",
-      "author": "TennyWang1223",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-27T03:25:07Z",
-      "updated_at": "2026-10-15T03:04:45Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5883",
-      "labels": [
-        "ci:multi-gpu",
-        "stale"
-      ],
-      "draft": true
-    },
-    {
-      "number": 6454,
-      "title": "[ASM] [HIP] gfx1250 mha bwd kernel integration",
-      "author": "slippedJim",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T01:33:59Z",
-      "updated_at": "2026-10-15T03:03:10Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6454",
-      "labels": [
-        "HIP",
-        "ASM"
-      ],
-      "draft": false
-    },
-    {
       "number": 6416,
       "title": "[Triton/Gluon] Add fused_indexed_gated_residual for diffusion transformer blocks",
       "author": "Shan2L",
@@ -2540,115 +3522,6 @@
       "labels": [
         "ci:triton-300x",
         "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6558,
-      "title": "[MoonEP] Run the planner and weight pool on gfx1250 MegaMoE",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T02:52:22Z",
-      "updated_at": "2026-10-15T02:53:09Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6558",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4306,
-      "title": "[CK] [JIT] Add basic HIP/CK JIT kernel support in Windows",
-      "author": "menglcai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-20T19:57:33Z",
-      "updated_at": "2026-10-15T02:51:14Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4306",
-      "labels": [
-        "CK",
-        "JIT"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6557,
-      "title": "[Config] [gfx1250] Tune DeepSeek-R1 FP4 MoE tiles for high-batch decode",
-      "author": "karverma-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T02:26:59Z",
-      "updated_at": "2026-10-15T02:27:35Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6557",
-      "labels": [
-        "Config"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6161,
-      "title": "[Triton/Gluon] Add `x_EQ_x` Config Matcher to Unified Attention",
-      "author": "farlukas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T20:43:19Z",
-      "updated_at": "2026-10-15T02:12:05Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6161",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6283,
-      "title": "[Triton/Gluon] Tune `mla_gluon`",
-      "author": "farlukas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T18:35:44Z",
-      "updated_at": "2026-10-15T02:11:51Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6283",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6398,
-      "title": "[Bugfix] Bind load_hip_runtime to the HIP runtime already loaded",
-      "author": "omirosh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T10:53:41Z",
-      "updated_at": "2026-10-15T02:11:45Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6398",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 6488,
-      "title": "[Triton/Gluon] Fused GDN decode kernel for any value/key head ratio (Qwen3.5/3.8)",
-      "author": "eky-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T15:14:40Z",
-      "updated_at": "2026-10-15T02:11:35Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6488",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6514,
-      "title": "[FlyDSL] mega_moe_tp: unified big-M path and optimizations",
-      "author": "binding7012",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T02:33:04Z",
-      "updated_at": "2026-10-15T02:11:23Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6514",
-      "labels": [
-        "FlyDSL"
       ],
       "draft": false
     },
@@ -2695,51 +3568,6 @@
       "draft": false
     },
     {
-      "number": 6546,
-      "title": "[Triton/Gluon] [Config] Add gfx950 preshuffled AFP4WFP4 GEMM configs for Llama-3.1-405B MXFP4 TP8",
-      "author": "afriedri",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T18:47:55Z",
-      "updated_at": "2026-10-15T02:10:14Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6546",
-      "labels": [
-        "Triton/Gluon",
-        "Config"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6549,
-      "title": "[Triton/Gluon] [Config] Tune gfx1250 Gluon a16w16 GEMMs for GPT-OSS 120B",
-      "author": "Boss2002n",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T21:10:09Z",
-      "updated_at": "2026-10-15T02:10:01Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6549",
-      "labels": [
-        "Triton/Gluon",
-        "Config"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6530,
-      "title": "[Config] [FlyDSL] Kimi-K3 gfx1250 mxfp8_128 blockscale GEMM tuning and gfx1250 tuner support",
-      "author": "qichu-yun",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T10:33:47Z",
-      "updated_at": "2026-10-15T01:52:01Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6530",
-      "labels": [
-        "no-auto-title",
-        "CK"
-      ],
-      "draft": false
-    },
-    {
       "number": 3109,
       "title": "[ROCm][aiter] Add DSv3.2 BF16 GEMM tuned configs for gfx950 (K=7168)",
       "author": "sunway513",
@@ -2749,22 +3577,6 @@
       "updated_at": "2026-10-15T01:42:59Z",
       "html_url": "https://github.com/ROCm/aiter/pull/3109",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5668,
-      "title": "[OPUS] Key the MXFP8 BMM tuned lookup on cu_num",
-      "author": "RElbers",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-18T12:38:45Z",
-      "updated_at": "2026-10-15T01:41:56Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5668",
-      "labels": [
-        "ci:all",
-        "OPUS",
-        "stale"
-      ],
       "draft": false
     },
     {
@@ -2824,21 +3636,6 @@
         "Triton/Gluon"
       ],
       "draft": true
-    },
-    {
-      "number": 6523,
-      "title": "[Triton/Gluon] [Config] [gfx950] Tuned configs for GLM-5.2 MTP verify: MLA FP8 BMMs + BF16 GEMMs",
-      "author": "EricKing626",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T08:12:51Z",
-      "updated_at": "2026-10-15T01:28:30Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6523",
-      "labels": [
-        "Triton/Gluon",
-        "Config"
-      ],
-      "draft": false
     },
     {
       "number": 6456,
@@ -2927,34 +3724,6 @@
       "draft": true
     },
     {
-      "number": 5956,
-      "title": "[Config] [Perf][gfx950] Retune Kimi-K3 merged-front shapes for ROCm 10",
-      "author": "jiacao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T20:10:58Z",
-      "updated_at": "2026-10-14T22:55:25Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5956",
-      "labels": [
-        "Config"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6116,
-      "title": "[Triton/Gluon] [GFX12] Gluon a8w8 Sparse MLA",
-      "author": "k50112113",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-03T02:01:36Z",
-      "updated_at": "2026-10-14T22:36:58Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6116",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
       "number": 6325,
       "title": "[Triton/Gluon] [Bugfix] Mask KV block padding lanes out of the softmax in Triton paged_attention_decode",
       "author": "truong-v",
@@ -2983,76 +3752,6 @@
       "draft": false
     },
     {
-      "number": 6453,
-      "title": "[Triton/Gluon] PA decode: fill the GPU in get_recommended_splits for \u2026",
-      "author": "NimitPtl",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T00:13:16Z",
-      "updated_at": "2026-10-14T21:25:28Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6453",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6237,
-      "title": "Catch MoE accuracy failures that CI currently logs and passes: per-file strict checkAllclose and per-row tuner scoring",
-      "author": "KHassanQazi",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T23:45:02Z",
-      "updated_at": "2026-10-14T21:15:16Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6237",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 6347,
-      "title": "[Triton/Gluon] : Make use of parser arg consistent in benchmarks",
-      "author": "rahulbatra85",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T00:28:19Z",
-      "updated_at": "2026-10-14T21:05:30Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6347",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5728,
-      "title": "[HIP] [JIT] [Build] IQ2R glm53_moe: packed 2-bit MoE kernels for GLM-5.3 TP4/TP8 (BF16)",
-      "author": "ssharma4-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T11:09:08Z",
-      "updated_at": "2026-10-14T21:05:08Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5728",
-      "labels": [
-        "HIP",
-        "JIT",
-        "Build"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6451,
-      "title": "[Triton/Gluon] Read (B, next_n) context lengths in the paged MQA logits kernels",
-      "author": "amd-sriram",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T21:29:47Z",
-      "updated_at": "2026-10-14T20:45:47Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6451",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
       "number": 6501,
       "title": "[Triton/Gluon] tune fused_bmm_rope_kv_cache on gfx950, add bench & configs (gfx950/1250)",
       "author": "nidal567",
@@ -3065,21 +3764,6 @@
         "ci:triton-355",
         "ci:triton-300x",
         "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6158,
-      "title": "[Triton/Gluon] [Config] MoE and MLA configs for gfx1101, gfx1150 and gfx1151: sparse_mla_dsv4_train, moe_gemm_mxfp8, sonicmoe",
-      "author": "Ragua1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T18:37:42Z",
-      "updated_at": "2026-10-14T19:55:34Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6158",
-      "labels": [
-        "Triton/Gluon",
-        "Config"
       ],
       "draft": false
     },
@@ -3098,21 +3782,6 @@
       "draft": false
     },
     {
-      "number": 6374,
-      "title": "[Triton/Gluon] [Config] Add gfx1200 and gfx1201 Triton MHA configs",
-      "author": "0xDELUXA",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T11:41:49Z",
-      "updated_at": "2026-10-14T19:38:25Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6374",
-      "labels": [
-        "Triton/Gluon",
-        "Config"
-      ],
-      "draft": false
-    },
-    {
       "number": 6339,
       "title": "[Triton/Gluon] Fix unified attention routing for speculative decode",
       "author": "ukannika",
@@ -3123,34 +3792,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6339",
       "labels": [
         "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5153,
-      "title": "[Triton/Gluon][GFX950] Productize gluon mha kernel from GFX950-gluon-tutorials",
-      "author": "leonling-ll",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T17:35:08Z",
-      "updated_at": "2026-10-14T19:32:58Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5153",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": true
-    },
-    {
-      "number": 6436,
-      "title": "[Config] [Tune] Add GLM-5.3 Flash MoE router GEMM configs for gfx950",
-      "author": "amd-sriram",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T13:56:18Z",
-      "updated_at": "2026-10-14T19:25:26Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6436",
-      "labels": [
-        "Config"
       ],
       "draft": false
     },
@@ -3211,20 +3852,6 @@
       "draft": false
     },
     {
-      "number": 5981,
-      "title": "[Triton/Gluon] Tune gfx950 FP8 batched GEMM query/value configurations",
-      "author": "heslami",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T07:01:07Z",
-      "updated_at": "2026-10-14T17:42:30Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5981",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
       "number": 5637,
       "title": "[Triton/Gluon] Add gfx1250 per-tensor FP8 MHA prefill",
       "author": "Yu-Zhewen",
@@ -3237,18 +3864,6 @@
         "Triton/Gluon"
       ],
       "draft": false
-    },
-    {
-      "number": 6543,
-      "title": "Optimize FlyDSL Kimi K2 Thinking Kernel",
-      "author": "amirumoAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T16:42:12Z",
-      "updated_at": "2026-10-14T16:42:55Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6543",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 6507,
@@ -3280,35 +3895,6 @@
       "draft": false
     },
     {
-      "number": 6521,
-      "title": "[Triton/Gluon] [Config] [Perf] Retune gfx950 preshuffled AFP4WFP4 config for N=4096, K=14336",
-      "author": "reger-men",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T07:44:06Z",
-      "updated_at": "2026-10-14T15:27:12Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6521",
-      "labels": [
-        "Triton/Gluon",
-        "Config"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4685,
-      "title": "[Triton/Gluon] batched_gemm_a16wfp4: ragged-K regression test and operand shape validation",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T15:42:07Z",
-      "updated_at": "2026-10-14T15:20:43Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4685",
-      "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
       "number": 6484,
       "title": "[MoE] Let callers hand fused_moe a precomputed BM=16 sort",
       "author": "yuychang",
@@ -3318,32 +3904,6 @@
       "updated_at": "2026-10-14T14:57:00Z",
       "html_url": "https://github.com/ROCm/aiter/pull/6484",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 6236,
-      "title": "[FlyDSL] TP2 quick all-reduce through a passive xGMI relay",
-      "author": "samremes",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T22:14:35Z",
-      "updated_at": "2026-10-14T14:49:44Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6236",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 6411,
-      "title": "[Config] Add Kimi-K3 gfx950 BF16 GEMM tuned configs",
-      "author": "yuychang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T03:39:00Z",
-      "updated_at": "2026-10-14T14:49:02Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6411",
-      "labels": [
-        "Config"
-      ],
       "draft": false
     },
     {
@@ -3359,21 +3919,6 @@
         "FlyDSL"
       ],
       "draft": true
-    },
-    {
-      "number": 6309,
-      "title": "[ASM] [CI] Optimize gfx950 MXFP GEMMs for Flux training shapes",
-      "author": "ksikiric",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T11:26:24Z",
-      "updated_at": "2026-10-14T14:41:19Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6309",
-      "labels": [
-        "CI",
-        "ASM"
-      ],
-      "draft": false
     },
     {
       "number": 5770,
@@ -3457,32 +4002,6 @@
       "draft": true
     },
     {
-      "number": 6536,
-      "title": "[ASM] Rebuild the gfx950 bf16 opus MLA decode kernels with named-register pins",
-      "author": "kaiyang-1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T13:00:47Z",
-      "updated_at": "2026-10-14T13:47:30Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6536",
-      "labels": [
-        "ASM"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6538,
-      "title": "Let tuned GEMM write into a caller-owned buffer",
-      "author": "amd-yashagar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T13:29:21Z",
-      "updated_at": "2026-10-14T13:32:31Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6538",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 6410,
       "title": "[Config] Add Kimi-K3 gfx950 A8W8 bpreshuffle tuned configs",
       "author": "yuychang",
@@ -3549,18 +4068,6 @@
       "draft": true
     },
     {
-      "number": 6482,
-      "title": "[Tune] Make pretune fail on tuner errors and rebuild every inference module that reads the tuned CSV",
-      "author": "a-canadasruiz",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T13:15:17Z",
-      "updated_at": "2026-10-14T10:34:52Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6482",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 6487,
       "title": "[Triton/Gluon] Extend Gluon PA benchmark for asymmetric K/V heads",
       "author": "sammysun0711",
@@ -3603,20 +4110,6 @@
       "draft": true
     },
     {
-      "number": 6355,
-      "title": "[FlyDSL] [FMHA][gfx1250] m32x8 prefill: d64 support, wider shape coverage, and a rewritten KV pipeline",
-      "author": "ruanjm",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T04:11:20Z",
-      "updated_at": "2026-10-14T08:08:31Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6355",
-      "labels": [
-        "FlyDSL"
-      ],
-      "draft": false
-    },
-    {
       "number": 6305,
       "title": "[Test] Time with cuda.Event when the torch build has no Kineto",
       "author": "zufayu",
@@ -3657,39 +4150,6 @@
       "draft": false
     },
     {
-      "number": 5965,
-      "title": "[HIP] [JIT] Enable gfx1250 QuickReduce for TP2 and TP4",
-      "author": "hubertlu-tw",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T00:35:53Z",
-      "updated_at": "2026-10-14T07:00:58Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5965",
-      "labels": [
-        "multigpu",
-        "ci:multi-gpu",
-        "HIP",
-        "JIT"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6455,
-      "title": "[ASM] [HIP] [JIT] MI355 MLA PS mode kernel add 4 wave fp8 kernel",
-      "author": "minmengdie",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T02:03:58Z",
-      "updated_at": "2026-10-14T06:07:09Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6455",
-      "labels": [
-        "HIP",
-        "JIT",
-        "ASM"
-      ],
-      "draft": false
-    },
-    {
       "number": 5563,
       "title": "[JIT] Undefine __HIP_NO_HALF_{OPERATORS,CONVERSIONS}__ in COMMON_HIPCC_FLAGS (fix cold-JIT __half build failures on gfx942)",
       "author": "MohitAMD",
@@ -3718,20 +4178,6 @@
       "draft": false
     },
     {
-      "number": 5379,
-      "title": "[Config] [MoE] Add Qwen3.8 Flash Next FP8 tuned config for Prefill on MI308X",
-      "author": "sammysun0711",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T17:22:13Z",
-      "updated_at": "2026-10-14T05:28:53Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5379",
-      "labels": [
-        "Config"
-      ],
-      "draft": false
-    },
-    {
       "number": 6248,
       "title": "[WIP] [HIP] [FlyDSL] [CI] Feat/topk select tuner",
       "author": "MHYangAMD",
@@ -3745,24 +4191,6 @@
         "HIP",
         "FlyDSL",
         "JIT"
-      ],
-      "draft": false
-    },
-    {
-      "number": 4340,
-      "title": "[HIP] [FlyDSL] [JIT] Add Windows RDNA CK FMHA support",
-      "author": "Yasei-no-otoko",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-23T01:07:25Z",
-      "updated_at": "2026-10-14T05:13:09Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4340",
-      "labels": [
-        "HIP",
-        "FlyDSL",
-        "JIT",
-        "Build",
-        "ci:windows"
       ],
       "draft": false
     },
@@ -4102,20 +4530,6 @@
       "draft": false
     },
     {
-      "number": 5687,
-      "title": "[CI] Fix Flash Attention CI failures",
-      "author": "micmelesse",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-19T21:26:07Z",
-      "updated_at": "2026-10-13T19:16:42Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5687",
-      "labels": [
-        "CI"
-      ],
-      "draft": true
-    },
-    {
       "number": 6024,
       "title": "[Triton/Gluon] [Perf] fused_reduce_act_mul_and_mxfp4_quant: wider launch tile, add round_to_input_dtype and transpose_scale",
       "author": "reger-men",
@@ -4195,21 +4609,6 @@
       "updated_at": "2026-10-13T15:53:19Z",
       "html_url": "https://github.com/ROCm/aiter/pull/6124",
       "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6219,
-      "title": "[Triton/Gluon] moe_gemm_a8w8: fnuz FP8 and MXFP8 on gfx942",
-      "author": "akii96",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T12:59:15Z",
-      "updated_at": "2026-10-13T15:12:33Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6219",
-      "labels": [
-        "ci:triton-300x",
         "Triton/Gluon"
       ],
       "draft": false
@@ -4313,21 +4712,6 @@
       "draft": true
     },
     {
-      "number": 6013,
-      "title": "[CK] [CI] [Bugfix] Fix gfx942 FLAT candidates in ASM FMoE tuning",
-      "author": "yuzhouo7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T16:54:48Z",
-      "updated_at": "2026-10-13T10:19:42Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6013",
-      "labels": [
-        "CI",
-        "CK"
-      ],
-      "draft": false
-    },
-    {
       "number": 5991,
       "title": "[Bugfix] Fix missing extension module names in pretune builds",
       "author": "yuzhouo7",
@@ -4421,18 +4805,6 @@
         "CK"
       ],
       "draft": false
-    },
-    {
-      "number": 6464,
-      "title": "Fea/mxfp4 flydsl a8w4 opt & replace",
-      "author": "Bernard-Liu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T05:10:18Z",
-      "updated_at": "2026-10-13T05:10:44Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6464",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 6461,
@@ -4600,21 +4972,6 @@
       "draft": false
     },
     {
-      "number": 3269,
-      "title": "[Triton/Gluon] add block_cat_fused fused op",
-      "author": "reger-men",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-19T14:12:24Z",
-      "updated_at": "2026-10-12T17:47:35Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3269",
-      "labels": [
-        "ci:triton-300x",
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
       "number": 6434,
       "title": "[Triton/Gluon] PA decode: split PS work on whole partitions, size the split count from kernel occupancy on gfx950",
       "author": "jiaqiang-dot-liu",
@@ -4640,56 +4997,6 @@
       "labels": [
         "Triton/Gluon"
       ],
-      "draft": false
-    },
-    {
-      "number": 6286,
-      "title": "[Triton] Retune gfx942 a16w4 DSv4.1 tiles for Triton 3.8",
-      "author": "frida-andersson",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T19:14:13Z",
-      "updated_at": "2026-10-12T15:42:34Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6286",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 6195,
-      "title": "[CI] Change stale PR workflow schedule and settings",
-      "author": "Boss2002n",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T03:46:02Z",
-      "updated_at": "2026-10-12T15:40:43Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6195",
-      "labels": [
-        "CI"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3962,
-      "title": "[Kernel][Perf] split-K long-context decode for shuffled fp8 SWA path",
-      "author": "reger-men",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T17:27:01Z",
-      "updated_at": "2026-10-12T15:39:42Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3962",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3959,
-      "title": "[Kernel][Triton] sliding-window decode over shuffled fp8 paged KV",
-      "author": "reger-men",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-26T16:08:10Z",
-      "updated_at": "2026-10-12T15:39:39Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3959",
-      "labels": [],
       "draft": false
     },
     {
@@ -4791,18 +5098,6 @@
       "draft": false
     },
     {
-      "number": 5882,
-      "title": "[FlyDSL] [MLA] DeepSeek-V4 fp8 MLA decode (v4 nm) in one FlyDSL launch on gfx950",
-      "author": "AMD-yanfeiwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-27T01:24:51Z",
-      "updated_at": "2026-10-12T10:17:58Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5882",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 6081,
       "title": "[Triton/Gluon] Fix: gfx1250 unified attention faults and NaNs",
       "author": "mqhc2020",
@@ -4839,20 +5134,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6358",
       "labels": [
         "Config"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6395,
-      "title": "[CK] [Bugfix] Write grouped MoE tuning results back in place",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T08:09:14Z",
-      "updated_at": "2026-10-12T05:04:32Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6395",
-      "labels": [
-        "CK"
       ],
       "draft": false
     },
@@ -5891,24 +6172,6 @@
       "draft": false
     },
     {
-      "number": 5148,
-      "title": "[HIP] [CK] [FlyDSL] FlyDSL split-K preshuffle decode GEMM for small-M shapes (FP8 + MX, gfx950/gfx942)",
-      "author": "johannes-graner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T13:07:27Z",
-      "updated_at": "2026-10-09T07:41:32Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5148",
-      "labels": [
-        "CI",
-        "HIP",
-        "CK",
-        "FlyDSL",
-        "stale"
-      ],
-      "draft": true
-    },
-    {
       "number": 6119,
       "title": "[HIP] [Bugfix] mxfp4 moe sort skip invalid ids (-1s)",
       "author": "cagrikymk",
@@ -5979,18 +6242,6 @@
         "ASM"
       ],
       "draft": false
-    },
-    {
-      "number": 6294,
-      "title": "feat(mxfp4): make scale layouts explicit",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T03:30:04Z",
-      "updated_at": "2026-10-09T04:03:47Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6294",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5634,
@@ -6076,22 +6327,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6274",
       "labels": [
         "CI"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6100,
-      "title": "[ASM] [HIP] [JIT] Fuse the router GEMM and top-k softmax into one gfx950 asm kernel",
-      "author": "maeehart",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T17:13:08Z",
-      "updated_at": "2026-10-09T01:10:10Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6100",
-      "labels": [
-        "HIP",
-        "JIT",
-        "ASM"
       ],
       "draft": false
     },
@@ -7028,20 +7263,6 @@
       "draft": true
     },
     {
-      "number": 3297,
-      "title": "add pageattention with sliding window",
-      "author": "ChengYao-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-21T05:08:11Z",
-      "updated_at": "2026-10-07T04:21:46Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/3297",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
-    },
-    {
       "number": 3316,
       "title": "[ck gemm a8w8 blockscale] shape-aware kernel selection heuristic for untuned shapes",
       "author": "eppaneamd",
@@ -7393,20 +7614,6 @@
         "stale"
       ],
       "draft": true
-    },
-    {
-      "number": 4209,
-      "title": "[WIP] [FlyDSL] [Simplify] Simplify qk_norm_rope_quant kernels with FlyDSL syntactic sugar",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-13T02:40:23Z",
-      "updated_at": "2026-10-07T04:17:07Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/4209",
-      "labels": [
-        "stale"
-      ],
-      "draft": false
     },
     {
       "number": 4238,
@@ -8513,18 +8720,6 @@
       "draft": true
     },
     {
-      "number": 6037,
-      "title": "[Kernel] Add HIP BF16 sparse MLA for GLM-5.3-Flash H64 prefill on gfx950",
-      "author": "sumin-hong",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T05:41:08Z",
-      "updated_at": "2026-10-07T01:45:40Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6037",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 6162,
       "title": "[HIP] [Perf] Tune GLM-5.3 packed-BF16 mHC post/pre on gfx950",
       "author": "Raiden-Makoto",
@@ -8611,18 +8806,6 @@
       "draft": false
     },
     {
-      "number": 5817,
-      "title": "Feature/minimax m3 mxfp8",
-      "author": "amd-yashagar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T09:21:48Z",
-      "updated_at": "2026-10-06T08:50:28Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5817",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 6036,
       "title": "[HIP] [JIT] [Kernel] fused MoE sorting: single-launch bitmask sort with optional fused router",
       "author": "sumin-hong",
@@ -8644,7 +8827,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-23T15:00:03Z",
-      "updated_at": "2026-10-06T00:32:28Z",
+      "updated_at": "2026-10-16T09:47:45Z",
       "html_url": "https://github.com/ROCm/aiter/pull/5793",
       "labels": [
         "Triton/Gluon"
@@ -8829,42 +9012,6 @@
       "draft": true
     },
     {
-      "number": 5849,
-      "title": "[MHA] Add a delta race, resume, finalist rounds and evidence to the MHA forward tuner",
-      "author": "amd-bartgips",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T13:36:21Z",
-      "updated_at": "2026-10-01T12:56:52Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5849",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5762,
-      "title": "[MHA] Add tuned-config dispatch and an exhaustive tuner for packed varlen",
-      "author": "amd-bartgips",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T15:07:52Z",
-      "updated_at": "2026-10-01T12:55:58Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5762",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5846,
-      "title": "[Tuning] Share mp_tuner typed statuses and add a central tuning policy",
-      "author": "amd-bartgips",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T11:15:28Z",
-      "updated_at": "2026-10-01T09:57:52Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5846",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5532,
       "title": "Add --fused-expert option to 2stage moe tests",
       "author": "JohnNikolay84",
@@ -8899,20 +9046,6 @@
       "html_url": "https://github.com/ROCm/aiter/pull/6029",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5918,
-      "title": "[HIP] Add fused all_reduce_add; retune gfx950 all-reduce dispatch",
-      "author": "cpersson-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T16:09:56Z",
-      "updated_at": "2026-10-01T00:36:20Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/5918",
-      "labels": [
-        "HIP"
-      ],
-      "draft": false
     },
     {
       "number": 6005,
@@ -9614,31 +9747,179 @@
       "draft": false
     },
     {
-      "number": 6569,
-      "title": "[ASM] [Bugfix] Fix gfx942 PA KV tail handling for lengths 241-255",
-      "author": "fangche123",
+      "number": 5978,
+      "title": "[HIP] Opt qk norm rope mla  cache gfx1250",
+      "author": "yzhou103",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-10-15T08:09:45Z",
-      "updated_at": "2026-10-15T12:37:58Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6569",
+      "created_at": "2026-09-30T05:42:56Z",
+      "updated_at": "2026-10-16T10:02:48Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5978",
       "labels": [
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6561,
+      "title": "[ASM] [HIP] Add gfx1250 QH64 shuffled KV decode",
+      "author": "feifei14119",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T05:53:19Z",
+      "updated_at": "2026-10-16T09:53:03Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6561",
+      "labels": [
+        "HIP",
         "ASM"
       ],
       "draft": false
     },
     {
-      "number": 6050,
-      "title": "[FlyDSL] [CI] Add HY4 MXFP8 heterogeneous MoE fusion",
-      "author": "qli88",
+      "number": 6454,
+      "title": "[ASM] [HIP] gfx1250 mha bwd kernel integration",
+      "author": "slippedJim",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-10-01T12:07:21Z",
-      "updated_at": "2026-10-15T12:36:34Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6050",
+      "created_at": "2026-10-13T01:33:59Z",
+      "updated_at": "2026-10-16T08:54:26Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6454",
       "labels": [
-        "CI",
+        "HIP",
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6615,
+      "title": "MegaMoE: keep the per-rank scatter's planar scale runs on whole 128 B\u2026",
+      "author": "lalala-sh",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T08:31:06Z",
+      "updated_at": "2026-10-16T08:31:25Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6615",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 6603,
+      "title": "[HIP] [CK] [FlyDSL] add 32*32/128*128 mxfp8 and add tune with bmm(batch=1)",
+      "author": "solinzby1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T02:05:10Z",
+      "updated_at": "2026-10-16T07:08:04Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6603",
+      "labels": [
+        "HIP",
+        "CK",
         "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6271,
+      "title": "[Config] Add gfx942 Kimi-K3 a16wi4 tuned MoE configs for topk=16",
+      "author": "xaguilar-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T12:50:20Z",
+      "updated_at": "2026-10-16T06:25:26Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6271",
+      "labels": [
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6589,
+      "title": "[FlyDSL] [JIT] Fix Windows build arguments and optional imports",
+      "author": "Yasei-no-otoko",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T15:59:10Z",
+      "updated_at": "2026-10-16T06:02:49Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6589",
+      "labels": [
+        "FlyDSL",
+        "JIT",
+        "ci:windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6455,
+      "title": "[ASM] [HIP] [JIT] MI355 MLA PS mode kernel add 4 wave fp8 kernel",
+      "author": "minmengdie",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T02:03:58Z",
+      "updated_at": "2026-10-16T05:51:14Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6455",
+      "labels": [
+        "HIP",
+        "JIT",
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6608,
+      "title": "[Triton/Gluon] Fix GLM-4.7 MHA benchmark head dimension",
+      "author": "zufayu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T03:25:19Z",
+      "updated_at": "2026-10-16T04:28:46Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6608",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6446,
+      "title": "[HIP] Fix ar_ll128_unroll2 hang on consecutive calls of different sizes",
+      "author": "AndreasKaratzas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-12T16:57:28Z",
+      "updated_at": "2026-10-16T04:27:18Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6446",
+      "labels": [
+        "ci:multi-gpu",
+        "HIP"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5728,
+      "title": "[HIP] [JIT] [Build] IQ2R glm53_moe: packed 2-bit MoE kernels for GLM-5.3 TP4/TP8 (BF16)",
+      "author": "ssharma4-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-21T11:09:08Z",
+      "updated_at": "2026-10-16T03:35:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5728",
+      "labels": [
+        "HIP",
+        "JIT",
+        "Build"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6411,
+      "title": "[Config] Add Kimi-K3 gfx950 BF16 GEMM tuned configs",
+      "author": "yuychang",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-12T03:39:00Z",
+      "updated_at": "2026-10-16T03:22:15Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6411",
+      "labels": [
+        "Config"
       ],
       "draft": false
     },
@@ -9649,10 +9930,217 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-08-15T02:06:12Z",
-      "updated_at": "2026-10-15T12:26:14Z",
+      "updated_at": "2026-10-16T02:43:45Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4772",
       "labels": [
         "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6481,
+      "title": "[ASM] [Bugfix] Fix gfx950 MLA KV addressing and optimize gfx942 addressing",
+      "author": "alexioslyrakis-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T12:48:36Z",
+      "updated_at": "2026-10-16T02:21:04Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6481",
+      "labels": [
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5799,
+      "title": "[CustomAllreduce] Re-take the expandable_segments decision at capture time",
+      "author": "okorzh-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-23T21:28:26Z",
+      "updated_at": "2026-10-16T02:19:00Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5799",
+      "labels": [
+        "multigpu",
+        "ci:multi-gpu",
+        "ci:atom_full"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6577,
+      "title": "[ASM] Correct SGPR counts in gfx950 QH16 MLA metadata",
+      "author": "alexioslyrakis-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T12:38:40Z",
+      "updated_at": "2026-10-16T01:55:02Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6577",
+      "labels": [
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6478,
+      "title": "[HIP] [CK] [MoE] Fix missing SwiGLU non-split no-bias CK-Tile MXFP4 dispatch (follow-up to #6376 revert)",
+      "author": "shantipriya-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T10:14:06Z",
+      "updated_at": "2026-10-16T01:41:10Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6478",
+      "labels": [
+        "ci:vllm",
+        "HIP",
+        "CK"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6549,
+      "title": "[Triton/Gluon] [Config] Tune gfx1250 Gluon a16w16 GEMMs for GPT-OSS 120B",
+      "author": "Boss2002n",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-14T21:10:09Z",
+      "updated_at": "2026-10-15T17:28:04Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6549",
+      "labels": [
+        "Triton/Gluon",
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5956,
+      "title": "[Config] [Perf][gfx950] Retune Kimi-K3 merged-front shapes for ROCm 10",
+      "author": "jiacao-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-29T20:10:58Z",
+      "updated_at": "2026-10-15T16:31:26Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/5956",
+      "labels": [
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6283,
+      "title": "[Triton/Gluon] Tune `mla_gluon`",
+      "author": "farlukas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T18:35:44Z",
+      "updated_at": "2026-10-15T16:24:08Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6283",
+      "labels": [
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6587,
+      "title": "[Config] Revert \" [Perf][gfx950] Retune Kimi-K3 merged-front shapes for ROCm 10\"",
+      "author": "valarLip",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T15:13:50Z",
+      "updated_at": "2026-10-15T15:18:01Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6587",
+      "labels": [
+        "Config"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6469,
+      "title": "[Triton/Gluon] [QSA] Add paged sparse attention kernels",
+      "author": "mengfei-jiang",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T06:31:53Z",
+      "updated_at": "2026-10-15T15:15:40Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6469",
+      "labels": [
+        "ci:triton-300x",
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6017,
+      "title": "[Triton/Gluon] tune prefill num_warps on gfx950 (sequence layout, gate prefill path)",
+      "author": "nidal567",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-30T17:52:19Z",
+      "updated_at": "2026-10-15T15:02:30Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6017",
+      "labels": [
+        "ci:triton-355",
+        "ci:triton-300x",
+        "Triton/Gluon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6050,
+      "title": "[FlyDSL] [CI] Add HY4 MXFP8 heterogeneous MoE fusion",
+      "author": "qli88",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-01T12:07:21Z",
+      "updated_at": "2026-10-15T14:11:13Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6050",
+      "labels": [
+        "CI",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6309,
+      "title": "[ASM] [CI] Optimize gfx950 MXFP GEMMs for Flux training shapes",
+      "author": "ksikiric",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-09T11:26:24Z",
+      "updated_at": "2026-10-15T14:09:26Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6309",
+      "labels": [
+        "CI",
+        "ASM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6494,
+      "title": "[FlyDSL] split-K epilogue optimization in gfx950 a16w16 + Kimi-K3 router/in_proj tune",
+      "author": "nsusanto",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T16:50:17Z",
+      "updated_at": "2026-10-15T13:54:44Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6494",
+      "labels": [
+        "HIP",
+        "FlyDSL"
+      ],
+      "draft": false
+    },
+    {
+      "number": 6569,
+      "title": "[ASM] [Bugfix] Fix gfx942 PA KV tail handling for lengths 241-255",
+      "author": "fangche123",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T08:09:45Z",
+      "updated_at": "2026-10-15T12:37:58Z",
+      "html_url": "https://github.com/ROCm/aiter/pull/6569",
+      "labels": [
+        "ASM"
       ],
       "draft": false
     },
@@ -10031,22 +10519,6 @@
       "updated_at": "2026-10-14T19:18:18Z",
       "html_url": "https://github.com/ROCm/aiter/pull/4968",
       "labels": [
-        "Triton/Gluon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 6017,
-      "title": "[Triton/Gluon] tune prefill num_warps on gfx950 (sequence layout, gate prefill path)",
-      "author": "nidal567",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-30T17:52:19Z",
-      "updated_at": "2026-10-14T17:10:11Z",
-      "html_url": "https://github.com/ROCm/aiter/pull/6017",
-      "labels": [
-        "ci:triton-355",
-        "ci:triton-300x",
         "Triton/Gluon"
       ],
       "draft": false

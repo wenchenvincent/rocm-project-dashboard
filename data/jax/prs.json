@@ -1,6 +1,21 @@
 {
-  "collected_at": "2026-10-15T12:54:59Z",
+  "collected_at": "2026-10-16T12:47:00Z",
   "prs": [
+    {
+      "number": 41660,
+      "title": "[ROCm][Triton] Fix race on the HSACO file in GetModuleImage",
+      "author": "mminutoli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T23:03:32Z",
+      "updated_at": "2026-10-16T01:26:02Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41660",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 41341,
       "title": "[ROCm] dev mxfp4 recipe",
@@ -548,21 +563,6 @@
       "created_at": "2026-08-13T19:11:26Z",
       "updated_at": "2026-08-19T16:22:25Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39970",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40001,
-      "title": "[ROCm] Fix ROCm version in plugin wheel metadata",
-      "author": "gulsumgudukbay",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-14T19:48:51Z",
-      "updated_at": "2026-08-15T15:04:15Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40001",
       "labels": [
         "kokoro:force-run",
         "pull ready"

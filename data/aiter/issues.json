@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-10-15T12:56:04Z",
+  "collected_at": "2026-10-16T12:47:54Z",
   "issues": [
+    {
+      "number": 6565,
+      "title": "[Issue]: a8w4 fused_moe writes NaN at small token counts on gfx950 (uninitialized padded scratch)",
+      "author": "PerryZhang01",
+      "state": "open",
+      "created_at": "2026-10-15T07:08:59Z",
+      "updated_at": "2026-10-16T02:14:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6565",
+      "labels": []
+    },
+    {
+      "number": 6402,
+      "title": "[gfx1250] BF16 GEMM: Triton gemm_a16w16 leaves the rows of C past byte 2^31 unwritten",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-10-11T18:09:29Z",
+      "updated_at": "2026-10-15T22:59:57Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6402",
+      "labels": []
+    },
+    {
+      "number": 6596,
+      "title": "Replace the remaining hand-set checkAllclose tolerances once alignment and the measured error are known",
+      "author": "KHassanQazi",
+      "state": "open",
+      "created_at": "2026-10-15T19:36:22Z",
+      "updated_at": "2026-10-15T19:36:22Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6596",
+      "labels": []
+    },
+    {
+      "number": 6591,
+      "title": "[Feature]:  [kimik3][vllm] enable router gemm aiter kernels for fp32 output in vllm",
+      "author": "nsusanto",
+      "state": "open",
+      "created_at": "2026-10-15T16:37:18Z",
+      "updated_at": "2026-10-15T16:37:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6591",
+      "labels": []
+    },
+    {
+      "number": 6590,
+      "title": "[Feature]:  [Kimik3][vllm] get router gemm fp32 output enabled in VLLM",
+      "author": "nsusanto",
+      "state": "open",
+      "created_at": "2026-10-15T16:35:37Z",
+      "updated_at": "2026-10-15T16:35:40Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6590",
+      "labels": []
+    },
+    {
+      "number": 6548,
+      "title": "[Issue]:  FlyDSL MoE stage-1 fused FP8 output uses a different MXFP8 scale rule than fused_dynamic_mx_quant_moe_sort",
+      "author": "josh-schell-amd",
+      "state": "open",
+      "created_at": "2026-10-14T20:52:55Z",
+      "updated_at": "2026-10-15T14:36:04Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6548",
+      "labels": []
+    },
     {
       "number": 6574,
       "title": "RDNA3/RDNA4 (gfx1100, gfx1201) Triton-only test report: fused KDA decode works; two install/config issues",
@@ -22,16 +82,6 @@
       "labels": []
     },
     {
-      "number": 6565,
-      "title": "[Issue]: a8w4 fused_moe writes NaN at small token counts on gfx950 (uninitialized padded scratch)",
-      "author": "PerryZhang01",
-      "state": "open",
-      "created_at": "2026-10-15T07:08:59Z",
-      "updated_at": "2026-10-15T07:35:21Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6565",
-      "labels": []
-    },
-    {
       "number": 6562,
       "title": "FlyDSL FP4 paged MQA-logits prefill (flydsl_pa_mqa_logits_fp4_prefill) faults at address 0 with zero query rows (gfx950)",
       "author": "ChangLi811",
@@ -39,16 +89,6 @@
       "created_at": "2026-10-15T06:07:11Z",
       "updated_at": "2026-10-15T06:14:28Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6562",
-      "labels": []
-    },
-    {
-      "number": 6548,
-      "title": "[Issue]:  FlyDSL MoE stage-1 fused FP8 output uses a different MXFP8 scale rule than fused_dynamic_mx_quant_moe_sort",
-      "author": "josh-schell-amd",
-      "state": "open",
-      "created_at": "2026-10-14T20:52:55Z",
-      "updated_at": "2026-10-14T21:12:40Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6548",
       "labels": []
     },
     {
@@ -141,16 +181,6 @@
       "created_at": "2026-10-12T04:53:42Z",
       "updated_at": "2026-10-12T04:53:42Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6413",
-      "labels": []
-    },
-    {
-      "number": 6402,
-      "title": "[gfx1250] BF16 GEMM: Triton gemm_a16w16 leaves the rows of C past byte 2^31 unwritten",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-10-11T18:09:29Z",
-      "updated_at": "2026-10-11T18:37:55Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6402",
       "labels": []
     },
     {
@@ -327,26 +357,6 @@
       "created_at": "2026-10-07T19:37:10Z",
       "updated_at": "2026-10-07T19:37:12Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6230",
-      "labels": []
-    },
-    {
-      "number": 6229,
-      "title": "[Feature]: [KimiK3] Move the a4w4 aux-sort fused/Opus crossover to 1.33 rows per expert",
-      "author": "nsusanto",
-      "state": "open",
-      "created_at": "2026-10-07T19:36:31Z",
-      "updated_at": "2026-10-07T19:36:37Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6229",
-      "labels": []
-    },
-    {
-      "number": 6228,
-      "title": "[Feature]:  [Kimi K3] tune bf 16 gemms",
-      "author": "nsusanto",
-      "state": "open",
-      "created_at": "2026-10-07T19:36:00Z",
-      "updated_at": "2026-10-07T19:36:03Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6228",
       "labels": []
     },
     {

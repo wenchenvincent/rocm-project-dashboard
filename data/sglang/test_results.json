@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-15T12:56:52Z",
+  "collected_at": "2026-10-16T12:48:34Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Nightly Test (AMD)",
-    "run_id": 38608677986,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/38608677986",
-    "run_date": "2026-10-15T01:34:01Z",
+    "run_id": 38779021639,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/38779021639",
+    "run_date": "2026-10-16T01:29:09Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 9,
@@ -16,6 +16,24 @@
     },
     "suites": [
       {
+        "name": "nightly-test-1-gpu-mi35x (rocm724, linux-mi35x-gpu-1)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "nightly-test-1-gpu-mi35x (rocm10, linux-mi35x-gpu-1)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
         "name": "nightly-test-1-gpu-unit (rocm720, linux-mi300-1gpu-sglang)",
         "conclusion": "success",
         "tests": null,
@@ -25,16 +43,7 @@
         "errors": null
       },
       {
-        "name": "nightly-test-1-gpu-unit (rocm724, linux-mi300-1gpu-sglang)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "nightly-test-1-gpu-kernel (rocm720, linux-mi300-1gpu-sglang)",
+        "name": "nightly-test-1-gpu-kernel (rocm724, linux-mi300-1gpu-sglang)",
         "conclusion": "failure",
         "tests": null,
         "passed": null,
@@ -43,7 +52,7 @@
         "errors": null
       },
       {
-        "name": "nightly-test-1-gpu-kernel (rocm724, linux-mi300-1gpu-sglang)",
+        "name": "nightly-test-1-gpu-kernel (rocm10, linux-mi300-1gpu-sglang)",
         "conclusion": "failure",
         "tests": null,
         "passed": null,
@@ -61,7 +70,16 @@
         "errors": null
       },
       {
-        "name": "nightly-test-1-gpu-kernel (rocm10, linux-mi300-1gpu-sglang)",
+        "name": "nightly-test-1-gpu-mi35x (rocm720, linux-mi35x-gpu-1)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "nightly-test-1-gpu-kernel (rocm720, linux-mi300-1gpu-sglang)",
         "conclusion": "failure",
         "tests": null,
         "passed": null,
@@ -70,25 +88,7 @@
         "errors": null
       },
       {
-        "name": "nightly-test-1-gpu-mi35x (rocm10, linux-mi35x-gpu-1)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "nightly-test-1-gpu-mi35x (rocm724, linux-mi35x-gpu-1)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "nightly-test-1-gpu-mi35x (rocm720, linux-mi35x-gpu-1)",
+        "name": "nightly-test-1-gpu-unit (rocm724, linux-mi300-1gpu-sglang)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -100,38 +100,20 @@
   },
   "cuda": {
     "workflow_name": "PR Test",
-    "run_id": 38738364599,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/38738364599",
-    "run_date": "2026-10-15T12:55:56Z",
-    "conclusion": "failure",
+    "run_id": 38901930685,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/38901930685",
+    "run_date": "2026-10-16T12:39:09Z",
+    "conclusion": "success",
     "summary": {
-      "total_jobs": 10,
-      "passed": 0,
-      "failed": 1,
-      "skipped": 9,
-      "pass_rate": 0.0
+      "total_jobs": 17,
+      "passed": 1,
+      "failed": 0,
+      "skipped": 16,
+      "pass_rate": 100.0
     },
     "suites": [
       {
         "name": "call-pr-test-extra",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "pr-test-finish",
-        "conclusion": "failure",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-b-test-${{ matrix.runner_config }}",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -149,7 +131,7 @@
         "errors": null
       },
       {
-        "name": "base-a-test-cpu",
+        "name": "base-c-test-4-gpu-gb300 / ${{ inputs.self_name }} (${{ matrix.partition }})",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -167,8 +149,8 @@
         "errors": null
       },
       {
-        "name": "base-c-test-${{ matrix.runner_config }}",
-        "conclusion": "skipped",
+        "name": "pr-test-finish",
+        "conclusion": "success",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -185,7 +167,7 @@
         "errors": null
       },
       {
-        "name": "base-a-test-${{ matrix.runner_config }}",
+        "name": "base-a-test-cpu / ${{ inputs.self_name }} (${{ matrix.partition }})",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -194,7 +176,88 @@
         "errors": null
       },
       {
-        "name": "base-c-test-${{ matrix.runner_config }}",
+        "name": "base-b-test-1-gpu-large / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-8-gpu-b300 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-b-test-4-gpu-b200 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-8-gpu-h200 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-a-test-1-gpu-small / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-b-test-1-gpu-small / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-b-test-2-gpu-large / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-4-gpu-h100 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-4-gpu-b200 / ${{ inputs.self_name }} (${{ matrix.partition }})",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-8-gpu-h20 / ${{ inputs.self_name }} (${{ matrix.partition }})",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
