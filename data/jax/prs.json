@@ -1,6 +1,44 @@
 {
-  "collected_at": "2026-10-16T12:47:00Z",
+  "collected_at": "2026-10-17T11:47:49Z",
   "prs": [
+    {
+      "number": 41331,
+      "title": "Add jax[rocm] extras that install ROCm from AMD's package index",
+      "author": "AratiGanesh",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-07T01:19:18Z",
+      "updated_at": "2026-10-17T09:08:58Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41331",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41703,
+      "title": "[DO NOT MERGE][ROCm] Migrate Pytest ROCm lane to rocmless container + pip-installed TheRock",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:08:33Z",
+      "updated_at": "2026-10-17T04:46:06Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41703",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 41702,
+      "title": "[ROCm] Trim wheel RUNPATH: drop deprecated per-family and dead tarball entries",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:05:10Z",
+      "updated_at": "2026-10-17T04:03:05Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41702",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 41660,
       "title": "[ROCm][Triton] Fix race on the HSACO file in GetModuleImage",
@@ -58,18 +96,6 @@
         "pull ready"
       ],
       "draft": false
-    },
-    {
-      "number": 41331,
-      "title": "Add jax[rocm] extras that install ROCm from AMD's package index",
-      "author": "AratiGanesh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T01:19:18Z",
-      "updated_at": "2026-10-07T19:29:09Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41331",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 41233,
@@ -548,21 +574,6 @@
       "created_at": "2026-08-17T04:40:26Z",
       "updated_at": "2026-08-19T16:52:08Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40029",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39970,
-      "title": "[ROCm] Name ROCm CI jobs after the ROCm release they test",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-13T19:11:26Z",
-      "updated_at": "2026-08-19T16:22:25Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39970",
       "labels": [
         "kokoro:force-run",
         "pull ready"

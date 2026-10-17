@@ -1,31 +1,33 @@
 {
-  "collected_at": "2026-10-16T12:48:11Z",
+  "collected_at": "2026-10-17T11:48:53Z",
   "prs": [
     {
-      "number": 736,
-      "title": "Upgrade ci to therock 10.0",
-      "author": "VeeraRajasekhar",
+      "number": 741,
+      "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
+      "author": "yaomingamd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-10T19:23:22Z",
-      "updated_at": "2026-10-16T01:23:20Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
+      "created_at": "2026-09-23T16:23:35Z",
+      "updated_at": "2026-10-17T05:12:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
       "labels": [
-        "ci-level 3"
+        "ci-level 3",
+        "community-contribution",
+        "P1"
       ],
       "draft": false
     },
     {
-      "number": 762,
-      "title": "Ipanfilo/security scaning",
+      "number": 767,
+      "title": "Fix gfx1250 build. Enable gfx1250 build as part of CI",
       "author": "ipanfilo",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-16T00:00:37Z",
-      "updated_at": "2026-10-16T00:17:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/762",
+      "created_at": "2026-10-17T03:57:35Z",
+      "updated_at": "2026-10-17T03:57:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/767",
       "labels": [
-        "ci-level 1"
+        "ci-level 2"
       ],
       "draft": true
     },
@@ -36,35 +38,51 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-15T23:08:18Z",
-      "updated_at": "2026-10-15T23:20:18Z",
+      "updated_at": "2026-10-17T00:42:00Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/761",
-      "labels": [],
+      "labels": [
+        "P2"
+      ],
       "draft": false
     },
     {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
+      "number": 766,
+      "title": "gfx1250: use hipblaslt device scalar alpha for NVFP4 GEMM",
       "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-10-15T20:48:05Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [],
+      "created_at": "2026-10-16T22:23:27Z",
+      "updated_at": "2026-10-16T22:23:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/766",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 755,
+      "title": "[TE] CK fused attention: return max_logit",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:54:41Z",
+      "updated_at": "2026-10-16T20:52:59Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
+      "labels": [
+        "P2"
+      ],
       "draft": false
     },
     {
-      "number": 760,
-      "title": "Release 2.20.2",
-      "author": "Micky774",
+      "number": 765,
+      "title": "[ROCm] CK-JIT: reinstall the CK and AITER headers on every build",
+      "author": "AllenFarcas",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-15T20:38:16Z",
-      "updated_at": "2026-10-15T20:46:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/760",
-      "labels": [
-        "ci-level 3"
-      ],
+      "created_at": "2026-10-16T20:23:02Z",
+      "updated_at": "2026-10-16T20:41:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/765",
+      "labels": [],
       "draft": false
     },
     {
@@ -74,121 +92,43 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-29T21:45:10Z",
-      "updated_at": "2026-10-15T20:42:44Z",
+      "updated_at": "2026-10-16T20:13:12Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
       "labels": [
-        "ci-level 1"
+        "ci-level 1",
+        "P2"
       ],
       "draft": true
     },
     {
-      "number": 663,
-      "title": "Initial integration of a4w4 GEMM",
+      "number": 760,
+      "title": "Release 2.20.2",
       "author": "Micky774",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-07T20:00:46Z",
-      "updated_at": "2026-10-15T20:02:56Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 741,
-      "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
-      "author": "yaomingamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T16:23:35Z",
-      "updated_at": "2026-10-15T18:55:54Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
+      "created_at": "2026-10-15T20:38:16Z",
+      "updated_at": "2026-10-16T16:28:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/760",
       "labels": [
         "ci-level 3",
-        "community-contribution"
+        "P1"
       ],
       "draft": false
     },
     {
-      "number": 755,
-      "title": "[TE] CK fused attention: return max_logit",
-      "author": "AllenFarcas",
+      "number": 762,
+      "title": "Ipanfilo/security scaning",
+      "author": "ipanfilo",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-07T15:54:41Z",
-      "updated_at": "2026-10-15T18:30:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 745,
-      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T17:13:42Z",
-      "updated_at": "2026-10-15T15:58:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "created_at": "2026-10-16T00:00:37Z",
+      "updated_at": "2026-10-16T16:28:32Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/762",
       "labels": [
-        "ci-level 1"
+        "ci-level 1",
+        "P2"
       ],
-      "draft": false
-    },
-    {
-      "number": 744,
-      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-26T19:19:41Z",
-      "updated_at": "2026-10-14T16:05:43Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 743,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T19:42:17Z",
-      "updated_at": "2026-10-14T14:15:00Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/743",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 734,
-      "title": "Persistent AG + GEMM MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T15:42:24Z",
-      "updated_at": "2026-10-14T14:00:07Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 754,
-      "title": "fix HipKittens grouped MXFP8 GEMM under CUDA graphs and enable MXFP8 grouped linear tests",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T20:38:48Z",
-      "updated_at": "2026-10-13T20:36:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/754",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
+      "draft": true
     },
     {
       "number": 759,
@@ -197,10 +137,11 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-13T15:04:03Z",
-      "updated_at": "2026-10-13T15:04:03Z",
+      "updated_at": "2026-10-16T16:28:30Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/759",
       "labels": [
-        "ci-level 1"
+        "ci-level 1",
+        "P2"
       ],
       "draft": true
     },
@@ -211,24 +152,114 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-08T22:48:40Z",
-      "updated_at": "2026-10-08T22:50:52Z",
+      "updated_at": "2026-10-16T16:28:29Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/757",
-      "labels": [],
+      "labels": [
+        "P2"
+      ],
       "draft": true
     },
     {
-      "number": 696,
-      "title": "sGPU Test Scheduling: Global Work Queue",
-      "author": "VeeraRajasekhar",
+      "number": 754,
+      "title": "fix HipKittens grouped MXFP8 GEMM under CUDA graphs and enable MXFP8 grouped linear tests",
+      "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-07T14:24:23Z",
-      "updated_at": "2026-10-01T20:20:54Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
+      "created_at": "2026-10-06T20:38:48Z",
+      "updated_at": "2026-10-16T16:28:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/754",
       "labels": [
-        "ci-level 3"
+        "ci-level 1",
+        "P2"
       ],
       "draft": false
+    },
+    {
+      "number": 745,
+      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T17:13:42Z",
+      "updated_at": "2026-10-16T16:28:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 744,
+      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-26T19:19:41Z",
+      "updated_at": "2026-10-16T16:28:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 743,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T19:42:17Z",
+      "updated_at": "2026-10-16T16:28:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/743",
+      "labels": [
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 734,
+      "title": "Persistent AG + GEMM MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T15:42:24Z",
+      "updated_at": "2026-10-16T16:28:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/734",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-10-16T16:28:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
+      "labels": [
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 724,
+      "title": "[proof-of-concept] comm overlap microbenchmarks",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T21:11:44Z",
+      "updated_at": "2026-10-16T16:28:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/724",
+      "labels": [
+        "P2"
+      ],
+      "draft": true
     },
     {
       "number": 718,
@@ -237,22 +268,98 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-26T17:11:57Z",
-      "updated_at": "2026-09-29T16:22:28Z",
+      "updated_at": "2026-10-16T16:28:18Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/718",
-      "labels": [],
+      "labels": [
+        "P2"
+      ],
       "draft": true
     },
     {
-      "number": 694,
-      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
-      "author": "sudhu2k",
+      "number": 717,
+      "title": "Integrate Grouped Gemm v2 on ROCm",
+      "author": "VeeraRajasekhar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-09-28T18:32:40Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "created_at": "2026-08-26T03:24:10Z",
+      "updated_at": "2026-10-16T16:28:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/717",
       "labels": [
-        "ci-level 1"
+        "P2"
+      ],
+      "draft": true
+    },
+    {
+      "number": 712,
+      "title": "CI: upload Python coverage.json from pytest (non-blocking)",
+      "author": "jiagaoxiang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T22:22:23Z",
+      "updated_at": "2026-10-16T16:28:17Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/712",
+      "labels": [
+        "community-contribution",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 708,
+      "title": "[ROCm] Route dense CP softmax-LSE correction through a native kernel",
+      "author": "zjin-lcf",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T21:27:04Z",
+      "updated_at": "2026-10-16T16:28:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/708",
+      "labels": [
+        "community-contribution",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 705,
+      "title": "[proof-of-concept] Kernel autotuning in TE",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-18T15:42:54Z",
+      "updated_at": "2026-10-16T16:28:15Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
+      "labels": [
+        "P2"
+      ],
+      "draft": true
+    },
+    {
+      "number": 700,
+      "title": "[gfx1250] detect when building on gfx1250, add to build archs",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-11T16:01:57Z",
+      "updated_at": "2026-10-16T16:28:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/700",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "sGPU Test Scheduling: Global Work Queue",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T14:24:23Z",
+      "updated_at": "2026-10-16T16:28:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
+      "labels": [
+        "ci-level 3",
+        "P2"
       ],
       "draft": false
     },
@@ -263,11 +370,41 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-06T19:54:03Z",
-      "updated_at": "2026-09-28T17:17:08Z",
+      "updated_at": "2026-10-16T16:28:13Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/695",
       "labels": [
         "ci-level 3",
-        "community-contribution"
+        "community-contribution",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 694,
+      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T18:46:22Z",
+      "updated_at": "2026-10-16T16:28:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "Integration of AITER a4w4 GEMM",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T20:00:46Z",
+      "updated_at": "2026-10-16T14:39:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
+      "labels": [
+        "ci-level 3"
       ],
       "draft": false
     },
@@ -281,20 +418,6 @@
       "updated_at": "2026-09-24T21:03:04Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/670",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 700,
-      "title": "[gfx1250] detect when building on gfx1250, add to build archs",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-11T16:01:57Z",
-      "updated_at": "2026-09-18T17:50:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/700",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": false
     },
     {
@@ -340,58 +463,6 @@
       "draft": false
     },
     {
-      "number": 708,
-      "title": "[ROCm] Route dense CP softmax-LSE correction through a native kernel",
-      "author": "zjin-lcf",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T21:27:04Z",
-      "updated_at": "2026-09-10T16:40:43Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/708",
-      "labels": [
-        "community-contribution"
-      ],
-      "draft": false
-    },
-    {
-      "number": 712,
-      "title": "CI: upload Python coverage.json from pytest (non-blocking)",
-      "author": "jiagaoxiang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T22:22:23Z",
-      "updated_at": "2026-09-10T16:33:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/712",
-      "labels": [
-        "community-contribution"
-      ],
-      "draft": false
-    },
-    {
-      "number": 724,
-      "title": "[proof-of-concept] comm overlap microbenchmarks",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T21:11:44Z",
-      "updated_at": "2026-09-08T20:59:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/724",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 705,
-      "title": "[proof-of-concept] Kernel autotuning in TE",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-18T15:42:54Z",
-      "updated_at": "2026-09-08T17:01:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 628,
       "title": "Enable MultiCastTranspose for expert weights",
       "author": "sudhu2k",
@@ -404,18 +475,6 @@
         "ci-level 3"
       ],
       "draft": false
-    },
-    {
-      "number": 717,
-      "title": "Integrate Grouped Gemm v2 on ROCm",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T03:24:10Z",
-      "updated_at": "2026-08-26T03:24:10Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/717",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 666,
@@ -741,6 +800,21 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 736,
+      "title": "Upgrade ci to therock 10.0",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-10T19:23:22Z",
+      "updated_at": "2026-10-16T18:44:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/736",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
       "draft": false
     },
     {
@@ -1860,48 +1934,6 @@
       "updated_at": "2026-06-25T16:52:34Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/648",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 644,
-      "title": "reuse warmup stream for graph capture",
-      "author": "dnikolaev-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-22T17:16:28Z",
-      "updated_at": "2026-06-25T14:21:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/644",
-      "labels": [
-        "ci-level 2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 585,
-      "title": "Add custom multi_tensor_apply kernels (L2norm, Adam)",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-13T15:53:32Z",
-      "updated_at": "2026-06-24T17:17:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/585",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 636,
-      "title": "add dsv4 production mxfp8 gemm shapes",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-18T20:25:10Z",
-      "updated_at": "2026-06-24T15:30:26Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/636",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": false
     }
   ]

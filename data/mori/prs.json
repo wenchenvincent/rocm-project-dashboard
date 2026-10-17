@@ -1,15 +1,113 @@
 {
-  "collected_at": "2026-10-16T12:48:03Z",
+  "collected_at": "2026-10-17T11:48:47Z",
   "prs": [
     {
+      "number": 796,
+      "title": "test(ep/v1): verify every round of --cmd stress for InterNodeV1/V1LL",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-17T06:00:45Z",
+      "updated_at": "2026-10-17T06:00:45Z",
+      "html_url": "https://github.com/ROCm/mori/pull/796",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 649,
+      "title": "register Ionic CQ/SQ/RQ rings and atomic ibuf via dmabuf",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T16:44:10Z",
+      "updated_at": "2026-10-17T05:06:27Z",
+      "html_url": "https://github.com/ROCm/mori/pull/649",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 795,
+      "title": "fix(EPv2): add a tuned flydsl EP8 table for MI300X",
+      "author": "jeffdaily",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-17T00:15:08Z",
+      "updated_at": "2026-10-17T00:15:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/795",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 733,
+      "title": "fix(EPv2): give routing handles their own buffers on request (snapshot=True)",
+      "author": "jeffdaily",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T21:48:22Z",
+      "updated_at": "2026-10-16T17:41:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/733",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 771,
+      "title": "fix(bootstrap): add retry and increase timeout in SendMessage for cross-node reliability",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T23:30:40Z",
+      "updated_at": "2026-10-16T16:59:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/771",
+      "labels": [
+        "fix-precommit"
+      ],
+      "draft": false
+    },
+    {
+      "number": 788,
+      "title": "fix(umbp): an SSD Clear keeps the staging spans local readers still hold",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T11:18:29Z",
+      "updated_at": "2026-10-16T16:06:58Z",
+      "html_url": "https://github.com/ROCm/mori/pull/788",
+      "labels": [],
+      "draft": true
+    },
+    {
       "number": 781,
-      "title": "feat(umbp): a local ranged GET off SSD reads only its extent, and overlaps the next read with the copy",
+      "title": "feat(umbp): a local ranged GET off SSD reads only its extent",
       "author": "TianDi101",
       "state": "open",
       "merged": false,
       "created_at": "2026-10-16T03:04:02Z",
-      "updated_at": "2026-10-16T12:18:09Z",
+      "updated_at": "2026-10-16T16:06:55Z",
       "html_url": "https://github.com/ROCm/mori/pull/781",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 768,
+      "title": "feat(ep/v2): AsyncLL dispatch/combine on cco, with cross-node and gfx125x support",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T09:50:38Z",
+      "updated_at": "2026-10-16T15:42:17Z",
+      "html_url": "https://github.com/ROCm/mori/pull/768",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 792,
+      "title": "cco: register the raw-pointer SDMA put and signal slot wrappers",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T15:12:10Z",
+      "updated_at": "2026-10-16T15:12:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/792",
       "labels": [],
       "draft": false
     },
@@ -26,30 +124,6 @@
       "draft": false
     },
     {
-      "number": 788,
-      "title": "fix(umbp): an SSD Clear keeps the staging spans local readers still hold",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T11:18:29Z",
-      "updated_at": "2026-10-16T11:18:29Z",
-      "html_url": "https://github.com/ROCm/mori/pull/788",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 786,
-      "title": "add cco_sdma_put_ptr_rsig__thread and  cco_sdma_signal_slot bitcode",
-      "author": "binding7012",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T09:50:45Z",
-      "updated_at": "2026-10-16T11:15:24Z",
-      "html_url": "https://github.com/ROCm/mori/pull/786",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 787,
       "title": "fix(umbp): a remote read checks after the copy that it read the right key",
       "author": "TianDi101",
@@ -60,78 +134,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/787",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 768,
-      "title": "feat(ep/v2): AsyncLL dispatch/combine on cco, with cross-node and gfx125x support",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T09:50:38Z",
-      "updated_at": "2026-10-16T10:54:23Z",
-      "html_url": "https://github.com/ROCm/mori/pull/768",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 776,
-      "title": "feat(umbp): SSD demote/promote skip staging; promoting reads land in DRAM; 4 GiB staging preset",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T08:25:25Z",
-      "updated_at": "2026-10-16T10:33:53Z",
-      "html_url": "https://github.com/ROCm/mori/pull/776",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 784,
-      "title": "fix(umbp): an in-place SSD read counts as an access",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T05:17:36Z",
-      "updated_at": "2026-10-16T10:32:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/784",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 775,
-      "title": "fix(umbp): SSD tier gives disk back a segment at a time",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T07:24:32Z",
-      "updated_at": "2026-10-16T10:32:53Z",
-      "html_url": "https://github.com/ROCm/mori/pull/775",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 783,
-      "title": "fix(umbp): a local eviction round no longer rescans its queued demotions per batch",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T05:17:33Z",
-      "updated_at": "2026-10-16T10:32:50Z",
-      "html_url": "https://github.com/ROCm/mori/pull/783",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 762,
-      "title": "fix(umbp): SSD staging no longer fails local loads; a local read holds its bytes until it is done",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T15:35:50Z",
-      "updated_at": "2026-10-16T10:15:07Z",
-      "html_url": "https://github.com/ROCm/mori/pull/762",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 785,
@@ -155,20 +157,6 @@
       "updated_at": "2026-10-16T06:22:17Z",
       "html_url": "https://github.com/ROCm/mori/pull/696",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 771,
-      "title": "fix(bootstrap): add retry and increase timeout in SendMessage for cross-node reliability",
-      "author": "kudomcho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T23:30:40Z",
-      "updated_at": "2026-10-15T22:16:33Z",
-      "html_url": "https://github.com/ROCm/mori/pull/771",
-      "labels": [
-        "fix-precommit"
-      ],
       "draft": false
     },
     {
@@ -196,18 +184,6 @@
       "draft": false
     },
     {
-      "number": 649,
-      "title": "register Ionic CQ/SQ/RQ rings and atomic ibuf via dmabuf",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-08T16:44:10Z",
-      "updated_at": "2026-10-15T18:06:00Z",
-      "html_url": "https://github.com/ROCm/mori/pull/649",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 779,
       "title": "feat(umbp): BatchTouch recency hints and eviction classes for local eviction",
       "author": "isytwu",
@@ -218,18 +194,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/779",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 733,
-      "title": "fix(EPv2): give routing handles their own buffers on request (snapshot=True)",
-      "author": "jeffdaily",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T21:48:22Z",
-      "updated_at": "2026-10-15T07:16:41Z",
-      "html_url": "https://github.com/ROCm/mori/pull/733",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 699,
@@ -278,18 +242,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/752",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 739,
-      "title": "feat(EPv2): let callers allocate mori's staging region (staging_region=)",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T09:32:40Z",
-      "updated_at": "2026-10-12T12:39:12Z",
-      "html_url": "https://github.com/ROCm/mori/pull/739",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 747,
@@ -672,6 +624,102 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 776,
+      "title": "feat(umbp): SSD demote/promote skip staging; promoting reads land in DRAM; 4 GiB staging preset",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T08:25:25Z",
+      "updated_at": "2026-10-16T15:52:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/776",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 793,
+      "title": "fix(umbp): an in-place SSD read counts as an access",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T15:46:15Z",
+      "updated_at": "2026-10-16T15:50:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/793",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 790,
+      "title": "fix(umbp): port test_peer_pool's FailingEngine to CreatePlanBuilder",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T14:37:24Z",
+      "updated_at": "2026-10-16T15:21:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/790",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 784,
+      "title": "fix(umbp): an in-place SSD read counts as an access",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T05:17:36Z",
+      "updated_at": "2026-10-16T15:20:59Z",
+      "html_url": "https://github.com/ROCm/mori/pull/784",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 775,
+      "title": "fix(umbp): SSD tier gives disk back a segment at a time",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T07:24:32Z",
+      "updated_at": "2026-10-16T15:19:39Z",
+      "html_url": "https://github.com/ROCm/mori/pull/775",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 783,
+      "title": "fix(umbp): a local eviction round no longer rescans its queued demotions per batch",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T05:17:33Z",
+      "updated_at": "2026-10-16T15:16:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/783",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 762,
+      "title": "fix(umbp): SSD staging no longer fails local loads; a local read holds its bytes until it is done",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T15:35:50Z",
+      "updated_at": "2026-10-16T15:04:58Z",
+      "html_url": "https://github.com/ROCm/mori/pull/762",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 786,
+      "title": "feat(cco): add cco_sdma_put_ptr_rsig__thread and  cco_sdma_signal_slot bitcode",
+      "author": "binding7012",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T09:50:45Z",
+      "updated_at": "2026-10-16T14:26:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/786",
       "labels": [],
       "draft": false
     },
@@ -1574,90 +1622,6 @@
       "created_at": "2026-09-16T13:20:53Z",
       "updated_at": "2026-09-17T02:00:11Z",
       "html_url": "https://github.com/ROCm/mori/pull/679",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 676,
-      "title": "tune(ep/v2): add hidden_dim=7168 (DSV4) internode launch geometry",
-      "author": "yoqiu-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-16T08:36:24Z",
-      "updated_at": "2026-09-16T13:35:03Z",
-      "html_url": "https://github.com/ROCm/mori/pull/676",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 654,
-      "title": "Add DMA buffer support to mlx5",
-      "author": "avbokovoy",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-09T12:55:20Z",
-      "updated_at": "2026-09-16T06:31:07Z",
-      "html_url": "https://github.com/ROCm/mori/pull/654",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 647,
-      "title": "perf(ep): add MI355X IntraNodeLL combine tuning",
-      "author": "xudonlyu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-08T11:37:35Z",
-      "updated_at": "2026-09-16T02:33:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/647",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 658,
-      "title": "Fix/env check mlnx qos no sudo",
-      "author": "amirakb89",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-10T21:36:48Z",
-      "updated_at": "2026-09-16T02:31:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/658",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 673,
-      "title": "Test/ep bench graph timing",
-      "author": "zhangfei829",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-15T13:55:07Z",
-      "updated_at": "2026-09-15T14:03:58Z",
-      "html_url": "https://github.com/ROCm/mori/pull/673",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 666,
-      "title": "fix(allocator): link c10_hip in JIT path for getCurrentHIPStream",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-12T10:25:47Z",
-      "updated_at": "2026-09-15T10:42:47Z",
-      "html_url": "https://github.com/ROCm/mori/pull/666",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 668,
-      "title": "refactor(EPv2): name the dispatch transport fp8 or fp4x2, not byte8",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-14T04:29:54Z",
-      "updated_at": "2026-09-14T06:24:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/668",
       "labels": [],
       "draft": false
     }

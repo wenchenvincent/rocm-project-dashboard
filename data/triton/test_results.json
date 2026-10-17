@@ -1,40 +1,22 @@
 {
-  "collected_at": "2026-10-16T12:48:42Z",
+  "collected_at": "2026-10-17T11:49:26Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Integration Tests",
-    "run_id": 38887741291,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/38887741291",
-    "run_date": "2026-10-16T11:16:02Z",
-    "conclusion": "success",
+    "run_id": 39017681953,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/39017681953",
+    "run_date": "2026-10-17T09:20:28Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 5,
-      "passed": 5,
-      "failed": 0,
+      "passed": 3,
+      "failed": 2,
       "skipped": 0,
-      "pass_rate": 100.0
+      "pass_rate": 60.0
     },
     "suites": [
       {
-        "name": "integration-tests-amd / integration-tests-amd (gfx1250-rocjitsu)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
         "name": "integration-tests-amd / integration-tests-amd (amd-gfx950)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950, rocm10.1)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -52,8 +34,26 @@
         "errors": null
       },
       {
+        "name": "integration-tests-amd / integration-tests-amd (gfx1250-rocjitsu)",
+        "conclusion": "failure",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
         "name": "integration-tests-amd / integration-tests-amd (amd-gfx90a)",
         "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950, rocm10.1)",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -64,10 +64,10 @@
   },
   "cuda": {
     "workflow_name": "Integration Tests",
-    "run_id": 38887741291,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/38887741291",
-    "run_date": "2026-10-16T11:16:02Z",
-    "conclusion": "success",
+    "run_id": 39017681953,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/39017681953",
+    "run_date": "2026-10-17T09:20:28Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 3,
       "passed": 3,

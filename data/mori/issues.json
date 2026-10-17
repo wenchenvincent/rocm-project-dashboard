@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-10-16T12:48:04Z",
+  "collected_at": "2026-10-17T11:48:47Z",
   "issues": [
+    {
+      "number": 721,
+      "title": "MoRI-IO RDMA: hipMemGetInfo free memory drops by the registered buffer size after the first transfer, later allocations fail",
+      "author": "AMD-yanfeiwang",
+      "state": "open",
+      "created_at": "2026-10-04T04:29:24Z",
+      "updated_at": "2026-10-17T03:05:41Z",
+      "html_url": "https://github.com/ROCm/mori/issues/721",
+      "labels": []
+    },
+    {
+      "number": 794,
+      "title": "[EPv2] flydsl backend asserts at op construction on MI300X: CU-scaled combine_block_num 304 exceeds xdb_flag_slots 256",
+      "author": "jeffdaily",
+      "state": "open",
+      "created_at": "2026-10-16T17:55:58Z",
+      "updated_at": "2026-10-16T17:55:58Z",
+      "html_url": "https://github.com/ROCm/mori/issues/794",
+      "labels": []
+    },
     {
       "number": 770,
       "title": "UMBP: master's GetEvictionCandidates scans its whole index per query (0.6\u20131.9 s); add a per-(node, tier) recency index",
@@ -44,16 +64,6 @@
       "labels": []
     },
     {
-      "number": 755,
-      "title": "UMBP file SSD tier never reclaims space: disk use and fds grow with bytes written; manage it by blocks like SpdkSsdTier",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-10-12T14:40:48Z",
-      "updated_at": "2026-10-12T14:40:48Z",
-      "html_url": "https://github.com/ROCm/mori/issues/755",
-      "labels": []
-    },
-    {
       "number": 749,
       "title": "UMBP: a read that outlives its lease can return another key's bytes as a successful read",
       "author": "TianDi101",
@@ -81,16 +91,6 @@
       "created_at": "2026-09-28T20:39:51Z",
       "updated_at": "2026-10-08T14:32:32Z",
       "html_url": "https://github.com/ROCm/mori/issues/715",
-      "labels": []
-    },
-    {
-      "number": 721,
-      "title": "MoRI-IO RDMA: hipMemGetInfo free memory drops by the registered buffer size after the first transfer, later allocations fail",
-      "author": "AMD-yanfeiwang",
-      "state": "open",
-      "created_at": "2026-10-04T04:29:24Z",
-      "updated_at": "2026-10-08T12:53:07Z",
-      "html_url": "https://github.com/ROCm/mori/issues/721",
       "labels": []
     },
     {

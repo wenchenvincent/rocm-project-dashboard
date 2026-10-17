@@ -1,6 +1,58 @@
 {
-  "collected_at": "2026-10-16T12:47:54Z",
+  "collected_at": "2026-10-17T11:48:38Z",
   "issues": [
+    {
+      "number": 5766,
+      "title": "[MoE][Build] Multi-arch `GPU_ARCHS=gfx942;gfx950` bakes the gfx950 instance table into 13 prebuilt `moe_ck2stages` modules, so gfx942 rejects `inter_dim=384` (breaks Qwen3-30B-A3B at TP2 under vLLM)",
+      "author": "jatseng-ai",
+      "state": "open",
+      "created_at": "2026-09-22T16:58:28Z",
+      "updated_at": "2026-10-17T08:42:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5766",
+      "labels": []
+    },
+    {
+      "number": 6644,
+      "title": "[Feature] Mamba2 selective state update (SSU) kernel",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-10-17T06:05:41Z",
+      "updated_at": "2026-10-17T06:05:41Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6644",
+      "labels": []
+    },
+    {
+      "number": 6643,
+      "title": "[Feature] Non-gated ReLU\u00b2 fused MoE for BF16 and FP8 weights",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-10-17T06:05:40Z",
+      "updated_at": "2026-10-17T06:05:40Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6643",
+      "labels": []
+    },
+    {
+      "number": 6632,
+      "title": "[Triton] [GFX950] mxfp4 GEMM perf worse on preshuffled vs un-shuffled",
+      "author": "k50112113",
+      "state": "open",
+      "created_at": "2026-10-16T16:19:48Z",
+      "updated_at": "2026-10-16T16:22:05Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6632",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6630,
+      "title": "aiter has many .co blobs with missing source code / OSS concerns",
+      "author": "LunNova",
+      "state": "open",
+      "created_at": "2026-03-28T21:42:00Z",
+      "updated_at": "2026-10-16T15:29:13Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6630",
+      "labels": []
+    },
     {
       "number": 6565,
       "title": "[Issue]: a8w4 fused_moe writes NaN at small token counts on gfx950 (uninitialized padded scratch)",
@@ -317,16 +369,6 @@
       "created_at": "2026-10-08T17:03:11Z",
       "updated_at": "2026-10-08T17:34:39Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6275",
-      "labels": []
-    },
-    {
-      "number": 5766,
-      "title": "[MoE][Build] Multi-arch `GPU_ARCHS=gfx942;gfx950` bakes the gfx950 instance table into 13 prebuilt `moe_ck2stages` modules, so gfx942 rejects `inter_dim=384` (breaks Qwen3-30B-A3B at TP2 under vLLM)",
-      "author": "jatseng-ai",
-      "state": "open",
-      "created_at": "2026-09-22T16:58:28Z",
-      "updated_at": "2026-10-08T08:54:42Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5766",
       "labels": []
     },
     {

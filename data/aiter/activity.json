@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-10-16T12:49:37Z",
+  "collected_at": "2026-10-17T11:50:15Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 282,
-      "merged": 165,
-      "closed": 112
+      "opened": 247,
+      "merged": 154,
+      "closed": 101
     },
     "last_week": {
-      "opened": 200,
-      "merged": 90,
-      "closed": 180
+      "opened": 224,
+      "merged": 102,
+      "closed": 191
     },
-    "median_time_to_merge_hours": 95.1,
-    "merge_count": 272,
-    "stale_prs": 27
+    "median_time_to_merge_hours": 93.3,
+    "merge_count": 275,
+    "stale_prs": 31
   },
   "contributors": {
-    "active_this_week": 244,
-    "total_contributors": 327,
+    "active_this_week": 238,
+    "total_contributors": 329,
     "top_contributors": [
-      {
-        "author": "AMD-yanfeiwang",
-        "prs_submitted": 15,
-        "prs_merged": 0,
-        "commits": 1
-      },
       {
         "author": "alexioslyrakis-amd",
         "prs_submitted": 15,
         "prs_merged": 12,
         "commits": 5
+      },
+      {
+        "author": "AMD-yanfeiwang",
+        "prs_submitted": 15,
+        "prs_merged": 0,
+        "commits": 1
       },
       {
         "author": "yuychang",
@@ -49,19 +49,25 @@
         "author": "Boss2002n",
         "prs_submitted": 11,
         "prs_merged": 3,
-        "commits": 32
-      },
-      {
-        "author": "yzhou103",
-        "prs_submitted": 11,
-        "prs_merged": 1,
-        "commits": 7
+        "commits": 31
       },
       {
         "author": "JiaoliangYu",
         "prs_submitted": 10,
         "prs_merged": 0,
         "commits": 2
+      },
+      {
+        "author": "yzhou103",
+        "prs_submitted": 10,
+        "prs_merged": 1,
+        "commits": 7
+      },
+      {
+        "author": "XiaobingSuper",
+        "prs_submitted": 9,
+        "prs_merged": 2,
+        "commits": 12
       },
       {
         "author": "RElbers",
@@ -74,26 +80,20 @@
         "prs_submitted": 9,
         "prs_merged": 3,
         "commits": 6
-      },
-      {
-        "author": "johannes-graner",
-        "prs_submitted": 7,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
-    "bus_factor": 9
+    "bus_factor": 14
   },
   "issue_health": {
-    "total_open": 397,
-    "opened_this_week": 23,
-    "closed_this_week": 14,
-    "unanswered": 203
+    "total_open": 401,
+    "opened_this_week": 18,
+    "closed_this_week": 12,
+    "unanswered": 211
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.2,
+    "days_since_last": 5.1,
     "avg_interval_days": 6.1,
     "total_releases": 5,
     "latest_tag": "v0.1.25"
