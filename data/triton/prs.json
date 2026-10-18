@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-10-17T11:48:15Z",
+  "collected_at": "2026-10-18T12:14:13Z",
   "prs": [
+    {
+      "number": 12345,
+      "title": "[AMD][Gluon] Add buffer descriptors and descriptor-based buffer ops",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-18T02:44:47Z",
+      "updated_at": "2026-10-18T06:46:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12345",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 12342,
       "title": "[AMD] Always insert a workgroup barrier before cluster barrier",
@@ -8,7 +20,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-17T08:31:21Z",
-      "updated_at": "2026-10-17T08:35:09Z",
+      "updated_at": "2026-10-18T04:56:38Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12342",
       "labels": [],
       "draft": false
@@ -708,18 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11068",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12060,
-      "title": "[AMD] Avoid redundant batch warps in dot layouts",
-      "author": "pculaf",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T23:07:35Z",
-      "updated_at": "2026-10-01T23:07:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12060",
-      "labels": [],
-      "draft": false
     }
   ]
 }

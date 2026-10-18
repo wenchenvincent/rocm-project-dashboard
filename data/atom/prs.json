@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-17T11:48:42Z",
+  "collected_at": "2026-10-18T12:14:42Z",
   "prs": [
     {
       "number": 2598,
@@ -8,10 +8,70 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-15T13:08:05Z",
-      "updated_at": "2026-10-17T11:37:06Z",
+      "updated_at": "2026-10-18T01:28:23Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2598",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 2605,
+      "title": "[Scheduler] Keep DP-attention ranks in one phase during prefill",
+      "author": "karverma-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T05:58:16Z",
+      "updated_at": "2026-10-17T22:35:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2605",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2600,
+      "title": "scheduler: add DP prefill-sync mode to avoid group-wide eager decode",
+      "author": "karverma-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T18:06:54Z",
+      "updated_at": "2026-10-17T22:30:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2600",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2456,
+      "title": "[AMD][DSR1] feat(dp): backpressure (lazy) DP dispatch to avoid forced-eager tail",
+      "author": "karverma-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-02T22:59:46Z",
+      "updated_at": "2026-10-17T22:27:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2456",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2621,
+      "title": "feat(offload): run lmcache_mp under multi-node DP with one loopback server per host",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-17T13:31:32Z",
+      "updated_at": "2026-10-17T13:32:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2621",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2620,
+      "title": "[Kimi-K3 DSpark] Pad the draft's block decode to 96 query heads on gfx1250",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-17T13:29:59Z",
+      "updated_at": "2026-10-17T13:30:23Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2620",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 2594,
@@ -20,7 +80,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-15T09:00:05Z",
-      "updated_at": "2026-10-17T11:36:26Z",
+      "updated_at": "2026-10-17T12:05:53Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2594",
       "labels": [],
       "draft": true
@@ -286,18 +346,6 @@
       "draft": false
     },
     {
-      "number": 2605,
-      "title": "[Scheduler] Keep DP-attention ranks in one phase during prefill",
-      "author": "karverma-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T05:58:16Z",
-      "updated_at": "2026-10-16T08:05:51Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2605",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2608,
       "title": "(recipe) Add Qwen3.8-Flash-Next AgentX Recipe",
       "author": "zhuyuhua-v",
@@ -433,30 +481,6 @@
       "labels": [
         "ci:perf"
       ],
-      "draft": false
-    },
-    {
-      "number": 2600,
-      "title": "scheduler: add DP prefill-sync mode to avoid group-wide eager decode",
-      "author": "karverma-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T18:06:54Z",
-      "updated_at": "2026-10-16T01:22:01Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2600",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2456,
-      "title": "[AMD][DSR1] feat(dp): backpressure (lazy) DP dispatch to avoid forced-eager tail",
-      "author": "karverma-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T22:59:46Z",
-      "updated_at": "2026-10-16T01:15:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2456",
-      "labels": [],
       "draft": false
     },
     {

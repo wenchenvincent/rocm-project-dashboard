@@ -1,6 +1,38 @@
 {
-  "collected_at": "2026-10-17T11:48:13Z",
+  "collected_at": "2026-10-18T12:14:11Z",
   "issues": [
+    {
+      "number": 37451,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-09-01T17:27:53Z",
+      "updated_at": "2026-10-18T02:27:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 44897,
+      "title": "[Bug] [AMD] --ep-dispatch-algorithm fake routes with the real correction bias on the aiter path",
+      "author": "ch-wan",
+      "state": "open",
+      "created_at": "2026-10-17T12:59:09Z",
+      "updated_at": "2026-10-17T16:07:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/44897",
+      "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-10-17T12:32:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
     {
       "number": 44794,
       "title": "[Bug] [AMD] select_experts casts the fp32 MoE correction bias to bf16 before #37133's fp32 aiter path, so GLM-5.x still routes with a bf16 bias",
@@ -44,18 +76,6 @@
       "labels": []
     },
     {
-      "number": 37451,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-10-16T01:09:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37451",
-      "labels": [
-        "ci-failure-tracker"
-      ]
-    },
-    {
       "number": 44374,
       "title": "[Feature] [RFC] Opt-in `toktier` tokenizer backend: exact incremental and chunk-parallel tokenization on the CPU",
       "author": "ae86zhizhi",
@@ -83,16 +103,6 @@
       "created_at": "2026-09-15T01:21:47Z",
       "updated_at": "2026-10-15T03:13:20Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/39499",
-      "labels": []
-    },
-    {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-10-15T01:24:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
       "labels": []
     },
     {
@@ -169,16 +179,6 @@
       "labels": [
         "mthreads"
       ]
-    },
-    {
-      "number": 43731,
-      "title": "[Bug] [Diffusion] Concurrent instances: scheduler silently rebinds to port+42 and requests reach the other instance",
-      "author": "Shan2L",
-      "state": "open",
-      "created_at": "2026-10-11T23:34:46Z",
-      "updated_at": "2026-10-11T23:34:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43731",
-      "labels": []
     },
     {
       "number": 43730,

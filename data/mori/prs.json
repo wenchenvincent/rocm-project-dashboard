@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-10-17T11:48:47Z",
+  "collected_at": "2026-10-18T12:14:47Z",
   "prs": [
+    {
+      "number": 798,
+      "title": "example(cco): cco-sdma all-gather with start/wait split (async mode)",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-18T10:55:25Z",
+      "updated_at": "2026-10-18T11:36:59Z",
+      "html_url": "https://github.com/ROCm/mori/pull/798",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 795,
+      "title": "fix(EPv2): add a tuned flydsl EP8 table for MI300X",
+      "author": "jeffdaily",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-17T00:15:08Z",
+      "updated_at": "2026-10-18T10:34:22Z",
+      "html_url": "https://github.com/ROCm/mori/pull/795",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 797,
+      "title": "Fall back to scoped 64-bit atomics when b128 global builtins are missing",
+      "author": "aokblast",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-18T06:24:25Z",
+      "updated_at": "2026-10-18T06:25:53Z",
+      "html_url": "https://github.com/ROCm/mori/pull/797",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 796,
       "title": "test(ep/v1): verify every round of --cmd stress for InterNodeV1/V1LL",
@@ -8,7 +44,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-17T06:00:45Z",
-      "updated_at": "2026-10-17T06:00:45Z",
+      "updated_at": "2026-10-18T03:56:34Z",
       "html_url": "https://github.com/ROCm/mori/pull/796",
       "labels": [],
       "draft": true
@@ -22,18 +58,6 @@
       "created_at": "2026-09-08T16:44:10Z",
       "updated_at": "2026-10-17T05:06:27Z",
       "html_url": "https://github.com/ROCm/mori/pull/649",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 795,
-      "title": "fix(EPv2): add a tuned flydsl EP8 table for MI300X",
-      "author": "jeffdaily",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-17T00:15:08Z",
-      "updated_at": "2026-10-17T00:15:08Z",
-      "html_url": "https://github.com/ROCm/mori/pull/795",
       "labels": [],
       "draft": false
     },

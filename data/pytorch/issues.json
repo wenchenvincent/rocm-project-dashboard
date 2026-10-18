@@ -1,6 +1,147 @@
 {
-  "collected_at": "2026-10-17T11:47:46Z",
+  "collected_at": "2026-10-18T12:13:42Z",
   "issues": [
+    {
+      "number": 201343,
+      "title": "default_collate silently drops dictionary keys when batch samples have inconsistent schemas",
+      "author": "sauravsingla",
+      "state": "open",
+      "created_at": "2026-10-18T11:48:45Z",
+      "updated_at": "2026-10-18T11:55:47Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201343",
+      "labels": [
+        "triage review",
+        "module: dataloader",
+        "module: correctness (silent)",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201119,
+      "title": "[DCP] `dcp.save` silently keeps one rank's copy when values under the same key differ across ranks, e.g. RNG state",
+      "author": "Qinyu-Xu",
+      "state": "open",
+      "created_at": "2026-10-15T22:06:21Z",
+      "updated_at": "2026-10-18T05:32:19Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201119",
+      "labels": [
+        "oncall: distributed",
+        "triaged",
+        "oncall: distributed checkpointing",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 121101,
+      "title": "Duplicate OpenMP causes deadlocks/crashes",
+      "author": "CloseChoice",
+      "state": "open",
+      "created_at": "2024-03-03T22:18:11Z",
+      "updated_at": "2026-10-17T22:29:38Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/121101",
+      "labels": [
+        "needs reproduction",
+        "module: binaries",
+        "module: crash",
+        "triaged",
+        "module: macos",
+        "module: deadlock",
+        "module: openmp",
+        "module: third_party",
+        "has workaround",
+        "module: intel"
+      ]
+    },
+    {
+      "number": 96643,
+      "title": "PyTorch SGEMV is using 1 single core on AMD CPUs (very slow)",
+      "author": "BlinkDL",
+      "state": "open",
+      "created_at": "2023-03-13T11:28:53Z",
+      "updated_at": "2026-10-17T22:27:52Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/96643",
+      "labels": [
+        "needs reproduction",
+        "module: performance",
+        "module: cpu",
+        "triaged"
+      ]
+    },
+    {
+      "number": 199765,
+      "title": "QnnPack wrongly called with QInt8 tensors",
+      "author": "Flamefire",
+      "state": "open",
+      "created_at": "2026-10-05T14:41:19Z",
+      "updated_at": "2026-10-17T22:17:47Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/199765",
+      "labels": [
+        "oncall: quantization",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201307,
+      "title": "CUDA SymmetricMemory: rank-local rendezvous failure leaves peer resources and stalls other ranks",
+      "author": "jackLei0901",
+      "state": "open",
+      "created_at": "2026-10-17T19:40:58Z",
+      "updated_at": "2026-10-17T19:43:24Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201307",
+      "labels": [
+        "oncall: distributed",
+        "triaged",
+        "bot-triaged",
+        "oncall: distributed infra"
+      ]
+    },
+    {
+      "number": 169670,
+      "title": "Energy normalization error on torch.fft.fft2 and torch.fft.ifft2 when the matrix size = [2048, 2048]",
+      "author": "Pengju-Sheng",
+      "state": "open",
+      "created_at": "2025-12-05T14:46:20Z",
+      "updated_at": "2026-10-17T18:28:42Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/169670",
+      "labels": [
+        "triaged",
+        "module: mkl",
+        "module: linear algebra",
+        "module: intel"
+      ]
+    },
+    {
+      "number": 201296,
+      "title": "[Inductor] Wrong gradient for bf16 conv -> log_softmax -> op under autocast",
+      "author": "kamisli",
+      "state": "open",
+      "created_at": "2026-10-17T18:07:02Z",
+      "updated_at": "2026-10-17T18:08:55Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201296",
+      "labels": [
+        "triage review",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 184352,
+      "title": "Python 3.15 support for PyTorch",
+      "author": "atalman",
+      "state": "open",
+      "created_at": "2026-05-19T11:20:04Z",
+      "updated_at": "2026-10-17T15:11:53Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/184352",
+      "labels": [
+        "module: ci",
+        "triaged",
+        "module: python frontend",
+        "module: python version",
+        "release-feature-request"
+      ]
+    },
     {
       "number": 201280,
       "title": "UNSTABLE trunk / linux-noble-rocm-py3.11-mi350 / test (inductor-flydsl)",
@@ -479,103 +620,6 @@
       ]
     },
     {
-      "number": 68429,
-      "title": "istft gradcheck fails on all devices",
-      "author": "peterbell10",
-      "state": "open",
-      "created_at": "2021-11-16T15:23:18Z",
-      "updated_at": "2026-10-16T20:56:07Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/68429",
-      "labels": [
-        "module: autograd",
-        "triaged",
-        "needs research",
-        "module: fft"
-      ]
-    },
-    {
-      "number": 199424,
-      "title": "DISABLED test_constants_pinned_async_parallel_copy_tasks_cuda (__main__.AOTInductorTestDualWrapper)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-02T01:17:11Z",
-      "updated_at": "2026-10-16T18:48:27Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199424",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
-      "number": 199423,
-      "title": "DISABLED test_constants_pinned_async_parallel_copy_tasks_cuda (__main__.AOTInductorTestABICompatibleGpu)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-02T01:17:08Z",
-      "updated_at": "2026-10-16T18:48:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199423",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
-      "number": 198596,
-      "title": "DISABLED test_rerun_then_pass (test.junit_xml_testdata.pytest_suite.TestJunitOutcomes)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-25T06:57:58Z",
-      "updated_at": "2026-10-16T18:48:17Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198596",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: unknown",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 198595,
-      "title": "DISABLED test_rerun_then_pass (__main__.TestJunitOutcomes)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-25T06:57:53Z",
-      "updated_at": "2026-10-16T18:48:14Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198595",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: unknown",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 199568,
-      "title": "[AOTAutograd/Inductor] Retracing decomposed dropout backward adds BF16 rounding with emulate_precision_casts",
-      "author": "RobeZH",
-      "state": "open",
-      "created_at": "2026-10-02T21:21:36Z",
-      "updated_at": "2026-10-16T18:27:39Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199568",
-      "labels": [
-        "high priority",
-        "triaged",
-        "module: correctness (silent)",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 201139,
       "title": "Triton 3.8.0 and 3.9.0 (2.14, 2.15 pins) appear to regress decode performance",
       "author": "eqy",
@@ -688,56 +732,6 @@
         "module: flaky-tests",
         "skipped",
         "oncall: profiler"
-      ]
-    },
-    {
-      "number": 198442,
-      "title": "DISABLED test_kernel_metadata_field_types (__main__.TestMetadataJsonFormat)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-24T01:11:17Z",
-      "updated_at": "2026-10-16T03:18:55Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198442",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: profiler"
-      ]
-    },
-    {
-      "number": 200879,
-      "title": "[ROCm] Batched linalg.svd and linalg.eigh fail with hipErrorInvalidConfiguration above 65536 matrices on RDNA (rocSOLVER gesvdjBatched / syevd_strided_batched)",
-      "author": "jeffdaily",
-      "state": "open",
-      "created_at": "2026-10-14T00:16:57Z",
-      "updated_at": "2026-10-15T19:26:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200879",
-      "labels": [
-        "module: rocm",
-        "triaged",
-        "module: linear algebra",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 200590,
-      "title": "[ROCm][Inductor] Add conv3d support to the composable_kernel conv autotune backend",
-      "author": "nilapate",
-      "state": "open",
-      "created_at": "2026-10-12T05:32:32Z",
-      "updated_at": "2026-10-15T19:22:12Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200590",
-      "labels": [
-        "module: performance",
-        "module: rocm",
-        "module: convolution",
-        "triaged",
-        "enhancement",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
       ]
     }
   ]

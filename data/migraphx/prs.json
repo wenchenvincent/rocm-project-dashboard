@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-10-17T11:48:19Z",
+  "collected_at": "2026-10-18T12:14:17Z",
   "prs": [
-    {
-      "number": 5397,
-      "title": "update parsers to support LLMs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T01:22:12Z",
-      "updated_at": "2026-10-17T05:54:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
-      "labels": [],
-      "draft": true
-    },
     {
       "number": 5123,
       "title": "Split symbolic dimension pass",
@@ -20,32 +8,68 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-07T19:28:05Z",
-      "updated_at": "2026-10-17T05:27:58Z",
+      "updated_at": "2026-10-18T08:45:17Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5374,
-      "title": "Add an indices type to topk, fold index converts into it, and keep the input layout",
+      "number": 5397,
+      "title": "update parsers to support LLMs",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T01:22:12Z",
+      "updated_at": "2026-10-18T02:18:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5408,
+      "title": "Filter shared subexpressions from kv-cache attention fusion outputs",
       "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-11T17:14:42Z",
-      "updated_at": "2026-10-17T03:52:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5374",
+      "created_at": "2026-10-17T22:24:17Z",
+      "updated_at": "2026-10-17T22:29:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5408",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5370,
-      "title": "Batch compile_ops across all modules from the root module",
+      "number": 5379,
+      "title": "Fuse the rotate-half concat into attention and let the K rotary write the KV cache directly",
       "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-08T21:28:11Z",
-      "updated_at": "2026-10-17T01:17:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5370",
+      "created_at": "2026-10-12T22:55:54Z",
+      "updated_at": "2026-10-17T22:26:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5379",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5352,
+      "title": "Fuse reduce reshapes",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T21:48:08Z",
+      "updated_at": "2026-10-17T17:51:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5352",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5407,
+      "title": "Zero-copy gather literals and cost-aware staging in write_literals",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-17T14:24:49Z",
+      "updated_at": "2026-10-17T15:25:36Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5407",
       "labels": [],
       "draft": false
     },
@@ -70,18 +94,6 @@
       "created_at": "2026-10-06T23:23:36Z",
       "updated_at": "2026-10-16T22:18:29Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5357",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5352,
-      "title": "Fuse reduce reshapes",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T21:48:08Z",
-      "updated_at": "2026-10-16T20:37:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5352",
       "labels": [],
       "draft": false
     },
@@ -174,18 +186,6 @@
       "labels": [
         "Windows"
       ],
-      "draft": false
-    },
-    {
-      "number": 5379,
-      "title": "Fuse the rotate-half concat into attention and let the K rotary write the KV cache directly",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T22:55:54Z",
-      "updated_at": "2026-10-16T14:22:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5379",
-      "labels": [],
       "draft": false
     },
     {
@@ -1682,6 +1682,30 @@
       "draft": true
     },
     {
+      "number": 5370,
+      "title": "Batch compile_ops across all modules from the root module",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T21:28:11Z",
+      "updated_at": "2026-10-17T14:18:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5370",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5374,
+      "title": "Add an indices type to topk, fold index converts into it, and keep the input layout",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-11T17:14:42Z",
+      "updated_at": "2026-10-17T14:17:43Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5374",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5399,
       "title": "Expose MIGraphX log level control in the Python API",
       "author": "anupsing-amd",
@@ -2686,33 +2710,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5001",
       "labels": [
         "llm"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5322,
-      "title": "Optimize MLIR compile time by disabling nested threading",
-      "author": "umangyadav",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-27T21:00:36Z",
-      "updated_at": "2026-09-28T18:35:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5322",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5310,
-      "title": "Update CHANGELOG.md",
-      "author": "eddieliao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-24T19:33:05Z",
-      "updated_at": "2026-09-28T16:11:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5310",
-      "labels": [
-        "documentation",
-        "skip bot checks"
       ],
       "draft": false
     }

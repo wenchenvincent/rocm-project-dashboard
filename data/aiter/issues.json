@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-10-17T11:48:38Z",
+  "collected_at": "2026-10-18T12:14:37Z",
   "issues": [
+    {
+      "number": 6643,
+      "title": "[Feature] Non-gated ReLU\u00b2 fused MoE for BF16 and FP8 weights",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-10-17T06:05:40Z",
+      "updated_at": "2026-10-17T23:25:36Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6643",
+      "labels": []
+    },
+    {
+      "number": 6647,
+      "title": "[Issue]: Per-tensor quantization writes past output tails for widths not divisible by four",
+      "author": "akshatvishu",
+      "state": "open",
+      "created_at": "2026-10-17T17:57:19Z",
+      "updated_at": "2026-10-17T17:57:19Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6647",
+      "labels": []
+    },
     {
       "number": 5766,
       "title": "[MoE][Build] Multi-arch `GPU_ARCHS=gfx942;gfx950` bakes the gfx950 instance table into 13 prebuilt `moe_ck2stages` modules, so gfx942 rejects `inter_dim=384` (breaks Qwen3-30B-A3B at TP2 under vLLM)",
@@ -19,16 +39,6 @@
       "created_at": "2026-10-17T06:05:41Z",
       "updated_at": "2026-10-17T06:05:41Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6644",
-      "labels": []
-    },
-    {
-      "number": 6643,
-      "title": "[Feature] Non-gated ReLU\u00b2 fused MoE for BF16 and FP8 weights",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2026-10-17T06:05:40Z",
-      "updated_at": "2026-10-17T06:05:40Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6643",
       "labels": []
     },
     {
@@ -1831,7 +1841,7 @@
       "author": "ZJLi2013",
       "state": "open",
       "created_at": "2026-07-30T08:32:25Z",
-      "updated_at": "2026-07-30T08:32:25Z",
+      "updated_at": "2026-10-18T11:05:23Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4456",
       "labels": []
     },
