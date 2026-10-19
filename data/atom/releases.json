@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-10-18T12:14:45Z",
+  "collected_at": "2026-10-19T15:05:28Z",
   "releases": [
+    {
+      "tag_name": "v0.1.8",
+      "name": "ATOM v0.1.8",
+      "published_at": "2026-10-19T06:39:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/releases/tag/v0.1.8",
+      "prerelease": false
+    },
     {
       "tag_name": "v0.1.7",
       "name": "ATOM v0.1.7",
@@ -27,13 +34,6 @@
       "name": "v0.1.5",
       "published_at": "2026-06-22T18:03:57Z",
       "html_url": "https://github.com/ROCm/ATOM/releases/tag/v0.1.5",
-      "prerelease": false
-    },
-    {
-      "tag_name": "v0.1.4",
-      "name": "v0.1.4",
-      "published_at": "2026-06-06T20:01:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/releases/tag/v0.1.4",
       "prerelease": false
     }
   ]

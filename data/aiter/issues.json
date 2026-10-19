@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-10-18T12:14:37Z",
+  "collected_at": "2026-10-19T15:05:20Z",
   "issues": [
+    {
+      "number": 6667,
+      "title": "[Issue]: bench_conv2d.py: Torch column is near zero for MIOpen 3x3 convs on Windows: do_bench's 256 MiB cache clear triggers a HIP event-timing defect",
+      "author": "Ragua1",
+      "state": "open",
+      "created_at": "2026-10-19T11:22:58Z",
+      "updated_at": "2026-10-19T11:22:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6667",
+      "labels": []
+    },
+    {
+      "number": 5894,
+      "title": "[Bug] [fa]gfx950 hd128 causal bwd kernels write dK = 0 under GPU sharing (missing s_barrier)",
+      "author": "Johnsonms",
+      "state": "open",
+      "created_at": "2026-09-27T21:45:10Z",
+      "updated_at": "2026-10-19T07:17:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5894",
+      "labels": []
+    },
+    {
+      "number": 4456,
+      "title": "[Issue]: [FMHA] flash_attn_varlen_func paged path raises UnboundLocalError: filter_fwd at head_dim=64",
+      "author": "ZJLi2013",
+      "state": "open",
+      "created_at": "2026-07-30T08:32:25Z",
+      "updated_at": "2026-10-18T11:05:23Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4456",
+      "labels": []
+    },
     {
       "number": 6643,
       "title": "[Feature] Non-gated ReLU\u00b2 fused MoE for BF16 and FP8 weights",
@@ -759,16 +789,6 @@
       "created_at": "2026-09-28T14:38:34Z",
       "updated_at": "2026-09-28T14:55:58Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5916",
-      "labels": []
-    },
-    {
-      "number": 5894,
-      "title": "[Bug] [fa]gfx950 hd128 causal bwd kernels write dK = 0 under GPU sharing (missing s_barrier)",
-      "author": "Johnsonms",
-      "state": "open",
-      "created_at": "2026-09-27T21:45:10Z",
-      "updated_at": "2026-09-27T22:01:57Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5894",
       "labels": []
     },
     {
@@ -1833,16 +1853,6 @@
       "created_at": "2026-07-31T04:40:47Z",
       "updated_at": "2026-07-31T04:40:47Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4477",
-      "labels": []
-    },
-    {
-      "number": 4456,
-      "title": "[Issue]: [FMHA] flash_attn_varlen_func paged path raises UnboundLocalError: filter_fwd at head_dim=64",
-      "author": "ZJLi2013",
-      "state": "open",
-      "created_at": "2026-07-30T08:32:25Z",
-      "updated_at": "2026-10-18T11:05:23Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4456",
       "labels": []
     },
     {

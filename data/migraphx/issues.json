@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-18T12:14:20Z",
+  "collected_at": "2026-10-19T15:04:58Z",
   "issues": [
+    {
+      "number": 5410,
+      "title": "[Issue]: ONNX Runtime MiGraphX EP: pixel_unshuffle Transpose view is read at wrong offsets; SpaceToDepth + permuted Conv weights avoids it",
+      "author": "cminnoy",
+      "state": "open",
+      "created_at": "2026-10-19T09:59:04Z",
+      "updated_at": "2026-10-19T09:59:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5410",
+      "labels": []
+    },
     {
       "number": 5375,
       "title": "MLIR compile abort: rock.transform with empty attributes fails type inference on a large detection transformer (Windows, gfx1100)",

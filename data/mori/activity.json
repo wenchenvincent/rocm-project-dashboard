@@ -1,29 +1,29 @@
 {
-  "collected_at": "2026-10-18T12:17:38Z",
+  "collected_at": "2026-10-19T15:08:53Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 46,
-      "merged": 36,
-      "closed": 10
+      "opened": 49,
+      "merged": 31,
+      "closed": 8
     },
     "last_week": {
-      "opened": 22,
-      "merged": 12,
-      "closed": 4
+      "opened": 31,
+      "merged": 20,
+      "closed": 6
     },
-    "median_time_to_merge_hours": 28.4,
-    "merge_count": 49,
+    "median_time_to_merge_hours": 23.8,
+    "merge_count": 52,
     "stale_prs": 27
   },
   "contributors": {
     "active_this_week": 18,
-    "total_contributors": 37,
+    "total_contributors": 38,
     "top_contributors": [
       {
         "author": "TianDi101",
-        "prs_submitted": 22,
+        "prs_submitted": 25,
         "prs_merged": 17,
         "commits": 15
       },
@@ -32,6 +32,18 @@
         "prs_submitted": 20,
         "prs_merged": 13,
         "commits": 12
+      },
+      {
+        "author": "yangyuhuiling",
+        "prs_submitted": 12,
+        "prs_merged": 3,
+        "commits": 2
+      },
+      {
+        "author": "isytwu",
+        "prs_submitted": 10,
+        "prs_merged": 6,
+        "commits": 5
       },
       {
         "author": "kawhil-amd",
@@ -52,48 +64,36 @@
         "commits": 1
       },
       {
-        "author": "isytwu",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 3
-      },
-      {
-        "author": "yangyuhuiling",
-        "prs_submitted": 7,
-        "prs_merged": 3,
-        "commits": 2
-      },
-      {
         "author": "QizhouZhang97",
-        "prs_submitted": 7,
-        "prs_merged": 6,
-        "commits": 3
-      },
-      {
-        "author": "maning00",
         "prs_submitted": 6,
-        "prs_merged": 4,
-        "commits": 2
+        "prs_merged": 5,
+        "commits": 3
       },
       {
         "author": "pemeliya",
         "prs_submitted": 5,
         "prs_merged": 4,
         "commits": 3
+      },
+      {
+        "author": "maning00",
+        "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 2
       }
     ],
     "bus_factor": 4
   },
   "issue_health": {
-    "total_open": 30,
-    "opened_this_week": 6,
-    "closed_this_week": 2,
-    "unanswered": 7
+    "total_open": 29,
+    "opened_this_week": 5,
+    "closed_this_week": 3,
+    "unanswered": 8
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 6.1,
+    "days_since_last": 7.2,
     "avg_interval_days": 27.0,
     "total_releases": 5,
     "latest_tag": "v1.2.4"

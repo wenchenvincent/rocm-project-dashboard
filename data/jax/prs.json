@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-10-18T12:13:46Z",
+  "collected_at": "2026-10-19T15:04:16Z",
   "prs": [
+    {
+      "number": 41702,
+      "title": "[ROCm] Trim wheel RUNPATH: drop deprecated per-family and dead tarball entries",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:05:10Z",
+      "updated_at": "2026-10-19T03:49:48Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41702",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 41703,
+      "title": "[DO NOT MERGE][ROCm] Migrate Pytest ROCm lane to rocmless container + pip-installed TheRock",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:08:33Z",
+      "updated_at": "2026-10-19T03:11:24Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41703",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 41331,
       "title": "Add jax[rocm] extras that install ROCm from AMD's package index",
@@ -14,30 +38,6 @@
         "pull ready"
       ],
       "draft": false
-    },
-    {
-      "number": 41703,
-      "title": "[DO NOT MERGE][ROCm] Migrate Pytest ROCm lane to rocmless container + pip-installed TheRock",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T19:08:33Z",
-      "updated_at": "2026-10-17T04:46:06Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41703",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 41702,
-      "title": "[ROCm] Trim wheel RUNPATH: drop deprecated per-family and dead tarball entries",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T19:05:10Z",
-      "updated_at": "2026-10-17T04:03:05Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41702",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 41660,

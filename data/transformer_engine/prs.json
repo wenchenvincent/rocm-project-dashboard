@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-18T12:14:54Z",
+  "collected_at": "2026-10-19T15:05:39Z",
   "prs": [
     {
       "number": 746,
@@ -8,11 +8,25 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-29T21:45:10Z",
-      "updated_at": "2026-10-18T02:59:13Z",
+      "updated_at": "2026-10-19T14:21:33Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
       "labels": [
         "ci-level 1",
         "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 755,
+      "title": "[TE] CK fused attention: return max_logit",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:54:41Z",
+      "updated_at": "2026-10-19T03:04:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
+      "labels": [
+        "P1"
       ],
       "draft": false
     },
@@ -23,7 +37,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-23T16:23:35Z",
-      "updated_at": "2026-10-17T05:12:51Z",
+      "updated_at": "2026-10-18T23:48:39Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
       "labels": [
         "ci-level 3",
@@ -47,20 +61,6 @@
       "draft": true
     },
     {
-      "number": 761,
-      "title": "Fix AMD copyright headers",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T23:08:18Z",
-      "updated_at": "2026-10-17T00:42:00Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/761",
-      "labels": [
-        "P2"
-      ],
-      "draft": false
-    },
-    {
       "number": 766,
       "title": "gfx1250: use hipblaslt device scalar alpha for NVFP4 GEMM",
       "author": "matthiasdiener",
@@ -73,20 +73,6 @@
         "ci-level 1"
       ],
       "draft": true
-    },
-    {
-      "number": 755,
-      "title": "[TE] CK fused attention: return max_logit",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:54:41Z",
-      "updated_at": "2026-10-16T20:52:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
-      "labels": [
-        "P2"
-      ],
-      "draft": false
     },
     {
       "number": 765,
@@ -185,21 +171,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
       "labels": [
         "ci-level 1",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 744,
-      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-26T19:19:41Z",
-      "updated_at": "2026-10-16T16:28:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
-      "labels": [
-        "ci-level 3",
         "P2"
       ],
       "draft": false
@@ -800,6 +771,35 @@
       "updated_at": "2026-04-07T14:07:28Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/225",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 761,
+      "title": "Fix AMD copyright headers",
+      "author": "AllenFarcas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-15T23:08:18Z",
+      "updated_at": "2026-10-19T03:02:41Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/761",
+      "labels": [
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 744,
+      "title": "Replace the gfx950 blockwise FP8 running-scale accumulator",
+      "author": "wangye805",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-26T19:19:41Z",
+      "updated_at": "2026-10-19T02:58:12Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/744",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
       "draft": false
     },
     {
@@ -1908,32 +1908,6 @@
       "labels": [
         "ci-level 2"
       ],
-      "draft": false
-    },
-    {
-      "number": 566,
-      "title": "HipKittens MXFP8 GEMM Support",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-28T05:16:00Z",
-      "updated_at": "2026-06-25T18:52:32Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/566",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 648,
-      "title": "Add DeepSeek shapes to C++ benchmarks",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-23T16:22:26Z",
-      "updated_at": "2026-06-25T16:52:34Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/648",
-      "labels": [],
       "draft": false
     }
   ]

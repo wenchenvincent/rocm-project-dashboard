@@ -1,6 +1,186 @@
 {
-  "collected_at": "2026-10-18T12:14:47Z",
+  "collected_at": "2026-10-19T15:05:31Z",
   "prs": [
+    {
+      "number": 792,
+      "title": "cco: expose ccoSdma's full put/get API to FlyDSL and Triton",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T15:12:10Z",
+      "updated_at": "2026-10-19T14:53:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/792",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 649,
+      "title": "register Ionic CQ/SQ/RQ rings and atomic ibuf via dmabuf",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-08T16:44:10Z",
+      "updated_at": "2026-10-19T14:49:29Z",
+      "html_url": "https://github.com/ROCm/mori/pull/649",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 810,
+      "title": "feat(umbp): register large host DRAM buffers as several NIC memory regions (UMBP_DRAM_MAX_MR_BYTES)",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T14:15:20Z",
+      "updated_at": "2026-10-19T14:32:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/810",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 801,
+      "title": "perf(ep/asyncll): fuse put-signal and drop drains",
+      "author": "JiaweiHawk",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T03:57:44Z",
+      "updated_at": "2026-10-19T13:47:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/801",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 809,
+      "title": "ag_gemm: all-gather fused into the fp8 GEMM that consumes it",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T11:32:43Z",
+      "updated_at": "2026-10-19T11:32:43Z",
+      "html_url": "https://github.com/ROCm/mori/pull/809",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 805,
+      "title": "feat(cco): 2D SDMA put/get via the LINEAR_LARGE_SUB_WINDOW packet",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T07:14:15Z",
+      "updated_at": "2026-10-19T11:02:54Z",
+      "html_url": "https://github.com/ROCm/mori/pull/805",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "opt v2 internode",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T03:05:00Z",
+      "updated_at": "2026-10-19T10:11:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/696",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 785,
+      "title": "fix(gemm-ar): drain the peeled tail's producers instead of tightening the loop",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T09:35:30Z",
+      "updated_at": "2026-10-19T09:03:17Z",
+      "html_url": "https://github.com/ROCm/mori/pull/785",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 808,
+      "title": "fix(umbp): count SSD keys without snapshotting them",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T08:22:14Z",
+      "updated_at": "2026-10-19T08:22:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/808",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 807,
+      "title": "gemm_ag: GEMM fused with an all-gather over cco",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T07:48:20Z",
+      "updated_at": "2026-10-19T07:48:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/807",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 806,
+      "title": "perf(gemm-ar): mxfp8 with row-major scales staged through LDS",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T07:36:54Z",
+      "updated_at": "2026-10-19T07:36:54Z",
+      "html_url": "https://github.com/ROCm/mori/pull/806",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 804,
+      "title": "fix(umbp): commit to the backend outside the pool lock",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T06:33:25Z",
+      "updated_at": "2026-10-19T06:43:05Z",
+      "html_url": "https://github.com/ROCm/mori/pull/804",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 803,
+      "title": "Fix/xgmi ipc handle device ordinal",
+      "author": "tjtanaa",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T06:10:42Z",
+      "updated_at": "2026-10-19T06:10:42Z",
+      "html_url": "https://github.com/ROCm/mori/pull/803",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 802,
+      "title": "gemm_ar: fused GEMM + reduce-scatter for sequence parallelism",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T04:45:40Z",
+      "updated_at": "2026-10-19T04:45:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/802",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 768,
+      "title": "feat(ep/v2): AsyncLL dispatch/combine on cco, with cross-node and gfx125x support",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T09:50:38Z",
+      "updated_at": "2026-10-19T09:37:43Z",
+      "html_url": "https://github.com/ROCm/mori/pull/768",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 798,
       "title": "example(cco): cco-sdma all-gather with start/wait split (async mode)",
@@ -8,7 +188,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-18T10:55:25Z",
-      "updated_at": "2026-10-18T11:36:59Z",
+      "updated_at": "2026-10-19T04:01:27Z",
       "html_url": "https://github.com/ROCm/mori/pull/798",
       "labels": [],
       "draft": false
@@ -50,30 +230,6 @@
       "draft": true
     },
     {
-      "number": 649,
-      "title": "register Ionic CQ/SQ/RQ rings and atomic ibuf via dmabuf",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-08T16:44:10Z",
-      "updated_at": "2026-10-17T05:06:27Z",
-      "html_url": "https://github.com/ROCm/mori/pull/649",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 733,
-      "title": "fix(EPv2): give routing handles their own buffers on request (snapshot=True)",
-      "author": "jeffdaily",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T21:48:22Z",
-      "updated_at": "2026-10-16T17:41:35Z",
-      "html_url": "https://github.com/ROCm/mori/pull/733",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 771,
       "title": "fix(bootstrap): add retry and increase timeout in SendMessage for cross-node reliability",
       "author": "kudomcho",
@@ -112,30 +268,6 @@
       "draft": false
     },
     {
-      "number": 768,
-      "title": "feat(ep/v2): AsyncLL dispatch/combine on cco, with cross-node and gfx125x support",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T09:50:38Z",
-      "updated_at": "2026-10-16T15:42:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/768",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 792,
-      "title": "cco: register the raw-pointer SDMA put and signal slot wrappers",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T15:12:10Z",
-      "updated_at": "2026-10-16T15:12:10Z",
-      "html_url": "https://github.com/ROCm/mori/pull/792",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 730,
       "title": "draft: perf(ep/asyncll): fuse recv-count signal onto send QP, defer CQE drain",
       "author": "yoqiu-amd",
@@ -158,30 +290,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/787",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 785,
-      "title": "fix(gemm-ar): drain the peeled tail's producers instead of tightening the loop",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T09:35:30Z",
-      "updated_at": "2026-10-16T09:35:30Z",
-      "html_url": "https://github.com/ROCm/mori/pull/785",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 696,
-      "title": "opt v2 internode",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T03:05:00Z",
-      "updated_at": "2026-10-16T06:22:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/696",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 780,
@@ -648,6 +756,42 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 799,
+      "title": "fix(umbp): pool the gather streams so the standalone server stops leaking them",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-19T01:33:59Z",
+      "updated_at": "2026-10-19T08:07:06Z",
+      "html_url": "https://github.com/ROCm/mori/pull/799",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 800,
+      "title": "fix(umbp): create the standalone server's HIP queues before it serves",
+      "author": "isytwu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-19T01:43:00Z",
+      "updated_at": "2026-10-19T08:06:26Z",
+      "html_url": "https://github.com/ROCm/mori/pull/800",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 733,
+      "title": "fix(EPv2): give routing handles their own buffers on request (snapshot=True)",
+      "author": "jeffdaily",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-09T21:48:22Z",
+      "updated_at": "2026-10-19T06:35:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/733",
       "labels": [],
       "draft": false
     },
@@ -1622,30 +1766,6 @@
       "created_at": "2026-09-11T09:22:11Z",
       "updated_at": "2026-09-17T03:08:10Z",
       "html_url": "https://github.com/ROCm/mori/pull/662",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 669,
-      "title": "intra ci migrate",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-14T08:58:29Z",
-      "updated_at": "2026-09-17T02:11:35Z",
-      "html_url": "https://github.com/ROCm/mori/pull/669",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 679,
-      "title": "perf(umbp): ask for transparent hugepages on the anonymous DRAM tier",
-      "author": "maning00",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-16T13:20:53Z",
-      "updated_at": "2026-09-17T02:00:11Z",
-      "html_url": "https://github.com/ROCm/mori/pull/679",
       "labels": [],
       "draft": false
     }

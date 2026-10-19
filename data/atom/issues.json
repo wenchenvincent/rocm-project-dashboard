@@ -1,6 +1,29 @@
 {
-  "collected_at": "2026-10-18T12:14:44Z",
+  "collected_at": "2026-10-19T15:05:28Z",
   "issues": [
+    {
+      "number": 2634,
+      "title": "[RFC] Add MORI-UMBP KV Cache Offloading for ATOM",
+      "author": "charxwu",
+      "state": "open",
+      "created_at": "2026-10-19T08:17:55Z",
+      "updated_at": "2026-10-19T08:17:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2634",
+      "labels": []
+    },
+    {
+      "number": 2623,
+      "title": "[Perf Regression] 13 config(s) regressed @ df86c482",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-19T00:20:14Z",
+      "updated_at": "2026-10-19T00:20:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2623",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 2622,
       "title": "[Perf Regression] 9 config(s) regressed @ df86c482",
