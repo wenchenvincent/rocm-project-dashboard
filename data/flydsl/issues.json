@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-19T15:05:37Z",
+  "collected_at": "2026-10-20T13:06:49Z",
   "issues": [
     {
       "number": 1273,
@@ -7,7 +7,7 @@
       "author": "HuangWei-95",
       "state": "open",
       "created_at": "2026-10-12T02:24:05Z",
-      "updated_at": "2026-10-15T07:52:35Z",
+      "updated_at": "2026-10-19T23:52:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1273",
       "labels": []
     },

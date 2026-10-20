@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-10-19T15:04:50Z",
+  "collected_at": "2026-10-20T13:06:05Z",
   "prs": [
+    {
+      "number": 12382,
+      "title": "[AMD] Add option for per-kernel clopt control",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T06:28:52Z",
+      "updated_at": "2026-10-20T09:49:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12382",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12356,
       "title": "[QoL] Extend llvm build targets to support building AMD codegen commit",
@@ -8,10 +20,58 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-19T12:39:47Z",
-      "updated_at": "2026-10-19T12:40:07Z",
+      "updated_at": "2026-10-20T09:44:59Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12356",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12115,
+      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
+      "author": "dhernandez0",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T10:00:49Z",
+      "updated_at": "2026-10-20T08:17:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12115",
+      "labels": [],
       "draft": true
+    },
+    {
+      "number": 12373,
+      "title": "[AMD] Move CU-mode barrier test into its own file",
+      "author": "mgehre-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-19T21:53:36Z",
+      "updated_at": "2026-10-20T07:34:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12373",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11880,
+      "title": "[AMD] Compute the HIP pointer-range bit natively",
+      "author": "lijinpei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-20T18:39:30Z",
+      "updated_at": "2026-10-20T07:17:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11880",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12238,
+      "title": "[AMD][CI] rocjitsu bump",
+      "author": "sriakrish",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T01:20:09Z",
+      "updated_at": "2026-10-20T07:03:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12238",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 12342,
@@ -20,8 +80,68 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-17T08:31:21Z",
-      "updated_at": "2026-10-19T10:05:46Z",
+      "updated_at": "2026-10-19T20:52:48Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12342",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12371,
+      "title": "[AMD] Fix LLVM symbol clash in TRITON_EXT_ENABLED builds",
+      "author": "RolaoDenthu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T20:40:46Z",
+      "updated_at": "2026-10-19T20:40:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12371",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12034,
+      "title": "[GSan] Support symmetric memory allocator on AMD (HIP)",
+      "author": "amgddm",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T22:15:34Z",
+      "updated_at": "2026-10-19T19:02:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12034",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11968,
+      "title": "[AMD] Add a pre-bound HIP kernel launcher",
+      "author": "adityakankariya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T17:15:22Z",
+      "updated_at": "2026-10-19T18:22:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11968",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12325,
+      "title": "[AMD] Add native JIT cache dispatch for HIP",
+      "author": "adityakankariya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T21:46:55Z",
+      "updated_at": "2026-10-19T18:22:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12325",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12362,
+      "title": "[AMD] Fix AMD codegen rebuilds after LLVM dependency updates",
+      "author": "willghatch",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T16:52:16Z",
+      "updated_at": "2026-10-19T16:56:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12362",
       "labels": [],
       "draft": false
     },
@@ -58,30 +178,6 @@
       "created_at": "2026-10-15T21:43:38Z",
       "updated_at": "2026-10-16T04:00:23Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12324",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12325,
-      "title": "[AMD] Add native JIT cache dispatch for HIP",
-      "author": "adityakankariya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T21:46:55Z",
-      "updated_at": "2026-10-15T22:51:57Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12325",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11968,
-      "title": "[AMD] Add a pre-bound HIP kernel launcher",
-      "author": "adityakankariya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T17:15:22Z",
-      "updated_at": "2026-10-15T22:26:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11968",
       "labels": [],
       "draft": false
     },
@@ -266,18 +362,6 @@
       "draft": false
     },
     {
-      "number": 12115,
-      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
-      "author": "dhernandez0",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T10:00:49Z",
-      "updated_at": "2026-10-13T09:31:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12115",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12171,
       "title": "[AMD][FpSan] Support scaled FP4 and FP8 downcasts",
       "author": "kelesvol",
@@ -300,18 +384,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/11904",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12238,
-      "title": "[AMD][CI] rocjitsu bump",
-      "author": "sriakrish",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T01:20:09Z",
-      "updated_at": "2026-10-13T01:48:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12238",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12133,
@@ -530,18 +602,6 @@
       "draft": false
     },
     {
-      "number": 11880,
-      "title": "[AMD] Compute the HIP pointer-range bit natively",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-20T18:39:30Z",
-      "updated_at": "2026-10-08T20:29:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11880",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12179,
       "title": "[AMD] Fix s_memrealtime waitcnt for gfx9",
       "author": "dsidler",
@@ -614,18 +674,6 @@
       "draft": false
     },
     {
-      "number": 12159,
-      "title": "[AMD] Keep shared order in CoalesceAsyncCopy when the src order cannot lower to direct-to-LDS",
-      "author": "he-yufeng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:17:18Z",
-      "updated_at": "2026-10-07T15:17:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12159",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12123,
       "title": "[AMD] Match the standalone code generator's NDEBUG to its LLVM's",
       "author": "tyb0807",
@@ -650,18 +698,6 @@
       "draft": false
     },
     {
-      "number": 12149,
-      "title": "[AMD][Gluon] Add CDNA5 WMMA issue mode control",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T23:24:15Z",
-      "updated_at": "2026-10-07T07:00:50Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12149",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12154,
       "title": "[AMD][gfx1250] Lower math.fma to packed FMA",
       "author": "antiagainst",
@@ -682,42 +718,6 @@
       "created_at": "2026-10-06T12:16:50Z",
       "updated_at": "2026-10-07T04:33:04Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12140",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12143,
-      "title": "[AMD][Gluon] Support CTA-local slicing in the CDNA5 MXFP GEMM example",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-06T13:03:45Z",
-      "updated_at": "2026-10-07T04:12:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12143",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12034,
-      "title": "[GSan] Support symmetric memory allocator on AMD (HIP)",
-      "author": "amgddm",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T22:15:34Z",
-      "updated_at": "2026-10-06T06:45:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12034",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12083,
-      "title": "Catch LLVM diagnostic and raise Python exception in both Nvidia and AMD backends",
-      "author": "woct0rdho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-03T03:01:32Z",
-      "updated_at": "2026-10-03T05:44:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12083",
       "labels": [],
       "draft": false
     }

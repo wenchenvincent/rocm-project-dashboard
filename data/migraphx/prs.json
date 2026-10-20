@@ -1,6 +1,117 @@
 {
-  "collected_at": "2026-10-19T15:04:55Z",
+  "collected_at": "2026-10-20T13:06:09Z",
   "prs": [
+    {
+      "number": 5413,
+      "title": "Preserve arg-reduction axes during reshape fusion",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T07:44:18Z",
+      "updated_at": "2026-10-20T09:10:59Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5413",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5412,
+      "title": "Apply MatMulInteger zero-point corrections in int32",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T06:15:40Z",
+      "updated_at": "2026-10-20T06:15:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5412",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5409,
+      "title": "Lower com.ryzenai MatMulNBits, GQO, and SSMLP",
+      "author": "cliffcai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T08:27:32Z",
+      "updated_at": "2026-10-20T05:43:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5409",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5401,
+      "title": "Support per-channel quantized models with expanded QDQ parameters",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T06:00:42Z",
+      "updated_at": "2026-10-20T04:16:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5401",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5407,
+      "title": "Zero-copy gather literals and cost-aware staging in write_literals",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-17T14:24:49Z",
+      "updated_at": "2026-10-20T00:32:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5407",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5123,
+      "title": "Split symbolic dimension pass",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T19:28:05Z",
+      "updated_at": "2026-10-19T22:49:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5397,
+      "title": "update parsers to support LLMs",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T01:22:12Z",
+      "updated_at": "2026-10-19T20:56:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5351,
+      "title": "Fix invalid const attribute on generated fused reductions",
+      "author": "ahsan-ca",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T17:17:44Z",
+      "updated_at": "2026-10-19T20:02:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5351",
+      "labels": [
+        "high priority",
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5354,
+      "title": "Update for MoE to merge per task into a single kernel.",
+      "author": "TedThemistokleous",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T03:03:03Z",
+      "updated_at": "2026-10-19T18:29:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5354",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5373,
       "title": "docs: update installation docs with TheRock packages",
@@ -31,30 +142,6 @@
       "draft": false
     },
     {
-      "number": 5409,
-      "title": "Lower com.ryzenai MatMulNBits, GQO, and SSMLP",
-      "author": "cliffcai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-19T08:27:32Z",
-      "updated_at": "2026-10-19T13:36:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5409",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5401,
-      "title": "Support per-channel quantized models with expanded QDQ parameters",
-      "author": "royzhang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T06:00:42Z",
-      "updated_at": "2026-10-19T07:04:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5401",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5405,
       "title": "Gate MLIR attention fusion on profitability and enable it by default",
       "author": "pfultz2",
@@ -63,18 +150,6 @@
       "created_at": "2026-10-16T19:39:05Z",
       "updated_at": "2026-10-19T04:57:22Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5405",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5354,
-      "title": "Update for MoE to merge per task into a single kernel.",
-      "author": "TedThemistokleous",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T03:03:03Z",
-      "updated_at": "2026-10-19T03:03:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5354",
       "labels": [],
       "draft": false
     },
@@ -89,30 +164,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5408",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5123,
-      "title": "Split symbolic dimension pass",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T19:28:05Z",
-      "updated_at": "2026-10-18T08:45:17Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5397,
-      "title": "update parsers to support LLMs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T01:22:12Z",
-      "updated_at": "2026-10-18T02:18:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5379,
@@ -135,18 +186,6 @@
       "created_at": "2026-10-05T21:48:08Z",
       "updated_at": "2026-10-17T17:51:22Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5352",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5407,
-      "title": "Zero-copy gather literals and cost-aware staging in write_literals",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-17T14:24:49Z",
-      "updated_at": "2026-10-17T15:25:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5407",
       "labels": [],
       "draft": false
     },
@@ -420,21 +459,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5377",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5351,
-      "title": "Fix invalid const attribute on generated fused reductions",
-      "author": "ahsan-ca",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T17:17:44Z",
-      "updated_at": "2026-10-09T20:14:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5351",
-      "labels": [
-        "high priority",
-        "simple"
-      ],
-      "draft": false
     },
     {
       "number": 3766,
