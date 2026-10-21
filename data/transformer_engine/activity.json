@@ -1,49 +1,43 @@
 {
-  "collected_at": "2026-10-20T13:10:32Z",
+  "collected_at": "2026-10-21T13:20:57Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 11,
-      "merged": 6,
-      "closed": 3
+      "opened": 13,
+      "merged": 11,
+      "closed": 5
     },
     "last_week": {
       "opened": 5,
-      "merged": 3,
+      "merged": 2,
       "closed": 1
     },
-    "median_time_to_merge_hours": 188.8,
-    "merge_count": 10,
-    "stale_prs": 30
+    "median_time_to_merge_hours": 185.3,
+    "merge_count": 13,
+    "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 14,
+    "active_this_week": 24,
     "total_contributors": 27,
     "top_contributors": [
       {
         "author": "matthiasdiener",
-        "prs_submitted": 30,
-        "prs_merged": 17,
-        "commits": 6
-      },
-      {
-        "author": "ipanfilo",
-        "prs_submitted": 16,
-        "prs_merged": 15,
-        "commits": 3
+        "prs_submitted": 29,
+        "prs_merged": 18,
+        "commits": 7
       },
       {
         "author": "VeeraRajasekhar",
         "prs_submitted": 14,
-        "prs_merged": 9,
+        "prs_merged": 8,
         "commits": 1
       },
       {
-        "author": "alextmagro",
-        "prs_submitted": 13,
-        "prs_merged": 11,
-        "commits": 2
+        "author": "ipanfilo",
+        "prs_submitted": 14,
+        "prs_merged": 13,
+        "commits": 3
       },
       {
         "author": "Micky774",
@@ -52,16 +46,22 @@
         "commits": 2
       },
       {
+        "author": "alextmagro",
+        "prs_submitted": 12,
+        "prs_merged": 11,
+        "commits": 4
+      },
+      {
         "author": "AllenFarcas",
         "prs_submitted": 9,
-        "prs_merged": 7,
-        "commits": 3
+        "prs_merged": 8,
+        "commits": 4
       },
       {
         "author": "aris134",
         "prs_submitted": 6,
-        "prs_merged": 3,
-        "commits": 0
+        "prs_merged": 4,
+        "commits": 1
       },
       {
         "author": "sudhu2k",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 17.8,
+    "days_since_last": 18.8,
     "avg_interval_days": 46.0,
     "total_releases": 5,
     "latest_tag": "v2.17_rocm"

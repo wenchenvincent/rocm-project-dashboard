@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-10-20T13:06:47Z",
+  "collected_at": "2026-10-21T13:17:59Z",
   "prs": [
+    {
+      "number": 1314,
+      "title": "[Ext][Coop] Add more block-level primitives",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T11:31:24Z",
+      "updated_at": "2026-10-21T07:56:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1314",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1318,
+      "title": "[Build] Add xnack-any codegen override patch for gfx1250",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-21T03:56:02Z",
+      "updated_at": "2026-10-21T05:58:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1318",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1256,
       "title": "[Perf] Share GLM TP4/TP8 indexed decode and native MXFP4 paths",
@@ -8,20 +32,62 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-10T05:26:56Z",
-      "updated_at": "2026-10-20T13:04:36Z",
+      "updated_at": "2026-10-21T05:02:12Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1256",
-      "labels": [],
+      "labels": [
+        "ai-review"
+      ],
       "draft": false
     },
     {
-      "number": 1315,
-      "title": "[Kernel] Replace raw memory glue and manual reductions with fx APIs",
+      "number": 1210,
+      "title": "[CI] Run full cooperative matrix before PyPI releases",
       "author": "coderfeli",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-20T12:13:04Z",
-      "updated_at": "2026-10-20T12:16:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1315",
+      "created_at": "2026-09-28T11:05:18Z",
+      "updated_at": "2026-10-21T04:45:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1210",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1269,
+      "title": "[Bugfix] Sync both wave groups before the gfx950 A16W16 HTI GEMM reads its first and last stages",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T17:56:09Z",
+      "updated_at": "2026-10-21T04:00:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1269",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1316,
+      "title": "[Kernel][Refactor] Extract shared softmax row-copy helpers",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-21T01:16:13Z",
+      "updated_at": "2026-10-21T02:49:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1316",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1227,
+      "title": "[Kernel][Perf] Tune RMSNorm for gfx1250: BF16 hardware conversion, early loads, small-N kernel choice",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T17:57:28Z",
+      "updated_at": "2026-10-20T23:13:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
       "labels": [],
       "draft": false
     },
@@ -32,22 +98,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-19T13:21:24Z",
-      "updated_at": "2026-10-20T11:42:16Z",
+      "updated_at": "2026-10-20T13:26:50Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1309",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1314,
-      "title": "[Ext][Coop] Add more block-level primitives",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T11:31:24Z",
-      "updated_at": "2026-10-20T11:40:57Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1314",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1313,
@@ -62,18 +116,6 @@
       "draft": false
     },
     {
-      "number": 1311,
-      "title": "[Skills] review-pr: review a PR when a maintainer adds the ai-review label",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T07:11:04Z",
-      "updated_at": "2026-10-20T07:28:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1311",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1307,
       "title": "[compiler] add schedule bank and vgpr/agpr/sgpr based flydsl llvm head",
       "author": "jli-melchior",
@@ -84,18 +126,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1307",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1301,
-      "title": "[Skills] Add code-review: run review-pr under Copilot code review",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T03:34:36Z",
-      "updated_at": "2026-10-19T06:03:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1301",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1246,
@@ -142,30 +172,6 @@
       "created_at": "2026-10-14T06:29:03Z",
       "updated_at": "2026-10-17T08:05:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1289",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1269,
-      "title": "[Bugfix] Sync both wave groups before the gfx950 A16W16 HTI GEMM reads its first and last stages",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T17:56:09Z",
-      "updated_at": "2026-10-16T23:49:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1269",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1227,
-      "title": "[Kernel][Perf] Tune RMSNorm for gfx1250: BF16 hardware conversion, early loads, small-N kernel choice",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T17:57:28Z",
-      "updated_at": "2026-10-16T10:27:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
       "labels": [],
       "draft": false
     },
@@ -650,18 +656,6 @@
       "draft": false
     },
     {
-      "number": 1210,
-      "title": "[CI] Run full cooperative matrix before PyPI releases",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T11:05:18Z",
-      "updated_at": "2026-09-28T13:48:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1210",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 976,
       "title": "[Feat] Add an experimental cuda nvvm backend",
       "author": "sjfeng1999",
@@ -1034,6 +1028,56 @@
       "draft": false
     },
     {
+      "number": 1317,
+      "title": "[Skills] review-pr: strip the API key and show why model calls failed",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-21T01:55:04Z",
+      "updated_at": "2026-10-21T03:39:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1317",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1308,
+      "title": "[compiler] [llvm] xnack perf",
+      "author": "jli-melchior",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-19T11:05:00Z",
+      "updated_at": "2026-10-21T01:38:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1308",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1311,
+      "title": "[Skills] review-pr: review a PR when a maintainer adds the ai-review label",
+      "author": "jhinpan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-20T07:11:04Z",
+      "updated_at": "2026-10-21T01:33:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1311",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1315,
+      "title": "[Kernel] Replace raw memory glue and manual reductions with fx APIs",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-20T12:13:04Z",
+      "updated_at": "2026-10-20T14:08:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1315",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 1262,
       "title": "[Kernel] Remove redundant scalar, vector, and IR wrappers",
       "author": "coderfeli",
@@ -1090,18 +1134,6 @@
       "created_at": "2026-10-20T07:30:49Z",
       "updated_at": "2026-10-20T07:35:50Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1312",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1308,
-      "title": "[compiler] [llvm] xnack perf",
-      "author": "jli-melchior",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-19T11:05:00Z",
-      "updated_at": "2026-10-20T07:02:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1308",
       "labels": [],
       "draft": false
     },
@@ -1812,54 +1844,6 @@
       "created_at": "2026-08-24T08:21:39Z",
       "updated_at": "2026-09-22T11:02:15Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1062",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1175,
-      "title": "[CI] Remove ancestor-of-main gate from PyPI publish workflow",
-      "author": "jli-melchior",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-21T07:04:16Z",
-      "updated_at": "2026-09-21T10:24:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1175",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1167,
-      "title": "[Ext][Coop] Add more warp-level primitives",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-18T11:15:09Z",
-      "updated_at": "2026-09-21T01:28:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1167",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1164,
-      "title": "[Misc] Fix 5 Dependabot vulnerabilities",
-      "author": "Phil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-18T07:52:38Z",
-      "updated_at": "2026-09-20T11:40:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1164",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1130,
-      "title": "[Bugfix] Include captured types in the JIT cache key",
-      "author": "LWenH",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-14T07:37:26Z",
-      "updated_at": "2026-09-20T02:24:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1130",
       "labels": [],
       "draft": false
     }

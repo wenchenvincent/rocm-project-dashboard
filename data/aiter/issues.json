@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-10-20T13:06:34Z",
+  "collected_at": "2026-10-21T13:17:45Z",
   "issues": [
+    {
+      "number": 6275,
+      "title": "[Bug] fused_moe dynamic per-tensor quant: inf in an unrouted/padding row corrupts the entire batch's output",
+      "author": "divakar-amd",
+      "state": "open",
+      "created_at": "2026-10-08T17:03:11Z",
+      "updated_at": "2026-10-20T21:20:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6275",
+      "labels": []
+    },
+    {
+      "number": 5229,
+      "title": "[Issue]: gfx1201 (R9700) \u2014 Triton unified_attention overflows RDNA's LDS budget, and the ROCm 10.0 vLLM container ships no gfx1201 code objects",
+      "author": "hanchi-gao",
+      "state": "open",
+      "created_at": "2026-09-03T06:01:45Z",
+      "updated_at": "2026-10-20T20:33:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5229",
+      "labels": []
+    },
+    {
+      "number": 6735,
+      "title": "[Bug] gfx942: CK flash_attn_varlen_func rounds bf16 by truncation (CK_TILE_FLOAT_TO_BFLOAT16_DEFAULT=2), ~4x torch SDPA error at hdim 256",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-10-20T20:05:57Z",
+      "updated_at": "2026-10-20T20:05:57Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6735",
+      "labels": []
+    },
+    {
+      "number": 6733,
+      "title": "[Bug] gfx942: non-persistent bf16 MLA decode still wraps past 4 GiB (m16x4/m32x4) and ignores causal at 64/128 heads",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-10-20T18:44:01Z",
+      "updated_at": "2026-10-20T18:44:01Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6733",
+      "labels": []
+    },
+    {
+      "number": 6732,
+      "title": "[Bug] gfx942: fp8 MLA decode mla_a8w8_qh64_qseqlen4_gqaratio16_ps does not apply kv_scale to V",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-10-20T18:44:00Z",
+      "updated_at": "2026-10-20T18:44:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6732",
+      "labels": []
+    },
+    {
+      "number": 6731,
+      "title": "[Bug] gfx942: persistent bf16 MLA decode (mla_a16w16_qh16_m16x4_n16x1_coex0_mask1_ps) returns wrong output in some calls, nondeterministically",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-10-20T18:43:59Z",
+      "updated_at": "2026-10-20T18:43:59Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6731",
+      "labels": []
+    },
     {
       "number": 5683,
       "title": "gemma-4-12B on gfx1201: ROCM_AITER_UNIFIED_ATTN is 4.65x faster at prefill than TRITON_ATTN (A/B on rocm/vllm:latest + aiter main)",
@@ -419,16 +479,6 @@
       "created_at": "2026-10-08T18:26:55Z",
       "updated_at": "2026-10-08T18:26:55Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6281",
-      "labels": []
-    },
-    {
-      "number": 6275,
-      "title": "[Bug] fused_moe dynamic per-tensor quant: inf in an unrouted/padding row corrupts the entire batch's output",
-      "author": "divakar-amd",
-      "state": "open",
-      "created_at": "2026-10-08T17:03:11Z",
-      "updated_at": "2026-10-08T17:34:39Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6275",
       "labels": []
     },
     {
@@ -987,16 +1037,6 @@
       "created_at": "2026-09-17T03:22:03Z",
       "updated_at": "2026-09-19T21:46:59Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5611",
-      "labels": []
-    },
-    {
-      "number": 5229,
-      "title": "[Issue]: gfx1201 (R9700) \u2014 Triton unified_attention overflows RDNA's LDS budget, and the ROCm 10.0 vLLM container ships no gfx1201 code objects",
-      "author": "hanchi-gao",
-      "state": "open",
-      "created_at": "2026-09-03T06:01:45Z",
-      "updated_at": "2026-09-19T09:09:35Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5229",
       "labels": []
     },
     {

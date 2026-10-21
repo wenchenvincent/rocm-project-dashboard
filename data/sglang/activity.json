@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-20T13:07:49Z",
+  "collected_at": "2026-10-21T13:18:30Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 69,
-      "merged": 58,
+      "opened": 55,
+      "merged": 57,
       "closed": 0
     },
     "last_week": {
@@ -13,115 +13,115 @@
       "merged": 0,
       "closed": 0
     },
-    "median_time_to_merge_hours": 73.5,
-    "merge_count": 58,
+    "median_time_to_merge_hours": 158.1,
+    "merge_count": 57,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 77,
-    "total_contributors": 77,
+    "active_this_week": 64,
+    "total_contributors": 64,
     "top_contributors": [
       {
-        "author": "kkHuang-amd",
-        "prs_submitted": 8,
-        "prs_merged": 6,
+        "author": "michaelzhang-ai",
+        "prs_submitted": 16,
+        "prs_merged": 14,
         "commits": 0
       },
       {
-        "author": "BBuf",
-        "prs_submitted": 5,
+        "author": "yuychang",
+        "prs_submitted": 9,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "aarnetalman",
+        "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "ShangmingCai",
+        "prs_submitted": 4,
         "prs_merged": 4,
         "commits": 0
       },
       {
+        "author": "YAMY1234",
+        "prs_submitted": 3,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
         "author": "1am9trash",
-        "prs_submitted": 4,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "AMD-yanfeiwang",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "nvpohanh",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "michaelzhang-ai",
         "prs_submitted": 3,
         "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "hnyls2002",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "amd-nprotaso",
+        "author": "kpjeeja",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "lpdink",
+        "author": "HanHan009527",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "hnyls2002",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "labAxiaoming",
+        "author": "EricKing626",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       }
     ],
-    "bus_factor": 11
+    "bus_factor": 6
   },
   "issue_health": {
-    "total_open": 52,
-    "opened_this_week": 7,
-    "closed_this_week": 106,
+    "total_open": 53,
+    "opened_this_week": 8,
+    "closed_this_week": 104,
     "unanswered": 6
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 5,
-      "failed": 15,
-      "success_rate": 25.0
+      "succeeded": 6,
+      "failed": 14,
+      "success_rate": 30.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 1,
-      "failed": 17,
-      "success_rate": 5.0
+      "succeeded": 2,
+      "failed": 16,
+      "success_rate": 10.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 355.9,
-      "p90_minutes": 616.9,
+      "median_minutes": 338.8,
+      "p90_minutes": 522.6,
       "min_minutes": 10.6,
-      "max_minutes": 1395.3
+      "max_minutes": 616.9
     },
     "cuda": {
-      "sample_size": 19,
+      "sample_size": 20,
       "median_minutes": 0.7,
-      "p90_minutes": 0.8,
-      "min_minutes": 0.2,
-      "max_minutes": 0.8
+      "p90_minutes": 10.2,
+      "min_minutes": 0.4,
+      "max_minutes": 14.5
     }
   },
   "release_cadence": {
-    "days_since_last": 1.4,
+    "days_since_last": 2.4,
     "avg_interval_days": 14.5,
     "total_releases": 5,
     "latest_tag": "v0.5.22"

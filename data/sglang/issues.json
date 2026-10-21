@@ -1,17 +1,77 @@
 {
-  "collected_at": "2026-10-20T13:06:03Z",
+  "collected_at": "2026-10-21T13:17:16Z",
   "issues": [
+    {
+      "number": 44304,
+      "title": "[ROCm][AMD] Qwen3.8-Flash-Next gfx950 / MI355X Performance Optimization",
+      "author": "ChangLiu0709",
+      "state": "open",
+      "created_at": "2026-10-14T14:46:04Z",
+      "updated_at": "2026-10-21T11:19:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/44304",
+      "labels": []
+    },
+    {
+      "number": 45535,
+      "title": "[Performance][DCP] Prefix-hit prefill pays 4*batch_size device syncs per layer when gathering KV for MHA extend",
+      "author": "Cerdore",
+      "state": "open",
+      "created_at": "2026-10-21T06:56:19Z",
+      "updated_at": "2026-10-21T07:37:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45535",
+      "labels": []
+    },
+    {
+      "number": 41152,
+      "title": "[Bug][AMD] aiter unified attention: Gemma 2/3 batched generations run away (Gemma 3 4B GSM8K 0.57 vs 0.83 on triton)",
+      "author": "siliangchen-amd",
+      "state": "open",
+      "created_at": "2026-09-24T16:58:53Z",
+      "updated_at": "2026-10-21T06:51:02Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/41152",
+      "labels": []
+    },
+    {
+      "number": 45373,
+      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
+      "author": "JackChuang",
+      "state": "open",
+      "created_at": "2026-10-20T10:04:23Z",
+      "updated_at": "2026-10-21T06:50:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
+      "labels": []
+    },
+    {
+      "number": 43098,
+      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
+      "author": "hzh0425",
+      "state": "open",
+      "created_at": "2026-10-08T11:44:11Z",
+      "updated_at": "2026-10-21T02:34:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
+      "labels": []
+    },
     {
       "number": 37451,
       "title": "[Failure Tracker] PR Test (AMD)",
       "author": "bingxche",
       "state": "open",
       "created_at": "2026-09-01T17:27:53Z",
-      "updated_at": "2026-10-20T13:01:48Z",
+      "updated_at": "2026-10-21T00:35:33Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37451",
       "labels": [
         "ci-failure-tracker"
       ]
+    },
+    {
+      "number": 42473,
+      "title": "Development Roadmap (2026 Q4)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-10-04T08:24:43Z",
+      "updated_at": "2026-10-20T20:10:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
+      "labels": []
     },
     {
       "number": 39499,
@@ -21,16 +81,6 @@
       "created_at": "2026-09-15T01:21:47Z",
       "updated_at": "2026-10-19T23:44:39Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/39499",
-      "labels": []
-    },
-    {
-      "number": 44304,
-      "title": "[ROCm][AMD] Qwen3.8-Flash-Next gfx950 / MI355X Performance Optimization",
-      "author": "ChangLiu0709",
-      "state": "open",
-      "created_at": "2026-10-14T14:46:04Z",
-      "updated_at": "2026-10-19T16:22:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/44304",
       "labels": []
     },
     {
@@ -63,16 +113,6 @@
       "created_at": "2026-10-19T11:51:19Z",
       "updated_at": "2026-10-19T11:58:53Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/45162",
-      "labels": []
-    },
-    {
-      "number": 43098,
-      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
-      "author": "hzh0425",
-      "state": "open",
-      "created_at": "2026-10-08T11:44:11Z",
-      "updated_at": "2026-10-19T08:00:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
       "labels": []
     },
     {
@@ -175,16 +215,6 @@
       "created_at": "2026-01-14T01:49:31Z",
       "updated_at": "2026-10-13T18:19:11Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
-      "labels": []
-    },
-    {
-      "number": 42473,
-      "title": "Development Roadmap (2026 Q4)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-10-04T08:24:43Z",
-      "updated_at": "2026-10-12T21:56:42Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
       "labels": []
     },
     {
@@ -389,16 +419,6 @@
       "labels": []
     },
     {
-      "number": 41152,
-      "title": "[Bug][AMD] aiter unified attention: Gemma 2/3 batched generations run away (Gemma 3 4B GSM8K 0.57 vs 0.83 on triton)",
-      "author": "siliangchen-amd",
-      "state": "open",
-      "created_at": "2026-09-24T16:58:53Z",
-      "updated_at": "2026-09-25T08:50:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/41152",
-      "labels": []
-    },
-    {
       "number": 41070,
       "title": "[Feature][Spec][XPU] Honor rejection sampling in EAGLE chain verification",
       "author": "adi271213",
@@ -456,16 +476,6 @@
       "created_at": "2026-09-09T17:27:37Z",
       "updated_at": "2026-09-20T17:07:31Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38707",
-      "labels": []
-    },
-    {
-      "number": 40156,
-      "title": "[Bug] EAGLE spec-decode: num_token_non_padded is 0 for draft batches, masking all draft topk ids to -1 and corrupting the MoE dispatch",
-      "author": "Leoyzen",
-      "state": "open",
-      "created_at": "2026-09-18T09:39:27Z",
-      "updated_at": "2026-09-20T06:22:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/40156",
       "labels": []
     },
     {

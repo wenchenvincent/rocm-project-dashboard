@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-10-20T13:06:09Z",
+  "collected_at": "2026-10-21T13:17:22Z",
   "prs": [
+    {
+      "number": 5415,
+      "title": "Fold dot(a, b) + dot(a, c) into dot(a, b + c) for constant b, c",
+      "author": "amarbarosys",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-21T10:41:53Z",
+      "updated_at": "2026-10-21T10:43:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5415",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5413,
       "title": "Preserve arg-reduction axes during reshape fusion",
@@ -8,20 +20,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-20T07:44:18Z",
-      "updated_at": "2026-10-20T09:10:59Z",
+      "updated_at": "2026-10-21T07:07:34Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5413",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5412,
-      "title": "Apply MatMulInteger zero-point corrections in int32",
-      "author": "royzhang-amd",
+      "number": 5123,
+      "title": "Split symbolic dimension pass",
+      "author": "shivadbhavsar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-20T06:15:40Z",
-      "updated_at": "2026-10-20T06:15:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5412",
+      "created_at": "2026-08-07T19:28:05Z",
+      "updated_at": "2026-10-21T06:37:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
       "labels": [],
       "draft": false
     },
@@ -32,8 +44,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-19T08:27:32Z",
-      "updated_at": "2026-10-20T05:43:07Z",
+      "updated_at": "2026-10-21T03:35:17Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5409",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5412,
+      "title": "Apply MatMulInteger zero-point corrections in int32",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T06:15:40Z",
+      "updated_at": "2026-10-21T01:51:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5412",
       "labels": [],
       "draft": false
     },
@@ -44,8 +68,116 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-16T06:00:42Z",
-      "updated_at": "2026-10-20T04:16:08Z",
+      "updated_at": "2026-10-21T01:51:08Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5401",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5394,
+      "title": "Split/symbolic reshape parsing",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:57:36Z",
+      "updated_at": "2026-10-21T01:10:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5393,
+      "title": "Evaluate compound symbolic shape expressions",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:57:16Z",
+      "updated_at": "2026-10-21T00:23:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5393",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5392,
+      "title": "Support bounded dynamic slice outputs",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:56:37Z",
+      "updated_at": "2026-10-21T00:03:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5392",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5406,
+      "title": "Keep upstream reductions out of fused kv-cache attention",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T20:28:49Z",
+      "updated_at": "2026-10-20T21:53:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5406",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5389,
+      "title": "Add simplify symbolic dimensions pass",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:05:55Z",
+      "updated_at": "2026-10-20T21:51:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5388,
+      "title": "Support compatible symbolic dimensions",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T18:57:52Z",
+      "updated_at": "2026-10-20T21:44:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5388",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5414,
+      "title": "Share loaded modules between identical code objects",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T19:37:31Z",
+      "updated_at": "2026-10-20T19:44:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5414",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5379,
+      "title": "Fuse the rotate-half concat into attention and let the K rotary write the KV cache directly",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T22:55:54Z",
+      "updated_at": "2026-10-20T19:33:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5379",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5373,
+      "title": "docs: update installation docs with TheRock packages",
+      "author": "peterjunpark",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T19:35:31Z",
+      "updated_at": "2026-10-20T16:16:00Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5373",
       "labels": [],
       "draft": false
     },
@@ -58,18 +190,6 @@
       "created_at": "2026-10-17T14:24:49Z",
       "updated_at": "2026-10-20T00:32:55Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5407",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5123,
-      "title": "Split symbolic dimension pass",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T19:28:05Z",
-      "updated_at": "2026-10-19T22:49:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5123",
       "labels": [],
       "draft": false
     },
@@ -109,18 +229,6 @@
       "created_at": "2026-10-06T03:03:03Z",
       "updated_at": "2026-10-19T18:29:57Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5354",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5373,
-      "title": "docs: update installation docs with TheRock packages",
-      "author": "peterjunpark",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T19:35:31Z",
-      "updated_at": "2026-10-19T14:53:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5373",
       "labels": [],
       "draft": false
     },
@@ -166,30 +274,6 @@
       "draft": false
     },
     {
-      "number": 5379,
-      "title": "Fuse the rotate-half concat into attention and let the K rotary write the KV cache directly",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T22:55:54Z",
-      "updated_at": "2026-10-17T22:26:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5379",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5352,
-      "title": "Fuse reduce reshapes",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T21:48:08Z",
-      "updated_at": "2026-10-17T17:51:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5352",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5274,
       "title": "Winograd fp16 gfx11",
       "author": "pfultz2",
@@ -198,30 +282,6 @@
       "created_at": "2026-09-17T14:28:32Z",
       "updated_at": "2026-10-17T00:20:36Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5274",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5357,
-      "title": "Run verify tests across all supported compile modes per target",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T23:23:36Z",
-      "updated_at": "2026-10-16T22:18:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5357",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5406,
-      "title": "Keep upstream reductions out of fused kv-cache attention",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T20:28:49Z",
-      "updated_at": "2026-10-16T20:31:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5406",
       "labels": [],
       "draft": false
     },
@@ -312,18 +372,6 @@
       "draft": false
     },
     {
-      "number": 5388,
-      "title": "Support compatible symbolic dimensions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T18:57:52Z",
-      "updated_at": "2026-10-15T19:29:00Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5388",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5312,
       "title": "Dynamic ROIAlign ",
       "author": "CharlieL7",
@@ -389,42 +437,6 @@
       "draft": false
     },
     {
-      "number": 5392,
-      "title": "Support bounded dynamic slice outputs",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:56:37Z",
-      "updated_at": "2026-10-14T00:56:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5392",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5393,
-      "title": "Evaluate compound symbolic shape expressions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:16Z",
-      "updated_at": "2026-10-13T23:26:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5393",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5394,
-      "title": "Split/symbolic reshape parsing",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:36Z",
-      "updated_at": "2026-10-13T19:59:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5304,
       "title": "Support for operators with data-depdendent shape functions",
       "author": "CharlieL7",
@@ -433,18 +445,6 @@
       "created_at": "2026-09-24T01:04:10Z",
       "updated_at": "2026-10-13T19:33:35Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5304",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5389,
-      "title": "Add simplify symbolic dimensions pass",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:05:55Z",
-      "updated_at": "2026-10-13T19:12:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
       "labels": [],
       "draft": true
     },
@@ -1698,8 +1698,32 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-10-16T15:37:05Z",
-      "updated_at": "2026-10-19T14:28:43Z",
+      "updated_at": "2026-10-21T04:34:37Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5403",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5357,
+      "title": "Run verify tests across all supported compile modes per target",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-06T23:23:36Z",
+      "updated_at": "2026-10-20T21:30:00Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5357",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5352,
+      "title": "Fuse reduce reshapes",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-05T21:48:08Z",
+      "updated_at": "2026-10-20T21:22:26Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5352",
       "labels": [],
       "draft": false
     },
@@ -2696,30 +2720,6 @@
       "created_at": "2026-09-20T15:36:56Z",
       "updated_at": "2026-09-29T23:07:56Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5287",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5331,
-      "title": "Resolve model compilation performance for 10.1 ROCm release",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-29T06:28:21Z",
-      "updated_at": "2026-09-29T15:11:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5331",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5328,
-      "title": "[AIMIGRAPHX-1300] Move broadcasts after an all-broadcast pointwise in fused reduce modules",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-28T20:38:00Z",
-      "updated_at": "2026-09-29T12:59:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5328",
       "labels": [],
       "draft": false
     }

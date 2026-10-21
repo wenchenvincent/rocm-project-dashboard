@@ -1,6 +1,68 @@
 {
-  "collected_at": "2026-10-20T13:06:44Z",
+  "collected_at": "2026-10-21T13:17:55Z",
   "prs": [
+    {
+      "number": 818,
+      "title": "Refactoring MORI load/store primitives",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T16:13:56Z",
+      "updated_at": "2026-10-21T11:31:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/818",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 771,
+      "title": "fix(bootstrap): add retry and increase timeout in SendMessage for cross-node reliability",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T23:30:40Z",
+      "updated_at": "2026-10-20T17:34:39Z",
+      "html_url": "https://github.com/ROCm/mori/pull/771",
+      "labels": [
+        "fix-precommit"
+      ],
+      "draft": false
+    },
+    {
+      "number": 819,
+      "title": "fix(cco): never fill the SDMA ring completely",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T16:25:33Z",
+      "updated_at": "2026-10-20T16:25:33Z",
+      "html_url": "https://github.com/ROCm/mori/pull/819",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 736,
+      "title": "Feat/ep v1 rdma atomic free",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-10T05:15:15Z",
+      "updated_at": "2026-10-20T16:12:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/736",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 817,
+      "title": "build(flydsl): upgrade FlyDSL to 0.4.0",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T14:30:54Z",
+      "updated_at": "2026-10-20T15:15:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/817",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 816,
       "title": "Draft collectives develop",
@@ -8,22 +70,10 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-20T13:00:41Z",
-      "updated_at": "2026-10-20T13:01:02Z",
+      "updated_at": "2026-10-20T14:33:00Z",
       "html_url": "https://github.com/ROCm/mori/pull/816",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 788,
-      "title": "fix(umbp): an SSD Clear keeps the staging spans local readers still hold",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T11:18:29Z",
-      "updated_at": "2026-10-20T12:33:45Z",
-      "html_url": "https://github.com/ROCm/mori/pull/788",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 695,
@@ -194,30 +244,6 @@
       "draft": false
     },
     {
-      "number": 808,
-      "title": "fix(umbp): count SSD keys without snapshotting them",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-19T08:22:14Z",
-      "updated_at": "2026-10-19T08:22:14Z",
-      "html_url": "https://github.com/ROCm/mori/pull/808",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 804,
-      "title": "fix(umbp): commit to the backend outside the pool lock",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-19T06:33:25Z",
-      "updated_at": "2026-10-19T06:43:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/804",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 803,
       "title": "Fix/xgmi ipc handle device ordinal",
       "author": "tjtanaa",
@@ -266,20 +292,6 @@
       "draft": true
     },
     {
-      "number": 771,
-      "title": "fix(bootstrap): add retry and increase timeout in SendMessage for cross-node reliability",
-      "author": "kudomcho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T23:30:40Z",
-      "updated_at": "2026-10-16T16:59:41Z",
-      "html_url": "https://github.com/ROCm/mori/pull/771",
-      "labels": [
-        "fix-precommit"
-      ],
-      "draft": false
-    },
-    {
       "number": 730,
       "title": "draft: perf(ep/asyncll): fuse recv-count signal onto send QP, defer CQE drain",
       "author": "yoqiu-amd",
@@ -314,18 +326,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/780",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 736,
-      "title": "Feat/ep v1 rdma atomic free",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-10T05:15:15Z",
-      "updated_at": "2026-10-15T18:44:20Z",
-      "html_url": "https://github.com/ROCm/mori/pull/736",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 779,
@@ -744,6 +744,42 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 808,
+      "title": "fix(umbp): count SSD keys without snapshotting them",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-19T08:22:14Z",
+      "updated_at": "2026-10-21T02:36:52Z",
+      "html_url": "https://github.com/ROCm/mori/pull/808",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 804,
+      "title": "fix(umbp): commit to the backend outside the pool lock",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-19T06:33:25Z",
+      "updated_at": "2026-10-21T02:26:58Z",
+      "html_url": "https://github.com/ROCm/mori/pull/804",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 788,
+      "title": "fix(umbp): an SSD Clear keeps the staging spans local readers still hold",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T11:18:29Z",
+      "updated_at": "2026-10-20T14:31:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/788",
       "labels": [],
       "draft": false
     },
@@ -1718,42 +1754,6 @@
       "created_at": "2026-09-13T17:33:00Z",
       "updated_at": "2026-09-20T02:39:02Z",
       "html_url": "https://github.com/ROCm/mori/pull/667",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 688,
-      "title": "docs: unbreak the -W build and correct the EP fp4 target list",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-18T07:57:34Z",
-      "updated_at": "2026-09-18T08:24:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/688",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 686,
-      "title": "ci: move the last five jobs off the TW runner label",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-18T02:28:53Z",
-      "updated_at": "2026-09-18T07:58:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/686",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 680,
-      "title": "docs: refresh installation, EP backend guidance and site validation",
-      "author": "sunway513",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-16T18:00:27Z",
-      "updated_at": "2026-09-18T07:48:54Z",
-      "html_url": "https://github.com/ROCm/mori/pull/680",
       "labels": [],
       "draft": false
     }

@@ -1,6 +1,33 @@
 {
-  "collected_at": "2026-10-20T13:05:35Z",
+  "collected_at": "2026-10-21T13:16:51Z",
   "prs": [
+    {
+      "number": 41230,
+      "title": "[ROCM]  Add TheRock `rocm_sysdeps/lib` to wheel RUNPATHs needed for MORI deps",
+      "author": "pemeliya",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-02T13:25:30Z",
+      "updated_at": "2026-10-21T11:58:56Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41230",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41815,
+      "title": "[ROCm] Switch the pinned ROCm CI legs from 10.0 to 10.1",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T16:40:03Z",
+      "updated_at": "2026-10-20T16:40:03Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41815",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 41702,
       "title": "[ROCm] Trim wheel RUNPATH: drop deprecated per-family and dead tarball entries",
@@ -65,21 +92,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/41341",
       "labels": [
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 41230,
-      "title": "[ROCM]  Add TheRock `rocm_sysdeps/lib` to wheel RUNPATHs needed for MORI deps",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-02T13:25:30Z",
-      "updated_at": "2026-10-14T03:34:34Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41230",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
       ],
       "draft": false
     },
@@ -566,21 +578,6 @@
       "draft": false
     },
     {
-      "number": 40029,
-      "title": "[ROCm] Run the Bazel ROCm tests in the jax-base image",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-17T04:40:26Z",
-      "updated_at": "2026-08-19T16:52:08Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40029",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
       "number": 38296,
       "title": "[ROCm] Bypass hipSOLVER for Cholesky: route `jnp.linalg.cholesky` directly to rocsolver",
       "author": "cj401-amd",
@@ -589,18 +586,6 @@
       "created_at": "2026-06-09T12:03:18Z",
       "updated_at": "2026-06-15T08:52:39Z",
       "html_url": "https://github.com/jax-ml/jax/pull/38296",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 38030,
-      "title": "Skip ROCm plugin discovery when JAX_PLATFORMS excludes ROCm",
-      "author": "factnn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-28T07:43:34Z",
-      "updated_at": "2026-06-14T16:57:26Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38030",
       "labels": [],
       "draft": false
     },
