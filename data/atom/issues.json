@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-10-21T13:17:52Z",
+  "collected_at": "2026-10-23T12:55:53Z",
   "issues": [
+    {
+      "number": 2681,
+      "title": "[Perf Regression] 12 config(s) regressed @ ce46f687",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-23T04:31:18Z",
+      "updated_at": "2026-10-23T04:31:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2681",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2672,
+      "title": "[Perf Regression] 11 config(s) regressed @ 65a199ea",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-22T04:00:24Z",
+      "updated_at": "2026-10-22T04:00:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2672",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 2660,
       "title": "[Perf Regression] 12 config(s) regressed @ e875ed3e",
@@ -315,18 +341,6 @@
       "updated_at": "2026-08-27T17:00:29Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2062",
       "labels": []
-    },
-    {
-      "number": 1928,
-      "title": "[Documentation]: ATOM expansion should be consistent across documents",
-      "author": "mohanmithur",
-      "state": "open",
-      "created_at": "2026-08-17T10:42:10Z",
-      "updated_at": "2026-08-27T05:35:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1928",
-      "labels": [
-        "documentation"
-      ]
     },
     {
       "number": 69,

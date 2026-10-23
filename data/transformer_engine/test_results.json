@@ -1,20 +1,29 @@
 {
-  "collected_at": "2026-10-21T13:18:23Z",
+  "collected_at": "2026-10-23T12:56:36Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "TransformerEngine CI",
-    "run_id": 39501629349,
-    "run_url": "https://github.com/ROCm/TransformerEngine/actions/runs/39501629349",
-    "run_date": "2026-10-21T04:14:39Z",
+    "run_id": 39830260542,
+    "run_url": "https://github.com/ROCm/TransformerEngine/actions/runs/39830260542",
+    "run_date": "2026-10-22T22:42:30Z",
     "conclusion": "failure",
     "summary": {
-      "total_jobs": 2,
-      "passed": 0,
-      "failed": 2,
+      "total_jobs": 5,
+      "passed": 1,
+      "failed": 4,
       "skipped": 0,
-      "pass_rate": 0.0
+      "pass_rate": 20.0
     },
     "suites": [
+      {
+        "name": "Select Test Suites",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
       {
         "name": "sGPU Tests (mi35x)",
         "conclusion": "failure",
@@ -26,6 +35,24 @@
       },
       {
         "name": "sGPU Tests (mi30x)",
+        "conclusion": "failure",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "mGPU Tests (mi30x)",
+        "conclusion": "failure",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "mGPU Tests (mi35x)",
         "conclusion": "failure",
         "tests": null,
         "passed": null,

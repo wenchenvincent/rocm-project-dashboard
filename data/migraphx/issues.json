@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-21T13:17:26Z",
+  "collected_at": "2026-10-23T12:55:26Z",
   "issues": [
     {
       "number": 5410,
@@ -1539,19 +1539,6 @@
       "updated_at": "2024-09-25T19:52:46Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/3128",
       "labels": [
-        "Perf Improve"
-      ]
-    },
-    {
-      "number": 3250,
-      "title": "Simplify using distributive property of matrix multiplication ",
-      "author": "CharlieL7",
-      "state": "open",
-      "created_at": "2024-07-08T15:28:49Z",
-      "updated_at": "2024-09-25T18:55:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/3250",
-      "labels": [
-        "enhancement",
         "Perf Improve"
       ]
     },

@@ -1,35 +1,35 @@
 {
-  "collected_at": "2026-10-21T13:20:46Z",
+  "collected_at": "2026-10-23T12:59:05Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 25,
-      "merged": 23,
+      "opened": 19,
+      "merged": 19,
       "closed": 7
     },
     "last_week": {
-      "opened": 54,
-      "merged": 15,
+      "opened": 55,
+      "merged": 16,
       "closed": 15
     },
-    "median_time_to_merge_hours": 38.8,
-    "merge_count": 38,
+    "median_time_to_merge_hours": 36.5,
+    "merge_count": 35,
     "stale_prs": 27
   },
   "contributors": {
     "active_this_week": 17,
-    "total_contributors": 52,
+    "total_contributors": 54,
     "top_contributors": [
       {
         "author": "coderfeli",
         "prs_submitted": 20,
         "prs_merged": 16,
-        "commits": 14
+        "commits": 12
       },
       {
         "author": "jli-melchior",
-        "prs_submitted": 17,
+        "prs_submitted": 18,
         "prs_merged": 5,
         "commits": 5
       },
@@ -49,19 +49,19 @@
         "author": "Phil-amd",
         "prs_submitted": 9,
         "prs_merged": 6,
-        "commits": 6
+        "commits": 4
       },
       {
         "author": "sjfeng1999",
         "prs_submitted": 8,
         "prs_merged": 5,
-        "commits": 5
+        "commits": 3
       },
       {
         "author": "xudoyuan",
         "prs_submitted": 8,
         "prs_merged": 4,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "ppppqp",
@@ -76,10 +76,10 @@
         "commits": 2
       },
       {
-        "author": "dimitri91209",
+        "author": "danielholanda",
         "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_merged": 2,
+        "commits": 2
       }
     ],
     "bus_factor": 4
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 6.9,
+    "days_since_last": 8.9,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v0.4.0"

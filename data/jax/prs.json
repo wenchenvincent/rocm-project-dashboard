@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-10-21T13:16:51Z",
+  "collected_at": "2026-10-23T12:54:48Z",
   "prs": [
+    {
+      "number": 41881,
+      "title": "[ROCm] Enable remote compilation for jax in rocm rbe",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-22T07:33:26Z",
+      "updated_at": "2026-10-22T20:22:10Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41881",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 41815,
+      "title": "[ROCm] Switch the pinned ROCm CI legs from 10.0 to 10.1",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T16:40:03Z",
+      "updated_at": "2026-10-21T14:53:12Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41815",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 41230,
       "title": "[ROCM]  Add TheRock `rocm_sysdeps/lib` to wheel RUNPATHs needed for MORI deps",
@@ -15,18 +39,6 @@
         "AMD GPU"
       ],
       "draft": false
-    },
-    {
-      "number": 41815,
-      "title": "[ROCm] Switch the pinned ROCm CI legs from 10.0 to 10.1",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T16:40:03Z",
-      "updated_at": "2026-10-20T16:40:03Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41815",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 41702,

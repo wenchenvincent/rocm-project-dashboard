@@ -1,14 +1,122 @@
 {
-  "collected_at": "2026-10-21T13:17:18Z",
+  "collected_at": "2026-10-23T12:55:19Z",
   "prs": [
+    {
+      "number": 12471,
+      "title": "[AMD] Build llvm @05e432a for CodeGen",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T11:09:19Z",
+      "updated_at": "2026-10-23T11:09:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12471",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12273,
+      "title": "[AMD][ConSan] Handle mixed-direction partial async-copy waits",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T18:04:42Z",
+      "updated_at": "2026-10-23T09:06:13Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12273",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12210,
+      "title": "[AMD][ConSan] Improve async-copy waits and load/store tracking",
+      "author": "PMylon",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-09T18:07:37Z",
+      "updated_at": "2026-10-23T05:20:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12210",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12423,
+      "title": "[AMD] Schedule async-wait barriers before potential global-memory waits",
+      "author": "jungpark-mlir",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-21T15:37:07Z",
+      "updated_at": "2026-10-23T04:57:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12423",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12122,
+      "title": "[AMD] Add MIR entry points to the standalone AMD code generator (1/2)",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T16:43:55Z",
+      "updated_at": "2026-10-23T03:13:52Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12122",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12286,
+      "title": "[AMD][mdmbar] Prove slots of loop-carried views of multi-buffered all\u2026",
+      "author": "yanxuer-999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T06:43:05Z",
+      "updated_at": "2026-10-23T02:33:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12286",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12371,
+      "title": "[AMD] Fix LLVM symbol clash in TRITON_EXT_ENABLED builds",
+      "author": "RolaoDenthu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T20:40:46Z",
+      "updated_at": "2026-10-22T22:03:42Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12371",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12441,
+      "title": "[Release][Cherry-Pick] [AMD][BACKEND] Ignore unit dims when checking the shared order for TDM ops (#12331)",
+      "author": "naromero77amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-22T15:24:49Z",
+      "updated_at": "2026-10-22T19:58:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12441",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12331,
+      "title": "[AMD][BACKEND] Ignore unit dims when checking the shared order for TDM ops",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T10:30:54Z",
+      "updated_at": "2026-10-22T05:10:21Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12331",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12391,
       "title": "[AMD] Use new AMD CodeGen build and update test",
       "author": "antiagainst",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-10-20T18:32:43Z",
-      "updated_at": "2026-10-21T08:23:38Z",
+      "updated_at": "2026-10-21T19:33:52Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12391",
       "labels": [],
       "draft": false
@@ -22,18 +130,6 @@
       "created_at": "2026-10-21T04:58:56Z",
       "updated_at": "2026-10-21T06:25:49Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12410",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12371,
-      "title": "[AMD] Fix LLVM symbol clash in TRITON_EXT_ENABLED builds",
-      "author": "RolaoDenthu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-19T20:40:46Z",
-      "updated_at": "2026-10-21T05:31:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12371",
       "labels": [],
       "draft": false
     },
@@ -194,18 +290,6 @@
       "draft": false
     },
     {
-      "number": 12331,
-      "title": "[AMD][BACKEND] Ignore unit dims when checking the shared order for TDM ops",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T10:30:54Z",
-      "updated_at": "2026-10-16T10:32:59Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12331",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12324,
       "title": "[AMD]Support Multi-CTA in TDM Scatter",
       "author": "knwng",
@@ -238,30 +322,6 @@
       "created_at": "2026-10-12T18:14:37Z",
       "updated_at": "2026-10-15T16:35:48Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12233",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12273,
-      "title": "[DRAFT][AMD][ConSan] Handle mixed-direction partial async-copy waits",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T18:04:42Z",
-      "updated_at": "2026-10-15T11:53:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12273",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12286,
-      "title": "[AMD][mdmbar] Prove slots of loop-carried views of multi-buffered all\u2026",
-      "author": "yanxuer-999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T06:43:05Z",
-      "updated_at": "2026-10-15T08:04:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12286",
       "labels": [],
       "draft": true
     },
@@ -326,30 +386,6 @@
       "draft": false
     },
     {
-      "number": 12294,
-      "title": "[AMD] Stop async barrier deferral before potential global-load waits",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T15:31:54Z",
-      "updated_at": "2026-10-14T16:17:57Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12294",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12210,
-      "title": "[AMD][ConSan] Improve async-copy waits and load/store tracking",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T18:07:37Z",
-      "updated_at": "2026-10-14T08:15:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12210",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12230,
       "title": "[AMD] NFC: Simplify MFMA/WMMA instruction selection",
       "author": "antiagainst",
@@ -370,18 +406,6 @@
       "created_at": "2026-10-14T00:48:25Z",
       "updated_at": "2026-10-14T02:06:33Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12279",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12122,
-      "title": "[AMD] Add MIR entry points to the standalone AMD code generator (1/2)",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T16:43:55Z",
-      "updated_at": "2026-10-13T23:16:06Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12122",
       "labels": [],
       "draft": false
     },
@@ -650,66 +674,6 @@
       "draft": false
     },
     {
-      "number": 12166,
-      "title": "[AMD] Move assert barrier out of divergent control flow",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-08T00:45:32Z",
-      "updated_at": "2026-10-08T02:30:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12166",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12164,
-      "title": "[AMD] NFC: Move scaled upcast HW helpers out of Utility.h",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-07T22:51:33Z",
-      "updated_at": "2026-10-08T00:50:05Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12164",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11809,
-      "title": "[AMD] Use hardware OCP FP8 upcasts on RDNA4",
-      "author": "zihaomu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-16T05:25:52Z",
-      "updated_at": "2026-10-08T00:04:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11809",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12163,
-      "title": "[AMD] NFC: Remove dead code in the AMD backend",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-07T22:15:51Z",
-      "updated_at": "2026-10-07T22:44:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12163",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11486,
-      "title": "[AMD] Use hardware cvt instructions for OCP fp8 casts on gfx1170",
-      "author": "erizheng-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-27T21:43:17Z",
-      "updated_at": "2026-10-07T19:47:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11486",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12159,
       "title": "[AMD] Keep shared order in CoalesceAsyncCopy when the src order cannot lower to direct-to-LDS",
       "author": "he-yufeng",
@@ -718,6 +682,42 @@
       "created_at": "2026-10-07T15:17:18Z",
       "updated_at": "2026-10-07T15:17:19Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12159",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12149,
+      "title": "[AMD][Gluon] Add CDNA5 WMMA issue mode control",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T23:24:15Z",
+      "updated_at": "2026-10-07T07:00:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12149",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11068,
+      "title": "[AMD] Propagate discardable attributes on the small-tensor pointer path",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-28T09:39:52Z",
+      "updated_at": "2026-10-02T09:37:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11068",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12060,
+      "title": "[AMD] Avoid redundant batch warps in dot layouts",
+      "author": "pculaf",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T23:07:35Z",
+      "updated_at": "2026-10-01T23:07:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12060",
       "labels": [],
       "draft": false
     }

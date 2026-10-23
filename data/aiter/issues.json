@@ -1,6 +1,96 @@
 {
-  "collected_at": "2026-10-21T13:17:45Z",
+  "collected_at": "2026-10-23T12:55:45Z",
   "issues": [
+    {
+      "number": 6818,
+      "title": "Fixes from running agentic RL rollouts with SGLang on MI350X / MI355X",
+      "author": "Arist12",
+      "state": "open",
+      "created_at": "2026-10-22T03:35:39Z",
+      "updated_at": "2026-10-22T22:02:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6818",
+      "labels": []
+    },
+    {
+      "number": 6282,
+      "title": "[TRITON] Merging 2d/3d Unified Attention kernels for easy maintenance",
+      "author": "cagrikymk",
+      "state": "open",
+      "created_at": "2026-10-08T18:27:40Z",
+      "updated_at": "2026-10-22T18:55:16Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6282",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6827,
+      "title": "Add gfx950 FlyDSL 4-wave INT8 bpreshuffle GEMM",
+      "author": "ksikiric",
+      "state": "open",
+      "created_at": "2026-10-22T10:15:46Z",
+      "updated_at": "2026-10-22T11:05:04Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6827",
+      "labels": []
+    },
+    {
+      "number": 6781,
+      "title": "Update model_shapes.json to reflect new and latest models' shapes/kernels",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-10-21T18:51:36Z",
+      "updated_at": "2026-10-21T18:51:36Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6781",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6776,
+      "title": "remove nesting from config files",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-10-21T14:26:11Z",
+      "updated_at": "2026-10-21T14:28:20Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6776",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6774,
+      "title": "track Upstream vs Internal triton regressions",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-10-21T14:23:00Z",
+      "updated_at": "2026-10-21T14:27:52Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6774",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6775,
+      "title": "Automate the addition of new model shapes and kernels into model shapes json in benchmarks",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-10-21T14:25:06Z",
+      "updated_at": "2026-10-21T14:27:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6775",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6777,
+      "title": "Tuning should use the benchmarks from benchmark folder",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-10-21T14:27:10Z",
+      "updated_at": "2026-10-21T14:27:10Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6777",
+      "labels": []
+    },
     {
       "number": 6275,
       "title": "[Bug] fused_moe dynamic per-tensor quant: inf in an unrouted/padding row corrupts the entire batch's output",
@@ -19,16 +109,6 @@
       "created_at": "2026-09-03T06:01:45Z",
       "updated_at": "2026-10-20T20:33:43Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5229",
-      "labels": []
-    },
-    {
-      "number": 6735,
-      "title": "[Bug] gfx942: CK flash_attn_varlen_func rounds bf16 by truncation (CK_TILE_FLOAT_TO_BFLOAT16_DEFAULT=2), ~4x torch SDPA error at hdim 256",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2026-10-20T20:05:57Z",
-      "updated_at": "2026-10-20T20:05:57Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6735",
       "labels": []
     },
     {
@@ -376,16 +456,6 @@
       "labels": []
     },
     {
-      "number": 6344,
-      "title": "[gfx1250] RMSNorm returns wrong values: row tails are not written when N % 8 != 0, and wide rows sometimes get a wrong scale",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-10-09T23:46:16Z",
-      "updated_at": "2026-10-09T23:46:16Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6344",
-      "labels": []
-    },
-    {
       "number": 6341,
       "title": "[Bug] _as_int crashes on float strings in tuned_grouped_fmoe.csv",
       "author": "srinivamd",
@@ -405,16 +475,6 @@
       "created_at": "2026-10-09T14:00:35Z",
       "updated_at": "2026-10-09T14:00:35Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6320",
-      "labels": []
-    },
-    {
-      "number": 6319,
-      "title": "[Issue]: Triton paged_attention_decode returns wrong output for non-power-of-two KV block sizes",
-      "author": "truong-v",
-      "state": "open",
-      "created_at": "2026-10-09T14:00:33Z",
-      "updated_at": "2026-10-09T14:00:33Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6319",
       "labels": []
     },
     {
@@ -446,18 +506,6 @@
       "updated_at": "2026-10-09T09:18:57Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5184",
       "labels": []
-    },
-    {
-      "number": 6282,
-      "title": "[TRITON] Merging 2d/3d Unified Attention kernels for easy maintenance",
-      "author": "cagrikymk",
-      "state": "open",
-      "created_at": "2026-10-08T18:27:40Z",
-      "updated_at": "2026-10-08T18:36:57Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6282",
-      "labels": [
-        "Triton/Gluon"
-      ]
     },
     {
       "number": 6280,
@@ -948,7 +996,7 @@
     {
       "number": 4490,
       "title": "mla_gluon: page table has no >2GB addressing fallback, and global_load fallbacks are unmasked",
-      "author": "JohnQinAMD",
+      "author": "JohnQin-llm",
       "state": "open",
       "created_at": "2026-07-31T20:15:32Z",
       "updated_at": "2026-09-23T14:08:44Z",
@@ -1618,7 +1666,7 @@
     {
       "number": 4920,
       "title": "[ASM] a16w16 split-K: the entry-zero counter is unsafe under CUDA graph capture; opus-style fp32 partials would remove the class",
-      "author": "JohnQinAMD",
+      "author": "JohnQin-llm",
       "state": "open",
       "created_at": "2026-08-21T21:10:05Z",
       "updated_at": "2026-08-21T21:19:16Z",
@@ -1748,7 +1796,7 @@
     {
       "number": 4743,
       "title": "gemm_a16w16_asm silently returns wrong results past 2**31 elements (32-bit buffer addressing)",
-      "author": "JohnQinAMD",
+      "author": "JohnQin-llm",
       "state": "open",
       "created_at": "2026-08-14T01:59:54Z",
       "updated_at": "2026-08-14T01:59:54Z",
@@ -1838,7 +1886,7 @@
     {
       "number": 4585,
       "title": "[JIT] AITER extensions can bind HIP symbols from an earlier global TileLang stub",
-      "author": "JohnQinAMD",
+      "author": "JohnQin-llm",
       "state": "open",
       "created_at": "2026-08-06T01:55:45Z",
       "updated_at": "2026-08-06T04:04:39Z",
@@ -2351,16 +2399,6 @@
       "labels": []
     },
     {
-      "number": 3778,
-      "title": "[Feature]: Tuned gfx1151 config for FlashAttention backward Triton kernel",
-      "author": "woct0rdho",
-      "state": "open",
-      "created_at": "2026-06-17T09:53:25Z",
-      "updated_at": "2026-06-17T09:54:21Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3778",
-      "labels": []
-    },
-    {
       "number": 3762,
       "title": "[Issue]: fmha_v3_fwd C++ dispatch accepts FP16 in validation but fails at kernel lookup",
       "author": "AnaghaRaoAMD",
@@ -2458,16 +2496,6 @@
       "created_at": "2026-06-05T20:08:19Z",
       "updated_at": "2026-06-05T20:08:19Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3566",
-      "labels": []
-    },
-    {
-      "number": 3551,
-      "title": "[Issue]: Apply `mask_mn` in FlashAttention backward non-causal Triton kernel",
-      "author": "woct0rdho",
-      "state": "open",
-      "created_at": "2026-06-05T06:09:25Z",
-      "updated_at": "2026-06-05T08:51:03Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3551",
       "labels": []
     },
     {
@@ -3722,7 +3750,7 @@
     {
       "number": 1162,
       "title": "[Issue]: AITER asm attention kernel JIT compile take very long time for multinode training",
-      "author": "JohnQinAMD",
+      "author": "JohnQin-llm",
       "state": "open",
       "created_at": "2025-10-11T03:56:36Z",
       "updated_at": "2025-10-18T01:28:34Z",

@@ -1,6 +1,94 @@
 {
-  "collected_at": "2026-10-21T13:17:59Z",
+  "collected_at": "2026-10-23T12:56:00Z",
   "prs": [
+    {
+      "number": 1322,
+      "title": "`kernel-trace-analysis`: fix SKILL.md nits so the evals pass",
+      "author": "danielholanda",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T04:15:00Z",
+      "updated_at": "2026-10-23T04:38:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1322",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1321,
+      "title": "[Fix] Don't retain the last tensor in layout-dynamic DLPack fills",
+      "author": "josh-schell-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T02:48:27Z",
+      "updated_at": "2026-10-23T03:00:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1321",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1320,
+      "title": "[Kernel] Add Kimi-K3 MLA decode/prefill kernels and fix MLA decode boundary mask",
+      "author": "jiacao-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-22T23:54:47Z",
+      "updated_at": "2026-10-23T00:39:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1320",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1192,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T15:48:52Z",
+      "updated_at": "2026-10-22T20:34:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1192",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1277,
+      "title": "[Test] Cover the FlyDSL kernels vLLM depends on",
+      "author": "zhiding512",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T13:05:51Z",
+      "updated_at": "2026-10-21T21:29:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1277",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1316,
+      "title": "[Kernel][Refactor] Extract shared softmax row-copy helpers",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-21T01:16:13Z",
+      "updated_at": "2026-10-21T21:24:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1316",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1319,
+      "title": "[Build] Switch to ROCm xnack_test branch for LLVM",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-21T13:51:37Z",
+      "updated_at": "2026-10-21T15:29:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1319",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1314,
       "title": "[Ext][Coop] Add more block-level primitives",
@@ -66,18 +154,6 @@
         "ai-review"
       ],
       "draft": false
-    },
-    {
-      "number": 1316,
-      "title": "[Kernel][Refactor] Extract shared softmax row-copy helpers",
-      "author": "ppppqp",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-21T01:16:13Z",
-      "updated_at": "2026-10-21T02:49:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1316",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1227,
@@ -320,18 +396,6 @@
       "draft": false
     },
     {
-      "number": 1192,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T15:48:52Z",
-      "updated_at": "2026-10-14T14:21:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1192",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1286,
       "title": "[JIT][Debug] Implement FLYDSL_DEBUG_DUMP_ASM to dump only the final ISA",
       "author": "Phil-amd",
@@ -402,18 +466,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1282",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1277,
-      "title": "[Test] Cover the FlyDSL kernels vLLM depends on",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T13:05:51Z",
-      "updated_at": "2026-10-12T13:10:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1277",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1274,
@@ -910,7 +962,7 @@
     {
       "number": 1045,
       "title": "[Bugfix] Refuse a batch entry the buffer descriptor cannot address",
-      "author": "JohnQinAMD",
+      "author": "JohnQin-llm",
       "state": "open",
       "merged": false,
       "created_at": "2026-08-20T16:23:46Z",

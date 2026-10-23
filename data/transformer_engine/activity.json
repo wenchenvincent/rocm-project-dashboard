@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-10-21T13:20:57Z",
+  "collected_at": "2026-10-23T12:59:16Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 13,
-      "merged": 11,
-      "closed": 5
+      "opened": 15,
+      "merged": 10,
+      "closed": 4
     },
     "last_week": {
       "opened": 5,
       "merged": 2,
-      "closed": 1
+      "closed": 2
     },
-    "median_time_to_merge_hours": 185.3,
-    "merge_count": 13,
+    "median_time_to_merge_hours": 169.7,
+    "merge_count": 12,
     "stale_prs": 0
   },
   "contributors": {
@@ -23,9 +23,15 @@
     "top_contributors": [
       {
         "author": "matthiasdiener",
-        "prs_submitted": 29,
-        "prs_merged": 18,
+        "prs_submitted": 31,
+        "prs_merged": 19,
         "commits": 7
+      },
+      {
+        "author": "ipanfilo",
+        "prs_submitted": 15,
+        "prs_merged": 13,
+        "commits": 3
       },
       {
         "author": "VeeraRajasekhar",
@@ -34,28 +40,22 @@
         "commits": 1
       },
       {
-        "author": "ipanfilo",
-        "prs_submitted": 14,
-        "prs_merged": 13,
-        "commits": 3
-      },
-      {
-        "author": "Micky774",
+        "author": "alextmagro",
         "prs_submitted": 13,
-        "prs_merged": 6,
+        "prs_merged": 11,
         "commits": 2
       },
       {
-        "author": "alextmagro",
+        "author": "Micky774",
         "prs_submitted": 12,
-        "prs_merged": 11,
-        "commits": 4
+        "prs_merged": 5,
+        "commits": 2
       },
       {
         "author": "AllenFarcas",
-        "prs_submitted": 9,
+        "prs_submitted": 10,
         "prs_merged": 8,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "aris134",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 18.8,
+    "days_since_last": 20.8,
     "avg_interval_days": 46.0,
     "total_releases": 5,
     "latest_tag": "v2.17_rocm"
