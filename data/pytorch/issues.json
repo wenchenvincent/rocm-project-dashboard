@@ -1,13 +1,211 @@
 {
-  "collected_at": "2026-10-23T12:54:45Z",
+  "collected_at": "2026-10-24T12:17:28Z",
   "issues": [
+    {
+      "number": 200406,
+      "title": "[SDPA] cuDNN backward returns NaN dQ for head_dim=256 with a bool attn_mask and short sequences on Blackwell (B300, sm_103), torch 2.14.1+cu130 / cuDNN 9.24",
+      "author": "Ingvarstep",
+      "state": "open",
+      "created_at": "2026-10-09T14:44:09Z",
+      "updated_at": "2026-10-24T09:56:15Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200406",
+      "labels": [
+        "module: cudnn",
+        "triaged",
+        "module: NaNs and Infs",
+        "has workaround",
+        "module: correctness (silent)",
+        "module: sdpa",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 198503,
+      "title": "[Windows][AOTInductor] `aoti_compile_and_package()` hangs in `torch._inductor.codecache.format_consts_to_cpp()` when compiling an nnUNetv2 model",
+      "author": "danawaz",
+      "state": "open",
+      "created_at": "2026-09-24T15:12:03Z",
+      "updated_at": "2026-10-24T08:29:15Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/198503",
+      "labels": [
+        "module: windows",
+        "triaged",
+        "oncall: pt2",
+        "oncall: export",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201942,
+      "title": "CUDA IPC: data race in GetNewRefCountedSentData can SIGSEGV on the first _share_cuda_ when CudaIPCCollect runs on another thread",
+      "author": "db-ol",
+      "state": "open",
+      "created_at": "2026-10-24T07:15:59Z",
+      "updated_at": "2026-10-24T07:17:34Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201942",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: multiprocessing",
+        "module: cuda",
+        "module: CUDACachingAllocator",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 201936,
+      "title": "CUDA training loop runs ~50x slower while a DataLoader iterates in a background thread, since 2.10.0",
+      "author": "Y-T-G",
+      "state": "open",
+      "created_at": "2026-10-24T05:24:48Z",
+      "updated_at": "2026-10-24T05:35:14Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201936",
+      "labels": [
+        "triage review",
+        "module: performance",
+        "module: multiprocessing",
+        "module: dataloader",
+        "module: cuda",
+        "module: regression",
+        "has workaround",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 150836,
+      "title": "`Aborted (core dumped)` in `torch.cuda.nccl.reduce`",
+      "author": "vwrewsge",
+      "state": "open",
+      "created_at": "2025-04-08T08:58:46Z",
+      "updated_at": "2026-10-24T04:11:23Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/150836",
+      "labels": [
+        "oncall: distributed",
+        "triaged",
+        "actionable"
+      ]
+    },
+    {
+      "number": 201744,
+      "title": "[dynamo] Missing `return` in `BuiltinVariable.call_method` `__hash__` branch graph-breaks unbound `X.__hash__(x)` calls",
+      "author": "hitluo",
+      "state": "open",
+      "created_at": "2026-10-22T13:27:20Z",
+      "updated_at": "2026-10-24T02:27:07Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201744",
+      "labels": [
+        "triaged",
+        "actionable",
+        "oncall: pt2",
+        "module: dynamo",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201612,
+      "title": "[dynamo] current_stream(<device index>) under torch.compile silently returns the tracked device's stream (wrong device)",
+      "author": "AAYESLY",
+      "state": "open",
+      "created_at": "2026-10-21T07:01:38Z",
+      "updated_at": "2026-10-24T02:26:48Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201612",
+      "labels": [
+        "triage review",
+        "actionable",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: dynamo",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201091,
+      "title": "[symm_mem] Local CUDA allocation leaks acquired resources when VMM setup fails",
+      "author": "jackLei0901",
+      "state": "open",
+      "created_at": "2026-10-15T18:33:29Z",
+      "updated_at": "2026-10-24T01:55:32Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201091",
+      "labels": [
+        "oncall: distributed",
+        "bot-triaged",
+        "oncall: distributed infra"
+      ]
+    },
+    {
+      "number": 201912,
+      "title": "Inductor applies the storage offset of nested_compile_region and torch.cond outputs twice",
+      "author": "Sahil170595",
+      "state": "open",
+      "created_at": "2026-10-23T22:29:45Z",
+      "updated_at": "2026-10-23T23:44:26Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201912",
+      "labels": [
+        "triage review",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "module: higher order operators",
+        "module: pt2-dispatcher",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201915,
+      "title": "cpp_wrapper fails to compile a nested_compile_region that is called more than once",
+      "author": "Sahil170595",
+      "state": "open",
+      "created_at": "2026-10-23T23:27:18Z",
+      "updated_at": "2026-10-23T23:29:10Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201915",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 200968,
+      "title": "[RFC] Rerun code skips in rerun-disabled-tests",
+      "author": "amdfaa",
+      "state": "open",
+      "created_at": "2026-10-14T20:06:29Z",
+      "updated_at": "2026-10-23T22:17:05Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200968",
+      "labels": [
+        "feature",
+        "module: ci",
+        "module: tests",
+        "triaged",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201879,
+      "title": "[CUDA] Build fails with cuDSS 1.0+: cudssMatrixCreateCsr API mismatch",
+      "author": "z-a-f",
+      "state": "open",
+      "created_at": "2026-10-23T20:07:22Z",
+      "updated_at": "2026-10-23T20:12:57Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201879",
+      "labels": [
+        "module: sparse",
+        "module: build",
+        "triaged",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 198596,
       "title": "DISABLED test_rerun_then_pass (test.junit_xml_testdata.pytest_suite.TestJunitOutcomes)",
       "author": "pytorch-bot[bot]",
       "state": "open",
       "created_at": "2026-09-25T06:57:58Z",
-      "updated_at": "2026-10-23T12:53:03Z",
+      "updated_at": "2026-10-23T18:49:27Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/198596",
       "labels": [
         "triaged",
@@ -23,7 +221,7 @@
       "author": "pytorch-bot[bot]",
       "state": "open",
       "created_at": "2026-09-25T06:57:53Z",
-      "updated_at": "2026-10-23T12:53:01Z",
+      "updated_at": "2026-10-23T18:49:24Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/198595",
       "labels": [
         "module: tests",
@@ -35,12 +233,125 @@
       ]
     },
     {
+      "number": 201139,
+      "title": "Triton 3.8.0 and 3.9.0 (2.14, 2.15 pins) appear to regress decode performance",
+      "author": "eqy",
+      "state": "open",
+      "created_at": "2026-10-16T01:37:07Z",
+      "updated_at": "2026-10-23T18:39:02Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201139",
+      "labels": [
+        "triage review",
+        "module: dependency bug",
+        "module: performance",
+        "module: cuda",
+        "module: regression",
+        "upstream triton",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201864,
+      "title": "[MPS] torch.compile exceeds Metal's buffer limit in Qwen GatedDeltaNet",
+      "author": "Isalia20",
+      "state": "open",
+      "created_at": "2026-10-23T17:22:51Z",
+      "updated_at": "2026-10-23T17:23:34Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201864",
+      "labels": [
+        "triaged",
+        "actionable",
+        "module: mps"
+      ]
+    },
+    {
+      "number": 201861,
+      "title": "[inductor] Compile time of a single `_foreach_add_` grows superlinearly in list length; ~2.7x worse when the tensors are views of shared storage",
+      "author": "bobrenjc93",
+      "state": "open",
+      "created_at": "2026-10-23T17:03:58Z",
+      "updated_at": "2026-10-23T17:06:07Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201861",
+      "labels": [
+        "triage review",
+        "oncall: pt2",
+        "module: inductor",
+        "module: compile-time",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201764,
+      "title": "[MPS] F.interpolate (linear, bilinear, trilinear) returns the next input pixel at some output positions",
+      "author": "tivris",
+      "state": "open",
+      "created_at": "2026-10-22T19:00:24Z",
+      "updated_at": "2026-10-23T16:28:10Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201764",
+      "labels": [
+        "triaged",
+        "module: correctness (silent)",
+        "module: interpolation",
+        "module: mps",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201153,
+      "title": "[MPS] `binary_cross_entropy` accepts NaN/out-of-range inputs that CPU rejects",
+      "author": "jianzhi-1",
+      "state": "open",
+      "created_at": "2026-10-16T06:17:20Z",
+      "updated_at": "2026-10-23T16:21:47Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201153",
+      "labels": [
+        "module: loss",
+        "module: error checking",
+        "triaged",
+        "actionable",
+        "module: mps",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201148,
+      "title": "[MPS] `index_reduce` amax/amin fail to propagate NaNs for float16 and float32",
+      "author": "jianzhi-1",
+      "state": "open",
+      "created_at": "2026-10-16T05:03:01Z",
+      "updated_at": "2026-10-23T16:19:53Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201148",
+      "labels": [
+        "triaged",
+        "module: NaNs and Infs",
+        "actionable",
+        "module: correctness (silent)",
+        "module: mps",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 160230,
+      "title": "Offer official Pytorch Vulkan backend on pytorch.org",
+      "author": "alshdavid",
+      "state": "open",
+      "created_at": "2025-08-08T23:19:51Z",
+      "updated_at": "2026-10-23T14:14:43Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/160230",
+      "labels": [
+        "feature",
+        "triaged",
+        "needs research",
+        "module: vulkan"
+      ]
+    },
+    {
       "number": 195450,
       "title": "[FSDP2][NCCL] Large slowdown for non-16-byte-aligned per-rank collective payloads",
       "author": "0x777a6c",
       "state": "open",
       "created_at": "2026-08-31T14:39:18Z",
-      "updated_at": "2026-10-23T11:42:30Z",
+      "updated_at": "2026-10-23T13:50:46Z",
       "html_url": "https://github.com/pytorch/pytorch/issues/195450",
       "labels": [
         "oncall: distributed",
@@ -51,17 +362,56 @@
       ]
     },
     {
-      "number": 201835,
-      "title": "[MPS] test_64bit_binops needs ~21 GB of GPU memory but only skips below 16 GB,",
-      "author": "lsyurea",
+      "number": 201500,
+      "title": "DISABLED test_tree_flatten_with_path_roundtrip (__main__.TestPythonPytree)",
+      "author": "pytorch-bot[bot]",
       "state": "open",
-      "created_at": "2026-10-23T09:47:15Z",
-      "updated_at": "2026-10-23T09:49:10Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201835",
+      "created_at": "2026-10-20T01:10:41Z",
+      "updated_at": "2026-10-23T13:36:25Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201500",
       "labels": [
-        "module: tests",
         "triaged",
-        "module: mps",
+        "module: flaky-tests",
+        "skipped",
+        "module: pytree",
+        "oncall: pt2",
+        "module: dynamo",
+        "bot-triaged",
+        "dynamo-triaged"
+      ]
+    },
+    {
+      "number": 201499,
+      "title": "DISABLED test_one_thread (__main__.TestOpenMP_ParallelFor)",
+      "author": "pytorch-bot[bot]",
+      "state": "open",
+      "created_at": "2026-10-20T01:10:38Z",
+      "updated_at": "2026-10-23T13:35:52Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201499",
+      "labels": [
+        "triage review",
+        "module: memory usage",
+        "module: flaky-tests",
+        "skipped",
+        "module: unknown",
+        "oncall: pt2",
+        "module: dynamo",
+        "bot-triaged",
+        "dynamo-triaged"
+      ]
+    },
+    {
+      "number": 200158,
+      "title": "[Rprop] Negative step_sizes are accepted and can reverse the parameter update direction",
+      "author": "Mohit-25-tech",
+      "state": "open",
+      "created_at": "2026-10-07T19:18:22Z",
+      "updated_at": "2026-10-23T13:30:33Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/200158",
+      "labels": [
+        "module: optimizer",
+        "module: error checking",
+        "triaged",
         "bot-triaged"
       ]
     },
@@ -80,21 +430,6 @@
         "module: sdpa",
         "bot-triaged",
         "release triage"
-      ]
-    },
-    {
-      "number": 201832,
-      "title": "Silent result divergence in CPU mul_, sigmoid_, tanh_, and exp_ with concurrent shared-tensor updates",
-      "author": "yyds1233",
-      "state": "open",
-      "created_at": "2026-10-23T09:02:43Z",
-      "updated_at": "2026-10-23T09:06:06Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201832",
-      "labels": [
-        "triage review",
-        "module: multithreading",
-        "module: correctness (silent)",
-        "bot-triaged"
       ]
     },
     {
@@ -169,21 +504,6 @@
       ]
     },
     {
-      "number": 201744,
-      "title": "[dynamo] Missing `return` in `BuiltinVariable.call_method` `__hash__` branch graph-breaks unbound `X.__hash__(x)` calls",
-      "author": "hitluo",
-      "state": "open",
-      "created_at": "2026-10-22T13:27:20Z",
-      "updated_at": "2026-10-23T06:44:38Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201744",
-      "labels": [
-        "triaged",
-        "oncall: pt2",
-        "module: dynamo",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 201818,
       "title": "[Dynamo] Dead guard in BaseListVariable.as_proxy: `python_type() is SizeVariable` is always False",
       "author": "hitluo",
@@ -195,149 +515,6 @@
         "triaged",
         "oncall: pt2",
         "module: dynamo",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201764,
-      "title": "[MPS] F.interpolate (linear, bilinear, trilinear) returns the next input pixel at some output positions",
-      "author": "tivris",
-      "state": "open",
-      "created_at": "2026-10-22T19:00:24Z",
-      "updated_at": "2026-10-23T05:13:10Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201764",
-      "labels": [
-        "triage review",
-        "module: correctness (silent)",
-        "module: interpolation",
-        "module: mps",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201805,
-      "title": "CPU Tensor.add_: lost updates with unsynchronized shared writes",
-      "author": "yyds1233",
-      "state": "open",
-      "created_at": "2026-10-23T03:24:07Z",
-      "updated_at": "2026-10-23T03:26:00Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201805",
-      "labels": [
-        "triage review",
-        "module: multithreading",
-        "module: correctness (silent)",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201574,
-      "title": "Deterministic index_put_(accumulate=True) / index_add_ on CUDA collapses to a single block when nElemBefore is in [2^31, 2^32) due to int narrowing in grid size",
-      "author": "wipemble-jumptrading",
-      "state": "open",
-      "created_at": "2026-10-20T20:46:56Z",
-      "updated_at": "2026-10-23T01:29:22Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201574",
-      "labels": [
-        "module: performance",
-        "triaged",
-        "module: 64-bit",
-        "module: advanced indexing",
-        "module: determinism",
-        "actionable",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201787,
-      "title": "DISABLED test_copy_strided_chunk_alignment_cuda_bfloat16 (__main__.TestTorchDeviceTypeCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-23T01:11:30Z",
-      "updated_at": "2026-10-23T01:11:34Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201787",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "module: flaky-tests",
-        "skipped"
-      ]
-    },
-    {
-      "number": 191009,
-      "title": "DISABLED test_index_propagation_to_dtype_inf_cpu_halide (__main__.HalideCpuTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-24T13:06:20Z",
-      "updated_at": "2026-10-23T01:11:21Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191009",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
-      ]
-    },
-    {
-      "number": 201644,
-      "title": "Release 2.15 validations checklist and cherry-picks",
-      "author": "atalman",
-      "state": "open",
-      "created_at": "2026-10-21T16:34:12Z",
-      "updated_at": "2026-10-22T23:45:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201644",
-      "labels": [
-        "oncall: releng"
-      ]
-    },
-    {
-      "number": 160230,
-      "title": "Offer official Pytorch Vulkan backend on pytorch.org",
-      "author": "alshdavid",
-      "state": "open",
-      "created_at": "2025-08-08T23:19:51Z",
-      "updated_at": "2026-10-22T22:36:36Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/160230",
-      "labels": [
-        "feature",
-        "triaged",
-        "needs research",
-        "module: vulkan"
-      ]
-    },
-    {
-      "number": 196214,
-      "title": "[ATen][Sparse] Empty CSR full reductions produce scalar values and an invalid sparse tensor",
-      "author": "MaxXSoft",
-      "state": "open",
-      "created_at": "2026-09-07T11:27:57Z",
-      "updated_at": "2026-10-22T21:34:13Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/196214",
-      "labels": [
-        "module: sparse",
-        "triaged",
-        "actionable",
-        "module: reductions",
-        "module: empty tensor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201775,
-      "title": "DISABLED test_map_pytree_in_out_device_xpu_dynamic_True_autograd_True (__main__.MapTestsCppWrapper)",
-      "author": "chuanqi129",
-      "state": "open",
-      "created_at": "2026-10-22T21:30:03Z",
-      "updated_at": "2026-10-22T21:31:55Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201775",
-      "labels": [
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "module: higher order operators",
-        "module: pt2-dispatcher",
-        "module: xpu",
         "bot-triaged"
       ]
     },
@@ -356,21 +533,6 @@
       ]
     },
     {
-      "number": 201307,
-      "title": "CUDA SymmetricMemory: rank-local rendezvous failure leaves peer resources and stalls other ranks",
-      "author": "jackLei0901",
-      "state": "open",
-      "created_at": "2026-10-17T19:40:58Z",
-      "updated_at": "2026-10-22T17:59:58Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201307",
-      "labels": [
-        "oncall: distributed",
-        "triaged",
-        "bot-triaged",
-        "oncall: distributed infra"
-      ]
-    },
-    {
       "number": 201757,
       "title": "linalg.eigvalsh: cuSOLVER fp32 loses ~3 orders of accuracy vs LAPACK and MAGMA on a well-conditioned symmetric matrix",
       "author": "audriuslaurynenas",
@@ -380,105 +542,6 @@
       "html_url": "https://github.com/pytorch/pytorch/issues/201757",
       "labels": [
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 201369,
-      "title": "[dynamo] Catching `KeyError` from `d[key]` adds no guard, so the compiled function silently returns a stale result once the key exists",
-      "author": "peterdsharpe",
-      "state": "open",
-      "created_at": "2026-10-19T01:11:45Z",
-      "updated_at": "2026-10-22T10:59:19Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201369",
-      "labels": []
-    },
-    {
-      "number": 178892,
-      "title": "[Windows] torch.save triggers 0xC0000005 Access Violation on RTX 4090 Laptop (WDDM Driver Conflict)",
-      "author": "1220856302",
-      "state": "open",
-      "created_at": "2026-03-31T16:25:12Z",
-      "updated_at": "2026-10-22T09:48:00Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/178892",
-      "labels": [
-        "needs reproduction",
-        "module: crash",
-        "module: windows",
-        "module: cuda",
-        "module: pickle",
-        "module: serialization",
-        "triaged",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201158,
-      "title": "torch.compile: storage reuse corrupts tensors cached by selective checkpointing",
-      "author": "hjinnkim",
-      "state": "open",
-      "created_at": "2026-10-16T07:07:59Z",
-      "updated_at": "2026-10-22T08:36:20Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201158",
-      "labels": [
-        "high priority",
-        "module: activation checkpointing",
-        "triaged",
-        "module: correctness (silent)",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
-      "number": 201711,
-      "title": "DISABLED test_tma_with_customer_kernel_options_selection_backend_TRITON_DECODE_xpu (__main__.TestFlexAttentionXPU)",
-      "author": "chuanqi129",
-      "state": "open",
-      "created_at": "2026-10-22T07:29:32Z",
-      "updated_at": "2026-10-22T07:32:17Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201711",
-      "labels": [
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "module: xpu",
-        "module: flex attention",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201710,
-      "title": "DISABLED test_tma_with_customer_kernel_options_selection_backend_TRITON_xpu (__main__.TestFlexAttentionXPU)",
-      "author": "chuanqi129",
-      "state": "open",
-      "created_at": "2026-10-22T07:29:09Z",
-      "updated_at": "2026-10-22T07:31:18Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201710",
-      "labels": [
-        "triaged",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor",
-        "module: xpu",
-        "module: flex attention",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201707,
-      "title": "DISABLED test_foreach_copy_with_different_device_inputs__foreach_copy_cuda_float64 (__main__.TestForeachDeviceCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-22T06:59:27Z",
-      "updated_at": "2026-10-22T06:59:31Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201707",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: mta"
       ]
     },
     {
@@ -552,24 +615,6 @@
         "module: memory format",
         "module: pruning",
         "module: viewing and reshaping",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201139,
-      "title": "Triton 3.8.0 and 3.9.0 (2.14, 2.15 pins) appear to regress decode performance",
-      "author": "eqy",
-      "state": "open",
-      "created_at": "2026-10-16T01:37:07Z",
-      "updated_at": "2026-10-21T16:52:04Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201139",
-      "labels": [
-        "triage review",
-        "module: dependency bug",
-        "module: performance",
-        "module: cuda",
-        "module: regression",
-        "upstream triton",
         "bot-triaged"
       ]
     },
@@ -874,24 +919,6 @@
         "oncall: pt2",
         "module: aotdispatch",
         "module: pt2-dispatcher"
-      ]
-    },
-    {
-      "number": 192650,
-      "title": "[ROCm] USE_ROCM_CK_SDPA=1 build fails with AMD clang 23 due to FastGeluAsm in-class template specializations",
-      "author": "ameilkumar-ibm",
-      "state": "open",
-      "created_at": "2026-08-09T16:45:50Z",
-      "updated_at": "2026-10-20T01:05:11Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/192650",
-      "labels": [
-        "module: build",
-        "module: rocm",
-        "triaged",
-        "module: third_party",
-        "actionable",
-        "module: sdpa",
-        "bot-triaged"
       ]
     }
   ]

@@ -1,17 +1,92 @@
 {
-  "collected_at": "2026-10-23T12:56:04Z",
+  "collected_at": "2026-10-24T12:18:51Z",
   "prs": [
     {
-      "number": 774,
-      "title": "Update to AITER Oct 17",
+      "number": 741,
+      "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
+      "author": "yaomingamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-23T16:23:35Z",
+      "updated_at": "2026-10-24T07:29:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
+      "labels": [
+        "ci-level 3",
+        "community-contribution",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 779,
+      "title": "[CI] Pin release_v2.20.2_rocm to the TheRock 7.14 test image",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T19:00:27Z",
+      "updated_at": "2026-10-24T06:55:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/779",
+      "labels": [
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 780,
+      "title": "Enforce using of source CI image",
       "author": "ipanfilo",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-21T18:15:40Z",
-      "updated_at": "2026-10-23T04:24:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/774",
+      "created_at": "2026-10-24T05:38:14Z",
+      "updated_at": "2026-10-24T06:07:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/780",
       "labels": [
-        "ci-level 2"
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 776,
+      "title": "fix examples, wire them into CI summary, fix dispatch when multiple labels are added simultaneously",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-21T21:57:15Z",
+      "updated_at": "2026-10-23T21:16:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/776",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": true
+    },
+    {
+      "number": 760,
+      "title": "Release 2.20.2",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T20:38:16Z",
+      "updated_at": "2026-10-23T17:12:32Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/760",
+      "labels": [
+        "ci-level 3",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 745,
+      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T17:13:42Z",
+      "updated_at": "2026-10-23T15:48:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "labels": [
+        "ci-level 1",
+        "P2"
       ],
       "draft": false
     },
@@ -54,36 +129,6 @@
       "updated_at": "2026-10-22T20:59:47Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/777",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 776,
-      "title": "fix examples, wire them into CI summary, fix dispatch when multiple labels are added simultaneously",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-21T21:57:15Z",
-      "updated_at": "2026-10-22T20:48:50Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/776",
-      "labels": [
-        "ci-level 1",
-        "P2"
-      ],
-      "draft": true
-    },
-    {
-      "number": 760,
-      "title": "Release 2.20.2",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T20:38:16Z",
-      "updated_at": "2026-10-22T20:41:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/760",
-      "labels": [
-        "ci-level 3",
-        "P1"
-      ],
       "draft": false
     },
     {
@@ -131,20 +176,6 @@
       "draft": false
     },
     {
-      "number": 773,
-      "title": "Upgrade CI to TheRock ROCm 10.1",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-21T15:30:03Z",
-      "updated_at": "2026-10-22T18:34:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/773",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
       "number": 696,
       "title": "sGPU Test Scheduling: Global Work Queue",
       "author": "VeeraRajasekhar",
@@ -184,22 +215,6 @@
       "labels": [
         "ci-level 1",
         "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 741,
-      "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
-      "author": "yaomingamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T16:23:35Z",
-      "updated_at": "2026-10-22T15:36:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
-      "labels": [
-        "ci-level 3",
-        "community-contribution",
-        "P1"
       ],
       "draft": false
     },
@@ -649,21 +664,6 @@
       "draft": true
     },
     {
-      "number": 745,
-      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T17:13:42Z",
-      "updated_at": "2026-10-20T21:00:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
-      "labels": [
-        "ci-level 1",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
       "number": 766,
       "title": "gfx1250: use hipblaslt device alpha for NVFP4 GEMM",
       "author": "matthiasdiener",
@@ -836,6 +836,34 @@
       "labels": [
         "ci-level 1",
         "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 773,
+      "title": "Upgrade CI to TheRock ROCm 10.1",
+      "author": "AllenFarcas",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-21T15:30:03Z",
+      "updated_at": "2026-10-23T20:10:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/773",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 774,
+      "title": "Update to AITER Oct 17",
+      "author": "ipanfilo",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-21T18:15:40Z",
+      "updated_at": "2026-10-23T15:27:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/774",
+      "labels": [
+        "ci-level 2"
       ],
       "draft": false
     },
@@ -1948,20 +1976,6 @@
       "created_at": "2026-07-16T19:12:33Z",
       "updated_at": "2026-07-17T15:22:51Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/672",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 664,
-      "title": "optimize mxfp4 cast/transpose",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-07T22:36:07Z",
-      "updated_at": "2026-07-16T03:12:59Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/664",
       "labels": [
         "ci-level 3"
       ],

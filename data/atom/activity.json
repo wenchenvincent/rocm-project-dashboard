@@ -1,43 +1,37 @@
 {
-  "collected_at": "2026-10-23T12:58:34Z",
+  "collected_at": "2026-10-24T12:21:26Z",
   "project": "atom",
   "repo": "ROCm/ATOM",
   "pr_velocity": {
     "this_week": {
-      "opened": 68,
-      "merged": 20,
-      "closed": 8
+      "opened": 69,
+      "merged": 25,
+      "closed": 7
     },
     "last_week": {
-      "opened": 100,
-      "merged": 74,
-      "closed": 21
+      "opened": 91,
+      "merged": 66,
+      "closed": 22
     },
-    "median_time_to_merge_hours": 24.5,
-    "merge_count": 108,
-    "stale_prs": 91
+    "median_time_to_merge_hours": 22.4,
+    "merge_count": 104,
+    "stale_prs": 94
   },
   "contributors": {
     "active_this_week": 54,
-    "total_contributors": 89,
+    "total_contributors": 90,
     "top_contributors": [
       {
         "author": "ZhiweiYan-96",
-        "prs_submitted": 18,
-        "prs_merged": 9,
-        "commits": 12
+        "prs_submitted": 17,
+        "prs_merged": 8,
+        "commits": 11
       },
       {
         "author": "ZLkanyo009",
-        "prs_submitted": 17,
-        "prs_merged": 3,
+        "prs_submitted": 16,
+        "prs_merged": 2,
         "commits": 4
-      },
-      {
-        "author": "ZhangLirong-amd",
-        "prs_submitted": 15,
-        "prs_merged": 10,
-        "commits": 14
       },
       {
         "author": "ganyi1996ppo",
@@ -46,40 +40,46 @@
         "commits": 2
       },
       {
-        "author": "JiaoliangYu",
-        "prs_submitted": 14,
-        "prs_merged": 3,
-        "commits": 4
-      },
-      {
         "author": "yhl-amd",
         "prs_submitted": 14,
         "prs_merged": 3,
-        "commits": 15
+        "commits": 13
+      },
+      {
+        "author": "ZhangLirong-amd",
+        "prs_submitted": 13,
+        "prs_merged": 9,
+        "commits": 14
       },
       {
         "author": "PerryZhang01",
         "prs_submitted": 13,
         "prs_merged": 1,
+        "commits": 2
+      },
+      {
+        "author": "JiaoliangYu",
+        "prs_submitted": 13,
+        "prs_merged": 2,
         "commits": 3
       },
       {
         "author": "gbyu-amd",
         "prs_submitted": 12,
         "prs_merged": 3,
-        "commits": 4
-      },
-      {
-        "author": "linsun12",
-        "prs_submitted": 11,
-        "prs_merged": 5,
-        "commits": 1
+        "commits": 2
       },
       {
         "author": "gyohuangxin",
         "prs_submitted": 10,
         "prs_merged": 2,
-        "commits": 3
+        "commits": 2
+      },
+      {
+        "author": "linsun12",
+        "prs_submitted": 10,
+        "prs_merged": 4,
+        "commits": 1
       }
     ],
     "bus_factor": 8
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.3,
+    "days_since_last": 5.2,
     "avg_interval_days": 29.6,
     "total_releases": 5,
     "latest_tag": "v0.1.8"

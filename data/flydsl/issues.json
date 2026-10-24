@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-23T12:56:02Z",
+  "collected_at": "2026-10-24T12:18:48Z",
   "issues": [
+    {
+      "number": 1323,
+      "title": "[Bug] gfx1250 WMMAScale FP4: wrong A/B register layout breaks MXFP4 GEMM with non-uniform scales",
+      "author": "aris134",
+      "state": "open",
+      "created_at": "2026-10-23T20:45:39Z",
+      "updated_at": "2026-10-23T20:45:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1323",
+      "labels": []
+    },
     {
       "number": 1273,
       "title": "[Issue]: gfx950: kernel spills 346 VGPRs and runs 2.2x slower after FlyDSL 0.2.4 -> 0.3.4.1 (bundled LLVM 7f77ca0d -> e2a39f50) with near-identical LLVM IR",
