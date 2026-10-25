@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-24T12:18:03Z",
+  "collected_at": "2026-10-25T12:49:22Z",
   "issues": [
     {
       "number": 45847,
@@ -7,11 +7,63 @@
       "author": "bingxche",
       "state": "open",
       "created_at": "2026-10-22T16:44:47Z",
-      "updated_at": "2026-10-24T11:33:32Z",
+      "updated_at": "2026-10-25T12:07:09Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/45847",
       "labels": [
         "ci-failure-tracker"
       ]
+    },
+    {
+      "number": 45373,
+      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
+      "author": "JackChuang",
+      "state": "open",
+      "created_at": "2026-10-20T10:04:23Z",
+      "updated_at": "2026-10-25T12:04:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
+      "labels": []
+    },
+    {
+      "number": 43412,
+      "title": "Speculative decoding crashes server on first non-greedy request: flashinfer verify-sampling op JIT fails (bundled cccl vs pip cu13 toolkit) and kills the process tree",
+      "author": "santanu20",
+      "state": "open",
+      "created_at": "2026-10-09T19:02:21Z",
+      "updated_at": "2026-10-25T08:40:57Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43412",
+      "labels": []
+    },
+    {
+      "number": 30599,
+      "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
+      "author": "AIwork4me",
+      "state": "open",
+      "created_at": "2026-07-09T04:36:21Z",
+      "updated_at": "2026-10-24T20:30:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/30599",
+      "labels": [
+        "amd"
+      ]
+    },
+    {
+      "number": 46314,
+      "title": "[Bug] diffusion quantization layer: 11 correctness bugs (ModelSlim MXFP4, rowwise FP8/gfx1250, MXFP4 ROCm, KitchenW4A4, Nunchaku)",
+      "author": "OnePunchMonk",
+      "state": "open",
+      "created_at": "2026-10-24T16:17:13Z",
+      "updated_at": "2026-10-24T16:17:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46314",
+      "labels": []
+    },
+    {
+      "number": 46312,
+      "title": "[Bug] DeepSeek AWQ checkpoints fail to load on CUDA: ModuleNotFoundError: No module named 'sglang.kernel_api_logging'",
+      "author": "znzryb",
+      "state": "open",
+      "created_at": "2026-10-24T16:04:03Z",
+      "updated_at": "2026-10-24T16:04:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46312",
+      "labels": []
     },
     {
       "number": 36807,
@@ -61,16 +113,6 @@
       "created_at": "2026-09-02T02:58:18Z",
       "updated_at": "2026-10-23T03:00:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/37519",
-      "labels": []
-    },
-    {
-      "number": 45373,
-      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
-      "author": "JackChuang",
-      "state": "open",
-      "created_at": "2026-10-20T10:04:23Z",
-      "updated_at": "2026-10-23T00:35:55Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
       "labels": []
     },
     {
@@ -220,16 +262,6 @@
       "labels": []
     },
     {
-      "number": 43412,
-      "title": "Speculative decoding crashes server on first non-greedy request: flashinfer verify-sampling op JIT fails (bundled cccl vs pip cu13 toolkit) and kills the process tree",
-      "author": "santanu20",
-      "state": "open",
-      "created_at": "2026-10-09T19:02:21Z",
-      "updated_at": "2026-10-16T20:35:32Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43412",
-      "labels": []
-    },
-    {
       "number": 43949,
       "title": "[RFC] Monokernel framework for SGLang",
       "author": "kevin-mii",
@@ -366,16 +398,6 @@
       "created_at": "2026-10-02T02:30:50Z",
       "updated_at": "2026-10-08T22:01:01Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/42173",
-      "labels": []
-    },
-    {
-      "number": 22949,
-      "title": "Development Roadmap (2026 Q2)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-04-16T08:35:03Z",
-      "updated_at": "2026-10-08T20:00:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/22949",
       "labels": []
     },
     {
@@ -518,26 +540,6 @@
       "created_at": "2026-09-19T01:46:49Z",
       "updated_at": "2026-09-19T04:30:51Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/40286",
-      "labels": []
-    },
-    {
-      "number": 30209,
-      "title": "[Bug] GlmMoeDsa (GLM-5.2) FP4 + EAGLE: illegal memory access in flashinfer_trtllm bf16 batched-GEMM (nextn draft MoE); triton nextn default is HIP-gated after #30137",
-      "author": "hongboshi1234",
-      "state": "open",
-      "created_at": "2026-07-06T04:14:01Z",
-      "updated_at": "2026-09-16T08:23:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/30209",
-      "labels": []
-    },
-    {
-      "number": 39517,
-      "title": "[Bug] NEXTN with Qwen3.5-122B-A10B-FP8 memory-faults on MI300X/MI325X/MI355X (aiter backend, rocm10 nightlies); triton works, SGLANG_USE_AITER_UNIFIED_ATTN works on gfx942 only",
-      "author": "jolpindo96",
-      "state": "open",
-      "created_at": "2026-09-15T03:51:38Z",
-      "updated_at": "2026-09-15T03:51:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39517",
       "labels": []
     }
   ]

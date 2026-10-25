@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-10-24T12:18:44Z",
+  "collected_at": "2026-10-25T12:49:58Z",
   "issues": [
+    {
+      "number": 839,
+      "title": "MORI main (since #623): SDMA queue setup exits with `ERROR code: 5` (anvil.cpp:200) in a container given only some of the host's GPUs",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-25T00:24:46Z",
+      "updated_at": "2026-10-25T00:24:46Z",
+      "html_url": "https://github.com/ROCm/mori/issues/839",
+      "labels": []
+    },
     {
       "number": 749,
       "title": "UMBP: a read lease is only a timer: a slow read can return another key's bytes, a fast one holds its memory for the full lease",

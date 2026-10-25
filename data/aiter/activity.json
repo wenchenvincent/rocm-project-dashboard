@@ -1,43 +1,43 @@
 {
-  "collected_at": "2026-10-24T12:20:20Z",
+  "collected_at": "2026-10-25T12:51:36Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 236,
-      "merged": 137,
-      "closed": 117
+      "opened": 239,
+      "merged": 141,
+      "closed": 116
     },
     "last_week": {
-      "opened": 247,
-      "merged": 154,
-      "closed": 99
+      "opened": 230,
+      "merged": 150,
+      "closed": 88
     },
-    "median_time_to_merge_hours": 90.9,
-    "merge_count": 316,
-    "stale_prs": 36
+    "median_time_to_merge_hours": 90.3,
+    "merge_count": 314,
+    "stale_prs": 38
   },
   "contributors": {
-    "active_this_week": 187,
-    "total_contributors": 315,
+    "active_this_week": 195,
+    "total_contributors": 318,
     "top_contributors": [
       {
         "author": "Boss2002n",
-        "prs_submitted": 14,
-        "prs_merged": 1,
+        "prs_submitted": 15,
+        "prs_merged": 0,
         "commits": 45
-      },
-      {
-        "author": "rahulbatra85",
-        "prs_submitted": 14,
-        "prs_merged": 1,
-        "commits": 7
       },
       {
         "author": "AMD-yanfeiwang",
         "prs_submitted": 14,
         "prs_merged": 0,
         "commits": 1
+      },
+      {
+        "author": "rahulbatra85",
+        "prs_submitted": 14,
+        "prs_merged": 1,
+        "commits": 7
       },
       {
         "author": "yuychang",
@@ -72,8 +72,8 @@
       {
         "author": "akii96",
         "prs_submitted": 7,
-        "prs_merged": 0,
-        "commits": 3
+        "prs_merged": 1,
+        "commits": 4
       },
       {
         "author": "yadaish",
@@ -82,18 +82,18 @@
         "commits": 3
       }
     ],
-    "bus_factor": 10
+    "bus_factor": 11
   },
   "issue_health": {
-    "total_open": 411,
-    "opened_this_week": 15,
-    "closed_this_week": 7,
-    "unanswered": 215
+    "total_open": 410,
+    "opened_this_week": 13,
+    "closed_this_week": 8,
+    "unanswered": 216
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 5.2,
+    "days_since_last": 6.2,
     "avg_interval_days": 5.8,
     "total_releases": 5,
     "latest_tag": "v0.1.26"

@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-10-24T12:21:48Z",
+  "collected_at": "2026-10-25T12:52:59Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 40,
+      "opened": 38,
       "merged": 22,
       "closed": 0
     },
     "last_week": {
-      "opened": 48,
-      "merged": 37,
-      "closed": 11
+      "opened": 46,
+      "merged": 36,
+      "closed": 10
     },
-    "median_time_to_merge_hours": 28.6,
-    "merge_count": 61,
+    "median_time_to_merge_hours": 29.6,
+    "merge_count": 60,
     "stale_prs": 28
   },
   "contributors": {
@@ -85,15 +85,15 @@
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 30,
-    "opened_this_week": 2,
+    "total_open": 31,
+    "opened_this_week": 3,
     "closed_this_week": 2,
     "unanswered": 10
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 12.1,
+    "days_since_last": 13.1,
     "avg_interval_days": 27.0,
     "total_releases": 5,
     "latest_tag": "v1.2.4"

@@ -1,6 +1,172 @@
 {
-  "collected_at": "2026-10-24T12:17:49Z",
+  "collected_at": "2026-10-25T12:49:10Z",
   "issues": [
+    {
+      "number": 53051,
+      "title": "[Bug]: Prefill misdispatched into spec-decode FULL cudagraph when prompt length == 1 + num_speculative_tokens \u2192 silent GDN state loss, garbage output (hybrid/Qwen3-Next models)",
+      "author": "allenzz-dev",
+      "state": "open",
+      "created_at": "2026-08-20T05:29:59Z",
+      "updated_at": "2026-10-25T11:50:20Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/53051",
+      "labels": [
+        "rocm",
+        "mrv1-only"
+      ]
+    },
+    {
+      "number": 63505,
+      "title": "[Bug]: Qwen3.8-27B (GDN hybrid) with PP=3 on sm_86: illegal memory access (Xid 31) with prefix caching, gibberish output without it; regression since v0.28.0 (v0.31.0, v0.32.0, both model runners)",
+      "author": "levaitamas",
+      "state": "open",
+      "created_at": "2026-10-24T17:44:57Z",
+      "updated_at": "2026-10-25T10:42:18Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63505",
+      "labels": [
+        "bug",
+        "kv-cache-manager"
+      ]
+    },
+    {
+      "number": 63455,
+      "title": "[Bug]: [ROCm] AutoAWQ checkpoints never use the RDNA W4A16 kernel; AWQ decodes 2.5x slower than BF16 on gfx1151",
+      "author": "chetan-metrum-ai",
+      "state": "open",
+      "created_at": "2026-10-24T06:10:16Z",
+      "updated_at": "2026-10-25T09:24:27Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63455",
+      "labels": [
+        "rocm",
+        "quantization"
+      ]
+    },
+    {
+      "number": 48898,
+      "title": "[Bug]: NVFP4 garbage output under torch.compile when per-rank K is not 32-aligned (TP8 on SM120): padded block-scale column reads stale memory; eager/Marlin/aligned-TP correct",
+      "author": "jszzr",
+      "state": "open",
+      "created_at": "2026-07-17T01:06:13Z",
+      "updated_at": "2026-10-25T07:03:01Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/48898",
+      "labels": [
+        "stale"
+      ]
+    },
+    {
+      "number": 61383,
+      "title": "[Bug]: Intermittent XGrammar request termination with V2 DFlash probabilistic drafting and block rejection",
+      "author": "tomasruizt",
+      "state": "open",
+      "created_at": "2026-10-13T09:40:50Z",
+      "updated_at": "2026-10-25T06:03:02Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/61383",
+      "labels": [
+        "structured-output"
+      ]
+    },
+    {
+      "number": 63536,
+      "title": "[Bug]: [Usage]: RTX PRO 5000 (SM120) deadlocks at 3-4W during vLLM 0.32.0 startup with 70B NVFP4 model, even with --enforce-eager",
+      "author": "blujule4218",
+      "state": "open",
+      "created_at": "2026-10-25T03:21:29Z",
+      "updated_at": "2026-10-25T03:21:36Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63536",
+      "labels": [
+        "bug",
+        "quantization"
+      ]
+    },
+    {
+      "number": 45372,
+      "title": "[Bug]: Performance Regression since 0.22 on RDNA2",
+      "author": "a17t",
+      "state": "open",
+      "created_at": "2026-06-12T06:27:32Z",
+      "updated_at": "2026-10-25T01:48:19Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/45372",
+      "labels": [
+        "bug",
+        "rocm",
+        "stale"
+      ]
+    },
+    {
+      "number": 51805,
+      "title": "[Bug]: MooncakeStoreConnector process_tokens assertion fails on decode with MTP speculative decoding",
+      "author": "ilmarkov",
+      "state": "open",
+      "created_at": "2026-08-11T10:29:30Z",
+      "updated_at": "2026-10-24T19:31:08Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51805",
+      "labels": []
+    },
+    {
+      "number": 62697,
+      "title": "[Bug][ROCm] `ROCM_ATTN` returns wrong attention (and can fault the GPU) on RDNA for head size \u2265 96 with KV block size \u2260 16, and for MHA with head size 192/256",
+      "author": "nemanjaudovic",
+      "state": "open",
+      "created_at": "2026-10-20T12:50:39Z",
+      "updated_at": "2026-10-24T18:46:35Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/62697",
+      "labels": [
+        "rocm"
+      ]
+    },
+    {
+      "number": 58485,
+      "title": "[Bug]: V1 thinking budget corrupts a multi-token reasoning_end_str under speculative decoding",
+      "author": "amittell",
+      "state": "open",
+      "created_at": "2026-09-24T00:54:43Z",
+      "updated_at": "2026-10-24T18:31:09Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/58485",
+      "labels": [
+        "speculative-decoding",
+        "tool-calling",
+        "mrv1-only"
+      ]
+    },
+    {
+      "number": 63507,
+      "title": "[Bug]: CPU backend accepts unsupported attention head sizes; engine dies on first request",
+      "author": "patrk",
+      "state": "open",
+      "created_at": "2026-10-24T18:26:27Z",
+      "updated_at": "2026-10-24T18:26:34Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63507",
+      "labels": [
+        "cpu"
+      ]
+    },
+    {
+      "number": 52803,
+      "title": "[ROCm][AMD] Kimi-K3 gfx942 / MI325X Gap and Roadmap",
+      "author": "maeehart",
+      "state": "open",
+      "created_at": "2026-08-18T17:10:06Z",
+      "updated_at": "2026-10-24T16:39:25Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/52803",
+      "labels": [
+        "rocm",
+        "quantization",
+        "kimi",
+        "k3"
+      ]
+    },
+    {
+      "number": 57406,
+      "title": "[Feature]: GLM 5.3 Performance Optimization",
+      "author": "yewentao256",
+      "state": "open",
+      "created_at": "2026-09-17T15:35:18Z",
+      "updated_at": "2026-10-24T14:34:34Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/57406",
+      "labels": [
+        "feature request",
+        "glm"
+      ]
+    },
     {
       "number": 63343,
       "title": "[Bug][DSv4.1][SM120] enable_adaptive_verification is rejected on SM120 \u2014 device-query-lens support is gated to SM90/SM100 only",
@@ -24,19 +190,6 @@
       "labels": [
         "RFC",
         "stale"
-      ]
-    },
-    {
-      "number": 63455,
-      "title": "[Bug]: [ROCm] AutoAWQ checkpoints never use the RDNA W4A16 kernel; AWQ decodes 2.5x slower than BF16 on gfx1151",
-      "author": "chetan-metrum-ai",
-      "state": "open",
-      "created_at": "2026-10-24T06:10:16Z",
-      "updated_at": "2026-10-24T06:10:25Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/63455",
-      "labels": [
-        "rocm",
-        "quantization"
       ]
     },
     {
@@ -133,18 +286,6 @@
       "updated_at": "2026-10-23T22:01:33Z",
       "html_url": "https://github.com/vllm-project/vllm/issues/51405",
       "labels": []
-    },
-    {
-      "number": 62697,
-      "title": "[Bug][ROCm] `ROCM_ATTN` returns wrong attention (and can fault the GPU) on RDNA for head size \u2265 96 with KV block size \u2260 16, and for MHA with head size 192/256",
-      "author": "nemanjaudovic",
-      "state": "open",
-      "created_at": "2026-10-20T12:50:39Z",
-      "updated_at": "2026-10-23T20:51:27Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62697",
-      "labels": [
-        "rocm"
-      ]
     },
     {
       "number": 63187,
@@ -296,16 +437,6 @@
       ]
     },
     {
-      "number": 63267,
-      "title": "[Bug]: CUDA builds without FA extensions (Jetson Thor sm_110) cannot start: vllm_flash_attn raises at import time and FA is still auto-selected",
-      "author": "potoior",
-      "state": "open",
-      "created_at": "2026-10-23T04:32:44Z",
-      "updated_at": "2026-10-23T06:26:06Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/63267",
-      "labels": []
-    },
-    {
       "number": 62851,
       "title": "[Bug]: Qwen3.6 GDN greedy DFlash2 divergence from batch-dependent numerics and preemption/recompute (v0.31.0)",
       "author": "NiclasKuehn",
@@ -399,19 +530,6 @@
       ]
     },
     {
-      "number": 57406,
-      "title": "[Feature]: GLM 5.3 Performance Optimization",
-      "author": "yewentao256",
-      "state": "open",
-      "created_at": "2026-09-17T15:35:18Z",
-      "updated_at": "2026-10-22T18:41:52Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/57406",
-      "labels": [
-        "feature request",
-        "glm"
-      ]
-    },
-    {
       "number": 63168,
       "title": "[Bug]: GLM-5.3-Flash kpool prefill writer leaves the pool straddling an unaligned chunk start unwritten or pooled from another request's tokens",
       "author": "UrbanAstroLA",
@@ -445,21 +563,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/63049",
       "labels": [
         "rocm"
-      ]
-    },
-    {
-      "number": 59457,
-      "title": "[Bug]: [gpt-oss-20b-bf16] W4A8 quantized model produces garbled output on ARM CPU",
-      "author": "sanketkaleoss",
-      "state": "open",
-      "created_at": "2026-09-30T15:43:40Z",
-      "updated_at": "2026-10-22T05:43:41Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/59457",
-      "labels": [
-        "bug",
-        "cpu",
-        "gpt-oss",
-        "quantization"
       ]
     },
     {
@@ -511,18 +614,6 @@
       ]
     },
     {
-      "number": 54308,
-      "title": "GDN / Qwen3-Next decode degenerates to a single repeated token on non-Blackwell GPUs with an fp32 SSM cache",
-      "author": "JackDanger",
-      "state": "open",
-      "created_at": "2026-08-29T03:49:49Z",
-      "updated_at": "2026-10-21T16:58:25Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/54308",
-      "labels": [
-        "rocm"
-      ]
-    },
-    {
       "number": 62116,
       "title": "[Bug]: GDN chunk/prefill path overflows fp16 with a large fp32 SSM state (chunk-path follow-up to #54146)",
       "author": "miggle711",
@@ -567,84 +658,6 @@
       "labels": [
         "bug",
         "kimi"
-      ]
-    },
-    {
-      "number": 62639,
-      "title": "[Bug]: Responses API: tool_choice=allowed_tools does not work",
-      "author": "princess-melie",
-      "state": "open",
-      "created_at": "2026-10-20T07:37:32Z",
-      "updated_at": "2026-10-21T09:18:15Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62639",
-      "labels": [
-        "bug",
-        "tool-calling"
-      ]
-    },
-    {
-      "number": 62844,
-      "title": "[Installation]: [ROCm] Gemma4 multimodal model fails to start on vLLM 0.32.0 due to excessive video encoder memory reservation (negative KV cache)",
-      "author": "ntkylin",
-      "state": "open",
-      "created_at": "2026-10-21T07:09:36Z",
-      "updated_at": "2026-10-21T07:25:18Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62844",
-      "labels": [
-        "installation",
-        "rocm",
-        "multi-modality"
-      ]
-    },
-    {
-      "number": 62828,
-      "title": "[Bug][ROCm]: ROCM_ATTN sliding-window kernels output NaN when an out-of-window KV slot holds NaN/Inf",
-      "author": "zhentaocc",
-      "state": "open",
-      "created_at": "2026-10-21T04:41:41Z",
-      "updated_at": "2026-10-21T04:41:51Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62828",
-      "labels": [
-        "rocm"
-      ]
-    },
-    {
-      "number": 62781,
-      "title": "[Bug][XPU] GDN fp16 overflow reproduces on Intel XPU (Qwen3.5-family): long-context needle 0/9, and the pending #54146/#62119 fixes do not reach the XPU path",
-      "author": "baustin27",
-      "state": "open",
-      "created_at": "2026-10-21T01:11:11Z",
-      "updated_at": "2026-10-21T04:33:57Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62781",
-      "labels": [
-        "intel-gpu"
-      ]
-    },
-    {
-      "number": 47292,
-      "title": "[Bug]: RuntimeError: UVA is not available",
-      "author": "lucalauer",
-      "state": "open",
-      "created_at": "2026-07-01T12:07:12Z",
-      "updated_at": "2026-10-21T01:47:16Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/47292",
-      "labels": [
-        "bug",
-        "stale"
-      ]
-    },
-    {
-      "number": 61330,
-      "title": "[Bug]: DFlash speculative decoding with gpt-oss target crashes with FA3 illegal memory access",
-      "author": "oscarw-td",
-      "state": "open",
-      "created_at": "2026-10-13T04:44:29Z",
-      "updated_at": "2026-10-21T00:28:11Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/61330",
-      "labels": [
-        "bug",
-        "speculative-decoding",
-        "gpt-oss"
       ]
     }
   ]

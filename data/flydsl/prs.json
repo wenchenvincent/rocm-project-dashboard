@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-24T12:18:47Z",
+  "collected_at": "2026-10-25T12:50:00Z",
   "prs": [
     {
       "number": 1321,
@@ -10,18 +10,6 @@
       "created_at": "2026-10-23T02:48:27Z",
       "updated_at": "2026-10-23T17:18:48Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1321",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1322,
-      "title": "`kernel-trace-analysis`: fix SKILL.md nits so the evals pass",
-      "author": "danielholanda",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T04:15:00Z",
-      "updated_at": "2026-10-23T04:38:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1322",
       "labels": [],
       "draft": false
     },
@@ -1068,6 +1056,18 @@
       "draft": false
     },
     {
+      "number": 1322,
+      "title": "`kernel-trace-analysis`: fix SKILL.md nits so the evals pass",
+      "author": "danielholanda",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-23T04:15:00Z",
+      "updated_at": "2026-10-25T08:13:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1322",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 1317,
       "title": "[Skills] review-pr: strip the API key and show why model calls failed",
       "author": "jhinpan",
@@ -1872,18 +1872,6 @@
       "created_at": "2026-09-22T00:05:00Z",
       "updated_at": "2026-09-22T11:03:58Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1177",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1062,
-      "title": "smem cleanup: move capacity helpers off legacy allocator, migrate tes\u2026",
-      "author": "xudoyuan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T08:21:39Z",
-      "updated_at": "2026-09-22T11:02:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1062",
       "labels": [],
       "draft": false
     }

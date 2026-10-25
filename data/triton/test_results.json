@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-24T12:19:25Z",
+  "collected_at": "2026-10-25T12:50:43Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Integration Tests",
-    "run_id": 40067007829,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/40067007829",
-    "run_date": "2026-10-24T06:10:28Z",
+    "run_id": 40147533538,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/40147533538",
+    "run_date": "2026-10-25T01:08:10Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 5,
@@ -17,24 +17,6 @@
     "suites": [
       {
         "name": "integration-tests-amd / integration-tests-amd (gfx1250-rocjitsu)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950, rocm10.1)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "integration-tests-amd / integration-tests-amd (amd-gfx942)",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -59,14 +41,32 @@
         "failed": null,
         "skipped": null,
         "errors": null
+      },
+      {
+        "name": "integration-tests-amd / integration-tests-amd (amd-gfx950, rocm10.1)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "integration-tests-amd / integration-tests-amd (amd-gfx942)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
       }
     ]
   },
   "cuda": {
     "workflow_name": "Integration Tests",
-    "run_id": 40067007829,
-    "run_url": "https://github.com/triton-lang/triton/actions/runs/40067007829",
-    "run_date": "2026-10-24T06:10:28Z",
+    "run_id": 40147533538,
+    "run_url": "https://github.com/triton-lang/triton/actions/runs/40147533538",
+    "run_date": "2026-10-25T01:08:10Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 3,

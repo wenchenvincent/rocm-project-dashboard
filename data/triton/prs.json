@@ -1,27 +1,15 @@
 {
-  "collected_at": "2026-10-24T12:18:05Z",
+  "collected_at": "2026-10-25T12:49:24Z",
   "prs": [
     {
-      "number": 12478,
-      "title": "[AMD][GLUON] Deprecate load_shared_relaxed",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T20:20:08Z",
-      "updated_at": "2026-10-24T05:38:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12478",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12480,
-      "title": "[AMD] Enable IEEE maximum/minimum for RDNA4",
+      "number": 12345,
+      "title": "[AMD][Gluon] Add buffer descriptors and descriptor-based buffer ops",
       "author": "antiagainst",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-24T05:37:54Z",
-      "updated_at": "2026-10-24T05:37:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12480",
+      "created_at": "2026-10-18T02:44:47Z",
+      "updated_at": "2026-10-24T23:45:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12345",
       "labels": [],
       "draft": false
     },
@@ -32,8 +20,44 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-10-23T11:09:19Z",
-      "updated_at": "2026-10-24T02:25:17Z",
+      "updated_at": "2026-10-24T23:36:43Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12471",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12474,
+      "title": "[AMD] Enable Remaining GFX1250-strict WMMA Instructions",
+      "author": "amirumoAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T13:43:00Z",
+      "updated_at": "2026-10-24T17:11:54Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12474",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12480,
+      "title": "[AMD] Enable IEEE maximum/minimum for RDNA4",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-24T05:37:54Z",
+      "updated_at": "2026-10-24T15:56:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12480",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12478,
+      "title": "[AMD][GLUON] Deprecate load_shared_relaxed",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T20:20:08Z",
+      "updated_at": "2026-10-24T05:38:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12478",
       "labels": [],
       "draft": false
     },
@@ -60,18 +84,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12371",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12474,
-      "title": "[AMD] Enable Remaining GFX1250-strict WMMA Instructions",
-      "author": "amirumoAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T13:43:00Z",
-      "updated_at": "2026-10-23T13:43:00Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12474",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12273,
@@ -324,18 +336,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12325",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12345,
-      "title": "[AMD][Gluon] Add buffer descriptors and descriptor-based buffer ops",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-18T02:44:47Z",
-      "updated_at": "2026-10-18T18:02:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12345",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12324,
@@ -698,18 +698,6 @@
       "draft": false
     },
     {
-      "number": 12157,
-      "title": "[AMD] Enable ConSan on gfx1250 rocjitsu",
-      "author": "PMylon",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-07T08:32:35Z",
-      "updated_at": "2026-10-08T22:10:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12157",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12159,
       "title": "[AMD] Keep shared order in CoalesceAsyncCopy when the src order cannot lower to direct-to-LDS",
       "author": "he-yufeng",
@@ -720,6 +708,18 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12159",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 12149,
+      "title": "[AMD][Gluon] Add CDNA5 WMMA issue mode control",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T23:24:15Z",
+      "updated_at": "2026-10-07T07:00:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12149",
+      "labels": [],
+      "draft": true
     }
   ]
 }

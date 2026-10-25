@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-24T12:19:28Z",
+  "collected_at": "2026-10-25T12:50:47Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "CI - Bazel ROCm tests",
-    "run_id": 40076711845,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/40076711845",
-    "run_date": "2026-10-24T08:44:56Z",
+    "run_id": 40175439643,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/40175439643",
+    "run_date": "2026-10-25T08:36:23Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 2,
@@ -37,9 +37,9 @@
   },
   "cuda": {
     "workflow_name": "CI - Bazel H100 and B200 CUDA tests",
-    "run_id": 40085043920,
-    "run_url": "https://github.com/jax-ml/jax/actions/runs/40085043920",
-    "run_date": "2026-10-24T10:15:12Z",
+    "run_id": 40192611547,
+    "run_url": "https://github.com/jax-ml/jax/actions/runs/40192611547",
+    "run_date": "2026-10-25T12:21:30Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 2,
@@ -50,7 +50,7 @@
     },
     "suites": [
       {
-        "name": "Bazel single B200 CUDA tests",
+        "name": "Bazel multiple H100 CUDA tests",
         "conclusion": "failure",
         "tests": null,
         "passed": null,
@@ -59,7 +59,7 @@
         "errors": null
       },
       {
-        "name": "Bazel multiple H100 CUDA tests",
+        "name": "Bazel single B200 CUDA tests",
         "conclusion": "failure",
         "tests": null,
         "passed": null,

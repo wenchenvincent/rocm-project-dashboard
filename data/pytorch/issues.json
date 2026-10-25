@@ -1,6 +1,163 @@
 {
-  "collected_at": "2026-10-24T12:17:28Z",
+  "collected_at": "2026-10-25T12:48:53Z",
   "issues": [
+    {
+      "number": 201644,
+      "title": "Release 2.15 validations checklist and cherry-picks",
+      "author": "atalman",
+      "state": "open",
+      "created_at": "2026-10-21T16:34:12Z",
+      "updated_at": "2026-10-25T12:48:47Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201644",
+      "labels": [
+        "oncall: releng"
+      ]
+    },
+    {
+      "number": 201818,
+      "title": "[Dynamo] Dead guard in BaseListVariable.as_proxy: `python_type() is SizeVariable` is always False",
+      "author": "hitluo",
+      "state": "open",
+      "created_at": "2026-10-23T06:37:31Z",
+      "updated_at": "2026-10-25T08:48:42Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201818",
+      "labels": [
+        "triaged",
+        "oncall: pt2",
+        "module: dynamo",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201158,
+      "title": "torch.compile: storage reuse corrupts tensors cached by selective checkpointing",
+      "author": "hjinnkim",
+      "state": "open",
+      "created_at": "2026-10-16T07:07:59Z",
+      "updated_at": "2026-10-25T08:36:31Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201158",
+      "labels": [
+        "high priority",
+        "module: activation checkpointing",
+        "triaged",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 201975,
+      "title": "get_ema_avg_fn introduces floating-point drift at fixed points",
+      "author": "prinwinter",
+      "state": "open",
+      "created_at": "2026-10-25T07:21:30Z",
+      "updated_at": "2026-10-25T08:35:13Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201975",
+      "labels": [
+        "module: numerical-stability",
+        "module: optimizer",
+        "triaged",
+        "enhancement",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 201864,
+      "title": "[MPS] torch.compile exceeds Metal's buffer limit in Qwen GatedDeltaNet",
+      "author": "Isalia20",
+      "state": "open",
+      "created_at": "2026-10-23T17:22:51Z",
+      "updated_at": "2026-10-25T07:59:41Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201864",
+      "labels": [
+        "triaged",
+        "actionable",
+        "module: mps"
+      ]
+    },
+    {
+      "number": 160230,
+      "title": "Offer official Pytorch Vulkan backend on pytorch.org",
+      "author": "alshdavid",
+      "state": "open",
+      "created_at": "2025-08-08T23:19:51Z",
+      "updated_at": "2026-10-25T03:41:05Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/160230",
+      "labels": [
+        "feature",
+        "triaged",
+        "needs research",
+        "module: vulkan"
+      ]
+    },
+    {
+      "number": 201970,
+      "title": "[inductor] FX graph cache key ignores donated buffers, so a second backward after retain_graph=True is silently wrong",
+      "author": "ad8e",
+      "state": "open",
+      "created_at": "2026-10-25T02:50:24Z",
+      "updated_at": "2026-10-25T02:52:18Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201970",
+      "labels": [
+        "triage review",
+        "module: correctness (silent)",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 201026,
+      "title": "[inductor] pattern_matcher: replace_by_example crashes with \"unhashable type: non-nested SymInt\" under dynamic shapes + activation checkpointing",
+      "author": "cdzhan",
+      "state": "open",
+      "created_at": "2026-10-15T06:16:18Z",
+      "updated_at": "2026-10-25T02:09:12Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201026",
+      "labels": [
+        "module: activation checkpointing",
+        "triaged",
+        "actionable",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 196968,
+      "title": "[c10d] Flight Recorder misses a rank blocked in legacy ProcessGroupNCCL teardown",
+      "author": "jackLei0901",
+      "state": "open",
+      "created_at": "2026-09-14T10:50:12Z",
+      "updated_at": "2026-10-25T01:26:06Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/196968",
+      "labels": [
+        "oncall: distributed",
+        "triaged",
+        "bot-triaged",
+        "oncall: distributed infra"
+      ]
+    },
+    {
+      "number": 195678,
+      "title": "torch.nn.functional.cross_entropy loses a representable float64 gradient component",
+      "author": "ALinrunrun",
+      "state": "open",
+      "created_at": "2026-09-02T03:49:27Z",
+      "updated_at": "2026-10-25T00:54:58Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/195678",
+      "labels": [
+        "module: autograd",
+        "module: nn",
+        "triaged",
+        "needs research",
+        "module: edge cases",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 200406,
       "title": "[SDPA] cuDNN backward returns NaN dQ for head_dim=256 with a bool attn_mask and short sequences on Blackwell (B300, sm_103), torch 2.14.1+cu130 / cuDNN 9.24",
@@ -251,20 +408,6 @@
       ]
     },
     {
-      "number": 201864,
-      "title": "[MPS] torch.compile exceeds Metal's buffer limit in Qwen GatedDeltaNet",
-      "author": "Isalia20",
-      "state": "open",
-      "created_at": "2026-10-23T17:22:51Z",
-      "updated_at": "2026-10-23T17:23:34Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201864",
-      "labels": [
-        "triaged",
-        "actionable",
-        "module: mps"
-      ]
-    },
-    {
       "number": 201861,
       "title": "[inductor] Compile time of a single `_foreach_add_` grows superlinearly in list length; ~2.7x worse when the tensors are views of shared storage",
       "author": "bobrenjc93",
@@ -331,21 +474,6 @@
       ]
     },
     {
-      "number": 160230,
-      "title": "Offer official Pytorch Vulkan backend on pytorch.org",
-      "author": "alshdavid",
-      "state": "open",
-      "created_at": "2025-08-08T23:19:51Z",
-      "updated_at": "2026-10-23T14:14:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/160230",
-      "labels": [
-        "feature",
-        "triaged",
-        "needs research",
-        "module: vulkan"
-      ]
-    },
-    {
       "number": 195450,
       "title": "[FSDP2][NCCL] Large slowdown for non-16-byte-aligned per-rank collective payloads",
       "author": "0x777a6c",
@@ -378,144 +506,6 @@
         "module: dynamo",
         "bot-triaged",
         "dynamo-triaged"
-      ]
-    },
-    {
-      "number": 201499,
-      "title": "DISABLED test_one_thread (__main__.TestOpenMP_ParallelFor)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-20T01:10:38Z",
-      "updated_at": "2026-10-23T13:35:52Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201499",
-      "labels": [
-        "triage review",
-        "module: memory usage",
-        "module: flaky-tests",
-        "skipped",
-        "module: unknown",
-        "oncall: pt2",
-        "module: dynamo",
-        "bot-triaged",
-        "dynamo-triaged"
-      ]
-    },
-    {
-      "number": 200158,
-      "title": "[Rprop] Negative step_sizes are accepted and can reverse the parameter update direction",
-      "author": "Mohit-25-tech",
-      "state": "open",
-      "created_at": "2026-10-07T19:18:22Z",
-      "updated_at": "2026-10-23T13:30:33Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/200158",
-      "labels": [
-        "module: optimizer",
-        "module: error checking",
-        "triaged",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201826,
-      "title": "[xpu] bfloat16/float16 instability in SDPA attention",
-      "author": "grschneider",
-      "state": "open",
-      "created_at": "2026-10-23T07:35:20Z",
-      "updated_at": "2026-10-23T09:27:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201826",
-      "labels": [
-        "triage review",
-        "module: correctness (silent)",
-        "module: xpu",
-        "module: sdpa",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
-      "number": 197376,
-      "title": "`torch.compile` (inductor) crashes on in-place complex foreach-divide (public `torch.foreach.div_` and private `torch._foreach_div_`)",
-      "author": "tinywisdom",
-      "state": "open",
-      "created_at": "2026-09-17T03:12:43Z",
-      "updated_at": "2026-10-23T08:06:39Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/197376",
-      "labels": [
-        "triaged",
-        "module: complex",
-        "module: mta",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
-      "number": 201796,
-      "title": "[Inductor] Dynamic shape scalar arithmetic introduces fp64 intermediates on a device without fp64 support",
-      "author": "markc-614",
-      "state": "open",
-      "created_at": "2026-10-23T02:23:31Z",
-      "updated_at": "2026-10-23T07:57:38Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201796",
-      "labels": [
-        "triaged",
-        "oncall: pt2",
-        "module: dynamic shapes",
-        "module: inductor",
-        "module: PrivateUse1",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 199911,
-      "title": "DISABLED test_copy_transpose_tiled_small_slices_rejected_cuda_float64 (__main__.TestTorchDeviceTypeCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-06T12:55:10Z",
-      "updated_at": "2026-10-23T06:58:57Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199911",
-      "labels": [
-        "module: cuda",
-        "module: tests",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 199892,
-      "title": "DISABLED test_copy_transpose_tiled_small_slices_rejected_cuda_float32 (__main__.TestTorchDeviceTypeCUDA)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-10-06T07:01:12Z",
-      "updated_at": "2026-10-23T06:58:46Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199892",
-      "labels": [
-        "module: cuda",
-        "module: tests",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 201818,
-      "title": "[Dynamo] Dead guard in BaseListVariable.as_proxy: `python_type() is SizeVariable` is always False",
-      "author": "hitluo",
-      "state": "open",
-      "created_at": "2026-10-23T06:37:31Z",
-      "updated_at": "2026-10-23T06:39:20Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/201818",
-      "labels": [
-        "triaged",
-        "oncall: pt2",
-        "module: dynamo",
-        "bot-triaged"
       ]
     },
     {
@@ -902,23 +892,6 @@
         "oncall: pt2",
         "module: inductor",
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 122029,
-      "title": "AOTAutograd has high fixed overheads",
-      "author": "jansel",
-      "state": "open",
-      "created_at": "2024-03-16T17:54:15Z",
-      "updated_at": "2026-10-20T01:14:06Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/122029",
-      "labels": [
-        "triaged",
-        "better-engineering",
-        "actionable",
-        "oncall: pt2",
-        "module: aotdispatch",
-        "module: pt2-dispatcher"
       ]
     }
   ]
