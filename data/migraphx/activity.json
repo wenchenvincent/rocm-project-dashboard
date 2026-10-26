@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-10-25T12:51:02Z",
+  "collected_at": "2026-10-26T14:39:41Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 21,
-      "merged": 15,
+      "opened": 23,
+      "merged": 16,
       "closed": 5
     },
     "last_week": {
-      "opened": 30,
-      "merged": 20,
+      "opened": 29,
+      "merged": 18,
       "closed": 9
     },
-    "median_time_to_merge_hours": 210.6,
-    "merge_count": 41,
-    "stale_prs": 83
+    "median_time_to_merge_hours": 141.0,
+    "merge_count": 37,
+    "stale_prs": 82
   },
   "contributors": {
     "active_this_week": 17,
@@ -23,9 +23,9 @@
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 67,
-        "prs_merged": 29,
-        "commits": 35
+        "prs_submitted": 66,
+        "prs_merged": 31,
+        "commits": 32
       },
       {
         "author": "CharlieL7",
@@ -55,7 +55,7 @@
         "author": "eddieliao",
         "prs_submitted": 6,
         "prs_merged": 5,
-        "commits": 6
+        "commits": 5
       },
       {
         "author": "royzhang-amd",
@@ -86,14 +86,14 @@
   },
   "issue_health": {
     "total_open": 249,
-    "opened_this_week": 1,
+    "opened_this_week": 0,
     "closed_this_week": 1,
-    "unanswered": 131
+    "unanswered": 132
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 17.9,
+    "days_since_last": 19.0,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

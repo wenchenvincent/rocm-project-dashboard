@@ -1,6 +1,373 @@
 {
-  "collected_at": "2026-10-25T12:49:10Z",
+  "collected_at": "2026-10-26T14:37:51Z",
   "issues": [
+    {
+      "number": 63640,
+      "title": "[RFC]: vLLM Attention Backend Test Suites",
+      "author": "tjtanaa",
+      "state": "open",
+      "created_at": "2026-10-26T02:47:57Z",
+      "updated_at": "2026-10-26T14:23:59Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63640",
+      "labels": [
+        "rocm",
+        "RFC"
+      ]
+    },
+    {
+      "number": 63759,
+      "title": "[Bug]: Qwen3.5: int32 token-offset overflows in three Triton kernels give wrong outputs or illegal memory access at large `--max-num-batched-tokens`",
+      "author": "simon-veitner-redhat",
+      "state": "open",
+      "created_at": "2026-10-26T14:06:45Z",
+      "updated_at": "2026-10-26T14:06:45Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63759",
+      "labels": []
+    },
+    {
+      "number": 63757,
+      "title": "[RFC]: Context-length-bounded FULL decode CUDA graphs in Model Runner V2",
+      "author": "eppaneamd",
+      "state": "open",
+      "created_at": "2026-10-26T14:04:36Z",
+      "updated_at": "2026-10-26T14:05:28Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63757",
+      "labels": [
+        "rocm",
+        "quantization"
+      ]
+    },
+    {
+      "number": 63732,
+      "title": "[Bug]: Gemma 4 + online --quantization fp8: image requests crash since v0.23.0 (FP8-cast pixel values reach quantized patch_embedder.input_proj); v0.22.0 works",
+      "author": "mcmasruntotop",
+      "state": "open",
+      "created_at": "2026-10-26T11:07:50Z",
+      "updated_at": "2026-10-26T13:28:26Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63732",
+      "labels": [
+        "quantization"
+      ]
+    },
+    {
+      "number": 52911,
+      "title": "[RFC]: DeepSeek-V4 Performance Optimization on ROCm (Phase Two)",
+      "author": "shen-shanshan",
+      "state": "open",
+      "created_at": "2026-08-19T08:46:04Z",
+      "updated_at": "2026-10-26T13:15:38Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/52911",
+      "labels": [
+        "rocm",
+        "RFC",
+        "deepseek",
+        "DSv4"
+      ]
+    },
+    {
+      "number": 37753,
+      "title": "[Feature]: Unify MoE \"Oracles\" with Class Structure",
+      "author": "robertgshaw2-redhat",
+      "state": "open",
+      "created_at": "2026-03-21T17:29:49Z",
+      "updated_at": "2026-10-26T13:13:24Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/37753",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "feature request"
+      ]
+    },
+    {
+      "number": 63718,
+      "title": "[Tracking] OffloadingConnector layout support",
+      "author": "Etelis",
+      "state": "open",
+      "created_at": "2026-10-26T10:15:35Z",
+      "updated_at": "2026-10-26T12:59:10Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63718",
+      "labels": [
+        "quantization"
+      ]
+    },
+    {
+      "number": 57725,
+      "title": "[Bug]: a malformed structured-output specification returns HTTP 500 with an empty error message, and a self-referential `$ref` passes validation and then kills the request mid-generation",
+      "author": "Yunzez",
+      "state": "open",
+      "created_at": "2026-09-19T22:38:08Z",
+      "updated_at": "2026-10-26T12:51:42Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/57725",
+      "labels": [
+        "bug",
+        "structured-output"
+      ]
+    },
+    {
+      "number": 63712,
+      "title": "[ROCm][MI350P] Muse Spark MonoKernel decode assumes 256 co-resident CTAs (MI355X); refused on 128-CU MI350P",
+      "author": "mpashkovskii",
+      "state": "open",
+      "created_at": "2026-10-26T09:47:17Z",
+      "updated_at": "2026-10-26T12:15:59Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63712",
+      "labels": [
+        "rocm"
+      ]
+    },
+    {
+      "number": 62697,
+      "title": "[Bug][ROCm] `ROCM_ATTN` returns wrong attention (and can fault the GPU) on RDNA for head size \u2265 96 with KV block size \u2260 16, and for MHA with head size 192/256",
+      "author": "nemanjaudovic",
+      "state": "open",
+      "created_at": "2026-10-20T12:50:39Z",
+      "updated_at": "2026-10-26T11:24:25Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/62697",
+      "labels": [
+        "rocm"
+      ]
+    },
+    {
+      "number": 59457,
+      "title": "[Bug]: [gpt-oss-20b-bf16] W4A8 quantized model produces garbled output on ARM CPU",
+      "author": "sanketkaleoss",
+      "state": "open",
+      "created_at": "2026-09-30T15:43:40Z",
+      "updated_at": "2026-10-26T08:23:11Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/59457",
+      "labels": [
+        "bug",
+        "cpu",
+        "gpt-oss",
+        "quantization"
+      ]
+    },
+    {
+      "number": 62851,
+      "title": "[Bug]: Qwen3.6 GDN greedy DFlash2 divergence from batch-dependent numerics and preemption/recompute (v0.31.0)",
+      "author": "NiclasKuehn",
+      "state": "open",
+      "created_at": "2026-10-21T07:47:02Z",
+      "updated_at": "2026-10-26T08:13:12Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/62851",
+      "labels": [
+        "quantization"
+      ]
+    },
+    {
+      "number": 63455,
+      "title": "[Bug]: [ROCm] AutoAWQ checkpoints never use the RDNA W4A16 kernel; AWQ decodes 2.5x slower than BF16 on gfx1151",
+      "author": "chetan-metrum-ai",
+      "state": "open",
+      "created_at": "2026-10-24T06:10:16Z",
+      "updated_at": "2026-10-26T07:16:55Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63455",
+      "labels": [
+        "rocm",
+        "quantization"
+      ]
+    },
+    {
+      "number": 63666,
+      "title": "[RFC]: Tiered MoE Expert Offload with Lookahead Expert Scheduling (LES) for single-GPU Intel XPU (dGPU: VRAM \u2194 Host RAM, iGPU: Memory \u2194 SSD)",
+      "author": "wyc55069407",
+      "state": "open",
+      "created_at": "2026-10-26T05:59:56Z",
+      "updated_at": "2026-10-26T06:00:17Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63666",
+      "labels": [
+        "intel-gpu",
+        "quantization"
+      ]
+    },
+    {
+      "number": 61024,
+      "title": "[Roadmap] vLLM Roadmap Q4 2026",
+      "author": "simon-mo",
+      "state": "open",
+      "created_at": "2026-10-10T19:21:47Z",
+      "updated_at": "2026-10-26T05:44:04Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/61024",
+      "labels": [
+        "rocm",
+        "quantization",
+        "kimi",
+        "k3"
+      ]
+    },
+    {
+      "number": 49277,
+      "title": "[Feature]: MoE router GEMM with the HPC-Ops bf16xfp32 kernel",
+      "author": "lengrongfu",
+      "state": "open",
+      "created_at": "2026-07-21T03:58:28Z",
+      "updated_at": "2026-10-26T04:23:46Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/49277",
+      "labels": [
+        "feature request",
+        "stale"
+      ]
+    },
+    {
+      "number": 63267,
+      "title": "[Bug]: CUDA builds without FA extensions (Jetson Thor sm_110) cannot start: vllm_flash_attn raises at import time and FA is still auto-selected",
+      "author": "potoior",
+      "state": "open",
+      "created_at": "2026-10-23T04:32:44Z",
+      "updated_at": "2026-10-26T04:05:45Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63267",
+      "labels": []
+    },
+    {
+      "number": 63646,
+      "title": "[Bug]: Encountered an inference error when performing a single LLM API request with Qwen 3.6-27B on a server equipped with 8 A100 GPUs with latest vllm docker images",
+      "author": "majestichou",
+      "state": "open",
+      "created_at": "2026-10-26T03:26:34Z",
+      "updated_at": "2026-10-26T03:33:49Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63646",
+      "labels": [
+        "bug",
+        "qwen"
+      ]
+    },
+    {
+      "number": 56892,
+      "title": "[Bug/Perf] DeepSeek-V4.1-Flash on SM120 (RTX PRO 6000 Blackwell, 8xTP): extremely low decode throughput with --enforce-eager; CUDA graphs unusable \u2014 please prioritize SM120 graph capture fix",
+      "author": "Lei-010",
+      "state": "open",
+      "created_at": "2026-09-14T20:27:15Z",
+      "updated_at": "2026-10-26T03:03:07Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/56892",
+      "labels": [
+        "deepseek",
+        "DSv4.1"
+      ]
+    },
+    {
+      "number": 48480,
+      "title": "[RFC]: Make Triton kernel unit tests hardware-agnostic and cover untested kernels",
+      "author": "adobrzyn",
+      "state": "open",
+      "created_at": "2026-07-13T09:03:30Z",
+      "updated_at": "2026-10-26T01:49:05Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/48480",
+      "labels": [
+        "stale"
+      ]
+    },
+    {
+      "number": 48898,
+      "title": "[Bug]: NVFP4 garbage output under torch.compile when per-rank K is not 32-aligned (TP8 on SM120): padded block-scale column reads stale memory; eager/Marlin/aligned-TP correct",
+      "author": "jszzr",
+      "state": "open",
+      "created_at": "2026-07-17T01:06:13Z",
+      "updated_at": "2026-10-26T01:48:44Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/48898",
+      "labels": [
+        "unstale"
+      ]
+    },
+    {
+      "number": 60904,
+      "title": "[RFC]: A standard for Specialized (MonoKernels) Decodes in vllm/models",
+      "author": "dllehr-amd",
+      "state": "open",
+      "created_at": "2026-10-09T18:25:05Z",
+      "updated_at": "2026-10-26T01:46:40Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/60904",
+      "labels": [
+        "rocm",
+        "RFC",
+        "quantization",
+        "kimi"
+      ]
+    },
+    {
+      "number": 63343,
+      "title": "[Bug][DSv4.1][SM120] enable_adaptive_verification is rejected on SM120 \u2014 device-query-lens support is gated to SM90/SM100 only",
+      "author": "Lei-010",
+      "state": "open",
+      "created_at": "2026-10-23T13:16:53Z",
+      "updated_at": "2026-10-26T01:30:57Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63343",
+      "labels": [
+        "DSv4.1"
+      ]
+    },
+    {
+      "number": 63597,
+      "title": "[Bug]: [ROCm][RDNA4] `RDNAHybridW4A16LinearKernel` is still auto-selected for GPTQ and fails with `zp shape mismatch` (follow-up to #51971)",
+      "author": "oleksandrdubyna88",
+      "state": "open",
+      "created_at": "2026-10-25T18:01:29Z",
+      "updated_at": "2026-10-25T19:18:57Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63597",
+      "labels": [
+        "rocm",
+        "quantization"
+      ]
+    },
+    {
+      "number": 63584,
+      "title": "[Bug][Rust Frontend] Tool requests return 500 on every request when the `auto` tool parser cannot resolve a parser for the model",
+      "author": "vito-lin-dev",
+      "state": "open",
+      "created_at": "2026-10-25T14:45:57Z",
+      "updated_at": "2026-10-25T18:41:33Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63584",
+      "labels": [
+        "tool-calling",
+        "rust"
+      ]
+    },
+    {
+      "number": 63598,
+      "title": "[Bug]: Qwen3.5/3.6 MoE GPTQ checkpoint with BF16 fused MTP experts: `mtp.layers.0.mlp.experts has no parameter 'w2_weight'` (plain `gptq` path, related to #36954)",
+      "author": "oleksandrdubyna88",
+      "state": "open",
+      "created_at": "2026-10-25T18:01:37Z",
+      "updated_at": "2026-10-25T18:01:46Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63598",
+      "labels": [
+        "rocm",
+        "quantization"
+      ]
+    },
+    {
+      "number": 63591,
+      "title": "[Bug]: Logprobs include the EOS token that the returned text omits (chat and completions)",
+      "author": "HarshitMalik22",
+      "state": "open",
+      "created_at": "2026-10-25T16:31:19Z",
+      "updated_at": "2026-10-25T16:31:19Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/63591",
+      "labels": []
+    },
+    {
+      "number": 60370,
+      "title": "[Bug]: CPU arm64 image fails to start on Apple M4: \"no support for 'sme' without 'sve2'\" (PyTorch Inductor + GCC 15)",
+      "author": "HarshitMalik22",
+      "state": "open",
+      "created_at": "2026-10-07T08:26:27Z",
+      "updated_at": "2026-10-25T16:24:53Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/60370",
+      "labels": []
+    },
+    {
+      "number": 50587,
+      "title": "[Feature]: Kimi K3 Performance Optimization",
+      "author": "yewentao256",
+      "state": "open",
+      "created_at": "2026-07-31T15:49:29Z",
+      "updated_at": "2026-10-25T13:37:18Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/50587",
+      "labels": [
+        "feature request",
+        "kimi",
+        "k3"
+      ]
+    },
     {
       "number": 53051,
       "title": "[Bug]: Prefill misdispatched into spec-decode FULL cudagraph when prompt length == 1 + num_speculative_tokens \u2192 silent GDN state loss, garbage output (hybrid/Qwen3-Next models)",
@@ -28,31 +395,6 @@
       ]
     },
     {
-      "number": 63455,
-      "title": "[Bug]: [ROCm] AutoAWQ checkpoints never use the RDNA W4A16 kernel; AWQ decodes 2.5x slower than BF16 on gfx1151",
-      "author": "chetan-metrum-ai",
-      "state": "open",
-      "created_at": "2026-10-24T06:10:16Z",
-      "updated_at": "2026-10-25T09:24:27Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/63455",
-      "labels": [
-        "rocm",
-        "quantization"
-      ]
-    },
-    {
-      "number": 48898,
-      "title": "[Bug]: NVFP4 garbage output under torch.compile when per-rank K is not 32-aligned (TP8 on SM120): padded block-scale column reads stale memory; eager/Marlin/aligned-TP correct",
-      "author": "jszzr",
-      "state": "open",
-      "created_at": "2026-07-17T01:06:13Z",
-      "updated_at": "2026-10-25T07:03:01Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/48898",
-      "labels": [
-        "stale"
-      ]
-    },
-    {
       "number": 61383,
       "title": "[Bug]: Intermittent XGrammar request termination with V2 DFlash probabilistic drafting and block rejection",
       "author": "tomasruizt",
@@ -62,19 +404,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/61383",
       "labels": [
         "structured-output"
-      ]
-    },
-    {
-      "number": 63536,
-      "title": "[Bug]: [Usage]: RTX PRO 5000 (SM120) deadlocks at 3-4W during vLLM 0.32.0 startup with 70B NVFP4 model, even with --enforce-eager",
-      "author": "blujule4218",
-      "state": "open",
-      "created_at": "2026-10-25T03:21:29Z",
-      "updated_at": "2026-10-25T03:21:36Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/63536",
-      "labels": [
-        "bug",
-        "quantization"
       ]
     },
     {
@@ -102,18 +431,6 @@
       "labels": []
     },
     {
-      "number": 62697,
-      "title": "[Bug][ROCm] `ROCM_ATTN` returns wrong attention (and can fault the GPU) on RDNA for head size \u2265 96 with KV block size \u2260 16, and for MHA with head size 192/256",
-      "author": "nemanjaudovic",
-      "state": "open",
-      "created_at": "2026-10-20T12:50:39Z",
-      "updated_at": "2026-10-24T18:46:35Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62697",
-      "labels": [
-        "rocm"
-      ]
-    },
-    {
       "number": 58485,
       "title": "[Bug]: V1 thinking budget corrupts a multi-token reasoning_end_str under speculative decoding",
       "author": "amittell",
@@ -125,18 +442,6 @@
         "speculative-decoding",
         "tool-calling",
         "mrv1-only"
-      ]
-    },
-    {
-      "number": 63507,
-      "title": "[Bug]: CPU backend accepts unsupported attention head sizes; engine dies on first request",
-      "author": "patrk",
-      "state": "open",
-      "created_at": "2026-10-24T18:26:27Z",
-      "updated_at": "2026-10-24T18:26:34Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/63507",
-      "labels": [
-        "cpu"
       ]
     },
     {
@@ -165,18 +470,6 @@
       "labels": [
         "feature request",
         "glm"
-      ]
-    },
-    {
-      "number": 63343,
-      "title": "[Bug][DSv4.1][SM120] enable_adaptive_verification is rejected on SM120 \u2014 device-query-lens support is gated to SM90/SM100 only",
-      "author": "Lei-010",
-      "state": "open",
-      "created_at": "2026-10-23T13:16:53Z",
-      "updated_at": "2026-10-24T10:39:37Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/63343",
-      "labels": [
-        "DSv4.1"
       ]
     },
     {
@@ -215,19 +508,6 @@
       "labels": [
         "bug",
         "stale"
-      ]
-    },
-    {
-      "number": 49569,
-      "title": "[Feature]: Plan for enabling mypy in tests directory",
-      "author": "hickeyma",
-      "state": "open",
-      "created_at": "2026-07-23T09:11:51Z",
-      "updated_at": "2026-10-24T01:20:19Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49569",
-      "labels": [
-        "feature request",
-        "quantization"
       ]
     },
     {
@@ -278,16 +558,6 @@
       "labels": []
     },
     {
-      "number": 51405,
-      "title": "[Bug]: Inkling (InklingForConditionalGeneration) fails on SM120 \u2014 tml_fa4 attention lacks paged-KV support",
-      "author": "Rawsejet",
-      "state": "open",
-      "created_at": "2026-08-07T15:04:20Z",
-      "updated_at": "2026-10-23T22:01:33Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/51405",
-      "labels": []
-    },
-    {
       "number": 63187,
       "title": "[Bug]: With multimodal pruning, the encoder compute budget is debited by the pruned placeholder count, so one step can send several times the profiled patches to the ViT (CUDA OOM)",
       "author": "grance199981",
@@ -298,21 +568,6 @@
       "labels": [
         "bug",
         "multi-modality"
-      ]
-    },
-    {
-      "number": 60904,
-      "title": "[RFC]: A standard for Specialized (MonoKernels) Decodes in vllm/models",
-      "author": "dllehr-amd",
-      "state": "open",
-      "created_at": "2026-10-09T18:25:05Z",
-      "updated_at": "2026-10-23T19:03:33Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/60904",
-      "labels": [
-        "rocm",
-        "RFC",
-        "quantization",
-        "kimi"
       ]
     },
     {
@@ -328,20 +583,6 @@
         "rocm",
         "quantization",
         "kimi"
-      ]
-    },
-    {
-      "number": 37753,
-      "title": "[Feature]: Unify MoE \"Oracles\" with Class Structure",
-      "author": "robertgshaw2-redhat",
-      "state": "open",
-      "created_at": "2026-03-21T17:29:49Z",
-      "updated_at": "2026-10-23T14:37:34Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/37753",
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "feature request"
       ]
     },
     {
@@ -396,19 +637,6 @@
       ]
     },
     {
-      "number": 63336,
-      "title": "[RFC]: MoRIIO transfer contract: safe KV reclamation and bounded failure for P/D (READ and WRITE)",
-      "author": "tjtanaa",
-      "state": "open",
-      "created_at": "2026-10-23T11:53:15Z",
-      "updated_at": "2026-10-23T11:58:57Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/63336",
-      "labels": [
-        "rocm",
-        "RFC"
-      ]
-    },
-    {
       "number": 47903,
       "title": "[Bug]: A tool call truncated by max_tokens diverges between streaming and non-streaming, and leaks raw <tool_call> markup into content (non-streaming)",
       "author": "kvcache670",
@@ -419,48 +647,6 @@
       "labels": [
         "bug",
         "tool-calling"
-      ]
-    },
-    {
-      "number": 59575,
-      "title": "[ROCm][AMD] Qwen3.8-Flash-Next gfx950 / MI355X Performance Optimization",
-      "author": "mjkvaak-amd",
-      "state": "open",
-      "created_at": "2026-10-01T08:49:55Z",
-      "updated_at": "2026-10-23T07:43:47Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/59575",
-      "labels": [
-        "performance",
-        "rocm",
-        "quantization",
-        "kimi"
-      ]
-    },
-    {
-      "number": 62851,
-      "title": "[Bug]: Qwen3.6 GDN greedy DFlash2 divergence from batch-dependent numerics and preemption/recompute (v0.31.0)",
-      "author": "NiclasKuehn",
-      "state": "open",
-      "created_at": "2026-10-21T07:47:02Z",
-      "updated_at": "2026-10-23T04:33:26Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62851",
-      "labels": [
-        "quantization"
-      ]
-    },
-    {
-      "number": 52911,
-      "title": "[RFC]: DeepSeek-V4 Performance Optimization on ROCm (Phase Two)",
-      "author": "shen-shanshan",
-      "state": "open",
-      "created_at": "2026-08-19T08:46:04Z",
-      "updated_at": "2026-10-23T02:40:03Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/52911",
-      "labels": [
-        "rocm",
-        "RFC",
-        "deepseek",
-        "DSv4"
       ]
     },
     {
@@ -490,33 +676,6 @@
       ]
     },
     {
-      "number": 61698,
-      "title": "[RFC]: Bring-Your-Own-GPU (BYOG) reproducible evals and benchmarks for PRs",
-      "author": "LucasWilkinson",
-      "state": "open",
-      "created_at": "2026-10-14T21:10:51Z",
-      "updated_at": "2026-10-22T21:05:23Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/61698",
-      "labels": [
-        "rocm",
-        "RFC",
-        "quantization"
-      ]
-    },
-    {
-      "number": 59820,
-      "title": "[ROCm][AMD] GLM5.3 Flash Performance Optimization on gfx950 / MI355X",
-      "author": "amd-sriram",
-      "state": "open",
-      "created_at": "2026-10-02T19:58:00Z",
-      "updated_at": "2026-10-22T20:43:57Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/59820",
-      "labels": [
-        "feature request",
-        "rocm"
-      ]
-    },
-    {
       "number": 46262,
       "title": "[Bug]: PP2 tool calling produces garbled output while PP1 works correctly (GLM-5.2-FP8 DSA, chunked-prefill)",
       "author": "tanguofu",
@@ -530,18 +689,6 @@
       ]
     },
     {
-      "number": 63168,
-      "title": "[Bug]: GLM-5.3-Flash kpool prefill writer leaves the pool straddling an unaligned chunk start unwritten or pooled from another request's tokens",
-      "author": "UrbanAstroLA",
-      "state": "open",
-      "created_at": "2026-10-22T17:52:30Z",
-      "updated_at": "2026-10-22T17:57:23Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/63168",
-      "labels": [
-        "glm"
-      ]
-    },
-    {
       "number": 63052,
       "title": "[Bug]: Breakable PIECEWISE capture (model runner V2) leaves warmup activations cached on the discarded capture stream",
       "author": "xqoasis",
@@ -551,18 +698,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/63052",
       "labels": [
         "bug"
-      ]
-    },
-    {
-      "number": 63049,
-      "title": "[Bug]: TritonW4A16 GEMM faults on ROCm once M \u00d7 N or M \u00d7 K passes 2^31",
-      "author": "subin9",
-      "state": "open",
-      "created_at": "2026-10-22T06:38:22Z",
-      "updated_at": "2026-10-22T06:38:40Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/63049",
-      "labels": [
-        "rocm"
       ]
     },
     {
@@ -611,53 +746,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/62588",
       "labels": [
         "rocm"
-      ]
-    },
-    {
-      "number": 62116,
-      "title": "[Bug]: GDN chunk/prefill path overflows fp16 with a large fp32 SSM state (chunk-path follow-up to #54146)",
-      "author": "miggle711",
-      "state": "open",
-      "created_at": "2026-10-17T01:56:15Z",
-      "updated_at": "2026-10-21T16:51:57Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62116",
-      "labels": []
-    },
-    {
-      "number": 62937,
-      "title": "[Bug]: Qwen3-VL video pruning (EVS): M-RoPE recompute starts num_timestamp_tokens + 1 tokens too early when the prompt keeps the outer <|vision_start|> (transformers >= 5.10)",
-      "author": "grance199981",
-      "state": "open",
-      "created_at": "2026-10-21T15:57:45Z",
-      "updated_at": "2026-10-21T15:57:45Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62937",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 53481,
-      "title": "[Bug]: FLASHINFER backend produces degenerate output for Mistral3 (Ministral-3-3B) on sm_120 with ANY kv-cache dtype; TRITON_ATTN and FLASH_ATTN correct",
-      "author": "valen-panic",
-      "state": "open",
-      "created_at": "2026-08-23T21:47:45Z",
-      "updated_at": "2026-10-21T11:36:28Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/53481",
-      "labels": [
-        "mistral"
-      ]
-    },
-    {
-      "number": 62865,
-      "title": "[Bug]: Compile mode 2 leads to incorrect kernels when the Transformers backend is used",
-      "author": "ericschreiber",
-      "state": "open",
-      "created_at": "2026-10-21T09:26:29Z",
-      "updated_at": "2026-10-21T09:33:27Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62865",
-      "labels": [
-        "bug",
-        "kimi"
       ]
     }
   ]

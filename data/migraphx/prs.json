@@ -1,6 +1,107 @@
 {
-  "collected_at": "2026-10-25T12:49:27Z",
+  "collected_at": "2026-10-26T14:38:09Z",
   "prs": [
+    {
+      "number": 5413,
+      "title": "Preserve arg-reduction axes during reshape fusion",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T07:44:18Z",
+      "updated_at": "2026-10-26T14:01:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5413",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5435,
+      "title": "simplify_reshapes: require an unambiguous entry chain in find_entry_shape_transform_op",
+      "author": "VishalX",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T11:42:13Z",
+      "updated_at": "2026-10-26T13:55:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5435",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5434,
+      "title": "gpu: make gpu::slice_at skip out-of-range writes instead of throwing",
+      "author": "VishalX",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T11:42:02Z",
+      "updated_at": "2026-10-26T13:53:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5434",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5351,
+      "title": "Fix invalid const attribute on generated fused reductions",
+      "author": "ahsan-ca",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T17:17:44Z",
+      "updated_at": "2026-10-26T13:07:44Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5351",
+      "labels": [
+        "high priority",
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5425,
+      "title": "Prevent FP16 GroupNorm overflow with float intermediates",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T07:40:48Z",
+      "updated_at": "2026-10-26T08:53:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5425",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5433,
+      "title": "Bump gitpython from 3.1.62 to 3.2.1 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T04:09:35Z",
+      "updated_at": "2026-10-26T04:09:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5433",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5219,
+      "title": "Add a partial split to split_reduce for large reductions",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-30T19:21:08Z",
+      "updated_at": "2026-10-25T19:08:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5219",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5366,
+      "title": "Hoist submodule scratch memory into the parent in memory coloring",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T20:32:30Z",
+      "updated_at": "2026-10-25T18:53:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5423,
       "title": "Add ONNX parser for the CausalConvWithState contrib op",
@@ -8,44 +109,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-22T15:39:10Z",
-      "updated_at": "2026-10-25T11:55:05Z",
+      "updated_at": "2026-10-25T17:35:37Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5423",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5335,
-      "title": "Channels-last support and register/vector reuse for the channelwise convolution kernel",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T19:22:50Z",
-      "updated_at": "2026-10-24T09:59:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5335",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5429,
-      "title": "Prefer moving a unary op up to a fusable producer in simplify_reshapes",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T17:28:43Z",
-      "updated_at": "2026-10-24T09:14:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5429",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5424,
-      "title": "Enable cppcoreguidelines-avoid-const-or-ref-data-members tidy check",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T15:43:07Z",
-      "updated_at": "2026-10-24T08:54:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5424",
       "labels": [],
       "draft": false
     },
@@ -299,30 +364,6 @@
       "draft": false
     },
     {
-      "number": 5425,
-      "title": "Prevent FP16 GroupNorm overflow with float intermediates",
-      "author": "royzhang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T07:40:48Z",
-      "updated_at": "2026-10-23T13:45:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5425",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5413,
-      "title": "Preserve arg-reduction axes during reshape fusion",
-      "author": "royzhang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T07:44:18Z",
-      "updated_at": "2026-10-23T13:41:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5413",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5412,
       "title": "Apply MatMulInteger zero-point corrections in int32",
       "author": "royzhang-amd",
@@ -383,21 +424,6 @@
       "draft": false
     },
     {
-      "number": 5351,
-      "title": "Fix invalid const attribute on generated fused reductions",
-      "author": "ahsan-ca",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T17:17:44Z",
-      "updated_at": "2026-10-22T15:28:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5351",
-      "labels": [
-        "high priority",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
       "number": 3766,
       "title": "Remove rocmlir unsupported reduce types",
       "author": "dhernandez0",
@@ -454,18 +480,6 @@
       "created_at": "2026-10-15T20:31:52Z",
       "updated_at": "2026-10-15T20:40:58Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5400",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5366,
-      "title": "Hoist submodule scratch memory into the parent in memory coloring",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T20:32:30Z",
-      "updated_at": "2026-10-14T20:02:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
       "labels": [],
       "draft": false
     },
@@ -847,18 +861,6 @@
       "created_at": "2026-08-28T15:45:27Z",
       "updated_at": "2026-09-02T21:31:53Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5210",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5219,
-      "title": "Add a partial split to split_reduce for large reductions",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-30T19:21:08Z",
-      "updated_at": "2026-09-01T19:57:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5219",
       "labels": [],
       "draft": false
     },
@@ -1687,6 +1689,42 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4303",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5335,
+      "title": "Channels-last support and register/vector reuse for the channelwise convolution kernel",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-29T19:22:50Z",
+      "updated_at": "2026-10-25T15:34:28Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5335",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5429,
+      "title": "Prefer moving a unary op up to a fusable producer in simplify_reshapes",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-23T17:28:43Z",
+      "updated_at": "2026-10-25T14:26:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5429",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5424,
+      "title": "Enable cppcoreguidelines-avoid-const-or-ref-data-members tidy check",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-22T15:43:07Z",
+      "updated_at": "2026-10-25T14:25:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5424",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 5289,
@@ -2687,20 +2725,6 @@
       "updated_at": "2026-10-01T16:30:50Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5017",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5184,
-      "title": "Eliminate concat_past_present",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T15:32:38Z",
-      "updated_at": "2026-10-01T13:44:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5184",
-      "labels": [
-        "llm"
-      ],
       "draft": false
     }
   ]

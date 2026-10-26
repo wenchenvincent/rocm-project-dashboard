@@ -1,6 +1,68 @@
 {
-  "collected_at": "2026-10-25T12:49:22Z",
+  "collected_at": "2026-10-26T14:38:04Z",
   "issues": [
+    {
+      "number": 46520,
+      "title": "[RFC] [XPU] paged-experts: Intel XPU support with Lookahead Expert Scheduling (LES) and an SSD tier for iGPU, single-GPU MoE offload",
+      "author": "wyc55069407",
+      "state": "open",
+      "created_at": "2026-10-26T06:00:06Z",
+      "updated_at": "2026-10-26T06:00:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46520",
+      "labels": []
+    },
+    {
+      "number": 19137,
+      "title": "[Roadmap] Apple Device Support (2026 Q2)",
+      "author": "jonahbernard",
+      "state": "open",
+      "created_at": "2026-02-22T03:21:15Z",
+      "updated_at": "2026-10-26T02:05:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/19137",
+      "labels": [
+        "apple-silicon"
+      ]
+    },
+    {
+      "number": 43412,
+      "title": "Speculative decoding crashes server on first non-greedy request: flashinfer verify-sampling op JIT fails (bundled cccl vs pip cu13 toolkit) and kills the process tree",
+      "author": "santanu20",
+      "state": "open",
+      "created_at": "2026-10-09T19:02:21Z",
+      "updated_at": "2026-10-26T01:17:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43412",
+      "labels": []
+    },
+    {
+      "number": 46462,
+      "title": "AMD Development Roadmap (2026 Q4)",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-10-25T20:21:48Z",
+      "updated_at": "2026-10-25T21:58:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46462",
+      "labels": []
+    },
+    {
+      "number": 42473,
+      "title": "Development Roadmap (2026 Q4)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-10-04T08:24:43Z",
+      "updated_at": "2026-10-25T20:23:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
+      "labels": []
+    },
+    {
+      "number": 39499,
+      "title": "[Roadmap] SGLang dLLM Serving",
+      "author": "rwang5203",
+      "state": "open",
+      "created_at": "2026-09-15T01:21:47Z",
+      "updated_at": "2026-10-25T17:57:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
+      "labels": []
+    },
     {
       "number": 45847,
       "title": "[Failure Tracker] PR Test (AMD)",
@@ -21,16 +83,6 @@
       "created_at": "2026-10-20T10:04:23Z",
       "updated_at": "2026-10-25T12:04:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/45373",
-      "labels": []
-    },
-    {
-      "number": 43412,
-      "title": "Speculative decoding crashes server on first non-greedy request: flashinfer verify-sampling op JIT fails (bundled cccl vs pip cu13 toolkit) and kills the process tree",
-      "author": "santanu20",
-      "state": "open",
-      "created_at": "2026-10-09T19:02:21Z",
-      "updated_at": "2026-10-25T08:40:57Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43412",
       "labels": []
     },
     {
@@ -73,16 +125,6 @@
       "created_at": "2026-08-28T06:40:26Z",
       "updated_at": "2026-10-24T04:55:26Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/36807",
-      "labels": []
-    },
-    {
-      "number": 39499,
-      "title": "[Roadmap] SGLang dLLM Serving",
-      "author": "rwang5203",
-      "state": "open",
-      "created_at": "2026-09-15T01:21:47Z",
-      "updated_at": "2026-10-23T22:50:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
       "labels": []
     },
     {
@@ -187,16 +229,6 @@
       "created_at": "2026-09-24T16:58:53Z",
       "updated_at": "2026-10-21T06:51:02Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/41152",
-      "labels": []
-    },
-    {
-      "number": 42473,
-      "title": "Development Roadmap (2026 Q4)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-10-04T08:24:43Z",
-      "updated_at": "2026-10-20T20:10:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
       "labels": []
     },
     {
@@ -378,16 +410,6 @@
       "created_at": "2026-10-05T09:03:22Z",
       "updated_at": "2026-10-09T03:29:33Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/42564",
-      "labels": []
-    },
-    {
-      "number": 43142,
-      "title": "[Bug] CUDA graphs stay enabled for `torch_native` attention when the platform fallback selects it",
-      "author": "the-Shallow",
-      "state": "open",
-      "created_at": "2026-10-08T17:18:46Z",
-      "updated_at": "2026-10-09T03:03:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43142",
       "labels": []
     },
     {

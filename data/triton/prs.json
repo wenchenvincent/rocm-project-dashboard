@@ -1,14 +1,134 @@
 {
-  "collected_at": "2026-10-25T12:49:24Z",
+  "collected_at": "2026-10-26T14:38:05Z",
   "prs": [
+    {
+      "number": 12499,
+      "title": "[AMD] Strict scaled upcast fix",
+      "author": "amirumoAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T14:24:10Z",
+      "updated_at": "2026-10-26T14:24:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12499",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12474,
+      "title": "[AMD] Enable Remaining GFX1250-strict WMMA Instructions",
+      "author": "amirumoAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T13:43:00Z",
+      "updated_at": "2026-10-26T13:06:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12474",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12493,
+      "title": "[AMD][Gluon] Add buffer.atomic_load and buffer.atomic_store",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-25T21:13:32Z",
+      "updated_at": "2026-10-26T12:06:40Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12493",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12496,
+      "title": "[WIP][LLVM][AMD] Bump AMD codegen to llvm/llvm-project@05e432a",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T10:50:12Z",
+      "updated_at": "2026-10-26T10:56:21Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12496",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12478,
+      "title": "[AMD][GLUON] Deprecate load_shared_relaxed",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-23T20:20:08Z",
+      "updated_at": "2026-10-26T10:26:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12478",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12477,
+      "title": "[AMD] Fix WMMA operands whose kWidth spans several instructions",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T16:41:08Z",
+      "updated_at": "2026-10-26T10:19:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12477",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12286,
+      "title": "[AMD][membar] Prove slots of loop-carried views of multi-buffered all\u2026",
+      "author": "yanxuer-999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T06:43:05Z",
+      "updated_at": "2026-10-26T09:55:04Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12286",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12273,
+      "title": "[AMD][ConSan] Handle mixed-direction partial async-copy waits",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T18:04:42Z",
+      "updated_at": "2026-10-26T09:12:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12273",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11475,
+      "title": "[AMD] Disable scalar atomics in multi-cta kernels",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T20:16:56Z",
+      "updated_at": "2026-10-26T06:51:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11475",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12492,
+      "title": "[AMD] Speed up SW fp8e4nv -> fp16 upcast with packed fmul",
+      "author": "ptrojahn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-25T20:54:38Z",
+      "updated_at": "2026-10-26T02:22:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12492",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12345,
       "title": "[AMD][Gluon] Add buffer descriptors and descriptor-based buffer ops",
       "author": "antiagainst",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-10-18T02:44:47Z",
-      "updated_at": "2026-10-24T23:45:12Z",
+      "updated_at": "2026-10-25T20:23:00Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12345",
       "labels": [],
       "draft": false
@@ -26,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 12474,
-      "title": "[AMD] Enable Remaining GFX1250-strict WMMA Instructions",
-      "author": "amirumoAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T13:43:00Z",
-      "updated_at": "2026-10-24T17:11:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12474",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12480,
       "title": "[AMD] Enable IEEE maximum/minimum for RDNA4",
       "author": "antiagainst",
@@ -50,30 +158,6 @@
       "draft": false
     },
     {
-      "number": 12478,
-      "title": "[AMD][GLUON] Deprecate load_shared_relaxed",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T20:20:08Z",
-      "updated_at": "2026-10-24T05:38:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12478",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12477,
-      "title": "[AMD] Fix WMMA operands whose kWidth spans several instructions",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T16:41:08Z",
-      "updated_at": "2026-10-23T23:46:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12477",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12371,
       "title": "[AMD] Fix LLVM symbol clash in TRITON_EXT_ENABLED builds",
       "author": "RolaoDenthu",
@@ -82,18 +166,6 @@
       "created_at": "2026-10-19T20:40:46Z",
       "updated_at": "2026-10-23T19:17:23Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12371",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12273,
-      "title": "[AMD][ConSan] Handle mixed-direction partial async-copy waits",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T18:04:42Z",
-      "updated_at": "2026-10-23T09:06:13Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12273",
       "labels": [],
       "draft": false
     },
@@ -132,18 +204,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12122",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12286,
-      "title": "[AMD][mdmbar] Prove slots of loop-carried views of multi-buffered all\u2026",
-      "author": "yanxuer-999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T06:43:05Z",
-      "updated_at": "2026-10-23T02:33:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12286",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12441,
@@ -660,66 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12199",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11295,
-      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-10-09T08:10:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11295",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12162,
-      "title": "[AMD] Switch MI250 jobs to amd-gfx90a",
-      "author": "sriakrish",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-07T21:09:27Z",
-      "updated_at": "2026-10-09T00:03:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12162",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12167,
-      "title": "[AMD] Saturate infinities in RDNA4 HW OCP FP8 downcasts",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-08T02:13:25Z",
-      "updated_at": "2026-10-08T22:34:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12167",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12159,
-      "title": "[AMD] Keep shared order in CoalesceAsyncCopy when the src order cannot lower to direct-to-LDS",
-      "author": "he-yufeng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:17:18Z",
-      "updated_at": "2026-10-07T15:17:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12159",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12149,
-      "title": "[AMD][Gluon] Add CDNA5 WMMA issue mode control",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T23:24:15Z",
-      "updated_at": "2026-10-07T07:00:50Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12149",
-      "labels": [],
-      "draft": true
     }
   ]
 }
