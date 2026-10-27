@@ -1,18 +1,6 @@
 {
-  "collected_at": "2026-10-26T14:38:09Z",
+  "collected_at": "2026-10-27T13:42:00Z",
   "prs": [
-    {
-      "number": 5413,
-      "title": "Preserve arg-reduction axes during reshape fusion",
-      "author": "royzhang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T07:44:18Z",
-      "updated_at": "2026-10-26T14:01:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5413",
-      "labels": [],
-      "draft": false
-    },
     {
       "number": 5435,
       "title": "simplify_reshapes: require an unambiguous entry chain in find_entry_shape_transform_op",
@@ -20,7 +8,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-26T11:42:13Z",
-      "updated_at": "2026-10-26T13:55:46Z",
+      "updated_at": "2026-10-27T12:50:23Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5435",
       "labels": [],
       "draft": false
@@ -32,24 +20,33 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-26T11:42:02Z",
-      "updated_at": "2026-10-26T13:53:29Z",
+      "updated_at": "2026-10-27T10:02:58Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5434",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5351,
-      "title": "Fix invalid const attribute on generated fused reductions",
-      "author": "ahsan-ca",
+      "number": 5397,
+      "title": "update parsers to support LLMs",
+      "author": "shivadbhavsar",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-05T17:17:44Z",
-      "updated_at": "2026-10-26T13:07:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5351",
-      "labels": [
-        "high priority",
-        "simple"
-      ],
+      "created_at": "2026-10-15T01:22:12Z",
+      "updated_at": "2026-10-27T04:11:05Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5431,
+      "title": "Improve select_module perf",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T18:09:15Z",
+      "updated_at": "2026-10-27T03:37:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5431",
+      "labels": [],
       "draft": false
     },
     {
@@ -59,8 +56,188 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-23T07:40:48Z",
-      "updated_at": "2026-10-26T08:53:35Z",
+      "updated_at": "2026-10-27T03:03:17Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5425",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5393,
+      "title": "Evaluate compound symbolic shape expressions",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:57:16Z",
+      "updated_at": "2026-10-27T03:00:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5393",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5392,
+      "title": "Support bounded dynamic slice outputs",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:56:37Z",
+      "updated_at": "2026-10-27T02:52:26Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5392",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5443,
+      "title": "Handle empty tensors in select module by short-circuiting",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T23:30:10Z",
+      "updated_at": "2026-10-27T02:23:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5443",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5388,
+      "title": "Support compatible symbolic dimensions",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T18:57:52Z",
+      "updated_at": "2026-10-27T02:19:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5388",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5442,
+      "title": "Dynamic concat kernel for handling concating over symbolic dimensions",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T23:26:21Z",
+      "updated_at": "2026-10-27T00:43:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5442",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5169,
+      "title": "fix(security): spawn processes directly instead of through popen",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:11:47Z",
+      "updated_at": "2026-10-27T00:39:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5169",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5439,
+      "title": "KV cache attention flash decoding",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T22:04:33Z",
+      "updated_at": "2026-10-27T00:04:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5444,
+      "title": "Scatter elements analyzer for split_sym_dim",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T23:33:26Z",
+      "updated_at": "2026-10-27T00:03:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5444",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5445,
+      "title": "Block output handling for data-dependent operators in split_sym_dim",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T23:34:47Z",
+      "updated_at": "2026-10-27T00:02:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5445",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5438,
+      "title": "Data dependent handling in split_sym_dim",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T21:23:26Z",
+      "updated_at": "2026-10-26T23:42:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5438",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5394,
+      "title": "Split/symbolic reshape parsing",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:57:36Z",
+      "updated_at": "2026-10-26T23:18:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5389,
+      "title": "Add simplify symbolic dimensions pass",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:05:55Z",
+      "updated_at": "2026-10-26T23:12:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5384,
+      "title": "Update handling for empty tensors",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T17:18:14Z",
+      "updated_at": "2026-10-26T22:30:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5384",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5312,
+      "title": "Dynamic ROIAlign ",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T20:50:04Z",
+      "updated_at": "2026-10-26T20:38:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5312",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5413,
+      "title": "Preserve arg-reduction axes during reshape fusion",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T07:44:18Z",
+      "updated_at": "2026-10-26T14:01:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5413",
       "labels": [],
       "draft": false
     },
@@ -165,18 +342,6 @@
       "draft": false
     },
     {
-      "number": 5431,
-      "title": "Improve select_module perf",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T18:09:15Z",
-      "updated_at": "2026-10-23T23:55:17Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5431",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5417,
       "title": "Fuse the attention-sink gate into the attention epilogue and the o_proj reduce",
       "author": "pfultz2",
@@ -213,18 +378,6 @@
       "draft": false
     },
     {
-      "number": 5407,
-      "title": "Zero-copy gather literals and cost-aware staging in write_literals",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-17T14:24:49Z",
-      "updated_at": "2026-10-23T21:04:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5407",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5373,
       "title": "docs: update installation docs with TheRock packages",
       "author": "peterjunpark",
@@ -233,90 +386,6 @@
       "created_at": "2026-10-09T19:35:31Z",
       "updated_at": "2026-10-23T20:03:35Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5373",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5394,
-      "title": "Split/symbolic reshape parsing",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:36Z",
-      "updated_at": "2026-10-23T19:03:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5392,
-      "title": "Support bounded dynamic slice outputs",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:56:37Z",
-      "updated_at": "2026-10-23T18:48:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5392",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5389,
-      "title": "Add simplify symbolic dimensions pass",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:05:55Z",
-      "updated_at": "2026-10-23T18:34:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5384,
-      "title": "Update handling for empty tensors",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T17:18:14Z",
-      "updated_at": "2026-10-23T18:25:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5384",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5393,
-      "title": "Evaluate compound symbolic shape expressions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:16Z",
-      "updated_at": "2026-10-23T17:57:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5393",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5397,
-      "title": "update parsers to support LLMs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T01:22:12Z",
-      "updated_at": "2026-10-23T17:24:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5422,
-      "title": "Add Vishal and Anil as codeowners",
-      "author": "asparkhi",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T11:52:20Z",
-      "updated_at": "2026-10-23T17:21:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5422",
       "labels": [],
       "draft": false
     },
@@ -335,18 +404,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 5312,
-      "title": "Dynamic ROIAlign ",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T20:50:04Z",
-      "updated_at": "2026-10-23T17:16:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5312",
-      "labels": [],
       "draft": false
     },
     {
@@ -376,18 +433,6 @@
       "draft": false
     },
     {
-      "number": 5388,
-      "title": "Support compatible symbolic dimensions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T18:57:52Z",
-      "updated_at": "2026-10-22T22:26:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5388",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5299,
       "title": "chore: add security scanning workflows",
       "author": "haribabug",
@@ -408,18 +453,6 @@
       "created_at": "2026-10-21T18:58:29Z",
       "updated_at": "2026-10-22T16:03:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5419",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5169,
-      "title": "fix(security): replace popen shell with posix_spawn",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:11:47Z",
-      "updated_at": "2026-10-22T02:32:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5169",
       "labels": [],
       "draft": false
     },
@@ -571,21 +604,6 @@
       "updated_at": "2026-09-30T21:19:47Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5260",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5052,
-      "title": "Revert find_reshape_cont guard relaxation from PR#4858",
-      "author": "tamahedi",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-09T14:03:44Z",
-      "updated_at": "2026-09-30T17:56:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5052",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
       "draft": false
     },
     {
@@ -1691,6 +1709,59 @@
       "draft": true
     },
     {
+      "number": 5422,
+      "title": "Add Vishal, Sameek and Anil as codeowners",
+      "author": "asparkhi",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-22T11:52:20Z",
+      "updated_at": "2026-10-27T07:19:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5422",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5385,
+      "title": "Update eliminate_convert to also eliminate dynamic shape converts",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T17:25:48Z",
+      "updated_at": "2026-10-26T19:34:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5385",
+      "labels": [
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5351,
+      "title": "Fix invalid const attribute on generated fused reductions",
+      "author": "ahsan-ca",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-05T17:17:44Z",
+      "updated_at": "2026-10-26T17:07:34Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5351",
+      "labels": [
+        "high priority",
+        "simple"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5407,
+      "title": "Zero-copy gather literals and cost-aware staging in write_literals",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-17T14:24:49Z",
+      "updated_at": "2026-10-26T15:21:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5407",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5335,
       "title": "Channels-last support and register/vector reuse for the channelwise convolution kernel",
       "author": "pfultz2",
@@ -1897,20 +1968,6 @@
       "updated_at": "2026-10-20T21:22:26Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5352",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5385,
-      "title": "Update eliminate_convert to also eliminate dynamic shape converts",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-13T17:25:48Z",
-      "updated_at": "2026-10-19T13:54:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5385",
-      "labels": [
-        "simple"
-      ],
       "draft": false
     },
     {
@@ -2674,56 +2731,6 @@
       "created_at": "2026-08-05T17:49:24Z",
       "updated_at": "2026-10-01T21:24:59Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5114",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4880,
-      "title": "Add dynamic shape support for TopK",
-      "author": "klin2024",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-13T06:51:29Z",
-      "updated_at": "2026-10-01T17:30:23Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4880",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4927,
-      "title": "broadcast_with_dims: lower-bound the dynamic output dims at 1, not 0",
-      "author": "chun-wan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-01T18:30:52Z",
-      "updated_at": "2026-10-01T17:30:21Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4927",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5024,
-      "title": "Sanitize benchmark mxr file name to use `_` instead of invalid Windows characters",
-      "author": "ahsan-ca",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-30T14:29:50Z",
-      "updated_at": "2026-10-01T16:30:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5024",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5017,
-      "title": "Skip fuse_horizontal pass on dynamic shaped inputs",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T18:24:52Z",
-      "updated_at": "2026-10-01T16:30:50Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5017",
       "labels": [],
       "draft": false
     }

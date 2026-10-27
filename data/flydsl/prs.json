@@ -1,51 +1,91 @@
 {
-  "collected_at": "2026-10-26T14:38:46Z",
+  "collected_at": "2026-10-27T13:42:36Z",
   "prs": [
     {
-      "number": 1330,
-      "title": "[Kernel]mega_moe_tp: unified path and big-M optimizations",
-      "author": "binding7012",
+      "number": 1337,
+      "title": "[Bugfix] Show the user's source line in DSL compile errors",
+      "author": "RElbers",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-26T14:05:59Z",
-      "updated_at": "2026-10-26T14:23:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1330",
+      "created_at": "2026-10-27T10:14:38Z",
+      "updated_at": "2026-10-27T12:40:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1337",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1329,
-      "title": "[AOT] Add a versioned export manifest",
-      "author": "XiaobingSuper",
+      "number": 1309,
+      "title": "[ROCDL] Put the contiguous mode's filler dim at the front",
+      "author": "xudoyuan",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-26T13:29:57Z",
-      "updated_at": "2026-10-26T14:23:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1329",
+      "created_at": "2026-10-19T13:21:24Z",
+      "updated_at": "2026-10-27T10:38:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1309",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1336,
+      "title": "[DSL][Perf] Remove KTRACE's shared cursor and per-event atomics",
+      "author": "zhiding512",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T10:04:33Z",
+      "updated_at": "2026-10-27T10:15:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1336",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1269,
+      "title": "[Bugfix] Sync both wave groups before the gfx950 A16W16 HTI GEMM reads its first and last stages",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T17:56:09Z",
+      "updated_at": "2026-10-27T09:54:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1269",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1109,
+      "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
+      "author": "big-yellow-duck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T06:44:24Z",
+      "updated_at": "2026-10-27T09:13:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1335,
+      "title": "[DSL][Perf] Reduce KTRACE overhead from about 30% to under 2% on MI355X GEMMs",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T01:51:49Z",
+      "updated_at": "2026-10-27T06:13:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1335",
+      "labels": [
+        "ai-review"
+      ],
       "draft": true
     },
     {
-      "number": 1331,
-      "title": "[gfx1250] JitFunction.__call__ cached fast path",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T14:16:29Z",
-      "updated_at": "2026-10-26T14:18:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1331",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1328,
-      "title": "[Bugfix] Pin both MLIR Python detection passes to one interpreter",
+      "number": 1332,
+      "title": "[Bugfix] Fix ROCm GPU counting and architecture fallback",
       "author": "Qubitium",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-26T12:52:45Z",
-      "updated_at": "2026-10-26T13:01:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1328",
+      "created_at": "2026-10-26T20:27:57Z",
+      "updated_at": "2026-10-26T20:37:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1332",
       "labels": [],
       "draft": false
     },
@@ -56,10 +96,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-23T02:48:27Z",
-      "updated_at": "2026-10-26T10:05:55Z",
+      "updated_at": "2026-10-26T16:48:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1321",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 1328,
+      "title": "[FIX] Building from source can produce bindings for the wrong ABI and crash on import",
+      "author": "Qubitium",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T12:52:45Z",
+      "updated_at": "2026-10-26T16:31:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1328",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1329,
+      "title": "[AOT] Add a versioned export manifest",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T13:29:57Z",
+      "updated_at": "2026-10-26T15:37:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1329",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 1325,
@@ -178,20 +242,6 @@
       "draft": true
     },
     {
-      "number": 1269,
-      "title": "[Bugfix] Sync both wave groups before the gfx950 A16W16 HTI GEMM reads its first and last stages",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T17:56:09Z",
-      "updated_at": "2026-10-21T04:00:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1269",
-      "labels": [
-        "ai-review"
-      ],
-      "draft": false
-    },
-    {
       "number": 1227,
       "title": "[Kernel][Perf] Tune RMSNorm for gfx1250: BF16 hardware conversion, early loads, small-N kernel choice",
       "author": "jhinpan",
@@ -202,18 +252,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1309,
-      "title": "[ROCDL] Put the contiguous mode's filler dim at the front",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-19T13:21:24Z",
-      "updated_at": "2026-10-20T13:26:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1309",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1313,
@@ -344,18 +382,6 @@
       "created_at": "2026-10-12T13:05:25Z",
       "updated_at": "2026-10-15T08:21:59Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1276",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1291,
-      "title": "[LayoutAlgebra] Drop layout modes beyond the tiler rank in composition",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T09:37:04Z",
-      "updated_at": "2026-10-15T08:10:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1291",
       "labels": [],
       "draft": false
     },
@@ -524,18 +550,6 @@
       "created_at": "2026-10-11T22:47:33Z",
       "updated_at": "2026-10-11T23:08:16Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1272",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1109,
-      "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
-      "author": "big-yellow-duck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T06:44:24Z",
-      "updated_at": "2026-10-11T15:56:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
       "labels": [],
       "draft": false
     },
@@ -1112,6 +1126,30 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1330,
+      "title": "[Kernel]mega_moe_tp: unified path and big-M optimizations",
+      "author": "binding7012",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-26T14:05:59Z",
+      "updated_at": "2026-10-27T09:18:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1330",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1333,
+      "title": "[Bugfix][Dialect] Don't drop range(..., unroll=N) hints in fly-promote-regmem-to-vectorssa",
+      "author": "RElbers",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-26T21:11:44Z",
+      "updated_at": "2026-10-27T06:37:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1333",
       "labels": [],
       "draft": false
     },
@@ -1882,56 +1920,6 @@
       "created_at": "2026-09-22T12:36:50Z",
       "updated_at": "2026-09-23T03:37:42Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1182",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1122,
-      "title": "Reject global->LDS direct loads on gfx11",
-      "author": "mgehre-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-11T10:44:31Z",
-      "updated_at": "2026-09-22T13:34:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1122",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1181,
-      "title": "[API] Add extension as stable, exclude experimental module paths",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-22T10:20:37Z",
-      "updated_at": "2026-09-22T13:23:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1181",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1116,
-      "title": "refactor communication ops",
-      "author": "yanboshao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-10T08:18:43Z",
-      "updated_at": "2026-09-22T13:19:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1116",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1154,
-      "title": "[llvm][Skill] Add an LLVM kernel-tuning and verification skill",
-      "author": "Phil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-17T02:56:06Z",
-      "updated_at": "2026-09-22T11:07:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1154",
       "labels": [],
       "draft": false
     }

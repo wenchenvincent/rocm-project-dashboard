@@ -1,6 +1,66 @@
 {
-  "collected_at": "2026-10-26T14:38:33Z",
+  "collected_at": "2026-10-27T13:42:22Z",
   "issues": [
+    {
+      "number": 7007,
+      "title": "[gfx950][MLA] FP8-Q persistent decode mla_a8w8_qh16_qseqlen{2,4} returns wrong, nondeterministic output",
+      "author": "yuychang",
+      "state": "open",
+      "created_at": "2026-10-27T09:32:13Z",
+      "updated_at": "2026-10-27T09:32:13Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7007",
+      "labels": []
+    },
+    {
+      "number": 6062,
+      "title": "[vLLM] DSR1 FP4 Optimizations",
+      "author": "farlukas",
+      "state": "open",
+      "created_at": "2026-10-01T18:13:36Z",
+      "updated_at": "2026-10-27T01:16:01Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6062",
+      "labels": []
+    },
+    {
+      "number": 5959,
+      "title": "[Issue]: AITER_TRITON_ONLY leaves `aiter.dtypes` unbound, silently disabling `aiter.ops.triton.quant`",
+      "author": "Ragua1",
+      "state": "open",
+      "created_at": "2026-09-29T20:40:29Z",
+      "updated_at": "2026-10-26T23:03:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5959",
+      "labels": []
+    },
+    {
+      "number": 6962,
+      "title": "[Issue]: flash_attn_triton_amd prefill: RDNA uses one config for every dtype and head dim; on gfx1101 head dim 64 (bf16/fp16) runs 1.16\u20131.32x faster with another",
+      "author": "Ragua1",
+      "state": "open",
+      "created_at": "2026-10-26T20:07:48Z",
+      "updated_at": "2026-10-26T21:42:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6962",
+      "labels": []
+    },
+    {
+      "number": 1385,
+      "title": "-mllvm -amdgpu-coerce-illegal-types=1 is not supported by hipcc",
+      "author": "jinz2014",
+      "state": "open",
+      "created_at": "2025-11-11T15:30:49Z",
+      "updated_at": "2026-10-26T20:47:24Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/1385",
+      "labels": []
+    },
+    {
+      "number": 6964,
+      "title": "[Bug] gfx950 fmha_v3_bwd hd128 a32 psskddv kernel returns wrong dq/dk/dv when seqlen_q == 1",
+      "author": "jeffdaily",
+      "state": "open",
+      "created_at": "2026-10-26T20:30:31Z",
+      "updated_at": "2026-10-26T20:30:31Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6964",
+      "labels": []
+    },
     {
       "number": 6643,
       "title": "[Feature] Non-gated ReLU\u00b2 fused MoE for BF16 and FP8 weights",
@@ -209,16 +269,6 @@
       "created_at": "2026-10-17T06:05:41Z",
       "updated_at": "2026-10-19T18:15:32Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6644",
-      "labels": []
-    },
-    {
-      "number": 6062,
-      "title": "[vLLM] DSR1 FP4 Optimizations",
-      "author": "farlukas",
-      "state": "open",
-      "created_at": "2026-10-01T18:13:36Z",
-      "updated_at": "2026-10-19T15:09:12Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6062",
       "labels": []
     },
     {
@@ -808,16 +858,6 @@
       "labels": []
     },
     {
-      "number": 5959,
-      "title": "[Issue]: AITER_TRITON_ONLY leaves `aiter.dtypes` unbound, silently disabling `aiter.ops.triton.quant`",
-      "author": "Ragua1",
-      "state": "open",
-      "created_at": "2026-09-29T20:40:29Z",
-      "updated_at": "2026-09-29T20:47:39Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5959",
-      "labels": []
-    },
-    {
       "number": 5954,
       "title": "[Bug] gfx950 OPUS persistent BF16 kid 300 output depends on partial-K row padding",
       "author": "harsh-nod",
@@ -887,16 +927,6 @@
       "created_at": "2026-08-26T19:56:24Z",
       "updated_at": "2026-09-28T15:39:33Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5031",
-      "labels": []
-    },
-    {
-      "number": 5916,
-      "title": "[Feature]: Centralized MXFP8 (E4M3 + E8M0 1x32) dense GEMM support",
-      "author": "sshlyapn",
-      "state": "open",
-      "created_at": "2026-09-28T14:38:34Z",
-      "updated_at": "2026-09-28T14:55:58Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5916",
       "labels": []
     },
     {
@@ -2642,16 +2672,6 @@
       "created_at": "2026-05-05T20:33:04Z",
       "updated_at": "2026-05-05T21:40:32Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3038",
-      "labels": []
-    },
-    {
-      "number": 1385,
-      "title": "-mllvm -amdgpu-coerce-illegal-types=1 is not supported by hipcc",
-      "author": "jinz2014",
-      "state": "open",
-      "created_at": "2025-11-11T15:30:49Z",
-      "updated_at": "2026-05-04T21:05:55Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1385",
       "labels": []
     },
     {

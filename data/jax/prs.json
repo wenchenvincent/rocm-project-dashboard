@@ -1,6 +1,33 @@
 {
-  "collected_at": "2026-10-26T14:37:38Z",
+  "collected_at": "2026-10-27T13:41:30Z",
   "prs": [
+    {
+      "number": 41986,
+      "title": "[ROCm] Exclude lax_scipy_special_functions_test_gpu from ROCm CI",
+      "author": "psanal35",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-26T17:54:40Z",
+      "updated_at": "2026-10-27T01:08:02Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41986",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41703,
+      "title": "[DO NOT MERGE][ROCm] Migrate Pytest ROCm lane to rocmless container + pip-installed TheRock",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:08:33Z",
+      "updated_at": "2026-10-26T16:50:13Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41703",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 41881,
       "title": "[ROCm] Enable remote compilation for jax in rocm rbe",
@@ -49,18 +76,6 @@
       "created_at": "2026-10-16T19:05:10Z",
       "updated_at": "2026-10-19T03:49:48Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41702",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 41703,
-      "title": "[DO NOT MERGE][ROCm] Migrate Pytest ROCm lane to rocmless container + pip-installed TheRock",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T19:08:33Z",
-      "updated_at": "2026-10-19T03:11:24Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41703",
       "labels": [],
       "draft": true
     },
@@ -553,21 +568,6 @@
       "created_at": "2026-08-19T21:47:46Z",
       "updated_at": "2026-08-20T14:59:33Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40097",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39974,
-      "title": "[ROCm] Make test_vmap_ellipsis insensitive to reduced-precision matmuls",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-13T22:27:44Z",
-      "updated_at": "2026-08-19T19:13:15Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39974",
       "labels": [
         "kokoro:force-run",
         "pull ready"

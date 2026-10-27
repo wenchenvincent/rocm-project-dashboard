@@ -1,6 +1,89 @@
 {
-  "collected_at": "2026-10-26T14:38:04Z",
+  "collected_at": "2026-10-27T13:41:54Z",
   "issues": [
+    {
+      "number": 46831,
+      "title": "[Bug] ROCm DCP-PD allocator reserve growth precedes HIP resource aborts under burst load",
+      "author": "dorado269",
+      "state": "open",
+      "created_at": "2026-10-27T11:17:43Z",
+      "updated_at": "2026-10-27T11:17:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46831",
+      "labels": []
+    },
+    {
+      "number": 45373,
+      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
+      "author": "JackChuang",
+      "state": "open",
+      "created_at": "2026-10-20T10:04:23Z",
+      "updated_at": "2026-10-27T11:15:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
+      "labels": []
+    },
+    {
+      "number": 46829,
+      "title": "[Bug] ROCm absorb-BMM hand config aborts Triton compilation at M=256 on gfx950",
+      "author": "dorado269",
+      "state": "open",
+      "created_at": "2026-10-27T11:15:22Z",
+      "updated_at": "2026-10-27T11:15:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46829",
+      "labels": []
+    },
+    {
+      "number": 43412,
+      "title": "Speculative decoding crashes server on first non-greedy request: flashinfer verify-sampling op JIT fails (bundled cccl vs pip cu13 toolkit) and kills the process tree",
+      "author": "santanu20",
+      "state": "open",
+      "created_at": "2026-10-09T19:02:21Z",
+      "updated_at": "2026-10-27T09:10:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43412",
+      "labels": []
+    },
+    {
+      "number": 46803,
+      "title": "[Bug] FlashInfer `cascade` module JIT-compiles inside the first prefixed request (~4.5 s) on pip installs",
+      "author": "AgentHan115",
+      "state": "open",
+      "created_at": "2026-10-27T09:07:20Z",
+      "updated_at": "2026-10-27T09:07:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46803",
+      "labels": []
+    },
+    {
+      "number": 43098,
+      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
+      "author": "hzh0425",
+      "state": "open",
+      "created_at": "2026-10-08T11:44:11Z",
+      "updated_at": "2026-10-27T04:49:56Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
+      "labels": []
+    },
+    {
+      "number": 43313,
+      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
+      "author": "mickqian",
+      "state": "open",
+      "created_at": "2026-10-09T06:57:46Z",
+      "updated_at": "2026-10-26T17:42:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
+      "labels": [
+        "diffusion",
+        "roadmap"
+      ]
+    },
+    {
+      "number": 46628,
+      "title": "[Bug] [AMD] Mixtral-8x7B FP8 static-scale checkpoint loses ~10 pt GSM8K on MI300X; crashes with SGLANG_USE_AITER=0",
+      "author": "michaelzhang-ai",
+      "state": "open",
+      "created_at": "2026-10-26T17:01:06Z",
+      "updated_at": "2026-10-26T17:01:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46628",
+      "labels": []
+    },
     {
       "number": 46520,
       "title": "[RFC] [XPU] paged-experts: Intel XPU support with Lookahead Expert Scheduling (LES) and an SSD tier for iGPU, single-GPU MoE offload",
@@ -22,16 +105,6 @@
       "labels": [
         "apple-silicon"
       ]
-    },
-    {
-      "number": 43412,
-      "title": "Speculative decoding crashes server on first non-greedy request: flashinfer verify-sampling op JIT fails (bundled cccl vs pip cu13 toolkit) and kills the process tree",
-      "author": "santanu20",
-      "state": "open",
-      "created_at": "2026-10-09T19:02:21Z",
-      "updated_at": "2026-10-26T01:17:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43412",
-      "labels": []
     },
     {
       "number": 46462,
@@ -74,16 +147,6 @@
       "labels": [
         "ci-failure-tracker"
       ]
-    },
-    {
-      "number": 45373,
-      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
-      "author": "JackChuang",
-      "state": "open",
-      "created_at": "2026-10-20T10:04:23Z",
-      "updated_at": "2026-10-25T12:04:04Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
-      "labels": []
     },
     {
       "number": 30599,
@@ -135,16 +198,6 @@
       "created_at": "2026-10-14T14:46:04Z",
       "updated_at": "2026-10-23T09:08:47Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/44304",
-      "labels": []
-    },
-    {
-      "number": 43098,
-      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
-      "author": "hzh0425",
-      "state": "open",
-      "created_at": "2026-10-08T11:44:11Z",
-      "updated_at": "2026-10-23T07:00:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
       "labels": []
     },
     {
@@ -336,19 +389,6 @@
       "labels": []
     },
     {
-      "number": 43313,
-      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
-      "author": "mickqian",
-      "state": "open",
-      "created_at": "2026-10-09T06:57:46Z",
-      "updated_at": "2026-10-12T14:01:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
-      "labels": [
-        "diffusion",
-        "roadmap"
-      ]
-    },
-    {
       "number": 16565,
       "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
       "author": "yeahdongcn",
@@ -391,18 +431,6 @@
       "labels": []
     },
     {
-      "number": 21703,
-      "title": "[Roadmap] Prefill-Decode Disaggregation Roadmap (2026 Q2)",
-      "author": "ShangmingCai",
-      "state": "open",
-      "created_at": "2026-03-30T17:20:10Z",
-      "updated_at": "2026-10-10T09:26:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21703",
-      "labels": [
-        "PD Disaggregation"
-      ]
-    },
-    {
       "number": 42564,
       "title": "[Bug][ROCm] FLUX.2-dev fails on gfx1151: NVIDIA PTX inline assembly in residual_gate_add kernel",
       "author": "vvvdwbvvv",
@@ -441,18 +469,6 @@
       "updated_at": "2026-10-04T08:29:51Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/42361",
       "labels": []
-    },
-    {
-      "number": 35003,
-      "title": "AMD Development Roadmap (2026 Q3)",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-08-16T05:07:07Z",
-      "updated_at": "2026-10-02T07:51:10Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/35003",
-      "labels": [
-        "amd"
-      ]
     },
     {
       "number": 42188,
@@ -542,26 +558,6 @@
       "created_at": "2026-09-09T17:27:37Z",
       "updated_at": "2026-09-20T17:07:31Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38707",
-      "labels": []
-    },
-    {
-      "number": 40305,
-      "title": "[Feature] Make SGLANG_DEBUG_MEMORY_POOL effective on the default page_size=1 allocator",
-      "author": "Edwardssss",
-      "state": "open",
-      "created_at": "2026-09-19T06:49:56Z",
-      "updated_at": "2026-09-19T07:45:44Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/40305",
-      "labels": []
-    },
-    {
-      "number": 40286,
-      "title": "[Bug] GLM-5.3-Flash has no usable DSA attention backend on SM121 (DGX Spark): trtllm SM100-only, tilelang exceeds dynamic smem, triton ROCm-only, flashinfer_sparse_mla gated to GlmMoeDsa archs",
-      "author": "robertforbes68",
-      "state": "open",
-      "created_at": "2026-09-19T01:46:49Z",
-      "updated_at": "2026-09-19T04:30:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/40286",
       "labels": []
     }
   ]
