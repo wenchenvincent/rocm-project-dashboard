@@ -1,41 +1,47 @@
 {
-  "collected_at": "2026-10-27T13:43:30Z",
+  "collected_at": "2026-10-28T14:38:42Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 15,
-      "merged": 21,
+      "opened": 20,
+      "merged": 23,
       "closed": 0
     },
     "last_week": {
-      "opened": 16,
-      "merged": 9,
+      "opened": 13,
+      "merged": 7,
       "closed": 0
     },
-    "median_time_to_merge_hours": 47.4,
+    "median_time_to_merge_hours": 30.4,
     "merge_count": 30,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 16,
-    "total_contributors": 32,
+    "active_this_week": 17,
+    "total_contributors": 34,
     "top_contributors": [
       {
         "author": "antiagainst",
-        "prs_submitted": 11,
-        "prs_merged": 10,
+        "prs_submitted": 12,
+        "prs_merged": 11,
         "commits": 0
       },
       {
         "author": "borontion",
-        "prs_submitted": 7,
-        "prs_merged": 7,
+        "prs_submitted": 5,
+        "prs_merged": 5,
         "commits": 0
       },
       {
         "author": "AlexAUT",
         "prs_submitted": 4,
+        "prs_merged": 4,
+        "commits": 0
+      },
+      {
+        "author": "tyb0807",
+        "prs_submitted": 3,
         "prs_merged": 3,
         "commits": 0
       },
@@ -43,24 +49,6 @@
         "author": "PMylon",
         "prs_submitted": 3,
         "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "plognjen",
-        "prs_submitted": 2,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "amirumoAMD",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "sriakrish",
-        "prs_submitted": 2,
-        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -80,6 +68,18 @@
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
+      },
+      {
+        "author": "he-yufeng",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "amirumoAMD",
+        "prs_submitted": 1,
+        "prs_merged": 0,
+        "commits": 0
       }
     ],
     "bus_factor": 2
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 24,
     "opened_this_week": 1,
-    "closed_this_week": 11,
+    "closed_this_week": 5,
     "unanswered": 8
   },
   "ci_health": {
@@ -104,9 +104,9 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 59.8,
-    "avg_interval_days": 72.2,
+    "days_since_last": 0.8,
+    "avg_interval_days": 69.7,
     "total_releases": 5,
-    "latest_tag": "v3.8.0"
+    "latest_tag": "v3.9.0"
   }
 }

@@ -1,6 +1,65 @@
 {
-  "collected_at": "2026-10-27T13:42:40Z",
+  "collected_at": "2026-10-28T14:38:01Z",
   "prs": [
+    {
+      "number": 696,
+      "title": "sGPU Test Scheduling: Global Work Queue",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T14:24:23Z",
+      "updated_at": "2026-10-28T05:46:58Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
+      "labels": [
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 745,
+      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T17:13:42Z",
+      "updated_at": "2026-10-28T04:41:53Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 771,
+      "title": "Ifu dev 20261019 v2.21",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T17:16:12Z",
+      "updated_at": "2026-10-28T03:37:56Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/771",
+      "labels": [
+        "ci-level 3",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 746,
+      "title": "FlyDSL persistent work-stealing grouped GEMM enablement (gfx950)",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T21:45:10Z",
+      "updated_at": "2026-10-28T00:59:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
     {
       "number": 741,
       "title": "Enable gfx950 FP8 HD128/256 fused-attn ASM forward from aiter",
@@ -8,12 +67,27 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-09-23T16:23:35Z",
-      "updated_at": "2026-10-27T05:55:31Z",
+      "updated_at": "2026-10-27T22:53:16Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/741",
       "labels": [
         "ci-level 3",
         "community-contribution",
         "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 766,
+      "title": "gfx1250: use hipblaslt device alpha for NVFP4 GEMM",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T22:23:27Z",
+      "updated_at": "2026-10-27T22:27:21Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/766",
+      "labels": [
+        "ci-level 1",
+        "P2"
       ],
       "draft": false
     },
@@ -24,10 +98,67 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-10-26T20:34:09Z",
+      "updated_at": "2026-10-27T22:20:09Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [
         "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 778,
+      "title": "[gfx1250] Use TDM for MXFP8 and FP8 quantization",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-22T23:18:01Z",
+      "updated_at": "2026-10-27T22:16:49Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 755,
+      "title": "[TE] CK fused attention: return max_logit",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:54:41Z",
+      "updated_at": "2026-10-27T22:12:54Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
+      "labels": [
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 694,
+      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T18:46:22Z",
+      "updated_at": "2026-10-27T21:29:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 781,
+      "title": "Support gfx1250-strict",
+      "author": "ipanfilo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T17:33:54Z",
+      "updated_at": "2026-10-27T17:34:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/781",
+      "labels": [
+        "ci-level 1"
       ],
       "draft": false
     },
@@ -42,20 +173,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/760",
       "labels": [
         "ci-level 3",
-        "P1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 779,
-      "title": "[CI] Pin release_v2.20.2_rocm to the TheRock 7.14 test image",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T19:00:27Z",
-      "updated_at": "2026-10-24T06:55:20Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/779",
-      "labels": [
         "P1"
       ],
       "draft": false
@@ -90,21 +207,6 @@
       "draft": true
     },
     {
-      "number": 745,
-      "title": "extend MXFP4 recipe to GroupedLinear and a8w4 (Triton grouped GEMM kernels)",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-28T17:13:42Z",
-      "updated_at": "2026-10-23T15:48:35Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/745",
-      "labels": [
-        "ci-level 1",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
       "number": 770,
       "title": "Dynamic WS sizing",
       "author": "matthiasdiener",
@@ -116,20 +218,6 @@
       "labels": [
         "ci-level 1",
         "P2"
-      ],
-      "draft": true
-    },
-    {
-      "number": 778,
-      "title": "[gfx1250] Use TDM for MXFP8 and FP8 quantization",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T23:18:01Z",
-      "updated_at": "2026-10-22T23:29:04Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": true
     },
@@ -175,35 +263,6 @@
       "draft": false
     },
     {
-      "number": 771,
-      "title": "Ifu dev 20261019 v2.21",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T17:16:12Z",
-      "updated_at": "2026-10-22T19:18:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/771",
-      "labels": [
-        "ci-level 3",
-        "P1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 696,
-      "title": "sGPU Test Scheduling: Global Work Queue",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T14:24:23Z",
-      "updated_at": "2026-10-22T18:19:41Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
-      "labels": [
-        "P2"
-      ],
-      "draft": false
-    },
-    {
       "number": 743,
       "title": "chore: add security scanning workflows",
       "author": "haribabug",
@@ -213,21 +272,6 @@
       "updated_at": "2026-10-22T17:19:09Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/743",
       "labels": [
-        "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 746,
-      "title": "FlyDSL persistent work-stealing grouped GEMM enablement (gfx950)",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T21:45:10Z",
-      "updated_at": "2026-10-22T16:57:36Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/746",
-      "labels": [
-        "ci-level 1",
         "P2"
       ],
       "draft": false
@@ -678,35 +722,6 @@
       "draft": true
     },
     {
-      "number": 766,
-      "title": "gfx1250: use hipblaslt device alpha for NVFP4 GEMM",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T22:23:27Z",
-      "updated_at": "2026-10-20T20:47:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/766",
-      "labels": [
-        "ci-level 1",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 755,
-      "title": "[TE] CK fused attention: return max_logit",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:54:41Z",
-      "updated_at": "2026-10-19T03:04:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
-      "labels": [
-        "P1"
-      ],
-      "draft": false
-    },
-    {
       "number": 762,
       "title": "Ipanfilo/security scaning",
       "author": "ipanfilo",
@@ -820,21 +835,6 @@
       "labels": [
         "ci-level 3",
         "community-contribution",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 694,
-      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-10-16T16:28:12Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
-      "labels": [
-        "ci-level 1",
         "P2"
       ],
       "draft": false

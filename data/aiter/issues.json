@@ -1,6 +1,60 @@
 {
-  "collected_at": "2026-10-27T13:42:22Z",
+  "collected_at": "2026-10-28T14:37:44Z",
   "issues": [
+    {
+      "number": 7051,
+      "title": "paged_attention_ragged: out-of-context workgroups dominate decode time under SGLang's 1024-partition grid (small and mixed-length batches)",
+      "author": "Arist12",
+      "state": "open",
+      "created_at": "2026-10-27T23:47:00Z",
+      "updated_at": "2026-10-27T23:47:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7051",
+      "labels": []
+    },
+    {
+      "number": 7046,
+      "title": "retune GEMM-AFP8WFP8_A32_W1X32 on 950",
+      "author": "Boss2002n",
+      "state": "open",
+      "created_at": "2026-10-27T21:03:39Z",
+      "updated_at": "2026-10-27T21:04:03Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7046",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 6062,
+      "title": "[vLLM] DSR1 FP4 Optimizations",
+      "author": "farlukas",
+      "state": "open",
+      "created_at": "2026-10-01T18:13:36Z",
+      "updated_at": "2026-10-27T16:38:18Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6062",
+      "labels": []
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-10-27T15:37:53Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 7025,
+      "title": "MXMOE coupled tuner (--mxfp4-flydsl): restore hardening removed from #6464",
+      "author": "Bernard-Liu",
+      "state": "open",
+      "created_at": "2026-10-27T14:25:10Z",
+      "updated_at": "2026-10-27T14:25:10Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7025",
+      "labels": []
+    },
     {
       "number": 7007,
       "title": "[gfx950][MLA] FP8-Q persistent decode mla_a8w8_qh16_qseqlen{2,4} returns wrong, nondeterministic output",
@@ -9,16 +63,6 @@
       "created_at": "2026-10-27T09:32:13Z",
       "updated_at": "2026-10-27T09:32:13Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7007",
-      "labels": []
-    },
-    {
-      "number": 6062,
-      "title": "[vLLM] DSR1 FP4 Optimizations",
-      "author": "farlukas",
-      "state": "open",
-      "created_at": "2026-10-01T18:13:36Z",
-      "updated_at": "2026-10-27T01:16:01Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6062",
       "labels": []
     },
     {
@@ -289,16 +333,6 @@
       "created_at": "2026-07-30T08:32:25Z",
       "updated_at": "2026-10-18T11:05:23Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4456",
-      "labels": []
-    },
-    {
-      "number": 6647,
-      "title": "[Issue]: Per-tensor quantization writes past output tails for widths not divisible by four",
-      "author": "akshatvishu",
-      "state": "open",
-      "created_at": "2026-10-17T17:57:19Z",
-      "updated_at": "2026-10-17T17:57:19Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6647",
       "labels": []
     },
     {
@@ -2286,16 +2320,6 @@
       "labels": []
     },
     {
-      "number": 3865,
-      "title": "dsv4 a4w4 moe support",
-      "author": "Bernard-Liu",
-      "state": "open",
-      "created_at": "2026-06-23T03:19:22Z",
-      "updated_at": "2026-06-30T02:41:03Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3865",
-      "labels": []
-    },
-    {
       "number": 3885,
       "title": "[RFC/Discussion] vLLM core abstractions block native AITER integration (weight/quant/KV layout) \u2014 align before upstreaming",
       "author": "ChuanLi1101",
@@ -2303,16 +2327,6 @@
       "created_at": "2026-06-24T01:03:05Z",
       "updated_at": "2026-06-29T23:05:04Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3885",
-      "labels": []
-    },
-    {
-      "number": 3995,
-      "title": "[Issue]: [TRITON] DeepSeekV4 fused routing (`moe_routing/routing.py`) lacks `expert_map`",
-      "author": "yitingw1",
-      "state": "open",
-      "created_at": "2026-06-29T11:48:47Z",
-      "updated_at": "2026-06-29T11:51:06Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3995",
       "labels": []
     },
     {

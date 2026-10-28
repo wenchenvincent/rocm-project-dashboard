@@ -1,49 +1,43 @@
 {
-  "collected_at": "2026-10-27T13:45:51Z",
+  "collected_at": "2026-10-28T14:41:16Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
       "opened": 19,
-      "merged": 8,
-      "closed": 4
+      "merged": 13,
+      "closed": 6
     },
     "last_week": {
-      "opened": 28,
+      "opened": 26,
       "merged": 22,
       "closed": 7
     },
-    "median_time_to_merge_hours": 45.9,
-    "merge_count": 30,
-    "stale_prs": 28
+    "median_time_to_merge_hours": 52.0,
+    "merge_count": 35,
+    "stale_prs": 30
   },
   "contributors": {
-    "active_this_week": 16,
-    "total_contributors": 53,
+    "active_this_week": 17,
+    "total_contributors": 51,
     "top_contributors": [
       {
-        "author": "coderfeli",
-        "prs_submitted": 20,
-        "prs_merged": 16,
-        "commits": 11
-      },
-      {
         "author": "jli-melchior",
-        "prs_submitted": 19,
+        "prs_submitted": 20,
         "prs_merged": 6,
         "commits": 6
       },
       {
-        "author": "jhinpan",
-        "prs_submitted": 14,
-        "prs_merged": 8,
-        "commits": 8
+        "author": "coderfeli",
+        "prs_submitted": 17,
+        "prs_merged": 13,
+        "commits": 9
       },
       {
-        "author": "Phil-amd",
-        "prs_submitted": 9,
-        "prs_merged": 4,
-        "commits": 3
+        "author": "jhinpan",
+        "prs_submitted": 13,
+        "prs_merged": 9,
+        "commits": 6
       },
       {
         "author": "xinyazhang",
@@ -53,21 +47,27 @@
       },
       {
         "author": "sjfeng1999",
-        "prs_submitted": 7,
+        "prs_submitted": 8,
         "prs_merged": 5,
-        "commits": 4
+        "commits": 5
       },
       {
-        "author": "xudoyuan",
-        "prs_submitted": 6,
+        "author": "Phil-amd",
+        "prs_submitted": 7,
         "prs_merged": 3,
         "commits": 3
       },
       {
+        "author": "xudoyuan",
+        "prs_submitted": 6,
+        "prs_merged": 4,
+        "commits": 4
+      },
+      {
         "author": "ppppqp",
         "prs_submitted": 5,
-        "prs_merged": 0,
-        "commits": 0
+        "prs_merged": 1,
+        "commits": 1
       },
       {
         "author": "james-huang09",
@@ -85,15 +85,15 @@
     "bus_factor": 4
   },
   "issue_health": {
-    "total_open": 54,
-    "opened_this_week": 3,
-    "closed_this_week": 0,
-    "unanswered": 25
+    "total_open": 53,
+    "opened_this_week": 4,
+    "closed_this_week": 2,
+    "unanswered": 23
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 13.0,
+    "days_since_last": 14.0,
     "avg_interval_days": 23.6,
     "total_releases": 5,
     "latest_tag": "v0.4.0"

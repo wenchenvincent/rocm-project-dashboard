@@ -1,358 +1,120 @@
 {
-  "collected_at": "2026-10-27T13:41:51Z",
+  "collected_at": "2026-10-28T14:37:09Z",
   "prs": [
     {
-      "number": 37976,
-      "title": "[Feat] trace: propagate per-request context to mooncake store RPC for end-to-end request tracing",
-      "author": "staugust",
+      "number": 47091,
+      "title": "[Fix] anthropic: Continue a trailing assistant message as a prefill",
+      "author": "Beiciccc",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-04T08:50:29Z",
-      "updated_at": "2026-10-27T13:41:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/37976",
+      "created_at": "2026-10-28T14:34:24Z",
+      "updated_at": "2026-10-28T14:35:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47091",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 44465,
+      "title": "[Perf] [AMD] dsv41: Drop the per-step whole-vocab gather of draft logits via sharded accept",
+      "author": "1am9trash",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T10:24:13Z",
+      "updated_at": "2026-10-28T14:35:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44465",
       "labels": [
-        "hicache",
+        "amd",
+        "deepseek",
         "run-ci",
-        "run-ci-extra",
-        "unified-radix-cache",
-        "mooncake"
+        "jit-kernel"
       ],
       "draft": false
     },
     {
-      "number": 41883,
-      "title": "[MLX] Release finished request state between prefill-only batches",
-      "author": "Li0k",
+      "number": 46921,
+      "title": "[Feat] [NPU] attention: Support modelslim MLA FP8 KVCache",
+      "author": "LinyuanLi0046",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-30T11:52:12Z",
-      "updated_at": "2026-10-27T13:41:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/41883",
+      "created_at": "2026-10-28T02:35:50Z",
+      "updated_at": "2026-10-28T14:34:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46921",
       "labels": [
-        "run-ci",
-        "apple-silicon"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45589,
-      "title": "[Fix] [NPU] tests: Prefetch the sgl_eval MMLU archive and pin the Mamba SSM dtype",
-      "author": "pllimax",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-21T10:39:20Z",
-      "updated_at": "2026-10-27T13:40:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45589",
-      "labels": [
-        "hicache",
+        "deepseek",
         "npu"
       ],
       "draft": false
     },
     {
-      "number": 34734,
-      "title": "[Feature][DSpark] Support Speculators-format checkpoints and ragged multimodal CUDA graphs",
-      "author": "qq1060",
+      "number": 47090,
+      "title": "[Diffusion] Pack Qwen-Image 2.1 BF16 gate/up projections on SM120",
+      "author": "BBuf",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-13T12:08:44Z",
-      "updated_at": "2026-10-27T13:40:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/34734",
-      "labels": [
-        "deepseek",
-        "speculative-decoding",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45876,
-      "title": "[Perf] DFLASH: route draft bf16 GEMMs through tuned dispatch on GB300",
-      "author": "wookjeHan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T19:18:01Z",
-      "updated_at": "2026-10-27T13:39:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45876",
-      "labels": [
-        "quant",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40825,
-      "title": "[Feat] [NPU] kimi-k3: Support DCP with shared compact communication",
-      "author": "qybnb",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-23T02:34:01Z",
-      "updated_at": "2026-10-27T13:38:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/40825",
+      "created_at": "2026-10-28T14:33:25Z",
+      "updated_at": "2026-10-28T14:34:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47090",
       "labels": [
         "documentation",
-        "deepseek",
-        "blackwell",
-        "npu",
-        "run-ci",
-        "jit-kernel",
-        "memory-pool"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40580,
-      "title": "[Feat] [NPU] attention: Add MindIE-SD EQBSA backend",
-      "author": "jonduan89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-21T13:14:14Z",
-      "updated_at": "2026-10-27T13:38:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/40580",
-      "labels": [
-        "npu",
         "diffusion"
       ],
-      "draft": false
+      "draft": true
     },
     {
-      "number": 46848,
-      "title": "[Fix] [Apple] mlx: Reject LoRA at startup",
-      "author": "ItsOdeLeo",
+      "number": 47035,
+      "title": "[Perf] [AMD] aiter: Speed up asm fp8 MLA prefill for 12-head and mixed-prefix batches",
+      "author": "yuychang",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-27T13:37:50Z",
-      "updated_at": "2026-10-27T13:38:44Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46848",
+      "created_at": "2026-10-28T08:57:40Z",
+      "updated_at": "2026-10-28T14:32:51Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47035",
       "labels": [
-        "apple-silicon"
+        "hicache"
       ],
       "draft": false
     },
     {
-      "number": 46594,
-      "title": "[Fix] kda: Honor state and replay dtype",
-      "author": "yhyang201",
+      "number": 46995,
+      "title": "[Feat] kv-indexer: Add shared DRAM pools for worker prefix matching",
+      "author": "wuyl1",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-26T12:20:13Z",
-      "updated_at": "2026-10-27T13:38:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46594",
-      "labels": [
-        "run-ci",
-        "jit-kernel",
-        "memory-pool"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46282,
-      "title": "[Feat] [NPU] moe: Add Ascend Ops backend for MoE prefill and decode",
-      "author": "chenxu214",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-24T09:38:16Z",
-      "updated_at": "2026-10-27T13:37:48Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46282",
-      "labels": [
-        "documentation",
-        "quant",
-        "deepseek",
-        "npu",
-        "run-ci",
-        "diffusion",
-        "bypass-fail-fast"
-      ],
-      "draft": false
-    },
-    {
-      "number": 44702,
-      "title": "[Feat] model-loader: Add model-aware checkpoint shard selection for Qwen MTP",
-      "author": "QwenApp",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T07:54:50Z",
-      "updated_at": "2026-10-27T13:37:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44702",
-      "labels": [
-        "documentation",
-        "dependencies",
-        "deepseek",
-        "run-ci",
-        "run-ci-extra"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46608,
-      "title": "[Perf] [AMD] moe: Add opt-in AITER MegaMoE-TP for eager TP MoE forwards",
-      "author": "eppaneamd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T15:10:37Z",
-      "updated_at": "2026-10-27T13:37:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46608",
+      "created_at": "2026-10-28T07:04:33Z",
+      "updated_at": "2026-10-28T14:32:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46995",
       "labels": [
         "documentation"
       ],
       "draft": true
     },
     {
-      "number": 39947,
-      "title": "[Feat] [NPU] DSpark: Support dsv4 dspark on ascend 950",
-      "author": "randgun",
+      "number": 44398,
+      "title": "[Test] [NPU] kimi_k3: enable L2 host HiCache for 32p gpqa accuracy test with host hit-rate bench",
+      "author": "EdwardXuy",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-17T09:30:53Z",
-      "updated_at": "2026-10-27T13:37:04Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/39947",
+      "created_at": "2026-10-15T04:02:57Z",
+      "updated_at": "2026-10-28T14:31:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44398",
       "labels": [
-        "deepseek",
-        "npu",
+        "npu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 33638,
+      "title": "[Test] elastic-ep: Register Mooncake recovery and scale CI coverage",
+      "author": "UNIDY2002",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-05T03:40:46Z",
+      "updated_at": "2026-10-28T14:31:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/33638",
+      "labels": [
+        "hicache",
         "run-ci",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45320,
-      "title": "[Perf] [AMD] kimi-k3/mla: Add an opt-in fp8-Q ASM route for short verify windows on gfx950",
-      "author": "yuychang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T05:26:10Z",
-      "updated_at": "2026-10-27T13:34:55Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45320",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46509,
-      "title": "[Feat] [CPU] kernel: add chunk_kda kernel for xeon cpu",
-      "author": "xinguozhu-2026",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T05:20:06Z",
-      "updated_at": "2026-10-27T13:34:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46509",
-      "labels": [
-        "sgl-kernel",
-        "jit-kernel",
-        "memory-pool"
-      ],
-      "draft": true
-    },
-    {
-      "number": 32602,
-      "title": "[Feat] [NPU] quantization: Support online W4A4 MoE",
-      "author": "TallMessiWu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T03:14:13Z",
-      "updated_at": "2026-10-27T13:32:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/32602",
-      "labels": [
-        "documentation",
-        "quant",
-        "npu",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 41794,
-      "title": "[Perf] [AMD] kimi-k3: Run the fused KDA decode with a BF16 state and Quark weights",
-      "author": "yuychang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T01:15:33Z",
-      "updated_at": "2026-10-27T13:31:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/41794",
-      "labels": [
-        "documentation",
-        "quant",
-        "amd",
-        "run-ci",
-        "jit-kernel",
-        "run-ci-extra"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45837,
-      "title": "[Fix] diffusion: LoRA adapter-state and merge-transition fixes",
-      "author": "OnePunchMonk",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T15:35:15Z",
-      "updated_at": "2026-10-27T13:30:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45837",
-      "labels": [
-        "lora",
-        "run-ci",
-        "diffusion"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46600,
-      "title": "[Fix] diffusion: HunyuanImage-3 MoE shared MLP and timestep schedule on CUDA",
-      "author": "OnePunchMonk",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T13:45:16Z",
-      "updated_at": "2026-10-27T13:30:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46600",
-      "labels": [
-        "run-ci",
-        "diffusion"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45833,
-      "title": "[Fix] diffusion: LoRA format alpha and rank scaling",
-      "author": "OnePunchMonk",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T15:18:48Z",
-      "updated_at": "2026-10-27T13:30:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45833",
-      "labels": [
-        "lora",
-        "run-ci",
-        "diffusion"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46601,
-      "title": "[Fix] diffusion: LingBot QKV sharing, causal RoPE on no-cache path, uneven split guard",
-      "author": "OnePunchMonk",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T13:54:24Z",
-      "updated_at": "2026-10-27T13:30:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46601",
-      "labels": [
-        "diffusion"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45834,
-      "title": "[Fix] diffusion: LoRA merge cache key identity and eviction",
-      "author": "OnePunchMonk",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T15:18:52Z",
-      "updated_at": "2026-10-27T13:30:02Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45834",
-      "labels": [
-        "lora",
-        "diffusion"
+        "mooncake"
       ],
       "draft": false
     },
@@ -363,7 +125,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-09T06:25:23Z",
-      "updated_at": "2026-10-27T13:24:03Z",
+      "updated_at": "2026-10-28T14:28:32Z",
       "html_url": "https://github.com/sgl-project/sglang/pull/43305",
       "labels": [
         "Multi-modal",
@@ -376,112 +138,140 @@
       "draft": false
     },
     {
-      "number": 46847,
-      "title": "serving_chat: repair a terminal turn that only produced thinking",
-      "author": "JUNQINGV587",
+      "number": 46868,
+      "title": "[Feat] minimax-m3.1: Support DSpark on Hopper",
+      "author": "ispobock",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-27T13:21:06Z",
-      "updated_at": "2026-10-27T13:22:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46847",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 46846,
-      "title": "[Feat] [AMD] mori: Overlap shared experts with MORI EPv2 AsyncLL dispatch under SBO",
-      "author": "ChengYM5685",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T13:17:56Z",
-      "updated_at": "2026-10-27T13:18:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46846",
+      "created_at": "2026-10-27T16:17:41Z",
+      "updated_at": "2026-10-28T14:27:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46868",
       "labels": [
-        "documentation",
-        "deepseek",
-        "jit-kernel"
+        "amd",
+        "run-ci"
       ],
-      "draft": true
-    },
-    {
-      "number": 45302,
-      "title": "[Fix] [NPU] Correct DSA Models Sparse offload index-cache budgeting",
-      "author": "JinyanYi",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T03:23:32Z",
-      "updated_at": "2026-10-27T13:17:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45302",
-      "labels": [],
       "draft": false
     },
     {
-      "number": 44660,
-      "title": "[Feat] [AMD] kv-shard: Support KV cache sharding with aiter and MoRI",
-      "author": "AMD-yanfeiwang",
+      "number": 45434,
+      "title": "[Feat] cp: Add KV layout hooks and padded storage accounting",
+      "author": "ZYHowell",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-16T04:25:29Z",
-      "updated_at": "2026-10-27T13:16:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44660",
+      "created_at": "2026-10-20T20:41:20Z",
+      "updated_at": "2026-10-28T14:26:30Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/45434",
       "labels": [
         "documentation",
-        "amd",
-        "hicache",
+        "run-ci",
         "unified-radix-cache"
       ],
-      "draft": true
+      "draft": false
     },
     {
-      "number": 46839,
-      "title": "fix(gdn): honour the fp32 radix track snapshot in Triton extend",
-      "author": "Woody-Hu",
+      "number": 44967,
+      "title": "[Test][NPU] kimi_k3: aisbench cold-prefill perf trial (16k in / 1 out) on 4-node mix",
+      "author": "EdwardXuy",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-27T12:34:10Z",
-      "updated_at": "2026-10-27T13:16:52Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46839",
+      "created_at": "2026-10-18T06:57:27Z",
+      "updated_at": "2026-10-28T14:24:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44967",
       "labels": [
+        "npu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 47088,
+      "title": "[Perf] [NPU] allocator: Avoid device synchronization in alloc_extend",
+      "author": "lengthXheight",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:19:14Z",
+      "updated_at": "2026-10-28T14:22:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47088",
+      "labels": [
+        "npu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 44047,
+      "title": "[Fix] openai: Validate sampling bounds and preserve chat output limits",
+      "author": "TheDuyIT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T11:54:43Z",
+      "updated_at": "2026-10-28T14:21:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44047",
+      "labels": [
+        "documentation",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 40585,
+      "title": "[Fix] [AMD] kernels: Repair fused diffusion QK-norm JIT kernels",
+      "author": "avjves",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-21T13:39:03Z",
+      "updated_at": "2026-10-28T14:19:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/40585",
+      "labels": [
+        "run-ci",
+        "diffusion",
         "jit-kernel"
       ],
       "draft": false
     },
     {
-      "number": 46844,
-      "title": "[CI] [NPU] precise-test: skip suites that register no PR test",
-      "author": "shun8686",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-27T13:00:25Z",
-      "updated_at": "2026-10-27T13:16:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46844",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 30926,
-      "title": "fix(rocm): don't attempt CUDA IPC handle creation on ROCm tensors; document the pitfall",
-      "author": "mycomputercrashsalot",
+      "number": 46834,
+      "title": "[Feat] [MUSA] fa3: Add the full backend implementation",
+      "author": "froststeam",
       "state": "open",
       "merged": false,
-      "created_at": "2026-07-12T09:34:08Z",
-      "updated_at": "2026-10-27T13:16:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/30926",
+      "created_at": "2026-10-27T11:45:13Z",
+      "updated_at": "2026-10-28T14:17:41Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46834",
       "labels": [
-        "documentation"
+        "hicache",
+        "mthreads",
+        "jit-kernel"
       ],
       "draft": false
     },
     {
-      "number": 46845,
-      "title": "[Fix] flashinfer: convert base-2 LSE to natural log in _safe_merge_state Triton fallback",
-      "author": "saitarrun",
+      "number": 43466,
+      "title": "[Fix] hicache: Preserve device coverage for admission-time prefetch recovery",
+      "author": "alphabetc1",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-27T13:13:31Z",
-      "updated_at": "2026-10-27T13:14:29Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46845",
-      "labels": [],
+      "created_at": "2026-10-10T01:52:45Z",
+      "updated_at": "2026-10-28T14:17:02Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/43466",
+      "labels": [
+        "hicache",
+        "run-ci",
+        "unified-radix-cache"
+      ],
+      "draft": false
+    },
+    {
+      "number": 44651,
+      "title": "[CI] diffusion: replace FLUX.1/2 nightlies and add FLUX.3 TP2 e2e",
+      "author": "mickqian",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T03:33:29Z",
+      "updated_at": "2026-10-28T14:16:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44651",
+      "labels": [
+        "run-ci",
+        "diffusion"
+      ],
       "draft": false
     },
     {
@@ -491,7 +281,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-27T12:40:37Z",
-      "updated_at": "2026-10-27T12:41:31Z",
+      "updated_at": "2026-10-28T14:15:55Z",
       "html_url": "https://github.com/sgl-project/sglang/pull/46840",
       "labels": [
         "jit-kernel"
@@ -499,74 +289,395 @@
       "draft": false
     },
     {
-      "number": 42978,
-      "title": "[Feat] [NPU] dsa: Token shard, every head for this rank's slice of the tokens (2/2)",
-      "author": "TamirBaydasov",
+      "number": 44718,
+      "title": "[Feat] [AMD] mamba: Store hicache checkpoints without a GPU slot",
+      "author": "chien-an-chen",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-07T14:21:38Z",
-      "updated_at": "2026-10-27T12:40:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/42978",
+      "created_at": "2026-10-16T08:51:13Z",
+      "updated_at": "2026-10-28T14:15:33Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44718",
       "labels": [
-        "documentation",
-        "deepseek",
-        "npu",
+        "amd",
+        "hicache",
+        "run-ci",
+        "jit-kernel",
+        "run-ci-extra",
+        "unified-radix-cache",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 47078,
+      "title": "[Fix] ci: Repair main after the #39728/#46990 merge race and RUSTSEC-2026-0414",
+      "author": "ShangmingCai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T12:54:43Z",
+      "updated_at": "2026-10-28T14:15:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47078",
+      "labels": [
+        "dependencies",
+        "hicache",
         "run-ci"
       ],
       "draft": false
     },
     {
-      "number": 44725,
-      "title": "[Fix] minimax_h3: Support out-of-tree platforms",
-      "author": "labAxiaoming",
+      "number": 41879,
+      "title": "[Perf] [AMD] Qwen3.5/Qwen3.8: Opt-in AITER FlyDSL causal conv1d prefill and GDN decode",
+      "author": "amd-nprotaso",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-16T09:14:54Z",
-      "updated_at": "2026-10-27T12:35:04Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44725",
+      "created_at": "2026-09-30T10:50:27Z",
+      "updated_at": "2026-10-28T14:13:42Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/41879",
       "labels": [
+        "amd",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46703,
+      "title": "[CI] [AMD] install: Cache the AOT kernel wheel and stop wiping venv bytecode",
+      "author": "michaelzhang-ai",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-27T01:04:41Z",
+      "updated_at": "2026-10-28T14:12:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46703",
+      "labels": [
+        "amd",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 44438,
+      "title": "[Fix] deterministic: Validate the per-phase attention backends",
+      "author": "aarnetalman",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T07:21:27Z",
+      "updated_at": "2026-10-28T14:12:12Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44438",
+      "labels": [
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 47086,
+      "title": "Pass through canary info when the KV-canary is enabled",
+      "author": "fzyzcjy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:07:37Z",
+      "updated_at": "2026-10-28T14:11:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47086",
+      "labels": [
+        "jit-kernel"
+      ],
+      "draft": false
+    },
+    {
+      "number": 43788,
+      "title": "[Fix] [AMD] deterministic: Bypass AITER GEMM and MoE in deterministic mode on gfx950",
+      "author": "aarnetalman",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T07:06:40Z",
+      "updated_at": "2026-10-28T14:11:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/43788",
+      "labels": [
+        "quant",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 47087,
+      "title": "Hash raw received weights by name in check_weights",
+      "author": "fzyzcjy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:07:41Z",
+      "updated_at": "2026-10-28T14:11:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47087",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 47085,
+      "title": "Report prompt KV weight versions in generation metadata",
+      "author": "fzyzcjy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:07:12Z",
+      "updated_at": "2026-10-28T14:10:48Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47085",
+      "labels": [
+        "documentation",
+        "apple-silicon"
+      ],
+      "draft": false
+    },
+    {
+      "number": 47084,
+      "title": "Register the batch-invariant matmul fallback flag in Envs",
+      "author": "fzyzcjy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:07:08Z",
+      "updated_at": "2026-10-28T14:09:57Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47084",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 46062,
+      "title": "[Perf] [NVIDIA] deepseek-v4.1: Zero the MegaAttention packed query once per forward, not per layer",
+      "author": "akhilg-nv",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T13:44:34Z",
+      "updated_at": "2026-10-28T14:09:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46062",
+      "labels": [
+        "deepseek",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 44455,
+      "title": "[Perf] [AMD] lm_head: Use aiter tgemm for the bf16 lm_head on gfx1250",
+      "author": "jiaryang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T09:50:29Z",
+      "updated_at": "2026-10-28T14:07:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44455",
+      "labels": [
+        "amd",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 47083,
+      "title": "[Fix] speculative: Preserve NaN argmax semantics in verify kernels",
+      "author": "mlleo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T13:38:26Z",
+      "updated_at": "2026-10-28T13:56:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47083",
+      "labels": [
+        "jit-kernel"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41639,
+      "title": "[Feat] [AMD] moe: Add native GLM MXFP4 Triton Gluon backend",
+      "author": "jiejingzhangamd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T06:05:09Z",
+      "updated_at": "2026-10-28T13:54:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/41639",
+      "labels": [
+        "quant",
+        "amd",
+        "deepseek",
+        "run-ci",
+        "run-ci-extra"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46963,
+      "title": "[Feat] rust-server: Report the scheduler's per-request stats in native /generate meta_info",
+      "author": "metamergebot",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T06:07:39Z",
+      "updated_at": "2026-10-28T13:42:33Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46963",
+      "labels": [
+        "run-ci",
+        "bypass-fail-fast"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46961,
+      "title": "[Feat] rust-server: Report cached tokens by cache tier in native /generate meta_info",
+      "author": "metamergebot",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T06:00:30Z",
+      "updated_at": "2026-10-28T13:42:14Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46961",
+      "labels": [
+        "run-ci",
+        "bypass-fail-fast"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46325,
+      "title": "[Perf] [AMD] deterministic: Use a fixed-order two-stage all-reduce for large inputs",
+      "author": "aarnetalman",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-24T19:13:18Z",
+      "updated_at": "2026-10-28T13:35:10Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46325",
+      "labels": [
+        "amd",
+        "sgl-kernel",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38806,
+      "title": "[Perf] [AMD] gdn: Optimize Qwen3.5 prefill preparation and Triton recurrence",
+      "author": "chuyeh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-10T06:28:39Z",
+      "updated_at": "2026-10-28T13:02:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/38806",
+      "labels": [
+        "run-ci",
+        "jit-kernel"
+      ],
+      "draft": false
+    },
+    {
+      "number": 45314,
+      "title": "[Refactor] [AMD] kimi-k3: Rename the ROCm K3 env vars and read them through Envs",
+      "author": "yuychang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T04:38:15Z",
+      "updated_at": "2026-10-28T13:00:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/45314",
+      "labels": [
+        "documentation",
+        "amd",
+        "run-ci",
+        "jit-kernel",
+        "run-ci-extra"
+      ],
+      "draft": false
+    },
+    {
+      "number": 47079,
+      "title": "[Fix] dsv4.1: Route image tokens with the VL bias on all-to-all MoE backends",
+      "author": "FeSens",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T12:58:40Z",
+      "updated_at": "2026-10-28T12:59:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47079",
+      "labels": [
+        "deepseek",
+        "npu"
+      ],
+      "draft": true
+    },
+    {
+      "number": 46945,
+      "title": "[Fix] [AMD] QSA: Fit the relative prefill indexer kernel in gfx942 LDS",
+      "author": "michaelzhang-ai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T05:22:30Z",
+      "updated_at": "2026-10-28T12:58:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46945",
+      "labels": [
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 45196,
+      "title": "[Perf] [AMD] Qwen3.8: Serve QSA decode with AITER's fused FlyDSL sparse decode on gfx950",
+      "author": "amd-nprotaso",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T15:16:30Z",
+      "updated_at": "2026-10-28T12:57:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/45196",
+      "labels": [
+        "amd",
+        "run-ci",
+        "amd-aiter-not-ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 47016,
+      "title": "[Fix] rust-server: Read skip_special_tokens on the OpenAI routes and pin per-request detokenization",
+      "author": "metamergebot",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T07:49:21Z",
+      "updated_at": "2026-10-28T12:57:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47016",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 46946,
+      "title": "[Feat] rust-server: Let a multimodal processor observe the final result before scheduling",
+      "author": "metamergebot",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T05:30:06Z",
+      "updated_at": "2026-10-28T12:51:04Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46946",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 41532,
+      "title": "[Feat] [XPU] quant: Add MXFP8 W8A8 compressed-tensors",
+      "author": "polisettyvarma",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-28T08:21:48Z",
+      "updated_at": "2026-10-28T12:38:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/41532",
+      "labels": [
+        "intel",
+        "xpu",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 35151,
+      "title": "[Feat] [AMD] diffusion: Add quantized attention backends for GFX942/GFX950",
+      "author": "avjves",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T11:36:28Z",
+      "updated_at": "2026-10-28T12:29:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/35151",
+      "labels": [
+        "documentation",
+        "quant",
+        "amd",
         "run-ci",
         "diffusion"
       ],
-      "draft": false
-    },
-    {
-      "number": 45678,
-      "title": "[Fix] disaggregation: Avoid extra GPU contexts with PD",
-      "author": "trevor-m",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-21T22:46:40Z",
-      "updated_at": "2026-10-27T12:19:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45678",
-      "labels": [
-        "run-ci",
-        "mooncake"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46822,
-      "title": "[Fix] [AMD] dsa: Skip the indexer on eager idle ranks",
-      "author": "dorado269",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T10:58:43Z",
-      "updated_at": "2026-10-27T12:12:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46822",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 45484,
-      "title": "[Fix] [AMD] offloader: keep is_shuffled on device copies of offloaded weights",
-      "author": "dorado269",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-21T02:46:05Z",
-      "updated_at": "2026-10-27T12:11:55Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45484",
-      "labels": [],
       "draft": false
     },
     {
@@ -576,7 +687,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-27T08:25:20Z",
-      "updated_at": "2026-10-27T12:09:56Z",
+      "updated_at": "2026-10-28T12:25:40Z",
       "html_url": "https://github.com/sgl-project/sglang/pull/36652",
       "labels": [
         "documentation",
@@ -589,107 +700,406 @@
       "draft": false
     },
     {
-      "number": 41532,
-      "title": "[Feat] [XPU] quant: Add MXFP8 W8A8 compressed-tensors",
-      "author": "polisettyvarma",
+      "number": 41880,
+      "title": "[Perf] [AMD] Qwen3.8: AITER FlyDSL hc_mix for Qwen3.8 hyper-connections on gfx950",
+      "author": "amd-nprotaso",
       "state": "open",
       "merged": false,
-      "created_at": "2026-09-28T08:21:48Z",
-      "updated_at": "2026-10-27T12:07:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/41532",
+      "created_at": "2026-09-30T10:53:29Z",
+      "updated_at": "2026-10-28T12:18:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/41880",
       "labels": [
-        "intel",
-        "xpu",
-        "run-ci"
+        "amd",
+        "run-ci",
+        "amd-aiter-not-ready"
       ],
       "draft": false
     },
     {
-      "number": 46110,
-      "title": "[Perf] diffusion: Cut LTX-2.3 per-block elementwise work (contiguous AdaLN values, gate-folded masks, vectorized head gate)",
-      "author": "mickqian",
+      "number": 47071,
+      "title": "[Fix] mem_cache: support prefix commits in unified MHA views",
+      "author": "ch-wan",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-10-23T16:15:45Z",
-      "updated_at": "2026-10-27T12:04:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46110",
+      "created_at": "2026-10-28T12:16:53Z",
+      "updated_at": "2026-10-28T12:17:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47071",
       "labels": [
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46789,
+      "title": "[Test] KVShard: Extend HiCache E2E with GLM accuracy coverage",
+      "author": "HZY-Wade",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-27T08:41:40Z",
+      "updated_at": "2026-10-28T12:07:30Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46789",
+      "labels": [
+        "documentation",
+        "hicache"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46991,
+      "title": "[Refactor] cache: Build prefix-tree components from storage slots",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:43:17Z",
+      "updated_at": "2026-10-28T12:05:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46991",
+      "labels": [
+        "hicache",
         "run-ci",
         "diffusion",
-        "jit-kernel"
+        "apple-silicon",
+        "run-ci-extra",
+        "unified-radix-cache",
+        "bypass-fail-fast",
+        "parallel-stages",
+        "max-concurrency"
       ],
       "draft": false
     },
     {
-      "number": 46835,
-      "title": "[Perf] dsv4: Skip the copy when the page-index table is already aligned",
-      "author": "akhilg-nv",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T11:55:20Z",
-      "updated_at": "2026-10-27T11:56:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46835",
-      "labels": [
-        "deepseek",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46807,
-      "title": "[Doc] cookbook: Refresh SemiAnalysis AgentX launches with DeepSeek-V4 B200 DSpark6 disagg and Muse Spark GB300 points",
-      "author": "nvpohanh",
+      "number": 46990,
+      "title": "[Refactor] attention: Use typed KV views and shared layer routing",
+      "author": "ch-wan",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-10-27T09:18:01Z",
-      "updated_at": "2026-10-27T11:53:32Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46807",
+      "created_at": "2026-10-28T06:43:13Z",
+      "updated_at": "2026-10-28T12:05:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46990",
       "labels": [
-        "documentation",
-        "deepseek"
+        "amd",
+        "deepseek",
+        "speculative-decoding",
+        "hicache",
+        "blackwell",
+        "jit-kernel",
+        "memory-pool"
       ],
       "draft": false
     },
     {
-      "number": 46736,
-      "title": "[Doc] [NPU] docs: update npu docs and fix some issues",
-      "author": "amote-i",
+      "number": 46989,
+      "title": "[Refactor] kv-cache: Share storage interfaces across runtime consumers",
+      "author": "ch-wan",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-10-27T03:47:02Z",
-      "updated_at": "2026-10-27T11:52:57Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46736",
+      "created_at": "2026-10-28T06:43:09Z",
+      "updated_at": "2026-10-28T12:04:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46989",
       "labels": [
-        "documentation",
-        "deepseek"
+        "hicache",
+        "npu"
       ],
       "draft": false
     },
     {
-      "number": 46023,
-      "title": "[Perf] [NVIDIA] deepseek_v4: Route 8-group wo_a prefill and single-token decode to the strided bmm",
-      "author": "akhilg-nv",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T08:57:45Z",
-      "updated_at": "2026-10-27T11:45:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46023",
+      "number": 46988,
+      "title": "[Refactor] kv-cache: Centralize request rows and allocation lifecycle",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:43:06Z",
+      "updated_at": "2026-10-28T12:03:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46988",
       "labels": [
-        "deepseek",
-        "run-ci"
+        "hicache",
+        "apple-silicon",
+        "unified-radix-cache",
+        "memory-pool"
       ],
       "draft": false
     },
     {
-      "number": 46587,
-      "title": "[Fix] [AMD] MiniMax-M3.1-Flash-Quark-Mxfp4: requantize the FP8 shared expert so fusion can load",
-      "author": "tnguyeng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T11:47:08Z",
-      "updated_at": "2026-10-27T11:36:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46587",
+      "number": 46987,
+      "title": "[Refactor] kv-cache: Separate byte storage from allocation identities",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:42:52Z",
+      "updated_at": "2026-10-28T12:03:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46987",
+      "labels": [
+        "hicache",
+        "blackwell",
+        "unified-radix-cache",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46986,
+      "title": "[Refactor] mem-cache: Bind fused drafts to routed KV views",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:42:48Z",
+      "updated_at": "2026-10-28T12:02:57Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46986",
+      "labels": [
+        "hicache",
+        "blackwell",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46985,
+      "title": "[Refactor] mem-cache: Track transfer pins at allocator boundaries",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:42:44Z",
+      "updated_at": "2026-10-28T12:02:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46985",
+      "labels": [
+        "hicache",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46984,
+      "title": "[Refactor] mem-cache: Replace unified pool variants with a routed cache",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:42:41Z",
+      "updated_at": "2026-10-28T12:02:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46984",
+      "labels": [
+        "hicache",
+        "blackwell",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46983,
+      "title": "[Fix] [AMD] attention: Avoid fused writes to translated window storage",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:42:36Z",
+      "updated_at": "2026-10-28T12:01:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46983",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 46982,
+      "title": "[Refactor] mem-cache: Build cache transfers from storage plans",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:42:32Z",
+      "updated_at": "2026-10-28T12:01:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46982",
+      "labels": [
+        "hicache",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46981,
+      "title": "[Fix] hicache: Build hybrid recurrent host pools consistently",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:42:03Z",
+      "updated_at": "2026-10-28T12:00:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46981",
+      "labels": [
+        "hicache"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46980,
+      "title": "[Refactor] mem-cache: Centralize recurrent state ownership and access",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:41:59Z",
+      "updated_at": "2026-10-28T12:00:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46980",
+      "labels": [
+        "hicache",
+        "npu",
+        "apple-silicon",
+        "unified-radix-cache",
+        "memory-pool",
+        "mooncake"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46979,
+      "title": "[Refactor] mem-cache: Route layer access through KV subpool views",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:41:53Z",
+      "updated_at": "2026-10-28T11:59:47Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46979",
+      "labels": [
+        "deepseek",
+        "hicache",
+        "blackwell",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46978,
+      "title": "[Refactor] mem-cache: Describe KV address translation with ID spaces",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:41:49Z",
+      "updated_at": "2026-10-28T11:59:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46978",
+      "labels": [
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46977,
+      "title": "[Refactor] mem_cache: Centralize unified KV capacity pricing and admission",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:41:45Z",
+      "updated_at": "2026-10-28T11:58:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46977",
+      "labels": [
+        "hicache",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46976,
+      "title": "[Refactor] mem_cache: Use one allocator for unified KV sub-pools",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:41:41Z",
+      "updated_at": "2026-10-28T11:58:32Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46976",
+      "labels": [
+        "hicache",
+        "unified-radix-cache",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46975,
+      "title": "[Fix] mem_cache: Forward HiCache completion events to recurrent state",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:39:16Z",
+      "updated_at": "2026-10-28T11:57:31Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46975",
+      "labels": [
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46974,
+      "title": "[Refactor] mem_cache: Build unified KV pools from layer declarations",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:39:13Z",
+      "updated_at": "2026-10-28T11:55:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46974",
+      "labels": [
+        "hicache",
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46973,
+      "title": "[Refactor] mem_cache: Separate unified KV layout specifications",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:39:09Z",
+      "updated_at": "2026-10-28T11:54:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46973",
+      "labels": [
+        "memory-pool"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46181,
+      "title": "[Feat] rust-server: Fan control requests out to every DP rank",
+      "author": "rainj-me",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-24T00:03:18Z",
+      "updated_at": "2026-10-28T11:53:44Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46181",
+      "labels": [
+        "dependencies",
+        "hicache",
+        "run-ci",
+        "highest-priority"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41683,
+      "title": "[Perf] [AMD] qwen3_5: use strided GDN prefill projection views on HIP",
+      "author": "sushildubey171",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T12:11:29Z",
+      "updated_at": "2026-10-28T11:53:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/41683",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 46972,
+      "title": "[Fix] mem_cache: Reject unsupported int8 checkpoints with unified memory",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:39:05Z",
+      "updated_at": "2026-10-28T11:52:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46972",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 46971,
+      "title": "[Fix] mem_cache: Preserve convolution slice axis in unified hybrid pools",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:39:01Z",
+      "updated_at": "2026-10-28T11:52:12Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46971",
+      "labels": [
+        "memory-pool"
+      ],
       "draft": false
     },
     {
@@ -699,7 +1109,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-15T13:30:55Z",
-      "updated_at": "2026-10-27T11:31:57Z",
+      "updated_at": "2026-10-28T11:52:01Z",
       "html_url": "https://github.com/sgl-project/sglang/pull/44492",
       "labels": [
         "documentation",
@@ -711,119 +1121,148 @@
       "draft": false
     },
     {
-      "number": 46497,
-      "title": "[Perf] eplb: Fuse expert-count recording into one kernel on CUDA decode graphs",
-      "author": "weireweire",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T02:50:42Z",
-      "updated_at": "2026-10-27T11:29:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46497",
-      "labels": [],
+      "number": 46970,
+      "title": "[Test] mem_cache: Add unified KV layout and allocator regression coverage",
+      "author": "ch-wan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T06:38:31Z",
+      "updated_at": "2026-10-28T11:50:02Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46970",
+      "labels": [
+        "hicache"
+      ],
       "draft": false
     },
     {
-      "number": 44031,
-      "title": "[Feat] [AMD] DeepSeek-V4.1: FP8 unified KV for the ratio-1/2 layers, with DSpark, PD and the UMBP linker",
-      "author": "ChangLi811",
+      "number": 46805,
+      "title": "[Perf] [NPU] dsv4: drop host-syncing ops from the decode scheduler chain (aclnnNonzeroV2 + D2H)",
+      "author": "iridiumine",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-27T09:14:04Z",
+      "updated_at": "2026-10-28T11:28:24Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46805",
+      "labels": [
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46023,
+      "title": "[Perf] [NVIDIA] deepseek_v4: Route 4- and 8-group wo_a prefill and single-token decode to the strided bmm",
+      "author": "akhilg-nv",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-13T09:14:58Z",
-      "updated_at": "2026-10-27T11:28:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44031",
+      "created_at": "2026-10-23T08:57:45Z",
+      "updated_at": "2026-10-28T11:24:59Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46023",
       "labels": [
         "deepseek",
-        "hicache",
-        "run-ci",
-        "jit-kernel",
-        "memory-pool",
-        "mooncake"
+        "run-ci"
       ],
       "draft": false
     },
     {
-      "number": 45735,
-      "title": "[CI] slash-command: Drive opt-in CI tiers from a registry",
-      "author": "AgainstEntropy",
+      "number": 46916,
+      "title": "[Fix] diffusion/ci: Keep final failure reasons at the end of shard logs",
+      "author": "mickqian",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-10-22T04:17:50Z",
-      "updated_at": "2026-10-27T11:23:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45735",
+      "created_at": "2026-10-28T02:09:56Z",
+      "updated_at": "2026-10-28T11:00:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46916",
       "labels": [
-        "documentation",
+        "run-ci",
+        "diffusion"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46861,
+      "title": "[Fix] [AMD] memory_pool: Keep K and V in separate allocations on ROCm",
+      "author": "omirosh",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-27T15:47:12Z",
+      "updated_at": "2026-10-28T10:06:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46861",
+      "labels": [
         "amd",
-        "npu",
         "run-ci",
-        "mthreads",
-        "apple-silicon",
-        "run-ci-extra",
-        "parallel-stages",
-        "max-concurrency",
-        "highest-priority"
+        "memory-pool"
       ],
       "draft": false
     },
     {
-      "number": 46058,
-      "title": "[Perf] [AMD] vision: Batch ViT across requests on ROCm when the DP encoder is enabled",
-      "author": "vorapolsiloai",
+      "number": 46723,
+      "title": "[Perf] [AMD] diffusion: Replace the gfx1250 bf16 scale-shift torch fallback with a bit-exact Triton kernel",
+      "author": "yichiche",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-23T13:22:11Z",
-      "updated_at": "2026-10-27T11:21:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46058",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 45576,
-      "title": "[Perf] [AMD] rccl: upgrade rccl to 2.32.3 for rocm10.1",
-      "author": "yctseng0211",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-21T09:37:49Z",
-      "updated_at": "2026-10-27T11:18:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45576",
+      "created_at": "2026-10-27T02:37:15Z",
+      "updated_at": "2026-10-28T10:03:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46723",
       "labels": [
-        "amd"
+        "run-ci",
+        "jit-kernel"
       ],
       "draft": false
     },
     {
-      "number": 46592,
-      "title": "[Fix] eplb: Warm default-group P2P transports on multi-node layouts",
-      "author": "weireweire",
+      "number": 46722,
+      "title": "[Perf] [AMD] diffusion: Optimize the Wan VAE decode for gfx1250",
+      "author": "yichiche",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-26T12:14:34Z",
-      "updated_at": "2026-10-27T11:18:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46592",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 46826,
-      "title": "[Feat] [AMD] disaggregation: Allow DSA DCP decode behind DCP1 prefill",
-      "author": "dorado269",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T11:06:24Z",
-      "updated_at": "2026-10-27T11:13:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46826",
+      "created_at": "2026-10-27T02:37:12Z",
+      "updated_at": "2026-10-28T10:00:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46722",
       "labels": [
-        "deepseek"
+        "amd",
+        "run-ci",
+        "diffusion"
       ],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 47052,
+      "title": "[Perf] [AMD] qwen3: Fuse prefill QK-norm + RoPE on ROCm with the JIT qknorm_rope kernel",
+      "author": "fengshaoyi-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T09:58:15Z",
+      "updated_at": "2026-10-28T09:59:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47052",
+      "labels": [
+        "jit-kernel"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46808,
+      "title": "[Perf] [AMD] spec: Sort-free top-p and many-row softmax for HIP verify",
+      "author": "Jacob0226",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T09:26:40Z",
+      "updated_at": "2026-10-28T09:57:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46808",
+      "labels": [
+        "amd",
+        "run-ci",
+        "jit-kernel"
+      ],
+      "draft": false
     },
     {
       "number": 44322,
       "title": "[Feat] [AMD] dsa: Enable DCP on the triton sparse-MLA backend",
       "author": "EricKing626",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-10-14T17:33:33Z",
-      "updated_at": "2026-10-27T11:11:45Z",
+      "updated_at": "2026-10-28T09:45:45Z",
       "html_url": "https://github.com/sgl-project/sglang/pull/44322",
       "labels": [
         "amd",
@@ -835,155 +1274,17 @@
       "draft": false
     },
     {
-      "number": 42618,
-      "title": "[ROCm] Support decode context parallel (DCP) for GLM-5 / DeepSeek-V3.2",
-      "author": "EricKing626",
+      "number": 44265,
+      "title": "[Feat] [AMD] dsv4: Dispatch Mega-mHC prefill to aiter on gfx950",
+      "author": "stahtine",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-05T17:37:09Z",
-      "updated_at": "2026-10-27T11:11:44Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/42618",
-      "labels": [
-        "amd",
-        "deepseek",
-        "hicache",
-        "run-ci",
-        "jit-kernel",
-        "memory-pool"
-      ],
-      "draft": false
-    },
-    {
-      "number": 43815,
-      "title": "[Perf] [AMD] fp8: Use the AITER CK blockscale GEMM by default on gfx942",
-      "author": "siliangchen-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-12T09:32:55Z",
-      "updated_at": "2026-10-27T10:58:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/43815",
+      "created_at": "2026-10-14T10:02:54Z",
+      "updated_at": "2026-10-28T09:23:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44265",
       "labels": [
         "documentation",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 43839,
-      "title": "[Perf] [AMD] qwen3_5: Quantize the BF16 GDN projections to MXFP4 online",
-      "author": "omirosh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T10:58:27Z",
-      "updated_at": "2026-10-27T10:57:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/43839",
-      "labels": [
-        "documentation",
-        "amd",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 33059,
-      "title": "[Fix] [AMD] dsa: Align Aiter paged rows with DP-attention metadata",
-      "author": "dorado269",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-31T10:35:26Z",
-      "updated_at": "2026-10-27T10:45:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/33059",
-      "labels": [
-        "run-ci"
-      ],
-      "draft": true
-    },
-    {
-      "number": 44888,
-      "title": "[Fix] diffusion: pipeline and model-helper bug fixes",
-      "author": "OnePunchMonk",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-17T11:00:07Z",
-      "updated_at": "2026-10-27T10:39:22Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44888",
-      "labels": [
-        "run-ci",
-        "diffusion"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46457,
-      "title": "[Perf] paged-experts: fuse slot lookup into decide",
-      "author": "N3mezis",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-25T18:38:58Z",
-      "updated_at": "2026-10-27T10:39:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46457",
-      "labels": [
-        "run-ci",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46733,
-      "title": "[Feat] [AMD] mori: add XGMI data plane for single-node PD",
-      "author": "bobofang11235",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T03:32:04Z",
-      "updated_at": "2026-10-27T10:38:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46733",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 44797,
-      "title": "[Fix] [AMD] moe/topk: Preserve fp32 bias across aiter routing paths",
-      "author": "Kylinny",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T21:42:54Z",
-      "updated_at": "2026-10-27T10:37:54Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44797",
-      "labels": [
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46325,
-      "title": "[Perf] [AMD] deterministic: Use a fixed-order two-stage all-reduce for large inputs",
-      "author": "aarnetalman",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-24T19:13:18Z",
-      "updated_at": "2026-10-27T10:31:24Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46325",
-      "labels": [
-        "amd",
-        "sgl-kernel",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45891,
-      "title": "[Perf] dsa: Run the packed prefill top-k on CUDA",
-      "author": "akhilg-nv",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T20:21:41Z",
-      "updated_at": "2026-10-27T09:42:23Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45891",
-      "labels": [
-        "run-ci",
-        "jit-kernel"
+        "deepseek"
       ],
       "draft": false
     },
@@ -991,10 +1292,10 @@
       "number": 41696,
       "title": "[Fix] [AMD] dsa: Limit AITER decode metadata to the active batch",
       "author": "pbkowalski",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-09-29T14:18:20Z",
-      "updated_at": "2026-10-27T09:40:13Z",
+      "updated_at": "2026-10-28T09:15:50Z",
       "html_url": "https://github.com/sgl-project/sglang/pull/41696",
       "labels": [
         "amd",
@@ -1006,10 +1307,10 @@
       "number": 46159,
       "title": "[Perf] batch-invariant: Fused residual add + RMSNorm kernel",
       "author": "aarnetalman",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-10-23T21:03:28Z",
-      "updated_at": "2026-10-27T09:34:26Z",
+      "updated_at": "2026-10-28T09:03:08Z",
       "html_url": "https://github.com/sgl-project/sglang/pull/46159",
       "labels": [
         "run-ci",
@@ -1018,57 +1319,60 @@
       "draft": false
     },
     {
-      "number": 44778,
-      "title": "[Fix] kda: Use raw beta in prefill CUDA graphs",
-      "author": "Hrithvik-Alex",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-16T18:00:40Z",
-      "updated_at": "2026-10-27T09:29:34Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44778",
-      "labels": [],
+      "number": 47036,
+      "title": "[Perf] [AMD] kda: Run gfx950 KDA prefill extend on AITER Gluon chunk_kda",
+      "author": "yuychang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T08:57:45Z",
+      "updated_at": "2026-10-28T08:59:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/47036",
+      "labels": [
+        "documentation",
+        "jit-kernel"
+      ],
       "draft": false
     },
     {
-      "number": 44124,
-      "title": "[Fix] qwen3_coder: Preserve structured values in qwen3_coder mixed unions",
-      "author": "rystewart-nvidia",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-13T20:55:55Z",
-      "updated_at": "2026-10-27T09:01:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44124",
+      "number": 41697,
+      "title": "[Perf] [AMD] dsa: Reuse AITER decode metadata across layers",
+      "author": "pbkowalski",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T14:18:33Z",
+      "updated_at": "2026-10-28T08:45:26Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/41697",
       "labels": [
+        "speculative-decoding",
         "run-ci"
       ],
       "draft": false
     },
     {
-      "number": 45858,
-      "title": "[Chore] [NVIDIA] docker: Update to torch 2.15rc1 in CUDA 13.4 container",
-      "author": "trevor-m",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-22T17:32:43Z",
-      "updated_at": "2026-10-27T08:52:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45858",
-      "labels": [],
+      "number": 46875,
+      "title": "[CI] [AMD] memory_pool: Keep separate K/V allocations on ROCm to fix Mooncake PD accuracy",
+      "author": "michaelzhang-ai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T17:57:55Z",
+      "updated_at": "2026-10-28T08:30:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46875",
+      "labels": [
+        "run-ci",
+        "memory-pool"
+      ],
       "draft": false
     },
     {
-      "number": 43128,
-      "title": "[Perf] [AMD] kimi-k3: Add opt-in MXFP4 latent MoE projections",
-      "author": "yuychang",
-      "state": "closed",
+      "number": 45891,
+      "title": "[Perf] dsa: Run the packed prefill top-k on CUDA",
+      "author": "akhilg-nv",
+      "state": "open",
       "merged": false,
-      "created_at": "2026-10-08T16:38:27Z",
-      "updated_at": "2026-10-27T08:50:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/43128",
+      "created_at": "2026-10-22T20:21:41Z",
+      "updated_at": "2026-10-28T08:07:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/45891",
       "labels": [
-        "documentation",
-        "quant",
-        "amd",
-        "npu",
         "run-ci",
         "jit-kernel",
         "run-ci-extra"
@@ -1076,44 +1380,190 @@
       "draft": false
     },
     {
-      "number": 46404,
-      "title": "[Fix] dspark: Draw the simulated-acceptance bonus at the simulated row",
-      "author": "weireweire",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-25T09:02:21Z",
-      "updated_at": "2026-10-27T08:48:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46404",
+      "number": 46999,
+      "title": "[Fix] [XPU] spec: Sample EAGLE verification on XPU instead of forcing argmax",
+      "author": "AgainstEntropy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T07:16:06Z",
+      "updated_at": "2026-10-28T08:01:45Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46999",
       "labels": [
         "jit-kernel"
       ],
       "draft": false
     },
     {
-      "number": 44081,
-      "title": "[Fix] PD: Skip the cached-prefix early send in batches that start a HiCache load-back",
-      "author": "mattteochen",
+      "number": 41916,
+      "title": "[Fix] sampling: Make top-k/top-p filtering consistent across sampling paths",
+      "author": "alvion427",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T17:10:50Z",
+      "updated_at": "2026-10-28T07:53:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/41916",
+      "labels": [
+        "quant",
+        "speculative-decoding",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46835,
+      "title": "[Perf] dsv4: Skip the copy when the page-index table is already aligned",
+      "author": "akhilg-nv",
       "state": "closed",
       "merged": true,
-      "created_at": "2026-10-13T14:59:45Z",
-      "updated_at": "2026-10-27T08:42:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44081",
+      "created_at": "2026-10-27T11:55:20Z",
+      "updated_at": "2026-10-28T05:06:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46835",
+      "labels": [
+        "deepseek",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 33916,
+      "title": "[Perf] [AMD] kimi-k3: Remove per-layer copies from the aiter MoE path",
+      "author": "RolaoDenthu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-07T00:15:11Z",
+      "updated_at": "2026-10-28T04:54:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/33916",
+      "labels": [
+        "amd",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46897,
+      "title": "[Fix] dsv4: Let the DSpark draft prep run without host lengths on every device",
+      "author": "hnyls2002",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-27T23:38:58Z",
+      "updated_at": "2026-10-28T01:02:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46897",
+      "labels": [
+        "deepseek",
+        "run-ci",
+        "jit-kernel"
+      ],
+      "draft": false
+    },
+    {
+      "number": 44292,
+      "title": "[Feat] [AMD] torch-profiler: Enable torch.profiler GPU tracing on torch 2.12 / ROCm 10.1",
+      "author": "yctseng0211",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-14T13:18:33Z",
+      "updated_at": "2026-10-28T00:41:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44292",
+      "labels": [
+        "run-ci",
+        "bypass-fail-fast"
+      ],
+      "draft": false
+    },
+    {
+      "number": 33250,
+      "title": "[Fix] deepseek-v4: Fix DeepSeek-V4 non-EP TBO for attention TP > 1",
+      "author": "mikekg",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-02T06:16:03Z",
+      "updated_at": "2026-10-27T23:54:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/33250",
+      "labels": [
+        "bug",
+        "amd",
+        "deepseek",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 44797,
+      "title": "[Fix] [AMD] moe/topk: Preserve fp32 bias across aiter routing paths",
+      "author": "Kylinny",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T21:42:54Z",
+      "updated_at": "2026-10-27T23:04:44Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44797",
       "labels": [
         "run-ci"
       ],
       "draft": false
     },
     {
-      "number": 46741,
-      "title": "[CI] [AMD] docker: Build MORI into the ROCm 10.1 gfx1250 image and fix its CI setup",
-      "author": "bingxche",
+      "number": 46497,
+      "title": "[Perf] eplb: Fuse expert-count recording into one kernel on CUDA decode graphs",
+      "author": "weireweire",
       "state": "closed",
-      "merged": false,
-      "created_at": "2026-10-27T04:12:57Z",
-      "updated_at": "2026-10-27T08:36:48Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46741",
+      "merged": true,
+      "created_at": "2026-10-26T02:50:42Z",
+      "updated_at": "2026-10-27T22:31:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46497",
       "labels": [
-        "amd"
+        "jit-kernel"
+      ],
+      "draft": false
+    },
+    {
+      "number": 43839,
+      "title": "[Perf] [AMD] qwen3_5: Quantize the BF16 GDN projections to MXFP4 online",
+      "author": "omirosh",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-12T10:58:27Z",
+      "updated_at": "2026-10-27T22:27:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/43839",
+      "labels": [
+        "documentation",
+        "amd",
+        "run-ci"
+      ],
+      "draft": false
+    },
+    {
+      "number": 46792,
+      "title": "[Refactor] bcg: Delete capture leftovers and rename `capture_stub` to `on_capture`",
+      "author": "hnyls2002",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-27T08:44:01Z",
+      "updated_at": "2026-10-27T22:07:50Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/46792",
+      "labels": [
+        "documentation",
+        "deepseek",
+        "run-ci",
+        "diffusion"
+      ],
+      "draft": false
+    },
+    {
+      "number": 44676,
+      "title": "[Feat] dflash: Serve SpecForge MLA drafts through the target MLA attention",
+      "author": "maocheng23",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-16T05:36:51Z",
+      "updated_at": "2026-10-27T19:14:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/pull/44676",
+      "labels": [
+        "deepseek",
+        "speculative-decoding",
+        "run-ci",
+        "jit-kernel",
+        "memory-pool",
+        "bypass-fail-fast"
       ],
       "draft": false
     },
@@ -1132,218 +1582,6 @@
       "draft": false
     },
     {
-      "number": 43121,
-      "title": "[Fix] [AMD] kimi-k3/rocm: Read HIP device memory when rocminfo prints no pool sizes",
-      "author": "yuychang",
-      "state": "closed",
-      "merged": false,
-      "created_at": "2026-10-08T16:37:52Z",
-      "updated_at": "2026-10-27T08:31:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/43121",
-      "labels": [
-        "amd"
-      ],
-      "draft": true
-    },
-    {
-      "number": 43132,
-      "title": "[Feat] [AMD] kimi-k3/kda: Add opt-in AITER FlashKDA prefill",
-      "author": "yuychang",
-      "state": "closed",
-      "merged": false,
-      "created_at": "2026-10-08T16:38:48Z",
-      "updated_at": "2026-10-27T08:31:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/43132",
-      "labels": [
-        "documentation",
-        "quant",
-        "amd",
-        "npu",
-        "jit-kernel"
-      ],
-      "draft": true
-    },
-    {
-      "number": 43131,
-      "title": "[Perf] [AMD] kimi-k3/mla: Use FlyDSL FP8 FMHA for MLA prefill on gfx950",
-      "author": "yuychang",
-      "state": "closed",
-      "merged": false,
-      "created_at": "2026-10-08T16:38:43Z",
-      "updated_at": "2026-10-27T08:31:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/43131",
-      "labels": [
-        "documentation",
-        "quant",
-        "amd",
-        "npu",
-        "jit-kernel"
-      ],
-      "draft": true
-    },
-    {
-      "number": 46309,
-      "title": "[Perf] deepep_v2: Reduce masked GEMM buffer memory during CUDA Graph capture",
-      "author": "Jzz1943",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-24T15:21:25Z",
-      "updated_at": "2026-10-27T08:30:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46309",
-      "labels": [
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46424,
-      "title": "[Fix] dsa: Preserve token-first sparse attention outputs",
-      "author": "Jzz1943",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-25T11:09:34Z",
-      "updated_at": "2026-10-27T08:29:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46424",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 46706,
-      "title": "[Fix] dsv4: Render null contents, trailing tool-call turns and numeric string efforts with deepseek-recipe",
-      "author": "hnyls2002",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-27T01:35:39Z",
-      "updated_at": "2026-10-27T07:59:44Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46706",
-      "labels": [
-        "deepseek",
-        "run-ci",
-        "rust-processor"
-      ],
-      "draft": false
-    },
-    {
-      "number": 44487,
-      "title": "[Fix] nemotron: Preserve nested Puzzle configs",
-      "author": "rystewart-nvidia",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-15T12:55:02Z",
-      "updated_at": "2026-10-27T07:57:36Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/44487",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 45877,
-      "title": "[CI] [AMD] test: Skip Mistral-7B and Mixtral-8x7B FP8 in nightly GSM8K eval",
-      "author": "michaelzhang-ai",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-22T19:22:03Z",
-      "updated_at": "2026-10-27T07:55:08Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45877",
-      "labels": [
-        "amd",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 42973,
-      "title": "[Feat] KVShard: Integrate GLM DSA/MTP with PD and CPU HiCache",
-      "author": "HZY-Wade",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-07T13:33:33Z",
-      "updated_at": "2026-10-27T07:55:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/42973",
-      "labels": [
-        "documentation",
-        "dependencies",
-        "deepseek",
-        "hicache",
-        "run-ci",
-        "diffusion",
-        "jit-kernel",
-        "run-ci-extra",
-        "unified-radix-cache",
-        "memory-pool",
-        "highest-priority",
-        "mooncake"
-      ],
-      "draft": false
-    },
-    {
-      "number": 42760,
-      "title": "[Fix] model_loader: Avoid unsafe pickle fallback when loading PyTorch checkpoints",
-      "author": "nguyendvk",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-06T12:23:27Z",
-      "updated_at": "2026-10-27T07:51:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/42760",
-      "labels": [
-        "deepseek",
-        "run-ci",
-        "diffusion"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46620,
-      "title": "[Fix] startup: remove TorchScript deprecations at their sources",
-      "author": "merrymercy",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-26T16:24:17Z",
-      "updated_at": "2026-10-27T07:39:49Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46620",
-      "labels": [
-        "dependencies",
-        "deepseek",
-        "npu",
-        "run-ci",
-        "run-ci-extra"
-      ],
-      "draft": false
-    },
-    {
-      "number": 32272,
-      "title": "[Perf] fmha_v2: use non-interleaved paged KV input for trtllm sm90/120 GQA prefill",
-      "author": "akhilg-nv",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-24T02:49:40Z",
-      "updated_at": "2026-10-27T07:35:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/32272",
-      "labels": [
-        "performance",
-        "blackwell",
-        "run-ci",
-        "memory-pool"
-      ],
-      "draft": false
-    },
-    {
-      "number": 33743,
-      "title": "[Fix] moe: Fix flashinfer TRT-LLM BF16 expert weight reload on refit",
-      "author": "Kh4L",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T18:52:04Z",
-      "updated_at": "2026-10-27T07:34:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/33743",
-      "labels": [
-        "bug",
-        "documentation",
-        "quant",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
       "number": 46366,
       "title": "[Perf] [AMD] diffusion: Route large BF16 linears to the FlyDSL a16w16 GEMM on gfx1250",
       "author": "yichiche",
@@ -1355,68 +1593,6 @@
       "labels": [
         "run-ci",
         "diffusion"
-      ],
-      "draft": false
-    },
-    {
-      "number": 31286,
-      "title": "[Refactor] HiCache: Remove unused field `CacheInitParams::cache_ttl_second`",
-      "author": "stepinto",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-15T06:18:19Z",
-      "updated_at": "2026-10-27T07:30:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/31286",
-      "labels": [
-        "run-ci",
-        "run-ci-extra"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46536,
-      "title": "[Fix] diffusion: Guard CUDA-only RoPE paths",
-      "author": "mickqian",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-26T07:24:40Z",
-      "updated_at": "2026-10-27T06:50:19Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46536",
-      "labels": [
-        "run-ci",
-        "diffusion"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46263,
-      "title": "[Perf] [NVIDIA] deepseek-v4.1: Default aggregated servers to MegaAttention only when each rank holds 64 query heads",
-      "author": "weireweire",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-24T07:05:41Z",
-      "updated_at": "2026-10-27T06:43:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46263",
-      "labels": [
-        "documentation",
-        "deepseek"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40467,
-      "title": "[Feat] hicache: Expose the Mooncake L3 object-key layout for external KV routers",
-      "author": "littledgg",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-20T14:25:40Z",
-      "updated_at": "2026-10-27T06:42:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/40467",
-      "labels": [
-        "documentation",
-        "hicache",
-        "run-ci",
-        "mooncake"
       ],
       "draft": false
     },
@@ -1506,23 +1682,6 @@
         "dependencies",
         "blackwell",
         "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 33250,
-      "title": "[Fix] deepseek-v4: Fix DeepSeek-V4 non-EP TBO for attention TP > 1",
-      "author": "mikekg",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-02T06:16:03Z",
-      "updated_at": "2026-10-26T11:34:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/33250",
-      "labels": [
-        "bug",
-        "amd",
-        "deepseek",
-        "run-ci"
       ],
       "draft": false
     },
@@ -1656,228 +1815,6 @@
         "speculative-decoding",
         "jit-kernel",
         "bypass-fail-fast"
-      ],
-      "draft": false
-    },
-    {
-      "number": 46151,
-      "title": "[Fix] [AMD] dsv4.1: Fix decode graph capture with quantized low-ratio activations",
-      "author": "kevin-mii",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-23T18:56:17Z",
-      "updated_at": "2026-10-24T03:55:14Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/46151",
-      "labels": [
-        "deepseek",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45728,
-      "title": "[Test] [AMD] deepseek-v4.1: Give the encoder-replay test's request window a zero_row",
-      "author": "michaelzhang-ai",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-22T03:44:15Z",
-      "updated_at": "2026-10-23T15:17:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45728",
-      "labels": [
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45941,
-      "title": "[Perf] dsv4: Replay the V4.1 prefill graph past 16K contexts on SM90",
-      "author": "hnyls2002",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-23T02:21:22Z",
-      "updated_at": "2026-10-23T06:47:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45941",
-      "labels": [
-        "deepseek",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 41401,
-      "title": "[Perf] [XPU] diffusion: Use the AOT SYCL fused residual-norm-scale-shift kernel",
-      "author": "ckvermaAI",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-27T07:45:47Z",
-      "updated_at": "2026-10-23T06:32:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/41401",
-      "labels": [
-        "intel",
-        "xpu",
-        "run-ci",
-        "diffusion",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45893,
-      "title": "[Perf] dsv41: Serve token-interleaved V4.1 KV caches with sgl-flash-mla",
-      "author": "DarkSharpness",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-22T20:24:40Z",
-      "updated_at": "2026-10-23T05:04:38Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45893",
-      "labels": [
-        "documentation",
-        "quant",
-        "dependencies",
-        "deepseek",
-        "sgl-kernel",
-        "run-ci",
-        "jit-kernel",
-        "run-ci-extra",
-        "memory-pool",
-        "bypass-fail-fast",
-        "highest-priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45407,
-      "title": "[Fix] [NVIDIA] deepseek-v4.1: Fix the breakable prefill CUDA graph in the late-layer tail on SM90",
-      "author": "JohnZhao01",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-20T15:22:52Z",
-      "updated_at": "2026-10-23T02:58:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45407",
-      "labels": [
-        "deepseek",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45676,
-      "title": "[Fix] [AMD] kernels: Import the HIP launch helpers from jit.utils.hipcc in smallm_fp8_blockscale_gfx950",
-      "author": "michaelzhang-ai",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-21T22:33:38Z",
-      "updated_at": "2026-10-22T23:29:48Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45676",
-      "labels": [
-        "run-ci",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45879,
-      "title": "[Perf] engram: Read host-table rows in address order on GPUs without host page tables",
-      "author": "hnyls2002",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-22T19:32:41Z",
-      "updated_at": "2026-10-22T20:15:00Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45879",
-      "labels": [
-        "run-ci",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45783,
-      "title": "[Refactor] dsv4: Keep only the two-level V4.1 indexer in the prefill graph",
-      "author": "hnyls2002",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-22T08:49:25Z",
-      "updated_at": "2026-10-22T19:28:08Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45783",
-      "labels": [
-        "deepseek",
-        "run-ci",
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45507,
-      "title": "[Test] [AMD] deepseek-v4.1: Fix the HIP breakable-graph unit tests for the default prefill context limit and the DSpark draft ring",
-      "author": "michaelzhang-ai",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-21T04:04:10Z",
-      "updated_at": "2026-10-22T17:00:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45507",
-      "labels": [
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 41564,
-      "title": "[Fix] [NPU] qwen: adapt pcp-v2",
-      "author": "gjsheu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-28T11:43:21Z",
-      "updated_at": "2026-10-22T12:54:12Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/41564",
-      "labels": [
-        "npu",
-        "run-ci",
-        "bypass-fail-fast"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45726,
-      "title": "[Perf] dsv41: Fuse request-window layout construction",
-      "author": "alphabetc1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-22T03:43:13Z",
-      "updated_at": "2026-10-22T07:19:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45726",
-      "labels": [
-        "jit-kernel"
-      ],
-      "draft": false
-    },
-    {
-      "number": 45699,
-      "title": "[Fix] dsv4: Never read attention metadata for idle SWA stores",
-      "author": "hnyls2002",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-22T02:01:57Z",
-      "updated_at": "2026-10-22T03:58:21Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/45699",
-      "labels": [
-        "deepseek",
-        "run-ci"
-      ],
-      "draft": false
-    },
-    {
-      "number": 42976,
-      "title": "[Fix] [NPU] mla-pool: DCP allocator page and index-K bound, short-pool warning",
-      "author": "TamirBaydasov",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-07T14:19:14Z",
-      "updated_at": "2026-10-22T02:24:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/pull/42976",
-      "labels": [
-        "hicache",
-        "npu",
-        "run-ci"
       ],
       "draft": false
     }

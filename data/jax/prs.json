@@ -1,6 +1,21 @@
 {
-  "collected_at": "2026-10-27T13:41:30Z",
+  "collected_at": "2026-10-28T14:36:41Z",
   "prs": [
+    {
+      "number": 42067,
+      "title": "[ROCm] Enable remote compilation for jax",
+      "author": "alekstheod",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T10:30:11Z",
+      "updated_at": "2026-10-28T11:10:39Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42067",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 41986,
       "title": "[ROCm] Exclude lax_scipy_special_functions_test_gpu from ROCm CI",
@@ -8,7 +23,7 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-10-26T17:54:40Z",
-      "updated_at": "2026-10-27T01:08:02Z",
+      "updated_at": "2026-10-27T17:37:16Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41986",
       "labels": [
         "pull ready",
@@ -23,7 +38,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-16T19:08:33Z",
-      "updated_at": "2026-10-26T16:50:13Z",
+      "updated_at": "2026-10-27T15:01:07Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41703",
       "labels": [],
       "draft": true

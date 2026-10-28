@@ -1,39 +1,111 @@
 {
-  "collected_at": "2026-10-27T13:42:00Z",
+  "collected_at": "2026-10-28T14:37:18Z",
   "prs": [
     {
-      "number": 5435,
-      "title": "simplify_reshapes: require an unambiguous entry chain in find_entry_shape_transform_op",
-      "author": "VishalX",
+      "number": 5443,
+      "title": "Handle empty tensors in select module by short-circuiting",
+      "author": "CharlieL7",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-26T11:42:13Z",
-      "updated_at": "2026-10-27T12:50:23Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5435",
+      "created_at": "2026-10-26T23:30:10Z",
+      "updated_at": "2026-10-28T14:36:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5443",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5373,
+      "title": "docs: update installation docs with TheRock packages",
+      "author": "peterjunpark",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T19:35:31Z",
+      "updated_at": "2026-10-28T14:28:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5373",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5434,
-      "title": "gpu: make gpu::slice_at skip out-of-range writes instead of throwing",
-      "author": "VishalX",
+      "number": 5446,
+      "title": "prepare_mlir: push a reshape of an int4 unpack under the unpack",
+      "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-26T11:42:02Z",
-      "updated_at": "2026-10-27T10:02:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5434",
+      "created_at": "2026-10-27T15:58:16Z",
+      "updated_at": "2026-10-28T14:24:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5446",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5397,
-      "title": "update parsers to support LLMs",
-      "author": "shivadbhavsar",
+      "number": 5414,
+      "title": "Share loaded modules between identical code objects",
+      "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-15T01:22:12Z",
-      "updated_at": "2026-10-27T04:11:05Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
+      "created_at": "2026-10-20T19:37:31Z",
+      "updated_at": "2026-10-28T12:19:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5414",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5438,
+      "title": "Data dependent handling in split_sym_dim",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T21:23:26Z",
+      "updated_at": "2026-10-28T05:24:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5438",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5442,
+      "title": "Dynamic concat kernel for handling concating over symbolic dimensions",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T23:26:21Z",
+      "updated_at": "2026-10-28T05:23:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5442",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5445,
+      "title": "Block output handling for data-dependent operators in split_sym_dim",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T23:34:47Z",
+      "updated_at": "2026-10-28T05:22:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5445",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5444,
+      "title": "Scatter elements analyzer for split_sym_dim",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T23:33:26Z",
+      "updated_at": "2026-10-28T05:16:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5444",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5393,
+      "title": "Evaluate compound symbolic shape expressions",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:57:16Z",
+      "updated_at": "2026-10-28T05:15:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5393",
       "labels": [],
       "draft": false
     },
@@ -44,8 +116,94 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-23T18:09:15Z",
-      "updated_at": "2026-10-27T03:37:38Z",
+      "updated_at": "2026-10-28T00:43:44Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5431",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5449,
+      "title": "Lower runtime shape expressions directly to GPU fill kernels",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T22:14:42Z",
+      "updated_at": "2026-10-28T00:36:17Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5449",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5389,
+      "title": "Add simplify symbolic dimensions pass & simplify min/max symbolic expressions",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:05:55Z",
+      "updated_at": "2026-10-28T00:24:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5447,
+      "title": "Parse LinearAttention and fuse causal gemm-elementwise-gemm chains with rocMLIR",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T20:48:12Z",
+      "updated_at": "2026-10-27T23:38:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5447",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5448,
+      "title": "Check runtime dependent ops for symbol simplification",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T21:53:47Z",
+      "updated_at": "2026-10-27T21:53:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5448",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5397,
+      "title": "update parsers to support LLMs",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T01:22:12Z",
+      "updated_at": "2026-10-27T21:18:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5426,
+      "title": "Resolve channels_auto convolution layout to channels_first on gfx1100 and gfx1151",
+      "author": "ppetrovi-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T10:51:21Z",
+      "updated_at": "2026-10-27T17:55:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5426",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5394,
+      "title": "Split/symbolic reshape parsing",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:57:36Z",
+      "updated_at": "2026-10-27T15:58:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
       "labels": [],
       "draft": false
     },
@@ -60,66 +218,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5425",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5393,
-      "title": "Evaluate compound symbolic shape expressions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:16Z",
-      "updated_at": "2026-10-27T03:00:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5393",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5392,
-      "title": "Support bounded dynamic slice outputs",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:56:37Z",
-      "updated_at": "2026-10-27T02:52:26Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5392",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5443,
-      "title": "Handle empty tensors in select module by short-circuiting",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T23:30:10Z",
-      "updated_at": "2026-10-27T02:23:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5443",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5388,
-      "title": "Support compatible symbolic dimensions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T18:57:52Z",
-      "updated_at": "2026-10-27T02:19:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5388",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5442,
-      "title": "Dynamic concat kernel for handling concating over symbolic dimensions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T23:26:21Z",
-      "updated_at": "2026-10-27T00:43:21Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5442",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5169,
@@ -144,90 +242,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5444,
-      "title": "Scatter elements analyzer for split_sym_dim",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T23:33:26Z",
-      "updated_at": "2026-10-27T00:03:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5444",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5445,
-      "title": "Block output handling for data-dependent operators in split_sym_dim",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T23:34:47Z",
-      "updated_at": "2026-10-27T00:02:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5445",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5438,
-      "title": "Data dependent handling in split_sym_dim",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T21:23:26Z",
-      "updated_at": "2026-10-26T23:42:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5438",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5394,
-      "title": "Split/symbolic reshape parsing",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:36Z",
-      "updated_at": "2026-10-26T23:18:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5389,
-      "title": "Add simplify symbolic dimensions pass",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:05:55Z",
-      "updated_at": "2026-10-26T23:12:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5384,
-      "title": "Update handling for empty tensors",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T17:18:14Z",
-      "updated_at": "2026-10-26T22:30:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5384",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5312,
-      "title": "Dynamic ROIAlign ",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T20:50:04Z",
-      "updated_at": "2026-10-26T20:38:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5312",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5413,
@@ -316,18 +330,6 @@
       "draft": false
     },
     {
-      "number": 5414,
-      "title": "Share loaded modules between identical code objects",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T19:37:31Z",
-      "updated_at": "2026-10-24T02:00:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5414",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5432,
       "title": "Bump certifi from 2024.7.4 to 2026.10.19 in /docs/sphinx",
       "author": "dependabot[bot]",
@@ -378,18 +380,6 @@
       "draft": false
     },
     {
-      "number": 5373,
-      "title": "docs: update installation docs with TheRock packages",
-      "author": "peterjunpark",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T19:35:31Z",
-      "updated_at": "2026-10-23T20:03:35Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5373",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5428,
       "title": "Onnxruntime Weekly Sync 2026-10-23",
       "author": "github-actions[bot]",
@@ -403,20 +393,6 @@
         "dependencies",
         "skip bot checks",
         "automated"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5426,
-      "title": "Resolve channels_auto convolution layout to channels_first on gfx1100 and gfx1151",
-      "author": "ppetrovi-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T10:51:21Z",
-      "updated_at": "2026-10-23T14:28:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5426",
-      "labels": [
-        "Windows"
       ],
       "draft": false
     },
@@ -1577,18 +1553,6 @@
       "draft": false
     },
     {
-      "number": 5172,
-      "title": "fix(security): re-verify PR head SHA in performance workflow",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:11:59Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5172",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5170,
       "title": "fix(security): harden Python driver/codegen tools",
       "author": "causten",
@@ -1707,6 +1671,54 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4303",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5384,
+      "title": "Update handling for empty tensors",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T17:18:14Z",
+      "updated_at": "2026-10-28T14:33:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5384",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5392,
+      "title": "Support bounded dynamic slice outputs",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T19:56:37Z",
+      "updated_at": "2026-10-27T20:41:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5392",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5312,
+      "title": "Dynamic ROIAlign ",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-24T20:50:04Z",
+      "updated_at": "2026-10-27T20:14:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5312",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5388,
+      "title": "Support compatible symbolic dimensions",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T18:57:52Z",
+      "updated_at": "2026-10-27T15:58:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5388",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 5422,
@@ -2637,101 +2649,6 @@
       "labels": [
         "documentation"
       ],
-      "draft": false
-    },
-    {
-      "number": 5343,
-      "title": "Bump urllib3 from 2.7.0 to 2.8.0 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-30T22:41:57Z",
-      "updated_at": "2026-10-02T23:07:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5343",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5346,
-      "title": "Bump tornado from 6.5.8 to 6.5.9 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-01T17:47:48Z",
-      "updated_at": "2026-10-02T23:06:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5346",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5347,
-      "title": "Bump gitpython from 3.1.58 to 3.1.62 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-01T17:48:02Z",
-      "updated_at": "2026-10-02T23:05:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5347",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5330,
-      "title": "Specify list of models for model zoo CI",
-      "author": "eddieliao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-29T00:42:29Z",
-      "updated_at": "2026-10-02T20:52:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5330",
-      "labels": [
-        "Continous Integration",
-        "Changelog: Not Applicable"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5151,
-      "title": "NMS parse into `dyn_slice` and remove env variable",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-18T17:49:34Z",
-      "updated_at": "2026-10-02T13:52:59Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5151",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5345,
-      "title": "[AIRADSW-1042] Standardize GPU outputs for packed tensor integrations",
-      "author": "urpetkov-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-01T16:01:00Z",
-      "updated_at": "2026-10-01T22:47:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5345",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5114,
-      "title": "Regular attention flash decoding refactor and bug fixes",
-      "author": "bdevorem",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-05T17:49:24Z",
-      "updated_at": "2026-10-01T21:24:59Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5114",
-      "labels": [],
       "draft": false
     }
   ]

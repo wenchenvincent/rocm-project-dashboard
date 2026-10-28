@@ -1,6 +1,28 @@
 {
-  "collected_at": "2026-10-27T13:42:38Z",
+  "collected_at": "2026-10-28T14:38:00Z",
   "issues": [
+    {
+      "number": 1339,
+      "title": "[Codegen][gfx950] fx.copy BufferCopyLDS128b repeats loop-invariant readfirstlane and rebuilds DMA offsets",
+      "author": "LuweiZhou2025",
+      "state": "open",
+      "created_at": "2026-10-28T02:56:30Z",
+      "updated_at": "2026-10-28T03:28:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1339",
+      "labels": []
+    },
+    {
+      "number": 1334,
+      "title": "KTRACE: ~30% slowdown from a wave's first event, and events change the compiled kernel (gfx950)",
+      "author": "hanli0612",
+      "state": "open",
+      "created_at": "2026-10-26T21:24:03Z",
+      "updated_at": "2026-10-27T21:10:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1334",
+      "labels": [
+        "ai-review"
+      ]
+    },
     {
       "number": 1324,
       "title": "[Bug] JIT manager cache key misses helpers called from nested defs or defined in another directory",
@@ -10,18 +32,6 @@
       "updated_at": "2026-10-27T07:55:05Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1324",
       "labels": []
-    },
-    {
-      "number": 1334,
-      "title": "KTRACE: ~30% slowdown from a wave's first event, and events change the compiled kernel (gfx950)",
-      "author": "hanli0612",
-      "state": "open",
-      "created_at": "2026-10-26T21:24:03Z",
-      "updated_at": "2026-10-27T07:25:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1334",
-      "labels": [
-        "ai-review"
-      ]
     },
     {
       "number": 1323,
@@ -44,16 +54,6 @@
       "labels": []
     },
     {
-      "number": 1285,
-      "title": "FLYDSL_DEBUG_DUMP_ASM is documented but has no effect",
-      "author": "Phil-amd",
-      "state": "open",
-      "created_at": "2026-10-13T07:28:10Z",
-      "updated_at": "2026-10-13T08:19:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1285",
-      "labels": []
-    },
-    {
       "number": 1237,
       "title": "[RFC] Roadmap: an LDS synchronization sanitizer for FlyDSL",
       "author": "jhinpan",
@@ -71,16 +71,6 @@
       "created_at": "2026-10-10T05:41:22Z",
       "updated_at": "2026-10-10T05:41:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1257",
-      "labels": []
-    },
-    {
-      "number": 1218,
-      "title": "Bug: the Numeric wrapper bypasses index normalization.",
-      "author": "amd-nprotaso",
-      "state": "open",
-      "created_at": "2026-09-30T18:34:15Z",
-      "updated_at": "2026-09-30T18:34:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1218",
       "labels": []
     },
     {
