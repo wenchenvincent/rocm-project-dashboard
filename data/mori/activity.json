@@ -1,24 +1,24 @@
 {
-  "collected_at": "2026-10-28T14:41:07Z",
+  "collected_at": "2026-10-29T14:47:26Z",
   "project": "mori",
   "repo": "ROCm/mori",
   "pr_velocity": {
     "this_week": {
-      "opened": 46,
-      "merged": 32,
-      "closed": 2
+      "opened": 41,
+      "merged": 33,
+      "closed": 3
     },
     "last_week": {
-      "opened": 46,
-      "merged": 28,
-      "closed": 5
+      "opened": 50,
+      "merged": 27,
+      "closed": 3
     },
-    "median_time_to_merge_hours": 59.7,
-    "merge_count": 61,
+    "median_time_to_merge_hours": 48.2,
+    "merge_count": 62,
     "stale_prs": 27
   },
   "contributors": {
-    "active_this_week": 23,
+    "active_this_week": 22,
     "total_contributors": 36,
     "top_contributors": [
       {
@@ -35,27 +35,27 @@
       },
       {
         "author": "isytwu",
-        "prs_submitted": 17,
+        "prs_submitted": 18,
         "prs_merged": 10,
         "commits": 11
       },
       {
         "author": "yangyuhuiling",
-        "prs_submitted": 10,
+        "prs_submitted": 12,
         "prs_merged": 5,
         "commits": 5
-      },
-      {
-        "author": "kawhil-amd",
-        "prs_submitted": 8,
-        "prs_merged": 4,
-        "commits": 4
       },
       {
         "author": "amirakb89",
         "prs_submitted": 8,
         "prs_merged": 2,
         "commits": 3
+      },
+      {
+        "author": "kawhil-amd",
+        "prs_submitted": 7,
+        "prs_merged": 5,
+        "commits": 5
       },
       {
         "author": "pemeliya",
@@ -65,35 +65,35 @@
       },
       {
         "author": "QizhouZhang97",
-        "prs_submitted": 5,
-        "prs_merged": 2,
-        "commits": 3
+        "prs_submitted": 6,
+        "prs_merged": 3,
+        "commits": 4
+      },
+      {
+        "author": "wuyl1",
+        "prs_submitted": 4,
+        "prs_merged": 0,
+        "commits": 0
       },
       {
         "author": "kudomcho",
         "prs_submitted": 4,
         "prs_merged": 1,
         "commits": 1
-      },
-      {
-        "author": "wuyl1",
-        "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 31,
+    "total_open": 30,
     "opened_this_week": 2,
-    "closed_this_week": 0,
+    "closed_this_week": 2,
     "unanswered": 10
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 16.2,
+    "days_since_last": 17.2,
     "avg_interval_days": 27.0,
     "total_releases": 5,
     "latest_tag": "v1.2.4"

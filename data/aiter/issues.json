@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-10-28T14:37:44Z",
+  "collected_at": "2026-10-29T14:43:56Z",
   "issues": [
+    {
+      "number": 7158,
+      "title": "FlyDSL a8w4 MoE stage 1 `t32x128x256_w{2,3,4}_gui_fp8` is nondeterministic: rows 16-31 of a 32-row sorted block get corrupted 4x16 patches (shipped DeepSeek-V4 tuned rows 256/512/1024)",
+      "author": "vivienfanghuagood",
+      "state": "open",
+      "created_at": "2026-10-29T12:39:30Z",
+      "updated_at": "2026-10-29T12:39:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7158",
+      "labels": []
+    },
+    {
+      "number": 7150,
+      "title": "RFC: decouple backend names from public op definitions (start with MoE)",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-29T09:37:36Z",
+      "updated_at": "2026-10-29T09:37:36Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7150",
+      "labels": []
+    },
+    {
+      "number": 7099,
+      "title": "ROCm 10.1 (clang 24): 8-wave cktile blockscale GEMMs no longer inlined, 7-15x slower",
+      "author": "Rohan138",
+      "state": "open",
+      "created_at": "2026-10-28T15:40:26Z",
+      "updated_at": "2026-10-28T15:40:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7099",
+      "labels": []
+    },
     {
       "number": 7051,
       "title": "paged_attention_ragged: out-of-context workgroups dominate decode time under SGLang's 1024-partition grid (small and mixed-length batches)",

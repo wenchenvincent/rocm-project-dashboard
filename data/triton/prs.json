@@ -1,27 +1,99 @@
 {
-  "collected_at": "2026-10-28T14:37:15Z",
+  "collected_at": "2026-10-29T14:43:25Z",
   "prs": [
     {
-      "number": 12499,
-      "title": "[AMD] Strict scaled upcast fix",
-      "author": "amirumoAMD",
+      "number": 12530,
+      "title": "[AMD][AOT] Fix zero-sized grid handling in HIP wrapper",
+      "author": "JecksonWu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T10:01:33Z",
+      "updated_at": "2026-10-29T03:02:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12530",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12534,
+      "title": "[AMD][BACKEND] Tighten TDM verifiers",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T14:46:13Z",
+      "updated_at": "2026-10-29T01:05:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12534",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12539,
+      "title": "[AMD][Gluon] Check MXFP GEMM prefetches in LLVM IR",
+      "author": "bangtianliu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T21:58:12Z",
+      "updated_at": "2026-10-29T00:04:16Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12539",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12362,
+      "title": "[AMD] Fix AMD codegen rebuilds after LLVM dependency updates",
+      "author": "willghatch",
       "state": "open",
       "merged": false,
+      "created_at": "2026-10-19T16:52:16Z",
+      "updated_at": "2026-10-28T23:14:44Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12362",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12536,
+      "title": "[AMD] Publish llc from the code generator's LLVM so the DAG cross-check runs",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T15:53:57Z",
+      "updated_at": "2026-10-28T15:53:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12536",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12528,
+      "title": "[AMD] Switch the MIR dump/swap stage to the code generator's LLVM",
+      "author": "tyb0807",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T02:44:29Z",
+      "updated_at": "2026-10-28T15:53:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12528",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12499,
+      "title": "[AMD][GFX1250-strict] Enable HW-accelerated block32 scaled_upcast",
+      "author": "amirumoAMD",
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-10-26T14:24:10Z",
-      "updated_at": "2026-10-28T14:01:25Z",
+      "updated_at": "2026-10-28T15:45:56Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12499",
       "labels": [],
       "draft": false
     },
     {
-      "number": 12530,
-      "title": "[AMD][AOT] Fix zero-sized grid handling in HIP wrapper",
-      "author": "JecksonWu",
+      "number": 12524,
+      "title": "[AMD] Enable LDS prefetch for scaled dot",
+      "author": "yiqian1",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-28T10:01:33Z",
-      "updated_at": "2026-10-28T10:01:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12530",
+      "created_at": "2026-10-27T20:04:11Z",
+      "updated_at": "2026-10-28T14:38:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12524",
       "labels": [],
       "draft": false
     },
@@ -34,18 +106,6 @@
       "created_at": "2026-10-27T04:02:00Z",
       "updated_at": "2026-10-28T09:16:24Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12512",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12528,
-      "title": "[AMD] Switch the MIR dump/swap stage to the code generator's LLVM",
-      "author": "tyb0807",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-28T02:44:29Z",
-      "updated_at": "2026-10-28T04:55:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12528",
       "labels": [],
       "draft": false
     },
@@ -110,18 +170,6 @@
       "draft": false
     },
     {
-      "number": 12524,
-      "title": "[AMD] Enable LDS prefetch for scaled dot",
-      "author": "yiqian1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T20:04:11Z",
-      "updated_at": "2026-10-27T20:04:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12524",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12523,
       "title": "[AMD] Build LLVM @08b05a3352ee for CodeGen",
       "author": "antiagainst",
@@ -178,18 +226,6 @@
       "created_at": "2026-10-19T12:39:47Z",
       "updated_at": "2026-10-27T00:41:53Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12356",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12362,
-      "title": "[AMD] Fix AMD codegen rebuilds after LLVM dependency updates",
-      "author": "willghatch",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-19T16:52:16Z",
-      "updated_at": "2026-10-26T23:41:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12362",
       "labels": [],
       "draft": false
     },
@@ -458,30 +494,6 @@
       "draft": false
     },
     {
-      "number": 12382,
-      "title": "[AMD] Add option for per-kernel clopt control",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-20T06:28:52Z",
-      "updated_at": "2026-10-20T15:23:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12382",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11880,
-      "title": "[AMD] Compute the HIP pointer-range bit natively",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-20T18:39:30Z",
-      "updated_at": "2026-10-20T15:18:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11880",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12115,
       "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
       "author": "dhernandez0",
@@ -492,18 +504,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12115",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12373,
-      "title": "[AMD] Move CU-mode barrier test into its own file",
-      "author": "mgehre-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-19T21:53:36Z",
-      "updated_at": "2026-10-20T07:34:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12373",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12034,
@@ -542,18 +542,6 @@
       "draft": true
     },
     {
-      "number": 12324,
-      "title": "[AMD]Support Multi-CTA in TDM Scatter",
-      "author": "knwng",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-15T21:43:38Z",
-      "updated_at": "2026-10-16T04:00:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12324",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12320,
       "title": "[DRAFT][AMD][ConSan] Support async-copy mbarrier arrive",
       "author": "PMylon",
@@ -564,18 +552,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12320",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12156,
-      "title": "[AMD] Use explicit fma in mxfp FA example",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-07T06:27:47Z",
-      "updated_at": "2026-10-15T05:59:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12156",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12171,
@@ -720,6 +696,30 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12060",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 12020,
+      "title": "Add TRITON_BUILD_{NVIDIA,AMD}_BACKEND options to build without in-tree backends",
+      "author": "KX76",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T07:51:40Z",
+      "updated_at": "2026-09-29T09:14:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12020",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 11704,
+      "title": "[AMD] Bypass the epilogue relayout for FMA",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T10:26:29Z",
+      "updated_at": "2026-09-24T12:36:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11704",
+      "labels": [],
+      "draft": true
     }
   ]
 }

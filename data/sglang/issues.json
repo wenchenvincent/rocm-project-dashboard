@@ -1,13 +1,95 @@
 {
-  "collected_at": "2026-10-28T14:37:13Z",
+  "collected_at": "2026-10-29T14:43:22Z",
   "issues": [
+    {
+      "number": 44304,
+      "title": "[ROCm][AMD] Qwen3.8-Flash-Next gfx950 / MI355X Performance Optimization",
+      "author": "ChangLiu0709",
+      "state": "open",
+      "created_at": "2026-10-14T14:46:04Z",
+      "updated_at": "2026-10-29T11:16:26Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/44304",
+      "labels": []
+    },
+    {
+      "number": 46900,
+      "title": "[Feature] [AMD] RDNA3/RDNA4 (gfx1100/gfx1201) on main: CI and upstreaming plan",
+      "author": "vivienfanghuagood",
+      "state": "open",
+      "created_at": "2026-10-28T00:39:48Z",
+      "updated_at": "2026-10-29T10:16:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46900",
+      "labels": []
+    },
+    {
+      "number": 43098,
+      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
+      "author": "hzh0425",
+      "state": "open",
+      "created_at": "2026-10-08T11:44:11Z",
+      "updated_at": "2026-10-29T08:57:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
+      "labels": []
+    },
+    {
+      "number": 37519,
+      "title": "[Roadmap][Feature] Support T-Head PPU",
+      "author": "Vinsmoke86",
+      "state": "open",
+      "created_at": "2026-09-02T02:58:18Z",
+      "updated_at": "2026-10-29T04:40:47Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/37519",
+      "labels": [
+        "highest-priority"
+      ]
+    },
+    {
+      "number": 47167,
+      "title": "[Bug] Tools + JSON-schema format cannot be combined: Kimi-K3 returns 400, glm47 / DeepSeek silently drop tool calls and invent the answer (breaks Codex --output-schema)",
+      "author": "Monstertail",
+      "state": "open",
+      "created_at": "2026-10-29T01:39:05Z",
+      "updated_at": "2026-10-29T02:01:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/47167",
+      "labels": []
+    },
+    {
+      "number": 45373,
+      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
+      "author": "JackChuang",
+      "state": "open",
+      "created_at": "2026-10-20T10:04:23Z",
+      "updated_at": "2026-10-29T01:22:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
+      "labels": []
+    },
+    {
+      "number": 46803,
+      "title": "[Bug] FlashInfer `cascade` module JIT-compiles inside the first prefixed request (~4.5 s) on pip installs",
+      "author": "AgentHan115",
+      "state": "open",
+      "created_at": "2026-10-27T09:07:20Z",
+      "updated_at": "2026-10-28T22:31:52Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46803",
+      "labels": []
+    },
+    {
+      "number": 40624,
+      "title": "[AMD][Feature] enable triton TLX",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-09-21T20:35:39Z",
+      "updated_at": "2026-10-28T20:38:14Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/40624",
+      "labels": []
+    },
     {
       "number": 30599,
       "title": "[Feature][AMD] Officially support consumer Radeon RDNA3/RDNA4 (gfx1100/gfx1201) \u2014 tracking + enablement plan",
       "author": "AIwork4me",
       "state": "open",
       "created_at": "2026-07-09T04:36:21Z",
-      "updated_at": "2026-10-28T12:33:10Z",
+      "updated_at": "2026-10-28T17:18:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/30599",
       "labels": [
         "amd"
@@ -26,16 +108,6 @@
       ]
     },
     {
-      "number": 45373,
-      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
-      "author": "JackChuang",
-      "state": "open",
-      "created_at": "2026-10-20T10:04:23Z",
-      "updated_at": "2026-10-28T09:56:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
-      "labels": []
-    },
-    {
       "number": 29736,
       "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q4)",
       "author": "thanhhao98",
@@ -43,16 +115,6 @@
       "created_at": "2026-06-30T08:43:14Z",
       "updated_at": "2026-10-28T06:55:31Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/29736",
-      "labels": []
-    },
-    {
-      "number": 46900,
-      "title": "[Feature] [AMD] RDNA3/RDNA4 (gfx1100/gfx1201) on main: CI and upstreaming plan",
-      "author": "vivienfanghuagood",
-      "state": "open",
-      "created_at": "2026-10-28T00:39:48Z",
-      "updated_at": "2026-10-28T06:21:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/46900",
       "labels": []
     },
     {
@@ -67,26 +129,6 @@
         "diffusion",
         "roadmap"
       ]
-    },
-    {
-      "number": 44304,
-      "title": "[ROCm][AMD] Qwen3.8-Flash-Next gfx950 / MI355X Performance Optimization",
-      "author": "ChangLiu0709",
-      "state": "open",
-      "created_at": "2026-10-14T14:46:04Z",
-      "updated_at": "2026-10-27T15:15:10Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/44304",
-      "labels": []
-    },
-    {
-      "number": 46803,
-      "title": "[Bug] FlashInfer `cascade` module JIT-compiles inside the first prefixed request (~4.5 s) on pip installs",
-      "author": "AgentHan115",
-      "state": "open",
-      "created_at": "2026-10-27T09:07:20Z",
-      "updated_at": "2026-10-27T14:41:44Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/46803",
-      "labels": []
     },
     {
       "number": 46831,
@@ -116,16 +158,6 @@
       "created_at": "2026-10-09T19:02:21Z",
       "updated_at": "2026-10-27T09:10:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/43412",
-      "labels": []
-    },
-    {
-      "number": 43098,
-      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
-      "author": "hzh0425",
-      "state": "open",
-      "created_at": "2026-10-08T11:44:11Z",
-      "updated_at": "2026-10-27T04:49:56Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
       "labels": []
     },
     {
@@ -230,16 +262,6 @@
       "created_at": "2026-08-28T06:40:26Z",
       "updated_at": "2026-10-24T04:55:26Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/36807",
-      "labels": []
-    },
-    {
-      "number": 37519,
-      "title": "[Roadmap][Feature] Support T-Head PPU",
-      "author": "Vinsmoke86",
-      "state": "open",
-      "created_at": "2026-09-02T02:58:18Z",
-      "updated_at": "2026-10-23T03:00:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/37519",
       "labels": []
     },
     {
@@ -431,16 +453,6 @@
       "labels": []
     },
     {
-      "number": 38710,
-      "title": "[Bug] enable_aiter_allreduce_fusion auto-enable is commented out while the log still claims it was enabled",
-      "author": "skimanwhite",
-      "state": "open",
-      "created_at": "2026-09-09T17:27:38Z",
-      "updated_at": "2026-10-11T23:29:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/38710",
-      "labels": []
-    },
-    {
       "number": 42564,
       "title": "[Bug][ROCm] FLUX.2-dev fails on gfx1151: NVIDIA PTX inline assembly in residual_gate_add kernel",
       "author": "vvvdwbvvv",
@@ -548,16 +560,6 @@
       "created_at": "2026-09-18T20:25:44Z",
       "updated_at": "2026-09-21T10:54:04Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/40232",
-      "labels": []
-    },
-    {
-      "number": 38707,
-      "title": "[Bug][ROCm] PP + DSA: HIP fault on multi-chunk prefill; failure threshold tracks --cuda-graph-backend-decode",
-      "author": "skimanwhite",
-      "state": "open",
-      "created_at": "2026-09-09T17:27:37Z",
-      "updated_at": "2026-09-20T17:07:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/38707",
       "labels": []
     }
   ]

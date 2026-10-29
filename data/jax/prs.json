@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-10-28T14:36:41Z",
+  "collected_at": "2026-10-29T14:42:49Z",
   "prs": [
+    {
+      "number": 41703,
+      "title": "[DO NOT MERGE][ROCm] Migrate Pytest ROCm lane to rocmless container + pip-installed TheRock",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:08:33Z",
+      "updated_at": "2026-10-29T11:21:40Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41703",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 42067,
       "title": "[ROCm] Enable remote compilation for jax",
@@ -8,7 +20,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-28T10:30:11Z",
-      "updated_at": "2026-10-28T11:10:39Z",
+      "updated_at": "2026-10-29T01:23:53Z",
       "html_url": "https://github.com/jax-ml/jax/pull/42067",
       "labels": [
         "pull ready",
@@ -30,18 +42,6 @@
         "AMD GPU"
       ],
       "draft": false
-    },
-    {
-      "number": 41703,
-      "title": "[DO NOT MERGE][ROCm] Migrate Pytest ROCm lane to rocmless container + pip-installed TheRock",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T19:08:33Z",
-      "updated_at": "2026-10-27T15:01:07Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41703",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 41881,

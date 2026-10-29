@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-10-28T14:38:23Z",
+  "collected_at": "2026-10-29T14:44:24Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Nightly Test (AMD)",
-    "run_id": 40637706513,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/40637706513",
-    "run_date": "2026-10-28T05:41:17Z",
+    "run_id": 40812223635,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/40812223635",
+    "run_date": "2026-10-29T04:28:14Z",
     "conclusion": "success",
     "summary": {
       "total_jobs": 3,
@@ -15,6 +15,15 @@
       "pass_rate": null
     },
     "suites": [
+      {
+        "name": "nightly-test-1-gpu-mi35x (${{ matrix.rocm_version }}, linux-mi35x-gpu-1)",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
       {
         "name": "nightly-test-1-gpu-unit (${{ matrix.rocm_version }}, linux-mi300-1gpu-sglang)",
         "conclusion": "skipped",
@@ -32,23 +41,14 @@
         "failed": null,
         "skipped": null,
         "errors": null
-      },
-      {
-        "name": "nightly-test-1-gpu-mi35x (${{ matrix.rocm_version }}, linux-mi35x-gpu-1)",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
       }
     ]
   },
   "cuda": {
     "workflow_name": "PR Test",
-    "run_id": 40707766608,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/40707766608",
-    "run_date": "2026-10-28T14:38:06Z",
+    "run_id": 40894118539,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/40894118539",
+    "run_date": "2026-10-29T14:42:57Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 10,
@@ -60,33 +60,6 @@
     "suites": [
       {
         "name": "call-pr-test-extra",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "pr-test-finish",
-        "conclusion": "failure",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "call-jit-kernel-tests",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "call-sgl-kernel-tests",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -113,16 +86,7 @@
         "errors": null
       },
       {
-        "name": "base-b-test-${{ matrix.runner_config }}",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "base-c-test-${{ matrix.runner_config }}",
+        "name": "call-sgl-kernel-tests",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -132,6 +96,42 @@
       },
       {
         "name": "base-a-test-cpu",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-b-test-${{ matrix.runner_config }}",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "call-jit-kernel-tests",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "pr-test-finish",
+        "conclusion": "failure",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-${{ matrix.runner_config }}",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
