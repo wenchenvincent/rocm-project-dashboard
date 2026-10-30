@@ -1,6 +1,168 @@
 {
-  "collected_at": "2026-10-29T14:43:29Z",
+  "collected_at": "2026-10-30T14:39:27Z",
   "prs": [
+    {
+      "number": 5458,
+      "title": "Fix GPU codegen layout pinning and deep-graph stack overflows",
+      "author": "cliffcai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T02:34:31Z",
+      "updated_at": "2026-10-30T14:27:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5458",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5447,
+      "title": "Parse LinearAttention and fuse causal gemm-elementwise-gemm chains with rocMLIR",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T20:48:12Z",
+      "updated_at": "2026-10-30T14:25:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5447",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5431,
+      "title": "Improve select_module perf",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T18:09:15Z",
+      "updated_at": "2026-10-30T04:01:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5431",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5389,
+      "title": "Add simplify symbolic dimensions pass & simplify min/max symbolic expressions",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:05:55Z",
+      "updated_at": "2026-10-29T23:51:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5450,
+      "title": "Combined data dependent support branches",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:55:48Z",
+      "updated_at": "2026-10-29T22:36:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5455,
+      "title": "Add post-lowering GPU copy optimization",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T22:25:24Z",
+      "updated_at": "2026-10-29T21:41:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5455",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5397,
+      "title": "update parsers to support LLMs",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T01:22:12Z",
+      "updated_at": "2026-10-29T20:14:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5373,
+      "title": "docs: update installation docs with TheRock packages",
+      "author": "peterjunpark",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T19:35:31Z",
+      "updated_at": "2026-10-29T19:32:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5373",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5457,
+      "title": "[AIMIGRAPHX-595] NVFP4 E4M3-scaled GEMM on gfx1250",
+      "author": "anupsing-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-29T16:00:47Z",
+      "updated_at": "2026-10-29T19:29:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5457",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5169,
+      "title": "fix(security): spawn processes directly instead of through popen",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:11:47Z",
+      "updated_at": "2026-10-29T18:30:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5169",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5433,
+      "title": "Bump gitpython from 3.1.62 to 3.2.1 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T04:09:35Z",
+      "updated_at": "2026-10-29T17:35:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5433",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5432,
+      "title": "Bump certifi from 2024.7.4 to 2026.10.19 in /docs/sphinx",
+      "author": "dependabot[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-24T00:50:24Z",
+      "updated_at": "2026-10-29T17:32:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5432",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5453,
+      "title": "Disable hiprtc subprocess spawning fix",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T16:00:06Z",
+      "updated_at": "2026-10-29T17:06:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5453",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
     {
       "number": 5454,
       "title": "Insert match::opaque into deep matchers to fix slow build time on windows",
@@ -16,44 +178,6 @@
       "draft": false
     },
     {
-      "number": 5455,
-      "title": "Add post-lowering GPU copy optimization",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T22:25:24Z",
-      "updated_at": "2026-10-29T14:06:30Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5455",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5453,
-      "title": "Disable hiprtc subprocess spawning fix",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T16:00:06Z",
-      "updated_at": "2026-10-29T13:04:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5453",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5389,
-      "title": "Add simplify symbolic dimensions pass & simplify min/max symbolic expressions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:05:55Z",
-      "updated_at": "2026-10-28T23:45:23Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5449,
       "title": "Fix lowering for eval_expr_from_shape",
       "author": "shivadbhavsar",
@@ -66,30 +190,6 @@
       "draft": true
     },
     {
-      "number": 5169,
-      "title": "fix(security): spawn processes directly instead of through popen",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:11:47Z",
-      "updated_at": "2026-10-28T22:03:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5169",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5450,
-      "title": "Combined data dependent support branches",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T14:55:48Z",
-      "updated_at": "2026-10-28T21:56:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5170,
       "title": "fix(security): harden Python driver/codegen tools",
       "author": "causten",
@@ -98,18 +198,6 @@
       "created_at": "2026-08-21T23:11:49Z",
       "updated_at": "2026-10-28T21:44:35Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5170",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5451,
-      "title": "fix: make PR review dashboard resilient to GraphQL timeouts",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T15:52:37Z",
-      "updated_at": "2026-10-28T20:16:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5451",
       "labels": [],
       "draft": false
     },
@@ -150,30 +238,6 @@
       "draft": false
     },
     {
-      "number": 5397,
-      "title": "update parsers to support LLMs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T01:22:12Z",
-      "updated_at": "2026-10-28T18:27:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5373,
-      "title": "docs: update installation docs with TheRock packages",
-      "author": "peterjunpark",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T19:35:31Z",
-      "updated_at": "2026-10-28T16:41:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5373",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5227,
       "title": "fix: enable Linux build hardening flags and CI checksec gate",
       "author": "causten",
@@ -198,18 +262,6 @@
       "draft": false
     },
     {
-      "number": 5431,
-      "title": "Improve select_module perf",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T18:09:15Z",
-      "updated_at": "2026-10-28T14:55:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5431",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5414,
       "title": "Share loaded modules between identical code objects",
       "author": "pfultz2",
@@ -230,18 +282,6 @@
       "created_at": "2026-10-13T19:57:16Z",
       "updated_at": "2026-10-28T05:15:58Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5393",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5447,
-      "title": "Parse LinearAttention and fuse causal gemm-elementwise-gemm chains with rocMLIR",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T20:48:12Z",
-      "updated_at": "2026-10-27T23:38:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5447",
       "labels": [],
       "draft": false
     },
@@ -308,20 +348,6 @@
       "draft": false
     },
     {
-      "number": 5433,
-      "title": "Bump gitpython from 3.1.62 to 3.2.1 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T04:09:35Z",
-      "updated_at": "2026-10-26T04:09:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5433",
-      "labels": [
-        "documentation"
-      ],
-      "draft": false
-    },
-    {
       "number": 5219,
       "title": "Add a partial split to split_reduce for large reductions",
       "author": "pfultz2",
@@ -379,20 +405,6 @@
       "updated_at": "2026-10-24T08:32:25Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5430",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5432,
-      "title": "Bump certifi from 2024.7.4 to 2026.10.19 in /docs/sphinx",
-      "author": "dependabot[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-24T00:50:24Z",
-      "updated_at": "2026-10-24T00:50:26Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5432",
-      "labels": [
-        "documentation"
-      ],
       "draft": false
     },
     {
@@ -1653,6 +1665,18 @@
       "draft": true
     },
     {
+      "number": 5451,
+      "title": "fix: make PR review dashboard resilient to GraphQL timeouts",
+      "author": "causten",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T15:52:37Z",
+      "updated_at": "2026-10-29T20:27:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5451",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5173,
       "title": "fix(security): pin base image digest and run as jenkins user",
       "author": "causten",
@@ -2548,21 +2572,6 @@
       "updated_at": "2026-10-06T15:30:53Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4990",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4978,
-      "title": "[AIMIGRAPHX-1054] Log debug symbols when exceptions are thrown",
-      "author": "eddieliao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-16T23:17:00Z",
-      "updated_at": "2026-10-06T15:30:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4978",
-      "labels": [
-        "enhancement",
-        "Changelog: Added"
-      ],
       "draft": false
     }
   ]

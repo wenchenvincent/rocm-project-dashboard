@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-10-29T14:47:50Z",
+  "collected_at": "2026-10-30T14:43:21Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 6,
-      "merged": 3,
+      "opened": 7,
+      "merged": 4,
       "closed": 1
     },
     "last_week": {
-      "opened": 16,
-      "merged": 12,
+      "opened": 15,
+      "merged": 10,
       "closed": 4
     },
-    "median_time_to_merge_hours": 147.2,
-    "merge_count": 15,
+    "median_time_to_merge_hours": 86.1,
+    "merge_count": 14,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 10,
+    "active_this_week": 8,
     "total_contributors": 27,
     "top_contributors": [
       {
         "author": "matthiasdiener",
-        "prs_submitted": 30,
+        "prs_submitted": 31,
         "prs_merged": 18,
         "commits": 6
       },
       {
         "author": "ipanfilo",
         "prs_submitted": 17,
-        "prs_merged": 14,
-        "commits": 4
+        "prs_merged": 15,
+        "commits": 5
       },
       {
         "author": "VeeraRajasekhar",
@@ -53,21 +53,21 @@
       },
       {
         "author": "AllenFarcas",
-        "prs_submitted": 10,
+        "prs_submitted": 12,
         "prs_merged": 9,
         "commits": 4
-      },
-      {
-        "author": "aris134",
-        "prs_submitted": 6,
-        "prs_merged": 4,
-        "commits": 1
       },
       {
         "author": "sudhu2k",
         "prs_submitted": 6,
         "prs_merged": 3,
         "commits": 0
+      },
+      {
+        "author": "aris134",
+        "prs_submitted": 6,
+        "prs_merged": 4,
+        "commits": 1
       },
       {
         "author": "wenchenvincent",
@@ -93,9 +93,9 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 26.8,
-    "avg_interval_days": 46.0,
+    "days_since_last": 0.7,
+    "avg_interval_days": 37.0,
     "total_releases": 5,
-    "latest_tag": "v2.17_rocm"
+    "latest_tag": "v2.18_rocm"
   }
 }

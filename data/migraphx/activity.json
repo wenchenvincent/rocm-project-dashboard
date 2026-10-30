@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-10-29T14:44:48Z",
+  "collected_at": "2026-10-30T14:40:46Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 30,
-      "merged": 23,
+      "opened": 28,
+      "merged": 18,
       "closed": 10
     },
     "last_week": {
-      "opened": 20,
-      "merged": 16,
-      "closed": 5
+      "opened": 21,
+      "merged": 15,
+      "closed": 4
     },
-    "median_time_to_merge_hours": 210.6,
-    "merge_count": 39,
-    "stale_prs": 84
+    "median_time_to_merge_hours": 141.0,
+    "merge_count": 33,
+    "stale_prs": 85
   },
   "contributors": {
-    "active_this_week": 18,
+    "active_this_week": 16,
     "total_contributors": 54,
     "top_contributors": [
       {
         "author": "pfultz2",
         "prs_submitted": 65,
         "prs_merged": 30,
-        "commits": 33
+        "commits": 32
       },
       {
         "author": "CharlieL7",
@@ -36,8 +36,8 @@
       {
         "author": "causten",
         "prs_submitted": 11,
-        "prs_merged": 6,
-        "commits": 5
+        "prs_merged": 7,
+        "commits": 6
       },
       {
         "author": "shivadbhavsar",
@@ -52,12 +52,6 @@
         "commits": 0
       },
       {
-        "author": "eddieliao",
-        "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 4
-      },
-      {
         "author": "royzhang-amd",
         "prs_submitted": 4,
         "prs_merged": 0,
@@ -70,16 +64,22 @@
         "commits": 0
       },
       {
+        "author": "eddieliao",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 4
+      },
+      {
         "author": "Rolaand-Jayz",
         "prs_submitted": 4,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "pnikolic-amd",
+        "author": "peterjunpark",
         "prs_submitted": 3,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_merged": 0,
+        "commits": 0
       }
     ],
     "bus_factor": 2
@@ -88,12 +88,12 @@
     "total_open": 249,
     "opened_this_week": 0,
     "closed_this_week": 0,
-    "unanswered": 132
+    "unanswered": 131
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 22.0,
+    "days_since_last": 23.0,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

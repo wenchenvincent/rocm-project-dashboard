@@ -1,6 +1,217 @@
 {
-  "collected_at": "2026-10-29T14:44:14Z",
+  "collected_at": "2026-10-30T14:40:06Z",
   "prs": [
+    {
+      "number": 1355,
+      "title": "[Misc] Publish FlyDSL skills as a Claude Code plugin",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T08:20:03Z",
+      "updated_at": "2026-10-30T13:53:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1355",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1332,
+      "title": "[Bugfix] Fix ROCm GPU counting and architecture fallback",
+      "author": "Qubitium",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T20:27:57Z",
+      "updated_at": "2026-10-30T09:42:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1332",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1227,
+      "title": "[Kernel][Perf] Tune RMSNorm for gfx1250: BF16 hardware conversion, early loads, small-N kernel choice",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T17:57:28Z",
+      "updated_at": "2026-10-30T09:07:36Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1348,
+      "title": "[Refactor] Organize GLM mono-kernel stages and shared tools",
+      "author": "james-huang09",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-29T10:19:03Z",
+      "updated_at": "2026-10-30T07:31:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1348",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1338,
+      "title": "[JIT] Key compiled artifacts by the traced MLIR",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T18:17:35Z",
+      "updated_at": "2026-10-30T06:56:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1338",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1350,
+      "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T04:48:52Z",
+      "updated_at": "2026-10-30T06:15:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1352,
+      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
+      "author": "edjson",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T05:46:30Z",
+      "updated_at": "2026-10-30T05:46:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1250,
+      "title": "[Kernel][FA] Add gfx950 attention backward (dQ and dK/dV) ported from AOTriton 0.14 (6/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:35Z",
+      "updated_at": "2026-10-30T05:13:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1250",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1248,
+      "title": "[Kernel][FA] Add the gfx950 attention forward kernel (dual-wave and wide bodies) (4/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:27Z",
+      "updated_at": "2026-10-30T05:13:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1248",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1247,
+      "title": "[Kernel][FA] Add gfx950 attention metadata, knobs and traits config (3/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:24Z",
+      "updated_at": "2026-10-30T05:13:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1247",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1246,
+      "title": "[Kernel][FA] Add arch-neutral attention common, abi, philox and dispatch modules (2/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:21Z",
+      "updated_at": "2026-10-30T05:13:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1246",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1252,
+      "title": "[Kernel][FA] Document the gfx950 attention kernels and the 8xD head-dim protocol (8/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:44Z",
+      "updated_at": "2026-10-30T05:13:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1252",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1251,
+      "title": "[Kernel][FA] Route flydsl_flash_attn_func to the new gfx950 bf16/f16 kernels (7/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:39Z",
+      "updated_at": "2026-10-30T05:13:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1251",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1249,
+      "title": "[Kernel][FA] Port gfx950 attention ALiBi, sink, paged KV, split-K and XCD swizzle to the new forward (5/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:30Z",
+      "updated_at": "2026-10-30T05:13:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1249",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1245,
+      "title": "[Kernel][FA] Fix ds_read_tr waitcnt hazard and stagger SCC clobber (1/8)",
+      "author": "xinyazhang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T16:11:17Z",
+      "updated_at": "2026-10-30T05:13:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1245",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1349,
+      "title": "[LLVM] Add gfx1250-strict , xnack- and sched_gpr/sched_bank feature",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T00:38:51Z",
+      "updated_at": "2026-10-30T02:42:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1349",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1343,
+      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
+      "author": "hanli0612",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T21:00:18Z",
+      "updated_at": "2026-10-29T18:02:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
+      "labels": [
+        "ai-review",
+        "ktrace"
+      ],
+      "draft": false
+    },
     {
       "number": 1109,
       "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
@@ -14,54 +225,6 @@
       "draft": false
     },
     {
-      "number": 1238,
-      "title": "Migrate kernels tiled tdm",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T06:37:06Z",
-      "updated_at": "2026-10-29T10:55:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1348,
-      "title": "[Refactor] Organize GLM mono-kernel stages and shared tools",
-      "author": "james-huang09",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T10:19:03Z",
-      "updated_at": "2026-10-29T10:28:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1348",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1347,
-      "title": "[Feat] Support DslType protocol for Storage[T]",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T10:00:16Z",
-      "updated_at": "2026-10-29T10:00:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1347",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1336,
-      "title": "[DSL][Perf] Remove KTRACE's shared cursor and per-event atomics",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T10:04:33Z",
-      "updated_at": "2026-10-29T09:46:26Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1336",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1313,
       "title": "[Core] Replace the Fly layout implementation with the Core library",
       "author": "sjfeng1999",
@@ -71,34 +234,6 @@
       "updated_at": "2026-10-29T07:42:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1313",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1346,
-      "title": "[Kernel] Merge-back gfx950 two-stage MegaMoEV2 (A8W4/A4W4) from aiter",
-      "author": "Yaowu-Xiong",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T04:25:04Z",
-      "updated_at": "2026-10-29T07:29:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1346",
-      "labels": [
-        "multi-gpu"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1343,
-      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
-      "author": "hanli0612",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T21:00:18Z",
-      "updated_at": "2026-10-29T06:48:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
-      "labels": [
-        "ai-review"
-      ],
       "draft": false
     },
     {
@@ -154,20 +289,6 @@
       "draft": false
     },
     {
-      "number": 1332,
-      "title": "[Bugfix] Fix ROCm GPU counting and architecture fallback",
-      "author": "Qubitium",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T20:27:57Z",
-      "updated_at": "2026-10-28T13:55:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1332",
-      "labels": [
-        "ai-review"
-      ],
-      "draft": false
-    },
-    {
       "number": 1272,
       "title": "[Benchmark] fix rdna gemm benchmark option",
       "author": "ppppqp",
@@ -192,30 +313,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1318",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1338,
-      "title": "[JIT] Key compiled artifacts by the traced MLIR",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T18:17:35Z",
-      "updated_at": "2026-10-28T06:56:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1338",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1329,
-      "title": "[AOT] Add a versioned export manifest",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T13:29:57Z",
-      "updated_at": "2026-10-26T15:37:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1329",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1325,
@@ -308,18 +405,6 @@
       "draft": true
     },
     {
-      "number": 1227,
-      "title": "[Kernel][Perf] Tune RMSNorm for gfx1250: BF16 hardware conversion, early loads, small-N kernel choice",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T17:57:28Z",
-      "updated_at": "2026-10-20T23:13:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1307,
       "title": "[compiler] add schedule bank and vgpr/agpr/sgpr based flydsl llvm head",
       "author": "jli-melchior",
@@ -332,18 +417,6 @@
       "draft": false
     },
     {
-      "number": 1246,
-      "title": "[Kernel][FA] Add arch-neutral attention common, abi, philox and dispatch modules (2/8)",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T16:11:21Z",
-      "updated_at": "2026-10-18T13:16:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1246",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1296,
       "title": "[compiler] support schedule_bank/vgpr/apgr/sgpr",
       "author": "jli-melchior",
@@ -352,18 +425,6 @@
       "created_at": "2026-10-15T01:09:39Z",
       "updated_at": "2026-10-18T07:29:47Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1296",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1245,
-      "title": "[Kernel][FA] Fix ds_read_tr waitcnt hazard and stagger SCC clobber (1/8)",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T16:11:17Z",
-      "updated_at": "2026-10-18T06:09:56Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1245",
       "labels": [],
       "draft": false
     },
@@ -522,78 +583,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1274",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1252,
-      "title": "[Kernel][FA] Document the gfx950 attention kernels and the 8xD head-dim protocol (8/8)",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T16:11:44Z",
-      "updated_at": "2026-10-09T16:11:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1252",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1251,
-      "title": "[Kernel][FA] Route flydsl_flash_attn_func to the new gfx950 bf16/f16 kernels (7/8)",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T16:11:39Z",
-      "updated_at": "2026-10-09T16:11:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1251",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1250,
-      "title": "[Kernel][FA] Add gfx950 attention backward (dQ and dK/dV) ported from AOTriton 0.14 (6/8)",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T16:11:35Z",
-      "updated_at": "2026-10-09T16:11:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1250",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1249,
-      "title": "[Kernel][FA] Port gfx950 attention ALiBi, sink, paged KV, split-K and XCD swizzle to the new forward (5/8)",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T16:11:30Z",
-      "updated_at": "2026-10-09T16:11:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1249",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1248,
-      "title": "[Kernel][FA] Add the gfx950 attention forward kernel (dual-wave and wide bodies) (4/8)",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T16:11:27Z",
-      "updated_at": "2026-10-09T16:11:27Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1248",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1247,
-      "title": "[Kernel][FA] Add gfx950 attention metadata, knobs and traits config (3/8)",
-      "author": "xinyazhang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T16:11:24Z",
-      "updated_at": "2026-10-09T16:11:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1247",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1244,
@@ -1061,6 +1050,70 @@
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1347,
+      "title": "[Feat] Support DslType protocol for Storage[T]",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-29T10:00:16Z",
+      "updated_at": "2026-10-30T13:47:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1347",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1354,
+      "title": "[Misc] Bump version to 0.4.2",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-30T06:56:40Z",
+      "updated_at": "2026-10-30T08:18:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1354",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1346,
+      "title": "[Kernel] Merge-back gfx950 two-stage MegaMoEV2 (A8W4/A4W4) from aiter",
+      "author": "Yaowu-Xiong",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-29T04:25:04Z",
+      "updated_at": "2026-10-30T08:10:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1346",
+      "labels": [
+        "multi-gpu"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1238,
+      "title": "Migrate kernels tiled tdm",
+      "author": "xudoyuan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-08T06:37:06Z",
+      "updated_at": "2026-10-30T06:40:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1336,
+      "title": "[DSL][Perf] Remove KTRACE's shared cursor and per-event atomics",
+      "author": "zhiding512",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-27T10:04:33Z",
+      "updated_at": "2026-10-30T06:36:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1336",
+      "labels": [
+        "ktrace"
+      ],
       "draft": false
     },
     {
@@ -1788,54 +1841,6 @@
       "created_at": "2026-07-14T05:46:00Z",
       "updated_at": "2026-09-28T11:08:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/846",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1186,
-      "title": "Issue causal flash q-blocks longest-first",
-      "author": "RichardChamberlain1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-23T13:39:24Z",
-      "updated_at": "2026-09-28T11:01:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1186",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1207,
-      "title": "[CI] Reduce cooperative test matrix",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-28T06:29:36Z",
-      "updated_at": "2026-09-28T08:22:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1207",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 374,
-      "title": "fix: correct SwizzleAttr argument order in layout upcast/downcast",
-      "author": "kefan203",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-04-09T11:10:18Z",
-      "updated_at": "2026-09-28T07:32:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/374",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1202,
-      "title": "[AOT] Export linkable C objects and support CPU-only builds",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-26T14:12:30Z",
-      "updated_at": "2026-09-28T06:08:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1202",
       "labels": [],
       "draft": false
     }

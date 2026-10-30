@@ -1,6 +1,38 @@
 {
-  "collected_at": "2026-10-29T14:43:56Z",
+  "collected_at": "2026-10-30T14:39:51Z",
   "issues": [
+    {
+      "number": 7194,
+      "title": "[Triton] batched_gemm_afp4wfp4 outputs NaN for shape B=2 M=256 N=3584 K=2112 on gfx950",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-30T05:47:38Z",
+      "updated_at": "2026-10-30T05:57:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7194",
+      "labels": [
+        "Triton/Gluon"
+      ]
+    },
+    {
+      "number": 2157,
+      "title": "Support TheRock ROCm \u201cPython-managed\u201d install paths (non-/opt/rocm)",
+      "author": "akao-amd",
+      "state": "open",
+      "created_at": "2026-03-03T04:01:19Z",
+      "updated_at": "2026-10-29T23:57:37Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2157",
+      "labels": []
+    },
+    {
+      "number": 7099,
+      "title": "ROCm 10.1 (clang 24): 8-wave cktile blockscale GEMMs no longer inlined, 7-15x slower",
+      "author": "Rohan138",
+      "state": "open",
+      "created_at": "2026-10-28T15:40:26Z",
+      "updated_at": "2026-10-29T22:09:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7099",
+      "labels": []
+    },
     {
       "number": 7158,
       "title": "FlyDSL a8w4 MoE stage 1 `t32x128x256_w{2,3,4}_gui_fp8` is nondeterministic: rows 16-31 of a 32-row sorted block get corrupted 4x16 patches (shipped DeepSeek-V4 tuned rows 256/512/1024)",
@@ -19,16 +51,6 @@
       "created_at": "2026-10-29T09:37:36Z",
       "updated_at": "2026-10-29T09:37:36Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7150",
-      "labels": []
-    },
-    {
-      "number": 7099,
-      "title": "ROCm 10.1 (clang 24): 8-wave cktile blockscale GEMMs no longer inlined, 7-15x slower",
-      "author": "Rohan138",
-      "state": "open",
-      "created_at": "2026-10-28T15:40:26Z",
-      "updated_at": "2026-10-28T15:40:26Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7099",
       "labels": []
     },
     {
@@ -2952,16 +2974,6 @@
       "created_at": "2026-04-03T18:11:06Z",
       "updated_at": "2026-04-03T18:11:06Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2614",
-      "labels": []
-    },
-    {
-      "number": 2157,
-      "title": "Support TheRock ROCm \u201cPython-managed\u201d install paths (non-/opt/rocm)",
-      "author": "akao-amd",
-      "state": "open",
-      "created_at": "2026-03-03T04:01:19Z",
-      "updated_at": "2026-04-03T08:14:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2157",
       "labels": []
     },
     {
