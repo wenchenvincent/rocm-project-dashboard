@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-10-30T14:40:06Z",
+  "collected_at": "2026-10-31T13:58:45Z",
   "prs": [
+    {
+      "number": 1349,
+      "title": "[LLVM] Add gfx1250-strict , xnack- and sched_gpr/sched_bank feature",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T00:38:51Z",
+      "updated_at": "2026-10-31T07:38:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1349",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1350,
+      "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T04:48:52Z",
+      "updated_at": "2026-10-31T05:53:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1352,
+      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
+      "author": "edjson",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T05:46:30Z",
+      "updated_at": "2026-10-30T17:09:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 1355,
       "title": "[Misc] Publish FlyDSL skills as a Claude Code plugin",
@@ -64,30 +100,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1338",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1350,
-      "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T04:48:52Z",
-      "updated_at": "2026-10-30T06:15:31Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1352,
-      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
-      "author": "edjson",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T05:46:30Z",
-      "updated_at": "2026-10-30T05:46:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1250,
@@ -182,18 +194,6 @@
       "created_at": "2026-10-09T16:11:17Z",
       "updated_at": "2026-10-30T05:13:30Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1245",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1349,
-      "title": "[LLVM] Add gfx1250-strict , xnack- and sched_gpr/sched_bank feature",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T00:38:51Z",
-      "updated_at": "2026-10-30T02:42:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1349",
       "labels": [],
       "draft": false
     },

@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-10-30T14:40:01Z",
+  "collected_at": "2026-10-31T13:58:41Z",
   "prs": [
+    {
+      "number": 779,
+      "title": "feat(umbp): BatchTouch, so callers can report KV hits served by an upper tier",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T16:14:26Z",
+      "updated_at": "2026-10-31T13:07:12Z",
+      "html_url": "https://github.com/ROCm/mori/pull/779",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 843,
       "title": "Wide ep tuning",
@@ -8,8 +20,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-26T07:07:44Z",
-      "updated_at": "2026-10-30T14:36:48Z",
+      "updated_at": "2026-10-31T09:16:32Z",
       "html_url": "https://github.com/ROCm/mori/pull/843",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 878,
+      "title": "fix(cco): drain SDMA queues on a device word, not the host read pointer",
+      "author": "AMD-yanfeiwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T09:20:45Z",
+      "updated_at": "2026-10-31T08:53:18Z",
+      "html_url": "https://github.com/ROCm/mori/pull/878",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 870,
+      "title": "feat(umbp): calibrate CPU, GPU, RDMA and SSD transfers",
+      "author": "wuyl1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-29T07:10:49Z",
+      "updated_at": "2026-10-31T05:23:27Z",
+      "html_url": "https://github.com/ROCm/mori/pull/870",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 796,
+      "title": "test(ep/v1): verify every round of --cmd stress for InterNodeV1/V1LL",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-17T06:00:45Z",
+      "updated_at": "2026-10-31T03:16:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/796",
       "labels": [],
       "draft": false
     },
@@ -20,20 +68,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-27T16:34:37Z",
-      "updated_at": "2026-10-30T14:29:33Z",
+      "updated_at": "2026-10-30T22:54:57Z",
       "html_url": "https://github.com/ROCm/mori/pull/860",
       "labels": [],
       "draft": false
     },
     {
-      "number": 876,
-      "title": "fix(EPv2): clamp the untuned flydsl combine block count to the xdb flag slots",
-      "author": "kawhil-amd",
+      "number": 881,
+      "title": "perf(EPv2/gfx1250): dispatch rows for EP4 hidden 2048 topk 8",
+      "author": "Boss2002n",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-30T07:58:36Z",
-      "updated_at": "2026-10-30T12:42:39Z",
-      "html_url": "https://github.com/ROCm/mori/pull/876",
+      "created_at": "2026-10-30T21:14:12Z",
+      "updated_at": "2026-10-30T21:14:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/881",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 868,
+      "title": "a2a_gemm: all-to-all fused into the fp8 GEMM that consumes it",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T16:02:24Z",
+      "updated_at": "2026-10-30T14:41:12Z",
+      "html_url": "https://github.com/ROCm/mori/pull/868",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 695,
+      "title": "gemm_a2a: fuse a column-sharded all-to-all into the fp8 GEMM epilogue",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T02:29:47Z",
+      "updated_at": "2026-10-30T14:41:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/695",
       "labels": [],
       "draft": false
     },
@@ -48,42 +120,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/880",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 862,
-      "title": "feat(umbp): simulate storage and local/peer KV transfers",
-      "author": "wuyl1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T03:55:53Z",
-      "updated_at": "2026-10-30T10:20:23Z",
-      "html_url": "https://github.com/ROCm/mori/pull/862",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 779,
-      "title": "feat(umbp): BatchTouch, so callers can report KV hits served by an upper tier",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T16:14:26Z",
-      "updated_at": "2026-10-30T10:17:39Z",
-      "html_url": "https://github.com/ROCm/mori/pull/779",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 878,
-      "title": "fix(cco): drain SDMA queues on a device word, not the host read pointer",
-      "author": "AMD-yanfeiwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T09:20:45Z",
-      "updated_at": "2026-10-30T09:30:46Z",
-      "html_url": "https://github.com/ROCm/mori/pull/878",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 845,
@@ -146,30 +182,6 @@
       "draft": false
     },
     {
-      "number": 868,
-      "title": "a2a_gemm: all-to-all fused into the fp8 GEMM that consumes it",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T16:02:24Z",
-      "updated_at": "2026-10-30T07:10:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/868",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 870,
-      "title": "feat(umbp): calibrate CPU, GPU, RDMA and SSD transfers",
-      "author": "wuyl1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T07:10:49Z",
-      "updated_at": "2026-10-30T06:44:43Z",
-      "html_url": "https://github.com/ROCm/mori/pull/870",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 856,
       "title": "feat(umbp): lay the standalone server's ranged scratch out by NUMA node",
       "author": "isytwu",
@@ -214,18 +226,6 @@
       "created_at": "2026-10-28T07:24:11Z",
       "updated_at": "2026-10-29T12:58:04Z",
       "html_url": "https://github.com/ROCm/mori/pull/865",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 796,
-      "title": "test(ep/v1): verify every round of --cmd stress for InterNodeV1/V1LL",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-17T06:00:45Z",
-      "updated_at": "2026-10-29T10:48:49Z",
-      "html_url": "https://github.com/ROCm/mori/pull/796",
       "labels": [],
       "draft": false
     },
@@ -286,18 +286,6 @@
       "created_at": "2026-10-29T04:42:21Z",
       "updated_at": "2026-10-29T04:42:21Z",
       "html_url": "https://github.com/ROCm/mori/pull/869",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 695,
-      "title": "gemm_a2a: fuse a column-sharded all-to-all into the fp8 GEMM epilogue",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T02:29:47Z",
-      "updated_at": "2026-10-29T04:12:45Z",
-      "html_url": "https://github.com/ROCm/mori/pull/695",
       "labels": [],
       "draft": false
     },
@@ -898,6 +886,30 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 876,
+      "title": "fix(EPv2): clamp the untuned flydsl combine block count to the xdb flag slots",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-30T07:58:36Z",
+      "updated_at": "2026-10-31T07:58:25Z",
+      "html_url": "https://github.com/ROCm/mori/pull/876",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 862,
+      "title": "feat(umbp): simulate storage and local/peer KV transfers",
+      "author": "wuyl1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T03:55:53Z",
+      "updated_at": "2026-10-31T03:11:30Z",
+      "html_url": "https://github.com/ROCm/mori/pull/862",
       "labels": [],
       "draft": false
     },
@@ -1896,30 +1908,6 @@
       "created_at": "2026-08-31T11:14:37Z",
       "updated_at": "2026-10-12T13:20:50Z",
       "html_url": "https://github.com/ROCm/mori/pull/623",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 703,
-      "title": "refactor(EPv2): replace per-module __device__ staging with shared buffer",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-23T11:26:55Z",
-      "updated_at": "2026-10-12T10:32:06Z",
-      "html_url": "https://github.com/ROCm/mori/pull/703",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 737,
-      "title": "perf(EPv2/gfx1250): retune EP4 topk-9 fp4 combine; un-shadow the topk-9 dispatch row",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-10T07:02:12Z",
-      "updated_at": "2026-10-12T06:29:58Z",
-      "html_url": "https://github.com/ROCm/mori/pull/737",
       "labels": [],
       "draft": false
     }

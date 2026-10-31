@@ -1,30 +1,30 @@
 {
-  "collected_at": "2026-10-30T14:41:21Z",
+  "collected_at": "2026-10-31T14:00:04Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 328,
-      "merged": 188,
-      "closed": 69
+      "opened": 324,
+      "merged": 184,
+      "closed": 68
     },
     "last_week": {
-      "opened": 227,
-      "merged": 135,
-      "closed": 118
+      "opened": 238,
+      "merged": 137,
+      "closed": 117
     },
     "median_time_to_merge_hours": 90.0,
-    "merge_count": 328,
-    "stale_prs": 44
+    "merge_count": 326,
+    "stale_prs": 46
   },
   "contributors": {
-    "active_this_week": 238,
-    "total_contributors": 325,
+    "active_this_week": 240,
+    "total_contributors": 326,
     "top_contributors": [
       {
         "author": "Boss2002n",
-        "prs_submitted": 22,
-        "prs_merged": 7,
+        "prs_submitted": 23,
+        "prs_merged": 8,
         "commits": 48
       },
       {
@@ -32,6 +32,12 @@
         "prs_submitted": 18,
         "prs_merged": 2,
         "commits": 4
+      },
+      {
+        "author": "yuychang",
+        "prs_submitted": 14,
+        "prs_merged": 6,
+        "commits": 9
       },
       {
         "author": "rahulbatra85",
@@ -52,10 +58,10 @@
         "commits": 1
       },
       {
-        "author": "yuychang",
-        "prs_submitted": 12,
-        "prs_merged": 6,
-        "commits": 9
+        "author": "zufayu",
+        "prs_submitted": 11,
+        "prs_merged": 3,
+        "commits": 8
       },
       {
         "author": "RElbers",
@@ -64,36 +70,30 @@
         "commits": 1
       },
       {
-        "author": "zufayu",
-        "prs_submitted": 11,
-        "prs_merged": 3,
-        "commits": 8
-      },
-      {
         "author": "JiaoliangYu",
         "prs_submitted": 11,
         "prs_merged": 1,
         "commits": 3
       },
       {
-        "author": "XiaobingSuper",
+        "author": "yzhou103",
         "prs_submitted": 9,
-        "prs_merged": 1,
-        "commits": 10
+        "prs_merged": 0,
+        "commits": 6
       }
     ],
-    "bus_factor": 11
+    "bus_factor": 10
   },
   "issue_health": {
-    "total_open": 416,
-    "opened_this_week": 12,
-    "closed_this_week": 8,
+    "total_open": 417,
+    "opened_this_week": 13,
+    "closed_this_week": 9,
     "unanswered": 222
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 4.3,
+    "days_since_last": 5.2,
     "avg_interval_days": 7.0,
     "total_releases": 5,
     "latest_tag": "v0.1.27"

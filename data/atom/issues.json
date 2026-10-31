@@ -1,13 +1,13 @@
 {
-  "collected_at": "2026-10-30T14:39:58Z",
+  "collected_at": "2026-10-31T13:58:38Z",
   "issues": [
     {
       "number": 2864,
-      "title": "Tracking: DeepSeek V4.1 API compatibility and DSpark feature qualification",
+      "title": "V4.1 compatibility: API completion, beta endpoints, and image support",
       "author": "ZhangLirong-amd",
       "state": "open",
       "created_at": "2026-10-30T13:20:22Z",
-      "updated_at": "2026-10-30T14:13:54Z",
+      "updated_at": "2026-10-31T04:38:48Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2864",
       "labels": []
     },

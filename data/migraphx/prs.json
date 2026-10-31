@@ -1,6 +1,155 @@
 {
-  "collected_at": "2026-10-30T14:39:27Z",
+  "collected_at": "2026-10-31T13:58:09Z",
   "prs": [
+    {
+      "number": 5439,
+      "title": "KV cache attention flash decoding",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T22:04:33Z",
+      "updated_at": "2026-10-31T02:43:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5448,
+      "title": "Check runtime dependent ops for symbol simplification",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T21:53:47Z",
+      "updated_at": "2026-10-30T22:41:15Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5448",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5394,
+      "title": "Split/symbolic reshape parsing",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:57:36Z",
+      "updated_at": "2026-10-30T21:07:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5450,
+      "title": "Combined data dependent support branches",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:55:48Z",
+      "updated_at": "2026-10-30T20:59:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5459,
+      "title": "Avoid stack overflow for deep recursion in the fix combinator",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T15:28:15Z",
+      "updated_at": "2026-10-30T19:39:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5459",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5366,
+      "title": "Hoist submodule scratch memory into the parent in memory coloring",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T20:32:30Z",
+      "updated_at": "2026-10-30T18:36:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5405,
+      "title": "Gate MLIR attention fusion on profitability and enable it by default",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:39:05Z",
+      "updated_at": "2026-10-30T18:35:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5405",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5431,
+      "title": "Improve select_module perf",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T18:09:15Z",
+      "updated_at": "2026-10-30T18:31:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5431",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5462,
+      "title": "Bump RocMlirTriton with triton_amd_codegen library",
+      "author": "ilango100",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T16:43:40Z",
+      "updated_at": "2026-10-30T17:30:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5463,
+      "title": "Onnxruntime Weekly Sync 2026-10-30",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T17:12:51Z",
+      "updated_at": "2026-10-30T17:12:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5463",
+      "labels": [
+        "onnxruntime",
+        "dependencies",
+        "skip bot checks",
+        "automated"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5274,
+      "title": "Winograd fp16 gfx11",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T14:28:32Z",
+      "updated_at": "2026-10-30T16:45:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5274",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5461,
+      "title": "Expand concat inputs without a recursive fold to cut compile time",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T15:46:14Z",
+      "updated_at": "2026-10-30T16:33:13Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5461",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5458,
       "title": "Fix GPU codegen layout pinning and deep-graph stack overflows",
@@ -8,7 +157,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-30T02:34:31Z",
-      "updated_at": "2026-10-30T14:27:42Z",
+      "updated_at": "2026-10-30T15:51:39Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5458",
       "labels": [],
       "draft": false
@@ -24,42 +173,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5447",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5431,
-      "title": "Improve select_module perf",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T18:09:15Z",
-      "updated_at": "2026-10-30T04:01:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5431",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5389,
-      "title": "Add simplify symbolic dimensions pass & simplify min/max symbolic expressions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:05:55Z",
-      "updated_at": "2026-10-29T23:51:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5450,
-      "title": "Combined data dependent support branches",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T14:55:48Z",
-      "updated_at": "2026-10-29T22:36:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5455,
@@ -150,34 +263,6 @@
       "draft": false
     },
     {
-      "number": 5453,
-      "title": "Disable hiprtc subprocess spawning fix",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T16:00:06Z",
-      "updated_at": "2026-10-29T17:06:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5453",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5454,
-      "title": "Insert match::opaque into deep matchers to fix slow build time on windows",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T16:06:58Z",
-      "updated_at": "2026-10-29T14:25:07Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5454",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
       "number": 5449,
       "title": "Fix lowering for eval_expr_from_shape",
       "author": "shivadbhavsar",
@@ -214,18 +299,6 @@
       "draft": true
     },
     {
-      "number": 5274,
-      "title": "Winograd fp16 gfx11",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T14:28:32Z",
-      "updated_at": "2026-10-28T19:46:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5274",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5161,
       "title": "Enable fp16 winograd on gfx1151",
       "author": "weizhu12-amd",
@@ -250,18 +323,6 @@
       "draft": false
     },
     {
-      "number": 5394,
-      "title": "Split/symbolic reshape parsing",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:36Z",
-      "updated_at": "2026-10-28T15:15:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5414,
       "title": "Share loaded modules between identical code objects",
       "author": "pfultz2",
@@ -272,30 +333,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5414",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5393,
-      "title": "Evaluate compound symbolic shape expressions",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:16Z",
-      "updated_at": "2026-10-28T05:15:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5393",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5448,
-      "title": "Check runtime dependent ops for symbol simplification",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T21:53:47Z",
-      "updated_at": "2026-10-27T21:53:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5448",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5426,
@@ -324,18 +361,6 @@
       "draft": false
     },
     {
-      "number": 5439,
-      "title": "KV cache attention flash decoding",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T22:04:33Z",
-      "updated_at": "2026-10-27T00:04:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5413,
       "title": "Preserve arg-reduction axes during reshape fusion",
       "author": "royzhang-amd",
@@ -356,18 +381,6 @@
       "created_at": "2026-08-30T19:21:08Z",
       "updated_at": "2026-10-25T19:08:09Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5219",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5366,
-      "title": "Hoist submodule scratch memory into the parent in memory coloring",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T20:32:30Z",
-      "updated_at": "2026-10-25T18:53:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
       "labels": [],
       "draft": false
     },
@@ -416,18 +429,6 @@
       "created_at": "2026-10-21T15:52:50Z",
       "updated_at": "2026-10-23T23:08:22Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5417",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5405,
-      "title": "Gate MLIR attention fusion on profitability and enable it by default",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T19:39:05Z",
-      "updated_at": "2026-10-23T22:10:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5405",
       "labels": [],
       "draft": false
     },
@@ -1665,6 +1666,58 @@
       "draft": true
     },
     {
+      "number": 5393,
+      "title": "Evaluate compound symbolic shape expressions",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T19:57:16Z",
+      "updated_at": "2026-10-30T23:01:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5393",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5389,
+      "title": "Add simplify symbolic dimensions pass & simplify min/max symbolic expressions",
+      "author": "CharlieL7",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-13T19:05:55Z",
+      "updated_at": "2026-10-30T20:53:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5389",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5454,
+      "title": "Insert match::opaque into deep matchers to fix slow build time on windows",
+      "author": "pnikolic-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T16:06:58Z",
+      "updated_at": "2026-10-30T15:17:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5454",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5453,
+      "title": "Disable hiprtc subprocess spawning fix",
+      "author": "pnikolic-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T16:00:06Z",
+      "updated_at": "2026-10-30T15:17:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5453",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
       "number": 5451,
       "title": "fix: make PR review dashboard resilient to GraphQL timeouts",
       "author": "causten",
@@ -2520,57 +2573,6 @@
       "created_at": "2026-07-08T15:04:29Z",
       "updated_at": "2026-10-06T21:02:03Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5050",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5049,
-      "title": "Prevent propagate_precision from removing fp8 converts",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-08T14:45:49Z",
-      "updated_at": "2026-10-06T19:01:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5049",
-      "labels": [
-        "bugfix",
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5338,
-      "title": "Add support for quantized add",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-30T18:01:25Z",
-      "updated_at": "2026-10-06T18:48:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5338",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5315,
-      "title": "Fuse GQA attention with attention sinks",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-24T22:48:41Z",
-      "updated_at": "2026-10-06T18:47:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5315",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4990,
-      "title": "Add backend options",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-18T17:30:13Z",
-      "updated_at": "2026-10-06T15:30:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4990",
       "labels": [],
       "draft": false
     }

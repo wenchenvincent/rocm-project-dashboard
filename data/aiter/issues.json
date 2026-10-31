@@ -1,6 +1,50 @@
 {
-  "collected_at": "2026-10-30T14:39:51Z",
+  "collected_at": "2026-10-31T13:58:31Z",
   "issues": [
+    {
+      "number": 7241,
+      "title": "FlyDSL int32 overflow in grouped_gemm_mxfp4 arena_handle on gfx1250 EP4 DSR1",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-10-31T00:49:18Z",
+      "updated_at": "2026-10-31T08:55:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7241",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-10-31T07:20:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 4604,
+      "title": "gfx1100 (RDNA3, W7900) works via Triton path but vLLM integration never enables it \u2014 confirm roadmap status",
+      "author": "okone1995",
+      "state": "open",
+      "created_at": "2026-08-06T09:43:05Z",
+      "updated_at": "2026-10-31T05:37:40Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4604",
+      "labels": []
+    },
+    {
+      "number": 7240,
+      "title": "RFC: Versioned Kernel Provider Interface for AITER",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-30T23:10:45Z",
+      "updated_at": "2026-10-30T23:10:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7240",
+      "labels": []
+    },
     {
       "number": 7194,
       "title": "[Triton] batched_gemm_afp4wfp4 outputs NaN for shape B=2 M=256 N=3584 K=2112 on gfx950",
@@ -21,16 +65,6 @@
       "created_at": "2026-03-03T04:01:19Z",
       "updated_at": "2026-10-29T23:57:37Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2157",
-      "labels": []
-    },
-    {
-      "number": 7099,
-      "title": "ROCm 10.1 (clang 24): 8-wave cktile blockscale GEMMs no longer inlined, 7-15x slower",
-      "author": "Rohan138",
-      "state": "open",
-      "created_at": "2026-10-28T15:40:26Z",
-      "updated_at": "2026-10-29T22:09:45Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7099",
       "labels": []
     },
     {
@@ -84,18 +118,6 @@
       "updated_at": "2026-10-27T16:38:18Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6062",
       "labels": []
-    },
-    {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-10-27T15:37:53Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
     },
     {
       "number": 7025,
@@ -1947,16 +1969,6 @@
       "created_at": "2026-07-29T12:20:26Z",
       "updated_at": "2026-08-08T19:22:17Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4437",
-      "labels": []
-    },
-    {
-      "number": 4604,
-      "title": "gfx1100 (RDNA3, W7900) works via Triton path but vLLM integration never enables it \u2014 confirm roadmap status",
-      "author": "okone1995",
-      "state": "open",
-      "created_at": "2026-08-06T09:43:05Z",
-      "updated_at": "2026-08-08T02:45:14Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4604",
       "labels": []
     },
     {
