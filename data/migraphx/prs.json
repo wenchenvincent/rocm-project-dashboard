@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-10-31T13:58:09Z",
+  "collected_at": "2026-11-01T14:35:02Z",
   "prs": [
+    {
+      "number": 5464,
+      "title": "Ensure hermetic builds",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-01T02:05:32Z",
+      "updated_at": "2026-11-01T12:43:28Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5464",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5459,
+      "title": "Avoid stack overflow for deep recursion in the fix combinator",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T15:28:15Z",
+      "updated_at": "2026-10-31T18:36:31Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5459",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5457,
+      "title": "[AIMIGRAPHX-595] NVFP4 E4M3-scaled GEMM on gfx1250",
+      "author": "anupsing-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-29T16:00:47Z",
+      "updated_at": "2026-10-31T17:52:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5457",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5461,
+      "title": "Expand concat inputs without a recursive fold to cut compile time",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T15:46:14Z",
+      "updated_at": "2026-10-31T17:55:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5461",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5439,
       "title": "KV cache attention flash decoding",
@@ -48,18 +96,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5459,
-      "title": "Avoid stack overflow for deep recursion in the fix combinator",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T15:28:15Z",
-      "updated_at": "2026-10-30T19:39:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5459",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5366,
@@ -139,18 +175,6 @@
       "draft": false
     },
     {
-      "number": 5461,
-      "title": "Expand concat inputs without a recursive fold to cut compile time",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T15:46:14Z",
-      "updated_at": "2026-10-30T16:33:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5461",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5458,
       "title": "Fix GPU codegen layout pinning and deep-graph stack overflows",
       "author": "cliffcai",
@@ -209,18 +233,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5373",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5457,
-      "title": "[AIMIGRAPHX-595] NVFP4 E4M3-scaled GEMM on gfx1250",
-      "author": "anupsing-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T16:00:47Z",
-      "updated_at": "2026-10-29T19:29:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5457",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5169,

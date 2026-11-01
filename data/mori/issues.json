@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-31T13:58:42Z",
+  "collected_at": "2026-11-01T14:35:35Z",
   "issues": [
     {
       "number": 879,
@@ -12,16 +12,6 @@
       "labels": [
         "enhancement"
       ]
-    },
-    {
-      "number": 877,
-      "title": "cco: quiet / quietQueue spin on the SDMA read pointer, which is in host memory, slowing concurrent kernels by ~25%",
-      "author": "AMD-yanfeiwang",
-      "state": "open",
-      "created_at": "2026-10-30T09:01:04Z",
-      "updated_at": "2026-10-30T09:20:52Z",
-      "html_url": "https://github.com/ROCm/mori/issues/877",
-      "labels": []
     },
     {
       "number": 873,

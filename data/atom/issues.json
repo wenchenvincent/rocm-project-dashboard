@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-10-31T13:58:38Z",
+  "collected_at": "2026-11-01T14:35:31Z",
   "issues": [
+    {
+      "number": 2879,
+      "title": "[Perf Regression] 49 config(s) regressed @ d246797d",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-01T09:13:52Z",
+      "updated_at": "2026-11-01T09:13:52Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2879",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2875,
+      "title": "[Perf Regression] 16 config(s) regressed @ 43eed2fd",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-31T22:45:12Z",
+      "updated_at": "2026-10-31T22:45:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2875",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 2864,
       "title": "V4.1 compatibility: API completion, beta endpoints, and image support",

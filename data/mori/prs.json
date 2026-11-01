@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-10-31T13:58:41Z",
+  "collected_at": "2026-11-01T14:35:33Z",
   "prs": [
+    {
+      "number": 880,
+      "title": "feat(cco): enable SDMA broadcast + poll_regmem packets on gfx1250",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T12:21:46Z",
+      "updated_at": "2026-11-01T12:46:06Z",
+      "html_url": "https://github.com/ROCm/mori/pull/880",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 884,
+      "title": "feat(umbp): move remote ranged I/O straight between registered GPU memory and a peer's tier",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-01T05:43:15Z",
+      "updated_at": "2026-11-01T05:43:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/884",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 881,
+      "title": "perf(EPv2/gfx1250): dispatch rows for EP4 hidden 2048 topk 8",
+      "author": "Boss2002n",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T21:14:12Z",
+      "updated_at": "2026-10-31T18:09:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/881",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 883,
+      "title": "feat(umbp): lease ranged scratch slices by size instead of fixed shards",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-31T15:17:53Z",
+      "updated_at": "2026-10-31T15:17:53Z",
+      "html_url": "https://github.com/ROCm/mori/pull/883",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 779,
       "title": "feat(umbp): BatchTouch, so callers can report KV hits served by an upper tier",
@@ -8,32 +56,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-15T16:14:26Z",
-      "updated_at": "2026-10-31T13:07:12Z",
+      "updated_at": "2026-10-31T15:13:54Z",
       "html_url": "https://github.com/ROCm/mori/pull/779",
       "labels": [],
       "draft": true
     },
     {
-      "number": 843,
-      "title": "Wide ep tuning",
-      "author": "zhangfei829",
+      "number": 882,
+      "title": "feat(umbp): BatchTouch refreshes the SSD tier's eviction order",
+      "author": "isytwu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-26T07:07:44Z",
-      "updated_at": "2026-10-31T09:16:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/843",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 878,
-      "title": "fix(cco): drain SDMA queues on a device word, not the host read pointer",
-      "author": "AMD-yanfeiwang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T09:20:45Z",
-      "updated_at": "2026-10-31T08:53:18Z",
-      "html_url": "https://github.com/ROCm/mori/pull/878",
+      "created_at": "2026-10-31T15:13:22Z",
+      "updated_at": "2026-10-31T15:13:22Z",
+      "html_url": "https://github.com/ROCm/mori/pull/882",
       "labels": [],
       "draft": true
     },
@@ -74,18 +110,6 @@
       "draft": false
     },
     {
-      "number": 881,
-      "title": "perf(EPv2/gfx1250): dispatch rows for EP4 hidden 2048 topk 8",
-      "author": "Boss2002n",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T21:14:12Z",
-      "updated_at": "2026-10-30T21:14:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/881",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 868,
       "title": "a2a_gemm: all-to-all fused into the fp8 GEMM that consumes it",
       "author": "yangyuhuiling",
@@ -106,18 +130,6 @@
       "created_at": "2026-09-22T02:29:47Z",
       "updated_at": "2026-10-30T14:41:10Z",
       "html_url": "https://github.com/ROCm/mori/pull/695",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 880,
-      "title": "feat(cco): enable SDMA broadcast + poll_regmem packets on gfx1250",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T12:21:46Z",
-      "updated_at": "2026-10-30T12:21:46Z",
-      "html_url": "https://github.com/ROCm/mori/pull/880",
       "labels": [],
       "draft": false
     },
@@ -886,6 +898,18 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 843,
+      "title": "Wide ep tuning",
+      "author": "zhangfei829",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-26T07:07:44Z",
+      "updated_at": "2026-10-31T13:59:42Z",
+      "html_url": "https://github.com/ROCm/mori/pull/843",
       "labels": [],
       "draft": false
     },
@@ -1896,18 +1920,6 @@
       "created_at": "2026-08-19T10:39:07Z",
       "updated_at": "2026-10-12T13:36:42Z",
       "html_url": "https://github.com/ROCm/mori/pull/583",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 623,
-      "title": "fix(sdma): key SDMA queues on KFD node id instead of HIP device ordinal",
-      "author": "pemeliya",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-31T11:14:37Z",
-      "updated_at": "2026-10-12T13:20:50Z",
-      "html_url": "https://github.com/ROCm/mori/pull/623",
       "labels": [],
       "draft": false
     }

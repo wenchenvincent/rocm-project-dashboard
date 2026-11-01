@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-10-31T13:58:45Z",
+  "collected_at": "2026-11-01T14:35:37Z",
   "prs": [
+    {
+      "number": 1338,
+      "title": "[JIT] Key compiled artifacts by the traced MLIR",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T18:17:35Z",
+      "updated_at": "2026-11-01T11:18:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1338",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1352,
+      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
+      "author": "edjson",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T05:46:30Z",
+      "updated_at": "2026-11-01T02:51:48Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1288,
+      "title": "[Feat] Support warp exchange with layout",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T05:40:42Z",
+      "updated_at": "2026-11-01T00:58:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1288",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1349,
       "title": "[LLVM] Add gfx1250-strict , xnack- and sched_gpr/sched_bank feature",
@@ -22,18 +58,6 @@
       "created_at": "2026-10-30T04:48:52Z",
       "updated_at": "2026-10-31T05:53:44Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1352,
-      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
-      "author": "edjson",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T05:46:30Z",
-      "updated_at": "2026-10-30T17:09:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
       "labels": [],
       "draft": true
     },
@@ -86,18 +110,6 @@
       "created_at": "2026-10-29T10:19:03Z",
       "updated_at": "2026-10-30T07:31:20Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1348",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1338,
-      "title": "[JIT] Key compiled artifacts by the traced MLIR",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T18:17:35Z",
-      "updated_at": "2026-10-30T06:56:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1338",
       "labels": [],
       "draft": false
     },
@@ -233,18 +245,6 @@
       "created_at": "2026-10-20T09:17:43Z",
       "updated_at": "2026-10-29T07:42:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1313",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1288,
-      "title": "[Feat] Support warp exchange with layout",
-      "author": "ppppqp",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T05:40:42Z",
-      "updated_at": "2026-10-29T05:04:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1288",
       "labels": [],
       "draft": false
     },

@@ -1,48 +1,48 @@
 {
-  "collected_at": "2026-10-31T13:59:26Z",
+  "collected_at": "2026-11-01T14:36:19Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 62,
-      "merged": 60,
+      "opened": 60,
+      "merged": 58,
       "closed": 0
     },
     "last_week": {
-      "opened": 15,
+      "opened": 18,
       "merged": 0,
       "closed": 0
     },
-    "median_time_to_merge_hours": 72.1,
-    "merge_count": 60,
+    "median_time_to_merge_hours": 88.2,
+    "merge_count": 58,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 69,
-    "total_contributors": 69,
+    "active_this_week": 73,
+    "total_contributors": 73,
     "top_contributors": [
       {
-        "author": "mickqian",
+        "author": "OnePunchMonk",
         "prs_submitted": 7,
-        "prs_merged": 5,
-        "commits": 0
-      },
-      {
-        "author": "yuychang",
-        "prs_submitted": 6,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "ispobock",
-        "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "hnyls2002",
-        "prs_submitted": 4,
         "prs_merged": 4,
+        "commits": 0
+      },
+      {
+        "author": "DarkSharpness",
+        "prs_submitted": 6,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "ShangmingCai",
+        "prs_submitted": 5,
+        "prs_merged": 4,
+        "commits": 0
+      },
+      {
+        "author": "mickqian",
+        "prs_submitted": 4,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -52,33 +52,33 @@
         "commits": 0
       },
       {
-        "author": "AkiYangDev",
-        "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "Codoge",
-        "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "OnePunchMonk",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "omirosh",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
         "author": "akhilg-nv",
         "prs_submitted": 3,
         "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "EricKing626",
+        "prs_submitted": 3,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "yuychang",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "hnyls2002",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "ispobock",
+        "prs_submitted": 3,
+        "prs_merged": 3,
         "commits": 0
       }
     ],
@@ -86,28 +86,28 @@
   },
   "issue_health": {
     "total_open": 55,
-    "opened_this_week": 12,
-    "closed_this_week": 102,
-    "unanswered": 9
+    "opened_this_week": 10,
+    "closed_this_week": 101,
+    "unanswered": 11
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 8,
-      "failed": 10,
-      "success_rate": 40.0
+      "succeeded": 7,
+      "failed": 11,
+      "success_rate": 35.0
     },
     "cuda": {
       "total_runs": 20,
       "succeeded": 0,
-      "failed": 19,
+      "failed": 18,
       "success_rate": 0.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 714.9,
+      "median_minutes": 687.9,
       "p90_minutes": 1617.7,
       "min_minutes": 17.9,
       "max_minutes": 1933.3
@@ -115,13 +115,13 @@
     "cuda": {
       "sample_size": 20,
       "median_minutes": 0.7,
-      "p90_minutes": 1.1,
-      "min_minutes": 0.6,
-      "max_minutes": 11.8
+      "p90_minutes": 39.6,
+      "min_minutes": 0.1,
+      "max_minutes": 64.7
     }
   },
   "release_cadence": {
-    "days_since_last": 12.5,
+    "days_since_last": 13.5,
     "avg_interval_days": 14.5,
     "total_releases": 5,
     "latest_tag": "v0.5.22"
