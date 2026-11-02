@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-11-01T14:35:37Z",
+  "collected_at": "2026-11-02T17:31:42Z",
   "prs": [
     {
-      "number": 1338,
-      "title": "[JIT] Key compiled artifacts by the traced MLIR",
-      "author": "sjfeng1999",
+      "number": 1361,
+      "title": "[DSL] Speed up tracing by caching op source positions",
+      "author": "RElbers",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-27T18:17:35Z",
-      "updated_at": "2026-11-01T11:18:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1338",
+      "created_at": "2026-11-02T15:45:18Z",
+      "updated_at": "2026-11-02T16:19:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1361",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1360,
+      "title": "[DSL] Reuse the AST rewrite when a kernel factory is built again",
+      "author": "RElbers",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T12:32:14Z",
+      "updated_at": "2026-11-02T14:50:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1360",
       "labels": [],
       "draft": false
     },
@@ -20,8 +32,68 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-30T05:46:30Z",
-      "updated_at": "2026-11-01T02:51:48Z",
+      "updated_at": "2026-11-02T14:02:38Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1192,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-24T15:48:52Z",
+      "updated_at": "2026-11-02T13:51:50Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1192",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1359,
+      "title": "[Bugfix] Name inline struct types from a digest that is the same in every process",
+      "author": "RElbers",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T10:51:44Z",
+      "updated_at": "2026-11-02T12:53:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1359",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1216,
+      "title": "[Kernel] Add dense Flash Attention for gfx1100",
+      "author": "vlluvia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-30T07:22:21Z",
+      "updated_at": "2026-11-02T07:20:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1216",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1222,
+      "title": "[Build][JIT] Support core-only ROCm SDK environments",
+      "author": "apinge",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T10:40:54Z",
+      "updated_at": "2026-11-02T02:12:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1222",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1338,
+      "title": "[JIT] Key compiled artifacts by the traced MLIR",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T18:17:35Z",
+      "updated_at": "2026-11-01T11:18:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1338",
       "labels": [],
       "draft": false
     },
@@ -38,18 +110,6 @@
       "draft": false
     },
     {
-      "number": 1349,
-      "title": "[LLVM] Add gfx1250-strict , xnack- and sched_gpr/sched_bank feature",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T00:38:51Z",
-      "updated_at": "2026-10-31T07:38:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1349",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1350,
       "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
       "author": "xudoyuan",
@@ -60,20 +120,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1355,
-      "title": "[Misc] Publish FlyDSL skills as a Claude Code plugin",
-      "author": "fsx950223",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T08:20:03Z",
-      "updated_at": "2026-10-30T13:53:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1355",
-      "labels": [
-        "ai-review"
-      ],
-      "draft": false
     },
     {
       "number": 1332,
@@ -98,18 +144,6 @@
       "created_at": "2026-10-06T17:57:28Z",
       "updated_at": "2026-10-30T09:07:36Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1348,
-      "title": "[Refactor] Organize GLM mono-kernel stages and shared tools",
-      "author": "james-huang09",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T10:19:03Z",
-      "updated_at": "2026-10-30T07:31:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1348",
       "labels": [],
       "draft": false
     },
@@ -263,18 +297,6 @@
       "draft": false
     },
     {
-      "number": 1216,
-      "title": "[Kernel] Add dense Flash Attention for gfx1100",
-      "author": "vlluvia",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T07:22:21Z",
-      "updated_at": "2026-10-28T16:27:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1216",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1295,
       "title": "[Debug] Support device assert",
       "author": "ppppqp",
@@ -337,18 +359,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1326",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1192,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-24T15:48:52Z",
-      "updated_at": "2026-10-22T20:34:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1192",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1277,
@@ -617,18 +627,6 @@
       "created_at": "2026-10-08T10:59:07Z",
       "updated_at": "2026-10-08T22:32:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1239",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1222,
-      "title": "[Build][JIT] Support core-only ROCm SDK environments",
-      "author": "apinge",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T10:40:54Z",
-      "updated_at": "2026-10-08T05:15:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1222",
       "labels": [],
       "draft": false
     },
@@ -1050,6 +1048,44 @@
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1348,
+      "title": "[Refactor] Organize GLM mono-kernel stages and shared tools",
+      "author": "james-huang09",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-29T10:19:03Z",
+      "updated_at": "2026-11-02T09:42:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1348",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1349,
+      "title": "[LLVM] Add gfx1250-strict , xnack- and sched_gpr/sched_bank feature",
+      "author": "jli-melchior",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-30T00:38:51Z",
+      "updated_at": "2026-11-02T08:49:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1349",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1355,
+      "title": "[Misc] Publish FlyDSL skills as a Claude Code plugin",
+      "author": "fsx950223",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-30T08:20:03Z",
+      "updated_at": "2026-11-02T08:43:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1355",
+      "labels": [
+        "ai-review"
+      ],
       "draft": false
     },
     {
@@ -1805,42 +1841,6 @@
       "created_at": "2026-09-25T01:06:22Z",
       "updated_at": "2026-09-28T14:14:45Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1195",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1204,
-      "title": "[Kernel][Perf] Add GLM-5 and Kimi-K3 MonoKernels",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-27T01:07:43Z",
-      "updated_at": "2026-09-28T14:13:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1204",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1208,
-      "title": "[Fix][Examples] Remove duplicated k-stride computation in preshuffle GEMM example",
-      "author": "yicyang",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-28T07:22:19Z",
-      "updated_at": "2026-09-28T13:13:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1208",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 846,
-      "title": "[Docs] Remove duplicate Documentation table from README",
-      "author": "Peter9606",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T05:46:00Z",
-      "updated_at": "2026-09-28T11:08:08Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/846",
       "labels": [],
       "draft": false
     }

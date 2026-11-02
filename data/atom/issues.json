@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-01T14:35:31Z",
+  "collected_at": "2026-11-02T17:31:34Z",
   "issues": [
+    {
+      "number": 2911,
+      "title": "[Issue]: ATOM_TORCH_PROFILER_DIR is ignored when the server is started without --torch-profiler-dir",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-02T14:12:39Z",
+      "updated_at": "2026-11-02T14:12:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2911",
+      "labels": []
+    },
+    {
+      "number": 2892,
+      "title": "Qwen3.8-Flash-Next-Quark-MXFP4 with -dp 2 (TP1, MTP 3): ModelRunner dies in PLE compute_ngram_ids (ngram_context shape mismatch) near the end of GSM8K, reproduces on main",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-02T03:05:13Z",
+      "updated_at": "2026-11-02T03:05:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2892",
+      "labels": []
+    },
     {
       "number": 2879,
       "title": "[Perf Regression] 49 config(s) regressed @ d246797d",

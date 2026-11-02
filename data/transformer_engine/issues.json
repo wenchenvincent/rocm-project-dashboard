@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-01T14:35:41Z",
+  "collected_at": "2026-11-02T17:31:48Z",
   "issues": [
+    {
+      "number": 790,
+      "title": "Triton RMSNorm autotune picks differ across processes and ranks, so the numerics differ; no knob pins or disables them",
+      "author": "jbelofamd",
+      "state": "open",
+      "created_at": "2026-11-02T12:03:11Z",
+      "updated_at": "2026-11-02T12:03:11Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/issues/790",
+      "labels": []
+    },
     {
       "number": 693,
       "title": "CP LSE merge switches compiled variants on ROCm, breaking forward reproducibility",

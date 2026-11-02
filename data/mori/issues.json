@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-01T14:35:35Z",
+  "collected_at": "2026-11-02T17:31:39Z",
   "issues": [
+    {
+      "number": 897,
+      "title": "MORI-IO: XGMI CreateSession returns nullopt across processes on GPUs without an XGMI hive (PCIe-only)",
+      "author": "akshayv",
+      "state": "open",
+      "created_at": "2026-11-02T16:15:51Z",
+      "updated_at": "2026-11-02T16:15:51Z",
+      "html_url": "https://github.com/ROCm/mori/issues/897",
+      "labels": []
+    },
+    {
+      "number": 873,
+      "title": "MORI-IO: bounded TransferStatus::WaitFor(timeout) sleeps until the timeout on XGMI (and FABRIC) transfers",
+      "author": "lixiufei-leo",
+      "state": "open",
+      "created_at": "2026-10-29T13:52:01Z",
+      "updated_at": "2026-11-01T17:42:53Z",
+      "html_url": "https://github.com/ROCm/mori/issues/873",
+      "labels": []
+    },
     {
       "number": 879,
       "title": "UMBP: let callers report upper-tier KV hits so DRAM eviction sees real reuse",
@@ -12,16 +32,6 @@
       "labels": [
         "enhancement"
       ]
-    },
-    {
-      "number": 873,
-      "title": "MORI-IO: bounded TransferStatus::WaitFor(timeout) sleeps until the timeout on XGMI (and FABRIC) transfers",
-      "author": "lixiufei-leo",
-      "state": "open",
-      "created_at": "2026-10-29T13:52:01Z",
-      "updated_at": "2026-10-29T13:52:01Z",
-      "html_url": "https://github.com/ROCm/mori/issues/873",
-      "labels": []
     },
     {
       "number": 811,

@@ -1,15 +1,51 @@
 {
-  "collected_at": "2026-11-01T14:35:02Z",
+  "collected_at": "2026-11-02T17:30:52Z",
   "prs": [
     {
-      "number": 5464,
-      "title": "Ensure hermetic builds",
+      "number": 5048,
+      "title": "Preserve shape ops when removing QDQ pairs",
+      "author": "ikalinic",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-08T14:22:24Z",
+      "updated_at": "2026-11-02T16:18:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5466,
+      "title": "Add MXR retargeting: keep kernel recipes and retune compiled programs",
+      "author": "anilmartha",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T11:05:56Z",
+      "updated_at": "2026-11-02T16:10:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5466",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5465,
+      "title": "Check that the static driver can run standalone",
       "author": "pfultz2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-01T02:05:32Z",
-      "updated_at": "2026-11-01T12:43:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5464",
+      "created_at": "2026-11-01T16:03:23Z",
+      "updated_at": "2026-11-02T15:42:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5465",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5462,
+      "title": "Bump RocMlirTriton with triton_amd_codegen library",
+      "author": "ilango100",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T16:43:40Z",
+      "updated_at": "2026-11-02T15:28:13Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
       "labels": [],
       "draft": false
     },
@@ -20,8 +56,56 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-30T15:28:15Z",
-      "updated_at": "2026-10-31T18:36:31Z",
+      "updated_at": "2026-11-02T15:03:43Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5459",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5299,
+      "title": "chore: add security scanning workflows",
+      "author": "haribabug",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T18:08:00Z",
+      "updated_at": "2026-11-02T13:22:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5299",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5169,
+      "title": "fix(security): spawn processes directly instead of through popen",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:11:47Z",
+      "updated_at": "2026-11-01T17:20:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5169",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5227,
+      "title": "fix: enable Linux build hardening flags and CI checksec gate",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:51:09Z",
+      "updated_at": "2026-11-01T16:25:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5227",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5170,
+      "title": "fix(security): harden Python driver/codegen tools",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:11:49Z",
+      "updated_at": "2026-11-01T16:12:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5170",
       "labels": [],
       "draft": false
     },
@@ -134,18 +218,6 @@
       "draft": false
     },
     {
-      "number": 5462,
-      "title": "Bump RocMlirTriton with triton_amd_codegen library",
-      "author": "ilango100",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T16:43:40Z",
-      "updated_at": "2026-10-30T17:30:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5463,
       "title": "Onnxruntime Weekly Sync 2026-10-30",
       "author": "github-actions[bot]",
@@ -160,18 +232,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 5274,
-      "title": "Winograd fp16 gfx11",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T14:28:32Z",
-      "updated_at": "2026-10-30T16:45:30Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5274",
-      "labels": [],
       "draft": false
     },
     {
@@ -235,18 +295,6 @@
       "draft": false
     },
     {
-      "number": 5169,
-      "title": "fix(security): spawn processes directly instead of through popen",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:11:47Z",
-      "updated_at": "2026-10-29T18:30:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5169",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5433,
       "title": "Bump gitpython from 3.1.62 to 3.2.1 in /docs/sphinx",
       "author": "dependabot[bot]",
@@ -287,18 +335,6 @@
       "draft": true
     },
     {
-      "number": 5170,
-      "title": "fix(security): harden Python driver/codegen tools",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:11:49Z",
-      "updated_at": "2026-10-28T21:44:35Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5170",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5295,
       "title": "Suggest license changes as well",
       "author": "pfultz2",
@@ -319,18 +355,6 @@
       "created_at": "2026-08-21T02:40:12Z",
       "updated_at": "2026-10-28T18:28:00Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5161",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5227,
-      "title": "fix: enable Linux build hardening flags and CI checksec gate",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:51:09Z",
-      "updated_at": "2026-10-28T16:12:27Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5227",
       "labels": [],
       "draft": false
     },
@@ -369,18 +393,6 @@
       "created_at": "2026-10-23T07:40:48Z",
       "updated_at": "2026-10-27T03:03:17Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5425",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5413,
-      "title": "Preserve arg-reduction axes during reshape fusion",
-      "author": "royzhang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T07:44:18Z",
-      "updated_at": "2026-10-26T14:01:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5413",
       "labels": [],
       "draft": false
     },
@@ -474,18 +486,6 @@
       "draft": false
     },
     {
-      "number": 5299,
-      "title": "chore: add security scanning workflows",
-      "author": "haribabug",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T18:08:00Z",
-      "updated_at": "2026-10-22T20:29:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5299",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5419,
       "title": "Sink the view chain onto pointwise inputs so flat-layout kv-cache appends fuse",
       "author": "pfultz2",
@@ -570,18 +570,6 @@
         "claude-review"
       ],
       "draft": true
-    },
-    {
-      "number": 5048,
-      "title": "Preserve shape ops when removing QDQ pairs",
-      "author": "ikalinic",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T14:22:24Z",
-      "updated_at": "2026-10-06T15:43:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5281,
@@ -1678,6 +1666,42 @@
       "draft": true
     },
     {
+      "number": 5274,
+      "title": "Winograd fp16 gfx11",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-09-17T14:28:32Z",
+      "updated_at": "2026-11-02T14:50:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5274",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5413,
+      "title": "Preserve arg-reduction axes during reshape fusion",
+      "author": "royzhang-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-20T07:44:18Z",
+      "updated_at": "2026-11-02T14:49:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5413",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5464,
+      "title": "Ensure hermetic builds",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-01T02:05:32Z",
+      "updated_at": "2026-11-01T16:36:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5464",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5393,
       "title": "Evaluate compound symbolic shape expressions",
       "author": "CharlieL7",
@@ -2549,42 +2573,6 @@
       "created_at": "2026-09-27T22:41:25Z",
       "updated_at": "2026-10-07T17:38:04Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5324",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5175,
-      "title": "Gpu concat kernel improvements",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-23T20:19:24Z",
-      "updated_at": "2026-10-07T17:35:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5175",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5344,
-      "title": "Update CI for 10.1",
-      "author": "eddieliao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-01T00:20:39Z",
-      "updated_at": "2026-10-07T14:23:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5344",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5050,
-      "title": "update before installing",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-08T15:04:29Z",
-      "updated_at": "2026-10-06T21:02:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5050",
       "labels": [],
       "draft": false
     }
