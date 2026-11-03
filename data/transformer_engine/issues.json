@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-02T17:31:48Z",
+  "collected_at": "2026-11-03T15:33:46Z",
   "issues": [
     {
       "number": 790,
@@ -7,7 +7,7 @@
       "author": "jbelofamd",
       "state": "open",
       "created_at": "2026-11-02T12:03:11Z",
-      "updated_at": "2026-11-02T12:03:11Z",
+      "updated_at": "2026-11-02T21:21:21Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/issues/790",
       "labels": []
     },

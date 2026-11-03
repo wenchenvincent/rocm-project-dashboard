@@ -1,6 +1,81 @@
 {
-  "collected_at": "2026-11-02T17:31:42Z",
+  "collected_at": "2026-11-03T15:33:41Z",
   "prs": [
+    {
+      "number": 1350,
+      "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T04:48:52Z",
+      "updated_at": "2026-11-03T10:20:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1352,
+      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
+      "author": "edjson",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T05:46:30Z",
+      "updated_at": "2026-11-03T08:06:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1343,
+      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
+      "author": "hanli0612",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T21:00:18Z",
+      "updated_at": "2026-11-03T07:44:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
+      "labels": [
+        "ai-review",
+        "ktrace"
+      ],
+      "draft": false
+    },
+    {
+      "number": 986,
+      "title": "[Kernel] Fix single-accumulator RDNA3 GEMM tiles",
+      "author": "skyguan92",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T05:12:22Z",
+      "updated_at": "2026-11-03T04:43:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/986",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 901,
+      "title": "Add Optimized MoE Routing Path",
+      "author": "amd-wsung102",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-24T19:56:02Z",
+      "updated_at": "2026-11-03T04:27:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1234,
+      "title": "[Kernel]feat(dsv4): add the DeepSeek-V4 decode MonoKernel",
+      "author": "amd-weisun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T12:39:34Z",
+      "updated_at": "2026-11-02T20:27:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1234",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1361,
       "title": "[DSL] Speed up tracing by caching op source positions",
@@ -8,7 +83,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-02T15:45:18Z",
-      "updated_at": "2026-11-02T16:19:04Z",
+      "updated_at": "2026-11-02T19:23:02Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1361",
       "labels": [],
       "draft": false
@@ -20,20 +95,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-02T12:32:14Z",
-      "updated_at": "2026-11-02T14:50:56Z",
+      "updated_at": "2026-11-02T19:11:07Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1360",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1352,
-      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
-      "author": "edjson",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T05:46:30Z",
-      "updated_at": "2026-11-02T14:02:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
       "labels": [],
       "draft": false
     },
@@ -108,18 +171,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1288",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1350,
-      "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T04:48:52Z",
-      "updated_at": "2026-10-31T05:53:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1332,
@@ -241,21 +292,6 @@
       "updated_at": "2026-10-30T05:13:30Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1245",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1343,
-      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
-      "author": "hanli0612",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T21:00:18Z",
-      "updated_at": "2026-10-29T18:02:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
-      "labels": [
-        "ai-review",
-        "ktrace"
-      ],
       "draft": false
     },
     {
@@ -607,18 +643,6 @@
       "draft": true
     },
     {
-      "number": 1234,
-      "title": "[Kernel]feat(dsv4): add the DeepSeek-V4 decode MonoKernel",
-      "author": "amd-weisun",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T12:39:34Z",
-      "updated_at": "2026-10-09T09:11:58Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1234",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1239,
       "title": "[Windows] Add native ROCm JIT support",
       "author": "Yasei-no-otoko",
@@ -931,18 +955,6 @@
       "draft": false
     },
     {
-      "number": 901,
-      "title": "Add Optimized MoE Routing Path",
-      "author": "amd-wsung102",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-24T19:56:02Z",
-      "updated_at": "2026-10-28T16:09:29Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/901",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1045,
       "title": "[Bugfix] Refuse a batch entry the buffer descriptor cannot address",
       "author": "JohnQin-llm",
@@ -975,18 +987,6 @@
       "created_at": "2026-07-30T00:34:52Z",
       "updated_at": "2026-08-18T19:27:57Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/924",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 986,
-      "title": "[Kernel] Fix single-accumulator RDNA3 GEMM tiles",
-      "author": "skyguan92",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T05:12:22Z",
-      "updated_at": "2026-08-18T07:35:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/986",
       "labels": [],
       "draft": false
     },
@@ -1047,6 +1047,18 @@
       "created_at": "2026-07-23T06:04:11Z",
       "updated_at": "2026-07-23T14:46:08Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/886",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1362,
+      "title": "[Bugfix] Restore gfx1250-strict chipset parse and SMEM mapping",
+      "author": "jli-melchior",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-03T03:28:52Z",
+      "updated_at": "2026-11-03T05:47:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1362",
       "labels": [],
       "draft": false
     },
@@ -1829,18 +1841,6 @@
       "created_at": "2026-09-26T15:27:47Z",
       "updated_at": "2026-09-29T08:07:42Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1203",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1195,
-      "title": "[JIT] Attach exactly one #rocdl.target per gpu.module",
-      "author": "mustafayildirim",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-25T01:06:22Z",
-      "updated_at": "2026-09-28T14:14:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1195",
       "labels": [],
       "draft": false
     }

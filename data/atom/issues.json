@@ -1,13 +1,69 @@
 {
-  "collected_at": "2026-11-02T17:31:34Z",
+  "collected_at": "2026-11-03T15:33:32Z",
   "issues": [
+    {
+      "number": 2950,
+      "title": "[Perf Regression] 15 config(s) regressed @ 974414f1",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-03T12:19:44Z",
+      "updated_at": "2026-11-03T12:19:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2950",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2712,
+      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-26T06:28:03Z",
+      "updated_at": "2026-11-03T03:28:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
+      "labels": []
+    },
+    {
+      "number": 2931,
+      "title": "[Perf Regression] 13 config(s) regressed @ 974414f1",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-03T00:17:38Z",
+      "updated_at": "2026-11-03T00:17:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2931",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2928,
+      "title": "[Issue]: Native sampler shares one exponential-noise row across all unfiltered stochastic rows of a batch (ordinary n=1 requests)",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-02T19:51:54Z",
+      "updated_at": "2026-11-02T20:23:05Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2928",
+      "labels": []
+    },
+    {
+      "number": 2926,
+      "title": "[Issue]: Compile cache is shared by models that differ only in layer count or widths, so the second model loads the wrong artifact and fails at load",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-02T19:47:48Z",
+      "updated_at": "2026-11-02T20:23:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2926",
+      "labels": []
+    },
     {
       "number": 2911,
       "title": "[Issue]: ATOM_TORCH_PROFILER_DIR is ignored when the server is started without --torch-profiler-dir",
       "author": "yelkhamra",
       "state": "open",
       "created_at": "2026-11-02T14:12:39Z",
-      "updated_at": "2026-11-02T14:12:39Z",
+      "updated_at": "2026-11-02T20:22:57Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2911",
       "labels": []
     },
@@ -105,16 +161,6 @@
       "created_at": "2026-10-29T06:05:24Z",
       "updated_at": "2026-10-30T08:19:41Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2811",
-      "labels": []
-    },
-    {
-      "number": 2712,
-      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-26T06:28:03Z",
-      "updated_at": "2026-10-30T02:39:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
       "labels": []
     },
     {

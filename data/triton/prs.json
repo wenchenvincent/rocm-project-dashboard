@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-11-02T17:30:48Z",
+  "collected_at": "2026-11-03T15:32:45Z",
   "prs": [
+    {
+      "number": 12593,
+      "title": "[AMD][CDNA5] Emulate descriptor reductions with global atomics",
+      "author": "nzaghen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T19:48:54Z",
+      "updated_at": "2026-11-03T14:26:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12593",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12604,
+      "title": "[AMD][gfx1250] Keep whole-line epilogue stores for WMMA",
+      "author": "reger-men",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T13:36:56Z",
+      "updated_at": "2026-11-03T13:37:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12604",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 10694,
+      "title": "[AMD] Use operand-major LDS layout for FMA dot operands",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-22T13:49:28Z",
+      "updated_at": "2026-11-03T13:29:14Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/10694",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 12177,
       "title": "[AMD] Add FP16-accumulate WMMA support for WMMAv3",
@@ -8,10 +44,142 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-08T15:52:46Z",
-      "updated_at": "2026-11-02T16:40:13Z",
+      "updated_at": "2026-11-03T11:40:27Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12177",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 11704,
+      "title": "[AMD] Bypass the epilogue relayout for FMA",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-11T10:26:29Z",
+      "updated_at": "2026-11-03T11:21:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11704",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12572,
+      "title": "[GPU] Reject generic linear encodings on non-AMD targets",
+      "author": "losewayy",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-31T18:11:55Z",
+      "updated_at": "2026-11-03T10:22:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12572",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12601,
+      "title": "[AMD] Fix exponential traversal in pointer canonicalization",
+      "author": "leonling-ll",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-03T03:55:47Z",
+      "updated_at": "2026-11-03T06:53:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12601",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12579,
+      "title": "[AMD] Widen InstCombine's SimplifyDemandedVectorElts walk depth",
+      "author": "Dewei-Wang-sh",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-02T04:27:36Z",
+      "updated_at": "2026-11-03T06:25:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12579",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 8304,
+      "title": "[AMD] Support float8_e5m2 in tutorials/03-matrix-multiplication.py for gfx950",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2025-09-26T21:15:00Z",
+      "updated_at": "2026-11-03T05:06:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/8304",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12149,
+      "title": "[AMD][Gluon] Add CDNA5 WMMA issue mode control",
+      "author": "nithinsubbiah",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T23:24:15Z",
+      "updated_at": "2026-11-03T01:36:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12149",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12595,
+      "title": "Fix Python header include order in AMD HIP utilities",
+      "author": "rikonor",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-03T00:07:11Z",
+      "updated_at": "2026-11-03T01:22:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12595",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12522,
+      "title": "[AMD] Fix TDM mbarrier arrival accounting",
+      "author": "justinrosner",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-27T17:46:22Z",
+      "updated_at": "2026-11-03T00:59:17Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12522",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12596,
+      "title": "[AMD] Fix TDM copies to and from shared memory subviews",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T00:25:32Z",
+      "updated_at": "2026-11-03T00:30:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12596",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 9533,
+      "title": "[AMD] Update default to `block_m=16` in `make_default_opt_flags_amd`",
+      "author": "micah-wil",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-02-20T21:11:04Z",
+      "updated_at": "2026-11-02T22:34:25Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/9533",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12594,
+      "title": "[AMD] Use buffer-index analysis for warp-pipeline dependencies",
+      "author": "jungpark-mlir",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-02T19:51:08Z",
+      "updated_at": "2026-11-02T22:25:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12594",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 12547,
@@ -38,18 +206,6 @@
       "draft": false
     },
     {
-      "number": 12572,
-      "title": "[GPU] Reject generic linear encodings on non-AMD targets",
-      "author": "losewayy",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-31T18:11:55Z",
-      "updated_at": "2026-11-02T09:26:28Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12572",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12587,
       "title": "[AMD] Add warp_pipeline_stage(schedule_hint=\"mfma-valu\") and delay=N for gfx950",
       "author": "zhanglx13",
@@ -60,18 +216,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12587",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12579,
-      "title": "[AMD] Widen InstCombine's SimplifyDemandedVectorElts walk depth",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T04:27:36Z",
-      "updated_at": "2026-11-02T04:37:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12579",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 10733,
@@ -118,18 +262,6 @@
       "created_at": "2026-10-27T04:02:00Z",
       "updated_at": "2026-10-31T00:46:49Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12512",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12522,
-      "title": "[AMD] Fix TDM mbarrier arrival accounting",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T17:46:22Z",
-      "updated_at": "2026-10-30T22:21:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12522",
       "labels": [],
       "draft": false
     },
@@ -422,42 +554,6 @@
       "draft": false
     },
     {
-      "number": 12493,
-      "title": "[AMD][Gluon] Add buffer.atomic_load and buffer.atomic_store",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-25T21:13:32Z",
-      "updated_at": "2026-10-26T20:11:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12493",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12492,
-      "title": "[AMD] Speed up SW fp8e4nv -> fp16 upcast with packed fmul",
-      "author": "ptrojahn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-25T20:54:38Z",
-      "updated_at": "2026-10-26T19:56:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12492",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12500,
-      "title": "[AMD] Support scaled mfma 3d case",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-26T16:07:37Z",
-      "updated_at": "2026-10-26T18:03:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12500",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12273,
       "title": "[AMD][ConSan] Handle mixed-direction partial async-copy waits",
       "author": "PMylon",
@@ -466,66 +562,6 @@
       "created_at": "2026-10-13T18:04:42Z",
       "updated_at": "2026-10-26T17:26:23Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12273",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12477,
-      "title": "[AMD] Fix WMMA operands whose kWidth spans several instructions",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-23T16:41:08Z",
-      "updated_at": "2026-10-26T16:41:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12477",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12478,
-      "title": "[AMD][GLUON] Deprecate load_shared_relaxed",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-23T20:20:08Z",
-      "updated_at": "2026-10-26T16:03:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12478",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12345,
-      "title": "[AMD][Gluon] Add buffer descriptors and descriptor-based buffer ops",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-18T02:44:47Z",
-      "updated_at": "2026-10-25T20:23:00Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12345",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12471,
-      "title": "[AMD] Build llvm @05e432a for CodeGen",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-23T11:09:19Z",
-      "updated_at": "2026-10-24T23:36:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12471",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12480,
-      "title": "[AMD] Enable IEEE maximum/minimum for RDNA4",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-24T05:37:54Z",
-      "updated_at": "2026-10-24T15:56:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12480",
       "labels": [],
       "draft": false
     },
@@ -662,30 +698,6 @@
       "draft": false
     },
     {
-      "number": 12149,
-      "title": "[AMD][Gluon] Add CDNA5 WMMA issue mode control",
-      "author": "nithinsubbiah",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T23:24:15Z",
-      "updated_at": "2026-10-07T07:00:50Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12149",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11068,
-      "title": "[AMD] Propagate discardable attributes on the small-tensor pointer path",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-28T09:39:52Z",
-      "updated_at": "2026-10-02T09:37:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11068",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12060,
       "title": "[AMD] Avoid redundant batch warps in dot layouts",
       "author": "pculaf",
@@ -706,18 +718,6 @@
       "created_at": "2026-09-29T07:51:40Z",
       "updated_at": "2026-09-29T09:14:07Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12020",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 11704,
-      "title": "[AMD] Bypass the epilogue relayout for FMA",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-11T10:26:29Z",
-      "updated_at": "2026-09-24T12:36:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11704",
       "labels": [],
       "draft": true
     }

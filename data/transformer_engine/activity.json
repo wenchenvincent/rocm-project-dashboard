@@ -1,20 +1,20 @@
 {
-  "collected_at": "2026-11-02T17:35:57Z",
+  "collected_at": "2026-11-03T15:37:53Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
-      "opened": 9,
+      "opened": 11,
       "merged": 4,
       "closed": 1
     },
     "last_week": {
-      "opened": 12,
-      "merged": 9,
+      "opened": 9,
+      "merged": 6,
       "closed": 2
     },
-    "median_time_to_merge_hours": 68.9,
-    "merge_count": 13,
+    "median_time_to_merge_hours": 106.6,
+    "merge_count": 10,
     "stale_prs": 0
   },
   "contributors": {
@@ -23,7 +23,7 @@
     "top_contributors": [
       {
         "author": "matthiasdiener",
-        "prs_submitted": 30,
+        "prs_submitted": 32,
         "prs_merged": 16,
         "commits": 3
       },
@@ -34,16 +34,16 @@
         "commits": 4
       },
       {
-        "author": "VeeraRajasekhar",
-        "prs_submitted": 14,
-        "prs_merged": 8,
-        "commits": 1
-      },
-      {
         "author": "AllenFarcas",
         "prs_submitted": 14,
         "prs_merged": 10,
         "commits": 4
+      },
+      {
+        "author": "VeeraRajasekhar",
+        "prs_submitted": 14,
+        "prs_merged": 8,
+        "commits": 1
       },
       {
         "author": "Micky774",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 3.8,
+    "days_since_last": 4.7,
     "avg_interval_days": 37.0,
     "total_releases": 5,
     "latest_tag": "v2.18_rocm"
