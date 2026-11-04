@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-03T15:32:46Z",
+  "collected_at": "2026-11-04T15:49:47Z",
   "issues": [
     {
       "number": 12116,
@@ -54,18 +54,6 @@
       "updated_at": "2026-09-21T20:50:48Z",
       "html_url": "https://github.com/triton-lang/triton/issues/11883",
       "labels": []
-    },
-    {
-      "number": 11327,
-      "title": "AMD compilation crash in TritonAMDGPUPrepareIfCombining",
-      "author": "O1iveira7",
-      "state": "open",
-      "created_at": "2026-08-16T07:22:39Z",
-      "updated_at": "2026-08-18T05:57:14Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/11327",
-      "labels": [
-        "bug"
-      ]
     },
     {
       "number": 10962,

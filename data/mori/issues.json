@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-03T15:33:37Z",
+  "collected_at": "2026-11-04T15:50:26Z",
   "issues": [
+    {
+      "number": 811,
+      "title": "RFC [feature] : MORI RAS: per-process reliability, availability, and serviceability runtime",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-10-20T00:13:08Z",
+      "updated_at": "2026-11-04T14:57:35Z",
+      "html_url": "https://github.com/ROCm/mori/issues/811",
+      "labels": []
+    },
+    {
+      "number": 914,
+      "title": "TransferStatus turns failed before all WRs of the transfer have drained; no way to wait for quiescence",
+      "author": "maning00",
+      "state": "open",
+      "created_at": "2026-11-04T04:12:00Z",
+      "updated_at": "2026-11-04T04:12:00Z",
+      "html_url": "https://github.com/ROCm/mori/issues/914",
+      "labels": []
+    },
     {
       "number": 905,
       "title": "[Issue]: mlx5 DEVX path programs the peer NIC's own MAC as destination MAC; cross-node EP hangs on routed (L3) RoCE fabrics",
@@ -52,16 +72,6 @@
       "labels": [
         "enhancement"
       ]
-    },
-    {
-      "number": 811,
-      "title": "RFC [feature] : MORI RAS: per-process reliability, availability, and serviceability runtime",
-      "author": "i-chaochen",
-      "state": "open",
-      "created_at": "2026-10-20T00:13:08Z",
-      "updated_at": "2026-10-28T01:41:26Z",
-      "html_url": "https://github.com/ROCm/mori/issues/811",
-      "labels": []
     },
     {
       "number": 732,
@@ -283,16 +293,6 @@
       "created_at": "2025-10-10T02:02:58Z",
       "updated_at": "2025-10-17T05:52:03Z",
       "html_url": "https://github.com/ROCm/mori/issues/82",
-      "labels": []
-    },
-    {
-      "number": 81,
-      "title": "Maybe a bug code in repository",
-      "author": "gaoren002",
-      "state": "open",
-      "created_at": "2025-10-04T04:22:12Z",
-      "updated_at": "2025-10-10T12:25:15Z",
-      "html_url": "https://github.com/ROCm/mori/issues/81",
       "labels": []
     },
     {

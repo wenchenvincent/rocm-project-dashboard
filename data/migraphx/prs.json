@@ -1,6 +1,216 @@
 {
-  "collected_at": "2026-11-03T15:32:50Z",
+  "collected_at": "2026-11-04T15:49:50Z",
   "prs": [
+    {
+      "number": 5476,
+      "title": "Optimize repeated-row dot broadcasts to reduce MXR size and memory usage",
+      "author": "urpetkov-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T11:06:22Z",
+      "updated_at": "2026-11-04T15:29:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5476",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5466,
+      "title": "Add MXR recompiling: keep kernel recipes and recompile compiled programs",
+      "author": "anilmartha",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T11:05:56Z",
+      "updated_at": "2026-11-04T15:27:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5466",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5479,
+      "title": "Fold axis-linear operations on a dot input into its constant operand",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T14:46:22Z",
+      "updated_at": "2026-11-04T15:12:23Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5479",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5170,
+      "title": "fix(security): harden Python driver/codegen tools",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:11:49Z",
+      "updated_at": "2026-11-04T14:22:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5170",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5474,
+      "title": "Prevent FP16 GroupNorm overflow with float intermediates",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T09:09:47Z",
+      "updated_at": "2026-11-04T14:18:51Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5474",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5478,
+      "title": "Binary cache: store only winner if problem cache is used",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T13:56:27Z",
+      "updated_at": "2026-11-04T14:12:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5478",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5477,
+      "title": "Binary cache read only option",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T12:10:30Z",
+      "updated_at": "2026-11-04T12:10:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5477",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5475,
+      "title": "Support per-channel quantized models with expanded QDQ parameters",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T09:10:51Z",
+      "updated_at": "2026-11-04T09:10:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5475",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5414,
+      "title": "Share loaded modules between identical code objects",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T19:37:31Z",
+      "updated_at": "2026-11-04T01:55:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5414",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5366,
+      "title": "Hoist submodule scratch memory into the parent in memory coloring",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T20:32:30Z",
+      "updated_at": "2026-11-03T23:11:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5461,
+      "title": "Expand concat inputs without a recursive fold to cut compile time",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T15:46:14Z",
+      "updated_at": "2026-11-03T23:11:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5461",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5447,
+      "title": "Parse LinearAttention and fuse causal gemm-elementwise-gemm chains with rocMLIR",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T20:48:12Z",
+      "updated_at": "2026-11-03T23:06:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5447",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5394,
+      "title": "Split/symbolic reshape parsing",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:57:36Z",
+      "updated_at": "2026-11-03T20:52:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5469,
+      "title": "Check driver input names against the program parameters",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T18:04:21Z",
+      "updated_at": "2026-11-03T18:22:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5469",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5455,
+      "title": "Add post-lowering GPU copy optimization",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T22:25:24Z",
+      "updated_at": "2026-11-03T18:04:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5455",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5450,
+      "title": "Combined data dependent support branches",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:55:48Z",
+      "updated_at": "2026-11-03T17:26:17Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5439,
+      "title": "KV cache attention flash decoding",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T22:04:33Z",
+      "updated_at": "2026-11-03T16:31:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5463,
       "title": "Onnxruntime Weekly Sync 2026-10-30",
@@ -16,18 +226,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 5466,
-      "title": "Add MXR retargeting: keep kernel recipes and retune compiled programs",
-      "author": "anilmartha",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T11:05:56Z",
-      "updated_at": "2026-11-03T14:43:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5466",
-      "labels": [],
       "draft": false
     },
     {
@@ -55,30 +253,6 @@
       "draft": false
     },
     {
-      "number": 5401,
-      "title": "Support per-channel quantized models with expanded QDQ parameters",
-      "author": "royzhang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T06:00:42Z",
-      "updated_at": "2026-11-03T04:34:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5401",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5425,
-      "title": "Prevent FP16 GroupNorm overflow with float intermediates",
-      "author": "royzhang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T07:40:48Z",
-      "updated_at": "2026-11-03T04:33:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5425",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5412,
       "title": "Apply MatMulInteger zero-point corrections in int32",
       "author": "royzhang-amd",
@@ -91,18 +265,6 @@
       "draft": false
     },
     {
-      "number": 5455,
-      "title": "Add post-lowering GPU copy optimization",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T22:25:24Z",
-      "updated_at": "2026-11-03T01:39:27Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5455",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5405,
       "title": "Gate MLIR attention fusion on profitability and enable it by default",
       "author": "pfultz2",
@@ -111,18 +273,6 @@
       "created_at": "2026-10-16T19:39:05Z",
       "updated_at": "2026-11-03T01:31:55Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5405",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5447,
-      "title": "Parse LinearAttention and fuse causal gemm-elementwise-gemm chains with rocMLIR",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T20:48:12Z",
-      "updated_at": "2026-11-03T00:30:12Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5447",
       "labels": [],
       "draft": false
     },
@@ -151,54 +301,6 @@
       "draft": false
     },
     {
-      "number": 5414,
-      "title": "Share loaded modules between identical code objects",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T19:37:31Z",
-      "updated_at": "2026-11-02T21:51:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5414",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5439,
-      "title": "KV cache attention flash decoding",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T22:04:33Z",
-      "updated_at": "2026-11-02T21:15:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5394,
-      "title": "Split/symbolic reshape parsing",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:36Z",
-      "updated_at": "2026-11-02T20:11:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5450,
-      "title": "Combined data dependent support branches",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T14:55:48Z",
-      "updated_at": "2026-11-02T18:43:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5467,
       "title": "Fuse pointwise into the MLIR conv/dot that no sibling input depends on",
       "author": "pfultz2",
@@ -207,18 +309,6 @@
       "created_at": "2026-11-02T18:18:41Z",
       "updated_at": "2026-11-02T18:39:12Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5467",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5048,
-      "title": "Preserve shape ops when removing QDQ pairs",
-      "author": "ikalinic",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-08T14:22:24Z",
-      "updated_at": "2026-11-02T18:37:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
       "labels": [],
       "draft": false
     },
@@ -259,18 +349,6 @@
       "draft": false
     },
     {
-      "number": 5170,
-      "title": "fix(security): harden Python driver/codegen tools",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:11:49Z",
-      "updated_at": "2026-11-01T16:12:19Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5170",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5457,
       "title": "[AIMIGRAPHX-595] NVFP4 E4M3-scaled GEMM on gfx1250",
       "author": "anupsing-amd",
@@ -283,18 +361,6 @@
       "draft": true
     },
     {
-      "number": 5461,
-      "title": "Expand concat inputs without a recursive fold to cut compile time",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T15:46:14Z",
-      "updated_at": "2026-10-31T17:55:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5461",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5448,
       "title": "Check runtime dependent ops for symbol simplification",
       "author": "shivadbhavsar",
@@ -305,18 +371,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5448",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5366,
-      "title": "Hoist submodule scratch memory into the parent in memory coloring",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T20:32:30Z",
-      "updated_at": "2026-10-30T18:36:11Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5458,
@@ -1666,6 +1720,18 @@
       "draft": true
     },
     {
+      "number": 5048,
+      "title": "Preserve shape ops when removing QDQ pairs",
+      "author": "ikalinic",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-07-08T14:22:24Z",
+      "updated_at": "2026-11-03T23:13:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5048",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5431,
       "title": "Improve select_module perf",
       "author": "shivadbhavsar",
@@ -2494,83 +2560,6 @@
       "created_at": "2026-07-10T16:51:27Z",
       "updated_at": "2026-10-10T23:30:41Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5054",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5371,
-      "title": "Add copilot review with claude opus",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-08T21:38:38Z",
-      "updated_at": "2026-10-09T18:18:19Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5371",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5361,
-      "title": "Fix pad with non-finite value",
-      "author": "ivarusic-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-07T13:35:48Z",
-      "updated_at": "2026-10-09T14:51:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5361",
-      "labels": [
-        "bugfix",
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5368,
-      "title": "Pad nonfinite value rel 2611",
-      "author": "ivarusic-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-08T16:57:08Z",
-      "updated_at": "2026-10-08T22:01:00Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5368",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5367,
-      "title": "Revert \"Convolution_backwards group compute shape fix- #3887\"",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-08T16:17:32Z",
-      "updated_at": "2026-10-08T16:17:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5367",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4928,
-      "title": "Convolution backwards v4r1",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-01T23:41:12Z",
-      "updated_at": "2026-10-08T14:01:50Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4928",
-      "labels": [
-        "high priority"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5363,
-      "title": "Convolution_backwards group compute shape fix- #3887",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-07T17:13:06Z",
-      "updated_at": "2026-10-07T22:57:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5363",
       "labels": [],
       "draft": false
     }
