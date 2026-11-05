@@ -1,15 +1,51 @@
 {
-  "collected_at": "2026-11-04T15:50:29Z",
+  "collected_at": "2026-11-05T15:53:03Z",
   "prs": [
     {
-      "number": 1361,
-      "title": "[DSL] Speed up tracing by caching op source positions",
-      "author": "RElbers",
+      "number": 1374,
+      "title": "[Kernel] Add native RDNA4 MXFP4 \u00d7 FP8 dense GEMM",
+      "author": "big-yellow-duck",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-02T15:45:18Z",
-      "updated_at": "2026-11-04T14:25:43Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1361",
+      "created_at": "2026-11-05T14:15:24Z",
+      "updated_at": "2026-11-05T14:15:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1374",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1369,
+      "title": "[Windows] AOT export support for Windows x64",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T04:50:27Z",
+      "updated_at": "2026-11-05T10:30:54Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1369",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1264,
+      "title": "[Bugfix][gfx1250] Reject FP8 and A8W4 GEMM tiles that issue no WMMA, and test that stores stay inside N",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-11T09:12:14Z",
+      "updated_at": "2026-11-05T09:38:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1264",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1227,
+      "title": "[Kernel][Perf] Tune RMSNorm for gfx1250: BF16 hardware conversion, early loads, small-N kernel choice",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-06T17:57:28Z",
+      "updated_at": "2026-11-05T09:23:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
       "labels": [],
       "draft": false
     },
@@ -20,21 +56,100 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-04T14:00:36Z",
-      "updated_at": "2026-11-04T14:17:09Z",
+      "updated_at": "2026-11-05T08:34:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1368",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1366,
-      "title": "[Windows] Native build and ROCm JIT for Windows x64",
-      "author": "Phil-amd",
+      "number": 1343,
+      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
+      "author": "hanli0612",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-04T10:09:20Z",
-      "updated_at": "2026-11-04T10:12:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1366",
+      "created_at": "2026-10-28T21:00:18Z",
+      "updated_at": "2026-11-05T08:26:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
+      "labels": [
+        "ai-review",
+        "ktrace"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1340,
+      "title": "[WIP][feat] support gpu asan feature ",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T09:27:11Z",
+      "updated_at": "2026-11-05T08:02:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1340",
+      "labels": [
+        "WIP"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1372,
+      "title": "[Bugfix] Fix gfx1250 WMMAScale FP8 and 32x16x128 register layouts",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T07:14:20Z",
+      "updated_at": "2026-11-05T07:14:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1372",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1109,
+      "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
+      "author": "big-yellow-duck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T06:44:24Z",
+      "updated_at": "2026-11-05T06:56:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1350,
+      "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T04:48:52Z",
+      "updated_at": "2026-11-05T06:42:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1288,
+      "title": "[Feat] Support warp exchange with layout",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T05:40:42Z",
+      "updated_at": "2026-11-05T06:12:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1288",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1295,
+      "title": "[Debug] Support device assert",
+      "author": "ppppqp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T22:59:20Z",
+      "updated_at": "2026-11-05T06:12:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1295",
+      "labels": [
+        "ai-review"
+      ],
       "draft": false
     },
     {
@@ -106,18 +221,6 @@
       "draft": false
     },
     {
-      "number": 1365,
-      "title": "[Chore][Coop] Add specialization shortcut for primitives",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T07:34:59Z",
-      "updated_at": "2026-11-04T07:39:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1365",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 872,
       "title": "[Kernel] Add optimized 4-wave MXFP8 GEMM kernel for gfx950",
       "author": "aris134",
@@ -182,45 +285,6 @@
       "draft": false
     },
     {
-      "number": 1350,
-      "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T04:48:52Z",
-      "updated_at": "2026-11-03T10:20:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1352,
-      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
-      "author": "edjson",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T05:46:30Z",
-      "updated_at": "2026-11-03T08:06:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1343,
-      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
-      "author": "hanli0612",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T21:00:18Z",
-      "updated_at": "2026-11-03T07:44:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
-      "labels": [
-        "ai-review",
-        "ktrace"
-      ],
-      "draft": false
-    },
-    {
       "number": 986,
       "title": "[Kernel] Fix single-accumulator RDNA3 GEMM tiles",
       "author": "skyguan92",
@@ -245,18 +309,6 @@
       "draft": false
     },
     {
-      "number": 1360,
-      "title": "[DSL] Reuse the AST rewrite when a kernel factory is built again",
-      "author": "RElbers",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T12:32:14Z",
-      "updated_at": "2026-11-02T19:11:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1360",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1192,
       "title": "chore: add security scanning workflows",
       "author": "haribabug",
@@ -265,18 +317,6 @@
       "created_at": "2026-09-24T15:48:52Z",
       "updated_at": "2026-11-02T13:51:50Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1192",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1359,
-      "title": "[Bugfix] Name inline struct types from a digest that is the same in every process",
-      "author": "RElbers",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T10:51:44Z",
-      "updated_at": "2026-11-02T12:53:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1359",
       "labels": [],
       "draft": false
     },
@@ -293,30 +333,6 @@
       "draft": false
     },
     {
-      "number": 1338,
-      "title": "[JIT] Key compiled artifacts by the traced MLIR",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T18:17:35Z",
-      "updated_at": "2026-11-01T11:18:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1338",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1288,
-      "title": "[Feat] Support warp exchange with layout",
-      "author": "ppppqp",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T05:40:42Z",
-      "updated_at": "2026-11-01T00:58:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1288",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1332,
       "title": "[Bugfix] Fix ROCm GPU counting and architecture fallback",
       "author": "Qubitium",
@@ -328,18 +344,6 @@
       "labels": [
         "ai-review"
       ],
-      "draft": false
-    },
-    {
-      "number": 1227,
-      "title": "[Kernel][Perf] Tune RMSNorm for gfx1250: BF16 hardware conversion, early loads, small-N kernel choice",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-06T17:57:28Z",
-      "updated_at": "2026-10-30T09:07:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
-      "labels": [],
       "draft": false
     },
     {
@@ -427,18 +431,6 @@
       "draft": true
     },
     {
-      "number": 1109,
-      "title": "[DSL] Expose F32_FP8 conversion from packed_i32",
-      "author": "big-yellow-duck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T06:44:24Z",
-      "updated_at": "2026-10-29T13:21:55Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1109",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1313,
       "title": "[Core] Replace the Fly layout implementation with the Core library",
       "author": "sjfeng1999",
@@ -448,34 +440,6 @@
       "updated_at": "2026-10-29T07:42:52Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1313",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1340,
-      "title": "[WIP][feat] support gpu asan feature ",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T09:27:11Z",
-      "updated_at": "2026-10-29T02:30:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1340",
-      "labels": [
-        "WIP"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1295,
-      "title": "[Debug] Support device assert",
-      "author": "ppppqp",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T22:59:20Z",
-      "updated_at": "2026-10-28T14:00:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1295",
-      "labels": [
-        "ai-review"
-      ],
       "draft": false
     },
     {
@@ -571,30 +535,6 @@
       "draft": true
     },
     {
-      "number": 1264,
-      "title": "[Bugfix][gfx1250] Reject FP8 and A8W4 GEMM tiles that issue no WMMA, and test that stores stay inside N",
-      "author": "jhinpan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-11T09:12:14Z",
-      "updated_at": "2026-10-16T06:56:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1264",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1223,
-      "title": "[Kernel][Feature][Dialect][DSL][Perf][Doc][Test] Add gfx120x RDNA4 wave32 ops",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T16:38:35Z",
-      "updated_at": "2026-10-15T18:49:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1223",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1240,
       "title": "[Bugfix] Shared numerics, streams, and tests",
       "author": "dimitri91209",
@@ -641,18 +581,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1253",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1280,
-      "title": "[Doc] Add MI355 mono-kernel development skills",
-      "author": "james-huang09",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T02:36:15Z",
-      "updated_at": "2026-10-13T09:23:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1280",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1267,
@@ -975,6 +903,90 @@
       "created_at": "2026-07-27T23:39:08Z",
       "updated_at": "2026-07-28T17:00:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/914",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1338,
+      "title": "[JIT] Key compiled artifacts by the traced MLIR",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-27T18:17:35Z",
+      "updated_at": "2026-11-05T10:18:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1338",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1370,
+      "title": "[Misc] Bump version to 0.5.0",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T06:43:34Z",
+      "updated_at": "2026-11-05T06:45:43Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1370",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1365,
+      "title": "[Chore][Coop] Add specialization shortcut for primitives",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-04T07:34:59Z",
+      "updated_at": "2026-11-05T06:10:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1365",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1352,
+      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
+      "author": "edjson",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-30T05:46:30Z",
+      "updated_at": "2026-11-05T06:08:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1360,
+      "title": "[DSL] Reuse the AST rewrite when a kernel factory is built again",
+      "author": "RElbers",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-02T12:32:14Z",
+      "updated_at": "2026-11-05T05:54:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1360",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1366,
+      "title": "[Windows] Native build and ROCm JIT for Windows x64",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-04T10:09:20Z",
+      "updated_at": "2026-11-05T05:45:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1366",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1361,
+      "title": "[DSL] Speed up tracing by caching op source positions",
+      "author": "RElbers",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-02T15:45:18Z",
+      "updated_at": "2026-11-05T05:40:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1361",
       "labels": [],
       "draft": false
     },
@@ -1601,102 +1613,6 @@
       "created_at": "2026-10-13T06:04:01Z",
       "updated_at": "2026-10-13T07:29:25Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1283",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1275,
-      "title": "support scale nonshuffle",
-      "author": "solinzby1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-12T07:25:55Z",
-      "updated_at": "2026-10-12T14:56:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1275",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1268,
-      "title": "[DSL][Runtime] Add ktrace capture with target providers",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-11T14:58:56Z",
-      "updated_at": "2026-10-12T13:44:37Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1268",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1190,
-      "title": "[llvm] Add support for custom LLVM extensions",
-      "author": "Phil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-24T07:24:36Z",
-      "updated_at": "2026-10-12T09:30:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1190",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1258,
-      "title": "[fix] Build the zipped_divide guide from the tiler shape",
-      "author": "xudoyuan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-10T08:50:25Z",
-      "updated_at": "2026-10-12T09:20:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1258",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1261,
-      "title": "[DSL] Expose scalar buffer load API",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-10T14:54:46Z",
-      "updated_at": "2026-10-12T03:21:56Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1261",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1259,
-      "title": "[Enh] Add CompiledFunction.max_blocks_per_cu()",
-      "author": "akii96",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-10T11:56:43Z",
-      "updated_at": "2026-10-10T14:32:54Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1259",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1260,
-      "title": "[DSL] Add a category independent cute algebra framework",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-10T12:11:05Z",
-      "updated_at": "2026-10-10T14:08:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1260",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1255,
-      "title": "[Kernel]add mega moe tp kernel for gfx950",
-      "author": "binding7012",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-10T02:41:20Z",
-      "updated_at": "2026-10-10T11:28:35Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1255",
       "labels": [],
       "draft": false
     }

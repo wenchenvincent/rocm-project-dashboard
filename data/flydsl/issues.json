@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04T15:50:31Z",
+  "collected_at": "2026-11-05T15:53:04Z",
   "issues": [
     {
       "number": 1358,
@@ -56,16 +56,6 @@
       ]
     },
     {
-      "number": 1323,
-      "title": "[Bug] gfx1250 WMMAScale FP4: wrong A/B register layout breaks MXFP4 GEMM with non-uniform scales",
-      "author": "aris134",
-      "state": "open",
-      "created_at": "2026-10-23T20:45:39Z",
-      "updated_at": "2026-10-29T01:05:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1323",
-      "labels": []
-    },
-    {
       "number": 1339,
       "title": "[Codegen][gfx950] fx.copy BufferCopyLDS128b repeats loop-invariant readfirstlane and rebuilds DMA offsets",
       "author": "LuweiZhou2025",
@@ -88,16 +78,6 @@
       ]
     },
     {
-      "number": 1324,
-      "title": "[Bug] JIT manager cache key misses helpers called from nested defs or defined in another directory",
-      "author": "benenzhu",
-      "state": "open",
-      "created_at": "2026-10-25T18:41:36Z",
-      "updated_at": "2026-10-27T07:55:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1324",
-      "labels": []
-    },
-    {
       "number": 1273,
       "title": "[Issue]: gfx950: kernel spills 346 VGPRs and runs 2.2x slower after FlyDSL 0.2.4 -> 0.3.4.1 (bundled LLVM 7f77ca0d -> e2a39f50) with near-identical LLVM IR",
       "author": "HuangWei-95",
@@ -115,26 +95,6 @@
       "created_at": "2026-10-08T06:10:14Z",
       "updated_at": "2026-10-11T07:20:36Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1237",
-      "labels": []
-    },
-    {
-      "number": 1257,
-      "title": "[Issue]: source-location capture (dsl_loc_tracing) is ~55% of a cold JIT and cannot be turned off",
-      "author": "valarLip",
-      "state": "open",
-      "created_at": "2026-10-10T05:41:22Z",
-      "updated_at": "2026-10-10T05:41:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1257",
-      "labels": []
-    },
-    {
-      "number": 1206,
-      "title": "[Bug] Captured dataclass traits fields are omitted from the JIT manager cache key",
-      "author": "fsx950223",
-      "state": "open",
-      "created_at": "2026-09-28T06:06:16Z",
-      "updated_at": "2026-09-28T06:13:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1206",
       "labels": []
     },
     {
@@ -566,16 +526,6 @@
       "created_at": "2026-05-12T06:26:37Z",
       "updated_at": "2026-05-12T06:49:01Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/510",
-      "labels": []
-    },
-    {
-      "number": 453,
-      "title": "In-process JIT caches can reuse stale compiled artifacts after helper changes",
-      "author": "fsx950223",
-      "state": "open",
-      "created_at": "2026-04-29T05:16:11Z",
-      "updated_at": "2026-04-29T05:16:11Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/453",
       "labels": []
     },
     {

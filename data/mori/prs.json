@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04T15:50:25Z",
+  "collected_at": "2026-11-05T15:52:58Z",
   "prs": [
     {
       "number": 908,
@@ -8,10 +8,154 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-04T00:15:30Z",
-      "updated_at": "2026-11-04T15:27:04Z",
+      "updated_at": "2026-11-05T15:40:39Z",
       "html_url": "https://github.com/ROCm/mori/pull/908",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 860,
+      "title": "feat(ep) Add KIWI EP dispatch/combine as an optional MORI op (BUILD_OPS_KIWI)",
+      "author": "charlifu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T16:34:37Z",
+      "updated_at": "2026-11-05T15:30:36Z",
+      "html_url": "https://github.com/ROCm/mori/pull/860",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 791,
+      "title": "fix(umbp): a lookup renews the keys it finds, so eviction spares them until the load",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T14:49:29Z",
+      "updated_at": "2026-11-05T15:07:31Z",
+      "html_url": "https://github.com/ROCm/mori/pull/791",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 874,
+      "title": "feat(ep/v2): gfx1250-strict support",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-29T14:22:59Z",
+      "updated_at": "2026-11-05T11:31:22Z",
+      "html_url": "https://github.com/ROCm/mori/pull/874",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 904,
+      "title": "feat(cco): example 13 -- MegaMoE Stage1 with the dispatch on SDMA",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T09:14:57Z",
+      "updated_at": "2026-11-05T11:26:53Z",
+      "html_url": "https://github.com/ROCm/mori/pull/904",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 919,
+      "title": "feat(cco): example 14 -- the whole EP MoE layer in one persistent kernel, Stage2 on SDMA",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T03:47:49Z",
+      "updated_at": "2026-11-05T10:49:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/919",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 915,
+      "title": "feat(io): add transfer quiescence API",
+      "author": "maning00",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T07:27:06Z",
+      "updated_at": "2026-11-05T10:47:32Z",
+      "html_url": "https://github.com/ROCm/mori/pull/915",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 818,
+      "title": "[NFC] Refactor GPU vector load/store primitives and remove dead cast kernel",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T16:13:56Z",
+      "updated_at": "2026-11-05T09:15:23Z",
+      "html_url": "https://github.com/ROCm/mori/pull/818",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "opt v2 internode",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T03:05:00Z",
+      "updated_at": "2026-11-05T08:25:58Z",
+      "html_url": "https://github.com/ROCm/mori/pull/696",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 872,
+      "title": "feat(gemm-ar): BF16 GEMM + all-reduce for layers the checkpoint keeps in BF16",
+      "author": "yangyuhuiling",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-29T13:11:13Z",
+      "updated_at": "2026-11-05T08:23:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/872",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 916,
+      "title": "poc(cco): MoE quantise-and-dispatch with SDMA",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T09:03:44Z",
+      "updated_at": "2026-11-05T05:46:50Z",
+      "html_url": "https://github.com/ROCm/mori/pull/916",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 871,
+      "title": "CI: Migrate MoRI to ROCm 10.1",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-29T08:07:04Z",
+      "updated_at": "2026-11-05T03:49:25Z",
+      "html_url": "https://github.com/ROCm/mori/pull/871",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 918,
+      "title": "Perf/asyncll zero copy",
+      "author": "ChengYM5685",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T03:14:14Z",
+      "updated_at": "2026-11-05T03:14:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/918",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 816,
@@ -26,78 +170,6 @@
       "draft": true
     },
     {
-      "number": 916,
-      "title": "poc(cco): MoE quantise-and-dispatch with SDMA",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T09:03:44Z",
-      "updated_at": "2026-11-04T12:06:42Z",
-      "html_url": "https://github.com/ROCm/mori/pull/916",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 894,
-      "title": "fix(ep): fail fast for cross-node kernels on the CCO backend",
-      "author": "paklui",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T14:19:33Z",
-      "updated_at": "2026-11-04T09:37:02Z",
-      "html_url": "https://github.com/ROCm/mori/pull/894",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 915,
-      "title": "feat(io): add RDMA transfer quiescence wait",
-      "author": "maning00",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T07:27:06Z",
-      "updated_at": "2026-11-04T09:24:44Z",
-      "html_url": "https://github.com/ROCm/mori/pull/915",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 871,
-      "title": "CI: Migrate MoRI to ROCm 10.1",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T08:07:04Z",
-      "updated_at": "2026-11-04T08:39:29Z",
-      "html_url": "https://github.com/ROCm/mori/pull/871",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 696,
-      "title": "opt v2 internode",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T03:05:00Z",
-      "updated_at": "2026-11-04T08:38:03Z",
-      "html_url": "https://github.com/ROCm/mori/pull/696",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 872,
-      "title": "feat(gemm-ar): BF16 GEMM + all-reduce for layers the checkpoint keeps in BF16",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T13:11:13Z",
-      "updated_at": "2026-11-04T06:21:30Z",
-      "html_url": "https://github.com/ROCm/mori/pull/872",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 884,
       "title": "feat(umbp): move remote ranged I/O straight between registered GPU memory and a peer's tier",
       "author": "isytwu",
@@ -108,18 +180,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/884",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 892,
-      "title": "fix(ep/v2): give each AsyncLL op its own SDMA queue per peer",
-      "author": "ChengYM5685",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T13:26:53Z",
-      "updated_at": "2026-11-04T03:59:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/892",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 865,
@@ -144,18 +204,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/883",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 875,
-      "title": "fix(ep/v2): AsyncLL fused-receive deadlock under two streams; early notification by default on gfx950",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T07:38:58Z",
-      "updated_at": "2026-11-04T02:27:13Z",
-      "html_url": "https://github.com/ROCm/mori/pull/875",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 911,
@@ -206,30 +254,6 @@
       "draft": false
     },
     {
-      "number": 893,
-      "title": "fix(ep/intranode): gfx1250 IntraNodeLL hang, small-batch combine mismatch, PUSH combine LDS overflow",
-      "author": "paklui",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T14:19:30Z",
-      "updated_at": "2026-11-03T23:45:48Z",
-      "html_url": "https://github.com/ROCm/mori/pull/893",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 860,
-      "title": "feat(ep) Add KIWI EP dispatch/combine as an optional MORI op (BUILD_OPS_KIWI)",
-      "author": "charlifu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T16:34:37Z",
-      "updated_at": "2026-11-03T23:01:23Z",
-      "html_url": "https://github.com/ROCm/mori/pull/860",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 907,
       "title": "Fix/io failed status waits for all wrs",
       "author": "amirakb89",
@@ -250,18 +274,6 @@
       "created_at": "2026-10-27T03:22:58Z",
       "updated_at": "2026-11-03T21:30:47Z",
       "html_url": "https://github.com/ROCm/mori/pull/848",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 895,
-      "title": "cco: GDA doorbell coalescing, compile-time doorbell modes (Deferred / CallerOrdered), and team / flushAsync / wait for FlyDSL and Triton",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T14:57:31Z",
-      "updated_at": "2026-11-03T15:18:03Z",
-      "html_url": "https://github.com/ROCm/mori/pull/895",
       "labels": [],
       "draft": false
     },
@@ -288,30 +300,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/797",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 904,
-      "title": "feat(cco): example 13 -- MegaMoE Stage1 with the dispatch on SDMA",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T09:14:57Z",
-      "updated_at": "2026-11-03T09:14:57Z",
-      "html_url": "https://github.com/ROCm/mori/pull/904",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 903,
-      "title": "refactor(umbp): track each SSD resolve read in one struct, not parallel vectors",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T03:44:37Z",
-      "updated_at": "2026-11-03T04:13:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/903",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 900,
@@ -346,18 +334,6 @@
       "created_at": "2026-09-22T18:28:49Z",
       "updated_at": "2026-11-02T14:25:50Z",
       "html_url": "https://github.com/ROCm/mori/pull/699",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 874,
-      "title": "feat(ep/v2): gfx1250-strict support",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T14:22:59Z",
-      "updated_at": "2026-11-02T14:18:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/874",
       "labels": [],
       "draft": false
     },
@@ -518,18 +494,6 @@
       "draft": false
     },
     {
-      "number": 818,
-      "title": "[NFC] Refactor GPU vector load/store primitives and remove dead cast kernel",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T16:13:56Z",
-      "updated_at": "2026-10-28T12:36:55Z",
-      "html_url": "https://github.com/ROCm/mori/pull/818",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 849,
       "title": "bugfix: ep internode hung",
       "author": "QizhouZhang97",
@@ -586,18 +550,6 @@
       "created_at": "2026-10-22T21:19:59Z",
       "updated_at": "2026-10-22T21:19:59Z",
       "html_url": "https://github.com/ROCm/mori/pull/833",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 829,
-      "title": "feat(umbp): the master routes small objects away from tiers they are under the floor of",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T08:45:41Z",
-      "updated_at": "2026-10-22T08:45:41Z",
-      "html_url": "https://github.com/ROCm/mori/pull/829",
       "labels": [],
       "draft": false
     },
@@ -1006,6 +958,78 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 829,
+      "title": "feat(umbp): the master routes small objects away from tiers they are under the floor of",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-22T08:45:41Z",
+      "updated_at": "2026-11-05T15:15:44Z",
+      "html_url": "https://github.com/ROCm/mori/pull/829",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 903,
+      "title": "refactor(umbp): track each SSD resolve read in one struct, not parallel vectors",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-03T03:44:37Z",
+      "updated_at": "2026-11-05T15:09:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/903",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 895,
+      "title": "feat(cco): GDA doorbell coalescing + compile-time doorbell modes",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-02T14:57:31Z",
+      "updated_at": "2026-11-05T08:38:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/895",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 875,
+      "title": "fix(ep/v2): AsyncLL fused-receive deadlock under two streams; early notification by default on gfx950",
+      "author": "yangyuhuiling",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-30T07:38:58Z",
+      "updated_at": "2026-11-05T05:56:05Z",
+      "html_url": "https://github.com/ROCm/mori/pull/875",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 894,
+      "title": "fix(ep): fail fast for cross-node kernels on the CCO backend",
+      "author": "paklui",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-02T14:19:33Z",
+      "updated_at": "2026-11-05T03:15:17Z",
+      "html_url": "https://github.com/ROCm/mori/pull/894",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 892,
+      "title": "fix(ep/v2): give each AsyncLL op its own SDMA queue per peer",
+      "author": "ChengYM5685",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-02T13:26:53Z",
+      "updated_at": "2026-11-05T02:48:11Z",
+      "html_url": "https://github.com/ROCm/mori/pull/892",
       "labels": [],
       "draft": false
     },
@@ -2004,78 +2028,6 @@
       "created_at": "2026-09-15T18:16:53Z",
       "updated_at": "2026-10-16T10:29:32Z",
       "html_url": "https://github.com/ROCm/mori/pull/674",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 777,
-      "title": "fix(umbp): stop false put-failure noise (sampled allocation WARN; in-flight key counts as stored)",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-15T13:06:41Z",
-      "updated_at": "2026-10-16T07:57:54Z",
-      "html_url": "https://github.com/ROCm/mori/pull/777",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 782,
-      "title": "docs(umbp): acknowledge hipFile in the GDS transfer engine",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-16T03:55:42Z",
-      "updated_at": "2026-10-16T04:11:35Z",
-      "html_url": "https://github.com/ROCm/mori/pull/782",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 763,
-      "title": "fix(umbp): retry eviction demotions instead of dropping the only copy; count what is dropped",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-13T15:35:53Z",
-      "updated_at": "2026-10-16T03:15:55Z",
-      "html_url": "https://github.com/ROCm/mori/pull/763",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 778,
-      "title": "chore(umbp): remove dead code, an orphaned test and duplicated helpers",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-15T13:08:31Z",
-      "updated_at": "2026-10-16T02:29:18Z",
-      "html_url": "https://github.com/ROCm/mori/pull/778",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 774,
-      "title": "refactor(umbp): one incremental plan builder shared by every transfer engine",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-15T06:21:24Z",
-      "updated_at": "2026-10-15T14:55:38Z",
-      "html_url": "https://github.com/ROCm/mori/pull/774",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 683,
-      "title": "feat(umbp): serve metrics from a masterless node, and summarise offload/load/evict/promote/demote at INFO",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-17T03:26:06Z",
-      "updated_at": "2026-10-15T09:41:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/683",
       "labels": [],
       "draft": false
     }

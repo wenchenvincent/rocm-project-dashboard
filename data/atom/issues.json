@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04T15:50:23Z",
+  "collected_at": "2026-11-05T15:52:55Z",
   "issues": [
     {
       "number": 2865,
@@ -7,8 +7,71 @@
       "author": "ZLkanyo009",
       "state": "open",
       "created_at": "2026-10-30T13:35:30Z",
-      "updated_at": "2026-11-04T15:03:40Z",
+      "updated_at": "2026-11-05T13:22:12Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2865",
+      "labels": []
+    },
+    {
+      "number": 3037,
+      "title": "[Perf Regression] 13 config(s) regressed @ 083891e9",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-05T11:23:05Z",
+      "updated_at": "2026-11-05T11:23:05Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3037",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3032,
+      "title": "mono: `resident_grid_refusals` compares the raw `kv_connector` spelling, so connector aliases and `multi` silently turn mono decode off",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-05T07:29:56Z",
+      "updated_at": "2026-11-05T07:29:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3032",
+      "labels": []
+    },
+    {
+      "number": 2712,
+      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-26T06:28:03Z",
+      "updated_at": "2026-11-05T07:19:25Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
+      "labels": []
+    },
+    {
+      "number": 3028,
+      "title": "Plugin mode: atom_config.load_dummy is always None, so a framework's dummy load is invisible to ATOM",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-05T04:38:54Z",
+      "updated_at": "2026-11-05T04:38:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3028",
+      "labels": []
+    },
+    {
+      "number": 3025,
+      "title": "Qwen3.8: make the QSA field declaration kernel-free so the builder's offload tests run on CPU CI",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-05T03:39:53Z",
+      "updated_at": "2026-11-05T03:39:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3025",
+      "labels": []
+    },
+    {
+      "number": 506,
+      "title": "[Issue]: Multi-Stream Overlap Failure Due to HW Queue Collision",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "created_at": "2026-04-07T10:11:15Z",
+      "updated_at": "2026-11-04T16:45:23Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/506",
       "labels": []
     },
     {
@@ -17,7 +80,7 @@
       "author": "yelkhamra",
       "state": "open",
       "created_at": "2026-11-02T19:51:54Z",
-      "updated_at": "2026-11-04T14:50:39Z",
+      "updated_at": "2026-11-04T16:34:01Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2928",
       "labels": []
     },
@@ -79,16 +142,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 2712,
-      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-26T06:28:03Z",
-      "updated_at": "2026-11-03T03:28:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
-      "labels": []
     },
     {
       "number": 2931,
@@ -971,16 +1024,6 @@
       "created_at": "2026-03-19T08:53:13Z",
       "updated_at": "2026-04-08T02:46:17Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/359",
-      "labels": []
-    },
-    {
-      "number": 506,
-      "title": "[Issue]: Multi-Stream Overlap Failure Due to HW Queue Collision",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "created_at": "2026-04-07T10:11:15Z",
-      "updated_at": "2026-11-04T14:50:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/506",
       "labels": []
     },
     {

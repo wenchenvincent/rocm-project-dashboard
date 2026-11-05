@@ -1,6 +1,60 @@
 {
-  "collected_at": "2026-11-04T15:49:19Z",
+  "collected_at": "2026-11-05T15:51:44Z",
   "prs": [
+    {
+      "number": 41815,
+      "title": "[ROCm] Switch the pinned ROCm CI legs from 10.0 to 10.1",
+      "author": "magaonka-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-20T16:40:03Z",
+      "updated_at": "2026-11-05T15:41:54Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41815",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 42294,
+      "title": "[ROCm] : Remove volume mount on Bazel runner",
+      "author": "pelumi1163",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-04T15:58:44Z",
+      "updated_at": "2026-11-05T14:54:46Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42294",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 42328,
+      "title": "Use C++20 for hermetic ROCm builds",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T00:32:46Z",
+      "updated_at": "2026-11-05T00:32:46Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42328",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 42311,
+      "title": "[ROCm] Temporarily skip failing buffer callback tests",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T21:24:16Z",
+      "updated_at": "2026-11-04T21:24:45Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42311",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": true
+    },
     {
       "number": 42272,
       "title": "Build the ROCm plugin with static libc++",
@@ -107,18 +161,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/41881",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 41815,
-      "title": "[ROCm] Switch the pinned ROCm CI legs from 10.0 to 10.1",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T16:40:03Z",
-      "updated_at": "2026-10-21T14:53:12Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41815",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 41230,
@@ -547,36 +589,6 @@
       "created_at": "2026-08-25T21:38:40Z",
       "updated_at": "2026-08-27T00:18:17Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40215",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40173,
-      "title": " [ROCm] Switch the ROCm CI flows from 7.14 to 10.0",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-24T20:16:24Z",
-      "updated_at": "2026-08-26T18:25:54Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40173",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40225,
-      "title": "Switch ROCm RBE to linux_x64_gpu_do_gfx950 pool",
-      "author": "charleshofer",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-26T06:04:24Z",
-      "updated_at": "2026-08-26T16:35:47Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40225",
       "labels": [
         "kokoro:force-run",
         "pull ready"

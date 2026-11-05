@@ -1,6 +1,56 @@
 {
-  "collected_at": "2026-11-04T15:49:44Z",
+  "collected_at": "2026-11-05T15:52:12Z",
   "issues": [
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-11-05T15:03:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 46520,
+      "title": "[RFC] [XPU] paged-experts: Intel XPU support with Lookahead Expert Scheduling (LES) and an SSD tier for iGPU, single-GPU MoE offload",
+      "author": "wyc55069407",
+      "state": "open",
+      "created_at": "2026-10-26T06:00:06Z",
+      "updated_at": "2026-11-05T11:12:21Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46520",
+      "labels": []
+    },
+    {
+      "number": 47562,
+      "title": "[AITER-Upgrade] PR readiness gfx1250 (MI45x)",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-10-31T01:10:06Z",
+      "updated_at": "2026-11-05T08:43:17Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/47562",
+      "labels": []
+    },
+    {
+      "number": 36941,
+      "title": "[GB10] Long prefill (>40k tokens) exhausts unified memory and silently kills the worker rank \u2014 no traceback, no OOM record; cross-stack control passes at 54k",
+      "author": "beastllama",
+      "state": "open",
+      "created_at": "2026-08-29T02:09:22Z",
+      "updated_at": "2026-11-05T01:45:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36941",
+      "labels": []
+    },
+    {
+      "number": 48483,
+      "title": "[Bug] [AMD] moe: GLM Gluon EP>1 32K prefill reads codes past the 2-GiB buffer-op window",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-11-05T00:23:38Z",
+      "updated_at": "2026-11-05T00:23:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/48483",
+      "labels": []
+    },
     {
       "number": 44304,
       "title": "[ROCm][AMD] Qwen3.8-Flash-Next gfx950 / MI355X Performance Optimization",
@@ -45,26 +95,6 @@
       "labels": []
     },
     {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-11-03T16:18:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
-      "number": 46520,
-      "title": "[RFC] [XPU] paged-experts: Intel XPU support with Lookahead Expert Scheduling (LES) and an SSD tier for iGPU, single-GPU MoE offload",
-      "author": "wyc55069407",
-      "state": "open",
-      "created_at": "2026-10-26T06:00:06Z",
-      "updated_at": "2026-11-03T16:11:52Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/46520",
-      "labels": []
-    },
-    {
       "number": 48127,
       "title": "[Bug] RadixArk/Muse-Glimmer-NVFP4 fails at load since #45632 (MXFP8 lm_head), and on Hopper also at DeepGEMM warmup",
       "author": "Smallfu666",
@@ -92,16 +122,6 @@
       "created_at": "2026-09-09T17:27:38Z",
       "updated_at": "2026-11-03T05:47:20Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/38709",
-      "labels": []
-    },
-    {
-      "number": 38029,
-      "title": "[Bug] EAGLE DSA draft backend misses KVIndexTranslator in FP8 MHA prefix reads",
-      "author": "tanth47",
-      "state": "open",
-      "created_at": "2026-09-04T17:24:38Z",
-      "updated_at": "2026-11-03T05:47:14Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/38029",
       "labels": []
     },
     {
@@ -172,16 +192,6 @@
       "created_at": "2026-10-08T11:44:11Z",
       "updated_at": "2026-11-01T13:24:06Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/43098",
-      "labels": []
-    },
-    {
-      "number": 47562,
-      "title": "[AITER-Upgrade] PR readiness gfx1250 (MI45x)",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-10-31T01:10:06Z",
-      "updated_at": "2026-10-31T01:10:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/47562",
       "labels": []
     },
     {
@@ -405,16 +415,6 @@
       "labels": [
         "ci-failure-tracker"
       ]
-    },
-    {
-      "number": 45535,
-      "title": "[Performance][DCP] Prefix-hit prefill pays 4*batch_size device syncs per layer when gathering KV for MHA extend",
-      "author": "Cerdore",
-      "state": "open",
-      "created_at": "2026-10-21T06:56:19Z",
-      "updated_at": "2026-10-22T07:58:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45535",
-      "labels": []
     },
     {
       "number": 37451,

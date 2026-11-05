@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-11-04T15:50:26Z",
+  "collected_at": "2026-11-05T15:52:59Z",
   "issues": [
+    {
+      "number": 917,
+      "title": "cco: register_window pins every rank's window in system memory and leaves all ranks' KFD queues evicted when the kernel lacks P2P dma-buf (MI355X, intranode)",
+      "author": "maslan-coop26",
+      "state": "open",
+      "created_at": "2026-11-05T01:28:47Z",
+      "updated_at": "2026-11-05T14:15:54Z",
+      "html_url": "https://github.com/ROCm/mori/issues/917",
+      "labels": []
+    },
+    {
+      "number": 759,
+      "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-13T04:05:06Z",
+      "updated_at": "2026-11-05T12:09:02Z",
+      "html_url": "https://github.com/ROCm/mori/issues/759",
+      "labels": []
+    },
+    {
+      "number": 920,
+      "title": "UMBP SSD: layer group 0 reads the whole object when a packed draft layer makes its ranges non-contiguous (#781 extent is [min, max))",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-11-05T06:07:38Z",
+      "updated_at": "2026-11-05T06:07:38Z",
+      "html_url": "https://github.com/ROCm/mori/issues/920",
+      "labels": []
+    },
     {
       "number": 811,
       "title": "RFC [feature] : MORI RAS: per-process reliability, availability, and serviceability runtime",
@@ -91,16 +121,6 @@
       "created_at": "2026-10-12T06:10:09Z",
       "updated_at": "2026-10-23T09:57:50Z",
       "html_url": "https://github.com/ROCm/mori/issues/749",
-      "labels": []
-    },
-    {
-      "number": 759,
-      "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-10-13T04:05:06Z",
-      "updated_at": "2026-10-22T21:31:31Z",
-      "html_url": "https://github.com/ROCm/mori/issues/759",
       "labels": []
     },
     {
