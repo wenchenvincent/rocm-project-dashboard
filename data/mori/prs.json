@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-11-05T15:52:58Z",
+  "collected_at": "2026-11-06T15:27:39Z",
   "prs": [
+    {
+      "number": 930,
+      "title": "poc(cco): MegaMoE GEMM1 fused with an SDMA dispatch (gfx950) ",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T14:46:24Z",
+      "updated_at": "2026-11-06T14:55:24Z",
+      "html_url": "https://github.com/ROCm/mori/pull/930",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 779,
+      "title": "feat(umbp): BatchTouch, so callers can report KV hits served by an upper tier",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T16:14:26Z",
+      "updated_at": "2026-11-06T13:45:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/779",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 908,
       "title": "feat(ras): RAS runtime started by MORI-IO engines (RAS 1/5)",
@@ -8,8 +32,116 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-04T00:15:30Z",
-      "updated_at": "2026-11-05T15:40:39Z",
+      "updated_at": "2026-11-06T13:16:02Z",
       "html_url": "https://github.com/ROCm/mori/pull/908",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 818,
+      "title": "[NFC] Refactor GPU vector load/store primitives and remove dead cast kernel",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T16:13:56Z",
+      "updated_at": "2026-11-06T11:14:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/818",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 923,
+      "title": "feat(ops): SdmaAllGatherOp, an in-place start/wait all-gather over cco SDMA; publish JIT cache artifacts atomically",
+      "author": "AMD-yanfeiwang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T01:43:51Z",
+      "updated_at": "2026-11-06T10:17:24Z",
+      "html_url": "https://github.com/ROCm/mori/pull/923",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 696,
+      "title": "opt v2 internode",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-22T03:05:00Z",
+      "updated_at": "2026-11-06T10:01:03Z",
+      "html_url": "https://github.com/ROCm/mori/pull/696",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 888,
+      "title": "feat(umbp): direct pool ranged GET with missing-range deduplication",
+      "author": "wuyl1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T06:37:58Z",
+      "updated_at": "2026-11-06T09:06:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/888",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 929,
+      "title": "fix(umbp): stop rescanning a full buffer for every key of a batch",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T08:17:09Z",
+      "updated_at": "2026-11-06T12:39:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/929",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 791,
+      "title": "fix(umbp): a lookup renews the keys it finds, so eviction spares them until the load",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T14:49:29Z",
+      "updated_at": "2026-11-06T08:17:07Z",
+      "html_url": "https://github.com/ROCm/mori/pull/791",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 928,
+      "title": "fix(rdma): make MORI_IB_ENABLE_RELAXED_ORDERING actually take effect",
+      "author": "YeSho-cpp",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T07:20:04Z",
+      "updated_at": "2026-11-06T07:20:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/928",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "Feat/io receiver fence",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T03:22:58Z",
+      "updated_at": "2026-11-06T07:12:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 846,
+      "title": "feat(io): add version/mode/layout compatibility check to handshake (Gap 12)",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T21:43:24Z",
+      "updated_at": "2026-11-06T07:09:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/846",
       "labels": [],
       "draft": false
     },
@@ -20,32 +152,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-27T16:34:37Z",
-      "updated_at": "2026-11-05T15:30:36Z",
+      "updated_at": "2026-11-06T06:58:13Z",
       "html_url": "https://github.com/ROCm/mori/pull/860",
       "labels": [],
       "draft": false
     },
     {
-      "number": 791,
-      "title": "fix(umbp): a lookup renews the keys it finds, so eviction spares them until the load",
-      "author": "TianDi101",
+      "number": 632,
+      "title": "fix(cco): take allocMutex on the window paths",
+      "author": "jhchouuu",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-16T14:49:29Z",
-      "updated_at": "2026-11-05T15:07:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/791",
+      "created_at": "2026-09-02T07:46:45Z",
+      "updated_at": "2026-11-06T06:51:57Z",
+      "html_url": "https://github.com/ROCm/mori/pull/632",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 918,
+      "title": "perf(ep/v2): AsyncLL segmented receive layout (zero copy) for single-node SDMA",
+      "author": "ChengYM5685",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T03:14:14Z",
+      "updated_at": "2026-11-06T06:35:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/918",
       "labels": [],
       "draft": true
     },
     {
-      "number": 874,
-      "title": "feat(ep/v2): gfx1250-strict support",
-      "author": "jhchouuu",
+      "number": 907,
+      "title": "Fix/io failed status waits for all wrs",
+      "author": "amirakb89",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-29T14:22:59Z",
-      "updated_at": "2026-11-05T11:31:22Z",
-      "html_url": "https://github.com/ROCm/mori/pull/874",
+      "created_at": "2026-11-03T18:23:08Z",
+      "updated_at": "2026-11-06T04:06:59Z",
+      "html_url": "https://github.com/ROCm/mori/pull/907",
       "labels": [],
       "draft": false
     },
@@ -56,10 +200,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-03T09:14:57Z",
-      "updated_at": "2026-11-05T11:26:53Z",
+      "updated_at": "2026-11-06T02:40:58Z",
       "html_url": "https://github.com/ROCm/mori/pull/904",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 921,
+      "title": "perf(anvil): spread MI308X peer links that fold onto one SDMA engine",
+      "author": "yicyang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T08:20:33Z",
+      "updated_at": "2026-11-06T02:04:56Z",
+      "html_url": "https://github.com/ROCm/mori/pull/921",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 922,
+      "title": "fix(io): name a QP that enters the error state with no failed work request",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T17:40:56Z",
+      "updated_at": "2026-11-05T17:40:56Z",
+      "html_url": "https://github.com/ROCm/mori/pull/922",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 919,
@@ -72,42 +240,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/919",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 915,
-      "title": "feat(io): add transfer quiescence API",
-      "author": "maning00",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T07:27:06Z",
-      "updated_at": "2026-11-05T10:47:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/915",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 818,
-      "title": "[NFC] Refactor GPU vector load/store primitives and remove dead cast kernel",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T16:13:56Z",
-      "updated_at": "2026-11-05T09:15:23Z",
-      "html_url": "https://github.com/ROCm/mori/pull/818",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 696,
-      "title": "opt v2 internode",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-22T03:05:00Z",
-      "updated_at": "2026-11-05T08:25:58Z",
-      "html_url": "https://github.com/ROCm/mori/pull/696",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 872,
@@ -144,18 +276,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/871",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 918,
-      "title": "Perf/asyncll zero copy",
-      "author": "ChengYM5685",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T03:14:14Z",
-      "updated_at": "2026-11-05T03:14:14Z",
-      "html_url": "https://github.com/ROCm/mori/pull/918",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 816,
@@ -254,30 +374,6 @@
       "draft": false
     },
     {
-      "number": 907,
-      "title": "Fix/io failed status waits for all wrs",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T18:23:08Z",
-      "updated_at": "2026-11-03T21:41:23Z",
-      "html_url": "https://github.com/ROCm/mori/pull/907",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 848,
-      "title": "Feat/io receiver fence",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T03:22:58Z",
-      "updated_at": "2026-11-03T21:30:47Z",
-      "html_url": "https://github.com/ROCm/mori/pull/848",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 906,
       "title": "perf(ep/v2): AsyncLL slot assignment by block, receive copy over the whole grid",
       "author": "yangyuhuiling",
@@ -362,18 +458,6 @@
       "draft": false
     },
     {
-      "number": 888,
-      "title": "feat(umbp): direct pool ranged GET with missing-range deduplication",
-      "author": "wuyl1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T06:37:58Z",
-      "updated_at": "2026-11-02T07:00:37Z",
-      "html_url": "https://github.com/ROCm/mori/pull/888",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 887,
       "title": "[UMBP] Add local-only PUT placement with cross-node sharing",
       "author": "wuyl1",
@@ -408,18 +492,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/850",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 779,
-      "title": "feat(umbp): BatchTouch, so callers can report KV hits served by an upper tier",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T16:14:26Z",
-      "updated_at": "2026-10-31T15:13:54Z",
-      "html_url": "https://github.com/ROCm/mori/pull/779",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 882,
@@ -502,18 +574,6 @@
       "created_at": "2026-10-27T07:27:12Z",
       "updated_at": "2026-10-27T07:40:04Z",
       "html_url": "https://github.com/ROCm/mori/pull/849",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 846,
-      "title": "feat(io): add version/mode/layout compatibility check to handshake (Gap 12)",
-      "author": "kudomcho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T21:43:24Z",
-      "updated_at": "2026-10-26T22:02:58Z",
-      "html_url": "https://github.com/ROCm/mori/pull/846",
       "labels": [],
       "draft": false
     },
@@ -718,18 +778,6 @@
       "created_at": "2026-09-11T09:07:39Z",
       "updated_at": "2026-09-11T09:53:43Z",
       "html_url": "https://github.com/ROCm/mori/pull/659",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 632,
-      "title": "fix(cco): take allocMutex on the window paths, as its comment already promises",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-02T07:46:45Z",
-      "updated_at": "2026-09-02T07:46:45Z",
-      "html_url": "https://github.com/ROCm/mori/pull/632",
       "labels": [],
       "draft": false
     },
@@ -958,6 +1006,30 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 924,
+      "title": "fix(umbp): UMBPConfig() takes its defaults from the UMBP_* environment",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-06T03:17:03Z",
+      "updated_at": "2026-11-06T08:16:33Z",
+      "html_url": "https://github.com/ROCm/mori/pull/924",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 874,
+      "title": "feat(ep/v2): gfx1250-strict support",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-29T14:22:59Z",
+      "updated_at": "2026-11-06T03:33:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/874",
       "labels": [],
       "draft": false
     },
@@ -2004,30 +2076,6 @@
       "created_at": "2026-10-13T15:35:50Z",
       "updated_at": "2026-10-16T15:04:58Z",
       "html_url": "https://github.com/ROCm/mori/pull/762",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 786,
-      "title": "feat(cco): add cco_sdma_put_ptr_rsig__thread and  cco_sdma_signal_slot bitcode",
-      "author": "binding7012",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-16T09:50:45Z",
-      "updated_at": "2026-10-16T14:26:40Z",
-      "html_url": "https://github.com/ROCm/mori/pull/786",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 674,
-      "title": "Add multi-NIC OFI/libfabric backend for Slingshot/CXI",
-      "author": "vinaynkaranth",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-15T18:16:53Z",
-      "updated_at": "2026-10-16T10:29:32Z",
-      "html_url": "https://github.com/ROCm/mori/pull/674",
       "labels": [],
       "draft": false
     }

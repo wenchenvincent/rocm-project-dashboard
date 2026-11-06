@@ -1,6 +1,252 @@
 {
-  "collected_at": "2026-11-05T15:52:19Z",
+  "collected_at": "2026-11-06T15:27:03Z",
   "prs": [
+    {
+      "number": 5439,
+      "title": "KV cache attention flash decoding",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T22:04:33Z",
+      "updated_at": "2026-11-06T15:25:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5485,
+      "title": "Time benchmark candidates as HIP graphs and add a direct FP32 conv3x3 stride-2 kernel for gfx12",
+      "author": "kazhang2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T06:53:48Z",
+      "updated_at": "2026-11-06T15:24:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5485",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3465,
+      "title": "Remove layernorm fusion",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2024-09-20T18:06:01Z",
+      "updated_at": "2026-11-06T15:22:38Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3465",
+      "labels": [
+        "Cleanup"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5483,
+      "title": "Clamp layernorm variance to avoid NaN from cancellation",
+      "author": "VishalX",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T05:24:50Z",
+      "updated_at": "2026-11-06T15:10:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5483",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5466,
+      "title": "Add MXR recompiling: keep kernel recipes and recompile compiled programs",
+      "author": "anilmartha",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T11:05:56Z",
+      "updated_at": "2026-11-06T12:00:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5466",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5477,
+      "title": "Binary cache read only option",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T12:10:30Z",
+      "updated_at": "2026-11-06T11:04:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5477",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5478,
+      "title": "Binary cache: store only winner if problem cache is used",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T13:56:27Z",
+      "updated_at": "2026-11-06T10:38:22Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5478",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5484,
+      "title": "[AIMIGRAPHX-1371] Allocate dense output buffers in replace_allocate",
+      "author": "anupsing-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T05:38:41Z",
+      "updated_at": "2026-11-06T06:34:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5484",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5028,
+      "title": "split_single_dyn_dim: add bucket_by_optimals to cut dyn-shape compile\u2026",
+      "author": "chun-wan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-01T19:11:35Z",
+      "updated_at": "2026-11-06T05:11:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5028",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4994,
+      "title": "simplify_reshapes: skip find_reshape_dot when it would change element\u2026",
+      "author": "ycastill2-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-19T02:31:01Z",
+      "updated_at": "2026-11-06T03:49:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4994",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5458,
+      "title": "Fix GPU codegen layout pinning and deep-graph stack overflows",
+      "author": "cliffcai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T02:34:31Z",
+      "updated_at": "2026-11-06T03:26:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5458",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5474,
+      "title": "Prevent FP16 GroupNorm overflow with float intermediates",
+      "author": "royzhang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T09:09:47Z",
+      "updated_at": "2026-11-06T02:12:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5474",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5455,
+      "title": "Add post-lowering GPU copy optimization",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T22:25:24Z",
+      "updated_at": "2026-11-06T00:15:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5455",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5394,
+      "title": "Split/symbolic reshape parsing",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T19:57:36Z",
+      "updated_at": "2026-11-06T00:07:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5405,
+      "title": "Gate MLIR attention fusion on profitability and enable it by default",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:39:05Z",
+      "updated_at": "2026-11-05T18:53:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5405",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5397,
+      "title": "update parsers to support LLMs",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-15T01:22:12Z",
+      "updated_at": "2026-11-05T18:20:36Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4941,
+      "title": "Default HIP multi-arch workaround on Windows clang-cl",
+      "author": "DanyiLin",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-04T14:30:56Z",
+      "updated_at": "2026-11-05T17:57:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4941",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5417,
+      "title": "Fuse the attention-sink gate into the attention epilogue and the o_proj reduce",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-21T15:52:50Z",
+      "updated_at": "2026-11-05T17:35:00Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5417",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5481,
+      "title": "gpu: use hip::load_scalar for if/loop host scalars",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T11:55:15Z",
+      "updated_at": "2026-11-05T17:26:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5481",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5482,
+      "title": "Fuse the chunked linear attention recurrence into one kernel",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T16:23:16Z",
+      "updated_at": "2026-11-05T16:49:43Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5482",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5366,
       "title": "Hoist submodule scratch memory into the parent in memory coloring",
@@ -8,7 +254,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-07T20:32:30Z",
-      "updated_at": "2026-11-05T15:47:03Z",
+      "updated_at": "2026-11-05T16:28:14Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5366",
       "labels": [],
       "draft": false
@@ -26,18 +272,6 @@
       "draft": false
     },
     {
-      "number": 5466,
-      "title": "Add MXR recompiling: keep kernel recipes and recompile compiled programs",
-      "author": "anilmartha",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T11:05:56Z",
-      "updated_at": "2026-11-05T15:02:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5466",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5480,
       "title": "fix: keep program outputs standard when lowering reshape to a view (regression from #5105)",
       "author": "adityas-amd",
@@ -48,70 +282,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5480",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5477,
-      "title": "Binary cache read only option",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T12:10:30Z",
-      "updated_at": "2026-11-05T14:58:30Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5477",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5481,
-      "title": "gpu: use hip::load_scalar for if/loop host scalars",
-      "author": "ivarusic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T11:55:15Z",
-      "updated_at": "2026-11-05T14:49:59Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5481",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5478,
-      "title": "Binary cache: store only winner if problem cache is used",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T13:56:27Z",
-      "updated_at": "2026-11-05T09:11:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5478",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5474,
-      "title": "Prevent FP16 GroupNorm overflow with float intermediates",
-      "author": "royzhang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T09:09:47Z",
-      "updated_at": "2026-11-05T08:23:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5474",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4994,
-      "title": "simplify_reshapes: skip find_reshape_dot when it would change element\u2026",
-      "author": "ycastill2-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-19T02:31:01Z",
-      "updated_at": "2026-11-05T04:32:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4994",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5459,
@@ -138,42 +308,6 @@
       "draft": false
     },
     {
-      "number": 5394,
-      "title": "Split/symbolic reshape parsing",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T19:57:36Z",
-      "updated_at": "2026-11-05T00:37:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5417,
-      "title": "Fuse the attention-sink gate into the attention epilogue and the o_proj reduce",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-21T15:52:50Z",
-      "updated_at": "2026-11-04T23:05:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5417",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5455,
-      "title": "Add post-lowering GPU copy optimization",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T22:25:24Z",
-      "updated_at": "2026-11-04T23:02:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5455",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5450,
       "title": "Combined data dependent support branches",
       "author": "CharlieL7",
@@ -182,18 +316,6 @@
       "created_at": "2026-10-28T14:55:48Z",
       "updated_at": "2026-11-04T20:22:03Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5439,
-      "title": "KV cache attention flash decoding",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T22:04:33Z",
-      "updated_at": "2026-11-04T19:06:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
       "labels": [],
       "draft": false
     },
@@ -299,18 +421,6 @@
       "draft": false
     },
     {
-      "number": 5405,
-      "title": "Gate MLIR attention fusion on profitability and enable it by default",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T19:39:05Z",
-      "updated_at": "2026-11-03T01:31:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5405",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5468,
       "title": "Support stride and dilation in the channelwise convolution kernel",
       "author": "pfultz2",
@@ -393,30 +503,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5448",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5458,
-      "title": "Fix GPU codegen layout pinning and deep-graph stack overflows",
-      "author": "cliffcai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T02:34:31Z",
-      "updated_at": "2026-10-30T15:51:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5458",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5397,
-      "title": "update parsers to support LLMs",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-15T01:22:12Z",
-      "updated_at": "2026-10-29T20:14:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5397",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5433,
@@ -1366,18 +1452,6 @@
       "draft": true
     },
     {
-      "number": 4546,
-      "title": "[DRAFT] flash decoding kvcache",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-01-14T19:07:47Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4546",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 4456,
       "title": "Horizontally fuse pointwise with more than 2 arguments in find_splits",
       "author": "pfultz2",
@@ -1560,20 +1634,6 @@
       "draft": true
     },
     {
-      "number": 3465,
-      "title": "Remove layernorm fusion",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2024-09-20T18:06:01Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3465",
-      "labels": [
-        "Cleanup"
-      ],
-      "draft": true
-    },
-    {
       "number": 3416,
       "title": "Weight stripping",
       "author": "simberg-amd",
@@ -1646,18 +1706,6 @@
       "draft": true
     },
     {
-      "number": 5028,
-      "title": "split_single_dyn_dim: add bucket_by_optimals to cut dyn-shape compile\u2026",
-      "author": "chun-wan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-01T19:11:35Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5028",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 4958,
       "title": "Improve picking max block size",
       "author": "pfultz2",
@@ -1666,18 +1714,6 @@
       "created_at": "2026-06-12T15:43:57Z",
       "updated_at": "2026-08-29T04:00:01Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4958",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4941,
-      "title": "Default HIP multi-arch workaround on Windows clang-cl",
-      "author": "DanyiLin",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-04T14:30:56Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4941",
       "labels": [],
       "draft": true
     },
@@ -2533,18 +2569,6 @@
       "created_at": "2026-10-02T16:12:40Z",
       "updated_at": "2026-10-11T14:55:29Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5348",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5356,
-      "title": "Document reviewer conventions in AGENTS.md and the review skills, and make review flags act on every finding",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-06T23:03:21Z",
-      "updated_at": "2026-10-11T14:54:36Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5356",
       "labels": [],
       "draft": false
     }

@@ -1,15 +1,56 @@
 {
-  "collected_at": "2026-11-05T15:53:06Z",
+  "collected_at": "2026-11-06T15:27:47Z",
   "prs": [
     {
-      "number": 694,
-      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
-      "author": "sudhu2k",
+      "number": 795,
+      "title": "Backport ROCm 10.1 CI fixes",
+      "author": "ipanfilo",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-11-05T15:29:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "created_at": "2026-11-06T01:18:46Z",
+      "updated_at": "2026-11-06T06:12:13Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/795",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 794,
+      "title": "BF16 and MXFP8 GEMM kernels for gfx1250 and gfx1250-strict",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T00:53:24Z",
+      "updated_at": "2026-11-06T00:53:26Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/794",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 788,
+      "title": "[TE][HipKittens] Require K % 128 for blockwise FP8 GEMMs",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T20:41:51Z",
+      "updated_at": "2026-11-06T00:50:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/788",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 766,
+      "title": "gfx1250: use hipblaslt device alpha for NVFP4 GEMM",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T22:23:27Z",
+      "updated_at": "2026-11-05T22:42:16Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/766",
       "labels": [
         "ci-level 1",
         "P2"
@@ -18,14 +59,75 @@
     },
     {
       "number": 793,
-      "title": "CI: speed up wheel build with ccache and tested-only GPU archs",
+      "title": "CI: speed up wheel build with ccache",
       "author": "leo-automation",
       "state": "open",
       "merged": false,
       "created_at": "2026-11-05T12:32:42Z",
-      "updated_at": "2026-11-05T12:37:52Z",
+      "updated_at": "2026-11-05T21:15:42Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/793",
-      "labels": [],
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 778,
+      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-22T23:18:01Z",
+      "updated_at": "2026-11-05T20:20:01Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 771,
+      "title": "Ifu dev 20261019 v2.21",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T17:16:12Z",
+      "updated_at": "2026-11-05T19:20:49Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/771",
+      "labels": [
+        "ci-level 3",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 776,
+      "title": "Fix examples",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-21T21:57:15Z",
+      "updated_at": "2026-11-05T17:53:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/776",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 694,
+      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T18:46:22Z",
+      "updated_at": "2026-11-05T16:52:40Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
       "draft": false
     },
     {
@@ -43,36 +145,6 @@
       "draft": false
     },
     {
-      "number": 771,
-      "title": "Ifu dev 20261019 v2.21",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T17:16:12Z",
-      "updated_at": "2026-11-04T23:51:31Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/771",
-      "labels": [
-        "ci-level 3",
-        "P1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 766,
-      "title": "gfx1250: use hipblaslt device alpha for NVFP4 GEMM",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T22:23:27Z",
-      "updated_at": "2026-11-04T22:56:24Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/766",
-      "labels": [
-        "ci-level 1",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
       "number": 777,
       "title": "XCD work stealing improvements for HK Grouped GEMMs",
       "author": "alextmagro",
@@ -82,21 +154,6 @@
       "updated_at": "2026-11-04T21:30:39Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/777",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 783,
-      "title": "fix ck_tile/triton bf16 grouped GEMM performance",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T21:27:32Z",
-      "updated_at": "2026-11-04T20:16:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/783",
-      "labels": [
-        "ci-level 1",
-        "P1"
-      ],
       "draft": false
     },
     {
@@ -185,35 +242,6 @@
       "draft": true
     },
     {
-      "number": 778,
-      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T23:18:01Z",
-      "updated_at": "2026-11-03T16:33:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 788,
-      "title": "[TE][HipKittens] Require K % 128 for blockwise FP8 GEMMs",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T20:41:51Z",
-      "updated_at": "2026-11-03T01:18:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/788",
-      "labels": [
-        "ci-level 3",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
       "number": 743,
       "title": "chore: add security scanning workflows",
       "author": "haribabug",
@@ -267,21 +295,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/780",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 776,
-      "title": "fix examples, wire them into CI summary, fix dispatch when multiple labels are added simultaneously",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-21T21:57:15Z",
-      "updated_at": "2026-10-23T21:16:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/776",
-      "labels": [
-        "ci-level 1",
-        "P2"
       ],
       "draft": true
     },
@@ -874,6 +887,21 @@
         "ci-level 3",
         "community-contribution",
         "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 783,
+      "title": "fix ck_tile/triton bf16 grouped GEMM performance",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-29T21:27:32Z",
+      "updated_at": "2026-11-05T16:32:33Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/783",
+      "labels": [
+        "ci-level 1",
+        "P1"
       ],
       "draft": false
     },
@@ -2038,20 +2066,6 @@
       "created_at": "2026-07-07T16:25:50Z",
       "updated_at": "2026-07-28T15:30:37Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/660",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 682,
-      "title": "HipKittens MXFP8 scale lane-reordering",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-26T14:14:05Z",
-      "updated_at": "2026-07-28T00:38:07Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/682",
       "labels": [
         "ci-level 3"
       ],

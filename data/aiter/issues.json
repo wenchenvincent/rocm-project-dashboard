@@ -1,6 +1,111 @@
 {
-  "collected_at": "2026-11-05T15:52:46Z",
+  "collected_at": "2026-11-06T15:27:29Z",
   "issues": [
+    {
+      "number": 7240,
+      "title": "RFC: Versioned Kernel Provider Interface for AITER",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-30T23:10:45Z",
+      "updated_at": "2026-11-06T07:41:27Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7240",
+      "labels": [
+        "Infra",
+        "work-in-progress"
+      ]
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-06T07:26:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 7536,
+      "title": "[Issue]: grouped MoE GEMM tests require an AOT entry for moe_fused_route_quant_scatter that run_aot does not build",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-06T00:20:38Z",
+      "updated_at": "2026-11-06T07:09:54Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7536",
+      "labels": []
+    },
+    {
+      "number": 7534,
+      "title": "[Issue]: module_moe_sorting_opus does not build for gfx1250 (DPP row_bcast in dpp_inclusive_scan_wave)",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-06T00:20:33Z",
+      "updated_at": "2026-11-06T01:25:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7534",
+      "labels": []
+    },
+    {
+      "number": 6962,
+      "title": "[Issue]: flash_attn_triton_amd prefill: RDNA uses one config for every dtype and head dim; on gfx1101 head dim 64 (bf16/fp16) runs 1.16\u20131.32x faster with another",
+      "author": "Ragua1",
+      "state": "open",
+      "created_at": "2026-10-26T20:07:48Z",
+      "updated_at": "2026-11-05T20:22:13Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6962",
+      "labels": []
+    },
+    {
+      "number": 7527,
+      "title": "[Issue]: aiter.ops.triton.quant cannot be imported on a GPU-less host (get_arch re-raises the probe error)",
+      "author": "0z5a",
+      "state": "open",
+      "created_at": "2026-11-05T19:04:43Z",
+      "updated_at": "2026-11-05T19:04:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7527",
+      "labels": []
+    },
+    {
+      "number": 7521,
+      "title": "[Issue]: use_fp4_cache is accepted but ignored; the launcher always writes FP8 records",
+      "author": "0z5a",
+      "state": "open",
+      "created_at": "2026-11-05T17:36:35Z",
+      "updated_at": "2026-11-05T17:36:35Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7521",
+      "labels": []
+    },
+    {
+      "number": 7520,
+      "title": "[Issue]: two-stage DSv4 compressor does not validate compress_scratch (wrong dtype silently changes results, short buffer writes OOB)",
+      "author": "0z5a",
+      "state": "open",
+      "created_at": "2026-11-05T17:36:34Z",
+      "updated_at": "2026-11-05T17:36:34Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7520",
+      "labels": []
+    },
+    {
+      "number": 7519,
+      "title": "[Issue]: two-stage DSv4 compressor ignores overlap and writes a wrong KV cache for cr=4 layers",
+      "author": "0z5a",
+      "state": "open",
+      "created_at": "2026-11-05T17:35:28Z",
+      "updated_at": "2026-11-05T17:35:28Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7519",
+      "labels": []
+    },
+    {
+      "number": 7278,
+      "title": "[Issue]: Triton MHA prefill attn_fwd (flash_attn_triton_amd) computes q/k/v/out row offsets in int32, which overflow for tensors above 2^31 elements",
+      "author": "Ragua1",
+      "state": "open",
+      "created_at": "2026-11-01T18:07:25Z",
+      "updated_at": "2026-11-05T17:30:54Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7278",
+      "labels": []
+    },
     {
       "number": 7512,
       "title": "gfx1250 Gluon unified attention 2D: LDS-staged TDM store writes a stale output tile on decode",
@@ -12,19 +117,6 @@
       "labels": [
         "bug",
         "Triton/Gluon"
-      ]
-    },
-    {
-      "number": 7240,
-      "title": "RFC: Versioned Kernel Provider Interface for AITER",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-10-30T23:10:45Z",
-      "updated_at": "2026-11-05T09:17:20Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7240",
-      "labels": [
-        "Infra",
-        "work-in-progress"
       ]
     },
     {
@@ -46,18 +138,6 @@
       "updated_at": "2026-11-05T08:52:53Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7504",
       "labels": []
-    },
-    {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-05T07:27:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
     },
     {
       "number": 7393,
@@ -110,16 +190,6 @@
       "labels": []
     },
     {
-      "number": 7356,
-      "title": "[Issue]: AITER_AR_1STAGE_MAX_KB is compared as bytes, not KiB, in the fused all-reduce one-stage limit",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-02T19:51:47Z",
-      "updated_at": "2026-11-02T20:23:24Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7356",
-      "labels": []
-    },
-    {
       "number": 7354,
       "title": "[Issue]: FlyDSL MoE sorting shares one cached multiphase workspace across calls, so concurrently replayed graphs corrupt each other's sort",
       "author": "yelkhamra",
@@ -157,16 +227,6 @@
       "created_at": "2026-11-02T11:17:45Z",
       "updated_at": "2026-11-02T14:34:29Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7333",
-      "labels": []
-    },
-    {
-      "number": 7278,
-      "title": "[Issue]: Triton MHA prefill attn_fwd (flash_attn_triton_amd) computes q/k/v/out row offsets in int32, which overflow for tensors above 2^31 elements",
-      "author": "Ragua1",
-      "state": "open",
-      "created_at": "2026-11-01T18:07:25Z",
-      "updated_at": "2026-11-01T18:10:53Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7278",
       "labels": []
     },
     {
@@ -259,16 +319,6 @@
       "created_at": "2026-09-29T20:40:29Z",
       "updated_at": "2026-10-26T23:03:00Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5959",
-      "labels": []
-    },
-    {
-      "number": 6962,
-      "title": "[Issue]: flash_attn_triton_amd prefill: RDNA uses one config for every dtype and head dim; on gfx1101 head dim 64 (bf16/fp16) runs 1.16\u20131.32x faster with another",
-      "author": "Ragua1",
-      "state": "open",
-      "created_at": "2026-10-26T20:07:48Z",
-      "updated_at": "2026-10-26T21:42:58Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6962",
       "labels": []
     },
     {

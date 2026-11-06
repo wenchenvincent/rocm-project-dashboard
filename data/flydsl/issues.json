@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-05T15:53:04Z",
+  "collected_at": "2026-11-06T15:27:44Z",
   "issues": [
+    {
+      "number": 1376,
+      "title": "[DSL] v_cvt_pk_f32_{fp8,bf8} missing True16 (_t16) ISel patterns in pinned LLVM (blocks cvt_pk_f32_{fp8,bf8} on gfx117x/gfx12xx)",
+      "author": "dimitri91209",
+      "state": "open",
+      "created_at": "2026-11-05T18:34:48Z",
+      "updated_at": "2026-11-06T12:57:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1376",
+      "labels": []
+    },
+    {
+      "number": 946,
+      "title": "[Issue]: lld lookup failure in different docker images for gfx1250",
+      "author": "jli-melchior",
+      "state": "open",
+      "created_at": "2026-07-31T09:59:03Z",
+      "updated_at": "2026-11-06T00:20:41Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/946",
+      "labels": []
+    },
     {
       "number": 1358,
       "title": "[gfx950] Block merging in the ROCDL lowering makes a loop irreducible; its MFMAs then run under partial EXEC and return wrong results",
@@ -220,16 +240,6 @@
       "created_at": "2026-08-04T06:15:14Z",
       "updated_at": "2026-08-04T06:17:57Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/962",
-      "labels": []
-    },
-    {
-      "number": 946,
-      "title": "[Issue]: lld lookup failure in different docker images for gfx1250",
-      "author": "jli-melchior",
-      "state": "open",
-      "created_at": "2026-07-31T09:59:03Z",
-      "updated_at": "2026-07-31T10:01:37Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/946",
       "labels": []
     },
     {

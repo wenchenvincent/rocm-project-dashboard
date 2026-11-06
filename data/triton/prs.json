@@ -1,17 +1,29 @@
 {
-  "collected_at": "2026-11-05T15:52:15Z",
+  "collected_at": "2026-11-06T15:27:00Z",
   "prs": [
     {
-      "number": 12177,
-      "title": "[AMD] Add FP16-accumulate WMMA support for WMMAv3",
-      "author": "pabloantoniom",
+      "number": 12629,
+      "title": "[AMD] UpdateAsyncWaitCount: walk past region ops without async ops",
+      "author": "Dewei-Wang-sh",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-08T15:52:46Z",
-      "updated_at": "2026-11-05T15:47:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12177",
+      "created_at": "2026-11-05T03:09:20Z",
+      "updated_at": "2026-11-06T14:31:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12629",
       "labels": [],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 12648,
+      "title": "[AMD] Infer TDM wait completion scope",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T14:07:15Z",
+      "updated_at": "2026-11-06T14:26:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12648",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 10694,
@@ -20,10 +32,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-06-22T13:49:28Z",
-      "updated_at": "2026-11-05T15:12:02Z",
+      "updated_at": "2026-11-06T12:38:35Z",
       "html_url": "https://github.com/triton-lang/triton/pull/10694",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 12177,
+      "title": "[AMD] Add FP16-accumulate WMMA support for WMMAv3",
+      "author": "pabloantoniom",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T15:52:46Z",
+      "updated_at": "2026-11-06T11:37:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12177",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 12633,
@@ -32,8 +56,56 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-05T10:58:00Z",
-      "updated_at": "2026-11-05T13:29:00Z",
+      "updated_at": "2026-11-06T10:02:56Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12633",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12645,
+      "title": "[AMD][TritonGPU] Keep the partition when reshaping a partitioned memdesc",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T03:14:14Z",
+      "updated_at": "2026-11-06T09:46:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12645",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12646,
+      "title": "[AMD][ConSan] Handle startup cluster barrier synchronization in multi-CTA kernels",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T09:20:07Z",
+      "updated_at": "2026-11-06T09:21:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12646",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12286,
+      "title": "[AMD][membar] Prove slots of loop-carried views of multi-buffered all\u2026",
+      "author": "yanxuer-999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T06:43:05Z",
+      "updated_at": "2026-11-06T04:53:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12286",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12615,
+      "title": "[AMD][WS] Skip the barrier for single warp partition",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-03T23:01:26Z",
+      "updated_at": "2026-11-05T19:18:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12615",
       "labels": [],
       "draft": false
     },
@@ -48,42 +120,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12634",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12615,
-      "title": "[AMD][WS] Skip the barrier for single warp partition",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T23:01:26Z",
-      "updated_at": "2026-11-05T09:20:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12615",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12629,
-      "title": "[AMD] UpdateAsyncWaitCount: walk past region ops without async ops",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T03:09:20Z",
-      "updated_at": "2026-11-05T09:16:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12629",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12286,
-      "title": "[AMD][membar] Prove slots of loop-carried views of multi-buffered all\u2026",
-      "author": "yanxuer-999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T06:43:05Z",
-      "updated_at": "2026-11-05T08:02:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12286",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12630,
@@ -602,18 +638,6 @@
       "draft": false
     },
     {
-      "number": 12527,
-      "title": "[AMD][Gluon] Add CDNA submodule docs and deprecate old buffer ops",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-28T02:36:36Z",
-      "updated_at": "2026-10-28T03:27:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12527",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12115,
       "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
       "author": "dhernandez0",
@@ -694,30 +718,6 @@
       "created_at": "2026-10-09T11:56:50Z",
       "updated_at": "2026-10-09T11:56:55Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12203",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 11295,
-      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-10-09T08:10:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11295",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12159,
-      "title": "[AMD] Keep shared order in CoalesceAsyncCopy when the src order cannot lower to direct-to-LDS",
-      "author": "he-yufeng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:17:18Z",
-      "updated_at": "2026-10-07T15:17:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12159",
       "labels": [],
       "draft": false
     }

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-05T15:52:59Z",
+  "collected_at": "2026-11-06T15:27:41Z",
   "issues": [
     {
       "number": 917,
@@ -7,8 +7,40 @@
       "author": "maslan-coop26",
       "state": "open",
       "created_at": "2026-11-05T01:28:47Z",
-      "updated_at": "2026-11-05T14:15:54Z",
+      "updated_at": "2026-11-06T14:38:27Z",
       "html_url": "https://github.com/ROCm/mori/issues/917",
+      "labels": []
+    },
+    {
+      "number": 927,
+      "title": "MORI_IB_ENABLE_RELAXED_ORDERING is a silent no-op (#ifdef on an enum constant)",
+      "author": "YeSho-cpp",
+      "state": "open",
+      "created_at": "2026-11-06T07:12:44Z",
+      "updated_at": "2026-11-06T07:40:32Z",
+      "html_url": "https://github.com/ROCm/mori/issues/927",
+      "labels": []
+    },
+    {
+      "number": 925,
+      "title": "ccoMemImport rejects torch 2.14 symm_mem tensors: data starts 0x2400 bytes into the allocation",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "created_at": "2026-11-06T06:12:44Z",
+      "updated_at": "2026-11-06T06:12:44Z",
+      "html_url": "https://github.com/ROCm/mori/issues/925",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 914,
+      "title": "TransferStatus turns failed before all WRs of the transfer have drained; no way to wait for quiescence",
+      "author": "maning00",
+      "state": "open",
+      "created_at": "2026-11-04T04:12:00Z",
+      "updated_at": "2026-11-06T02:51:14Z",
+      "html_url": "https://github.com/ROCm/mori/issues/914",
       "labels": []
     },
     {
@@ -39,16 +71,6 @@
       "created_at": "2026-10-20T00:13:08Z",
       "updated_at": "2026-11-04T14:57:35Z",
       "html_url": "https://github.com/ROCm/mori/issues/811",
-      "labels": []
-    },
-    {
-      "number": 914,
-      "title": "TransferStatus turns failed before all WRs of the transfer have drained; no way to wait for quiescence",
-      "author": "maning00",
-      "state": "open",
-      "created_at": "2026-11-04T04:12:00Z",
-      "updated_at": "2026-11-04T04:12:00Z",
-      "html_url": "https://github.com/ROCm/mori/issues/914",
       "labels": []
     },
     {

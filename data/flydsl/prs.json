@@ -1,6 +1,80 @@
 {
-  "collected_at": "2026-11-05T15:53:03Z",
+  "collected_at": "2026-11-06T15:27:43Z",
   "prs": [
+    {
+      "number": 1368,
+      "title": "[compiler][kernel] strict pin agpr feature and kernel example usage to replace inline_asm ",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T14:00:36Z",
+      "updated_at": "2026-11-06T15:20:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1368",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1372,
+      "title": "[Bugfix] Fix gfx1250 WMMAScale FP8 and 32x16x128 register layouts",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T07:14:20Z",
+      "updated_at": "2026-11-06T15:09:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1372",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1375,
+      "title": "[DSL] Add ROCDL wrappers for FP8/BF8/F16 conversion, dot, math, and DPP ops",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T18:34:47Z",
+      "updated_at": "2026-11-06T13:53:44Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1375",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1377,
+      "title": "[Dialect][DSL] Add GFX120X SWMMAC 2:4 sparse MMA dialect atom",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T18:34:53Z",
+      "updated_at": "2026-11-06T13:49:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1377",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1382,
+      "title": "[CI] Pull the published manylinux image tag from ghcr",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T10:04:10Z",
+      "updated_at": "2026-11-06T10:04:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1382",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1332,
+      "title": "[Bugfix] Fix ROCm GPU counting and architecture fallback",
+      "author": "Qubitium",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T20:27:57Z",
+      "updated_at": "2026-11-06T09:29:05Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1332",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
     {
       "number": 1374,
       "title": "[Kernel] Add native RDNA4 MXFP4 \u00d7 FP8 dense GEMM",
@@ -8,31 +82,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-05T14:15:24Z",
-      "updated_at": "2026-11-05T14:15:24Z",
+      "updated_at": "2026-11-06T09:05:40Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1374",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1369,
-      "title": "[Windows] AOT export support for Windows x64",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T04:50:27Z",
-      "updated_at": "2026-11-05T10:30:54Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1369",
       "labels": [],
       "draft": false
     },
     {
+      "number": 1380,
+      "title": "[Windows][CI] Add a Windows gfx1201 GPU workflow",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T07:52:20Z",
+      "updated_at": "2026-11-06T08:33:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1380",
+      "labels": [
+        "WIP",
+        "ci:windows"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1111,
+      "title": "[DO NOT MERGE] Add MegaMoE engineering skill",
+      "author": "GwilliamHu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-09T08:34:14Z",
+      "updated_at": "2026-11-06T06:48:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1111",
+      "labels": [],
+      "draft": true
+    },
+    {
       "number": 1264,
-      "title": "[Bugfix][gfx1250] Reject FP8 and A8W4 GEMM tiles that issue no WMMA, and test that stores stay inside N",
+      "title": "[Bugfix][gfx1250] Reject FP8 and A8W4 GEMM tiles that issue no WMMA",
       "author": "jhinpan",
       "state": "open",
       "merged": false,
       "created_at": "2026-10-11T09:12:14Z",
-      "updated_at": "2026-11-05T09:38:00Z",
+      "updated_at": "2026-11-05T19:16:35Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1264",
       "labels": [],
       "draft": false
@@ -46,18 +135,6 @@
       "created_at": "2026-10-06T17:57:28Z",
       "updated_at": "2026-11-05T09:23:27Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1227",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1368,
-      "title": "[compiler][kernel] strict pin agpr feature and kernel example usage to replace inline_asm ",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T14:00:36Z",
-      "updated_at": "2026-11-05T08:34:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1368",
       "labels": [],
       "draft": false
     },
@@ -89,18 +166,6 @@
         "WIP"
       ],
       "draft": true
-    },
-    {
-      "number": 1372,
-      "title": "[Bugfix] Fix gfx1250 WMMAScale FP8 and 32x16x128 register layouts",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T07:14:20Z",
-      "updated_at": "2026-11-05T07:14:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1372",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1109,
@@ -330,20 +395,6 @@
       "updated_at": "2026-11-02T02:12:28Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1222",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1332,
-      "title": "[Bugfix] Fix ROCm GPU counting and architecture fallback",
-      "author": "Qubitium",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T20:27:57Z",
-      "updated_at": "2026-10-30T09:42:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1332",
-      "labels": [
-        "ai-review"
-      ],
       "draft": false
     },
     {
@@ -811,18 +862,6 @@
       "draft": false
     },
     {
-      "number": 1111,
-      "title": "[DO NOT MERGE] Add MegaMoE engineering skill",
-      "author": "GwilliamHu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-09T08:34:14Z",
-      "updated_at": "2026-09-09T08:34:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1111",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1108,
       "title": "[Bugfix][Benchmark] Fix compiler API usage in Softmax and RMSNorm benchmarks",
       "author": "tangzzycc",
@@ -903,6 +942,54 @@
       "created_at": "2026-07-27T23:39:08Z",
       "updated_at": "2026-07-28T17:00:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/914",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1379,
+      "title": "[Tests] Drop the hard triton import from kernel test helpers",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-06T00:52:45Z",
+      "updated_at": "2026-11-06T09:21:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1379",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1378,
+      "title": "[Windows][Tests] Fix missing stream waits in multi-stream tests",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-06T00:34:18Z",
+      "updated_at": "2026-11-06T09:21:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1378",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1381,
+      "title": "[JIT] Key disk cache entries by the ROCm device bitcode and external LLVM libs",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-06T08:37:52Z",
+      "updated_at": "2026-11-06T09:04:06Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1381",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1369,
+      "title": "[Windows] AOT export support for Windows x64",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T04:50:27Z",
+      "updated_at": "2026-11-06T08:18:36Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1369",
       "labels": [],
       "draft": false
     },

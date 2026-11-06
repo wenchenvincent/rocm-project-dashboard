@@ -1,6 +1,71 @@
 {
-  "collected_at": "2026-11-05T15:51:44Z",
+  "collected_at": "2026-11-06T15:26:33Z",
   "prs": [
+    {
+      "number": 42394,
+      "title": "[ROCm] Compile IFRT IR MPMD programs on PJRT-backed IFRT clients",
+      "author": "i-chaochen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T13:05:28Z",
+      "updated_at": "2026-11-06T14:11:46Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42394",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 42272,
+      "title": "Build the ROCm plugin with static libc++",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T22:04:41Z",
+      "updated_at": "2026-11-06T12:53:43Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42272",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 42351,
+      "title": "[CI] Forward `x64` and free-threaded Python flags in `ci/run_bazel_test_rocm_rbe.sh`.",
+      "author": "copybara-service[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T16:23:21Z",
+      "updated_at": "2026-11-05T23:42:16Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42351",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 42360,
+      "title": "[CI] Fix ROCm presubmit fork gating and `actionlint` runner labels.",
+      "author": "copybara-service[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T17:55:28Z",
+      "updated_at": "2026-11-05T20:44:40Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42360",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 42366,
+      "title": "Run Bazel ROCm presubmit on the dedicated 1-GPU runner",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T19:34:07Z",
+      "updated_at": "2026-11-05T20:20:32Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42366",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 41815,
       "title": "[ROCm] Switch the pinned ROCm CI legs from 10.0 to 10.1",
@@ -54,30 +119,6 @@
         "AMD GPU"
       ],
       "draft": true
-    },
-    {
-      "number": 42272,
-      "title": "Build the ROCm plugin with static libc++",
-      "author": "psanal35",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T22:04:41Z",
-      "updated_at": "2026-11-03T22:51:48Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42272",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 42268,
-      "title": "[CI] Fix GitHub Actions concurrency, ROCm fork gating, K8s CI, and artifact actions.",
-      "author": "copybara-service[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T19:56:05Z",
-      "updated_at": "2026-11-03T20:19:38Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42268",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 41703,
@@ -559,36 +600,6 @@
       "created_at": "2026-09-01T21:34:35Z",
       "updated_at": "2026-09-02T20:53:37Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40370",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40304,
-      "title": "[ROCm] Add Python 3.15 to the ROCm CI matrices",
-      "author": "mminutoli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-28T21:04:41Z",
-      "updated_at": "2026-09-01T21:17:33Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40304",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40215,
-      "title": "[ROCm] Replace rocm-smi with amd-smi in CI diagnostics",
-      "author": "gulsumgudukbay",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-25T21:38:40Z",
-      "updated_at": "2026-08-27T00:18:17Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40215",
       "labels": [
         "kokoro:force-run",
         "pull ready"

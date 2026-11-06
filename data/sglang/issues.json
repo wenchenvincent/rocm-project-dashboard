@@ -1,14 +1,64 @@
 {
-  "collected_at": "2026-11-05T15:52:12Z",
+  "collected_at": "2026-11-06T15:26:58Z",
   "issues": [
+    {
+      "number": 48922,
+      "title": "[Bug] SM120 DeepSeek-V4.1: low-ratio indexer decode dies with schedule_meta=None (fp8_fp4_paged_mqa_logits arg #6) in dev-dsv41",
+      "author": "Lei-010",
+      "state": "open",
+      "created_at": "2026-11-06T15:09:36Z",
+      "updated_at": "2026-11-06T15:09:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/48922",
+      "labels": []
+    },
     {
       "number": 21302,
       "title": "[AITER-Upgrade] PR readiness",
       "author": "HaiShaw",
       "state": "open",
       "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-11-05T15:03:08Z",
+      "updated_at": "2026-11-06T10:20:07Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 45373,
+      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
+      "author": "JackChuang",
+      "state": "open",
+      "created_at": "2026-10-20T10:04:23Z",
+      "updated_at": "2026-11-06T10:07:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
+      "labels": []
+    },
+    {
+      "number": 33422,
+      "title": "[Perf] DeepSeek-V4 dsv4 prefill on SM120 (4x RTX PRO 6000, TP=4): ~2-7K tok/s vs ~12.5K reported via vLLM/marlin on identical hardware \u2014 expected? tuning guidance?",
+      "author": "hassellof",
+      "state": "open",
+      "created_at": "2026-08-03T19:29:12Z",
+      "updated_at": "2026-11-06T06:52:51Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33422",
+      "labels": []
+    },
+    {
+      "number": 48747,
+      "title": "[Bug] FlashInfer and Triton apply checkpoint KV-cache scales to a BF16 KV cache, so decode output is garbage (default flags for fp8/Quark FP8-KV checkpoints)",
+      "author": "HollowMan6",
+      "state": "open",
+      "created_at": "2026-11-05T23:17:30Z",
+      "updated_at": "2026-11-05T23:17:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/48747",
+      "labels": []
+    },
+    {
+      "number": 45849,
+      "title": "[CI] [AMD] disaggregation: test_disaggregation_pp.py fails with Mooncake v0.3.14 (aux data sends over same-node RDMA)",
+      "author": "michaelzhang-ai",
+      "state": "open",
+      "created_at": "2026-10-22T16:47:23Z",
+      "updated_at": "2026-11-05T18:38:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45849",
       "labels": []
     },
     {
@@ -62,16 +112,6 @@
       "labels": []
     },
     {
-      "number": 45373,
-      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
-      "author": "JackChuang",
-      "state": "open",
-      "created_at": "2026-10-20T10:04:23Z",
-      "updated_at": "2026-11-04T07:54:47Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
-      "labels": []
-    },
-    {
       "number": 43313,
       "title": "SGLang-Diffusion Roadmap (2026 Q4)",
       "author": "mickqian",
@@ -83,16 +123,6 @@
         "diffusion",
         "roadmap"
       ]
-    },
-    {
-      "number": 45849,
-      "title": "[CI] [AMD] disaggregation: test_disaggregation_pp.py fails with Mooncake v0.3.14 (aux data sends over same-node RDMA)",
-      "author": "michaelzhang-ai",
-      "state": "open",
-      "created_at": "2026-10-22T16:47:23Z",
-      "updated_at": "2026-11-03T23:34:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45849",
-      "labels": []
     },
     {
       "number": 48127,
@@ -385,16 +415,6 @@
       "labels": []
     },
     {
-      "number": 36807,
-      "title": "[Bug] fast_topk_v2 can silently return wrong top-k sets when a radix threshold bucket exceeds its 4096-entry candidate buffer (k=2048, long rows)",
-      "author": "zkyue",
-      "state": "open",
-      "created_at": "2026-08-28T06:40:26Z",
-      "updated_at": "2026-10-24T04:55:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36807",
-      "labels": []
-    },
-    {
       "number": 45850,
       "title": "[CI] [AMD] disaggregation: test_nixl_transfer_engine_e2e.py fails with NIXL_ERR_BACKEND (UCX destination unreachable)",
       "author": "michaelzhang-ai",
@@ -427,26 +447,6 @@
       "labels": [
         "ci-failure-tracker"
       ]
-    },
-    {
-      "number": 41152,
-      "title": "[Bug][AMD] aiter unified attention: Gemma 2/3 batched generations run away (Gemma 3 4B GSM8K 0.57 vs 0.83 on triton)",
-      "author": "siliangchen-amd",
-      "state": "open",
-      "created_at": "2026-09-24T16:58:53Z",
-      "updated_at": "2026-10-21T06:51:02Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/41152",
-      "labels": []
-    },
-    {
-      "number": 45197,
-      "title": "[Tracking] Frozen-KV MTP (Gemma 4) performance on non-Blackwell GPUs (Triton path)",
-      "author": "riversky0014",
-      "state": "open",
-      "created_at": "2026-10-19T15:36:48Z",
-      "updated_at": "2026-10-19T15:41:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45197",
-      "labels": []
     },
     {
       "number": 45162,
@@ -548,16 +548,6 @@
       "created_at": "2026-09-21T11:29:37Z",
       "updated_at": "2026-09-26T06:12:32Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/40574",
-      "labels": []
-    },
-    {
-      "number": 41299,
-      "title": "[Bug][ROCm] Qwen3.8-Flash-Next (qwen4_exp) crashes with HSAIL hardware exception 0x1016 on the first 16k prefill chunk, gfx950 TP1",
-      "author": "mavizao",
-      "state": "open",
-      "created_at": "2026-09-26T01:41:27Z",
-      "updated_at": "2026-09-26T01:41:27Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/41299",
       "labels": []
     }
   ]

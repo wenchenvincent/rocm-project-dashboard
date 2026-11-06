@@ -1,6 +1,59 @@
 {
-  "collected_at": "2026-11-05T15:52:55Z",
+  "collected_at": "2026-11-06T15:27:37Z",
   "issues": [
+    {
+      "number": 3078,
+      "title": "[Issue]: Scheduled regression reruns skip labelled benchmark variants and can suppress the [Perf Regression] issue",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-06T15:14:55Z",
+      "updated_at": "2026-11-06T15:14:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3078",
+      "labels": []
+    },
+    {
+      "number": 2928,
+      "title": "[Issue]: Native sampler shares one exponential-noise row across all unfiltered stochastic rows of a batch (ordinary n=1 requests)",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-02T19:51:54Z",
+      "updated_at": "2026-11-06T15:06:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2928",
+      "labels": []
+    },
+    {
+      "number": 3051,
+      "title": "[Kimi-K3.1][DCP8] Long decodes collapse into repeated token 0 (`!!!!`) and later lose the prompt under TP8 + DCP8 (clean with DCP=1)",
+      "author": "IvanShan177",
+      "state": "open",
+      "created_at": "2026-11-06T04:13:53Z",
+      "updated_at": "2026-11-06T12:37:16Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3051",
+      "labels": []
+    },
+    {
+      "number": 3047,
+      "title": "[Perf Regression] 23 config(s) regressed @ 64412f10",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-06T01:50:54Z",
+      "updated_at": "2026-11-06T01:50:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3047",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2926,
+      "title": "[Issue]: Compile cache is shared by models that differ only in layer count or widths, so the second model loads the wrong artifact and fails at load",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-02T19:47:48Z",
+      "updated_at": "2026-11-05T19:37:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2926",
+      "labels": []
+    },
     {
       "number": 2865,
       "title": "Qwen3.5 image prompt: prefix-cache hit covering image tokens crashes merge_multimodal_embeddings (shape mismatch), reproduces on main without offload",
@@ -75,16 +128,6 @@
       "labels": []
     },
     {
-      "number": 2928,
-      "title": "[Issue]: Native sampler shares one exponential-noise row across all unfiltered stochastic rows of a batch (ordinary n=1 requests)",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-02T19:51:54Z",
-      "updated_at": "2026-11-04T16:34:01Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2928",
-      "labels": []
-    },
-    {
       "number": 2991,
       "title": "[Perf Regression] 1 config(s) regressed @ 16ebac2e",
       "author": "github-actions[bot]",
@@ -155,16 +198,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 2926,
-      "title": "[Issue]: Compile cache is shared by models that differ only in layer count or widths, so the second model loads the wrong artifact and fails at load",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-02T19:47:48Z",
-      "updated_at": "2026-11-02T20:23:00Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2926",
-      "labels": []
     },
     {
       "number": 2911,
