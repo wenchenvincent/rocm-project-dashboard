@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-11-06T15:27:41Z",
+  "collected_at": "2026-11-07T14:29:05Z",
   "issues": [
+    {
+      "number": 932,
+      "title": "io/sim: one unknown catalog field makes every simulated backend fail to start",
+      "author": "ZhaiFeiyue",
+      "state": "open",
+      "created_at": "2026-11-07T01:15:07Z",
+      "updated_at": "2026-11-07T01:15:07Z",
+      "html_url": "https://github.com/ROCm/mori/issues/932",
+      "labels": []
+    },
+    {
+      "number": 931,
+      "title": "io/sim: per-op / per-segment cost is the caller's CPU time on hardware, but the simulator charges it to the link",
+      "author": "ZhaiFeiyue",
+      "state": "open",
+      "created_at": "2026-11-07T01:15:07Z",
+      "updated_at": "2026-11-07T01:15:07Z",
+      "html_url": "https://github.com/ROCm/mori/issues/931",
+      "labels": []
+    },
+    {
+      "number": 759,
+      "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-13T04:05:06Z",
+      "updated_at": "2026-11-06T15:35:19Z",
+      "html_url": "https://github.com/ROCm/mori/issues/759",
+      "labels": []
+    },
     {
       "number": 917,
       "title": "cco: register_window pins every rank's window in system memory and leaves all ranks' KFD queues evicted when the kernel lacks P2P dma-buf (MI355X, intranode)",
@@ -41,16 +71,6 @@
       "created_at": "2026-11-04T04:12:00Z",
       "updated_at": "2026-11-06T02:51:14Z",
       "html_url": "https://github.com/ROCm/mori/issues/914",
-      "labels": []
-    },
-    {
-      "number": 759,
-      "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-10-13T04:05:06Z",
-      "updated_at": "2026-11-05T12:09:02Z",
-      "html_url": "https://github.com/ROCm/mori/issues/759",
       "labels": []
     },
     {

@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-11-06T15:27:39Z",
+  "collected_at": "2026-11-07T14:29:04Z",
   "prs": [
+    {
+      "number": 934,
+      "title": "fix(io/sim): skip unknown catalog fields with a warning; MORI_IO_SIM_CATALOG_STRICT=1 rejects them",
+      "author": "ZhaiFeiyue",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T01:16:02Z",
+      "updated_at": "2026-11-07T01:16:02Z",
+      "html_url": "https://github.com/ROCm/mori/pull/934",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 898,
+      "title": "fix(io/xgmi): open hidden-device sessions between PCIe peers outside an XGMI hive",
+      "author": "akshayv",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T16:16:23Z",
+      "updated_at": "2026-11-06T23:47:02Z",
+      "html_url": "https://github.com/ROCm/mori/pull/898",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 816,
+      "title": "Draft collectives develop",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T13:00:41Z",
+      "updated_at": "2026-11-06T22:25:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/816",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 860,
+      "title": "feat(ep) Add KIWI EP dispatch/combine as an optional MORI op (BUILD_OPS_KIWI)",
+      "author": "charlifu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T16:34:37Z",
+      "updated_at": "2026-11-06T21:54:55Z",
+      "html_url": "https://github.com/ROCm/mori/pull/860",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 846,
+      "title": "feat(io): add version/mode/layout compatibility check to handshake (Gap 12)",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T21:43:24Z",
+      "updated_at": "2026-11-06T21:05:33Z",
+      "html_url": "https://github.com/ROCm/mori/pull/846",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 907,
+      "title": "Fix/io failed status waits for all wrs",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T18:23:08Z",
+      "updated_at": "2026-11-06T17:00:52Z",
+      "html_url": "https://github.com/ROCm/mori/pull/907",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 930,
       "title": "poc(cco): MegaMoE GEMM1 fused with an SDMA dispatch (gfx950) ",
@@ -134,30 +206,6 @@
       "draft": false
     },
     {
-      "number": 846,
-      "title": "feat(io): add version/mode/layout compatibility check to handshake (Gap 12)",
-      "author": "kudomcho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T21:43:24Z",
-      "updated_at": "2026-11-06T07:09:08Z",
-      "html_url": "https://github.com/ROCm/mori/pull/846",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 860,
-      "title": "feat(ep) Add KIWI EP dispatch/combine as an optional MORI op (BUILD_OPS_KIWI)",
-      "author": "charlifu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T16:34:37Z",
-      "updated_at": "2026-11-06T06:58:13Z",
-      "html_url": "https://github.com/ROCm/mori/pull/860",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 632,
       "title": "fix(cco): take allocMutex on the window paths",
       "author": "jhchouuu",
@@ -180,18 +228,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/918",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 907,
-      "title": "Fix/io failed status waits for all wrs",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T18:23:08Z",
-      "updated_at": "2026-11-06T04:06:59Z",
-      "html_url": "https://github.com/ROCm/mori/pull/907",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 904,
@@ -276,18 +312,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/871",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 816,
-      "title": "Draft collectives develop",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T13:00:41Z",
-      "updated_at": "2026-11-04T14:50:06Z",
-      "html_url": "https://github.com/ROCm/mori/pull/816",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 884,
@@ -408,18 +432,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/900",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 898,
-      "title": "fix(io/xgmi): open hidden-device sessions between PCIe peers outside an XGMI hive",
-      "author": "akshayv",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T16:16:23Z",
-      "updated_at": "2026-11-02T18:03:55Z",
-      "html_url": "https://github.com/ROCm/mori/pull/898",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 699,
@@ -2064,18 +2076,6 @@
       "created_at": "2026-10-16T05:17:33Z",
       "updated_at": "2026-10-16T15:16:55Z",
       "html_url": "https://github.com/ROCm/mori/pull/783",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 762,
-      "title": "fix(umbp): SSD staging no longer fails local loads; a local read holds its bytes until it is done",
-      "author": "TianDi101",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-13T15:35:50Z",
-      "updated_at": "2026-10-16T15:04:58Z",
-      "html_url": "https://github.com/ROCm/mori/pull/762",
       "labels": [],
       "draft": false
     }

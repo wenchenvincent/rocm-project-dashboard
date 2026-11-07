@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T15:26:33Z",
+  "collected_at": "2026-11-07T14:27:57Z",
   "prs": [
     {
       "number": 42394,
@@ -8,9 +8,52 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-06T13:05:28Z",
-      "updated_at": "2026-11-06T14:11:46Z",
+      "updated_at": "2026-11-06T20:06:54Z",
       "html_url": "https://github.com/jax-ml/jax/pull/42394",
       "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 42405,
+      "title": "[ROCm] Fix AWS OIDC permissions in the Bazel ROCm workflow",
+      "author": "psanal35",
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-11-06T19:34:53Z",
+      "updated_at": "2026-11-06T19:55:37Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42405",
+      "labels": [
+        "CI",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 42404,
+      "title": "[jax-buildcop] Remove workflow-level `permissions: {}` from `bazel_rocm.yml`",
+      "author": "copybara-service[bot]",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-06T19:34:29Z",
+      "updated_at": "2026-11-06T19:47:48Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42404",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 42366,
+      "title": "Run Bazel ROCm presubmit on the dedicated 1-GPU runner",
+      "author": "psanal35",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T19:34:07Z",
+      "updated_at": "2026-11-06T18:00:05Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42366",
+      "labels": [
+        "pull ready",
         "AMD GPU"
       ],
       "draft": false
@@ -49,21 +92,6 @@
       "updated_at": "2026-11-05T20:44:40Z",
       "html_url": "https://github.com/jax-ml/jax/pull/42360",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 42366,
-      "title": "Run Bazel ROCm presubmit on the dedicated 1-GPU runner",
-      "author": "psanal35",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T19:34:07Z",
-      "updated_at": "2026-11-05T20:20:32Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42366",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
-      ],
       "draft": false
     },
     {
@@ -570,36 +598,6 @@
       "created_at": "2026-09-02T23:16:34Z",
       "updated_at": "2026-09-10T19:34:47Z",
       "html_url": "https://github.com/jax-ml/jax/pull/40408",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40389,
-      "title": "[ROCm] Work around a rocFFT twiddle cache bug in multi-dimensional real FFTs",
-      "author": "magaonka-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-02T05:11:59Z",
-      "updated_at": "2026-09-02T20:56:28Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40389",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40370,
-      "title": "[ROCm] Drop --security-opt seccomp=unconfined from the ROCm CI containers",
-      "author": "mminutoli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-01T21:34:35Z",
-      "updated_at": "2026-09-02T20:53:37Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40370",
       "labels": [
         "kokoro:force-run",
         "pull ready"

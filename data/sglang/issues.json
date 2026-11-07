@@ -1,13 +1,93 @@
 {
-  "collected_at": "2026-11-06T15:26:58Z",
+  "collected_at": "2026-11-07T14:28:22Z",
   "issues": [
+    {
+      "number": 36941,
+      "title": "[GB10] Long prefill (>40k tokens) exhausts unified memory and silently kills the worker rank \u2014 no traceback, no OOM record; cross-stack control passes at 54k",
+      "author": "beastllama",
+      "state": "open",
+      "created_at": "2026-08-29T02:09:22Z",
+      "updated_at": "2026-11-07T11:36:28Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/36941",
+      "labels": []
+    },
+    {
+      "number": 45373,
+      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
+      "author": "JackChuang",
+      "state": "open",
+      "created_at": "2026-10-20T10:04:23Z",
+      "updated_at": "2026-11-07T01:17:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
+      "labels": []
+    },
+    {
+      "number": 46462,
+      "title": "AMD Development Roadmap (2026 Q4)",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-10-25T20:21:48Z",
+      "updated_at": "2026-11-07T00:28:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46462",
+      "labels": []
+    },
+    {
+      "number": 48967,
+      "title": "[Bug] [AMD] decode attention: MLA-shaped Triton decode returns NaN / wrong rows on ragged batches (gfx1151)",
+      "author": "twoask",
+      "state": "open",
+      "created_at": "2026-11-06T21:15:12Z",
+      "updated_at": "2026-11-07T00:13:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/48967",
+      "labels": []
+    },
+    {
+      "number": 17050,
+      "title": "[Tracking] CI Test Failures and Fixes",
+      "author": "alisonshao",
+      "state": "open",
+      "created_at": "2026-01-14T01:49:31Z",
+      "updated_at": "2026-11-06T23:09:10Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 48968,
+      "title": "[Bug] [AMD] --enable-deterministic-inference fails at startup on RDNA: batch-invariant matmul needs 99 KB LDS (64 KB available)",
+      "author": "twoask",
+      "state": "open",
+      "created_at": "2026-11-06T21:15:13Z",
+      "updated_at": "2026-11-06T21:15:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/48968",
+      "labels": []
+    },
+    {
+      "number": 44304,
+      "title": "[ROCm][AMD] Qwen3.8-Flash-Next gfx950 / MI355X Performance Optimization",
+      "author": "ChangLiu0709",
+      "state": "open",
+      "created_at": "2026-10-14T14:46:04Z",
+      "updated_at": "2026-11-06T18:36:31Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/44304",
+      "labels": []
+    },
+    {
+      "number": 33422,
+      "title": "[Perf] DeepSeek-V4 dsv4 prefill on SM120 (4x RTX PRO 6000, TP=4): ~2-7K tok/s vs ~12.5K reported via vLLM/marlin on identical hardware \u2014 expected? tuning guidance?",
+      "author": "hassellof",
+      "state": "open",
+      "created_at": "2026-08-03T19:29:12Z",
+      "updated_at": "2026-11-06T16:22:59Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33422",
+      "labels": []
+    },
     {
       "number": 48922,
       "title": "[Bug] SM120 DeepSeek-V4.1: low-ratio indexer decode dies with schedule_meta=None (fp8_fp4_paged_mqa_logits arg #6) in dev-dsv41",
       "author": "Lei-010",
       "state": "open",
       "created_at": "2026-11-06T15:09:36Z",
-      "updated_at": "2026-11-06T15:09:36Z",
+      "updated_at": "2026-11-06T16:11:35Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/48922",
       "labels": []
     },
@@ -19,26 +99,6 @@
       "created_at": "2026-03-24T09:28:38Z",
       "updated_at": "2026-11-06T10:20:07Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
-      "number": 45373,
-      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
-      "author": "JackChuang",
-      "state": "open",
-      "created_at": "2026-10-20T10:04:23Z",
-      "updated_at": "2026-11-06T10:07:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
-      "labels": []
-    },
-    {
-      "number": 33422,
-      "title": "[Perf] DeepSeek-V4 dsv4 prefill on SM120 (4x RTX PRO 6000, TP=4): ~2-7K tok/s vs ~12.5K reported via vLLM/marlin on identical hardware \u2014 expected? tuning guidance?",
-      "author": "hassellof",
-      "state": "open",
-      "created_at": "2026-08-03T19:29:12Z",
-      "updated_at": "2026-11-06T06:52:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33422",
       "labels": []
     },
     {
@@ -82,16 +142,6 @@
       "labels": []
     },
     {
-      "number": 36941,
-      "title": "[GB10] Long prefill (>40k tokens) exhausts unified memory and silently kills the worker rank \u2014 no traceback, no OOM record; cross-stack control passes at 54k",
-      "author": "beastllama",
-      "state": "open",
-      "created_at": "2026-08-29T02:09:22Z",
-      "updated_at": "2026-11-05T01:45:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36941",
-      "labels": []
-    },
-    {
       "number": 48483,
       "title": "[Bug] [AMD] moe: GLM Gluon EP>1 32K prefill reads codes past the 2-GiB buffer-op window",
       "author": "jhinpan",
@@ -99,16 +149,6 @@
       "created_at": "2026-11-05T00:23:38Z",
       "updated_at": "2026-11-05T00:23:38Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/48483",
-      "labels": []
-    },
-    {
-      "number": 44304,
-      "title": "[ROCm][AMD] Qwen3.8-Flash-Next gfx950 / MI355X Performance Optimization",
-      "author": "ChangLiu0709",
-      "state": "open",
-      "created_at": "2026-10-14T14:46:04Z",
-      "updated_at": "2026-11-04T15:19:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/44304",
       "labels": []
     },
     {
@@ -123,16 +163,6 @@
         "diffusion",
         "roadmap"
       ]
-    },
-    {
-      "number": 48127,
-      "title": "[Bug] RadixArk/Muse-Glimmer-NVFP4 fails at load since #45632 (MXFP8 lm_head), and on Hopper also at DeepGEMM warmup",
-      "author": "Smallfu666",
-      "state": "open",
-      "created_at": "2026-11-03T09:39:50Z",
-      "updated_at": "2026-11-03T09:39:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/48127",
-      "labels": []
     },
     {
       "number": 39092,
@@ -363,16 +393,6 @@
       ]
     },
     {
-      "number": 46462,
-      "title": "AMD Development Roadmap (2026 Q4)",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-10-25T20:21:48Z",
-      "updated_at": "2026-10-25T21:58:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/46462",
-      "labels": []
-    },
-    {
       "number": 42473,
       "title": "Development Roadmap (2026 Q4)",
       "author": "merrymercy",
@@ -395,16 +415,6 @@
       ]
     },
     {
-      "number": 46314,
-      "title": "[Bug] diffusion quantization layer: 11 correctness bugs (ModelSlim MXFP4, rowwise FP8/gfx1250, MXFP4 ROCm, KitchenW4A4, Nunchaku)",
-      "author": "OnePunchMonk",
-      "state": "open",
-      "created_at": "2026-10-24T16:17:13Z",
-      "updated_at": "2026-10-24T16:17:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/46314",
-      "labels": []
-    },
-    {
       "number": 46312,
       "title": "[Bug] DeepSeek AWQ checkpoints fail to load on CUDA: ModuleNotFoundError: No module named 'sglang.kernel_api_logging'",
       "author": "znzryb",
@@ -412,16 +422,6 @@
       "created_at": "2026-10-24T16:04:03Z",
       "updated_at": "2026-10-24T16:04:03Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/46312",
-      "labels": []
-    },
-    {
-      "number": 45850,
-      "title": "[CI] [AMD] disaggregation: test_nixl_transfer_engine_e2e.py fails with NIXL_ERR_BACKEND (UCX destination unreachable)",
-      "author": "michaelzhang-ai",
-      "state": "open",
-      "created_at": "2026-10-22T16:47:25Z",
-      "updated_at": "2026-10-22T16:47:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45850",
       "labels": []
     },
     {
@@ -479,16 +479,6 @@
       "labels": [
         "RFC"
       ]
-    },
-    {
-      "number": 17050,
-      "title": "[Tracking] CI Test Failures and Fixes",
-      "author": "alisonshao",
-      "state": "open",
-      "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-10-13T18:19:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/17050",
-      "labels": []
     },
     {
       "number": 43730,

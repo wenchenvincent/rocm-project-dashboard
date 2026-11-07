@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T15:27:29Z",
+  "collected_at": "2026-11-07T14:28:54Z",
   "issues": [
     {
       "number": 7240,
@@ -7,7 +7,7 @@
       "author": "zufayu",
       "state": "open",
       "created_at": "2026-10-30T23:10:45Z",
-      "updated_at": "2026-11-06T07:41:27Z",
+      "updated_at": "2026-11-07T11:56:01Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7240",
       "labels": [
         "Infra",
@@ -15,16 +15,56 @@
       ]
     },
     {
+      "number": 7604,
+      "title": "[Issue]: [gfx1250] DeepSeek-V4-Pro accuracy collapses under sustained load: TDM-store stale LDS in MoE GEMMs + compressor masked loads spread one NaN to every request",
+      "author": "hubertlu-tw",
+      "state": "open",
+      "created_at": "2026-11-07T06:49:34Z",
+      "updated_at": "2026-11-07T08:15:02Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7604",
+      "labels": []
+    },
+    {
       "number": 7037,
       "title": "Triton nightly status",
       "author": "github-actions[bot]",
       "state": "open",
       "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-06T07:26:58Z",
+      "updated_at": "2026-11-07T07:23:01Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7037",
       "labels": [
         "triton-nightly"
       ]
+    },
+    {
+      "number": 7593,
+      "title": "[issue] gfx942 (MI300X) result for pytest op_tests/test_mha_fp8.py op_tests/test_mha_varlen_fp8.py",
+      "author": "zjin-lcf",
+      "state": "open",
+      "created_at": "2026-11-06T22:24:12Z",
+      "updated_at": "2026-11-06T22:24:12Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7593",
+      "labels": []
+    },
+    {
+      "number": 7592,
+      "title": "NameError: DROPPED_ROUTE_ROW not defined in moe_contiguous_psum.py (TP4 mode crash)",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-11-06T20:20:36Z",
+      "updated_at": "2026-11-06T20:55:17Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7592",
+      "labels": []
+    },
+    {
+      "number": 7590,
+      "title": "gfx942 MLA a8w8 asm kernels cast softmax P to fp8 e4m3fnuz without scaling: small probabilities become subnormal or flush to zero",
+      "author": "onkarbpatil",
+      "state": "open",
+      "created_at": "2026-11-06T18:42:39Z",
+      "updated_at": "2026-11-06T18:42:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7590",
+      "labels": []
     },
     {
       "number": 7536,

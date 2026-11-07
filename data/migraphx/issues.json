@@ -1,17 +1,16 @@
 {
-  "collected_at": "2026-11-06T15:27:06Z",
+  "collected_at": "2026-11-07T14:28:31Z",
   "issues": [
     {
-      "number": 5237,
-      "title": "[Issue]: MIGraphX incorrectly determines output tensors' strides",
-      "author": "mferencevic",
+      "number": 5487,
+      "title": "`simplify_qdq` produces NaN when the folded add or concat scale overflows fp16",
+      "author": "pfultz2",
       "state": "open",
-      "created_at": "2026-09-03T20:03:43Z",
-      "updated_at": "2026-11-05T14:08:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5237",
+      "created_at": "2026-11-06T23:41:56Z",
+      "updated_at": "2026-11-06T23:41:56Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5487",
       "labels": [
-        "status: triage",
-        "status: fix submitted"
+        "bug"
       ]
     },
     {
@@ -2017,18 +2016,6 @@
       "updated_at": "2024-02-08T19:08:18Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/2738",
       "labels": []
-    },
-    {
-      "number": 2737,
-      "title": "Remove layernorm fusion and use the default reduction fusion pipeline",
-      "author": "pfultz2",
-      "state": "open",
-      "created_at": "2024-02-08T19:04:41Z",
-      "updated_at": "2024-02-08T19:04:59Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/2737",
-      "labels": [
-        "Perf Improve"
-      ]
     },
     {
       "number": 2732,

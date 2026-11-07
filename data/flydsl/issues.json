@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T15:27:44Z",
+  "collected_at": "2026-11-07T14:29:08Z",
   "issues": [
     {
       "number": 1376,
@@ -7,7 +7,7 @@
       "author": "dimitri91209",
       "state": "open",
       "created_at": "2026-11-05T18:34:48Z",
-      "updated_at": "2026-11-06T12:57:10Z",
+      "updated_at": "2026-11-06T17:18:01Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1376",
       "labels": []
     },
