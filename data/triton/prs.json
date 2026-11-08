@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-11-07T14:28:24Z",
+  "collected_at": "2026-11-08T14:37:10Z",
   "prs": [
+    {
+      "number": 12660,
+      "title": "[AMD] Fix CodeGen build for LLVM @293a85c048f7",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-08T06:13:59Z",
+      "updated_at": "2026-11-08T07:59:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12660",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12656,
+      "title": "[AMD] Build LLVM @293a85c048f7 for CodeGen",
+      "author": "njriasan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-07T15:02:20Z",
+      "updated_at": "2026-11-08T05:04:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12656",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12629,
+      "title": "[AMD] UpdateAsyncWaitCount: walk past region ops without async ops",
+      "author": "Dewei-Wang-sh",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T03:09:20Z",
+      "updated_at": "2026-11-08T04:44:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12629",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12630,
+      "title": "[AMD] Fix small K in MFMA ",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T06:31:24Z",
+      "updated_at": "2026-11-08T04:41:08Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12630",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12657,
+      "title": "[AMD] Make release atomics cover writes from every warp",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-08T01:28:56Z",
+      "updated_at": "2026-11-08T02:18:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12657",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12610,
+      "title": "[AMD] Staged asyncmark handling for gfx1250 (async wait count knob)",
+      "author": "njriasan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T15:41:26Z",
+      "updated_at": "2026-11-07T19:37:16Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12610",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12653,
+      "title": "[AMD][GLUON] Fix bank conflict count for swizzled layout on CDNA4",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T04:17:30Z",
+      "updated_at": "2026-11-07T18:18:04Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12653",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12654,
       "title": "[AMD] Re-enable kernarg preload under MIR dump/swap",
@@ -10,18 +94,6 @@
       "created_at": "2026-11-07T05:00:23Z",
       "updated_at": "2026-11-07T05:00:24Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12654",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12653,
-      "title": "[AMD][GLUON] Fix bank conflict count for swizzled layout on CDNA4",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T04:17:30Z",
-      "updated_at": "2026-11-07T04:17:42Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12653",
       "labels": [],
       "draft": false
     },
@@ -70,18 +142,6 @@
       "created_at": "2026-10-08T15:52:46Z",
       "updated_at": "2026-11-06T15:37:26Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12177",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12629,
-      "title": "[AMD] UpdateAsyncWaitCount: walk past region ops without async ops",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T03:09:20Z",
-      "updated_at": "2026-11-06T14:31:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12629",
       "labels": [],
       "draft": false
     },
@@ -154,18 +214,6 @@
       "created_at": "2026-11-05T11:05:03Z",
       "updated_at": "2026-11-05T11:29:40Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12634",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12630,
-      "title": "[WIP][AMD] Fix small K in MFMA ",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T06:31:24Z",
-      "updated_at": "2026-11-05T06:52:05Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12630",
       "labels": [],
       "draft": true
     },
@@ -312,18 +360,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12524",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12610,
-      "title": "[AMD][Draft] Staged asyncmark handling for gfx1250 (async wait count knob)",
-      "author": "njriasan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T15:41:26Z",
-      "updated_at": "2026-11-03T19:24:52Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12610",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 11704,
@@ -590,30 +626,6 @@
       "draft": false
     },
     {
-      "number": 12534,
-      "title": "[AMD][BACKEND] Tighten TDM verifiers",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-28T14:46:13Z",
-      "updated_at": "2026-10-29T01:05:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12534",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12539,
-      "title": "[AMD][Gluon] Check MXFP GEMM prefetches in LLVM IR",
-      "author": "bangtianliu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-28T21:58:12Z",
-      "updated_at": "2026-10-29T00:04:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12539",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12362,
       "title": "[AMD] Fix AMD codegen rebuilds after LLVM dependency updates",
       "author": "willghatch",
@@ -634,30 +646,6 @@
       "created_at": "2026-10-28T15:53:57Z",
       "updated_at": "2026-10-28T15:53:59Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12536",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12528,
-      "title": "[AMD] Switch the MIR dump/swap stage to the code generator's LLVM",
-      "author": "tyb0807",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-28T02:44:29Z",
-      "updated_at": "2026-10-28T15:53:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12528",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12499,
-      "title": "[AMD][GFX1250-strict] Enable HW-accelerated block32 scaled_upcast",
-      "author": "amirumoAMD",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-26T14:24:10Z",
-      "updated_at": "2026-10-28T15:45:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12499",
       "labels": [],
       "draft": false
     },
@@ -720,6 +708,18 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12171",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 12172,
+      "title": "[AMD] Derive pipeliner buffer slots from the induction variable",
+      "author": "dhernandez0",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T12:44:55Z",
+      "updated_at": "2026-10-09T14:01:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12172",
+      "labels": [],
+      "draft": true
     }
   ]
 }

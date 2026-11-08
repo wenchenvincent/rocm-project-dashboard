@@ -1,6 +1,34 @@
 {
-  "collected_at": "2026-11-07T14:29:10Z",
+  "collected_at": "2026-11-08T14:37:49Z",
   "prs": [
+    {
+      "number": 696,
+      "title": "sGPU Test Scheduling: Global Work Queue",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-07T14:24:23Z",
+      "updated_at": "2026-11-08T08:57:51Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
+      "labels": [
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 717,
+      "title": "Integrate Grouped Gemm v2 on ROCm",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T03:24:10Z",
+      "updated_at": "2026-11-08T07:16:46Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/717",
+      "labels": [
+        "P3"
+      ],
+      "draft": true
+    },
     {
       "number": 797,
       "title": "Veergopu/release v2.21 rocm",
@@ -93,20 +121,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/792",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 696,
-      "title": "sGPU Test Scheduling: Global Work Queue",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-07T14:24:23Z",
-      "updated_at": "2026-11-06T22:02:22Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
-      "labels": [
-        "P2"
       ],
       "draft": false
     },
@@ -600,21 +614,6 @@
       "draft": false
     },
     {
-      "number": 570,
-      "title": "[No Merge][No Review] testing aiter auto trigger on gh action",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-05-01T15:40:06Z",
-      "updated_at": "2026-10-20T23:00:20Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/570",
-      "labels": [
-        "ci-level 2",
-        "P2"
-      ],
-      "draft": true
-    },
-    {
       "number": 558,
       "title": "[WIP] TDM porting",
       "author": "wangye805",
@@ -639,20 +638,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/547",
       "labels": [
         "ci-level 3",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 543,
-      "title": "CI: auto-trigger AITER prebuilt upload when 3rdparty/aiter updates on dev",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-15T20:33:43Z",
-      "updated_at": "2026-10-20T23:00:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/543",
-      "labels": [
         "P2"
       ],
       "draft": false
@@ -809,20 +794,6 @@
       "created_at": "2026-08-26T17:11:57Z",
       "updated_at": "2026-10-16T16:28:18Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/718",
-      "labels": [
-        "P2"
-      ],
-      "draft": true
-    },
-    {
-      "number": 717,
-      "title": "Integrate Grouped Gemm v2 on ROCm",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T03:24:10Z",
-      "updated_at": "2026-10-16T16:28:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/717",
       "labels": [
         "P2"
       ],
@@ -2046,32 +2017,6 @@
       "labels": [
         "ci-level 3"
       ],
-      "draft": false
-    },
-    {
-      "number": 686,
-      "title": "cherry-pick Update CI to use TheRock (#602)",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-29T16:52:01Z",
-      "updated_at": "2026-07-30T17:35:07Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/686",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 602,
-      "title": "Update CI to use TheRock",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-05-29T15:33:31Z",
-      "updated_at": "2026-07-29T15:38:53Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/602",
-      "labels": [],
       "draft": false
     }
   ]

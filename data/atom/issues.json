@@ -1,6 +1,39 @@
 {
-  "collected_at": "2026-11-07T14:29:01Z",
+  "collected_at": "2026-11-08T14:37:41Z",
   "issues": [
+    {
+      "number": 3078,
+      "title": "[Issue]: Scheduled regression reruns skip labelled benchmark variants and can suppress the [Perf Regression] issue",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-06T15:14:55Z",
+      "updated_at": "2026-11-08T04:52:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3078",
+      "labels": []
+    },
+    {
+      "number": 3094,
+      "title": "[Perf Regression] 13 config(s) regressed @ 6d22f7db",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-07T21:45:32Z",
+      "updated_at": "2026-11-07T21:45:32Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3094",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3092,
+      "title": "ATOM main broken by aiter PR#6952: pa_mqa_logits_mxfp4_plan removed",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-11-07T17:30:03Z",
+      "updated_at": "2026-11-07T17:30:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3092",
+      "labels": []
+    },
     {
       "number": 3089,
       "title": "[Perf Regression] 11 config(s) regressed @ 6d22f7db",
@@ -22,16 +55,6 @@
       "created_at": "2026-11-02T19:51:54Z",
       "updated_at": "2026-11-07T02:19:31Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2928",
-      "labels": []
-    },
-    {
-      "number": 3078,
-      "title": "[Issue]: Scheduled regression reruns skip labelled benchmark variants and can suppress the [Perf Regression] issue",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-06T15:14:55Z",
-      "updated_at": "2026-11-06T15:14:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3078",
       "labels": []
     },
     {

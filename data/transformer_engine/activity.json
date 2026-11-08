@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-11-07T14:32:14Z",
+  "collected_at": "2026-11-08T14:40:34Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
     "this_week": {
       "opened": 7,
       "merged": 9,
-      "closed": 0
+      "closed": 2
     },
     "last_week": {
       "opened": 9,
@@ -25,19 +25,13 @@
         "author": "matthiasdiener",
         "prs_submitted": 33,
         "prs_merged": 19,
-        "commits": 6
+        "commits": 5
       },
       {
         "author": "ipanfilo",
         "prs_submitted": 18,
         "prs_merged": 15,
         "commits": 3
-      },
-      {
-        "author": "VeeraRajasekhar",
-        "prs_submitted": 14,
-        "prs_merged": 8,
-        "commits": 5
       },
       {
         "author": "alextmagro",
@@ -50,6 +44,12 @@
         "prs_submitted": 13,
         "prs_merged": 11,
         "commits": 6
+      },
+      {
+        "author": "VeeraRajasekhar",
+        "prs_submitted": 10,
+        "prs_merged": 6,
+        "commits": 5
       },
       {
         "author": "Micky774",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 8.7,
+    "days_since_last": 9.7,
     "avg_interval_days": 37.0,
     "total_releases": 5,
     "latest_tag": "v2.18_rocm"

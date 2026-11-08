@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T14:29:08Z",
+  "collected_at": "2026-11-08T14:37:47Z",
   "issues": [
     {
       "number": 1376,
@@ -7,9 +7,22 @@
       "author": "dimitri91209",
       "state": "open",
       "created_at": "2026-11-05T18:34:48Z",
-      "updated_at": "2026-11-06T17:18:01Z",
+      "updated_at": "2026-11-07T19:18:20Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1376",
       "labels": []
+    },
+    {
+      "number": 1016,
+      "title": "[Proposals Welcome] Grow `flydsl.extension` into a library of common GPU building blocks",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-08-17T10:04:48Z",
+      "updated_at": "2026-11-07T19:01:25Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1016",
+      "labels": [
+        "enhancement",
+        "FlyDSL/Customization"
+      ]
     },
     {
       "number": 946,
@@ -208,19 +221,6 @@
       "updated_at": "2026-09-08T08:04:06Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/701",
       "labels": []
-    },
-    {
-      "number": 1016,
-      "title": "[Proposals Welcome] Grow `flydsl.extension` into a library of common GPU building blocks",
-      "author": "sjfeng1999",
-      "state": "open",
-      "created_at": "2026-08-17T10:04:48Z",
-      "updated_at": "2026-08-20T07:16:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1016",
-      "labels": [
-        "enhancement",
-        "FlyDSL/Customization"
-      ]
     },
     {
       "number": 831,

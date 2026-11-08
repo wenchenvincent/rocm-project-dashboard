@@ -1,6 +1,110 @@
 {
-  "collected_at": "2026-11-07T14:28:59Z",
+  "collected_at": "2026-11-08T14:37:38Z",
   "prs": [
+    {
+      "number": 3076,
+      "title": "fix(moe): exclude idle DP dummy tokens from expert routing",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T15:03:28Z",
+      "updated_at": "2026-11-08T14:00:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3076",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3090,
+      "title": "feat(api): strict function tools on /beta/chat/completions (BETA-03)",
+      "author": "HaonanWang98",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T12:12:43Z",
+      "updated_at": "2026-11-08T11:20:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3090",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2809,
+      "title": "feat(indexer): migrate V4 and V4.1 FP4 scoring to the OPUS config API",
+      "author": "junhaha666",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-29T05:21:48Z",
+      "updated_at": "2026-11-08T10:20:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2809",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2755,
+      "title": "feat(dp): prefix-spread DP routing with native Mooncake Store recovery",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T08:48:28Z",
+      "updated_at": "2026-11-08T09:39:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2755",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3087,
+      "title": "refactor(mono): set FlyDSL's target arch through FLYDSL_GPU_ARCH only",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T03:08:00Z",
+      "updated_at": "2026-11-08T09:21:10Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3087",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3079,
+      "title": "fix(ci): resolve labelled benchmark variants in the regression rerun matrix",
+      "author": "yelkhamra",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T15:14:58Z",
+      "updated_at": "2026-11-08T04:52:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3079",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3091,
+      "title": "[DeepSeek-V4.1] High-interactivity monokernel decode for DeepSeek-V4.1-Flash on MI355X (TP4, DSpark)",
+      "author": "rdoshi-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T15:30:18Z",
+      "updated_at": "2026-11-08T03:42:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3091",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3093,
+      "title": "[Qwen3.5 MTP] Decode-step trims: host token split, one-shot split reduce, one-kernel verify epilogue, Gluon sampler select (flags off; stacked on #3085)",
+      "author": "vgokhale",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T19:49:18Z",
+      "updated_at": "2026-11-07T20:21:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3093",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 2877,
       "title": "[DSV4.1][gfx1250] Fuse probabilistic Markov chain reductions",
@@ -12,32 +116,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2877",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3090,
-      "title": "feat(api): strict function tools on /beta/chat/completions (BETA-03)",
-      "author": "HaonanWang98",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T12:12:43Z",
-      "updated_at": "2026-11-07T12:35:08Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3090",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2755,
-      "title": "feat(dp): prefix-spread DP routing with native Mooncake Store recovery",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T08:48:28Z",
-      "updated_at": "2026-11-07T10:18:29Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2755",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
     },
     {
       "number": 2909,
@@ -190,18 +268,6 @@
       "draft": false
     },
     {
-      "number": 3076,
-      "title": "fix(moe): exclude idle DP dummy tokens from expert routing",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T15:03:28Z",
-      "updated_at": "2026-11-07T06:45:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3076",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3077,
       "title": "feat(benchmarks): record AITER_AR_1STAGE_MAX_BYTES in benchmark metadata",
       "author": "yelkhamra",
@@ -210,18 +276,6 @@
       "created_at": "2026-11-06T15:05:46Z",
       "updated_at": "2026-11-07T06:45:29Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3077",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3079,
-      "title": "fix(ci): resolve labelled benchmark variants in the regression rerun matrix",
-      "author": "yelkhamra",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T15:14:58Z",
-      "updated_at": "2026-11-07T06:45:25Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3079",
       "labels": [],
       "draft": false
     },
@@ -270,18 +324,6 @@
       "created_at": "2026-11-04T19:07:45Z",
       "updated_at": "2026-11-07T05:19:07Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3006",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3087,
-      "title": "refactor(mono): set FlyDSL's target arch through FLYDSL_GPU_ARCH only",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T03:08:00Z",
-      "updated_at": "2026-11-07T03:25:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3087",
       "labels": [],
       "draft": false
     },
@@ -905,20 +947,6 @@
       "updated_at": "2026-11-06T08:22:38Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2771",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2809,
-      "title": "feat(indexer): migrate V4 and V4.1 FP4 scoring to the OPUS config API",
-      "author": "junhaha666",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T05:21:48Z",
-      "updated_at": "2026-11-06T07:46:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2809",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     },
     {
@@ -4069,18 +4097,6 @@
       "draft": true
     },
     {
-      "number": 1909,
-      "title": "Yuechguo/mesh entrypoints",
-      "author": "Yuechguo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-16T05:55:30Z",
-      "updated_at": "2026-08-16T06:02:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1909",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1888,
       "title": "[fix](vllm): remove vllm patch",
       "author": "PerryZhang01",
@@ -5071,18 +5087,6 @@
       "created_at": "2026-11-02T19:46:00Z",
       "updated_at": "2026-11-02T23:26:24Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2924",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2870,
-      "title": "[MHA] Unified-attention prefill: run the kernel over the scheduled rows only",
-      "author": "vgokhale",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-31T11:58:41Z",
-      "updated_at": "2026-11-02T17:05:37Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2870",
       "labels": [],
       "draft": false
     }

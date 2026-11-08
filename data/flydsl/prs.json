@@ -1,6 +1,45 @@
 {
-  "collected_at": "2026-11-07T14:29:07Z",
+  "collected_at": "2026-11-08T14:37:46Z",
   "prs": [
+    {
+      "number": 1368,
+      "title": "[compiler][kernel] strict pin agpr feature and kernel example usage to replace inline_asm ",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T14:00:36Z",
+      "updated_at": "2026-11-08T11:14:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1368",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1380,
+      "title": "[Windows][CI] Add a Windows gfx1201 GPU workflow",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T07:52:20Z",
+      "updated_at": "2026-11-08T00:20:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1380",
+      "labels": [
+        "WIP",
+        "ci:windows"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1385,
+      "title": "[Feature][DSL] Add Fast Walsh-Hadamard Transform (fx.hadamard)",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T12:19:32Z",
+      "updated_at": "2026-11-07T17:47:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1385",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 1384,
       "title": "[Feature][DSL] Add warp vote collectives, RDNA DPP, and warp argmax/argmin",
@@ -8,7 +47,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-07T11:59:07Z",
-      "updated_at": "2026-11-07T13:17:07Z",
+      "updated_at": "2026-11-07T17:43:59Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1384",
       "labels": [],
       "draft": true
@@ -20,34 +59,35 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-07T11:32:12Z",
-      "updated_at": "2026-11-07T12:59:36Z",
+      "updated_at": "2026-11-07T17:37:53Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1383",
       "labels": [],
       "draft": true
     },
     {
-      "number": 1385,
-      "title": "[Feature][DSL] Add Fast Walsh-Hadamard Transform (fx.hadamard)",
-      "author": "dimitri91209",
+      "number": 1386,
+      "title": "[Runtime] Drop the ARCH env var in favor of FLYDSL_GPU_ARCH",
+      "author": "coderfeli",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-07T12:19:32Z",
-      "updated_at": "2026-11-07T12:52:29Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1385",
+      "created_at": "2026-11-07T15:05:07Z",
+      "updated_at": "2026-11-07T15:05:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1386",
       "labels": [],
-      "draft": true
+      "draft": false
     },
     {
-      "number": 1332,
-      "title": "[Bugfix] Fix ROCm GPU counting and architecture fallback",
-      "author": "Qubitium",
+      "number": 1343,
+      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
+      "author": "hanli0612",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-26T20:27:57Z",
-      "updated_at": "2026-11-07T02:55:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1332",
+      "created_at": "2026-10-28T21:00:18Z",
+      "updated_at": "2026-11-07T14:40:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
       "labels": [
-        "ai-review"
+        "ai-review",
+        "ktrace"
       ],
       "draft": false
     },
@@ -453,21 +493,6 @@
       "draft": false
     },
     {
-      "number": 1380,
-      "title": "[Windows][CI] Add a Windows gfx1201 GPU workflow",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T07:52:20Z",
-      "updated_at": "2026-11-06T08:33:04Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1380",
-      "labels": [
-        "WIP",
-        "ci:windows"
-      ],
-      "draft": true
-    },
-    {
       "number": 1111,
       "title": "[DO NOT MERGE] Add MegaMoE engineering skill",
       "author": "GwilliamHu",
@@ -478,21 +503,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1111",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1343,
-      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
-      "author": "hanli0612",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T21:00:18Z",
-      "updated_at": "2026-11-05T08:26:23Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
-      "labels": [
-        "ai-review",
-        "ktrace"
-      ],
-      "draft": false
     },
     {
       "number": 1340,
@@ -992,6 +1002,20 @@
       "updated_at": "2026-07-28T17:00:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/914",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1332,
+      "title": "[Bugfix] Fix ROCm GPU counting and architecture fallback",
+      "author": "Qubitium",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-26T20:27:57Z",
+      "updated_at": "2026-11-07T14:34:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1332",
+      "labels": [
+        "ai-review"
+      ],
       "draft": false
     },
     {

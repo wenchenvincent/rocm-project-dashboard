@@ -1,6 +1,111 @@
 {
-  "collected_at": "2026-11-07T14:27:54Z",
+  "collected_at": "2026-11-08T14:36:45Z",
   "issues": [
+    {
+      "number": 202043,
+      "title": "RFC: Extensible FlyDSL Template Providers for Inductor",
+      "author": "Peter9606",
+      "state": "open",
+      "created_at": "2026-10-26T11:44:42Z",
+      "updated_at": "2026-11-08T14:05:45Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/202043",
+      "labels": [
+        "feature",
+        "triaged",
+        "oncall: pt2",
+        "module: inductor",
+        "module: PrivateUse1",
+        "bot-triaged",
+        "bot-mislabeled"
+      ]
+    },
+    {
+      "number": 203964,
+      "title": "[ROCm] Missing last-level cache property leaves Inductor sizing at L2 on R9700",
+      "author": "Qubitium",
+      "state": "open",
+      "created_at": "2026-11-08T09:43:05Z",
+      "updated_at": "2026-11-08T11:54:23Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/203964",
+      "labels": [
+        "module: rocm"
+      ]
+    },
+    {
+      "number": 203966,
+      "title": "fp16 matmul on GTX 1660 Ti (TU116) is ~9x slower than fp32 (0.6 vs 5.4 TFLOPS), while a simple hand-written half2 kernel reaches 7.6 TFLOPS",
+      "author": "burak13112",
+      "state": "open",
+      "created_at": "2026-11-08T10:01:44Z",
+      "updated_at": "2026-11-08T10:01:44Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/203966",
+      "labels": []
+    },
+    {
+      "number": 199350,
+      "title": "[inductor] torch.view_as_complex_copy fails with \"Tensor must have a last dimension with stride 1\" (fallback lacks the require_contiguous handling view_as_complex got in #100428)",
+      "author": "anna-researcher",
+      "state": "open",
+      "created_at": "2026-10-01T18:51:19Z",
+      "updated_at": "2026-11-08T09:04:33Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/199350",
+      "labels": [
+        "triaged",
+        "module: complex",
+        "oncall: pt2",
+        "module: inductor",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 203487,
+      "title": "get_optimizer_state_dict and set_optimizer_state_dict raise KeyError after a no-grad forward on a fully_shard model",
+      "author": "hivaze",
+      "state": "open",
+      "created_at": "2026-11-04T23:56:06Z",
+      "updated_at": "2026-11-07T19:35:48Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/203487",
+      "labels": [
+        "oncall: distributed",
+        "triaged",
+        "oncall: distributed checkpointing",
+        "bot-triaged",
+        "ptd-bot-triaged"
+      ]
+    },
+    {
+      "number": 202724,
+      "title": "[MPS] scaled_dot_product_attention raises NotImplementedError for dropout_p > 0 under torch.no_grad()",
+      "author": "aakash2410",
+      "state": "open",
+      "created_at": "2026-10-30T09:26:49Z",
+      "updated_at": "2026-11-07T16:47:48Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/202724",
+      "labels": [
+        "triaged",
+        "actionable",
+        "module: mps",
+        "module: sdpa",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 203928,
+      "title": "DISABLED test_multiheadattention_fastpath_fp16_head_dim_alignment_xpu (__main__.TestTransformersAcceleratorXPU)",
+      "author": "chuanqi129",
+      "state": "open",
+      "created_at": "2026-11-07T16:20:56Z",
+      "updated_at": "2026-11-07T16:22:46Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/203928",
+      "labels": [
+        "module: tests",
+        "triaged",
+        "skipped",
+        "module: xpu",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 203418,
       "title": "CPU cumsum is ~10x slower along non-last dimensions",
@@ -419,122 +524,6 @@
       ]
     },
     {
-      "number": 202731,
-      "title": "[meta] `bool_tensor >> 1` works in eager but fails under `torch.compile`: \"rshift: Expected input tensor to have an integral dtype\"",
-      "author": "raindrops-0199",
-      "state": "open",
-      "created_at": "2026-10-30T10:29:42Z",
-      "updated_at": "2026-11-06T21:19:13Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/202731",
-      "labels": [
-        "triaged",
-        "module: type promotion",
-        "oncall: pt2",
-        "module: fakeTensor",
-        "module: pt2-dispatcher",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 203481,
-      "title": "bf16 matmul and linear weight gradients can silently omit the last rows on CUDA (cuBLAS)",
-      "author": "hivaze",
-      "state": "open",
-      "created_at": "2026-11-04T23:48:21Z",
-      "updated_at": "2026-11-06T20:25:34Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/203481",
-      "labels": [
-        "triage review",
-        "module: dependency bug",
-        "module: autograd",
-        "module: cublas",
-        "has workaround",
-        "module: bfloat16",
-        "module: linear algebra",
-        "module: correctness (silent)",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
-      "number": 203311,
-      "title": "[inductor] flex_attention ignores scatter/index_put writes to a tensor captured by score_mod",
-      "author": "fsossai",
-      "state": "open",
-      "created_at": "2026-11-04T01:09:23Z",
-      "updated_at": "2026-11-06T20:20:09Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/203311",
-      "labels": [
-        "oncall: pt2",
-        "module: inductor",
-        "oncall: cpu inductor",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 179510,
-      "title": "RuntimeError: Argument 'primals_out' of Node 'results' was used before it has been defined! Please check that Nodes in the graph are topologically ordered",
-      "author": "randolf-scholz",
-      "state": "open",
-      "created_at": "2026-04-06T20:57:37Z",
-      "updated_at": "2026-11-06T18:49:37Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/179510",
-      "labels": [
-        "triaged",
-        "oncall: pt2",
-        "module: functorch"
-      ]
-    },
-    {
-      "number": 198596,
-      "title": "DISABLED test_rerun_then_pass (test.junit_xml_testdata.pytest_suite.TestJunitOutcomes)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-25T06:57:58Z",
-      "updated_at": "2026-11-06T18:42:28Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198596",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: unknown",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 198595,
-      "title": "DISABLED test_rerun_then_pass (__main__.TestJunitOutcomes)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-25T06:57:53Z",
-      "updated_at": "2026-11-06T18:42:25Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198595",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: unknown",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 203842,
-      "title": "DISABLED test_conv_bias_rounds_before_log_softmax_float16_emulate_precision_casts_True_conv_offset_-1000 (__main__.CudaReproTests)",
-      "author": "chuanqi129",
-      "state": "open",
-      "created_at": "2026-11-06T18:11:16Z",
-      "updated_at": "2026-11-06T18:14:12Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/203842",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "skipped",
-        "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 203778,
       "title": "torch.cat on CUDA/ROCm: large non-contiguous inputs on dim != 0 are much slower in one launch than split along dim 0",
       "author": "IvenHsu01",
@@ -855,54 +844,6 @@
         "module: cpu",
         "module: correctness (silent)",
         "module: scatter & gather ops",
-        "bot-triaged",
-        "release triage"
-      ]
-    },
-    {
-      "number": 199711,
-      "title": "Windows Smart App Control blocks \"caffe2_nvrtc.dll\" from official PyTorch 2.13.0+cu132 wheel",
-      "author": "Joetests",
-      "state": "open",
-      "created_at": "2026-10-04T23:04:14Z",
-      "updated_at": "2026-11-04T16:19:16Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/199711",
-      "labels": [
-        "module: binaries",
-        "module: windows",
-        "triaged",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 203138,
-      "title": "DISABLED test_device_passthrough_still_reuses_compile_under_coor_origin_input (__main__.TestCompileOnOneRankDeviceAsParameter)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-11-03T00:49:25Z",
-      "updated_at": "2026-11-04T12:42:06Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/203138",
-      "labels": [
-        "oncall: distributed",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: dtensor",
-        "oncall: distributed parallelisms",
-        "ptd-bot-triaged"
-      ]
-    },
-    {
-      "number": 203321,
-      "title": "throw_on_cudamalloc_oom: preemptive rejection never triggers with the documented config and ignores set_per_process_memory_fraction()",
-      "author": "jharahul968",
-      "state": "open",
-      "created_at": "2026-11-04T04:16:44Z",
-      "updated_at": "2026-11-04T04:18:51Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/203321",
-      "labels": [
-        "triaged",
-        "module: CUDACachingAllocator",
         "bot-triaged",
         "release triage"
       ]

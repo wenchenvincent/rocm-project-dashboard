@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-07T14:28:28Z",
+  "collected_at": "2026-11-08T14:37:13Z",
   "prs": [
+    {
+      "number": 5466,
+      "title": "Add MXR recompiling: keep kernel recipes and recompile compiled programs",
+      "author": "anilmartha",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T11:05:56Z",
+      "updated_at": "2026-11-08T07:43:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5466",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5028,
       "title": "split_single_dyn_dim: add bucket_by_optimals to cut dyn-shape compile\u2026",
@@ -118,18 +130,6 @@
       "created_at": "2026-10-13T19:57:36Z",
       "updated_at": "2026-11-06T21:32:33Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5394",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5466,
-      "title": "Add MXR recompiling: keep kernel recipes and recompile compiled programs",
-      "author": "anilmartha",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T11:05:56Z",
-      "updated_at": "2026-11-06T20:12:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5466",
       "labels": [],
       "draft": false
     },
