@@ -1,6 +1,78 @@
 {
-  "collected_at": "2026-11-08T14:37:46Z",
+  "collected_at": "2026-11-09T17:55:06Z",
   "prs": [
+    {
+      "number": 1391,
+      "title": "Fix log1p and expm1 returning 0 for tiny arguments",
+      "author": "amd-songpiao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T12:05:11Z",
+      "updated_at": "2026-11-09T14:55:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1391",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1392,
+      "title": "[JIT] Add compile_only to flyc.compile",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T12:18:36Z",
+      "updated_at": "2026-11-09T12:19:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1392",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1390,
+      "title": "[Coop] Optimize warp-level prims on the rocdl",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T11:22:52Z",
+      "updated_at": "2026-11-09T11:58:36Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1390",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1350,
+      "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
+      "author": "xudoyuan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T04:48:52Z",
+      "updated_at": "2026-11-09T10:56:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1193,
+      "title": "[LayoutLowering] Ignore size-one leaves in contiguous-segment detection",
+      "author": "mustafayildirim",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-25T00:13:38Z",
+      "updated_at": "2026-11-09T09:56:26Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1193",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1389,
+      "title": "[CI] Shrink the wheel artifact the GPU jobs download",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T09:46:40Z",
+      "updated_at": "2026-11-09T09:49:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1389",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1368,
       "title": "[compiler][kernel] strict pin agpr feature and kernel example usage to replace inline_asm ",
@@ -8,10 +80,46 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-04T14:00:36Z",
-      "updated_at": "2026-11-08T11:14:51Z",
+      "updated_at": "2026-11-09T09:07:01Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1368",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 1386,
+      "title": "[Runtime] Drop the ARCH env var in favor of FLYDSL_GPU_ARCH",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T15:05:07Z",
+      "updated_at": "2026-11-09T08:54:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1386",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1313,
+      "title": "[Core] Replace the Fly layout implementation with the Core library",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T09:17:43Z",
+      "updated_at": "2026-11-09T03:26:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1313",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1387,
+      "title": "[CI] Add kimik3 a4w4 tuned CSV to the aiter wheel-validation stage",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T00:44:07Z",
+      "updated_at": "2026-11-09T00:44:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1387",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 1380,
@@ -20,7 +128,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-06T07:52:20Z",
-      "updated_at": "2026-11-08T00:20:16Z",
+      "updated_at": "2026-11-09T00:15:38Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1380",
       "labels": [
         "WIP",
@@ -63,18 +171,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1383",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1386,
-      "title": "[Runtime] Drop the ARCH env var in favor of FLYDSL_GPU_ARCH",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T15:05:07Z",
-      "updated_at": "2026-11-07T15:05:07Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1386",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1343,
@@ -531,18 +627,6 @@
       "draft": false
     },
     {
-      "number": 1350,
-      "title": "[CDNA5] Add indexed-addressing plumbing to the TDM atom",
-      "author": "xudoyuan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T04:48:52Z",
-      "updated_at": "2026-11-05T06:42:32Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1288,
       "title": "[Feat] Support warp exchange with layout",
       "author": "ppppqp",
@@ -651,18 +735,6 @@
       "draft": false
     },
     {
-      "number": 1274,
-      "title": "[wip][opt] add schedule bank api and wait alu optimization",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T04:26:34Z",
-      "updated_at": "2026-11-04T03:40:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1274",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1363,
       "title": "Rerun benchmark after Docker daemon failure",
       "author": "Copilot",
@@ -709,18 +781,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1252",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1313,
-      "title": "[Core] Replace the Fly layout implementation with the Core library",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T09:17:43Z",
-      "updated_at": "2026-10-29T07:42:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1313",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1272,
@@ -809,18 +869,6 @@
       "created_at": "2026-09-25T00:24:03Z",
       "updated_at": "2026-10-14T16:12:57Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1194",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1193,
-      "title": "[LayoutLowering] Ignore size-one leaves in contiguous-segment detection",
-      "author": "mustafayildirim",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T00:13:38Z",
-      "updated_at": "2026-10-14T16:12:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1193",
       "labels": [],
       "draft": false
     },
@@ -939,7 +987,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-07-27T13:02:41Z",
-      "updated_at": "2026-09-10T11:07:44Z",
+      "updated_at": "2026-11-09T09:56:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/912",
       "labels": [],
       "draft": false
@@ -993,14 +1041,14 @@
       "draft": false
     },
     {
-      "number": 914,
-      "title": "[Dialect][Perf] Don't merge mixed static/runtime offsets on LDS pointers",
-      "author": "Arist12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-27T23:39:08Z",
-      "updated_at": "2026-07-28T17:00:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/914",
+      "number": 1388,
+      "title": "[CI] Label kernel-only pull requests automatically",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-09T03:20:56Z",
+      "updated_at": "2026-11-09T07:50:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1388",
       "labels": [],
       "draft": false
     },
@@ -1773,30 +1821,6 @@
       "created_at": "2026-10-12T19:13:52Z",
       "updated_at": "2026-10-14T07:43:48Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1279",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1278,
-      "title": "[Bugfix][JIT] Restore compile launches and defer C export preparation",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-12T15:15:18Z",
-      "updated_at": "2026-10-13T10:15:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1278",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1283,
-      "title": "[Bugfix][JIT] Defer C export preparation until export_to_c",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-13T06:04:01Z",
-      "updated_at": "2026-10-13T07:29:25Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1283",
       "labels": [],
       "draft": false
     }

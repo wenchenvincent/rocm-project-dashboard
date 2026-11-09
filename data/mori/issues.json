@@ -1,13 +1,73 @@
 {
-  "collected_at": "2026-11-08T14:37:44Z",
+  "collected_at": "2026-11-09T17:55:03Z",
   "issues": [
+    {
+      "number": 947,
+      "title": "CI: PR runs queue for hours on three runners; route lanes by changed files and rebalance",
+      "author": "jhchouuu",
+      "state": "open",
+      "created_at": "2026-11-09T14:20:43Z",
+      "updated_at": "2026-11-09T17:51:15Z",
+      "html_url": "https://github.com/ROCm/mori/issues/947",
+      "labels": []
+    },
+    {
+      "number": 952,
+      "title": "RFC [feature]: MORI M2N \u2014 NCCL-inspired mesh-to-mesh tensor resharding over MORI-CCO",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-11-09T16:34:28Z",
+      "updated_at": "2026-11-09T17:23:14Z",
+      "html_url": "https://github.com/ROCm/mori/issues/952",
+      "labels": []
+    },
+    {
+      "number": 953,
+      "title": "RFC [feature]: UMBP weight pool \u2014 immutable weight generations for RL weight sync",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-11-09T17:06:40Z",
+      "updated_at": "2026-11-09T17:06:56Z",
+      "html_url": "https://github.com/ROCm/mori/issues/953",
+      "labels": []
+    },
+    {
+      "number": 951,
+      "title": "[EPv2][gfx1250] hip backend: `ep_dispatch` launch fails with \"invalid argument\" for f32 gather and for bf16 gather (tuned) at 512 tokens/rank",
+      "author": "paklui",
+      "state": "open",
+      "created_at": "2026-11-09T16:07:19Z",
+      "updated_at": "2026-11-09T16:07:19Z",
+      "html_url": "https://github.com/ROCm/mori/issues/951",
+      "labels": []
+    },
+    {
+      "number": 905,
+      "title": "[Issue]: mlx5 DEVX path programs the peer NIC's own MAC as destination MAC; cross-node EP hangs on routed (L3) RoCE fabrics",
+      "author": "YeSho-cpp",
+      "state": "open",
+      "created_at": "2026-11-03T09:21:31Z",
+      "updated_at": "2026-11-09T10:42:15Z",
+      "html_url": "https://github.com/ROCm/mori/issues/905",
+      "labels": []
+    },
+    {
+      "number": 943,
+      "title": "SDMA: on an SR-IOV VF, channel 1 lands on an odd xGMI engine and AsyncLL hangs with num_qp_per_pe >= 2",
+      "author": "YeSho-cpp",
+      "state": "open",
+      "created_at": "2026-11-09T10:25:52Z",
+      "updated_at": "2026-11-09T10:35:46Z",
+      "html_url": "https://github.com/ROCm/mori/issues/943",
+      "labels": []
+    },
     {
       "number": 935,
       "title": "Plan for integrating KIWI EP into MoRI",
       "author": "jhchouuu",
       "state": "open",
       "created_at": "2026-11-08T02:43:43Z",
-      "updated_at": "2026-11-08T02:43:43Z",
+      "updated_at": "2026-11-08T22:54:55Z",
       "html_url": "https://github.com/ROCm/mori/issues/935",
       "labels": [
         "enhancement"
@@ -54,16 +114,6 @@
       "labels": []
     },
     {
-      "number": 927,
-      "title": "MORI_IB_ENABLE_RELAXED_ORDERING is a silent no-op (#ifdef on an enum constant)",
-      "author": "YeSho-cpp",
-      "state": "open",
-      "created_at": "2026-11-06T07:12:44Z",
-      "updated_at": "2026-11-06T07:40:32Z",
-      "html_url": "https://github.com/ROCm/mori/issues/927",
-      "labels": []
-    },
-    {
       "number": 925,
       "title": "ccoMemImport rejects torch 2.14 symm_mem tensors: data starts 0x2400 bytes into the allocation",
       "author": "QizhouZhang97",
@@ -103,26 +153,6 @@
       "created_at": "2026-10-20T00:13:08Z",
       "updated_at": "2026-11-04T14:57:35Z",
       "html_url": "https://github.com/ROCm/mori/issues/811",
-      "labels": []
-    },
-    {
-      "number": 905,
-      "title": "[Issue]: mlx5 DEVX path programs the peer NIC's own MAC as destination MAC; cross-node EP hangs on routed (L3) RoCE fabrics",
-      "author": "YeSho-cpp",
-      "state": "open",
-      "created_at": "2026-11-03T09:21:31Z",
-      "updated_at": "2026-11-03T09:32:15Z",
-      "html_url": "https://github.com/ROCm/mori/issues/905",
-      "labels": []
-    },
-    {
-      "number": 899,
-      "title": "[Issue]: EP handle creation exits with \"hip failed with invalid argument\" when the shmem symmetric heap is exhausted",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-02T19:47:54Z",
-      "updated_at": "2026-11-02T20:23:07Z",
-      "html_url": "https://github.com/ROCm/mori/issues/899",
       "labels": []
     },
     {

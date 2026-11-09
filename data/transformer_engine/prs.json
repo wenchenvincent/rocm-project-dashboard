@@ -1,17 +1,86 @@
 {
-  "collected_at": "2026-11-08T14:37:49Z",
+  "collected_at": "2026-11-09T17:55:10Z",
   "prs": [
     {
-      "number": 696,
-      "title": "sGPU Test Scheduling: Global Work Queue",
-      "author": "VeeraRajasekhar",
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-08-07T14:24:23Z",
-      "updated_at": "2026-11-08T08:57:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-11-09T17:38:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [
         "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 793,
+      "title": "CI: speed up wheel build with ccache",
+      "author": "leo-automation",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T12:32:42Z",
+      "updated_at": "2026-11-09T16:23:08Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/793",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 766,
+      "title": "gfx1250: use hipblaslt device alpha for NVFP4 GEMM",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T22:23:27Z",
+      "updated_at": "2026-11-09T15:13:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/766",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 777,
+      "title": "XCD work stealing improvements for HK Grouped GEMMs",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-22T20:27:46Z",
+      "updated_at": "2026-11-09T15:03:22Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/777",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 772,
+      "title": "split-K and LDS offset buffer for HipKittens GEMMs",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T21:44:05Z",
+      "updated_at": "2026-11-09T14:52:34Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/772",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 798,
+      "title": "[ROCm] Fix int32 overflow in the custom multi-tensor L2 norm",
+      "author": "Z-Y00",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T01:21:03Z",
+      "updated_at": "2026-11-09T01:34:20Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/798",
+      "labels": [
+        "community-contribution"
       ],
       "draft": false
     },
@@ -54,46 +123,6 @@
       "updated_at": "2026-11-07T01:56:53Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/794",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 777,
-      "title": "XCD work stealing improvements for HK Grouped GEMMs",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T20:27:46Z",
-      "updated_at": "2026-11-07T00:57:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/777",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 772,
-      "title": "split-K and LDS offset buffer for HipKittens GEMMs",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T21:44:05Z",
-      "updated_at": "2026-11-07T00:56:38Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/772",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-11-07T00:21:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [
-        "P2"
-      ],
       "draft": false
     },
     {
@@ -165,35 +194,6 @@
       "labels": [
         "ci-level 3",
         "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 766,
-      "title": "gfx1250: use hipblaslt device alpha for NVFP4 GEMM",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T22:23:27Z",
-      "updated_at": "2026-11-05T22:42:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/766",
-      "labels": [
-        "ci-level 1",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 793,
-      "title": "CI: speed up wheel build with ccache",
-      "author": "leo-automation",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T12:32:42Z",
-      "updated_at": "2026-11-05T21:15:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/793",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     },
@@ -856,6 +856,20 @@
       "labels": [
         "ci-level 3",
         "community-contribution",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 696,
+      "title": "sGPU Test Scheduling: Global Work Queue",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-08-07T14:24:23Z",
+      "updated_at": "2026-11-09T06:11:33Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/696",
+      "labels": [
         "P2"
       ],
       "draft": false
@@ -2000,20 +2014,6 @@
       "created_at": "2026-07-07T16:44:30Z",
       "updated_at": "2026-07-31T17:03:00Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/661",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 685,
-      "title": "[Hot Fix] guard architectures for blockwise fp8 gemm",
-      "author": "asdfvg123",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-28T19:49:46Z",
-      "updated_at": "2026-07-31T04:19:39Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/685",
       "labels": [
         "ci-level 3"
       ],

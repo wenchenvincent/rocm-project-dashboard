@@ -1,38 +1,13 @@
 {
-  "collected_at": "2026-11-08T14:37:33Z",
+  "collected_at": "2026-11-09T17:54:50Z",
   "issues": [
-    {
-      "number": 7240,
-      "title": "RFC: Versioned Kernel Provider Interface for AITER",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-10-30T23:10:45Z",
-      "updated_at": "2026-11-08T07:34:56Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7240",
-      "labels": [
-        "Infra",
-        "work-in-progress"
-      ]
-    },
-    {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-08T07:33:01Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
-    },
     {
       "number": 7610,
       "title": "PR#6952 breaks ATOM main: pa_mqa_logits_mxfp4_plan removed without backward compat",
       "author": "srinivamd",
       "state": "open",
       "created_at": "2026-11-07T17:46:57Z",
-      "updated_at": "2026-11-07T17:46:57Z",
+      "updated_at": "2026-11-09T17:28:39Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7610",
       "labels": []
     },
@@ -42,8 +17,73 @@
       "author": "hubertlu-tw",
       "state": "open",
       "created_at": "2026-11-07T06:49:34Z",
-      "updated_at": "2026-11-07T08:15:02Z",
+      "updated_at": "2026-11-09T17:27:30Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7604",
+      "labels": []
+    },
+    {
+      "number": 7649,
+      "title": "gfx950 unified_attention: full measurements and analysis for #7566",
+      "author": "amd-mghanimi",
+      "state": "open",
+      "created_at": "2026-11-09T07:54:34Z",
+      "updated_at": "2026-11-09T07:59:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7649",
+      "labels": []
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-09T07:34:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 7646,
+      "title": "mxfp4_moe_sort_fwd zeroes the last token's final scales when K // 32 is not a multiple of 4 (e.g. K=2880)",
+      "author": "jiangyon-amd",
+      "state": "open",
+      "created_at": "2026-11-09T07:10:00Z",
+      "updated_at": "2026-11-09T07:10:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7646",
+      "labels": []
+    },
+    {
+      "number": 7240,
+      "title": "RFC: Versioned Kernel Provider Interface for AITER",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-30T23:10:45Z",
+      "updated_at": "2026-11-09T06:24:47Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7240",
+      "labels": [
+        "Infra",
+        "work-in-progress"
+      ]
+    },
+    {
+      "number": 7639,
+      "title": "[MLA][gfx950] non-persistent fp8 gqa16 qlen 3-4 (mla_a8w8_qh64_qseqlen4_gqaratio16) computes only KV split 0 and writes the partials into the wrong cells",
+      "author": "vllmellm",
+      "state": "open",
+      "created_at": "2026-11-09T03:48:07Z",
+      "updated_at": "2026-11-09T03:48:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7639",
+      "labels": []
+    },
+    {
+      "number": 7631,
+      "title": "[gfx950] mla_dec_stage1_bf16_a16w16_subQ128_mqa128.co gives nondeterministic, wrong output when a workgroup handles more than 48 KV tokens",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-11-08T20:43:52Z",
+      "updated_at": "2026-11-08T20:43:52Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7631",
       "labels": []
     },
     {
@@ -84,16 +124,6 @@
       "created_at": "2026-11-06T00:20:38Z",
       "updated_at": "2026-11-06T07:09:54Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7536",
-      "labels": []
-    },
-    {
-      "number": 7534,
-      "title": "[Issue]: module_moe_sorting_opus does not build for gfx1250 (DPP row_bcast in dpp_inclusive_scan_wave)",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-06T00:20:33Z",
-      "updated_at": "2026-11-06T01:25:08Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7534",
       "labels": []
     },
     {
@@ -257,16 +287,6 @@
       "created_at": "2026-11-02T19:48:24Z",
       "updated_at": "2026-11-02T20:23:15Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7352",
-      "labels": []
-    },
-    {
-      "number": 7350,
-      "title": "[Issue]: FlyDSL fused_compress_attn corrupts the first compressed entry of each sequence (negative-history state-cache iterations)",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-02T19:48:08Z",
-      "updated_at": "2026-11-02T20:23:12Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7350",
       "labels": []
     },
     {

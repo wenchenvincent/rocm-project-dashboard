@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-11-08T14:38:21Z",
+  "collected_at": "2026-11-09T17:56:00Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 24,
-      "merged": 14,
-      "closed": 7
+      "opened": 26,
+      "merged": 11,
+      "closed": 10
     },
     "last_week": {
-      "opened": 27,
+      "opened": 26,
       "merged": 17,
-      "closed": 9
+      "closed": 8
     },
-    "median_time_to_merge_hours": 326.0,
-    "merge_count": 32,
-    "stale_prs": 83
+    "median_time_to_merge_hours": 319.1,
+    "merge_count": 29,
+    "stale_prs": 77
   },
   "contributors": {
-    "active_this_week": 22,
-    "total_contributors": 59,
+    "active_this_week": 25,
+    "total_contributors": 60,
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 63,
-        "prs_merged": 27,
-        "commits": 30
+        "prs_submitted": 61,
+        "prs_merged": 25,
+        "commits": 29
       },
       {
         "author": "CharlieL7",
@@ -52,12 +52,6 @@
         "commits": 0
       },
       {
-        "author": "royzhang-amd",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 1
-      },
-      {
         "author": "pnikolic-amd",
         "prs_submitted": 4,
         "prs_merged": 2,
@@ -70,13 +64,19 @@
         "commits": 0
       },
       {
+        "author": "royzhang-amd",
+        "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 1
+      },
+      {
         "author": "Rolaand-Jayz",
         "prs_submitted": 4,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "chun-wan",
+        "author": "weizhu12-amd",
         "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 32.0,
+    "days_since_last": 33.1,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

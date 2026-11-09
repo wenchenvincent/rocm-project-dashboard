@@ -1,6 +1,59 @@
 {
-  "collected_at": "2026-11-08T14:37:41Z",
+  "collected_at": "2026-11-09T17:54:58Z",
   "issues": [
+    {
+      "number": 3123,
+      "title": "[Bug] Qwen3.8-Flash-Next (qwen4_exp) image prompts crash on a prefix-cache hit inside or past an image",
+      "author": "syang-genai",
+      "state": "open",
+      "created_at": "2026-11-09T13:26:07Z",
+      "updated_at": "2026-11-09T13:26:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3123",
+      "labels": []
+    },
+    {
+      "number": 3120,
+      "title": "GLM-5.3-Flash with bf16 KV: aiter MLA decode misreads KV stored past 4 GiB of a layer's cache",
+      "author": "PerryZhang01",
+      "state": "open",
+      "created_at": "2026-11-09T12:07:38Z",
+      "updated_at": "2026-11-09T12:07:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3120",
+      "labels": []
+    },
+    {
+      "number": 2712,
+      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-26T06:28:03Z",
+      "updated_at": "2026-11-09T03:28:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
+      "labels": []
+    },
+    {
+      "number": 3096,
+      "title": "[Perf Regression] 7 config(s) regressed @ 6d22f7db",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-08T19:41:42Z",
+      "updated_at": "2026-11-08T19:41:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3096",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3095,
+      "title": "[Issue]: [DeepSeek-V4] TP ranks select MoE experts from their own replicated router logits and can disagree on identical inputs (gfx950)",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-08T15:56:12Z",
+      "updated_at": "2026-11-08T15:56:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3095",
+      "labels": []
+    },
     {
       "number": 3078,
       "title": "[Issue]: Scheduled regression reruns skip labelled benchmark variants and can suppress the [Perf Regression] issue",
@@ -111,16 +164,6 @@
       "created_at": "2026-11-05T07:29:56Z",
       "updated_at": "2026-11-05T07:29:56Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/3032",
-      "labels": []
-    },
-    {
-      "number": 2712,
-      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-26T06:28:03Z",
-      "updated_at": "2026-11-05T07:19:25Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
       "labels": []
     },
     {

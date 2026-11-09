@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-08T14:36:48Z",
+  "collected_at": "2026-11-09T17:53:48Z",
   "prs": [
+    {
+      "number": 42272,
+      "title": "Build the ROCm plugin with static libc++",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T22:04:41Z",
+      "updated_at": "2026-11-09T13:56:54Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42272",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 42394,
       "title": "[ROCm] Compile IFRT IR MPMD programs on PJRT-backed IFRT clients",
@@ -12,21 +24,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/42394",
       "labels": [
         "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 42405,
-      "title": "[ROCm] Fix AWS OIDC permissions in the Bazel ROCm workflow",
-      "author": "psanal35",
-      "state": "closed",
-      "merged": false,
-      "created_at": "2026-11-06T19:34:53Z",
-      "updated_at": "2026-11-06T19:55:37Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42405",
-      "labels": [
-        "CI",
         "AMD GPU"
       ],
       "draft": false
@@ -57,18 +54,6 @@
         "AMD GPU"
       ],
       "draft": false
-    },
-    {
-      "number": 42272,
-      "title": "Build the ROCm plugin with static libc++",
-      "author": "psanal35",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T22:04:41Z",
-      "updated_at": "2026-11-06T12:53:43Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42272",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 42351,

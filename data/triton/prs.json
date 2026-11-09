@@ -1,6 +1,150 @@
 {
-  "collected_at": "2026-11-08T14:37:10Z",
+  "collected_at": "2026-11-09T17:54:19Z",
   "prs": [
+    {
+      "number": 12653,
+      "title": "[AMD][GLUON] Fix bank conflict count for swizzled layout on CDNA4",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T04:17:30Z",
+      "updated_at": "2026-11-09T17:29:40Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12653",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12648,
+      "title": "[AMD] Infer async_wait completion scope",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T14:07:15Z",
+      "updated_at": "2026-11-09T17:23:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12648",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12604,
+      "title": "[AMD][gfx1250] Keep whole-line epilogue stores for WMMA",
+      "author": "reger-men",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T13:36:56Z",
+      "updated_at": "2026-11-09T14:22:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12604",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12633,
+      "title": "[AMD][CDNA5] Fix partition selection for transposing LDS loads",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T10:58:00Z",
+      "updated_at": "2026-11-09T08:42:29Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12633",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12669,
+      "title": "[AMD] Invalidate the compilation cache on the MIR swap knobs",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T03:22:27Z",
+      "updated_at": "2026-11-09T07:23:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12669",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12536,
+      "title": "[AMD] Publish llc from the code generator's LLVM so the DAG cross-check runs",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T15:53:57Z",
+      "updated_at": "2026-11-09T04:11:13Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12536",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12083,
+      "title": "Catch LLVM diagnostic and raise Python exception in both Nvidia and AMD backends",
+      "author": "woct0rdho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-03T03:01:32Z",
+      "updated_at": "2026-11-09T03:48:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12083",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12654,
+      "title": "[AMD] Re-enable kernarg preload under MIR dump/swap",
+      "author": "tyb0807",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-07T05:00:23Z",
+      "updated_at": "2026-11-09T03:12:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12654",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12645,
+      "title": "[AMD][TritonGPU] Keep the partition when reshaping a partitioned memdesc",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T03:14:14Z",
+      "updated_at": "2026-11-09T02:54:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12645",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12034,
+      "title": "[GSan] Support symmetric memory allocator on AMD (HIP)",
+      "author": "amgddm",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T22:15:34Z",
+      "updated_at": "2026-11-09T00:38:15Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12034",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12651,
+      "title": "[AMD]Support PartitionedSharedLayout in TDM Gather",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T23:09:44Z",
+      "updated_at": "2026-11-09T00:20:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12651",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12657,
+      "title": "[AMD] Make release atomics cover writes from every warp",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-08T01:28:56Z",
+      "updated_at": "2026-11-08T20:45:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12657",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12660,
       "title": "[AMD] Fix CodeGen build for LLVM @293a85c048f7",
@@ -50,18 +194,6 @@
       "draft": false
     },
     {
-      "number": 12657,
-      "title": "[AMD] Make release atomics cover writes from every warp",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-08T01:28:56Z",
-      "updated_at": "2026-11-08T02:18:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12657",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12610,
       "title": "[AMD] Staged asyncmark handling for gfx1250 (async wait count knob)",
       "author": "njriasan",
@@ -70,66 +202,6 @@
       "created_at": "2026-11-03T15:41:26Z",
       "updated_at": "2026-11-07T19:37:16Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12610",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12653,
-      "title": "[AMD][GLUON] Fix bank conflict count for swizzled layout on CDNA4",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T04:17:30Z",
-      "updated_at": "2026-11-07T18:18:04Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12653",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12654,
-      "title": "[AMD] Re-enable kernarg preload under MIR dump/swap",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T05:00:23Z",
-      "updated_at": "2026-11-07T05:00:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12654",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12651,
-      "title": "[AMD]Support PartitionedSharedLayout in TDM Gather",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T23:09:44Z",
-      "updated_at": "2026-11-06T23:09:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12651",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12648,
-      "title": "[AMD] Infer async_wait completion scope",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T14:07:15Z",
-      "updated_at": "2026-11-06T22:11:45Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12648",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 10694,
-      "title": "[AMD] Use operand-major LDS layout for FMA dot operands",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-22T13:49:28Z",
-      "updated_at": "2026-11-06T17:42:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10694",
       "labels": [],
       "draft": true
     },
@@ -144,30 +216,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12177",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12633,
-      "title": "[AMD][CDNA5] Fix partition selection for transposing LDS loads",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T10:58:00Z",
-      "updated_at": "2026-11-06T10:02:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12633",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12645,
-      "title": "[AMD][TritonGPU] Keep the partition when reshaping a partitioned memdesc",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T03:14:14Z",
-      "updated_at": "2026-11-06T09:46:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12645",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12646,
@@ -214,18 +262,6 @@
       "created_at": "2026-11-05T11:05:03Z",
       "updated_at": "2026-11-05T11:29:40Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12634",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 10497,
-      "title": "[AMD] Rebalance FMA blocked layout on RDNA3/4",
-      "author": "pabloantoniom",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-05T11:47:32Z",
-      "updated_at": "2026-11-05T06:39:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10497",
       "labels": [],
       "draft": true
     },
@@ -384,18 +420,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12233",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12604,
-      "title": "[AMD][gfx1250] Keep whole-line epilogue stores for WMMA",
-      "author": "reger-men",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T13:36:56Z",
-      "updated_at": "2026-11-03T13:37:00Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12604",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12572,
@@ -578,18 +602,6 @@
       "draft": false
     },
     {
-      "number": 12083,
-      "title": "Catch LLVM diagnostic and raise Python exception in both Nvidia and AMD backends",
-      "author": "woct0rdho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-03T03:01:32Z",
-      "updated_at": "2026-10-30T01:42:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12083",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12551,
       "title": "[AMD] Add ScopedNoAliasAA to the MIR scheduling DAG emitter",
       "author": "tyb0807",
@@ -614,18 +626,6 @@
       "draft": false
     },
     {
-      "number": 12530,
-      "title": "[AMD][AOT] Fix zero-sized grid handling in HIP wrapper",
-      "author": "JecksonWu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-28T10:01:33Z",
-      "updated_at": "2026-10-29T03:02:59Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12530",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12362,
       "title": "[AMD] Fix AMD codegen rebuilds after LLVM dependency updates",
       "author": "willghatch",
@@ -638,18 +638,6 @@
       "draft": false
     },
     {
-      "number": 12536,
-      "title": "[AMD] Publish llc from the code generator's LLVM so the DAG cross-check runs",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T15:53:57Z",
-      "updated_at": "2026-10-28T15:53:59Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12536",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12115,
       "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
       "author": "dhernandez0",
@@ -658,18 +646,6 @@
       "created_at": "2026-10-05T10:00:49Z",
       "updated_at": "2026-10-20T08:17:23Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12115",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12034,
-      "title": "[GSan] Support symmetric memory allocator on AMD (HIP)",
-      "author": "amgddm",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T22:15:34Z",
-      "updated_at": "2026-10-19T19:02:02Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12034",
       "labels": [],
       "draft": true
     },
@@ -718,6 +694,30 @@
       "created_at": "2026-10-08T12:44:55Z",
       "updated_at": "2026-10-09T14:01:39Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12172",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12203,
+      "title": "[AMD] CanonicalizePointers: normalize mixed pointer representations at scf.if yields",
+      "author": "he-yufeng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-09T11:56:50Z",
+      "updated_at": "2026-10-09T11:56:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12203",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 11295,
+      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
+      "author": "erizheng-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T15:41:53Z",
+      "updated_at": "2026-10-09T08:10:25Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/11295",
       "labels": [],
       "draft": true
     }

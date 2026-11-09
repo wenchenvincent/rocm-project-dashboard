@@ -1,14 +1,44 @@
 {
-  "collected_at": "2026-11-08T14:37:08Z",
+  "collected_at": "2026-11-09T17:54:17Z",
   "issues": [
     {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
+      "number": 49327,
+      "title": "[ROCm][AMD] DeepSeek-V4.1-Flash gfx950 / MI355X Performance Optimization (SGLang)",
+      "author": "vorapolsiloai",
       "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-11-08T09:07:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "created_at": "2026-11-09T14:17:47Z",
+      "updated_at": "2026-11-09T17:22:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49327",
+      "labels": []
+    },
+    {
+      "number": 49324,
+      "title": "[ROCm][AMD] Qwen3.8-27B gfx950 / MI355X Performance Optimization (SGLang)",
+      "author": "vorapolsiloai",
+      "state": "open",
+      "created_at": "2026-11-09T13:50:32Z",
+      "updated_at": "2026-11-09T13:56:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49324",
+      "labels": []
+    },
+    {
+      "number": 49291,
+      "title": "[Bug] [NPU] DeepEP on Ascend A2 aborts mid decode-graph capture with a misleading EH0012 when the MC2 scratch does not fit",
+      "author": "qidaye",
+      "state": "open",
+      "created_at": "2026-11-09T11:26:55Z",
+      "updated_at": "2026-11-09T11:26:55Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49291",
+      "labels": []
+    },
+    {
+      "number": 49274,
+      "title": "Silent deterministic output corruption: first token id 0 (\"!\") then [PAD] (id 163839) loop, spec accept-length pinned at 1.00, zero errors \u2014 Kimi-K3.1-Pro (hybrid mamba + DFlash2 draft) on AMD MI300X/AITER, fp8 KV, v0.5.23.dev20261104 (e67b2062e2)",
+      "author": "ziliangpeng",
+      "state": "open",
+      "created_at": "2026-11-09T08:55:31Z",
+      "updated_at": "2026-11-09T08:55:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49274",
       "labels": []
     },
     {
@@ -17,8 +47,98 @@
       "author": "hassellof",
       "state": "open",
       "created_at": "2026-08-03T19:29:12Z",
-      "updated_at": "2026-11-08T07:53:46Z",
+      "updated_at": "2026-11-09T08:25:37Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/33422",
+      "labels": []
+    },
+    {
+      "number": 48967,
+      "title": "[Bug] [AMD] decode attention: MLA-shaped Triton decode returns NaN / wrong rows on ragged batches (gfx1151)",
+      "author": "twoask",
+      "state": "open",
+      "created_at": "2026-11-06T21:15:12Z",
+      "updated_at": "2026-11-09T07:44:35Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/48967",
+      "labels": []
+    },
+    {
+      "number": 48968,
+      "title": "[Bug] [AMD] --enable-deterministic-inference fails at startup on RDNA: batch-invariant matmul needs 99 KB LDS (64 KB available)",
+      "author": "twoask",
+      "state": "open",
+      "created_at": "2026-11-06T21:15:13Z",
+      "updated_at": "2026-11-09T07:31:42Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/48968",
+      "labels": []
+    },
+    {
+      "number": 47562,
+      "title": "[AITER-Upgrade] PR readiness gfx1250 (MI45x)",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-10-31T01:10:06Z",
+      "updated_at": "2026-11-09T07:13:10Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/47562",
+      "labels": []
+    },
+    {
+      "number": 39499,
+      "title": "[Roadmap] SGLang dLLM Serving",
+      "author": "rwang5203",
+      "state": "open",
+      "created_at": "2026-09-15T01:21:47Z",
+      "updated_at": "2026-11-09T06:56:56Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
+      "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-11-09T06:53:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 49250,
+      "title": "[Bug] ignore_eos requests finish early when their grammar terminates",
+      "author": "zoroyihan7",
+      "state": "open",
+      "created_at": "2026-11-09T06:04:25Z",
+      "updated_at": "2026-11-09T06:04:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49250",
+      "labels": []
+    },
+    {
+      "number": 49230,
+      "title": "[Bug] Quark utility import writes optional AITER cache before quantization",
+      "author": "Jeff010101",
+      "state": "open",
+      "created_at": "2026-11-09T03:59:25Z",
+      "updated_at": "2026-11-09T04:56:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49230",
+      "labels": []
+    },
+    {
+      "number": 43098,
+      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
+      "author": "hzh0425",
+      "state": "open",
+      "created_at": "2026-10-08T11:44:11Z",
+      "updated_at": "2026-11-09T03:41:43Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
+      "labels": []
+    },
+    {
+      "number": 49198,
+      "title": "[Bug] Mixtral, Llama 4 and FP8 Qwen3-MoE: a router stored in FP8 is loaded without its scale, with no error",
+      "author": "HollowMan6",
+      "state": "open",
+      "created_at": "2026-11-08T19:48:25Z",
+      "updated_at": "2026-11-08T22:31:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49198",
       "labels": []
     },
     {
@@ -65,16 +185,6 @@
       "labels": []
     },
     {
-      "number": 48967,
-      "title": "[Bug] [AMD] decode attention: MLA-shaped Triton decode returns NaN / wrong rows on ragged batches (gfx1151)",
-      "author": "twoask",
-      "state": "open",
-      "created_at": "2026-11-06T21:15:12Z",
-      "updated_at": "2026-11-07T00:13:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/48967",
-      "labels": []
-    },
-    {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
@@ -82,16 +192,6 @@
       "created_at": "2026-01-14T01:49:31Z",
       "updated_at": "2026-11-06T23:09:10Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
-      "labels": []
-    },
-    {
-      "number": 48968,
-      "title": "[Bug] [AMD] --enable-deterministic-inference fails at startup on RDNA: batch-invariant matmul needs 99 KB LDS (64 KB available)",
-      "author": "twoask",
-      "state": "open",
-      "created_at": "2026-11-06T21:15:13Z",
-      "updated_at": "2026-11-06T21:15:13Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/48968",
       "labels": []
     },
     {
@@ -142,16 +242,6 @@
       "created_at": "2026-10-26T06:00:06Z",
       "updated_at": "2026-11-05T11:12:21Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/46520",
-      "labels": []
-    },
-    {
-      "number": 47562,
-      "title": "[AITER-Upgrade] PR readiness gfx1250 (MI45x)",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-10-31T01:10:06Z",
-      "updated_at": "2026-11-05T08:43:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/47562",
       "labels": []
     },
     {
@@ -235,26 +325,6 @@
       "labels": []
     },
     {
-      "number": 39499,
-      "title": "[Roadmap] SGLang dLLM Serving",
-      "author": "rwang5203",
-      "state": "open",
-      "created_at": "2026-09-15T01:21:47Z",
-      "updated_at": "2026-11-01T13:28:33Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
-      "labels": []
-    },
-    {
-      "number": 43098,
-      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
-      "author": "hzh0425",
-      "state": "open",
-      "created_at": "2026-10-08T11:44:11Z",
-      "updated_at": "2026-11-01T13:24:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
-      "labels": []
-    },
-    {
       "number": 46900,
       "title": "[Feature] [AMD] RDNA3/RDNA4 (gfx1100/gfx1201) on main: CI and upstreaming plan",
       "author": "vivienfanghuagood",
@@ -329,18 +399,6 @@
       ]
     },
     {
-      "number": 16565,
-      "title": "[Roadmap][Feature] Support Moore Threads (MUSA) GPU",
-      "author": "yeahdongcn",
-      "state": "open",
-      "created_at": "2026-01-06T10:32:16Z",
-      "updated_at": "2026-10-28T10:37:30Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/16565",
-      "labels": [
-        "mthreads"
-      ]
-    },
-    {
       "number": 29736,
       "title": "[Roadmap][DCP] Decode Context Parallelism & Helix Parallelism (2026 Q4)",
       "author": "thanhhao98",
@@ -368,38 +426,6 @@
       "created_at": "2026-10-09T19:02:21Z",
       "updated_at": "2026-10-27T09:10:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/43412",
-      "labels": []
-    },
-    {
-      "number": 46628,
-      "title": "[Bug] [AMD] Mixtral-8x7B FP8 static-scale checkpoint loses ~10 pt GSM8K on MI300X; crashes with SGLANG_USE_AITER=0",
-      "author": "michaelzhang-ai",
-      "state": "open",
-      "created_at": "2026-10-26T17:01:06Z",
-      "updated_at": "2026-10-26T17:01:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/46628",
-      "labels": []
-    },
-    {
-      "number": 19137,
-      "title": "[Roadmap] Apple Device Support (2026 Q2)",
-      "author": "jonahbernard",
-      "state": "open",
-      "created_at": "2026-02-22T03:21:15Z",
-      "updated_at": "2026-10-26T02:05:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/19137",
-      "labels": [
-        "apple-silicon"
-      ]
-    },
-    {
-      "number": 42473,
-      "title": "Development Roadmap (2026 Q4)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-10-04T08:24:43Z",
-      "updated_at": "2026-10-25T20:23:41Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
       "labels": []
     },
     {
@@ -508,36 +534,6 @@
       "created_at": "2026-10-02T02:30:50Z",
       "updated_at": "2026-10-08T22:01:01Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/42173",
-      "labels": []
-    },
-    {
-      "number": 42361,
-      "title": "[Bug] DeepSeek V4 Pro loading on Lustre takes 95 minutes despite prefetch; limiting tensor-copy workers reduces it to 3.3 minutes",
-      "author": "janbernloehr",
-      "state": "open",
-      "created_at": "2026-10-03T07:44:26Z",
-      "updated_at": "2026-10-04T08:29:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42361",
-      "labels": []
-    },
-    {
-      "number": 42188,
-      "title": "[Bug] DSv4.1: text-only batches take `vision_topk()` on CUDA, skipping recorder and EPLB remap",
-      "author": "Frank-whw",
-      "state": "open",
-      "created_at": "2026-10-02T05:10:25Z",
-      "updated_at": "2026-10-02T05:10:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42188",
-      "labels": []
-    },
-    {
-      "number": 40574,
-      "title": "[Feature][DSv4.1] Tracking: every backend's two-level candidate indexer behind CandidateIndexer",
-      "author": "yuan-luo",
-      "state": "open",
-      "created_at": "2026-09-21T11:29:37Z",
-      "updated_at": "2026-09-26T06:12:32Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/40574",
       "labels": []
     }
   ]

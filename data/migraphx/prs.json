@@ -1,6 +1,178 @@
 {
-  "collected_at": "2026-11-08T14:37:13Z",
+  "collected_at": "2026-11-09T17:54:23Z",
   "prs": [
+    {
+      "number": 5227,
+      "title": "fix: enable Linux build hardening flags and CI checksec gate",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:51:09Z",
+      "updated_at": "2026-11-09T16:21:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5227",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5483,
+      "title": "Clamp layernorm variance to avoid NaN from cancellation",
+      "author": "VishalX",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T05:24:50Z",
+      "updated_at": "2026-11-09T15:08:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5483",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5489,
+      "title": "Port the CPU target to oneDNN 3",
+      "author": "adityas-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T07:21:21Z",
+      "updated_at": "2026-11-09T15:05:56Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5489",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5485,
+      "title": "Time benchmark candidates as HIP graphs ",
+      "author": "kazhang2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T06:53:48Z",
+      "updated_at": "2026-11-09T14:52:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5485",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5103,
+      "title": "Loop subgraph support",
+      "author": "weizhu12-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-30T06:35:30Z",
+      "updated_at": "2026-11-09T14:51:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5103",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5478,
+      "title": "Binary cache: store only winner if problem cache is used",
+      "author": "pnikolic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T13:56:27Z",
+      "updated_at": "2026-11-09T14:48:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5478",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5495,
+      "title": "Fold single-element widening converts in propagate_constant (regression from #5138)",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T08:24:06Z",
+      "updated_at": "2026-11-09T14:32:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5495",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5496,
+      "title": "Write a Loop scan output that the body returns as a parameter",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T10:09:00Z",
+      "updated_at": "2026-11-09T14:14:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5496",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4829,
+      "title": "support stride > 1 case.",
+      "author": "weizhu12-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-29T07:34:07Z",
+      "updated_at": "2026-11-09T14:14:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4829",
+      "labels": [
+        "ok-to-test"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5492,
+      "title": "Fix Selu lowering returning 0 or NaN for large positive inputs",
+      "author": "akshat-lakhera",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-08T23:38:44Z",
+      "updated_at": "2026-11-09T14:09:17Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5492",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5468,
+      "title": "Support stride and dilation in the channelwise convolution kernel",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T22:49:14Z",
+      "updated_at": "2026-11-09T14:05:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5468",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5493,
+      "title": "Direct FP32 3x3 stride-2 convolution kernel for gfx12 (conv3x3s2)",
+      "author": "kazhang2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T02:03:29Z",
+      "updated_at": "2026-11-09T09:13:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5493",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3873,
+      "title": "wait() failing for the default stream 0",
+      "author": "lakhinderwalia",
+      "state": "open",
+      "merged": false,
+      "created_at": "2025-03-07T19:24:24Z",
+      "updated_at": "2026-11-09T08:06:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3873",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5484,
+      "title": "[AIMIGRAPHX-1371] Keep program outputs standard in eliminate_concat",
+      "author": "anupsing-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T05:38:41Z",
+      "updated_at": "2026-11-09T05:42:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5484",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5466,
       "title": "Add MXR recompiling: keep kernel recipes and recompile compiled programs",
@@ -34,18 +206,6 @@
       "created_at": "2026-11-07T04:31:16Z",
       "updated_at": "2026-11-07T08:03:33Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5488",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5489,
-      "title": "Port the CPU target to oneDNN 3",
-      "author": "adityas-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T07:21:21Z",
-      "updated_at": "2026-11-07T07:22:05Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5489",
       "labels": [],
       "draft": false
     },
@@ -98,30 +258,6 @@
       "draft": false
     },
     {
-      "number": 5483,
-      "title": "Clamp layernorm variance to avoid NaN from cancellation",
-      "author": "VishalX",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T05:24:50Z",
-      "updated_at": "2026-11-06T22:51:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5483",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5468,
-      "title": "Support stride and dilation in the channelwise convolution kernel",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T22:49:14Z",
-      "updated_at": "2026-11-06T22:44:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5468",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5394,
       "title": "Split/symbolic reshape parsing",
       "author": "CharlieL7",
@@ -142,18 +278,6 @@
       "created_at": "2026-10-26T22:04:33Z",
       "updated_at": "2026-11-06T20:08:43Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5484,
-      "title": "[AIMIGRAPHX-1371] Allocate dense output buffers in replace_allocate",
-      "author": "anupsing-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T05:38:41Z",
-      "updated_at": "2026-11-06T19:47:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5484",
       "labels": [],
       "draft": false
     },
@@ -235,18 +359,6 @@
       "draft": false
     },
     {
-      "number": 5485,
-      "title": "Time benchmark candidates as HIP graphs and add a direct FP32 conv3x3 stride-2 kernel for gfx12",
-      "author": "kazhang2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T06:53:48Z",
-      "updated_at": "2026-11-06T15:24:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5485",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5477,
       "title": "Binary cache read only option",
       "author": "pnikolic-amd",
@@ -255,20 +367,6 @@
       "created_at": "2026-11-04T12:10:30Z",
       "updated_at": "2026-11-06T11:04:08Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5477",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5478,
-      "title": "Binary cache: store only winner if problem cache is used",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T13:56:27Z",
-      "updated_at": "2026-11-06T10:38:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5478",
       "labels": [
         "Windows"
       ],
@@ -480,18 +578,6 @@
       "created_at": "2026-09-22T18:08:00Z",
       "updated_at": "2026-11-02T13:22:47Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5299",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5227,
-      "title": "fix: enable Linux build hardening flags and CI checksec gate",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:51:09Z",
-      "updated_at": "2026-11-01T16:25:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5227",
       "labels": [],
       "draft": false
     },
@@ -1173,18 +1259,6 @@
       "draft": true
     },
     {
-      "number": 4934,
-      "title": "Enable winograd convolution for shape 3x3",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-03T05:39:12Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4934",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 4931,
       "title": "Add support for 3d kernel launches",
       "author": "music-dino",
@@ -1244,20 +1318,6 @@
       "updated_at": "2026-08-29T04:00:02Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4892",
       "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4829,
-      "title": "support stride > 1 case.",
-      "author": "weizhu12-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-29T07:34:07Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4829",
-      "labels": [
-        "ok-to-test"
-      ],
       "draft": true
     },
     {
@@ -1365,30 +1425,6 @@
       "created_at": "2026-02-17T16:20:19Z",
       "updated_at": "2026-08-29T04:00:02Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4616",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4608,
-      "title": "Use rocBLAS GEMV for skinny GEMM (M=1 or N=1) to improve performance",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-12T07:13:10Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4608",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 4607,
-      "title": "Optimize 1x1 and Depthwise Convolution for Small Shapes",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-02-12T07:05:25Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4607",
       "labels": [],
       "draft": true
     },
@@ -1541,18 +1577,6 @@
       "draft": true
     },
     {
-      "number": 3873,
-      "title": "wait() failing for the default stream 0",
-      "author": "lakhinderwalia",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-03-07T19:24:24Z",
-      "updated_at": "2026-08-29T04:00:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3873",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 3752,
       "title": "Fuse multiple outputs for pointwise and reductions",
       "author": "pfultz2",
@@ -1657,18 +1681,6 @@
       "created_at": "2026-08-11T17:39:29Z",
       "updated_at": "2026-08-29T04:00:01Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5128",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5103,
-      "title": "Loop subgraph support",
-      "author": "weizhu12-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-30T06:35:30Z",
-      "updated_at": "2026-08-29T04:00:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5103",
       "labels": [],
       "draft": true
     },
@@ -2507,46 +2519,6 @@
       "labels": [
         "documentation"
       ],
-      "draft": false
-    },
-    {
-      "number": 5358,
-      "title": "[AIMIGRAPHX-1103] Update docs for verify changes",
-      "author": "eddieliao",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-06T23:56:34Z",
-      "updated_at": "2026-10-12T20:10:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5358",
-      "labels": [
-        "documentation",
-        "skip bot checks",
-        "Changelog: Not Applicable"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5062,
-      "title": "Fix windows CI: Workaround files not being deleted",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-14T16:55:19Z",
-      "updated_at": "2026-10-12T20:01:10Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5062",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5376,
-      "title": "Fix reduce_slice_interleaved failure",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-12T14:24:10Z",
-      "updated_at": "2026-10-12T19:14:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5376",
-      "labels": [],
       "draft": false
     }
   ]
