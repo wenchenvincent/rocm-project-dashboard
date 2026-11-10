@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-09T17:55:07Z",
+  "collected_at": "2026-11-10T15:54:19Z",
   "issues": [
+    {
+      "number": 946,
+      "title": "[Issue]: lld lookup failure in different docker images for gfx1250",
+      "author": "jli-melchior",
+      "state": "open",
+      "created_at": "2026-07-31T09:59:03Z",
+      "updated_at": "2026-11-10T07:46:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/946",
+      "labels": []
+    },
     {
       "number": 1376,
       "title": "[DSL] v_cvt_pk_f32_{fp8,bf8} missing True16 (_t16) ISel patterns in pinned LLVM (blocks cvt_pk_f32_{fp8,bf8} on gfx117x/gfx12xx)",
@@ -23,16 +33,6 @@
         "enhancement",
         "FlyDSL/Customization"
       ]
-    },
-    {
-      "number": 946,
-      "title": "[Issue]: lld lookup failure in different docker images for gfx1250",
-      "author": "jli-melchior",
-      "state": "open",
-      "created_at": "2026-07-31T09:59:03Z",
-      "updated_at": "2026-11-06T00:20:41Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/946",
-      "labels": []
     },
     {
       "number": 1358,

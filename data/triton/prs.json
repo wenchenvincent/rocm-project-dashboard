@@ -1,15 +1,75 @@
 {
-  "collected_at": "2026-11-09T17:54:19Z",
+  "collected_at": "2026-11-10T15:53:27Z",
   "prs": [
+    {
+      "number": 12596,
+      "title": "[AMD] Fix TDM copies to and from shared memory subviews",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T00:25:32Z",
+      "updated_at": "2026-11-10T14:44:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12596",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12691,
+      "title": "[AMD][Gluon] Fix scaled_downcast for CDNA4 verification and repeated registers",
+      "author": "lijinpei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-10T03:01:31Z",
+      "updated_at": "2026-11-10T03:01:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12691",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12651,
+      "title": "[AMD]Support PartitionedSharedLayout in TDM Gather",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T23:09:44Z",
+      "updated_at": "2026-11-09T23:19:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12651",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12686,
+      "title": "[AMD] Implement TargetFeatures with mlir::ROCDL::TargetInfo",
+      "author": "krzysz00",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T22:24:07Z",
+      "updated_at": "2026-11-09T22:24:08Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12686",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12653,
       "title": "[AMD][GLUON] Fix bank conflict count for swizzled layout on CDNA4",
       "author": "borontion",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-11-07T04:17:30Z",
-      "updated_at": "2026-11-09T17:29:40Z",
+      "updated_at": "2026-11-09T18:47:22Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12653",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12630,
+      "title": "[AMD] Fix small K in MFMA ",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T06:31:24Z",
+      "updated_at": "2026-11-09T18:25:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12630",
       "labels": [],
       "draft": false
     },
@@ -122,18 +182,6 @@
       "draft": true
     },
     {
-      "number": 12651,
-      "title": "[AMD]Support PartitionedSharedLayout in TDM Gather",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T23:09:44Z",
-      "updated_at": "2026-11-09T00:20:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12651",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12657,
       "title": "[AMD] Make release atomics cover writes from every warp",
       "author": "antiagainst",
@@ -178,18 +226,6 @@
       "created_at": "2026-11-05T03:09:20Z",
       "updated_at": "2026-11-08T04:44:11Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12629",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12630,
-      "title": "[AMD] Fix small K in MFMA ",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-05T06:31:24Z",
-      "updated_at": "2026-11-08T04:41:08Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12630",
       "labels": [],
       "draft": false
     },
@@ -494,18 +530,6 @@
       "draft": false
     },
     {
-      "number": 12596,
-      "title": "[AMD] Fix TDM copies to and from shared memory subviews",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T00:25:32Z",
-      "updated_at": "2026-11-03T00:30:23Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12596",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 9533,
       "title": "[AMD] Update default to `block_m=16` in `make_default_opt_flags_amd`",
       "author": "micah-wil",
@@ -614,18 +638,6 @@
       "draft": false
     },
     {
-      "number": 12546,
-      "title": "[AMD][CI] rocjitsu bump to 20261029",
-      "author": "sriakrish",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-29T15:57:04Z",
-      "updated_at": "2026-10-29T23:38:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12546",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12362,
       "title": "[AMD] Fix AMD codegen rebuilds after LLVM dependency updates",
       "author": "willghatch",
@@ -684,18 +696,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12171",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12172,
-      "title": "[AMD] Derive pipeliner buffer slots from the induction variable",
-      "author": "dhernandez0",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T12:44:55Z",
-      "updated_at": "2026-10-09T14:01:39Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12172",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12203,

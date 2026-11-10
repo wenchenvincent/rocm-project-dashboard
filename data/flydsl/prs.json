@@ -1,6 +1,30 @@
 {
-  "collected_at": "2026-11-09T17:55:06Z",
+  "collected_at": "2026-11-10T15:54:17Z",
   "prs": [
+    {
+      "number": 1383,
+      "title": "[Feature][DSL] Add quantization codecs extension (fx.quant)",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T11:32:12Z",
+      "updated_at": "2026-11-10T11:03:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1383",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 987,
+      "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-11-10T09:33:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1391,
       "title": "Fix log1p and expm1 returning 0 for tiny arguments",
@@ -8,32 +32,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-09T12:05:11Z",
-      "updated_at": "2026-11-09T14:55:47Z",
+      "updated_at": "2026-11-10T08:46:00Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1391",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1392,
-      "title": "[JIT] Add compile_only to flyc.compile",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T12:18:36Z",
-      "updated_at": "2026-11-09T12:19:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1392",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1390,
-      "title": "[Coop] Optimize warp-level prims on the rocdl",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T11:22:52Z",
-      "updated_at": "2026-11-09T11:58:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1390",
       "labels": [],
       "draft": false
     },
@@ -44,10 +44,22 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-30T04:48:52Z",
-      "updated_at": "2026-11-09T10:56:22Z",
+      "updated_at": "2026-11-10T03:16:14Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1350",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 1390,
+      "title": "[Coop] Optimize warp-level prims on the rocdl",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T11:22:52Z",
+      "updated_at": "2026-11-10T02:24:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1390",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 1193,
@@ -58,18 +70,6 @@
       "created_at": "2026-09-25T00:13:38Z",
       "updated_at": "2026-11-09T09:56:26Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1193",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1389,
-      "title": "[CI] Shrink the wheel artifact the GPU jobs download",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T09:46:40Z",
-      "updated_at": "2026-11-09T09:49:19Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1389",
       "labels": [],
       "draft": false
     },
@@ -157,18 +157,6 @@
       "created_at": "2026-11-07T11:59:07Z",
       "updated_at": "2026-11-07T17:43:59Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1384",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1383,
-      "title": "[Feature][DSL] Add quantization codecs extension (fx.quant)",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T11:32:12Z",
-      "updated_at": "2026-11-07T17:37:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1383",
       "labels": [],
       "draft": true
     },
@@ -909,18 +897,6 @@
       "draft": false
     },
     {
-      "number": 987,
-      "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-09-30T01:09:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1179,
       "title": "[Enh] Accept LLVM pointer types in ffi declarations",
       "author": "LWenH",
@@ -1037,6 +1013,30 @@
       "created_at": "2026-07-28T19:32:56Z",
       "updated_at": "2026-07-29T10:56:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/920",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1392,
+      "title": "[JIT] Add compile_only to flyc.compile",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-09T12:18:36Z",
+      "updated_at": "2026-11-10T04:13:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1392",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1389,
+      "title": "[CI] Shrink the wheel artifact the GPU jobs download",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-09T09:46:40Z",
+      "updated_at": "2026-11-10T04:09:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1389",
       "labels": [],
       "draft": false
     },
@@ -1809,18 +1809,6 @@
       "created_at": "2026-10-06T22:40:56Z",
       "updated_at": "2026-10-14T09:12:20Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1230",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1279,
-      "title": "[Skills] Add review-pr: advisory PR review adapted from aiter and ATOM",
-      "author": "jhinpan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-12T19:13:52Z",
-      "updated_at": "2026-10-14T07:43:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1279",
       "labels": [],
       "draft": false
     }

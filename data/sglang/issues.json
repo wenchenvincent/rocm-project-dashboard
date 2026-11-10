@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-11-09T17:54:17Z",
+  "collected_at": "2026-11-10T15:53:25Z",
   "issues": [
+    {
+      "number": 33422,
+      "title": "[Perf] DeepSeek-V4 dsv4 prefill on SM120 (4x RTX PRO 6000, TP=4): ~2-7K tok/s vs ~12.5K reported via vLLM/marlin on identical hardware \u2014 expected? tuning guidance?",
+      "author": "hassellof",
+      "state": "open",
+      "created_at": "2026-08-03T19:29:12Z",
+      "updated_at": "2026-11-10T08:42:54Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/33422",
+      "labels": []
+    },
+    {
+      "number": 49454,
+      "title": "[Feat] kda: run the Kimi-K3 fused FlashInfer decode on a BF16 SSM state (NVIDIA SM100/103)",
+      "author": "Phoenix3334",
+      "state": "open",
+      "created_at": "2026-11-10T04:24:54Z",
+      "updated_at": "2026-11-10T06:09:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49454",
+      "labels": []
+    },
+    {
+      "number": 49441,
+      "title": "[ROCm Product Quality Control]: Weekly Kimi Vendor Verifier (KVV) accuracy regression testing on AMD",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-11-10T03:13:16Z",
+      "updated_at": "2026-11-10T03:13:16Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49441",
+      "labels": []
+    },
     {
       "number": 49327,
       "title": "[ROCm][AMD] DeepSeek-V4.1-Flash gfx950 / MI355X Performance Optimization (SGLang)",
@@ -39,16 +69,6 @@
       "created_at": "2026-11-09T08:55:31Z",
       "updated_at": "2026-11-09T08:55:38Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/49274",
-      "labels": []
-    },
-    {
-      "number": 33422,
-      "title": "[Perf] DeepSeek-V4 dsv4 prefill on SM120 (4x RTX PRO 6000, TP=4): ~2-7K tok/s vs ~12.5K reported via vLLM/marlin on identical hardware \u2014 expected? tuning guidance?",
-      "author": "hassellof",
-      "state": "open",
-      "created_at": "2026-08-03T19:29:12Z",
-      "updated_at": "2026-11-09T08:25:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33422",
       "labels": []
     },
     {

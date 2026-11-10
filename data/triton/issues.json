@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-09T17:54:20Z",
+  "collected_at": "2026-11-10T15:53:28Z",
   "issues": [
+    {
+      "number": 12695,
+      "title": "[AMD] CanonicalizePointers: `scf.if` fails to legalize when one arm yields a >2 GiB (non-canonicalized) pointer and the other a canonicalized one",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-11-10T15:12:58Z",
+      "updated_at": "2026-11-10T15:12:58Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/12695",
+      "labels": []
+    },
     {
       "number": 12116,
       "title": "[AMD] CoalesceAsyncCopy produces a layout the direct-to-LDS lowering cannot coalesce when a warp spans more than the fastest shared dimension",

@@ -1,6 +1,59 @@
 {
-  "collected_at": "2026-11-09T17:54:58Z",
+  "collected_at": "2026-11-10T15:54:09Z",
   "issues": [
+    {
+      "number": 3175,
+      "title": "[Perf Regression] 3 config(s) regressed @ 724f7bf4",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-10T14:07:36Z",
+      "updated_at": "2026-11-10T14:07:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3175",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2712,
+      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-26T06:28:03Z",
+      "updated_at": "2026-11-10T09:19:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
+      "labels": []
+    },
+    {
+      "number": 3148,
+      "title": "Qwen3.8 mono: target and draft programs don't write the QSA RoPE position cache",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-10T03:13:07Z",
+      "updated_at": "2026-11-10T08:49:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3148",
+      "labels": []
+    },
+    {
+      "number": 3157,
+      "title": "Warm routed AITER plugin ops before capture_cudagraph(): decode-only ops are never reached by warmup_model()",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-11-10T07:55:36Z",
+      "updated_at": "2026-11-10T07:55:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3157",
+      "labels": []
+    },
+    {
+      "number": 3149,
+      "title": "[ROCm Product Quality Control]: Weekly Kimi Vendor Verifier (KVV) accuracy regression testing on AMD ATOM",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-11-10T03:19:58Z",
+      "updated_at": "2026-11-10T03:20:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3149",
+      "labels": []
+    },
     {
       "number": 3123,
       "title": "[Bug] Qwen3.8-Flash-Next (qwen4_exp) image prompts crash on a prefix-cache hit inside or past an image",
@@ -19,16 +72,6 @@
       "created_at": "2026-11-09T12:07:38Z",
       "updated_at": "2026-11-09T12:07:38Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/3120",
-      "labels": []
-    },
-    {
-      "number": 2712,
-      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-26T06:28:03Z",
-      "updated_at": "2026-11-09T03:28:03Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
       "labels": []
     },
     {

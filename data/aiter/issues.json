@@ -1,14 +1,89 @@
 {
-  "collected_at": "2026-11-09T17:54:50Z",
+  "collected_at": "2026-11-10T15:53:59Z",
   "issues": [
     {
-      "number": 7610,
-      "title": "PR#6952 breaks ATOM main: pa_mqa_logits_mxfp4_plan removed without backward compat",
-      "author": "srinivamd",
+      "number": 7737,
+      "title": "[Issue]: Triton MHA backward kernels (flash_attn_triton_amd/bwd.py) compute offsets in int32, overflowing for tensors above 2^31 elements",
+      "author": "WHITE-BLANK",
       "state": "open",
-      "created_at": "2026-11-07T17:46:57Z",
-      "updated_at": "2026-11-09T17:28:39Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7610",
+      "created_at": "2026-11-10T13:04:16Z",
+      "updated_at": "2026-11-10T13:08:01Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7737",
+      "labels": []
+    },
+    {
+      "number": 5894,
+      "title": "[Bug] [fa]gfx950 hd128 causal bwd kernels write dK = 0 under GPU sharing (missing s_barrier)",
+      "author": "Johnsonms",
+      "state": "open",
+      "created_at": "2026-09-27T21:45:10Z",
+      "updated_at": "2026-11-10T10:04:03Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5894",
+      "labels": []
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-10T07:45:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 7711,
+      "title": "Tracking issue for #7341: allowlist dtype bug + CI red on MoE 2-stage full-matrix job",
+      "author": "shantipriya-amd",
+      "state": "open",
+      "created_at": "2026-11-10T07:30:07Z",
+      "updated_at": "2026-11-10T07:30:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7711",
+      "labels": []
+    },
+    {
+      "number": 7240,
+      "title": "RFC: Versioned Kernel Provider Interface for AITER",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-30T23:10:45Z",
+      "updated_at": "2026-11-10T07:13:22Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7240",
+      "labels": [
+        "Infra",
+        "work-in-progress"
+      ]
+    },
+    {
+      "number": 5959,
+      "title": "[Issue]: AITER_TRITON_ONLY leaves `aiter.dtypes` unbound, silently disabling `aiter.ops.triton.quant`",
+      "author": "Ragua1",
+      "state": "open",
+      "created_at": "2026-09-29T20:40:29Z",
+      "updated_at": "2026-11-09T23:14:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5959",
+      "labels": []
+    },
+    {
+      "number": 7685,
+      "title": "[Issue]: On Windows, load_hip_runtime() loads the display driver's amdhip64.dll beside torch's HIP runtime",
+      "author": "Ragua1",
+      "state": "open",
+      "created_at": "2026-11-09T23:08:40Z",
+      "updated_at": "2026-11-09T23:08:40Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7685",
+      "labels": []
+    },
+    {
+      "number": 7631,
+      "title": "[gfx950] mla_dec_stage1_bf16_a16w16_subQ128_mqa128.co gives nondeterministic, wrong output when a workgroup handles more than 48 KV tokens",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-11-08T20:43:52Z",
+      "updated_at": "2026-11-09T18:10:29Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7631",
       "labels": []
     },
     {
@@ -32,18 +107,6 @@
       "labels": []
     },
     {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-09T07:34:11Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
-    },
-    {
       "number": 7646,
       "title": "mxfp4_moe_sort_fwd zeroes the last token's final scales when K // 32 is not a multiple of 4 (e.g. K=2880)",
       "author": "jiangyon-amd",
@@ -54,19 +117,6 @@
       "labels": []
     },
     {
-      "number": 7240,
-      "title": "RFC: Versioned Kernel Provider Interface for AITER",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-10-30T23:10:45Z",
-      "updated_at": "2026-11-09T06:24:47Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7240",
-      "labels": [
-        "Infra",
-        "work-in-progress"
-      ]
-    },
-    {
       "number": 7639,
       "title": "[MLA][gfx950] non-persistent fp8 gqa16 qlen 3-4 (mla_a8w8_qh64_qseqlen4_gqaratio16) computes only KV split 0 and writes the partials into the wrong cells",
       "author": "vllmellm",
@@ -74,16 +124,6 @@
       "created_at": "2026-11-09T03:48:07Z",
       "updated_at": "2026-11-09T03:48:07Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7639",
-      "labels": []
-    },
-    {
-      "number": 7631,
-      "title": "[gfx950] mla_dec_stage1_bf16_a16w16_subQ128_mqa128.co gives nondeterministic, wrong output when a workgroup handles more than 48 KV tokens",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2026-11-08T20:43:52Z",
-      "updated_at": "2026-11-08T20:43:52Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7631",
       "labels": []
     },
     {
@@ -382,16 +422,6 @@
       "labels": []
     },
     {
-      "number": 5959,
-      "title": "[Issue]: AITER_TRITON_ONLY leaves `aiter.dtypes` unbound, silently disabling `aiter.ops.triton.quant`",
-      "author": "Ragua1",
-      "state": "open",
-      "created_at": "2026-09-29T20:40:29Z",
-      "updated_at": "2026-10-26T23:03:00Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5959",
-      "labels": []
-    },
-    {
       "number": 1385,
       "title": "-mllvm -amdgpu-coerce-illegal-types=1 is not supported by hipcc",
       "author": "jinz2014",
@@ -579,16 +609,6 @@
       "created_at": "2026-09-19T08:33:09Z",
       "updated_at": "2026-10-20T04:34:16Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5683",
-      "labels": []
-    },
-    {
-      "number": 5894,
-      "title": "[Bug] [fa]gfx950 hd128 causal bwd kernels write dK = 0 under GPU sharing (missing s_barrier)",
-      "author": "Johnsonms",
-      "state": "open",
-      "created_at": "2026-09-27T21:45:10Z",
-      "updated_at": "2026-10-20T02:33:49Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5894",
       "labels": []
     },
     {
