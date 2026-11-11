@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-11-10T15:55:25Z",
+  "collected_at": "2026-11-11T15:42:33Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 25,
-      "merged": 9,
-      "closed": 11
+      "opened": 17,
+      "merged": 10,
+      "closed": 5
     },
     "last_week": {
-      "opened": 22,
-      "merged": 18,
-      "closed": 8
+      "opened": 28,
+      "merged": 15,
+      "closed": 11
     },
-    "median_time_to_merge_hours": 333.0,
-    "merge_count": 27,
+    "median_time_to_merge_hours": 265.5,
+    "merge_count": 25,
     "stale_prs": 77
   },
   "contributors": {
     "active_this_week": 24,
-    "total_contributors": 59,
+    "total_contributors": 60,
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 61,
-        "prs_merged": 25,
-        "commits": 26
+        "prs_submitted": 63,
+        "prs_merged": 27,
+        "commits": 28
       },
       {
         "author": "CharlieL7",
@@ -52,10 +52,16 @@
         "commits": 0
       },
       {
+        "author": "royzhang-amd",
+        "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 1
+      },
+      {
         "author": "pnikolic-amd",
         "prs_submitted": 4,
         "prs_merged": 2,
-        "commits": 3
+        "commits": 2
       },
       {
         "author": "lakhinderwalia",
@@ -64,22 +70,16 @@
         "commits": 0
       },
       {
-        "author": "royzhang-amd",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 1
-      },
-      {
         "author": "Rolaand-Jayz",
         "prs_submitted": 4,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "klin2024",
+        "author": "anupsing-amd",
         "prs_submitted": 3,
-        "prs_merged": 0,
-        "commits": 0
+        "prs_merged": 1,
+        "commits": 1
       }
     ],
     "bus_factor": 2
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 34.1,
+    "days_since_last": 35.1,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

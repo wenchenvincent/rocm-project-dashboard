@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-11-10T15:54:09Z",
+  "collected_at": "2026-11-11T15:41:46Z",
   "issues": [
+    {
+      "number": 3192,
+      "title": "[Qwen3.8 mono] With FlyDSL 0.5.0, every MonoKernel.launch re-traces the whole program, so decode is ~300x slower",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-11T06:11:44Z",
+      "updated_at": "2026-11-11T06:54:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3192",
+      "labels": []
+    },
+    {
+      "number": 3190,
+      "title": "vLLM plugin refactor: design",
+      "author": "PerryZhang01",
+      "state": "open",
+      "created_at": "2026-11-11T03:28:11Z",
+      "updated_at": "2026-11-11T03:28:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3190",
+      "labels": []
+    },
+    {
+      "number": 2712,
+      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-26T06:28:03Z",
+      "updated_at": "2026-11-11T02:47:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
+      "labels": []
+    },
     {
       "number": 3175,
       "title": "[Perf Regression] 3 config(s) regressed @ 724f7bf4",
@@ -13,36 +43,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 2712,
-      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-26T06:28:03Z",
-      "updated_at": "2026-11-10T09:19:24Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
-      "labels": []
-    },
-    {
-      "number": 3148,
-      "title": "Qwen3.8 mono: target and draft programs don't write the QSA RoPE position cache",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-10T03:13:07Z",
-      "updated_at": "2026-11-10T08:49:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3148",
-      "labels": []
-    },
-    {
-      "number": 3157,
-      "title": "Warm routed AITER plugin ops before capture_cudagraph(): decode-only ops are never reached by warmup_model()",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-11-10T07:55:36Z",
-      "updated_at": "2026-11-10T07:55:36Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3157",
-      "labels": []
     },
     {
       "number": 3149,
@@ -828,16 +828,6 @@
       "created_at": "2026-06-30T03:17:25Z",
       "updated_at": "2026-06-30T03:17:25Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1407",
-      "labels": []
-    },
-    {
-      "number": 1400,
-      "title": "[Issue]: DeepSeek-V4-Flash Memory access fault under 64/128 concurrency with 3000+ requests",
-      "author": "ab1stone",
-      "state": "open",
-      "created_at": "2026-06-29T09:47:34Z",
-      "updated_at": "2026-06-29T09:47:34Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1400",
       "labels": []
     },
     {

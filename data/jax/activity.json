@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-11-10T15:55:18Z",
+  "collected_at": "2026-11-11T15:42:27Z",
   "project": "jax",
   "repo": "jax-ml/jax",
   "pr_velocity": {
     "this_week": {
-      "opened": 9,
+      "opened": 8,
       "merged": 6,
       "closed": 0
     },
     "last_week": {
       "opened": 3,
-      "merged": 5,
+      "merged": 4,
       "closed": 0
     },
     "median_time_to_merge_hours": 26.8,
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 22,
     "opened_this_week": 0,
-    "closed_this_week": 16,
+    "closed_this_week": 13,
     "unanswered": 6
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 19.4,
+    "days_since_last": 20.4,
     "avg_interval_days": 24.4,
     "total_releases": 5,
     "latest_tag": "jax-v0.12.0.1"

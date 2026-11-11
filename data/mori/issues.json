@@ -1,13 +1,23 @@
 {
-  "collected_at": "2026-11-10T15:54:14Z",
+  "collected_at": "2026-11-11T15:41:50Z",
   "issues": [
+    {
+      "number": 951,
+      "title": "[EPv2][gfx1250] hip backend: `ep_dispatch` launch fails with \"invalid argument\" for f32 gather and for bf16 gather (tuned) at 512 tokens/rank",
+      "author": "paklui",
+      "state": "open",
+      "created_at": "2026-11-09T16:07:19Z",
+      "updated_at": "2026-11-11T14:46:54Z",
+      "html_url": "https://github.com/ROCm/mori/issues/951",
+      "labels": []
+    },
     {
       "number": 811,
       "title": "RFC [feature] : MORI RAS: per-process reliability, availability, and serviceability runtime",
       "author": "i-chaochen",
       "state": "open",
       "created_at": "2026-10-20T00:13:08Z",
-      "updated_at": "2026-11-10T13:52:53Z",
+      "updated_at": "2026-11-10T22:55:33Z",
       "html_url": "https://github.com/ROCm/mori/issues/811",
       "labels": []
     },
@@ -61,26 +71,6 @@
       "created_at": "2026-11-09T14:20:43Z",
       "updated_at": "2026-11-09T17:51:15Z",
       "html_url": "https://github.com/ROCm/mori/issues/947",
-      "labels": []
-    },
-    {
-      "number": 951,
-      "title": "[EPv2][gfx1250] hip backend: `ep_dispatch` launch fails with \"invalid argument\" for f32 gather and for bf16 gather (tuned) at 512 tokens/rank",
-      "author": "paklui",
-      "state": "open",
-      "created_at": "2026-11-09T16:07:19Z",
-      "updated_at": "2026-11-09T16:07:19Z",
-      "html_url": "https://github.com/ROCm/mori/issues/951",
-      "labels": []
-    },
-    {
-      "number": 905,
-      "title": "[Issue]: mlx5 DEVX path programs the peer NIC's own MAC as destination MAC; cross-node EP hangs on routed (L3) RoCE fabrics",
-      "author": "YeSho-cpp",
-      "state": "open",
-      "created_at": "2026-11-03T09:21:31Z",
-      "updated_at": "2026-11-09T10:42:15Z",
-      "html_url": "https://github.com/ROCm/mori/issues/905",
       "labels": []
     },
     {

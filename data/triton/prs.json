@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-10T15:53:27Z",
+  "collected_at": "2026-11-11T15:41:03Z",
   "prs": [
     {
       "number": 12596,
@@ -8,8 +8,92 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-03T00:25:32Z",
-      "updated_at": "2026-11-10T14:44:57Z",
+      "updated_at": "2026-11-11T14:36:09Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12596",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12645,
+      "title": "[AMD][TritonGPU] Keep the partition when reshaping a partitioned memdesc",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T03:14:14Z",
+      "updated_at": "2026-11-11T03:44:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12645",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12648,
+      "title": "[AMD] Infer async_wait completion scope",
+      "author": "jungpark-mlir",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-06T14:07:15Z",
+      "updated_at": "2026-11-11T03:40:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12648",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12702,
+      "title": "[AMD]Support PartitionedSharedLayout in TDM Store and Scatter for CDNA5",
+      "author": "knwng",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-10T21:58:19Z",
+      "updated_at": "2026-11-10T23:48:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12702",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12651,
+      "title": "[AMD]Support PartitionedSharedLayout in TDM Gather",
+      "author": "knwng",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-06T23:09:44Z",
+      "updated_at": "2026-11-10T19:54:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12651",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12646,
+      "title": "[AMD][ConSan] Handle startup cluster barrier synchronization in multi-CTA kernels",
+      "author": "PMylon",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-06T09:20:07Z",
+      "updated_at": "2026-11-10T19:00:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12646",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12697,
+      "title": "[AMD][CI] Bump rocjitsu image",
+      "author": "sriakrish",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-10T17:51:54Z",
+      "updated_at": "2026-11-10T18:56:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12697",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12572,
+      "title": "[GPU] Reject generic linear encodings on non-AMD targets",
+      "author": "losewayy",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-31T18:11:55Z",
+      "updated_at": "2026-11-10T18:42:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12572",
       "labels": [],
       "draft": false
     },
@@ -24,18 +108,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12691",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12651,
-      "title": "[AMD]Support PartitionedSharedLayout in TDM Gather",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T23:09:44Z",
-      "updated_at": "2026-11-09T23:19:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12651",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12686,
@@ -70,18 +142,6 @@
       "created_at": "2026-11-05T06:31:24Z",
       "updated_at": "2026-11-09T18:25:09Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12630",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12648,
-      "title": "[AMD] Infer async_wait completion scope",
-      "author": "jungpark-mlir",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T14:07:15Z",
-      "updated_at": "2026-11-09T17:23:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12648",
       "labels": [],
       "draft": false
     },
@@ -156,18 +216,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12654",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12645,
-      "title": "[AMD][TritonGPU] Keep the partition when reshaping a partitioned memdesc",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T03:14:14Z",
-      "updated_at": "2026-11-09T02:54:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12645",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12034,
@@ -250,18 +298,6 @@
       "created_at": "2026-10-08T15:52:46Z",
       "updated_at": "2026-11-06T15:37:26Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12177",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12646,
-      "title": "[AMD][ConSan] Handle startup cluster barrier synchronization in multi-CTA kernels",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T09:20:07Z",
-      "updated_at": "2026-11-06T09:21:57Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12646",
       "labels": [],
       "draft": false
     },
@@ -458,18 +494,6 @@
       "draft": true
     },
     {
-      "number": 12572,
-      "title": "[GPU] Reject generic linear encodings on non-AMD targets",
-      "author": "losewayy",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-31T18:11:55Z",
-      "updated_at": "2026-11-03T10:22:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12572",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12601,
       "title": "[AMD] Fix exponential traversal in pointer canonicalization",
       "author": "leonling-ll",
@@ -578,66 +602,6 @@
       "draft": false
     },
     {
-      "number": 10733,
-      "title": "[AMD] Fix batched WMMA scale layout",
-      "author": "alefimov-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-06-26T15:19:09Z",
-      "updated_at": "2026-11-02T02:50:01Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/10733",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12571,
-      "title": "[AMD][Gluon] Add descriptor buffer ops for RDNA4",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-31T17:17:00Z",
-      "updated_at": "2026-11-01T21:48:59Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12571",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12512,
-      "title": "[AMD][Gluon] Add descriptor buffer ops for gfx1250",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-27T04:02:00Z",
-      "updated_at": "2026-10-31T00:46:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12512",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12560,
-      "title": "[AMD] Use hardware tanh for fast_tanhf on CDNA5, keep tanh exact",
-      "author": "njriasan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-30T16:27:34Z",
-      "updated_at": "2026-10-30T19:38:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12560",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12551,
-      "title": "[AMD] Add ScopedNoAliasAA to the MIR scheduling DAG emitter",
-      "author": "tyb0807",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-29T21:53:46Z",
-      "updated_at": "2026-10-29T23:46:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12551",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12362,
       "title": "[AMD] Fix AMD codegen rebuilds after LLVM dependency updates",
       "author": "willghatch",
@@ -718,6 +682,42 @@
       "created_at": "2026-08-13T15:41:53Z",
       "updated_at": "2026-10-09T08:10:25Z",
       "html_url": "https://github.com/triton-lang/triton/pull/11295",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12159,
+      "title": "[AMD] Keep shared order in CoalesceAsyncCopy when the src order cannot lower to direct-to-LDS",
+      "author": "he-yufeng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:17:18Z",
+      "updated_at": "2026-10-07T15:17:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12159",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12060,
+      "title": "[AMD] Avoid redundant batch warps in dot layouts",
+      "author": "pculaf",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-01T23:07:35Z",
+      "updated_at": "2026-10-01T23:07:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12060",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12020,
+      "title": "Add TRITON_BUILD_{NVIDIA,AMD}_BACKEND options to build without in-tree backends",
+      "author": "KX76",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-29T07:51:40Z",
+      "updated_at": "2026-09-29T09:14:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12020",
       "labels": [],
       "draft": true
     }

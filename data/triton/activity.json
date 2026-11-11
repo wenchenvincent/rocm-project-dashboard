@@ -1,35 +1,41 @@
 {
-  "collected_at": "2026-11-10T15:55:23Z",
+  "collected_at": "2026-11-11T15:42:31Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 17,
-      "merged": 16,
+      "opened": 18,
+      "merged": 15,
       "closed": 0
     },
     "last_week": {
-      "opened": 19,
-      "merged": 14,
+      "opened": 15,
+      "merged": 15,
       "closed": 0
     },
-    "median_time_to_merge_hours": 83.2,
+    "median_time_to_merge_hours": 100.0,
     "merge_count": 30,
-    "stale_prs": 2
+    "stale_prs": 5
   },
   "contributors": {
-    "active_this_week": 28,
-    "total_contributors": 40,
+    "active_this_week": 22,
+    "total_contributors": 42,
     "top_contributors": [
       {
-        "author": "antiagainst",
-        "prs_submitted": 5,
-        "prs_merged": 4,
+        "author": "Dewei-Wang-sh",
+        "prs_submitted": 3,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "tyb0807",
-        "prs_submitted": 4,
+        "author": "knwng",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "PMylon",
+        "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
       },
@@ -40,19 +46,13 @@
         "commits": 0
       },
       {
-        "author": "PMylon",
+        "author": "tyb0807",
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "Dewei-Wang-sh",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "njriasan",
+        "author": "antiagainst",
         "prs_submitted": 3,
         "prs_merged": 2,
         "commits": 0
@@ -64,13 +64,13 @@
         "commits": 0
       },
       {
-        "author": "knwng",
+        "author": "jungpark-mlir",
         "prs_submitted": 2,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       },
       {
-        "author": "jungpark-mlir",
+        "author": "njriasan",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
@@ -82,7 +82,7 @@
         "commits": 0
       }
     ],
-    "bus_factor": 6
+    "bus_factor": 7
   },
   "issue_health": {
     "total_open": 21,
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 13.9,
+    "days_since_last": 14.9,
     "avg_interval_days": 69.7,
     "total_releases": 5,
     "latest_tag": "v3.9.0"

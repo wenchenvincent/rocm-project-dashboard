@@ -1,6 +1,151 @@
 {
-  "collected_at": "2026-11-10T15:53:59Z",
+  "collected_at": "2026-11-11T15:41:37Z",
   "issues": [
+    {
+      "number": 7781,
+      "title": "[Issue]: test_mla_flydsl page-faults on gfx1250 when the GPU is initialized before aiter is imported",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-10T23:11:45Z",
+      "updated_at": "2026-11-11T14:50:18Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7781",
+      "labels": []
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-11T08:08:19Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 7240,
+      "title": "RFC: Versioned Kernel Provider Interface for AITER",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-30T23:10:45Z",
+      "updated_at": "2026-11-11T07:54:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7240",
+      "labels": [
+        "Infra",
+        "work-in-progress"
+      ]
+    },
+    {
+      "number": 7631,
+      "title": "[gfx950] mla_dec_stage1_bf16_a16w16_subQ128_mqa128.co gives nondeterministic, wrong output when a workgroup handles more than 48 KV tokens",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-11-08T20:43:52Z",
+      "updated_at": "2026-11-11T07:19:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7631",
+      "labels": []
+    },
+    {
+      "number": 7811,
+      "title": "fmha_v3_varlen_fwd ASM kernel (fmha_fwd_hd128_bf16_causal_group) crashes with GPU memory access fault on paged KV cache \u2014 block_table validated but never passed to kernel-argument builder",
+      "author": "sahirema",
+      "state": "open",
+      "created_at": "2026-11-11T07:06:22Z",
+      "updated_at": "2026-11-11T07:06:22Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7811",
+      "labels": []
+    },
+    {
+      "number": 5879,
+      "title": "`get_ps_metadata_v1` writes device outputs with non-stream-ordered `hipMemcpy`",
+      "author": "amd-mghanimi",
+      "state": "open",
+      "created_at": "2026-09-26T19:47:01Z",
+      "updated_at": "2026-11-11T03:30:29Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5879",
+      "labels": []
+    },
+    {
+      "number": 7150,
+      "title": "RFC: decouple backend names from public op definitions (start with MoE)",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-29T09:37:36Z",
+      "updated_at": "2026-11-11T02:48:38Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7150",
+      "labels": []
+    },
+    {
+      "number": 7536,
+      "title": "[Issue]: grouped MoE GEMM tests require an AOT entry for moe_fused_route_quant_scatter that run_aot does not build",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-06T00:20:38Z",
+      "updated_at": "2026-11-10T23:50:51Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7536",
+      "labels": []
+    },
+    {
+      "number": 7780,
+      "title": "[Issue]: benchmark-style op_tests are not runnable under pytest (test_mhc argv, positional test_* sweeps)",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-10T23:11:44Z",
+      "updated_at": "2026-11-10T23:11:44Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7780",
+      "labels": []
+    },
+    {
+      "number": 7779,
+      "title": "[Issue]: test_mla_decode_pagesize64 fails instead of skipping on MI450 A0 (B0-only ASM)",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-10T23:11:42Z",
+      "updated_at": "2026-11-10T23:11:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7779",
+      "labels": []
+    },
+    {
+      "number": 7778,
+      "title": "[Issue]: gemm_afp4wfp4 preshuffled split-K raises KeyError NUM_BUFFERS on gfx1250",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-10T23:11:41Z",
+      "updated_at": "2026-11-10T23:11:41Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7778",
+      "labels": []
+    },
+    {
+      "number": 7777,
+      "title": "[Issue]: pa_decode_sparse fp8 and v4-unified paths wrong at kv_len=136 on gfx1250; with_extra fails",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-10T23:11:39Z",
+      "updated_at": "2026-11-10T23:11:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7777",
+      "labels": []
+    },
+    {
+      "number": 7776,
+      "title": "[Issue]: test_triton_unified_attn_3d case never completes on gfx1250 and leaves the GPU busy",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-10T23:11:38Z",
+      "updated_at": "2026-11-10T23:11:38Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7776",
+      "labels": []
+    },
+    {
+      "number": 7775,
+      "title": "[VLLM] https://github.com/vllm-project/vllm/pull/64545",
+      "author": "omuhamma",
+      "state": "open",
+      "created_at": "2026-11-10T22:26:59Z",
+      "updated_at": "2026-11-10T22:27:02Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7775",
+      "labels": []
+    },
     {
       "number": 7737,
       "title": "[Issue]: Triton MHA backward kernels (flash_attn_triton_amd/bwd.py) compute offsets in int32, overflowing for tensors above 2^31 elements",
@@ -22,18 +167,6 @@
       "labels": []
     },
     {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-10T07:45:45Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
-    },
-    {
       "number": 7711,
       "title": "Tracking issue for #7341: allowlist dtype bug + CI red on MoE 2-stage full-matrix job",
       "author": "shantipriya-amd",
@@ -42,19 +175,6 @@
       "updated_at": "2026-11-10T07:30:07Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7711",
       "labels": []
-    },
-    {
-      "number": 7240,
-      "title": "RFC: Versioned Kernel Provider Interface for AITER",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-10-30T23:10:45Z",
-      "updated_at": "2026-11-10T07:13:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7240",
-      "labels": [
-        "Infra",
-        "work-in-progress"
-      ]
     },
     {
       "number": 5959,
@@ -74,16 +194,6 @@
       "created_at": "2026-11-09T23:08:40Z",
       "updated_at": "2026-11-09T23:08:40Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7685",
-      "labels": []
-    },
-    {
-      "number": 7631,
-      "title": "[gfx950] mla_dec_stage1_bf16_a16w16_subQ128_mqa128.co gives nondeterministic, wrong output when a workgroup handles more than 48 KV tokens",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2026-11-08T20:43:52Z",
-      "updated_at": "2026-11-09T18:10:29Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7631",
       "labels": []
     },
     {
@@ -154,16 +264,6 @@
       "created_at": "2026-11-06T18:42:39Z",
       "updated_at": "2026-11-06T18:42:39Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7590",
-      "labels": []
-    },
-    {
-      "number": 7536,
-      "title": "[Issue]: grouped MoE GEMM tests require an AOT entry for moe_fused_route_quant_scatter that run_aot does not build",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-06T00:20:38Z",
-      "updated_at": "2026-11-06T07:09:54Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7536",
       "labels": []
     },
     {
@@ -238,16 +338,6 @@
         "bug",
         "Triton/Gluon"
       ]
-    },
-    {
-      "number": 7150,
-      "title": "RFC: decouple backend names from public op definitions (start with MoE)",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-10-29T09:37:36Z",
-      "updated_at": "2026-11-05T08:57:20Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7150",
-      "labels": []
     },
     {
       "number": 7504,
@@ -1287,16 +1377,6 @@
       "created_at": "2026-09-27T10:27:25Z",
       "updated_at": "2026-09-27T10:27:25Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5888",
-      "labels": []
-    },
-    {
-      "number": 5879,
-      "title": "`get_ps_metadata_v1` writes device outputs with non-stream-ordered `hipMemcpy`",
-      "author": "amd-mghanimi",
-      "state": "open",
-      "created_at": "2026-09-26T19:47:01Z",
-      "updated_at": "2026-09-27T06:33:16Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5879",
       "labels": []
     },
     {

@@ -1,6 +1,21 @@
 {
-  "collected_at": "2026-11-10T15:52:58Z",
+  "collected_at": "2026-11-11T15:40:34Z",
   "prs": [
+    {
+      "number": 42394,
+      "title": "[ROCm] Compile IFRT IR MPMD programs on PJRT-backed IFRT clients",
+      "author": "i-chaochen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T13:05:28Z",
+      "updated_at": "2026-11-11T14:57:00Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42394",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 42272,
       "title": "Build the ROCm plugin with static libc++",
@@ -12,21 +27,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/42272",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 42394,
-      "title": "[ROCm] Compile IFRT IR MPMD programs on PJRT-backed IFRT clients",
-      "author": "i-chaochen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T13:05:28Z",
-      "updated_at": "2026-11-06T20:06:54Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42394",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": false
     },
     {
       "number": 42404,
