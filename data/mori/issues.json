@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-11T15:41:50Z",
+  "collected_at": "2026-11-12T16:25:13Z",
   "issues": [
+    {
+      "number": 952,
+      "title": "RFC [feature]: MORI M2N \u2014 NCCL-inspired mesh-to-mesh tensor resharding over MORI-CCO",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-11-09T16:34:28Z",
+      "updated_at": "2026-11-12T10:05:10Z",
+      "html_url": "https://github.com/ROCm/mori/issues/952",
+      "labels": []
+    },
     {
       "number": 951,
       "title": "[EPv2][gfx1250] hip backend: `ep_dispatch` launch fails with \"invalid argument\" for f32 gather and for bf16 gather (tuned) at 512 tokens/rank",
@@ -44,16 +54,6 @@
       "labels": []
     },
     {
-      "number": 952,
-      "title": "RFC [feature]: MORI M2N \u2014 NCCL-inspired mesh-to-mesh tensor resharding over MORI-CCO",
-      "author": "i-chaochen",
-      "state": "open",
-      "created_at": "2026-11-09T16:34:28Z",
-      "updated_at": "2026-11-10T00:08:33Z",
-      "html_url": "https://github.com/ROCm/mori/issues/952",
-      "labels": []
-    },
-    {
       "number": 953,
       "title": "RFC [feature]: UMBP weight pool \u2014 immutable weight generations for RL weight sync",
       "author": "i-chaochen",
@@ -71,16 +71,6 @@
       "created_at": "2026-11-09T14:20:43Z",
       "updated_at": "2026-11-09T17:51:15Z",
       "html_url": "https://github.com/ROCm/mori/issues/947",
-      "labels": []
-    },
-    {
-      "number": 943,
-      "title": "SDMA: on an SR-IOV VF, channel 1 lands on an odd xGMI engine and AsyncLL hangs with num_qp_per_pe >= 2",
-      "author": "YeSho-cpp",
-      "state": "open",
-      "created_at": "2026-11-09T10:25:52Z",
-      "updated_at": "2026-11-09T10:35:46Z",
-      "html_url": "https://github.com/ROCm/mori/issues/943",
       "labels": []
     },
     {
@@ -165,26 +155,6 @@
       "created_at": "2026-11-05T06:07:38Z",
       "updated_at": "2026-11-05T06:07:38Z",
       "html_url": "https://github.com/ROCm/mori/issues/920",
-      "labels": []
-    },
-    {
-      "number": 897,
-      "title": "MORI-IO: XGMI CreateSession returns nullopt across processes on GPUs without an XGMI hive (PCIe-only)",
-      "author": "akshayv",
-      "state": "open",
-      "created_at": "2026-11-02T16:15:51Z",
-      "updated_at": "2026-11-02T16:15:51Z",
-      "html_url": "https://github.com/ROCm/mori/issues/897",
-      "labels": []
-    },
-    {
-      "number": 873,
-      "title": "MORI-IO: bounded TransferStatus::WaitFor(timeout) sleeps until the timeout on XGMI (and FABRIC) transfers",
-      "author": "lixiufei-leo",
-      "state": "open",
-      "created_at": "2026-10-29T13:52:01Z",
-      "updated_at": "2026-11-01T17:42:53Z",
-      "html_url": "https://github.com/ROCm/mori/issues/873",
       "labels": []
     },
     {

@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-11T15:41:55Z",
+  "collected_at": "2026-11-12T16:25:18Z",
   "issues": [
+    {
+      "number": 1403,
+      "title": "[Coop] Undo the DPP-fold workarounds in the gfx9 warp overrides once the LLVM pin includes llvm/llvm-project#216835",
+      "author": "sjfeng1999",
+      "state": "open",
+      "created_at": "2026-11-12T11:03:15Z",
+      "updated_at": "2026-11-12T11:03:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1403",
+      "labels": []
+    },
     {
       "number": 946,
       "title": "[Issue]: lld lookup failure in different docker images for gfx1250",

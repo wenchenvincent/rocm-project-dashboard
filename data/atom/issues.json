@@ -1,14 +1,109 @@
 {
-  "collected_at": "2026-11-11T15:41:46Z",
+  "collected_at": "2026-11-12T16:25:08Z",
   "issues": [
     {
-      "number": 3192,
-      "title": "[Qwen3.8 mono] With FlyDSL 0.5.0, every MonoKernel.launch re-traces the whole program, so decode is ~300x slower",
+      "number": 3259,
+      "title": "[RFC] Pluggable KV pool backend: MORI-UMBP owns the L1 (HBM) pool so DP ranks share it",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-11-12T14:19:25Z",
+      "updated_at": "2026-11-12T15:32:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3259",
+      "labels": []
+    },
+    {
+      "number": 3231,
+      "title": "[RFC] Decouple LMCache MP mode from ATOM",
+      "author": "maobaolong",
+      "state": "open",
+      "created_at": "2026-11-12T04:38:48Z",
+      "updated_at": "2026-11-12T15:25:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3231",
+      "labels": []
+    },
+    {
+      "number": 3222,
+      "title": "--kv_cache_dtype fp4 not supported on public main (required by DSV4.1-Flash DEP4 recipe)",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-11-11T21:02:17Z",
+      "updated_at": "2026-11-12T14:54:50Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3222",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 3263,
+      "title": "MiniMax-M3 skip-index layers: one fused writer for every KV dtype",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "created_at": "2026-11-12T14:23:48Z",
+      "updated_at": "2026-11-12T14:23:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3263",
+      "labels": []
+    },
+    {
+      "number": 3262,
+      "title": "Per-model fp4 KV support hook instead of _check_fp4_kv in shared config.py",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "created_at": "2026-11-12T14:23:47Z",
+      "updated_at": "2026-11-12T14:23:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3262",
+      "labels": []
+    },
+    {
+      "number": 3261,
+      "title": "MhaKvPool: take only the KV layout (drop kv_dtype); the layout reports the transfer unit",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "created_at": "2026-11-12T14:23:46Z",
+      "updated_at": "2026-11-12T14:23:46Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3261",
+      "labels": []
+    },
+    {
+      "number": 3260,
+      "title": "MiniMax-M3.1 MXFP4 KV: route sparse PA decode through run_pa_decode and drop the segment plan loop",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "created_at": "2026-11-12T14:23:44Z",
+      "updated_at": "2026-11-12T14:23:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3260",
+      "labels": []
+    },
+    {
+      "number": 3239,
+      "title": "[Perf Regression] 17 config(s) regressed @ 47e0c707",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-12T11:47:35Z",
+      "updated_at": "2026-11-12T11:47:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3239",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3227,
+      "title": "offload: two known gaps from #3027 (vLLM plugin media keys unsalted; Kimi-K3 chunk-aligned resend gets no tier hit)",
       "author": "ZLkanyo009",
       "state": "open",
-      "created_at": "2026-11-11T06:11:44Z",
-      "updated_at": "2026-11-11T06:54:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3192",
+      "created_at": "2026-11-12T02:37:22Z",
+      "updated_at": "2026-11-12T02:37:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3227",
+      "labels": []
+    },
+    {
+      "number": 3092,
+      "title": "ATOM main broken by aiter PR#6952: pa_mqa_logits_mxfp4_plan removed",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-11-07T17:30:03Z",
+      "updated_at": "2026-11-11T19:08:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3092",
       "labels": []
     },
     {
@@ -119,16 +214,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 3092,
-      "title": "ATOM main broken by aiter PR#6952: pa_mqa_logits_mxfp4_plan removed",
-      "author": "srinivamd",
-      "state": "open",
-      "created_at": "2026-11-07T17:30:03Z",
-      "updated_at": "2026-11-07T17:30:03Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3092",
-      "labels": []
     },
     {
       "number": 3089,
@@ -356,16 +441,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 2864,
-      "title": "V4.1 compatibility: API completion, beta endpoints, and image support",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "created_at": "2026-10-30T13:20:22Z",
-      "updated_at": "2026-10-31T04:38:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2864",
-      "labels": []
     },
     {
       "number": 2866,

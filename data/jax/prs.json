@@ -1,6 +1,72 @@
 {
-  "collected_at": "2026-11-11T15:40:34Z",
+  "collected_at": "2026-11-12T16:23:51Z",
   "prs": [
+    {
+      "number": 41702,
+      "title": "[ROCm] Trim wheel RUNPATH: drop deprecated per-family and dead tarball entries",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:05:10Z",
+      "updated_at": "2026-11-12T16:03:26Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41702",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 42552,
+      "title": "[ROCm] Fix tests that assume exactly 8 devices",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T05:51:54Z",
+      "updated_at": "2026-11-12T05:53:37Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42552",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 36545,
+      "title": "[ROCm] Added stricter checks to detect non-numeric strings in pallas lowering.",
+      "author": "tsrw2048",
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-04-06T20:17:29Z",
+      "updated_at": "2026-11-11T21:23:06Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/36545",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41130,
+      "title": "[ROCm] Enable the Pallas-Triton ragged_dot lowering on ROCm",
+      "author": "mminutoli",
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-09-30T00:10:33Z",
+      "updated_at": "2026-11-11T18:11:33Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41130",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 38142,
+      "title": "[ROCm] Enable HLO module transform registration for GPU backends",
+      "author": "mminutoli",
+      "state": "closed",
+      "merged": false,
+      "created_at": "2026-06-02T23:01:47Z",
+      "updated_at": "2026-11-11T18:11:28Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/38142",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 42394,
       "title": "[ROCm] Compile IFRT IR MPMD programs on PJRT-backed IFRT clients",
@@ -232,18 +298,6 @@
       "draft": false
     },
     {
-      "number": 41702,
-      "title": "[ROCm] Trim wheel RUNPATH: drop deprecated per-family and dead tarball entries",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T19:05:10Z",
-      "updated_at": "2026-10-19T03:49:48Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41702",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 41331,
       "title": "Add jax[rocm] extras that install ROCm from AMD's package index",
       "author": "AratiGanesh",
@@ -383,20 +437,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/41187",
       "labels": [
         "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 41130,
-      "title": "[ROCm] Enable the Pallas-Triton ragged_dot lowering on ROCm",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-30T00:10:33Z",
-      "updated_at": "2026-09-30T23:02:27Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41130",
-      "labels": [
-        "AMD GPU"
       ],
       "draft": false
     },
@@ -602,20 +642,6 @@
       "draft": false
     },
     {
-      "number": 38142,
-      "title": "[ROCm] Enable HLO module transform registration for GPU backends",
-      "author": "mminutoli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-02T23:01:47Z",
-      "updated_at": "2026-06-02T23:12:06Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/38142",
-      "labels": [
-        "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
       "number": 37186,
       "title": "[ROCm] aiter mha kernels (ASM+CK) integration (#747)",
       "author": "zahiqbal",
@@ -638,20 +664,6 @@
       "html_url": "https://github.com/jax-ml/jax/pull/37085",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 36545,
-      "title": "[ROCm] Added stricter checks to detect non-numeric strings in pallas lowering.",
-      "author": "tsrw2048",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-06T20:17:29Z",
-      "updated_at": "2026-04-07T13:57:55Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/36545",
-      "labels": [
-        "AMD GPU"
-      ],
-      "draft": false
     }
   ]
 }

@@ -1,6 +1,138 @@
 {
-  "collected_at": "2026-11-11T15:41:03Z",
+  "collected_at": "2026-11-12T16:24:23Z",
   "prs": [
+    {
+      "number": 12286,
+      "title": "[AMD][membar] Prove slots of loop-carried views of multi-buffered all\u2026",
+      "author": "yanxuer-999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T06:43:05Z",
+      "updated_at": "2026-11-12T15:50:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12286",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12233,
+      "title": "[AMD] Support scheduling, LDS prefetch and TDM fusion for sliced GEMM kernels ",
+      "author": "plognjen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T18:14:37Z",
+      "updated_at": "2026-11-12T15:40:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12233",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12714,
+      "title": "[AMD] Preserve store coalescing when bypassing epilogue relayouts",
+      "author": "leonling-ll",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T18:29:50Z",
+      "updated_at": "2026-11-12T15:17:22Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12714",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12633,
+      "title": "[AMD][CDNA5] Fix partition selection for transposing LDS loads",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T10:58:00Z",
+      "updated_at": "2026-11-12T13:19:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12633",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12719,
+      "title": "[WIP][AMD][GLUON] Add bank conflict detection for padded shared layout",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T08:16:48Z",
+      "updated_at": "2026-11-12T08:19:18Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12719",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12718,
+      "title": "[AMD] Add TRITON_MIR_SCHEDULER to run an external scheduler in place of LLVM's",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T05:33:59Z",
+      "updated_at": "2026-11-12T07:41:14Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12718",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12536,
+      "title": "[AMD] Publish llc from the code generator's LLVM so the DAG cross-check runs",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T15:53:57Z",
+      "updated_at": "2026-11-12T04:29:15Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12536",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12669,
+      "title": "[AMD] Invalidate the compilation cache on the MIR swap knobs",
+      "author": "tyb0807",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-09T03:22:27Z",
+      "updated_at": "2026-11-12T04:28:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12669",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12133,
+      "title": "[AMD] Allow chain-dot detection across one level of scf.if",
+      "author": "amd-sonsingh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T22:44:04Z",
+      "updated_at": "2026-11-12T00:35:38Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12133",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12716,
+      "title": "[AMD]Handle tt.annotate in Pointer Canonicalization",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T20:29:54Z",
+      "updated_at": "2026-11-12T00:24:27Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12716",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12715,
+      "title": "[AMD] Expose AMD LDS allocation to LLVM with static shared memory",
+      "author": "njriasan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T19:32:12Z",
+      "updated_at": "2026-11-11T19:54:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12715",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 12596,
       "title": "[AMD] Fix TDM copies to and from shared memory subviews",
@@ -158,42 +290,6 @@
       "draft": false
     },
     {
-      "number": 12633,
-      "title": "[AMD][CDNA5] Fix partition selection for transposing LDS loads",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T10:58:00Z",
-      "updated_at": "2026-11-09T08:42:29Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12633",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12669,
-      "title": "[AMD] Invalidate the compilation cache on the MIR swap knobs",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T03:22:27Z",
-      "updated_at": "2026-11-09T07:23:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12669",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12536,
-      "title": "[AMD] Publish llc from the code generator's LLVM so the DAG cross-check runs",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T15:53:57Z",
-      "updated_at": "2026-11-09T04:11:13Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12536",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12083,
       "title": "Catch LLVM diagnostic and raise Python exception in both Nvidia and AMD backends",
       "author": "woct0rdho",
@@ -302,18 +398,6 @@
       "draft": false
     },
     {
-      "number": 12286,
-      "title": "[AMD][membar] Prove slots of loop-carried views of multi-buffered all\u2026",
-      "author": "yanxuer-999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T06:43:05Z",
-      "updated_at": "2026-11-06T04:53:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12286",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12615,
       "title": "[AMD][WS] Skip the barrier for single warp partition",
       "author": "borontion",
@@ -336,18 +420,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12634",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12133,
-      "title": "[AMD] Allow chain-dot detection across one level of scf.if",
-      "author": "amd-sonsingh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T22:44:04Z",
-      "updated_at": "2026-11-05T04:56:48Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12133",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12320,
@@ -482,18 +554,6 @@
       "draft": false
     },
     {
-      "number": 12233,
-      "title": "[AMD] Support scheduling, LDS prefetch and TDM fusion for sliced GEMM kernels ",
-      "author": "plognjen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T18:14:37Z",
-      "updated_at": "2026-11-03T17:15:42Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12233",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12601,
       "title": "[AMD] Fix exponential traversal in pointer canonicalization",
       "author": "leonling-ll",
@@ -590,18 +650,6 @@
       "draft": false
     },
     {
-      "number": 12564,
-      "title": "[AMD][Gluon] Thread scope and CachePolicy through gfx1250 async ops",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-31T03:03:11Z",
-      "updated_at": "2026-11-02T16:16:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12564",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12362,
       "title": "[AMD] Fix AMD codegen rebuilds after LLVM dependency updates",
       "author": "willghatch",
@@ -672,54 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12203",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11295,
-      "title": "[AMD] Swizzle clamping for the direct-to-lds path",
-      "author": "erizheng-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T15:41:53Z",
-      "updated_at": "2026-10-09T08:10:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11295",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12159,
-      "title": "[AMD] Keep shared order in CoalesceAsyncCopy when the src order cannot lower to direct-to-LDS",
-      "author": "he-yufeng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:17:18Z",
-      "updated_at": "2026-10-07T15:17:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12159",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12060,
-      "title": "[AMD] Avoid redundant batch warps in dot layouts",
-      "author": "pculaf",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-01T23:07:35Z",
-      "updated_at": "2026-10-01T23:07:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12060",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12020,
-      "title": "Add TRITON_BUILD_{NVIDIA,AMD}_BACKEND options to build without in-tree backends",
-      "author": "KX76",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T07:51:40Z",
-      "updated_at": "2026-09-29T09:14:07Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12020",
-      "labels": [],
-      "draft": true
     }
   ]
 }

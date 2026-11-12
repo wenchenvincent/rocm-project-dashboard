@@ -1,6 +1,38 @@
 {
-  "collected_at": "2026-11-11T15:41:37Z",
+  "collected_at": "2026-11-12T16:24:58Z",
   "issues": [
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-12T15:52:54Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 7886,
+      "title": "fmoe_g1u1 ASM kernel: no tuned config for small M (e.g. M=4), crashes hard instead of falling back",
+      "author": "sahirema",
+      "state": "open",
+      "created_at": "2026-11-12T14:43:42Z",
+      "updated_at": "2026-11-12T15:31:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7886",
+      "labels": []
+    },
+    {
+      "number": 7833,
+      "title": "[Issue]: gfx1250 FlyDSL AOT fails for 37 mxfp8 block-128 GEMM configs since #7655",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-11T17:11:05Z",
+      "updated_at": "2026-11-12T02:33:59Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7833",
+      "labels": []
+    },
     {
       "number": 7781,
       "title": "[Issue]: test_mla_flydsl page-faults on gfx1250 when the GPU is initialized before aiter is imported",
@@ -10,18 +42,6 @@
       "updated_at": "2026-11-11T14:50:18Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7781",
       "labels": []
-    },
-    {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-11T08:08:19Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
     },
     {
       "number": 7240,
@@ -217,16 +237,6 @@
       "labels": []
     },
     {
-      "number": 7646,
-      "title": "mxfp4_moe_sort_fwd zeroes the last token's final scales when K // 32 is not a multiple of 4 (e.g. K=2880)",
-      "author": "jiangyon-amd",
-      "state": "open",
-      "created_at": "2026-11-09T07:10:00Z",
-      "updated_at": "2026-11-09T07:10:00Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7646",
-      "labels": []
-    },
-    {
       "number": 7639,
       "title": "[MLA][gfx950] non-persistent fp8 gqa16 qlen 3-4 (mla_a8w8_qh64_qseqlen4_gqaratio16) computes only KV split 0 and writes the partials into the wrong cells",
       "author": "vllmellm",
@@ -314,16 +324,6 @@
       "created_at": "2026-11-05T17:35:28Z",
       "updated_at": "2026-11-05T17:35:28Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7519",
-      "labels": []
-    },
-    {
-      "number": 7278,
-      "title": "[Issue]: Triton MHA prefill attn_fwd (flash_attn_triton_amd) computes q/k/v/out row offsets in int32, which overflow for tensors above 2^31 elements",
-      "author": "Ragua1",
-      "state": "open",
-      "created_at": "2026-11-01T18:07:25Z",
-      "updated_at": "2026-11-05T17:30:54Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7278",
       "labels": []
     },
     {

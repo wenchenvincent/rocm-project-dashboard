@@ -1,35 +1,41 @@
 {
-  "collected_at": "2026-11-11T15:42:31Z",
+  "collected_at": "2026-11-12T16:26:14Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 18,
+      "opened": 19,
       "merged": 15,
       "closed": 0
     },
     "last_week": {
-      "opened": 15,
+      "opened": 17,
       "merged": 15,
       "closed": 0
     },
     "median_time_to_merge_hours": 100.0,
     "merge_count": 30,
-    "stale_prs": 5
+    "stale_prs": 2
   },
   "contributors": {
-    "active_this_week": 22,
-    "total_contributors": 42,
+    "active_this_week": 21,
+    "total_contributors": 39,
     "top_contributors": [
       {
-        "author": "Dewei-Wang-sh",
-        "prs_submitted": 3,
+        "author": "borontion",
+        "prs_submitted": 4,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "tyb0807",
+        "prs_submitted": 4,
         "prs_merged": 2,
         "commits": 0
       },
       {
         "author": "knwng",
-        "prs_submitted": 3,
+        "prs_submitted": 4,
         "prs_merged": 3,
         "commits": 0
       },
@@ -40,21 +46,21 @@
         "commits": 0
       },
       {
-        "author": "borontion",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "tyb0807",
+        "author": "njriasan",
         "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "antiagainst",
+        "author": "Dewei-Wang-sh",
         "prs_submitted": 3,
         "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "leonling-ll",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -70,15 +76,9 @@
         "commits": 0
       },
       {
-        "author": "njriasan",
+        "author": "antiagainst",
         "prs_submitted": 2,
         "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "pabloantoniom",
-        "prs_submitted": 2,
-        "prs_merged": 2,
         "commits": 0
       }
     ],
@@ -87,7 +87,7 @@
   "issue_health": {
     "total_open": 21,
     "opened_this_week": 1,
-    "closed_this_week": 2,
+    "closed_this_week": 3,
     "unanswered": 7
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 14.9,
+    "days_since_last": 15.9,
     "avg_interval_days": 69.7,
     "total_releases": 5,
     "latest_tag": "v3.9.0"
