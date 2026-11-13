@@ -1,6 +1,162 @@
 {
-  "collected_at": "2026-11-12T16:24:23Z",
+  "collected_at": "2026-11-13T15:45:28Z",
   "prs": [
+    {
+      "number": 12715,
+      "title": "[AMD] Expose AMD LDS allocation to LLVM with static shared memory",
+      "author": "njriasan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T19:32:12Z",
+      "updated_at": "2026-11-13T15:27:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12715",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12747,
+      "title": "[AMD] Add RDNA1/RDNA2 (gfx10) target support",
+      "author": "PelaGB17",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T12:15:43Z",
+      "updated_at": "2026-11-13T12:15:53Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12747",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12736,
+      "title": "[AMD] Add `libdevice.ffs` for the HIP backend",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T03:32:11Z",
+      "updated_at": "2026-11-13T04:14:48Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12736",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12691,
+      "title": "[AMD][Gluon] Fix scaled_downcast for CDNA4 verification and repeated registers",
+      "author": "lijinpei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-10T03:01:31Z",
+      "updated_at": "2026-11-13T02:37:51Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12691",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12735,
+      "title": "[WIP][AMD] Decompose FP6 scaled dot with upcast_fp6",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:57:12Z",
+      "updated_at": "2026-11-13T00:57:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12735",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12734,
+      "title": "[WIP][AMD] Support FP6 scaled MFMA on gfx950",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:57:09Z",
+      "updated_at": "2026-11-13T00:57:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12734",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12596,
+      "title": "[AMD] Fix TDM copies to and from shared memory subviews",
+      "author": "justinrosner",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-03T00:25:32Z",
+      "updated_at": "2026-11-13T00:48:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12596",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12634,
+      "title": "[AMD][Triton] Use aligned buffer mask offsets when bounds permit",
+      "author": "Liang-jianhao97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T11:05:03Z",
+      "updated_at": "2026-11-12T23:08:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12634",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12719,
+      "title": "[AMD][GLUON] Add bank conflict detection for padded shared layout",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T08:16:48Z",
+      "updated_at": "2026-11-12T22:57:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12719",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12633,
+      "title": "[AMD][CDNA5] Fix partition selection for transposing LDS loads",
+      "author": "PMylon",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T10:58:00Z",
+      "updated_at": "2026-11-12T22:01:59Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12633",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12716,
+      "title": "[AMD]Handle tt.annotate in Pointer Canonicalization",
+      "author": "knwng",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-11T20:29:54Z",
+      "updated_at": "2026-11-12T21:49:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12716",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12133,
+      "title": "[AMD] Allow chain-dot detection across one level of scf.if",
+      "author": "amd-sonsingh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T22:44:04Z",
+      "updated_at": "2026-11-12T20:42:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12133",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12536,
+      "title": "[AMD] Publish llc from the code generator's LLVM so the DAG cross-check runs",
+      "author": "tyb0807",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T15:53:57Z",
+      "updated_at": "2026-11-12T19:44:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12536",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12286,
       "title": "[AMD][membar] Prove slots of loop-carried views of multi-buffered all\u2026",
@@ -38,30 +194,6 @@
       "draft": false
     },
     {
-      "number": 12633,
-      "title": "[AMD][CDNA5] Fix partition selection for transposing LDS loads",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T10:58:00Z",
-      "updated_at": "2026-11-12T13:19:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12633",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12719,
-      "title": "[WIP][AMD][GLUON] Add bank conflict detection for padded shared layout",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T08:16:48Z",
-      "updated_at": "2026-11-12T08:19:18Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12719",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12718,
       "title": "[AMD] Add TRITON_MIR_SCHEDULER to run an external scheduler in place of LLVM's",
       "author": "tyb0807",
@@ -74,18 +206,6 @@
       "draft": false
     },
     {
-      "number": 12536,
-      "title": "[AMD] Publish llc from the code generator's LLVM so the DAG cross-check runs",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T15:53:57Z",
-      "updated_at": "2026-11-12T04:29:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12536",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12669,
       "title": "[AMD] Invalidate the compilation cache on the MIR swap knobs",
       "author": "tyb0807",
@@ -94,54 +214,6 @@
       "created_at": "2026-11-09T03:22:27Z",
       "updated_at": "2026-11-12T04:28:26Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12669",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12133,
-      "title": "[AMD] Allow chain-dot detection across one level of scf.if",
-      "author": "amd-sonsingh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T22:44:04Z",
-      "updated_at": "2026-11-12T00:35:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12133",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12716,
-      "title": "[AMD]Handle tt.annotate in Pointer Canonicalization",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T20:29:54Z",
-      "updated_at": "2026-11-12T00:24:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12716",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12715,
-      "title": "[AMD] Expose AMD LDS allocation to LLVM with static shared memory",
-      "author": "njriasan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T19:32:12Z",
-      "updated_at": "2026-11-11T19:54:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12715",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12596,
-      "title": "[AMD] Fix TDM copies to and from shared memory subviews",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T00:25:32Z",
-      "updated_at": "2026-11-11T14:36:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12596",
       "labels": [],
       "draft": false
     },
@@ -228,18 +300,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12572",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12691,
-      "title": "[AMD][Gluon] Fix scaled_downcast for CDNA4 verification and repeated registers",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-10T03:01:31Z",
-      "updated_at": "2026-11-10T03:01:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12691",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12686,
@@ -408,18 +468,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12615",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12634,
-      "title": "[AMD][Triton] Use aligned buffer mask offsets when bounds permit",
-      "author": "Liang-jianhao97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T11:05:03Z",
-      "updated_at": "2026-11-05T11:29:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12634",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12320,
@@ -614,42 +662,6 @@
       "draft": false
     },
     {
-      "number": 9533,
-      "title": "[AMD] Update default to `block_m=16` in `make_default_opt_flags_amd`",
-      "author": "micah-wil",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-02-20T21:11:04Z",
-      "updated_at": "2026-11-02T22:34:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/9533",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12594,
-      "title": "[AMD] Use buffer-index analysis for warp-pipeline dependencies",
-      "author": "jungpark-mlir",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-02T19:51:08Z",
-      "updated_at": "2026-11-02T22:25:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12594",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12547,
-      "title": "[AMD]Support Partitioned Shared Layout for AsyncCopy on CDNA5",
-      "author": "knwng",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-29T17:59:51Z",
-      "updated_at": "2026-11-02T16:17:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12547",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12362,
       "title": "[AMD] Fix AMD codegen rebuilds after LLVM dependency updates",
       "author": "willghatch",
@@ -706,18 +718,6 @@
       "created_at": "2026-10-08T07:34:42Z",
       "updated_at": "2026-10-13T07:00:58Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12171",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12203,
-      "title": "[AMD] CanonicalizePointers: normalize mixed pointer representations at scf.if yields",
-      "author": "he-yufeng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T11:56:50Z",
-      "updated_at": "2026-10-09T11:56:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12203",
       "labels": [],
       "draft": false
     }

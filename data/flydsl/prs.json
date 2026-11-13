@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-12T16:25:16Z",
+  "collected_at": "2026-11-13T15:46:22Z",
   "prs": [
     {
       "number": 1404,
@@ -8,11 +8,86 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-12T12:08:00Z",
-      "updated_at": "2026-11-12T14:36:50Z",
+      "updated_at": "2026-11-13T12:22:16Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1404",
       "labels": [
         "kernels"
       ],
+      "draft": false
+    },
+    {
+      "number": 1400,
+      "title": "[Feat] Honor divisibility info in the Int32/64 type",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T08:26:25Z",
+      "updated_at": "2026-11-13T12:02:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1400",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1399,
+      "title": "[Tests] Make the location, perftest and arch-detection tests pass on Windows",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T02:36:27Z",
+      "updated_at": "2026-11-13T11:45:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1399",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1380,
+      "title": "[Windows][CI] Add a Windows gfx1201 GPU workflow",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T07:52:20Z",
+      "updated_at": "2026-11-13T11:44:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1380",
+      "labels": [
+        "WIP",
+        "ci:windows"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1375,
+      "title": "[DSL] Add ROCDL wrappers for FP8/BF8/F16 conversion, dot, math, and DPP ops",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T18:34:47Z",
+      "updated_at": "2026-11-13T04:06:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1375",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 987,
+      "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-11-13T04:04:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1394,
+      "title": "[Bugfix] Find native libraries when the package is split across symlinks",
+      "author": "cp2923",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T22:19:01Z",
+      "updated_at": "2026-11-13T12:01:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1394",
+      "labels": [],
       "draft": false
     },
     {
@@ -30,18 +105,6 @@
       "draft": false
     },
     {
-      "number": 1394,
-      "title": "[Bugfix] Find native libraries when the package is split across symlinks",
-      "author": "cp2923",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T22:19:01Z",
-      "updated_at": "2026-11-12T13:37:18Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1394",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 869,
       "title": "[Kernel] Add CDNA SageAttention kernel",
       "author": "LiuYinfeng01",
@@ -53,18 +116,6 @@
       "labels": [
         "kernels"
       ],
-      "draft": false
-    },
-    {
-      "number": 1400,
-      "title": "[Feat] Honor divisibility info in the Int32/64 type",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T08:26:25Z",
-      "updated_at": "2026-11-12T09:49:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1400",
-      "labels": [],
       "draft": false
     },
     {
@@ -134,30 +185,6 @@
       "draft": true
     },
     {
-      "number": 1399,
-      "title": "[Tests][Windows] Make the location, perftest and arch-detection tests pass on Windows",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T02:36:27Z",
-      "updated_at": "2026-11-12T05:13:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1399",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 987,
-      "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-11-12T03:49:26Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1368,
       "title": "[compiler][kernel] strict pin agpr feature and kernel example usage to replace inline_asm ",
       "author": "jli-melchior",
@@ -206,33 +233,6 @@
       "draft": false
     },
     {
-      "number": 1386,
-      "title": "[Runtime] Drop the ARCH env var in favor of FLYDSL_GPU_ARCH",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T15:05:07Z",
-      "updated_at": "2026-11-09T08:54:34Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1386",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1380,
-      "title": "[Windows][CI] Add a Windows gfx1201 GPU workflow",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T07:52:20Z",
-      "updated_at": "2026-11-09T00:15:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1380",
-      "labels": [
-        "WIP",
-        "ci:windows"
-      ],
-      "draft": true
-    },
-    {
       "number": 1385,
       "title": "[Feature][DSL] Add Fast Walsh-Hadamard Transform (fx.hadamard)",
       "author": "dimitri91209",
@@ -269,18 +269,6 @@
         "ai-review",
         "ktrace"
       ],
-      "draft": false
-    },
-    {
-      "number": 1375,
-      "title": "[DSL] Add ROCDL wrappers for FP8/BF8/F16 conversion, dot, math, and DPP ops",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T18:34:47Z",
-      "updated_at": "2026-11-07T01:32:33Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1375",
-      "labels": [],
       "draft": false
     },
     {
@@ -1063,6 +1051,66 @@
       "draft": false
     },
     {
+      "number": 1408,
+      "title": "[JIT] Attach the gpu.module target at creation",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-13T10:13:25Z",
+      "updated_at": "2026-11-13T12:44:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1408",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1407,
+      "title": "[Bugfix] Refuse a tiled-MMA fragment whose view does not tile evenly",
+      "author": "Phil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-13T08:31:32Z",
+      "updated_at": "2026-11-13T12:34:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1407",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1405,
+      "title": "[Fix] Support default trailed arguments in the CompiledFunction",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-12T17:15:53Z",
+      "updated_at": "2026-11-13T12:33:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1405",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1386,
+      "title": "[Runtime] Drop the ARCH env var in favor of FLYDSL_GPU_ARCH",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-07T15:05:07Z",
+      "updated_at": "2026-11-13T12:23:30Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1386",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1406,
+      "title": "[Coop] Cross 16-lane rows with gfx950 permlane swaps in the warp over\u2026",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-13T07:44:53Z",
+      "updated_at": "2026-11-13T12:20:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1406",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 1402,
       "title": "[JIT] Drop redundant LLVM lowering passes from the ROCm pipeline",
       "author": "sjfeng1999",
@@ -1819,42 +1867,6 @@
       "created_at": "2026-10-09T09:37:09Z",
       "updated_at": "2026-10-19T05:15:24Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1243",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1304,
-      "title": "[Skills] Add evals and skill cards for kernel authoring and trace analysis",
-      "author": "danielholanda",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-16T17:05:51Z",
-      "updated_at": "2026-10-18T10:43:55Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1304",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1305,
-      "title": "[Skills] Ensure `flydsl-kernel-authoring` follows Anthropic best practices",
-      "author": "danielholanda",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-16T17:28:43Z",
-      "updated_at": "2026-10-18T10:38:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1305",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1302,
-      "title": "[ROCDL] Gate the TDM tile_dim0 span check on padding",
-      "author": "xudoyuan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-16T08:29:44Z",
-      "updated_at": "2026-10-18T10:37:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1302",
       "labels": [],
       "draft": false
     }

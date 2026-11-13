@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-12T16:25:18Z",
+  "collected_at": "2026-11-13T15:46:24Z",
   "issues": [
+    {
+      "number": 1344,
+      "title": "gfx950: SGPR spill restores lanes that were never stored; a kernel then addresses a buffer with two arguments' words (bundled LLVM 24, greedy live-range splitting)",
+      "author": "heslami",
+      "state": "open",
+      "created_at": "2026-10-29T03:21:23Z",
+      "updated_at": "2026-11-13T01:29:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1344",
+      "labels": [
+        "ai-review"
+      ]
+    },
     {
       "number": 1403,
       "title": "[Coop] Undo the DPP-fold workarounds in the gfx9 warp overrides once the LLVM pin includes llvm/llvm-project#216835",
@@ -82,18 +94,6 @@
       "created_at": "2026-10-29T03:21:24Z",
       "updated_at": "2026-10-29T23:13:20Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1345",
-      "labels": [
-        "ai-review"
-      ]
-    },
-    {
-      "number": 1344,
-      "title": "gfx950: SGPR spill restores lanes that were never stored; a kernel then addresses a buffer with two arguments' words (bundled LLVM 24, greedy live-range splitting)",
-      "author": "heslami",
-      "state": "open",
-      "created_at": "2026-10-29T03:21:23Z",
-      "updated_at": "2026-10-29T23:13:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1344",
       "labels": [
         "ai-review"
       ]

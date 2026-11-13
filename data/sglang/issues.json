@@ -1,14 +1,36 @@
 {
-  "collected_at": "2026-11-12T16:24:21Z",
+  "collected_at": "2026-11-13T15:45:26Z",
   "issues": [
+    {
+      "number": 45847,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-10-22T16:44:47Z",
+      "updated_at": "2026-11-13T15:25:22Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45847",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-11-12T16:00:50Z",
+      "updated_at": "2026-11-13T14:53:54Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 44374,
+      "title": "[Feature] [RFC] Opt-in `toktier` tokenizer backend: exact incremental and chunk-parallel tokenization on the CPU",
+      "author": "ae86zhizhi",
+      "state": "open",
+      "created_at": "2026-10-15T02:34:44Z",
+      "updated_at": "2026-11-13T10:48:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/44374",
       "labels": []
     },
     {
@@ -17,7 +39,7 @@
       "author": "hnyls2002",
       "state": "open",
       "created_at": "2026-11-12T07:42:20Z",
-      "updated_at": "2026-11-12T15:32:33Z",
+      "updated_at": "2026-11-13T09:59:43Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/50045",
       "labels": [
         "roadmap"
@@ -29,8 +51,38 @@
       "author": "aarnetalman",
       "state": "open",
       "created_at": "2026-11-12T10:50:10Z",
-      "updated_at": "2026-11-12T11:31:12Z",
+      "updated_at": "2026-11-13T08:48:45Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/50083",
+      "labels": []
+    },
+    {
+      "number": 50241,
+      "title": "[Tracking] Deterministic inference on AMD Instinct MI350X / MI355X (gfx950)",
+      "author": "aarnetalman",
+      "state": "open",
+      "created_at": "2026-11-13T06:02:06Z",
+      "updated_at": "2026-11-13T06:02:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/50241",
+      "labels": []
+    },
+    {
+      "number": 47562,
+      "title": "[AITER-Upgrade] PR readiness gfx1250 (MI45x)",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-10-31T01:10:06Z",
+      "updated_at": "2026-11-13T02:57:33Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/47562",
+      "labels": []
+    },
+    {
+      "number": 49944,
+      "title": "[Tracking] Unified Memory Roadmap",
+      "author": "ch-wan",
+      "state": "open",
+      "created_at": "2026-11-11T23:03:07Z",
+      "updated_at": "2026-11-12T20:08:40Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49944",
       "labels": []
     },
     {
@@ -201,16 +253,6 @@
       "created_at": "2026-11-06T21:15:13Z",
       "updated_at": "2026-11-09T07:31:42Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/48968",
-      "labels": []
-    },
-    {
-      "number": 47562,
-      "title": "[AITER-Upgrade] PR readiness gfx1250 (MI45x)",
-      "author": "kangwangamd",
-      "state": "open",
-      "created_at": "2026-10-31T01:10:06Z",
-      "updated_at": "2026-11-09T07:13:10Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/47562",
       "labels": []
     },
     {
@@ -407,16 +449,6 @@
       "labels": []
     },
     {
-      "number": 47801,
-      "title": "[Bug] [AMD] diffusion: Qwen-Image 2.1 VAE decode is not deterministic at 1024x1024 on ROCm (math SDPA in the ROCm 7.2.1 PyTorch build, see ROCm/pytorch#3931)",
-      "author": "vivienfanghuagood",
-      "state": "open",
-      "created_at": "2026-11-01T22:15:50Z",
-      "updated_at": "2026-11-01T22:15:50Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/47801",
-      "labels": []
-    },
-    {
       "number": 37372,
       "title": "[Feature] [RFC] [HiCache] Out-of-process HiCache data plane with device-memory IPC",
       "author": "imReese",
@@ -487,18 +519,6 @@
       "updated_at": "2026-10-27T09:10:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/43412",
       "labels": []
-    },
-    {
-      "number": 45847,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-10-22T16:44:47Z",
-      "updated_at": "2026-10-25T12:07:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45847",
-      "labels": [
-        "ci-failure-tracker"
-      ]
     },
     {
       "number": 46312,

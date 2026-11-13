@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-12T16:25:13Z",
+  "collected_at": "2026-11-13T15:46:19Z",
   "issues": [
+    {
+      "number": 995,
+      "title": "RFC [feature]: UMBP owns the engine's KV cache on all three tiers, L1 (HBM), L2 (DRAM) and L3 (SSD), within and across nodes",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-11-13T01:58:39Z",
+      "updated_at": "2026-11-13T01:58:39Z",
+      "html_url": "https://github.com/ROCm/mori/issues/995",
+      "labels": []
+    },
+    {
+      "number": 759,
+      "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-13T04:05:06Z",
+      "updated_at": "2026-11-12T20:09:30Z",
+      "html_url": "https://github.com/ROCm/mori/issues/759",
+      "labels": []
+    },
     {
       "number": 952,
       "title": "RFC [feature]: MORI M2N \u2014 NCCL-inspired mesh-to-mesh tensor resharding over MORI-CCO",
@@ -103,16 +123,6 @@
       "created_at": "2026-11-07T01:15:07Z",
       "updated_at": "2026-11-07T01:15:07Z",
       "html_url": "https://github.com/ROCm/mori/issues/931",
-      "labels": []
-    },
-    {
-      "number": 759,
-      "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-10-13T04:05:06Z",
-      "updated_at": "2026-11-06T15:35:19Z",
-      "html_url": "https://github.com/ROCm/mori/issues/759",
       "labels": []
     },
     {

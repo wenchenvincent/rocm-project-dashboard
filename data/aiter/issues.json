@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-12T16:24:58Z",
+  "collected_at": "2026-11-13T15:46:05Z",
   "issues": [
     {
       "number": 7037,
@@ -7,20 +7,70 @@
       "author": "github-actions[bot]",
       "state": "open",
       "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-12T15:52:54Z",
+      "updated_at": "2026-11-13T13:46:02Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7037",
       "labels": [
         "triton-nightly"
       ]
     },
     {
-      "number": 7886,
-      "title": "fmoe_g1u1 ASM kernel: no tuned config for small M (e.g. M=4), crashes hard instead of falling back",
-      "author": "sahirema",
+      "number": 7781,
+      "title": "[Issue]: test_mla_flydsl page-faults on gfx1250 when the GPU is initialized before aiter is imported",
+      "author": "andyluo7",
       "state": "open",
-      "created_at": "2026-11-12T14:43:42Z",
-      "updated_at": "2026-11-12T15:31:21Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7886",
+      "created_at": "2026-11-10T23:11:45Z",
+      "updated_at": "2026-11-13T09:05:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7781",
+      "labels": []
+    },
+    {
+      "number": 7779,
+      "title": "[Issue]: test_mla_decode_pagesize64 fails instead of skipping on MI450 A0 (B0-only ASM)",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-10T23:11:42Z",
+      "updated_at": "2026-11-13T09:05:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7779",
+      "labels": []
+    },
+    {
+      "number": 7777,
+      "title": "[Issue]: pa_decode_sparse fp8 and v4-unified paths wrong at kv_len=136 on gfx1250; with_extra fails",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-10T23:11:39Z",
+      "updated_at": "2026-11-13T09:05:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7777",
+      "labels": []
+    },
+    {
+      "number": 7776,
+      "title": "[Issue]: test_triton_unified_attn_3d case never completes on gfx1250 and leaves the GPU busy",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-10T23:11:38Z",
+      "updated_at": "2026-11-13T09:05:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7776",
+      "labels": []
+    },
+    {
+      "number": 7639,
+      "title": "[MLA][gfx950] non-persistent fp8 gqa16 qlen 3-4 (mla_a8w8_qh64_qseqlen4_gqaratio16) computes only KV split 0 and writes the partials into the wrong cells",
+      "author": "vllmellm",
+      "state": "open",
+      "created_at": "2026-11-09T03:48:07Z",
+      "updated_at": "2026-11-13T08:26:54Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7639",
+      "labels": []
+    },
+    {
+      "number": 5894,
+      "title": "[Bug] [fa]gfx950 hd128 causal bwd kernels write dK = 0 under GPU sharing (missing s_barrier)",
+      "author": "Johnsonms",
+      "state": "open",
+      "created_at": "2026-09-27T21:45:10Z",
+      "updated_at": "2026-11-13T00:37:56Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5894",
       "labels": []
     },
     {
@@ -31,16 +81,6 @@
       "created_at": "2026-11-11T17:11:05Z",
       "updated_at": "2026-11-12T02:33:59Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7833",
-      "labels": []
-    },
-    {
-      "number": 7781,
-      "title": "[Issue]: test_mla_flydsl page-faults on gfx1250 when the GPU is initialized before aiter is imported",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-10T23:11:45Z",
-      "updated_at": "2026-11-11T14:50:18Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7781",
       "labels": []
     },
     {
@@ -117,16 +157,6 @@
       "labels": []
     },
     {
-      "number": 7779,
-      "title": "[Issue]: test_mla_decode_pagesize64 fails instead of skipping on MI450 A0 (B0-only ASM)",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-10T23:11:42Z",
-      "updated_at": "2026-11-10T23:11:42Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7779",
-      "labels": []
-    },
-    {
       "number": 7778,
       "title": "[Issue]: gemm_afp4wfp4 preshuffled split-K raises KeyError NUM_BUFFERS on gfx1250",
       "author": "andyluo7",
@@ -134,26 +164,6 @@
       "created_at": "2026-11-10T23:11:41Z",
       "updated_at": "2026-11-10T23:11:41Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7778",
-      "labels": []
-    },
-    {
-      "number": 7777,
-      "title": "[Issue]: pa_decode_sparse fp8 and v4-unified paths wrong at kv_len=136 on gfx1250; with_extra fails",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-10T23:11:39Z",
-      "updated_at": "2026-11-10T23:11:39Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7777",
-      "labels": []
-    },
-    {
-      "number": 7776,
-      "title": "[Issue]: test_triton_unified_attn_3d case never completes on gfx1250 and leaves the GPU busy",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-10T23:11:38Z",
-      "updated_at": "2026-11-10T23:11:38Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7776",
       "labels": []
     },
     {
@@ -174,16 +184,6 @@
       "created_at": "2026-11-10T13:04:16Z",
       "updated_at": "2026-11-10T13:08:01Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7737",
-      "labels": []
-    },
-    {
-      "number": 5894,
-      "title": "[Bug] [fa]gfx950 hd128 causal bwd kernels write dK = 0 under GPU sharing (missing s_barrier)",
-      "author": "Johnsonms",
-      "state": "open",
-      "created_at": "2026-09-27T21:45:10Z",
-      "updated_at": "2026-11-10T10:04:03Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5894",
       "labels": []
     },
     {
@@ -234,16 +234,6 @@
       "created_at": "2026-11-09T07:54:34Z",
       "updated_at": "2026-11-09T07:59:55Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7649",
-      "labels": []
-    },
-    {
-      "number": 7639,
-      "title": "[MLA][gfx950] non-persistent fp8 gqa16 qlen 3-4 (mla_a8w8_qh64_qseqlen4_gqaratio16) computes only KV split 0 and writes the partials into the wrong cells",
-      "author": "vllmellm",
-      "state": "open",
-      "created_at": "2026-11-09T03:48:07Z",
-      "updated_at": "2026-11-09T03:48:07Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7639",
       "labels": []
     },
     {

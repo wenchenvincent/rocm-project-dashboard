@@ -1,43 +1,43 @@
 {
-  "collected_at": "2026-11-12T16:29:47Z",
+  "collected_at": "2026-11-13T15:50:27Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 27,
-      "merged": 15,
+      "opened": 24,
+      "merged": 16,
       "closed": 4
     },
     "last_week": {
-      "opened": 20,
-      "merged": 17,
-      "closed": 17
+      "opened": 22,
+      "merged": 16,
+      "closed": 16
     },
-    "median_time_to_merge_hours": 27.6,
+    "median_time_to_merge_hours": 19.5,
     "merge_count": 32,
     "stale_prs": 12
   },
   "contributors": {
-    "active_this_week": 29,
+    "active_this_week": 27,
     "total_contributors": 51,
     "top_contributors": [
       {
         "author": "sjfeng1999",
-        "prs_submitted": 16,
-        "prs_merged": 13,
-        "commits": 13
+        "prs_submitted": 19,
+        "prs_merged": 16,
+        "commits": 16
       },
       {
         "author": "coderfeli",
         "prs_submitted": 15,
-        "prs_merged": 11,
-        "commits": 11
+        "prs_merged": 12,
+        "commits": 12
       },
       {
         "author": "Phil-amd",
-        "prs_submitted": 10,
-        "prs_merged": 6,
-        "commits": 7
+        "prs_submitted": 11,
+        "prs_merged": 7,
+        "commits": 8
       },
       {
         "author": "jli-melchior",
@@ -55,7 +55,7 @@
         "author": "jhinpan",
         "prs_submitted": 8,
         "prs_merged": 4,
-        "commits": 6
+        "commits": 4
       },
       {
         "author": "dimitri91209",
@@ -64,16 +64,16 @@
         "commits": 0
       },
       {
-        "author": "xudoyuan",
-        "prs_submitted": 5,
-        "prs_merged": 3,
-        "commits": 4
-      },
-      {
         "author": "ppppqp",
         "prs_submitted": 5,
         "prs_merged": 1,
         "commits": 1
+      },
+      {
+        "author": "xudoyuan",
+        "prs_submitted": 4,
+        "prs_merged": 2,
+        "commits": 3
       },
       {
         "author": "Arist12",
@@ -82,18 +82,18 @@
         "commits": 0
       }
     ],
-    "bus_factor": 4
+    "bus_factor": 3
   },
   "issue_health": {
     "total_open": 52,
-    "opened_this_week": 2,
+    "opened_this_week": 1,
     "closed_this_week": 3,
     "unanswered": 21
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.5,
+    "days_since_last": 2.5,
     "avg_interval_days": 13.1,
     "total_releases": 5,
     "latest_tag": "v0.5.0"
