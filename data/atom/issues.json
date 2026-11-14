@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-13T15:46:15Z",
+  "collected_at": "2026-11-14T14:36:36Z",
   "issues": [
+    {
+      "number": 3231,
+      "title": "[RFC] Decouple LMCache MP mode from ATOM",
+      "author": "maobaolong",
+      "state": "open",
+      "created_at": "2026-11-12T04:38:48Z",
+      "updated_at": "2026-11-14T00:46:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3231",
+      "labels": []
+    },
     {
       "number": 3322,
       "title": "[Perf Regression] 20 config(s) regressed @ 5b744ee3",
@@ -35,16 +45,6 @@
       "labels": [
         "bug"
       ]
-    },
-    {
-      "number": 3231,
-      "title": "[RFC] Decouple LMCache MP mode from ATOM",
-      "author": "maobaolong",
-      "state": "open",
-      "created_at": "2026-11-12T04:38:48Z",
-      "updated_at": "2026-11-13T00:41:33Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3231",
-      "labels": []
     },
     {
       "number": 3259,

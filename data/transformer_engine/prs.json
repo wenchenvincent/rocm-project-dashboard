@@ -1,6 +1,74 @@
 {
-  "collected_at": "2026-11-13T15:46:26Z",
+  "collected_at": "2026-11-14T14:36:50Z",
   "prs": [
+    {
+      "number": 805,
+      "title": "Add Epilogue Support to FlyDSL MXFP4 GEMMs",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T18:26:00Z",
+      "updated_at": "2026-11-13T21:51:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/805",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 726,
+      "title": "microbenchmarks: use pytest as execution backend",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:10:35Z",
+      "updated_at": "2026-11-13T21:49:47Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
+      "labels": [
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 803,
+      "title": "NVFP4 UE5M3 support",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T23:32:37Z",
+      "updated_at": "2026-11-13T21:40:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/803",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 799,
+      "title": "Run gfx1250 CI tests via rocjitsu",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T18:32:22Z",
+      "updated_at": "2026-11-13T20:52:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/799",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 796,
+      "title": "add warmup to hipblaslt tuning",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T23:51:43Z",
+      "updated_at": "2026-11-13T20:51:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/796",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
     {
       "number": 694,
       "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
@@ -8,7 +76,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-11-13T04:49:32Z",
+      "updated_at": "2026-11-13T19:11:51Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
       "labels": [
         "ci-level 3",
@@ -17,18 +85,18 @@
       "draft": false
     },
     {
-      "number": 803,
-      "title": "[proof-of-concept] NVFP4 UE5M3 support",
-      "author": "matthiasdiener",
+      "number": 804,
+      "title": "Persistent GEMM + RS MXFP8 Enablement",
+      "author": "aris134",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-12T23:32:37Z",
-      "updated_at": "2026-11-13T00:01:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/803",
+      "created_at": "2026-11-13T15:59:31Z",
+      "updated_at": "2026-11-13T18:03:58Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/804",
       "labels": [
         "ci-level 1"
       ],
-      "draft": true
+      "draft": false
     },
     {
       "number": 791,
@@ -113,20 +181,6 @@
       "draft": false
     },
     {
-      "number": 726,
-      "title": "microbenchmarks: use pytest as execution backend",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-11-11T19:12:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
-      "labels": [
-        "P2"
-      ],
-      "draft": false
-    },
-    {
       "number": 794,
       "title": "[HK] [gfx1250] BF16 and MXFP8 GEMM kernels for gfx1250 and gfx1250-strict",
       "author": "alextmagro",
@@ -189,34 +243,6 @@
       "created_at": "2026-11-05T12:32:42Z",
       "updated_at": "2026-11-10T16:44:55Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/793",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 796,
-      "title": "add warmup to hipblaslt tuning",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T23:51:43Z",
-      "updated_at": "2026-11-10T16:38:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/796",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 799,
-      "title": "Run gfx1250 CI tests via rocjitsu",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T18:32:22Z",
-      "updated_at": "2026-11-09T23:12:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/799",
       "labels": [
         "ci-level 1"
       ],

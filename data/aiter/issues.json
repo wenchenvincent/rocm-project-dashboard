@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-13T15:46:05Z",
+  "collected_at": "2026-11-14T14:36:26Z",
   "issues": [
     {
       "number": 7037,
@@ -7,11 +7,31 @@
       "author": "github-actions[bot]",
       "state": "open",
       "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-13T13:46:02Z",
+      "updated_at": "2026-11-14T08:15:55Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7037",
       "labels": [
         "triton-nightly"
       ]
+    },
+    {
+      "number": 7833,
+      "title": "[Issue]: gfx1250 FlyDSL AOT fails for 37 mxfp8 block-128 GEMM configs since #7655",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-11T17:11:05Z",
+      "updated_at": "2026-11-14T05:12:56Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7833",
+      "labels": []
+    },
+    {
+      "number": 7811,
+      "title": "fmha_v3_varlen_fwd ASM kernel (fmha_fwd_hd128_bf16_causal_group) crashes with GPU memory access fault on paged KV cache \u2014 block_table validated but never passed to kernel-argument builder",
+      "author": "sahirema",
+      "state": "open",
+      "created_at": "2026-11-11T07:06:22Z",
+      "updated_at": "2026-11-13T16:19:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7811",
+      "labels": []
     },
     {
       "number": 7781,
@@ -74,16 +94,6 @@
       "labels": []
     },
     {
-      "number": 7833,
-      "title": "[Issue]: gfx1250 FlyDSL AOT fails for 37 mxfp8 block-128 GEMM configs since #7655",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-11T17:11:05Z",
-      "updated_at": "2026-11-12T02:33:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7833",
-      "labels": []
-    },
-    {
       "number": 7240,
       "title": "RFC: Versioned Kernel Provider Interface for AITER",
       "author": "zufayu",
@@ -104,16 +114,6 @@
       "created_at": "2026-11-08T20:43:52Z",
       "updated_at": "2026-11-11T07:19:32Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7631",
-      "labels": []
-    },
-    {
-      "number": 7811,
-      "title": "fmha_v3_varlen_fwd ASM kernel (fmha_fwd_hd128_bf16_causal_group) crashes with GPU memory access fault on paged KV cache \u2014 block_table validated but never passed to kernel-argument builder",
-      "author": "sahirema",
-      "state": "open",
-      "created_at": "2026-11-11T07:06:22Z",
-      "updated_at": "2026-11-11T07:06:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7811",
       "labels": []
     },
     {

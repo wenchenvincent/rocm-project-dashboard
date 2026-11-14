@@ -1,29 +1,75 @@
 {
-  "collected_at": "2026-11-13T15:44:58Z",
+  "collected_at": "2026-11-14T14:35:16Z",
   "prs": [
     {
-      "number": 42272,
-      "title": "Build the ROCm plugin with static libc++",
-      "author": "psanal35",
+      "number": 41881,
+      "title": "[ROCm] Enable remote compilation for jax in rocm rbe",
+      "author": "alekstheod",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-03T22:04:41Z",
-      "updated_at": "2026-11-13T15:42:23Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42272",
-      "labels": [],
+      "created_at": "2026-10-22T07:33:26Z",
+      "updated_at": "2026-11-14T14:01:13Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41881",
+      "labels": [
+        "pull ready"
+      ],
       "draft": false
     },
     {
+      "number": 42612,
+      "title": "[ROCm] Build debug-symbol and ASAN ROCm wheels in nightly and continuous CI",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T05:36:33Z",
+      "updated_at": "2026-11-14T05:36:33Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42612",
+      "labels": [],
+      "draft": true
+    },
+    {
       "number": 41702,
-      "title": "[ROCm] Trim wheel RUNPATH: drop deprecated per-family and dead tarball entries",
+      "title": "[ROCm] Trim wheel RUNPATH: drop per-family, tarball, cross-Python and other-depth entries",
       "author": "gulsumgudukbay",
       "state": "open",
       "merged": false,
       "created_at": "2026-10-16T19:05:10Z",
-      "updated_at": "2026-11-12T22:19:53Z",
+      "updated_at": "2026-11-13T23:18:45Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41702",
-      "labels": [],
+      "labels": [
+        "pull ready"
+      ],
       "draft": false
+    },
+    {
+      "number": 42328,
+      "title": "[ROCm] Use C++20 for hermetic ROCm builds",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T00:32:46Z",
+      "updated_at": "2026-11-13T17:56:01Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42328",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": true
+    },
+    {
+      "number": 42272,
+      "title": "[ROCm] Build the ROCm plugin with static libc++",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T22:04:41Z",
+      "updated_at": "2026-11-13T17:55:58Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42272",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": true
     },
     {
       "number": 41703,
@@ -161,18 +207,6 @@
       "draft": false
     },
     {
-      "number": 42328,
-      "title": "Use C++20 for hermetic ROCm builds",
-      "author": "psanal35",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T00:32:46Z",
-      "updated_at": "2026-11-05T00:32:46Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42328",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 42141,
       "title": "[ROCm] Run wheel packaging locally with remote compilation",
       "author": "psanal35",
@@ -227,18 +261,6 @@
         "pull ready",
         "AMD GPU"
       ],
-      "draft": false
-    },
-    {
-      "number": 41881,
-      "title": "[ROCm] Enable remote compilation for jax in rocm rbe",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T07:33:26Z",
-      "updated_at": "2026-10-22T20:22:10Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41881",
-      "labels": [],
       "draft": false
     },
     {

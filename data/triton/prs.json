@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-13T15:45:28Z",
+  "collected_at": "2026-11-14T14:35:51Z",
   "prs": [
     {
       "number": 12715,
@@ -8,8 +8,104 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-11T19:32:12Z",
-      "updated_at": "2026-11-13T15:27:58Z",
+      "updated_at": "2026-11-14T14:26:55Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12715",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12755,
+      "title": "[AMD] Reject waves_per_eu that static LDS makes unachievable",
+      "author": "CRobeck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T19:45:35Z",
+      "updated_at": "2026-11-14T13:57:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12755",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12770,
+      "title": "[AMD] Reject unsupported GPU architectures early",
+      "author": "learnrahulrai-ui",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T10:50:41Z",
+      "updated_at": "2026-11-14T13:41:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12770",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12759,
+      "title": "[AMD][Gluon] Add CDNA5 cooperative atomic ops",
+      "author": "efric",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T00:55:41Z",
+      "updated_at": "2026-11-14T07:41:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12759",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12657,
+      "title": "[AMD] Make release atomics cover writes from every warp",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-08T01:28:56Z",
+      "updated_at": "2026-11-14T06:32:33Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12657",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12719,
+      "title": "[AMD][GLUON] Add bank conflict detection for padded shared layout",
+      "author": "borontion",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-12T08:16:48Z",
+      "updated_at": "2026-11-13T23:01:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12719",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12734,
+      "title": "[WIP][AMD] Support FP6 scaled MFMA on gfx950",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:57:09Z",
+      "updated_at": "2026-11-13T16:47:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12734",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12735,
+      "title": "[WIP][AMD] Decompose FP6 scaled dot with upcast_fp6",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:57:12Z",
+      "updated_at": "2026-11-13T16:47:35Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12735",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12736,
+      "title": "[AMD] Add `libdevice.ffs` for the HIP backend",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-13T03:32:11Z",
+      "updated_at": "2026-11-13T16:17:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12736",
       "labels": [],
       "draft": false
     },
@@ -26,18 +122,6 @@
       "draft": false
     },
     {
-      "number": 12736,
-      "title": "[AMD] Add `libdevice.ffs` for the HIP backend",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T03:32:11Z",
-      "updated_at": "2026-11-13T04:14:48Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12736",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12691,
       "title": "[AMD][Gluon] Fix scaled_downcast for CDNA4 verification and repeated registers",
       "author": "lijinpei-amd",
@@ -46,30 +130,6 @@
       "created_at": "2026-11-10T03:01:31Z",
       "updated_at": "2026-11-13T02:37:51Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12691",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12735,
-      "title": "[WIP][AMD] Decompose FP6 scaled dot with upcast_fp6",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T00:57:12Z",
-      "updated_at": "2026-11-13T00:57:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12735",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12734,
-      "title": "[WIP][AMD] Support FP6 scaled MFMA on gfx950",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T00:57:09Z",
-      "updated_at": "2026-11-13T00:57:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12734",
       "labels": [],
       "draft": true
     },
@@ -96,18 +156,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12634",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12719,
-      "title": "[AMD][GLUON] Add bank conflict detection for padded shared layout",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T08:16:48Z",
-      "updated_at": "2026-11-12T22:57:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12719",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12633,
@@ -386,18 +434,6 @@
       "draft": true
     },
     {
-      "number": 12657,
-      "title": "[AMD] Make release atomics cover writes from every warp",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-08T01:28:56Z",
-      "updated_at": "2026-11-08T20:45:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12657",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12660,
       "title": "[AMD] Fix CodeGen build for LLVM @293a85c048f7",
       "author": "antiagainst",
@@ -626,18 +662,6 @@
       "draft": false
     },
     {
-      "number": 8304,
-      "title": "[AMD] Support float8_e5m2 in tutorials/03-matrix-multiplication.py for gfx950",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2025-09-26T21:15:00Z",
-      "updated_at": "2026-11-03T05:06:51Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/8304",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12149,
       "title": "[AMD][Gluon] Add CDNA5 WMMA issue mode control",
       "author": "nithinsubbiah",
@@ -648,18 +672,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12149",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12522,
-      "title": "[AMD] Fix TDM mbarrier arrival accounting",
-      "author": "justinrosner",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-27T17:46:22Z",
-      "updated_at": "2026-11-03T00:59:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12522",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12362,
@@ -708,18 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12325",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12171,
-      "title": "[AMD][FpSan] Support scaled FP4 and FP8 downcasts",
-      "author": "kelesvol",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T07:34:42Z",
-      "updated_at": "2026-10-13T07:00:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12171",
-      "labels": [],
-      "draft": false
     }
   ]
 }

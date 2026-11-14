@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-13T15:45:29Z",
+  "collected_at": "2026-11-14T14:35:52Z",
   "issues": [
+    {
+      "number": 12766,
+      "title": "[AMD] Buffer-op knobs change codegen but not the compilation cache key",
+      "author": "deavgprime",
+      "state": "open",
+      "created_at": "2026-11-14T06:04:43Z",
+      "updated_at": "2026-11-14T06:04:56Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/12766",
+      "labels": []
+    },
     {
       "number": 12695,
       "title": "[AMD] CanonicalizePointers: `scf.if` fails to legalize when one arm yields a >2 GiB (non-canonicalized) pointer and the other a canonicalized one",

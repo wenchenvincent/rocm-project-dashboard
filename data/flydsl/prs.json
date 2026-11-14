@@ -1,6 +1,84 @@
 {
-  "collected_at": "2026-11-13T15:46:22Z",
+  "collected_at": "2026-11-14T14:36:45Z",
   "prs": [
+    {
+      "number": 987,
+      "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-08T11:53:09Z",
+      "updated_at": "2026-11-14T13:32:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1412,
+      "title": "[JIT] Speed up tracing and fix exponential and/or rewriting",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T05:43:05Z",
+      "updated_at": "2026-11-14T13:32:46Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1412",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1377,
+      "title": "[Dialect][DSL] Add GFX120X SWMMAC 2:4 sparse MMA dialect atom",
+      "author": "dimitri91209",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T18:34:53Z",
+      "updated_at": "2026-11-14T04:15:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1377",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1397,
+      "title": "[Kernel][Perf] Add a persistent-row RMSNorm SmoothQuant kernel",
+      "author": "Arist12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T22:40:44Z",
+      "updated_at": "2026-11-14T02:55:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1397",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1396,
+      "title": "[Kernel][Perf] Add a small-M kernel to the FP8 8-wave GEMM",
+      "author": "Arist12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T22:40:41Z",
+      "updated_at": "2026-11-14T02:55:55Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1396",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1395,
+      "title": "[Kernel][Perf] Vectorize LayerNorm backward and reduce dgamma/dbias by column",
+      "author": "Arist12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T22:40:38Z",
+      "updated_at": "2026-11-14T02:55:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1395",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
     {
       "number": 1404,
       "title": "[Kernel] Add gfx1100 bf16 MoE (grouped WMMA GEMM + wave32 routing)",
@@ -67,30 +145,6 @@
       "draft": false
     },
     {
-      "number": 987,
-      "title": "[Feat] Fix `lld invocation failed` when ROCm is not at the baked-in path, link hsa code with in-process LLD and bundle device bitcode",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-11-13T04:04:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1394,
-      "title": "[Bugfix] Find native libraries when the package is split across symlinks",
-      "author": "cp2923",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T22:19:01Z",
-      "updated_at": "2026-11-13T12:01:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1394",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1216,
       "title": "[Kernel] Add dense Flash Attention for gfx1100",
       "author": "vlluvia",
@@ -141,48 +195,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1401",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1395,
-      "title": "[Kernel][Perf] Vectorize LayerNorm backward and reduce dgamma/dbias by column",
-      "author": "Arist12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T22:40:38Z",
-      "updated_at": "2026-11-12T08:40:51Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1395",
-      "labels": [
-        "kernels"
-      ],
-      "draft": true
-    },
-    {
-      "number": 1397,
-      "title": "[Kernel][Perf] Add a persistent-row RMSNorm SmoothQuant kernel",
-      "author": "Arist12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T22:40:44Z",
-      "updated_at": "2026-11-12T08:40:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1397",
-      "labels": [
-        "kernels"
-      ],
-      "draft": true
-    },
-    {
-      "number": 1396,
-      "title": "[Kernel][Perf] Add a small-M kernel to the FP8 8-wave GEMM",
-      "author": "Arist12",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T22:40:41Z",
-      "updated_at": "2026-11-12T08:40:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1396",
-      "labels": [
-        "kernels"
-      ],
-      "draft": true
     },
     {
       "number": 1368,
@@ -269,18 +281,6 @@
         "ai-review",
         "ktrace"
       ],
-      "draft": false
-    },
-    {
-      "number": 1377,
-      "title": "[Dialect][DSL] Add GFX120X SWMMAC 2:4 sparse MMA dialect atom",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T18:34:53Z",
-      "updated_at": "2026-11-07T01:31:48Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1377",
-      "labels": [],
       "draft": false
     },
     {
@@ -641,7 +641,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-05T14:15:24Z",
-      "updated_at": "2026-11-06T15:34:30Z",
+      "updated_at": "2026-11-14T03:10:15Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1374",
       "labels": [],
       "draft": false
@@ -883,18 +883,6 @@
       "draft": true
     },
     {
-      "number": 1240,
-      "title": "[Bugfix] Shared numerics, streams, and tests",
-      "author": "dimitri91209",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-09T02:00:58Z",
-      "updated_at": "2026-10-14T20:27:13Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1240",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1194,
       "title": "[JIT] Actionable diagnostic for dynamic layout field overflow",
       "author": "mustafayildirim",
@@ -1047,6 +1035,30 @@
       "created_at": "2026-07-28T19:32:56Z",
       "updated_at": "2026-07-29T10:56:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/920",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1394,
+      "title": "[Bugfix] Find native libraries when the package is split across symlinks",
+      "author": "cp2923",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-11T22:19:01Z",
+      "updated_at": "2026-11-14T13:29:52Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1394",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1410,
+      "title": "[JIT] Fix main CI after the ARCH env var removal and a dispatch regression",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-14T04:32:12Z",
+      "updated_at": "2026-11-14T05:44:37Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1410",
       "labels": [],
       "draft": false
     },
@@ -1831,42 +1843,6 @@
       "created_at": "2026-08-06T04:18:11Z",
       "updated_at": "2026-10-19T08:46:13Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/971",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1290,
-      "title": "[Fix] Bitcast small floats across converted ops in convert-fly-to-rocdl",
-      "author": "Phil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-14T09:33:47Z",
-      "updated_at": "2026-10-19T05:55:10Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1290",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1217,
-      "title": "Align bf16 implicit Conv3d with aiter",
-      "author": "huizzhan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-30T08:00:37Z",
-      "updated_at": "2026-10-19T05:16:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1217",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1243,
-      "title": "[llvm] bump llvm to 1df311a6",
-      "author": "jli-melchior",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-09T09:37:09Z",
-      "updated_at": "2026-10-19T05:15:24Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1243",
       "labels": [],
       "draft": false
     }

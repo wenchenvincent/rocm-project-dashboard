@@ -1,15 +1,27 @@
 {
-  "collected_at": "2026-11-13T15:46:18Z",
+  "collected_at": "2026-11-14T14:36:40Z",
   "prs": [
     {
-      "number": 996,
-      "title": "perf(ep/v2): atomic-free inter-node signalling, lower v2_ll dispatch and combine latency, MI355X EP32 tables",
-      "author": "jhchouuu",
+      "number": 1005,
+      "title": "feat(io,umbp): serve RDMA reads as owner-side writes on NICs without RDMA READ",
+      "author": "TianDi101",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-13T02:30:14Z",
-      "updated_at": "2026-11-13T15:33:08Z",
-      "html_url": "https://github.com/ROCm/mori/pull/996",
+      "created_at": "2026-11-14T13:58:10Z",
+      "updated_at": "2026-11-14T14:29:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1005",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1002,
+      "title": "feat(netmon): multi-gpus XGMI bandwidth recorder with a Grafana dashboard",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T09:09:25Z",
+      "updated_at": "2026-11-14T11:16:27Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1002",
       "labels": [],
       "draft": false
     },
@@ -20,8 +32,44 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-13T15:01:52Z",
-      "updated_at": "2026-11-13T15:32:28Z",
+      "updated_at": "2026-11-14T08:12:40Z",
       "html_url": "https://github.com/ROCm/mori/pull/1004",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 996,
+      "title": "perf(ep/v2): atomic-free inter-node signalling, lower v2_ll dispatch and combine latency, MI355X EP32 tables",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T02:30:14Z",
+      "updated_at": "2026-11-14T07:56:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/996",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 818,
+      "title": "Refactor GPU vector load/store primitives and WarpAccum functions",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T16:13:56Z",
+      "updated_at": "2026-11-13T23:10:50Z",
+      "html_url": "https://github.com/ROCm/mori/pull/818",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 846,
+      "title": "feat(io): add version/mode/layout compatibility check to handshake (Gap 12)",
+      "author": "kudomcho",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T21:43:24Z",
+      "updated_at": "2026-11-13T17:58:06Z",
+      "html_url": "https://github.com/ROCm/mori/pull/846",
       "labels": [],
       "draft": false
     },
@@ -38,30 +86,6 @@
       "draft": false
     },
     {
-      "number": 818,
-      "title": "Refactor GPU vector load/store primitives and remove dead cast kernel",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T16:13:56Z",
-      "updated_at": "2026-11-13T12:57:16Z",
-      "html_url": "https://github.com/ROCm/mori/pull/818",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1002,
-      "title": "feat(netmon): multi-gpu XGMI bandwidth monitor with a Grafana dashboard",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T09:09:25Z",
-      "updated_at": "2026-11-13T12:03:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1002",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 997,
       "title": "feat(sdma): choose SDMA engines per GPU arch from one plan",
       "author": "jhchouuu",
@@ -74,18 +98,6 @@
       "draft": false
     },
     {
-      "number": 846,
-      "title": "feat(io): add version/mode/layout compatibility check to handshake (Gap 12)",
-      "author": "kudomcho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T21:43:24Z",
-      "updated_at": "2026-11-13T10:01:00Z",
-      "html_url": "https://github.com/ROCm/mori/pull/846",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1000,
       "title": "feat(netmon): ainic-netmon, a millisecond-level AINIC counter monitor with Grafana dashboards",
       "author": "maning00",
@@ -94,30 +106,6 @@
       "created_at": "2026-11-13T05:01:30Z",
       "updated_at": "2026-11-13T07:50:02Z",
       "html_url": "https://github.com/ROCm/mori/pull/1000",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1001,
-      "title": "tune(ep/v2): FlyDSL MI300X EP8 schedules",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T06:59:44Z",
-      "updated_at": "2026-11-13T07:36:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1001",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 999,
-      "title": "tune(ep): MI300X EP8 V1 and V2 tables",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T04:07:52Z",
-      "updated_at": "2026-11-13T07:35:56Z",
-      "html_url": "https://github.com/ROCm/mori/pull/999",
       "labels": [],
       "draft": false
     },
@@ -1118,6 +1106,30 @@
       "draft": false
     },
     {
+      "number": 1001,
+      "title": "tune(ep/v2): FlyDSL MI300X EP8 schedules",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-13T06:59:44Z",
+      "updated_at": "2026-11-14T04:18:08Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1001",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 999,
+      "title": "tune(ep): MI300X EP8 V1 and V2 tables",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-13T04:07:52Z",
+      "updated_at": "2026-11-14T04:17:47Z",
+      "html_url": "https://github.com/ROCm/mori/pull/999",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 993,
       "title": "fix(ep/v2): choose low-latency kernels from low_latency or the per-call max token count",
       "author": "zhangfei829",
@@ -2040,30 +2052,6 @@
       "created_at": "2026-10-26T06:56:02Z",
       "updated_at": "2026-10-30T05:59:00Z",
       "html_url": "https://github.com/ROCm/mori/pull/841",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 859,
-      "title": "poc(cco): Mega-MoE GEMM2 fused with an SDMA combine (gfx950)",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-27T15:37:36Z",
-      "updated_at": "2026-10-30T03:39:34Z",
-      "html_url": "https://github.com/ROCm/mori/pull/859",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 851,
-      "title": "feat(umbp): automatically report DRAM residency to SGLang KV Indexer",
-      "author": "wuyl1",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-27T07:43:59Z",
-      "updated_at": "2026-10-30T02:28:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/851",
       "labels": [],
       "draft": false
     }

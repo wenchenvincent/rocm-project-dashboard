@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-13T15:46:19Z",
+  "collected_at": "2026-11-14T14:36:42Z",
   "issues": [
+    {
+      "number": 759,
+      "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-10-13T04:05:06Z",
+      "updated_at": "2026-11-14T06:35:34Z",
+      "html_url": "https://github.com/ROCm/mori/issues/759",
+      "labels": []
+    },
     {
       "number": 995,
       "title": "RFC [feature]: UMBP owns the engine's KV cache on all three tiers, L1 (HBM), L2 (DRAM) and L3 (SSD), within and across nodes",
@@ -9,16 +19,6 @@
       "created_at": "2026-11-13T01:58:39Z",
       "updated_at": "2026-11-13T01:58:39Z",
       "html_url": "https://github.com/ROCm/mori/issues/995",
-      "labels": []
-    },
-    {
-      "number": 759,
-      "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-10-13T04:05:06Z",
-      "updated_at": "2026-11-12T20:09:30Z",
-      "html_url": "https://github.com/ROCm/mori/issues/759",
       "labels": []
     },
     {

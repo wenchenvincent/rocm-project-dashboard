@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-13T15:46:24Z",
+  "collected_at": "2026-11-14T14:36:47Z",
   "issues": [
+    {
+      "number": 1413,
+      "title": "[Feature] Reuse a cached artifact across processes without retracing: an opt-in, caller-keyed specialization index",
+      "author": "yhl-amd",
+      "state": "open",
+      "created_at": "2026-11-14T14:19:20Z",
+      "updated_at": "2026-11-14T14:19:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1413",
+      "labels": []
+    },
+    {
+      "number": 1409,
+      "title": "fp4_gemm_4wave: compile_fp4_gemm_4w intermittently writes wrong C elements on MI355X",
+      "author": "Arist12",
+      "state": "open",
+      "created_at": "2026-11-13T21:17:15Z",
+      "updated_at": "2026-11-13T21:17:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1409",
+      "labels": []
+    },
     {
       "number": 1344,
       "title": "gfx950: SGPR spill restores lanes that were never stored; a kernel then addresses a buffer with two arguments' words (bundled LLVM 24, greedy live-range splitting)",

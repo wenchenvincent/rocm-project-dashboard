@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-11-13T15:47:18Z",
+  "collected_at": "2026-11-14T14:37:45Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
       "opened": 20,
-      "merged": 16,
+      "merged": 18,
       "closed": 0
     },
     "last_week": {
-      "opened": 17,
-      "merged": 14,
+      "opened": 20,
+      "merged": 12,
       "closed": 0
     },
-    "median_time_to_merge_hours": 106.8,
+    "median_time_to_merge_hours": 83.2,
     "merge_count": 30,
-    "stale_prs": 1
+    "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 22,
-    "total_contributors": 38,
+    "active_this_week": 25,
+    "total_contributors": 39,
     "top_contributors": [
       {
         "author": "knwng",
@@ -30,7 +30,7 @@
       {
         "author": "borontion",
         "prs_submitted": 4,
-        "prs_merged": 3,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -48,7 +48,7 @@
       {
         "author": "antiagainst",
         "prs_submitted": 3,
-        "prs_merged": 1,
+        "prs_merged": 2,
         "commits": 0
       },
       {
@@ -64,12 +64,6 @@
         "commits": 0
       },
       {
-        "author": "justinrosner",
-        "prs_submitted": 2,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
         "author": "leonling-ll",
         "prs_submitted": 2,
         "prs_merged": 1,
@@ -80,14 +74,20 @@
         "prs_submitted": 2,
         "prs_merged": 2,
         "commits": 0
+      },
+      {
+        "author": "adityakankariya",
+        "prs_submitted": 2,
+        "prs_merged": 0,
+        "commits": 0
       }
     ],
     "bus_factor": 6
   },
   "issue_health": {
-    "total_open": 21,
-    "opened_this_week": 1,
-    "closed_this_week": 4,
+    "total_open": 22,
+    "opened_this_week": 2,
+    "closed_this_week": 6,
     "unanswered": 7
   },
   "ci_health": {
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 16.9,
+    "days_since_last": 17.8,
     "avg_interval_days": 69.7,
     "total_releases": 5,
     "latest_tag": "v3.9.0"
