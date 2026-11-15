@@ -1,25 +1,25 @@
 {
-  "collected_at": "2026-11-14T14:37:45Z",
+  "collected_at": "2026-11-15T15:05:12Z",
   "project": "triton",
   "repo": "triton-lang/triton",
   "pr_velocity": {
     "this_week": {
-      "opened": 20,
-      "merged": 18,
+      "opened": 17,
+      "merged": 16,
       "closed": 0
     },
     "last_week": {
-      "opened": 20,
-      "merged": 12,
+      "opened": 21,
+      "merged": 14,
       "closed": 0
     },
-    "median_time_to_merge_hours": 83.2,
+    "median_time_to_merge_hours": 99.2,
     "merge_count": 30,
-    "stale_prs": 0
+    "stale_prs": 1
   },
   "contributors": {
     "active_this_week": 25,
-    "total_contributors": 39,
+    "total_contributors": 40,
     "top_contributors": [
       {
         "author": "knwng",
@@ -40,15 +40,15 @@
         "commits": 0
       },
       {
-        "author": "njriasan",
+        "author": "antiagainst",
         "prs_submitted": 3,
-        "prs_merged": 1,
+        "prs_merged": 3,
         "commits": 0
       },
       {
-        "author": "antiagainst",
+        "author": "njriasan",
         "prs_submitted": 3,
-        "prs_merged": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
@@ -58,13 +58,13 @@
         "commits": 0
       },
       {
-        "author": "Dewei-Wang-sh",
-        "prs_submitted": 3,
-        "prs_merged": 2,
+        "author": "leonling-ll",
+        "prs_submitted": 2,
+        "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "leonling-ll",
+        "author": "Dewei-Wang-sh",
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
@@ -82,7 +82,7 @@
         "commits": 0
       }
     ],
-    "bus_factor": 6
+    "bus_factor": 5
   },
   "issue_health": {
     "total_open": 22,
@@ -104,7 +104,7 @@
     "cuda": null
   },
   "release_cadence": {
-    "days_since_last": 17.8,
+    "days_since_last": 18.8,
     "avg_interval_days": 69.7,
     "total_releases": 5,
     "latest_tag": "v3.9.0"

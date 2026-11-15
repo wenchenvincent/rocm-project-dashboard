@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-14T14:36:42Z",
+  "collected_at": "2026-11-15T15:04:14Z",
   "issues": [
     {
       "number": 759,
@@ -50,18 +50,6 @@
       "updated_at": "2026-11-10T22:55:33Z",
       "html_url": "https://github.com/ROCm/mori/issues/811",
       "labels": []
-    },
-    {
-      "number": 969,
-      "title": "[docs] Update docs for MORI-EPv2 / CCO / CCO-based compute-communication fusion",
-      "author": "kawhil-amd",
-      "state": "open",
-      "created_at": "2026-11-10T06:39:31Z",
-      "updated_at": "2026-11-10T08:17:38Z",
-      "html_url": "https://github.com/ROCm/mori/issues/969",
-      "labels": [
-        "documentation"
-      ]
     },
     {
       "number": 963,

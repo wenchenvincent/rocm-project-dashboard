@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-14T14:36:45Z",
+  "collected_at": "2026-11-15T15:04:17Z",
   "prs": [
     {
       "number": 987,
@@ -8,8 +8,20 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-08T11:53:09Z",
-      "updated_at": "2026-11-14T13:32:52Z",
+      "updated_at": "2026-11-15T13:34:58Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/987",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1414,
+      "title": "CI: add OIDC audience probe",
+      "author": "miramar-labs",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-15T05:32:10Z",
+      "updated_at": "2026-11-15T05:42:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1414",
       "labels": [],
       "draft": false
     },

@@ -1,27 +1,116 @@
 {
-  "collected_at": "2026-11-14T14:35:56Z",
+  "collected_at": "2026-11-15T15:03:32Z",
   "prs": [
     {
-      "number": 5537,
-      "title": "Preserve explicit zero padding before MaxPool",
-      "author": "Kataglyphis",
+      "number": 5518,
+      "title": "Skip symbolic reshapes in the layout_convolution score",
+      "author": "klin2024",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-14T09:05:43Z",
-      "updated_at": "2026-11-14T14:31:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5537",
+      "created_at": "2026-11-13T04:32:44Z",
+      "updated_at": "2026-11-15T14:59:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5518",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5520,
+      "title": "Slice a symbolic shape by run-time bounds with dyn_slice",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T05:54:07Z",
+      "updated_at": "2026-11-15T14:45:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5520",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3222,
+      "title": "Add weight streaming",
+      "author": "eddieliao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2024-06-26T20:35:08Z",
+      "updated_at": "2026-11-15T13:47:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3222",
+      "labels": [
+        "enhancement",
+        "Windows",
+        "Ubuntu",
+        "UAI"
+      ],
+      "draft": true
+    },
+    {
+      "number": 5519,
+      "title": "Bound a Range whose limit is only known at run time",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T04:55:16Z",
+      "updated_at": "2026-11-15T13:28:45Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5519",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5521,
+      "title": "Accept Loop body outputs with fixed symbolic shapes",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T05:54:11Z",
+      "updated_at": "2026-11-15T13:23:00Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5521",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5513,
+      "title": "Use slice bounds that resolve to fixed values symbolically",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T01:48:15Z",
+      "updated_at": "2026-11-15T12:29:18Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5513",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5538,
-      "title": "Write the result of gpu::fixed_pad to its output buffer only",
+      "number": 5517,
+      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
       "author": "klin2024",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-14T09:11:51Z",
-      "updated_at": "2026-11-14T14:29:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5538",
+      "created_at": "2026-11-13T03:43:57Z",
+      "updated_at": "2026-11-15T12:16:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5515,
+      "title": "Compute symbolic values through a float min of a size",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T02:07:11Z",
+      "updated_at": "2026-11-15T12:06:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5515",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5529,
+      "title": "Broadcast a dimension of 1 to a dimension of 0",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T14:22:08Z",
+      "updated_at": "2026-11-15T11:40:52Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5529",
       "labels": [],
       "draft": true
     },
@@ -32,8 +121,142 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-13T00:41:41Z",
-      "updated_at": "2026-11-14T14:26:24Z",
+      "updated_at": "2026-11-15T11:08:04Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5511",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5537,
+      "title": "Preserve explicit zero padding before MaxPool",
+      "author": "Kataglyphis",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T09:05:43Z",
+      "updated_at": "2026-11-15T10:39:17Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5537",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5506,
+      "title": "Support in-memory external initializers and avoid stack overflow",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T13:13:44Z",
+      "updated_at": "2026-11-15T08:40:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5506",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5514,
+      "title": "Parse Pad with pads that resolve to symbolic expressions",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T01:51:45Z",
+      "updated_at": "2026-11-15T06:57:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5514",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5219,
+      "title": "Add a partial split to split_reduce for large reductions",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-30T19:21:08Z",
+      "updated_at": "2026-11-15T02:51:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5219",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5430,
+      "title": "Forward slices spanning several concat segments through reshaped concats",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-23T17:32:42Z",
+      "updated_at": "2026-11-15T01:45:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5430",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5538,
+      "title": "Fix a GPU Loop body that returns a fixed_pad",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T09:11:51Z",
+      "updated_at": "2026-11-15T01:39:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5538",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5542,
+      "title": "Add a direct convolution kernel for convolutions with few output channels",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T23:51:04Z",
+      "updated_at": "2026-11-15T01:16:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5542",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5530,
+      "title": "Convert to bool as nonzero on ref",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T16:07:58Z",
+      "updated_at": "2026-11-14T20:48:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5530",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5496,
+      "title": "Write a Loop scan output that the body returns as a parameter or constant",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T10:09:00Z",
+      "updated_at": "2026-11-14T20:48:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5496",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5534,
+      "title": "Keep nested converts that change the values",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T02:03:28Z",
+      "updated_at": "2026-11-14T18:33:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5534",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5535,
+      "title": "Print empty tensors in the level 2 eval trace",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T02:42:49Z",
+      "updated_at": "2026-11-14T17:49:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5535",
       "labels": [],
       "draft": true
     },
@@ -44,7 +267,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-28T14:55:48Z",
-      "updated_at": "2026-11-14T14:23:01Z",
+      "updated_at": "2026-11-14T16:26:55Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
       "labels": [],
       "draft": false
@@ -56,20 +279,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-14T11:31:12Z",
-      "updated_at": "2026-11-14T11:31:27Z",
+      "updated_at": "2026-11-14T16:26:40Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5539",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5514,
-      "title": "Parse Pad with pads that resolve to symbolic expressions",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T01:51:45Z",
-      "updated_at": "2026-11-14T09:58:31Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5514",
       "labels": [],
       "draft": true
     },
@@ -80,22 +291,34 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-14T06:43:05Z",
-      "updated_at": "2026-11-14T06:43:05Z",
+      "updated_at": "2026-11-14T16:24:59Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5536",
       "labels": [],
       "draft": true
     },
     {
-      "number": 5520,
-      "title": "Slice a symbolic shape by run-time bounds with dyn_slice",
+      "number": 5524,
+      "title": "Accept int64 in the GPU device visitor",
       "author": "klin2024",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-13T05:54:07Z",
-      "updated_at": "2026-11-14T04:52:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5520",
+      "created_at": "2026-11-13T08:23:26Z",
+      "updated_at": "2026-11-14T16:24:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5524",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5540,
+      "title": "Fuse expert gather dot",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T15:40:19Z",
+      "updated_at": "2026-11-14T15:40:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5540",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 5304,
@@ -106,30 +329,6 @@
       "created_at": "2026-09-24T01:04:10Z",
       "updated_at": "2026-11-14T03:26:48Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5304",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5535,
-      "title": "Print empty tensors in the level 2 eval trace",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T02:42:49Z",
-      "updated_at": "2026-11-14T02:57:21Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5535",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5534,
-      "title": "Keep nested converts that change the values",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T02:03:28Z",
-      "updated_at": "2026-11-14T02:03:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5534",
       "labels": [],
       "draft": true
     },
@@ -199,18 +398,6 @@
       "draft": true
     },
     {
-      "number": 5530,
-      "title": "Convert to bool as nonzero on ref",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T16:07:58Z",
-      "updated_at": "2026-11-13T16:39:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5530",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5474,
       "title": "Prevent FP16 GroupNorm overflow with float intermediates",
       "author": "royzhang-amd",
@@ -232,44 +419,6 @@
       "updated_at": "2026-11-13T15:49:38Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5504",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5529,
-      "title": "Broadcast a dimension of 1 to a dimension of 0",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T14:22:08Z",
-      "updated_at": "2026-11-13T15:38:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5529",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5496,
-      "title": "Write a Loop scan output that the body returns as a parameter or constant",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T10:09:00Z",
-      "updated_at": "2026-11-13T15:35:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5496",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5506,
-      "title": "Support in-memory external initializers and avoid stack overflow",
-      "author": "ivarusic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T13:13:44Z",
-      "updated_at": "2026-11-13T13:42:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5506",
-      "labels": [
-        "Windows"
-      ],
       "draft": false
     },
     {
@@ -335,30 +484,6 @@
       "draft": false
     },
     {
-      "number": 5519,
-      "title": "Bound a Range whose limit is only known at run time",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T04:55:16Z",
-      "updated_at": "2026-11-13T08:44:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5519",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5524,
-      "title": "Accept int64 in the GPU device visitor",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T08:23:26Z",
-      "updated_at": "2026-11-13T08:24:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5524",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5523,
       "title": "Run a topk on the host when it exceeds the GPU kernel",
       "author": "klin2024",
@@ -419,30 +544,6 @@
       "draft": false
     },
     {
-      "number": 5517,
-      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T03:43:57Z",
-      "updated_at": "2026-11-13T06:34:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5521,
-      "title": "Accept Loop body outputs with fixed symbolic shapes",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T05:54:11Z",
-      "updated_at": "2026-11-13T05:56:37Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5521",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5516,
       "title": "Skip the slice-squeeze rewrite for a squeeze to a scalar (regression from #5004)",
       "author": "klin2024",
@@ -451,18 +552,6 @@
       "created_at": "2026-11-13T03:43:52Z",
       "updated_at": "2026-11-13T05:48:50Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5516",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5518,
-      "title": "Skip symbolic reshapes in the layout_convolution score",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T04:32:44Z",
-      "updated_at": "2026-11-13T04:33:07Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5518",
       "labels": [],
       "draft": true
     },
@@ -479,18 +568,6 @@
       "draft": true
     },
     {
-      "number": 5515,
-      "title": "Compute symbolic values through a float min of a size",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T02:07:11Z",
-      "updated_at": "2026-11-13T02:08:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5515",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5412,
       "title": "Apply MatMulInteger zero-point corrections in int32",
       "author": "royzhang-amd",
@@ -501,18 +578,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5412",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5513,
-      "title": "Use slice bounds that resolve to fixed values symbolically",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T01:48:15Z",
-      "updated_at": "2026-11-13T01:49:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5513",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5373,
@@ -537,18 +602,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5510",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5455,
-      "title": "Add post-lowering GPU copy optimization",
-      "author": "shivadbhavsar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T22:25:24Z",
-      "updated_at": "2026-11-12T22:18:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5455",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5502,
@@ -647,18 +700,6 @@
       "created_at": "2026-11-11T14:30:15Z",
       "updated_at": "2026-11-11T14:51:55Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5500",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5219,
-      "title": "Add a partial split to split_reduce for large reductions",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-30T19:21:08Z",
-      "updated_at": "2026-11-11T14:45:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5219",
       "labels": [],
       "draft": false
     },
@@ -1115,18 +1156,6 @@
       "draft": false
     },
     {
-      "number": 5430,
-      "title": "Forward slices spanning several concat segments through reshaped concats",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-23T17:32:42Z",
-      "updated_at": "2026-10-24T08:32:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5430",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5428,
       "title": "Onnxruntime Weekly Sync 2026-10-23",
       "author": "github-actions[bot]",
@@ -1514,23 +1543,6 @@
       "updated_at": "2026-08-29T04:00:03Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3468",
       "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3222,
-      "title": "Add weight streaming",
-      "author": "eddieliao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2024-06-26T20:35:08Z",
-      "updated_at": "2026-08-29T04:00:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/3222",
-      "labels": [
-        "enhancement",
-        "Windows",
-        "Ubuntu",
-        "UAI"
-      ],
       "draft": true
     },
     {
@@ -2088,6 +2100,18 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4303",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5455,
+      "title": "Add post-lowering GPU copy optimization",
+      "author": "shivadbhavsar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-28T22:25:24Z",
+      "updated_at": "2026-11-15T00:25:26Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5455",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 5508,

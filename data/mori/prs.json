@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-11-14T14:36:40Z",
+  "collected_at": "2026-11-15T15:04:12Z",
   "prs": [
     {
-      "number": 1005,
-      "title": "feat(io,umbp): serve RDMA reads as owner-side writes on NICs without RDMA READ",
-      "author": "TianDi101",
+      "number": 1006,
+      "title": "perf(EPv2/gfx1250): EP8 bf16 on the 96-CU partitions sends a token once a card and folds each card's rows",
+      "author": "zhangfei829",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-14T13:58:10Z",
-      "updated_at": "2026-11-14T14:29:00Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1005",
+      "created_at": "2026-11-15T14:23:45Z",
+      "updated_at": "2026-11-15T14:53:34Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1006",
       "labels": [],
       "draft": false
     },
@@ -20,8 +20,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-13T09:09:25Z",
-      "updated_at": "2026-11-14T11:16:27Z",
+      "updated_at": "2026-11-15T06:24:58Z",
       "html_url": "https://github.com/ROCm/mori/pull/1002",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 985,
+      "title": "feat(umbp): opt-in NIC loopback for local host<->GPU copies",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T09:52:30Z",
+      "updated_at": "2026-11-15T02:55:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/985",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1005,
+      "title": "feat(io,umbp): serve RDMA reads as owner-side writes on NICs without RDMA READ",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T13:58:10Z",
+      "updated_at": "2026-11-14T14:29:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1005",
       "labels": [],
       "draft": false
     },
@@ -118,18 +142,6 @@
       "created_at": "2026-10-27T03:22:58Z",
       "updated_at": "2026-11-13T05:54:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/848",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 985,
-      "title": "feat(umbp): opt-in NIC loopback for local host<->GPU copies",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T09:52:30Z",
-      "updated_at": "2026-11-13T05:49:37Z",
-      "html_url": "https://github.com/ROCm/mori/pull/985",
       "labels": [],
       "draft": false
     },

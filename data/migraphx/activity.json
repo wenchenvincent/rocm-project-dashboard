@@ -1,31 +1,31 @@
 {
-  "collected_at": "2026-11-14T14:37:47Z",
+  "collected_at": "2026-11-15T15:05:13Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 46,
-      "merged": 8,
+      "opened": 48,
+      "merged": 9,
       "closed": 8
     },
     "last_week": {
-      "opened": 25,
+      "opened": 24,
       "merged": 14,
       "closed": 7
     },
-    "median_time_to_merge_hours": 263.4,
-    "merge_count": 22,
-    "stale_prs": 75
+    "median_time_to_merge_hours": 265.5,
+    "merge_count": 23,
+    "stale_prs": 74
   },
   "contributors": {
-    "active_this_week": 24,
+    "active_this_week": 25,
     "total_contributors": 61,
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 63,
+        "prs_submitted": 65,
         "prs_merged": 28,
-        "commits": 28
+        "commits": 26
       },
       {
         "author": "klin2024",
@@ -37,19 +37,19 @@
         "author": "CharlieL7",
         "prs_submitted": 13,
         "prs_merged": 10,
-        "commits": 9
+        "commits": 8
       },
       {
         "author": "shivadbhavsar",
         "prs_submitted": 10,
-        "prs_merged": 3,
+        "prs_merged": 4,
         "commits": 3
       },
       {
         "author": "causten",
         "prs_submitted": 8,
         "prs_merged": 4,
-        "commits": 4
+        "commits": 3
       },
       {
         "author": "rlegithub",
@@ -86,14 +86,14 @@
   },
   "issue_health": {
     "total_open": 251,
-    "opened_this_week": 3,
+    "opened_this_week": 1,
     "closed_this_week": 1,
-    "unanswered": 131
+    "unanswered": 133
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 38.0,
+    "days_since_last": 39.0,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

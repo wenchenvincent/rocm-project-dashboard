@@ -1,6 +1,203 @@
 {
-  "collected_at": "2026-11-14T14:35:34Z",
+  "collected_at": "2026-11-15T15:03:14Z",
   "issues": [
+    {
+      "number": 51039,
+      "title": "[Model] Kimi-K3: all requests degenerate to a repeated token after long-context prefill (NaN logits; packed KDA prefill suspected)",
+      "author": "almersawi",
+      "state": "open",
+      "created_at": "2026-08-04T14:44:02Z",
+      "updated_at": "2026-11-15T14:40:31Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/51039",
+      "labels": [
+        "kimi",
+        "k3"
+      ]
+    },
+    {
+      "number": 37753,
+      "title": "[Feature]: Unify MoE \"Oracles\" with Class Structure",
+      "author": "robertgshaw2-redhat",
+      "state": "open",
+      "created_at": "2026-03-21T17:29:49Z",
+      "updated_at": "2026-11-15T14:36:03Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/37753",
+      "labels": [
+        "help wanted",
+        "good first issue",
+        "feature request"
+      ]
+    },
+    {
+      "number": 67774,
+      "title": "[Bug]: LoRA adapter with rank > max_lora_rank kills the engine (EngineDeadError) instead of failing the request",
+      "author": "eilamc14",
+      "state": "open",
+      "created_at": "2026-11-15T13:39:08Z",
+      "updated_at": "2026-11-15T13:39:08Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/67774",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 67692,
+      "title": "[Bug]: Unauthenticated P2P Offload Exposes Full CPU KV Cache to Arbitrary Peers",
+      "author": "Yunzez",
+      "state": "open",
+      "created_at": "2026-11-14T19:49:05Z",
+      "updated_at": "2026-11-15T13:13:52Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/67692",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 67665,
+      "title": "[Feature]: Support online linear re-quantization from FP8 checkpoints (Fp8LinearMethod.dequantize_weight)",
+      "author": "pranavthakur-x",
+      "state": "open",
+      "created_at": "2026-11-14T15:46:19Z",
+      "updated_at": "2026-11-15T10:56:18Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/67665",
+      "labels": [
+        "feature request",
+        "quantization"
+      ]
+    },
+    {
+      "number": 67307,
+      "title": "[CI Failure]: NVIDIA nightly failures",
+      "author": "wzhao18",
+      "state": "open",
+      "created_at": "2026-11-12T20:35:35Z",
+      "updated_at": "2026-11-15T09:38:59Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/67307",
+      "labels": [
+        "ci-failure",
+        "nvidia",
+        "quantization",
+        "kimi"
+      ]
+    },
+    {
+      "number": 65385,
+      "title": "[Bug]: GDN Triton/FLA prefill gives wrong, non-deterministic results on Hopper (H20) with triton 3.6: `chunk_scaled_dot_kkt_fwd` autotune configs with BK < K and num_warps >= 4 are broken",
+      "author": "pkusp",
+      "state": "open",
+      "created_at": "2026-11-03T11:43:31Z",
+      "updated_at": "2026-11-15T08:44:32Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/65385",
+      "labels": [
+        "bug",
+        "batch-invariance"
+      ]
+    },
+    {
+      "number": 38379,
+      "title": "Restore test coverage on Transformers v5",
+      "author": "hmellor",
+      "state": "open",
+      "created_at": "2026-03-27T18:19:00Z",
+      "updated_at": "2026-11-15T07:57:25Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/38379",
+      "labels": [
+        "help wanted"
+      ]
+    },
+    {
+      "number": 67743,
+      "title": "[Bug]: LLaVA-OneVision crashes when videos in one request have different frame counts",
+      "author": "chuncaohenli",
+      "state": "open",
+      "created_at": "2026-11-15T06:13:00Z",
+      "updated_at": "2026-11-15T06:13:00Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/67743",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 57149,
+      "title": "[ROCm][AMD] Qwen3.8-2.4T-A95B gfx950 / MI355X Performance Optimization",
+      "author": "mjkvaak-amd",
+      "state": "open",
+      "created_at": "2026-09-16T09:38:17Z",
+      "updated_at": "2026-11-15T03:41:05Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/57149",
+      "labels": [
+        "performance",
+        "rocm",
+        "quantization",
+        "kimi"
+      ]
+    },
+    {
+      "number": 67684,
+      "title": "[Bug]: glm47 tool parser silently drops tool calls with unknown function names, returning empty responses that trap clients in retry loops",
+      "author": "patacchi",
+      "state": "open",
+      "created_at": "2026-11-14T18:44:00Z",
+      "updated_at": "2026-11-14T20:50:45Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/67684",
+      "labels": [
+        "tool-calling"
+      ]
+    },
+    {
+      "number": 67696,
+      "title": "[RFC]: CPU Backend support for VLLM_BATCH_INVARIANT=1",
+      "author": "mosafariuk",
+      "state": "open",
+      "created_at": "2026-11-14T20:11:49Z",
+      "updated_at": "2026-11-14T20:31:44Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/67696",
+      "labels": [
+        "cpu",
+        "quantization",
+        "batch-invariance"
+      ]
+    },
+    {
+      "number": 27433,
+      "title": "[Feature]: Batch Invariant Feature and Performance Optimization",
+      "author": "yewentao256",
+      "state": "open",
+      "created_at": "2025-10-23T19:38:03Z",
+      "updated_at": "2026-11-14T20:12:03Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/27433",
+      "labels": [
+        "good first issue",
+        "feature request",
+        "batch-invariance"
+      ]
+    },
+    {
+      "number": 67664,
+      "title": "[CI Failure]: Quantization Shard 4/4 - quantization/test_modelopt.py::test_modelopt_(nested_mixed|mixed_dspark)_checkpoint",
+      "author": "LantaoJin",
+      "state": "open",
+      "created_at": "2026-11-14T15:44:49Z",
+      "updated_at": "2026-11-14T15:44:58Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/67664",
+      "labels": [
+        "rocm",
+        "ci-failure",
+        "quantization"
+      ]
+    },
+    {
+      "number": 67003,
+      "title": "[Tracking]: Llama and Qwen2 on the Transformers modeling backend",
+      "author": "hmellor",
+      "state": "open",
+      "created_at": "2026-11-11T08:30:23Z",
+      "updated_at": "2026-11-14T15:41:18Z",
+      "html_url": "https://github.com/vllm-project/vllm/issues/67003",
+      "labels": [
+        "llama"
+      ]
+    },
     {
       "number": 67360,
       "title": "[Bug]: MiniCPM-V 4.7 canvas M-RoPE silently falls back to sequential positions when user text contains `</image>` (or `<image>`/`<slice>`/`</slice>`) before an image",
@@ -25,18 +222,6 @@
       ]
     },
     {
-      "number": 38379,
-      "title": "Restore test coverage on Transformers v5",
-      "author": "hmellor",
-      "state": "open",
-      "created_at": "2026-03-27T18:19:00Z",
-      "updated_at": "2026-11-14T12:53:37Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/38379",
-      "labels": [
-        "help wanted"
-      ]
-    },
-    {
       "number": 65873,
       "title": "[Bug]: Nemotron-3.5-Super-VL-120B-A12B-NVFP4 native MTP fails to load: \"start (0) + length (5376) exceeds dimension size (2688)\"",
       "author": "reneezrh",
@@ -47,18 +232,6 @@
       "labels": [
         "bug",
         "quantization"
-      ]
-    },
-    {
-      "number": 67003,
-      "title": "[Tracking]: Llama and Qwen2 on the Transformers modeling backend",
-      "author": "hmellor",
-      "state": "open",
-      "created_at": "2026-11-11T08:30:23Z",
-      "updated_at": "2026-11-14T10:12:11Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/67003",
-      "labels": [
-        "llama"
       ]
     },
     {
@@ -282,19 +455,6 @@
       ]
     },
     {
-      "number": 58606,
-      "title": "[ROCm][Perf][Tracking Issue]: Hy4-Preview",
-      "author": "jamesETsmith",
-      "state": "open",
-      "created_at": "2026-09-24T19:16:03Z",
-      "updated_at": "2026-11-13T18:44:43Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/58606",
-      "labels": [
-        "feature request",
-        "rocm"
-      ]
-    },
-    {
       "number": 52167,
       "title": "[RFC]: Extended online quantization roadmap",
       "author": "fxmarty-amd",
@@ -368,21 +528,6 @@
       "labels": [
         "rocm",
         "quantization"
-      ]
-    },
-    {
-      "number": 57149,
-      "title": "[ROCm][AMD] Qwen3.8-2.4T-A95B gfx950 / MI355X Performance Optimization",
-      "author": "mjkvaak-amd",
-      "state": "open",
-      "created_at": "2026-09-16T09:38:17Z",
-      "updated_at": "2026-11-13T12:20:29Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/57149",
-      "labels": [
-        "performance",
-        "rocm",
-        "quantization",
-        "kimi"
       ]
     },
     {
@@ -520,18 +665,6 @@
       "labels": []
     },
     {
-      "number": 49288,
-      "title": "[RFC]: Multimodal Asynchronous Collaborative Architecture Sidecar",
-      "author": "xiaonaiping114",
-      "state": "open",
-      "created_at": "2026-07-21T06:41:41Z",
-      "updated_at": "2026-11-13T02:50:16Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/49288",
-      "labels": [
-        "RFC"
-      ]
-    },
-    {
       "number": 54559,
       "title": "[Bug]: qwen3.8-flash-next-fp8: No available shared memory broadcast block found in 60 seconds.",
       "author": "Alireza3242",
@@ -542,32 +675,6 @@
       "labels": [
         "bug",
         "quantization"
-      ]
-    },
-    {
-      "number": 67330,
-      "title": "[RFC]: Kernel-owned LoRA fusion for quantized linear layers, starting with gfx1151 W4A16",
-      "author": "amd-adichatt",
-      "state": "open",
-      "created_at": "2026-11-12T22:10:43Z",
-      "updated_at": "2026-11-13T02:19:19Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/67330",
-      "labels": [
-        "rocm",
-        "RFC",
-        "quantization"
-      ]
-    },
-    {
-      "number": 60985,
-      "title": "[Performance]: Resize video frames while decoding to skip full-resolution copies",
-      "author": "luca-888",
-      "state": "open",
-      "created_at": "2026-10-10T09:35:34Z",
-      "updated_at": "2026-11-13T02:13:05Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/60985",
-      "labels": [
-        "performance"
       ]
     },
     {
@@ -659,69 +766,6 @@
       "html_url": "https://github.com/vllm-project/vllm/issues/67110",
       "labels": [
         "rocm"
-      ]
-    },
-    {
-      "number": 67298,
-      "title": "[Bug]: `vllm bench forward` hangs intermittently on ROCm",
-      "author": "rjrock",
-      "state": "open",
-      "created_at": "2026-11-12T19:12:35Z",
-      "updated_at": "2026-11-12T19:13:07Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/67298",
-      "labels": [
-        "bug",
-        "rocm"
-      ]
-    },
-    {
-      "number": 62588,
-      "title": "[Bug][ROCm] Two or more vLLM processes on one MI300X (SR-IOV VF) hang within minutes: queue head dispatch accepted, no waves, GFX 100%",
-      "author": "ztang2370",
-      "state": "open",
-      "created_at": "2026-10-20T02:11:32Z",
-      "updated_at": "2026-11-12T14:41:20Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/62588",
-      "labels": [
-        "rocm"
-      ]
-    },
-    {
-      "number": 42508,
-      "title": "[Performance]: Inconsistent speculative decoding acceptance metrics between vLLM and SpecForge on Qwen3-32B baselines",
-      "author": "Mterzzl",
-      "state": "open",
-      "created_at": "2026-05-13T08:50:11Z",
-      "updated_at": "2026-11-12T12:27:21Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/42508",
-      "labels": [
-        "performance"
-      ]
-    },
-    {
-      "number": 59773,
-      "title": "[RFC]: Octave KV, a native 3-bit KV cache for AMD GPUs",
-      "author": "JartX",
-      "state": "open",
-      "created_at": "2026-10-02T12:29:51Z",
-      "updated_at": "2026-11-12T11:45:29Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/59773",
-      "labels": [
-        "performance",
-        "rocm",
-        "quantization"
-      ]
-    },
-    {
-      "number": 67162,
-      "title": "[Bug]: Gemma 4 placeholder count ignores `do_resize=False`",
-      "author": "jjbuck",
-      "state": "open",
-      "created_at": "2026-11-12T04:25:03Z",
-      "updated_at": "2026-11-12T04:55:21Z",
-      "html_url": "https://github.com/vllm-project/vllm/issues/67162",
-      "labels": [
-        "bug"
       ]
     }
   ]

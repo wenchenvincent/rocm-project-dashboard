@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-14T14:36:26Z",
+  "collected_at": "2026-11-15T15:04:00Z",
   "issues": [
     {
       "number": 7037,
@@ -7,11 +7,31 @@
       "author": "github-actions[bot]",
       "state": "open",
       "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-14T08:15:55Z",
+      "updated_at": "2026-11-15T07:33:01Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7037",
       "labels": [
         "triton-nightly"
       ]
+    },
+    {
+      "number": 7982,
+      "title": "fused_moe: FP8 per_1x128 SiLU asm 1-stage kernels cannot apply swiglu_limit",
+      "author": "eppaneamd",
+      "state": "open",
+      "created_at": "2026-11-15T07:02:51Z",
+      "updated_at": "2026-11-15T07:02:51Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7982",
+      "labels": []
+    },
+    {
+      "number": 7967,
+      "title": "[FlyDSL gfx950] bmm_a8w8_mxscale_gfx950: support a K of 32 mod 64 (DeepSeek-V4.1 shared-expert down projection at TP8, K = 288)",
+      "author": "rdoshi-amd",
+      "state": "open",
+      "created_at": "2026-11-15T00:44:38Z",
+      "updated_at": "2026-11-15T00:51:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7967",
+      "labels": []
     },
     {
       "number": 7833,

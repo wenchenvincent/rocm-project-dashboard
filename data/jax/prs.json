@@ -1,20 +1,6 @@
 {
-  "collected_at": "2026-11-14T14:35:16Z",
+  "collected_at": "2026-11-15T15:03:00Z",
   "prs": [
-    {
-      "number": 41881,
-      "title": "[ROCm] Enable remote compilation for jax in rocm rbe",
-      "author": "alekstheod",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T07:33:26Z",
-      "updated_at": "2026-11-14T14:01:13Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41881",
-      "labels": [
-        "pull ready"
-      ],
-      "draft": false
-    },
     {
       "number": 42612,
       "title": "[ROCm] Build debug-symbol and ASAN ROCm wheels in nightly and continuous CI",

@@ -1,26 +1,58 @@
 {
-  "collected_at": "2026-11-14T14:35:49Z",
+  "collected_at": "2026-11-15T15:03:26Z",
   "issues": [
-    {
-      "number": 45847,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-10-22T16:44:47Z",
-      "updated_at": "2026-11-14T14:05:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45847",
-      "labels": [
-        "ci-failure-tracker"
-      ]
-    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-11-14T13:55:57Z",
+      "updated_at": "2026-11-15T15:02:44Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 50045,
+      "title": "SGLang 1.0 Release Tracker",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2026-11-12T07:42:20Z",
+      "updated_at": "2026-11-15T14:43:59Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/50045",
+      "labels": [
+        "roadmap"
+      ]
+    },
+    {
+      "number": 45847,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-10-22T16:44:47Z",
+      "updated_at": "2026-11-15T14:06:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45847",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 49944,
+      "title": "[Tracking] Unified Memory Roadmap",
+      "author": "ch-wan",
+      "state": "open",
+      "created_at": "2026-11-11T23:03:07Z",
+      "updated_at": "2026-11-15T03:59:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49944",
+      "labels": []
+    },
+    {
+      "number": 50553,
+      "title": "[Bug] HiCache write_back: TP ranks diverge on reclaim victims with MiniMax-M3.1-Flash TP4 on MI355X",
+      "author": "michaelzhang-ai",
+      "state": "open",
+      "created_at": "2026-11-14T21:58:20Z",
+      "updated_at": "2026-11-14T21:58:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/50553",
       "labels": []
     },
     {
@@ -72,28 +104,6 @@
       "updated_at": "2026-11-13T17:07:20Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/50351",
       "labels": []
-    },
-    {
-      "number": 49944,
-      "title": "[Tracking] Unified Memory Roadmap",
-      "author": "ch-wan",
-      "state": "open",
-      "created_at": "2026-11-11T23:03:07Z",
-      "updated_at": "2026-11-13T16:13:09Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/49944",
-      "labels": []
-    },
-    {
-      "number": 50045,
-      "title": "SGLang 1.0 Release Tracker",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2026-11-12T07:42:20Z",
-      "updated_at": "2026-11-13T09:59:43Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50045",
-      "labels": [
-        "roadmap"
-      ]
     },
     {
       "number": 50083,
