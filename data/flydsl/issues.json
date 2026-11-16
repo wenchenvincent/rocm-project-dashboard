@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-15T15:04:18Z",
+  "collected_at": "2026-11-16T17:37:27Z",
   "issues": [
     {
       "number": 1413,
@@ -7,7 +7,7 @@
       "author": "yhl-amd",
       "state": "open",
       "created_at": "2026-11-14T14:19:20Z",
-      "updated_at": "2026-11-14T14:19:20Z",
+      "updated_at": "2026-11-16T05:42:17Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1413",
       "labels": []
     },

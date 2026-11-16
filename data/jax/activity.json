@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-15T15:05:08Z",
+  "collected_at": "2026-11-16T17:38:14Z",
   "project": "jax",
   "repo": "jax-ml/jax",
   "pr_velocity": {
@@ -28,15 +28,15 @@
         "commits": 0
       },
       {
-        "author": "gulsumgudukbay",
-        "prs_submitted": 6,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
         "author": "psanal35",
         "prs_submitted": 6,
         "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "gulsumgudukbay",
+        "prs_submitted": 6,
+        "prs_merged": 4,
         "commits": 0
       },
       {
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 24.4,
+    "days_since_last": 25.5,
     "avg_interval_days": 24.4,
     "total_releases": 5,
     "latest_tag": "jax-v0.12.0.1"

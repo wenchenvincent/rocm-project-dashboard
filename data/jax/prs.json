@@ -1,6 +1,64 @@
 {
-  "collected_at": "2026-11-15T15:03:00Z",
+  "collected_at": "2026-11-16T17:35:57Z",
   "prs": [
+    {
+      "number": 42328,
+      "title": "[ROCm] Use C++20 for hermetic ROCm builds",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T00:32:46Z",
+      "updated_at": "2026-11-16T16:41:47Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42328",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 42272,
+      "title": "[ROCm] Build the ROCm plugin with static libc++",
+      "author": "psanal35",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T22:04:41Z",
+      "updated_at": "2026-11-16T16:41:40Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42272",
+      "labels": [
+        "pull ready",
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 42552,
+      "title": "[ROCm] Fix tests that assume exactly 8 devices",
+      "author": "magaonka-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T05:51:54Z",
+      "updated_at": "2026-11-16T16:14:12Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42552",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41702,
+      "title": "[ROCm] Trim wheel RUNPATH: drop per-family, tarball, cross-Python and other-depth entries",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:05:10Z",
+      "updated_at": "2026-11-16T14:27:44Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41702",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 42612,
       "title": "[ROCm] Build debug-symbol and ASAN ROCm wheels in nightly and continuous CI",
@@ -11,50 +69,6 @@
       "updated_at": "2026-11-14T05:36:33Z",
       "html_url": "https://github.com/jax-ml/jax/pull/42612",
       "labels": [],
-      "draft": true
-    },
-    {
-      "number": 41702,
-      "title": "[ROCm] Trim wheel RUNPATH: drop per-family, tarball, cross-Python and other-depth entries",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T19:05:10Z",
-      "updated_at": "2026-11-13T23:18:45Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41702",
-      "labels": [
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 42328,
-      "title": "[ROCm] Use C++20 for hermetic ROCm builds",
-      "author": "psanal35",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T00:32:46Z",
-      "updated_at": "2026-11-13T17:56:01Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42328",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
-      ],
-      "draft": true
-    },
-    {
-      "number": 42272,
-      "title": "[ROCm] Build the ROCm plugin with static libc++",
-      "author": "psanal35",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T22:04:41Z",
-      "updated_at": "2026-11-13T17:55:58Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42272",
-      "labels": [
-        "pull ready",
-        "AMD GPU"
-      ],
       "draft": true
     },
     {
@@ -85,18 +99,6 @@
         "AMD GPU"
       ],
       "draft": false
-    },
-    {
-      "number": 42552,
-      "title": "[ROCm] Fix tests that assume exactly 8 devices",
-      "author": "magaonka-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T05:51:54Z",
-      "updated_at": "2026-11-12T05:53:37Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/42552",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 42394,

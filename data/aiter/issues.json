@@ -1,17 +1,69 @@
 {
-  "collected_at": "2026-11-15T15:04:00Z",
+  "collected_at": "2026-11-16T17:37:04Z",
   "issues": [
+    {
+      "number": 8034,
+      "title": "fused_moe SEPARATED+Swiglu+MXFP4 (per_1x32) non-strict accuracy failures across full token sweep",
+      "author": "shantipriya-amd",
+      "state": "open",
+      "created_at": "2026-11-16T15:05:52Z",
+      "updated_at": "2026-11-16T15:10:03Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8034",
+      "labels": []
+    },
+    {
+      "number": 8033,
+      "title": "[Issue]:  gfx950 Gluon unified_attention reads KV blocks past seq_len (memory fault or NaN output)",
+      "author": "stefankoncarevic",
+      "state": "open",
+      "created_at": "2026-11-16T14:52:10Z",
+      "updated_at": "2026-11-16T14:52:56Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8033",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 7037,
       "title": "Triton nightly status",
       "author": "github-actions[bot]",
       "state": "open",
       "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-15T07:33:01Z",
+      "updated_at": "2026-11-16T07:45:24Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7037",
       "labels": [
         "triton-nightly"
       ]
+    },
+    {
+      "number": 8014,
+      "title": "[Bug] moe_sorting (Opus) with dispatch_policy=1 hangs the GPU when num_experts >= 819",
+      "author": "Bernard-Liu",
+      "state": "open",
+      "created_at": "2026-11-16T06:16:55Z",
+      "updated_at": "2026-11-16T06:16:55Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8014",
+      "labels": []
+    },
+    {
+      "number": 7967,
+      "title": "[FlyDSL gfx950] bmm_a8w8_mxscale_gfx950: support a K of 32 mod 64 (DeepSeek-V4.1 shared-expert down projection at TP8, K = 288)",
+      "author": "rdoshi-amd",
+      "state": "open",
+      "created_at": "2026-11-15T00:44:38Z",
+      "updated_at": "2026-11-16T04:49:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7967",
+      "labels": []
+    },
+    {
+      "number": 7999,
+      "title": "[CI] SGLang DeepSeek-R1-MXFP4 job stalls on the weight download; Windows gfx1201 smoke fails intermittently in topk_softmax",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-11-15T22:29:50Z",
+      "updated_at": "2026-11-15T22:29:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7999",
+      "labels": []
     },
     {
       "number": 7982,
@@ -21,16 +73,6 @@
       "created_at": "2026-11-15T07:02:51Z",
       "updated_at": "2026-11-15T07:02:51Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7982",
-      "labels": []
-    },
-    {
-      "number": 7967,
-      "title": "[FlyDSL gfx950] bmm_a8w8_mxscale_gfx950: support a K of 32 mod 64 (DeepSeek-V4.1 shared-expert down projection at TP8, K = 288)",
-      "author": "rdoshi-amd",
-      "state": "open",
-      "created_at": "2026-11-15T00:44:38Z",
-      "updated_at": "2026-11-15T00:51:43Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7967",
       "labels": []
     },
     {
@@ -91,16 +133,6 @@
       "created_at": "2026-11-10T23:11:38Z",
       "updated_at": "2026-11-13T09:05:43Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7776",
-      "labels": []
-    },
-    {
-      "number": 7639,
-      "title": "[MLA][gfx950] non-persistent fp8 gqa16 qlen 3-4 (mla_a8w8_qh64_qseqlen4_gqaratio16) computes only KV split 0 and writes the partials into the wrong cells",
-      "author": "vllmellm",
-      "state": "open",
-      "created_at": "2026-11-09T03:48:07Z",
-      "updated_at": "2026-11-13T08:26:54Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7639",
       "labels": []
     },
     {
