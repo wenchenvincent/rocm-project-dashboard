@@ -1,15 +1,87 @@
 {
-  "collected_at": "2026-11-16T17:36:29Z",
+  "collected_at": "2026-11-17T17:09:50Z",
   "prs": [
     {
-      "number": 12781,
-      "title": "[WIP][AMD][GLUON] Add AMD gluon tutorials",
-      "author": "borontion",
+      "number": 12714,
+      "title": "[AMD] Preserve store coalescing when bypassing epilogue relayouts",
+      "author": "leonling-ll",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-16T07:20:49Z",
-      "updated_at": "2026-11-16T17:35:44Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12781",
+      "created_at": "2026-11-11T18:29:50Z",
+      "updated_at": "2026-11-17T16:31:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12714",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12804,
+      "title": "[AMD] Report backend compilation failures as BackendCompilationError",
+      "author": "jungpark-mlir",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T14:38:13Z",
+      "updated_at": "2026-11-17T16:25:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12804",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12755,
+      "title": "[Autotuner][AMD] Prune compiled configs before benchmarking and skip unmet waves_per_eu",
+      "author": "CRobeck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T19:45:35Z",
+      "updated_at": "2026-11-17T13:56:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12755",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12802,
+      "title": " [AMD] Add k_warp_bases to the WMMA layout for per-warp K order",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T13:20:56Z",
+      "updated_at": "2026-11-17T13:20:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12802",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12747,
+      "title": "[AMD] Add RDNA1/RDNA2 (gfx10) target support",
+      "author": "PelaGB17",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T12:15:43Z",
+      "updated_at": "2026-11-17T08:49:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12747",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12782,
+      "title": "[AMD] Avoid hashing stale cluster iterators in initSchedule",
+      "author": "kazhang2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T07:50:39Z",
+      "updated_at": "2026-11-17T08:44:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12782",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12734,
+      "title": "[WIP][AMD] Support FP6 in Gluon mfma_scaled on gfx950",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:57:09Z",
+      "updated_at": "2026-11-17T07:09:13Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12734",
       "labels": [],
       "draft": true
     },
@@ -17,13 +89,49 @@
       "number": 12715,
       "title": "[AMD] Expose AMD LDS allocation to LLVM with static shared memory",
       "author": "njriasan",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-11-11T19:32:12Z",
-      "updated_at": "2026-11-16T16:52:11Z",
+      "updated_at": "2026-11-17T06:32:55Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12715",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 12800,
+      "title": "[AMD][gfx1250] Give AsyncTDMIntrinsicWait's token a replacement value",
+      "author": "yiqian1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T05:05:10Z",
+      "updated_at": "2026-11-17T05:05:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12800",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12656,
+      "title": "[AMD] Build LLVM @293a85c048f7 for CodeGen",
+      "author": "njriasan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-07T15:02:20Z",
+      "updated_at": "2026-11-16T19:49:18Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12656",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12781,
+      "title": "[WIP][AMD][GLUON] Add AMD gluon tutorials",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T07:20:49Z",
+      "updated_at": "2026-11-16T18:11:28Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12781",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 12115,
@@ -38,18 +146,6 @@
       "draft": true
     },
     {
-      "number": 12755,
-      "title": "[Autotuner][AMD] Prune compiled configs before benchmarking and skip unmet waves_per_eu",
-      "author": "CRobeck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T19:45:35Z",
-      "updated_at": "2026-11-16T15:07:17Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12755",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12691,
       "title": "[AMD][Gluon] Fix scaled_downcast for CDNA4 verification and repeated registers",
       "author": "lijinpei-amd",
@@ -60,30 +156,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12691",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12714,
-      "title": "[AMD] Preserve store coalescing when bypassing epilogue relayouts",
-      "author": "leonling-ll",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T18:29:50Z",
-      "updated_at": "2026-11-16T09:36:37Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12714",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12782,
-      "title": "[AMD] Do not hash invalidated cluster iterators in SingleDotSchedule:\u2026",
-      "author": "kazhang2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T07:50:39Z",
-      "updated_at": "2026-11-16T07:52:39Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12782",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12553,
@@ -146,30 +218,6 @@
       "draft": false
     },
     {
-      "number": 12734,
-      "title": "[WIP][AMD] Support FP6 scaled MFMA on gfx950",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T00:57:09Z",
-      "updated_at": "2026-11-13T16:47:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12734",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12735,
-      "title": "[WIP][AMD] Decompose FP6 scaled dot with upcast_fp6",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T00:57:12Z",
-      "updated_at": "2026-11-13T16:47:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12735",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12736,
       "title": "[AMD] Add `libdevice.ffs` for the HIP backend",
       "author": "antiagainst",
@@ -178,18 +226,6 @@
       "created_at": "2026-11-13T03:32:11Z",
       "updated_at": "2026-11-13T16:17:50Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12736",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12747,
-      "title": "[AMD] Add RDNA1/RDNA2 (gfx10) target support",
-      "author": "PelaGB17",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T12:15:43Z",
-      "updated_at": "2026-11-13T12:15:53Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12747",
       "labels": [],
       "draft": false
     },
@@ -494,18 +530,6 @@
       "draft": false
     },
     {
-      "number": 12656,
-      "title": "[AMD] Build LLVM @293a85c048f7 for CodeGen",
-      "author": "njriasan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-07T15:02:20Z",
-      "updated_at": "2026-11-08T05:04:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12656",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12629,
       "title": "[AMD] UpdateAsyncWaitCount: walk past region ops without async ops",
       "author": "Dewei-Wang-sh",
@@ -674,18 +698,6 @@
       "draft": false
     },
     {
-      "number": 12601,
-      "title": "[AMD] Fix exponential traversal in pointer canonicalization",
-      "author": "leonling-ll",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-03T03:55:47Z",
-      "updated_at": "2026-11-03T06:53:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12601",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12149,
       "title": "[AMD][Gluon] Add CDNA5 WMMA issue mode control",
       "author": "nithinsubbiah",
@@ -708,18 +720,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12362",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 11968,
-      "title": "[AMD] Add a pre-bound HIP kernel launcher",
-      "author": "adityakankariya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-25T17:15:22Z",
-      "updated_at": "2026-10-19T18:22:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/11968",
-      "labels": [],
-      "draft": true
     }
   ]
 }

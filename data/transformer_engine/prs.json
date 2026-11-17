@@ -1,15 +1,74 @@
 {
-  "collected_at": "2026-11-16T17:37:29Z",
+  "collected_at": "2026-11-17T17:10:59Z",
   "prs": [
     {
-      "number": 803,
-      "title": "NVFP4 UE5M3 support",
+      "number": 804,
+      "title": "Persistent GEMM + RS MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T15:59:31Z",
+      "updated_at": "2026-11-17T17:06:39Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/804",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 778,
+      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
       "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-12T23:32:37Z",
-      "updated_at": "2026-11-16T16:56:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/803",
+      "created_at": "2026-10-22T23:18:01Z",
+      "updated_at": "2026-11-17T16:42:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
+      "labels": [
+        "ci-level 1",
+        "claude-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 806,
+      "title": "Fix order-dependent fp32 layout-invariance failure on gfx942",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T03:53:30Z",
+      "updated_at": "2026-11-17T16:15:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/806",
+      "labels": [
+        "ci-level 3",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 797,
+      "title": "Veergopu/release v2.21 rocm",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-07T02:29:55Z",
+      "updated_at": "2026-11-17T03:55:05Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/797",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 799,
+      "title": "Run gfx1250 CI tests via rocjitsu",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T18:32:22Z",
+      "updated_at": "2026-11-16T22:53:04Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/799",
       "labels": [
         "ci-level 1"
       ],
@@ -22,7 +81,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-31T23:10:35Z",
-      "updated_at": "2026-11-16T16:56:11Z",
+      "updated_at": "2026-11-16T22:46:51Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/726",
       "labels": [
         "P2"
@@ -30,14 +89,72 @@
       "draft": false
     },
     {
-      "number": 799,
-      "title": "Run gfx1250 CI tests via rocjitsu",
+      "number": 766,
+      "title": "gfx1250: use hipblaslt device alpha for NVFP4 GEMM",
       "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-09T18:32:22Z",
-      "updated_at": "2026-11-15T18:30:33Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/799",
+      "created_at": "2026-10-16T22:23:27Z",
+      "updated_at": "2026-11-16T22:20:08Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/766",
+      "labels": [
+        "ci-level 1",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 796,
+      "title": "add warmup to hipblaslt tuning",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T23:51:43Z",
+      "updated_at": "2026-11-16T19:05:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/796",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 793,
+      "title": "CI: speed up wheel build with ccache",
+      "author": "leo-automation",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T12:32:42Z",
+      "updated_at": "2026-11-16T18:32:26Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/793",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 663,
+      "title": "Integration of AITER a4w4 GEMM",
+      "author": "Micky774",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-07-07T20:00:46Z",
+      "updated_at": "2026-11-16T18:25:02Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 803,
+      "title": "NVFP4 UE5M3 support",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T23:32:37Z",
+      "updated_at": "2026-11-16T16:56:44Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/803",
       "labels": [
         "ci-level 1"
       ],
@@ -58,20 +175,6 @@
       "draft": false
     },
     {
-      "number": 796,
-      "title": "add warmup to hipblaslt tuning",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T23:51:43Z",
-      "updated_at": "2026-11-13T20:51:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/796",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 694,
       "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
       "author": "sudhu2k",
@@ -83,34 +186,6 @@
       "labels": [
         "ci-level 3",
         "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 804,
-      "title": "Persistent GEMM + RS MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T15:59:31Z",
-      "updated_at": "2026-11-13T18:03:58Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/804",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 791,
-      "title": "Fix MoE permutation on gfx1250 w/ Triton 3.8, faster row_id_map",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T19:07:40Z",
-      "updated_at": "2026-11-12T20:43:49Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/791",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": false
     },
@@ -142,20 +217,6 @@
       "draft": true
     },
     {
-      "number": 778,
-      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T23:18:01Z",
-      "updated_at": "2026-11-12T16:38:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
       "number": 801,
       "title": "[TE] MXFP8 quantize: 2D block scaling and GEMM-swizzled scales",
       "author": "AllenFarcas",
@@ -165,21 +226,6 @@
       "updated_at": "2026-11-12T01:27:29Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/801",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 797,
-      "title": "Veergopu/release v2.21 rocm",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-07T02:29:55Z",
-      "updated_at": "2026-11-11T19:46:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/797",
-      "labels": [
-        "ci-level 3",
-        "P2"
-      ],
       "draft": false
     },
     {
@@ -232,50 +278,6 @@
       "updated_at": "2026-11-10T20:48:53Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/800",
       "labels": [
-        "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 793,
-      "title": "CI: speed up wheel build with ccache",
-      "author": "leo-automation",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T12:32:42Z",
-      "updated_at": "2026-11-10T16:44:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/793",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 766,
-      "title": "gfx1250: use hipblaslt device alpha for NVFP4 GEMM",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T22:23:27Z",
-      "updated_at": "2026-11-09T20:05:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/766",
-      "labels": [
-        "ci-level 1",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 663,
-      "title": "Integration of AITER a4w4 GEMM",
-      "author": "Micky774",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-07-07T20:00:46Z",
-      "updated_at": "2026-11-09T19:58:26Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/663",
-      "labels": [
-        "ci-level 3",
         "P2"
       ],
       "draft": false
@@ -883,6 +885,20 @@
         "ci-level 3",
         "community-contribution",
         "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 791,
+      "title": "Fix MoE permutation on gfx1250 w/ Triton 3.8, faster row_id_map",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-02T19:07:40Z",
+      "updated_at": "2026-11-16T18:55:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/791",
+      "labels": [
+        "ci-level 1"
       ],
       "draft": false
     },
@@ -2028,20 +2044,6 @@
       "created_at": "2026-07-31T04:38:04Z",
       "updated_at": "2026-08-08T22:21:54Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/687",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 688,
-      "title": "Add pyyaml installation to ci prerequisites",
-      "author": "VeeraRajasekhar",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-31T17:21:41Z",
-      "updated_at": "2026-08-04T15:32:20Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/688",
       "labels": [
         "ci-level 3"
       ],

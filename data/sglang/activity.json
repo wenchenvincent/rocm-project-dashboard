@@ -1,11 +1,11 @@
 {
-  "collected_at": "2026-11-16T17:38:15Z",
+  "collected_at": "2026-11-17T17:11:31Z",
   "project": "sglang",
   "repo": "sgl-project/sglang",
   "pr_velocity": {
     "this_week": {
-      "opened": 66,
-      "merged": 57,
+      "opened": 61,
+      "merged": 59,
       "closed": 0
     },
     "last_week": {
@@ -13,60 +13,66 @@
       "merged": 0,
       "closed": 0
     },
-    "median_time_to_merge_hours": 102.3,
-    "merge_count": 57,
+    "median_time_to_merge_hours": 67.3,
+    "merge_count": 59,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 62,
-    "total_contributors": 62,
+    "active_this_week": 71,
+    "total_contributors": 71,
     "top_contributors": [
       {
-        "author": "amd-pedghazi",
-        "prs_submitted": 7,
-        "prs_merged": 0,
+        "author": "leejnau",
+        "prs_submitted": 6,
+        "prs_merged": 5,
+        "commits": 0
+      },
+      {
+        "author": "yuychang",
+        "prs_submitted": 5,
+        "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "inkcherry",
+        "prs_submitted": 4,
+        "prs_merged": 3,
         "commits": 0
       },
       {
         "author": "DarkSharpness",
-        "prs_submitted": 6,
-        "prs_merged": 4,
+        "prs_submitted": 3,
+        "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "hnyls2002",
-        "prs_submitted": 6,
-        "prs_merged": 6,
-        "commits": 0
-      },
-      {
-        "author": "michaelzhang-ai",
-        "prs_submitted": 5,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
-        "author": "eppaneamd",
-        "prs_submitted": 5,
+        "author": "avjves",
+        "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
       },
       {
         "author": "BBuf",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 0
-      },
-      {
-        "author": "mickqian",
-        "prs_submitted": 4,
-        "prs_merged": 4,
-        "commits": 0
-      },
-      {
-        "author": "EricKing626",
         "prs_submitted": 3,
         "prs_merged": 1,
+        "commits": 0
+      },
+      {
+        "author": "stahtine",
+        "prs_submitted": 3,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "jiaqiang-dot-liu",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "hnyls2002",
+        "prs_submitted": 3,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -74,54 +80,48 @@
         "prs_submitted": 3,
         "prs_merged": 3,
         "commits": 0
-      },
-      {
-        "author": "kpjeeja",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
-    "bus_factor": 9
+    "bus_factor": 13
   },
   "issue_health": {
     "total_open": 59,
     "opened_this_week": 16,
-    "closed_this_week": 115,
+    "closed_this_week": 113,
     "unanswered": 10
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 6,
-      "failed": 14,
-      "success_rate": 30.0
+      "succeeded": 7,
+      "failed": 13,
+      "success_rate": 35.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 1,
+      "succeeded": 0,
       "failed": 19,
-      "success_rate": 5.0
+      "success_rate": 0.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 105.5,
-      "p90_minutes": 655.4,
-      "min_minutes": 2.2,
-      "max_minutes": 699.6
+      "median_minutes": 93.2,
+      "p90_minutes": 264.1,
+      "min_minutes": 15.1,
+      "max_minutes": 470.6
     },
     "cuda": {
       "sample_size": 20,
       "median_minutes": 0.8,
       "p90_minutes": 0.9,
-      "min_minutes": 0.5,
-      "max_minutes": 1.0
+      "min_minutes": 0.6,
+      "max_minutes": 1.1
     }
   },
   "release_cadence": {
-    "days_since_last": 13.8,
+    "days_since_last": 14.8,
     "avg_interval_days": 14.7,
     "total_releases": 5,
     "latest_tag": "v0.5.23"

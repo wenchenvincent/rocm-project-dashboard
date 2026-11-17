@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-16T17:37:22Z",
+  "collected_at": "2026-11-17T17:10:51Z",
   "issues": [
+    {
+      "number": 1030,
+      "title": "[UMBP] Master-backed mode: standalone server aborts under load when the NIC refuses to register a large DRAM tier (1.5 TB, 2 MiB hugepages)",
+      "author": "lixiufei-leo",
+      "state": "open",
+      "created_at": "2026-11-17T13:06:26Z",
+      "updated_at": "2026-11-17T14:57:12Z",
+      "html_url": "https://github.com/ROCm/mori/issues/1030",
+      "labels": []
+    },
+    {
+      "number": 952,
+      "title": "RFC [feature]: MORI M2N \u2014 NCCL-inspired mesh-to-mesh tensor resharding over MORI-CCO",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-11-09T16:34:28Z",
+      "updated_at": "2026-11-17T14:37:21Z",
+      "html_url": "https://github.com/ROCm/mori/issues/952",
+      "labels": []
+    },
     {
       "number": 759,
       "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
@@ -19,16 +39,6 @@
       "created_at": "2026-11-13T01:58:39Z",
       "updated_at": "2026-11-13T01:58:39Z",
       "html_url": "https://github.com/ROCm/mori/issues/995",
-      "labels": []
-    },
-    {
-      "number": 952,
-      "title": "RFC [feature]: MORI M2N \u2014 NCCL-inspired mesh-to-mesh tensor resharding over MORI-CCO",
-      "author": "i-chaochen",
-      "state": "open",
-      "created_at": "2026-11-09T16:34:28Z",
-      "updated_at": "2026-11-12T10:05:10Z",
-      "html_url": "https://github.com/ROCm/mori/issues/952",
       "labels": []
     },
     {
@@ -122,18 +132,6 @@
       "updated_at": "2026-11-06T14:38:27Z",
       "html_url": "https://github.com/ROCm/mori/issues/917",
       "labels": []
-    },
-    {
-      "number": 925,
-      "title": "ccoMemImport rejects torch 2.14 symm_mem tensors: data starts 0x2400 bytes into the allocation",
-      "author": "QizhouZhang97",
-      "state": "open",
-      "created_at": "2026-11-06T06:12:44Z",
-      "updated_at": "2026-11-06T06:12:44Z",
-      "html_url": "https://github.com/ROCm/mori/issues/925",
-      "labels": [
-        "bug"
-      ]
     },
     {
       "number": 914,

@@ -1,6 +1,71 @@
 {
-  "collected_at": "2026-11-16T17:37:04Z",
+  "collected_at": "2026-11-17T17:10:33Z",
   "issues": [
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-17T07:43:16Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 7240,
+      "title": "RFC: Versioned Kernel Provider Interface for AITER",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-30T23:10:45Z",
+      "updated_at": "2026-11-17T05:48:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7240",
+      "labels": [
+        "Infra",
+        "work-in-progress"
+      ]
+    },
+    {
+      "number": 8080,
+      "title": "[Issue]: gfx1250 Gluon moe_gemm_a8w4 reads weight scales as 0 with GFX1250_SCALE + unpadded_N / unpadded_K (wrong gpt-oss decode output)",
+      "author": "YingZhang-ML",
+      "state": "open",
+      "created_at": "2026-11-17T04:19:49Z",
+      "updated_at": "2026-11-17T04:29:06Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8080",
+      "labels": []
+    },
+    {
+      "number": 8078,
+      "title": "[Issue]: test_mla_decode_fwd_unshuffled_pipeline_ring_wraparound intermittently page-faults on gfx1250",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-17T03:01:53Z",
+      "updated_at": "2026-11-17T03:01:53Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8078",
+      "labels": []
+    },
+    {
+      "number": 8068,
+      "title": "[Triton] fused_mixed_sample: no gfx1250 config, so the op raises FileNotFoundError on gfx1250",
+      "author": "chelnnexy",
+      "state": "open",
+      "created_at": "2026-11-17T01:04:36Z",
+      "updated_at": "2026-11-17T01:04:36Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8068",
+      "labels": []
+    },
+    {
+      "number": 3632,
+      "title": "[Issue]: W4A4 AITER_MXFP4_MXFP4 fused MoE kernel not HIP-graph-safe on gfx950 (MI355X)",
+      "author": "larryli2-amd",
+      "state": "open",
+      "created_at": "2026-06-09T09:39:28Z",
+      "updated_at": "2026-11-16T22:57:14Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3632",
+      "labels": []
+    },
     {
       "number": 8034,
       "title": "fused_moe SEPARATED+Swiglu+MXFP4 (per_1x32) non-strict accuracy failures across full token sweep",
@@ -21,18 +86,6 @@
       "html_url": "https://github.com/ROCm/aiter/issues/8033",
       "labels": [
         "bug"
-      ]
-    },
-    {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-16T07:45:24Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
       ]
     },
     {
@@ -73,16 +126,6 @@
       "created_at": "2026-11-15T07:02:51Z",
       "updated_at": "2026-11-15T07:02:51Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7982",
-      "labels": []
-    },
-    {
-      "number": 7833,
-      "title": "[Issue]: gfx1250 FlyDSL AOT fails for 37 mxfp8 block-128 GEMM configs since #7655",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-11T17:11:05Z",
-      "updated_at": "2026-11-14T05:12:56Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7833",
       "labels": []
     },
     {
@@ -144,19 +187,6 @@
       "updated_at": "2026-11-13T00:37:56Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5894",
       "labels": []
-    },
-    {
-      "number": 7240,
-      "title": "RFC: Versioned Kernel Provider Interface for AITER",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-10-30T23:10:45Z",
-      "updated_at": "2026-11-11T07:54:11Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7240",
-      "labels": [
-        "Infra",
-        "work-in-progress"
-      ]
     },
     {
       "number": 7631,
@@ -614,16 +644,6 @@
       "labels": [
         "Triton/Gluon"
       ]
-    },
-    {
-      "number": 6827,
-      "title": "Add gfx950 FlyDSL 4-wave INT8 bpreshuffle GEMM",
-      "author": "ksikiric",
-      "state": "open",
-      "created_at": "2026-10-22T10:15:46Z",
-      "updated_at": "2026-10-22T11:05:04Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6827",
-      "labels": []
     },
     {
       "number": 6781,
@@ -1131,16 +1151,6 @@
       "created_at": "2026-10-06T21:23:16Z",
       "updated_at": "2026-10-06T21:23:16Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6187",
-      "labels": []
-    },
-    {
-      "number": 3632,
-      "title": "[Issue]: W4A4 AITER_MXFP4_MXFP4 fused MoE kernel not HIP-graph-safe on gfx950 (MI355X)",
-      "author": "larryli2-amd",
-      "state": "open",
-      "created_at": "2026-06-09T09:39:28Z",
-      "updated_at": "2026-10-06T11:38:21Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3632",
       "labels": []
     },
     {
