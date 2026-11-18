@@ -1,25 +1,162 @@
 {
-  "collected_at": "2026-11-17T17:09:48Z",
+  "collected_at": "2026-11-18T16:46:50Z",
   "issues": [
-    {
-      "number": 43098,
-      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
-      "author": "hzh0425",
-      "state": "open",
-      "created_at": "2026-10-08T11:44:11Z",
-      "updated_at": "2026-11-17T17:07:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
-      "labels": []
-    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-11-17T16:25:26Z",
+      "updated_at": "2026-11-18T16:18:53Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
+    },
+    {
+      "number": 51278,
+      "title": "[Bug] [AMD] aiter MLA decode: DeepSeek-V2-Lite outputs degrade with fp8 KV cache when SGLANG_AITER_MLA_PERSIST=0",
+      "author": "yuychang",
+      "state": "open",
+      "created_at": "2026-11-18T15:36:34Z",
+      "updated_at": "2026-11-18T15:36:34Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/51278",
+      "labels": []
+    },
+    {
+      "number": 51275,
+      "title": "[Bug] dsv41: Candidate graph variants can differ across attention-DP ranks (decode and DSpark verify)",
+      "author": "llying-001",
+      "state": "open",
+      "created_at": "2026-11-18T15:08:46Z",
+      "updated_at": "2026-11-18T15:08:46Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/51275",
+      "labels": []
+    },
+    {
+      "number": 49944,
+      "title": "[Tracking] Unified Memory Roadmap",
+      "author": "ch-wan",
+      "state": "open",
+      "created_at": "2026-11-11T23:03:07Z",
+      "updated_at": "2026-11-18T14:16:09Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49944",
+      "labels": []
+    },
+    {
+      "number": 21302,
+      "title": "[AITER-Upgrade] PR readiness",
+      "author": "HaiShaw",
+      "state": "open",
+      "created_at": "2026-03-24T09:28:38Z",
+      "updated_at": "2026-11-18T10:05:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
+      "labels": []
+    },
+    {
+      "number": 50920,
+      "title": "Idle-burst prefill: first request waits for the next batch (consecutive prefill overlap) and bursts are split 1+N",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-17T03:29:15Z",
+      "updated_at": "2026-11-18T09:49:23Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/50920",
+      "labels": []
+    },
+    {
+      "number": 51184,
+      "title": "[Bug] CUDA graph replay returns degenerate output (all token id 0) on sm_120 with NVFP4 + tilelang DSA + Mamba hybrid",
+      "author": "sharpei1020",
+      "state": "open",
+      "created_at": "2026-11-18T07:20:19Z",
+      "updated_at": "2026-11-18T09:07:18Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/51184",
+      "labels": []
+    },
+    {
+      "number": 43313,
+      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
+      "author": "mickqian",
+      "state": "open",
+      "created_at": "2026-10-09T06:57:46Z",
+      "updated_at": "2026-11-18T07:36:27Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
+      "labels": [
+        "diffusion",
+        "roadmap"
+      ]
+    },
+    {
+      "number": 51102,
+      "title": "[Bug] `sigmoid_gate_topk_renorm`: routing weights are NaN when all selected sigmoid scores underflow",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-18T00:09:02Z",
+      "updated_at": "2026-11-18T07:20:37Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/51102",
+      "labels": []
+    },
+    {
+      "number": 50045,
+      "title": "SGLang 1.0 Release Tracker",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2026-11-12T07:42:20Z",
+      "updated_at": "2026-11-18T05:23:58Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/50045",
+      "labels": [
+        "roadmap"
+      ]
+    },
+    {
+      "number": 49327,
+      "title": "[ROCm][AMD] DeepSeek-V4.1-Flash gfx950 / MI355X Performance Optimization (SGLang)",
+      "author": "vorapolsiloai",
+      "state": "open",
+      "created_at": "2026-11-09T14:17:47Z",
+      "updated_at": "2026-11-18T05:23:53Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49327",
+      "labels": []
+    },
+    {
+      "number": 45373,
+      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
+      "author": "JackChuang",
+      "state": "open",
+      "created_at": "2026-10-20T10:04:23Z",
+      "updated_at": "2026-11-18T04:41:39Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
+      "labels": []
+    },
+    {
+      "number": 42473,
+      "title": "Development Roadmap (2026 Q4)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-10-04T08:24:43Z",
+      "updated_at": "2026-11-18T03:58:07Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
+      "labels": []
+    },
+    {
+      "number": 43098,
+      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
+      "author": "hzh0425",
+      "state": "open",
+      "created_at": "2026-10-08T11:44:11Z",
+      "updated_at": "2026-11-18T02:29:06Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
+      "labels": []
+    },
+    {
+      "number": 51119,
+      "title": "[Bug] [AMD] NIXL disaggregation test aborts on MI35x: LLVM option 'spirv-expand-step' registered more than once",
+      "author": "michaelzhang-ai",
+      "state": "open",
+      "created_at": "2026-11-18T01:09:13Z",
+      "updated_at": "2026-11-18T01:09:13Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/51119",
+      "labels": [
+        "amd"
+      ]
     },
     {
       "number": 50386,
@@ -74,18 +211,6 @@
       "labels": []
     },
     {
-      "number": 50045,
-      "title": "SGLang 1.0 Release Tracker",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2026-11-12T07:42:20Z",
-      "updated_at": "2026-11-17T09:17:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50045",
-      "labels": [
-        "roadmap"
-      ]
-    },
-    {
       "number": 49324,
       "title": "[ROCm][AMD] Qwen3.8-27B gfx950 / MI355X Performance Optimization (SGLang)",
       "author": "vorapolsiloai",
@@ -93,26 +218,6 @@
       "created_at": "2026-11-09T13:50:32Z",
       "updated_at": "2026-11-17T07:26:28Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/49324",
-      "labels": []
-    },
-    {
-      "number": 49327,
-      "title": "[ROCm][AMD] DeepSeek-V4.1-Flash gfx950 / MI355X Performance Optimization (SGLang)",
-      "author": "vorapolsiloai",
-      "state": "open",
-      "created_at": "2026-11-09T14:17:47Z",
-      "updated_at": "2026-11-17T07:23:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/49327",
-      "labels": []
-    },
-    {
-      "number": 50920,
-      "title": "Idle-burst prefill: first request waits for the next batch (consecutive prefill overlap) and bursts are split 1+N",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-17T03:29:15Z",
-      "updated_at": "2026-11-17T03:29:15Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50920",
       "labels": []
     },
     {
@@ -163,16 +268,6 @@
       "created_at": "2026-10-15T02:34:44Z",
       "updated_at": "2026-11-16T03:29:16Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/44374",
-      "labels": []
-    },
-    {
-      "number": 49944,
-      "title": "[Tracking] Unified Memory Roadmap",
-      "author": "ch-wan",
-      "state": "open",
-      "created_at": "2026-11-11T23:03:07Z",
-      "updated_at": "2026-11-15T15:39:26Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/49944",
       "labels": []
     },
     {
@@ -276,16 +371,6 @@
       "labels": []
     },
     {
-      "number": 45373,
-      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
-      "author": "JackChuang",
-      "state": "open",
-      "created_at": "2026-10-20T10:04:23Z",
-      "updated_at": "2026-11-10T23:58:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
-      "labels": []
-    },
-    {
       "number": 49602,
       "title": "nightly-test-amd.yml reports \"All ROCm nightly test jobs passed\" when 46 of 48 jobs were skipped",
       "author": "alexisromtz-lab",
@@ -356,16 +441,6 @@
       "labels": []
     },
     {
-      "number": 21302,
-      "title": "[AITER-Upgrade] PR readiness",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-03-24T09:28:38Z",
-      "updated_at": "2026-11-09T06:53:58Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/21302",
-      "labels": []
-    },
-    {
       "number": 49250,
       "title": "[Bug] ignore_eos requests finish early when their grammar terminates",
       "author": "zoroyihan7",
@@ -383,39 +458,6 @@
       "created_at": "2026-11-09T03:59:25Z",
       "updated_at": "2026-11-09T04:56:23Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/49230",
-      "labels": []
-    },
-    {
-      "number": 49198,
-      "title": "[Bug] Mixtral, Llama 4 and FP8 Qwen3-MoE: a router stored in FP8 is loaded without its scale, with no error",
-      "author": "HollowMan6",
-      "state": "open",
-      "created_at": "2026-11-08T19:48:25Z",
-      "updated_at": "2026-11-08T22:31:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/49198",
-      "labels": []
-    },
-    {
-      "number": 43313,
-      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
-      "author": "mickqian",
-      "state": "open",
-      "created_at": "2026-10-09T06:57:46Z",
-      "updated_at": "2026-11-08T03:24:33Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
-      "labels": [
-        "diffusion",
-        "roadmap"
-      ]
-    },
-    {
-      "number": 36941,
-      "title": "[GB10] Long prefill (>40k tokens) exhausts unified memory and silently kills the worker rank \u2014 no traceback, no OOM record; cross-stack control passes at 54k",
-      "author": "beastllama",
-      "state": "open",
-      "created_at": "2026-08-29T02:09:22Z",
-      "updated_at": "2026-11-08T03:13:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/36941",
       "labels": []
     },
     {
@@ -578,28 +620,6 @@
       "created_at": "2026-10-10T08:28:36Z",
       "updated_at": "2026-10-19T07:10:17Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/43526",
-      "labels": []
-    },
-    {
-      "number": 43949,
-      "title": "[RFC] Monokernel framework for SGLang",
-      "author": "kevin-mii",
-      "state": "open",
-      "created_at": "2026-10-13T01:39:23Z",
-      "updated_at": "2026-10-16T10:08:10Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43949",
-      "labels": [
-        "RFC"
-      ]
-    },
-    {
-      "number": 43730,
-      "title": "[Bug][ROCm] NGRAM speculative decoding on a DSA model (GLM-5.3, gfx942): HSA 0x1016 on every rank after the first ~50k-token prompt",
-      "author": "skimanwhite",
-      "state": "open",
-      "created_at": "2026-10-11T23:29:48Z",
-      "updated_at": "2026-10-11T23:29:48Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43730",
       "labels": []
     }
   ]

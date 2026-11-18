@@ -1,6 +1,39 @@
 {
-  "collected_at": "2026-11-17T17:10:56Z",
+  "collected_at": "2026-11-18T16:47:48Z",
   "issues": [
+    {
+      "number": 1413,
+      "title": "[Feature] Reuse a cached artifact across processes without retracing: an opt-in, caller-keyed specialization index",
+      "author": "yhl-amd",
+      "state": "open",
+      "created_at": "2026-11-14T14:19:20Z",
+      "updated_at": "2026-11-18T10:26:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1413",
+      "labels": []
+    },
+    {
+      "number": 1429,
+      "title": "[gfx1250] Register allocation: give 16-bit WMMA `srcB` and `srcC` different VGPR banks (4-register offset)",
+      "author": "ruanjm",
+      "state": "open",
+      "created_at": "2026-11-18T02:45:18Z",
+      "updated_at": "2026-11-18T02:46:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1429",
+      "labels": [
+        "performance",
+        "compiler"
+      ]
+    },
+    {
+      "number": 1409,
+      "title": "fp4_gemm_4wave: compile_fp4_gemm_4w intermittently writes wrong C elements on MI355X",
+      "author": "Arist12",
+      "state": "open",
+      "created_at": "2026-11-13T21:17:15Z",
+      "updated_at": "2026-11-18T01:53:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1409",
+      "labels": []
+    },
     {
       "number": 1427,
       "title": "[Feature] Support -amdgpu-anti-hints-for-va-vdst on gfx1250 (LLVM pin needs llvm/llvm-project#226397)",
@@ -9,26 +42,6 @@
       "created_at": "2026-11-17T08:41:44Z",
       "updated_at": "2026-11-17T08:41:44Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1427",
-      "labels": []
-    },
-    {
-      "number": 1413,
-      "title": "[Feature] Reuse a cached artifact across processes without retracing: an opt-in, caller-keyed specialization index",
-      "author": "yhl-amd",
-      "state": "open",
-      "created_at": "2026-11-14T14:19:20Z",
-      "updated_at": "2026-11-16T05:42:17Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1413",
-      "labels": []
-    },
-    {
-      "number": 1409,
-      "title": "fp4_gemm_4wave: compile_fp4_gemm_4w intermittently writes wrong C elements on MI355X",
-      "author": "Arist12",
-      "state": "open",
-      "created_at": "2026-11-13T21:17:15Z",
-      "updated_at": "2026-11-13T21:17:15Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1409",
       "labels": []
     },
     {

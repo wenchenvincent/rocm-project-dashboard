@@ -1,17 +1,187 @@
 {
-  "collected_at": "2026-11-17T17:10:33Z",
+  "collected_at": "2026-11-18T16:47:28Z",
   "issues": [
+    {
+      "number": 8195,
+      "title": "# [MoE tuner] Empty EP routing samples fail the MXFP4 accuracy check",
+      "author": "Bernard-Liu",
+      "state": "open",
+      "created_at": "2026-11-18T13:25:06Z",
+      "updated_at": "2026-11-18T13:25:06Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8195",
+      "labels": []
+    },
+    {
+      "number": 8194,
+      "title": "# [MoE tuner] --ep-size bypasses --swiglu_limit validation",
+      "author": "Bernard-Liu",
+      "state": "open",
+      "created_at": "2026-11-18T13:14:08Z",
+      "updated_at": "2026-11-18T13:14:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8194",
+      "labels": []
+    },
+    {
+      "number": 8176,
+      "title": "[Bug] gemm_a16w16 aborts on CPU tensors; FlyDSL JIT collides with hipcc LLVM",
+      "author": "kangwangamd",
+      "state": "open",
+      "created_at": "2026-11-18T08:42:33Z",
+      "updated_at": "2026-11-18T12:25:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8176",
+      "labels": []
+    },
     {
       "number": 7037,
       "title": "Triton nightly status",
       "author": "github-actions[bot]",
       "state": "open",
       "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-17T07:43:16Z",
+      "updated_at": "2026-11-18T08:41:09Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7037",
       "labels": [
         "triton-nightly"
       ]
+    },
+    {
+      "number": 8162,
+      "title": "[Issue]: gfx1250 grouped MoE 256x256x256 tiles fail `assert slot_width <= 128` since #7726",
+      "author": "fsx950223",
+      "state": "open",
+      "created_at": "2026-11-18T05:37:44Z",
+      "updated_at": "2026-11-18T05:39:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8162",
+      "labels": []
+    },
+    {
+      "number": 8134,
+      "title": "[Issue]: gfx1250 FlyDSL AOT GEMM replay fails bf16 split-K hgemm rows with \"out must not overlap the inputs\"",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-17T22:52:14Z",
+      "updated_at": "2026-11-18T02:29:38Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8134",
+      "labels": []
+    },
+    {
+      "number": 8133,
+      "title": "[Issue]: module_moe_mxfp4_aux fails to build for gfx1250 (row_bcast DPP in moe_sort_quant.cuh)",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-17T22:52:13Z",
+      "updated_at": "2026-11-18T02:29:38Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8133",
+      "labels": []
+    },
+    {
+      "number": 8144,
+      "title": "[Issue]: fused_flatten_mxfp4_quant uses padded segment offsets for non-power-of-two widths",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:36:45Z",
+      "updated_at": "2026-11-17T23:36:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8144",
+      "labels": []
+    },
+    {
+      "number": 8143,
+      "title": "[Issue]: fused_rms_fp8_per_tensor_static_quant truncates the wider first input",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:36:37Z",
+      "updated_at": "2026-11-17T23:36:37Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8143",
+      "labels": []
+    },
+    {
+      "number": 8142,
+      "title": "[Issue]: softmax and cross_entropy_forward return NaN when the first logit block is masked",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:36:31Z",
+      "updated_at": "2026-11-17T23:36:31Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8142",
+      "labels": []
+    },
+    {
+      "number": 8141,
+      "title": "[Issue]: rope_fwd_3d leaves padded output tokens unwritten",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:36:22Z",
+      "updated_at": "2026-11-17T23:36:22Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8141",
+      "labels": []
+    },
+    {
+      "number": 8140,
+      "title": "[Issue]: RoPE Q/K kernels change V when equal head counts are not a power of two",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:36:15Z",
+      "updated_at": "2026-11-17T23:36:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8140",
+      "labels": []
+    },
+    {
+      "number": 8139,
+      "title": "[Issue]: layer_norm backward reads wrong gradient elements for expanded gradients",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:36:08Z",
+      "updated_at": "2026-11-17T23:36:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8139",
+      "labels": []
+    },
+    {
+      "number": 8138,
+      "title": "[Issue]: fused RMSNorm and LayerNorm omit the residual input gradient",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:36:02Z",
+      "updated_at": "2026-11-17T23:36:02Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8138",
+      "labels": []
+    },
+    {
+      "number": 8137,
+      "title": "[Issue]: fused_flatten_fp8_group_quant writes wrong scales when a segment is shorter than a group",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:35:56Z",
+      "updated_at": "2026-11-17T23:35:56Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8137",
+      "labels": []
+    },
+    {
+      "number": 8136,
+      "title": "[Issue]: chunked_prefill_paged_decode uses the head count for the default attention scale",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:35:45Z",
+      "updated_at": "2026-11-17T23:35:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8136",
+      "labels": []
+    },
+    {
+      "number": 8135,
+      "title": "[Issue]: fused and A16W8 block-scale GEMMs use wrong scales when a K tile spans two groups",
+      "author": "jeffchen006",
+      "state": "open",
+      "created_at": "2026-11-17T23:35:32Z",
+      "updated_at": "2026-11-17T23:35:32Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8135",
+      "labels": []
+    },
+    {
+      "number": 8131,
+      "title": "Tuned configs can't tell MI300X from MI325X (both gfx942 / 304 CUs)",
+      "author": "frida-andersson",
+      "state": "open",
+      "created_at": "2026-11-17T21:16:25Z",
+      "updated_at": "2026-11-17T21:16:25Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8131",
+      "labels": []
     },
     {
       "number": 7240,
@@ -176,16 +346,6 @@
       "created_at": "2026-11-10T23:11:38Z",
       "updated_at": "2026-11-13T09:05:43Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7776",
-      "labels": []
-    },
-    {
-      "number": 5894,
-      "title": "[Bug] [fa]gfx950 hd128 causal bwd kernels write dK = 0 under GPU sharing (missing s_barrier)",
-      "author": "Johnsonms",
-      "state": "open",
-      "created_at": "2026-09-27T21:45:10Z",
-      "updated_at": "2026-11-13T00:37:56Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5894",
       "labels": []
     },
     {
