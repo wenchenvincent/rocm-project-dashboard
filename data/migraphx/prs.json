@@ -1,6 +1,314 @@
 {
-  "collected_at": "2026-11-18T16:46:56Z",
+  "collected_at": "2026-11-19T16:53:39Z",
   "prs": [
+    {
+      "number": 5502,
+      "title": "Enable OCP fp8 for gfx117x",
+      "author": "ppetrovi-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T18:57:59Z",
+      "updated_at": "2026-11-19T16:53:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5502",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5450,
+      "title": "Combined data dependent support branches",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:55:48Z",
+      "updated_at": "2026-11-19T16:49:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5462,
+      "title": "Bump RocMlirTriton with triton_amd_codegen library",
+      "author": "ilango100",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T16:43:40Z",
+      "updated_at": "2026-11-19T15:48:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5579,
+      "title": "tf: isolate protobuf messages in tensorflow_for_migraphx package",
+      "author": "akshat-lakhera",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T22:55:57Z",
+      "updated_at": "2026-11-19T15:35:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5579",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5544,
+      "title": "Compress GPU device code in migraphx_device on Windows with --offload-compress",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T15:22:54Z",
+      "updated_at": "2026-11-19T15:33:53Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5544",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5581,
+      "title": "Recompile follow-ups: benchmark MXR dump, no external libraries, older generations",
+      "author": "anilmartha",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T11:17:49Z",
+      "updated_at": "2026-11-19T15:32:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5581",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5569,
+      "title": "Parse Slice with run-time bounds over a static input as dyn_slice",
+      "author": "kazhang2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T03:29:48Z",
+      "updated_at": "2026-11-19T11:28:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5569",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5507,
+      "title": "Sort ONNX nodes after the values their subgraphs read from the outer scope",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T16:27:29Z",
+      "updated_at": "2026-11-19T10:58:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5507",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5517,
+      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T03:43:57Z",
+      "updated_at": "2026-11-19T10:48:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5439,
+      "title": "KV cache attention flash decoding",
+      "author": "bdevorem",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T22:04:33Z",
+      "updated_at": "2026-11-19T05:32:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5169,
+      "title": "fix(security): spawn processes directly instead of through popen",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-21T23:11:47Z",
+      "updated_at": "2026-11-19T03:00:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5169",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5531,
+      "title": "Copy the dims of broadcast_with_dims to the host on the GPU",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T16:58:54Z",
+      "updated_at": "2026-11-19T02:01:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5531",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5227,
+      "title": "fix: enable Linux build hardening flags and CI checksec gate",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-31T23:51:09Z",
+      "updated_at": "2026-11-18T23:25:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5227",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5564,
+      "title": "Suppress Clang lifetime-safety-experimental warnings in hiprtc compiles",
+      "author": "ppetrovi-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T20:03:37Z",
+      "updated_at": "2026-11-18T23:17:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5564",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5537,
+      "title": "Preserve explicit zero padding before MaxPool",
+      "author": "Kataglyphis",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T09:05:43Z",
+      "updated_at": "2026-11-18T23:05:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5537",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5512,
+      "title": "MaskRCNN and SSD examples",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:45:13Z",
+      "updated_at": "2026-11-18T21:57:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5512",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5479,
+      "title": "Fold axis-linear operations on a dot input into its constant operand",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-04T14:46:22Z",
+      "updated_at": "2026-11-18T20:55:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5479",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5506,
+      "title": "Support in-memory external initializers and avoid stack overflow",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T13:13:44Z",
+      "updated_at": "2026-11-18T20:16:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5506",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5485,
+      "title": "Time benchmark candidates as HIP graphs ",
+      "author": "kazhang2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T06:53:48Z",
+      "updated_at": "2026-11-18T20:14:59Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5485",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5563,
+      "title": "Merge split axes in source order when inverting a shape transform",
+      "author": "VishalX",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T18:06:39Z",
+      "updated_at": "2026-11-18T20:08:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5563",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5501,
+      "title": "Parse ONNX FLOAT8E4M3FN and FLOAT8E5M2 tensors",
+      "author": "ppetrovi-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T18:52:51Z",
+      "updated_at": "2026-11-18T18:12:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5501",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5578,
+      "title": "gpu: declare gfx_default_rocblas unconditionally to support MIGRAPHX_USE_HIPBLASLT=Off",
+      "author": "akshat-lakhera",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T18:10:50Z",
+      "updated_at": "2026-11-18T18:10:51Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5578",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5447,
+      "title": "Parse LinearAttention and fuse causal gemm-elementwise-gemm chains with rocMLIR",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T20:48:12Z",
+      "updated_at": "2026-11-18T17:55:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5447",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4787,
+      "title": "Rewrite mul reduce to use fdot2 instructions",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-15T15:49:26Z",
+      "updated_at": "2026-11-18T17:34:39Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4787",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5577,
+      "title": "[AIMIGRAPHX-1374] ONNX parser: add test for external data length 0",
+      "author": "anupsing-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T15:01:17Z",
+      "updated_at": "2026-11-18T17:07:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5577",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5484,
       "title": "[AIMIGRAPHX-1371] Keep program outputs standard in eliminate_concat",
@@ -26,30 +334,6 @@
       "draft": false
     },
     {
-      "number": 5531,
-      "title": "Copy the dims of broadcast_with_dims to the host on the GPU",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T16:58:54Z",
-      "updated_at": "2026-11-18T16:38:54Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5531",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5577,
-      "title": "[AIMIGRAPHX-1374] ONNX parser: add test for external data length 0",
-      "author": "anupsing-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T15:01:17Z",
-      "updated_at": "2026-11-18T16:31:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5577",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5333,
       "title": "Give the TensorFlow protobuf unique package and file names",
       "author": "fwyzard",
@@ -62,32 +346,6 @@
       "draft": false
     },
     {
-      "number": 5544,
-      "title": "Compress GPU device code in migraphx_device on Windows with --offload-compress",
-      "author": "ivarusic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T15:22:54Z",
-      "updated_at": "2026-11-18T16:27:31Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5544",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5506,
-      "title": "Support in-memory external initializers and avoid stack overflow",
-      "author": "ivarusic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T13:13:44Z",
-      "updated_at": "2026-11-18T16:27:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5506",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
       "number": 5210,
       "title": "Fix credential issue for performance tests",
       "author": "ahsan-ca",
@@ -97,70 +355,6 @@
       "updated_at": "2026-11-18T16:25:29Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5210",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4787,
-      "title": "Rewrite mul reduce to use fdot2 instructions",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-15T15:49:26Z",
-      "updated_at": "2026-11-18T16:17:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4787",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5537,
-      "title": "Preserve explicit zero padding before MaxPool",
-      "author": "Kataglyphis",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T09:05:43Z",
-      "updated_at": "2026-11-18T16:10:07Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5537",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5563,
-      "title": "Merge split axes in source order when inverting a shape transform",
-      "author": "VishalX",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T18:06:39Z",
-      "updated_at": "2026-11-18T16:06:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5563",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5501,
-      "title": "Parse ONNX FLOAT8E4M3FN and FLOAT8E5M2 tensors",
-      "author": "ppetrovi-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T18:52:51Z",
-      "updated_at": "2026-11-18T15:29:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5501",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5502,
-      "title": "Enable OCP fp8 for gfx117x",
-      "author": "ppetrovi-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T18:57:59Z",
-      "updated_at": "2026-11-18T15:04:34Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5502",
-      "labels": [
-        "Windows"
-      ],
       "draft": false
     },
     {
@@ -186,20 +380,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5576",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5564,
-      "title": "Suppress Clang lifetime-safety-experimental warnings in hiprtc compiles",
-      "author": "ppetrovi-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T20:03:37Z",
-      "updated_at": "2026-11-18T12:55:20Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5564",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
     },
     {
       "number": 5575,
@@ -264,18 +444,6 @@
       "draft": true
     },
     {
-      "number": 5569,
-      "title": "Parse Slice with run-time bounds over a static input as dyn_slice",
-      "author": "kazhang2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T03:29:48Z",
-      "updated_at": "2026-11-18T10:52:30Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5569",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5570,
       "title": "Fix negative ScatterND indices with symbolic dimensions on the GPU (follow-up to #5527)",
       "author": "tanzeel-amd",
@@ -298,18 +466,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5554",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 5227,
-      "title": "fix: enable Linux build hardening flags and CI checksec gate",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-31T23:51:09Z",
-      "updated_at": "2026-11-18T09:06:17Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5227",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 5539,
@@ -488,30 +644,6 @@
       "created_at": "2026-11-09T10:09:00Z",
       "updated_at": "2026-11-17T19:52:42Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5496",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5507,
-      "title": "Sort ONNX nodes after the values their subgraphs read from the outer scope",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T16:27:29Z",
-      "updated_at": "2026-11-17T19:29:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5507",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5450,
-      "title": "Combined data dependent support branches",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T14:55:48Z",
-      "updated_at": "2026-11-17T18:34:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
       "labels": [],
       "draft": false
     },
@@ -734,18 +866,6 @@
       "draft": false
     },
     {
-      "number": 5479,
-      "title": "Fold axis-linear operations on a dot input into its constant operand",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T14:46:22Z",
-      "updated_at": "2026-11-17T06:32:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5479",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5514,
       "title": "Parse Pad with pads that resolve to symbolic expressions",
       "author": "klin2024",
@@ -754,18 +874,6 @@
       "created_at": "2026-11-13T01:51:45Z",
       "updated_at": "2026-11-17T06:17:32Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5514",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5517,
-      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T03:43:57Z",
-      "updated_at": "2026-11-17T05:59:37Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
       "labels": [],
       "draft": false
     },
@@ -816,30 +924,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5522",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5466,
-      "title": "Add MXR recompiling: keep kernel recipes and recompile compiled programs",
-      "author": "anilmartha",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T11:05:56Z",
-      "updated_at": "2026-11-17T05:09:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5466",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5512,
-      "title": "MaskRCNN and SSD examples",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T00:45:13Z",
-      "updated_at": "2026-11-16T20:16:26Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5512",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5520,
@@ -993,18 +1077,6 @@
       "draft": true
     },
     {
-      "number": 5485,
-      "title": "Time benchmark candidates as HIP graphs ",
-      "author": "kazhang2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T06:53:48Z",
-      "updated_at": "2026-11-12T07:19:30Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5485",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5499,
       "title": "Validate MXR file version as a supported range, before decoding",
       "author": "tanzeel-amd",
@@ -1025,18 +1097,6 @@
       "created_at": "2026-11-11T20:58:06Z",
       "updated_at": "2026-11-12T00:12:31Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5503",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5169,
-      "title": "fix(security): spawn processes directly instead of through popen",
-      "author": "causten",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-21T23:11:47Z",
-      "updated_at": "2026-11-11T23:44:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5169",
       "labels": [],
       "draft": false
     },
@@ -1173,18 +1233,6 @@
       "draft": true
     },
     {
-      "number": 5439,
-      "title": "KV cache attention flash decoding",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T22:04:33Z",
-      "updated_at": "2026-11-06T20:08:43Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5397,
       "title": "update parsers to support LLMs",
       "author": "shivadbhavsar",
@@ -1221,18 +1269,6 @@
       "draft": false
     },
     {
-      "number": 5447,
-      "title": "Parse LinearAttention and fuse causal gemm-elementwise-gemm chains with rocMLIR",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T20:48:12Z",
-      "updated_at": "2026-11-03T23:06:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5447",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5469,
       "title": "Check driver input names against the program parameters",
       "author": "pfultz2",
@@ -1259,18 +1295,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 5462,
-      "title": "Bump RocMlirTriton with triton_amd_codegen library",
-      "author": "ilango100",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T16:43:40Z",
-      "updated_at": "2026-11-03T07:30:31Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
-      "labels": [],
       "draft": false
     },
     {
@@ -2272,6 +2296,32 @@
       "draft": true
     },
     {
+      "number": 5001,
+      "title": "Nontemporal loads",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-06-19T19:53:52Z",
+      "updated_at": "2026-11-19T14:02:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5001",
+      "labels": [
+        "llm"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5466,
+      "title": "Add MXR recompiling: keep kernel recipes and recompile compiled programs",
+      "author": "anilmartha",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-02T11:05:56Z",
+      "updated_at": "2026-11-19T07:05:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5466",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5474,
       "title": "Prevent FP16 GroupNorm overflow with float intermediates",
       "author": "royzhang-amd",
@@ -3073,18 +3123,6 @@
       "created_at": "2026-10-12T22:55:54Z",
       "updated_at": "2026-10-22T16:03:21Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5379",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5416,
-      "title": "Replace Chris with Sumit as code owner",
-      "author": "causten",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-21T15:01:09Z",
-      "updated_at": "2026-10-22T05:56:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5416",
       "labels": [],
       "draft": false
     }

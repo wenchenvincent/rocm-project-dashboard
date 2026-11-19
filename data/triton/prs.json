@@ -1,17 +1,53 @@
 {
-  "collected_at": "2026-11-18T16:46:52Z",
+  "collected_at": "2026-11-19T16:53:35Z",
   "prs": [
     {
-      "number": 12828,
-      "title": "[AMD] Swizzle the LDS buffer of a dot operand reached through tt.trans",
-      "author": "klin2024",
+      "number": 12835,
+      "title": "[Build] Fix TRITON_AMD_CODEGEN_PATH to copy codegen library into wheel",
+      "author": "benrichard-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-18T15:44:00Z",
-      "updated_at": "2026-11-18T15:51:38Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12828",
+      "created_at": "2026-11-19T02:59:54Z",
+      "updated_at": "2026-11-19T15:28:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12835",
       "labels": [],
-      "draft": true
+      "draft": false
+    },
+    {
+      "number": 12833,
+      "title": "[AMD] [gfx1250-strict] Fix WMMA Fallback + Allow Now-Supported Instructions",
+      "author": "amirumoAMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T22:53:49Z",
+      "updated_at": "2026-11-19T15:03:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12833",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12838,
+      "title": "[AMD] Load the mbarrier state atomically in the wait loop",
+      "author": "jammm",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T06:58:23Z",
+      "updated_at": "2026-11-19T14:20:00Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12838",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12755,
+      "title": "[Autotuner][AMD] Prune compiled configs before benchmarking and skip unmet waves_per_eu",
+      "author": "CRobeck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T19:45:35Z",
+      "updated_at": "2026-11-19T14:12:50Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12755",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 12781,
@@ -20,10 +56,118 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-16T07:20:49Z",
-      "updated_at": "2026-11-18T07:18:06Z",
+      "updated_at": "2026-11-19T07:36:37Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12781",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 12802,
+      "title": " [AMD] Add k_warp_bases to the WMMA layout for per-warp K order",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T13:20:56Z",
+      "updated_at": "2026-11-19T07:35:57Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12802",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12634,
+      "title": "[AMD][Triton] Use aligned buffer mask offsets when bounds permit",
+      "author": "Liang-jianhao97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-05T11:05:03Z",
+      "updated_at": "2026-11-19T07:34:03Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12634",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12813,
+      "title": "[AMD] Fix rounding-mode handling in FpToFpOp lowering",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T23:22:03Z",
+      "updated_at": "2026-11-19T07:05:26Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12813",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12800,
+      "title": "[AMD][gfx1250] Give AsyncTDMIntrinsicWait's token a replacement value",
+      "author": "yiqian1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T05:05:10Z",
+      "updated_at": "2026-11-19T06:27:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12800",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12759,
+      "title": "[AMD][Gluon] Add CDNA5 cooperative atomic ops",
+      "author": "efric",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T00:55:41Z",
+      "updated_at": "2026-11-19T05:20:14Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12759",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12836,
+      "title": "[AMD] Avoid importing torch for pointer range specialization",
+      "author": "ThomasRaoux",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T04:08:31Z",
+      "updated_at": "2026-11-19T04:34:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12836",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12828,
+      "title": "[AMD] Swizzle the LDS buffer of a dot operand reached through tt.trans",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T15:44:00Z",
+      "updated_at": "2026-11-19T02:36:49Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12828",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12734,
+      "title": "[AMD] Support FP6 in Gluon mfma_scaled on gfx950",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:57:09Z",
+      "updated_at": "2026-11-19T00:46:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12734",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12686,
+      "title": "[AMD] Implement TargetFeatures with mlir::ROCDL::TargetInfo",
+      "author": "krzysz00",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T22:24:07Z",
+      "updated_at": "2026-11-18T22:26:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12686",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 12810,
@@ -50,30 +194,6 @@
       "draft": false
     },
     {
-      "number": 12802,
-      "title": " [AMD] Add k_warp_bases to the WMMA layout for per-warp K order",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T13:20:56Z",
-      "updated_at": "2026-11-18T02:17:31Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12802",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12755,
-      "title": "[Autotuner][AMD] Prune compiled configs before benchmarking and skip unmet waves_per_eu",
-      "author": "CRobeck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T19:45:35Z",
-      "updated_at": "2026-11-18T00:54:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12755",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12814,
       "title": "[AMD][NFC] Table-driven FpToFpOp lowering",
       "author": "umangyadav",
@@ -82,30 +202,6 @@
       "created_at": "2026-11-18T00:19:00Z",
       "updated_at": "2026-11-18T00:50:04Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12814",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12813,
-      "title": "[AMD] Fix rounding-mode handling in FpToFpOp lowering",
-      "author": "umangyadav",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T23:22:03Z",
-      "updated_at": "2026-11-18T00:45:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12813",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12734,
-      "title": "[AMD] Support FP6 in Gluon mfma_scaled on gfx950",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T00:57:09Z",
-      "updated_at": "2026-11-17T23:43:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12734",
       "labels": [],
       "draft": true
     },
@@ -170,18 +266,6 @@
       "draft": false
     },
     {
-      "number": 12800,
-      "title": "[AMD][gfx1250] Give AsyncTDMIntrinsicWait's token a replacement value",
-      "author": "yiqian1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T05:05:10Z",
-      "updated_at": "2026-11-17T05:05:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12800",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12656,
       "title": "[AMD] Build LLVM @293a85c048f7 for CodeGen",
       "author": "njriasan",
@@ -226,18 +310,6 @@
       "created_at": "2026-10-30T06:09:15Z",
       "updated_at": "2026-11-16T02:27:34Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12553",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12759,
-      "title": "[AMD][Gluon] Add CDNA5 cooperative atomic ops",
-      "author": "efric",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T00:55:41Z",
-      "updated_at": "2026-11-14T20:01:21Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12759",
       "labels": [],
       "draft": false
     },
@@ -300,18 +372,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12596",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12634,
-      "title": "[AMD][Triton] Use aligned buffer mask offsets when bounds permit",
-      "author": "Liang-jianhao97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T11:05:03Z",
-      "updated_at": "2026-11-12T23:08:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12634",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12633,
@@ -494,18 +554,6 @@
       "draft": false
     },
     {
-      "number": 12686,
-      "title": "[AMD] Implement TargetFeatures with mlir::ROCDL::TargetInfo",
-      "author": "krzysz00",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T22:24:07Z",
-      "updated_at": "2026-11-09T22:24:08Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12686",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12653,
       "title": "[AMD][GLUON] Fix bank conflict count for swizzled layout on CDNA4",
       "author": "borontion",
@@ -542,18 +590,6 @@
       "draft": false
     },
     {
-      "number": 12083,
-      "title": "Catch LLVM diagnostic and raise Python exception in both Nvidia and AMD backends",
-      "author": "woct0rdho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-03T03:01:32Z",
-      "updated_at": "2026-11-09T03:48:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12083",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12654,
       "title": "[AMD] Re-enable kernarg preload under MIR dump/swap",
       "author": "tyb0807",
@@ -564,18 +600,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12654",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12034,
-      "title": "[GSan] Support symmetric memory allocator on AMD (HIP)",
-      "author": "amgddm",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T22:15:34Z",
-      "updated_at": "2026-11-09T00:38:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12034",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12660,
@@ -600,18 +624,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12629",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12610,
-      "title": "[AMD] Staged asyncmark handling for gfx1250 (async wait count knob)",
-      "author": "njriasan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T15:41:26Z",
-      "updated_at": "2026-11-07T19:37:16Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12610",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12177,
@@ -648,18 +660,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12320",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12587,
-      "title": "[AMD] Add warp_pipeline_stage(schedule_hint=\"mfma-valu\") and delay=N for gfx950",
-      "author": "zhanglx13",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T07:36:08Z",
-      "updated_at": "2026-11-04T17:07:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12587",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12595,

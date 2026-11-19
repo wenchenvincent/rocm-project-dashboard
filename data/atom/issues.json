@@ -1,46 +1,883 @@
 {
-  "collected_at": "2026-11-18T16:47:39Z",
+  "collected_at": "2026-11-19T16:54:26Z",
   "issues": [
-    {
-      "number": 3522,
-      "title": "Isolate CPU Spur tests from host GPU monitor tools",
-      "author": "whx-sjtu",
-      "state": "open",
-      "created_at": "2026-11-18T14:07:20Z",
-      "updated_at": "2026-11-18T14:07:20Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3522",
-      "labels": []
-    },
     {
       "number": 3515,
       "title": "[Tracking] Qwen3.8-Flash-Next prefix-hit prefill and MTP decode: SGLang ATOM / Native ATOM optimization PRs",
       "author": "ZLkanyo009",
       "state": "open",
       "created_at": "2026-11-18T08:51:11Z",
-      "updated_at": "2026-11-18T09:16:49Z",
+      "updated_at": "2026-11-19T15:24:37Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/3515",
       "labels": []
     },
     {
-      "number": 3480,
-      "title": "[TBO] TP all-reduce / DP reduce-scatter outputs not held: reuse race gives silently wrong values",
-      "author": "yitingw1",
+      "number": 3595,
+      "title": "MiniMax-M3 vLLM / SGLang bridges: the bf16 / FP8 prefill index scores still allocate per layer call",
+      "author": "Jasen2201",
       "state": "open",
-      "created_at": "2026-11-17T14:30:20Z",
-      "updated_at": "2026-11-18T03:08:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3480",
+      "created_at": "2026-11-19T14:53:03Z",
+      "updated_at": "2026-11-19T14:53:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3595",
+      "labels": []
+    },
+    {
+      "number": 13,
+      "title": "[Issue]: failed to install the aiter",
+      "author": "AlexHe99",
+      "state": "open",
+      "created_at": "2025-11-27T05:20:10Z",
+      "updated_at": "2026-11-19T07:45:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/13",
+      "labels": []
+    },
+    {
+      "number": 14,
+      "title": "More details about requirements in README.md",
+      "author": "AlexHe99",
+      "state": "open",
+      "created_at": "2025-11-27T05:30:19Z",
+      "updated_at": "2026-11-19T07:45:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/14",
+      "labels": []
+    },
+    {
+      "number": 16,
+      "title": "Wiz - 'main' Branch Scan Overview",
+      "author": "wiz-9760d7f104[bot]",
+      "state": "open",
+      "created_at": "2025-11-28T01:18:55Z",
+      "updated_at": "2026-11-19T07:45:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/16",
       "labels": [
-        "bug"
+        "Wiz-remediation"
       ]
     },
     {
-      "number": 3484,
-      "title": "[Perf Regression] 22 config(s) regressed @ 8713a5e9",
+      "number": 196,
+      "title": "[RFC]: Parallel strategy for Deepseek v3.2 like models",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "created_at": "2026-02-08T02:39:49Z",
+      "updated_at": "2026-11-19T07:45:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/196",
+      "labels": []
+    },
+    {
+      "number": 229,
+      "title": "[RFC] CK-Free AITER Compatibility: Attention, MOE, and Docker Changes",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-02-23T05:09:37Z",
+      "updated_at": "2026-11-19T07:45:32Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/229",
+      "labels": []
+    },
+    {
+      "number": 238,
+      "title": "[Issue]: ValueError: could not broadcast input array from shape (58713,) into shape (117001,) with prefix cache enabled",
+      "author": "peizhang56",
+      "state": "open",
+      "created_at": "2026-02-25T21:16:13Z",
+      "updated_at": "2026-11-19T07:45:30Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/238",
+      "labels": []
+    },
+    {
+      "number": 377,
+      "title": "[Feature]: how do i use disagg serving in ATOM?",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-03-22T02:50:20Z",
+      "updated_at": "2026-11-19T07:45:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/377",
+      "labels": []
+    },
+    {
+      "number": 381,
+      "title": "ATOM fails to load DeepSeek-V2-Lite-Chat and Qwen1.5-MoE-A2.7B-Chat (MLA/MoE models)",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-03-23T02:29:49Z",
+      "updated_at": "2026-11-19T07:45:25Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/381",
+      "labels": []
+    },
+    {
+      "number": 442,
+      "title": "FP8 MoE block_n=128 alignment error for models with small intermediate_size (MiniMax M2.5, Qwen3-235B)",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-03-29T18:16:07Z",
+      "updated_at": "2026-11-19T07:45:23Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/442",
+      "labels": []
+    },
+    {
+      "number": 488,
+      "title": "[Feature]: ATOM OpenAI Server, OpenClaw",
+      "author": "carlushuang",
+      "state": "open",
+      "created_at": "2026-04-05T14:31:16Z",
+      "updated_at": "2026-11-19T07:45:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/488",
+      "labels": []
+    },
+    {
+      "number": 490,
+      "title": "MXFP4 MoE weight quantization fails for MiniMax-M2.5: intermediate_size not divisible by block_n=128",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-04-05T21:16:07Z",
+      "updated_at": "2026-11-19T07:45:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/490",
+      "labels": []
+    },
+    {
+      "number": 506,
+      "title": "[Issue]: Multi-Stream Overlap Failure Due to HW Queue Collision",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "created_at": "2026-04-07T10:11:15Z",
+      "updated_at": "2026-11-19T07:45:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/506",
+      "labels": []
+    },
+    {
+      "number": 534,
+      "title": "RFC: Integrate rocm-trace-lite (RTL) for GPU kernel profiling in ATOM",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-04-09T16:12:12Z",
+      "updated_at": "2026-11-19T07:45:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/534",
+      "labels": []
+    },
+    {
+      "number": 577,
+      "title": "[Issue]: RuntimeError with ATOM docker of rocm/atom:rocm7.2.1-ubuntu24.04-pytorch2.9.1-atom0.1.2 for ISL/OSL of 1k/1k and conc64 due to dtype mismatch of two matrices in one gemm kernel call.",
+      "author": "fululi12",
+      "state": "open",
+      "created_at": "2026-04-15T15:11:21Z",
+      "updated_at": "2026-11-19T07:45:05Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/577",
+      "labels": []
+    },
+    {
+      "number": 609,
+      "title": "Analysis: Why chat templates reduce DeepSeek MTP speculative decoding accept rate",
+      "author": "carlushuang",
+      "state": "open",
+      "created_at": "2026-04-19T11:58:52Z",
+      "updated_at": "2026-11-19T07:45:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/609",
+      "labels": []
+    },
+    {
+      "number": 616,
+      "title": "Official atom0.1.2 image: Kimi TP4 startup fails because packaged AITER gen_instances.py scripts break under PYTHONSAFEPATH=1",
+      "author": "josusanmartin",
+      "state": "open",
+      "created_at": "2026-04-20T20:47:27Z",
+      "updated_at": "2026-11-19T07:45:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/616",
+      "labels": []
+    },
+    {
+      "number": 642,
+      "title": "[Tracking] Enable DeepSeek-V4 (Flash 284B / Pro 1.6T, 1M context) inference",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-04-24T04:41:42Z",
+      "updated_at": "2026-11-19T07:44:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/642",
+      "labels": []
+    },
+    {
+      "number": 660,
+      "title": "[Infrastructure] CI failure on PR #532",
+      "author": "amilcodes",
+      "state": "open",
+      "created_at": "2026-04-28T20:13:01Z",
+      "updated_at": "2026-11-19T07:44:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/660",
+      "labels": [
+        "infrastructure",
+        "model-cache",
+        "runner-issue",
+        "not-pr-related",
+        "ci-failure"
+      ]
+    },
+    {
+      "number": 664,
+      "title": "[Analysis] DeepSeek-V4 Attention Pipeline \u2014 Full Tensor Shape Breakdown",
+      "author": "carlushuang",
+      "state": "open",
+      "created_at": "2026-04-29T05:22:45Z",
+      "updated_at": "2026-11-19T07:44:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/664",
+      "labels": [
+        "documentation",
+        "enhancement"
+      ]
+    },
+    {
+      "number": 702,
+      "title": "[Issue]:  aiter ASM paged-attention with block_size=16",
+      "author": "yhl-amd",
+      "state": "open",
+      "created_at": "2026-05-06T16:17:14Z",
+      "updated_at": "2026-11-19T07:44:50Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/702",
+      "labels": []
+    },
+    {
+      "number": 707,
+      "title": "[Tracker]: DeepSeek-V4 Support and Optimization on ATOM",
+      "author": "jamestangg",
+      "state": "open",
+      "created_at": "2026-05-07T02:27:05Z",
+      "updated_at": "2026-11-19T07:44:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/707",
+      "labels": [
+        "workstream"
+      ]
+    },
+    {
+      "number": 807,
+      "title": "[Kernel Gap Analysis] DeepSeek-V4 AMD Porting \u2014 Block-by-Block Kernel Inventory",
+      "author": "ChuanLi1101",
+      "state": "open",
+      "created_at": "2026-05-15T19:41:27Z",
+      "updated_at": "2026-11-19T07:44:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/807",
+      "labels": [
+        "documentation",
+        "enhancement",
+        "workstream"
+      ]
+    },
+    {
+      "number": 867,
+      "title": "[Issue]: readme example fails on gfx1201 (R9700)",
+      "author": "andysalerno",
+      "state": "open",
+      "created_at": "2026-05-21T06:40:06Z",
+      "updated_at": "2026-11-19T07:44:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/867",
+      "labels": []
+    },
+    {
+      "number": 896,
+      "title": "[Issue]: Running DeepSeek V3.2 on MI308x*8 with Atom-vLLM only 200-300K TPM in single-machine performance",
+      "author": "LoadingZhang",
+      "state": "open",
+      "created_at": "2026-05-24T03:08:34Z",
+      "updated_at": "2026-11-19T07:44:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/896",
+      "labels": []
+    },
+    {
+      "number": 1168,
+      "title": "[Parity with CUDA SGLang] FP8 & FP4 AMD Multi-Node PD Disagg Nightly Regression Testing With AMD first class Pollara NICs with multiple prefill workers + multiple decode workers ",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-06-10T19:27:05Z",
+      "updated_at": "2026-11-19T07:44:37Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1168",
+      "labels": []
+    },
+    {
+      "number": 1186,
+      "title": "[Parity with CUDA vLLM]: ATOM Nightly CI and/or per PR CI Function Calling Eval",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-06-12T02:10:49Z",
+      "updated_at": "2026-11-19T07:44:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1186",
+      "labels": []
+    },
+    {
+      "number": 1187,
+      "title": "[Parity with CUDA vLLM, CUDA SGLang]: native ATOM llm-d Kubernetes Distributed Inferencing Orchestrator for Production LLM Inferencing [Functional Enablement + Guides + Nightly CI]",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-06-12T02:38:21Z",
+      "updated_at": "2026-11-19T07:44:32Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1187",
+      "labels": []
+    },
+    {
+      "number": 1188,
+      "title": "Real World ATOM Kimi K2.7-Code Production Inferencing Enablement Request",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-06-12T02:55:53Z",
+      "updated_at": "2026-11-19T07:44:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1188",
+      "labels": []
+    },
+    {
+      "number": 1207,
+      "title": "[Issue]: Using basic instructions to run simple example results in crash on gfx950",
+      "author": "rasmith",
+      "state": "open",
+      "created_at": "2026-06-13T14:42:46Z",
+      "updated_at": "2026-11-19T07:44:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1207",
+      "labels": []
+    },
+    {
+      "number": 1223,
+      "title": "[Issue]: Running Minimax 2.5/2.7 using tip of tree (ATOM/AITER/vLLM) or latest nightly version with TP=8 on results in error: Invalid qk hidden dim layout Invalid qk hidden dim layout for qknorm_allreduce_fusion_kernel_2stage kernel:",
+      "author": "rasmith",
+      "state": "open",
+      "created_at": "2026-06-15T17:58:42Z",
+      "updated_at": "2026-11-19T07:44:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1223",
+      "labels": []
+    },
+    {
+      "number": 1302,
+      "title": "[BUG] Performance degradation and garbled text output when benchmarking DeepSeek-V4-Pro with ATOM backend on MI355X",
+      "author": "luqitao",
+      "state": "open",
+      "created_at": "2026-06-21T12:12:02Z",
+      "updated_at": "2026-11-19T07:44:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1302",
+      "labels": []
+    },
+    {
+      "number": 1407,
+      "title": "MiniMax-M3-MXFP4: image requests rejected \u2014 processor has no chat template (multimodal eval blocked)",
+      "author": "Princejain1101",
+      "state": "open",
+      "created_at": "2026-06-30T03:17:25Z",
+      "updated_at": "2026-11-19T07:44:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1407",
+      "labels": []
+    },
+    {
+      "number": 1462,
+      "title": "[Issue]: Concurrent TP8's from QPX partitions fail",
+      "author": "mustafa-khalid",
+      "state": "open",
+      "created_at": "2026-07-03T13:11:22Z",
+      "updated_at": "2026-11-19T07:44:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1462",
+      "labels": []
+    },
+    {
+      "number": 1483,
+      "title": "Docs: how to set up and run single-node 4P4D (prefill/decode disaggregation) with Mooncake (XGMI/TCP)",
+      "author": "carlushuang",
+      "state": "open",
+      "created_at": "2026-07-06T12:57:58Z",
+      "updated_at": "2026-11-19T07:44:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1483",
+      "labels": [
+        "documentation"
+      ]
+    },
+    {
+      "number": 1506,
+      "title": "[Bug] DeepSeek-V4 TBO decode + CUDAGraph: hipBLASLt heuristic during capture aborts with HIP 900 ('operation not permitted when stream is capturing')",
+      "author": "yhl-amd",
+      "state": "open",
+      "created_at": "2026-07-07T17:33:00Z",
+      "updated_at": "2026-11-19T07:44:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1506",
+      "labels": []
+    },
+    {
+      "number": 1507,
+      "title": "[DeepSeek-V4] index_topk=1024 sparse indexer can't recall verbatim lines from ~18k+ prompts (breaks agentic cwd/env recall)",
+      "author": "yhl-amd",
+      "state": "open",
+      "created_at": "2026-07-08T02:29:23Z",
+      "updated_at": "2026-11-19T07:44:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1507",
+      "labels": []
+    },
+    {
+      "number": 1696,
+      "title": "[Feature]: Structure Output support",
+      "author": "jiejingzhangamd",
+      "state": "open",
+      "created_at": "2026-07-24T23:21:57Z",
+      "updated_at": "2026-11-19T07:44:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1696",
+      "labels": []
+    },
+    {
+      "number": 1748,
+      "title": "[Issue]: Mooncake picks a link-local RoCE GID on ionic NICs, requiring a manual MC_GID_INDEX override",
+      "author": "mustafa-khalid",
+      "state": "open",
+      "created_at": "2026-07-30T11:31:18Z",
+      "updated_at": "2026-11-19T07:44:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1748",
+      "labels": []
+    },
+    {
+      "number": 1918,
+      "title": "Qwen3.5 cannot start through the SGLang plugin on main (two independent failures)",
+      "author": "zovonoir",
+      "state": "open",
+      "created_at": "2026-08-17T05:22:28Z",
+      "updated_at": "2026-11-19T07:44:02Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1918",
+      "labels": []
+    },
+    {
+      "number": 1934,
+      "title": "[Feature]:  DeepSeek V4 on ATOM",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-17T16:35:07Z",
+      "updated_at": "2026-11-19T07:43:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1934",
+      "labels": []
+    },
+    {
+      "number": 1945,
+      "title": "[Issue]: GPT-OSS-120B fails on the ATOM SGLang stack (MXFP4 `triton_kernel` MoE)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-18T10:50:11Z",
+      "updated_at": "2026-11-19T07:43:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1945",
+      "labels": []
+    },
+    {
+      "number": 1972,
+      "title": "[Issue]:",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-20T11:10:19Z",
+      "updated_at": "2026-11-19T07:43:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1972",
+      "labels": []
+    },
+    {
+      "number": 2021,
+      "title": "[Issue]: Mori EP-MoE not CUDA-graph-capturable under TP-attention",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-25T16:28:10Z",
+      "updated_at": "2026-11-19T07:43:52Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2021",
+      "labels": []
+    },
+    {
+      "number": 2081,
+      "title": "[Feature]: Profiler: option to set a profiler window",
+      "author": "devalshahamd",
+      "state": "open",
+      "created_at": "2026-08-28T15:27:53Z",
+      "updated_at": "2026-11-19T07:43:50Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2081",
+      "labels": []
+    },
+    {
+      "number": 2354,
+      "title": "moriio registers as a `reads_block_regions` backend but never reads them: DSA models decode garbage past the dense window, and its completion test frees in-flight `TransferStatus` objects",
+      "author": "IvanShan177",
+      "state": "open",
+      "created_at": "2026-09-22T09:49:46Z",
+      "updated_at": "2026-11-19T07:43:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2354",
+      "labels": []
+    },
+    {
+      "number": 2634,
+      "title": "[RFC] Add MORI-UMBP KV Cache Offloading for ATOM",
+      "author": "charxwu",
+      "state": "open",
+      "created_at": "2026-10-19T08:17:55Z",
+      "updated_at": "2026-11-19T07:43:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2634",
+      "labels": []
+    },
+    {
+      "number": 2712,
+      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-26T06:28:03Z",
+      "updated_at": "2026-11-19T07:43:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
+      "labels": []
+    },
+    {
+      "number": 2769,
+      "title": "[Perf Regression] 10 config(s) regressed @ fbb82673",
       "author": "github-actions[bot]",
       "state": "open",
-      "created_at": "2026-11-18T00:47:06Z",
-      "updated_at": "2026-11-18T00:47:06Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3484",
+      "created_at": "2026-10-28T01:31:09Z",
+      "updated_at": "2026-11-19T07:43:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2769",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2832,
+      "title": "[Perf Regression] 15 config(s) regressed @ 66796d40",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-30T01:23:26Z",
+      "updated_at": "2026-11-19T07:43:37Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2832",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2861,
+      "title": "Qwen3.8 PLE host table: share one page-locked copy across the DP ranks of a node",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-30T12:35:58Z",
+      "updated_at": "2026-11-19T07:43:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2861",
+      "labels": []
+    },
+    {
+      "number": 2863,
+      "title": "Move RapidServe's _CU_POOL_FRACTIONS from RapidServeModelRunner to atom/config.py",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-30T13:12:42Z",
+      "updated_at": "2026-11-19T07:43:32Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2863",
+      "labels": []
+    },
+    {
+      "number": 2865,
+      "title": "Qwen3.5 image prompt: prefix-cache hit covering image tokens crashes merge_multimodal_embeddings (shape mismatch), reproduces on main without offload",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-30T13:35:30Z",
+      "updated_at": "2026-11-19T07:43:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2865",
+      "labels": []
+    },
+    {
+      "number": 2866,
+      "title": "Qwen3-Next-80B-A3B-Instruct-FP8 (TP1, cudagraph): HIP illegal memory access after 193/200 GSM8K requests; --enforce-eager is fine",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-10-30T13:35:31Z",
+      "updated_at": "2026-11-19T07:43:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2866",
+      "labels": []
+    },
+    {
+      "number": 2875,
+      "title": "[Perf Regression] 16 config(s) regressed @ 43eed2fd",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-31T22:45:12Z",
+      "updated_at": "2026-11-19T07:43:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2875",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2879,
+      "title": "[Perf Regression] 49 config(s) regressed @ d246797d",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-01T09:13:52Z",
+      "updated_at": "2026-11-19T07:43:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2879",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2892,
+      "title": "Qwen3.8-Flash-Next-Quark-MXFP4 with -dp 2 (TP1, MTP 3): ModelRunner dies in PLE compute_ngram_ids (ngram_context shape mismatch) near the end of GSM8K, reproduces on main",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-02T03:05:13Z",
+      "updated_at": "2026-11-19T07:43:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2892",
+      "labels": []
+    },
+    {
+      "number": 2928,
+      "title": "[Issue]: Native sampler shares one exponential-noise row across all unfiltered stochastic rows of a batch (ordinary n=1 requests)",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-02T19:51:54Z",
+      "updated_at": "2026-11-19T07:43:16Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2928",
+      "labels": []
+    },
+    {
+      "number": 2931,
+      "title": "[Perf Regression] 13 config(s) regressed @ 974414f1",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-03T00:17:38Z",
+      "updated_at": "2026-11-19T07:43:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2931",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 2974,
+      "title": "Reasoning markers inside a tool-call argument are read as channel markers",
+      "author": "Jasen2201",
+      "state": "open",
+      "created_at": "2026-11-04T03:37:22Z",
+      "updated_at": "2026-11-19T07:43:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2974",
+      "labels": []
+    },
+    {
+      "number": 2983,
+      "title": "Qwen3.8 Mono: PLE host table (`MonoPleEmbedding`) has no release_weight_memory / sync_weight hooks",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-04T07:28:12Z",
+      "updated_at": "2026-11-19T07:43:08Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2983",
+      "labels": []
+    },
+    {
+      "number": 3025,
+      "title": "Qwen3.8: make the QSA field declaration kernel-free so the builder's offload tests run on CPU CI",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-05T03:39:53Z",
+      "updated_at": "2026-11-19T07:43:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3025",
+      "labels": []
+    },
+    {
+      "number": 3028,
+      "title": "Plugin mode: atom_config.load_dummy is always None, so a framework's dummy load is invisible to ATOM",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-05T04:38:54Z",
+      "updated_at": "2026-11-19T07:43:03Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3028",
+      "labels": []
+    },
+    {
+      "number": 3032,
+      "title": "mono: `resident_grid_refusals` compares the raw `kv_connector` spelling, so connector aliases and `multi` silently turn mono decode off",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-05T07:29:56Z",
+      "updated_at": "2026-11-19T07:43:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3032",
+      "labels": []
+    },
+    {
+      "number": 3095,
+      "title": "[Issue]: [DeepSeek-V4] TP ranks select MoE experts from their own replicated router logits and can disagree on identical inputs (gfx950)",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-08T15:56:12Z",
+      "updated_at": "2026-11-19T07:42:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3095",
+      "labels": []
+    },
+    {
+      "number": 3120,
+      "title": "GLM-5.3-Flash with bf16 KV: aiter MLA decode misreads KV stored past 4 GiB of a layer's cache",
+      "author": "PerryZhang01",
+      "state": "open",
+      "created_at": "2026-11-09T12:07:38Z",
+      "updated_at": "2026-11-19T07:42:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3120",
+      "labels": []
+    },
+    {
+      "number": 3123,
+      "title": "[Bug] Qwen3.8-Flash-Next (qwen4_exp) image prompts crash on a prefix-cache hit inside or past an image",
+      "author": "syang-genai",
+      "state": "open",
+      "created_at": "2026-11-09T13:26:07Z",
+      "updated_at": "2026-11-19T07:42:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3123",
+      "labels": []
+    },
+    {
+      "number": 3149,
+      "title": "[ROCm Product Quality Control]: Weekly Kimi Vendor Verifier (KVV) accuracy regression testing on AMD ATOM",
+      "author": "functionstackx",
+      "state": "open",
+      "created_at": "2026-11-10T03:19:58Z",
+      "updated_at": "2026-11-19T07:42:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3149",
+      "labels": []
+    },
+    {
+      "number": 3227,
+      "title": "offload: two known gaps from #3027 (vLLM plugin media keys unsalted; Kimi-K3 chunk-aligned resend gets no tier hit)",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-12T02:37:22Z",
+      "updated_at": "2026-11-19T07:42:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3227",
+      "labels": []
+    },
+    {
+      "number": 3239,
+      "title": "[Perf Regression] 17 config(s) regressed @ 47e0c707",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-12T11:47:35Z",
+      "updated_at": "2026-11-19T07:42:46Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3239",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3259,
+      "title": "[RFC] Pluggable KV pool backend: MORI-UMBP owns the L1 (HBM) pool so DP ranks share it",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-11-12T14:19:25Z",
+      "updated_at": "2026-11-19T07:42:43Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3259",
+      "labels": []
+    },
+    {
+      "number": 3260,
+      "title": "MiniMax-M3.1 MXFP4 KV: route sparse PA decode through run_pa_decode and drop the segment plan loop",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "created_at": "2026-11-12T14:23:44Z",
+      "updated_at": "2026-11-19T07:42:40Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3260",
+      "labels": []
+    },
+    {
+      "number": 3261,
+      "title": "MhaKvPool: take only the KV layout (drop kv_dtype); the layout reports the transfer unit",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "created_at": "2026-11-12T14:23:46Z",
+      "updated_at": "2026-11-19T07:42:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3261",
+      "labels": []
+    },
+    {
+      "number": 3262,
+      "title": "Per-model fp4 KV support hook instead of _check_fp4_kv in shared config.py",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "created_at": "2026-11-12T14:23:47Z",
+      "updated_at": "2026-11-19T07:42:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3262",
+      "labels": []
+    },
+    {
+      "number": 3263,
+      "title": "MiniMax-M3 skip-index layers: one fused writer for every KV dtype",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "created_at": "2026-11-12T14:23:48Z",
+      "updated_at": "2026-11-19T07:42:32Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3263",
+      "labels": []
+    },
+    {
+      "number": 3322,
+      "title": "[Perf Regression] 20 config(s) regressed @ 5b744ee3",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-13T13:20:52Z",
+      "updated_at": "2026-11-19T07:42:30Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3322",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3360,
+      "title": "[Perf Regression] 25 config(s) regressed @ 95a7147f",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-14T22:00:44Z",
+      "updated_at": "2026-11-19T07:42:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3360",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3368,
+      "title": "[Perf Regression] 42 config(s) regressed @ 7a79a147",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-15T12:30:15Z",
+      "updated_at": "2026-11-19T07:42:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3368",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3377,
+      "title": "mesh: route DeepSeek V3.2/V4 chats by tokens, rendered with ATOM defaults",
+      "author": "wanzhenchn",
+      "state": "open",
+      "created_at": "2026-11-15T17:49:47Z",
+      "updated_at": "2026-11-19T07:42:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3377",
+      "labels": []
+    },
+    {
+      "number": 3378,
+      "title": "mesh: golden fixture for GLM-5.2's chat template with tools",
+      "author": "wanzhenchn",
+      "state": "open",
+      "created_at": "2026-11-15T17:49:47Z",
+      "updated_at": "2026-11-19T07:42:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3378",
+      "labels": []
+    },
+    {
+      "number": 3380,
+      "title": "[Perf Regression] 19 config(s) regressed @ 0c94a00a",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-15T22:40:27Z",
+      "updated_at": "2026-11-19T07:42:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3380",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3397,
+      "title": "[Perf Regression] 6 config(s) regressed @ 8220b81a",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-16T06:02:44Z",
+      "updated_at": "2026-11-19T07:42:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3397",
       "labels": [
         "performance",
         "regression"
@@ -52,8 +889,56 @@
       "author": "github-actions[bot]",
       "state": "open",
       "created_at": "2026-11-17T10:52:25Z",
-      "updated_at": "2026-11-17T10:52:25Z",
+      "updated_at": "2026-11-19T07:42:11Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/3468",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3480,
+      "title": "[TBO] TP all-reduce / DP reduce-scatter outputs not held: reuse race gives silently wrong values",
+      "author": "yitingw1",
+      "state": "open",
+      "created_at": "2026-11-17T14:30:20Z",
+      "updated_at": "2026-11-19T07:42:08Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3480",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 3484,
+      "title": "[Perf Regression] 22 config(s) regressed @ 8713a5e9",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-18T00:47:06Z",
+      "updated_at": "2026-11-19T07:42:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3484",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3522,
+      "title": "Isolate CPU Spur tests from host GPU monitor tools",
+      "author": "whx-sjtu",
+      "state": "open",
+      "created_at": "2026-11-18T14:07:20Z",
+      "updated_at": "2026-11-19T07:42:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3522",
+      "labels": []
+    },
+    {
+      "number": 3530,
+      "title": "[Perf Regression] 18 config(s) regressed @ 9b2e67b7",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-19T00:48:00Z",
+      "updated_at": "2026-11-19T07:41:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3530",
       "labels": [
         "performance",
         "regression"
@@ -70,29 +955,6 @@
       "labels": []
     },
     {
-      "number": 2712,
-      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-26T06:28:03Z",
-      "updated_at": "2026-11-16T06:36:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
-      "labels": []
-    },
-    {
-      "number": 3397,
-      "title": "[Perf Regression] 6 config(s) regressed @ 8220b81a",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-11-16T06:02:44Z",
-      "updated_at": "2026-11-16T06:02:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3397",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
       "number": 3231,
       "title": "[RFC] Decouple LMCache MP mode from ATOM",
       "author": "maobaolong",
@@ -101,88 +963,6 @@
       "updated_at": "2026-11-16T05:28:24Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/3231",
       "labels": []
-    },
-    {
-      "number": 3259,
-      "title": "[RFC] Pluggable KV pool backend: MORI-UMBP owns the L1 (HBM) pool so DP ranks share it",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-11-12T14:19:25Z",
-      "updated_at": "2026-11-16T02:54:01Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3259",
-      "labels": []
-    },
-    {
-      "number": 3380,
-      "title": "[Perf Regression] 19 config(s) regressed @ 0c94a00a",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-11-15T22:40:27Z",
-      "updated_at": "2026-11-15T22:40:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3380",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 3378,
-      "title": "mesh: golden fixture for GLM-5.2's chat template with tools",
-      "author": "wanzhenchn",
-      "state": "open",
-      "created_at": "2026-11-15T17:49:47Z",
-      "updated_at": "2026-11-15T17:49:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3378",
-      "labels": []
-    },
-    {
-      "number": 3377,
-      "title": "mesh: route DeepSeek V3.2/V4 chats by tokens, rendered with ATOM defaults",
-      "author": "wanzhenchn",
-      "state": "open",
-      "created_at": "2026-11-15T17:49:47Z",
-      "updated_at": "2026-11-15T17:49:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3377",
-      "labels": []
-    },
-    {
-      "number": 3368,
-      "title": "[Perf Regression] 42 config(s) regressed @ 7a79a147",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-11-15T12:30:15Z",
-      "updated_at": "2026-11-15T12:30:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3368",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 3360,
-      "title": "[Perf Regression] 25 config(s) regressed @ 95a7147f",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-11-14T22:00:44Z",
-      "updated_at": "2026-11-14T22:00:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3360",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 3322,
-      "title": "[Perf Regression] 20 config(s) regressed @ 5b744ee3",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-11-13T13:20:52Z",
-      "updated_at": "2026-11-13T13:20:52Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3322",
-      "labels": [
-        "performance",
-        "regression"
-      ]
     },
     {
       "number": 3222,
@@ -195,69 +975,6 @@
       "labels": [
         "bug"
       ]
-    },
-    {
-      "number": 3263,
-      "title": "MiniMax-M3 skip-index layers: one fused writer for every KV dtype",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "created_at": "2026-11-12T14:23:48Z",
-      "updated_at": "2026-11-12T14:23:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3263",
-      "labels": []
-    },
-    {
-      "number": 3262,
-      "title": "Per-model fp4 KV support hook instead of _check_fp4_kv in shared config.py",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "created_at": "2026-11-12T14:23:47Z",
-      "updated_at": "2026-11-12T14:23:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3262",
-      "labels": []
-    },
-    {
-      "number": 3261,
-      "title": "MhaKvPool: take only the KV layout (drop kv_dtype); the layout reports the transfer unit",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "created_at": "2026-11-12T14:23:46Z",
-      "updated_at": "2026-11-12T14:23:46Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3261",
-      "labels": []
-    },
-    {
-      "number": 3260,
-      "title": "MiniMax-M3.1 MXFP4 KV: route sparse PA decode through run_pa_decode and drop the segment plan loop",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "created_at": "2026-11-12T14:23:44Z",
-      "updated_at": "2026-11-12T14:23:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3260",
-      "labels": []
-    },
-    {
-      "number": 3239,
-      "title": "[Perf Regression] 17 config(s) regressed @ 47e0c707",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-11-12T11:47:35Z",
-      "updated_at": "2026-11-12T11:47:35Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3239",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 3227,
-      "title": "offload: two known gaps from #3027 (vLLM plugin media keys unsalted; Kimi-K3 chunk-aligned resend gets no tier hit)",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-12T02:37:22Z",
-      "updated_at": "2026-11-12T02:37:22Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3227",
-      "labels": []
     },
     {
       "number": 3190,
@@ -283,36 +1000,6 @@
       ]
     },
     {
-      "number": 3149,
-      "title": "[ROCm Product Quality Control]: Weekly Kimi Vendor Verifier (KVV) accuracy regression testing on AMD ATOM",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-11-10T03:19:58Z",
-      "updated_at": "2026-11-10T03:20:20Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3149",
-      "labels": []
-    },
-    {
-      "number": 3123,
-      "title": "[Bug] Qwen3.8-Flash-Next (qwen4_exp) image prompts crash on a prefix-cache hit inside or past an image",
-      "author": "syang-genai",
-      "state": "open",
-      "created_at": "2026-11-09T13:26:07Z",
-      "updated_at": "2026-11-09T13:26:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3123",
-      "labels": []
-    },
-    {
-      "number": 3120,
-      "title": "GLM-5.3-Flash with bf16 KV: aiter MLA decode misreads KV stored past 4 GiB of a layer's cache",
-      "author": "PerryZhang01",
-      "state": "open",
-      "created_at": "2026-11-09T12:07:38Z",
-      "updated_at": "2026-11-09T12:07:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3120",
-      "labels": []
-    },
-    {
       "number": 3096,
       "title": "[Perf Regression] 7 config(s) regressed @ 6d22f7db",
       "author": "github-actions[bot]",
@@ -324,16 +1011,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 3095,
-      "title": "[Issue]: [DeepSeek-V4] TP ranks select MoE experts from their own replicated router logits and can disagree on identical inputs (gfx950)",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-08T15:56:12Z",
-      "updated_at": "2026-11-08T15:56:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3095",
-      "labels": []
     },
     {
       "number": 3094,
@@ -362,16 +1039,6 @@
       ]
     },
     {
-      "number": 2928,
-      "title": "[Issue]: Native sampler shares one exponential-noise row across all unfiltered stochastic rows of a batch (ordinary n=1 requests)",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-02T19:51:54Z",
-      "updated_at": "2026-11-07T02:19:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2928",
-      "labels": []
-    },
-    {
       "number": 3047,
       "title": "[Perf Regression] 23 config(s) regressed @ 64412f10",
       "author": "github-actions[bot]",
@@ -383,16 +1050,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 2865,
-      "title": "Qwen3.5 image prompt: prefix-cache hit covering image tokens crashes merge_multimodal_embeddings (shape mismatch), reproduces on main without offload",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-30T13:35:30Z",
-      "updated_at": "2026-11-05T13:22:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2865",
-      "labels": []
     },
     {
       "number": 3037,
@@ -408,46 +1065,6 @@
       ]
     },
     {
-      "number": 3032,
-      "title": "mono: `resident_grid_refusals` compares the raw `kv_connector` spelling, so connector aliases and `multi` silently turn mono decode off",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-05T07:29:56Z",
-      "updated_at": "2026-11-05T07:29:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3032",
-      "labels": []
-    },
-    {
-      "number": 3028,
-      "title": "Plugin mode: atom_config.load_dummy is always None, so a framework's dummy load is invisible to ATOM",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-05T04:38:54Z",
-      "updated_at": "2026-11-05T04:38:54Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3028",
-      "labels": []
-    },
-    {
-      "number": 3025,
-      "title": "Qwen3.8: make the QSA field declaration kernel-free so the builder's offload tests run on CPU CI",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-05T03:39:53Z",
-      "updated_at": "2026-11-05T03:39:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3025",
-      "labels": []
-    },
-    {
-      "number": 506,
-      "title": "[Issue]: Multi-Stream Overlap Failure Due to HW Queue Collision",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "created_at": "2026-04-07T10:11:15Z",
-      "updated_at": "2026-11-04T16:45:23Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/506",
-      "labels": []
-    },
-    {
       "number": 2991,
       "title": "[Perf Regression] 1 config(s) regressed @ 16ebac2e",
       "author": "github-actions[bot]",
@@ -459,26 +1076,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 2983,
-      "title": "Qwen3.8 Mono: PLE host table (`MonoPleEmbedding`) has no release_weight_memory / sync_weight hooks",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-04T07:28:12Z",
-      "updated_at": "2026-11-04T07:28:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2983",
-      "labels": []
-    },
-    {
-      "number": 2974,
-      "title": "Reasoning markers inside a tool-call argument are read as channel markers",
-      "author": "Jasen2201",
-      "state": "open",
-      "created_at": "2026-11-04T03:37:22Z",
-      "updated_at": "2026-11-04T06:24:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2974",
-      "labels": []
     },
     {
       "number": 2955,
@@ -507,85 +1104,6 @@
       ]
     },
     {
-      "number": 2931,
-      "title": "[Perf Regression] 13 config(s) regressed @ 974414f1",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-11-03T00:17:38Z",
-      "updated_at": "2026-11-03T00:17:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2931",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2892,
-      "title": "Qwen3.8-Flash-Next-Quark-MXFP4 with -dp 2 (TP1, MTP 3): ModelRunner dies in PLE compute_ngram_ids (ngram_context shape mismatch) near the end of GSM8K, reproduces on main",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-02T03:05:13Z",
-      "updated_at": "2026-11-02T03:05:13Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2892",
-      "labels": []
-    },
-    {
-      "number": 2879,
-      "title": "[Perf Regression] 49 config(s) regressed @ d246797d",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-11-01T09:13:52Z",
-      "updated_at": "2026-11-01T09:13:52Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2879",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2875,
-      "title": "[Perf Regression] 16 config(s) regressed @ 43eed2fd",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-31T22:45:12Z",
-      "updated_at": "2026-10-31T22:45:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2875",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2866,
-      "title": "Qwen3-Next-80B-A3B-Instruct-FP8 (TP1, cudagraph): HIP illegal memory access after 193/200 GSM8K requests; --enforce-eager is fine",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-30T13:35:31Z",
-      "updated_at": "2026-10-30T13:35:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2866",
-      "labels": []
-    },
-    {
-      "number": 2863,
-      "title": "Move RapidServe's _CU_POOL_FRACTIONS from RapidServeModelRunner to atom/config.py",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-30T13:12:42Z",
-      "updated_at": "2026-10-30T13:12:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2863",
-      "labels": []
-    },
-    {
-      "number": 2861,
-      "title": "Qwen3.8 PLE host table: share one page-locked copy across the DP ranks of a node",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-30T12:35:58Z",
-      "updated_at": "2026-10-30T12:35:58Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2861",
-      "labels": []
-    },
-    {
       "number": 2811,
       "title": "[Issue]: Freeing a mono PeerBuffer's uncached memory corrupts later allocations on MI355X (step_begin faults, data reads back as zeros)",
       "author": "jhinpan",
@@ -593,52 +1111,6 @@
       "created_at": "2026-10-29T06:05:24Z",
       "updated_at": "2026-10-30T08:19:41Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2811",
-      "labels": []
-    },
-    {
-      "number": 2832,
-      "title": "[Perf Regression] 15 config(s) regressed @ 66796d40",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-30T01:23:26Z",
-      "updated_at": "2026-10-30T01:23:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2832",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2769,
-      "title": "[Perf Regression] 10 config(s) regressed @ fbb82673",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-28T01:31:09Z",
-      "updated_at": "2026-10-28T01:31:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2769",
-      "labels": [
-        "performance",
-        "regression"
-      ]
-    },
-    {
-      "number": 2634,
-      "title": "[RFC] Add MORI-UMBP KV Cache Offloading for ATOM",
-      "author": "charxwu",
-      "state": "open",
-      "created_at": "2026-10-19T08:17:55Z",
-      "updated_at": "2026-10-19T08:17:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2634",
-      "labels": []
-    },
-    {
-      "number": 2354,
-      "title": "moriio registers as a `reads_block_regions` backend but never reads them: DSA models decode garbage past the dense window, and its completion test frees in-flight `TransferStatus` objects",
-      "author": "IvanShan177",
-      "state": "open",
-      "created_at": "2026-09-22T09:49:46Z",
-      "updated_at": "2026-09-25T22:59:13Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2354",
       "labels": []
     },
     {
@@ -692,16 +1164,6 @@
       "created_at": "2026-09-03T19:11:16Z",
       "updated_at": "2026-09-03T19:11:16Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2136",
-      "labels": []
-    },
-    {
-      "number": 2081,
-      "title": "[Feature]: Profiler: option to set a profiler window",
-      "author": "devalshahamd",
-      "state": "open",
-      "created_at": "2026-08-28T15:27:53Z",
-      "updated_at": "2026-08-28T15:27:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2081",
       "labels": []
     },
     {
@@ -765,36 +1227,6 @@
       "labels": []
     },
     {
-      "number": 2021,
-      "title": "[Issue]: Mori EP-MoE not CUDA-graph-capturable under TP-attention",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-25T16:28:10Z",
-      "updated_at": "2026-08-25T16:36:00Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2021",
-      "labels": []
-    },
-    {
-      "number": 1945,
-      "title": "[Issue]: GPT-OSS-120B fails on the ATOM SGLang stack (MXFP4 `triton_kernel` MoE)",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-18T10:50:11Z",
-      "updated_at": "2026-08-20T11:28:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1945",
-      "labels": []
-    },
-    {
-      "number": 1972,
-      "title": "[Issue]:",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-20T11:10:19Z",
-      "updated_at": "2026-08-20T11:10:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1972",
-      "labels": []
-    },
-    {
       "number": 1957,
       "title": "[Issue]:",
       "author": "ibeattyo",
@@ -835,56 +1267,6 @@
       "labels": []
     },
     {
-      "number": 1934,
-      "title": "[Feature]:  DeepSeek V4 on ATOM",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-17T16:35:07Z",
-      "updated_at": "2026-08-17T16:35:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1934",
-      "labels": []
-    },
-    {
-      "number": 1918,
-      "title": "Qwen3.5 cannot start through the SGLang plugin on main (two independent failures)",
-      "author": "zovonoir",
-      "state": "open",
-      "created_at": "2026-08-17T05:22:28Z",
-      "updated_at": "2026-08-17T05:23:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1918",
-      "labels": []
-    },
-    {
-      "number": 1847,
-      "title": "How can I install and embed ATOM inside an arbitrary vanilla vLLM container \uff1f",
-      "author": "Alan-D-Chen",
-      "state": "open",
-      "created_at": "2026-08-10T07:21:13Z",
-      "updated_at": "2026-08-11T08:57:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1847",
-      "labels": []
-    },
-    {
-      "number": 1854,
-      "title": "How can I run the Kimi K3 model on multiple AMD MI308X servers \uff1f",
-      "author": "Alan-D-Chen",
-      "state": "open",
-      "created_at": "2026-08-10T16:14:53Z",
-      "updated_at": "2026-08-11T02:00:14Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1854",
-      "labels": []
-    },
-    {
-      "number": 577,
-      "title": "[Issue]: RuntimeError with ATOM docker of rocm/atom:rocm7.2.1-ubuntu24.04-pytorch2.9.1-atom0.1.2 for ISL/OSL of 1k/1k and conc64 due to dtype mismatch of two matrices in one gemm kernel call.",
-      "author": "fululi12",
-      "state": "open",
-      "created_at": "2026-04-15T15:11:21Z",
-      "updated_at": "2026-08-01T09:45:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/577",
-      "labels": []
-    },
-    {
       "number": 565,
       "title": "CI: Qwen3-Next-80B-A3B-Thinking accuracy test times out at 30-minute limit",
       "author": "sunway513",
@@ -902,36 +1284,6 @@
       "created_at": "2026-04-21T15:50:44Z",
       "updated_at": "2026-08-01T09:45:16Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/623",
-      "labels": []
-    },
-    {
-      "number": 1748,
-      "title": "[Issue]: Mooncake picks a link-local RoCE GID on ionic NICs, requiring a manual MC_GID_INDEX override",
-      "author": "mustafa-khalid",
-      "state": "open",
-      "created_at": "2026-07-30T11:31:18Z",
-      "updated_at": "2026-07-30T11:31:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1748",
-      "labels": []
-    },
-    {
-      "number": 555,
-      "title": "[parity with vllm & sglang]:  forcing a specific acceptance rate during rejection sampling",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-14T04:04:21Z",
-      "updated_at": "2026-07-27T03:48:14Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/555",
-      "labels": []
-    },
-    {
-      "number": 1696,
-      "title": "[Feature]: Structure Output support",
-      "author": "jiejingzhangamd",
-      "state": "open",
-      "created_at": "2026-07-24T23:21:57Z",
-      "updated_at": "2026-07-24T23:21:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1696",
       "labels": []
     },
     {
@@ -955,26 +1307,6 @@
       "labels": []
     },
     {
-      "number": 1506,
-      "title": "[Bug] DeepSeek-V4 TBO decode + CUDAGraph: hipBLASLt heuristic during capture aborts with HIP 900 ('operation not permitted when stream is capturing')",
-      "author": "yhl-amd",
-      "state": "open",
-      "created_at": "2026-07-07T17:33:00Z",
-      "updated_at": "2026-07-10T07:00:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1506",
-      "labels": []
-    },
-    {
-      "number": 1507,
-      "title": "[DeepSeek-V4] index_topk=1024 sparse indexer can't recall verbatim lines from ~18k+ prompts (breaks agentic cwd/env recall)",
-      "author": "yhl-amd",
-      "state": "open",
-      "created_at": "2026-07-08T02:29:23Z",
-      "updated_at": "2026-07-10T02:36:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1507",
-      "labels": []
-    },
-    {
       "number": 1497,
       "title": "Optimize the ATOM CI Execution Time",
       "author": "gyohuangxin",
@@ -987,38 +1319,6 @@
       ]
     },
     {
-      "number": 1483,
-      "title": "Docs: how to set up and run single-node 4P4D (prefill/decode disaggregation) with Mooncake (XGMI/TCP)",
-      "author": "carlushuang",
-      "state": "open",
-      "created_at": "2026-07-06T12:57:58Z",
-      "updated_at": "2026-07-07T08:04:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1483",
-      "labels": [
-        "documentation"
-      ]
-    },
-    {
-      "number": 1462,
-      "title": "[Issue]: Concurrent TP8's from QPX partitions fail",
-      "author": "mustafa-khalid",
-      "state": "open",
-      "created_at": "2026-07-03T13:11:22Z",
-      "updated_at": "2026-07-06T13:57:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1462",
-      "labels": []
-    },
-    {
-      "number": 1407,
-      "title": "MiniMax-M3-MXFP4: image requests rejected \u2014 processor has no chat template (multimodal eval blocked)",
-      "author": "Princejain1101",
-      "state": "open",
-      "created_at": "2026-06-30T03:17:25Z",
-      "updated_at": "2026-06-30T03:17:25Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1407",
-      "labels": []
-    },
-    {
       "number": 1347,
       "title": "rocm/atom-dev:latest crashes on MiniMax-M3 MXFP4: AIter API mismatch in fused_qknorm_idxrqknorm",
       "author": "Princejain1101",
@@ -1026,96 +1326,6 @@
       "created_at": "2026-06-24T19:35:48Z",
       "updated_at": "2026-06-26T01:00:23Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/1347",
-      "labels": []
-    },
-    {
-      "number": 609,
-      "title": "Analysis: Why chat templates reduce DeepSeek MTP speculative decoding accept rate",
-      "author": "carlushuang",
-      "state": "open",
-      "created_at": "2026-04-19T11:58:52Z",
-      "updated_at": "2026-06-25T09:31:35Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/609",
-      "labels": []
-    },
-    {
-      "number": 1302,
-      "title": "[BUG] Performance degradation and garbled text output when benchmarking DeepSeek-V4-Pro with ATOM backend on MI355X",
-      "author": "luqitao",
-      "state": "open",
-      "created_at": "2026-06-21T12:12:02Z",
-      "updated_at": "2026-06-21T13:18:43Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1302",
-      "labels": []
-    },
-    {
-      "number": 1223,
-      "title": "[Issue]: Running Minimax 2.5/2.7 using tip of tree (ATOM/AITER/vLLM) or latest nightly version with TP=8 on results in error: Invalid qk hidden dim layout Invalid qk hidden dim layout for qknorm_allreduce_fusion_kernel_2stage kernel:",
-      "author": "rasmith",
-      "state": "open",
-      "created_at": "2026-06-15T17:58:42Z",
-      "updated_at": "2026-06-16T17:27:54Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1223",
-      "labels": []
-    },
-    {
-      "number": 1207,
-      "title": "[Issue]: Using basic instructions to run simple example results in crash on gfx950",
-      "author": "rasmith",
-      "state": "open",
-      "created_at": "2026-06-13T14:42:46Z",
-      "updated_at": "2026-06-16T16:54:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1207",
-      "labels": []
-    },
-    {
-      "number": 1188,
-      "title": "Real World ATOM Kimi K2.7-Code Production Inferencing Enablement Request",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-06-12T02:55:53Z",
-      "updated_at": "2026-06-14T20:27:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1188",
-      "labels": []
-    },
-    {
-      "number": 552,
-      "title": "[Parity with vLLM, SGLang]: Anthropic Messages API endpoint (/v1/messages) support to use with claude code [functional enablement + docs]",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-04-14T01:13:11Z",
-      "updated_at": "2026-06-12T03:05:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/552",
-      "labels": []
-    },
-    {
-      "number": 1187,
-      "title": "[Parity with CUDA vLLM, CUDA SGLang]: native ATOM llm-d Kubernetes Distributed Inferencing Orchestrator for Production LLM Inferencing [Functional Enablement + Guides + Nightly CI]",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-06-12T02:38:21Z",
-      "updated_at": "2026-06-12T02:41:06Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1187",
-      "labels": []
-    },
-    {
-      "number": 1186,
-      "title": "[Parity with CUDA vLLM]: ATOM Nightly CI and/or per PR CI Function Calling Eval",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-06-12T02:10:49Z",
-      "updated_at": "2026-06-12T02:13:20Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1186",
-      "labels": []
-    },
-    {
-      "number": 1168,
-      "title": "[Parity with CUDA SGLang] FP8 & FP4 AMD Multi-Node PD Disagg Nightly Regression Testing With AMD first class Pollara NICs with multiple prefill workers + multiple decode workers ",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-06-10T19:27:05Z",
-      "updated_at": "2026-06-11T04:38:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1168",
       "labels": []
     },
     {
@@ -1159,52 +1369,6 @@
       "labels": []
     },
     {
-      "number": 896,
-      "title": "[Issue]: Running DeepSeek V3.2 on MI308x*8 with Atom-vLLM only 200-300K TPM in single-machine performance",
-      "author": "LoadingZhang",
-      "state": "open",
-      "created_at": "2026-05-24T03:08:34Z",
-      "updated_at": "2026-05-24T03:08:34Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/896",
-      "labels": []
-    },
-    {
-      "number": 707,
-      "title": "[Tracker]: DeepSeek-V4 Support and Optimization on ATOM",
-      "author": "jamestangg",
-      "state": "open",
-      "created_at": "2026-05-07T02:27:05Z",
-      "updated_at": "2026-05-22T02:47:33Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/707",
-      "labels": [
-        "workstream"
-      ]
-    },
-    {
-      "number": 867,
-      "title": "[Issue]: readme example fails on gfx1201 (R9700)",
-      "author": "andysalerno",
-      "state": "open",
-      "created_at": "2026-05-21T06:40:06Z",
-      "updated_at": "2026-05-21T06:43:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/867",
-      "labels": []
-    },
-    {
-      "number": 807,
-      "title": "[Kernel Gap Analysis] DeepSeek-V4 AMD Porting \u2014 Block-by-Block Kernel Inventory",
-      "author": "ChuanLi1101",
-      "state": "open",
-      "created_at": "2026-05-15T19:41:27Z",
-      "updated_at": "2026-05-16T09:21:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/807",
-      "labels": [
-        "documentation",
-        "enhancement",
-        "workstream"
-      ]
-    },
-    {
       "number": 716,
       "title": "[RFC]: Enable ATOM as vLLM-Omni's out-of-tree Plugin",
       "author": "Phi-C",
@@ -1212,29 +1376,6 @@
       "created_at": "2026-05-08T02:22:07Z",
       "updated_at": "2026-05-08T02:22:07Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/716",
-      "labels": []
-    },
-    {
-      "number": 664,
-      "title": "[Analysis] DeepSeek-V4 Attention Pipeline \u2014 Full Tensor Shape Breakdown",
-      "author": "carlushuang",
-      "state": "open",
-      "created_at": "2026-04-29T05:22:45Z",
-      "updated_at": "2026-05-07T13:16:20Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/664",
-      "labels": [
-        "documentation",
-        "enhancement"
-      ]
-    },
-    {
-      "number": 702,
-      "title": "[Issue]:  aiter ASM paged-attention with block_size=16",
-      "author": "yhl-amd",
-      "state": "open",
-      "created_at": "2026-05-06T16:17:14Z",
-      "updated_at": "2026-05-07T03:40:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/702",
       "labels": []
     },
     {
@@ -1274,62 +1415,6 @@
       ]
     },
     {
-      "number": 660,
-      "title": "[Infrastructure] CI failure on PR #532",
-      "author": "amilcodes",
-      "state": "open",
-      "created_at": "2026-04-28T20:13:01Z",
-      "updated_at": "2026-04-28T20:13:01Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/660",
-      "labels": [
-        "infrastructure",
-        "model-cache",
-        "runner-issue",
-        "not-pr-related",
-        "ci-failure"
-      ]
-    },
-    {
-      "number": 642,
-      "title": "[Tracking] Enable DeepSeek-V4 (Flash 284B / Pro 1.6T, 1M context) inference",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-04-24T04:41:42Z",
-      "updated_at": "2026-04-24T04:43:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/642",
-      "labels": []
-    },
-    {
-      "number": 616,
-      "title": "Official atom0.1.2 image: Kimi TP4 startup fails because packaged AITER gen_instances.py scripts break under PYTHONSAFEPATH=1",
-      "author": "josusanmartin",
-      "state": "open",
-      "created_at": "2026-04-20T20:47:27Z",
-      "updated_at": "2026-04-23T07:37:03Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/616",
-      "labels": []
-    },
-    {
-      "number": 488,
-      "title": "[Feature]: ATOM OpenAI Server, OpenClaw",
-      "author": "carlushuang",
-      "state": "open",
-      "created_at": "2026-04-05T14:31:16Z",
-      "updated_at": "2026-04-10T04:02:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/488",
-      "labels": []
-    },
-    {
-      "number": 534,
-      "title": "RFC: Integrate rocm-trace-lite (RTL) for GPU kernel profiling in ATOM",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-04-09T16:12:12Z",
-      "updated_at": "2026-04-09T16:12:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/534",
-      "labels": []
-    },
-    {
       "number": 521,
       "title": "[Feature]: Make it so vLLM + OOT ATOM Plugin works with MiniMax 2.5",
       "author": "rasmith",
@@ -1347,46 +1432,6 @@
       "created_at": "2026-03-19T08:53:13Z",
       "updated_at": "2026-04-08T02:46:17Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/359",
-      "labels": []
-    },
-    {
-      "number": 490,
-      "title": "MXFP4 MoE weight quantization fails for MiniMax-M2.5: intermediate_size not divisible by block_n=128",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-04-05T21:16:07Z",
-      "updated_at": "2026-04-05T21:16:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/490",
-      "labels": []
-    },
-    {
-      "number": 377,
-      "title": "[Feature]: how do i use disagg serving in ATOM?",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-03-22T02:50:20Z",
-      "updated_at": "2026-04-02T05:06:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/377",
-      "labels": []
-    },
-    {
-      "number": 442,
-      "title": "FP8 MoE block_n=128 alignment error for models with small intermediate_size (MiniMax M2.5, Qwen3-235B)",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-03-29T18:16:07Z",
-      "updated_at": "2026-04-02T03:22:08Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/442",
-      "labels": []
-    },
-    {
-      "number": 381,
-      "title": "ATOM fails to load DeepSeek-V2-Lite-Chat and Qwen1.5-MoE-A2.7B-Chat (MLA/MoE models)",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-03-23T02:29:49Z",
-      "updated_at": "2026-03-23T02:29:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/381",
       "labels": []
     },
     {
@@ -1420,46 +1465,6 @@
       "labels": []
     },
     {
-      "number": 238,
-      "title": "[Issue]: ValueError: could not broadcast input array from shape (58713,) into shape (117001,) with prefix cache enabled",
-      "author": "peizhang56",
-      "state": "open",
-      "created_at": "2026-02-25T21:16:13Z",
-      "updated_at": "2026-02-26T02:42:38Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/238",
-      "labels": []
-    },
-    {
-      "number": 229,
-      "title": "[RFC] CK-Free AITER Compatibility: Attention, MOE, and Docker Changes",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-02-23T05:09:37Z",
-      "updated_at": "2026-02-23T05:09:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/229",
-      "labels": []
-    },
-    {
-      "number": 196,
-      "title": "[RFC]: Parallel strategy for Deepseek v3.2 like models",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "created_at": "2026-02-08T02:39:49Z",
-      "updated_at": "2026-02-10T03:41:46Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/196",
-      "labels": []
-    },
-    {
-      "number": 192,
-      "title": "[Issue]: Atom fails to run",
-      "author": "amnamasood-amd",
-      "state": "open",
-      "created_at": "2026-02-06T00:55:04Z",
-      "updated_at": "2026-02-10T00:59:37Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/192",
-      "labels": []
-    },
-    {
       "number": 68,
       "title": "[Feature]: Add Model recipes",
       "author": "sunway513",
@@ -1467,38 +1472,6 @@
       "created_at": "2025-12-17T17:56:14Z",
       "updated_at": "2025-12-17T17:56:14Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/68",
-      "labels": []
-    },
-    {
-      "number": 16,
-      "title": "Wiz - 'main' Branch Scan Overview",
-      "author": "wiz-9760d7f104[bot]",
-      "state": "open",
-      "created_at": "2025-11-28T01:18:55Z",
-      "updated_at": "2025-11-28T01:18:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/16",
-      "labels": [
-        "Wiz-remediation"
-      ]
-    },
-    {
-      "number": 14,
-      "title": "More details about requirements in README.md",
-      "author": "AlexHe99",
-      "state": "open",
-      "created_at": "2025-11-27T05:30:19Z",
-      "updated_at": "2025-11-27T05:30:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/14",
-      "labels": []
-    },
-    {
-      "number": 13,
-      "title": "[Issue]: failed to install the aiter",
-      "author": "AlexHe99",
-      "state": "open",
-      "created_at": "2025-11-27T05:20:10Z",
-      "updated_at": "2025-11-27T05:20:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/13",
       "labels": []
     }
   ]

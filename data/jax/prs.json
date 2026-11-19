@@ -1,6 +1,46 @@
 {
-  "collected_at": "2026-11-18T16:46:24Z",
+  "collected_at": "2026-11-19T16:53:06Z",
   "prs": [
+    {
+      "number": 42742,
+      "title": "Mark Open MPI GPU test multiaccelerator and require 4 GPUs",
+      "author": "tsrw2048",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T19:18:07Z",
+      "updated_at": "2026-11-19T12:46:53Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42742",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
+    {
+      "number": 42753,
+      "title": " ROCm-from-pip install in the top-level install docs",
+      "author": "AratiGanesh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T04:27:13Z",
+      "updated_at": "2026-11-19T04:34:27Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42753",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 42746,
+      "title": "[ROCm] Edit testScaledMatmul against an fp32 accumulation bound on GPUs gfx11",
+      "author": "shurale-nkn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T22:46:23Z",
+      "updated_at": "2026-11-18T22:50:38Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42746",
+      "labels": [
+        "AMD GPU"
+      ],
+      "draft": false
+    },
     {
       "number": 42735,
       "title": "[ROCm] Switch the pinned ROCm CI legs from 10.1 to 10.2",
