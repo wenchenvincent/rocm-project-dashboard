@@ -1,6 +1,36 @@
 {
-  "collected_at": "2026-11-19T16:54:31Z",
+  "collected_at": "2026-11-20T16:29:19Z",
   "issues": [
+    {
+      "number": 951,
+      "title": "[EPv2][gfx1250] hip backend: `ep_dispatch` launch fails with \"invalid argument\" for f32 gather and for bf16 gather (tuned) at 512 tokens/rank",
+      "author": "paklui",
+      "state": "open",
+      "created_at": "2026-11-09T16:07:19Z",
+      "updated_at": "2026-11-20T15:33:38Z",
+      "html_url": "https://github.com/ROCm/mori/issues/951",
+      "labels": []
+    },
+    {
+      "number": 1061,
+      "title": "UMBP io_uring driver: after one failed read or write, every later call on the driver fails",
+      "author": "ZeXi0308",
+      "state": "open",
+      "created_at": "2026-11-20T04:51:19Z",
+      "updated_at": "2026-11-20T04:51:19Z",
+      "html_url": "https://github.com/ROCm/mori/issues/1061",
+      "labels": []
+    },
+    {
+      "number": 1060,
+      "title": "UMBP master: a node that comes back after expiring is marked ALIVE without its blocks",
+      "author": "ZeXi0308",
+      "state": "open",
+      "created_at": "2026-11-20T04:51:17Z",
+      "updated_at": "2026-11-20T04:51:17Z",
+      "html_url": "https://github.com/ROCm/mori/issues/1060",
+      "labels": []
+    },
     {
       "number": 953,
       "title": "RFC [feature]: UMBP weight pool \u2014 immutable weight generations for RL weight sync",
@@ -39,16 +69,6 @@
       "created_at": "2026-11-13T01:58:39Z",
       "updated_at": "2026-11-13T01:58:39Z",
       "html_url": "https://github.com/ROCm/mori/issues/995",
-      "labels": []
-    },
-    {
-      "number": 951,
-      "title": "[EPv2][gfx1250] hip backend: `ep_dispatch` launch fails with \"invalid argument\" for f32 gather and for bf16 gather (tuned) at 512 tokens/rank",
-      "author": "paklui",
-      "state": "open",
-      "created_at": "2026-11-09T16:07:19Z",
-      "updated_at": "2026-11-11T14:46:54Z",
-      "html_url": "https://github.com/ROCm/mori/issues/951",
       "labels": []
     },
     {

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-19T16:53:33Z",
+  "collected_at": "2026-11-20T16:28:20Z",
   "issues": [
     {
       "number": 17050,
@@ -7,7 +7,7 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-11-19T16:36:21Z",
+      "updated_at": "2026-11-20T15:54:22Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
@@ -17,11 +17,51 @@
       "author": "bingxche",
       "state": "open",
       "created_at": "2026-10-22T16:44:47Z",
-      "updated_at": "2026-11-19T16:09:21Z",
+      "updated_at": "2026-11-20T15:24:08Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/45847",
       "labels": [
         "ci-failure-tracker"
       ]
+    },
+    {
+      "number": 51383,
+      "title": "[Feature] [RFC] diffusion: Cold start in about 20 s for diffusion models (MiniMax-H3 80 \u2192 20 s; same PRs on Wan 2.1 and LTX-2.5)",
+      "author": "weiyan-creatify",
+      "state": "open",
+      "created_at": "2026-11-19T00:12:45Z",
+      "updated_at": "2026-11-20T08:32:20Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/51383",
+      "labels": []
+    },
+    {
+      "number": 51740,
+      "title": "[Benchmark] Qwen3.8-27B-FP8 at 256K on one RTX 4090 48GB: 18-batch code review \u2014 SGLang 0.5.23 vs FastLLM 1.9.2 / vLLM 0.34.0 / llama.cpp b12498",
+      "author": "wangminle",
+      "state": "open",
+      "created_at": "2026-11-20T06:34:25Z",
+      "updated_at": "2026-11-20T08:21:29Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/51740",
+      "labels": []
+    },
+    {
+      "number": 50920,
+      "title": "Idle-burst prefill: first request waits for the next batch (consecutive prefill overlap) and bursts are split 1+N",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-17T03:29:15Z",
+      "updated_at": "2026-11-20T05:17:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/50920",
+      "labels": []
+    },
+    {
+      "number": 45373,
+      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
+      "author": "JackChuang",
+      "state": "open",
+      "created_at": "2026-10-20T10:04:23Z",
+      "updated_at": "2026-11-20T02:22:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
+      "labels": []
     },
     {
       "number": 49944,
@@ -64,16 +104,6 @@
       "labels": []
     },
     {
-      "number": 51383,
-      "title": "[Feature] [RFC] diffusion: Cold start in about 20 s for diffusion models (MiniMax-H3 80 \u2192 20 s; same PRs on Wan 2.1 and LTX-2.5)",
-      "author": "weiyan-creatify",
-      "state": "open",
-      "created_at": "2026-11-19T00:12:45Z",
-      "updated_at": "2026-11-19T09:13:31Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/51383",
-      "labels": []
-    },
-    {
       "number": 50057,
       "title": "tuning_block_wise_kernel.py cannot tune the [32, 32] block recipe (empty search space) and times candidates with the weight resident in L2",
       "author": "xulunfan",
@@ -81,16 +111,6 @@
       "created_at": "2026-11-12T08:36:34Z",
       "updated_at": "2026-11-19T07:59:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/50057",
-      "labels": []
-    },
-    {
-      "number": 50920,
-      "title": "Idle-burst prefill: first request waits for the next batch (consecutive prefill overlap) and bursts are split 1+N",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-17T03:29:15Z",
-      "updated_at": "2026-11-19T04:43:51Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50920",
       "labels": []
     },
     {
@@ -146,16 +166,6 @@
       "labels": []
     },
     {
-      "number": 51184,
-      "title": "[Bug] CUDA graph replay returns degenerate output (all token id 0) on sm_120 with NVFP4 + tilelang DSA + Mamba hybrid",
-      "author": "sharpei1020",
-      "state": "open",
-      "created_at": "2026-11-18T07:20:19Z",
-      "updated_at": "2026-11-18T09:07:18Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/51184",
-      "labels": []
-    },
-    {
       "number": 43313,
       "title": "SGLang-Diffusion Roadmap (2026 Q4)",
       "author": "mickqian",
@@ -186,16 +196,6 @@
       "created_at": "2026-11-09T14:17:47Z",
       "updated_at": "2026-11-18T05:23:53Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/49327",
-      "labels": []
-    },
-    {
-      "number": 45373,
-      "title": "[Tracking] GLM-5.3-Flash performance optimization on Hopper (SM90)",
-      "author": "JackChuang",
-      "state": "open",
-      "created_at": "2026-10-20T10:04:23Z",
-      "updated_at": "2026-11-18T04:41:39Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45373",
       "labels": []
     },
     {

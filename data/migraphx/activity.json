@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-11-19T16:55:27Z",
+  "collected_at": "2026-11-20T16:30:18Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 69,
-      "merged": 20,
-      "closed": 8
+      "opened": 49,
+      "merged": 27,
+      "closed": 7
     },
     "last_week": {
-      "opened": 21,
-      "merged": 8,
-      "closed": 6
+      "opened": 40,
+      "merged": 10,
+      "closed": 7
     },
-    "median_time_to_merge_hours": 316.5,
-    "merge_count": 29,
-    "stale_prs": 71
+    "median_time_to_merge_hours": 278.8,
+    "merge_count": 38,
+    "stale_prs": 70
   },
   "contributors": {
     "active_this_week": 26,
-    "total_contributors": 60,
+    "total_contributors": 58,
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 60,
-        "prs_merged": 26,
+        "prs_submitted": 57,
+        "prs_merged": 25,
         "commits": 27
       },
       {
         "author": "klin2024",
         "prs_submitted": 45,
-        "prs_merged": 1,
-        "commits": 1
+        "prs_merged": 3,
+        "commits": 3
       },
       {
         "author": "CharlieL7",
@@ -41,8 +41,8 @@
       },
       {
         "author": "shivadbhavsar",
-        "prs_submitted": 9,
-        "prs_merged": 3,
+        "prs_submitted": 8,
+        "prs_merged": 2,
         "commits": 3
       },
       {
@@ -52,48 +52,48 @@
         "commits": 0
       },
       {
-        "author": "ppetrovi-amd",
-        "prs_submitted": 6,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
         "author": "causten",
-        "prs_submitted": 6,
+        "prs_submitted": 7,
         "prs_merged": 3,
         "commits": 4
       },
       {
-        "author": "anupsing-amd",
+        "author": "ppetrovi-amd",
         "prs_submitted": 5,
-        "prs_merged": 2,
-        "commits": 2
+        "prs_merged": 0,
+        "commits": 0
       },
       {
-        "author": "kazhang2",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 1
+        "author": "anupsing-amd",
+        "prs_submitted": 5,
+        "prs_merged": 4,
+        "commits": 4
       },
       {
         "author": "danieyan-amd",
         "prs_submitted": 4,
         "prs_merged": 0,
         "commits": 0
+      },
+      {
+        "author": "kazhang2",
+        "prs_submitted": 4,
+        "prs_merged": 1,
+        "commits": 1
       }
     ],
     "bus_factor": 2
   },
   "issue_health": {
     "total_open": 253,
-    "opened_this_week": 4,
+    "opened_this_week": 3,
     "closed_this_week": 1,
-    "unanswered": 129
+    "unanswered": 130
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 43.1,
+    "days_since_last": 44.1,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

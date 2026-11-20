@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-19T16:54:35Z",
+  "collected_at": "2026-11-20T16:29:24Z",
   "issues": [
     {
       "number": 1413,
@@ -7,8 +7,18 @@
       "author": "yhl-amd",
       "state": "open",
       "created_at": "2026-11-14T14:19:20Z",
-      "updated_at": "2026-11-19T12:48:23Z",
+      "updated_at": "2026-11-20T08:40:51Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1413",
+      "labels": []
+    },
+    {
+      "number": 1427,
+      "title": "[Feature] Support -amdgpu-anti-hints-for-va-vdst on gfx1250 (LLVM pin needs llvm/llvm-project#226397)",
+      "author": "slippedJim",
+      "state": "open",
+      "created_at": "2026-11-17T08:41:44Z",
+      "updated_at": "2026-11-20T06:03:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1427",
       "labels": []
     },
     {
@@ -32,16 +42,6 @@
       "created_at": "2026-11-13T21:17:15Z",
       "updated_at": "2026-11-18T01:53:18Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/1409",
-      "labels": []
-    },
-    {
-      "number": 1427,
-      "title": "[Feature] Support -amdgpu-anti-hints-for-va-vdst on gfx1250 (LLVM pin needs llvm/llvm-project#226397)",
-      "author": "slippedJim",
-      "state": "open",
-      "created_at": "2026-11-17T08:41:44Z",
-      "updated_at": "2026-11-17T08:41:44Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1427",
       "labels": []
     },
     {

@@ -1,57 +1,183 @@
 {
-  "collected_at": "2026-11-19T16:54:14Z",
+  "collected_at": "2026-11-20T16:29:01Z",
   "issues": [
+    {
+      "number": 5086,
+      "title": "[Bug] BF16 FMHA returns zero for finite extreme negative logits",
+      "author": "akshatvishu",
+      "state": "open",
+      "created_at": "2026-08-28T16:39:34Z",
+      "updated_at": "2026-11-20T16:01:13Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5086",
+      "labels": []
+    },
+    {
+      "number": 8131,
+      "title": "Tuned configs can't tell MI300X from MI325X (both gfx942 / 304 CUs)",
+      "author": "frida-andersson",
+      "state": "open",
+      "created_at": "2026-11-17T21:16:25Z",
+      "updated_at": "2026-11-20T14:40:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8131",
+      "labels": []
+    },
+    {
+      "number": 7393,
+      "title": "[MLA] gfx942 persistent a8w8 decode returns output / kv_scale at q_len 3 and 4",
+      "author": "krakhit",
+      "state": "open",
+      "created_at": "2026-11-03T10:13:37Z",
+      "updated_at": "2026-11-20T14:31:12Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7393",
+      "labels": []
+    },
+    {
+      "number": 8389,
+      "title": "[Feature] Support whole-row MLA metadata range replacement",
+      "author": "whx-sjtu",
+      "state": "open",
+      "created_at": "2026-11-20T13:32:15Z",
+      "updated_at": "2026-11-20T13:34:51Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8389",
+      "labels": []
+    },
+    {
+      "number": 4455,
+      "title": "[Issue]: [FMHA][gfx950] flash_attn_varlen_func with block_table GPU-faults on bf16 paged KV",
+      "author": "ZJLi2013",
+      "state": "open",
+      "created_at": "2026-07-30T08:23:36Z",
+      "updated_at": "2026-11-20T12:17:18Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4455",
+      "labels": []
+    },
+    {
+      "number": 8382,
+      "title": "[FlyDSL] [MoE] a8w4 stage-1 kernels `*_bnt0_gui_xcd4_fp8` give non-finite fused_moe output at T 8192 / 16384 (shipped DSv4.1 rows); the tuner reports 0.0 % error",
+      "author": "juuso-oskari",
+      "state": "open",
+      "created_at": "2026-11-20T11:30:29Z",
+      "updated_at": "2026-11-20T11:30:29Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8382",
+      "labels": []
+    },
+    {
+      "number": 4752,
+      "title": "[Bug] MLA persistent decode: bf16 query + fp8 KV aborts for gqa_ratio=16, max_seqlen_q > 4",
+      "author": "lizexu123",
+      "state": "open",
+      "created_at": "2026-08-14T06:47:04Z",
+      "updated_at": "2026-11-20T10:12:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4752",
+      "labels": []
+    },
+    {
+      "number": 1702,
+      "title": "Add support for non-causal (encoder-only) attention",
+      "author": "westers",
+      "state": "open",
+      "created_at": "2025-12-20T18:01:51Z",
+      "updated_at": "2026-11-20T09:57:54Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/1702",
+      "labels": []
+    },
+    {
+      "number": 1248,
+      "title": "[Feature]: Add more configuration options for MoE assembly kernels",
+      "author": "sumin-hong",
+      "state": "open",
+      "created_at": "2025-10-23T09:36:44Z",
+      "updated_at": "2026-11-20T09:57:47Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/1248",
+      "labels": []
+    },
+    {
+      "number": 6249,
+      "title": "[gfx950] mha_batch_prefill_func bf16 head_dim 256 uses the generic gfx9 128x128 qr_ks_vs_async tile (~0.55 PFLOP/s); please add a gfx950 tile / trload pipeline",
+      "author": "team-sqwish",
+      "state": "open",
+      "created_at": "2026-10-08T07:01:09Z",
+      "updated_at": "2026-11-20T09:54:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6249",
+      "labels": []
+    },
+    {
+      "number": 8374,
+      "title": "[FlyDSL] test_flydsl_hgemm: bit-exact split-K checks are order-dependent with BF16 output",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-11-20T09:47:59Z",
+      "updated_at": "2026-11-20T09:47:59Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8374",
+      "labels": [
+        "FlyDSL"
+      ]
+    },
+    {
+      "number": 2176,
+      "title": "[Issue]: Workspace Buffer Pointer Arithmetic in pa_v1 Ignores MTP",
+      "author": "gronsti-amd",
+      "state": "open",
+      "created_at": "2026-03-04T10:42:15Z",
+      "updated_at": "2026-11-20T09:32:41Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2176",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 7631,
+      "title": "[gfx950] mla_dec_stage1_bf16_a16w16_subQ128_mqa128.co gives nondeterministic, wrong output when a workgroup handles more than 48 KV tokens",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-11-08T20:43:52Z",
+      "updated_at": "2026-11-20T09:11:40Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7631",
+      "labels": []
+    },
     {
       "number": 7037,
       "title": "Triton nightly status",
       "author": "github-actions[bot]",
       "state": "open",
       "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-19T10:09:47Z",
+      "updated_at": "2026-11-20T07:25:06Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7037",
       "labels": [
         "triton-nightly"
       ]
     },
     {
-      "number": 8288,
-      "title": "When unified attention launches one query block",
-      "author": "amd-mghanimi",
+      "number": 5781,
+      "title": "[Issue]: bf16 GEMM asm kernels crash with GPU memory access fault on skinny M=1 shapes (gfx950)",
+      "author": "samutamm",
       "state": "open",
-      "created_at": "2026-11-19T08:42:36Z",
-      "updated_at": "2026-11-19T08:52:40Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8288",
+      "created_at": "2026-09-23T06:05:20Z",
+      "updated_at": "2026-11-20T07:04:06Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5781",
       "labels": []
     },
     {
-      "number": 922,
-      "title": "[Issue]: build: MAX_JOBS not respected",
-      "author": "dtrifiro",
+      "number": 8254,
+      "title": "[MLA] Add a NoPE-only mode to the BF16 absorb FP8 epilogue on gfx950",
+      "author": "whx-sjtu",
       "state": "open",
-      "created_at": "2025-08-29T13:04:06Z",
-      "updated_at": "2026-11-19T07:29:04Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/922",
+      "created_at": "2026-11-19T03:15:22Z",
+      "updated_at": "2026-11-20T06:18:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8254",
       "labels": []
     },
     {
-      "number": 1956,
-      "title": "[Issue]: Build of aiter asm kernels in op_tests/cpp/mha take too much time",
-      "author": "manu-web",
+      "number": 3000,
+      "title": "[FP8 BMM] aiter Triton kernel for small-B regime (V4 wo_a / grouped LoRA)",
+      "author": "zufayu",
       "state": "open",
-      "created_at": "2026-02-03T02:31:21Z",
-      "updated_at": "2026-11-19T07:28:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1956",
-      "labels": []
-    },
-    {
-      "number": 2072,
-      "title": "[Feature]: Windows support",
-      "author": "astrelsky",
-      "state": "open",
-      "created_at": "2026-02-22T13:20:56Z",
-      "updated_at": "2026-11-19T07:28:54Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2072",
-      "labels": []
+      "created_at": "2026-05-01T14:24:58Z",
+      "updated_at": "2026-11-20T05:25:27Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/3000",
+      "labels": [
+        "enhancement"
+      ]
     },
     {
       "number": 2076,
@@ -59,118 +185,8 @@
       "author": "carlushuang",
       "state": "open",
       "created_at": "2026-02-23T14:37:38Z",
-      "updated_at": "2026-11-19T07:28:50Z",
+      "updated_at": "2026-11-20T05:25:27Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2076",
-      "labels": []
-    },
-    {
-      "number": 2391,
-      "title": "[Issue]: fail to run attenation 2",
-      "author": "xalteropsx",
-      "state": "open",
-      "created_at": "2026-03-20T10:49:23Z",
-      "updated_at": "2026-11-19T07:28:36Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2391",
-      "labels": []
-    },
-    {
-      "number": 2524,
-      "title": "[Issue]: AITER logs clang error for unsupported `-amdgpu-coerce-illegal-types=1` flag during kernel compilation",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2026-03-30T06:12:09Z",
-      "updated_at": "2026-11-19T07:28:31Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2524",
-      "labels": []
-    },
-    {
-      "number": 2694,
-      "title": "[Issue]: Incorrect package version numbering",
-      "author": "Sector14",
-      "state": "open",
-      "created_at": "2026-04-10T19:37:52Z",
-      "updated_at": "2026-11-19T07:28:27Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2694",
-      "labels": []
-    },
-    {
-      "number": 2780,
-      "title": "[Issue]: torch_compile_guard defaults to mutates_args=\"unknown\", causing torch.compile crash for gemm_a4w4",
-      "author": "ColinZ22",
-      "state": "open",
-      "created_at": "2026-04-17T18:41:16Z",
-      "updated_at": "2026-11-19T07:28:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2780",
-      "labels": []
-    },
-    {
-      "number": 2837,
-      "title": "Building 0.1.12.post1 with PREBUILD_KERNELS fails",
-      "author": "gshtras",
-      "state": "open",
-      "created_at": "2026-04-21T15:01:00Z",
-      "updated_at": "2026-11-19T07:28:17Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2837",
-      "labels": []
-    },
-    {
-      "number": 4437,
-      "title": "[Issue]: no attribute 'MlaVersion'",
-      "author": "Sector14",
-      "state": "open",
-      "created_at": "2026-07-29T12:20:26Z",
-      "updated_at": "2026-11-19T07:28:04Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4437",
-      "labels": []
-    },
-    {
-      "number": 4585,
-      "title": "[JIT] AITER extensions can bind HIP symbols from an earlier global TileLang stub",
-      "author": "JohnQin-llm",
-      "state": "open",
-      "created_at": "2026-08-06T01:55:45Z",
-      "updated_at": "2026-11-19T07:28:00Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4585",
-      "labels": []
-    },
-    {
-      "number": 4770,
-      "title": "[Bug] JIT-built module_fmha_fwd_bf16_opus rejects tensors from prebuilt module_aiter_core: pybind11 internals mismatch (v11 wheel vs v12 runtime JIT)",
-      "author": "hongxiayang",
-      "state": "open",
-      "created_at": "2026-08-14T22:59:49Z",
-      "updated_at": "2026-11-19T07:27:55Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4770",
-      "labels": []
-    },
-    {
-      "number": 5036,
-      "title": "[Feature Request] Expose a capabilities() API for runtime feature/version detection",
-      "author": "wjabbour",
-      "state": "open",
-      "created_at": "2026-08-26T23:46:57Z",
-      "updated_at": "2026-11-19T07:27:50Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5036",
-      "labels": []
-    },
-    {
-      "number": 5266,
-      "title": "JIT baton dead-holder check is ambiguous under --network host (pid + hostname collide across containers)",
-      "author": "ThomasNing",
-      "state": "open",
-      "created_at": "2026-09-03T23:43:46Z",
-      "updated_at": "2026-11-19T07:27:45Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5266",
-      "labels": []
-    },
-    {
-      "number": 1385,
-      "title": "-mllvm -amdgpu-coerce-illegal-types=1 is not supported by hipcc",
-      "author": "jinz2014",
-      "state": "open",
-      "created_at": "2025-11-11T15:30:49Z",
-      "updated_at": "2026-11-19T07:27:41Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1385",
       "labels": []
     },
     {
@@ -179,8 +195,78 @@
       "author": "yuguo68",
       "state": "open",
       "created_at": "2025-12-13T00:10:07Z",
-      "updated_at": "2026-11-19T07:27:37Z",
+      "updated_at": "2026-11-20T05:25:27Z",
       "html_url": "https://github.com/ROCm/aiter/issues/1641",
+      "labels": []
+    },
+    {
+      "number": 5266,
+      "title": "JIT baton dead-holder check is ambiguous under --network host (pid + hostname collide across containers)",
+      "author": "ThomasNing",
+      "state": "open",
+      "created_at": "2026-09-03T23:43:46Z",
+      "updated_at": "2026-11-20T05:25:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5266",
+      "labels": []
+    },
+    {
+      "number": 5036,
+      "title": "[Feature Request] Expose a capabilities() API for runtime feature/version detection",
+      "author": "wjabbour",
+      "state": "open",
+      "created_at": "2026-08-26T23:46:57Z",
+      "updated_at": "2026-11-20T05:25:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5036",
+      "labels": []
+    },
+    {
+      "number": 4770,
+      "title": "[Bug] JIT-built module_fmha_fwd_bf16_opus rejects tensors from prebuilt module_aiter_core: pybind11 internals mismatch (v11 wheel vs v12 runtime JIT)",
+      "author": "hongxiayang",
+      "state": "open",
+      "created_at": "2026-08-14T22:59:49Z",
+      "updated_at": "2026-11-20T05:25:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4770",
+      "labels": []
+    },
+    {
+      "number": 4585,
+      "title": "[JIT] AITER extensions can bind HIP symbols from an earlier global TileLang stub",
+      "author": "JohnQin-llm",
+      "state": "open",
+      "created_at": "2026-08-06T01:55:45Z",
+      "updated_at": "2026-11-20T05:25:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4585",
+      "labels": []
+    },
+    {
+      "number": 4226,
+      "title": "[tech-debt] fused_moe.py routing relies on 15+ process-level env vars \u2014 consolidate into config/API",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-07-14T01:58:38Z",
+      "updated_at": "2026-11-20T05:25:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4226",
+      "labels": []
+    },
+    {
+      "number": 2694,
+      "title": "[Issue]: Incorrect package version numbering",
+      "author": "Sector14",
+      "state": "open",
+      "created_at": "2026-04-10T19:37:52Z",
+      "updated_at": "2026-11-20T05:25:26Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2694",
+      "labels": []
+    },
+    {
+      "number": 7150,
+      "title": "RFC: decouple backend names from public op definitions (start with MoE)",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-10-29T09:37:36Z",
+      "updated_at": "2026-11-20T05:10:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7150",
       "labels": []
     },
     {
@@ -189,8 +275,91 @@
       "author": "Arist12",
       "state": "open",
       "created_at": "2026-10-22T03:35:39Z",
-      "updated_at": "2026-11-19T07:27:32Z",
+      "updated_at": "2026-11-20T05:10:35Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6818",
+      "labels": []
+    },
+    {
+      "number": 2780,
+      "title": "[Issue]: torch_compile_guard defaults to mutates_args=\"unknown\", causing torch.compile crash for gemm_a4w4",
+      "author": "ColinZ22",
+      "state": "open",
+      "created_at": "2026-04-17T18:41:16Z",
+      "updated_at": "2026-11-20T04:59:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2780",
+      "labels": []
+    },
+    {
+      "number": 2336,
+      "title": "Parallelize JIT module compilation for faster server startup",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-03-18T18:08:16Z",
+      "updated_at": "2026-11-20T04:59:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2336",
+      "labels": []
+    },
+    {
+      "number": 2298,
+      "title": "C++ JIT extensions have unnecessary thrust/CK header dependency",
+      "author": "sunway513",
+      "state": "open",
+      "created_at": "2026-03-16T13:51:45Z",
+      "updated_at": "2026-11-20T04:59:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2298",
+      "labels": []
+    },
+    {
+      "number": 8349,
+      "title": "[FlyDSL][gfx950] Define or make deterministic BF16 atomic split-K graph replay",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-11-20T03:49:02Z",
+      "updated_at": "2026-11-20T03:55:48Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8349",
+      "labels": [
+        "bug",
+        "FlyDSL"
+      ]
+    },
+    {
+      "number": 8343,
+      "title": "[CI] Windows gfx1201 smoke: the runner's torch has no gfx1201 binary",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-11-20T02:44:30Z",
+      "updated_at": "2026-11-20T02:44:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8343",
+      "labels": []
+    },
+    {
+      "number": 8342,
+      "title": "[CI] vLLM benchmark runner starts with ~114 GiB already allocated on cuda:0",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-11-20T02:43:43Z",
+      "updated_at": "2026-11-20T02:43:43Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8342",
+      "labels": []
+    },
+    {
+      "number": 8288,
+      "title": "When unified attention launches one query block",
+      "author": "amd-mghanimi",
+      "state": "open",
+      "created_at": "2026-11-19T08:42:36Z",
+      "updated_at": "2026-11-20T02:02:58Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8288",
+      "labels": []
+    },
+    {
+      "number": 6062,
+      "title": "[vLLM] DSR1 FP4 Optimizations",
+      "author": "farlukas",
+      "state": "open",
+      "created_at": "2026-10-01T18:13:36Z",
+      "updated_at": "2026-11-19T19:31:01Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6062",
       "labels": []
     },
     {
@@ -204,16 +373,6 @@
       "labels": []
     },
     {
-      "number": 1248,
-      "title": "[Feature]: Add more configuration options for MoE assembly kernels",
-      "author": "sumin-hong",
-      "state": "open",
-      "created_at": "2025-10-23T09:36:44Z",
-      "updated_at": "2026-11-19T06:27:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1248",
-      "labels": []
-    },
-    {
       "number": 1533,
       "title": "[Feature]: Add NN layout for gradlib",
       "author": "DoubleRedX",
@@ -221,16 +380,6 @@
       "created_at": "2025-12-02T09:18:19Z",
       "updated_at": "2026-11-19T06:27:56Z",
       "html_url": "https://github.com/ROCm/aiter/issues/1533",
-      "labels": []
-    },
-    {
-      "number": 1689,
-      "title": "fp4 gemm aiter.gemm_a4w4 API to handle missing heuristics",
-      "author": "hongxiayang",
-      "state": "open",
-      "created_at": "2025-12-19T01:12:14Z",
-      "updated_at": "2026-11-19T06:27:53Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1689",
       "labels": []
     },
     {
@@ -444,16 +593,6 @@
       "labels": []
     },
     {
-      "number": 663,
-      "title": "[Issue]: The skinny gemm in the tuned_gemm does not adhere to the specified output dtype `otype`.",
-      "author": "vllmellm",
-      "state": "open",
-      "created_at": "2025-07-16T08:57:35Z",
-      "updated_at": "2026-11-19T05:25:44Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/663",
-      "labels": []
-    },
-    {
       "number": 767,
       "title": "[Issue]: Attention not correct",
       "author": "ChengYao-amd",
@@ -491,16 +630,6 @@
       "created_at": "2025-06-16T15:31:25Z",
       "updated_at": "2026-11-19T05:25:25Z",
       "html_url": "https://github.com/ROCm/aiter/issues/548",
-      "labels": []
-    },
-    {
-      "number": 1972,
-      "title": "[Issue]: rmsnorm kernel issue in SGLang with aiter v0.1.10.post1",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-02-04T10:06:49Z",
-      "updated_at": "2026-11-19T05:25:24Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1972",
       "labels": []
     },
     {
@@ -584,18 +713,6 @@
       "labels": []
     },
     {
-      "number": 2176,
-      "title": "[Issue]: Workspace Buffer Pointer Arithmetic in pa_v1 Ignores MTP",
-      "author": "gronsti-amd",
-      "state": "open",
-      "created_at": "2026-03-04T10:42:15Z",
-      "updated_at": "2026-11-19T05:24:49Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2176",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 2187,
       "title": "[Issue]: GPU memory access fault with AITER FP8 MoE (Qwen3-VL-235B, TP=8, EP)",
       "author": "sshlyapn",
@@ -616,26 +733,6 @@
       "labels": []
     },
     {
-      "number": 2236,
-      "title": "[Issue]: add_rmsnorm_quant_kernel precision",
-      "author": "Jacob0226",
-      "state": "open",
-      "created_at": "2026-03-10T06:38:56Z",
-      "updated_at": "2026-11-19T05:24:45Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2236",
-      "labels": []
-    },
-    {
-      "number": 2298,
-      "title": "C++ JIT extensions have unnecessary thrust/CK header dependency",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-03-16T13:51:45Z",
-      "updated_at": "2026-11-19T05:24:44Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2298",
-      "labels": []
-    },
-    {
       "number": 2299,
       "title": "gfx1250: C++ JIT build fails \u2014 DPP broadcast + vmem-to-lds-load-insts not supported",
       "author": "sunway513",
@@ -643,16 +740,6 @@
       "created_at": "2026-03-16T14:01:38Z",
       "updated_at": "2026-11-19T05:24:41Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2299",
-      "labels": []
-    },
-    {
-      "number": 2336,
-      "title": "Parallelize JIT module compilation for faster server startup",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-03-18T18:08:16Z",
-      "updated_at": "2026-11-19T05:24:40Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2336",
       "labels": []
     },
     {
@@ -916,38 +1003,6 @@
       "labels": []
     },
     {
-      "number": 2843,
-      "title": "Trial wheel: v0.1.12.post2 candidate (ROCm 7.2.2 + py3.12) available for smoke test",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-04-21T19:13:11Z",
-      "updated_at": "2026-11-19T05:24:02Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2843",
-      "labels": []
-    },
-    {
-      "number": 3000,
-      "title": "[FP8 BMM] aiter Triton kernel for small-B regime (V4 wo_a / grouped LoRA)",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-05-01T14:24:58Z",
-      "updated_at": "2026-11-19T05:24:01Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3000",
-      "labels": [
-        "enhancement"
-      ]
-    },
-    {
-      "number": 900,
-      "title": "[Question] Is GFX1201 support planned?",
-      "author": "sa-mendez",
-      "state": "open",
-      "created_at": "2025-08-28T01:23:15Z",
-      "updated_at": "2026-11-19T05:24:00Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/900",
-      "labels": []
-    },
-    {
       "number": 3038,
       "title": "[Feature] [Training] FP8/MXFP8 grouped-GEMM API for MoE training",
       "author": "jayfurmanek",
@@ -1174,16 +1229,6 @@
       "labels": []
     },
     {
-      "number": 3846,
-      "title": "[gfx1201/RDNA4] reshape_and_cache SIGSEGVs: JIT loader imports wrong-arch prebuilt module_cache.so instead of rebuilding for the running GPU",
-      "author": "carlushuang",
-      "state": "open",
-      "created_at": "2026-06-22T08:36:08Z",
-      "updated_at": "2026-11-19T05:23:26Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3846",
-      "labels": []
-    },
-    {
       "number": 3964,
       "title": "[Issue]: CK stage2 fp4 MoE kernel returns non-finite output (nan/inf) for M<=4 on gfx950 (a4w4 per_1x32)",
       "author": "jhinpan",
@@ -1234,16 +1279,6 @@
       "labels": []
     },
     {
-      "number": 4077,
-      "title": "[Build] aiter fails to compile on ROCm 7.0/7.1 \u2014 opus `__builtin_amdgcn_tensor_load_to_lds` needs ROCm 7.2 clang",
-      "author": "sunway513",
-      "state": "open",
-      "created_at": "2026-07-04T00:29:55Z",
-      "updated_at": "2026-11-19T05:23:19Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4077",
-      "labels": []
-    },
-    {
       "number": 2760,
       "title": "[Feature]: Add MLA decode ASM kernels for qseqlen > 4 to enable larger speculative decoding draft tokens",
       "author": "larryli2-amd",
@@ -1251,16 +1286,6 @@
       "created_at": "2026-04-16T10:37:59Z",
       "updated_at": "2026-11-19T05:23:18Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2760",
-      "labels": []
-    },
-    {
-      "number": 4226,
-      "title": "[tech-debt] fused_moe.py routing relies on 15+ process-level env vars \u2014 consolidate into config/API",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-07-14T01:58:38Z",
-      "updated_at": "2026-11-19T05:23:17Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4226",
       "labels": []
     },
     {
@@ -1356,16 +1381,6 @@
       "labels": []
     },
     {
-      "number": 4323,
-      "title": "[gfx950][A8W8 B-preshuffle GEMM] Triton routes introduced by #4202 cause GPU memory faults in SGLang on DeepSeek-V3.2 and DeepSeek-V4 Pro",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-07-21T15:05:54Z",
-      "updated_at": "2026-11-19T05:23:07Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4323",
-      "labels": []
-    },
-    {
       "number": 4423,
       "title": "[Documentation]: CONTRIBUTE.md specifies `ruff==0.15.7` but CI uses a newer version that enforces additional rules",
       "author": "menglcai",
@@ -1373,16 +1388,6 @@
       "created_at": "2026-07-28T09:11:55Z",
       "updated_at": "2026-11-19T05:23:06Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4423",
-      "labels": []
-    },
-    {
-      "number": 4455,
-      "title": "[Issue]: [FMHA][gfx950] flash_attn_varlen_func with block_table GPU-faults on bf16 paged KV",
-      "author": "ZJLi2013",
-      "state": "open",
-      "created_at": "2026-07-30T08:23:36Z",
-      "updated_at": "2026-11-19T05:23:05Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4455",
       "labels": []
     },
     {
@@ -1506,16 +1511,6 @@
       "labels": []
     },
     {
-      "number": 4752,
-      "title": "[Bug] MLA persistent decode: bf16 query + fp8 KV aborts for gqa_ratio=16, max_seqlen_q > 4",
-      "author": "lizexu123",
-      "state": "open",
-      "created_at": "2026-08-14T06:47:04Z",
-      "updated_at": "2026-11-19T05:22:45Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4752",
-      "labels": []
-    },
-    {
       "number": 4783,
       "title": "AITER fused_moe: GPU memory permission fault on gfx942 at FP8 e4m3fnuz per-1x128 block-scaled MoE shapes M \u2208 {304, 336}",
       "author": "vipsharm",
@@ -1566,16 +1561,6 @@
       "labels": []
     },
     {
-      "number": 4819,
-      "title": "sampling.cuh may be missing hipcub includes \u2014 the ROCm 10 gate from #4754 may be unnecessary",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-08-18T08:47:04Z",
-      "updated_at": "2026-11-19T05:22:31Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4819",
-      "labels": []
-    },
-    {
       "number": 4920,
       "title": "[ASM] a16w16 split-K: the entry-zero counter is unsafe under CUDA graph capture; opus-style fp32 partials would remove the class",
       "author": "JohnQin-llm",
@@ -1603,16 +1588,6 @@
       "created_at": "2026-08-27T02:48:00Z",
       "updated_at": "2026-11-19T05:22:28Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5039",
-      "labels": []
-    },
-    {
-      "number": 5086,
-      "title": "[Bug] BF16 FMHA returns zero for finite extreme negative logits",
-      "author": "akshatvishu",
-      "state": "open",
-      "created_at": "2026-08-28T16:39:34Z",
-      "updated_at": "2026-11-19T05:22:25Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5086",
       "labels": []
     },
     {
@@ -1693,16 +1668,6 @@
       "created_at": "2026-09-03T23:43:25Z",
       "updated_at": "2026-11-19T05:22:15Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5264",
-      "labels": []
-    },
-    {
-      "number": 5233,
-      "title": "MXFP4 MoE: CK-Tile stage-2 mis-indexes E8M0 scales when inter_dim % 256 != 0, returning silently wrong results",
-      "author": "xiaofei-zheng",
-      "state": "open",
-      "created_at": "2026-09-03T07:19:58Z",
-      "updated_at": "2026-11-19T05:22:15Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5233",
       "labels": []
     },
     {
@@ -1986,16 +1951,6 @@
       "labels": []
     },
     {
-      "number": 5781,
-      "title": "[Issue]: bf16 GEMM asm kernels crash with GPU memory access fault on skinny M=1 shapes (gfx950)",
-      "author": "samutamm",
-      "state": "open",
-      "created_at": "2026-09-23T06:05:20Z",
-      "updated_at": "2026-11-19T05:20:58Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5781",
-      "labels": []
-    },
-    {
       "number": 5789,
       "title": "[CI] Tracking: archive stale branches before deleting them",
       "author": "Boss2002n",
@@ -2150,16 +2105,6 @@
       "labels": []
     },
     {
-      "number": 6249,
-      "title": "[gfx950] mha_batch_prefill_func bf16 head_dim 256 uses the generic gfx9 128x128 qr_ks_vs_async tile (~0.55 PFLOP/s); please add a gfx950 tile / trload pipeline",
-      "author": "team-sqwish",
-      "state": "open",
-      "created_at": "2026-10-08T07:01:09Z",
-      "updated_at": "2026-11-19T05:20:36Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6249",
-      "labels": []
-    },
-    {
       "number": 6105,
       "title": "[Triton/Gluon]: Update test and process so that all configs are tested",
       "author": "rahulbatra85",
@@ -2283,16 +2228,6 @@
       "created_at": "2026-10-12T04:53:43Z",
       "updated_at": "2026-11-19T05:20:25Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6414",
-      "labels": []
-    },
-    {
-      "number": 6474,
-      "title": "[Feature request] fmha v3 asm forward for head_dim 256 on gfx942 (MI300X/MI325X): Qwen3.5/3.6 prefill runs the CK-tile fallback at ~30 % of peak",
-      "author": "kendrick-tinyfish",
-      "state": "open",
-      "created_at": "2026-10-13T08:11:10Z",
-      "updated_at": "2026-11-19T05:20:24Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6474",
       "labels": []
     },
     {
@@ -2668,16 +2603,6 @@
       "labels": []
     },
     {
-      "number": 7393,
-      "title": "[MLA] gfx942 persistent a8w8 decode returns output / kv_scale at q_len 3 and 4",
-      "author": "krakhit",
-      "state": "open",
-      "created_at": "2026-11-03T10:13:37Z",
-      "updated_at": "2026-11-19T05:15:01Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7393",
-      "labels": []
-    },
-    {
       "number": 7504,
       "title": "[FlyDSL] moe_reduce: masked reduction does not bound-check topk_ids against expert_mask size",
       "author": "Bernard-Liu",
@@ -2761,16 +2686,6 @@
       "labels": []
     },
     {
-      "number": 7592,
-      "title": "NameError: DROPPED_ROUTE_ROW not defined in moe_contiguous_psum.py (TP4 mode crash)",
-      "author": "srinivamd",
-      "state": "open",
-      "created_at": "2026-11-06T20:20:36Z",
-      "updated_at": "2026-11-19T05:09:18Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7592",
-      "labels": []
-    },
-    {
       "number": 7593,
       "title": "[issue] gfx942 (MI300X) result for pytest op_tests/test_mha_fp8.py op_tests/test_mha_varlen_fp8.py",
       "author": "zjin-lcf",
@@ -2841,16 +2756,6 @@
       "labels": []
     },
     {
-      "number": 7150,
-      "title": "RFC: decouple backend names from public op definitions (start with MoE)",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-10-29T09:37:36Z",
-      "updated_at": "2026-11-19T05:08:43Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7150",
-      "labels": []
-    },
-    {
       "number": 5879,
       "title": "`get_ps_metadata_v1` writes device outputs with non-stream-ordered `hipMemcpy`",
       "author": "amd-mghanimi",
@@ -2911,16 +2816,6 @@
       "labels": []
     },
     {
-      "number": 8131,
-      "title": "Tuned configs can't tell MI300X from MI325X (both gfx942 / 304 CUs)",
-      "author": "frida-andersson",
-      "state": "open",
-      "created_at": "2026-11-17T21:16:25Z",
-      "updated_at": "2026-11-19T05:08:12Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8131",
-      "labels": []
-    },
-    {
       "number": 8141,
       "title": "[Issue]: rope_fwd_3d leaves padded output tokens unwritten",
       "author": "jeffchen006",
@@ -2928,16 +2823,6 @@
       "created_at": "2026-11-17T23:36:22Z",
       "updated_at": "2026-11-19T05:08:07Z",
       "html_url": "https://github.com/ROCm/aiter/issues/8141",
-      "labels": []
-    },
-    {
-      "number": 8254,
-      "title": "[MLA] Add a NoPE-only mode to the BF16 absorb FP8 epilogue on gfx950",
-      "author": "whx-sjtu",
-      "state": "open",
-      "created_at": "2026-11-19T03:15:22Z",
-      "updated_at": "2026-11-19T05:08:03Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8254",
       "labels": []
     },
     {
@@ -3163,19 +3048,6 @@
       "labels": []
     },
     {
-      "number": 7240,
-      "title": "RFC: Versioned Kernel Provider Interface for AITER",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-10-30T23:10:45Z",
-      "updated_at": "2026-11-17T05:48:26Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7240",
-      "labels": [
-        "Infra",
-        "work-in-progress"
-      ]
-    },
-    {
       "number": 7811,
       "title": "fmha_v3_varlen_fwd ASM kernel (fmha_fwd_hd128_bf16_causal_group) crashes with GPU memory access fault on paged KV cache \u2014 block_table validated but never passed to kernel-argument builder",
       "author": "sahirema",
@@ -3226,16 +3098,6 @@
       "labels": []
     },
     {
-      "number": 7631,
-      "title": "[gfx950] mla_dec_stage1_bf16_a16w16_subQ128_mqa128.co gives nondeterministic, wrong output when a workgroup handles more than 48 KV tokens",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2026-11-08T20:43:52Z",
-      "updated_at": "2026-11-11T07:19:32Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7631",
-      "labels": []
-    },
-    {
       "number": 7536,
       "title": "[Issue]: grouped MoE GEMM tests require an AOT entry for moe_fused_route_quant_scatter that run_aot does not build",
       "author": "andyluo7",
@@ -3273,26 +3135,6 @@
       "created_at": "2026-10-03T01:17:41Z",
       "updated_at": "2026-11-02T20:23:32Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6114",
-      "labels": []
-    },
-    {
-      "number": 2157,
-      "title": "Support TheRock ROCm \u201cPython-managed\u201d install paths (non-/opt/rocm)",
-      "author": "akao-amd",
-      "state": "open",
-      "created_at": "2026-03-03T04:01:19Z",
-      "updated_at": "2026-10-29T23:57:37Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2157",
-      "labels": []
-    },
-    {
-      "number": 6062,
-      "title": "[vLLM] DSR1 FP4 Optimizations",
-      "author": "farlukas",
-      "state": "open",
-      "created_at": "2026-10-01T18:13:36Z",
-      "updated_at": "2026-10-27T16:38:18Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6062",
       "labels": []
     },
     {
@@ -3662,16 +3504,6 @@
       "labels": []
     },
     {
-      "number": 1354,
-      "title": "[Feature]: Need a Gather-GEMM kernel before MHA for DeepSeeek model",
-      "author": "junhaha666",
-      "state": "open",
-      "created_at": "2025-11-06T13:29:18Z",
-      "updated_at": "2026-08-31T08:15:28Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1354",
-      "labels": []
-    },
-    {
       "number": 289,
       "title": "test_mha.py:test_mha_backward fails with causal=True and seqlen_q < seqlen_k",
       "author": "juuso-oskari",
@@ -3706,18 +3538,6 @@
       "labels": []
     },
     {
-      "number": 4325,
-      "title": "[Issue]: [FlyDSL][MoE][VLLM] moe_gemm_2stage: `fx.ptrtoint` on `!fly.memref` fails to build on gfx9500(MI355)",
-      "author": "stefankoncarevic",
-      "state": "open",
-      "created_at": "2026-07-21T15:41:28Z",
-      "updated_at": "2026-08-26T21:00:52Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4325",
-      "labels": [
-        "ci:vllm"
-      ]
-    },
-    {
       "number": 4636,
       "title": "[Issue]: [Bug] `fused_moe` EP: illegal memory access for negative `topk_ids` (MXFP4 / per_1x32, gfx950)",
       "author": "Concurrensee",
@@ -3726,34 +3546,6 @@
       "updated_at": "2026-08-07T21:22:43Z",
       "html_url": "https://github.com/ROCm/aiter/issues/4636",
       "labels": []
-    },
-    {
-      "number": 2826,
-      "title": "Increase vLLM downstream test coverage",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-04-21T05:27:35Z",
-      "updated_at": "2026-07-23T18:38:55Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2826",
-      "labels": [
-        "enhancement",
-        "frameworks-devops",
-        "ci:vllm"
-      ]
-    },
-    {
-      "number": 2751,
-      "title": "Increase SGLang downstream test coverage in Aiter CI and make Aiter upgrades smoother in the SGLang repo.",
-      "author": "gyohuangxin",
-      "state": "open",
-      "created_at": "2026-04-16T05:15:49Z",
-      "updated_at": "2026-07-23T18:38:49Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2751",
-      "labels": [
-        "enhancement",
-        "frameworks-devops",
-        "ci:sglang"
-      ]
     },
     {
       "number": 2102,
@@ -3828,26 +3620,6 @@
       "labels": []
     },
     {
-      "number": 2768,
-      "title": "[Bug] uint32 offset overflow in MLA decode ASM kernel for seqlen > 8M",
-      "author": "ChuanLi1101",
-      "state": "open",
-      "created_at": "2026-04-16T22:45:49Z",
-      "updated_at": "2026-07-12T03:14:09Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2768",
-      "labels": []
-    },
-    {
-      "number": 4055,
-      "title": "[Issue]: module_rmsnorm cold JIT compile is extremely slow (~225s) on gfx950 / ROCm 7.2.2",
-      "author": "YangFan0918",
-      "state": "open",
-      "created_at": "2026-07-02T04:11:39Z",
-      "updated_at": "2026-07-07T02:49:14Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4055",
-      "labels": []
-    },
-    {
       "number": 2828,
       "title": "add tuning daily test",
       "author": "yzhou103",
@@ -3878,16 +3650,6 @@
       "created_at": "2026-06-23T06:04:20Z",
       "updated_at": "2026-06-23T06:04:24Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3873",
-      "labels": []
-    },
-    {
-      "number": 3362,
-      "title": "[Issue]: FlyDSL fails when GPU available when prebuilding kernels for arch=gfx950",
-      "author": "amd-mghanimi",
-      "state": "open",
-      "created_at": "2026-05-26T21:58:14Z",
-      "updated_at": "2026-05-28T04:22:21Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/3362",
       "labels": []
     },
     {
@@ -3931,16 +3693,6 @@
       "labels": []
     },
     {
-      "number": 2857,
-      "title": "mi35x-qwen3-235b-mxfp4 failed since v0.1.12.post1",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-04-22T09:59:18Z",
-      "updated_at": "2026-04-29T01:11:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2857",
-      "labels": []
-    },
-    {
       "number": 2517,
       "title": "[Bug] mha_batch_prefill returns all-zeros when KV cache > 8.4M pages (int32 overflow in CK element_space_size)",
       "author": "ChangyiYang",
@@ -3953,16 +3705,6 @@
       ]
     },
     {
-      "number": 2864,
-      "title": "0.1.12 fails on DeepSeek R1 on MI300",
-      "author": "gshtras",
-      "state": "open",
-      "created_at": "2026-04-22T15:28:35Z",
-      "updated_at": "2026-04-23T03:48:42Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2864",
-      "labels": []
-    },
-    {
       "number": 2792,
       "title": "[Issue] AITER cf12b13 regresses MI35x DeepSeek-R1-MXFP4 and DeepSeek-V3.2",
       "author": "bingxche",
@@ -3970,28 +3712,6 @@
       "created_at": "2026-04-20T02:46:28Z",
       "updated_at": "2026-04-21T09:33:15Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2792",
-      "labels": []
-    },
-    {
-      "number": 2788,
-      "title": "AITER_USE_OPUS_MOE_SORTING=0 fails to build: 'moe_sorting_api.hpp' file not found",
-      "author": "josusanmartin",
-      "state": "open",
-      "created_at": "2026-04-19T01:43:52Z",
-      "updated_at": "2026-04-20T07:33:17Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2788",
-      "labels": [
-        "High Priority"
-      ]
-    },
-    {
-      "number": 2656,
-      "title": "Accuracy regression in DeepSeek-R1-MXFP4 (KV FP8) on MI35x after commit a56b520 in SGLang",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-04-08T10:07:34Z",
-      "updated_at": "2026-04-09T09:51:35Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2656",
       "labels": []
     },
     {
@@ -4136,16 +3856,6 @@
       "labels": []
     },
     {
-      "number": 2061,
-      "title": "[Bug] Custom all-reduce IPC buffers use fixed VA, conflict with torch_memory_saver pause/resume \u2192 zombie processes on MI300X",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-02-18T19:15:15Z",
-      "updated_at": "2026-02-23T07:01:24Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2061",
-      "labels": []
-    },
-    {
       "number": 2021,
       "title": "[Issue]: layernorm build error",
       "author": "kurapov-peter",
@@ -4153,26 +3863,6 @@
       "created_at": "2026-02-10T11:01:12Z",
       "updated_at": "2026-02-12T03:55:29Z",
       "html_url": "https://github.com/ROCm/aiter/issues/2021",
-      "labels": []
-    },
-    {
-      "number": 1542,
-      "title": "[Issue]: AITER all reduce kernel segmentation fault in MI300x",
-      "author": "graceleeis",
-      "state": "open",
-      "created_at": "2025-12-03T00:43:33Z",
-      "updated_at": "2026-02-11T02:05:50Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1542",
-      "labels": []
-    },
-    {
-      "number": 1946,
-      "title": "[Feature]: Add `record_param_comms` instrumentation to communication kernels for profiler metadata",
-      "author": "ajassani",
-      "state": "open",
-      "created_at": "2026-02-01T21:08:03Z",
-      "updated_at": "2026-02-02T02:41:47Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1946",
       "labels": []
     },
     {
@@ -4196,16 +3886,6 @@
       "labels": []
     },
     {
-      "number": 1886,
-      "title": "[Issue]: Not support conv3d triton kernel. the APP ComfyUI will call them.",
-      "author": "kxyk99",
-      "state": "open",
-      "created_at": "2026-01-22T06:52:45Z",
-      "updated_at": "2026-01-22T06:52:45Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1886",
-      "labels": []
-    },
-    {
       "number": 726,
       "title": "[Feature]: decode MLA kernel support nhead=8",
       "author": "wufann",
@@ -4225,16 +3905,6 @@
       "created_at": "2026-01-12T10:53:43Z",
       "updated_at": "2026-01-12T15:17:54Z",
       "html_url": "https://github.com/ROCm/aiter/issues/1819",
-      "labels": []
-    },
-    {
-      "number": 1702,
-      "title": "Add support for non-causal (encoder-only) attention",
-      "author": "westers",
-      "state": "open",
-      "created_at": "2025-12-20T18:01:51Z",
-      "updated_at": "2025-12-22T05:06:01Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1702",
       "labels": []
     },
     {
@@ -4278,18 +3948,6 @@
       "labels": []
     },
     {
-      "number": 1391,
-      "title": "[Issue]: Dead code in FmoeTuner.get_1stage_fmoe_func: unreachable `elif` branch and incorrect logical operator.",
-      "author": "antsaukk",
-      "state": "open",
-      "created_at": "2025-11-12T09:15:30Z",
-      "updated_at": "2025-11-20T13:19:02Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/1391",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
       "number": 887,
       "title": "[Issue]: site-packages/aiter/jit/build folder needs to be created manually.",
       "author": "sfantao",
@@ -4327,16 +3985,6 @@
       "created_at": "2025-07-17T06:14:52Z",
       "updated_at": "2025-07-21T03:08:09Z",
       "html_url": "https://github.com/ROCm/aiter/issues/670",
-      "labels": []
-    },
-    {
-      "number": 454,
-      "title": "[Issue]: MoE UT fail to compile: op_tests/test_moe_2stage.py",
-      "author": "CrimsonDump",
-      "state": "open",
-      "created_at": "2025-05-21T07:00:43Z",
-      "updated_at": "2025-07-19T07:46:14Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/454",
       "labels": []
     },
     {

@@ -1,32 +1,40 @@
 {
-  "collected_at": "2026-11-19T16:54:34Z",
+  "collected_at": "2026-11-20T16:29:22Z",
   "prs": [
     {
-      "number": 1453,
-      "title": "[Kernel][Perf] Pick the MXFP4 GEMM geometry from M and pipeline its fp4 K loop",
-      "author": "Monstertail",
+      "number": 1456,
+      "title": "[Fly] Resolve register addresses by dataflow in rmem SSA promotion",
+      "author": "sjfeng1999",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-19T13:07:39Z",
-      "updated_at": "2026-11-19T13:08:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1453",
-      "labels": [
-        "kernels"
-      ],
-      "draft": true
+      "created_at": "2026-11-20T11:21:47Z",
+      "updated_at": "2026-11-20T11:21:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1456",
+      "labels": [],
+      "draft": false
     },
     {
-      "number": 1452,
-      "title": "[Kernel][Perf] Split the KV range of under-filled paged FP8 attention calls",
-      "author": "Monstertail",
+      "number": 1455,
+      "title": "[ROCDL] Lower math ops that MathToLLVM gets wrong to OCML",
+      "author": "sjfeng1999",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-19T11:23:42Z",
-      "updated_at": "2026-11-19T12:21:45Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1452",
-      "labels": [
-        "kernels"
-      ],
+      "created_at": "2026-11-20T09:53:38Z",
+      "updated_at": "2026-11-20T10:48:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1455",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1326,
+      "title": "[JIT] flyc.compile[hints] no longer leaves its hints on the function",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-26T02:28:54Z",
+      "updated_at": "2026-11-20T04:04:03Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1326",
+      "labels": [],
       "draft": false
     },
     {
@@ -36,22 +44,38 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-14T05:43:05Z",
-      "updated_at": "2026-11-19T11:21:07Z",
+      "updated_at": "2026-11-20T03:47:17Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1412",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1438,
-      "title": "[ROCDL] Convert more math ops with afn flag to native rocdl ops",
-      "author": "sjfeng1999",
+      "number": 1453,
+      "title": "[Kernel][Perf] Pick the MXFP4 GEMM geometry from M and pipeline its fp4 K loop",
+      "author": "Monstertail",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-18T11:57:46Z",
-      "updated_at": "2026-11-19T10:11:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1438",
-      "labels": [],
-      "draft": true
+      "created_at": "2026-11-19T13:07:39Z",
+      "updated_at": "2026-11-19T22:26:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1453",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1452,
+      "title": "[Kernel][Perf] Split the KV range of under-filled paged FP8 attention calls",
+      "author": "Monstertail",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T11:23:42Z",
+      "updated_at": "2026-11-19T21:20:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1452",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
     },
     {
       "number": 1422,
@@ -66,18 +90,6 @@
         "kernels"
       ],
       "draft": false
-    },
-    {
-      "number": 1450,
-      "title": "[Feat] Model LDS DMA copy atoms at wave granularity",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T08:47:02Z",
-      "updated_at": "2026-11-19T09:00:09Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1450",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1448,
@@ -453,18 +465,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1383",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1391,
-      "title": "Fix log1p and expm1 returning 0 for tiny arguments",
-      "author": "amd-songpiao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T12:05:11Z",
-      "updated_at": "2026-11-10T08:46:00Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1391",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1385,
@@ -919,30 +919,6 @@
       "draft": false
     },
     {
-      "number": 1325,
-      "title": "[JIT] Assert a single ROCDL target source; test the wave32 object",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T02:28:51Z",
-      "updated_at": "2026-10-26T02:28:57Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1325",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1326,
-      "title": "[JIT] flyc.compile[hints] no longer leaves its hints on the function",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T02:28:54Z",
-      "updated_at": "2026-10-26T02:28:54Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1326",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1277,
       "title": "[Test] Cover the FlyDSL kernels vLLM depends on",
       "author": "zhiding512",
@@ -1111,6 +1087,18 @@
       "created_at": "2026-07-28T19:32:56Z",
       "updated_at": "2026-07-29T10:56:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/920",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1454,
+      "title": "[Bugfix] Fold fly.get_iter of fly.make_view",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T03:11:31Z",
+      "updated_at": "2026-11-20T04:03:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1454",
       "labels": [],
       "draft": false
     },
@@ -1840,44 +1828,6 @@
       "updated_at": "2026-10-29T09:11:06Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1342",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1294,
-      "title": "[Bugfix] Handle Numeric conversion recursively",
-      "author": "ppppqp",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-14T15:58:07Z",
-      "updated_at": "2026-10-28T14:14:05Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1294",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1341,
-      "title": "[Fix] Make FLYDSL_DEBUG_DUMP_ASM dump the final ISA",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-28T09:59:16Z",
-      "updated_at": "2026-10-28T13:46:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1341",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1256,
-      "title": "[Perf] Share GLM TP4/TP8 indexed decode and add native FP4 indexing",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-10T05:26:56Z",
-      "updated_at": "2026-10-28T10:56:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1256",
-      "labels": [
-        "ai-review"
-      ],
       "draft": false
     }
   ]

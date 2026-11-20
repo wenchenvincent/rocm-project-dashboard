@@ -1,6 +1,186 @@
 {
-  "collected_at": "2026-11-19T16:54:30Z",
+  "collected_at": "2026-11-20T16:29:17Z",
   "prs": [
+    {
+      "number": 1066,
+      "title": "fix(cco): create SDMA queues only when a DevComm asks for them",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T10:34:13Z",
+      "updated_at": "2026-11-20T10:35:17Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1066",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 818,
+      "title": "Refactor GPU vector load/store primitives and WarpAccum functions",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T16:13:56Z",
+      "updated_at": "2026-11-20T09:38:25Z",
+      "html_url": "https://github.com/ROCm/mori/pull/818",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1065,
+      "title": "feat(ep/v2): HIP intranode on gfx942/gfx950: token dropping, routing replay, unquantized scatter, local_expert_count, StdMoE",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T09:22:25Z",
+      "updated_at": "2026-11-20T09:23:32Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1065",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1064,
+      "title": "fix(EPv2/gfx1250): halve the dispatch warps for fp32, and skip the modes the backend does not serve",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T06:00:13Z",
+      "updated_at": "2026-11-20T09:15:28Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1064",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1045,
+      "title": "feat(umbp/l1): adopt the engine's KV memory, and fetch into slots the caller holds",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T05:17:29Z",
+      "updated_at": "2026-11-20T06:20:30Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1045",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1053,
+      "title": "fix(umbp/l1): fence external fetch destinations before copying",
+      "author": "wuyl1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T09:25:26Z",
+      "updated_at": "2026-11-20T06:19:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1053",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 848,
+      "title": "Feat/io receiver fence",
+      "author": "amirakb89",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-27T03:22:58Z",
+      "updated_at": "2026-11-20T06:04:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/848",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1063,
+      "title": "fix(umbp): drain a failed io_uring call before returning",
+      "author": "ZeXi0308",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T04:52:00Z",
+      "updated_at": "2026-11-20T04:52:00Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1063",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1062,
+      "title": "fix(umbp): answer UNKNOWN to keepalives and deltas from expired nodes",
+      "author": "ZeXi0308",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T04:51:57Z",
+      "updated_at": "2026-11-20T04:51:57Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1062",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1059,
+      "title": "feat(EPv2): block-per-token LL dispatch on the portable intranode path",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T02:10:59Z",
+      "updated_at": "2026-11-20T03:55:05Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1059",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1044,
+      "title": "feat(umbp): pool rules, a per-pool table for the put, evict, move and get decisions",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T04:52:15Z",
+      "updated_at": "2026-11-20T03:05:01Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1044",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1058,
+      "title": "docs(umbp): RFC for role-independent KV lifetime and handoff",
+      "author": "GL-AMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T01:31:16Z",
+      "updated_at": "2026-11-20T01:31:16Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1058",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1057,
+      "title": "docs(umbp): RFC for KV readiness estimates and routing",
+      "author": "GL-AMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T01:31:04Z",
+      "updated_at": "2026-11-20T01:31:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1057",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1056,
+      "title": "docs(umbp): RFC for agent context retention",
+      "author": "GL-AMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T01:30:53Z",
+      "updated_at": "2026-11-20T01:30:53Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1056",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 816,
+      "title": "Draft collectives develop",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T13:00:41Z",
+      "updated_at": "2026-11-19T17:30:41Z",
+      "html_url": "https://github.com/ROCm/mori/pull/816",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 1042,
       "title": "feat(cco): ccoProxy, a host-proxy RDMA transport (KIWI step 2)",
@@ -14,18 +194,6 @@
       "draft": true
     },
     {
-      "number": 818,
-      "title": "Refactor GPU vector load/store primitives and WarpAccum functions",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T16:13:56Z",
-      "updated_at": "2026-11-19T16:48:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/818",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 937,
       "title": "perf(ep/v1ll): lower MI355X EP32 small-batch latency for hidden 3584, top-16",
       "author": "jhchouuu",
@@ -34,30 +202,6 @@
       "created_at": "2026-11-09T04:10:03Z",
       "updated_at": "2026-11-19T16:46:52Z",
       "html_url": "https://github.com/ROCm/mori/pull/937",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 848,
-      "title": "Feat/io receiver fence",
-      "author": "amirakb89",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-27T03:22:58Z",
-      "updated_at": "2026-11-19T15:15:10Z",
-      "html_url": "https://github.com/ROCm/mori/pull/848",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1012,
-      "title": "feat(ep/v2): explicit 1x32/1x128 combine quant formats, served on gfx942/gfx950 by HIP and FlyDSL",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T15:51:36Z",
-      "updated_at": "2026-11-19T14:21:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1012",
       "labels": [],
       "draft": false
     },
@@ -82,18 +226,6 @@
       "created_at": "2026-11-13T03:38:35Z",
       "updated_at": "2026-11-19T10:38:05Z",
       "html_url": "https://github.com/ROCm/mori/pull/997",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1053,
-      "title": "fix(umbp/l1): fence external fetch destinations before copying",
-      "author": "wuyl1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T09:25:26Z",
-      "updated_at": "2026-11-19T10:00:37Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1053",
       "labels": [],
       "draft": false
     },
@@ -170,18 +302,6 @@
       "draft": false
     },
     {
-      "number": 1044,
-      "title": "feat(umbp): pool rules, a per-pool table for the put, evict, move and get decisions",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T04:52:15Z",
-      "updated_at": "2026-11-19T06:41:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1044",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1043,
       "title": "perf(EPv2/gfx1250): EP4 fp8 / fp4 push combine fills its ring by rows and reduces by claim",
       "author": "zhangfei829",
@@ -190,18 +310,6 @@
       "created_at": "2026-11-19T03:56:11Z",
       "updated_at": "2026-11-19T05:38:09Z",
       "html_url": "https://github.com/ROCm/mori/pull/1043",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1045,
-      "title": "feat(umbp/l1): adopt the engine's KV memory, and fetch into slots the caller holds",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T05:17:29Z",
-      "updated_at": "2026-11-19T05:18:38Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1045",
       "labels": [],
       "draft": false
     },
@@ -228,18 +336,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/1039",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 816,
-      "title": "Draft collectives develop",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T13:00:41Z",
-      "updated_at": "2026-11-18T11:23:25Z",
-      "html_url": "https://github.com/ROCm/mori/pull/816",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1038,
@@ -1262,6 +1358,18 @@
       "draft": false
     },
     {
+      "number": 1012,
+      "title": "feat(ep/v2): explicit 1x32/1x128 combine quant formats, served on gfx942/gfx950 by HIP and FlyDSL",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-16T15:51:36Z",
+      "updated_at": "2026-11-20T09:15:16Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1012",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 950,
       "title": "feat(ep): sync KIWI EP with upstream tuning, proxy affinity and fixes",
       "author": "charlifu",
@@ -2148,18 +2256,6 @@
       "created_at": "2026-11-09T05:59:53Z",
       "updated_at": "2026-11-10T07:24:28Z",
       "html_url": "https://github.com/ROCm/mori/pull/939",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 948,
-      "title": "ci: run only the GPU lanes a PR's changes need; move the CCO unit test to PIT-G17",
-      "author": "jhchouuu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-09T14:21:25Z",
-      "updated_at": "2026-11-10T07:06:07Z",
-      "html_url": "https://github.com/ROCm/mori/pull/948",
       "labels": [],
       "draft": false
     }

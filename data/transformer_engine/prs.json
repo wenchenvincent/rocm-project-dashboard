@@ -1,16 +1,76 @@
 {
-  "collected_at": "2026-11-19T16:54:37Z",
+  "collected_at": "2026-11-20T16:29:26Z",
   "prs": [
     {
-      "number": 807,
-      "title": "CI: pilot DPX runner for mi35x mGPU (8-GPU) tests",
-      "author": "pelumi1163",
+      "number": 810,
+      "title": "[HK] Relaxes alignment requirements for gfx950 mxfp8 GEMMs",
+      "author": "alextmagro",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-17T17:25:40Z",
-      "updated_at": "2026-11-19T16:05:08Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/807",
-      "labels": [],
+      "created_at": "2026-11-19T22:12:23Z",
+      "updated_at": "2026-11-20T06:05:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/810",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 811,
+      "title": "fix hipBLASLt autotuning issues",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T00:06:39Z",
+      "updated_at": "2026-11-20T00:06:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/811",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 804,
+      "title": "Persistent GEMM + RS MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T15:59:31Z",
+      "updated_at": "2026-11-19T23:17:30Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/804",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 789,
+      "title": "[gfx1250] TDM normalization",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T21:48:29Z",
+      "updated_at": "2026-11-19T23:14:46Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/789",
+      "labels": [
+        "ci-level 1",
+        "P1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 788,
+      "title": "[TE][HipKittens] Require K % 128 for blockwise FP8 GEMMs",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T20:41:51Z",
+      "updated_at": "2026-11-19T22:47:23Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/788",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
       "draft": false
     },
     {
@@ -20,13 +80,112 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-16T00:00:37Z",
-      "updated_at": "2026-11-19T08:25:32Z",
+      "updated_at": "2026-11-19T22:20:16Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/762",
       "labels": [
-        "ci-level 1",
         "P2"
       ],
+      "draft": false
+    },
+    {
+      "number": 803,
+      "title": "NVFP4 UE5M3 support for gfx1250/gfx950",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T23:32:37Z",
+      "updated_at": "2026-11-19T21:36:59Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/803",
+      "labels": [
+        "ci-level 1",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 801,
+      "title": "[TE] MXFP8 quantize: 2D block scaling and GEMM-swizzled scales",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T01:27:27Z",
+      "updated_at": "2026-11-19T20:13:46Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/801",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 778,
+      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-22T23:18:01Z",
+      "updated_at": "2026-11-19T18:15:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
+      "labels": [
+        "ci-level 1",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 759,
+      "title": "speed up multi-stream execution",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-13T15:04:03Z",
+      "updated_at": "2026-11-19T17:49:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/759",
+      "labels": [
+        "ci-level 1",
+        "P3"
+      ],
       "draft": true
+    },
+    {
+      "number": 808,
+      "title": "build HK gfx1250 MXFP8 GEMMs with the min-register scheduler on ROCm 10.3",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T22:16:32Z",
+      "updated_at": "2026-11-19T17:38:25Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/808",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 694,
+      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-06T18:46:22Z",
+      "updated_at": "2026-11-19T17:24:31Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 807,
+      "title": "CI: pilot DPX runner for mi35x mGPU (8-GPU) tests",
+      "author": "pelumi1163",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T17:25:40Z",
+      "updated_at": "2026-11-19T17:02:53Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/807",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 809,
@@ -41,64 +200,6 @@
         "ci-level 3"
       ],
       "draft": true
-    },
-    {
-      "number": 801,
-      "title": "[TE] MXFP8 quantize: 2D block scaling and GEMM-swizzled scales",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T01:27:27Z",
-      "updated_at": "2026-11-18T21:14:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/801",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 778,
-      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T23:18:01Z",
-      "updated_at": "2026-11-18T20:38:21Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
-      "labels": [
-        "ci-level 1",
-        "P1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 804,
-      "title": "Persistent GEMM + RS MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T15:59:31Z",
-      "updated_at": "2026-11-18T20:35:44Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/804",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 788,
-      "title": "[TE][HipKittens] Require K % 128 for blockwise FP8 GEMMs",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T20:41:51Z",
-      "updated_at": "2026-11-18T19:37:42Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/788",
-      "labels": [
-        "ci-level 3",
-        "P2"
-      ],
-      "draft": false
     },
     {
       "number": 766,
@@ -157,50 +258,6 @@
       "draft": false
     },
     {
-      "number": 803,
-      "title": "NVFP4 UE5M3 support gfx1250/gfx950",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T23:32:37Z",
-      "updated_at": "2026-11-18T01:32:07Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/803",
-      "labels": [
-        "ci-level 1",
-        "P1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 808,
-      "title": "build HK gfx1250 MXFP8 GEMMs with the min-register scheduler on ROCm 10.3",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T22:16:32Z",
-      "updated_at": "2026-11-17T22:16:32Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/808",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 789,
-      "title": "[gfx1250] TDM normalization",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T21:48:29Z",
-      "updated_at": "2026-11-17T19:52:16Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/789",
-      "labels": [
-        "ci-level 1",
-        "P1"
-      ],
-      "draft": true
-    },
-    {
       "number": 726,
       "title": "microbenchmarks: use pytest as execution backend",
       "author": "matthiasdiener",
@@ -239,21 +296,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/805",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 694,
-      "title": "Permute-Free Grouped GEMM for MoE (bf16, gfx950)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-06T18:46:22Z",
-      "updated_at": "2026-11-13T19:11:51Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/694",
-      "labels": [
-        "ci-level 3",
-        "P2"
       ],
       "draft": false
     },
@@ -794,21 +836,6 @@
       "updated_at": "2026-10-20T21:03:23Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/705",
       "labels": [
-        "P3"
-      ],
-      "draft": true
-    },
-    {
-      "number": 759,
-      "title": "speed up multi-stream execution",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-13T15:04:03Z",
-      "updated_at": "2026-10-20T21:02:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/759",
-      "labels": [
-        "ci-level 1",
         "P3"
       ],
       "draft": true
