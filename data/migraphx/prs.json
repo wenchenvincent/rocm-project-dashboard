@@ -1,15 +1,39 @@
 {
-  "collected_at": "2026-11-20T16:28:27Z",
+  "collected_at": "2026-11-21T15:43:05Z",
   "prs": [
     {
-      "number": 5582,
-      "title": "Report the configured commit in the version string",
-      "author": "causten",
+      "number": 5583,
+      "title": "Write fp32 scores for unfused fp16 attention blocks to prevent q.k^T overflow",
+      "author": "menglcai",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-19T17:07:55Z",
-      "updated_at": "2026-11-20T16:11:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5582",
+      "created_at": "2026-11-20T09:29:03Z",
+      "updated_at": "2026-11-21T11:26:08Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5583",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5520,
+      "title": "Slice a symbolic shape by run-time bounds with dyn_slice",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T05:54:07Z",
+      "updated_at": "2026-11-21T03:21:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5520",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5450,
+      "title": "Combined data dependent support branches",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:55:48Z",
+      "updated_at": "2026-11-21T00:18:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
       "labels": [],
       "draft": false
     },
@@ -20,7 +44,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-11T20:58:06Z",
-      "updated_at": "2026-11-20T16:11:40Z",
+      "updated_at": "2026-11-20T21:23:35Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5503",
       "labels": [],
       "draft": false
@@ -32,8 +56,32 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-26T22:04:33Z",
-      "updated_at": "2026-11-20T15:56:05Z",
+      "updated_at": "2026-11-20T20:55:52Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5582,
+      "title": "Report the configured commit in the version string",
+      "author": "causten",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T17:07:55Z",
+      "updated_at": "2026-11-20T20:42:23Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5582",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 4787,
+      "title": "Rewrite mul reduce to use fdot2 instructions",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-04-15T15:49:26Z",
+      "updated_at": "2026-11-20T20:02:54Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4787",
       "labels": [],
       "draft": false
     },
@@ -44,9 +92,26 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-05T16:23:16Z",
-      "updated_at": "2026-11-20T15:42:31Z",
+      "updated_at": "2026-11-20T19:52:33Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5482",
       "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5588,
+      "title": "Onnxruntime Weekly Sync 2026-11-20",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T17:12:10Z",
+      "updated_at": "2026-11-20T17:12:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5588",
+      "labels": [
+        "onnxruntime",
+        "dependencies",
+        "skip bot checks",
+        "automated"
+      ],
       "draft": false
     },
     {
@@ -86,18 +151,6 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5579",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 5583,
-      "title": "Write fp32 scores for unfused fp16 attention blocks to prevent q.k^T overflow",
-      "author": "menglcai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T09:29:03Z",
-      "updated_at": "2026-11-20T09:29:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5583",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5581,
@@ -172,30 +225,6 @@
       "created_at": "2026-11-12T16:27:29Z",
       "updated_at": "2026-11-20T02:14:56Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5507",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5450,
-      "title": "Combined data dependent support branches",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T14:55:48Z",
-      "updated_at": "2026-11-20T00:38:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5479,
-      "title": "Fold axis-linear operations on a dot input into its constant operand",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T14:46:22Z",
-      "updated_at": "2026-11-19T23:46:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5479",
       "labels": [],
       "draft": false
     },
@@ -356,18 +385,6 @@
       "created_at": "2026-11-18T18:10:50Z",
       "updated_at": "2026-11-18T18:10:51Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5578",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 4787,
-      "title": "Rewrite mul reduce to use fdot2 instructions",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-04-15T15:49:26Z",
-      "updated_at": "2026-11-18T17:34:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4787",
       "labels": [],
       "draft": false
     },
@@ -900,18 +917,6 @@
       "created_at": "2026-11-13T06:24:01Z",
       "updated_at": "2026-11-17T05:46:01Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5522",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5520,
-      "title": "Slice a symbolic shape by run-time bounds with dyn_slice",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T05:54:07Z",
-      "updated_at": "2026-11-16T06:31:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5520",
       "labels": [],
       "draft": false
     },
@@ -2198,6 +2203,78 @@
       "draft": true
     },
     {
+      "number": 5589,
+      "title": "Update windows CI to use clang 22",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T18:56:50Z",
+      "updated_at": "2026-11-20T23:20:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5589",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5587,
+      "title": "docs(install/2.19.0): update MIGraphX and Torch-MIGraphX install pages for ROCm 10.2.0",
+      "author": "peterjunpark",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T16:41:47Z",
+      "updated_at": "2026-11-20T22:06:02Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5587",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5584,
+      "title": "docs(install/2.16.0): update MIGraphX and Torch-MIGraphX install pages for ROCm 7.14.1",
+      "author": "peterjunpark",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T16:39:45Z",
+      "updated_at": "2026-11-20T22:05:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5584",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5585,
+      "title": "docs(install/2.17.0): update MIGraphX and Torch-MIGraphX install pages for ROCm 10.0.0",
+      "author": "peterjunpark",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T16:40:17Z",
+      "updated_at": "2026-11-20T22:05:25Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5585",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5586,
+      "title": "docs(install/2.18.0): update MIGraphX and Torch-MIGraphX install pages for ROCm 10.1.0",
+      "author": "peterjunpark",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T16:41:02Z",
+      "updated_at": "2026-11-20T22:05:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5586",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5479,
+      "title": "Fold axis-linear operations on a dot input into its constant operand",
+      "author": "pfultz2",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-04T14:46:22Z",
+      "updated_at": "2026-11-20T18:48:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5479",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5373,
       "title": "docs: update installation docs with TheRock packages for ROCm 10.2",
       "author": "peterjunpark",
@@ -2963,81 +3040,6 @@
       "labels": [
         "simple"
       ],
-      "draft": false
-    },
-    {
-      "number": 5351,
-      "title": "Fix invalid const attribute on generated fused reductions",
-      "author": "ahsan-ca",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-05T17:17:44Z",
-      "updated_at": "2026-10-26T17:07:34Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5351",
-      "labels": [
-        "high priority",
-        "simple"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5407,
-      "title": "Zero-copy gather literals and cost-aware staging in write_literals",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-17T14:24:49Z",
-      "updated_at": "2026-10-26T15:21:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5407",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5335,
-      "title": "Channels-last support and register/vector reuse for the channelwise convolution kernel",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-29T19:22:50Z",
-      "updated_at": "2026-10-25T15:34:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5335",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5429,
-      "title": "Prefer moving a unary op up to a fusable producer in simplify_reshapes",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-23T17:28:43Z",
-      "updated_at": "2026-10-25T14:26:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5429",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5424,
-      "title": "Enable cppcoreguidelines-avoid-const-or-ref-data-members tidy check",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-22T15:43:07Z",
-      "updated_at": "2026-10-25T14:25:03Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5424",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5289,
-      "title": "Add missing tests",
-      "author": "pfultz2",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-20T17:07:40Z",
-      "updated_at": "2026-10-23T20:56:17Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5289",
-      "labels": [],
       "draft": false
     }
   ]

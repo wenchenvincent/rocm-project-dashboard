@@ -1,6 +1,126 @@
 {
-  "collected_at": "2026-11-20T16:29:22Z",
+  "collected_at": "2026-11-21T15:43:56Z",
   "prs": [
+    {
+      "number": 1465,
+      "title": "[AOT] Strip debug info from the embedded AOT runtime",
+      "author": "coderfeli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T14:29:18Z",
+      "updated_at": "2026-11-21T14:29:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1465",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1431,
+      "title": "[LLVM] Bump LLVM pin to e2ce52c885 and rebase llvm-extensions",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T05:17:14Z",
+      "updated_at": "2026-11-21T08:52:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1431",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1457,
+      "title": "[Perf] Keep gfx950 kernels that fit in 256 VGPRs out of the AGPRs",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T01:35:29Z",
+      "updated_at": "2026-11-21T08:37:23Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1457",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1463,
+      "title": "[Skills] isa-resource-diff: add loops to diff hot-loop wait order and VGPR liveness",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T05:57:46Z",
+      "updated_at": "2026-11-21T06:03:35Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1463",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1464,
+      "title": "[Skills] isa-resource-diff: read a FlyDSL JIT cache, one row per specialization binary",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T06:03:05Z",
+      "updated_at": "2026-11-21T06:03:16Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1464",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1462,
+      "title": "[Skills] isa-resource-diff: occupancy as the regression trigger, readable row labels, diff --kernel",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T05:52:18Z",
+      "updated_at": "2026-11-21T05:52:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1462",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1461,
+      "title": "[Skills] kernel-trace-analysis: report a missing kernel-trace CSV and bound the occupancy",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T05:44:26Z",
+      "updated_at": "2026-11-21T05:44:34Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1461",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1460,
+      "title": "[Skills] flydsl-kernel-authoring: cost of small runtime ifs; contract fastmath and bit-exact fast paths",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T05:42:03Z",
+      "updated_at": "2026-11-21T05:42:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1460",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1459,
+      "title": "[Skills] prefetch-data-load: keep the prefetch guard provable from the loop bound",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T05:41:04Z",
+      "updated_at": "2026-11-21T05:41:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1459",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1458,
+      "title": "[Skills] debug-flydsl-kernel: method calls on locals in a runtime if/for make them region state",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T05:40:15Z",
+      "updated_at": "2026-11-21T05:40:28Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1458",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1456,
       "title": "[Fly] Resolve register addresses by dataflow in rmem SSA promotion",
@@ -128,18 +248,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1374",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1431,
-      "title": "[LLVM] Bump LLVM pin to e2ce52c885 and rebase llvm-extensions",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T05:17:14Z",
-      "updated_at": "2026-11-19T01:43:36Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1431",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1443,

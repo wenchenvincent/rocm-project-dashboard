@@ -1,6 +1,152 @@
 {
-  "collected_at": "2026-11-20T16:29:01Z",
+  "collected_at": "2026-11-21T15:43:35Z",
   "issues": [
+    {
+      "number": 8401,
+      "title": "[Issue]: Compile-time fails with upcoming ROCm compiler using _ExtVector-based AMDGPU builtins",
+      "author": "mhalk",
+      "state": "open",
+      "created_at": "2026-11-20T18:38:47Z",
+      "updated_at": "2026-11-21T11:47:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8401",
+      "labels": []
+    },
+    {
+      "number": 8342,
+      "title": "[CI] vLLM benchmark runner starts with ~114 GiB already allocated on cuda:0",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-11-20T02:43:43Z",
+      "updated_at": "2026-11-21T11:42:50Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8342",
+      "labels": []
+    },
+    {
+      "number": 8343,
+      "title": "[CI] Windows gfx1201 smoke: the runner's torch has no gfx1201 binary",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-11-20T02:44:30Z",
+      "updated_at": "2026-11-21T11:42:48Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8343",
+      "labels": []
+    },
+    {
+      "number": 8374,
+      "title": "[FlyDSL] test_flydsl_hgemm: bit-exact split-K checks are order-dependent with BF16 output",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-11-20T09:47:59Z",
+      "updated_at": "2026-11-21T11:42:45Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8374",
+      "labels": [
+        "FlyDSL"
+      ]
+    },
+    {
+      "number": 8382,
+      "title": "[FlyDSL] [MoE] a8w4 stage-1 kernels `*_bnt0_gui_xcd4_fp8` give non-finite fused_moe output at T 8192 / 16384 (shipped DSv4.1 rows); the tuner reports 0.0 % error",
+      "author": "juuso-oskari",
+      "state": "open",
+      "created_at": "2026-11-20T11:30:29Z",
+      "updated_at": "2026-11-21T11:42:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8382",
+      "labels": []
+    },
+    {
+      "number": 8399,
+      "title": "[Issue]: `_causal_conv1d_fwd_split_qkv_tile_kernel` never completes on gfx1250 A0 (hangs the GPU)",
+      "author": "jamesETsmith",
+      "state": "open",
+      "created_at": "2026-11-20T17:39:25Z",
+      "updated_at": "2026-11-21T11:42:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8399",
+      "labels": []
+    },
+    {
+      "number": 8405,
+      "title": "[OPUS] gfx942 a8w8_blockscale_bpreshuffle kid 0 sometimes returns wrong results",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-11-20T20:33:16Z",
+      "updated_at": "2026-11-21T11:42:37Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8405",
+      "labels": []
+    },
+    {
+      "number": 8406,
+      "title": "[Config] Check hipBLASLt solution indexes in tuned BF16 CSVs against the hipBLASLt they are used with",
+      "author": "AndreasKaratzas",
+      "state": "open",
+      "created_at": "2026-11-20T20:33:17Z",
+      "updated_at": "2026-11-21T11:42:34Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8406",
+      "labels": []
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-21T08:00:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 4356,
+      "title": "[Feature]:  Make fused_qk_norm_rope_cache_pts_quant_shuffle stride-aware for packed KV cache",
+      "author": "stefankoncarevic",
+      "state": "open",
+      "created_at": "2026-07-23T15:22:53Z",
+      "updated_at": "2026-11-21T02:50:07Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4356",
+      "labels": [
+        "ci:vllm"
+      ]
+    },
+    {
+      "number": 8420,
+      "title": "[Issue]: flash_attn_func(deterministic=True) returns a wrong dQ on gfx950 once the fp32 dq_accum buffer passes 4 GiB (amd-aiter 0.1.7.post2.dev18)",
+      "author": "s7ventures",
+      "state": "open",
+      "created_at": "2026-11-21T02:09:49Z",
+      "updated_at": "2026-11-21T02:09:49Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8420",
+      "labels": []
+    },
+    {
+      "number": 5766,
+      "title": "[MoE][Build] Multi-arch `GPU_ARCHS=gfx942;gfx950` bakes the gfx950 instance table into 13 prebuilt `moe_ck2stages` modules, so gfx942 rejects `inter_dim=384` (breaks Qwen3-30B-A3B at TP2 under vLLM)",
+      "author": "jatseng-ai",
+      "state": "open",
+      "created_at": "2026-09-22T16:58:28Z",
+      "updated_at": "2026-11-21T01:39:05Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5766",
+      "labels": []
+    },
+    {
+      "number": 7982,
+      "title": "fused_moe: FP8 per_1x128 SiLU asm 1-stage kernels cannot apply swiglu_limit",
+      "author": "eppaneamd",
+      "state": "open",
+      "created_at": "2026-11-15T07:02:51Z",
+      "updated_at": "2026-11-20T21:14:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7982",
+      "labels": []
+    },
+    {
+      "number": 6023,
+      "title": "DSV4.1 Flash Optimization",
+      "author": "ahmed-bsod",
+      "state": "open",
+      "created_at": "2026-09-30T20:09:36Z",
+      "updated_at": "2026-11-20T17:01:19Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6023",
+      "labels": []
+    },
     {
       "number": 5086,
       "title": "[Bug] BF16 FMHA returns zero for finite extreme negative logits",
@@ -52,16 +198,6 @@
       "labels": []
     },
     {
-      "number": 8382,
-      "title": "[FlyDSL] [MoE] a8w4 stage-1 kernels `*_bnt0_gui_xcd4_fp8` give non-finite fused_moe output at T 8192 / 16384 (shipped DSv4.1 rows); the tuner reports 0.0 % error",
-      "author": "juuso-oskari",
-      "state": "open",
-      "created_at": "2026-11-20T11:30:29Z",
-      "updated_at": "2026-11-20T11:30:29Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8382",
-      "labels": []
-    },
-    {
       "number": 4752,
       "title": "[Bug] MLA persistent decode: bf16 query + fp8 KV aborts for gqa_ratio=16, max_seqlen_q > 4",
       "author": "lizexu123",
@@ -102,18 +238,6 @@
       "labels": []
     },
     {
-      "number": 8374,
-      "title": "[FlyDSL] test_flydsl_hgemm: bit-exact split-K checks are order-dependent with BF16 output",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-11-20T09:47:59Z",
-      "updated_at": "2026-11-20T09:47:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8374",
-      "labels": [
-        "FlyDSL"
-      ]
-    },
-    {
       "number": 2176,
       "title": "[Issue]: Workspace Buffer Pointer Arithmetic in pa_v1 Ignores MTP",
       "author": "gronsti-amd",
@@ -134,18 +258,6 @@
       "updated_at": "2026-11-20T09:11:40Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7631",
       "labels": []
-    },
-    {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-20T07:25:06Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
     },
     {
       "number": 5781,
@@ -321,26 +433,6 @@
         "bug",
         "FlyDSL"
       ]
-    },
-    {
-      "number": 8343,
-      "title": "[CI] Windows gfx1201 smoke: the runner's torch has no gfx1201 binary",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-11-20T02:44:30Z",
-      "updated_at": "2026-11-20T02:44:30Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8343",
-      "labels": []
-    },
-    {
-      "number": 8342,
-      "title": "[CI] vLLM benchmark runner starts with ~114 GiB already allocated on cuda:0",
-      "author": "zufayu",
-      "state": "open",
-      "created_at": "2026-11-20T02:43:43Z",
-      "updated_at": "2026-11-20T02:43:43Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8342",
-      "labels": []
     },
     {
       "number": 8288,
@@ -1349,18 +1441,6 @@
       "labels": []
     },
     {
-      "number": 4356,
-      "title": "[Feature]:  Make fused_qk_norm_rope_cache_pts_quant_shuffle stride-aware for packed KV cache",
-      "author": "stefankoncarevic",
-      "state": "open",
-      "created_at": "2026-07-23T15:22:53Z",
-      "updated_at": "2026-11-19T05:23:09Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4356",
-      "labels": [
-        "ci:vllm"
-      ]
-    },
-    {
       "number": 4363,
       "title": "[MLA][gfx942] Native qh64 fp8 persistent decode kernel GPU-faults at page_size=1 (block_size=1)",
       "author": "MohitAMD",
@@ -2325,16 +2405,6 @@
       ]
     },
     {
-      "number": 5766,
-      "title": "[MoE][Build] Multi-arch `GPU_ARCHS=gfx942;gfx950` bakes the gfx950 instance table into 13 prebuilt `moe_ck2stages` modules, so gfx942 rejects `inter_dim=384` (breaks Qwen3-30B-A3B at TP2 under vLLM)",
-      "author": "jatseng-ai",
-      "state": "open",
-      "created_at": "2026-09-22T16:58:28Z",
-      "updated_at": "2026-11-19T05:20:13Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5766",
-      "labels": []
-    },
-    {
       "number": 4456,
       "title": "[Issue]: [FMHA] flash_attn_varlen_func paged path raises UnboundLocalError: filter_fwd at head_dim=64",
       "author": "ZJLi2013",
@@ -2763,16 +2833,6 @@
       "created_at": "2026-09-26T19:47:01Z",
       "updated_at": "2026-11-19T05:08:39Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5879",
-      "labels": []
-    },
-    {
-      "number": 7982,
-      "title": "fused_moe: FP8 per_1x128 SiLU asm 1-stage kernels cannot apply swiglu_limit",
-      "author": "eppaneamd",
-      "state": "open",
-      "created_at": "2026-11-15T07:02:51Z",
-      "updated_at": "2026-11-19T05:08:34Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7982",
       "labels": []
     },
     {
@@ -3291,16 +3351,6 @@
       "created_at": "2026-10-01T15:29:28Z",
       "updated_at": "2026-10-01T15:29:28Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6057",
-      "labels": []
-    },
-    {
-      "number": 6023,
-      "title": "DSV4.1 Flash Optimization",
-      "author": "ahmed-bsod",
-      "state": "open",
-      "created_at": "2026-09-30T20:09:36Z",
-      "updated_at": "2026-10-01T01:01:42Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6023",
       "labels": []
     },
     {

@@ -1,6 +1,90 @@
 {
-  "collected_at": "2026-11-20T16:28:23Z",
+  "collected_at": "2026-11-21T15:43:00Z",
   "prs": [
+    {
+      "number": 12854,
+      "title": "[AMD] Restore the masked offset for pointer-based buffers",
+      "author": "Liang-jianhao97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T03:32:32Z",
+      "updated_at": "2026-11-21T09:50:40Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12854",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12887,
+      "title": "[LLVM] Update LLVM to 293a85c0 and AMD CodeGen to 1cc81891",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T05:16:54Z",
+      "updated_at": "2026-11-21T05:16:54Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12887",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12884,
+      "title": "[AMD] Build LLVM @1cc8189160e9 for CodeGen",
+      "author": "antiagainst",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-21T03:29:29Z",
+      "updated_at": "2026-11-21T03:31:13Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12884",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12880,
+      "title": "[AMD][gfx1250] Extend the TDM copy reorder to non-scaled dots",
+      "author": "yiqian1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T23:26:36Z",
+      "updated_at": "2026-11-20T23:26:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12880",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12734,
+      "title": "[WIP][AMD]Support FP6 in Gluon on CDNA4",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:57:09Z",
+      "updated_at": "2026-11-20T22:13:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12734",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12877,
+      "title": "[AMD] Enable ConSan on gfx950 with warp-scheduling guards",
+      "author": "Max191",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T19:46:14Z",
+      "updated_at": "2026-11-20T19:46:15Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12877",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12781,
+      "title": "[AMD][GLUON] Add AMD gluon tutorials",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T07:20:49Z",
+      "updated_at": "2026-11-20T18:10:15Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12781",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12857,
       "title": "[AMD] Remove MoveUpPrologueLoads pass",
@@ -26,30 +110,6 @@
       "draft": false
     },
     {
-      "number": 12734,
-      "title": "[WIP][AMD]Support FP6 in Gluon on CDNA4",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T00:57:09Z",
-      "updated_at": "2026-11-20T05:08:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12734",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12781,
-      "title": "[AMD][GLUON] Add AMD gluon tutorials",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T07:20:49Z",
-      "updated_at": "2026-11-20T04:33:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12781",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12634,
       "title": "[AMD][Triton] Use aligned buffer mask offsets when bounds permit",
       "author": "Liang-jianhao97",
@@ -60,18 +120,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12634",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12854,
-      "title": "[AMD] Restore the masked offset for pointer-based buffers",
-      "author": "Liang-jianhao97",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T03:32:32Z",
-      "updated_at": "2026-11-20T03:32:33Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12854",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12852,
@@ -638,30 +686,6 @@
       "draft": false
     },
     {
-      "number": 12604,
-      "title": "[AMD][gfx1250] Keep whole-line epilogue stores for WMMA",
-      "author": "reger-men",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T13:36:56Z",
-      "updated_at": "2026-11-09T14:22:03Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12604",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12083,
-      "title": "Catch LLVM diagnostic and raise Python exception in both Nvidia and AMD backends",
-      "author": "woct0rdho",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-03T03:01:32Z",
-      "updated_at": "2026-11-09T03:48:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12083",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12654,
       "title": "[AMD] Re-enable kernarg preload under MIR dump/swap",
       "author": "tyb0807",
@@ -672,18 +696,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12654",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12034,
-      "title": "[GSan] Support symmetric memory allocator on AMD (HIP)",
-      "author": "amgddm",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-29T22:15:34Z",
-      "updated_at": "2026-11-09T00:38:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12034",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12660,
@@ -706,18 +718,6 @@
       "created_at": "2026-11-05T03:09:20Z",
       "updated_at": "2026-11-08T04:44:11Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12629",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12177,
-      "title": "[AMD] Add FP16-accumulate WMMA support for WMMAv3",
-      "author": "pabloantoniom",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-08T15:52:46Z",
-      "updated_at": "2026-11-06T15:37:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12177",
       "labels": [],
       "draft": false
     }

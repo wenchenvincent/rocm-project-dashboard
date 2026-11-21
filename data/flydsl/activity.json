@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-11-20T16:34:07Z",
+  "collected_at": "2026-11-21T15:47:32Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 43,
-      "merged": 23,
-      "closed": 17
+      "opened": 49,
+      "merged": 21,
+      "closed": 15
     },
     "last_week": {
-      "opened": 24,
-      "merged": 16,
-      "closed": 4
+      "opened": 23,
+      "merged": 15,
+      "closed": 6
     },
-    "median_time_to_merge_hours": 18.6,
-    "merge_count": 39,
-    "stale_prs": 13
+    "median_time_to_merge_hours": 18.5,
+    "merge_count": 36,
+    "stale_prs": 14
   },
   "contributors": {
     "active_this_week": 13,
@@ -29,7 +29,7 @@
       },
       {
         "author": "coderfeli",
-        "prs_submitted": 16,
+        "prs_submitted": 17,
         "prs_merged": 12,
         "commits": 13
       },
@@ -38,6 +38,12 @@
         "prs_submitted": 12,
         "prs_merged": 10,
         "commits": 10
+      },
+      {
+        "author": "fsx950223",
+        "prs_submitted": 11,
+        "prs_merged": 4,
+        "commits": 4
       },
       {
         "author": "Monstertail",
@@ -58,6 +64,12 @@
         "commits": 0
       },
       {
+        "author": "jhinpan",
+        "prs_submitted": 5,
+        "prs_merged": 0,
+        "commits": 1
+      },
+      {
         "author": "xudoyuan",
         "prs_submitted": 5,
         "prs_merged": 2,
@@ -68,32 +80,20 @@
         "prs_submitted": 5,
         "prs_merged": 0,
         "commits": 0
-      },
-      {
-        "author": "vlluvia",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 1
-      },
-      {
-        "author": "ppppqp",
-        "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 1
       }
     ],
     "bus_factor": 3
   },
   "issue_health": {
     "total_open": 56,
-    "opened_this_week": 4,
+    "opened_this_week": 2,
     "closed_this_week": 0,
     "unanswered": 22
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 9.5,
+    "days_since_last": 10.5,
     "avg_interval_days": 13.1,
     "total_releases": 5,
     "latest_tag": "v0.5.0"

@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-11-20T16:29:19Z",
+  "collected_at": "2026-11-21T15:43:53Z",
   "issues": [
+    {
+      "number": 811,
+      "title": "RFC [feature] : MORI RAS: per-process reliability, availability, and serviceability runtime",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-10-20T00:13:08Z",
+      "updated_at": "2026-11-21T04:18:16Z",
+      "html_url": "https://github.com/ROCm/mori/issues/811",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 953,
+      "title": "RFC [feature]: UMBP weight pool \u2014 immutable weight generations for RL weight sync",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-11-09T17:06:40Z",
+      "updated_at": "2026-11-21T04:12:46Z",
+      "html_url": "https://github.com/ROCm/mori/issues/953",
+      "labels": [
+        "enhancement"
+      ]
+    },
+    {
+      "number": 952,
+      "title": "RFC [feature]: MORI M2N \u2014 NCCL-inspired mesh-to-mesh tensor resharding over MORI-CCO",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-11-09T16:34:28Z",
+      "updated_at": "2026-11-21T04:12:30Z",
+      "html_url": "https://github.com/ROCm/mori/issues/952",
+      "labels": [
+        "enhancement"
+      ]
+    },
     {
       "number": 951,
       "title": "[EPv2][gfx1250] hip backend: `ep_dispatch` launch fails with \"invalid argument\" for f32 gather and for bf16 gather (tuned) at 512 tokens/rank",
@@ -32,26 +68,6 @@
       "labels": []
     },
     {
-      "number": 953,
-      "title": "RFC [feature]: UMBP weight pool \u2014 immutable weight generations for RL weight sync",
-      "author": "i-chaochen",
-      "state": "open",
-      "created_at": "2026-11-09T17:06:40Z",
-      "updated_at": "2026-11-19T12:11:40Z",
-      "html_url": "https://github.com/ROCm/mori/issues/953",
-      "labels": []
-    },
-    {
-      "number": 952,
-      "title": "RFC [feature]: MORI M2N \u2014 NCCL-inspired mesh-to-mesh tensor resharding over MORI-CCO",
-      "author": "i-chaochen",
-      "state": "open",
-      "created_at": "2026-11-09T16:34:28Z",
-      "updated_at": "2026-11-19T12:10:00Z",
-      "html_url": "https://github.com/ROCm/mori/issues/952",
-      "labels": []
-    },
-    {
       "number": 759,
       "title": "[RFC][IO] Framework-side RAS for MoRI-IO: harden vLLM's MoRIIO KV connector",
       "author": "TianDi101",
@@ -69,16 +85,6 @@
       "created_at": "2026-11-13T01:58:39Z",
       "updated_at": "2026-11-13T01:58:39Z",
       "html_url": "https://github.com/ROCm/mori/issues/995",
-      "labels": []
-    },
-    {
-      "number": 811,
-      "title": "RFC [feature] : MORI RAS: per-process reliability, availability, and serviceability runtime",
-      "author": "i-chaochen",
-      "state": "open",
-      "created_at": "2026-10-20T00:13:08Z",
-      "updated_at": "2026-11-10T22:55:33Z",
-      "html_url": "https://github.com/ROCm/mori/issues/811",
       "labels": []
     },
     {

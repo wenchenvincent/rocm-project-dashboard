@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-20T16:28:30Z",
+  "collected_at": "2026-11-21T15:43:08Z",
   "issues": [
     {
       "number": 4618,
@@ -185,16 +185,6 @@
       "created_at": "2026-07-22T19:22:10Z",
       "updated_at": "2026-09-29T06:36:10Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5089",
-      "labels": []
-    },
-    {
-      "number": 5314,
-      "title": "Attribution/provenance review requested for MLIR-off fix merged in #5154",
-      "author": "Rolaand-Jayz",
-      "state": "open",
-      "created_at": "2026-09-24T22:00:49Z",
-      "updated_at": "2026-09-24T22:00:49Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5314",
       "labels": []
     },
     {
