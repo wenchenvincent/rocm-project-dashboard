@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-21T15:43:00Z",
+  "collected_at": "2026-11-22T15:45:14Z",
   "prs": [
+    {
+      "number": 12887,
+      "title": "[LLVM] Update LLVM to 293a85c0 and AMD CodeGen to 1cc81891",
+      "author": "antiagainst",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T05:16:54Z",
+      "updated_at": "2026-11-21T17:31:19Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12887",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 12854,
       "title": "[AMD] Restore the masked offset for pointer-based buffers",
@@ -12,18 +24,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12854",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12887,
-      "title": "[LLVM] Update LLVM to 293a85c0 and AMD CodeGen to 1cc81891",
-      "author": "antiagainst",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T05:16:54Z",
-      "updated_at": "2026-11-21T05:16:54Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12887",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12884,

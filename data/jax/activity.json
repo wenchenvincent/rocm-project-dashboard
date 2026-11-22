@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-21T15:44:31Z",
+  "collected_at": "2026-11-22T15:46:50Z",
   "project": "jax",
   "repo": "jax-ml/jax",
   "pr_velocity": {
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 22,
     "opened_this_week": 0,
-    "closed_this_week": 11,
+    "closed_this_week": 13,
     "unanswered": 6
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 3.1,
+    "days_since_last": 4.1,
     "avg_interval_days": 23.2,
     "total_releases": 5,
     "latest_tag": "jax-v0.12.1"

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-21T15:47:44Z",
+  "collected_at": "2026-11-22T15:49:46Z",
   "project": "transformer_engine",
   "repo": "ROCm/TransformerEngine",
   "pr_velocity": {
@@ -11,11 +11,11 @@
     "last_week": {
       "opened": 8,
       "merged": 6,
-      "closed": 2
+      "closed": 0
     },
     "median_time_to_merge_hours": 287.2,
     "merge_count": 11,
-    "stale_prs": 33
+    "stale_prs": 34
   },
   "contributors": {
     "active_this_week": 11,
@@ -31,7 +31,7 @@
         "author": "ipanfilo",
         "prs_submitted": 16,
         "prs_merged": 14,
-        "commits": 2
+        "commits": 1
       },
       {
         "author": "alextmagro",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 10.6,
+    "days_since_last": 11.6,
     "avg_interval_days": 28.1,
     "total_releases": 5,
     "latest_tag": "v2.19_rocm"

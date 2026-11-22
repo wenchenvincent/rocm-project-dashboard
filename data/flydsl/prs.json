@@ -1,14 +1,43 @@
 {
-  "collected_at": "2026-11-21T15:43:56Z",
+  "collected_at": "2026-11-22T15:46:05Z",
   "prs": [
     {
+      "number": 1380,
+      "title": "[Windows][CI] Add a Windows gfx1201 GPU workflow",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T07:52:20Z",
+      "updated_at": "2026-11-22T14:24:29Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1380",
+      "labels": [
+        "WIP",
+        "ci:windows"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1476,
+      "title": "[Bugfix] Fix dropped rmsnorm tail elements when BLOCK_THREADS < N % 8",
+      "author": "merrittttt",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-22T09:41:06Z",
+      "updated_at": "2026-11-22T09:41:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1476",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
       "number": 1465,
-      "title": "[AOT] Strip debug info from the embedded AOT runtime",
+      "title": "[AOT] Build the embedded AOT runtime without debug info",
       "author": "coderfeli",
       "state": "open",
       "merged": false,
       "created_at": "2026-11-21T14:29:18Z",
-      "updated_at": "2026-11-21T14:29:18Z",
+      "updated_at": "2026-11-22T07:06:37Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1465",
       "labels": [],
       "draft": false
@@ -469,21 +498,6 @@
       "updated_at": "2026-11-17T07:06:33Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1417",
       "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1380,
-      "title": "[Windows][CI] Add a Windows gfx1201 GPU workflow",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T07:52:20Z",
-      "updated_at": "2026-11-17T00:01:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1380",
-      "labels": [
-        "WIP",
-        "ci:windows"
-      ],
       "draft": true
     },
     {
@@ -1199,6 +1213,42 @@
       "draft": false
     },
     {
+      "number": 1477,
+      "title": "Revert \"[compiler][kernel] strict pin agpr feature and kernel example\u2026",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-22T12:22:18Z",
+      "updated_at": "2026-11-22T12:25:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1477",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1474,
+      "title": "[Bugfix] Re-apply llvm_options for the final ISA dump",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-22T01:41:30Z",
+      "updated_at": "2026-11-22T07:06:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1474",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1473,
+      "title": "[CI] Give pip-ROCm an unversioned libamdhip64.so before the wheel tests",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-22T01:03:05Z",
+      "updated_at": "2026-11-22T06:46:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1473",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 1454,
       "title": "[Bugfix] Fold fly.get_iter of fly.make_view",
       "author": "coderfeli",
@@ -1898,44 +1948,6 @@
       "labels": [
         "multi-gpu"
       ],
-      "draft": false
-    },
-    {
-      "number": 1238,
-      "title": "Migrate kernels tiled tdm",
-      "author": "xudoyuan",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-08T06:37:06Z",
-      "updated_at": "2026-10-30T06:40:30Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1238",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1336,
-      "title": "[DSL][Perf] Remove KTRACE's shared cursor and per-event atomics",
-      "author": "zhiding512",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-27T10:04:33Z",
-      "updated_at": "2026-10-30T06:36:22Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1336",
-      "labels": [
-        "ktrace"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1342,
-      "title": "[CI] Run correctness and benchmark comparisons in separate jobs",
-      "author": "coderfeli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-28T11:08:23Z",
-      "updated_at": "2026-10-29T09:11:06Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1342",
-      "labels": [],
       "draft": false
     }
   ]

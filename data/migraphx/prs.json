@@ -1,6 +1,150 @@
 {
-  "collected_at": "2026-11-21T15:43:05Z",
+  "collected_at": "2026-11-22T15:45:18Z",
   "prs": [
+    {
+      "number": 5590,
+      "title": "Fix linear ONNX Resize indexing for strided inputs on ROCm 7.2",
+      "author": "varyagnord",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-22T09:08:38Z",
+      "updated_at": "2026-11-22T09:08:39Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5590",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5507,
+      "title": "Sort ONNX nodes after the values their subgraphs read from the outer scope",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T16:27:29Z",
+      "updated_at": "2026-11-21T21:52:39Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5507",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5552,
+      "title": "Make a dim_param with a fixed value a literal with symbolic shapes",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T12:29:19Z",
+      "updated_at": "2026-11-21T17:06:06Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5552",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5558,
+      "title": "Keep the broadcast of a sliced 1-D tensor in find_slice_shape_transforms",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T16:10:59Z",
+      "updated_at": "2026-11-21T17:06:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5558",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5549,
+      "title": "Update the shape of an if or loop after auto_contiguous changes its branches",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T08:35:52Z",
+      "updated_at": "2026-11-21T17:06:01Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5549",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5559,
+      "title": "Skip GPU copies of empty arguments with offload copy",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T16:19:37Z",
+      "updated_at": "2026-11-21T17:05:59Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5559",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5576,
+      "title": "Parse ONNX GatherElements with indices dynamic on the gather axis",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T12:58:59Z",
+      "updated_at": "2026-11-21T17:03:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5576",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5575,
+      "title": "Read ONNX Tile repeats from sym_eval when eval is empty",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T12:47:44Z",
+      "updated_at": "2026-11-21T17:03:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5575",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5574,
+      "title": "Parse ONNX Tile of a dynamic input",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T12:38:06Z",
+      "updated_at": "2026-11-21T17:03:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5574",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5573,
+      "title": "Parse ONNX Expand of a dynamic input with constant dims",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T12:24:32Z",
+      "updated_at": "2026-11-21T17:03:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5573",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5572,
+      "title": "Parse LayerNormalization with a dynamic input and a 1-D scale",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T12:06:38Z",
+      "updated_at": "2026-11-21T17:03:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5572",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5517,
+      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T03:43:57Z",
+      "updated_at": "2026-11-21T16:02:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 5583,
       "title": "Write fp32 scores for unfused fp16 attention blocks to prevent q.k^T overflow",
@@ -217,18 +361,6 @@
       "draft": false
     },
     {
-      "number": 5507,
-      "title": "Sort ONNX nodes after the values their subgraphs read from the outer scope",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T16:27:29Z",
-      "updated_at": "2026-11-20T02:14:56Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5507",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5566,
       "title": "Free shared weight literals with the last program that uses them",
       "author": "danieyan-amd",
@@ -287,18 +419,6 @@
       "created_at": "2026-11-18T03:29:48Z",
       "updated_at": "2026-11-19T11:28:16Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5569",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5517,
-      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T03:43:57Z",
-      "updated_at": "2026-11-19T10:48:20Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
       "labels": [],
       "draft": false
     },
@@ -425,42 +545,6 @@
       "draft": true
     },
     {
-      "number": 5576,
-      "title": "Parse ONNX GatherElements with indices dynamic on the gather axis",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T12:58:59Z",
-      "updated_at": "2026-11-18T12:58:59Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5576",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5575,
-      "title": "Read ONNX Tile repeats from sym_eval when eval is empty",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T12:47:44Z",
-      "updated_at": "2026-11-18T12:48:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5575",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5574,
-      "title": "Parse ONNX Tile of a dynamic input",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T12:38:06Z",
-      "updated_at": "2026-11-18T12:38:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5574",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5565,
       "title": "Exit the hiprtc driver without running DLL detach on Windows.",
       "author": "ppetrovi-amd",
@@ -473,30 +557,6 @@
         "Windows"
       ],
       "draft": false
-    },
-    {
-      "number": 5573,
-      "title": "Parse ONNX Expand of a dynamic input with constant dims",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T12:24:32Z",
-      "updated_at": "2026-11-18T12:24:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5573",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5572,
-      "title": "Parse LayerNormalization with a dynamic input and a 1-D scale",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T12:06:38Z",
-      "updated_at": "2026-11-18T12:06:38Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5572",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5570,
@@ -555,30 +615,6 @@
       "created_at": "2026-11-17T08:22:09Z",
       "updated_at": "2026-11-18T08:04:35Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5548",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5559,
-      "title": "Skip GPU copies of empty arguments with offload copy",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T16:19:37Z",
-      "updated_at": "2026-11-18T07:50:27Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5559",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5558,
-      "title": "Keep the broadcast of a sliced 1-D tensor in find_slice_shape_transforms",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T16:10:59Z",
-      "updated_at": "2026-11-18T07:42:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5558",
       "labels": [],
       "draft": true
     },
@@ -751,18 +787,6 @@
       "draft": true
     },
     {
-      "number": 5552,
-      "title": "Make a dim_param with a fixed value a literal with symbolic shapes",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T12:29:19Z",
-      "updated_at": "2026-11-17T14:26:45Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5552",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5516,
       "title": "Skip the slice-squeeze rewrite for a squeeze to a scalar (regression from #5004)",
       "author": "klin2024",
@@ -799,18 +823,6 @@
         "Windows"
       ],
       "draft": false
-    },
-    {
-      "number": 5549,
-      "title": "Update the shape of an if or loop after auto_contiguous changes its branches",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T08:35:52Z",
-      "updated_at": "2026-11-17T08:36:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5549",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 5534,

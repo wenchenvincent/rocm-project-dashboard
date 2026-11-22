@@ -1,6 +1,28 @@
 {
-  "collected_at": "2026-11-21T15:43:35Z",
+  "collected_at": "2026-11-22T15:45:47Z",
   "issues": [
+    {
+      "number": 5086,
+      "title": "[Bug] BF16 FMHA returns zero for finite extreme negative logits",
+      "author": "akshatvishu",
+      "state": "open",
+      "created_at": "2026-08-28T16:39:34Z",
+      "updated_at": "2026-11-22T15:30:34Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5086",
+      "labels": []
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-22T07:28:10Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
     {
       "number": 8401,
       "title": "[Issue]: Compile-time fails with upcoming ROCm compiler using _ExtVector-based AMDGPU builtins",
@@ -84,18 +106,6 @@
       "labels": []
     },
     {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-21T08:00:46Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
-    },
-    {
       "number": 4356,
       "title": "[Feature]:  Make fused_qk_norm_rope_cache_pts_quant_shuffle stride-aware for packed KV cache",
       "author": "stefankoncarevic",
@@ -145,16 +155,6 @@
       "created_at": "2026-09-30T20:09:36Z",
       "updated_at": "2026-11-20T17:01:19Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6023",
-      "labels": []
-    },
-    {
-      "number": 5086,
-      "title": "[Bug] BF16 FMHA returns zero for finite extreme negative logits",
-      "author": "akshatvishu",
-      "state": "open",
-      "created_at": "2026-08-28T16:39:34Z",
-      "updated_at": "2026-11-20T16:01:13Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5086",
       "labels": []
     },
     {

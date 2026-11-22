@@ -1,6 +1,76 @@
 {
-  "collected_at": "2026-11-21T15:43:58Z",
+  "collected_at": "2026-11-22T15:46:06Z",
   "issues": [
+    {
+      "number": 1472,
+      "title": "[Issue]: examples/01-vectorAdd.py: out-of-bounds float4 accesses when N is not a multiple of 4",
+      "author": "francois141",
+      "state": "open",
+      "created_at": "2026-11-21T21:25:06Z",
+      "updated_at": "2026-11-21T21:29:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1472",
+      "labels": []
+    },
+    {
+      "number": 1471,
+      "title": "[Issue]: rmsnorm: tail elements dropped when BLOCK_THREADS < tail length",
+      "author": "francois141",
+      "state": "open",
+      "created_at": "2026-11-21T21:25:05Z",
+      "updated_at": "2026-11-21T21:29:00Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1471",
+      "labels": []
+    },
+    {
+      "number": 1470,
+      "title": "[Issue]: flash_attn_generic: KV padding mask dropped when only seq_len is a multiple of 64",
+      "author": "francois141",
+      "state": "open",
+      "created_at": "2026-11-21T21:25:03Z",
+      "updated_at": "2026-11-21T21:28:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1470",
+      "labels": []
+    },
+    {
+      "number": 1469,
+      "title": "[Issue]: gemm_a16w16 gfx950 half-tile interleaved (default config): cross-wave-group LDS races",
+      "author": "francois141",
+      "state": "open",
+      "created_at": "2026-11-21T21:25:01Z",
+      "updated_at": "2026-11-21T21:28:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1469",
+      "labels": []
+    },
+    {
+      "number": 1468,
+      "title": "[Issue]: gemm_a16w16 gfx950: LDS swizzle wrong for block_k=32 (nt/nn/tt layouts)",
+      "author": "francois141",
+      "state": "open",
+      "created_at": "2026-11-21T21:24:59Z",
+      "updated_at": "2026-11-21T21:28:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1468",
+      "labels": []
+    },
+    {
+      "number": 1467,
+      "title": "[Issue]: fused_rope_cache: wrong pair lane when head_dim/2 is not a power of two (head_dim=96)",
+      "author": "francois141",
+      "state": "open",
+      "created_at": "2026-11-21T21:24:57Z",
+      "updated_at": "2026-11-21T21:28:54Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1467",
+      "labels": []
+    },
+    {
+      "number": 1466,
+      "title": "[Issue]: moe_sorting p23_kernel (no expert mask): LDS race on cumsum, missing barrier before the store",
+      "author": "francois141",
+      "state": "open",
+      "created_at": "2026-11-21T21:24:36Z",
+      "updated_at": "2026-11-21T21:28:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1466",
+      "labels": []
+    },
     {
       "number": 1413,
       "title": "[Feature] Reuse a cached artifact across processes without retracing: an opt-in, caller-keyed specialization index",

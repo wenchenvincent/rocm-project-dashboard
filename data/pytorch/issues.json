@@ -1,6 +1,309 @@
 {
-  "collected_at": "2026-11-21T15:42:25Z",
+  "collected_at": "2026-11-22T15:44:45Z",
   "issues": [
+    {
+      "number": 206126,
+      "title": "[CPU and CUDA] `torch.linalg.lu_solve` silently returns an incorrect solution when out aliases the LU factor",
+      "author": "BUAA-Wander",
+      "state": "open",
+      "created_at": "2026-11-22T14:50:00Z",
+      "updated_at": "2026-11-22T14:51:49Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206126",
+      "labels": [
+        "triage review",
+        "module: partial aliasing",
+        "module: linear algebra",
+        "module: correctness (silent)",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 206125,
+      "title": "[CPU and CUDA] `torch.linalg.ldl_solve` silently returns a catastrophically wrong solution when out aliases the LDL factor",
+      "author": "BUAA-Wander",
+      "state": "open",
+      "created_at": "2026-11-22T14:42:03Z",
+      "updated_at": "2026-11-22T14:43:53Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206125",
+      "labels": [
+        "triage review",
+        "module: partial aliasing",
+        "module: linear algebra",
+        "module: correctness (silent)",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 206122,
+      "title": "nested_tensor_from_jagged constructs tensors from inconsistent offsets or lengths",
+      "author": "Lui-hhub",
+      "state": "open",
+      "created_at": "2026-11-22T11:57:15Z",
+      "updated_at": "2026-11-22T11:59:23Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206122",
+      "labels": [
+        "module: error checking",
+        "triaged",
+        "module: nestedtensor",
+        "module: edge cases",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 206118,
+      "title": "histogram accepts decreasing bin edges and can return NaN densities",
+      "author": "Lui-hhub",
+      "state": "open",
+      "created_at": "2026-11-22T11:34:39Z",
+      "updated_at": "2026-11-22T11:36:46Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206118",
+      "labels": [
+        "module: error checking",
+        "triaged",
+        "module: reductions",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 206117,
+      "title": "fuse_conv_bn_weights returns unusable parameter shapes for malformed BatchNorm inputs",
+      "author": "Lui-hhub",
+      "state": "open",
+      "created_at": "2026-11-22T11:19:41Z",
+      "updated_at": "2026-11-22T11:21:50Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206117",
+      "labels": [
+        "module: nn",
+        "module: error checking",
+        "triaged",
+        "module: shape checking",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 206116,
+      "title": "Embedding.from_pretrained accepts a nonnumeric max_norm during construction",
+      "author": "Lui-hhub",
+      "state": "open",
+      "created_at": "2026-11-22T11:16:38Z",
+      "updated_at": "2026-11-22T11:18:31Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206116",
+      "labels": [
+        "module: error checking",
+        "triaged",
+        "module: embedding",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 206112,
+      "title": "diff exposes an internal quantized-backend error with a quantized prepend",
+      "author": "Lui-hhub",
+      "state": "open",
+      "created_at": "2026-11-22T10:23:54Z",
+      "updated_at": "2026-11-22T10:25:42Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206112",
+      "labels": [
+        "oncall: quantization",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 206111,
+      "title": "conv_transpose1d accepts dilation=0 for a particular stride/backend path",
+      "author": "Lui-hhub",
+      "state": "open",
+      "created_at": "2026-11-22T10:12:09Z",
+      "updated_at": "2026-11-22T10:14:11Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206111",
+      "labels": [
+        "module: error checking",
+        "module: convolution",
+        "triaged",
+        "module: edge cases",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 206108,
+      "title": "batch_norm accepts negative running variance and propagates NaN",
+      "author": "Lui-hhub",
+      "state": "open",
+      "created_at": "2026-11-22T09:47:43Z",
+      "updated_at": "2026-11-22T09:49:54Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206108",
+      "labels": [
+        "module: error checking",
+        "triaged",
+        "module: norms and normalization",
+        "module: edge cases",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 206088,
+      "title": "DISABLED test_mutate_realized_buffer_in_make_fx_graph_case_foreach_reads_sibling_target_avoid_modular_indexing_xpu (__main__.AvoidModularIndexingGPUTests)",
+      "author": "chuanqi129",
+      "state": "open",
+      "created_at": "2026-11-22T08:52:48Z",
+      "updated_at": "2026-11-22T08:54:55Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206088",
+      "labels": [
+        "module: tests",
+        "triaged",
+        "skipped",
+        "oncall: pt2",
+        "module: inductor",
+        "module: xpu",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 205497,
+      "title": "CPU `fused=True` optimizers ignore tensor strides: wrong updates when param, grad and optimizer state have different layouts, heap corruption for an expanded param",
+      "author": "jeel00dev",
+      "state": "open",
+      "created_at": "2026-11-18T08:53:17Z",
+      "updated_at": "2026-11-22T06:41:57Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/205497",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: optimizer",
+        "module: cpu",
+        "module: error checking",
+        "module: memory format",
+        "module: correctness (silent)",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 206064,
+      "title": "`scaled_dot_product_attention` backward segfaults with the cuDNN backend when batch, heads and query length are all 1",
+      "author": "Robertboy18",
+      "state": "open",
+      "created_at": "2026-11-22T04:07:49Z",
+      "updated_at": "2026-11-22T04:47:45Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206064",
+      "labels": [
+        "triage review",
+        "module: crash",
+        "module: cudnn",
+        "module: autograd",
+        "module: nn",
+        "module: cuda",
+        "module: sdpa",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 206063,
+      "title": "`torch.special.polygamma(n, x)` (n \u2265 2) and `torch.special.zeta` take time proportional to |x| for negative x: float64 x = -1e15 doesn't return",
+      "author": "Robertboy18",
+      "state": "open",
+      "created_at": "2026-11-22T04:07:28Z",
+      "updated_at": "2026-11-22T04:09:36Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206063",
+      "labels": [
+        "module: performance",
+        "triaged",
+        "enhancement",
+        "module: special",
+        "module: edge cases",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 206061,
+      "title": "`torch.special.ndtri` backward is off by tens to thousands of ulps for small `p`: `exp(result\u00b2 / 2)` amplifies the rounding of `result`",
+      "author": "Robertboy18",
+      "state": "open",
+      "created_at": "2026-11-22T04:07:07Z",
+      "updated_at": "2026-11-22T04:09:14Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206061",
+      "labels": [
+        "triage review",
+        "module: numerical-stability",
+        "module: autograd",
+        "module: derivatives",
+        "module: special",
+        "module: forward ad",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 206060,
+      "title": "`torch.special.gammaincc(a, x)` is inaccurate for small `a` and `x <= 1.1`: `lgamma(1 + a)` in place of `lgam1p(a)` (float64 `gammaincc(1e-17, 1)` is 3.6x too large)",
+      "author": "Robertboy18",
+      "state": "open",
+      "created_at": "2026-11-22T04:03:07Z",
+      "updated_at": "2026-11-22T04:05:07Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206060",
+      "labels": [
+        "triage review",
+        "module: numerical-stability",
+        "module: correctness (silent)",
+        "module: special",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 201120,
+      "title": "`nll_loss2d` (spatial `cross_entropy`) on CUDA: fp16 `mean` reduction returns inf/NaN and all-zero gradients once total weight exceeds fp16 range",
+      "author": "vickiiimu",
+      "state": "open",
+      "created_at": "2026-10-15T23:13:32Z",
+      "updated_at": "2026-11-22T04:03:09Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/201120",
+      "labels": [
+        "module: numerical-stability",
+        "module: loss",
+        "module: cuda",
+        "triaged",
+        "module: NaNs and Infs",
+        "module: half",
+        "bot-triaged",
+        "release triage"
+      ]
+    },
+    {
+      "number": 206023,
+      "title": "[torch.compile] Inductor writes a nested_compile_region's in-place update of a clone back into the original input (regression from #205355)",
+      "author": "s-sharar",
+      "state": "open",
+      "created_at": "2026-11-21T17:07:03Z",
+      "updated_at": "2026-11-21T17:09:11Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206023",
+      "labels": [
+        "oncall: cpu inductor",
+        "bot-triaged"
+      ]
+    },
+    {
+      "number": 206022,
+      "title": "[torch.compile] A write to an input through `out=` inside a nested_compile_region or torch.cond branch is silently dropped",
+      "author": "s-sharar",
+      "state": "open",
+      "created_at": "2026-11-21T16:30:57Z",
+      "updated_at": "2026-11-21T16:32:57Z",
+      "html_url": "https://github.com/pytorch/pytorch/issues/206022",
+      "labels": [
+        "triage review",
+        "module: windows",
+        "module: correctness (silent)",
+        "module: functionalization",
+        "oncall: pt2",
+        "module: higher order operators",
+        "module: pt2-dispatcher",
+        "bot-triaged"
+      ]
+    },
     {
       "number": 154444,
       "title": "[RFC] Removing ideep git submodule dependency from PyTorch & add oneDNN git submodule",
@@ -32,25 +335,6 @@
         "module: dynamo",
         "bot-triaged",
         "release triage"
-      ]
-    },
-    {
-      "number": 205988,
-      "title": "[dynamo] enumerate() on a non-iterable doesn't raise TypeError at call time under torch.compile",
-      "author": "anchi205",
-      "state": "open",
-      "created_at": "2026-11-21T04:01:30Z",
-      "updated_at": "2026-11-21T04:44:39Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/205988",
-      "labels": [
-        "triage review",
-        "module: error checking",
-        "triaged",
-        "actionable",
-        "module: correctness (silent)",
-        "oncall: pt2",
-        "module: dynamo",
-        "bot-triaged"
       ]
     },
     {
@@ -234,23 +518,6 @@
       ]
     },
     {
-      "number": 204889,
-      "title": "DISABLED test_sparse_sparse_mul_xpu_bfloat16 (__main__.TestSparseXPU)",
-      "author": "chuanqi129",
-      "state": "open",
-      "created_at": "2026-11-14T02:18:51Z",
-      "updated_at": "2026-11-21T03:57:58Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/204889",
-      "labels": [
-        "module: sparse",
-        "module: tests",
-        "triaged",
-        "skipped",
-        "module: xpu",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 205775,
       "title": "DDP can sometimes retain its initial gradient bucket while allocating the rebuilt buckets with legacy NCCL",
       "author": "galv",
@@ -271,54 +538,6 @@
       ]
     },
     {
-      "number": 202971,
-      "title": "[symm_mem] NCCL symmetric-memory window cleanup uses a retired communicator",
-      "author": "jackLei0901",
-      "state": "open",
-      "created_at": "2026-11-01T22:23:20Z",
-      "updated_at": "2026-11-21T00:09:32Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/202971",
-      "labels": [
-        "oncall: distributed",
-        "triaged",
-        "actionable",
-        "bot-triaged",
-        "oncall: distributed infra",
-        "ptd-bot-triaged"
-      ]
-    },
-    {
-      "number": 132845,
-      "title": "[PTD BE DAY]Burn Down Distributed Disabled Tests!!",
-      "author": "wz337",
-      "state": "open",
-      "created_at": "2024-08-07T06:10:13Z",
-      "updated_at": "2026-11-20T22:31:06Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/132845",
-      "labels": [
-        "oncall: distributed",
-        "triaged"
-      ]
-    },
-    {
-      "number": 205624,
-      "title": "[inductor] Mix-order reduction asserts \"3072 v.s. 192\" when ordinary fusion merges split reductions with different original shapes",
-      "author": "MogicianWu",
-      "state": "open",
-      "created_at": "2026-11-19T05:28:35Z",
-      "updated_at": "2026-11-20T21:56:43Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/205624",
-      "labels": [
-        "triage review",
-        "module: regression",
-        "has workaround",
-        "module: reductions",
-        "oncall: pt2",
-        "module: inductor",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 205927,
       "title": "[ROCm] index_select silently produces wrong rows beyond 2^24 for large 2D float64 input on MI300A",
       "author": "niteya-shah",
@@ -333,55 +552,6 @@
         "has workaround",
         "module: correctness (silent)",
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 198596,
-      "title": "DISABLED test_rerun_then_pass (test.junit_xml_testdata.pytest_suite.TestJunitOutcomes)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-25T06:57:58Z",
-      "updated_at": "2026-11-20T18:41:30Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198596",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: unknown",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 198595,
-      "title": "DISABLED test_rerun_then_pass (__main__.TestJunitOutcomes)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-09-25T06:57:53Z",
-      "updated_at": "2026-11-20T18:41:27Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/198595",
-      "labels": [
-        "module: tests",
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "module: unknown",
-        "bot-triaged"
-      ]
-    },
-    {
-      "number": 191009,
-      "title": "DISABLED test_index_propagation_to_dtype_inf_cpu_halide (__main__.HalideCpuTests)",
-      "author": "pytorch-bot[bot]",
-      "state": "open",
-      "created_at": "2026-07-24T13:06:20Z",
-      "updated_at": "2026-11-20T18:41:24Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/191009",
-      "labels": [
-        "triaged",
-        "module: flaky-tests",
-        "skipped",
-        "oncall: pt2",
-        "module: inductor"
       ]
     },
     {
@@ -418,22 +588,6 @@
       ]
     },
     {
-      "number": 202629,
-      "title": "torch.linalg.eig and torch.linalg.eigvals mutate compact transposed CUDA inputs with cuSOLVER",
-      "author": "HarshSaini10",
-      "state": "open",
-      "created_at": "2026-10-29T20:20:35Z",
-      "updated_at": "2026-11-20T15:47:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/202629",
-      "labels": [
-        "module: cuda",
-        "triaged",
-        "module: linear algebra",
-        "module: correctness (silent)",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 204891,
       "title": "[Windows][LibTorch] set_num_threads(2) can hang at process exit in pthreadpool C11 mutex path (2.14.1, 2.15.0, nightly)",
       "author": "guojin-yan",
@@ -455,35 +609,6 @@
       ]
     },
     {
-      "number": 112395,
-      "title": "KeyError during model export while using \"newer\" data types",
-      "author": "HeinrichAD",
-      "state": "open",
-      "created_at": "2023-10-30T13:51:06Z",
-      "updated_at": "2026-11-20T10:53:03Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/112395",
-      "labels": [
-        "module: serialization",
-        "triaged"
-      ]
-    },
-    {
-      "number": 203901,
-      "title": "`input=` keyword rejected when the first argument is a Python number (torch.where, pow, remainder, ...)",
-      "author": "drunkeninja42",
-      "state": "open",
-      "created_at": "2026-11-07T02:42:53Z",
-      "updated_at": "2026-11-20T08:12:34Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/203901",
-      "labels": [
-        "module: windows",
-        "triaged",
-        "module: codegen",
-        "module: python frontend",
-        "bot-triaged"
-      ]
-    },
-    {
       "number": 205646,
       "title": "[AOTI][Windows] aoti_load_package leaves the extracted package (including weights) in the temp directory on every load",
       "author": "menglcai",
@@ -500,37 +625,6 @@
         "oncall: export",
         "module: aotinductor",
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 203487,
-      "title": "get_optimizer_state_dict and set_optimizer_state_dict raise KeyError after a no-grad forward on a fully_shard model",
-      "author": "hivaze",
-      "state": "open",
-      "created_at": "2026-11-04T23:56:06Z",
-      "updated_at": "2026-11-20T07:17:01Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/203487",
-      "labels": [
-        "oncall: distributed",
-        "triaged",
-        "oncall: distributed checkpointing",
-        "bot-triaged",
-        "ptd-bot-triaged"
-      ]
-    },
-    {
-      "number": 141287,
-      "title": "MPS operator coverage tracking issue (2.6+ version)",
-      "author": "malfet",
-      "state": "open",
-      "created_at": "2024-11-21T21:15:46Z",
-      "updated_at": "2026-11-20T07:00:37Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/141287",
-      "labels": [
-        "feature",
-        "triaged",
-        "tracker",
-        "module: mps"
       ]
     },
     {
@@ -730,26 +824,6 @@
         "module: half",
         "module: linear algebra",
         "bot-triaged"
-      ]
-    },
-    {
-      "number": 205497,
-      "title": "CPU `fused=True` optimizers ignore tensor strides: wrong updates when param, grad and optimizer state have different layouts, heap corruption for an expanded param",
-      "author": "jeel00dev",
-      "state": "open",
-      "created_at": "2026-11-18T08:53:17Z",
-      "updated_at": "2026-11-18T17:54:20Z",
-      "html_url": "https://github.com/pytorch/pytorch/issues/205497",
-      "labels": [
-        "triage review",
-        "module: crash",
-        "module: optimizer",
-        "module: cpu",
-        "module: error checking",
-        "module: memory format",
-        "module: correctness (silent)",
-        "bot-triaged",
-        "release triage"
       ]
     },
     {
