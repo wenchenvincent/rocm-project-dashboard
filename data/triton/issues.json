@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-22T15:45:15Z",
+  "collected_at": "2026-11-23T19:35:42Z",
   "issues": [
+    {
+      "number": 12926,
+      "title": "[AMD] gfx950 coexec scheduler aborts in LLVM: \"Virtual register defs don't dominate all uses\" (split-K tl.dot + atomic_add)",
+      "author": "lifang535",
+      "state": "open",
+      "created_at": "2026-11-23T12:13:56Z",
+      "updated_at": "2026-11-23T16:19:21Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/12926",
+      "labels": [
+        "bug"
+      ]
+    },
     {
       "number": 12766,
       "title": "[AMD] Buffer-op knobs change codegen but not the compilation cache key",

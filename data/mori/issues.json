@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-22T15:46:02Z",
+  "collected_at": "2026-11-23T19:36:55Z",
   "issues": [
+    {
+      "number": 951,
+      "title": "[EPv2][gfx1250] hip backend: `ep_dispatch` launch fails with \"invalid argument\" for f32 gather and for bf16 gather (tuned) at 512 tokens/rank",
+      "author": "paklui",
+      "state": "open",
+      "created_at": "2026-11-09T16:07:19Z",
+      "updated_at": "2026-11-23T10:08:32Z",
+      "html_url": "https://github.com/ROCm/mori/issues/951",
+      "labels": []
+    },
+    {
+      "number": 1070,
+      "title": "UMBP master: one lost heartbeat response can leave a large node expired with no block locations",
+      "author": "ZeXi0308",
+      "state": "open",
+      "created_at": "2026-11-22T17:03:02Z",
+      "updated_at": "2026-11-22T17:03:02Z",
+      "html_url": "https://github.com/ROCm/mori/issues/1070",
+      "labels": []
+    },
     {
       "number": 811,
       "title": "RFC [feature] : MORI RAS: per-process reliability, availability, and serviceability runtime",
@@ -36,16 +56,6 @@
       "labels": [
         "enhancement"
       ]
-    },
-    {
-      "number": 951,
-      "title": "[EPv2][gfx1250] hip backend: `ep_dispatch` launch fails with \"invalid argument\" for f32 gather and for bf16 gather (tuned) at 512 tokens/rank",
-      "author": "paklui",
-      "state": "open",
-      "created_at": "2026-11-09T16:07:19Z",
-      "updated_at": "2026-11-20T15:33:38Z",
-      "html_url": "https://github.com/ROCm/mori/issues/951",
-      "labels": []
     },
     {
       "number": 1061,

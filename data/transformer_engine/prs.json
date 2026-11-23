@@ -1,18 +1,90 @@
 {
-  "collected_at": "2026-11-22T15:46:08Z",
+  "collected_at": "2026-11-23T19:37:04Z",
   "prs": [
     {
+      "number": 755,
+      "title": "[TE] CK fused attention: return max_logit",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:54:41Z",
+      "updated_at": "2026-11-23T19:14:26Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
+      "labels": [
+        "P1"
+      ],
+      "draft": false
+    },
+    {
       "number": 789,
-      "title": "[gfx1250] TDM normalization",
+      "title": "[gfx1250] TDM normalization/swizzle/transpose",
       "author": "matthiasdiener",
       "state": "open",
       "merged": false,
       "created_at": "2026-10-30T21:48:29Z",
-      "updated_at": "2026-11-20T23:07:15Z",
+      "updated_at": "2026-11-23T16:24:57Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/789",
       "labels": [
         "ci-level 1",
         "P1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 804,
+      "title": "Persistent GEMM + RS MXFP8 Enablement",
+      "author": "aris134",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T15:59:31Z",
+      "updated_at": "2026-11-23T15:59:35Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/804",
+      "labels": [
+        "ci-level 3"
+      ],
+      "draft": false
+    },
+    {
+      "number": 814,
+      "title": "Install the CI test environment at runtime instead of a CI image",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T04:29:26Z",
+      "updated_at": "2026-11-23T05:10:03Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/814",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 813,
+      "title": "Zero the padding of MXFP4 scale tensors allocated in C++",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T04:00:46Z",
+      "updated_at": "2026-11-23T05:09:31Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/813",
+      "labels": [
+        "ci-level 3",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 800,
+      "title": "Shrink the CI deps image from 9.8 to 5.9 GB and switch CI to it",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-10T20:47:57Z",
+      "updated_at": "2026-11-23T04:56:29Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/800",
+      "labels": [
+        "P2"
       ],
       "draft": true
     },
@@ -73,20 +145,6 @@
         "ci-level 1"
       ],
       "draft": true
-    },
-    {
-      "number": 804,
-      "title": "Persistent GEMM + RS MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T15:59:31Z",
-      "updated_at": "2026-11-19T23:17:30Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/804",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
     },
     {
       "number": 788,
@@ -341,20 +399,6 @@
       "draft": true
     },
     {
-      "number": 800,
-      "title": "Shrink the CI deps image from 9.8 to 5.9 GB and switch CI to it",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-10T20:47:57Z",
-      "updated_at": "2026-11-10T20:48:53Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/800",
-      "labels": [
-        "P2"
-      ],
-      "draft": false
-    },
-    {
       "number": 717,
       "title": "Integrate Grouped Gemm v2 on ROCm",
       "author": "VeeraRajasekhar",
@@ -379,20 +423,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/792",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 755,
-      "title": "[TE] CK fused attention: return max_logit",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:54:41Z",
-      "updated_at": "2026-10-29T17:34:53Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
-      "labels": [
-        "P1"
       ],
       "draft": false
     },

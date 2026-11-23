@@ -1,37 +1,37 @@
 {
-  "collected_at": "2026-11-22T15:46:55Z",
+  "collected_at": "2026-11-23T19:37:56Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
       "opened": 45,
-      "merged": 29,
-      "closed": 6
+      "merged": 26,
+      "closed": 5
     },
     "last_week": {
-      "opened": 48,
-      "merged": 9,
-      "closed": 8
+      "opened": 46,
+      "merged": 13,
+      "closed": 6
     },
-    "median_time_to_merge_hours": 186.4,
-    "merge_count": 39,
-    "stale_prs": 71
+    "median_time_to_merge_hours": 195.6,
+    "merge_count": 40,
+    "stale_prs": 72
   },
   "contributors": {
-    "active_this_week": 24,
-    "total_contributors": 59,
+    "active_this_week": 26,
+    "total_contributors": 60,
     "top_contributors": [
       {
         "author": "pfultz2",
         "prs_submitted": 53,
         "prs_merged": 22,
-        "commits": 26
+        "commits": 25
       },
       {
         "author": "klin2024",
         "prs_submitted": 45,
-        "prs_merged": 3,
-        "commits": 3
+        "prs_merged": 4,
+        "commits": 4
       },
       {
         "author": "CharlieL7",
@@ -43,7 +43,7 @@
         "author": "shivadbhavsar",
         "prs_submitted": 8,
         "prs_merged": 2,
-        "commits": 3
+        "commits": 2
       },
       {
         "author": "rlegithub",
@@ -76,10 +76,10 @@
         "commits": 1
       },
       {
-        "author": "danieyan-amd",
+        "author": "kazhang2",
         "prs_submitted": 4,
-        "prs_merged": 0,
-        "commits": 0
+        "prs_merged": 1,
+        "commits": 1
       }
     ],
     "bus_factor": 3
@@ -87,13 +87,13 @@
   "issue_health": {
     "total_open": 252,
     "opened_this_week": 3,
-    "closed_this_week": 2,
+    "closed_this_week": 1,
     "unanswered": 129
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 46.1,
+    "days_since_last": 47.2,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

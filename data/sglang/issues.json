@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-22T15:45:12Z",
+  "collected_at": "2026-11-23T19:35:38Z",
   "issues": [
     {
       "number": 45847,
@@ -7,7 +7,7 @@
       "author": "bingxche",
       "state": "open",
       "created_at": "2026-10-22T16:44:47Z",
-      "updated_at": "2026-11-22T15:23:06Z",
+      "updated_at": "2026-11-23T19:26:37Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/45847",
       "labels": [
         "ci-failure-tracker"
@@ -19,8 +19,80 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-11-22T14:52:23Z",
+      "updated_at": "2026-11-23T19:04:52Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 52615,
+      "title": "[Tracking] [AMD] MiMo-V2.6 serving performance on AMD Instinct MI355X (gfx950)",
+      "author": "tkarttunen",
+      "state": "open",
+      "created_at": "2026-11-23T15:49:38Z",
+      "updated_at": "2026-11-23T15:49:38Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/52615",
+      "labels": []
+    },
+    {
+      "number": 50045,
+      "title": "SGLang 1.0 Release Tracker",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2026-11-12T07:42:20Z",
+      "updated_at": "2026-11-23T13:59:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/50045",
+      "labels": [
+        "roadmap"
+      ]
+    },
+    {
+      "number": 51275,
+      "title": "[Bug] dsv41: Candidate graph variants can differ across attention-DP ranks (decode and DSpark verify)",
+      "author": "llying-001",
+      "state": "open",
+      "created_at": "2026-11-18T15:08:46Z",
+      "updated_at": "2026-11-23T07:08:15Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/51275",
+      "labels": []
+    },
+    {
+      "number": 51278,
+      "title": "[Bug] [AMD] aiter MLA decode: DeepSeek-V2-Lite outputs degrade with fp8 KV cache when SGLANG_AITER_MLA_PERSIST=0",
+      "author": "yuychang",
+      "state": "open",
+      "created_at": "2026-11-18T15:36:34Z",
+      "updated_at": "2026-11-23T06:06:36Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/51278",
+      "labels": []
+    },
+    {
+      "number": 47801,
+      "title": "[Bug] [AMD] diffusion: Qwen-Image 2.1 VAE decode is not deterministic at 1024x1024 on ROCm (math SDPA in the ROCm 7.2.1 PyTorch build, see ROCm/pytorch#3931)",
+      "author": "vivienfanghuagood",
+      "state": "open",
+      "created_at": "2026-11-01T22:15:50Z",
+      "updated_at": "2026-11-23T05:20:05Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/47801",
+      "labels": []
+    },
+    {
+      "number": 42564,
+      "title": "[Bug][ROCm] FLUX.2-dev fails on gfx1151: NVIDIA PTX inline assembly in residual_gate_add kernel",
+      "author": "vvvdwbvvv",
+      "state": "open",
+      "created_at": "2026-10-05T09:03:22Z",
+      "updated_at": "2026-11-23T03:13:01Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42564",
+      "labels": []
+    },
+    {
+      "number": 48967,
+      "title": "[Bug] [AMD] decode attention: MLA-shaped Triton decode returns NaN / wrong rows on ragged batches (gfx1151)",
+      "author": "twoask",
+      "state": "open",
+      "created_at": "2026-11-06T21:15:12Z",
+      "updated_at": "2026-11-23T02:19:30Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/48967",
       "labels": []
     },
     {
@@ -55,18 +127,6 @@
       "updated_at": "2026-11-21T10:18:07Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/51548",
       "labels": []
-    },
-    {
-      "number": 50045,
-      "title": "SGLang 1.0 Release Tracker",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2026-11-12T07:42:20Z",
-      "updated_at": "2026-11-21T07:37:59Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50045",
-      "labels": [
-        "roadmap"
-      ]
     },
     {
       "number": 51740,
@@ -129,16 +189,6 @@
       "labels": []
     },
     {
-      "number": 51278,
-      "title": "[Bug] [AMD] aiter MLA decode: DeepSeek-V2-Lite outputs degrade with fp8 KV cache when SGLANG_AITER_MLA_PERSIST=0",
-      "author": "yuychang",
-      "state": "open",
-      "created_at": "2026-11-18T15:36:34Z",
-      "updated_at": "2026-11-18T22:16:40Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/51278",
-      "labels": []
-    },
-    {
       "number": 51359,
       "title": "[Feature] [AMD] gfx1151: Run the Quark TokenPLE UINT4 checkpoint (amd/Qwen3.8-Flash-Next-Quark-TokenPLE-AWQ-UINT4)",
       "author": "johnodin99",
@@ -146,16 +196,6 @@
       "created_at": "2026-11-18T21:49:07Z",
       "updated_at": "2026-11-18T21:49:07Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/51359",
-      "labels": []
-    },
-    {
-      "number": 51275,
-      "title": "[Bug] dsv41: Candidate graph variants can differ across attention-DP ranks (decode and DSpark verify)",
-      "author": "llying-001",
-      "state": "open",
-      "created_at": "2026-11-18T15:08:46Z",
-      "updated_at": "2026-11-18T15:08:46Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/51275",
       "labels": []
     },
     {
@@ -344,36 +384,6 @@
       "labels": []
     },
     {
-      "number": 50422,
-      "title": "[Bug] Spark2.5 rounds large integer tool arguments",
-      "author": "blackdragoon26",
-      "state": "open",
-      "created_at": "2026-11-14T03:53:44Z",
-      "updated_at": "2026-11-14T04:07:32Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50422",
-      "labels": []
-    },
-    {
-      "number": 33422,
-      "title": "[Perf] DeepSeek-V4 dsv4 prefill on SM120 (4x RTX PRO 6000, TP=4): ~2-7K tok/s vs ~12.5K reported via vLLM/marlin on identical hardware \u2014 expected? tuning guidance?",
-      "author": "hassellof",
-      "state": "open",
-      "created_at": "2026-08-03T19:29:12Z",
-      "updated_at": "2026-11-13T17:08:59Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/33422",
-      "labels": []
-    },
-    {
-      "number": 50351,
-      "title": "[Bug] Download cache paths ignore TMPDIR",
-      "author": "blackdragoon26",
-      "state": "open",
-      "created_at": "2026-11-13T17:04:01Z",
-      "updated_at": "2026-11-13T17:07:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50351",
-      "labels": []
-    },
-    {
       "number": 47562,
       "title": "[AITER-Upgrade] PR readiness gfx1250 (MI45x)",
       "author": "kangwangamd",
@@ -384,16 +394,6 @@
       "labels": []
     },
     {
-      "number": 50091,
-      "title": "[Bug] [PPU] DeepSeek-V4.1 (fp4 experts) cannot be served on T-HEAD SAIL with main",
-      "author": "liuhui7313",
-      "state": "open",
-      "created_at": "2026-11-12T11:12:05Z",
-      "updated_at": "2026-11-12T11:12:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50091",
-      "labels": []
-    },
-    {
       "number": 49799,
       "title": "[Feature] [Intel] weight-cache: Support the weight cache daemon on Intel XPU",
       "author": "siju-samuel",
@@ -401,16 +401,6 @@
       "created_at": "2026-11-11T10:19:46Z",
       "updated_at": "2026-11-11T10:19:46Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/49799",
-      "labels": []
-    },
-    {
-      "number": 39499,
-      "title": "[Roadmap] SGLang dLLM Serving",
-      "author": "rwang5203",
-      "state": "open",
-      "created_at": "2026-09-15T01:21:47Z",
-      "updated_at": "2026-11-11T07:01:25Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/39499",
       "labels": []
     },
     {
@@ -431,36 +421,6 @@
       "created_at": "2026-11-10T19:10:12Z",
       "updated_at": "2026-11-10T19:10:12Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/49602",
-      "labels": []
-    },
-    {
-      "number": 49441,
-      "title": "[ROCm Product Quality Control]: Weekly Kimi Vendor Verifier (KVV) accuracy regression testing on AMD",
-      "author": "functionstackx",
-      "state": "open",
-      "created_at": "2026-11-10T03:13:16Z",
-      "updated_at": "2026-11-10T03:13:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/49441",
-      "labels": []
-    },
-    {
-      "number": 49291,
-      "title": "[Bug] [NPU] DeepEP on Ascend A2 aborts mid decode-graph capture with a misleading EH0012 when the MC2 scratch does not fit",
-      "author": "qidaye",
-      "state": "open",
-      "created_at": "2026-11-09T11:26:55Z",
-      "updated_at": "2026-11-09T11:26:55Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/49291",
-      "labels": []
-    },
-    {
-      "number": 48967,
-      "title": "[Bug] [AMD] decode attention: MLA-shaped Triton decode returns NaN / wrong rows on ragged batches (gfx1151)",
-      "author": "twoask",
-      "state": "open",
-      "created_at": "2026-11-06T21:15:12Z",
-      "updated_at": "2026-11-09T07:44:35Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/48967",
       "labels": []
     },
     {
@@ -603,36 +563,6 @@
       "created_at": "2026-10-09T19:02:21Z",
       "updated_at": "2026-10-27T09:10:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/43412",
-      "labels": []
-    },
-    {
-      "number": 46312,
-      "title": "[Bug] DeepSeek AWQ checkpoints fail to load on CUDA: ModuleNotFoundError: No module named 'sglang.kernel_api_logging'",
-      "author": "znzryb",
-      "state": "open",
-      "created_at": "2026-10-24T16:04:03Z",
-      "updated_at": "2026-10-24T16:04:03Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/46312",
-      "labels": []
-    },
-    {
-      "number": 45162,
-      "title": "[Bug] PP + EAGLE/MTP: --speculative-use-block-verification / --speculative-use-rejection-sampling crash on first sampled request (PP relay drops draft_probs)",
-      "author": "jhsmith409",
-      "state": "open",
-      "created_at": "2026-10-19T11:51:19Z",
-      "updated_at": "2026-10-19T11:58:53Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45162",
-      "labels": []
-    },
-    {
-      "number": 43526,
-      "title": "[AMD][Bug] Accuracy issue with gfx942 block-FP8 linear AITER CK blockscale GEMM",
-      "author": "HaiShaw",
-      "state": "open",
-      "created_at": "2026-10-10T08:28:36Z",
-      "updated_at": "2026-10-19T07:10:17Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43526",
       "labels": []
     }
   ]

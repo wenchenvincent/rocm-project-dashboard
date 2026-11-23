@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-22T15:46:06Z",
+  "collected_at": "2026-11-23T19:37:01Z",
   "issues": [
     {
       "number": 1472,
@@ -232,16 +232,6 @@
       "labels": [
         "ai-review"
       ]
-    },
-    {
-      "number": 1273,
-      "title": "[Issue]: gfx950: kernel spills 346 VGPRs and runs 2.2x slower after FlyDSL 0.2.4 -> 0.3.4.1 (bundled LLVM 7f77ca0d -> e2a39f50) with near-identical LLVM IR",
-      "author": "HuangWei-95",
-      "state": "open",
-      "created_at": "2026-10-12T02:24:05Z",
-      "updated_at": "2026-10-19T23:52:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1273",
-      "labels": []
     },
     {
       "number": 1237,
@@ -651,16 +641,6 @@
       "created_at": "2026-04-14T10:37:01Z",
       "updated_at": "2026-04-17T02:38:44Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/400",
-      "labels": []
-    },
-    {
-      "number": 353,
-      "title": "[Issue]: unary ops(NOT, ~ and negation,-) on vector result in core dump during compilation",
-      "author": "rahulbatra85",
-      "state": "open",
-      "created_at": "2026-04-07T01:58:52Z",
-      "updated_at": "2026-04-07T02:05:29Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/353",
       "labels": []
     }
   ]

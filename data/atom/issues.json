@@ -1,6 +1,89 @@
 {
-  "collected_at": "2026-11-22T15:45:58Z",
+  "collected_at": "2026-11-23T19:36:48Z",
   "issues": [
+    {
+      "number": 3231,
+      "title": "[RFC] Decouple LMCache MP mode from ATOM",
+      "author": "maobaolong",
+      "state": "open",
+      "created_at": "2026-11-12T04:38:48Z",
+      "updated_at": "2026-11-23T16:42:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3231",
+      "labels": []
+    },
+    {
+      "number": 3657,
+      "title": "[RFC] ATOM gRPC interface for atomesh: token ids in, token ids out",
+      "author": "Jasen2201",
+      "state": "open",
+      "created_at": "2026-11-21T12:53:11Z",
+      "updated_at": "2026-11-23T09:02:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3657",
+      "labels": []
+    },
+    {
+      "number": 3259,
+      "title": "[RFC] Pluggable KV pool backend: MORI-UMBP owns the L1 (HBM) pool so DP ranks share it",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-11-12T14:19:25Z",
+      "updated_at": "2026-11-23T06:42:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3259",
+      "labels": []
+    },
+    {
+      "number": 1944,
+      "title": "[Feature]:  FP8 block-quant MoE rejects TP shards narrower than block_n (Qwen3.6-35B-A3B)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-18T09:51:22Z",
+      "updated_at": "2026-11-23T06:37:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1944",
+      "labels": []
+    },
+    {
+      "number": 2928,
+      "title": "[Issue]: Native sampler shares one exponential-noise row across all unfiltered stochastic rows of a batch (ordinary n=1 requests)",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-02T19:51:54Z",
+      "updated_at": "2026-11-23T06:26:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2928",
+      "labels": []
+    },
+    {
+      "number": 3515,
+      "title": "[Tracking] Qwen3.8-Flash-Next prefix-hit prefill and MTP decode: SGLang ATOM / Native ATOM optimization PRs",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "created_at": "2026-11-18T08:51:11Z",
+      "updated_at": "2026-11-23T04:23:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3515",
+      "labels": []
+    },
+    {
+      "number": 2065,
+      "title": "[Issue]: GPT-OSS-120B fails on the ATOM SGLang stack (MXFP4 `triton_kernel` MoE)",
+      "author": "ibeattyo",
+      "state": "open",
+      "created_at": "2026-08-27T17:12:50Z",
+      "updated_at": "2026-11-23T04:16:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2065",
+      "labels": []
+    },
+    {
+      "number": 3701,
+      "title": "[Perf Regression] 38 config(s) regressed @ cccc96a0",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-22T22:08:51Z",
+      "updated_at": "2026-11-22T22:08:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3701",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 3692,
       "title": "[Perf Regression] 28 config(s) regressed @ cccc96a0",
@@ -40,26 +123,6 @@
       ]
     },
     {
-      "number": 3657,
-      "title": "[RFC] ATOM gRPC interface for atomesh: token ids in, token ids out",
-      "author": "Jasen2201",
-      "state": "open",
-      "created_at": "2026-11-21T12:53:11Z",
-      "updated_at": "2026-11-21T14:12:25Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3657",
-      "labels": []
-    },
-    {
-      "number": 3231,
-      "title": "[RFC] Decouple LMCache MP mode from ATOM",
-      "author": "maobaolong",
-      "state": "open",
-      "created_at": "2026-11-12T04:38:48Z",
-      "updated_at": "2026-11-21T00:59:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3231",
-      "labels": []
-    },
-    {
       "number": 3649,
       "title": "[Perf Regression] 20 config(s) regressed @ fb130472",
       "author": "github-actions[bot]",
@@ -71,16 +134,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 3515,
-      "title": "[Tracking] Qwen3.8-Flash-Next prefix-hit prefill and MTP decode: SGLang ATOM / Native ATOM optimization PRs",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-11-18T08:51:11Z",
-      "updated_at": "2026-11-20T20:32:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3515",
-      "labels": []
     },
     {
       "number": 1462,
@@ -485,16 +538,6 @@
       "labels": []
     },
     {
-      "number": 1696,
-      "title": "[Feature]: Structure Output support",
-      "author": "jiejingzhangamd",
-      "state": "open",
-      "created_at": "2026-07-24T23:21:57Z",
-      "updated_at": "2026-11-19T07:44:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1696",
-      "labels": []
-    },
-    {
       "number": 1748,
       "title": "[Issue]: Mooncake picks a link-local RoCE GID on ionic NICs, requiring a manual MC_GID_INDEX override",
       "author": "mustafa-khalid",
@@ -697,16 +740,6 @@
       "labels": []
     },
     {
-      "number": 2928,
-      "title": "[Issue]: Native sampler shares one exponential-noise row across all unfiltered stochastic rows of a batch (ordinary n=1 requests)",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-02T19:51:54Z",
-      "updated_at": "2026-11-19T07:43:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2928",
-      "labels": []
-    },
-    {
       "number": 2931,
       "title": "[Perf Regression] 13 config(s) regressed @ 974414f1",
       "author": "github-actions[bot]",
@@ -831,16 +864,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 3259,
-      "title": "[RFC] Pluggable KV pool backend: MORI-UMBP owns the L1 (HBM) pool so DP ranks share it",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-11-12T14:19:25Z",
-      "updated_at": "2026-11-19T07:42:43Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3259",
-      "labels": []
     },
     {
       "number": 3260,
@@ -1178,16 +1201,6 @@
       ]
     },
     {
-      "number": 2811,
-      "title": "[Issue]: Freeing a mono PeerBuffer's uncached memory corrupts later allocations on MI355X (step_begin faults, data reads back as zeros)",
-      "author": "jhinpan",
-      "state": "open",
-      "created_at": "2026-10-29T06:05:24Z",
-      "updated_at": "2026-10-30T08:19:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2811",
-      "labels": []
-    },
-    {
       "number": 2360,
       "title": "vLLM plugin pin (2cf0a6915, Aug 23) predates GLM-5.3-Flash support; no published atom-dev image can serve it",
       "author": "npoulad1",
@@ -1238,26 +1251,6 @@
       "created_at": "2026-09-03T19:11:16Z",
       "updated_at": "2026-09-03T19:11:16Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2136",
-      "labels": []
-    },
-    {
-      "number": 1944,
-      "title": "[Feature]:  FP8 block-quant MoE rejects TP shards narrower than block_n (Qwen3.6-35B-A3B)",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-18T09:51:22Z",
-      "updated_at": "2026-08-28T09:59:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1944",
-      "labels": []
-    },
-    {
-      "number": 2065,
-      "title": "[Issue]: GPT-OSS-120B fails on the ATOM SGLang stack (MXFP4 `triton_kernel` MoE)",
-      "author": "ibeattyo",
-      "state": "open",
-      "created_at": "2026-08-27T17:12:50Z",
-      "updated_at": "2026-08-28T09:58:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2065",
       "labels": []
     },
     {
@@ -1348,16 +1341,6 @@
       "created_at": "2026-04-14T17:29:34Z",
       "updated_at": "2026-08-01T09:45:17Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/565",
-      "labels": []
-    },
-    {
-      "number": 623,
-      "title": "[Bug] vLLM+ATOM_OOT (gpt-oss-120b) server crashes for particular sequence lengths",
-      "author": "divakar-amd",
-      "state": "open",
-      "created_at": "2026-04-21T15:50:44Z",
-      "updated_at": "2026-08-01T09:45:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/623",
       "labels": []
     },
     {

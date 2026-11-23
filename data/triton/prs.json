@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-11-22T15:45:14Z",
+  "collected_at": "2026-11-23T19:35:41Z",
   "prs": [
+    {
+      "number": 12734,
+      "title": "[WIP][AMD]Support FP6 in Gluon on CDNA4",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:57:09Z",
+      "updated_at": "2026-11-23T19:35:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12734",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12857,
+      "title": "[AMD] Remove MoveUpPrologueLoads pass",
+      "author": "lijinpei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T09:44:40Z",
+      "updated_at": "2026-11-23T19:35:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12857",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12755,
+      "title": "[Autotuner][AMD] Prune compiled configs before benchmarking and skip unmet waves_per_eu",
+      "author": "CRobeck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T19:45:35Z",
+      "updated_at": "2026-11-23T18:04:56Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12755",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12781,
+      "title": "[AMD][GLUON] Add AMD gluon tutorials",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T07:20:49Z",
+      "updated_at": "2026-11-23T17:09:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12781",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12887,
       "title": "[LLVM] Update LLVM to 293a85c0 and AMD CodeGen to 1cc81891",
@@ -8,10 +56,94 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-21T05:16:54Z",
-      "updated_at": "2026-11-21T17:31:19Z",
+      "updated_at": "2026-11-23T15:56:13Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12887",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 12233,
+      "title": "[AMD] Support scheduling and LDS prefetch for sliced GEMM kernels ",
+      "author": "plognjen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T18:14:37Z",
+      "updated_at": "2026-11-23T14:45:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12233",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12929,
+      "title": "[AMD] Support rank-reducing TDM stores",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T14:25:37Z",
+      "updated_at": "2026-11-23T14:25:37Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12929",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12928,
+      "title": "[AMD] Apply target CPU and features to bundled device libraries before linking",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T14:10:41Z",
+      "updated_at": "2026-11-23T14:10:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12928",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12802,
+      "title": " [AMD] Add k_warp_bases to the WMMA layout for per-warp K order",
+      "author": "Dewei-Wang-sh",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T13:20:56Z",
+      "updated_at": "2026-11-23T09:34:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12802",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12691,
+      "title": "[AMD][Gluon] Fix scaled_downcast for CDNA4 verification and repeated registers",
+      "author": "lijinpei-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-10T03:01:31Z",
+      "updated_at": "2026-11-23T08:31:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12691",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12286,
+      "title": "[AMD][membar] Prove slots of loop-carried views of multi-buffered all\u2026",
+      "author": "yanxuer-999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-14T06:43:05Z",
+      "updated_at": "2026-11-23T08:31:24Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12286",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12587,
+      "title": "[AMD] Add warp_pipeline_stage(schedule_hint=\"mfma-valu\") and delay=N for gfx950",
+      "author": "zhanglx13",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T07:36:08Z",
+      "updated_at": "2026-11-23T04:34:01Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12587",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 12854,
@@ -50,18 +182,6 @@
       "draft": true
     },
     {
-      "number": 12734,
-      "title": "[WIP][AMD]Support FP6 in Gluon on CDNA4",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T00:57:09Z",
-      "updated_at": "2026-11-20T22:13:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12734",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12877,
       "title": "[AMD] Enable ConSan on gfx950 with warp-scheduling guards",
       "author": "Max191",
@@ -72,30 +192,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12877",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12781,
-      "title": "[AMD][GLUON] Add AMD gluon tutorials",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T07:20:49Z",
-      "updated_at": "2026-11-20T18:10:15Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12781",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12857,
-      "title": "[AMD] Remove MoveUpPrologueLoads pass",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T09:44:40Z",
-      "updated_at": "2026-11-20T09:44:40Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12857",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12356,
@@ -194,18 +290,6 @@
       "draft": true
     },
     {
-      "number": 12755,
-      "title": "[Autotuner][AMD] Prune compiled configs before benchmarking and skip unmet waves_per_eu",
-      "author": "CRobeck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T19:45:35Z",
-      "updated_at": "2026-11-19T19:31:25Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12755",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12836,
       "title": "[AMD] Avoid importing torch for pointer range specialization",
       "author": "ThomasRaoux",
@@ -228,18 +312,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12838",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12802,
-      "title": " [AMD] Add k_warp_bases to the WMMA layout for per-warp K order",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T13:20:56Z",
-      "updated_at": "2026-11-19T07:35:57Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12802",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12759,
@@ -398,18 +470,6 @@
       "draft": true
     },
     {
-      "number": 12691,
-      "title": "[AMD][Gluon] Fix scaled_downcast for CDNA4 verification and repeated registers",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-10T03:01:31Z",
-      "updated_at": "2026-11-16T14:25:35Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12691",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12553,
       "title": "[AMD][IR] Implement InferIntRangeInterface for MakeRangeOp",
       "author": "Betelgeu",
@@ -518,54 +578,6 @@
       "draft": false
     },
     {
-      "number": 12536,
-      "title": "[AMD] Publish llc from the code generator's LLVM so the DAG cross-check runs",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T15:53:57Z",
-      "updated_at": "2026-11-12T19:44:19Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12536",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12286,
-      "title": "[AMD][membar] Prove slots of loop-carried views of multi-buffered all\u2026",
-      "author": "yanxuer-999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-14T06:43:05Z",
-      "updated_at": "2026-11-12T15:50:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12286",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12233,
-      "title": "[AMD] Support scheduling, LDS prefetch and TDM fusion for sliced GEMM kernels ",
-      "author": "plognjen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T18:14:37Z",
-      "updated_at": "2026-11-12T15:40:59Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12233",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12718,
-      "title": "[AMD] Add TRITON_MIR_SCHEDULER to run an external scheduler in place of LLVM's",
-      "author": "tyb0807",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T05:33:59Z",
-      "updated_at": "2026-11-12T07:41:14Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12718",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12669,
       "title": "[AMD] Invalidate the compilation cache on the MIR swap knobs",
       "author": "tyb0807",
@@ -576,18 +588,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12669",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12645,
-      "title": "[AMD][TritonGPU] Keep the partition when reshaping a partitioned memdesc",
-      "author": "Dewei-Wang-sh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T03:14:14Z",
-      "updated_at": "2026-11-11T03:44:45Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12645",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12648,
