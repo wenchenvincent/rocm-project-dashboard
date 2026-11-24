@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-11-23T19:37:19Z",
+  "collected_at": "2026-11-24T19:11:41Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "Nightly Test (AMD)",
-    "run_id": 45042042218,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/45042042218",
-    "run_date": "2026-11-22T18:55:24Z",
-    "conclusion": "success",
+    "run_id": 45433627837,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/45433627837",
+    "run_date": "2026-11-24T18:36:26Z",
+    "conclusion": "failure",
     "summary": {
       "total_jobs": 5,
       "passed": 5,
@@ -25,25 +25,7 @@
         "errors": null
       },
       {
-        "name": "nightly-test-1-gpu-unit (rocm10, linux-mi300-1gpu-sglang) part 0",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
         "name": "nightly-test-1-gpu-kernel (rocm10, linux-mi300-1gpu-sglang)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "nightly-test-1-gpu-unit (rocm10, linux-mi300-1gpu-sglang) part 2",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -59,14 +41,32 @@
         "failed": null,
         "skipped": null,
         "errors": null
+      },
+      {
+        "name": "nightly-test-1-gpu-unit (rocm10, linux-mi300-1gpu-sglang) part 0",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "nightly-test-1-gpu-unit (rocm10, linux-mi300-1gpu-sglang) part 2",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
       }
     ]
   },
   "cuda": {
     "workflow_name": "PR Test",
-    "run_id": 45247737293,
-    "run_url": "https://github.com/sgl-project/sglang/actions/runs/45247737293",
-    "run_date": "2026-11-23T19:19:58Z",
+    "run_id": 45467107106,
+    "run_url": "https://github.com/sgl-project/sglang/actions/runs/45467107106",
+    "run_date": "2026-11-24T19:09:18Z",
     "conclusion": "failure",
     "summary": {
       "total_jobs": 10,
@@ -86,17 +86,8 @@
         "errors": null
       },
       {
-        "name": "call-multimodal-gen-tests",
-        "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "call-jit-kernel-tests",
-        "conclusion": "skipped",
+        "name": "pr-test-finish",
+        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -106,15 +97,6 @@
       {
         "name": "base-b-test-${{ matrix.runner_config }}",
         "conclusion": "skipped",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "pr-test-finish",
-        "conclusion": "failure",
         "tests": null,
         "passed": null,
         "failed": null,
@@ -140,6 +122,24 @@
         "errors": null
       },
       {
+        "name": "base-c-test-${{ matrix.runner_config }}",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "base-c-test-${{ matrix.runner_config }}",
+        "conclusion": "skipped",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
         "name": "base-a-test-cpu",
         "conclusion": "skipped",
         "tests": null,
@@ -149,7 +149,7 @@
         "errors": null
       },
       {
-        "name": "base-c-test-${{ matrix.runner_config }}",
+        "name": "call-jit-kernel-tests",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,
@@ -158,7 +158,7 @@
         "errors": null
       },
       {
-        "name": "base-c-test-${{ matrix.runner_config }}",
+        "name": "call-multimodal-gen-tests",
         "conclusion": "skipped",
         "tests": null,
         "passed": null,

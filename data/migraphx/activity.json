@@ -1,19 +1,19 @@
 {
-  "collected_at": "2026-11-23T19:37:56Z",
+  "collected_at": "2026-11-24T19:12:15Z",
   "project": "migraphx",
   "repo": "ROCm/AMDMIGraphX",
   "pr_velocity": {
     "this_week": {
-      "opened": 45,
+      "opened": 32,
       "merged": 26,
       "closed": 5
     },
     "last_week": {
-      "opened": 46,
+      "opened": 62,
       "merged": 13,
-      "closed": 6
+      "closed": 5
     },
-    "median_time_to_merge_hours": 195.6,
+    "median_time_to_merge_hours": 172.2,
     "merge_count": 40,
     "stale_prs": 72
   },
@@ -23,9 +23,9 @@
     "top_contributors": [
       {
         "author": "pfultz2",
-        "prs_submitted": 53,
+        "prs_submitted": 55,
         "prs_merged": 22,
-        "commits": 25
+        "commits": 22
       },
       {
         "author": "klin2024",
@@ -58,6 +58,12 @@
         "commits": 3
       },
       {
+        "author": "pnikolic-amd",
+        "prs_submitted": 5,
+        "prs_merged": 3,
+        "commits": 3
+      },
+      {
         "author": "ppetrovi-amd",
         "prs_submitted": 5,
         "prs_merged": 0,
@@ -74,26 +80,20 @@
         "prs_submitted": 5,
         "prs_merged": 5,
         "commits": 1
-      },
-      {
-        "author": "kazhang2",
-        "prs_submitted": 4,
-        "prs_merged": 1,
-        "commits": 1
       }
     ],
     "bus_factor": 3
   },
   "issue_health": {
     "total_open": 252,
-    "opened_this_week": 3,
+    "opened_this_week": 1,
     "closed_this_week": 1,
     "unanswered": 129
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 47.2,
+    "days_since_last": 48.2,
     "avg_interval_days": 39.0,
     "total_releases": 5,
     "latest_tag": "rocm-10.1"

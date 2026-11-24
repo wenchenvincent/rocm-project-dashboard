@@ -1,46 +1,18 @@
 {
-  "collected_at": "2026-11-23T19:37:04Z",
+  "collected_at": "2026-11-24T19:11:25Z",
   "prs": [
     {
-      "number": 755,
-      "title": "[TE] CK fused attention: return max_logit",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-07T15:54:41Z",
-      "updated_at": "2026-11-23T19:14:26Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
-      "labels": [
-        "P1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 789,
-      "title": "[gfx1250] TDM normalization/swizzle/transpose",
+      "number": 778,
+      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
       "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-30T21:48:29Z",
-      "updated_at": "2026-11-23T16:24:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/789",
+      "created_at": "2026-10-22T23:18:01Z",
+      "updated_at": "2026-11-24T17:17:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
       "labels": [
         "ci-level 1",
         "P1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 804,
-      "title": "Persistent GEMM + RS MXFP8 Enablement",
-      "author": "aris134",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T15:59:31Z",
-      "updated_at": "2026-11-23T15:59:35Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/804",
-      "labels": [
-        "ci-level 3"
       ],
       "draft": false
     },
@@ -51,7 +23,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-23T04:29:26Z",
-      "updated_at": "2026-11-23T05:10:03Z",
+      "updated_at": "2026-11-23T23:12:54Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/814",
       "labels": [
         "ci-level 3",
@@ -60,16 +32,42 @@
       "draft": false
     },
     {
-      "number": 813,
-      "title": "Zero the padding of MXFP4 scale tensors allocated in C++",
-      "author": "VeeraRajasekhar",
+      "number": 789,
+      "title": "[gfx1250] TDM normalization/swizzle/transpose",
+      "author": "matthiasdiener",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-23T04:00:46Z",
-      "updated_at": "2026-11-23T05:09:31Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/813",
+      "created_at": "2026-10-30T21:48:29Z",
+      "updated_at": "2026-11-23T23:09:04Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/789",
       "labels": [
-        "ci-level 3",
+        "ci-level 1",
+        "P1"
+      ],
+      "draft": true
+    },
+    {
+      "number": 815,
+      "title": "16-bit grouped GEMMs with HK",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T21:49:28Z",
+      "updated_at": "2026-11-23T21:49:30Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/815",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 755,
+      "title": "[TE] CK fused attention: return max_logit",
+      "author": "AllenFarcas",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-07T15:54:41Z",
+      "updated_at": "2026-11-23T19:14:26Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/755",
+      "labels": [
         "P1"
       ],
       "draft": false
@@ -99,21 +97,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/812",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 778,
-      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T23:18:01Z",
-      "updated_at": "2026-11-20T21:19:28Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
-      "labels": [
-        "ci-level 1",
-        "P1"
       ],
       "draft": false
     },
@@ -315,20 +298,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/802",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 793,
-      "title": "CI: speed up wheel build with ccache",
-      "author": "leo-automation",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-05T12:32:42Z",
-      "updated_at": "2026-11-18T10:35:52Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/793",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
     },
     {
       "number": 796,
@@ -943,6 +912,49 @@
         "ci-level 3",
         "community-contribution",
         "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 813,
+      "title": "Zero the padding of MXFP4 scale tensors allocated in C++",
+      "author": "VeeraRajasekhar",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-23T04:00:46Z",
+      "updated_at": "2026-11-24T16:38:27Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/813",
+      "labels": [
+        "ci-level 3",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 793,
+      "title": "CI: speed up wheel build with ccache",
+      "author": "leo-automation",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-05T12:32:42Z",
+      "updated_at": "2026-11-24T15:27:42Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/793",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 804,
+      "title": "Persistent GEMM + RS MXFP8 Enablement",
+      "author": "aris134",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-13T15:59:31Z",
+      "updated_at": "2026-11-23T20:44:37Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/804",
+      "labels": [
+        "ci-level 3"
       ],
       "draft": false
     },
@@ -2079,34 +2091,6 @@
       "created_at": "2026-08-12T17:45:18Z",
       "updated_at": "2026-08-13T16:16:03Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/703",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 667,
-      "title": "Experimental Triton GEMM backend for TE PyTorch (BF16/FP16/FP32/FP8/MXFP8)",
-      "author": "wenchenvincent",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-09T19:42:42Z",
-      "updated_at": "2026-08-13T15:06:13Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/667",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 675,
-      "title": "gfx1250: native nvfp4 support (GEMM/RHT)",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-07-20T21:13:55Z",
-      "updated_at": "2026-08-13T13:21:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/675",
       "labels": [
         "ci-level 1"
       ],

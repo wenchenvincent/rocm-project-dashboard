@@ -1,6 +1,34 @@
 {
-  "collected_at": "2026-11-23T19:34:58Z",
+  "collected_at": "2026-11-24T19:09:38Z",
   "prs": [
+    {
+      "number": 42843,
+      "title": "[ROCm] Allow post-release versions in the JAX version test regex",
+      "author": "zahiqbal",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-23T20:15:21Z",
+      "updated_at": "2026-11-24T16:29:43Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/42843",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
+    {
+      "number": 41702,
+      "title": "[ROCm] Trim wheel RUNPATH: drop per-family, tarball, cross-Python and other-depth entries",
+      "author": "gulsumgudukbay",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T19:05:10Z",
+      "updated_at": "2026-11-23T22:11:34Z",
+      "html_url": "https://github.com/jax-ml/jax/pull/41702",
+      "labels": [
+        "pull ready"
+      ],
+      "draft": false
+    },
     {
       "number": 42735,
       "title": "[ROCm] Switch the pinned ROCm CI legs from 10.1 to 10.2",
@@ -105,20 +133,6 @@
       "created_at": "2026-11-12T05:51:54Z",
       "updated_at": "2026-11-16T19:20:22Z",
       "html_url": "https://github.com/jax-ml/jax/pull/42552",
-      "labels": [
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 41702,
-      "title": "[ROCm] Trim wheel RUNPATH: drop per-family, tarball, cross-Python and other-depth entries",
-      "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T19:05:10Z",
-      "updated_at": "2026-11-16T14:27:44Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/41702",
       "labels": [
         "pull ready"
       ],
@@ -559,20 +573,6 @@
         "kokoro:force-run",
         "pull ready",
         "AMD GPU"
-      ],
-      "draft": false
-    },
-    {
-      "number": 40784,
-      "title": "[ROCm] Skip the TheRock pre-release CI legs on release runs",
-      "author": "mminutoli",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-18T03:52:34Z",
-      "updated_at": "2026-09-18T16:56:14Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/40784",
-      "labels": [
-        "pull ready"
       ],
       "draft": false
     },

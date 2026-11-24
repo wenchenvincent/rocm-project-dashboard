@@ -1,40 +1,22 @@
 {
-  "collected_at": "2026-11-23T19:37:42Z",
+  "collected_at": "2026-11-24T19:12:00Z",
   "source": "automated",
   "rocm": {
     "workflow_name": "TransformerEngine CI",
-    "run_id": 45064495409,
-    "run_url": "https://github.com/ROCm/TransformerEngine/actions/runs/45064495409",
-    "run_date": "2026-11-22T22:31:06Z",
-    "conclusion": "failure",
+    "run_id": 45262509715,
+    "run_url": "https://github.com/ROCm/TransformerEngine/actions/runs/45262509715",
+    "run_date": "2026-11-24T00:42:17Z",
+    "conclusion": "success",
     "summary": {
       "total_jobs": 6,
-      "passed": 5,
-      "failed": 1,
+      "passed": 6,
+      "failed": 0,
       "skipped": 0,
-      "pass_rate": 83.33
+      "pass_rate": 100.0
     },
     "suites": [
       {
-        "name": "Plan Build and Tests",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "sGPU Tests (mi30x)",
-        "conclusion": "success",
-        "tests": null,
-        "passed": null,
-        "failed": null,
-        "skipped": null,
-        "errors": null
-      },
-      {
-        "name": "Emulated gfx1250 Tests",
+        "name": "Select Test Suites",
         "conclusion": "success",
         "tests": null,
         "passed": null,
@@ -52,8 +34,26 @@
         "errors": null
       },
       {
+        "name": "Emulated gfx1250 Tests",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
+        "name": "sGPU Tests (mi30x)",
+        "conclusion": "success",
+        "tests": null,
+        "passed": null,
+        "failed": null,
+        "skipped": null,
+        "errors": null
+      },
+      {
         "name": "sGPU Tests (mi35x)",
-        "conclusion": "failure",
+        "conclusion": "success",
         "tests": null,
         "passed": null,
         "failed": null,

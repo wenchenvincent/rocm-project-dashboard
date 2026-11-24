@@ -1,14 +1,110 @@
 {
-  "collected_at": "2026-11-23T19:35:41Z",
+  "collected_at": "2026-11-24T19:10:08Z",
   "prs": [
     {
+      "number": 12928,
+      "title": "[AMD] Apply target CPU and features to bundled device libraries before linking",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T14:10:41Z",
+      "updated_at": "2026-11-24T16:53:47Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12928",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12233,
+      "title": "[AMD] Support scheduling and LDS prefetch for sliced GEMM kernels ",
+      "author": "plognjen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T18:14:37Z",
+      "updated_at": "2026-11-24T16:12:30Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12233",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12755,
+      "title": "[Autotuner][AMD] Prune compiled configs before benchmarking and skip unmet waves_per_eu",
+      "author": "CRobeck",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T19:45:35Z",
+      "updated_at": "2026-11-24T14:10:23Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12755",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12938,
+      "title": "[AMD] Fix multi-instruction partitioned TDM copies across CTAs",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T12:09:52Z",
+      "updated_at": "2026-11-24T12:46:12Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12938",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12593,
+      "title": "[AMD][CDNA5] Emulate descriptor reductions with global atomics",
+      "author": "nzaghen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T19:48:54Z",
+      "updated_at": "2026-11-24T11:35:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12593",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12356,
+      "title": "[QoL] Extend llvm build targets to support building AMD codegen commit",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-19T12:39:47Z",
+      "updated_at": "2026-11-24T11:32:18Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12356",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12937,
+      "title": "[AMD][BUILD] Add missing amd build script for `dev-install-llvm LLVM_BUILD=amd`",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T11:29:39Z",
+      "updated_at": "2026-11-24T11:29:39Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12937",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12781,
+      "title": "[AMD][GLUON] Add AMD gluon tutorials",
+      "author": "borontion",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T07:20:49Z",
+      "updated_at": "2026-11-24T07:40:08Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12781",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 12734,
-      "title": "[WIP][AMD]Support FP6 in Gluon on CDNA4",
+      "title": "[AMD]Support FP6 in Gluon on CDNA4",
       "author": "knwng",
       "state": "open",
       "merged": false,
       "created_at": "2026-11-13T00:57:09Z",
-      "updated_at": "2026-11-23T19:35:37Z",
+      "updated_at": "2026-11-23T23:38:26Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12734",
       "labels": [],
       "draft": true
@@ -26,30 +122,6 @@
       "draft": false
     },
     {
-      "number": 12755,
-      "title": "[Autotuner][AMD] Prune compiled configs before benchmarking and skip unmet waves_per_eu",
-      "author": "CRobeck",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T19:45:35Z",
-      "updated_at": "2026-11-23T18:04:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12755",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12781,
-      "title": "[AMD][GLUON] Add AMD gluon tutorials",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T07:20:49Z",
-      "updated_at": "2026-11-23T17:09:24Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12781",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12887,
       "title": "[LLVM] Update LLVM to 293a85c0 and AMD CodeGen to 1cc81891",
       "author": "antiagainst",
@@ -62,18 +134,6 @@
       "draft": true
     },
     {
-      "number": 12233,
-      "title": "[AMD] Support scheduling and LDS prefetch for sliced GEMM kernels ",
-      "author": "plognjen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T18:14:37Z",
-      "updated_at": "2026-11-23T14:45:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12233",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12929,
       "title": "[AMD] Support rank-reducing TDM stores",
       "author": "justinrosner",
@@ -82,18 +142,6 @@
       "created_at": "2026-11-23T14:25:37Z",
       "updated_at": "2026-11-23T14:25:37Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12929",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12928,
-      "title": "[AMD] Apply target CPU and features to bundled device libraries before linking",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T14:10:41Z",
-      "updated_at": "2026-11-23T14:10:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12928",
       "labels": [],
       "draft": true
     },
@@ -190,18 +238,6 @@
       "created_at": "2026-11-20T19:46:14Z",
       "updated_at": "2026-11-20T19:46:15Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12877",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12356,
-      "title": "[QoL] Extend llvm build targets to support building AMD codegen commit",
-      "author": "AlexAUT",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-19T12:39:47Z",
-      "updated_at": "2026-11-20T07:50:28Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12356",
       "labels": [],
       "draft": false
     },
@@ -470,18 +506,6 @@
       "draft": true
     },
     {
-      "number": 12553,
-      "title": "[AMD][IR] Implement InferIntRangeInterface for MakeRangeOp",
-      "author": "Betelgeu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T06:09:15Z",
-      "updated_at": "2026-11-16T02:27:34Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12553",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12657,
       "title": "[AMD] Make release atomics cover writes from every warp",
       "author": "antiagainst",
@@ -490,18 +514,6 @@
       "created_at": "2026-11-08T01:28:56Z",
       "updated_at": "2026-11-14T16:23:23Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12657",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12770,
-      "title": "[AMD] Reject unsupported GPU architectures early",
-      "author": "learnrahulrai-ui",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T10:50:41Z",
-      "updated_at": "2026-11-14T13:41:57Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12770",
       "labels": [],
       "draft": false
     },
@@ -562,18 +574,6 @@
       "created_at": "2026-11-11T20:29:54Z",
       "updated_at": "2026-11-12T21:49:07Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12716",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12133,
-      "title": "[AMD] Allow chain-dot detection across one level of scf.if",
-      "author": "amd-sonsingh",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T22:44:04Z",
-      "updated_at": "2026-11-12T20:42:57Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12133",
       "labels": [],
       "draft": false
     },

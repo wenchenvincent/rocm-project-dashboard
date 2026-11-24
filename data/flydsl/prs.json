@@ -1,6 +1,32 @@
 {
-  "collected_at": "2026-11-23T19:36:59Z",
+  "collected_at": "2026-11-24T19:11:20Z",
   "prs": [
+    {
+      "number": 1501,
+      "title": "[Kernel][Perf] PA decode: interleave independent MFMA chains",
+      "author": "reble",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T18:06:07Z",
+      "updated_at": "2026-11-24T18:09:38Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1501",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1431,
+      "title": "[LLVM] Bump LLVM pin to e2ce52c885 and rebase llvm-extensions",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T05:17:14Z",
+      "updated_at": "2026-11-24T14:33:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1431",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 1412,
       "title": "[JIT] Speed up tracing and fix exponential and/or rewriting",
@@ -8,8 +34,114 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-14T05:43:05Z",
-      "updated_at": "2026-11-23T18:49:10Z",
+      "updated_at": "2026-11-24T10:44:26Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1412",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1499,
+      "title": "llvm update to coexec scheduler  branch",
+      "author": "jli-melchior",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T05:40:01Z",
+      "updated_at": "2026-11-24T05:40:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1499",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1498,
+      "title": "[Bugfix] Fix cross-wave-group LDS races in the gemm_a16w16 gfx950 HTI epilogue",
+      "author": "merrittttt",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T03:34:51Z",
+      "updated_at": "2026-11-24T03:35:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1498",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1497,
+      "title": "[Bugfix] Require N % 4 == 0 in the vectorAdd example",
+      "author": "merrittttt",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T03:05:09Z",
+      "updated_at": "2026-11-24T03:05:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1497",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1496,
+      "title": "[Bugfix] Size the gemm_a16w16 gfx950 LDS swizzle to block_k",
+      "author": "merrittttt",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T02:23:06Z",
+      "updated_at": "2026-11-24T02:23:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1496",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1495,
+      "title": "[Bugfix] Fix the NeoX pair lane in fused_rope_cache for head_dim=96",
+      "author": "merrittttt",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T02:08:40Z",
+      "updated_at": "2026-11-24T02:09:01Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1495",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1494,
+      "title": "[Bugfix] Fix custom all-reduce outputs that differ between ranks",
+      "author": "Arist12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T23:40:14Z",
+      "updated_at": "2026-11-23T23:40:39Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1494",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1492,
+      "title": "[Bugfix] Export custom all-reduce IPC buffers at their allocation base",
+      "author": "Arist12",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T23:40:01Z",
+      "updated_at": "2026-11-23T23:40:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1492",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1485,
+      "title": "[Bugfix] Step 4 and 6-bit view offsets in bytes",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T02:09:34Z",
+      "updated_at": "2026-11-23T22:51:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1485",
       "labels": [],
       "draft": false
     },
@@ -54,30 +186,6 @@
       "draft": true
     },
     {
-      "number": 1488,
-      "title": "[Test] Bench gfx1250 FP8/FP4 GEMM per launch batch; add trig/uniform inits",
-      "author": "aoli26",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T13:12:32Z",
-      "updated_at": "2026-11-23T13:17:13Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1488",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1431,
-      "title": "[LLVM] Bump LLVM pin to e2ce52c885 and rebase llvm-extensions",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T05:17:14Z",
-      "updated_at": "2026-11-23T12:13:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1431",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1484,
       "title": "[Feat] Add CompiledFunction.kernel_names()",
       "author": "coderfeli",
@@ -100,18 +208,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1401",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1485,
-      "title": "[Bugfix] Step 4 and 6-bit view offsets in bytes",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T02:09:34Z",
-      "updated_at": "2026-11-23T07:16:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1485",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1486,
@@ -1193,6 +1289,18 @@
       "created_at": "2026-07-28T19:32:56Z",
       "updated_at": "2026-07-29T10:56:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/920",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1488,
+      "title": "[Test] Bench gfx1250 FP8/FP4 GEMM per launch batch; add trig/uniform inits",
+      "author": "aoli26",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-23T13:12:32Z",
+      "updated_at": "2026-11-24T07:17:59Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1488",
       "labels": [],
       "draft": false
     },

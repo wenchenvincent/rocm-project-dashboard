@@ -1,15 +1,271 @@
 {
-  "collected_at": "2026-11-23T19:35:47Z",
+  "collected_at": "2026-11-24T19:10:12Z",
   "prs": [
     {
-      "number": 5462,
-      "title": "Bump RocMlirTriton with triton_amd_codegen library",
-      "author": "ilango100",
+      "number": 5596,
+      "title": "Binary cache: add support for compression",
+      "author": "pnikolic-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-30T16:43:40Z",
-      "updated_at": "2026-11-23T19:34:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
+      "created_at": "2026-11-24T17:49:10Z",
+      "updated_at": "2026-11-24T18:59:21Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5596",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5554,
+      "title": "Unify the symbolic dims an elementwise op requires to be equal across a parameter",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T12:29:28Z",
+      "updated_at": "2026-11-24T17:37:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5554",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5581,
+      "title": "Recompile follow-ups: benchmark MXR dump, no external libraries, older generations",
+      "author": "anilmartha",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T11:17:49Z",
+      "updated_at": "2026-11-24T17:31:39Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5581",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5595,
+      "title": "Add support for fp32 winograd for gfx11",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T16:35:37Z",
+      "updated_at": "2026-11-24T16:50:33Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5595",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5527,
+      "title": "[ROCM-30410] Fix ScatterND ignoring negative indices",
+      "author": "tanzeel-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T11:24:51Z",
+      "updated_at": "2026-11-24T16:46:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5527",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5555,
+      "title": "Keep the rank of a one-element tensor in rewrites that meet a scalar",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T13:41:33Z",
+      "updated_at": "2026-11-24T16:19:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5555",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5549,
+      "title": "Update the shape of instructions whose submodules a pass changed",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T08:35:52Z",
+      "updated_at": "2026-11-24T15:45:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5549",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5530,
+      "title": "Convert to bool as nonzero on ref",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T16:07:58Z",
+      "updated_at": "2026-11-24T15:19:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5530",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5524,
+      "title": "Accept int64 in the GPU device visitor",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T08:23:26Z",
+      "updated_at": "2026-11-24T15:19:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5524",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5523,
+      "title": "Run a topk on the host when it exceeds the GPU kernel",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T07:09:48Z",
+      "updated_at": "2026-11-24T15:18:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5523",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5522,
+      "title": "Lower a bounded dynamic_range to the host on the GPU",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T06:24:01Z",
+      "updated_at": "2026-11-24T15:18:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5522",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5518,
+      "title": "Skip symbolic reshapes in the layout_convolution score",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T04:32:44Z",
+      "updated_at": "2026-11-24T15:17:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5518",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5516,
+      "title": "Skip the slice-squeeze rewrite for a squeeze to a scalar (regression from #5004)",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T03:43:52Z",
+      "updated_at": "2026-11-24T15:17:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5516",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5514,
+      "title": "Parse Pad with pads that resolve to symbolic expressions",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T01:51:45Z",
+      "updated_at": "2026-11-24T15:16:40Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5514",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5496,
+      "title": "Write a Loop scan output that the body returns as a parameter or constant",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T10:09:00Z",
+      "updated_at": "2026-11-24T15:16:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5496",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5495,
+      "title": "Fold single-element widening converts in propagate_constant (regression from #5138)",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-09T08:24:06Z",
+      "updated_at": "2026-11-24T15:15:37Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5495",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5594,
+      "title": "Add documentation for MXR recompile",
+      "author": "anilmartha",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T13:43:41Z",
+      "updated_at": "2026-11-24T13:43:41Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5594",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5583,
+      "title": "Write fp32 scores for unfused fp16 attention blocks to prevent q.k^T overflow",
+      "author": "menglcai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T09:29:03Z",
+      "updated_at": "2026-11-24T12:02:39Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5583",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5517,
+      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T03:43:57Z",
+      "updated_at": "2026-11-24T11:55:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5502,
+      "title": "Enable OCP fp8 for gfx117x",
+      "author": "ppetrovi-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T18:57:59Z",
+      "updated_at": "2026-11-24T10:39:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5502",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5506,
+      "title": "Support in-memory external initializers and avoid stack overflow",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T13:13:44Z",
+      "updated_at": "2026-11-24T10:24:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5506",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5593,
+      "title": "Eliminate nested concats and gate the conv concat split fusion",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T00:21:17Z",
+      "updated_at": "2026-11-24T00:42:57Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5593",
       "labels": [],
       "draft": false
     },
@@ -20,32 +276,8 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-08-31T23:51:09Z",
-      "updated_at": "2026-11-23T19:02:54Z",
+      "updated_at": "2026-11-23T23:08:14Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5227",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5439,
-      "title": "KV cache attention flash decoding",
-      "author": "bdevorem",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-26T22:04:33Z",
-      "updated_at": "2026-11-23T18:09:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5549,
-      "title": "Update the shape of an if or loop when a pass changes its submodules",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T08:35:52Z",
-      "updated_at": "2026-11-23T17:43:46Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5549",
       "labels": [],
       "draft": false
     },
@@ -56,7 +288,7 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-11T18:52:51Z",
-      "updated_at": "2026-11-23T17:43:12Z",
+      "updated_at": "2026-11-23T22:54:15Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5501",
       "labels": [
         "Windows"
@@ -70,35 +302,33 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-11T20:58:06Z",
-      "updated_at": "2026-11-23T17:43:11Z",
+      "updated_at": "2026-11-23T22:30:35Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5503",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5592,
-      "title": "Cherry-pick #5483 and #5563 into release/rocm-rel-10.0.1",
-      "author": "VishalX",
+      "number": 5462,
+      "title": "Bump RocMlirTriton with triton_amd_codegen library",
+      "author": "ilango100",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-23T17:17:30Z",
-      "updated_at": "2026-11-23T17:19:30Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5592",
+      "created_at": "2026-10-30T16:43:40Z",
+      "updated_at": "2026-11-23T19:34:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5506,
-      "title": "Support in-memory external initializers and avoid stack overflow",
-      "author": "ivarusic-amd",
+      "number": 5439,
+      "title": "KV cache attention flash decoding",
+      "author": "bdevorem",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-12T13:13:44Z",
-      "updated_at": "2026-11-23T15:23:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5506",
-      "labels": [
-        "Windows"
-      ],
+      "created_at": "2026-10-26T22:04:33Z",
+      "updated_at": "2026-11-23T18:09:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
+      "labels": [],
       "draft": false
     },
     {
@@ -134,30 +364,6 @@
       "created_at": "2026-11-17T16:39:42Z",
       "updated_at": "2026-11-23T08:38:05Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5561",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5555,
-      "title": "Keep the rank of a one-element tensor in rewrites that meet a scalar",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T13:41:33Z",
-      "updated_at": "2026-11-23T08:37:24Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5555",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5554,
-      "title": "Unify the symbolic dims an elementwise op requires to be equal across a parameter",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T12:29:28Z",
-      "updated_at": "2026-11-23T08:36:40Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5554",
       "labels": [],
       "draft": false
     },
@@ -270,18 +476,6 @@
       "draft": false
     },
     {
-      "number": 5583,
-      "title": "Write fp32 scores for unfused fp16 attention blocks to prevent q.k^T overflow",
-      "author": "menglcai",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T09:29:03Z",
-      "updated_at": "2026-11-23T06:24:52Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5583",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5588,
       "title": "Onnxruntime Weekly Sync 2026-11-20",
       "author": "github-actions[bot]",
@@ -296,18 +490,6 @@
         "skip bot checks",
         "automated"
       ],
-      "draft": false
-    },
-    {
-      "number": 5581,
-      "title": "Recompile follow-ups: benchmark MXR dump, no external libraries, older generations",
-      "author": "anilmartha",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T11:17:49Z",
-      "updated_at": "2026-11-23T04:45:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5581",
-      "labels": [],
       "draft": false
     },
     {
@@ -431,18 +613,6 @@
       "draft": false
     },
     {
-      "number": 5517,
-      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T03:43:57Z",
-      "updated_at": "2026-11-21T16:02:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5520,
       "title": "Slice a symbolic shape by run-time bounds with dyn_slice",
       "author": "klin2024",
@@ -511,18 +681,6 @@
       "created_at": "2026-11-18T22:55:57Z",
       "updated_at": "2026-11-20T10:47:28Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5579",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5527,
-      "title": "[ROCM-30410] Fix ScatterND ignoring negative indices",
-      "author": "tanzeel-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T11:24:51Z",
-      "updated_at": "2026-11-20T07:25:35Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5527",
       "labels": [],
       "draft": false
     },
@@ -600,20 +758,6 @@
       "updated_at": "2026-11-19T21:51:23Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5186",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5502,
-      "title": "Enable OCP fp8 for gfx117x",
-      "author": "ppetrovi-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T18:57:59Z",
-      "updated_at": "2026-11-19T16:53:14Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5502",
-      "labels": [
-        "Windows"
-      ],
       "draft": false
     },
     {
@@ -751,30 +895,6 @@
       "draft": true
     },
     {
-      "number": 5530,
-      "title": "Convert to bool as nonzero on ref",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T16:07:58Z",
-      "updated_at": "2026-11-17T20:14:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5530",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5496,
-      "title": "Write a Loop scan output that the body returns as a parameter or constant",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T10:09:00Z",
-      "updated_at": "2026-11-17T19:52:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5496",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5511,
       "title": "Compute symbolic values for int32 shape arithmetic",
       "author": "klin2024",
@@ -783,18 +903,6 @@
       "created_at": "2026-11-13T00:41:41Z",
       "updated_at": "2026-11-17T17:58:07Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5511",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5495,
-      "title": "Fold single-element widening converts in propagate_constant (regression from #5138)",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-09T08:24:06Z",
-      "updated_at": "2026-11-17T17:07:18Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5495",
       "labels": [],
       "draft": false
     },
@@ -819,18 +927,6 @@
       "created_at": "2026-11-13T02:07:11Z",
       "updated_at": "2026-11-17T16:47:26Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5515",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5516,
-      "title": "Skip the slice-squeeze rewrite for a squeeze to a scalar (regression from #5004)",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T03:43:52Z",
-      "updated_at": "2026-11-17T11:21:15Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5516",
       "labels": [],
       "draft": false
     },
@@ -885,42 +981,6 @@
       "draft": false
     },
     {
-      "number": 5518,
-      "title": "Skip symbolic reshapes in the layout_convolution score",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T04:32:44Z",
-      "updated_at": "2026-11-17T07:38:53Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5518",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5523,
-      "title": "Run a topk on the host when it exceeds the GPU kernel",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T07:09:48Z",
-      "updated_at": "2026-11-17T07:35:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5523",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5514,
-      "title": "Parse Pad with pads that resolve to symbolic expressions",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T01:51:45Z",
-      "updated_at": "2026-11-17T06:17:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5514",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5533,
       "title": "Skip tuple parameters when the driver warns about unset inputs",
       "author": "klin2024",
@@ -929,30 +989,6 @@
       "created_at": "2026-11-13T17:23:58Z",
       "updated_at": "2026-11-17T05:48:31Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5533",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5524,
-      "title": "Accept int64 in the GPU device visitor",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T08:23:26Z",
-      "updated_at": "2026-11-17T05:47:17Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5524",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5522,
-      "title": "Lower a bounded dynamic_range to the host on the GPU",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T06:24:01Z",
-      "updated_at": "2026-11-17T05:46:01Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5522",
       "labels": [],
       "draft": false
     },
@@ -2225,6 +2261,18 @@
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/4303",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 5592,
+      "title": "Cherry-pick #5563 into release/rocm-rel-10.0.1",
+      "author": "VishalX",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-23T17:17:30Z",
+      "updated_at": "2026-11-24T11:29:42Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5592",
+      "labels": [],
+      "draft": false
     },
     {
       "number": 5507,

@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-23T19:37:01Z",
+  "collected_at": "2026-11-24T19:11:22Z",
   "issues": [
+    {
+      "number": 1493,
+      "title": "[Bug] Custom all-reduce: graph pointer arrays are allocated in the capture pool, so a replay can overwrite them",
+      "author": "Arist12",
+      "state": "open",
+      "created_at": "2026-11-23T23:40:11Z",
+      "updated_at": "2026-11-23T23:40:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1493",
+      "labels": []
+    },
+    {
+      "number": 1491,
+      "title": "[Bug] Custom all-reduce: wrong results when the packs do not split evenly across ranks (2-stage), and on back-to-back eager 1-stage calls",
+      "author": "Arist12",
+      "state": "open",
+      "created_at": "2026-11-23T23:39:57Z",
+      "updated_at": "2026-11-23T23:39:57Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1491",
+      "labels": []
+    },
     {
       "number": 1472,
       "title": "[Issue]: examples/01-vectorAdd.py: out-of-bounds float4 accesses when N is not a multiple of 4",
@@ -304,18 +324,6 @@
       "labels": []
     },
     {
-      "number": 652,
-      "title": "Full docstring + minimal-example coverage for the Python package",
-      "author": "sjfeng1999",
-      "state": "open",
-      "created_at": "2026-06-04T06:47:33Z",
-      "updated_at": "2026-09-08T08:07:21Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/652",
-      "labels": [
-        "FlyDSL/Customization"
-      ]
-    },
-    {
       "number": 701,
       "title": "Preserve logical signedness for Pointer and Tensor integer dtypes",
       "author": "sjfeng1999",
@@ -375,16 +383,6 @@
       "created_at": "2026-06-25T21:05:32Z",
       "updated_at": "2026-07-24T19:11:45Z",
       "html_url": "https://github.com/ROCm/FlyDSL/issues/749",
-      "labels": []
-    },
-    {
-      "number": 621,
-      "title": "[Feature]: More robust AOT",
-      "author": "coderfeli",
-      "state": "open",
-      "created_at": "2026-06-02T13:20:23Z",
-      "updated_at": "2026-07-22T03:01:20Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/621",
       "labels": []
     },
     {

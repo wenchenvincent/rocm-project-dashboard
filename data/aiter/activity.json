@@ -1,31 +1,43 @@
 {
-  "collected_at": "2026-11-23T19:38:42Z",
+  "collected_at": "2026-11-24T19:12:46Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 411,
-      "merged": 178,
-      "closed": 69
+      "opened": 433,
+      "merged": 204,
+      "closed": 94
     },
     "last_week": {
-      "opened": 357,
-      "merged": 179,
-      "closed": 64
+      "opened": 338,
+      "merged": 181,
+      "closed": 59
     },
-    "median_time_to_merge_hours": 111.4,
-    "merge_count": 361,
-    "stale_prs": 155
+    "median_time_to_merge_hours": 118.4,
+    "merge_count": 391,
+    "stale_prs": 142
   },
   "contributors": {
-    "active_this_week": 248,
-    "total_contributors": 361,
+    "active_this_week": 244,
+    "total_contributors": 349,
     "top_contributors": [
       {
         "author": "klin2024",
         "prs_submitted": 82,
-        "prs_merged": 1,
-        "commits": 7
+        "prs_merged": 2,
+        "commits": 8
+      },
+      {
+        "author": "AndreasKaratzas",
+        "prs_submitted": 28,
+        "prs_merged": 0,
+        "commits": 6
+      },
+      {
+        "author": "ganyi1996ppo",
+        "prs_submitted": 28,
+        "prs_merged": 0,
+        "commits": 9
       },
       {
         "author": "xytpai",
@@ -40,60 +52,48 @@
         "commits": 1
       },
       {
+        "author": "Boss2002n",
+        "prs_submitted": 21,
+        "prs_merged": 1,
+        "commits": 19
+      },
+      {
         "author": "XiaobingSuper",
-        "prs_submitted": 26,
+        "prs_submitted": 21,
         "prs_merged": 0,
         "commits": 12
       },
       {
-        "author": "AndreasKaratzas",
-        "prs_submitted": 26,
-        "prs_merged": 0,
-        "commits": 6
-      },
-      {
-        "author": "Boss2002n",
-        "prs_submitted": 22,
-        "prs_merged": 1,
-        "commits": 18
-      },
-      {
         "author": "JiaoliangYu",
-        "prs_submitted": 20,
-        "prs_merged": 6,
-        "commits": 9
-      },
-      {
-        "author": "yhl-amd",
         "prs_submitted": 16,
-        "prs_merged": 3,
-        "commits": 18
+        "prs_merged": 5,
+        "commits": 14
       },
       {
         "author": "AMD-yanfeiwang",
-        "prs_submitted": 16,
+        "prs_submitted": 15,
         "prs_merged": 1,
-        "commits": 2
+        "commits": 3
       },
       {
-        "author": "yuychang",
+        "author": "yhl-amd",
         "prs_submitted": 14,
-        "prs_merged": 0,
-        "commits": 8
+        "prs_merged": 2,
+        "commits": 18
       }
     ],
     "bus_factor": 13
   },
   "issue_health": {
-    "total_open": 398,
-    "opened_this_week": 33,
-    "closed_this_week": 90,
+    "total_open": 391,
+    "opened_this_week": 37,
+    "closed_this_week": 101,
     "unanswered": 14
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.4,
+    "days_since_last": 2.4,
     "avg_interval_days": 6.8,
     "total_releases": 5,
     "latest_tag": "v0.1.30"

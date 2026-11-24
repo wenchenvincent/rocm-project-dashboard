@@ -1,26 +1,69 @@
 {
-  "collected_at": "2026-11-23T19:35:38Z",
+  "collected_at": "2026-11-24T19:10:06Z",
   "issues": [
-    {
-      "number": 45847,
-      "title": "[Failure Tracker] PR Test (AMD)",
-      "author": "bingxche",
-      "state": "open",
-      "created_at": "2026-10-22T16:44:47Z",
-      "updated_at": "2026-11-23T19:26:37Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/45847",
-      "labels": [
-        "ci-failure-tracker"
-      ]
-    },
     {
       "number": 17050,
       "title": "[Tracking] CI Test Failures and Fixes",
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-11-23T19:04:52Z",
+      "updated_at": "2026-11-24T18:41:36Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
+      "labels": []
+    },
+    {
+      "number": 45847,
+      "title": "[Failure Tracker] PR Test (AMD)",
+      "author": "bingxche",
+      "state": "open",
+      "created_at": "2026-10-22T16:44:47Z",
+      "updated_at": "2026-11-24T18:26:49Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/45847",
+      "labels": [
+        "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 50241,
+      "title": "[Tracking] Deterministic inference on AMD Instinct MI350X / MI355X (gfx950)",
+      "author": "aarnetalman",
+      "state": "open",
+      "created_at": "2026-11-13T06:02:06Z",
+      "updated_at": "2026-11-24T12:45:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/50241",
+      "labels": []
+    },
+    {
+      "number": 42473,
+      "title": "Development Roadmap (2026 Q4)",
+      "author": "merrymercy",
+      "state": "open",
+      "created_at": "2026-10-04T08:24:43Z",
+      "updated_at": "2026-11-24T10:48:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
+      "labels": []
+    },
+    {
+      "number": 43313,
+      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
+      "author": "mickqian",
+      "state": "open",
+      "created_at": "2026-10-09T06:57:46Z",
+      "updated_at": "2026-11-24T07:13:11Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
+      "labels": [
+        "diffusion",
+        "roadmap"
+      ]
+    },
+    {
+      "number": 52761,
+      "title": "[Bug] [Diffusion] MiniMax-H3-Image does not start on a 24 GB GPU + 32 GB host (plain command and derived 4090 recipe)",
+      "author": "WellyXY",
+      "state": "open",
+      "created_at": "2026-11-24T06:34:03Z",
+      "updated_at": "2026-11-24T06:34:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/52761",
       "labels": []
     },
     {
@@ -209,19 +252,6 @@
       "labels": []
     },
     {
-      "number": 43313,
-      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
-      "author": "mickqian",
-      "state": "open",
-      "created_at": "2026-10-09T06:57:46Z",
-      "updated_at": "2026-11-18T07:36:27Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
-      "labels": [
-        "diffusion",
-        "roadmap"
-      ]
-    },
-    {
       "number": 51102,
       "title": "[Bug] `sigmoid_gate_topk_renorm`: routing weights are NaN when all selected sigmoid scores underflow",
       "author": "jeffchen006",
@@ -239,16 +269,6 @@
       "created_at": "2026-11-09T14:17:47Z",
       "updated_at": "2026-11-18T05:23:53Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/49327",
-      "labels": []
-    },
-    {
-      "number": 42473,
-      "title": "Development Roadmap (2026 Q4)",
-      "author": "merrymercy",
-      "state": "open",
-      "created_at": "2026-10-04T08:24:43Z",
-      "updated_at": "2026-11-18T03:58:07Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42473",
       "labels": []
     },
     {
@@ -321,16 +341,6 @@
       "created_at": "2026-11-09T13:50:32Z",
       "updated_at": "2026-11-17T07:26:28Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/49324",
-      "labels": []
-    },
-    {
-      "number": 50241,
-      "title": "[Tracking] Deterministic inference on AMD Instinct MI350X / MI355X (gfx950)",
-      "author": "aarnetalman",
-      "state": "open",
-      "created_at": "2026-11-13T06:02:06Z",
-      "updated_at": "2026-11-16T11:54:20Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50241",
       "labels": []
     },
     {
