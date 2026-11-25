@@ -1,15 +1,191 @@
 {
-  "collected_at": "2026-11-24T19:10:12Z",
+  "collected_at": "2026-11-25T18:14:41Z",
   "prs": [
     {
-      "number": 5596,
-      "title": "Binary cache: add support for compression",
+      "number": 5602,
+      "title": "Bump version to 2.20.0",
+      "author": "VishalX",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T17:56:22Z",
+      "updated_at": "2026-11-25T18:00:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5602",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5591,
+      "title": "[AIMIGRAPHX-1328] MXR Enhancements: external weights and sharing",
+      "author": "gkrivor",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T05:35:59Z",
+      "updated_at": "2026-11-25T17:42:51Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5591",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5517,
+      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T03:43:57Z",
+      "updated_at": "2026-11-25T17:16:51Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5600,
+      "title": "Unroll the bounds check in in_bounds() at compile time",
+      "author": "menglcai",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T09:12:37Z",
+      "updated_at": "2026-11-25T17:11:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5600",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5537,
+      "title": "Preserve explicit zero padding before MaxPool",
+      "author": "Kataglyphis",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T09:05:43Z",
+      "updated_at": "2026-11-25T17:01:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5537",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5594,
+      "title": "Add documentation for MXR recompile",
+      "author": "anilmartha",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T13:43:41Z",
+      "updated_at": "2026-11-25T16:54:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5594",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5462,
+      "title": "Bump RocMlirTriton with triton_amd_codegen library",
+      "author": "ilango100",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T16:43:40Z",
+      "updated_at": "2026-11-25T15:21:04Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5549,
+      "title": "Update the shape of instructions whose submodules a pass changed",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T08:35:52Z",
+      "updated_at": "2026-11-25T15:03:35Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5549",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5598,
+      "title": "Add a compile option to save the weights to an external file",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T00:41:48Z",
+      "updated_at": "2026-11-25T14:02:47Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5506,
+      "title": "Support in-memory external initializers and avoid stack overflow",
+      "author": "ivarusic-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-12T13:13:44Z",
+      "updated_at": "2026-11-25T13:39:20Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5506",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5502,
+      "title": "Enable OCP fp8 for gfx117x",
+      "author": "ppetrovi-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T18:57:59Z",
+      "updated_at": "2026-11-25T11:22:32Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5502",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5601,
+      "title": "Add support for the gfx1250-strict offload target",
+      "author": "VishalX",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T10:57:18Z",
+      "updated_at": "2026-11-25T11:14:55Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5601",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5565,
+      "title": "Exit the hiprtc driver without running DLL detach on Windows.",
+      "author": "ppetrovi-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T20:08:47Z",
+      "updated_at": "2026-11-25T10:31:16Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5565",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5477,
+      "title": "Binary cache read only option",
       "author": "pnikolic-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-24T17:49:10Z",
-      "updated_at": "2026-11-24T18:59:21Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5596",
+      "created_at": "2026-11-04T12:10:30Z",
+      "updated_at": "2026-11-25T09:36:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5477",
+      "labels": [
+        "Windows"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5562,
+      "title": "split_sym_dim: specialize the branches of an If with a run-time condition",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T16:49:27Z",
+      "updated_at": "2026-11-25T08:51:13Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5562",
       "labels": [],
       "draft": false
     },
@@ -20,20 +196,116 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-17T12:29:28Z",
-      "updated_at": "2026-11-24T17:37:07Z",
+      "updated_at": "2026-11-25T08:04:30Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5554",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5581,
-      "title": "Recompile follow-ups: benchmark MXR dump, no external libraries, older generations",
-      "author": "anilmartha",
+      "number": 5547,
+      "title": "Keep inputs from enclosing modules when fusing into MLIR",
+      "author": "klin2024",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-19T11:17:49Z",
-      "updated_at": "2026-11-24T17:31:39Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5581",
+      "created_at": "2026-11-17T07:57:05Z",
+      "updated_at": "2026-11-25T08:04:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5547",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5561,
+      "title": "Read the values of an enclosing module as the canonical shape in simplify_symbolic_dimensions",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T16:39:42Z",
+      "updated_at": "2026-11-25T07:08:10Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5561",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5599,
+      "title": "Memory map ONNX external data instead of copying it into literals",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T04:48:35Z",
+      "updated_at": "2026-11-25T05:02:12Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5599",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5593,
+      "title": "Eliminate nested concats and gate the conv concat split fusion",
+      "author": "pfultz2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T00:21:17Z",
+      "updated_at": "2026-11-25T04:54:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5593",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5527,
+      "title": "[ROCM-30410] Fix ScatterND ignoring negative indices",
+      "author": "tanzeel-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T11:24:51Z",
+      "updated_at": "2026-11-25T03:49:29Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5527",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5597,
+      "title": "Symbolic LLM Support ",
+      "author": "shivadbhavsar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T22:35:11Z",
+      "updated_at": "2026-11-24T22:35:11Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5597",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5568,
+      "title": "[DO NOT REVIEW] Free shared weight literals with the last program that uses them (gpuep-rel-2611.1)",
+      "author": "danieyan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T21:40:19Z",
+      "updated_at": "2026-11-24T20:02:05Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5568",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5567,
+      "title": "[DO NOT REVIEW] Free shared weight literals with the last program that uses them (gpuep-rel-2611)",
+      "author": "danieyan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T21:40:16Z",
+      "updated_at": "2026-11-24T20:02:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5567",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5566,
+      "title": "Free shared weight literals with the last program that uses them",
+      "author": "danieyan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T21:26:30Z",
+      "updated_at": "2026-11-24T20:02:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5566",
       "labels": [],
       "draft": false
     },
@@ -50,18 +322,6 @@
       "draft": false
     },
     {
-      "number": 5527,
-      "title": "[ROCM-30410] Fix ScatterND ignoring negative indices",
-      "author": "tanzeel-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T11:24:51Z",
-      "updated_at": "2026-11-24T16:46:35Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5527",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5555,
       "title": "Keep the rank of a one-element tensor in rewrites that meet a scalar",
       "author": "klin2024",
@@ -70,18 +330,6 @@
       "created_at": "2026-11-17T13:41:33Z",
       "updated_at": "2026-11-24T16:19:37Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5555",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5549,
-      "title": "Update the shape of instructions whose submodules a pass changed",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T08:35:52Z",
-      "updated_at": "2026-11-24T15:45:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5549",
       "labels": [],
       "draft": false
     },
@@ -194,18 +442,6 @@
       "draft": false
     },
     {
-      "number": 5594,
-      "title": "Add documentation for MXR recompile",
-      "author": "anilmartha",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T13:43:41Z",
-      "updated_at": "2026-11-24T13:43:41Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5594",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5583,
       "title": "Write fp32 scores for unfused fp16 attention blocks to prevent q.k^T overflow",
       "author": "menglcai",
@@ -214,58 +450,6 @@
       "created_at": "2026-11-20T09:29:03Z",
       "updated_at": "2026-11-24T12:02:39Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5583",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5517,
-      "title": "Do not fuse split groups whose members read each other (regression from #4163)",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T03:43:57Z",
-      "updated_at": "2026-11-24T11:55:48Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5517",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5502,
-      "title": "Enable OCP fp8 for gfx117x",
-      "author": "ppetrovi-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T18:57:59Z",
-      "updated_at": "2026-11-24T10:39:58Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5502",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5506,
-      "title": "Support in-memory external initializers and avoid stack overflow",
-      "author": "ivarusic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-12T13:13:44Z",
-      "updated_at": "2026-11-24T10:24:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5506",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
-      "number": 5593,
-      "title": "Eliminate nested concats and gate the conv concat split fusion",
-      "author": "pfultz2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T00:21:17Z",
-      "updated_at": "2026-11-24T00:42:57Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5593",
       "labels": [],
       "draft": false
     },
@@ -308,18 +492,6 @@
       "draft": false
     },
     {
-      "number": 5462,
-      "title": "Bump RocMlirTriton with triton_amd_codegen library",
-      "author": "ilango100",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T16:43:40Z",
-      "updated_at": "2026-11-23T19:34:32Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5439,
       "title": "KV cache attention flash decoding",
       "author": "bdevorem",
@@ -328,18 +500,6 @@
       "created_at": "2026-10-26T22:04:33Z",
       "updated_at": "2026-11-23T18:09:48Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5439",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5591,
-      "title": "[AIMIGRAPHX-1328] MXR Enhancements: external weights and sharing",
-      "author": "gkrivor",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T05:35:59Z",
-      "updated_at": "2026-11-23T14:56:55Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5591",
       "labels": [],
       "draft": false
     },
@@ -356,18 +516,6 @@
       "draft": false
     },
     {
-      "number": 5561,
-      "title": "Read the values of an enclosing module as the canonical shape in simplify_symbolic_dimensions",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T16:39:42Z",
-      "updated_at": "2026-11-23T08:38:05Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5561",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5553,
       "title": "Slice a static input by symbolic bounds with dyn_slice",
       "author": "klin2024",
@@ -376,18 +524,6 @@
       "created_at": "2026-11-17T12:29:24Z",
       "updated_at": "2026-11-23T08:35:56Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5553",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5547,
-      "title": "Keep inputs from enclosing modules when fusing into MLIR",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T07:57:05Z",
-      "updated_at": "2026-11-23T08:35:06Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5547",
       "labels": [],
       "draft": false
     },
@@ -412,18 +548,6 @@
       "created_at": "2026-11-17T16:31:21Z",
       "updated_at": "2026-11-23T08:32:31Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5560",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5562,
-      "title": "split_sym_dim: specialize the branches of an If with a run-time condition",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T16:49:27Z",
-      "updated_at": "2026-11-23T08:32:04Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5562",
       "labels": [],
       "draft": false
     },
@@ -725,18 +849,6 @@
       "draft": false
     },
     {
-      "number": 5566,
-      "title": "Free shared weight literals with the last program that uses them",
-      "author": "danieyan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T21:26:30Z",
-      "updated_at": "2026-11-19T22:28:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5566",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 5447,
       "title": "Parse LinearAttention and fuse causal gemm-elementwise-gemm chains with rocMLIR",
       "author": "pfultz2",
@@ -781,18 +893,6 @@
       "created_at": "2026-08-21T23:11:47Z",
       "updated_at": "2026-11-19T03:00:09Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5169",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5537,
-      "title": "Preserve explicit zero padding before MaxPool",
-      "author": "Kataglyphis",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T09:05:43Z",
-      "updated_at": "2026-11-18T23:05:09Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5537",
       "labels": [],
       "draft": false
     },
@@ -845,20 +945,6 @@
       "draft": false
     },
     {
-      "number": 5565,
-      "title": "Exit the hiprtc driver without running DLL detach on Windows.",
-      "author": "ppetrovi-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T20:08:47Z",
-      "updated_at": "2026-11-18T12:37:22Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5565",
-      "labels": [
-        "Windows"
-      ],
-      "draft": false
-    },
-    {
       "number": 5570,
       "title": "Fix negative ScatterND indices with symbolic dimensions on the GPU (follow-up to #5527)",
       "author": "tanzeel-amd",
@@ -867,30 +953,6 @@
       "created_at": "2026-11-18T08:07:36Z",
       "updated_at": "2026-11-18T09:21:29Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5570",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5568,
-      "title": "[DO NOT REVIEW] Free shared weight literals with the last program that uses them (gpuep-rel-2611.1)",
-      "author": "danieyan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T21:40:19Z",
-      "updated_at": "2026-11-17T21:40:19Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5568",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 5567,
-      "title": "[DO NOT REVIEW] Free shared weight literals with the last program that uses them (gpuep-rel-2611)",
-      "author": "danieyan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T21:40:16Z",
-      "updated_at": "2026-11-17T21:40:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5567",
       "labels": [],
       "draft": true
     },
@@ -940,20 +1002,6 @@
       "updated_at": "2026-11-17T10:47:46Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5521",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5477,
-      "title": "Binary cache read only option",
-      "author": "pnikolic-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T12:10:30Z",
-      "updated_at": "2026-11-17T10:13:25Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5477",
-      "labels": [
-        "Windows"
-      ],
       "draft": false
     },
     {
@@ -2263,6 +2311,30 @@
       "draft": true
     },
     {
+      "number": 5581,
+      "title": "Recompile follow-ups: benchmark MXR dump, no external libraries, older generations",
+      "author": "anilmartha",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-19T11:17:49Z",
+      "updated_at": "2026-11-25T05:54:59Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5581",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5596,
+      "title": "Binary cache: add support for compression",
+      "author": "pnikolic-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-24T17:49:10Z",
+      "updated_at": "2026-11-25T04:51:49Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5596",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5592,
       "title": "Cherry-pick #5563 into release/rocm-rel-10.0.1",
       "author": "VishalX",
@@ -3110,20 +3182,6 @@
       "updated_at": "2026-10-27T07:19:18Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5422",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5385,
-      "title": "Update eliminate_convert to also eliminate dynamic shape converts",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-13T17:25:48Z",
-      "updated_at": "2026-10-26T19:34:02Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5385",
-      "labels": [
-        "simple"
-      ],
       "draft": false
     }
   ]

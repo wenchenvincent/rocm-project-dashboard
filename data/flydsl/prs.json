@@ -1,17 +1,266 @@
 {
-  "collected_at": "2026-11-24T19:11:20Z",
+  "collected_at": "2026-11-25T18:15:33Z",
   "prs": [
     {
-      "number": 1501,
-      "title": "[Kernel][Perf] PA decode: interleave independent MFMA chains",
-      "author": "reble",
+      "number": 1490,
+      "title": "[Bugfix] Require flat_out_scale for the quantizing mxfp_moe gemm2 epilogs",
+      "author": "Nikunj-Mehndiratta",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-24T18:06:07Z",
-      "updated_at": "2026-11-24T18:09:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1501",
+      "created_at": "2026-11-23T13:42:06Z",
+      "updated_at": "2026-11-25T11:58:53Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1490",
       "labels": [
         "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1489,
+      "title": "[Bugfix] Reject a non-contiguous out in flydsl_flash_attn_func",
+      "author": "Nikunj-Mehndiratta",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T13:41:47Z",
+      "updated_at": "2026-11-25T11:58:51Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1489",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1487,
+      "title": "[Bugfix] Line-buffer the C stdout stream so device printf shows in Jupyter and piped logs",
+      "author": "Nikunj-Mehndiratta",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T13:04:29Z",
+      "updated_at": "2026-11-25T11:58:47Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1487",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1524,
+      "title": "[Skills] Trim redundant content and fix stale guidance in the #1521 skills",
+      "author": "fsx950223",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T10:15:50Z",
+      "updated_at": "2026-11-25T10:16:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1524",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1515,
+      "title": "[ROCDL] Hoist loop-invariant lane intrinsics and LDS DMA M0 reads",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T06:59:31Z",
+      "updated_at": "2026-11-25T10:20:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1515",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1514,
+      "title": "[Bugfix] fp8_gemm_4wave (gfx950): at the top of each main-loop step a wave refills an A buffer in LDS while another wave may still be reading it",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:17:21Z",
+      "updated_at": "2026-11-25T02:23:22Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1514",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1513,
+      "title": "[Bugfix] mxfp_moe stage-1 GEMM at BM=128: the two-slot A ring lets one wave's copy overwrite LDS rows that other waves have not read yet",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:16:15Z",
+      "updated_at": "2026-11-25T02:23:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1513",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1512,
+      "title": "[Bugfix] moe_gemm_2stage stage-1 GEMM with tile_m=16 (or 48): each A-tile LDS buffer is smaller than one copy, so a copy into a_ping overwrites a_pong while other waves still read it",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:15:04Z",
+      "updated_at": "2026-11-25T02:23:20Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1512",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1511,
+      "title": "[Bugfix] conv3d_implicit_fp8: the pipeline drain reads the last K tile from LDS before its direct-to-LDS copies have landed",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:13:47Z",
+      "updated_at": "2026-11-25T02:23:19Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1511",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1510,
+      "title": "[Bugfix] custom all-reduce, write mode: the \"stage 1 done\" and \"done\" flags are published before the data they announce has arrived",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:12:34Z",
+      "updated_at": "2026-11-25T02:23:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1510",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1509,
+      "title": "[Bugfix] custom all-reduce, 2-stage kernel: the all-gather for sizes that do not split evenly reads packs its handshake does not cover (and puts partitions in the wrong order on ranks > 0)",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:11:34Z",
+      "updated_at": "2026-11-25T02:23:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1509",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1508,
+      "title": "[Bugfix] custom all-reduce: the 1-stage kernel has no end handshake, so back-to-back calls can add a peer's *next* input",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:09:53Z",
+      "updated_at": "2026-11-25T02:23:14Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1508",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1507,
+      "title": "[Bugfix] pa_decode_sw_kernel (sliding-window decode): the per-row score maxima overwrite the query scales in LDS before every wave has read them",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:08:10Z",
+      "updated_at": "2026-11-25T02:23:13Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1507",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1506,
+      "title": "[Bugfix] pa_decode_tile_kernel (16/64-token pages): the first loop iteration overwrites the V page ids in LDS before every wave has read them",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:06:44Z",
+      "updated_at": "2026-11-25T02:23:12Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1506",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1505,
+      "title": "[Bugfix] pa_decode_metadata_kernel (persistent paged-attention decode): the next work item's query is written over P that another wave may still be reading",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:05:35Z",
+      "updated_at": "2026-11-25T02:23:11Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1505",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1504,
+      "title": "[Bugfix] mla_fwd_decode_m16x8_fp8_fp8: a wave that starts the next work item overwrites KV buffer 0 while other waves still use it for the previous item",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:04:22Z",
+      "updated_at": "2026-11-25T02:23:09Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1504",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1503,
+      "title": "[Bugfix] flash_attn_fp8_gfx950: with the dual-wave stagger, half of the waves read K/V tiles from LDS before the other half's copies have landed",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:03:04Z",
+      "updated_at": "2026-11-25T02:23:08Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1503",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1502,
+      "title": "[Bugfix] gemm_a16w16 (gfx950, half-tile-interleaved): B half 0 is refilled in LDS while the other wave group may still be reading it",
+      "author": "thechenli",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T02:01:32Z",
+      "updated_at": "2026-11-25T02:23:07Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1502",
+      "labels": [
+        "kernels"
+      ],
+      "draft": true
+    },
+    {
+      "number": 1343,
+      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
+      "author": "hanli0612",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T21:00:18Z",
+      "updated_at": "2026-11-24T19:57:04Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
+      "labels": [
+        "ai-review",
+        "ktrace"
       ],
       "draft": false
     },
@@ -26,18 +275,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1431",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1412,
-      "title": "[JIT] Speed up tracing and fix exponential and/or rewriting",
-      "author": "coderfeli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T05:43:05Z",
-      "updated_at": "2026-11-24T10:44:26Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1412",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1499,
@@ -144,46 +381,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1485",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 1490,
-      "title": "[Bugfix] Require flat_out_scale for the quantizing mxfp_moe gemm2 epilogs",
-      "author": "Nikunj-Mehndiratta",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T13:42:06Z",
-      "updated_at": "2026-11-23T16:46:53Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1490",
-      "labels": [
-        "kernels"
-      ],
-      "draft": true
-    },
-    {
-      "number": 1489,
-      "title": "[Bugfix] Reject a non-contiguous out in flydsl_flash_attn_func",
-      "author": "Nikunj-Mehndiratta",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T13:41:47Z",
-      "updated_at": "2026-11-23T16:46:52Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1489",
-      "labels": [
-        "kernels"
-      ],
-      "draft": true
-    },
-    {
-      "number": 1487,
-      "title": "[Bugfix] Line-buffer the C stdout stream so device printf shows in Jupyter and piped logs",
-      "author": "Nikunj-Mehndiratta",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T13:04:29Z",
-      "updated_at": "2026-11-23T16:46:50Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1487",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1484,
@@ -691,21 +888,6 @@
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1384",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1343,
-      "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
-      "author": "hanli0612",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T21:00:18Z",
-      "updated_at": "2026-11-07T14:40:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1343",
-      "labels": [
-        "ai-review",
-        "ktrace"
-      ],
-      "draft": false
     },
     {
       "number": 1316,
@@ -1289,6 +1471,56 @@
       "created_at": "2026-07-28T19:32:56Z",
       "updated_at": "2026-07-29T10:56:22Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/920",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1523,
+      "title": "[Docs] Acknowledge MORI in the README",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T10:12:18Z",
+      "updated_at": "2026-11-25T14:48:58Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1523",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1501,
+      "title": "[Kernel][Perf] PA decode: interleave independent MFMA chains",
+      "author": "reble",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-24T18:06:07Z",
+      "updated_at": "2026-11-25T10:10:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1501",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1521,
+      "title": "[Skills] Batch: capture-kernel-trace, flydsl-kernel-authoring, debug-flydsl-kernel, prefetch-data-load, kernel-code-cleanup, isa-resource-diff (#1516-#1520, #1522)",
+      "author": "fsx950223",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T09:15:27Z",
+      "updated_at": "2026-11-25T10:09:02Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1521",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1412,
+      "title": "[JIT] Speed up tracing and fix exponential and/or rewriting",
+      "author": "coderfeli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-14T05:43:05Z",
+      "updated_at": "2026-11-25T08:17:21Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1412",
       "labels": [],
       "draft": false
     },
@@ -1963,66 +2195,6 @@
       "created_at": "2026-11-05T06:43:34Z",
       "updated_at": "2026-11-05T06:45:43Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1370",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1365,
-      "title": "[Chore][Coop] Add specialization shortcut for primitives",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-04T07:34:59Z",
-      "updated_at": "2026-11-05T06:10:13Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1365",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1352,
-      "title": "[Bugfix] Fix gfx1250 WMMAScale FP4/FP6 A/B register layout",
-      "author": "edjson",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-30T05:46:30Z",
-      "updated_at": "2026-11-05T06:08:16Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1352",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1360,
-      "title": "[DSL] Reuse the AST rewrite when a kernel factory is built again",
-      "author": "RElbers",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-02T12:32:14Z",
-      "updated_at": "2026-11-05T05:54:12Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1360",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1366,
-      "title": "[Windows] Native build and ROCm JIT for Windows x64",
-      "author": "Phil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-04T10:09:20Z",
-      "updated_at": "2026-11-05T05:45:28Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1366",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1361,
-      "title": "[DSL] Speed up tracing by caching op source positions",
-      "author": "RElbers",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-02T15:45:18Z",
-      "updated_at": "2026-11-05T05:40:49Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1361",
       "labels": [],
       "draft": false
     }

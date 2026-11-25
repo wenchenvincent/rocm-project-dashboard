@@ -1,14 +1,116 @@
 {
-  "collected_at": "2026-11-24T19:10:46Z",
+  "collected_at": "2026-11-25T18:15:13Z",
   "issues": [
     {
-      "number": 8603,
-      "title": "Multi-arch AITER build (gfx942;gfx950;gfx1250) fails to compile with CK enabled",
-      "author": "JadenMathias",
+      "number": 5264,
+      "title": "CK Tile tune livelocks: the JIT build counts against the per-task --timeout",
+      "author": "ThomasNing",
       "state": "open",
-      "created_at": "2026-11-24T16:38:57Z",
-      "updated_at": "2026-11-24T16:38:57Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8603",
+      "created_at": "2026-09-03T23:43:25Z",
+      "updated_at": "2026-11-25T12:50:06Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5264",
+      "labels": []
+    },
+    {
+      "number": 8686,
+      "title": "[CI] Triton shards almost never run on main; two MI35X GEMM tests are failing unnoticed",
+      "author": "zufayu",
+      "state": "open",
+      "created_at": "2026-11-25T11:11:11Z",
+      "updated_at": "2026-11-25T11:12:49Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8686",
+      "labels": []
+    },
+    {
+      "number": 7590,
+      "title": "gfx942 MLA a8w8 asm kernels cast softmax P to fp8 e4m3fnuz without scaling: small probabilities become subnormal or flush to zero",
+      "author": "onkarbpatil",
+      "state": "open",
+      "created_at": "2026-11-06T18:42:39Z",
+      "updated_at": "2026-11-25T10:46:59Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7590",
+      "labels": []
+    },
+    {
+      "number": 8527,
+      "title": "[FlyDSL] [gfx1250-strict] grouped FP4 MoE (mxfp4_preshuffle_gfx1250_tdm) emits wmma_scale_f32_32x16x128_f4 on A0 \u2014 runtime JIT fails with \"requires target feature 'wmma-f4-insts'\"",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-11-24T01:43:04Z",
+      "updated_at": "2026-11-25T09:29:33Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8527",
+      "labels": []
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-25T07:37:56Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 8382,
+      "title": "[FlyDSL] [MoE] a8w4 stage-1 kernels `*_bnt0_gui_xcd4_fp8` give non-finite fused_moe output at T 8192 / 16384 (shipped DSv4.1 rows); the tuner reports 0.0 % error",
+      "author": "juuso-oskari",
+      "state": "open",
+      "created_at": "2026-11-20T11:30:29Z",
+      "updated_at": "2026-11-25T03:44:33Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8382",
+      "labels": []
+    },
+    {
+      "number": 8571,
+      "title": "[CI]: C++ interface Test is broken on main ",
+      "author": "antsaukk",
+      "state": "open",
+      "created_at": "2026-11-24T12:30:38Z",
+      "updated_at": "2026-11-25T03:35:12Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8571",
+      "labels": []
+    },
+    {
+      "number": 8539,
+      "title": "[Issue]: gfx1250 a8w4 grouped MoE on 256x256x256 TDM tiles: wrong results, out-of-resources, or a hang",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-24T05:43:07Z",
+      "updated_at": "2026-11-25T03:04:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8539",
+      "labels": []
+    },
+    {
+      "number": 8523,
+      "title": "hipb_mm bpreshuffle FP8 GEMM returns NaN or wrong results at K % 64 == 32 on gfx942",
+      "author": "frida-andersson",
+      "state": "open",
+      "created_at": "2026-11-24T00:30:43Z",
+      "updated_at": "2026-11-25T01:12:51Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8523",
+      "labels": []
+    },
+    {
+      "number": 8533,
+      "title": "[Issue]: test_gemm_a16wfp4 (256, 106496, 16384) intermittently never finishes on gfx1250 and holds the GPU",
+      "author": "andyluo7",
+      "state": "open",
+      "created_at": "2026-11-24T03:06:08Z",
+      "updated_at": "2026-11-25T01:12:48Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8533",
+      "labels": []
+    },
+    {
+      "number": 8546,
+      "title": "[Aiter Test] Low-confidence culprit candidate fb0b937e35: [CK] [CI] [JIT] [Tuning] Per-candidate faults, selection proof and auto-select in --compare (#5846)",
+      "author": "aiter-bot",
+      "state": "open",
+      "created_at": "2026-11-24T07:13:37Z",
+      "updated_at": "2026-11-25T01:12:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8546",
       "labels": []
     },
     {
@@ -17,8 +119,98 @@
       "author": "Bernard-Liu",
       "state": "open",
       "created_at": "2026-11-24T14:26:32Z",
-      "updated_at": "2026-11-24T14:26:32Z",
+      "updated_at": "2026-11-25T01:12:35Z",
       "html_url": "https://github.com/ROCm/aiter/issues/8585",
+      "labels": []
+    },
+    {
+      "number": 8603,
+      "title": "Multi-arch AITER build (gfx942;gfx950;gfx1250) fails to compile with CK enabled",
+      "author": "JadenMathias",
+      "state": "open",
+      "created_at": "2026-11-24T16:38:57Z",
+      "updated_at": "2026-11-25T01:12:33Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8603",
+      "labels": []
+    },
+    {
+      "number": 8613,
+      "title": "[HIP] `fused_qk_rmsnorm`: LDS race between rows when m >= 4096 (no barrier between two `block_reduce` calls)",
+      "author": "merrittttt",
+      "state": "open",
+      "created_at": "2026-11-24T21:58:52Z",
+      "updated_at": "2026-11-25T01:12:29Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8613",
+      "labels": []
+    },
+    {
+      "number": 8614,
+      "title": "[HIP] `fused_qk_norm_rope_cache_quant_shuffle` / `minimax_qk_norm_rope`: NeoX partial RoPE rotates the wrong pairs when rotary_dim / 2 is not a power-of-two number of lanes",
+      "author": "merrittttt",
+      "state": "open",
+      "created_at": "2026-11-24T22:23:04Z",
+      "updated_at": "2026-11-25T01:12:27Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8614",
+      "labels": []
+    },
+    {
+      "number": 8616,
+      "title": "[Triton/Gluon] MHA (default implementation) runs window_size=(0, -1) as full attention",
+      "author": "merrittttt",
+      "state": "open",
+      "created_at": "2026-11-24T22:40:27Z",
+      "updated_at": "2026-11-25T01:12:24Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8616",
+      "labels": []
+    },
+    {
+      "number": 8617,
+      "title": "[Triton/Gluon] fused add + rmsnorm / layernorm read and write the residual with the row stride of x",
+      "author": "merrittttt",
+      "state": "open",
+      "created_at": "2026-11-24T22:52:20Z",
+      "updated_at": "2026-11-25T01:12:21Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8617",
+      "labels": []
+    },
+    {
+      "number": 8618,
+      "title": "[Triton/Gluon] softmax, rms_norm and layer_norm give wrong results for inputs with a column stride other than 1",
+      "author": "merrittttt",
+      "state": "open",
+      "created_at": "2026-11-24T23:12:07Z",
+      "updated_at": "2026-11-25T01:12:18Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8618",
+      "labels": []
+    },
+    {
+      "number": 8620,
+      "title": "[HIP] `rope_2d_fwd` / `rope_2d_bwd` with `reuse_freqs_front_part=True` rotate across the whole head and read/write past the tensors",
+      "author": "merrittttt",
+      "state": "open",
+      "created_at": "2026-11-24T23:24:58Z",
+      "updated_at": "2026-11-25T01:12:15Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8620",
+      "labels": []
+    },
+    {
+      "number": 8621,
+      "title": "[HIP] `fused_qk_rope_concat_and_cache_mla` GQA prefill: fp32 inputs leave half of every q_out row and kv cache entry unwritten (`kv_lora_vec` hard-coded to 64)",
+      "author": "merrittttt",
+      "state": "open",
+      "created_at": "2026-11-24T23:35:19Z",
+      "updated_at": "2026-11-25T01:12:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8621",
+      "labels": []
+    },
+    {
+      "number": 5951,
+      "title": "gdr_decode_packed_bf16 accepts NaN fixed scale and returns NaN output",
+      "author": "harsh-nod",
+      "state": "open",
+      "created_at": "2026-09-29T16:23:02Z",
+      "updated_at": "2026-11-24T19:47:52Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5951",
       "labels": []
     },
     {
@@ -32,26 +224,6 @@
       "labels": []
     },
     {
-      "number": 8571,
-      "title": "[CI]: C++ interface Test is broken on main ",
-      "author": "antsaukk",
-      "state": "open",
-      "created_at": "2026-11-24T12:30:38Z",
-      "updated_at": "2026-11-24T12:34:39Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8571",
-      "labels": []
-    },
-    {
-      "number": 5951,
-      "title": "gdr_decode_packed_bf16 accepts NaN fixed scale and returns NaN output",
-      "author": "harsh-nod",
-      "state": "open",
-      "created_at": "2026-09-29T16:23:02Z",
-      "updated_at": "2026-11-24T12:20:43Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5951",
-      "labels": []
-    },
-    {
       "number": 2419,
       "title": "[Feature]: Support static activation scales in per-token FP8 quantization (`per_token_quant_hip`)",
       "author": "AndreasKaratzas",
@@ -62,38 +234,6 @@
       "labels": []
     },
     {
-      "number": 7590,
-      "title": "gfx942 MLA a8w8 asm kernels cast softmax P to fp8 e4m3fnuz without scaling: small probabilities become subnormal or flush to zero",
-      "author": "onkarbpatil",
-      "state": "open",
-      "created_at": "2026-11-06T18:42:39Z",
-      "updated_at": "2026-11-24T11:31:56Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7590",
-      "labels": []
-    },
-    {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-24T07:31:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
-    },
-    {
-      "number": 8546,
-      "title": "[Aiter Test] Low-confidence culprit candidate fb0b937e35: [CK] [CI] [JIT] [Tuning] Per-candidate faults, selection proof and auto-select in --compare (#5846)",
-      "author": "aiter-bot",
-      "state": "open",
-      "created_at": "2026-11-24T07:13:37Z",
-      "updated_at": "2026-11-24T07:13:37Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8546",
-      "labels": []
-    },
-    {
       "number": 7685,
       "title": "[Issue]: On Windows, load_hip_runtime() loads the display driver's amdhip64.dll beside torch's HIP runtime",
       "author": "Ragua1",
@@ -101,26 +241,6 @@
       "created_at": "2026-11-09T23:08:40Z",
       "updated_at": "2026-11-24T06:16:49Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7685",
-      "labels": []
-    },
-    {
-      "number": 8539,
-      "title": "[Issue]: gfx1250 a8w4 grouped MoE on 256x256x256 TDM tiles: wrong results, out-of-resources, or a hang",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-24T05:43:07Z",
-      "updated_at": "2026-11-24T05:43:55Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8539",
-      "labels": []
-    },
-    {
-      "number": 8533,
-      "title": "[Issue]: test_gemm_a16wfp4 (256, 106496, 16384) intermittently never finishes on gfx1250 and holds the GPU",
-      "author": "andyluo7",
-      "state": "open",
-      "created_at": "2026-11-24T03:06:08Z",
-      "updated_at": "2026-11-24T03:06:08Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8533",
       "labels": []
     },
     {
@@ -276,16 +396,6 @@
       "labels": []
     },
     {
-      "number": 8527,
-      "title": "[FlyDSL] [gfx1250-strict] grouped FP4 MoE (mxfp4_preshuffle_gfx1250_tdm) emits wmma_scale_f32_32x16x128_f4 on A0 \u2014 runtime JIT fails with \"requires target feature 'wmma-f4-insts'\"",
-      "author": "srinivamd",
-      "state": "open",
-      "created_at": "2026-11-24T01:43:04Z",
-      "updated_at": "2026-11-24T01:45:05Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8527",
-      "labels": []
-    },
-    {
       "number": 8520,
       "title": "[Triton/Gluon] gfx950 fp8_mqa_logits: 16-head calls with a KV split return wrong logits on Triton 3.7.0",
       "author": "Arist12",
@@ -306,16 +416,6 @@
       "labels": []
     },
     {
-      "number": 8523,
-      "title": "hipb_mm bpreshuffle FP8 GEMM returns NaN or wrong results at K % 64 == 32 on gfx942",
-      "author": "frida-andersson",
-      "state": "open",
-      "created_at": "2026-11-24T00:30:43Z",
-      "updated_at": "2026-11-24T00:30:43Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8523",
-      "labels": []
-    },
-    {
       "number": 8080,
       "title": "[Issue]: gfx1250 Gluon moe_gemm_a8w4 reads weight scales as 0 with GFX1250_SCALE + unpadded_N / unpadded_K (wrong gpt-oss decode output)",
       "author": "YingZhang-ML",
@@ -323,16 +423,6 @@
       "created_at": "2026-11-17T04:19:49Z",
       "updated_at": "2026-11-23T22:38:11Z",
       "html_url": "https://github.com/ROCm/aiter/issues/8080",
-      "labels": []
-    },
-    {
-      "number": 8382,
-      "title": "[FlyDSL] [MoE] a8w4 stage-1 kernels `*_bnt0_gui_xcd4_fp8` give non-finite fused_moe output at T 8192 / 16384 (shipped DSv4.1 rows); the tuner reports 0.0 % error",
-      "author": "juuso-oskari",
-      "state": "open",
-      "created_at": "2026-11-20T11:30:29Z",
-      "updated_at": "2026-11-23T20:08:45Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8382",
       "labels": []
     },
     {
@@ -1621,26 +1711,6 @@
       "labels": []
     },
     {
-      "number": 5044,
-      "title": "[Bug] HIP RMSNorm corrupts row-boundary elements for odd hidden sizes",
-      "author": "junna2016",
-      "state": "open",
-      "created_at": "2026-08-27T06:23:50Z",
-      "updated_at": "2026-11-23T13:04:29Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5044",
-      "labels": []
-    },
-    {
-      "number": 5192,
-      "title": "[Bug]: Memory access fault due to top_k_renorm_probs",
-      "author": "peizhang56",
-      "state": "open",
-      "created_at": "2026-09-01T21:27:03Z",
-      "updated_at": "2026-11-23T13:04:28Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5192",
-      "labels": []
-    },
-    {
       "number": 5161,
       "title": "[gfx950] Request: port the fmha_fwd_with_sink asm family (currently gfx1250-gated) \u2014 d64+sinks prefill has no asm path on MI350X/MI355X",
       "author": "alexnails",
@@ -2380,16 +2450,6 @@
       "labels": []
     },
     {
-      "number": 8254,
-      "title": "[MLA] Add a NoPE-only mode to the BF16 absorb FP8 epilogue on gfx950",
-      "author": "whx-sjtu",
-      "state": "open",
-      "created_at": "2026-11-19T03:15:22Z",
-      "updated_at": "2026-11-23T13:03:46Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8254",
-      "labels": []
-    },
-    {
       "number": 8143,
       "title": "[Issue]: fused_rms_fp8_per_tensor_static_quant truncates the wider first input",
       "author": "jeffchen006",
@@ -2427,16 +2487,6 @@
       "created_at": "2026-09-03T23:43:45Z",
       "updated_at": "2026-11-23T13:02:13Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5265",
-      "labels": []
-    },
-    {
-      "number": 5264,
-      "title": "CK Tile tune livelocks: the JIT build counts against the per-task --timeout",
-      "author": "ThomasNing",
-      "state": "open",
-      "created_at": "2026-09-03T23:43:25Z",
-      "updated_at": "2026-11-23T13:02:13Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5264",
       "labels": []
     },
     {
@@ -2487,16 +2537,6 @@
       "created_at": "2026-10-15T11:45:15Z",
       "updated_at": "2026-11-23T13:02:12Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6574",
-      "labels": []
-    },
-    {
-      "number": 8401,
-      "title": "[Issue]: Compile-time fails with upcoming ROCm compiler using _ExtVector-based AMDGPU builtins",
-      "author": "mhalk",
-      "state": "open",
-      "created_at": "2026-11-20T18:38:47Z",
-      "updated_at": "2026-11-23T12:00:21Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/8401",
       "labels": []
     },
     {
@@ -2719,16 +2759,6 @@
       "created_at": "2025-10-23T09:36:44Z",
       "updated_at": "2026-11-20T09:57:47Z",
       "html_url": "https://github.com/ROCm/aiter/issues/1248",
-      "labels": []
-    },
-    {
-      "number": 7631,
-      "title": "[gfx950] mla_dec_stage1_bf16_a16w16_subQ128_mqa128.co gives nondeterministic, wrong output when a workgroup handles more than 48 KV tokens",
-      "author": "AndreasKaratzas",
-      "state": "open",
-      "created_at": "2026-11-08T20:43:52Z",
-      "updated_at": "2026-11-20T09:11:40Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7631",
       "labels": []
     },
     {
@@ -3939,16 +3969,6 @@
       "created_at": "2025-07-04T08:26:08Z",
       "updated_at": "2025-07-08T10:13:44Z",
       "html_url": "https://github.com/ROCm/aiter/issues/614",
-      "labels": []
-    },
-    {
-      "number": 583,
-      "title": "[Feature]: Do we support per-tensor GEMM W8A8?",
-      "author": "hoangvictor",
-      "state": "open",
-      "created_at": "2025-06-26T02:58:34Z",
-      "updated_at": "2025-06-26T06:23:44Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/583",
       "labels": []
     },
     {

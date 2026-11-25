@@ -1,72 +1,78 @@
 {
-  "collected_at": "2026-11-24T19:12:07Z",
+  "collected_at": "2026-11-25T18:16:04Z",
   "project": "vllm",
   "repo": "vllm-project/vllm",
   "pr_velocity": {
     "this_week": {
-      "opened": 62,
-      "merged": 79,
-      "closed": 1
+      "opened": 53,
+      "merged": 64,
+      "closed": 2
     },
     "last_week": {
-      "opened": 29,
-      "merged": 0,
+      "opened": 33,
+      "merged": 14,
       "closed": 0
     },
-    "median_time_to_merge_hours": 168.1,
-    "merge_count": 79,
+    "median_time_to_merge_hours": 159.1,
+    "merge_count": 78,
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 100,
-    "total_contributors": 100,
+    "active_this_week": 109,
+    "total_contributors": 113,
     "top_contributors": [
       {
         "author": "AndreasKaratzas",
-        "prs_submitted": 12,
-        "prs_merged": 9,
+        "prs_submitted": 8,
+        "prs_merged": 8,
         "commits": 0
       },
       {
-        "author": "simon-veitner-redhat",
-        "prs_submitted": 9,
-        "prs_merged": 9,
-        "commits": 0
-      },
-      {
-        "author": "afierka-intel",
-        "prs_submitted": 4,
+        "author": "kliuae",
+        "prs_submitted": 3,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "gchinora",
+        "author": "okorzh-amd",
         "prs_submitted": 3,
+        "prs_merged": 2,
+        "commits": 0
+      },
+      {
+        "author": "devanshi-code18",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "mawong-amd",
+        "prs_submitted": 3,
+        "prs_merged": 3,
+        "commits": 0
+      },
+      {
+        "author": "roberteg16",
+        "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "stefankoncarevic",
-        "prs_submitted": 3,
-        "prs_merged": 2,
-        "commits": 0
-      },
-      {
-        "author": "aarushjain29",
-        "prs_submitted": 3,
+        "author": "frida-andersson",
+        "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
       },
       {
-        "author": "shen-shanshan",
-        "prs_submitted": 3,
-        "prs_merged": 2,
+        "author": "hibagus",
+        "prs_submitted": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "vllmellm",
-        "prs_submitted": 3,
-        "prs_merged": 3,
+        "author": "josh-schell-amd",
+        "prs_submitted": 2,
+        "prs_merged": 0,
         "commits": 0
       },
       {
@@ -74,26 +80,20 @@
         "prs_submitted": 2,
         "prs_merged": 1,
         "commits": 0
-      },
-      {
-        "author": "samremes",
-        "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
       }
     ],
-    "bus_factor": 17
+    "bus_factor": 22
   },
   "issue_health": {
-    "total_open": 55,
-    "opened_this_week": 24,
+    "total_open": 53,
+    "opened_this_week": 28,
     "closed_this_week": 83,
     "unanswered": 0
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 7.8,
+    "days_since_last": 8.8,
     "avg_interval_days": 13.9,
     "total_releases": 5,
     "latest_tag": "v0.34.0"

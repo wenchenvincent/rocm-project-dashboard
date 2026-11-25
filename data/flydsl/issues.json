@@ -1,6 +1,26 @@
 {
-  "collected_at": "2026-11-24T19:11:22Z",
+  "collected_at": "2026-11-25T18:15:35Z",
   "issues": [
+    {
+      "number": 1525,
+      "title": "[gfx1201] `rocdl.cvt_pk_f32_fp8` on per-thread data cannot be built from the PyPI wheel (0.4.1, 0.5.4)",
+      "author": "pty819",
+      "state": "open",
+      "created_at": "2026-11-25T13:40:27Z",
+      "updated_at": "2026-11-25T13:40:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1525",
+      "labels": []
+    },
+    {
+      "number": 1339,
+      "title": "[Codegen][gfx950] fx.copy BufferCopyLDS128b repeats loop-invariant readfirstlane and rebuilds DMA offsets",
+      "author": "LuweiZhou2025",
+      "state": "open",
+      "created_at": "2026-10-28T02:56:30Z",
+      "updated_at": "2026-11-25T06:59:33Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/issues/1339",
+      "labels": []
+    },
     {
       "number": 1493,
       "title": "[Bug] Custom all-reduce: graph pointer arrays are allocated in the capture pool, so a replay can overwrite them",
@@ -230,16 +250,6 @@
       "labels": [
         "ai-review"
       ]
-    },
-    {
-      "number": 1339,
-      "title": "[Codegen][gfx950] fx.copy BufferCopyLDS128b repeats loop-invariant readfirstlane and rebuilds DMA offsets",
-      "author": "LuweiZhou2025",
-      "state": "open",
-      "created_at": "2026-10-28T02:56:30Z",
-      "updated_at": "2026-10-28T03:28:42Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/issues/1339",
-      "labels": []
     },
     {
       "number": 1334,

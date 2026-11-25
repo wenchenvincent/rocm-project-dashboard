@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-24T19:10:06Z",
+  "collected_at": "2026-11-25T18:14:34Z",
   "issues": [
     {
       "number": 17050,
@@ -7,7 +7,7 @@
       "author": "alisonshao",
       "state": "open",
       "created_at": "2026-01-14T01:49:31Z",
-      "updated_at": "2026-11-24T18:41:36Z",
+      "updated_at": "2026-11-25T17:58:01Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/17050",
       "labels": []
     },
@@ -17,10 +17,75 @@
       "author": "bingxche",
       "state": "open",
       "created_at": "2026-10-22T16:44:47Z",
-      "updated_at": "2026-11-24T18:26:49Z",
+      "updated_at": "2026-11-25T17:30:56Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/45847",
       "labels": [
         "ci-failure-tracker"
+      ]
+    },
+    {
+      "number": 42752,
+      "title": "[CI] Flaky tests and CI infrastructure failures seen while babysitting PRs",
+      "author": "nvpohanh",
+      "state": "open",
+      "created_at": "2026-10-06T10:42:20Z",
+      "updated_at": "2026-11-25T17:29:14Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/42752",
+      "labels": []
+    },
+    {
+      "number": 50045,
+      "title": "SGLang 1.0 Release Tracker",
+      "author": "hnyls2002",
+      "state": "open",
+      "created_at": "2026-11-12T07:42:20Z",
+      "updated_at": "2026-11-25T12:24:19Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/50045",
+      "labels": [
+        "roadmap"
+      ]
+    },
+    {
+      "number": 53085,
+      "title": "[Bug] Glm5Next compressed-tensors NVFP4 (RedHatAI/GLM-5.3-Flash-NVFP4): f_a_proj startup ValueError and silent output corruption from shared experts fusion",
+      "author": "Ma1oneZhang",
+      "state": "open",
+      "created_at": "2026-11-25T09:00:25Z",
+      "updated_at": "2026-11-25T09:00:25Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/53085",
+      "labels": []
+    },
+    {
+      "number": 43098,
+      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
+      "author": "hzh0425",
+      "state": "open",
+      "created_at": "2026-10-08T11:44:11Z",
+      "updated_at": "2026-11-25T03:49:00Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
+      "labels": []
+    },
+    {
+      "number": 49657,
+      "title": "[Bug] [AMD gfx12] HIP custom all-reduce 1-stage gives wrong, rank-divergent sums over PCIe (2x R9700): relaxed start flag",
+      "author": "Drgr33nSenior",
+      "state": "open",
+      "created_at": "2026-11-10T22:40:58Z",
+      "updated_at": "2026-11-25T02:59:08Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/49657",
+      "labels": []
+    },
+    {
+      "number": 43313,
+      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
+      "author": "mickqian",
+      "state": "open",
+      "created_at": "2026-10-09T06:57:46Z",
+      "updated_at": "2026-11-24T23:16:12Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
+      "labels": [
+        "diffusion",
+        "roadmap"
       ]
     },
     {
@@ -44,19 +109,6 @@
       "labels": []
     },
     {
-      "number": 43313,
-      "title": "SGLang-Diffusion Roadmap (2026 Q4)",
-      "author": "mickqian",
-      "state": "open",
-      "created_at": "2026-10-09T06:57:46Z",
-      "updated_at": "2026-11-24T07:13:11Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43313",
-      "labels": [
-        "diffusion",
-        "roadmap"
-      ]
-    },
-    {
       "number": 52761,
       "title": "[Bug] [Diffusion] MiniMax-H3-Image does not start on a 24 GB GPU + 32 GB host (plain command and derived 4090 recipe)",
       "author": "WellyXY",
@@ -75,18 +127,6 @@
       "updated_at": "2026-11-23T15:49:38Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/52615",
       "labels": []
-    },
-    {
-      "number": 50045,
-      "title": "SGLang 1.0 Release Tracker",
-      "author": "hnyls2002",
-      "state": "open",
-      "created_at": "2026-11-12T07:42:20Z",
-      "updated_at": "2026-11-23T13:59:05Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/50045",
-      "labels": [
-        "roadmap"
-      ]
     },
     {
       "number": 51275,
@@ -116,16 +156,6 @@
       "created_at": "2026-11-01T22:15:50Z",
       "updated_at": "2026-11-23T05:20:05Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/47801",
-      "labels": []
-    },
-    {
-      "number": 42564,
-      "title": "[Bug][ROCm] FLUX.2-dev fails on gfx1151: NVIDIA PTX inline assembly in residual_gate_add kernel",
-      "author": "vvvdwbvvv",
-      "state": "open",
-      "created_at": "2026-10-05T09:03:22Z",
-      "updated_at": "2026-11-23T03:13:01Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/42564",
       "labels": []
     },
     {
@@ -272,16 +302,6 @@
       "labels": []
     },
     {
-      "number": 43098,
-      "title": "Agentic Cache Scheduling System Roadmap (Q4)",
-      "author": "hzh0425",
-      "state": "open",
-      "created_at": "2026-10-08T11:44:11Z",
-      "updated_at": "2026-11-18T02:29:06Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/43098",
-      "labels": []
-    },
-    {
       "number": 51119,
       "title": "[Bug] [AMD] NIXL disaggregation test aborts on MI35x: LLVM option 'spirv-expand-step' registered more than once",
       "author": "michaelzhang-ai",
@@ -374,16 +394,6 @@
       "labels": []
     },
     {
-      "number": 44374,
-      "title": "[Feature] [RFC] Opt-in `toktier` tokenizer backend: exact incremental and chunk-parallel tokenization on the CPU",
-      "author": "ae86zhizhi",
-      "state": "open",
-      "created_at": "2026-10-15T02:34:44Z",
-      "updated_at": "2026-11-16T03:29:16Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/44374",
-      "labels": []
-    },
-    {
       "number": 50553,
       "title": "[Bug] HiCache write_back: TP ranks diverge on reclaim victims with MiniMax-M3.1-Flash TP4 on MI355X",
       "author": "michaelzhang-ai",
@@ -411,16 +421,6 @@
       "created_at": "2026-11-11T10:19:46Z",
       "updated_at": "2026-11-11T10:19:46Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/49799",
-      "labels": []
-    },
-    {
-      "number": 49657,
-      "title": "[Bug] [AMD gfx12] HIP custom all-reduce 1-stage gives wrong, rank-divergent sums over PCIe (2x R9700): relaxed start flag",
-      "author": "Drgr33nSenior",
-      "state": "open",
-      "created_at": "2026-11-10T22:40:58Z",
-      "updated_at": "2026-11-11T01:10:52Z",
-      "html_url": "https://github.com/sgl-project/sglang/issues/49657",
       "labels": []
     },
     {
@@ -573,6 +573,16 @@
       "created_at": "2026-10-09T19:02:21Z",
       "updated_at": "2026-10-27T09:10:18Z",
       "html_url": "https://github.com/sgl-project/sglang/issues/43412",
+      "labels": []
+    },
+    {
+      "number": 46312,
+      "title": "[Bug] DeepSeek AWQ checkpoints fail to load on CUDA: ModuleNotFoundError: No module named 'sglang.kernel_api_logging'",
+      "author": "znzryb",
+      "state": "open",
+      "created_at": "2026-10-24T16:04:03Z",
+      "updated_at": "2026-10-24T16:04:03Z",
+      "html_url": "https://github.com/sgl-project/sglang/issues/46312",
       "labels": []
     }
   ]

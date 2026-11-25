@@ -1,6 +1,38 @@
 {
-  "collected_at": "2026-11-24T19:11:16Z",
+  "collected_at": "2026-11-25T18:15:30Z",
   "issues": [
+    {
+      "number": 1097,
+      "title": "[Issue]: Compile-time fail due to TDM descriptor groups datatype when using ExtVector-based AMDGPU builtins",
+      "author": "mhalk",
+      "state": "open",
+      "created_at": "2026-11-25T15:56:01Z",
+      "updated_at": "2026-11-25T15:58:53Z",
+      "html_url": "https://github.com/ROCm/mori/issues/1097",
+      "labels": []
+    },
+    {
+      "number": 1095,
+      "title": "[Roadmap]: UMBP Next-Stage Feature Roadmap",
+      "author": "TianDi101",
+      "state": "open",
+      "created_at": "2026-11-25T14:32:14Z",
+      "updated_at": "2026-11-25T14:56:44Z",
+      "html_url": "https://github.com/ROCm/mori/issues/1095",
+      "labels": []
+    },
+    {
+      "number": 811,
+      "title": "RFC [feature] : MORI RAS: per-process reliability, availability, and serviceability runtime",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-10-20T00:13:08Z",
+      "updated_at": "2026-11-25T10:03:47Z",
+      "html_url": "https://github.com/ROCm/mori/issues/811",
+      "labels": [
+        "enhancement"
+      ]
+    },
     {
       "number": 1070,
       "title": "UMBP master: one lost heartbeat response can leave a large node expired with no block locations",
@@ -20,18 +52,6 @@
       "updated_at": "2026-11-23T10:08:32Z",
       "html_url": "https://github.com/ROCm/mori/issues/951",
       "labels": []
-    },
-    {
-      "number": 811,
-      "title": "RFC [feature] : MORI RAS: per-process reliability, availability, and serviceability runtime",
-      "author": "i-chaochen",
-      "state": "open",
-      "created_at": "2026-10-20T00:13:08Z",
-      "updated_at": "2026-11-21T04:18:16Z",
-      "html_url": "https://github.com/ROCm/mori/issues/811",
-      "labels": [
-        "enhancement"
-      ]
     },
     {
       "number": 953,
@@ -75,16 +95,6 @@
       "created_at": "2026-10-13T04:05:06Z",
       "updated_at": "2026-11-14T06:35:34Z",
       "html_url": "https://github.com/ROCm/mori/issues/759",
-      "labels": []
-    },
-    {
-      "number": 995,
-      "title": "RFC [feature]: UMBP owns the engine's KV cache on all three tiers, L1 (HBM), L2 (DRAM) and L3 (SSD), within and across nodes",
-      "author": "TianDi101",
-      "state": "open",
-      "created_at": "2026-11-13T01:58:39Z",
-      "updated_at": "2026-11-13T01:58:39Z",
-      "html_url": "https://github.com/ROCm/mori/issues/995",
       "labels": []
     },
     {

@@ -1,19 +1,31 @@
 {
-  "collected_at": "2026-11-24T19:11:25Z",
+  "collected_at": "2026-11-25T18:15:37Z",
   "prs": [
     {
-      "number": 778,
-      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
-      "author": "matthiasdiener",
+      "number": 788,
+      "title": "[TE][HipKittens] Require K % 128 for blockwise FP8 GEMMs",
+      "author": "AllenFarcas",
       "state": "open",
       "merged": false,
-      "created_at": "2026-10-22T23:18:01Z",
-      "updated_at": "2026-11-24T17:17:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
+      "created_at": "2026-10-30T20:41:51Z",
+      "updated_at": "2026-11-25T16:58:48Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/788",
       "labels": [
-        "ci-level 1",
-        "P1"
+        "ci-level 3",
+        "P2"
       ],
+      "draft": false
+    },
+    {
+      "number": 817,
+      "title": "Integrate KOSMOS fused MoE into TE for bf16",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T16:23:17Z",
+      "updated_at": "2026-11-25T16:51:18Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/817",
+      "labels": [],
       "draft": false
     },
     {
@@ -23,11 +35,37 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-23T04:29:26Z",
-      "updated_at": "2026-11-23T23:12:54Z",
+      "updated_at": "2026-11-25T14:29:00Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/814",
       "labels": [
         "ci-level 3",
         "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 816,
+      "title": "[ROCm] Fix JAX CI OOM flake: drain stale HIP last-error state before checking it",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T07:27:57Z",
+      "updated_at": "2026-11-25T07:27:57Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/816",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 792,
+      "title": "pin Triton RMSNorm/LayerNorm launch configs instead of autotuning",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T20:25:56Z",
+      "updated_at": "2026-11-24T21:59:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/792",
+      "labels": [
+        "ci-level 1"
       ],
       "draft": false
     },
@@ -38,13 +76,28 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-30T21:48:29Z",
-      "updated_at": "2026-11-23T23:09:04Z",
+      "updated_at": "2026-11-24T19:40:31Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/789",
       "labels": [
         "ci-level 1",
         "P1"
       ],
       "draft": true
+    },
+    {
+      "number": 778,
+      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-22T23:18:01Z",
+      "updated_at": "2026-11-24T19:29:55Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
+      "labels": [
+        "ci-level 1",
+        "P1"
+      ],
+      "draft": false
     },
     {
       "number": 815,
@@ -128,21 +181,6 @@
         "ci-level 1"
       ],
       "draft": true
-    },
-    {
-      "number": 788,
-      "title": "[TE][HipKittens] Require K % 128 for blockwise FP8 GEMMs",
-      "author": "AllenFarcas",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T20:41:51Z",
-      "updated_at": "2026-11-19T22:47:23Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/788",
-      "labels": [
-        "ci-level 3",
-        "P2"
-      ],
-      "draft": false
     },
     {
       "number": 762,
@@ -380,20 +418,6 @@
         "P3"
       ],
       "draft": true
-    },
-    {
-      "number": 792,
-      "title": "pin Triton RMSNorm/LayerNorm launch configs instead of autotuning",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T20:25:56Z",
-      "updated_at": "2026-11-07T00:03:02Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/792",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": false
     },
     {
       "number": 746,
@@ -922,7 +946,7 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-11-23T04:00:46Z",
-      "updated_at": "2026-11-24T16:38:27Z",
+      "updated_at": "2026-11-25T16:37:02Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/813",
       "labels": [
         "ci-level 3",

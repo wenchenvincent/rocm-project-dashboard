@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-24T19:10:09Z",
+  "collected_at": "2026-11-25T18:14:38Z",
   "issues": [
     {
       "number": 12926,
@@ -7,8 +7,32 @@
       "author": "lifang535",
       "state": "open",
       "created_at": "2026-11-23T12:13:56Z",
-      "updated_at": "2026-11-23T16:19:21Z",
+      "updated_at": "2026-11-25T16:32:19Z",
       "html_url": "https://github.com/triton-lang/triton/issues/12926",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 12946,
+      "title": "[AMD][gfx1250] Triton: intra-wave atomic reduction is disabled on gfx1250 (CDNA3/CDNA4-only gate), so contended atomics issue one memory atomic per lane",
+      "author": "umechand-amd",
+      "state": "open",
+      "created_at": "2026-11-24T23:12:29Z",
+      "updated_at": "2026-11-24T23:12:29Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/12946",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 12945,
+      "title": "[AMD] Triton: signed tl.atomic_max / tl.atomic_min return wrong results for negative values when the intra-wave atomic reduction is used.",
+      "author": "umechand-amd",
+      "state": "open",
+      "created_at": "2026-11-24T22:58:31Z",
+      "updated_at": "2026-11-24T22:58:31Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/12945",
       "labels": [
         "bug"
       ]

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-24T19:09:38Z",
+  "collected_at": "2026-11-25T18:14:05Z",
   "prs": [
     {
       "number": 42843,
@@ -8,7 +8,7 @@
       "state": "closed",
       "merged": true,
       "created_at": "2026-11-23T20:15:21Z",
-      "updated_at": "2026-11-24T16:29:43Z",
+      "updated_at": "2026-11-25T03:23:01Z",
       "html_url": "https://github.com/jax-ml/jax/pull/42843",
       "labels": [
         "pull ready"
@@ -19,10 +19,10 @@
       "number": 41702,
       "title": "[ROCm] Trim wheel RUNPATH: drop per-family, tarball, cross-Python and other-depth entries",
       "author": "gulsumgudukbay",
-      "state": "open",
-      "merged": false,
+      "state": "closed",
+      "merged": true,
       "created_at": "2026-10-16T19:05:10Z",
-      "updated_at": "2026-11-23T22:11:34Z",
+      "updated_at": "2026-11-24T20:54:36Z",
       "html_url": "https://github.com/jax-ml/jax/pull/41702",
       "labels": [
         "pull ready"
@@ -539,21 +539,6 @@
       "created_at": "2026-08-10T02:45:11Z",
       "updated_at": "2026-09-21T17:05:42Z",
       "html_url": "https://github.com/jax-ml/jax/pull/39846",
-      "labels": [
-        "kokoro:force-run",
-        "pull ready"
-      ],
-      "draft": false
-    },
-    {
-      "number": 39848,
-      "title": "[ROCm] Reenble previously skipped pallas tests",
-      "author": "amd-jianli12",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-10T05:00:09Z",
-      "updated_at": "2026-09-21T17:02:53Z",
-      "html_url": "https://github.com/jax-ml/jax/pull/39848",
       "labels": [
         "kokoro:force-run",
         "pull ready"

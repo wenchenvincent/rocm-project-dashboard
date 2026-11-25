@@ -1,15 +1,123 @@
 {
-  "collected_at": "2026-11-24T19:10:08Z",
+  "collected_at": "2026-11-25T18:14:37Z",
   "prs": [
+    {
+      "number": 12593,
+      "title": "[AMD][CDNA5] Emulate descriptor reductions with global atomics",
+      "author": "nzaghen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T19:48:54Z",
+      "updated_at": "2026-11-25T15:19:58Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12593",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12943,
+      "title": "[AMD] Allow TDM loads into one piece of a partitioned buffer",
+      "author": "ppalaniappan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T20:49:04Z",
+      "updated_at": "2026-11-25T14:45:18Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12943",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12604,
+      "title": "[AMD][gfx1250] Keep whole-line epilogue stores for WMMA",
+      "author": "reger-men",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-03T13:36:56Z",
+      "updated_at": "2026-11-25T11:08:42Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12604",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12937,
+      "title": "[AMD][BUILD] Add missing amd build script for `dev-install-llvm LLVM_BUILD=amd`",
+      "author": "AlexAUT",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T11:29:39Z",
+      "updated_at": "2026-11-25T08:55:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12937",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12880,
+      "title": "[AMD][gfx1250] Extend the TDM copy reorder to non-scaled dots",
+      "author": "yiqian1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T23:26:36Z",
+      "updated_at": "2026-11-25T03:05:20Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12880",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12938,
+      "title": "[AMD] Fix multi-instruction partitioned TDM copies across CTAs",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T12:09:52Z",
+      "updated_at": "2026-11-25T03:04:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12938",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12948,
+      "title": "[AMD] Fix signed tl.atomic_max / tl.atomic_min in intra-wave reduction",
+      "author": "shotsan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T01:48:45Z",
+      "updated_at": "2026-11-25T01:48:46Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12948",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12928,
       "title": "[AMD] Apply target CPU and features to bundled device libraries before linking",
       "author": "justinrosner",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-23T14:10:41Z",
+      "updated_at": "2026-11-24T20:49:48Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12928",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12781,
+      "title": "[AMD][GLUON] Add AMD gluon tutorials",
+      "author": "borontion",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-23T14:10:41Z",
-      "updated_at": "2026-11-24T16:53:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12928",
+      "created_at": "2026-11-16T07:20:49Z",
+      "updated_at": "2026-11-24T20:27:09Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12781",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12747,
+      "title": "[AMD] Add RDNA1/RDNA2 (gfx10) target support",
+      "author": "PelaGB17",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T12:15:43Z",
+      "updated_at": "2026-11-24T19:41:13Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12747",
       "labels": [],
       "draft": false
     },
@@ -38,30 +146,6 @@
       "draft": false
     },
     {
-      "number": 12938,
-      "title": "[AMD] Fix multi-instruction partitioned TDM copies across CTAs",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T12:09:52Z",
-      "updated_at": "2026-11-24T12:46:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12938",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12593,
-      "title": "[AMD][CDNA5] Emulate descriptor reductions with global atomics",
-      "author": "nzaghen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T19:48:54Z",
-      "updated_at": "2026-11-24T11:35:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12593",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12356,
       "title": "[QoL] Extend llvm build targets to support building AMD codegen commit",
       "author": "AlexAUT",
@@ -70,30 +154,6 @@
       "created_at": "2026-10-19T12:39:47Z",
       "updated_at": "2026-11-24T11:32:18Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12356",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12937,
-      "title": "[AMD][BUILD] Add missing amd build script for `dev-install-llvm LLVM_BUILD=amd`",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T11:29:39Z",
-      "updated_at": "2026-11-24T11:29:39Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12937",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 12781,
-      "title": "[AMD][GLUON] Add AMD gluon tutorials",
-      "author": "borontion",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T07:20:49Z",
-      "updated_at": "2026-11-24T07:40:08Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12781",
       "labels": [],
       "draft": false
     },
@@ -216,18 +276,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12884",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12880,
-      "title": "[AMD][gfx1250] Extend the TDM copy reorder to non-scaled dots",
-      "author": "yiqian1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T23:26:36Z",
-      "updated_at": "2026-11-20T23:26:36Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12880",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12877,
@@ -446,18 +494,6 @@
       "draft": true
     },
     {
-      "number": 12747,
-      "title": "[AMD] Add RDNA1/RDNA2 (gfx10) target support",
-      "author": "PelaGB17",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T12:15:43Z",
-      "updated_at": "2026-11-17T08:49:12Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12747",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12782,
       "title": "[AMD] Avoid hashing stale cluster iterators in initSchedule",
       "author": "kazhang2",
@@ -492,18 +528,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12656",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12115,
-      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
-      "author": "dhernandez0",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-05T10:00:49Z",
-      "updated_at": "2026-11-16T15:12:55Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12115",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12657,
@@ -694,30 +718,6 @@
       "created_at": "2026-11-07T05:00:23Z",
       "updated_at": "2026-11-09T03:12:56Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12654",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12660,
-      "title": "[AMD] Fix CodeGen build for LLVM @293a85c048f7",
-      "author": "antiagainst",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-08T06:13:59Z",
-      "updated_at": "2026-11-08T07:59:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12660",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12629,
-      "title": "[AMD] UpdateAsyncWaitCount: walk past region ops without async ops",
-      "author": "Dewei-Wang-sh",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-05T03:09:20Z",
-      "updated_at": "2026-11-08T04:44:11Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12629",
       "labels": [],
       "draft": false
     }
