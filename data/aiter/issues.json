@@ -1,6 +1,182 @@
 {
-  "collected_at": "2026-11-25T18:15:13Z",
+  "collected_at": "2026-11-26T17:57:14Z",
   "issues": [
+    {
+      "number": 8779,
+      "title": "[Bug] gfx942 emsort_16x128_pf3 fmoe kernel returns wrong output for GLM-5 FP8 decode at 9-16 tokens",
+      "author": "phambinhfin",
+      "state": "open",
+      "created_at": "2026-11-26T16:31:03Z",
+      "updated_at": "2026-11-26T16:31:05Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8779",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 8775,
+      "title": "topk_select k=1 (argmax backend) misreads the last column for bf16/fp16 rows of odd width",
+      "author": "yhl-amd",
+      "state": "open",
+      "created_at": "2026-11-26T15:12:42Z",
+      "updated_at": "2026-11-26T15:12:42Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8775",
+      "labels": []
+    },
+    {
+      "number": 8774,
+      "title": "[Issue]: fused_moe MXFP8 (per_1x32) with the default gate_mode=\"separated\": CK 2-stage module fails to build on gfx950",
+      "author": "jjuvonen-amd",
+      "state": "open",
+      "created_at": "2026-11-26T14:56:00Z",
+      "updated_at": "2026-11-26T14:56:00Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8774",
+      "labels": []
+    },
+    {
+      "number": 8773,
+      "title": "[Issue]: fused_moe MXFP8 (per_1x32) on gfx950: wrong output for hidden % 256 != 0 and for w2 > 4 GiB; SIGABRT for hidden > 8192 at small batch",
+      "author": "jjuvonen-amd",
+      "state": "open",
+      "created_at": "2026-11-26T14:51:30Z",
+      "updated_at": "2026-11-26T14:51:30Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8773",
+      "labels": []
+    },
+    {
+      "number": 4050,
+      "title": "[Regression]: Deepseek-R1 fusedMoE configs causing perf regression",
+      "author": "amnamasood-amd",
+      "state": "open",
+      "created_at": "2026-07-01T23:21:01Z",
+      "updated_at": "2026-11-26T14:24:49Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/4050",
+      "labels": []
+    },
+    {
+      "number": 5229,
+      "title": "[Issue]: gfx1201 (R9700) \u2014 Triton unified_attention overflows RDNA's LDS budget, and the ROCm 10.0 vLLM container ships no gfx1201 code objects",
+      "author": "hanchi-gao",
+      "state": "open",
+      "created_at": "2026-09-03T06:01:45Z",
+      "updated_at": "2026-11-26T10:53:08Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5229",
+      "labels": []
+    },
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-26T10:11:11Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
+    {
+      "number": 8738,
+      "title": "[ASM] [gfx942] Rebuild mhc_seam residual_out with RNE (the ATOM DeepSeek-V4.1 path)",
+      "author": "Arist12",
+      "state": "open",
+      "created_at": "2026-11-26T07:49:19Z",
+      "updated_at": "2026-11-26T07:49:19Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8738",
+      "labels": []
+    },
+    {
+      "number": 8734,
+      "title": "[MegaMoE gfx1250] MoRI dispatch gives wrong output for LOCAL_REPLICA fused shared experts",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "created_at": "2026-11-26T06:03:37Z",
+      "updated_at": "2026-11-26T06:03:37Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8734",
+      "labels": []
+    },
+    {
+      "number": 5503,
+      "title": "[Feature] Package gfx942 BF16 sparse-decode donor for a supported vLLM adapter",
+      "author": "AranKomat",
+      "state": "open",
+      "created_at": "2026-09-14T12:25:20Z",
+      "updated_at": "2026-11-26T05:09:44Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5503",
+      "labels": []
+    },
+    {
+      "number": 6341,
+      "title": "[Bug] _as_int crashes on float strings in tuned_grouped_fmoe.csv",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-10-09T20:16:15Z",
+      "updated_at": "2026-11-26T05:09:39Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6341",
+      "labels": [
+        "bug"
+      ]
+    },
+    {
+      "number": 6562,
+      "title": "FlyDSL FP4 paged MQA-logits prefill (flydsl_pa_mqa_logits_fp4_prefill) faults at address 0 with zero query rows (gfx950)",
+      "author": "ChangLi811",
+      "state": "open",
+      "created_at": "2026-10-15T06:07:11Z",
+      "updated_at": "2026-11-26T05:09:33Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/6562",
+      "labels": []
+    },
+    {
+      "number": 5293,
+      "title": "[Perf] pa_decode_sparse: BLOCK_K=64 is suboptimal above the CU count \u2014 up to +43 % on gfx950 with a load-dependent choice",
+      "author": "stefanskiasan",
+      "state": "open",
+      "created_at": "2026-09-05T15:13:29Z",
+      "updated_at": "2026-11-26T05:09:27Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5293",
+      "labels": []
+    },
+    {
+      "number": 2059,
+      "title": "[Issue]: GLM-5 aiter fused_moe with SGLang + MI355",
+      "author": "ozziemoreno",
+      "state": "open",
+      "created_at": "2026-02-18T00:11:18Z",
+      "updated_at": "2026-11-26T02:44:46Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2059",
+      "labels": []
+    },
+    {
+      "number": 2187,
+      "title": "[Issue]: GPU memory access fault with AITER FP8 MoE (Qwen3-VL-235B, TP=8, EP)",
+      "author": "sshlyapn",
+      "state": "open",
+      "created_at": "2026-03-05T06:50:40Z",
+      "updated_at": "2026-11-26T02:44:41Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/2187",
+      "labels": []
+    },
+    {
+      "number": 5322,
+      "title": "[MI355X][MegaMoEV2] GLM-5.2 EP8 tuning handoff and C14 performance gap",
+      "author": "jiejingzhangamd",
+      "state": "open",
+      "created_at": "2026-09-08T06:12:21Z",
+      "updated_at": "2026-11-26T01:57:35Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/5322",
+      "labels": []
+    },
+    {
+      "number": 8715,
+      "title": "[gfx950][MLA] Persistent bf16 decode with 128 heads and qlen 2 gives wrong output with the v1_0 planner",
+      "author": "jhinpan",
+      "state": "open",
+      "created_at": "2026-11-25T23:54:47Z",
+      "updated_at": "2026-11-25T23:54:47Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/8715",
+      "labels": []
+    },
     {
       "number": 5264,
       "title": "CK Tile tune livelocks: the JIT build counts against the per-task --timeout",
@@ -40,18 +216,6 @@
       "updated_at": "2026-11-25T09:29:33Z",
       "html_url": "https://github.com/ROCm/aiter/issues/8527",
       "labels": []
-    },
-    {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-25T07:37:56Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
     },
     {
       "number": 8382,
@@ -341,16 +505,6 @@
       "created_at": "2025-11-20T20:53:01Z",
       "updated_at": "2026-11-24T02:09:48Z",
       "html_url": "https://github.com/ROCm/aiter/issues/1455",
-      "labels": []
-    },
-    {
-      "number": 5229,
-      "title": "[Issue]: gfx1201 (R9700) \u2014 Triton unified_attention overflows RDNA's LDS budget, and the ROCm 10.0 vLLM container ships no gfx1201 code objects",
-      "author": "hanchi-gao",
-      "state": "open",
-      "created_at": "2026-09-03T06:01:45Z",
-      "updated_at": "2026-11-24T02:09:37Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5229",
       "labels": []
     },
     {
@@ -925,16 +1079,6 @@
       "labels": []
     },
     {
-      "number": 2046,
-      "title": "Questions about topk_per_row_kernel in topk_plain_kernels.cu",
-      "author": "zjin-lcf",
-      "state": "open",
-      "created_at": "2026-02-12T20:55:25Z",
-      "updated_at": "2026-11-23T13:05:12Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2046",
-      "labels": []
-    },
-    {
       "number": 2013,
       "title": "[Feature]: Add head_dim=256 support to fmha_v3_fwd kernels",
       "author": "jennyyyyzhen",
@@ -1391,16 +1535,6 @@
       "labels": []
     },
     {
-      "number": 4050,
-      "title": "[Regression]: Deepseek-R1 fusedMoE configs causing perf regression",
-      "author": "amnamasood-amd",
-      "state": "open",
-      "created_at": "2026-07-01T23:21:01Z",
-      "updated_at": "2026-11-23T13:04:48Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/4050",
-      "labels": []
-    },
-    {
       "number": 4032,
       "title": "[gfx950] Fused MoE NaN at M=1 with `block_m=16` (`ck_moe_stage1`, fp8 `per_1x128`) \u2014 clean input \u2192 NaN out",
       "author": "ntgiang71096",
@@ -1791,16 +1925,6 @@
       "labels": []
     },
     {
-      "number": 5322,
-      "title": "[MI355X][MegaMoEV2] GLM-5.2 EP8 tuning handoff and C14 performance gap",
-      "author": "jiejingzhangamd",
-      "state": "open",
-      "created_at": "2026-09-08T06:12:21Z",
-      "updated_at": "2026-11-23T13:04:22Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5322",
-      "labels": []
-    },
-    {
       "number": 5766,
       "title": "[MoE][Build] Multi-arch `GPU_ARCHS=gfx942;gfx950` bakes the gfx950 instance table into 13 prebuilt `moe_ck2stages` modules, so gfx942 rejects `inter_dim=384` (breaks Qwen3-30B-A3B at TP2 under vLLM)",
       "author": "jatseng-ai",
@@ -2063,16 +2187,6 @@
       "labels": []
     },
     {
-      "number": 6316,
-      "title": "[Issue]: sampling radix_topk_one_block_kernel ignores rowStarts in the radix passes and the renorm sum",
-      "author": "truong-v",
-      "state": "open",
-      "created_at": "2026-10-09T14:00:29Z",
-      "updated_at": "2026-11-23T13:04:08Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6316",
-      "labels": []
-    },
-    {
       "number": 6281,
       "title": "[TRITON] Handling speculative tokens natively in Unified Attention",
       "author": "cagrikymk",
@@ -2092,18 +2206,6 @@
       "html_url": "https://github.com/ROCm/aiter/issues/6280",
       "labels": [
         "Triton/Gluon"
-      ]
-    },
-    {
-      "number": 6341,
-      "title": "[Bug] _as_int crashes on float strings in tuned_grouped_fmoe.csv",
-      "author": "srinivamd",
-      "state": "open",
-      "created_at": "2026-10-09T20:16:15Z",
-      "updated_at": "2026-11-23T13:04:07Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6341",
-      "labels": [
-        "bug"
       ]
     },
     {
@@ -2224,16 +2326,6 @@
       "created_at": "2026-10-15T07:08:59Z",
       "updated_at": "2026-11-23T13:03:59Z",
       "html_url": "https://github.com/ROCm/aiter/issues/6565",
-      "labels": []
-    },
-    {
-      "number": 6562,
-      "title": "FlyDSL FP4 paged MQA-logits prefill (flydsl_pa_mqa_logits_fp4_prefill) faults at address 0 with zero query rows (gfx950)",
-      "author": "ChangLi811",
-      "state": "open",
-      "created_at": "2026-10-15T06:07:11Z",
-      "updated_at": "2026-11-23T13:03:59Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/6562",
       "labels": []
     },
     {
@@ -2470,16 +2562,6 @@
       "labels": []
     },
     {
-      "number": 5503,
-      "title": "[Feature] Package gfx942 BF16 sparse-decode donor for a supported vLLM adapter",
-      "author": "AranKomat",
-      "state": "open",
-      "created_at": "2026-09-14T12:25:20Z",
-      "updated_at": "2026-11-23T13:02:13Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5503",
-      "labels": []
-    },
-    {
       "number": 5265,
       "title": "One infeasible tune candidate fails every kernel in the module (ninja aborts the whole build)",
       "author": "ThomasNing",
@@ -2647,26 +2729,6 @@
       "created_at": "2026-05-05T20:33:04Z",
       "updated_at": "2026-11-23T08:39:10Z",
       "html_url": "https://github.com/ROCm/aiter/issues/3038",
-      "labels": []
-    },
-    {
-      "number": 2187,
-      "title": "[Issue]: GPU memory access fault with AITER FP8 MoE (Qwen3-VL-235B, TP=8, EP)",
-      "author": "sshlyapn",
-      "state": "open",
-      "created_at": "2026-03-05T06:50:40Z",
-      "updated_at": "2026-11-23T08:35:52Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2187",
-      "labels": []
-    },
-    {
-      "number": 2059,
-      "title": "[Issue]: GLM-5 aiter fused_moe with SGLang + MI355",
-      "author": "ozziemoreno",
-      "state": "open",
-      "created_at": "2026-02-18T00:11:18Z",
-      "updated_at": "2026-11-23T08:35:50Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/2059",
       "labels": []
     },
     {
@@ -3174,16 +3236,6 @@
       "created_at": "2026-09-07T00:43:53Z",
       "updated_at": "2026-11-19T05:22:07Z",
       "html_url": "https://github.com/ROCm/aiter/issues/5299",
-      "labels": []
-    },
-    {
-      "number": 5293,
-      "title": "[Perf] pa_decode_sparse: BLOCK_K=64 is suboptimal above the CU count \u2014 up to +43 % on gfx950 with a load-dependent choice",
-      "author": "stefanskiasan",
-      "state": "open",
-      "created_at": "2026-09-05T15:13:29Z",
-      "updated_at": "2026-11-19T05:22:06Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/5293",
       "labels": []
     },
     {

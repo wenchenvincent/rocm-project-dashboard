@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-25T18:14:38Z",
+  "collected_at": "2026-11-26T17:56:43Z",
   "issues": [
     {
       "number": 12926,
@@ -21,18 +21,6 @@
       "created_at": "2026-11-24T23:12:29Z",
       "updated_at": "2026-11-24T23:12:29Z",
       "html_url": "https://github.com/triton-lang/triton/issues/12946",
-      "labels": [
-        "bug"
-      ]
-    },
-    {
-      "number": 12945,
-      "title": "[AMD] Triton: signed tl.atomic_max / tl.atomic_min return wrong results for negative values when the intra-wave atomic reduction is used.",
-      "author": "umechand-amd",
-      "state": "open",
-      "created_at": "2026-11-24T22:58:31Z",
-      "updated_at": "2026-11-24T22:58:31Z",
-      "html_url": "https://github.com/triton-lang/triton/issues/12945",
       "labels": [
         "bug"
       ]

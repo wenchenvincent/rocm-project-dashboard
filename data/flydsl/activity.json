@@ -1,49 +1,49 @@
 {
-  "collected_at": "2026-11-25T18:18:35Z",
+  "collected_at": "2026-11-26T18:00:38Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
       "opened": 71,
-      "merged": 25,
-      "closed": 29
+      "merged": 27,
+      "closed": 19
     },
     "last_week": {
-      "opened": 44,
-      "merged": 22,
-      "closed": 5
+      "opened": 43,
+      "merged": 27,
+      "closed": 13
     },
-    "median_time_to_merge_hours": 16.1,
-    "merge_count": 47,
+    "median_time_to_merge_hours": 18.9,
+    "merge_count": 54,
     "stale_prs": 14
   },
   "contributors": {
-    "active_this_week": 14,
-    "total_contributors": 46,
+    "active_this_week": 15,
+    "total_contributors": 47,
     "top_contributors": [
       {
-        "author": "coderfeli",
+        "author": "sjfeng1999",
         "prs_submitted": 24,
-        "prs_merged": 19,
+        "prs_merged": 18,
         "commits": 22
       },
       {
-        "author": "sjfeng1999",
-        "prs_submitted": 22,
-        "prs_merged": 18,
-        "commits": 21
+        "author": "coderfeli",
+        "prs_submitted": 20,
+        "prs_merged": 15,
+        "commits": 22
+      },
+      {
+        "author": "Phil-amd",
+        "prs_submitted": 14,
+        "prs_merged": 8,
+        "commits": 12
       },
       {
         "author": "thechenli",
         "prs_submitted": 13,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "Phil-amd",
-        "prs_submitted": 12,
-        "prs_merged": 9,
-        "commits": 10
+        "prs_merged": 4,
+        "commits": 4
       },
       {
         "author": "Monstertail",
@@ -53,9 +53,9 @@
       },
       {
         "author": "Arist12",
-        "prs_submitted": 8,
-        "prs_merged": 0,
-        "commits": 0
+        "prs_submitted": 9,
+        "prs_merged": 2,
+        "commits": 2
       },
       {
         "author": "jli-melchior",
@@ -72,8 +72,8 @@
       {
         "author": "fsx950223",
         "prs_submitted": 6,
-        "prs_merged": 4,
-        "commits": 5
+        "prs_merged": 5,
+        "commits": 6
       },
       {
         "author": "dimitri91209",
@@ -86,14 +86,14 @@
   },
   "issue_health": {
     "total_open": 62,
-    "opened_this_week": 10,
-    "closed_this_week": 4,
+    "opened_this_week": 11,
+    "closed_this_week": 5,
     "unanswered": 21
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 1.5,
+    "days_since_last": 2.4,
     "avg_interval_days": 10.2,
     "total_releases": 5,
     "latest_tag": "v0.5.3"

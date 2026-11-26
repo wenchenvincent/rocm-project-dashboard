@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-25T18:14:45Z",
+  "collected_at": "2026-11-26T17:56:49Z",
   "issues": [
+    {
+      "number": 5603,
+      "title": "[Issue]: roialign_kernel illegal memory access on gfx1151 (ROCm 10.2, MIGraphX 2.19) when RoiAlign operands come from Reshape/Gather; standalone RoiAlign is fine",
+      "author": "ThomasGmeinder",
+      "state": "open",
+      "created_at": "2026-11-25T21:44:14Z",
+      "updated_at": "2026-11-25T21:44:14Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/issues/5603",
+      "labels": []
+    },
     {
       "number": 4618,
       "title": "[Issue]: MIGraphX Dynamic Shape Issue ONNXRuntime",

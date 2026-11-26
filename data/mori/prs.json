@@ -1,6 +1,42 @@
 {
-  "collected_at": "2026-11-25T18:15:29Z",
+  "collected_at": "2026-11-26T17:57:28Z",
   "prs": [
+    {
+      "number": 816,
+      "title": "Draft collectives develop",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-20T13:00:41Z",
+      "updated_at": "2026-11-26T17:36:19Z",
+      "html_url": "https://github.com/ROCm/mori/pull/816",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1105,
+      "title": "perf(EPv2/AsyncLL): send phases on 8 blocks, dispatch receive on 16, 16k tokens per rank",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T11:07:23Z",
+      "updated_at": "2026-11-26T16:00:29Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1105",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1092,
+      "title": "perf(umbp): fuse page-fragment expansion into the GPU gather kernel [1/N]",
+      "author": "BadrBasowid",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T11:13:02Z",
+      "updated_at": "2026-11-26T15:07:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1092",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 818,
       "title": "Refactor GPU vector load/store primitives and WarpAccum functions",
@@ -8,20 +44,92 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-20T16:13:56Z",
-      "updated_at": "2026-11-25T18:11:07Z",
+      "updated_at": "2026-11-26T14:32:56Z",
       "html_url": "https://github.com/ROCm/mori/pull/818",
       "labels": [],
       "draft": false
     },
     {
-      "number": 1098,
-      "title": "fix(gfx1250): pass the TDM descriptor groups as unsigned vectors",
-      "author": "mhalk",
+      "number": 1102,
+      "title": "feat(umbp/l1): multi-part pools (TP ranks), and evicted last copies go to the UMBP store",
+      "author": "TianDi101",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-25T15:58:46Z",
-      "updated_at": "2026-11-25T16:00:18Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1098",
+      "created_at": "2026-11-26T08:10:28Z",
+      "updated_at": "2026-11-26T12:59:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1102",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1094,
+      "title": "Add JAX MoE block example using dispatch/combine",
+      "author": "pemeliya",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T13:15:34Z",
+      "updated_at": "2026-11-26T11:43:02Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1094",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1103,
+      "title": "ci: /ci-rerun merges the current main into the PR branch and runs CI on it",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T08:16:03Z",
+      "updated_at": "2026-11-26T11:10:43Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1103",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1074,
+      "title": "feat(umbp): add direct native L1 sharing across trays",
+      "author": "wuyl1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T05:33:31Z",
+      "updated_at": "2026-11-26T10:22:20Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1074",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1004,
+      "title": "feat(ep/v2): internode dispatch can write aiter's moe_sorting tables",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T15:01:52Z",
+      "updated_at": "2026-11-26T08:16:24Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1004",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 996,
+      "title": "perf(ep/v2): atomic-free inter-node signalling, lower v2_ll dispatch and combine latency, MI355X EP32 tables",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T02:30:14Z",
+      "updated_at": "2026-11-26T08:14:40Z",
+      "html_url": "https://github.com/ROCm/mori/pull/996",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 997,
+      "title": "feat(sdma): choose SDMA engines per GPU arch from one plan",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T03:38:35Z",
+      "updated_at": "2026-11-26T03:16:09Z",
+      "html_url": "https://github.com/ROCm/mori/pull/997",
       "labels": [],
       "draft": false
     },
@@ -38,18 +146,6 @@
       "draft": false
     },
     {
-      "number": 1086,
-      "title": "fix(umbp): submit an io_uring request again when it completes with EAGAIN",
-      "author": "Hoipang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T11:29:28Z",
-      "updated_at": "2026-11-25T15:00:18Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1086",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1096,
       "title": "perf(umbp): borrow NumPy descriptors for ranged restores",
       "author": "BadrBasowid",
@@ -60,30 +156,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/1096",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1074,
-      "title": "feat(umbp): add direct native L1 sharing across trays",
-      "author": "wuyl1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T05:33:31Z",
-      "updated_at": "2026-11-25T14:27:49Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1074",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1094,
-      "title": "Add JAX MoE block example using dispatch/combine",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T13:15:34Z",
-      "updated_at": "2026-11-25T13:44:31Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1094",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1067,
@@ -110,18 +182,6 @@
       "draft": true
     },
     {
-      "number": 1092,
-      "title": "perf(umbp): fuse page-fragment expansion into the GPU gather kernel [1/N]",
-      "author": "BadrBasowid",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T11:13:02Z",
-      "updated_at": "2026-11-25T12:48:30Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1092",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1050,
       "title": "fix(umbp): a lookup leases the keys it finds instead of renewing them",
       "author": "isytwu",
@@ -142,18 +202,6 @@
       "created_at": "2026-11-04T00:21:37Z",
       "updated_at": "2026-11-25T11:54:10Z",
       "html_url": "https://github.com/ROCm/mori/pull/911",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1059,
-      "title": "perf(EPv2): block-per-token LL dispatch on the portable intranode path",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T02:10:59Z",
-      "updated_at": "2026-11-25T11:10:03Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1059",
       "labels": [],
       "draft": false
     },
@@ -216,18 +264,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/1054",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 816,
-      "title": "Draft collectives develop",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-20T13:00:41Z",
-      "updated_at": "2026-11-24T18:39:59Z",
-      "html_url": "https://github.com/ROCm/mori/pull/816",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1069,
@@ -326,30 +362,6 @@
       "draft": true
     },
     {
-      "number": 1004,
-      "title": "feat(ep/v2): internode dispatch can write aiter's moe_sorting tables",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T15:01:52Z",
-      "updated_at": "2026-11-23T14:01:06Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1004",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 996,
-      "title": "perf(ep/v2): atomic-free inter-node signalling, lower v2_ll dispatch and combine latency, MI355X EP32 tables",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T02:30:14Z",
-      "updated_at": "2026-11-23T14:00:29Z",
-      "html_url": "https://github.com/ROCm/mori/pull/996",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1077,
       "title": "[Bugfix][UMBP] Keep standalone client IDs unique across PID namespaces",
       "author": "YukioZzz",
@@ -410,18 +422,6 @@
       "draft": true
     },
     {
-      "number": 1063,
-      "title": "fix(umbp): drain a failed io_uring call before returning",
-      "author": "ZeXi0308",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T04:52:00Z",
-      "updated_at": "2026-11-25T14:59:55Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1063",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1058,
       "title": "docs(umbp): RFC for role-independent KV lifetime and handoff",
       "author": "GL-AMD",
@@ -456,18 +456,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/1056",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 997,
-      "title": "feat(sdma): choose SDMA engines per GPU arch from one plan",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T03:38:35Z",
-      "updated_at": "2026-11-19T10:38:05Z",
-      "html_url": "https://github.com/ROCm/mori/pull/997",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1051,
@@ -634,18 +622,6 @@
       "created_at": "2026-11-17T04:38:13Z",
       "updated_at": "2026-11-17T04:38:34Z",
       "html_url": "https://github.com/ROCm/mori/pull/1024",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1020,
-      "title": "feat(cco): Claude Code harness for fused GEMM + collective operators, with a clean-room evaluation case",
-      "author": "yangyuhuiling",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T02:34:16Z",
-      "updated_at": "2026-11-17T03:53:27Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1020",
       "labels": [],
       "draft": true
     },
@@ -1250,18 +1226,6 @@
       "draft": false
     },
     {
-      "number": 527,
-      "title": "fix(io): detect host vs device memory in RegisterMemory instead of assuming CPU",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-05T08:18:13Z",
-      "updated_at": "2026-08-31T08:43:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/527",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 525,
       "title": "bench: tuning config lookup overhead reproducer",
       "author": "kudomcho",
@@ -1382,18 +1346,6 @@
       "draft": false
     },
     {
-      "number": 99,
-      "title": "Feature: add expert map support for shared experts & EPLB",
-      "author": "TianDi101",
-      "state": "open",
-      "merged": false,
-      "created_at": "2025-10-28T06:17:21Z",
-      "updated_at": "2026-08-31T08:43:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/99",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 92,
       "title": "Enhancement of mori ep unit test",
       "author": "dongmin-ra",
@@ -1414,6 +1366,90 @@
       "created_at": "2026-08-24T11:05:14Z",
       "updated_at": "2026-08-31T08:43:14Z",
       "html_url": "https://github.com/ROCm/mori/pull/598",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1101,
+      "title": "cco: open the NICs only when a peer needs RDMA",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T07:16:20Z",
+      "updated_at": "2026-11-26T15:32:13Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1101",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1104,
+      "title": "ci(umbp): run the io_uring storage tests on io_uring",
+      "author": "TianDi101",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T10:06:49Z",
+      "updated_at": "2026-11-26T13:16:16Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1104",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1086,
+      "title": "fix(umbp): submit an io_uring request again when it completes with EAGAIN",
+      "author": "Hoipang",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-24T11:29:28Z",
+      "updated_at": "2026-11-26T10:11:29Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1086",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1100,
+      "title": "fix(shmem): broadcast UniqueId from the subgroup leader's global rank",
+      "author": "zhenhantech",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T04:18:10Z",
+      "updated_at": "2026-11-26T08:29:29Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1100",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1098,
+      "title": "fix(gfx1250): pass the TDM descriptor groups as unsigned vectors",
+      "author": "mhalk",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T15:58:46Z",
+      "updated_at": "2026-11-26T07:22:33Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1098",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1059,
+      "title": "perf(EPv2): replace the intranode dispatch with a block-per-token body",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T02:10:59Z",
+      "updated_at": "2026-11-26T06:43:17Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1059",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1099,
+      "title": "ci: switch off the AsyncLL quantized combine step, which reds every PR",
+      "author": "kawhil-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T03:46:52Z",
+      "updated_at": "2026-11-26T04:26:04Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1099",
       "labels": [],
       "draft": false
     },
@@ -2290,128 +2326,6 @@
       "created_at": "2026-11-11T07:38:22Z",
       "updated_at": "2026-11-11T12:37:54Z",
       "html_url": "https://github.com/ROCm/mori/pull/983",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 923,
-      "title": "feat(ops): SdmaAllGatherOp, an in-place start/wait all-gather over cco SDMA",
-      "author": "AMD-yanfeiwang",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-06T01:43:51Z",
-      "updated_at": "2026-11-11T07:21:53Z",
-      "html_url": "https://github.com/ROCm/mori/pull/923",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 696,
-      "title": "perf(ep/v2): EPv2 inter-node dispatch/combine on MI300X, MI308X and MI355X",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-09-22T03:05:00Z",
-      "updated_at": "2026-11-11T07:19:45Z",
-      "html_url": "https://github.com/ROCm/mori/pull/696",
-      "labels": [
-        "ci-rerun"
-      ],
-      "draft": false
-    },
-    {
-      "number": 968,
-      "title": "docs: link the README to the documentation site",
-      "author": "yangyuhuiling",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-10T06:38:40Z",
-      "updated_at": "2026-11-11T07:10:49Z",
-      "html_url": "https://github.com/ROCm/mori/pull/968",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 973,
-      "title": "docs: organize the site by component, add a UMBP overview, deploy the whole site",
-      "author": "yangyuhuiling",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-10T09:43:17Z",
-      "updated_at": "2026-11-11T06:42:40Z",
-      "html_url": "https://github.com/ROCm/mori/pull/973",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 981,
-      "title": "ci: keep single-node jobs off MI355X-AINIC; fewer launches, faster ch\u2026",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-11T02:16:11Z",
-      "updated_at": "2026-11-11T04:04:53Z",
-      "html_url": "https://github.com/ROCm/mori/pull/981",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 930,
-      "title": "poc(cco): MegaMoE GEMM1 fused with an SDMA dispatch (gfx950) ",
-      "author": "kawhil-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-06T14:46:24Z",
-      "updated_at": "2026-11-11T03:16:41Z",
-      "html_url": "https://github.com/ROCm/mori/pull/930",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 882,
-      "title": "feat(umbp): BatchTouch counts SSD copies and hands the tier only keys it holds",
-      "author": "isytwu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-31T15:13:22Z",
-      "updated_at": "2026-11-11T01:59:21Z",
-      "html_url": "https://github.com/ROCm/mori/pull/882",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 779,
-      "title": "feat(umbp): BatchTouch, so callers can report KV hits served by an upper tier",
-      "author": "isytwu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-15T16:14:26Z",
-      "updated_at": "2026-11-10T17:00:11Z",
-      "html_url": "https://github.com/ROCm/mori/pull/779",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 896,
-      "title": "feat(umbp): warn when a NIC memory region outgrows what an AINIC translates",
-      "author": "isytwu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-02T15:02:18Z",
-      "updated_at": "2026-11-10T13:19:30Z",
-      "html_url": "https://github.com/ROCm/mori/pull/896",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 857,
-      "title": "perf(gemm-ar): load mxfp8 scales one K step ahead at K >= 4096",
-      "author": "yangyuhuiling",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-27T10:00:24Z",
-      "updated_at": "2026-11-10T13:19:28Z",
-      "html_url": "https://github.com/ROCm/mori/pull/857",
       "labels": [],
       "draft": false
     }

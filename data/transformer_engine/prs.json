@@ -1,6 +1,89 @@
 {
-  "collected_at": "2026-11-25T18:15:37Z",
+  "collected_at": "2026-11-26T17:57:35Z",
   "prs": [
+    {
+      "number": 789,
+      "title": "[gfx1250] TDM normalization/swizzle/transpose",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T21:48:29Z",
+      "updated_at": "2026-11-26T04:21:17Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/789",
+      "labels": [
+        "ci-level 1",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 794,
+      "title": "[HK] [gfx1250] BF16 and MXFP8 GEMM kernels for gfx1250 and gfx1250-strict",
+      "author": "alextmagro",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-06T00:53:24Z",
+      "updated_at": "2026-11-26T04:20:19Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/794",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 817,
+      "title": "Integrate KOSMOS fused MoE into TE for bf16",
+      "author": "wangye805",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T16:23:17Z",
+      "updated_at": "2026-11-26T03:35:08Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/817",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 816,
+      "title": "[ROCm] Fix JAX CI OOM flake: drain stale HIP last-error state before checking it",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T07:27:57Z",
+      "updated_at": "2026-11-26T00:29:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/816",
+      "labels": [
+        "ci-level 3",
+        "P1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 811,
+      "title": "fix hipBLASLt autotuning issues",
+      "author": "matthiasdiener",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T00:06:39Z",
+      "updated_at": "2026-11-25T22:48:14Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/811",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 814,
+      "title": "Install the CI test environment at runtime instead of a CI image",
+      "author": "VeeraRajasekhar",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T04:29:26Z",
+      "updated_at": "2026-11-25T22:47:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/814",
+      "labels": [
+        "ci-level 3",
+        "P2"
+      ],
+      "draft": false
+    },
     {
       "number": 788,
       "title": "[TE][HipKittens] Require K % 128 for blockwise FP8 GEMMs",
@@ -17,45 +100,6 @@
       "draft": false
     },
     {
-      "number": 817,
-      "title": "Integrate KOSMOS fused MoE into TE for bf16",
-      "author": "wangye805",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T16:23:17Z",
-      "updated_at": "2026-11-25T16:51:18Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/817",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 814,
-      "title": "Install the CI test environment at runtime instead of a CI image",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T04:29:26Z",
-      "updated_at": "2026-11-25T14:29:00Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/814",
-      "labels": [
-        "ci-level 3",
-        "P2"
-      ],
-      "draft": false
-    },
-    {
-      "number": 816,
-      "title": "[ROCm] Fix JAX CI OOM flake: drain stale HIP last-error state before checking it",
-      "author": "VeeraRajasekhar",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T07:27:57Z",
-      "updated_at": "2026-11-25T07:27:57Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/816",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 792,
       "title": "pin Triton RMSNorm/LayerNorm launch configs instead of autotuning",
       "author": "matthiasdiener",
@@ -66,36 +110,6 @@
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/792",
       "labels": [
         "ci-level 1"
-      ],
-      "draft": false
-    },
-    {
-      "number": 789,
-      "title": "[gfx1250] TDM normalization/swizzle/transpose",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-30T21:48:29Z",
-      "updated_at": "2026-11-24T19:40:31Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/789",
-      "labels": [
-        "ci-level 1",
-        "P1"
-      ],
-      "draft": true
-    },
-    {
-      "number": 778,
-      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-22T23:18:01Z",
-      "updated_at": "2026-11-24T19:29:55Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
-      "labels": [
-        "ci-level 1",
-        "P1"
       ],
       "draft": false
     },
@@ -169,20 +183,6 @@
       "draft": false
     },
     {
-      "number": 811,
-      "title": "fix hipBLASLt autotuning issues",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T00:06:39Z",
-      "updated_at": "2026-11-20T00:06:48Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/811",
-      "labels": [
-        "ci-level 1"
-      ],
-      "draft": true
-    },
-    {
       "number": 762,
       "title": "Ipanfilo/security scaning",
       "author": "ipanfilo",
@@ -237,20 +237,6 @@
       "labels": [
         "ci-level 1",
         "P3"
-      ],
-      "draft": true
-    },
-    {
-      "number": 808,
-      "title": "build HK gfx1250 MXFP8 GEMMs with the min-register scheduler on ROCm 10.3",
-      "author": "matthiasdiener",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T22:16:32Z",
-      "updated_at": "2026-11-19T17:38:25Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/808",
-      "labels": [
-        "ci-level 1"
       ],
       "draft": true
     },
@@ -363,18 +349,6 @@
       "labels": [
         "ci-level 1"
       ],
-      "draft": false
-    },
-    {
-      "number": 794,
-      "title": "[HK] [gfx1250] BF16 and MXFP8 GEMM kernels for gfx1250 and gfx1250-strict",
-      "author": "alextmagro",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-06T00:53:24Z",
-      "updated_at": "2026-11-11T17:33:07Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/794",
-      "labels": [],
       "draft": false
     },
     {
@@ -936,6 +910,35 @@
         "ci-level 3",
         "community-contribution",
         "P2"
+      ],
+      "draft": false
+    },
+    {
+      "number": 808,
+      "title": "build HK gfx1250 MXFP8 GEMMs with the min-register scheduler on ROCm 10.3",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-17T22:16:32Z",
+      "updated_at": "2026-11-26T04:20:24Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/808",
+      "labels": [
+        "ci-level 1"
+      ],
+      "draft": false
+    },
+    {
+      "number": 778,
+      "title": "[gfx1250] TDM for MXFP8/FP8/MXFP4/NVFP4 quantization",
+      "author": "matthiasdiener",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-10-22T23:18:01Z",
+      "updated_at": "2026-11-25T23:01:45Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/778",
+      "labels": [
+        "ci-level 1",
+        "P1"
       ],
       "draft": false
     },
@@ -2090,34 +2093,6 @@
       "updated_at": "2026-08-14T15:46:44Z",
       "html_url": "https://github.com/ROCm/TransformerEngine/pull/677",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 698,
-      "title": "gfx942-only build bugfix and kittens refactor",
-      "author": "alextmagro",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-08T02:16:00Z",
-      "updated_at": "2026-08-14T14:22:09Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/698",
-      "labels": [
-        "ci-level 3"
-      ],
-      "draft": false
-    },
-    {
-      "number": 703,
-      "title": "restore test_grouped_gemm_unaligned pytest",
-      "author": "matthiasdiener",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-08-12T17:45:18Z",
-      "updated_at": "2026-08-13T16:16:03Z",
-      "html_url": "https://github.com/ROCm/TransformerEngine/pull/703",
-      "labels": [
-        "ci-level 1"
-      ],
       "draft": false
     }
   ]

@@ -1,41 +1,99 @@
 {
-  "collected_at": "2026-11-25T18:15:19Z",
+  "collected_at": "2026-11-26T17:57:19Z",
   "prs": [
     {
-      "number": 3844,
-      "title": "perf(dsv41): route V4.1 decode steps in one launch after the gate GEMM",
-      "author": "yhl-amd",
+      "number": 2959,
+      "title": "[Kimi-K3] Midstep KDA state checkpoints from the FlashKDA recurrence",
+      "author": "davzhuAMD",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-25T10:24:09Z",
-      "updated_at": "2026-11-25T18:07:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3844",
+      "created_at": "2026-11-03T21:07:39Z",
+      "updated_at": "2026-11-26T17:43:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2959",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3905,
+      "title": "[PP] Opt in to receiving stage tensors on a separate stream",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T14:03:18Z",
+      "updated_at": "2026-11-26T17:43:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3905",
       "labels": [],
       "draft": true
     },
     {
-      "number": 3437,
-      "title": "perf(dsv41): settle an owed mHC post into the collapse and the DSpark tap mean in one aiter launch",
-      "author": "yhl-amd",
+      "number": 3511,
+      "title": "[MiniMax-M3.1] Sequence-parallel prefill under pure TP",
+      "author": "zhuyuhua-v",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-16T18:29:52Z",
-      "updated_at": "2026-11-25T17:57:50Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3437",
-      "labels": [
-        "ci:atom"
-      ],
+      "created_at": "2026-11-18T08:15:55Z",
+      "updated_at": "2026-11-26T17:35:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3511",
+      "labels": [],
       "draft": false
     },
     {
-      "number": 3862,
-      "title": "ci: maintainer-only manual runs; heavy-CI evaluator in shadow mode",
-      "author": "valarLip",
+      "number": 3447,
+      "title": "[Sampling] presence_penalty on decode and speculative-verify rows",
+      "author": "vgokhale",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-25T17:05:05Z",
-      "updated_at": "2026-11-25T17:42:45Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3862",
+      "created_at": "2026-11-16T20:32:22Z",
+      "updated_at": "2026-11-26T17:31:04Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3447",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3849,
+      "title": "[atomrl] Serialize GPU CI on linux-atom-pitt-mi350x-8 and prepare models",
+      "author": "ZhangDanyang-AMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T11:55:48Z",
+      "updated_at": "2026-11-26T16:45:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3849",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3908,
+      "title": "[3/N atomesh rust runtime] feat(mesh): msgspec EngineCore protocol, Rust EngineClient and DirectDispatcher",
+      "author": "Yuechguo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T15:23:02Z",
+      "updated_at": "2026-11-26T16:39:41Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3908",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3911,
+      "title": "[4/N atomesh rust runtime] feat(engine): EngineCore and CoreManager speak msgspec, not pickle",
+      "author": "Yuechguo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T16:39:15Z",
+      "updated_at": "2026-11-26T16:39:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3911",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3912,
+      "title": "[5/N atomesh rust runtime] feat(atomesh): --engine-dispatch direct, the Rust frontend straight to the EngineCores",
+      "author": "Yuechguo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T16:39:26Z",
+      "updated_at": "2026-11-26T16:39:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3912",
       "labels": [],
       "draft": false
     },
@@ -46,10 +104,1779 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-20T04:57:38Z",
-      "updated_at": "2026-11-25T17:14:55Z",
+      "updated_at": "2026-11-26T16:29:57Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3618",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3772,
+      "title": "perf(offload): event-driven tier-load wait ahead of schedule() (no fixed timeout, on by default)",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T06:36:51Z",
+      "updated_at": "2026-11-26T15:59:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3772",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3884,
+      "title": "[P/D] Mooncake: register on the GPU's PCIe-local NIC, not rdma<HIP index>",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T06:48:39Z",
+      "updated_at": "2026-11-26T15:54:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3884",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3866,
+      "title": "[P/D] ATOM_PD_SEND_PROCESS: send a MiniMax PP stage's KV from its own process",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T00:40:44Z",
+      "updated_at": "2026-11-26T15:50:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3866",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 3865,
+      "title": "[P/D] Send process: a Mooncake producer's send path over a stage's pool",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T00:40:41Z",
+      "updated_at": "2026-11-26T15:49:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3865",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3632,
+      "title": "perf(sglang): Qwen3.8-Flash-Next sequence-parallel reduce-scatter / all-gathers over SDMA (mori)",
+      "author": "yicyang",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T07:48:53Z",
+      "updated_at": "2026-11-26T15:48:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3632",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3759,
+      "title": "[recipe] DeepSeek-V4.1-Flash P/D: 4P4D TTFT config + 4P8D AgentX ladder (c1-c768)",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T01:10:22Z",
+      "updated_at": "2026-11-26T15:46:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3759",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3903,
+      "title": "[MiniMax-M3.1] DSpark draft window kept as per-request state",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T13:57:35Z",
+      "updated_at": "2026-11-26T15:45:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3903",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3406,
+      "title": "feat(mesh): agentic routing policy on the KV event index",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T08:48:35Z",
+      "updated_at": "2026-11-26T15:45:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3406",
+      "labels": [
+        "ci:mesh"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3566,
+      "title": "fix(mesh): sample power_of_two load per instance and drop failures",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T07:40:31Z",
+      "updated_at": "2026-11-26T15:45:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3566",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3510,
+      "title": "[MiniMax-M3.1] Prefill TBO (DBO) under pure TP",
+      "author": "zhuyuhua-v",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T08:15:52Z",
+      "updated_at": "2026-11-26T15:42:17Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3510",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3910,
+      "title": "feat(mesh): serve P/D legs from ATOM standalone's Rust frontend",
+      "author": "Yuechguo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T15:41:19Z",
+      "updated_at": "2026-11-26T15:41:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3910",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3875,
+      "title": "[P/D] PP stages push their Mooncake Store load terminals to the head",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T02:48:05Z",
+      "updated_at": "2026-11-26T15:31:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3875",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3892,
+      "title": "feat(dsv41 mono): run mono decode beside --moe-backend mega",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T10:00:11Z",
+      "updated_at": "2026-11-26T15:29:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3892",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3492,
+      "title": "DeepSeek MLA: fuse q_a + kv_a RMSNorm and q_b's MXFP4 quant in the default fused Q/K norm path (gfx1250)",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T04:15:23Z",
+      "updated_at": "2026-11-26T15:19:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3492",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3353,
+      "title": "[DP] ATOM_DP_LM_HEAD_MODE=argmax: exchange the DP-sharded LM head's greedy ids, not logits",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T11:32:34Z",
+      "updated_at": "2026-11-26T15:19:16Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3353",
+      "labels": [
+        "ci:atom",
+        "LGTM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3612,
+      "title": "Gather DCP decode candidates in the merge layout",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T03:59:37Z",
+      "updated_at": "2026-11-26T15:14:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3612",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3354,
+      "title": "[MLA] Prefill K concat as one Triton copy instead of torch.cat",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T11:32:38Z",
+      "updated_at": "2026-11-26T15:12:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3354",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3403,
+      "title": "[Scheduler] Prefill initial ramp for a positive decode interval or adaptive (ATOM_PREFILL_INITIAL_RAMP)",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T07:26:52Z",
+      "updated_at": "2026-11-26T15:12:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3403",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3636,
+      "title": "Restore Kimi-K3.1 token graphs and qualify zero-addend storage",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T08:59:52Z",
+      "updated_at": "2026-11-26T15:04:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3636",
+      "labels": [
+        "agent-team/hold-landing"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3672,
+      "title": "[ATOM gRPC] Engine: token-id prompts reuse block-hash chains; an idle EngineCore waits for input",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T14:10:22Z",
+      "updated_at": "2026-11-26T15:04:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3672",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3491,
+      "title": "[gfx1250] NVFP4 MLA KV cache and decode for DeepSeek-R1",
+      "author": "yzhou103",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T03:36:30Z",
+      "updated_at": "2026-11-26T15:01:16Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3491",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3901,
+      "title": "[State] Rebuildable per-request state: window-bounded hits, anchors copied after their forward",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T13:57:29Z",
+      "updated_at": "2026-11-26T14:59:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3901",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3838,
+      "title": "perf(dsv41): indexer: wide block-maxima grid on gfx950, and candidate-source layers pick their top-k inside their own blocks",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T08:39:26Z",
+      "updated_at": "2026-11-26T14:59:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3838",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3577,
+      "title": "Allocate Kimi's block-residual bank once per forward",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T08:16:14Z",
+      "updated_at": "2026-11-26T14:55:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3577",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3818,
+      "title": "feat(mesh): render every chat in Rust, DeepSeek V3.2 / V4 / V4.1 and Kimi-K3 as ATOM renders them",
+      "author": "Yuechguo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T03:54:30Z",
+      "updated_at": "2026-11-26T14:53:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3818",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3907,
+      "title": "P/D: skip the failed-write hold when no prefill stage wrote the receive",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T14:48:33Z",
+      "updated_at": "2026-11-26T14:48:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3907",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3906,
+      "title": "MiniMax-M3.1: DSpark draft at attention TP1; refuse indexer CP under DP attention",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T14:48:11Z",
+      "updated_at": "2026-11-26T14:48:30Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3906",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3863,
+      "title": "perf(spec): make a sampled verify step's picks in one aiter launch",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T18:37:43Z",
+      "updated_at": "2026-11-26T14:48:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3863",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": true
+    },
+    {
+      "number": 3902,
+      "title": "[Mooncake Store] A per-request state tier: checkpoint images beside the KV",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T13:57:32Z",
+      "updated_at": "2026-11-26T14:36:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3902",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3512,
+      "title": "feat(moe): TP MegaMoE under --moe-backend mega (reuses the SP MegaMoE backend)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T08:20:43Z",
+      "updated_at": "2026-11-26T14:33:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3512",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3677,
+      "title": "[ATOM gRPC] atomesh: structured output to ATOM gRPC workers; answers as ATOM's HTTP routes give them",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T14:10:35Z",
+      "updated_at": "2026-11-26T14:25:23Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3677",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3676,
+      "title": "[ATOM gRPC] atomesh: discover ATOM gRPC workers and run ATOM P/D over gRPC",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T14:10:32Z",
+      "updated_at": "2026-11-26T14:19:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3676",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3678,
+      "title": "[ATOM gRPC] atomesh: the Session link to an ATOM instance",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T14:10:38Z",
+      "updated_at": "2026-11-26T14:18:05Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3678",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3674,
+      "title": "[ATOM gRPC] The Session RPC: many requests on one stream, one message per engine step",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T14:10:27Z",
+      "updated_at": "2026-11-26T14:17:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3674",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3675,
+      "title": "[ATOM gRPC] atomesh: an ATOM gRPC client, ATOM's protos in every build, the shared P/D rank mapping",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T14:10:29Z",
+      "updated_at": "2026-11-26T14:17:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3675",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3673,
+      "title": "[ATOM gRPC] The atom.grpc.v1 service: proto, generated modules, info, Generate, Abort and structured output",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T14:10:24Z",
+      "updated_at": "2026-11-26T14:16:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3673",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3881,
+      "title": "Profile DP-unified decode before mixed KV sizing",
+      "author": "jiayyu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T06:07:58Z",
+      "updated_at": "2026-11-26T14:15:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3881",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3679,
+      "title": "[ATOM gRPC] atomesh: route ATOM requests over the Session (--atom-grpc-session)",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T14:10:40Z",
+      "updated_at": "2026-11-26T14:14:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3679",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3887,
+      "title": "[SGLang] Transfer Native Qwen4Exp QSA and PLE state in PD",
+      "author": "apinge",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T08:29:16Z",
+      "updated_at": "2026-11-26T14:08:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3887",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3417,
+      "title": "docs: ATOMesh multimodal image requests and E/P/D disaggregation design",
+      "author": "junyyang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T08:59:13Z",
+      "updated_at": "2026-11-26T14:04:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3417",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3415,
+      "title": "ci(atomesh): M3.1 image case in models_atomesh.yaml and its ci-case check",
+      "author": "junyyang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T08:59:08Z",
+      "updated_at": "2026-11-26T14:04:19Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3415",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3409,
+      "title": "feat(mesh): run E before P for image chat requests, falling back to PD",
+      "author": "junyyang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T08:58:52Z",
+      "updated_at": "2026-11-26T14:04:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3409",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3897,
+      "title": "[MiniMax-M3] TP 1 norms write the native MXFP8 linear's input in one aiter launch (opt-in)",
+      "author": "lirui927",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T13:18:16Z",
+      "updated_at": "2026-11-26T13:50:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3897",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3812,
+      "title": "[MiniMax-M3.1] SP prefill: o_proj all-to-all through aiter's general all_to_all (drops _PullColl)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T00:15:12Z",
+      "updated_at": "2026-11-26T13:41:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3812",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3811,
+      "title": "[MiniMax-M3.1] SP prefill: read moe.fhmoe with getattr (FHMoE is not on main)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T23:39:29Z",
+      "updated_at": "2026-11-26T13:41:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3811",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3808,
+      "title": "[MiniMax-M3.1] SP prefill: norm + quant hand-off chains through aiter norm_mx (-2.5 ms per 16K chunk)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T18:00:24Z",
+      "updated_at": "2026-11-26T13:41:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3808",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3807,
+      "title": "[MiniMax-M3.1] SP prefill glue: routed scale + shared add in the MoE reduce, one-launch a2a unpack (-4.3 ms per 16K chunk)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T17:59:53Z",
+      "updated_at": "2026-11-26T13:41:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3807",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3805,
+      "title": "[MiniMax-M3.1] SP prefill: owner-local shared expert (ATOM_M3_SP_SHARED_LOCAL), -16..-19% MoE layer",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T15:57:35Z",
+      "updated_at": "2026-11-26T13:41:09Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3805",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3411,
+      "title": "feat(engine): image embedding transport over Mooncake",
+      "author": "junyyang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T08:58:58Z",
+      "updated_at": "2026-11-26T13:35:30Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3411",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2903,
+      "title": "[DSV4.1][Perf] Fuse Q RoPE/quant, sparse attention and output cast through AITER",
+      "author": "yzhou103",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T07:39:08Z",
+      "updated_at": "2026-11-26T13:26:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2903",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3898,
+      "title": "Kimi-K3.1 KDA prefill glue: fused state and input gathers, region output buffer (depends on #3896)",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T13:18:38Z",
+      "updated_at": "2026-11-26T13:18:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3898",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3862,
+      "title": "ci: maintainer-only manual runs; heavy-CI evaluator in shadow mode",
+      "author": "valarLip",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T17:05:05Z",
+      "updated_at": "2026-11-26T13:06:59Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3862",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3896,
+      "title": "Kimi-K3.1 KDA prefill: tiled/sliding conv, paged state, FlashKDA schedules, checkpoint split",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T11:56:49Z",
+      "updated_at": "2026-11-26T12:53:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3896",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3344,
+      "title": "feat(mesh): KV events 5/5 \u2014 tiered scoring: cache_aware weighs Mooncake Store hits",
+      "author": "wanzhenchn",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-14T03:44:51Z",
+      "updated_at": "2026-11-26T12:29:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3344",
+      "labels": [
+        "ci:mesh"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3412,
+      "title": "feat(engine): encoder-only openai_server; prefill reads E's image embeddings",
+      "author": "junyyang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T08:59:00Z",
+      "updated_at": "2026-11-26T12:26:39Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3412",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3880,
+      "title": "[AtomRL] Release the full-model staging memory after FSDP2 sharding",
+      "author": "wenchenvincent",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T05:22:02Z",
+      "updated_at": "2026-11-26T12:08:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3880",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3876,
+      "title": "perf(dsv41): run gfx942 prefill mHC seams on a row kernel and one hipBLASLt GEMM",
+      "author": "bobofang11235",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T03:26:38Z",
+      "updated_at": "2026-11-26T11:43:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3876",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3895,
+      "title": "[Kimi-K3.1] Mono decode: lean rebuilds for spilled widths, K1/K2 hand-offs, DSA indexer options",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T11:16:23Z",
+      "updated_at": "2026-11-26T11:16:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3895",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3894,
+      "title": "[DeepSeek-V4.1] MegaMoE: target layers hand their FP8 shared expert to the routed call (aiter shared_in, needs ROCm/aiter#8491)",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T11:15:34Z",
+      "updated_at": "2026-11-26T11:16:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3894",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": true
+    },
+    {
+      "number": 3748,
+      "title": "fix(graphs): ATOM_GRAPH_SIDE_STREAMS=0 records every CUDA graph on one stream",
+      "author": "PerryZhang01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T12:55:11Z",
+      "updated_at": "2026-11-26T11:06:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3748",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3638,
+      "title": "Port Kimi column-tail and auxiliary dataflow to main",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T09:23:09Z",
+      "updated_at": "2026-11-26T10:44:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3638",
+      "labels": [
+        "agent-team/hold-landing"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3432,
+      "title": "[Sgl Atom][perf] read FlyDSL's VK GDN chunk states in place instead of transposing h",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T17:35:07Z",
+      "updated_at": "2026-11-26T10:43:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3432",
+      "labels": [
+        "ci:sglang",
+        "LGTM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3828,
+      "title": "feat(kv): opt into native L1 FABRIC sharing across trays",
+      "author": "wuyl1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T05:44:38Z",
+      "updated_at": "2026-11-26T10:29:08Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3828",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3686,
+      "title": "embed_head: mask out-of-range ids at TP1 too",
+      "author": "zejunchen-zejun",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-21T20:20:48Z",
+      "updated_at": "2026-11-26T10:25:48Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3686",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3847,
+      "title": "[atomrl] Sync framework plugin integrations",
+      "author": "ZhangDanyang-AMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T11:43:13Z",
+      "updated_at": "2026-11-26T10:22:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3847",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3408,
+      "title": "feat(mesh): declare encode workers beside prefill and decode",
+      "author": "junyyang-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T08:58:49Z",
+      "updated_at": "2026-11-26T10:18:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3408",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3587,
+      "title": "Row-shard Kimi attention residual and latent MoE tail",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T11:34:30Z",
+      "updated_at": "2026-11-26T10:18:10Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3587",
+      "labels": [
+        "agent-team/hold-landing"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3883,
+      "title": "feat(eplb): swap placement policy that stops when no swap gains",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T06:24:59Z",
+      "updated_at": "2026-11-26T10:16:02Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3883",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3852,
+      "title": "perf(minimax-m3): DSpark Markov chain of one request in one persistent gfx1250 launch",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T13:17:02Z",
+      "updated_at": "2026-11-26T10:14:05Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3852",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3628,
+      "title": "Fuse Kimi ReplaySSM decode and verify with convolution and gate projection",
+      "author": "whx-sjtu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T06:47:51Z",
+      "updated_at": "2026-11-26T10:08:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3628",
+      "labels": [
+        "agent-team/hold-landing"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3715,
+      "title": "feat(offload): runtime switch for lmcache_mp tier lookups",
+      "author": "HaonanWang98",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T02:56:54Z",
+      "updated_at": "2026-11-26T09:49:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3715",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3891,
+      "title": "feat(weight_cache): refresh what modules derived from the weights after a load",
+      "author": "HaonanWang98",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T09:47:02Z",
+      "updated_at": "2026-11-26T09:47:02Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3891",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3778,
+      "title": "[MLA] bf16 sparse prefill: run on mla_decode_fwd, drop asm mla_prefill_fwd",
+      "author": "yitingw1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T09:36:52Z",
+      "updated_at": "2026-11-26T09:35:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3778",
+      "labels": [
+        "ci:atom",
+        "ci:sglang"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3800,
+      "title": "[MiniMax-M3.1] P/D prefill PP stage boundary over HIP IPC: SDMA copies into the next stage's ring, 2x in-flight, async last-stage output",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T15:23:11Z",
+      "updated_at": "2026-11-26T09:27:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3800",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3890,
+      "title": "feat(mesh): power_of_two reads vLLM /metrics load per url@rank",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T09:18:23Z",
+      "updated_at": "2026-11-26T09:25:35Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3890",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3761,
+      "title": "Atom plugin poc",
+      "author": "demonsan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T01:35:13Z",
+      "updated_at": "2026-11-26T09:15:49Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3761",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3544,
+      "title": "fix(runner): a V4.1 mono hi server survives a prefill chunk between two device-round verifies",
+      "author": "PerryZhang01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T03:26:22Z",
+      "updated_at": "2026-11-26T09:13:07Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3544",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3851,
+      "title": "perf(engine): cut decode-step host time: one capture check per epoch, Triton fast launch",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T13:14:20Z",
+      "updated_at": "2026-11-26T09:03:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3851",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3773,
+      "title": "perf(pd): overlap the P->D KV transfer with prefill via early handoff (on by default)",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T06:57:44Z",
+      "updated_at": "2026-11-26T09:01:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3773",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3777,
+      "title": "perf(dp): let DP ranks idle while their only work is blocked (on by default on P/D prefill)",
+      "author": "ZhangLirong-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T09:29:22Z",
+      "updated_at": "2026-11-26T14:00:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3777",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3785,
+      "title": "[MiniMax-M3] NVFP4 decode: let the attention select the index top-16 (opt-in)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T13:48:19Z",
+      "updated_at": "2026-11-26T08:58:40Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3785",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3787,
+      "title": "[MiniMax-M3] Decode MoE through aiter's mega_moe_tp decode ops (ATOM_M3_DECODE_MOE, opt-in)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T14:10:11Z",
+      "updated_at": "2026-11-26T08:57:57Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3787",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3783,
+      "title": "[MiniMax-M3] Prefill token graphs for the sparse-attention builder (ATOM_M3_PREFILL_TOKEN_GRAPH)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T13:28:20Z",
+      "updated_at": "2026-11-26T08:57:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3783",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2904,
+      "title": "feat(minimax-m3): record prefill as token graphs",
+      "author": "lirui927",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-02T08:20:51Z",
+      "updated_at": "2026-11-26T08:56:25Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2904",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3806,
+      "title": "MiniMax-M3: sparse decode attention writes o_proj's MXFP8 input (ATOM_M3_ATTN_QOUT)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T17:00:58Z",
+      "updated_at": "2026-11-26T08:50:25Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3806",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2493,
+      "title": "[MiniMax-M3] Score the lightning indexer with aiter's FlyDSL kernels",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-08T03:02:40Z",
+      "updated_at": "2026-11-26T08:44:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2493",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3518,
+      "title": "build(docker): cut ~15 GB of dead weight from the release images",
+      "author": "maple52046",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T10:16:28Z",
+      "updated_at": "2026-11-26T08:38:41Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3518",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3888,
+      "title": "[SGL ATOM] Upgrade SGLang to 0.5.23",
+      "author": "zhangxinyuanliuhengyu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T08:32:36Z",
+      "updated_at": "2026-11-26T08:32:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3888",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3760,
+      "title": "[DSV4.1] FP8 KV cache on gfx942 without AITER MXFP8 sparse attention",
+      "author": "bobofang11235",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T01:33:54Z",
+      "updated_at": "2026-11-26T08:28:42Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3760",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3578,
+      "title": "feat(mesh): session affinity 1/4 \u2014 dp_sticky releases a session binding when its request fails",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T08:16:55Z",
+      "updated_at": "2026-11-26T08:25:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3578",
+      "labels": [
+        "ci:mesh"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3886,
+      "title": "feat(kv): umbp_pool under tensor-parallel attention, and for MiniMax-M3",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T08:10:59Z",
+      "updated_at": "2026-11-26T08:11:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3886",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3525,
+      "title": "feat(mesh): session affinity 4/4 \u2014 the session table around other routing policies, per pool",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T14:22:00Z",
+      "updated_at": "2026-11-26T08:06:16Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3525",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3206,
+      "title": "feat(mesh): session affinity 3/4 \u2014 configurable session keys, TTL and table size for dp_sticky",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-11T08:50:19Z",
+      "updated_at": "2026-11-26T08:06:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3206",
+      "labels": [
+        "ci:mesh"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3579,
+      "title": "refactor(mesh): session affinity 2/4 \u2014 a session table around an inner policy, dp_sticky on it",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T08:16:59Z",
+      "updated_at": "2026-11-26T08:06:13Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3579",
+      "labels": [
+        "ci:mesh"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3611,
+      "title": "perf(minimax-m3): feed native MXFP8 linears from the fused AR + RMSNorm + MXFP8 quant",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T02:58:43Z",
+      "updated_at": "2026-11-26T06:58:50Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3611",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3855,
+      "title": "perf(minimax-m3): DSpark draft block metadata in one launch",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T13:52:11Z",
+      "updated_at": "2026-11-26T06:57:34Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3855",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3495,
+      "title": "perf(minimax-m3): plan cached sparse prefill by prefix saturation",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T05:18:45Z",
+      "updated_at": "2026-11-26T06:48:52Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3495",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3564,
+      "title": "feat(minimax-m3): DSpark block attention with several KV heads per rank (TP1 under DP + EP)",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T06:53:03Z",
+      "updated_at": "2026-11-26T06:44:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3564",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3840,
+      "title": "fix(api_server): run the front-end workers on jemalloc so their memory stops growing",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T08:41:10Z",
+      "updated_at": "2026-11-26T06:42:15Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3840",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3882,
+      "title": "[gfx1250] Mxfp4 MoE: shuffle weight and scale with moe_shuffle_weight_scale for IOD-placed MoE weights",
+      "author": "Boss2002n",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T06:18:38Z",
+      "updated_at": "2026-11-26T06:18:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3882",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2616,
+      "title": "fix(moe): keep the shared expert unfused on MegaMoE's MoRI dispatch",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-16T13:58:39Z",
+      "updated_at": "2026-11-26T06:04:58Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2616",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3443,
+      "title": "perf(dsv41): write the DSpark input taps straight into the drafter's aux buffer (level 0)",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-16T18:30:23Z",
+      "updated_at": "2026-11-26T05:30:36Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3443",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3727,
+      "title": "Fix FP8 block MoE loading for TP shards smaller than a quantization block",
+      "author": "ZLkanyo009",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T05:21:46Z",
+      "updated_at": "2026-11-26T05:12:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3727",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3775,
+      "title": "[Scheduler] Opt-in prefill policies for decode-heavy serving: prefill caps, duty cycle, finish/ITL-risk holds, generated-block demotion",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T08:53:22Z",
+      "updated_at": "2026-11-26T04:53:40Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3775",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3790,
+      "title": "docs(recipes): MiniMax-M3.1 TP4 AgentX opt-in flags and the PRs that provide them",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T14:30:09Z",
+      "updated_at": "2026-11-26T04:51:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3790",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1879,
+      "title": "Optimize statecache and prefix caching strategy for Mamba like models",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-13T01:14:42Z",
+      "updated_at": "2026-11-26T04:51:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1879",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1947,
+      "title": "state checkpoint port optimized",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-19T03:28:24Z",
+      "updated_at": "2026-11-26T04:51:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1947",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2629,
+      "title": "follow-up(#2535): mono review items that need no GPU",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-19T06:21:32Z",
+      "updated_at": "2026-11-26T04:51:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2629",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1150,
+      "title": "minimax allreduce rmsnorm quant",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-06-10T06:17:35Z",
+      "updated_at": "2026-11-26T04:51:16Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1150",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1842,
+      "title": "perf(kimi-k3): fuse the KDA prefill gather, scatter, and output copy",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-10T06:27:56Z",
+      "updated_at": "2026-11-26T04:51:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1842",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2024,
+      "title": "state checkpoint superblock",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-26T02:56:57Z",
+      "updated_at": "2026-11-26T04:51:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2024",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2158,
+      "title": "[Scheduler] Shortest-job-first prefill admission to cut p90 TTFT",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-07T12:51:38Z",
+      "updated_at": "2026-11-26T04:51:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2158",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3810,
+      "title": "[M3] decode: QKV front chain window 17-64 -> 17-128 rows (-0.4..-0.5 ms per decode step at B9-B16)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T19:19:47Z",
+      "updated_at": "2026-11-26T04:51:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3810",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 2661,
+      "title": "[DSpark] let --max-num-seqs 1 start: size the engine for 2, schedule 1",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-21T02:04:02Z",
+      "updated_at": "2026-11-26T04:50:51Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2661",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3809,
+      "title": "[M3] decode: 17-64 row QKV front chain (quantize in the linear + one-launch GEMM/norm/RoPE/insert), ATOM_M3_QKV_CHAIN default off",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T18:07:20Z",
+      "updated_at": "2026-11-26T04:50:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3809",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3788,
+      "title": "[MiniMax-M3] Prefill index top-16 through topk_per_row_small_k (ATOM_M3_PREFILL_TOPK_FLYDSL for narrow rows)",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T14:20:59Z",
+      "updated_at": "2026-11-26T04:49:25Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3788",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2274,
+      "title": "[atom-rl] Enable Rollout Router Replay (R3)",
+      "author": "sudhu2k",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-09-17T21:03:54Z",
+      "updated_at": "2026-11-26T04:39:10Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3856,
+      "title": "perf(minimax-m3): DSpark draft PA: window-sized splits, one plan a pass",
+      "author": "XiaobingSuper",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T13:59:37Z",
+      "updated_at": "2026-11-26T04:26:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3856",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3878,
+      "title": "feat(dsv41 mono): serve EPLB without redundant experts",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T04:14:41Z",
+      "updated_at": "2026-11-26T04:15:02Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3878",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3877,
+      "title": "feat(weight_cache): stop/load in place, one daemon entry, more launch modes",
+      "author": "HaonanWang98",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T03:58:05Z",
+      "updated_at": "2026-11-26T03:58:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3877",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3568,
+      "title": "ci(mesh): select agentic prefill and least_load decode on two DPA cases",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T07:40:36Z",
+      "updated_at": "2026-11-26T03:26:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3568",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3567,
+      "title": "feat(mesh): charge decode least_load when the request is selected",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T07:40:33Z",
+      "updated_at": "2026-11-26T03:21:46Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3567",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3724,
+      "title": "[MiniMax-M3.1] Step watchdog and GPU guard for Mono decode stalls",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T04:25:05Z",
+      "updated_at": "2026-11-26T03:10:05Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3724",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3860,
+      "title": "feat(mesh): charge ext-proc and gRPC single-worker streaming prefill",
+      "author": "MengqingCao",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T14:41:55Z",
+      "updated_at": "2026-11-26T02:51:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3860",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3789,
+      "title": "[DSpark] ATOM_DSPARK_BLOCK_BS_LADDER pins the draft block's batch to a few sizes",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T14:28:55Z",
+      "updated_at": "2026-11-26T02:49:33Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3789",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3723,
+      "title": "[MiniMax-M3.1] DSpark draft: Gemma RMSNorm writes the MXFP8 input of the next linear; one GEMM for all context K/V",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T04:25:02Z",
+      "updated_at": "2026-11-26T02:49:30Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3723",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3722,
+      "title": "[MiniMax-M3.1] DSpark block: metadata and embedding in one kernel each, pages published with the step's sampling upload",
+      "author": "ganyi1996ppo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T04:25:00Z",
+      "updated_at": "2026-11-26T02:49:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3722",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1926,
+      "title": "perf(eplb): remove shared-expert cold-start and decode overhead",
+      "author": "JiaoliangYu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-08-17T10:00:33Z",
+      "updated_at": "2026-11-26T02:46:43Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/1926",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3540,
+      "title": "fix(tests): the freeze, load-counter and Mooncake-port tests fail only on what they test",
+      "author": "PerryZhang01",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T03:14:47Z",
+      "updated_at": "2026-11-26T02:46:21Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3540",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3839,
+      "title": "perf(sampler): skip the greedy-row argmax when no request in the batch is greedy",
+      "author": "yhl-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T08:41:03Z",
+      "updated_at": "2026-11-26T02:45:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3839",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 2814,
+      "title": "perf(kimi-k3): stream attn-res candidate rows through LDS with TDM on gfx1250",
+      "author": "yanxuer-999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-29T07:55:28Z",
+      "updated_at": "2026-11-26T02:28:01Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2814",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3845,
+      "title": "feat(eplb): gate-permute EPLB with a swap policy, no redundant experts (stacked on #3186)",
+      "author": "zhiding512",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T11:01:12Z",
+      "updated_at": "2026-11-26T01:51:38Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3845",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3870,
+      "title": "[Qwen3.5/3.6 recipe] 2026-11-25: GDN verify occupancy, MoE expert lookup, wide router/shared scheduling at c256-c1024",
+      "author": "azaidy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T00:56:49Z",
+      "updated_at": "2026-11-26T00:56:49Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3870",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3869,
+      "title": "[gfx1250][Qwen3.5] Mixed prefill + decode steps (opt-in ATOM_MIXED_STEP, numerical)",
+      "author": "azaidy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T00:56:47Z",
+      "updated_at": "2026-11-26T00:56:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3869",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3868,
+      "title": "[gfx1250][Qwen3.5] Low-concurrency decode: 9 fewer ops per step (all opt-in)",
+      "author": "azaidy",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T00:56:43Z",
+      "updated_at": "2026-11-26T00:56:43Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3868",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3757,
+      "title": "[Feature] IQ2R glm53_moe: load IQ2R-v2 checkpoints (glm53-packed-v2/-v3), shared expert fused into the IQ2R launches",
+      "author": "ssharma4-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T20:35:17Z",
+      "updated_at": "2026-11-26T00:08:52Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3757",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3791,
+      "title": "[MiniMax-M3.1] Sparse prefill on the GQA-16 ASM kernel; gfx950 prefill selector from 160 blocks and a post-reduce index scale",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T15:21:54Z",
+      "updated_at": "2026-11-25T23:07:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3791",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3794,
+      "title": "[MiniMax-M3.1] TP1 prefill: aiter qknorm_v3 for the q/k/index norm, RoPE and cache write from 640 tokens",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T15:22:20Z",
+      "updated_at": "2026-11-25T23:07:27Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3794",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3795,
+      "title": "[MiniMax-M3.1] Token-tiled sparse prefill attention at TP1 for contexts up to 32K",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T15:22:28Z",
+      "updated_at": "2026-11-25T23:07:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3795",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3796,
+      "title": "[MiniMax-M3.1] TP1 decoder layer: fused add+RMSNorm with MXFP8 outputs, HIP MXFP8 quant, SwiGLU+MXFP8, MoE output folded into the next norm",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T15:22:37Z",
+      "updated_at": "2026-11-25T23:07:20Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3796",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 3801,
+      "title": "[MiniMax-M3.1] DSpark draft context K/V at TP1: one stacked K/V GEMM and one cache write for every draft layer",
+      "author": "Jasen2201",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T15:23:19Z",
+      "updated_at": "2026-11-25T23:07:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3801",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 3620,
@@ -61,20 +1888,6 @@
       "updated_at": "2026-11-25T17:05:57Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3620",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3840,
-      "title": "fix(api_server): run the front-end workers on jemalloc so their memory stops growing",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T08:41:10Z",
-      "updated_at": "2026-11-25T16:56:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3840",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     },
     {
@@ -92,241 +1905,6 @@
       "draft": false
     },
     {
-      "number": 3636,
-      "title": "Restore Kimi-K3.1 token graphs and qualify zero-addend storage",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T08:59:52Z",
-      "updated_at": "2026-11-25T16:21:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3636",
-      "labels": [
-        "agent-team/hold-landing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3839,
-      "title": "perf(sampler): skip the greedy-row argmax when no request in the batch is greedy",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T08:41:03Z",
-      "updated_at": "2026-11-25T16:18:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3839",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3501,
-      "title": "Build Kimi ladder, demand and anchor checkpoints with head re-runs",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T06:42:20Z",
-      "updated_at": "2026-11-25T15:40:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3501",
-      "labels": [
-        "ci:atom",
-        "LGTM",
-        "agent-team/hold-landing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3761,
-      "title": "Atom plugin poc",
-      "author": "demonsan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T01:35:13Z",
-      "updated_at": "2026-11-25T15:37:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3761",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3311,
-      "title": "Cut Kimi-K3.1's DCP sparse prefill overhead in its DSA layers",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T08:28:11Z",
-      "updated_at": "2026-11-25T15:34:45Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3311",
-      "labels": [
-        "agent-team/hold-landing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3828,
-      "title": "feat(kv): opt into native L1 FABRIC sharing across trays",
-      "author": "wuyl1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T05:44:38Z",
-      "updated_at": "2026-11-25T15:22:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3828",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3525,
-      "title": "feat(mesh): session affinity 4/4 \u2014 the session table around other routing policies, per pool",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T14:22:00Z",
-      "updated_at": "2026-11-25T15:14:36Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3525",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3432,
-      "title": "[Sgl Atom][perf] read FlyDSL's VK GDN chunk states in place instead of transposing h",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T17:35:07Z",
-      "updated_at": "2026-11-25T15:13:56Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3432",
-      "labels": [
-        "ci:sglang",
-        "LGTM"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3732,
-      "title": "[SGLang plugin] DeepSeek-V4.1-Flash: DSpark speculative decoding (draft, graphs, radix, sampled verify)",
-      "author": "ZhiweiYan-96",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T07:50:00Z",
-      "updated_at": "2026-11-25T15:08:24Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3732",
-      "labels": [
-        "ci:sglang"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3406,
-      "title": "feat(mesh): agentic routing policy on the KV event index",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T08:48:35Z",
-      "updated_at": "2026-11-25T15:06:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3406",
-      "labels": [
-        "ci:mesh"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3510,
-      "title": "[MiniMax-M3.1] Prefill TBO (DBO) under pure TP",
-      "author": "zhuyuhua-v",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T08:15:52Z",
-      "updated_at": "2026-11-25T15:05:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3510",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3511,
-      "title": "[MiniMax-M3.1] Sequence-parallel prefill under pure TP",
-      "author": "zhuyuhua-v",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T08:15:55Z",
-      "updated_at": "2026-11-25T14:58:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3511",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3812,
-      "title": "[MiniMax-M3.1] SP prefill: o_proj all-to-all through aiter's general all_to_all (drops _PullColl)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T00:15:12Z",
-      "updated_at": "2026-11-25T14:55:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3812",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3811,
-      "title": "[MiniMax-M3.1] SP prefill: read moe.fhmoe with getattr (FHMoE is not on main)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T23:39:29Z",
-      "updated_at": "2026-11-25T14:55:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3811",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3808,
-      "title": "[MiniMax-M3.1] SP prefill: norm + quant hand-off chains through aiter norm_mx (-2.5 ms per 16K chunk)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T18:00:24Z",
-      "updated_at": "2026-11-25T14:55:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3808",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3807,
-      "title": "[MiniMax-M3.1] SP prefill glue: routed scale + shared add in the MoE reduce, one-launch a2a unpack (-4.3 ms per 16K chunk)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T17:59:53Z",
-      "updated_at": "2026-11-25T14:55:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3807",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3805,
-      "title": "[MiniMax-M3.1] SP prefill: owner-local shared expert (ATOM_M3_SP_SHARED_LOCAL), -16..-19% MoE layer",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T15:57:35Z",
-      "updated_at": "2026-11-25T14:55:28Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3805",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3481,
-      "title": "feat(mesh): count in-flight prefill tokens per worker (url@rank)",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T15:43:16Z",
-      "updated_at": "2026-11-25T14:47:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3481",
-      "labels": [
-        "ci:mesh"
-      ],
-      "draft": false
-    },
-    {
       "number": 3861,
       "title": "feat(mesh): charge non-streaming single-worker prefill, release on the KV event",
       "author": "MengqingCao",
@@ -335,18 +1913,6 @@
       "created_at": "2026-11-25T14:41:58Z",
       "updated_at": "2026-11-25T14:41:58Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3861",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3860,
-      "title": "feat(mesh): charge ext-proc and gRPC single-worker streaming prefill",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T14:41:55Z",
-      "updated_at": "2026-11-25T14:41:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3860",
       "labels": [],
       "draft": false
     },
@@ -386,30 +1952,6 @@
       "labels": [
         "agent-team/hold-landing"
       ],
-      "draft": false
-    },
-    {
-      "number": 3854,
-      "title": "perf(pd): accept prompt ids as base64 packed uint32 to cut decode ingest cost (ATOM_PROMPT_IDS_B64, opt-in)",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T13:26:50Z",
-      "updated_at": "2026-11-25T14:08:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3854",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3818,
-      "title": "feat(mesh): render every chat in Rust, DeepSeek V3.2 / V4 / V4.1 and Kimi-K3 as ATOM renders them",
-      "author": "Yuechguo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T03:54:30Z",
-      "updated_at": "2026-11-25T14:03:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3818",
-      "labels": [],
       "draft": false
     },
     {
@@ -471,21 +2013,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3440",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3610,
-      "title": "fix(api): fold mid-conversation system messages for templates that cannot take them; tool results before text",
-      "author": "yitingw1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T02:56:54Z",
-      "updated_at": "2026-11-25T14:01:34Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3610",
-      "labels": [
-        "ci:atom",
-        "LGTM"
-      ],
-      "draft": false
     },
     {
       "number": 2855,
@@ -608,18 +2135,6 @@
       "draft": true
     },
     {
-      "number": 3847,
-      "title": "[atomrl] Sync framework plugin integrations",
-      "author": "ZhangDanyang-AMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T11:43:13Z",
-      "updated_at": "2026-11-25T14:00:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3847",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2222,
       "title": "perf(loader): separate streaming and drain concurrency",
       "author": "JiaoliangYu",
@@ -655,18 +2170,6 @@
       "labels": [
         "performance"
       ],
-      "draft": true
-    },
-    {
-      "number": 3856,
-      "title": "perf(minimax-m3): DSpark draft PA: window-sized splits, one plan a pass",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T13:59:37Z",
-      "updated_at": "2026-11-25T14:00:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3856",
-      "labels": [],
       "draft": true
     },
     {
@@ -708,46 +2211,6 @@
       "draft": true
     },
     {
-      "number": 3855,
-      "title": "perf(minimax-m3): DSpark draft block metadata in one launch",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T13:52:11Z",
-      "updated_at": "2026-11-25T13:53:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3855",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3838,
-      "title": "perf(dsv41): indexer: wide block-maxima grid on gfx950, and candidate-source layers pick their top-k inside their own blocks",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T08:39:26Z",
-      "updated_at": "2026-11-25T13:48:54Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3838",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3578,
-      "title": "feat(mesh): session affinity 1/4 \u2014 dp_sticky releases a session binding when its request fails",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T08:16:55Z",
-      "updated_at": "2026-11-25T13:43:32Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3578",
-      "labels": [
-        "ci:mesh"
-      ],
-      "draft": false
-    },
-    {
       "number": 3619,
       "title": "perf(minimax-m3): fuse SwiGLU-OAI with the down projection's MXFP8 quant",
       "author": "XiaobingSuper",
@@ -772,45 +2235,6 @@
       "draft": false
     },
     {
-      "number": 3564,
-      "title": "feat(minimax-m3): DSpark block attention with several KV heads per rank (TP1 under DP + EP)",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T06:53:03Z",
-      "updated_at": "2026-11-25T13:39:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3564",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3495,
-      "title": "perf(minimax-m3): plan cached sparse prefill by prefix saturation",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T05:18:45Z",
-      "updated_at": "2026-11-25T13:39:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3495",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2942,
-      "title": "feat(kimi-k3): record prefill as token graphs",
-      "author": "gbyu-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T08:39:28Z",
-      "updated_at": "2026-11-25T13:36:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2942",
-      "labels": [
-        "ci:atom",
-        "LGTM"
-      ],
-      "draft": false
-    },
-    {
       "number": 3853,
       "title": "perf(minimax-m3): Stage O: o_proj + post-attention AR + RMSNorm in one gfx1250 launch (partial: non-SP path only)",
       "author": "XiaobingSuper",
@@ -823,80 +2247,6 @@
       "draft": true
     },
     {
-      "number": 3852,
-      "title": "perf(minimax-m3): DSpark Markov chain of one request in one persistent gfx1250 launch",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T13:17:02Z",
-      "updated_at": "2026-11-25T13:17:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3852",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3851,
-      "title": "perf(engine): cut decode-step host time: one capture check per epoch, plain pinned memcpy, Triton fast launch",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T13:14:20Z",
-      "updated_at": "2026-11-25T13:14:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3851",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3773,
-      "title": "perf(pd): overlap the P->D KV transfer with prefill via early handoff (opt-in)",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T06:57:44Z",
-      "updated_at": "2026-11-25T13:06:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3773",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3344,
-      "title": "feat(mesh): KV events 5/5 \u2014 tiered scoring: cache_aware weighs Mooncake Store hits",
-      "author": "wanzhenchn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T03:44:51Z",
-      "updated_at": "2026-11-25T13:01:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3344",
-      "labels": [
-        "ci:mesh"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3777,
-      "title": "perf(dp): let DP ranks idle while their only work is blocked (opt-in)",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T09:29:22Z",
-      "updated_at": "2026-11-25T12:55:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3777",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3772,
-      "title": "perf(offload): overlap Store loads with the forward ahead of schedule() (opt-in)",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T06:36:51Z",
-      "updated_at": "2026-11-25T12:55:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3772",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3513,
       "title": "feat(pd): MoRIIO P/D KV over the UALoE fabric for MiniMax-M3 (moriio_backend: fabric)",
       "author": "Yuechguo",
@@ -905,30 +2255,6 @@
       "created_at": "2026-11-18T08:29:06Z",
       "updated_at": "2026-11-25T12:54:46Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3513",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3849,
-      "title": "[atomrl] Fix GPU CI concurrency groups and move AtomRL GPU shards to linux-atom-do-mi350x-8",
-      "author": "ZhangDanyang-AMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T11:55:48Z",
-      "updated_at": "2026-11-25T12:29:16Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3849",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3748,
-      "title": "fix(graphs): ATOM_GRAPH_SIDE_STREAMS=0 records every CUDA graph on one stream",
-      "author": "PerryZhang01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T12:55:11Z",
-      "updated_at": "2026-11-25T12:27:01Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3748",
       "labels": [],
       "draft": false
     },
@@ -957,34 +2283,6 @@
       "draft": true
     },
     {
-      "number": 3491,
-      "title": "[gfx1250] NVFP4 MLA KV cache and decode for DeepSeek-R1",
-      "author": "yzhou103",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T03:36:30Z",
-      "updated_at": "2026-11-25T12:20:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3491",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3407,
-      "title": "feat(mesh): key routing by image identity and log the media count per selection",
-      "author": "junyyang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T08:58:46Z",
-      "updated_at": "2026-11-25T11:32:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3407",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
       "number": 3615,
       "title": "Build DCP FP4 staging indices once per forward",
       "author": "whx-sjtu",
@@ -999,74 +2297,6 @@
       "draft": false
     },
     {
-      "number": 3715,
-      "title": "feat(offload): runtime switch for lmcache_mp tier lookups",
-      "author": "HaonanWang98",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T02:56:54Z",
-      "updated_at": "2026-11-25T11:18:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3715",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3845,
-      "title": "feat(eplb): gate-permute EPLB with a swap policy, no redundant experts (stacked on #3186)",
-      "author": "zhiding512",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T11:01:12Z",
-      "updated_at": "2026-11-25T11:01:35Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3845",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3628,
-      "title": "Fuse Kimi ReplaySSM decode and verify with convolution and gate projection",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T06:47:51Z",
-      "updated_at": "2026-11-25T10:56:58Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3628",
-      "labels": [
-        "agent-team/hold-landing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3206,
-      "title": "feat(mesh): session affinity 3/4 \u2014 configurable session keys, TTL and table size for dp_sticky",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T08:50:19Z",
-      "updated_at": "2026-11-25T10:41:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3206",
-      "labels": [
-        "ci:mesh"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3579,
-      "title": "refactor(mesh): session affinity 2/4 \u2014 a session table around an inner policy, dp_sticky on it",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T08:16:59Z",
-      "updated_at": "2026-11-25T10:41:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3579",
-      "labels": [
-        "ci:mesh"
-      ],
-      "draft": false
-    },
-    {
       "number": 3831,
       "title": "perf(deepseek-v41): capture quantized prefill attention",
       "author": "yzhou103",
@@ -1075,121 +2305,6 @@
       "created_at": "2026-11-25T07:23:25Z",
       "updated_at": "2026-11-25T10:06:36Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3831",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1926,
-      "title": "perf(eplb): remove shared-expert cold-start and decode overhead",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-17T10:00:33Z",
-      "updated_at": "2026-11-25T09:54:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1926",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3587,
-      "title": "Row-shard Kimi attention residual and latent MoE tail",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T11:34:30Z",
-      "updated_at": "2026-11-25T09:26:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3587",
-      "labels": [
-        "agent-team/hold-landing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2274,
-      "title": "[Lumen-RL] Enable Rollout Router Replay (R3)",
-      "author": "sudhu2k",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-17T21:03:54Z",
-      "updated_at": "2026-11-25T09:14:58Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2274",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3778,
-      "title": "[MLA] bf16 sparse prefill: run on mla_decode_fwd, drop asm mla_prefill_fwd",
-      "author": "yitingw1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T09:36:52Z",
-      "updated_at": "2026-11-25T09:03:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3778",
-      "labels": [
-        "ci:atom",
-        "ci:sglang"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3612,
-      "title": "Gather DCP decode candidates in the merge layout",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T03:59:37Z",
-      "updated_at": "2026-11-25T08:46:24Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3612",
-      "labels": [
-        "agent-team/hold-landing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3417,
-      "title": "docs: ATOMesh multimodal image requests and E/P/D disaggregation design",
-      "author": "junyyang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T08:59:13Z",
-      "updated_at": "2026-11-25T08:34:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3417",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3415,
-      "title": "ci(atomesh): M3.1 image case in models_atomesh.yaml and its ci-case check",
-      "author": "junyyang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T08:59:08Z",
-      "updated_at": "2026-11-25T08:33:04Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3415",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3788,
-      "title": "[MiniMax-M3] Prefill index top-16 through topk_per_row_small_k (ATOM_M3_PREFILL_TOPK_FLYDSL for narrow rows)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T14:20:59Z",
-      "updated_at": "2026-11-25T08:26:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3788",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3409,
-      "title": "feat(mesh): run E before P for image chat requests, falling back to PD",
-      "author": "junyyang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T08:58:52Z",
-      "updated_at": "2026-11-25T08:23:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3409",
       "labels": [],
       "draft": false
     },
@@ -1256,46 +2371,6 @@
       "draft": true
     },
     {
-      "number": 3577,
-      "title": "Allocate Kimi's block-residual bank once per forward",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T08:16:14Z",
-      "updated_at": "2026-11-25T07:53:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3577",
-      "labels": [
-        "agent-team/hold-landing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3412,
-      "title": "feat(engine): encoder-only openai_server; prefill reads E's image embeddings",
-      "author": "junyyang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T08:59:00Z",
-      "updated_at": "2026-11-25T07:33:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3412",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3638,
-      "title": "Port Kimi column-tail and auxiliary dataflow to main",
-      "author": "whx-sjtu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T09:23:09Z",
-      "updated_at": "2026-11-25T07:06:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3638",
-      "labels": [
-        "agent-team/hold-landing"
-      ],
-      "draft": false
-    },
-    {
       "number": 3637,
       "title": "Merge Kimi BF16 MoE front and combine its reductions",
       "author": "whx-sjtu",
@@ -1310,18 +2385,6 @@
       "draft": false
     },
     {
-      "number": 2615,
-      "title": "fix(blockscale): gate row-major group32 GEMM by arch",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T13:33:07Z",
-      "updated_at": "2026-11-25T07:04:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2615",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 3554,
       "title": "[MLA] [gfx1250] Write BF16 prefill K/V in final layout",
       "author": "XiaobingSuper",
@@ -1330,18 +2393,6 @@
       "created_at": "2026-11-19T05:26:33Z",
       "updated_at": "2026-11-25T07:04:08Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3554",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 2982,
-      "title": "perf(minimax-m3): raise decode score memory throughput",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-04T06:34:14Z",
-      "updated_at": "2026-11-25T07:02:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2982",
       "labels": [],
       "draft": true
     },
@@ -1445,18 +2496,6 @@
       "draft": false
     },
     {
-      "number": 3611,
-      "title": "perf(minimax-m3): feed native MXFP8 linears from the fused AR + RMSNorm + MXFP8 quant",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T02:58:43Z",
-      "updated_at": "2026-11-25T06:53:37Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3611",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3582,
       "title": "Split qualified Kimi KDA prefill input projections",
       "author": "whx-sjtu",
@@ -1481,20 +2520,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3813",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3403,
-      "title": "[Scheduler] Prefill initial ramp for a positive decode interval or adaptive (ATOM_PREFILL_INITIAL_RAMP)",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T07:26:52Z",
-      "updated_at": "2026-11-25T06:02:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3403",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
     },
     {
       "number": 3629,
@@ -1617,30 +2642,6 @@
       "draft": true
     },
     {
-      "number": 3801,
-      "title": "[MiniMax-M3.1] DSpark draft context K/V at TP1: one stacked K/V GEMM and one cache write for every draft layer",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T15:23:19Z",
-      "updated_at": "2026-11-25T05:24:31Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3801",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3800,
-      "title": "[MiniMax-M3.1] P/D prefill PP stage boundary over HIP IPC: SDMA copies into the next stage's ring, 2x in-flight, async last-stage output",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T15:23:11Z",
-      "updated_at": "2026-11-25T05:24:29Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3800",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 3799,
       "title": "[MiniMax-M3.1] TP1 prefill: MoE route rows from aiter's ragged-tile GEMM2",
       "author": "Jasen2201",
@@ -1677,42 +2678,6 @@
       "draft": true
     },
     {
-      "number": 3796,
-      "title": "[MiniMax-M3.1] TP1 decoder layer: fused add+RMSNorm with MXFP8 outputs, HIP MXFP8 quant, SwiGLU+MXFP8, MoE output folded into the next norm",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T15:22:37Z",
-      "updated_at": "2026-11-25T05:24:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3796",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3795,
-      "title": "[MiniMax-M3.1] Token-tiled sparse prefill attention at TP1 for contexts up to 32K",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T15:22:28Z",
-      "updated_at": "2026-11-25T05:24:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3795",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3794,
-      "title": "[MiniMax-M3.1] TP1 prefill: aiter qknorm_v3 for the q/k/index norm, RoPE and cache write from 640 tokens",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T15:22:20Z",
-      "updated_at": "2026-11-25T05:24:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3794",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 3793,
       "title": "[MiniMax-M3.1] FP8 index prefill: aiter's fused scorer + top-16 on long single-request steps",
       "author": "Jasen2201",
@@ -1737,70 +2702,6 @@
       "draft": true
     },
     {
-      "number": 3791,
-      "title": "[MiniMax-M3.1] Sparse prefill on the GQA-16 ASM kernel; gfx950 prefill selector from 160 blocks and a post-reduce index scale",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T15:21:54Z",
-      "updated_at": "2026-11-25T05:24:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3791",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3806,
-      "title": "MiniMax-M3: sparse decode attention writes o_proj's MXFP8 input (ATOM_M3_ATTN_QOUT)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T17:00:58Z",
-      "updated_at": "2026-11-25T04:22:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3806",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3785,
-      "title": "[MiniMax-M3] NVFP4 decode: let the attention select the index top-16 (opt-in)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T13:48:19Z",
-      "updated_at": "2026-11-25T04:22:46Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3785",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3354,
-      "title": "[MLA] Prefill K concat as one Triton copy instead of torch.cat",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T11:32:38Z",
-      "updated_at": "2026-11-25T04:15:24Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3354",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3353,
-      "title": "[DP] ATOM_DP_LM_HEAD_MODE=argmax: exchange the DP-sharded LM head's greedy ids, not logits",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-14T11:32:34Z",
-      "updated_at": "2026-11-25T04:13:35Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3353",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
       "number": 3555,
       "title": "fix(sglang): support R-Fork (remote_instance) loading for Qwen4Exp",
       "author": "yicyang",
@@ -1813,68 +2714,6 @@
       "draft": false
     },
     {
-      "number": 3540,
-      "title": "fix(tests): the freeze, load-counter and Mooncake-port tests fail only on what they test",
-      "author": "PerryZhang01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T03:14:47Z",
-      "updated_at": "2026-11-25T03:32:04Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3540",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3775,
-      "title": "[Scheduler] Opt-in prefill policies for decode-heavy serving: prefill caps, duty cycle, finish/ITL-risk holds, generated-block demotion",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T08:53:22Z",
-      "updated_at": "2026-11-25T03:29:14Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3775",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3810,
-      "title": "[M3] decode: QKV front chain window 17-64 -> 17-128 rows (-0.4..-0.5 ms per decode step at B9-B16)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T19:19:47Z",
-      "updated_at": "2026-11-25T02:56:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3810",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3809,
-      "title": "[M3] decode: 17-64 row QKV front chain (quantize in the linear + one-launch GEMM/norm/RoPE/insert), ATOM_M3_QKV_CHAIN default off",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T18:07:20Z",
-      "updated_at": "2026-11-25T02:56:46Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3809",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3492,
-      "title": "DeepSeek MLA: fuse q_a + kv_a RMSNorm and q_b's MXFP4 quant in the default fused Q/K norm path (gfx1250)",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T04:15:23Z",
-      "updated_at": "2026-11-25T02:52:03Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3492",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
       "number": 3814,
       "title": "fix(mesh): resolve DeepSeek-V4.1 chat controls in ATOM's order",
       "author": "wanzhenchn",
@@ -1884,44 +2723,6 @@
       "updated_at": "2026-11-25T02:50:46Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3814",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3787,
-      "title": "[MiniMax-M3] Decode MoE through aiter's mega_moe_tp decode ops (ATOM_M3_DECODE_MOE, opt-in)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T14:10:11Z",
-      "updated_at": "2026-11-25T02:49:44Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3787",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3521,
-      "title": "[sgl+atom] Fix Qwen3.8 TP2/TP4 MoE padding and BF16 MTP on gfx942",
-      "author": "apinge",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T12:48:48Z",
-      "updated_at": "2026-11-25T02:46:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3521",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3535,
-      "title": "perf(dsv41): fold indexer weights_proj into the FP4 query quant",
-      "author": "karverma-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T01:50:25Z",
-      "updated_at": "2026-11-25T02:42:40Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3535",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     },
     {
@@ -1949,18 +2750,6 @@
         "ci:sglang"
       ],
       "draft": true
-    },
-    {
-      "number": 3566,
-      "title": "fix(mesh): sample power_of_two load per instance and drop failures",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T07:40:31Z",
-      "updated_at": "2026-11-25T02:37:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3566",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 3429,
@@ -2005,18 +2794,6 @@
       "draft": false
     },
     {
-      "number": 3632,
-      "title": "perf(sglang): Qwen3.8-Flash-Next sequence-parallel reduce-scatter / all-gathers over SDMA (mori)",
-      "author": "yicyang",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T07:48:53Z",
-      "updated_at": "2026-11-25T01:02:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3632",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3763,
       "title": "[Qwen3.8-Flash-Next] Run the QSA FlyDSL prefill attention unconditionally",
       "author": "zovonoir",
@@ -2055,92 +2832,6 @@
       "draft": false
     },
     {
-      "number": 3783,
-      "title": "[MiniMax-M3] Prefill token graphs for the sparse-attention builder (ATOM_M3_PREFILL_TOKEN_GRAPH)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T13:28:20Z",
-      "updated_at": "2026-11-25T01:01:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3783",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3790,
-      "title": "docs(recipes): MiniMax-M3.1 TP4 AgentX opt-in flags and the PRs that provide them",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T14:30:09Z",
-      "updated_at": "2026-11-25T01:01:06Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3790",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3677,
-      "title": "[ATOM gRPC] atomesh: structured output to ATOM gRPC workers; answers as ATOM's HTTP routes give them",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T14:10:35Z",
-      "updated_at": "2026-11-24T22:56:29Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3677",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3678,
-      "title": "[ATOM gRPC] atomesh: the Session link to an ATOM instance",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T14:10:38Z",
-      "updated_at": "2026-11-24T22:49:52Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3678",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3679,
-      "title": "[ATOM gRPC] atomesh: route ATOM requests over the Session (--atom-grpc-session)",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T14:10:40Z",
-      "updated_at": "2026-11-24T21:55:51Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3679",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3676,
-      "title": "[ATOM gRPC] atomesh: discover ATOM gRPC workers and run ATOM P/D over gRPC",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T14:10:32Z",
-      "updated_at": "2026-11-24T22:49:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3676",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3443,
-      "title": "perf(dsv41): write the DSpark input taps straight into the drafter's aux buffer (level 0)",
-      "author": "yhl-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T18:30:23Z",
-      "updated_at": "2026-11-24T19:31:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3443",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
       "number": 3645,
       "title": "perf(dsv41): DEP8 kernel/model integration and BF16 guards (on #3639)",
       "author": "xytpai",
@@ -2165,18 +2856,6 @@
       "draft": true
     },
     {
-      "number": 3757,
-      "title": "[Feature] IQ2R glm53_moe: load IQ2R-v2 checkpoints (glm53-packed-v2/-v3), shared expert fused into the IQ2R launches",
-      "author": "ssharma4-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T20:35:17Z",
-      "updated_at": "2026-11-24T19:29:13Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3757",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3644,
       "title": "perf(dp): opt-in short-first prefill and confirmed prefix-owner routing",
       "author": "xytpai",
@@ -2187,18 +2866,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3644",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3447,
-      "title": "[Sampling] presence_penalty on decode and speculative-verify rows",
-      "author": "vgokhale",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T20:32:22Z",
-      "updated_at": "2026-11-24T15:50:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3447",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 3718,
@@ -2237,42 +2904,6 @@
         "ci:atom"
       ],
       "draft": false
-    },
-    {
-      "number": 3789,
-      "title": "[DSpark] ATOM_DSPARK_BLOCK_BS_LADDER pins the draft block's batch to a few sizes",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T14:28:55Z",
-      "updated_at": "2026-11-24T14:29:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3789",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3723,
-      "title": "[MiniMax-M3.1] DSpark draft: Gemma RMSNorm writes the MXFP8 input of the next linear; one GEMM for all context K/V",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T04:25:02Z",
-      "updated_at": "2026-11-24T14:26:06Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3723",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3722,
-      "title": "[MiniMax-M3.1] DSpark block: metadata and embedding in one kernel each, pages published with the step's sampling upload",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T04:25:00Z",
-      "updated_at": "2026-11-24T14:26:02Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3722",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 2953,
@@ -2326,20 +2957,6 @@
       "draft": true
     },
     {
-      "number": 3186,
-      "title": "feat(dsv41): EPLB on the layers before the decoder",
-      "author": "JiaoliangYu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-11T03:15:59Z",
-      "updated_at": "2026-11-24T13:20:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3186",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
       "number": 3782,
       "title": "fix(mesh): propagate vLLM Mooncake prefill failures",
       "author": "whx-sjtu",
@@ -2350,44 +2967,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3782",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3760,
-      "title": "[DSV4.1] FP8 KV cache on gfx942 without AITER MXFP8 sparse attention",
-      "author": "bobofang11235",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T01:33:54Z",
-      "updated_at": "2026-11-24T13:08:05Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3760",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3568,
-      "title": "ci(mesh): select agentic prefill and least_load decode on two DPA cases",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T07:40:36Z",
-      "updated_at": "2026-11-24T13:07:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3568",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3567,
-      "title": "feat(mesh): charge decode least_load when the request is selected",
-      "author": "MengqingCao",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T07:40:33Z",
-      "updated_at": "2026-11-24T13:07:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3567",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 3779,
@@ -2412,20 +2991,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3780",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 2903,
-      "title": "[DSV4.1][Perf] Fuse Q RoPE/quant, sparse attention and output cast through AITER",
-      "author": "yzhou103",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T07:39:08Z",
-      "updated_at": "2026-11-24T11:37:57Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2903",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
     },
     {
       "number": 3742,
@@ -2540,18 +3105,6 @@
       "draft": false
     },
     {
-      "number": 3759,
-      "title": "[recipe] DeepSeek-V4.1-Flash P/D 4P4D TTFT-optimized config",
-      "author": "ZhangLirong-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T01:10:22Z",
-      "updated_at": "2026-11-24T08:58:45Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3759",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 3746,
       "title": "fix(runner): the startup memory profile covers a DP group's unsplit TBO prefill",
       "author": "PerryZhang01",
@@ -2562,18 +3115,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3746",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3675,
-      "title": "[ATOM gRPC] atomesh: an ATOM gRPC client, ATOM's protos in every build, the shared P/D rank mapping",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T14:10:29Z",
-      "updated_at": "2026-11-24T08:48:29Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3675",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 2499,
@@ -2588,42 +3129,6 @@
       "draft": false
     },
     {
-      "number": 3674,
-      "title": "[ATOM gRPC] The Session RPC: many requests on one stream, one message per engine step",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T14:10:27Z",
-      "updated_at": "2026-11-24T08:47:32Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3674",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3673,
-      "title": "[ATOM gRPC] The atom.grpc.v1 service: proto, generated modules, info, Generate, Abort and structured output",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T14:10:24Z",
-      "updated_at": "2026-11-24T08:38:36Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3673",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3672,
-      "title": "[ATOM gRPC] Engine: token-id prompts reuse block-hash chains; an idle EngineCore waits for input",
-      "author": "Jasen2201",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T14:10:22Z",
-      "updated_at": "2026-11-24T08:32:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3672",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3749,
       "title": "fix(engine): ATOM_WARMUP_PREFILL_BUCKETS=1 builds every prefill row count's kernels at startup",
       "author": "PerryZhang01",
@@ -2634,18 +3139,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3749",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3686,
-      "title": "embed_head: mask out-of-range ids at TP1 too",
-      "author": "zejunchen-zejun",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T20:20:48Z",
-      "updated_at": "2026-11-24T07:48:01Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3686",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 2760,
@@ -2724,30 +3217,6 @@
       "draft": false
     },
     {
-      "number": 3408,
-      "title": "feat(mesh): declare encode workers beside prefill and decode",
-      "author": "junyyang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T08:58:49Z",
-      "updated_at": "2026-11-24T05:24:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3408",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3411,
-      "title": "feat(engine): image embedding transport over Mooncake",
-      "author": "junyyang-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-16T08:58:58Z",
-      "updated_at": "2026-11-24T05:24:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3411",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3726,
       "title": "[DSV41] MegaMoE improvements for DEP8",
       "author": "heachary",
@@ -2806,30 +3275,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3767",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3544,
-      "title": "fix(runner): a V4.1 mono hi server survives a prefill chunk between two device-round verifies",
-      "author": "PerryZhang01",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T03:26:22Z",
-      "updated_at": "2026-11-24T04:00:15Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3544",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 3518,
-      "title": "build(docker): cut ~15 GB of dead weight from the release images",
-      "author": "maple52046",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T10:16:28Z",
-      "updated_at": "2026-11-24T03:38:00Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3518",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 3747,
@@ -2950,18 +3395,6 @@
       "created_at": "2026-11-23T05:01:56Z",
       "updated_at": "2026-11-24T01:11:46Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3725",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3727,
-      "title": "Fix FP8 block MoE loading for TP shards smaller than a quantization block",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T05:21:46Z",
-      "updated_at": "2026-11-24T01:11:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3727",
       "labels": [],
       "draft": false
     },
@@ -3114,20 +3547,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3745",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3653,
-      "title": "Refuse a prompt that encodes to no tokens with a 400",
-      "author": "wanzhenchn",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-21T02:17:40Z",
-      "updated_at": "2026-11-23T11:56:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3653",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
     },
     {
       "number": 3455,
@@ -3466,18 +3885,6 @@
       "draft": true
     },
     {
-      "number": 3724,
-      "title": "[MiniMax-M3.1] Step watchdog and GPU guard for Mono decode stalls",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T04:25:05Z",
-      "updated_at": "2026-11-23T04:25:21Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3724",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 3721,
       "title": "[MiniMax-M3.1] DSpark draft: sharded greedy Markov block, one atomic-max launch per position",
       "author": "ganyi1996ppo",
@@ -3488,30 +3895,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3721",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 2814,
-      "title": "perf(kimi-k3): stream attn-res candidate rows through LDS with TDM on gfx1250",
-      "author": "yanxuer-999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-29T07:55:28Z",
-      "updated_at": "2026-11-23T03:08:26Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2814",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2904,
-      "title": "feat(minimax-m3): record prefill as token graphs",
-      "author": "lirui927",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-02T08:20:51Z",
-      "updated_at": "2026-11-23T03:07:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2904",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 3697,
@@ -3608,30 +3991,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/3594",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 3372,
-      "title": "[3/N atomesh rust runtime] feat(mesh): Rust EngineCore client and the atom_engine router",
-      "author": "Yuechguo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-15T14:27:12Z",
-      "updated_at": "2026-11-22T08:35:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3372",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3489,
-      "title": "[4/N atomesh rust runtime] feat(engine): Python codec for the engine_v1 protocol",
-      "author": "Yuechguo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T03:01:06Z",
-      "updated_at": "2026-11-21T16:43:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3489",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 3565,
@@ -3833,18 +4192,6 @@
       "draft": true
     },
     {
-      "number": 3507,
-      "title": "[5/N atomesh rust runtime] feat(engine): EngineCore on engine_v1, and atomesh standalone served by Rust",
-      "author": "Yuechguo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T07:32:04Z",
-      "updated_at": "2026-11-20T06:55:10Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3507",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3424,
       "title": "[PD] Share the KV staging and landing test fakes",
       "author": "MengqingCao",
@@ -4031,18 +4378,6 @@
       "draft": false
     },
     {
-      "number": 3512,
-      "title": "feat(moe): TP MegaMoE under --moe-backend mega (reuses the SP MegaMoE backend)",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T08:20:43Z",
-      "updated_at": "2026-11-18T09:01:18Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3512",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 3461,
       "title": "perf(kimi-k3): fuse the KDA o_norm into the decode recurrence on gfx1250",
       "author": "ZLkanyo009",
@@ -4159,18 +4494,6 @@
       "created_at": "2026-11-18T01:39:46Z",
       "updated_at": "2026-11-18T01:39:46Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3486",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2959,
-      "title": "[Kimi-K3] Midstep KDA state checkpoints from the FlashKDA recurrence",
-      "author": "davzhuAMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-03T21:07:39Z",
-      "updated_at": "2026-11-18T01:22:46Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2959",
       "labels": [],
       "draft": false
     },
@@ -4297,18 +4620,6 @@
       "created_at": "2026-11-17T03:36:03Z",
       "updated_at": "2026-11-18T06:56:12Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/3454",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2493,
-      "title": "[MiniMax-M3] Score the lightning indexer with aiter's FlyDSL kernels",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-08T03:02:40Z",
-      "updated_at": "2026-11-17T07:56:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2493",
       "labels": [],
       "draft": false
     },
@@ -4808,18 +5119,6 @@
       "draft": false
     },
     {
-      "number": 2616,
-      "title": "fix(moe): preserve MoRI v2 live-row contract",
-      "author": "XiaobingSuper",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-16T13:58:39Z",
-      "updated_at": "2026-11-13T10:40:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2616",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 3088,
       "title": "[Docs] Add contributing guide, area contacts and review guide",
       "author": "zufayu",
@@ -5139,18 +5438,6 @@
       "draft": false
     },
     {
-      "number": 1842,
-      "title": "perf(kimi-k3): fuse the KDA prefill gather, scatter, and output copy",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-10T06:27:56Z",
-      "updated_at": "2026-11-11T05:48:30Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1842",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2730,
       "title": "Integrate AITER fused MoE routing",
       "author": "azaidy",
@@ -5159,18 +5446,6 @@
       "created_at": "2026-10-26T22:13:01Z",
       "updated_at": "2026-11-11T05:48:14Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2730",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 2629,
-      "title": "follow-up(#2535): mono review items that need no GPU",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-19T06:21:32Z",
-      "updated_at": "2026-11-11T05:48:07Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2629",
       "labels": [],
       "draft": false
     },
@@ -5365,18 +5640,6 @@
       "created_at": "2026-09-11T20:43:37Z",
       "updated_at": "2026-11-09T01:56:59Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/2203",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1947,
-      "title": "state checkpoint port optimized",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-19T03:28:24Z",
-      "updated_at": "2026-11-09T01:56:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1947",
       "labels": [],
       "draft": false
     },
@@ -6213,18 +6476,6 @@
       "draft": true
     },
     {
-      "number": 2661,
-      "title": "[DSpark] let --max-num-seqs 1 start: size the engine for 2, schedule 1",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-21T02:04:02Z",
-      "updated_at": "2026-10-22T03:04:53Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2661",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2667,
       "title": "fix(sglang): keep Flash full decode graph correct with mamba radix",
       "author": "zhangxinyuanliuhengyu",
@@ -6367,18 +6618,6 @@
       "created_at": "2026-07-15T06:53:25Z",
       "updated_at": "2026-10-12T04:48:27Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1605",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1150,
-      "title": "minimax allreduce rmsnorm quant",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-06-10T06:17:35Z",
-      "updated_at": "2026-10-10T02:33:35Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1150",
       "labels": [],
       "draft": false
     },
@@ -6751,18 +6990,6 @@
       "draft": true
     },
     {
-      "number": 2158,
-      "title": "[Scheduler] Shortest-job-first prefill admission to cut p90 TTFT",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-09-07T12:51:38Z",
-      "updated_at": "2026-09-08T03:55:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2158",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 2142,
       "title": "[atom-vllm] LMCache offload for GLM-5.2",
       "author": "kliuae",
@@ -6809,18 +7036,6 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/2066",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 2024,
-      "title": "state checkpoint superblock",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-26T02:56:57Z",
-      "updated_at": "2026-08-27T01:23:30Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2024",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 2011,
@@ -6928,20 +7143,6 @@
       "updated_at": "2026-08-24T16:04:01Z",
       "html_url": "https://github.com/ROCm/ATOM/pull/1893",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1879,
-      "title": "Optimize statecache and prefix caching strategy for Mamba like models",
-      "author": "ganyi1996ppo",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-08-13T01:14:42Z",
-      "updated_at": "2026-08-19T13:01:41Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/1879",
-      "labels": [
-        "ci:atom"
-      ],
       "draft": false
     },
     {
@@ -7053,6 +7254,243 @@
       "html_url": "https://github.com/ROCm/ATOM/pull/837",
       "labels": [],
       "draft": true
+    },
+    {
+      "number": 3311,
+      "title": "Cut Kimi-K3.1's DCP sparse prefill overhead in its DSA layers",
+      "author": "whx-sjtu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-13T08:28:11Z",
+      "updated_at": "2026-11-26T13:41:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3311",
+      "labels": [
+        "ci:atom",
+        "LGTM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3874,
+      "title": "[atomesh] Dispatch the ATOM decode leg concurrently with prefill (--atom-pd-concurrent, default off)",
+      "author": "ZhangLirong-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T02:27:36Z",
+      "updated_at": "2026-11-26T13:11:12Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3874",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3854,
+      "title": "perf(pd): accept prompt ids as base64 packed uint32 to cut decode ingest cost (ATOM_PROMPT_IDS_B64, on by default)",
+      "author": "ZhangLirong-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T13:26:50Z",
+      "updated_at": "2026-11-26T12:54:31Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3854",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3873,
+      "title": "[PD] Decode side: accept late KV params on /v1/pd/late_kv/chat/completions (ATOM_PD_LATE_KV, default off)",
+      "author": "ZhangLirong-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T02:27:34Z",
+      "updated_at": "2026-11-26T12:53:29Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3873",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3653,
+      "title": "Refuse a prompt that encodes to no tokens with a 400",
+      "author": "wanzhenchn",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-21T02:17:40Z",
+      "updated_at": "2026-11-26T12:45:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3653",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3889,
+      "title": "[DSpark][gfx1250] Take the draft block decode's head count from aiter",
+      "author": "gbyu-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T08:56:39Z",
+      "updated_at": "2026-11-26T09:00:23Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3889",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3732,
+      "title": "[SGLang plugin] DeepSeek-V4.1-Flash: DSpark speculative decoding (draft, graphs, radix, sampled verify)",
+      "author": "ZhiweiYan-96",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-23T07:50:00Z",
+      "updated_at": "2026-11-26T07:26:18Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3732",
+      "labels": [
+        "ci:sglang"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3879,
+      "title": "test(kimi-k3): complete checkpoint forward context mock",
+      "author": "whx-sjtu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T05:18:53Z",
+      "updated_at": "2026-11-26T06:33:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3879",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 2942,
+      "title": "feat(kimi-k3): record prefill as token graphs",
+      "author": "gbyu-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-03T08:39:28Z",
+      "updated_at": "2026-11-26T06:04:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/2942",
+      "labels": [
+        "ci:atom",
+        "LGTM"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3501,
+      "title": "Build Kimi ladder, demand and anchor checkpoints with head re-runs",
+      "author": "whx-sjtu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-18T06:42:20Z",
+      "updated_at": "2026-11-26T04:43:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3501",
+      "labels": [
+        "ci:atom",
+        "LGTM",
+        "agent-team/hold-landing"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3437,
+      "title": "perf(dsv41): settle an owed mHC post into the collapse and the DSpark tap mean in one aiter launch",
+      "author": "yhl-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-16T18:29:52Z",
+      "updated_at": "2026-11-26T03:55:32Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3437",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3186,
+      "title": "feat(dsv41): EPLB on the layers before the decoder",
+      "author": "JiaoliangYu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-11T03:15:59Z",
+      "updated_at": "2026-11-26T03:26:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3186",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3521,
+      "title": "[sgl+atom] Fix Qwen3.8 TP2/TP4 MoE padding and BF16 MTP on gfx942",
+      "author": "apinge",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-18T12:48:48Z",
+      "updated_at": "2026-11-26T03:19:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3521",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 3535,
+      "title": "perf(dsv41): fold indexer weights_proj into the FP4 query quant",
+      "author": "karverma-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-19T01:50:25Z",
+      "updated_at": "2026-11-26T03:05:28Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3535",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3407,
+      "title": "feat(mesh): key routing by image identity and log the media count per selection",
+      "author": "junyyang-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-16T08:58:46Z",
+      "updated_at": "2026-11-26T02:52:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3407",
+      "labels": [
+        "ci:atom"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3481,
+      "title": "feat(mesh): count in-flight prefill tokens per worker (url@rank)",
+      "author": "MengqingCao",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-17T15:43:16Z",
+      "updated_at": "2026-11-26T02:51:26Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3481",
+      "labels": [
+        "ci:mesh"
+      ],
+      "draft": false
+    },
+    {
+      "number": 3610,
+      "title": "fix(api): fold mid-conversation system messages for templates that cannot take them; tool results before text",
+      "author": "yitingw1",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T02:56:54Z",
+      "updated_at": "2026-11-26T02:46:14Z",
+      "html_url": "https://github.com/ROCm/ATOM/pull/3610",
+      "labels": [
+        "ci:atom",
+        "LGTM"
+      ],
+      "draft": false
     },
     {
       "number": 3842,
@@ -7650,231 +8088,6 @@
       "labels": [
         "ci:mesh"
       ],
-      "draft": false
-    },
-    {
-      "number": 3472,
-      "title": "[MiniMax-M3.1] NVFP4 KV and index caches over Mooncake P/D and the Mooncake Store",
-      "author": "Jasen2201",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-17T12:04:24Z",
-      "updated_at": "2026-11-23T09:27:09Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3472",
-      "labels": [
-        "ci:atom",
-        "LGTM"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3519,
-      "title": "ci(mesh): gate mesh PRs on unit tests and standalone and 1P1D accuracy, move the DeepSeek-V4 smoke from PRs to main",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-18T10:49:52Z",
-      "updated_at": "2026-11-23T08:53:23Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3519",
-      "labels": [
-        "ci:mesh"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3716,
-      "title": "perf(pd): drop the extra block-table copy on the Mooncake decode side",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-23T03:00:34Z",
-      "updated_at": "2026-11-23T08:52:11Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3716",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3475,
-      "title": "feat(offload): opt-in save pipeline for KV-store offload (ATOM_STORE_SAVE_BATCH_CHUNKS)",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-17T13:03:44Z",
-      "updated_at": "2026-11-23T08:29:48Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3475",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 2636,
-      "title": "[Qwen 3.8] LMCache offload for QSA + GDN + PLE state",
-      "author": "ZLkanyo009",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-19T09:38:34Z",
-      "updated_at": "2026-11-23T07:06:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/2636",
-      "labels": [
-        "ci:atom",
-        "LGTM"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3614,
-      "title": "Read ReplaySSM KDA gate and beta views using token strides",
-      "author": "whx-sjtu",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-20T04:13:30Z",
-      "updated_at": "2026-11-23T06:52:55Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3614",
-      "labels": [
-        "ci:atom",
-        "LGTM",
-        "agent-team/hold-landing"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3596,
-      "title": "feat(mesh): encode the prompts of listed models with fastokens",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-19T14:58:17Z",
-      "updated_at": "2026-11-23T06:27:19Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3596",
-      "labels": [
-        "ci:mesh"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3533,
-      "title": "Add opt-in async Mooncake Store lease renewal",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-19T01:23:46Z",
-      "updated_at": "2026-11-23T05:55:52Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3533",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 3418,
-      "title": "[SGLang plugin] DeepSeek-V4.1-Flash: eager serving (1/11)",
-      "author": "ZhiweiYan-96",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-16T09:08:48Z",
-      "updated_at": "2026-11-23T05:41:39Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3418",
-      "labels": [
-        "ci:sglang"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3471,
-      "title": "[PD] Head runs of named widths: cut and land pages whose runs differ in width",
-      "author": "Jasen2201",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-17T11:59:54Z",
-      "updated_at": "2026-11-23T05:22:45Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3471",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3435,
-      "title": "perf(dsv4): add the shared expert output in the MegaMoE combine on the single-stream path",
-      "author": "yhl-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-16T18:29:44Z",
-      "updated_at": "2026-11-23T05:19:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3435",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3438,
-      "title": "perf(dsv41): build the initial mHC state from the embeddings in one launch, sharing the draft block's kernel",
-      "author": "yhl-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-16T18:29:56Z",
-      "updated_at": "2026-11-23T05:19:13Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3438",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3434,
-      "title": "perf(dspark): run the confidence head as one fused GEMV",
-      "author": "yhl-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-16T18:29:41Z",
-      "updated_at": "2026-11-23T05:05:35Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3434",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3589,
-      "title": "fix(pd): publish only the prompt's KV blocks from a Mooncake producer",
-      "author": "wanzhenchn",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-19T11:51:35Z",
-      "updated_at": "2026-11-23T02:48:27Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3589",
-      "labels": [
-        "ci:atom",
-        "LGTM"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3323,
-      "title": "Reset the restore fields when a request gets a fresh allocation",
-      "author": "ZhangLirong-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-13T15:32:02Z",
-      "updated_at": "2026-11-23T01:55:29Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3323",
-      "labels": [
-        "ci:atom"
-      ],
-      "draft": false
-    },
-    {
-      "number": 3690,
-      "title": "[Qwen3.5/3.6 recipe] 2026-11-21: official-length c1024 run of the recipe default (e2e 137.0, accuracy 0.5615)",
-      "author": "azaidy",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-22T02:52:35Z",
-      "updated_at": "2026-11-22T02:52:49Z",
-      "html_url": "https://github.com/ROCm/ATOM/pull/3690",
-      "labels": [],
       "draft": false
     }
   ]

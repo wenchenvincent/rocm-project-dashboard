@@ -1,15 +1,101 @@
 {
-  "collected_at": "2026-11-25T18:15:25Z",
+  "collected_at": "2026-11-26T17:57:26Z",
   "issues": [
+    {
+      "number": 3231,
+      "title": "[RFC] Decouple LMCache MP mode from ATOM",
+      "author": "maobaolong",
+      "state": "open",
+      "created_at": "2026-11-12T04:38:48Z",
+      "updated_at": "2026-11-26T17:03:45Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3231",
+      "labels": []
+    },
+    {
+      "number": 3913,
+      "title": "drain_nccl_works() crashes CUDA graph capture on torch 2.15: \"nccl\" is now ProcessGroupNCCL2 (nccl2), which lacks waitForPendingWorks",
+      "author": "srinivamd",
+      "state": "open",
+      "created_at": "2026-11-26T16:39:47Z",
+      "updated_at": "2026-11-26T16:39:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3913",
+      "labels": []
+    },
+    {
+      "number": 3900,
+      "title": "[Perf Regression] 2 config(s) regressed @ 9d5273cd",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-26T13:57:08Z",
+      "updated_at": "2026-11-26T13:57:08Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3900",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3893,
+      "title": "[gfx1250][FlyDSL] llvm_options restore leaves `unroll-threshold` explicitly 0 after aiter gemm_a16w16 compiles: later in-process kernels (DSV4.1 mono step) get a different, slower codegen",
+      "author": "yifehuan",
+      "state": "open",
+      "created_at": "2026-11-26T10:35:37Z",
+      "updated_at": "2026-11-26T10:35:37Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3893",
+      "labels": []
+    },
     {
       "number": 3841,
       "title": "P/D: the prefill engine (kv_producer) runs an extra decode forward per request under non-PP parallelism (deferred output)",
       "author": "zhaoan12-prc",
       "state": "open",
       "created_at": "2026-11-25T09:23:16Z",
-      "updated_at": "2026-11-25T09:23:16Z",
+      "updated_at": "2026-11-26T05:12:28Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/3841",
       "labels": []
+    },
+    {
+      "number": 609,
+      "title": "Analysis: Why chat templates reduce DeepSeek MTP speculative decoding accept rate",
+      "author": "carlushuang",
+      "state": "open",
+      "created_at": "2026-04-19T11:58:52Z",
+      "updated_at": "2026-11-26T05:10:00Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/609",
+      "labels": []
+    },
+    {
+      "number": 1506,
+      "title": "[Bug] DeepSeek-V4 TBO decode + CUDAGraph: hipBLASLt heuristic during capture aborts with HIP 900 ('operation not permitted when stream is capturing')",
+      "author": "yhl-amd",
+      "state": "open",
+      "created_at": "2026-07-07T17:33:00Z",
+      "updated_at": "2026-11-26T05:09:54Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/1506",
+      "labels": []
+    },
+    {
+      "number": 3095,
+      "title": "[Issue]: [DeepSeek-V4] TP ranks select MoE experts from their own replicated router logits and can disagree on identical inputs (gfx950)",
+      "author": "yelkhamra",
+      "state": "open",
+      "created_at": "2026-11-08T15:56:12Z",
+      "updated_at": "2026-11-26T05:09:49Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3095",
+      "labels": []
+    },
+    {
+      "number": 3871,
+      "title": "[Perf Regression] 17 config(s) regressed @ f3d0b30f",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-26T01:04:40Z",
+      "updated_at": "2026-11-26T01:04:40Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3871",
+      "labels": [
+        "performance",
+        "regression"
+      ]
     },
     {
       "number": 3829,
@@ -23,16 +109,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 3231,
-      "title": "[RFC] Decouple LMCache MP mode from ATOM",
-      "author": "maobaolong",
-      "state": "open",
-      "created_at": "2026-11-12T04:38:48Z",
-      "updated_at": "2026-11-24T09:19:17Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3231",
-      "labels": []
     },
     {
       "number": 3758,
@@ -347,16 +423,6 @@
       "labels": []
     },
     {
-      "number": 609,
-      "title": "Analysis: Why chat templates reduce DeepSeek MTP speculative decoding accept rate",
-      "author": "carlushuang",
-      "state": "open",
-      "created_at": "2026-04-19T11:58:52Z",
-      "updated_at": "2026-11-19T07:45:03Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/609",
-      "labels": []
-    },
-    {
       "number": 616,
       "title": "Official atom0.1.2 image: Kimi TP4 startup fails because packaged AITER gen_instances.py scripts break under PYTHONSAFEPATH=1",
       "author": "josusanmartin",
@@ -552,16 +618,6 @@
       "labels": [
         "documentation"
       ]
-    },
-    {
-      "number": 1506,
-      "title": "[Bug] DeepSeek-V4 TBO decode + CUDAGraph: hipBLASLt heuristic during capture aborts with HIP 900 ('operation not permitted when stream is capturing')",
-      "author": "yhl-amd",
-      "state": "open",
-      "created_at": "2026-07-07T17:33:00Z",
-      "updated_at": "2026-11-19T07:44:12Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/1506",
-      "labels": []
     },
     {
       "number": 1507,
@@ -836,16 +892,6 @@
       "created_at": "2026-11-05T07:29:56Z",
       "updated_at": "2026-11-19T07:43:01Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/3032",
-      "labels": []
-    },
-    {
-      "number": 3095,
-      "title": "[Issue]: [DeepSeek-V4] TP ranks select MoE experts from their own replicated router logits and can disagree on identical inputs (gfx950)",
-      "author": "yelkhamra",
-      "state": "open",
-      "created_at": "2026-11-08T15:56:12Z",
-      "updated_at": "2026-11-19T07:42:59Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3095",
       "labels": []
     },
     {

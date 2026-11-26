@@ -1,6 +1,54 @@
 {
-  "collected_at": "2026-11-25T18:14:37Z",
+  "collected_at": "2026-11-26T17:56:42Z",
   "prs": [
+    {
+      "number": 12813,
+      "title": "[AMD] Fix rounding-mode handling in FpToFpOp lowering",
+      "author": "umangyadav",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T23:22:03Z",
+      "updated_at": "2026-11-26T16:19:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12813",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12233,
+      "title": "[AMD] Support scheduling and LDS prefetch for sliced GEMM kernels ",
+      "author": "plognjen",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-12T18:14:37Z",
+      "updated_at": "2026-11-26T15:38:43Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12233",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12734,
+      "title": "[AMD]Support FP6 in Gluon on CDNA4",
+      "author": "knwng",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T00:57:09Z",
+      "updated_at": "2026-11-25T23:57:31Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12734",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12948,
+      "title": "[AMD] Fix signed tl.atomic_max / tl.atomic_min in intra-wave reduction",
+      "author": "shotsan",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T01:48:45Z",
+      "updated_at": "2026-11-25T20:55:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12948",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12593,
       "title": "[AMD][CDNA5] Emulate descriptor reductions with global atomics",
@@ -74,18 +122,6 @@
       "draft": false
     },
     {
-      "number": 12948,
-      "title": "[AMD] Fix signed tl.atomic_max / tl.atomic_min in intra-wave reduction",
-      "author": "shotsan",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T01:48:45Z",
-      "updated_at": "2026-11-25T01:48:46Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12948",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12928,
       "title": "[AMD] Apply target CPU and features to bundled device libraries before linking",
       "author": "justinrosner",
@@ -122,18 +158,6 @@
       "draft": false
     },
     {
-      "number": 12233,
-      "title": "[AMD] Support scheduling and LDS prefetch for sliced GEMM kernels ",
-      "author": "plognjen",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-12T18:14:37Z",
-      "updated_at": "2026-11-24T16:12:30Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12233",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12755,
       "title": "[Autotuner][AMD] Prune compiled configs before benchmarking and skip unmet waves_per_eu",
       "author": "CRobeck",
@@ -156,18 +180,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12356",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12734,
-      "title": "[AMD]Support FP6 in Gluon on CDNA4",
-      "author": "knwng",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T00:57:09Z",
-      "updated_at": "2026-11-23T23:38:26Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12734",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12857,
@@ -362,18 +374,6 @@
       "draft": false
     },
     {
-      "number": 12813,
-      "title": "[AMD] Fix rounding-mode handling in FpToFpOp lowering",
-      "author": "umangyadav",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T23:22:03Z",
-      "updated_at": "2026-11-19T20:20:27Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12813",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 12836,
       "title": "[AMD] Avoid importing torch for pointer range specialization",
       "author": "ThomasRaoux",
@@ -528,6 +528,18 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12656",
       "labels": [],
       "draft": false
+    },
+    {
+      "number": 12115,
+      "title": "[AMD] Use native F8F6F4 MFMAs when scales are absent",
+      "author": "dhernandez0",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-05T10:00:49Z",
+      "updated_at": "2026-11-16T15:12:55Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12115",
+      "labels": [],
+      "draft": true
     },
     {
       "number": 12657,
@@ -706,18 +718,6 @@
       "created_at": "2026-11-05T06:31:24Z",
       "updated_at": "2026-11-09T18:25:09Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12630",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12654,
-      "title": "[AMD] Re-enable kernarg preload under MIR dump/swap",
-      "author": "tyb0807",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-07T05:00:23Z",
-      "updated_at": "2026-11-09T03:12:56Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12654",
       "labels": [],
       "draft": false
     }
