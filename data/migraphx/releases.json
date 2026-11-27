@@ -1,6 +1,13 @@
 {
-  "collected_at": "2026-11-26T17:56:49Z",
+  "collected_at": "2026-11-27T17:42:01Z",
   "releases": [
+    {
+      "tag_name": "rocm-10.2",
+      "name": "rocm-10.2",
+      "published_at": "2026-11-27T11:59:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/releases/tag/rocm-10.2",
+      "prerelease": false
+    },
     {
       "tag_name": "rocm-10.1",
       "name": "rocm-10.1",
@@ -27,13 +34,6 @@
       "name": null,
       "published_at": "2026-05-28T16:21:44Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/releases/tag/rocm-7.2.4",
-      "prerelease": false
-    },
-    {
-      "tag_name": "rocm-7.2.3",
-      "name": "",
-      "published_at": "2026-05-04T14:29:42Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/releases/tag/rocm-7.2.3",
       "prerelease": false
     }
   ]

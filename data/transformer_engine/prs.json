@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-26T17:57:35Z",
+  "collected_at": "2026-11-27T17:42:47Z",
   "prs": [
+    {
+      "number": 819,
+      "title": "[ROCm] Pass short vectors to the bf16 MFMAs of the small-seq attentio\u2026",
+      "author": "mhalk",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T14:59:05Z",
+      "updated_at": "2026-11-27T14:59:07Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/pull/819",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 789,
       "title": "[gfx1250] TDM normalization/swizzle/transpose",

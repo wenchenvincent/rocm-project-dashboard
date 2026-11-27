@@ -1,6 +1,16 @@
 {
-  "collected_at": "2026-11-26T17:57:36Z",
+  "collected_at": "2026-11-27T17:42:48Z",
   "issues": [
+    {
+      "number": 818,
+      "title": "Small-sequence attention and the CK submodule fail to compile with the upcoming ROCm compiler",
+      "author": "mhalk",
+      "state": "open",
+      "created_at": "2026-11-27T14:58:49Z",
+      "updated_at": "2026-11-27T14:59:08Z",
+      "html_url": "https://github.com/ROCm/TransformerEngine/issues/818",
+      "labels": []
+    },
     {
       "number": 790,
       "title": "Triton RMSNorm autotune picks differ across processes and ranks, so the numerics differ; no knob pins or disables them",

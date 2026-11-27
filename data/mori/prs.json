@@ -1,6 +1,174 @@
 {
-  "collected_at": "2026-11-26T17:57:28Z",
+  "collected_at": "2026-11-27T17:42:40Z",
   "prs": [
+    {
+      "number": 1109,
+      "title": " feat(metrics): IO / EP traffic metrics with Prometheus export",
+      "author": "QizhouZhang97",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T03:09:17Z",
+      "updated_at": "2026-11-27T13:00:35Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1109",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1050,
+      "title": "fix(umbp): a lookup leases the keys it finds instead of renewing them",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T07:01:12Z",
+      "updated_at": "2026-11-27T12:58:37Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1050",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1110,
+      "title": "feat(umbp): lookups change nothing; BatchLease protects what a client loads",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T12:54:00Z",
+      "updated_at": "2026-11-27T12:58:23Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1110",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1049,
+      "title": "perf(umbp): search the page bitmap a word at a time",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T07:01:10Z",
+      "updated_at": "2026-11-27T12:09:09Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1049",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1048,
+      "title": "fix(umbp): keep the standalone server's transfer buffers on the heap",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T07:01:09Z",
+      "updated_at": "2026-11-27T12:09:07Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1048",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1047,
+      "title": "fix(umbp): plan local ranged puts object by object, with endpoint-only items",
+      "author": "isytwu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T07:01:07Z",
+      "updated_at": "2026-11-27T12:09:05Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1047",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1056,
+      "title": "docs(umbp): RFC for agent context retention",
+      "author": "GL-AMD",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-20T01:30:53Z",
+      "updated_at": "2026-11-27T09:37:34Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1056",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1107,
+      "title": "feat(umbp/l1): multi-part pools, and evicted last copies go to the UMBP store",
+      "author": "TianDi101",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T01:55:58Z",
+      "updated_at": "2026-11-27T08:55:15Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1107",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 1105,
+      "title": "perf(EPv2/AsyncLL): send phases on 8 blocks, dispatch receive on 16, fp8 dispatch, 16k tokens per rank",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T11:07:23Z",
+      "updated_at": "2026-11-27T07:42:10Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1105",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1042,
+      "title": "feat(cco): ccoProxy, a host-proxy RDMA transport (KIWI step 2)",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T03:07:14Z",
+      "updated_at": "2026-11-27T07:41:46Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1042",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1074,
+      "title": "feat(umbp): add direct native L1 sharing across trays",
+      "author": "wuyl1",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T05:33:31Z",
+      "updated_at": "2026-11-27T06:56:05Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1074",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1069,
+      "title": "perf(fused): SDMA MoE stage1 gemm tile-loop changes behind --tile-opt (driven by mori-harness)",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-22T15:18:44Z",
+      "updated_at": "2026-11-27T05:47:17Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1069",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 996,
+      "title": "perf(ep/v2): atomic-free inter-node signalling, lower v2_ll dispatch and combine latency, MI355X EP32 tables",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-13T02:30:14Z",
+      "updated_at": "2026-11-27T04:11:03Z",
+      "html_url": "https://github.com/ROCm/mori/pull/996",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1108,
+      "title": "feat(sdma): optional fix for device-posted queues on odd SDMA engines",
+      "author": "kawhil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T02:25:37Z",
+      "updated_at": "2026-11-27T02:26:14Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1108",
+      "labels": [],
+      "draft": true
+    },
     {
       "number": 816,
       "title": "Draft collectives develop",
@@ -12,18 +180,6 @@
       "html_url": "https://github.com/ROCm/mori/pull/816",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 1105,
-      "title": "perf(EPv2/AsyncLL): send phases on 8 blocks, dispatch receive on 16, 16k tokens per rank",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-26T11:07:23Z",
-      "updated_at": "2026-11-26T16:00:29Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1105",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 1092,
@@ -62,18 +218,6 @@
       "draft": true
     },
     {
-      "number": 1094,
-      "title": "Add JAX MoE block example using dispatch/combine",
-      "author": "pemeliya",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T13:15:34Z",
-      "updated_at": "2026-11-26T11:43:02Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1094",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1103,
       "title": "ci: /ci-rerun merges the current main into the PR branch and runs CI on it",
       "author": "jhchouuu",
@@ -82,18 +226,6 @@
       "created_at": "2026-11-26T08:16:03Z",
       "updated_at": "2026-11-26T11:10:43Z",
       "html_url": "https://github.com/ROCm/mori/pull/1103",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1074,
-      "title": "feat(umbp): add direct native L1 sharing across trays",
-      "author": "wuyl1",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T05:33:31Z",
-      "updated_at": "2026-11-26T10:22:20Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1074",
       "labels": [],
       "draft": false
     },
@@ -110,18 +242,6 @@
       "draft": false
     },
     {
-      "number": 996,
-      "title": "perf(ep/v2): atomic-free inter-node signalling, lower v2_ll dispatch and combine latency, MI355X EP32 tables",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T02:30:14Z",
-      "updated_at": "2026-11-26T08:14:40Z",
-      "html_url": "https://github.com/ROCm/mori/pull/996",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 997,
       "title": "feat(sdma): choose SDMA engines per GPU arch from one plan",
       "author": "jhchouuu",
@@ -130,18 +250,6 @@
       "created_at": "2026-11-13T03:38:35Z",
       "updated_at": "2026-11-26T03:16:09Z",
       "html_url": "https://github.com/ROCm/mori/pull/997",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1042,
-      "title": "feat(cco): ccoProxy, a host-proxy RDMA transport (KIWI step 2)",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T03:07:14Z",
-      "updated_at": "2026-11-25T15:01:58Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1042",
       "labels": [],
       "draft": false
     },
@@ -182,18 +290,6 @@
       "draft": true
     },
     {
-      "number": 1050,
-      "title": "fix(umbp): a lookup leases the keys it finds instead of renewing them",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T07:01:12Z",
-      "updated_at": "2026-11-25T12:44:16Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1050",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 911,
       "title": "feat(ras): host NIC inventory, topology, and labels in the identity (RAS 4/5)",
       "author": "i-chaochen",
@@ -214,18 +310,6 @@
       "created_at": "2026-11-24T15:30:03Z",
       "updated_at": "2026-11-25T10:48:25Z",
       "html_url": "https://github.com/ROCm/mori/pull/1088",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1047,
-      "title": "fix(umbp): plan local ranged puts object by object, with endpoint-only items",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T07:01:07Z",
-      "updated_at": "2026-11-25T10:32:15Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1047",
       "labels": [],
       "draft": false
     },
@@ -262,18 +346,6 @@
       "created_at": "2026-11-19T12:43:55Z",
       "updated_at": "2026-11-25T10:50:22Z",
       "html_url": "https://github.com/ROCm/mori/pull/1054",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1069,
-      "title": "perf(fused): SDMA MoE stage1 gemm tile-loop changes behind --tile-opt (driven by mori-harness)",
-      "author": "kawhil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-22T15:18:44Z",
-      "updated_at": "2026-11-24T14:02:09Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1069",
       "labels": [],
       "draft": false
     },
@@ -446,18 +518,6 @@
       "draft": true
     },
     {
-      "number": 1056,
-      "title": "docs(umbp): RFC for agent context retention",
-      "author": "GL-AMD",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T01:30:53Z",
-      "updated_at": "2026-11-20T01:30:53Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1056",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1051,
       "title": "feat(rdma): HIP GEM allocator so RDMA-registered KV caches are counted once by KFD",
       "author": "isytwu",
@@ -466,30 +526,6 @@
       "created_at": "2026-11-19T07:12:14Z",
       "updated_at": "2026-11-19T07:13:22Z",
       "html_url": "https://github.com/ROCm/mori/pull/1051",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1049,
-      "title": "perf(umbp): search the page bitmap a word at a time",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T07:01:10Z",
-      "updated_at": "2026-11-19T07:02:17Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1049",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1048,
-      "title": "fix(umbp): keep the standalone server's transfer buffers on the heap",
-      "author": "isytwu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T07:01:09Z",
-      "updated_at": "2026-11-19T07:02:16Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1048",
       "labels": [],
       "draft": false
     },
@@ -1370,6 +1406,44 @@
       "draft": false
     },
     {
+      "number": 1106,
+      "title": "perf(EPv2): HIP dispatch rows for EP8 model shapes on MI300X and MI355X",
+      "author": "jhchouuu",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T18:47:46Z",
+      "updated_at": "2026-11-27T06:40:24Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1106",
+      "labels": [
+        "ci:mi300x"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1094,
+      "title": "examples(ep): JAX MoE block on dispatch/combine ",
+      "author": "pemeliya",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T13:15:34Z",
+      "updated_at": "2026-11-27T04:05:02Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1094",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1098,
+      "title": "fix(gfx1250): pass the TDM descriptor groups as unsigned vectors",
+      "author": "mhalk",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T15:58:46Z",
+      "updated_at": "2026-11-27T01:09:45Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1098",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 1101,
       "title": "cco: open the NICs only when a peer needs RDMA",
       "author": "jhchouuu",
@@ -1414,18 +1488,6 @@
       "created_at": "2026-11-26T04:18:10Z",
       "updated_at": "2026-11-26T08:29:29Z",
       "html_url": "https://github.com/ROCm/mori/pull/1100",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1098,
-      "title": "fix(gfx1250): pass the TDM descriptor groups as unsigned vectors",
-      "author": "mhalk",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-25T15:58:46Z",
-      "updated_at": "2026-11-26T07:22:33Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1098",
       "labels": [],
       "draft": false
     },
@@ -2302,30 +2364,6 @@
       "created_at": "2026-11-11T08:43:32Z",
       "updated_at": "2026-11-11T14:53:30Z",
       "html_url": "https://github.com/ROCm/mori/pull/984",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 945,
-      "title": "fix(mlx5): resolve the next-hop MAC for RoCE DEVX QPs",
-      "author": "YeSho-cpp",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-09T10:39:01Z",
-      "updated_at": "2026-11-11T14:49:21Z",
-      "html_url": "https://github.com/ROCm/mori/pull/945",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 983,
-      "title": "ci: reuse build caches across jobs, run main every 3 hours, comment on fork PRs",
-      "author": "QizhouZhang97",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-11T07:38:22Z",
-      "updated_at": "2026-11-11T12:37:54Z",
-      "html_url": "https://github.com/ROCm/mori/pull/983",
       "labels": [],
       "draft": false
     }

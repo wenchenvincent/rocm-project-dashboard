@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-26T17:56:42Z",
+  "collected_at": "2026-11-27T17:41:54Z",
   "prs": [
     {
       "number": 12813,
@@ -8,8 +8,128 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-17T23:22:03Z",
-      "updated_at": "2026-11-26T16:19:34Z",
+      "updated_at": "2026-11-27T16:38:03Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12813",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12857,
+      "title": "[AMD] Remove MoveUpPrologueLoads pass",
+      "author": "lijinpei-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-20T09:44:40Z",
+      "updated_at": "2026-11-27T16:16:52Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12857",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12691,
+      "title": "[AMD][Gluon] Fix scaled_downcast for CDNA4 verification and repeated registers",
+      "author": "lijinpei-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-10T03:01:31Z",
+      "updated_at": "2026-11-27T16:09:21Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12691",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12961,
+      "title": "[CONSAN][AMD][CDNA5] Instrument split cluster barriers",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T18:10:35Z",
+      "updated_at": "2026-11-27T10:28:02Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12961",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12967,
+      "title": "[AMD] Lower eviction_policy in tt.cache_policy to LLVM IR",
+      "author": "wzn406589639-sudo",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T08:59:44Z",
+      "updated_at": "2026-11-27T08:59:45Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12967",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12828,
+      "title": "[AMD] Swizzle the LDS buffer of a dot operand reached through tt.trans",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T15:44:00Z",
+      "updated_at": "2026-11-27T00:16:10Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12828",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12937,
+      "title": "[AMD][BUILD] Add missing amd build script for `dev-install-llvm LLVM_BUILD=amd`",
+      "author": "AlexAUT",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-24T11:29:39Z",
+      "updated_at": "2026-11-26T22:43:07Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12937",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12943,
+      "title": "[AMD] Allow TDM loads into one piece of a partitioned buffer",
+      "author": "ppalaniappan-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T20:49:04Z",
+      "updated_at": "2026-11-26T20:46:11Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12943",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12964,
+      "title": "[AMD] Accept buffer descriptors and soffset in buffer atomic RMW/CAS ops",
+      "author": "justinrosner",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T20:13:20Z",
+      "updated_at": "2026-11-26T20:14:41Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12964",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 12835,
+      "title": "[Build] Fix TRITON_AMD_CODEGEN_PATH to copy codegen library into wheel",
+      "author": "benrichard-amd",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-19T02:59:54Z",
+      "updated_at": "2026-11-26T19:05:32Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12835",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 12938,
+      "title": "[AMD] Fix multi-instruction partitioned TDM copies across CTAs",
+      "author": "PMylon",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T12:09:52Z",
+      "updated_at": "2026-11-26T18:25:06Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12938",
       "labels": [],
       "draft": false
     },
@@ -62,18 +182,6 @@
       "draft": false
     },
     {
-      "number": 12943,
-      "title": "[AMD] Allow TDM loads into one piece of a partitioned buffer",
-      "author": "ppalaniappan-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T20:49:04Z",
-      "updated_at": "2026-11-25T14:45:18Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12943",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12604,
       "title": "[AMD][gfx1250] Keep whole-line epilogue stores for WMMA",
       "author": "reger-men",
@@ -86,18 +194,6 @@
       "draft": false
     },
     {
-      "number": 12937,
-      "title": "[AMD][BUILD] Add missing amd build script for `dev-install-llvm LLVM_BUILD=amd`",
-      "author": "AlexAUT",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T11:29:39Z",
-      "updated_at": "2026-11-25T08:55:20Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12937",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12880,
       "title": "[AMD][gfx1250] Extend the TDM copy reorder to non-scaled dots",
       "author": "yiqian1",
@@ -106,18 +202,6 @@
       "created_at": "2026-11-20T23:26:36Z",
       "updated_at": "2026-11-25T03:05:20Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12880",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12938,
-      "title": "[AMD] Fix multi-instruction partitioned TDM copies across CTAs",
-      "author": "PMylon",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T12:09:52Z",
-      "updated_at": "2026-11-25T03:04:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12938",
       "labels": [],
       "draft": false
     },
@@ -182,18 +266,6 @@
       "draft": false
     },
     {
-      "number": 12857,
-      "title": "[AMD] Remove MoveUpPrologueLoads pass",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T09:44:40Z",
-      "updated_at": "2026-11-23T19:35:10Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12857",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12887,
       "title": "[LLVM] Update LLVM to 293a85c0 and AMD CodeGen to 1cc81891",
       "author": "antiagainst",
@@ -228,18 +300,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12802",
       "labels": [],
       "draft": true
-    },
-    {
-      "number": 12691,
-      "title": "[AMD][Gluon] Fix scaled_downcast for CDNA4 verification and repeated registers",
-      "author": "lijinpei-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-10T03:01:31Z",
-      "updated_at": "2026-11-23T08:31:43Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12691",
-      "labels": [],
-      "draft": false
     },
     {
       "number": 12286,
@@ -338,18 +398,6 @@
       "draft": false
     },
     {
-      "number": 12835,
-      "title": "[Build] Fix TRITON_AMD_CODEGEN_PATH to copy codegen library into wheel",
-      "author": "benrichard-amd",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-19T02:59:54Z",
-      "updated_at": "2026-11-19T22:50:47Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12835",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 12800,
       "title": "[AMD][gfx1250] Give AsyncTDMIntrinsicWait's token a replacement value",
       "author": "yiqian1",
@@ -406,18 +454,6 @@
       "created_at": "2026-11-14T00:55:41Z",
       "updated_at": "2026-11-19T05:20:14Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12759",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12828,
-      "title": "[AMD] Swizzle the LDS buffer of a dot operand reached through tt.trans",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T15:44:00Z",
-      "updated_at": "2026-11-19T02:36:49Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12828",
       "labels": [],
       "draft": false
     },
@@ -682,42 +718,6 @@
       "created_at": "2026-11-10T17:51:54Z",
       "updated_at": "2026-11-10T18:56:32Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12697",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12572,
-      "title": "[GPU] Reject generic linear encodings on non-AMD targets",
-      "author": "losewayy",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-31T18:11:55Z",
-      "updated_at": "2026-11-10T18:42:58Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12572",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12653,
-      "title": "[AMD][GLUON] Fix bank conflict count for swizzled layout on CDNA4",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-07T04:17:30Z",
-      "updated_at": "2026-11-09T18:47:22Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12653",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12630,
-      "title": "[AMD] Fix small K in MFMA ",
-      "author": "borontion",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-05T06:31:24Z",
-      "updated_at": "2026-11-09T18:25:09Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12630",
       "labels": [],
       "draft": false
     }

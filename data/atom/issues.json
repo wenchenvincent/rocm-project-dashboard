@@ -1,14 +1,60 @@
 {
-  "collected_at": "2026-11-26T17:57:26Z",
+  "collected_at": "2026-11-27T17:42:38Z",
   "issues": [
+    {
+      "number": 3945,
+      "title": "[Perf Regression] 1 config(s) regressed @ 09e813a8",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-27T11:30:24Z",
+      "updated_at": "2026-11-27T11:30:24Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3945",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3926,
+      "title": "[Perf Regression] 1 config(s) regressed @ eb8a8ade",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-27T05:25:55Z",
+      "updated_at": "2026-11-27T05:25:55Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3926",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 3231,
       "title": "[RFC] Decouple LMCache MP mode from ATOM",
       "author": "maobaolong",
       "state": "open",
       "created_at": "2026-11-12T04:38:48Z",
-      "updated_at": "2026-11-26T17:03:45Z",
+      "updated_at": "2026-11-27T04:43:47Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/3231",
+      "labels": []
+    },
+    {
+      "number": 3918,
+      "title": "[RFC][Feature]: AtomRL Insight, full-stack RL observability and performance analysis",
+      "author": "i-chaochen",
+      "state": "open",
+      "created_at": "2026-11-27T02:11:50Z",
+      "updated_at": "2026-11-27T02:57:11Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3918",
+      "labels": []
+    },
+    {
+      "number": 3893,
+      "title": "[gfx1250][FlyDSL] llvm_options restore leaves `unroll-threshold` explicitly 0 after aiter gemm_a16w16 compiles: later in-process kernels (DSV4.1 mono step) get a different, slower codegen",
+      "author": "yifehuan",
+      "state": "open",
+      "created_at": "2026-11-26T10:35:37Z",
+      "updated_at": "2026-11-27T01:42:56Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3893",
       "labels": []
     },
     {
@@ -17,9 +63,35 @@
       "author": "srinivamd",
       "state": "open",
       "created_at": "2026-11-26T16:39:47Z",
-      "updated_at": "2026-11-26T16:39:47Z",
+      "updated_at": "2026-11-27T01:42:53Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/3913",
       "labels": []
+    },
+    {
+      "number": 3915,
+      "title": "[Perf Regression] 13 config(s) regressed @ 6180dbcf",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-27T00:39:44Z",
+      "updated_at": "2026-11-27T00:39:44Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3915",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
+    {
+      "number": 3914,
+      "title": "[Perf Regression] 2 config(s) regressed @ b7bf63dd",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-26T23:31:22Z",
+      "updated_at": "2026-11-26T23:31:22Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3914",
+      "labels": [
+        "performance",
+        "regression"
+      ]
     },
     {
       "number": 3900,
@@ -33,16 +105,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 3893,
-      "title": "[gfx1250][FlyDSL] llvm_options restore leaves `unroll-threshold` explicitly 0 after aiter gemm_a16w16 compiles: later in-process kernels (DSV4.1 mono step) get a different, slower codegen",
-      "author": "yifehuan",
-      "state": "open",
-      "created_at": "2026-11-26T10:35:37Z",
-      "updated_at": "2026-11-26T10:35:37Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3893",
-      "labels": []
     },
     {
       "number": 3841,

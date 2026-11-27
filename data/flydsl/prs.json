@@ -1,6 +1,120 @@
 {
-  "collected_at": "2026-11-26T17:57:32Z",
+  "collected_at": "2026-11-27T17:42:44Z",
   "prs": [
+    {
+      "number": 1528,
+      "title": "[Bugfix] Stop products of dynamic shape extents from wrapping at 2^31 in sizes and divides",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T00:09:02Z",
+      "updated_at": "2026-11-27T14:32:27Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1528",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1538,
+      "title": "[Bugfix] Link MLIR's nanobind libraries when build_llvm.sh has no Ninja",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T10:54:37Z",
+      "updated_at": "2026-11-27T10:54:49Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1538",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1535,
+      "title": "[Refactor] Align registration with upstream MLIR and make backend builds self-contained",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T11:21:44Z",
+      "updated_at": "2026-11-27T10:13:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1535",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1537,
+      "title": "[Coop] Add warp_sort: the call picks the bitonic network or the merge",
+      "author": "jhinpan",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T00:20:38Z",
+      "updated_at": "2026-11-27T09:51:32Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1537",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1531,
+      "title": "[Feat] Add a max_flat_work_group_size compile hint",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-26T00:09:13Z",
+      "updated_at": "2026-11-27T09:40:18Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1531",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1527,
+      "title": "[Bugfix] Reject a gfx1250 WMMA C modifier in a multi-K fx.gemm",
+      "author": "Phil-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T22:53:13Z",
+      "updated_at": "2026-11-27T07:13:45Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1527",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1487,
+      "title": "[Bugfix] Line-buffer the C stdout stream so device printf shows in Jupyter and piped logs",
+      "author": "Nikunj-Mehndiratta",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-23T13:04:29Z",
+      "updated_at": "2026-11-27T07:12:17Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1487",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1515,
+      "title": "[ROCDL] Hoist loop-invariant lane intrinsics and LDS DMA M0 reads",
+      "author": "sjfeng1999",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-25T06:59:31Z",
+      "updated_at": "2026-11-27T07:12:15Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1515",
+      "labels": [
+        "ai-review"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1495,
+      "title": "[Bugfix] Fix the NeoX pair lane in fused_rope_cache for head_dim=96",
+      "author": "merrittttt",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-24T02:08:40Z",
+      "updated_at": "2026-11-26T21:04:42Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1495",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
     {
       "number": 1506,
       "title": "[Bugfix] Fix the V page-id LDS race in pa_decode_tile_kernel",
@@ -13,72 +127,6 @@
       "labels": [
         "kernels"
       ],
-      "draft": false
-    },
-    {
-      "number": 1503,
-      "title": "[Bugfix] Fix the stagger K/V LDS race in flash_attn_fp8_gfx950",
-      "author": "thechenli",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T02:03:04Z",
-      "updated_at": "2026-11-26T14:32:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1503",
-      "labels": [
-        "kernels"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1535,
-      "title": "[Refactor] Align FlyDSL registration and bindings with upstream MLIR",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-26T11:21:44Z",
-      "updated_at": "2026-11-26T11:37:40Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1535",
-      "labels": [
-        "ai-review"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1515,
-      "title": "[ROCDL] Hoist loop-invariant lane intrinsics and LDS DMA M0 reads",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T06:59:31Z",
-      "updated_at": "2026-11-26T11:30:38Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1515",
-      "labels": [
-        "ai-review"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1534,
-      "title": "[Bugfix] Register ArithValue casters for the FNUZ fp8 types",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-26T10:13:02Z",
-      "updated_at": "2026-11-26T10:13:14Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1534",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1533,
-      "title": "[ROCDL] Lower float conversions for the chip in convert-rocdl-math-ops",
-      "author": "sjfeng1999",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-26T08:46:27Z",
-      "updated_at": "2026-11-26T08:46:37Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1533",
-      "labels": [],
       "draft": false
     },
     {
@@ -124,18 +172,6 @@
       "draft": false
     },
     {
-      "number": 1431,
-      "title": "[LLVM] Bump LLVM pin to e2ce52c885 and rebase llvm-extensions",
-      "author": "jli-melchior",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T05:17:14Z",
-      "updated_at": "2026-11-26T06:46:59Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1431",
-      "labels": [],
-      "draft": true
-    },
-    {
       "number": 1502,
       "title": "[Bugfix] Fix a main-loop LDS race in the gemm_a16w16 gfx950 HTI kernel",
       "author": "thechenli",
@@ -148,42 +184,6 @@
         "kernels"
       ],
       "draft": false
-    },
-    {
-      "number": 1531,
-      "title": "[Feat] Add a max_flat_work_group_size compile hint",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-26T00:09:13Z",
-      "updated_at": "2026-11-26T00:09:13Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1531",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1528,
-      "title": "[Bugfix] Stop products of dynamic shape extents from wrapping at 2^31",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-26T00:09:02Z",
-      "updated_at": "2026-11-26T00:09:02Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1528",
-      "labels": [],
-      "draft": true
-    },
-    {
-      "number": 1527,
-      "title": "[Bugfix] Apply a gfx1250 WMMA C modifier only on a GEMM's first K step",
-      "author": "Phil-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T22:53:13Z",
-      "updated_at": "2026-11-25T22:53:13Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1527",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 1514,
@@ -298,18 +298,6 @@
       "draft": false
     },
     {
-      "number": 1487,
-      "title": "[Bugfix] Line-buffer the C stdout stream so device printf shows in Jupyter and piped logs",
-      "author": "Nikunj-Mehndiratta",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-23T13:04:29Z",
-      "updated_at": "2026-11-25T11:58:47Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1487",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 1343,
       "title": "[Bugfix] Keep every frame of an op's call chain in debug info; skip the standard library",
       "author": "hanli0612",
@@ -371,20 +359,6 @@
       "created_at": "2026-11-24T02:23:06Z",
       "updated_at": "2026-11-24T02:23:27Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1496",
-      "labels": [
-        "kernels"
-      ],
-      "draft": false
-    },
-    {
-      "number": 1495,
-      "title": "[Bugfix] Fix the NeoX pair lane in fused_rope_cache for head_dim=96",
-      "author": "merrittttt",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T02:08:40Z",
-      "updated_at": "2026-11-24T02:09:01Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1495",
       "labels": [
         "kernels"
       ],
@@ -1455,6 +1429,56 @@
       "draft": false
     },
     {
+      "number": 1533,
+      "title": "[ROCDL] Lower float conversions for the chip in convert-rocdl-math-ops",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T08:46:27Z",
+      "updated_at": "2026-11-27T09:15:31Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1533",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1431,
+      "title": "[LLVM] Bump LLVM pin to e2ce52c885 and rebase llvm-extensions",
+      "author": "jli-melchior",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-18T05:17:14Z",
+      "updated_at": "2026-11-27T09:15:10Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1431",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 1503,
+      "title": "[Bugfix] Fix the stagger K/V LDS race in flash_attn_fp8_gfx950",
+      "author": "thechenli",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T02:03:04Z",
+      "updated_at": "2026-11-27T07:37:56Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1503",
+      "labels": [
+        "kernels"
+      ],
+      "draft": false
+    },
+    {
+      "number": 1534,
+      "title": "[Bugfix] Register ArithValue casters for the FNUZ fp8 types",
+      "author": "sjfeng1999",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T10:13:02Z",
+      "updated_at": "2026-11-27T07:07:24Z",
+      "html_url": "https://github.com/ROCm/FlyDSL/pull/1534",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 1511,
       "title": "[Bugfix] Fix the pipeline-drain LDS race in conv3d_implicit_fp8",
       "author": "thechenli",
@@ -2198,32 +2222,6 @@
       "updated_at": "2026-11-10T04:09:47Z",
       "html_url": "https://github.com/ROCm/FlyDSL/pull/1389",
       "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1388,
-      "title": "[CI] Label kernel-only pull requests automatically",
-      "author": "sjfeng1999",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-09T03:20:56Z",
-      "updated_at": "2026-11-09T07:50:03Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1388",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1332,
-      "title": "[Bugfix] Fix ROCm GPU counting and architecture fallback",
-      "author": "Qubitium",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-26T20:27:57Z",
-      "updated_at": "2026-11-07T14:34:39Z",
-      "html_url": "https://github.com/ROCm/FlyDSL/pull/1332",
-      "labels": [
-        "ai-review"
-      ],
       "draft": false
     }
   ]

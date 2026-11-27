@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-26T17:56:43Z",
+  "collected_at": "2026-11-27T17:41:55Z",
   "issues": [
+    {
+      "number": 12966,
+      "title": "[AMD] `eviction_policy` in `tt.cache_policy` is silently ignored during LLVM lowering on all AMD targets",
+      "author": "wzn406589639-sudo",
+      "state": "open",
+      "created_at": "2026-11-27T07:05:24Z",
+      "updated_at": "2026-11-27T07:05:24Z",
+      "html_url": "https://github.com/triton-lang/triton/issues/12966",
+      "labels": [
+        "performance"
+      ]
+    },
     {
       "number": 12926,
       "title": "[AMD] gfx950 coexec scheduler aborts in LLVM: \"Virtual register defs don't dominate all uses\" (split-K tl.dot + atomic_add)",

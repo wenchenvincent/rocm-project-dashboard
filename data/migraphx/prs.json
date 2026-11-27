@@ -1,17 +1,17 @@
 {
-  "collected_at": "2026-11-26T17:56:45Z",
+  "collected_at": "2026-11-27T17:41:57Z",
   "prs": [
     {
-      "number": 5606,
-      "title": "Docs/2.19.0",
-      "author": "peterjunpark",
+      "number": 5591,
+      "title": "[AIMIGRAPHX-1328] MXR Enhancements: external weights and sharing",
+      "author": "gkrivor",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-26T15:02:06Z",
-      "updated_at": "2026-11-26T17:48:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5606",
+      "created_at": "2026-11-23T05:35:59Z",
+      "updated_at": "2026-11-27T17:41:27Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5591",
       "labels": [],
-      "draft": true
+      "draft": false
     },
     {
       "number": 5605,
@@ -20,8 +20,92 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-11-26T13:42:09Z",
-      "updated_at": "2026-11-26T17:26:35Z",
+      "updated_at": "2026-11-27T17:11:27Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5605",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5613,
+      "title": "gpu: add mlir_num_ctas, mlir_warp_specialize and lds_carveout backend options",
+      "author": "anilmartha",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T15:10:00Z",
+      "updated_at": "2026-11-27T17:03:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5613",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5609,
+      "title": "[AIMIGRAPHX-1316] Return a non-zero exit code from migraphx-driver verify on failure",
+      "author": "VishalX",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T09:18:34Z",
+      "updated_at": "2026-11-27T16:48:46Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5609",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5578,
+      "title": "gpu: declare gfx_default_rocblas unconditionally to support MIGRAPHX_USE_HIPBLASLT=Off",
+      "author": "akshat-lakhera",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T18:10:50Z",
+      "updated_at": "2026-11-27T15:28:07Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5578",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5579,
+      "title": "tf: isolate protobuf messages in tensorflow_for_migraphx package",
+      "author": "akshat-lakhera",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T22:55:57Z",
+      "updated_at": "2026-11-27T15:28:03Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5579",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5612,
+      "title": "docs(conf): bump ROCm version to 7.14.2",
+      "author": "peterjunpark",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T14:46:26Z",
+      "updated_at": "2026-11-27T14:47:28Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5612",
+      "labels": [],
+      "draft": true
+    },
+    {
+      "number": 5611,
+      "title": "[AIMIGRAPHX-1318] Add ATG zoo golden-value check to model zoo tests",
+      "author": "anupsing-amd",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T12:43:10Z",
+      "updated_at": "2026-11-27T14:06:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5611",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5610,
+      "title": "Pack nonstandard GPU outputs after fusion.",
+      "author": "jtuyls",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-27T09:25:17Z",
+      "updated_at": "2026-11-27T13:16:58Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5610",
       "labels": [],
       "draft": false
     },
@@ -32,32 +116,68 @@
       "state": "open",
       "merged": false,
       "created_at": "2026-10-30T16:43:40Z",
-      "updated_at": "2026-11-26T17:18:49Z",
+      "updated_at": "2026-11-27T12:25:06Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5462",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5604,
-      "title": "Add documentation for quantization",
-      "author": "anilmartha",
+      "number": 5608,
+      "title": "Align the topk lds buffer so a pair moves in one access",
+      "author": "kazhang2",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-26T12:37:24Z",
-      "updated_at": "2026-11-26T16:50:44Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5604",
+      "created_at": "2026-11-27T07:52:39Z",
+      "updated_at": "2026-11-27T12:13:36Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5608",
       "labels": [],
       "draft": false
     },
     {
-      "number": 5591,
-      "title": "[AIMIGRAPHX-1328] MXR Enhancements: external weights and sharing",
-      "author": "gkrivor",
+      "number": 5527,
+      "title": "[ROCM-30410] Fix ScatterND ignoring negative indices",
+      "author": "tanzeel-amd",
       "state": "open",
       "merged": false,
-      "created_at": "2026-11-23T05:35:59Z",
-      "updated_at": "2026-11-26T16:25:24Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5591",
+      "created_at": "2026-11-13T11:24:51Z",
+      "updated_at": "2026-11-27T10:33:09Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5527",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5569,
+      "title": "Parse Slice with run-time bounds over a static input as dyn_slice",
+      "author": "kazhang2",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-18T03:29:48Z",
+      "updated_at": "2026-11-27T09:52:19Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5569",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5450,
+      "title": "Combined data dependent support branches",
+      "author": "CharlieL7",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-28T14:55:48Z",
+      "updated_at": "2026-11-27T09:49:13Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5562,
+      "title": "split_sym_dim: specialize the branches of an If with a run-time condition",
+      "author": "klin2024",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-17T16:49:27Z",
+      "updated_at": "2026-11-27T03:59:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5562",
       "labels": [],
       "draft": false
     },
@@ -84,30 +204,6 @@
       "created_at": "2026-11-25T00:41:48Z",
       "updated_at": "2026-11-26T14:46:21Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5598",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5594,
-      "title": "Add documentation for MXR recompile",
-      "author": "anilmartha",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-24T13:43:41Z",
-      "updated_at": "2026-11-26T11:17:30Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5594",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5601,
-      "title": "Add support for the gfx1250-strict offload target",
-      "author": "VishalX",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-25T10:57:18Z",
-      "updated_at": "2026-11-26T08:00:37Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5601",
       "labels": [],
       "draft": false
     },
@@ -502,18 +598,6 @@
       "draft": false
     },
     {
-      "number": 5562,
-      "title": "split_sym_dim: specialize the branches of an If with a run-time condition",
-      "author": "klin2024",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-17T16:49:27Z",
-      "updated_at": "2026-11-25T08:51:13Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5562",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5599,
       "title": "Memory map ONNX external data instead of copying it into literals",
       "author": "pfultz2",
@@ -522,18 +606,6 @@
       "created_at": "2026-11-25T04:48:35Z",
       "updated_at": "2026-11-25T05:02:12Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5599",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5527,
-      "title": "[ROCM-30410] Fix ScatterND ignoring negative indices",
-      "author": "tanzeel-amd",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-13T11:24:51Z",
-      "updated_at": "2026-11-25T03:49:29Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5527",
       "labels": [],
       "draft": false
     },
@@ -684,23 +756,6 @@
       "draft": false
     },
     {
-      "number": 5588,
-      "title": "Onnxruntime Weekly Sync 2026-11-20",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-20T17:12:10Z",
-      "updated_at": "2026-11-23T05:37:34Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5588",
-      "labels": [
-        "onnxruntime",
-        "dependencies",
-        "skip bot checks",
-        "automated"
-      ],
-      "draft": false
-    },
-    {
       "number": 4376,
       "title": "failure of test_topk<migraphx::shape::float_type, 1000, 120000> is based on the input data pattern",
       "author": "lakhinderwalia",
@@ -797,18 +852,6 @@
       "draft": false
     },
     {
-      "number": 5450,
-      "title": "Combined data dependent support branches",
-      "author": "CharlieL7",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-10-28T14:55:48Z",
-      "updated_at": "2026-11-21T00:18:33Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5450",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5582,
       "title": "Report the configured commit in the version string",
       "author": "causten",
@@ -841,18 +884,6 @@
       "created_at": "2026-11-05T16:23:16Z",
       "updated_at": "2026-11-20T19:52:33Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5482",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5579,
-      "title": "tf: isolate protobuf messages in tensorflow_for_migraphx package",
-      "author": "akshat-lakhera",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T22:55:57Z",
-      "updated_at": "2026-11-20T10:47:28Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5579",
       "labels": [],
       "draft": false
     },
@@ -921,18 +952,6 @@
       "draft": false
     },
     {
-      "number": 5569,
-      "title": "Parse Slice with run-time bounds over a static input as dyn_slice",
-      "author": "kazhang2",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T03:29:48Z",
-      "updated_at": "2026-11-19T11:28:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5569",
-      "labels": [],
-      "draft": false
-    },
-    {
       "number": 5169,
       "title": "fix(security): spawn processes directly instead of through popen",
       "author": "causten",
@@ -953,18 +972,6 @@
       "created_at": "2026-11-13T00:45:13Z",
       "updated_at": "2026-11-18T21:57:46Z",
       "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5512",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5578,
-      "title": "gpu: declare gfx_default_rocblas unconditionally to support MIGRAPHX_USE_HIPBLASLT=Off",
-      "author": "akshat-lakhera",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-18T18:10:50Z",
-      "updated_at": "2026-11-18T18:10:51Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5578",
       "labels": [],
       "draft": false
     },
@@ -2299,6 +2306,68 @@
       "draft": true
     },
     {
+      "number": 5604,
+      "title": "Add documentation for quantization",
+      "author": "anilmartha",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T12:37:24Z",
+      "updated_at": "2026-11-27T16:34:48Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5604",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5607,
+      "title": "Set CHANGELOG for ROCm 10.2",
+      "author": "VishalX",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T18:05:25Z",
+      "updated_at": "2026-11-27T14:40:50Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5607",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5606,
+      "title": "docs(install/2.19.0): update MIGraphX and Torch-MIGraphX install guidance for ROCm 10.2.0",
+      "author": "peterjunpark",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T15:02:06Z",
+      "updated_at": "2026-11-27T14:26:30Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5606",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false
+    },
+    {
+      "number": 5594,
+      "title": "Add documentation for MXR recompile",
+      "author": "anilmartha",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-24T13:43:41Z",
+      "updated_at": "2026-11-27T09:23:24Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5594",
+      "labels": [],
+      "draft": false
+    },
+    {
+      "number": 5601,
+      "title": "Add support for the gfx1250-strict offload target",
+      "author": "VishalX",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-25T10:57:18Z",
+      "updated_at": "2026-11-27T05:16:26Z",
+      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5601",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 5602,
       "title": "Bump version to 2.20.0",
       "author": "VishalX",
@@ -3146,30 +3215,6 @@
       "labels": [
         "high priority"
       ],
-      "draft": false
-    },
-    {
-      "number": 5384,
-      "title": "Update handling for empty tensors",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-13T17:18:14Z",
-      "updated_at": "2026-10-28T14:33:47Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5384",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 5392,
-      "title": "Support bounded dynamic slice outputs",
-      "author": "CharlieL7",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-10-13T19:56:37Z",
-      "updated_at": "2026-10-27T20:41:16Z",
-      "html_url": "https://github.com/ROCm/AMDMIGraphX/pull/5392",
-      "labels": [],
       "draft": false
     }
   ]
