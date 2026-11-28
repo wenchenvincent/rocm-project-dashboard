@@ -1,6 +1,49 @@
 {
-  "collected_at": "2026-11-27T17:42:38Z",
+  "collected_at": "2026-11-28T16:28:24Z",
   "issues": [
+    {
+      "number": 3231,
+      "title": "[RFC] Decouple LMCache MP mode from ATOM",
+      "author": "maobaolong",
+      "state": "open",
+      "created_at": "2026-11-12T04:38:48Z",
+      "updated_at": "2026-11-28T13:04:53Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3231",
+      "labels": []
+    },
+    {
+      "number": 2081,
+      "title": "[Feature]: Profiler: option to set a profiler window",
+      "author": "devalshahamd",
+      "state": "open",
+      "created_at": "2026-08-28T15:27:53Z",
+      "updated_at": "2026-11-28T05:42:47Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/2081",
+      "labels": []
+    },
+    {
+      "number": 616,
+      "title": "Official atom0.1.2 image: Kimi TP4 startup fails because packaged AITER gen_instances.py scripts break under PYTHONSAFEPATH=1",
+      "author": "josusanmartin",
+      "state": "open",
+      "created_at": "2026-04-20T20:47:27Z",
+      "updated_at": "2026-11-28T02:30:08Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/616",
+      "labels": []
+    },
+    {
+      "number": 3951,
+      "title": "[Perf Regression] 10 config(s) regressed @ 380aeb8a",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-11-27T23:51:06Z",
+      "updated_at": "2026-11-27T23:51:06Z",
+      "html_url": "https://github.com/ROCm/ATOM/issues/3951",
+      "labels": [
+        "performance",
+        "regression"
+      ]
+    },
     {
       "number": 3945,
       "title": "[Perf Regression] 1 config(s) regressed @ 09e813a8",
@@ -26,16 +69,6 @@
         "performance",
         "regression"
       ]
-    },
-    {
-      "number": 3231,
-      "title": "[RFC] Decouple LMCache MP mode from ATOM",
-      "author": "maobaolong",
-      "state": "open",
-      "created_at": "2026-11-12T04:38:48Z",
-      "updated_at": "2026-11-27T04:43:47Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/3231",
-      "labels": []
     },
     {
       "number": 3918,
@@ -395,16 +428,6 @@
       "labels": []
     },
     {
-      "number": 238,
-      "title": "[Issue]: ValueError: could not broadcast input array from shape (58713,) into shape (117001,) with prefix cache enabled",
-      "author": "peizhang56",
-      "state": "open",
-      "created_at": "2026-02-25T21:16:13Z",
-      "updated_at": "2026-11-19T07:45:30Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/238",
-      "labels": []
-    },
-    {
       "number": 377,
       "title": "[Feature]: how do i use disagg serving in ATOM?",
       "author": "functionstackx",
@@ -482,16 +505,6 @@
       "created_at": "2026-04-15T15:11:21Z",
       "updated_at": "2026-11-19T07:45:05Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/577",
-      "labels": []
-    },
-    {
-      "number": 616,
-      "title": "Official atom0.1.2 image: Kimi TP4 startup fails because packaged AITER gen_instances.py scripts break under PYTHONSAFEPATH=1",
-      "author": "josusanmartin",
-      "state": "open",
-      "created_at": "2026-04-20T20:47:27Z",
-      "updated_at": "2026-11-19T07:45:00Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/616",
       "labels": []
     },
     {
@@ -752,16 +765,6 @@
       "labels": []
     },
     {
-      "number": 2081,
-      "title": "[Feature]: Profiler: option to set a profiler window",
-      "author": "devalshahamd",
-      "state": "open",
-      "created_at": "2026-08-28T15:27:53Z",
-      "updated_at": "2026-11-19T07:43:50Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2081",
-      "labels": []
-    },
-    {
       "number": 2354,
       "title": "moriio registers as a `reads_block_regions` backend but never reads them: DSA models decode garbage past the dense window, and its completion test frees in-flight `TransferStatus` objects",
       "author": "IvanShan177",
@@ -779,16 +782,6 @@
       "created_at": "2026-10-19T08:17:55Z",
       "updated_at": "2026-11-19T07:43:45Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/2634",
-      "labels": []
-    },
-    {
-      "number": 2712,
-      "title": "Qwen3.8-Flash-Next on MI355X: review / merge order for the open ATOM and aiter PRs",
-      "author": "ZLkanyo009",
-      "state": "open",
-      "created_at": "2026-10-26T06:28:03Z",
-      "updated_at": "2026-11-19T07:43:42Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2712",
       "labels": []
     },
     {
@@ -1425,16 +1418,6 @@
       "created_at": "2025-12-17T18:57:20Z",
       "updated_at": "2026-08-25T18:11:28Z",
       "html_url": "https://github.com/ROCm/ATOM/issues/69",
-      "labels": []
-    },
-    {
-      "number": 2014,
-      "title": "[Feature]: Multimodal support in ATOM",
-      "author": "cubezhang",
-      "state": "open",
-      "created_at": "2026-08-25T03:20:02Z",
-      "updated_at": "2026-08-25T17:08:50Z",
-      "html_url": "https://github.com/ROCm/ATOM/issues/2014",
       "labels": []
     },
     {

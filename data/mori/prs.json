@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-27T17:42:40Z",
+  "collected_at": "2026-11-28T16:28:26Z",
   "prs": [
+    {
+      "number": 1042,
+      "title": "feat(cco): ccoProxy, a host-proxy RDMA transport (KIWI step 2)",
+      "author": "jhchouuu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-11-19T03:07:14Z",
+      "updated_at": "2026-11-28T03:34:17Z",
+      "html_url": "https://github.com/ROCm/mori/pull/1042",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 1109,
       "title": " feat(metrics): IO / EP traffic metrics with Prometheus export",
@@ -106,18 +118,6 @@
       "created_at": "2026-11-26T11:07:23Z",
       "updated_at": "2026-11-27T07:42:10Z",
       "html_url": "https://github.com/ROCm/mori/pull/1105",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 1042,
-      "title": "feat(cco): ccoProxy, a host-proxy RDMA transport (KIWI step 2)",
-      "author": "jhchouuu",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-19T03:07:14Z",
-      "updated_at": "2026-11-27T07:41:46Z",
-      "html_url": "https://github.com/ROCm/mori/pull/1042",
       "labels": [],
       "draft": false
     },

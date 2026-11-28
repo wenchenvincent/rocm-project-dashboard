@@ -1,35 +1,35 @@
 {
-  "collected_at": "2026-11-27T17:43:53Z",
+  "collected_at": "2026-11-28T16:29:53Z",
   "project": "aiter",
   "repo": "ROCm/aiter",
   "pr_velocity": {
     "this_week": {
-      "opened": 423,
-      "merged": 216,
-      "closed": 119
+      "opened": 407,
+      "merged": 210,
+      "closed": 114
     },
     "last_week": {
-      "opened": 409,
-      "merged": 165,
-      "closed": 68
+      "opened": 418,
+      "merged": 170,
+      "closed": 77
     },
-    "median_time_to_merge_hours": 117.9,
+    "median_time_to_merge_hours": 117.1,
     "merge_count": 387,
     "stale_prs": 152
   },
   "contributors": {
-    "active_this_week": 245,
-    "total_contributors": 356,
+    "active_this_week": 243,
+    "total_contributors": 355,
     "top_contributors": [
       {
         "author": "klin2024",
-        "prs_submitted": 96,
-        "prs_merged": 0,
-        "commits": 7
+        "prs_submitted": 99,
+        "prs_merged": 2,
+        "commits": 9
       },
       {
         "author": "AndreasKaratzas",
-        "prs_submitted": 28,
+        "prs_submitted": 29,
         "prs_merged": 0,
         "commits": 6
       },
@@ -37,7 +37,7 @@
         "author": "xytpai",
         "prs_submitted": 27,
         "prs_merged": 1,
-        "commits": 7
+        "commits": 6
       },
       {
         "author": "eppaneamd",
@@ -52,22 +52,22 @@
         "commits": 11
       },
       {
+        "author": "yhl-amd",
+        "prs_submitted": 21,
+        "prs_merged": 5,
+        "commits": 19
+      },
+      {
         "author": "Boss2002n",
-        "prs_submitted": 23,
-        "prs_merged": 4,
-        "commits": 13
+        "prs_submitted": 20,
+        "prs_merged": 1,
+        "commits": 11
       },
       {
         "author": "ZLkanyo009",
         "prs_submitted": 19,
         "prs_merged": 0,
         "commits": 9
-      },
-      {
-        "author": "yhl-amd",
-        "prs_submitted": 17,
-        "prs_merged": 3,
-        "commits": 19
       },
       {
         "author": "Jasen2201",
@@ -77,23 +77,23 @@
       },
       {
         "author": "ganyi1996ppo",
-        "prs_submitted": 15,
+        "prs_submitted": 14,
         "prs_merged": 6,
-        "commits": 16
+        "commits": 17
       }
     ],
     "bus_factor": 11
   },
   "issue_health": {
     "total_open": 391,
-    "opened_this_week": 30,
+    "opened_this_week": 28,
     "closed_this_week": 37,
     "unanswered": 15
   },
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 5.3,
+    "days_since_last": 6.3,
     "avg_interval_days": 6.8,
     "total_releases": 5,
     "latest_tag": "v0.1.30"

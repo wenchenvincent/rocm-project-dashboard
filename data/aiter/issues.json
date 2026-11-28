@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-27T17:42:27Z",
+  "collected_at": "2026-11-28T16:28:13Z",
   "issues": [
+    {
+      "number": 7037,
+      "title": "Triton nightly status",
+      "author": "github-actions[bot]",
+      "state": "open",
+      "created_at": "2026-10-27T15:37:53Z",
+      "updated_at": "2026-11-28T07:26:02Z",
+      "html_url": "https://github.com/ROCm/aiter/issues/7037",
+      "labels": [
+        "triton-nightly"
+      ]
+    },
     {
       "number": 5356,
       "title": "[tune] a4w4_blockscale tuner has no --libtype axis, so CK Tile's MX GEMM can never compete",
@@ -180,18 +192,6 @@
       "updated_at": "2026-11-27T07:42:52Z",
       "html_url": "https://github.com/ROCm/aiter/issues/7711",
       "labels": []
-    },
-    {
-      "number": 7037,
-      "title": "Triton nightly status",
-      "author": "github-actions[bot]",
-      "state": "open",
-      "created_at": "2026-10-27T15:37:53Z",
-      "updated_at": "2026-11-27T07:21:32Z",
-      "html_url": "https://github.com/ROCm/aiter/issues/7037",
-      "labels": [
-        "triton-nightly"
-      ]
     },
     {
       "number": 8805,

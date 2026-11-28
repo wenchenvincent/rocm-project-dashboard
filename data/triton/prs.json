@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-11-27T17:41:54Z",
+  "collected_at": "2026-11-28T16:27:42Z",
   "prs": [
+    {
+      "number": 12964,
+      "title": "[AMD] Accept buffer descriptors and soffset in buffer atomic RMW/CAS ops",
+      "author": "justinrosner",
+      "state": "closed",
+      "merged": true,
+      "created_at": "2026-11-26T20:13:20Z",
+      "updated_at": "2026-11-27T18:06:36Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12964",
+      "labels": [],
+      "draft": false
+    },
     {
       "number": 12813,
       "title": "[AMD] Fix rounding-mode handling in FpToFpOp lowering",
@@ -96,18 +108,6 @@
       "html_url": "https://github.com/triton-lang/triton/pull/12943",
       "labels": [],
       "draft": false
-    },
-    {
-      "number": 12964,
-      "title": "[AMD] Accept buffer descriptors and soffset in buffer atomic RMW/CAS ops",
-      "author": "justinrosner",
-      "state": "open",
-      "merged": false,
-      "created_at": "2026-11-26T20:13:20Z",
-      "updated_at": "2026-11-26T20:14:41Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12964",
-      "labels": [],
-      "draft": true
     },
     {
       "number": 12835,
@@ -578,6 +578,18 @@
       "draft": true
     },
     {
+      "number": 12553,
+      "title": "[AMD][IR] Implement InferIntRangeInterface for MakeRangeOp",
+      "author": "Betelgeu",
+      "state": "open",
+      "merged": false,
+      "created_at": "2026-10-30T06:09:15Z",
+      "updated_at": "2026-11-16T02:27:34Z",
+      "html_url": "https://github.com/triton-lang/triton/pull/12553",
+      "labels": [],
+      "draft": false
+    },
+    {
       "number": 12657,
       "title": "[AMD] Make release atomics cover writes from every warp",
       "author": "antiagainst",
@@ -706,18 +718,6 @@
       "created_at": "2026-11-06T09:20:07Z",
       "updated_at": "2026-11-10T19:00:58Z",
       "html_url": "https://github.com/triton-lang/triton/pull/12646",
-      "labels": [],
-      "draft": false
-    },
-    {
-      "number": 12697,
-      "title": "[AMD][CI] Bump rocjitsu image",
-      "author": "sriakrish",
-      "state": "closed",
-      "merged": true,
-      "created_at": "2026-11-10T17:51:54Z",
-      "updated_at": "2026-11-10T18:56:32Z",
-      "html_url": "https://github.com/triton-lang/triton/pull/12697",
       "labels": [],
       "draft": false
     }

@@ -1,21 +1,21 @@
 {
-  "collected_at": "2026-11-27T17:45:37Z",
+  "collected_at": "2026-11-28T16:31:35Z",
   "project": "flydsl",
   "repo": "ROCm/FlyDSL",
   "pr_velocity": {
     "this_week": {
-      "opened": 70,
-      "merged": 30,
+      "opened": 64,
+      "merged": 32,
       "closed": 15
     },
     "last_week": {
-      "opened": 43,
-      "merged": 23,
-      "closed": 17
+      "opened": 49,
+      "merged": 21,
+      "closed": 15
     },
-    "median_time_to_merge_hours": 22.3,
+    "median_time_to_merge_hours": 21.6,
     "merge_count": 53,
-    "stale_prs": 15
+    "stale_prs": 14
   },
   "contributors": {
     "active_this_week": 15,
@@ -23,19 +23,19 @@
     "top_contributors": [
       {
         "author": "sjfeng1999",
-        "prs_submitted": 24,
+        "prs_submitted": 23,
         "prs_merged": 19,
-        "commits": 23
+        "commits": 24
       },
       {
         "author": "coderfeli",
         "prs_submitted": 20,
         "prs_merged": 15,
-        "commits": 21
+        "commits": 20
       },
       {
         "author": "Phil-amd",
-        "prs_submitted": 14,
+        "prs_submitted": 15,
         "prs_merged": 8,
         "commits": 12
       },
@@ -46,28 +46,28 @@
         "commits": 5
       },
       {
+        "author": "Arist12",
+        "prs_submitted": 10,
+        "prs_merged": 2,
+        "commits": 2
+      },
+      {
         "author": "Monstertail",
         "prs_submitted": 10,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "Arist12",
-        "prs_submitted": 9,
-        "prs_merged": 2,
-        "commits": 2
+        "author": "jli-melchior",
+        "prs_submitted": 8,
+        "prs_merged": 5,
+        "commits": 8
       },
       {
         "author": "merrittttt",
         "prs_submitted": 7,
         "prs_merged": 0,
         "commits": 0
-      },
-      {
-        "author": "jli-melchior",
-        "prs_submitted": 7,
-        "prs_merged": 4,
-        "commits": 7
       },
       {
         "author": "fsx950223",
@@ -93,7 +93,7 @@
   "ci_health": null,
   "ci_signal_time": null,
   "release_cadence": {
-    "days_since_last": 3.4,
+    "days_since_last": 4.4,
     "avg_interval_days": 10.2,
     "total_releases": 5,
     "latest_tag": "v0.5.3"

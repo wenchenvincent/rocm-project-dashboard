@@ -1,12 +1,12 @@
 {
-  "collected_at": "2026-11-27T17:43:17Z",
+  "collected_at": "2026-11-28T16:29:18Z",
   "project": "pytorch",
   "repo": "pytorch/pytorch",
   "pr_velocity": {
     "this_week": {
-      "opened": 19,
+      "opened": 29,
       "merged": 0,
-      "closed": 2
+      "closed": 0
     },
     "last_week": {
       "opened": 4,
@@ -18,8 +18,8 @@
     "stale_prs": 0
   },
   "contributors": {
-    "active_this_week": 41,
-    "total_contributors": 48,
+    "active_this_week": 36,
+    "total_contributors": 41,
     "top_contributors": [
       {
         "author": "atalman",
@@ -28,9 +28,21 @@
         "commits": 0
       },
       {
-        "author": "ll-pen",
+        "author": "leewayx",
         "prs_submitted": 6,
         "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "can-gaa-hou",
+        "prs_submitted": 5,
+        "prs_merged": 0,
+        "commits": 0
+      },
+      {
+        "author": "malfet",
+        "prs_submitted": 4,
+        "prs_merged": 3,
         "commits": 0
       },
       {
@@ -40,44 +52,32 @@
         "commits": 0
       },
       {
-        "author": "alexsamardzic",
+        "author": "daisyden",
         "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "leewayx",
+        "author": "laithsakka",
         "prs_submitted": 3,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "malfet",
-        "prs_submitted": 3,
-        "prs_merged": 3,
-        "commits": 0
-      },
-      {
-        "author": "tszulist-hbn",
+        "author": "gavinwang269",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "jerrymannil",
+        "author": "mlazos",
         "prs_submitted": 2,
         "prs_merged": 0,
         "commits": 0
       },
       {
-        "author": "anatoliylitv",
+        "author": "dnikolaev-amd",
         "prs_submitted": 2,
-        "prs_merged": 0,
-        "commits": 0
-      },
-      {
-        "author": "Naraenda",
-        "prs_submitted": 1,
         "prs_merged": 0,
         "commits": 0
       }
@@ -85,43 +85,43 @@
     "bus_factor": 2
   },
   "issue_health": {
-    "total_open": 51,
-    "opened_this_week": 26,
-    "closed_this_week": 115,
+    "total_open": 53,
+    "opened_this_week": 25,
+    "closed_this_week": 146,
     "unanswered": 0
   },
   "ci_health": {
     "rocm": {
       "total_runs": 20,
-      "succeeded": 8,
-      "failed": 6,
-      "success_rate": 40.0
+      "succeeded": 10,
+      "failed": 7,
+      "success_rate": 50.0
     },
     "cuda": {
       "total_runs": 20,
-      "succeeded": 10,
-      "failed": 8,
-      "success_rate": 50.0
+      "succeeded": 15,
+      "failed": 4,
+      "success_rate": 75.0
     }
   },
   "ci_signal_time": {
     "rocm": {
       "sample_size": 20,
-      "median_minutes": 109.3,
+      "median_minutes": 117.0,
       "p90_minutes": 269.6,
-      "min_minutes": 4.6,
-      "max_minutes": 300.7
+      "min_minutes": 5.7,
+      "max_minutes": 281.2
     },
     "cuda": {
       "sample_size": 20,
-      "median_minutes": 116.0,
-      "p90_minutes": 176.1,
+      "median_minutes": 175.4,
+      "p90_minutes": 252.1,
       "min_minutes": 0.4,
-      "max_minutes": 177.7
+      "max_minutes": 272.4
     }
   },
   "release_cadence": {
-    "days_since_last": 30.0,
+    "days_since_last": 31.0,
     "avg_interval_days": 33.2,
     "total_releases": 5,
     "latest_tag": "v2.15.0"
